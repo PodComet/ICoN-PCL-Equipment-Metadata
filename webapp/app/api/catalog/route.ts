@@ -1,9 +1,10 @@
 import { env } from "cloudflare:workers";
 import seed from "../../data/catalog.json";
 import { getChatGPTUser } from "../../chatgpt-auth";
-import { safeUrl, type Equipment } from "../../catalog-lib";
+import { safeUrl, applyManufacturerAudit, type Equipment } from "../../catalog-lib";
 
-const baseRecords = seed.records as Equipment[];
+const audited=(r:Equipment)=>applyManufacturerAudit(r,seed.manufacturers);
+const baseRecords = (seed.records as Equipment[]).map(audited);
 const byId = new Map(baseRecords.map(r => [r.equipment_id, r]));
 const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes"]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
@@ -17,12 +18,12 @@ export async function GET() {
       const edits = await db().prepare("SELECT equipment_id,payload,revision,updated_at FROM equipment_edits WHERE user_id=?").bind(user.userId).all<{equipment_id:string;payload:string;revision:number;updated_at:string}>();
       const indexes = new Map(rows.map((r,i) => [r.record.equipment_id,i]));
       for (const edit of edits.results) {
-        const row = {record:{...byId.get(edit.equipment_id),...JSON.parse(edit.payload)} as Equipment,revision:edit.revision,updated_at:edit.updated_at};
+        const row = {record:audited({...byId.get(edit.equipment_id),...JSON.parse(edit.payload)} as Equipment),revision:edit.revision,updated_at:edit.updated_at};
         const index = indexes.get(edit.equipment_id);
         if (index !== undefined) rows[index] = row; else rows.push(row);
       }
     }
-    return json({rows,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,canEdit:!!user});
+    return json({rows,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,canEdit:!!user});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);
@@ -55,7 +56,7 @@ export async function PUT(request: Request) {
       if (typeof v !== "string" || v.length>6000) return json({error:`Invalid ${k}.`},400);
       fields[k]=v.trim();
     }
-    const record:Equipment = {...original,...fields};
+    const record:Equipment = audited({...original,...fields});
     if (!record.model_name || !record.variant_label || !record.product_family) return json({error:"Model name, product family and variant label are required."},400);
     for (const field of ["manual_url","product_page_url","technical_spec_url","image_url","image_source_url","price_source_url"]) {
       if (record[field] && !safeUrl(record[field])) return json({error:`${field} must be an http or https URL.`},400);

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation} from '../app/catalog-lib.ts';
+import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation,verifiedManufacturer,applyManufacturerAudit} from '../app/catalog-lib.ts';
 
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const rows=seed.records.map(record=>({record,revision:0}));
@@ -65,4 +65,13 @@ test('Proto AXRD has an official manufacturer link and a scoped family photo',()
  const r=seed.records.find(r=>r.equipment_id==='M37-09');
  assert.equal(new URL(r.product_page_url).hostname,'www.protoxrd.com');
  assert.ok(safeUrl(r.image_url));assert.match(r.image_scope,/configuration is unspecified/);
+});
+
+test('green stars require both official presence and independent research evidence',()=>{
+ const r={equipment_id:'brand-test',model_name:'Instrument',manufacturer:'Example',manufacturer_brand_identity_status:'verified_manufacturer',manufacturer_official_website_url:'https://example.com',manufacturer_research_use_status:'research_supplier_claim_only',manufacturer_research_evidence_url:'https://example.com/research'};
+ assert.equal(verifiedManufacturer(r),false);
+ assert.equal(verifiedManufacturer({...r,manufacturer_research_use_status:'documented_research_use',manufacturer_research_evidence_url:'https://research.edu/lab'}),true);
+ const changed=applyManufacturerAudit({...r,manufacturer:'Unknown',manufacturer_research_use_status:'documented_research_use'},[]);
+ assert.equal(verifiedManufacturer(changed),false);
+ assert.equal(changed.manufacturer_official_website_url,'');
 });

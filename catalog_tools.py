@@ -22,6 +22,19 @@ def inspect_catalog(root=ROOT):
     routes = load_csv(folder / "routes.csv")
     steps = load_csv(folder / "route_steps.csv")
     source_models = load_csv(folder / "source_models.csv")
+    manufacturers = load_csv(folder / "manufacturers.csv")
+    assert {r["manufacturer"] for r in manufacturers} == {r["manufacturer"] for r in equipment}
+    assert len(manufacturers) == len({r["manufacturer"] for r in manufacturers})
+    for brand in manufacturers:
+        assert brand["brand_identity_status"] in {"verified_manufacturer", "verified_brand", "needs_review", "not_a_manufacturer"}
+        assert brand["research_use_status"] in {"documented_research_use", "research_supplier_claim_only", "needs_review"}
+        for field in ["official_website_url", "research_evidence_url"]:
+            if brand[field]:
+                assert urlparse(brand[field]).scheme in {"http", "https"}
+        if brand["brand_identity_status"] in {"verified_manufacturer", "verified_brand"}:
+            assert brand["official_website_url"]
+        if brand["research_use_status"] == "documented_research_use":
+            assert brand["research_evidence_url"]
     ids = [r["equipment_id"] for r in equipment]
     assert len(ids) == len(set(ids)), "Duplicate equipment identifiers"
     category_ids = {r["category_id"] for r in categories}

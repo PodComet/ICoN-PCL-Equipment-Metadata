@@ -14,9 +14,14 @@ def main():
         ("records", "equipment"), ("categories", "categories"),
         ("routes", "routes"), ("steps", "route_steps")
     ]}
+    data["manufacturers"] = read_csv("manufacturers")
+    brands = {r["manufacturer"]: r for r in data["manufacturers"]}
     class_prices = {r["category_id"]: r for r in read_csv("category_price_estimates")}
     overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
     for record in data["records"]:
+        brand = brands[record["manufacturer"]]
+        for field in ["official_website_url", "brand_identity_status", "research_use_status", "research_evidence_url", "verification_notes", "review_date"]:
+            record["manufacturer_" + field] = brand[field]
         estimate = class_prices.get(record["category_id"], {})
         record.update({k: v for k, v in estimate.items() if k.startswith("estimate")})
         record["estimate_subject"] = record["category_name"]

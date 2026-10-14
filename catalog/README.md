@@ -45,3 +45,10 @@ The original XLSX and its matching reports remain excluded from Git. Manufacture
 `category_price_estimates.csv` contains 70 broad new-equipment planning ranges. `equipment_price_overrides.csv` specializes accessories, upgrades, mobile bases, configured assemblies, and per-unit furnace quantities. `market_benchmarks.json` records the research anchors and distinguishes published selling prices from quote-only pages. No range is an exact model MSRP. Where no public price was found, ranges are low-confidence analyst judgments; specification sources establish class scope and do not substantiate numerical bounds. Exclusions are recorded in the basis.
 
 `python scripts/build_app_data.py` joins these CSVs into the app seed. CSV export includes the joined estimate fields while preserving exact MSRP separately. An exact sourced MSRP entered in the app takes display priority over estimates.
+
+
+## Manufacturer legitimacy checks
+
+`manufacturers.csv` records every distinct manufacturer name, including legacy brands and unresolved labels. A green star requires a verified manufacturer/brand identity and official website, plus independent documented research use. Vendor research marketing alone does not qualify. Evidence of use is not a quantified claim of market prevalence, current service support, installed-model suitability, or institutional ownership. Unverified names stay visible but unstarred; custom and unspecified equipment do not acquire a manufacturer badge.
+
+The app reapplies this audit by manufacturer name when loading saved edits. Changing the manufacturer to an unknown name removes the verified status rather than inheriting another brand's star. Audit evidence is maintained in Git, separately from user-editable instrument metadata.

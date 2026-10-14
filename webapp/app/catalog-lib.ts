@@ -50,3 +50,16 @@ export function pricePresentation(r: Equipment) {
   if (r.estimated_msrp_low && r.estimated_msrp_high) return {label:"Estimated MSRP*",value:format(r.estimated_msrp_low,r.estimate_currency)+"–"+format(r.estimated_msrp_high,r.estimate_currency),estimated:true};
   return {label:"MSRP",value:"Not recorded",estimated:false};
 }
+
+export function verifiedManufacturer(r: Equipment) {
+ return ["verified_manufacturer","verified_brand"].includes(r.manufacturer_brand_identity_status) &&
+  r.manufacturer_research_use_status === "documented_research_use" &&
+  !!safeUrl(r.manufacturer_official_website_url) && !!safeUrl(r.manufacturer_research_evidence_url);
+}
+export function applyManufacturerAudit(r: Equipment, brands: Record<string,string>[]): Equipment {
+ const brand=brands.find(b=>b.manufacturer===r.manufacturer);
+ const result={...r};
+ for(const field of ["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date"])
+  result["manufacturer_"+field]=brand?.[field] || (field.endsWith("status")?"needs_review":"");
+ return result;
+}

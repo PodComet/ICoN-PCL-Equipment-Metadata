@@ -5,6 +5,8 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 ## Features
 
 - 631 equipment records, grouped into product-family cards with variant tabs.
+- Clickable equipment-type headings open the selected instrument detail card.
+- Green manufacturer stars link to independently documented research use after official identity verification. All names retain a traceable audit status.
 - Search and filters for equipment family, materials, processes, manufacturer, manual evidence, and the user-designated Purdue list.
 - Prominent equipment-class headings; manufacturer photos where found, with exact/family captions and source links.
 - Direct card links to manuals, technical specifications or product references.
