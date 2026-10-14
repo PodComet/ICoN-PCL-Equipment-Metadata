@@ -1,0 +1,45 @@
+requested_id,requested_label,equipment_id,related_category_ids,entry_kind,highlight_requested,notes
+REQ-001,Physical Vapor Deposition (PVD) tool,REQ-EQ-001,M23,generic_requirement,true,No manufacturer or deposition mechanism specified.
+REQ-002,Cluster ALD tool,REQ-EQ-002,M22,generic_requirement,true,Cluster integration and reactor model unspecified.
+REQ-003,Glovebox ALD systems with potential robotic arms to transfer wafers,REQ-EQ-003,M22,proposed_configuration,true,"Robotic transfer is a potential configuration, not a confirmed installed capability."
+REQ-004,1700 °C atmospheric control furnace(s),REQ-EQ-004,M20,generic_requirement,true,"1700 C is the requested nominal rating; model, atmosphere and continuous-use limit unverified."
+REQ-005,Renishaw AM400,REQ-EQ-005,X-AM,commercial_model,true,No intrinsic nanoscale product size claimed; bulk metal AM context.
+REQ-006,Renishaw AM400,REQ-EQ-005,X-AM,commercial_model,true,Duplicate requested occurrence retained; does not establish two installed assets.
+REQ-007,Matsuura LUMEX Avance-25,REQ-EQ-007,X-AM,commercial_model,true,Hybrid metal AM and subtractive finishing; nanomaterial capability not established.
+REQ-008,Matsuura LUMEX Avance-25 - Reactive,REQ-EQ-008,X-AM,configuration_unverified,true,Reactive configuration and material approvals require documentation; base-model brochure is insufficient.
+REQ-009,FormAlloy L2,REQ-EQ-009,X-AM,commercial_model,true,Bulk metal deposition; nanocomposite processing would require independent validation.
+REQ-010,Keyence VR-6000,REQ-EQ-010,X-MET,commercial_model,true,VR-6000 is a controller in the series; head/configuration and nanoscale measurement capability must be recorded.
+REQ-011,Proto iXRD Mini,M37-10,M37,commercial_model,true,Residual-stress analysis is not equivalent to all-purpose powder phase identification.
+REQ-012,Balticold Spray LTD CSM 108.02,REQ-EQ-012,X-CS,model_identity_unresolved,true,Requested CSM 108.02 differs from CSM 108.2 in published sources; preserve the supplied identifier.
+REQ-013,MAZAK VC-500A/5X,REQ-EQ-013,X-CNC,commercial_model,true,Do not assign specifications of the AM HWD variant to this base machine.
+REQ-014,EDMMax 434W Fast Wire EDM,REQ-EQ-014,X-EDM,commercial_model,true,Machining electrically conductive workpieces; not nanoparticle synthesis.
+REQ-015,FANUC Fanuc_Robot_LR_Mate200i + CART,REQ-EQ-015,X-ROB,configured_assembly,true,LR Mate generation and cart integration unspecified; arm-only instructions do not cover the cart.
+REQ-016,Baxter,REQ-EQ-016,X-ROB,commercial_model,true,Robot tooling and contained sample compatibility require configuration-specific assessment.
+REQ-017,ABB YuMI,REQ-EQ-017,X-ROB,model_family,true,YuMi can mean IRB 14000 or IRB 14050; exact variant not supplied.
+REQ-018,Barrett WAM Robotic Arm,REQ-EQ-018,X-ROB,model_family,true,Number of axes and installed controller version unspecified.
+REQ-019,Universal Robot UR16e,REQ-EQ-019,X-ROB,commercial_model,true,"Nanomaterial relation is indirect sample handling, not material synthesis."
+REQ-020,Doosan Robotics Manipulator M0609,REQ-EQ-020,X-ROB,commercial_model,true,Match installed controller/software version to manual.
+REQ-021,Selective etching reactor (custom built),REQ-EQ-021,X-ETCH,custom_assembly,true,"Builder, design, etchants and local operating procedure have not been supplied."
+REQ-022,Automatic filtration (custom built) and centrifuges,REQ-EQ-022,X-FILTER,compound_requirement,true,Compound request: automatic custom filtration and centrifuges are separate equipment types; models unspecified.
+REQ-023,Large scale shaker (paint shaker),REQ-EQ-023,X-MIX,generic_requirement,true,Paint-shaker suitability for specific nanomaterial formulations is not established.
+REQ-024,Core (Standard Bots),REQ-EQ-024,X-ROB,commercial_model,true,Core platform hardware/programming manuals are distinct documents.
+REQ-025,Bolt (Standard Bots) with 2 Spark arms and Nimbus,REQ-EQ-025,X-ROB,configured_assembly,true,Bolt with two Spark arms and Nimbus is a specified configuration; component documents do not establish whole-system manual coverage.
+REQ-026,Mobile FR3 Duo (Franka),REQ-EQ-026,X-ROB,prototype_configuration,true,Manufacturer describes Mobile FR3 Duo as a prototype; no confirmed local availability.
+REQ-027,Gamry corrosion cell,REQ-EQ-027,M57,component_family,true,"Exact cell model unspecified. MultiPort manual is a related example, not proof of the installed cell model."
+REQ-028,4x 1200 ºC tube furnaces,REQ-EQ-028,M20,generic_requirement,true,Quantity requested: 4. Rating requested: 1200 C. Manufacturer/model unspecified.
+REQ-029,3x 1600 ºC tube furnaces,REQ-EQ-029,M20,generic_requirement,true,Quantity requested: 3. Rating requested: 1600 C. Manufacturer/model unspecified.
+REQ-030,1x 1800 ºC tube furnace,REQ-EQ-030,M20,generic_requirement,true,Quantity requested: 1. Rating requested: 1800 C. Manufacturer/model unspecified.
+REQ-031,Psylotech 200 Series miniaturized load frame,REQ-EQ-031,X-TEST,model_family,true,"Load rating, grips and measurement configuration unspecified."
+REQ-032,Psylotech high temperature laser add-on,REQ-EQ-032,X-TEST,upgrade,true,Accessory to a compatible load frame; not counted as an independent load-frame example.
+REQ-033,Proto AXRD,M37-09,M37,model_family,true,AXRD includes several product lines; exact configuration must be recorded.
+REQ-034,YorNew VMC300,REQ-EQ-034,X-CNC,commercial_model,true,Not assumed to fabricate nanoscale features.
+REQ-035,Thor (Standard Bots),REQ-EQ-035,X-ROB,commercial_model,true,Material relation depends on end effector and actual process integration.
+REQ-036,LabRAM II Ultrasonic Mixer,REQ-EQ-036,X-MIX,commercial_model,true,"Requested label says ultrasonic. Manufacturer specifies low-frequency resonant acoustic mixing, approximately 60 Hz."
+REQ-037,Spin coater with automatic liquid dispenser,REQ-EQ-037,M24,configured_assembly,true,"No manufacturer, model or dispenser compatibility specified."
+REQ-038,FormAlloy L2 Optics Upgrade,REQ-EQ-038,X-AM,upgrade,true,L2 optics upgrade specification and compatibility are not independently established.
+REQ-039,FormAlloy L2 Laser Upgrade,REQ-EQ-039,X-AM,upgrade,true,L2 laser upgrade specification and compatibility are not independently established.
+REQ-040,Light Conversion CB1-04,REQ-EQ-040,M56,commercial_model,true,CARBIDE CB1-04 identity requires generation-specific documentation; do not substitute a CB3 manual.
+REQ-041,SYNRAD Series48 Model 48-1,REQ-EQ-041,X-LASER,commercial_model,true,A CO2 source is not interchangeable with a Q-switched or ultrafast nanoparticle-ablation laser.
+REQ-042,Universal Robot UR12e,REQ-EQ-042,X-ROB,commercial_model,true,"Nanomaterial relation is indirect sample handling, not material synthesis."
+REQ-043,Tracer 2.0 Mobile Platform,REQ-EQ-043,X-ROB,commercial_model,true,Mobile base without manipulator; arm/tool integration is separate.
+REQ-044,FANUC CRX-10iA Robot Arm,REQ-EQ-044,X-ROB,commercial_model,true,Controller generation and integrated tooling affect manual applicability.

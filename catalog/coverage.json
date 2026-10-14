@@ -1,0 +1,26 @@
+{
+  "active_m_categories": 59,
+  "additional_process_routes": 11,
+  "core_examples": 590,
+  "equipment_records": 631,
+  "highlighted_equipment_records": 43,
+  "manual_coverage": {
+    "component_instructions": 2,
+    "document_link_not_fully_checked": 2,
+    "not_verified": 465,
+    "request_required": 7,
+    "scope_or_generation_unresolved": 4,
+    "source_reported_not_reverified": 49,
+    "verified_operating_manual": 102
+  },
+  "material_families": 9,
+  "model_evidence": {
+    "candidate_needs_review": 297,
+    "documented": 299,
+    "source_reported": 35
+  },
+  "msrp_records": 0,
+  "ordered_route_steps": 109,
+  "requested_occurrences": 44,
+  "source_pdf_model_records": 64
+}

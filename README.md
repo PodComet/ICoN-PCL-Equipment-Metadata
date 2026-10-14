@@ -1,5 +1,17 @@
 # ICoN-PCL Equipment Metadata
 
+Research equipment metadata and a reproducible machine-list comparison tool.
+
+## Equipment database
+
+The [CSV catalog](catalog/equipment.csv) contains **590 research examples across 59 active machine categories**, plus 41 supplemental records covering the requested equipment. All 44 requested occurrences are retained, including the repeated AM400 entry. See the [bolded requested-equipment view](docs/requested-equipment.md), [database guide](catalog/README.md), and [evidence coverage](catalog/coverage.json).
+
+The catalog preserves the supplied PDF's M identifiers, nine material families, eleven additional process routes and 109 ordered conceptual steps. M52 and M55 were intentionally absent from that source. New examples include explicit research candidates; the ten-example target does not imply ten verified manuals per family. Model evidence, manual scope, source-reported links and unresolved gaps remain separate fields. MSRP fields await dated price evidence.
+
+Validate CSV edits and regenerate the readable view with `python catalog_tools.py`.
+
+## Machine-list comparison
+
 Compare columns A and B of an Excel workbook or the first two columns of a CSV file. Produce a shared-machine list, unmatched lists, and a complete JSON audit trail with original values and spreadsheet row numbers.
 
 ## Quick start

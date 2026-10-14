@@ -1,0 +1,110 @@
+route_id,step_order,step_label,equipment_sequence,equipment_category_ids,source_pdf,source_page
+N01,1,Prepare feeds,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N01,2,Form particles,Optional M07 feed --> M02 vessel OR M04 with M03 stirring. M33 provides compatible temperature control.,M02;M03;M04;M07;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N01,3,Control surface,Continue in the selected vessel for stabilization. M09 only if dispersion needs it.,M09,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N01,4,Purify,M13 OR M14 OR M15. Repeat wash / separation as required.,M13;M14;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N01,5,Formulate / store,M09 (optional redispersion) --> M17 (optional validated drying).,M09;M17,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N01,6,Characterize,Parallel checks: M34 + M35 + M39.,M34;M35;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,6
+N02,1,Prepare feeds,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N02,2,Form particles,Choose M04 reaction OR M05 with a compatible oven / heater OR M06 microwave. Cool a sealed reactor before recovery.,M04;M05;M06,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N02,3,Recover / wash,"M13 OR M15, followed by washing.",M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N02,4,Dry / heat-treat,Dry: M18 OR M17 --> optional M19 OR M20 heat treatment. Support: M31.,M17;M18;M19;M20;M31,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N02,5,Formulate / collect,M09 OR M12 only if needed. Powder support: M30.,M09;M12;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N02,6,Characterize,Parallel checks: M37 + M38 + M39 + M42.,M37;M38;M39;M42,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,7
+N03,1,Prepare feeds,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N03,2,Form / age,M02 OR M04 for condensation / aging. M03 is optional stirring.,M02;M03;M04,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N03,3,Recover / wash,"M13 OR M15, followed by washing.",M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N03,4,Remove template,"Templated silica only: M02 extraction --> M16 solvent removal, OR M18 drying --> M19 calcination.",M02;M16;M18;M19,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N03,5,Finish / collect,M09 for a dispersion. M30 supports dry-powder handling.,M09;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N03,6,Characterize,Parallel checks: M34 + M36 + M38 + M39.,M34;M36;M38;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,8
+N04,1,Prepare under inert gas,M01 --> feed preparation. Inert support: M27 + M31 OR M28.,M01;M27;M28;M31,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N04,2,Nucleate / grow,M07 feed (optional) --> M02 OR M04 growth vessel.,M02;M04;M07,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N04,3,Modify / stop growth,"M33 cooling, then optional shell / ligand treatment in the reaction vessel. M03 / M27 support.",M03;M27;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N04,4,Purify,"M13 OR M14, followed by compatible washing.",M13;M14,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N04,5,Formulate / preserve,Optional M09 redispersion. Inert handling: M28.,M09;M28,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N04,6,Characterize,Parallel checks: M35 + M37 + M39.,M35;M37;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,9
+N05,1,Prepare phases,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N05,2,Form particles,Flow: M07 --> M08. Emulsion: M11 OR M09. Electrospray: M47. Choose one route.,M07;M08;M09;M11;M47,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N05,3,Remove solvent,M16 evaporation OR M15 medium exchange. Bypass if solvent is already removed.,M15;M16,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N05,4,Purify / concentrate,M13 OR M15 OR validated M49 membrane separation.,M13;M15;M49,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N05,5,Finish / preserve,Optional M17 drying. M33 provides temperature control.,M17;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N05,6,Characterize,Parallel checks: M34 + M36 + M38 + M42.,M34;M36;M38;M42,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,10
+N06,1,Prepare feeds,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N06,2,Assemble,Flow LNP route: M08 with optional M07 feed. Liposome route: M16 film evaporation --> M02-assisted hydration.,M02;M07;M08;M16,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N06,3,Condition size,"Liposomes: M43 extrusion OR M10 conditioning, if needed. M33 controls temperature.",M10;M33;M43,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N06,4,Exchange medium,M15 OR validated M13 recovery / medium exchange.,M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N06,5,Fill / preserve,Fill containers. M17 drying only for a validated formulation.,M17,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N06,6,Characterize,Parallel checks: M34 + M39 + M35.,M34;M35;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,11
+N07,1,Prepare feeds,M01 --> M02 liquid feed preparation OR catalyst / substrate preparation. M10 optional cleaning; M29 support.,M01;M02;M10;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N07,2,Form structure,Liquid exfoliation: M09 OR M11 OR M12. Gas growth: M21 with M32. Choose a route.,M09;M11;M12;M21;M32,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N07,3,Recover / fractionate,Liquid route: M13 OR M15. Grown solid: collect substrate / powder with M30 support.,M13;M15;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N07,4,Condition / finish,Optional M18 drying --> optional M20 thermal treatment. M31 supports vacuum.,M18;M20;M31,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N07,5,Collect / preserve,Contain powder with M30 OR handle dispersion in M29.,M29;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N07,6,Characterize,Parallel checks: M40 + M41 + M38 + M39.,M38;M39;M40;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,12
+N08,1,Prepare solution,M01 --> M02. Support: M29.,M01;M02;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N08,2,Feed / spin,M07 feed if required --> M26 electrospinning system.,M07;M26,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N08,3,Collect / dry,M26 collection --> optional M18 drying.,M18;M26,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N08,4,Convert if required,Optional conversion: M19 OR M20. M32 supplies the selected atmosphere.,M19;M20;M32,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N08,5,Finish / preserve,Handle mat in M29 or use M30 for dusty solids.,M29;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N08,6,Characterize,Parallel checks: M38 + M36 + M42.,M36;M38;M42,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,13
+N09,1,Prepare substrate,"M10 substrate cleaning. Solution feed, if used: M01 --> M02. M29 supports handling.",M01;M02;M10;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+N09,2,Supply / control,"Set up M31 backing / rough vacuum + M32 gas + M33 cooling, as needed. Add high-vacuum hardware where required.",M31;M32;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+N09,3,Deposit / assemble,Choose one: M24 OR M25 OR M44 OR M21 OR M22 OR M23 OR M48.,M21;M22;M23;M24;M25;M44;M48,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+N09,4,Cure / modify,Optional M02 OR M18 drying --> optional M20 annealing.,M02;M18;M20,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+N09,5,Handle / preserve,"M28 inert handling OR M29 chemical handling, as appropriate.",M28;M29,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+N09,6,Characterize,Parallel checks: M41 + M38 + M37 + M40 + M35.,M35;M37;M38;M40;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,14
+P01,1,Prepare source,Optional M28 source loading. Establish M31 vacuum and M32 gas before source operation.,M28;M31;M32,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,21
+P01,2,Generate vapor,M54 generates vapor / clusters.,M54,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,21
+P01,3,Condense / grow,M54 aggregation region. M32 supplies gas concurrently.,M32;M54,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,21
+P01,4,Collect / recover,M54 collector or configured substrate stage.,M54,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,21
+P01,5,Verify / preserve,"Parallel checks: M39 + M37 + M41, then preserve.",M37;M39;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,21
+P03,1,Prepare target / medium,M10 target cleaning; M46 supplies liquid medium. Prepare a compatible chamber.,M10;M46,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,22
+P03,2,Deliver pulses,M56 laser source with a compatible optical train / chamber.,M56,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,22
+P03,3,Form particles,Quench in the configured medium while M56 supplies pulses.,M56,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,22
+P03,4,Recover / formulate,M13 OR M15 for compatible recovery.,M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,22
+P03,5,Verify properties,Parallel checks: M39 + M37 + M35.,M35;M37;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,22
+P04,1,Prepare phases,M01 --> M02 OR M50 phase mixing.,M01;M02;M50,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,23
+P04,2,Introduce reactants,Optional M07 feed --> M04 reaction vessel with M02 stirring.,M02;M04;M07,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,23
+P04,3,Nucleate / grow,Continue in M04. M33 supplies temperature control.,M04;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,23
+P04,4,Break / purify,M13 washing / separation --> optional M16 solvent removal.,M13;M16,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,23
+P04,5,Formulate / verify,Optional M09 redispersion --> parallel M34 + M36 checks.,M09;M34;M36,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,23
+P05,1,Prepare substrate / bath,Bath: M01 --> M02. Substrate cleaning: M10 in parallel.,M01;M02;M10,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,24
+P05,2,Assemble cell,Assemble the electrode cell and M57 controller.,M57,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,24
+P05,3,Deposit / grow,M57 controls deposition. M33 supports temperature control.,M33;M57,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,24
+P05,4,Rinse / recover,M46 rinse --> optional M18 drying.,M18;M46,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,24
+P05,5,Verify deposit,Parallel checks: M38 + M41 + M37.,M37;M38;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,24
+P06,1,Prepare resist layer,M10 clean --> optional M22 hard-mask deposition --> M24 resist coat --> M02 bake.,M02;M10;M22;M24,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,25
+P06,2,Define pattern: choose one,Choose M58 mask exposure OR M59 e-beam writing OR M60 imprint.,M58;M59;M60,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,25
+P06,3,Develop / clear layer,"Wet development, OR M61 residual-layer clearing for a suitable imprint process.",M61,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,25
+P06,4,Transfer pattern,"M61 etch, OR process-compatible M23 deposition --> wet lift-off.",M23;M61,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,25
+P06,5,Inspect / measure,Parallel checks: M38 + M41.,M38;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,25
+P07,1,Prepare / load,M01 weigh --> M12 load. M28 provides optional inert handling.,M01;M12;M28,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,26
+P07,2,Apply mechanical energy,M12 milling / mechanochemical processing.,M12,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,26
+P07,3,Recover / fractionate,Unload using M30 containment; optional M13 fractionation of a slurry.,M13;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,26
+P07,4,Condition if required,Optional M18 drying --> optional M20 thermal treatment.,M18;M20,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,26
+P07,5,Verify product,Parallel checks: M37 + M38 + M39.,M37;M38;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,26
+P08,1,Prepare starting surface,M09 OR M10 cleaning / dispersion; M02 can mix feeds.,M02;M09;M10,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,27
+P08,2,Modify: choose route,Choose M04 liquid functionalization OR compatible M61 plasma treatment.,M04;M61,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,27
+P08,3,Remove excess reagent,Liquid route: M13 OR M15 washing. Bypass for a dry treatment.,M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,27
+P08,4,Stabilize / integrate,M09 redispersion OR M18 substrate conditioning.,M09;M18,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,27
+P08,5,Verify modification,Parallel checks: M36 + M34 + M39.,M34;M36;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,27
+P09,1,Prepare building blocks,M01 --> M02. M46 supplies water / buffer.,M01;M02;M46,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,28
+P09,2,Set assembly conditions,Choose M08 flow mixing OR M24 solution coating OR M44 interface assembly.,M08;M24;M44,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,28
+P09,3,Organize / anneal,Route-specific M33 temperature control OR M18 solvent conditioning OR continued M44 assembly.,M18;M33;M44,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,28
+P09,4,Recover / stabilize,"M15 medium exchange OR M25 substrate integration, if applicable.",M15;M25,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,28
+P09,5,Verify organization,Parallel checks: M39 + M41 + M34.,M34;M39;M41,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,28
+P10,1,Prepare biological feed,M46 + M01 --> M02 biological / precursor feeds. M45 culture is needed only for microbial routes.,M01;M02;M45;M46,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,29
+P10,2,Form particles,M02 OR M04 mixing / reaction. M33 supports temperature control.,M02;M04;M33,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,29
+P10,3,Recover / wash,M13 OR M15 separation and washing.,M13;M15,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,29
+P10,4,Stabilize / finish,Optional M50 mixing --> optional validated M17 drying.,M17;M50,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,29
+P10,5,Verify material,Parallel checks: M34 + M39 + M36.,M34;M36;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,29
+P11,1,Prepare precursor,M01 --> M02 precursor mixing. M26 is an optional fiber-template route.,M01;M02;M26,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,30
+P11,2,Choose thermal route,Choose M19 chamber furnace OR M20 tube furnace. M32 supports a gas route.,M19;M20;M32,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,30
+P11,3,Convert / anneal,Continue in the selected M19 OR M20 furnace.,M19;M20,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,30
+P11,4,Recover / formulate,Cool first. M28 OR M30 supports recovery --> optional M09 dispersion.,M09;M28;M30,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,30
+P11,5,Verify conversion,Parallel checks: M37 + M38 + M36 + M42.,M36;M37;M38;M42,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,30
+P12,1,Prepare suspension,M46 medium --> M09 OR M50 suspension preparation.,M09;M46;M50,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,31
+P12,2,Generate aerosol,M53 atomizer. M32 supplies carrier gas concurrently.,M32;M53,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,31
+P12,3,Condition / classify,Dry / charge-condition aerosol before M51 mobility classification.,M51,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,31
+P12,4,Measure / collect,M51-based sizing needs a compatible CPC / electrometer. A separate collector is an alternative output.,M51,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,31
+P12,5,Verify recovered fraction,"Parallel checks: M39 + M34 on a recovered liquid / solid fraction, if required.",M34;M39,Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf,31
