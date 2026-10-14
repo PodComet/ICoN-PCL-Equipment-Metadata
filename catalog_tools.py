@@ -35,11 +35,12 @@ def inspect_catalog(root=ROOT):
     for row in equipment:
         assert row["model_name"] and row["product_family_id"] and row["variant_label"]
         assert row["highlight_requested"] in {"true", "false"}
+        assert row["purdue_list"] == row["highlight_requested"]
         if row["manual_match_status"] == "verified_operating_manual":
             assert row["manual_url"] and row["manual_scope"], row["equipment_id"]
         for field, value in row.items():
             assert "file:///" not in value and "C:\\" not in value, "Local source paths must not be published"
-            if field.endswith("_url") and value:
+            if field.endswith("_url") and value and field != "institution_logo_url":
                 assert urlparse(value).scheme in {"http", "https"}, field
         if row["msrp_value"]:
             assert float(row["msrp_value"]) >= 0
@@ -86,7 +87,7 @@ def render_views(root=ROOT):
              "| --- | --- | --- | --- |"]
     for item in requests:
         record = by_id[item["equipment_id"]]
-        title = "**" + md(item["requested_label"]) + "**"
+        title = '<img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **' + md(item["requested_label"]) + "**"
         manual = md(record["manual_match_status"].replace("_", " "))
         if record["manual_url"]:
             manual += f" ([document]({record['manual_url']}))"

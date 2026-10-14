@@ -21,6 +21,7 @@ Source: `Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf`. File hashe
 - Keep `equipment_id` stable. Use `product_family_id` to group real product variants; volume differences belong in `capacity_ml` and `variant_label`.
 - `catalog_scope=core_example` identifies the ten-example sets. Supplemental generic requirements, robots, upgrades and custom assemblies do not inflate those counts.
 - `highlight_requested=true` identifies requested equipment. CSV has no font styling; the [readable view](../docs/requested-equipment.md) renders requested labels in bold.
+- `purdue_list=true` and the Purdue P image mark the user's designated Purdue list. This designation is separate from independently verified ownership or access evidence. The official image is attributed in [asset credits](../assets/README.md).
 - Separate model existence from manual applicability. A brochure can support `model_evidence_url` but is not an operator manual. `manual_lookup_url` is a discovery shortcut, never evidence of a manual.
 - `manual_match_status=verified_operating_manual` means the linked manufacturer-authored operating document was checked for its stated model/family scope. Match actual firmware, generation and configuration before use. Conditional, component-only and source-reported links have different statuses.
 - Unresolved candidate names, family-level descriptions and unverified configurations remain marked for review. This release does not label them verified models. Commercial model options are not evidence of Purdue ownership or access.

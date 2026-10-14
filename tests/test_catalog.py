@@ -18,6 +18,8 @@ def test_requested_duplicate_and_variants_are_preserved():
     assert len(am400) == 2
     assert am400[0]["equipment_id"] == am400[1]["equipment_id"]
     records = load_csv(ROOT / "catalog/equipment.csv")
+    assert sum(r["purdue_list"] == "true" for r in records) == 43
+    assert all(r["institution_basis"] == "user_designated_list" for r in records if r["purdue_list"] == "true")
     extruders = [r for r in records if r["model_name"].startswith("Genizer GJE-")]
     assert {r["capacity_ml"] for r in extruders} == {"10", "100", "800", "3000", "10000"}
     assert len({r["product_family_id"] for r in extruders}) == 1
