@@ -60,3 +60,9 @@ test('every class has explicit estimates and component estimates avoid full-syst
  assert.match(cell.estimate_subject,/excluding potentiostat/);
  assert.ok(seed.records.filter(r=>r.image_url).every(r=>safeUrl(r.image_url)&&safeUrl(r.image_source_url)&&r.image_scope));
 });
+
+test('Proto AXRD has an official manufacturer link and a scoped family photo',()=>{
+ const r=seed.records.find(r=>r.equipment_id==='M37-09');
+ assert.equal(new URL(r.product_page_url).hostname,'www.protoxrd.com');
+ assert.ok(safeUrl(r.image_url));assert.match(r.image_scope,/configuration is unspecified/);
+});

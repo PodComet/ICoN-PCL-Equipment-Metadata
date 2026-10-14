@@ -40,7 +40,7 @@ The original XLSX and its matching reports remain excluded from Git. Manufacture
 
 ## Photos and class-equivalent estimates
 
-`equipment.csv` includes optional `image_url`, `image_source_url`, `image_scope`, `technical_spec_url`, and `media_checked_date` fields. Photos remain manufacturer-hosted and can become unavailable; photo rights remain with their owners. Family photos explicitly identify their scope.
+`equipment.csv` includes optional `image_url`, `image_source_url`, `image_scope`, `technical_spec_url`, `product_page_url`, and `media_checked_date` fields. Photos remain manufacturer-hosted and can become unavailable; photo rights remain with their owners. Family photos explicitly identify their scope.
 
 `category_price_estimates.csv` contains 70 broad new-equipment planning ranges. `equipment_price_overrides.csv` specializes accessories, upgrades, mobile bases, configured assemblies, and per-unit furnace quantities. `market_benchmarks.json` records the research anchors and distinguishes published selling prices from quote-only pages. No range is an exact model MSRP. Where no public price was found, ranges are low-confidence analyst judgments; specification sources establish class scope and do not substantiate numerical bounds. Exclusions are recorded in the basis.
 
