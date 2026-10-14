@@ -1,0 +1,96 @@
+{
+  "summary": {
+    "version": "1.0.0",
+    "source_name": "equipment_lists.csv",
+    "source_sha256": "5a0dfc02d547da87b7ab2ddef8308dc9471992f00f882bcdc64359b7fafdc22c",
+    "sheet": null,
+    "columns": [
+      "A",
+      "B"
+    ],
+    "skip_header": true,
+    "matching": "Unicode NFKC, whitespace collapse, casefold; punctuation retained",
+    "counts": {
+      "rows_a": 4,
+      "rows_b": 4,
+      "unique_a": 3,
+      "unique_b": 4,
+      "both": 2,
+      "only_a": 1,
+      "only_b": 2,
+      "duplicate_keys_a": 1,
+      "duplicate_keys_b": 0
+    }
+  },
+  "machines": [
+    {
+      "key": "furnace 5",
+      "status": "both",
+      "a": [
+        {
+          "row": 4,
+          "value": "Furnace 5"
+        }
+      ],
+      "b": [
+        {
+          "row": 4,
+          "value": "Furnace   5"
+        }
+      ]
+    },
+    {
+      "key": "machine alpha",
+      "status": "both",
+      "a": [
+        {
+          "row": 2,
+          "value": "Machine Alpha"
+        },
+        {
+          "row": 5,
+          "value": "Machine Alpha"
+        }
+      ],
+      "b": [
+        {
+          "row": 2,
+          "value": " machine alpha"
+        }
+      ]
+    },
+    {
+      "key": "pump-20",
+      "status": "only_a",
+      "a": [
+        {
+          "row": 3,
+          "value": "Pump-20"
+        }
+      ],
+      "b": []
+    },
+    {
+      "key": "pump-21",
+      "status": "only_b",
+      "a": [],
+      "b": [
+        {
+          "row": 3,
+          "value": "Pump-21"
+        }
+      ]
+    },
+    {
+      "key": "scanner z",
+      "status": "only_b",
+      "a": [],
+      "b": [
+        {
+          "row": 5,
+          "value": "Scanner Z"
+        }
+      ]
+    }
+  ]
+}

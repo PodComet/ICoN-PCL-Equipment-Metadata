@@ -1,0 +1,3 @@
+normalized_name,a_occurrences_json,b_occurrences_json
+"""furnace 5""","[{""row"": 4, ""value"": ""Furnace 5""}]","[{""row"": 4, ""value"": ""Furnace   5""}]"
+"""machine alpha""","[{""row"": 2, ""value"": ""Machine Alpha""}, {""row"": 5, ""value"": ""Machine Alpha""}]","[{""row"": 2, ""value"": "" machine alpha""}]"
