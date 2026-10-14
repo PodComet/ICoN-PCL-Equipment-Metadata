@@ -106,3 +106,7 @@ After updating canonical CSV files, run `python catalog_tools.py` then `python s
 CSV updates are available through **Admin CSV updates**. Download the template or current data, upload changes, preview and apply them to the shared catalog. Everyone signed in is an admin for now. See [CSV update guide](docs/csv-updates.md).
 
 The Admin CSV screen is the second tab. Administrators can manually add shared machine profiles below the directory filters using the same ingestion pipeline. Filters support multiple choices, Shift-range selection, contextual counts, and bold labels when choices have matches.
+
+## Private installed-equipment inventory
+
+The app supports inventory entries linked to model records, with instrument IDs, serial/other IDs, purchase/build status and quantities. Multiple units share a model card rather than becoming product variants. Actual Purdue unit identifiers are retained only in the private deployment and local inventory export; the public app seed is empty. See `templates/purdue_inventory_template.csv` for the separate inventory schema. This snapshot format is distinct from the model-update CSV importer.

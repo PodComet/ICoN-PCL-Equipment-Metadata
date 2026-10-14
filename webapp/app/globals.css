@@ -43,3 +43,8 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 
 .filter-panel{position:relative;top:auto;align-self:start}
 
+
+.inventory-card-ids{font-size:.78rem;font-weight:700;color:#495d52;margin:0 0 12px;overflow-wrap:anywhere}
+.inventory-section{margin:26px 0;padding:22px;background:#f3f6f3;border:1px solid #dce5db;border-radius:12px}
+.inventory-section h4{margin:0 0 8px;font-size:1.08rem}.inventory-entries{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin-top:16px}
+.inventory-entries article{background:white;border:1px solid #dce5db;border-radius:9px;padding:18px;min-width:0}.inventory-entries h5{font-size:1rem;margin:0 0 10px}.inventory-status{font-size:.78rem;font-weight:700;color:#345a43}.inventory-entries dl{font-size:.86rem;margin:16px 0}.inventory-entries dt{font-weight:700;margin-top:10px}.inventory-entries dd{margin:4px 0;overflow-wrap:anywhere}

@@ -8,6 +8,7 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 - Clickable equipment-type headings open the selected instrument detail card.
 - Green manufacturer stars link to independently documented research use after official identity verification. All names retain a traceable audit status.
 - Search and filters for equipment family, materials, processes, manufacturer, manual evidence, and the user-designated Purdue list.
+- Linked Purdue inventory records distinguish physical units from model variants. Instrument IDs and supplied serial/other IDs are searchable, appear in instrument details, and have a separate Admin CSV snapshot download.
 - Prominent equipment-class headings; manufacturer photos where found, with exact/family captions and source links.
 - Direct card links to manuals, technical specifications or product references.
 - Manual links and scope, exact MSRP fields and asterisked class-equivalent estimates, material/process relationships and source provenance.
@@ -33,6 +34,10 @@ npm exec -- tsc --noEmit
 ```
 
 Canonical data lives in the repository `catalog/` directory. From the repository root run `python scripts/build_app_data.py` after changing CSVs, then rebuild the app. The seed is deterministic; no network access is required to regenerate it.
+
+Private inventory is a separate server-side dataset in `app/data/purdue-inventory.json`, linked by `equipment_id`. The public checkout supplies an empty array, never installed-equipment identifiers. The hosted owner-private source retains the user-supplied inventory. Only authenticated catalog responses include it; it is not imported into client code or public static assets. Preserve this distinction when synchronizing source. Model CSV imports do not change inventory entries or copy unit identities to new variants.
+
+Inventory fields: `instrument_id`, `equipment_id`, `institution`, `serial_number`, `other_id`, `serial_or_other_id` (verbatim source cell), `inventory_status`, `quantity`, `description`, `inventory_notes`, `evidence_basis`, `recorded_date`. All identifiers are text. Only explicitly labeled serial numbers are classified as serials; ambiguous supplied identifiers remain in `other_id`. Planned purchases/builds have no invented serials. An inventory entry may describe multiple pieces or a composite system; the number of entries is not a physical unit count. Inventory downloads are snapshots, not input to the model-update CSV importer.
 
 ## Evidence limits
 
