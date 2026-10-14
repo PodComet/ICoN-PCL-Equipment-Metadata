@@ -101,3 +101,6 @@ The searchable and editable app source is in [webapp/](webapp/README.md). It pre
 [Open the private app](https://icon-pcl-equipment-metadata.loyal-trout-0175.chatgpt.site). Signed-in edits are account-specific and persistent; export CSV to review changes for Git. The public seed database remains in `catalog/`. Exact MSRP stays separate from asterisked class-equivalent planning ranges, with dated references, confidence and assumptions. Manufacturer photos are included where available, with scope and source links. Equipment type headings are prominent, and cards link directly to documentation.
 
 After updating canonical CSV files, run `python catalog_tools.py` then `python scripts/build_app_data.py` and rebuild the app. University and ICoN-PCL logos are excluded from the MIT license.
+
+
+CSV updates are available through **Admin CSV updates**. Download the template or current data, upload changes, preview and apply them to the shared catalog. Everyone signed in is an admin for now. See [CSV update guide](docs/csv-updates.md).

@@ -28,5 +28,5 @@ jobs:
           cache: npm
           cache-dependency-path: webapp/package-lock.json
       - run: npm run install:ci
-      - run: node --experimental-strip-types --test tests/catalog.test.mjs
+      - run: node --experimental-strip-types --test tests/catalog.test.mjs tests/csv-updates.test.mjs
       - run: npm exec -- tsc --noEmit

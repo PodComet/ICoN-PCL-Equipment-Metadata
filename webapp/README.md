@@ -47,3 +47,22 @@ Purdue P flags identify the user's designated list, not independently verified o
 - Purdue P: https://www.purdue.edu/brand-studio/wp-content/mu-plugins/boilerup-wp/favicon/android-icon-192x192.png
 
 University marks remain the property of their respective institutions and are excluded from the repository MIT license. Their presence does not assert endorsement. ICoN-PCL logo supplied by the project owner; retained unchanged. The logo is excluded from the MIT license.
+
+
+## Shared CSV administration
+
+Open **Admin CSV updates** while signed in. Every authenticated user is temporarily an administrator; `app/admin-policy.ts` is the single policy function used by the UI and server. Site sharing remains unchanged.
+
+The admin screen downloads blank templates, shared data for editing, category/material/process references, and a full shared snapshot. Upload UTF-8 CSV, validate, review field-level differences, then apply. Blank cells preserve values; `[CLEAR]` removes values. Supported operations are `update`, `add_equipment`, and `add_variant`. The canonical column contract is `app/csv-updates.ts`.
+
+Imports update a shared D1 overlay and keep before/after import history. An atomic revision guard rejects stale/concurrent imports and rolls back the whole batch. Files support 1,000 rows, at most 100 changed records and 3 MB, with an additional 1.5 MB change-payload limit. No delete operation is provided. Manufacturer stars, source verification and Purdue markers cannot be assigned through CSV. New models/manual links remain unverified. Personal edits continue to override only changed personal fields.
+
+Migration `0001_light_speed_demon.sql` adds shared catalog and import-history tables. Apply it to an existing local database after building, using the same local D1 command shown above with the new filename. Hosted migrations are applied by Sites during publication. Exported shared snapshots can be reviewed for Git; imports never automatically commit to GitHub.
+
+Run CSV unit tests alongside catalog tests:
+
+```sh
+node --experimental-strip-types --test tests/catalog.test.mjs tests/csv-updates.test.mjs
+```
+
+With the local dev server running, `python tests/integration/admin_preview.py` checks mock sign-in, CSRF, preview without writes, multi-row application, invalid-batch rejection, shared visibility, concurrent conflicts and restoration. It is hardcoded to localhost and does not exercise or modify production.

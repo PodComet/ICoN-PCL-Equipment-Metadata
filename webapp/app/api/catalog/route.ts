@@ -1,11 +1,10 @@
 import { env } from "cloudflare:workers";
 import seed from "../../data/catalog.json";
 import { getChatGPTUser } from "../../chatgpt-auth";
-import { safeUrl, applyManufacturerAudit, type Equipment } from "../../catalog-lib";
+import { safeUrl, type Equipment } from "../../catalog-lib";
 
-const audited=(r:Equipment)=>applyManufacturerAudit(r,seed.manufacturers);
-const baseRecords = (seed.records as Equipment[]).map(audited);
-const byId = new Map(baseRecords.map(r => [r.equipment_id, r]));
+import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
+import {isCatalogAdmin} from "../../admin-policy";
 const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes"]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
@@ -13,17 +12,19 @@ function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); r
 export async function GET() {
   try {
     const user = await getChatGPTUser();
-    const rows = baseRecords.map(record => ({record, revision:0, updated_at:""}));
+    const shared=await loadSharedCatalog();
+    const byId=new Map(shared.records.map(r=>[r.equipment_id,r]));
+    const rows = shared.records.map(record => ({record, revision:0, updated_at:""}));
     if (user) {
       const edits = await db().prepare("SELECT equipment_id,payload,revision,updated_at FROM equipment_edits WHERE user_id=?").bind(user.userId).all<{equipment_id:string;payload:string;revision:number;updated_at:string}>();
       const indexes = new Map(rows.map((r,i) => [r.record.equipment_id,i]));
       for (const edit of edits.results) {
-        const row = {record:audited({...byId.get(edit.equipment_id),...JSON.parse(edit.payload)} as Equipment),revision:edit.revision,updated_at:edit.updated_at};
+        const row = {record:personalRecord(byId.get(edit.equipment_id),JSON.parse(edit.payload)),revision:edit.revision,updated_at:edit.updated_at};
         const index = indexes.get(edit.equipment_id);
         if (index !== undefined) rows[index] = row; else rows.push(row);
       }
     }
-    return json({rows,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,canEdit:!!user});
+    return json({rows,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,canEdit:!!user,canAdmin:isCatalogAdmin(user),sharedRevision:shared.revision});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);
@@ -46,8 +47,10 @@ export async function PUT(request: Request) {
     const creating = input.create_variant === true;
     const target = creating ? input.template_id : input.equipment_id;
     if (typeof target !== "string" || target.length>150) return json({error:"Select a catalog record."},400);
+    const shared=await loadSharedCatalog();
+    const byId=new Map(shared.records.map(r=>[r.equipment_id,r]));
     const saved = await db().prepare("SELECT payload,revision FROM equipment_edits WHERE user_id=? AND equipment_id=?").bind(user.userId,target).first<{payload:string;revision:number}>();
-    const original = saved ? {...byId.get(target),...JSON.parse(saved.payload)} as Equipment : byId.get(target);
+    const original = saved ? personalRecord(byId.get(target),JSON.parse(saved.payload)) : byId.get(target);
     if (!original) return json({error:"Equipment record was not found."},404);
     if (creating && input.expected_revision!==0) return json({error:"New variants start at revision zero."},400);
     const fields:Record<string,string>={};
@@ -82,6 +85,8 @@ export async function PUT(request: Request) {
       record.manual_status=record.manual_url?"user_entered_unverified":"not_found";
       record.manual_match_status="not_verified";
     }
+    const sharedBase=byId.get(record.equipment_id);
+    if(sharedBase)record._personal_fields=JSON.stringify([...EDITABLE].filter(k=>record[k]!==sharedBase[k]));
     const now=new Date().toISOString();
     const revision=input.expected_revision+1;
     const result=await db().prepare("INSERT INTO equipment_edits (user_id,equipment_id,payload,revision,updated_at) VALUES (?,?,?,?,?) ON CONFLICT(user_id,equipment_id) DO UPDATE SET payload=excluded.payload,revision=excluded.revision,updated_at=excluded.updated_at WHERE equipment_edits.revision=? RETURNING revision").bind(user.userId,record.equipment_id,JSON.stringify(record),revision,now,input.expected_revision).first<{revision:number}>();
