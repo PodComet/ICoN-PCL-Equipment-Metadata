@@ -1,4 +1,4 @@
-# Equipment comparison
+# ICoN-PCL Equipment Metadata
 
 Compare columns A and B of an Excel workbook or the first two columns of a CSV file. Produce a shared-machine list, unmatched lists, and a complete JSON audit trail with original values and spreadsheet row numbers.
 
