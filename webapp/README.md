@@ -66,3 +66,8 @@ node --experimental-strip-types --test tests/catalog.test.mjs tests/csv-updates.
 ```
 
 With the local dev server running, `python tests/integration/admin_preview.py` checks mock sign-in, CSRF, preview without writes, multi-row application, invalid-batch rejection, shared visibility, concurrent conflicts and restoration. It is hardcoded to localhost and does not exercise or modify production.
+
+
+The admin CSV screen is the second navigation tab. Administrators can also expand **Add machine profile** below the equipment-directory filters, review a manually entered instrument or variant, and apply it through the same shared CSV import endpoint and history.
+
+Directory filter menus support multiple selections. Choices in one list combine with OR; separate lists combine with AND. Option counts respect the search text, other filter groups, and manual/Purdue toggles, while ignoring their own group's current selection. Options with a positive count are bold; zero-count options remain selectable. Click choices to toggle them, Shift-click for contiguous ranges, Shift+Arrow keys to extend a keyboard range, and Escape to close the menu.

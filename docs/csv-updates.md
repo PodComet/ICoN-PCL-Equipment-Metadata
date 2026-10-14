@@ -40,3 +40,7 @@ update,M37-09,"Replace this with your reviewed note."
 Up to 1,000 CSV rows, 100 changed records, 3 MB per file, and a 1.5 MB combined before/after change payload. Large edits should be split into smaller files. Validation errors block the entire file. There is no deletion operation.
 
 Import history records the file name, actor, revision, timestamp and before/after changes. **Export shared snapshot** downloads the current shared records for review or a Git update. Imports persist in the app database and do not automatically commit to GitHub. The ordinary directory export may include personal edits; the admin export uses shared data only.
+
+## Manual entry
+
+The equipment directory has an admin-only **Add machine profile** section below the filter menus. Enter an instrument or variant, select **Review profile**, then **Add to shared catalog**. This form produces the same row format and calls the same preview/apply endpoints as CSV. It uses the same revision checks, verification rules and import history.

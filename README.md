@@ -104,3 +104,5 @@ After updating canonical CSV files, run `python catalog_tools.py` then `python s
 
 
 CSV updates are available through **Admin CSV updates**. Download the template or current data, upload changes, preview and apply them to the shared catalog. Everyone signed in is an admin for now. See [CSV update guide](docs/csv-updates.md).
+
+The Admin CSV screen is the second tab. Administrators can manually add shared machine profiles below the directory filters using the same ingestion pipeline. Filters support multiple choices, Shift-range selection, contextual counts, and bold labels when choices have matches.

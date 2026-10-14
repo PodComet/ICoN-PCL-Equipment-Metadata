@@ -16,11 +16,12 @@ export function csvText(records: Equipment[]) {
   }
   return "\ufeff" + [fields, ...records.map(r => fields.map(f => r[f] ?? ""))].map(row => row.map(cell).join(",")).join("\r\n") + "\r\n";
 }
-export function matches(row: CatalogRow, query: string, category: string, material: string, process: string, manualOnly: boolean, requestedOnly: boolean) {
+export function matches(row: CatalogRow, query: string, category: string|string[], material: string|string[], process: string|string[], manualOnly: boolean, requestedOnly: boolean) {
   const r = row.record;
-  return (!category || r.category_id === category) &&
-    (!material || r.related_material_ids?.split(";").includes(material)) &&
-    (!process || r.related_process_ids?.split(";").includes(process)) &&
+  const picked=(value:string|string[])=>Array.isArray(value)?value:value?[value]:[];
+  return (!picked(category).length || picked(category).includes(r.category_id)) &&
+    (!picked(material).length || picked(material).some(id=>r.related_material_ids?.split(";").includes(id))) &&
+    (!picked(process).length || picked(process).some(id=>r.related_process_ids?.split(";").includes(id))) &&
     (!manualOnly || r.manual_match_status === VERIFIED) &&
     (!requestedOnly || r.purdue_list === "true") &&
     query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.product_family,r.variant_label,r.category_id,r.category_name,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes].join(" ").toLowerCase().includes(word));
@@ -62,4 +63,24 @@ export function applyManufacturerAudit(r: Equipment, brands: Record<string,strin
  for(const field of ["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date"])
   result["manufacturer_"+field]=brand?.[field] || (field.endsWith("status")?"needs_review":"");
  return result;
+}
+
+export type FilterState={query:string;category:string[];material:string[];process:string[];manufacturer:string[];manualOnly:boolean;requestedOnly:boolean};
+export function filterRows(rows:CatalogRow[],f:FilterState,omit?:"category"|"material"|"process"|"manufacturer"){
+ return rows.filter(row=>matches(row,f.query,omit==="category"?[]:f.category,omit==="material"?[]:f.material,omit==="process"?[]:f.process,f.manualOnly,f.requestedOnly)&&(omit==="manufacturer"||!f.manufacturer.length||f.manufacturer.includes(row.record.manufacturer)));
+}
+export function filterCounts(rows:CatalogRow[],f:FilterState,key:"category"|"material"|"process"|"manufacturer"){
+ const counts=new Map<string,number>();
+ for(const row of filterRows(rows,f,key)){
+  const r=row.record,values=key==="category"?[r.category_id]:key==="manufacturer"?[r.manufacturer]:(r[key==="material"?"related_material_ids":"related_process_ids"]||"").split(";").filter(Boolean);
+  for(const value of new Set(values))counts.set(value,(counts.get(value)||0)+1);
+ }
+ return counts;
+}
+
+export function rangeSelection(values:string[],options:string[],anchor:string|null,target:string,selected:boolean){
+ const start=anchor?options.indexOf(anchor):-1,end=options.indexOf(target);
+ const range=start>=0&&end>=0?options.slice(Math.min(start,end),Math.max(start,end)+1):[target];
+ const next=new Set(values);for(const value of range)if(selected)next.add(value);else next.delete(value);
+ return [...next];
 }

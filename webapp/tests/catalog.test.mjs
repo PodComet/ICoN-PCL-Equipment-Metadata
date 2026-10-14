@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation,verifiedManufacturer,applyManufacturerAudit} from '../app/catalog-lib.ts';
+import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation,verifiedManufacturer,applyManufacturerAudit,filterRows,filterCounts,rangeSelection} from '../app/catalog-lib.ts';
 
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const rows=seed.records.map(record=>({record,revision:0}));
@@ -74,4 +74,20 @@ test('green stars require both official presence and independent research eviden
  const changed=applyManufacturerAudit({...r,manufacturer:'Unknown',manufacturer_research_use_status:'documented_research_use'},[]);
  assert.equal(verifiedManufacturer(changed),false);
  assert.equal(changed.manufacturer_official_website_url,'');
+});
+
+test('multi-select filters use OR inside each list and AND across lists',()=>{
+ const filters={query:'',category:['M13','M37'],manufacturer:['Eppendorf','Proto'],material:[],process:[],manualOnly:false,requestedOnly:false};
+ assert.equal(filterRows(rows,filters).length,6);
+ const narrowed=filterRows(rows,{...filters,material:['N06']});
+ assert.equal(narrowed.length,4);assert.ok(narrowed.every(r=>r.record.manufacturer==='Eppendorf'));
+});
+test('option counts respect other filters without constraining their own list',()=>{
+ const filters={query:'',category:['M37'],manufacturer:['Eppendorf'],material:[],process:[],manualOnly:false,requestedOnly:false};
+ assert.equal(filterRows(rows,filters).length,0);
+ const counts=filterCounts(rows,filters,'category');assert.equal(counts.get('M13'),4);assert.equal(counts.get('M37')||0,0);
+});
+test('shift selection adds or removes a contiguous range and preserves unrelated selections',()=>{
+ assert.deepEqual(rangeSelection(['z'],['a','b','c','d'],'a','c',true),['z','a','b','c']);
+ assert.deepEqual(rangeSelection(['z','a','b','c'],['a','b','c','d'],'b','c',false),['z','a']);
 });
