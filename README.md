@@ -92,3 +92,12 @@ Install `requirements-dev.txt`, run `python -m pytest -q`, and regenerate exampl
 ## Data handling
 
 The original workbook and its detailed reports stay local by default. Only synthetic examples are included in Git. Before deliberately adding private inputs or reports, review their content and repository access. Code and synthetic examples are available under the MIT License. This license does not grant rights to any separately supplied equipment inventory.
+
+
+## Nanomaterial Equipment Ontology app
+
+The searchable and editable app source is in [webapp/](webapp/README.md). It presents equipment-family cards, model/capacity variant tabs, manual evidence, MSRP provenance fields, material/process filters, and CSV export. The header carries the supplied ICoN-PCL logo and official Drexel University and Purdue University marks. User-designated equipment is bold and marked with Purdue P.
+
+[Open the private app](https://icon-pcl-equipment-metadata.loyal-trout-0175.chatgpt.site). Signed-in edits are account-specific and persistent; export CSV to review changes for Git. The public seed database remains in `catalog/`. No MSRP values are invented; unsourced prices remain blank.
+
+After updating canonical CSV files, run `python catalog_tools.py` then `python scripts/build_app_data.py` and rebuild the app. University and ICoN-PCL logos are excluded from the MIT license.
