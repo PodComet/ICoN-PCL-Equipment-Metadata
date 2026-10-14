@@ -5,7 +5,7 @@ import { safeUrl, type Equipment } from "../../catalog-lib";
 
 const baseRecords = seed.records as Equipment[];
 const byId = new Map(baseRecords.map(r => [r.equipment_id, r]));
-const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes"]);
+const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes"]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
 
@@ -17,7 +17,7 @@ export async function GET() {
       const edits = await db().prepare("SELECT equipment_id,payload,revision,updated_at FROM equipment_edits WHERE user_id=?").bind(user.userId).all<{equipment_id:string;payload:string;revision:number;updated_at:string}>();
       const indexes = new Map(rows.map((r,i) => [r.record.equipment_id,i]));
       for (const edit of edits.results) {
-        const row = {record:JSON.parse(edit.payload) as Equipment,revision:edit.revision,updated_at:edit.updated_at};
+        const row = {record:{...byId.get(edit.equipment_id),...JSON.parse(edit.payload)} as Equipment,revision:edit.revision,updated_at:edit.updated_at};
         const index = indexes.get(edit.equipment_id);
         if (index !== undefined) rows[index] = row; else rows.push(row);
       }
@@ -46,7 +46,7 @@ export async function PUT(request: Request) {
     const target = creating ? input.template_id : input.equipment_id;
     if (typeof target !== "string" || target.length>150) return json({error:"Select a catalog record."},400);
     const saved = await db().prepare("SELECT payload,revision FROM equipment_edits WHERE user_id=? AND equipment_id=?").bind(user.userId,target).first<{payload:string;revision:number}>();
-    const original = saved ? JSON.parse(saved.payload) as Equipment : byId.get(target);
+    const original = saved ? {...byId.get(target),...JSON.parse(saved.payload)} as Equipment : byId.get(target);
     if (!original) return json({error:"Equipment record was not found."},404);
     if (creating && input.expected_revision!==0) return json({error:"New variants start at revision zero."},400);
     const fields:Record<string,string>={};
@@ -57,7 +57,7 @@ export async function PUT(request: Request) {
     }
     const record:Equipment = {...original,...fields};
     if (!record.model_name || !record.variant_label || !record.product_family) return json({error:"Model name, product family and variant label are required."},400);
-    for (const field of ["manual_url","price_source_url"]) {
+    for (const field of ["manual_url","technical_spec_url","image_url","image_source_url","price_source_url"]) {
       if (record[field] && !safeUrl(record[field])) return json({error:`${field} must be an http or https URL.`},400);
     }
     if (record.capacity_ml && (!Number.isFinite(Number(record.capacity_ml)) || Number(record.capacity_ml)<=0)) return json({error:"Capacity must be a positive number of mL."},400);
@@ -70,6 +70,7 @@ export async function PUT(request: Request) {
     if (record.related_material_ids.split(";").filter(Boolean).some(id=>!validMaterials.has(id)) || record.related_process_ids.split(";").filter(Boolean).some(id=>!validProcesses.has(id))) return json({error:"Select valid material and process IDs."},400);
     if (creating) {
       record.equipment_id="USER-"+crypto.randomUUID();
+      record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";
       record.catalog_scope="user_variant";record.record_kind="user_variant";
       record.source_pdf="";record.source_page="";record.source_sha256="";
       record.model_status="user_entered";record.model_evidence_status="candidate_needs_review";record.model_evidence_url="";

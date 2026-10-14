@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {csvText,groupRows,matches,safeUrl,VERIFIED} from '../app/catalog-lib.ts';
+import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation} from '../app/catalog-lib.ts';
 
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const rows=seed.records.map(record=>({record,revision:0}));
@@ -36,4 +36,27 @@ test('external URLs and spreadsheet exports reject executable prefixes',()=>{
  assert.ok(csv.startsWith('\ufeff'));
  assert.ok(csv.includes("'=HYPERLINK"));
  assert.ok(csv.includes('"a,b\nsecond line"'));
+});
+
+test('exact MSRP takes priority over clearly marked class estimates',()=>{
+ const r={equipment_id:'price-test',model_name:'Test',estimated_msrp_low:'5000',estimated_msrp_high:'20000',estimate_currency:'USD'};
+ assert.deepEqual(pricePresentation(r),{label:'Estimated MSRP*',value:'$5,000–$20,000',estimated:true});
+ const actual=pricePresentation({...r,msrp_value:'7500',msrp_currency:'USD'});
+ assert.equal(actual.estimated,false);assert.equal(actual.label,'MSRP');assert.equal(actual.value,'$7,500');
+});
+test('card documentation selects manual before specifications and rejects unsafe URLs',()=>{
+ const r={equipment_id:'doc-test',model_name:'Test',manual_url:'https://example.com/manual',manual_match_status:VERIFIED,technical_spec_url:'https://example.com/spec'};
+ assert.equal(documentationLink(r).label,'Operating manual');
+ assert.equal(documentationLink({...r,manual_url:'javascript:bad'}).label,'Technical specifications');
+ assert.equal(documentationLink({...r,manual_url:'',technical_spec_url:''}),null);
+});
+
+test('every class has explicit estimates and component estimates avoid full-system bands',()=>{
+ assert.ok(seed.records.every(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low)&&r.estimate_basis&&r.estimate_source_urls));
+ const mobile=seed.records.find(r=>r.equipment_id==='REQ-EQ-043');
+ assert.equal(mobile.estimate_subject,'Research mobile base, excluding robot arm');
+ assert.ok(Number(mobile.estimated_msrp_high)<25000);
+ const cell=seed.records.find(r=>r.equipment_id==='REQ-EQ-027');
+ assert.match(cell.estimate_subject,/excluding potentiostat/);
+ assert.ok(seed.records.filter(r=>r.image_url).every(r=>safeUrl(r.image_url)&&safeUrl(r.image_source_url)&&r.image_scope));
 });

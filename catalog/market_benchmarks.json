@@ -1,0 +1,420 @@
+{
+  "checked_date": "2026-10-13",
+  "currency": "USD",
+  "policy": "All class estimate figures are analyst estimates, not manufacturer MSRP for catalog models. Show an asterisk and basis/source link; tax, freight, installation and service excluded. Quote-only sources do not support numeric estimates. Do not propagate one class anchor to unrelated equipment.",
+  "anchors": [
+    {
+      "anchor_id": "analytical-balance",
+      "category_ids": [
+        "M01"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://ussolid.com/products/u-s-solid-0-1-mg-analytical-balance-320g-x-0-0001-g-electronic-scale-for-lab-science",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "USS-DBS72-3.2",
+          "amount": 519.32,
+          "kind": "listed_selling_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 400,
+      "analyst_class_estimate_high": 5000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Entry-level 0.1 mg comparator; premium models can exceed the range. Upper bound is an analyst allowance, not a published bound."
+    },
+    {
+      "anchor_id": "hotplate-stirrer",
+      "category_ids": [
+        "M02"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "RH lite",
+          "amount": 442,
+          "kind": "list_price"
+        },
+        {
+          "model": "RCT basic",
+          "amount": 1078,
+          "kind": "list_price"
+        },
+        {
+          "model": "RET control-visc",
+          "amount": 1933,
+          "kind": "list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 400,
+      "analyst_class_estimate_high": 2500,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Single-position laboratory hotplate stirrers; exclude multi-position or industrial systems."
+    },
+    {
+      "anchor_id": "overhead-stirrer",
+      "category_ids": [
+        "M03"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "MICROSTAR 7.5 digital",
+          "amount": 1309,
+          "kind": "list_price"
+        },
+        {
+          "model": "EUROSTAR 100 digital",
+          "amount": 3648,
+          "kind": "list_price"
+        },
+        {
+          "model": "RW47 digital Package",
+          "amount": 12375,
+          "kind": "list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 1300,
+      "analyst_class_estimate_high": 13000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Drive/package scope varies; stand and shaft may be additional."
+    },
+    {
+      "anchor_id": "planetary-mill",
+      "category_ids": [
+        "M12"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills.html",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "PQN04",
+          "amount": 4490,
+          "kind": "listed_price"
+        },
+        {
+          "model": "PQN2-A",
+          "amount": 18990,
+          "kind": "listed_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 4000,
+      "analyst_class_estimate_high": 20000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Laboratory mills; jars, media and atmosphere accessories vary."
+    },
+    {
+      "anchor_id": "benchtop-centrifuge",
+      "category_ids": [
+        "M13"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.thomassci.com/p/universal-320-benchtop-centrifuges",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Hettich UNIVERSAL 320 115V",
+          "amount": 8908.62,
+          "kind": "vendor_list_price"
+        },
+        {
+          "model": "Hettich UNIVERSAL 320R plate package",
+          "amount": 21880.26,
+          "kind": "vendor_list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 5000,
+      "analyst_class_estimate_high": 25000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "General-purpose benchtop/refrigerated class. Mini centrifuges are cheaper; rotor/package scope varies."
+    },
+    {
+      "anchor_id": "ultracentrifuge",
+      "category_ids": [
+        "M14"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.beckman.com.au/centrifuges/ultracentrifuges/optima-max-xp",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [],
+      "source_status": "quote_only",
+      "analyst_class_estimate_low": null,
+      "analyst_class_estimate_high": null,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "No current numeric price obtained; obtain vendor quotation before budgeting.",
+      "scope_note": "Official current product page requests quote. No numeric current price established."
+    },
+    {
+      "anchor_id": "tube-furnace",
+      "category_ids": [
+        "M20"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.acrossinternational.com/shop-product-by-categories/lab-furnaces/rotary-tube-furnaces.html",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "RTF1200.25",
+          "amount": 6590,
+          "kind": "listed_price"
+        },
+        {
+          "model": "RTF1200AF",
+          "amount": 31990,
+          "kind": "listed_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 6000,
+      "analyst_class_estimate_high": 35000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "1200 °C rotary/tilting laboratory comparators, not exact equivalents to every stationary or 1800 °C furnace."
+    },
+    {
+      "anchor_id": "high-temp-furnace",
+      "category_ids": [
+        "M19",
+        "M20"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.acrossinternational.com/",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "VTF1700 1700C vertical tube furnace",
+          "amount": 15690,
+          "kind": "listed_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 10000,
+      "analyst_class_estimate_high": 40000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "1700 °C laboratory comparator. Range is an analyst allowance; pressure, hot-zone size and atmosphere controls may change cost substantially."
+    },
+    {
+      "anchor_id": "uv-vis",
+      "category_ids": [
+        "M35"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.thomassci.com/p/uv/vis-excellence-spectrophotometers",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Mettler UV5",
+          "amount": 17158.42,
+          "kind": "vendor_list_price"
+        },
+        {
+          "model": "Mettler UV5Bio",
+          "amount": 18630.92,
+          "kind": "vendor_list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 5000,
+      "analyst_class_estimate_high": 25000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Benchtop UV-visible class, not fluorescence/Raman/FTIR."
+    },
+    {
+      "anchor_id": "uv-vis-basic",
+      "category_ids": [
+        "M35"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.thomassci.com/p/73-series-visible-spectrophotometers",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Jenway7305 UV-visible",
+          "amount": 8579.38,
+          "kind": "vendor_list_price"
+        },
+        {
+          "model": "Jenway7315 UV-visible",
+          "amount": 9930.57,
+          "kind": "vendor_list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 5000,
+      "analyst_class_estimate_high": 15000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Entry/routine laboratory benchtop comparator."
+    },
+    {
+      "anchor_id": "vortex",
+      "category_ids": [
+        "M50"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Vortex1",
+          "amount": 406,
+          "kind": "list_price"
+        },
+        {
+          "model": "VORTEX3",
+          "amount": 823,
+          "kind": "list_price"
+        },
+        {
+          "model": "MS3 control",
+          "amount": 1070,
+          "kind": "list_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 400,
+      "analyst_class_estimate_high": 1500,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Single laboratory vortex mixers; accessories extra."
+    },
+    {
+      "anchor_id": "robot-arm",
+      "category_ids": [],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://standardbots.com/use-cases/case-packing",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Core arm",
+          "amount": 37000,
+          "kind": "manufacturer_list_price"
+        },
+        {
+          "model": "Thor arm",
+          "amount": 49500,
+          "kind": "manufacturer_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 25000,
+      "analyst_class_estimate_high": 75000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Arm-level class comparator. End effectors, mobile platforms, integration, safety equipment and dual-arm configurations excluded."
+    },
+    {
+      "anchor_id": "sputter-deposition",
+      "category_ids": [
+        "M23"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://mtixtl.com/collections/sputtering",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [],
+      "source_status": "quote_only",
+      "analyst_class_estimate_low": null,
+      "analyst_class_estimate_high": null,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "No current numeric price obtained; obtain vendor quotation before budgeting.",
+      "scope_note": "Complete coater listings are RFQ. The $2998 listed item is a sputter SOURCE component, not a complete coater; must not be used as system MSRP."
+    },
+    {
+      "anchor_id": "freeze-dryer",
+      "category_ids": [
+        "M17"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.acrossinternational.com/all-products",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Harvest Right medium pharmaceutical",
+          "amount": 3845,
+          "sale_price": 3295,
+          "kind": "regular_and_sale_price"
+        },
+        {
+          "model": "Harvest Right large pharmaceutical",
+          "amount": 4845,
+          "sale_price": 4095,
+          "kind": "regular_and_sale_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 3000,
+      "analyst_class_estimate_high": 15000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Entry benchtop freeze-dryer comparator only. Research shelf-temperature-controlled or pilot systems can cost more."
+    },
+    {
+      "anchor_id": "dry-vacuum",
+      "category_ids": [
+        "M31"
+      ],
+      "currency": "USD",
+      "checked_date": "2026-10-13",
+      "source_url": "https://www.acrossinternational.com/all-products",
+      "source_type": "manufacturer_or_selling_vendor",
+      "observed_prices": [
+        {
+          "model": "Anest Iwata10MV-70z",
+          "amount": 1490,
+          "kind": "regular_price"
+        },
+        {
+          "model": "Pfeiffer HiScroll12",
+          "amount": 8260,
+          "kind": "listed_price"
+        },
+        {
+          "model": "Pfeiffer HiScroll46",
+          "amount": 11800,
+          "kind": "listed_price"
+        }
+      ],
+      "source_status": "published_price",
+      "analyst_class_estimate_low": 1000,
+      "analyst_class_estimate_high": 15000,
+      "estimate_label": "Estimated MSRP* — comparable instrument class",
+      "estimate_basis": "Analyst-rounded class budgeting range anchored to listed comparable new equipment; not this model MSRP.",
+      "scope_note": "Dry low-vacuum and scroll pump class; not a complete high-vacuum/turbomolecular pumping station."
+    }
+  ],
+  "unresolved": [
+    "No defensible current primary numerical anchors found for SEM/TEM/AFM, FTIR/Raman, ALD/CVD cluster systems, high-end ultracentrifuges, nanoimprint/EBL in this research pass. Keep numerical estimates pending additional evidence rather than assign generic prices.",
+    "Vendor price visibility and configurations may change. A dated historical government Beckman price list exists but is not a current market MSRP benchmark."
+  ]
+}

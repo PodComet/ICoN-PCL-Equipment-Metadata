@@ -6,7 +6,9 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 
 - 631 equipment records, grouped into product-family cards with variant tabs.
 - Search and filters for equipment family, materials, processes, manufacturer, manual evidence, and the user-designated Purdue list.
-- Manual links and scope, dated MSRP fields, material/process relationships and source provenance.
+- Prominent equipment-class headings; manufacturer photos where found, with exact/family captions and source links.
+- Direct card links to manuals, technical specifications or product references.
+- Manual links and scope, exact MSRP fields and asterisked class-equivalent estimates, material/process relationships and source provenance.
 - Signed-in, account-specific persistent edits and added variants, protected by revision checks. CSV export includes your saved edits. Browser changes do not automatically commit to GitHub.
 - The deployed app is owner-private. The code and curated CSV seed are public. The original inventory workbook and PDF are not redistributed.
 
@@ -32,7 +34,7 @@ Canonical data lives in the repository `catalog/` directory. From the repository
 
 ## Evidence limits
 
-Ten core research examples are retained per active M category. Some are candidates awaiting verification. There are 102 checked operating-manual associations; the interface distinguishes source-reported, unresolved and unverified documents. No sourced MSRP amounts have been recorded yet. Material/process links are curated planning relationships and do not establish installed model suitability.
+Ten core research examples are retained per active M category. Some are candidates awaiting verification. There are 102 checked operating-manual associations; the interface distinguishes source-reported, unresolved and unverified documents. No exact manufacturer MSRP amounts have been recorded yet. The UI shows asterisked class-equivalent estimate ranges where exact MSRP is absent; estimates use separate fields and preserve low/medium confidence, assumptions, dated sources and component-specific overrides. They are planning judgments, not vendor quotes. Material/process links are curated planning relationships and do not establish installed model suitability.
 
 Purdue P flags identify the user's designated list, not independently verified ownership or access. Newly added variants do not inherit that marker or verified documentation status.
 

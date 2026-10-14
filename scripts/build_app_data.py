@@ -14,6 +14,13 @@ def main():
         ("records", "equipment"), ("categories", "categories"),
         ("routes", "routes"), ("steps", "route_steps")
     ]}
+    class_prices = {r["category_id"]: r for r in read_csv("category_price_estimates")}
+    overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
+    for record in data["records"]:
+        estimate = class_prices.get(record["category_id"], {})
+        record.update({k: v for k, v in estimate.items() if k.startswith("estimate")})
+        record["estimate_subject"] = record["category_name"]
+        record.update({k: v for k, v in overrides.get(record["equipment_id"], {}).items() if k != "equipment_id"})
     data["coverage"] = json.loads((ROOT / "catalog/coverage.json").read_text(encoding="utf-8"))
     output = ROOT / "webapp/app/data/catalog.json"
     output.parent.mkdir(parents=True, exist_ok=True)

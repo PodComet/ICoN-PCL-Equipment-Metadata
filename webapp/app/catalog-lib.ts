@@ -33,3 +33,20 @@ export function groupRows(rows: CatalogRow[]) {
   }
   return [...groups.values()];
 }
+
+export function documentationLink(r: Equipment) {
+  if (safeUrl(r.manual_url)) return {url: safeUrl(r.manual_url), label: r.manual_match_status === VERIFIED ? "Operating manual" : "Manual / document"};
+  if (safeUrl(r.technical_spec_url)) return {url: safeUrl(r.technical_spec_url), label: "Technical specifications"};
+  if (safeUrl(r.documentation_url)) return {url: safeUrl(r.documentation_url), label: "Technical document"};
+  if (safeUrl(r.model_evidence_url)) return {url: safeUrl(r.model_evidence_url), label: "Product details"};
+  return null;
+}
+export function pricePresentation(r: Equipment) {
+  const format = (value: string, currency = "USD") => {
+    try {return new Intl.NumberFormat("en-US", {style:"currency",currency,maximumFractionDigits:0}).format(Number(value));}
+    catch {return currency + " " + value;}
+  };
+  if (r.msrp_value) return {label:"MSRP",value:format(r.msrp_value,r.msrp_currency),estimated:false};
+  if (r.estimated_msrp_low && r.estimated_msrp_high) return {label:"Estimated MSRP*",value:format(r.estimated_msrp_low,r.estimate_currency)+"–"+format(r.estimated_msrp_high,r.estimate_currency),estimated:true};
+  return {label:"MSRP",value:"Not recorded",estimated:false};
+}
