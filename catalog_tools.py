@@ -48,6 +48,35 @@ def validate_model_lifecycle(equipment, reviews):
     return dict(sorted(Counter(r["lifecycle_status"] for r in reviews).items()))
 
 
+def validate_product_families(equipment, memberships):
+    """Validate presentation membership without merging instrument evidence."""
+    by_id = {r['equipment_id']: r for r in equipment}
+    assert len(memberships) == len({r['equipment_id'] for r in memberships}), 'Duplicate family membership'
+    families, variants = {}, {}
+    for member in memberships:
+        eid = member['equipment_id']
+        assert eid in by_id, 'Unknown family equipment ID: ' + eid
+        assert all(member[k] == by_id[eid][k] for k in ['manufacturer', 'model_name']), 'Family identity mismatch: ' + eid
+        assert all(member[k].strip() for k in ['product_family_id', 'product_family', 'variant_label', 'model_variant_id', 'grouping_basis'])
+        assert member['variant_sort_order'].isdigit() and int(member['variant_sort_order']) > 0
+        assert date.fromisoformat(member['review_date']).isoformat() == member['review_date']
+        if member['grouping_source_url']:
+            parsed = urlparse(member['grouping_source_url'])
+            assert parsed.scheme in {'http', 'https'} and parsed.netloc
+        families.setdefault(member['product_family_id'], set()).add(member['product_family'])
+        variants.setdefault(member['model_variant_id'], []).append(member)
+    assert all(len(titles) == 1 for titles in families.values()), 'Inconsistent family title'
+    for members in variants.values():
+        if len(members) < 2:
+            continue
+        originals = [by_id[m['equipment_id']] for m in members]
+        assert len({r['category_id'] for r in originals}) == len(originals), 'Duplicate chip within category'
+        assert all(len({r[k] for r in originals}) == 1 for k in ['manufacturer', 'model_name', 'capacity_ml']), 'Alias conflates different models'
+        assert len({m['product_family_id'] for m in members}) == 1
+        assert len({m['variant_label'] for m in members}) == 1
+    return len(families)
+
+
 def inspect_catalog(root=ROOT):
     folder = Path(root) / "catalog"
     equipment = load_csv(folder / "equipment.csv")
@@ -59,6 +88,7 @@ def inspect_catalog(root=ROOT):
     manufacturers = load_csv(folder / "manufacturers.csv")
     aliases = load_csv(folder / "category_aliases.csv")
     validate_model_lifecycle(equipment, load_csv(folder / "model_lifecycle.csv"))
+    validate_product_families(equipment, load_csv(folder / 'product_families.csv'))
     assert {r["manufacturer"] for r in manufacturers} == {r["manufacturer"] for r in equipment}
     assert len(manufacturers) == len({r["manufacturer"] for r in manufacturers})
     for brand in manufacturers:

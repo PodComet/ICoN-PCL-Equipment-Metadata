@@ -4,8 +4,9 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 
 ## Features
 
-- 631 equipment records, grouped into product-family cards with variant tabs.
-- Instrument cards with a photo appear before cards without photos, including after filtering. A newly opened card starts on a matching variant with a photo when available. Original ordering is retained within each group of cards, and variant-tab order is unchanged.
+- 632 instrument/category records presented as 535 product-family cards with selectable sub-model chips. Curated membership comes from `catalog/product_families.csv`, joined by the seed builder. Model-specific evidence, prices, photographs and unit identifiers are never merged. Existing canonical instrument IDs remain stable.
+- One chip represents an exact model listed in two categories; its detail view has a separate category-context selector. Filtering happens before grouping, so only matching sub-models and category contexts are shown. Evidence is read from the selected context, never promoted from another category.
+- Instrument cards with a photo appear before cards without photos, including after filtering. A newly opened card starts on a matching sub-model with a photo when available. Curated numeric chip order is stable; other chips retain their existing order.
 - Clickable equipment-type headings open the selected instrument detail card.
 - Green stars identify independently supported or owner-confirmed manufacturers and named vendors. Vendor stars identify the supplier explicitly and do not establish an underlying OEM. Manufacturer display names preserve the distinction between BUCHI Labortechnik and Büchi AG (buchiglasuster). Defunct makers have a visible status notice and source. Search includes the display name and vendor name; the canonical manufacturer keys and equipment IDs remain stable.
 - Search and filters for equipment family, materials, processes, manufacturer, manual evidence, and the user-designated Purdue list.
@@ -13,7 +14,7 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 - Prominent equipment-class headings; manufacturer photos where found, with exact/family captions and source links.
 - Direct card links to manuals, technical specifications or product references.
 - When a checked operating manual is unavailable, card and detail documentation links prefer a technical specification or brochure, then a product/document reference. Unreviewed linked manuals remain separately labeled in details. The optional `brochure_url` is editable through the form or CSV.
-- In instrument details, the model name immediately above Selected variant opens its manufacturer product page; family-only pages carry configuration scope. Multi-variant selection tabs remain separate controls.
+- In instrument details, the model name immediately above Selected sub-model opens its manufacturer product page; family-only pages carry configuration scope. Sub-model chips remain separate controls.
 - Published manufacturer list/sale/starting prices have their own six evidence fields and source links. Display priority is sourced exact MSRP, then a sourced manufacturer price, then the asterisked class-equivalent estimate. Where a manufacturer price is available, its broad class estimate is collapsed under a fallback disclosure in details. CSV imports, manual entry and personal editing validate the same published-price evidence requirements.
 - Manual links and scope, exact MSRP fields and asterisked class-equivalent estimates, material/process relationships and source provenance.
 - Signed-in, account-specific persistent edits and added variants, protected by revision checks. CSV export includes your saved edits. Browser changes do not automatically commit to GitHub.
@@ -38,6 +39,8 @@ npm exec -- tsc --noEmit
 ```
 
 Canonical data lives in the repository `catalog/` directory. From the repository root run `python scripts/build_app_data.py` after changing CSVs, then rebuild the app. The seed is deterministic; no network access is required to regenerate it.
+
+Family membership is reviewed explicitly rather than inferred from a common brand or name prefix. `product_families.csv` includes exact member identity, family and chip IDs, labels/order, previous display defaults, a grouping source/basis and date. Duplicate category profiles share `model_variant_id` only when their manufacturer/model/capacity match. Older saved snapshots acquire membership updates while custom labels and per-record content survive. New variants added in the form or CSV get an independent chip identity; changing manufacturer detaches an inherited family. The grouping registry is not a manual/model verification or a successor relationship. Historical audit reports retain their original card counts.
 
 Private inventory is a separate server-side dataset in `app/data/purdue-inventory.json`, linked by `equipment_id`. The public checkout supplies an empty array, never installed-equipment identifiers. The hosted owner-private source retains the user-supplied inventory. Only authenticated catalog responses include it; it is not imported into client code or public static assets. Preserve this distinction when synchronizing source. Model CSV imports do not change inventory entries or copy unit identities to new variants.
 

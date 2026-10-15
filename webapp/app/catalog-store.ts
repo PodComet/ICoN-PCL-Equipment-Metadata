@@ -8,9 +8,10 @@ import {refreshResearchEvidence} from "./research-policy";
 import linkReplacements from "./data/link-replacements.json";
 import {repairRetiredLinks} from "./link-policy";
 import {applyModelLifecycle} from './model-lifecycle';
+import {applyProductFamily} from './product-family-policy';
 
 export const seedById=new Map((seed.records as Equipment[]).map(r=>[r.equipment_id,r]));
-export const audited=(r:Equipment,protectedFields:string[]=[])=>applyModelLifecycle(applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers),seed.model_lifecycle);
+export const audited=(r:Equipment,protectedFields:string[]=[])=>applyProductFamily(applyModelLifecycle(applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers),seed.model_lifecycle),seed.product_families,protectedFields);
 export async function loadSharedCatalog(){
  const results=await env.DB!.batch([
   env.DB!.prepare("SELECT revision FROM catalog_meta WHERE id='shared'"),
@@ -24,7 +25,7 @@ export function personalRecord(base:Equipment|undefined,saved:Equipment):Equipme
  if(!base)return audited(saved);
  const original=seedById.get(base.equipment_id)||base;
  const explicit=saved._personal_fields?JSON.parse(saved._personal_fields) as string[]:null;
- const refreshed=refreshResearchEvidence(saved,researchUpdates,explicit||[]);
+ const refreshed=applyProductFamily(refreshResearchEvidence(saved,researchUpdates,explicit||[]),seed.product_families,explicit||[]);
  const fields=explicit||UPDATE_FIELDS.filter(k=>refreshed[k]!==undefined&&refreshed[k]!==original[k]);
  const record={...base};for(const key of fields)if(UPDATE_FIELDS.includes(key))record[key]=refreshed[key];
  if(fields.some(k=>["msrp_value","msrp_currency","price_source_url","price_checked_date"].includes(k)))record.price_status=record.msrp_value?"user_entered_msrp":"not_researched";

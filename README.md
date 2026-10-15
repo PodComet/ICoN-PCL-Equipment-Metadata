@@ -10,6 +10,8 @@ The catalog preserves the supplied PDF's M identifiers, nine material families, 
 
 Validate CSV edits and regenerate the readable view with `python catalog_tools.py`.
 
+The app presents the 632 instrument/category records as **535 family cards**, with selectable sub-model chips. The [family membership CSV](catalog/product_families.csv) records 29 additional curated families and repairs repeated chips for eight models listed in two categories. Each sub-model retains its own documents, photo, price, model status and inventory associations. A category-context selector preserves distinct materials/processes and evidence for the same model listed in multiple categories. The [dated grouping report](catalog/product_family_review_2026-10-15.json) records the 576-to-535 card consolidation; no instrument records were deleted.
+
 The latest [manufacturer link review](catalog/deep_link_review_2026-10-14.csv) updated 60 instruments across 27 categories, adding 44 product-page links, 47 specification links, 18 brochure links and 19 configuration-scoped published prices. See the [review audit](catalog/deep_link_review_2026-10-14.json) for source limitations and before/after evidence.
 
 The [academic reference database](docs/academic-references.md) contains 17 distinct supplied papers, with publication metadata, stable IDs, source-file checksums and scoped literature relationships. Browse them in the app's **Academic references** tab, oldest to newest, or use the [BibTeX](catalog/bibliography.bib), [RIS](catalog/bibliography.ris) and [CSL JSON](catalog/bibliography.csl.json) exports. The original article PDFs remain local. Background reading is distinguished from checked support for a specific claim.
