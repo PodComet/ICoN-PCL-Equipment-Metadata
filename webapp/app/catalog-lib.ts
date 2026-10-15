@@ -24,7 +24,7 @@ export function matches(row: CatalogRow, query: string, category: string|string[
     (!picked(process).length || picked(process).some(id=>r.related_process_ids?.split(";").includes(id))) &&
     (!manualOnly || r.manual_match_status === VERIFIED) &&
     (!requestedOnly || r.purdue_list === "true") &&
-    query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.product_family,r.variant_label,r.category_id,r.category_name,r.legacy_category_ids,r.equipment_subtype,r.source_record_id,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes,r.purdue_instrument_ids,r.purdue_serial_or_other_ids].join(" ").toLowerCase().includes(word));
+    query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.manufacturer_display_name,r.manufacturer_vendor_name,r.manufacturer_vendor_name?.replace(/\s/g,''),r.product_family,r.variant_label,r.category_id,r.category_name,r.legacy_category_ids,r.equipment_subtype,r.source_record_id,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes,r.purdue_instrument_ids,r.purdue_serial_or_other_ids].join(" ").toLowerCase().includes(word));
 }
 export function groupRows(rows: CatalogRow[]) {
   const groups = new Map<string, CatalogRow[]>();
@@ -94,14 +94,26 @@ export function manufacturerPrice(r:Equipment){
 }
 
 export function verifiedManufacturer(r: Equipment) {
- return ["verified_manufacturer","verified_brand"].includes(r.manufacturer_brand_identity_status) &&
+ return r.manufacturer_company_status !== 'defunct' && ["verified_manufacturer","verified_brand"].includes(r.manufacturer_brand_identity_status) &&
   !!safeUrl(r.manufacturer_official_website_url) &&
   (r.manufacturer_verification_basis==='user_confirmation'||(r.manufacturer_research_use_status === "documented_research_use" && !!safeUrl(r.manufacturer_research_evidence_url)));
+}
+export const MANUFACTURER_AUDIT_FIELDS=["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date","verification_basis","display_name","vendor_name","company_status","company_status_note","company_status_source_url"];
+export function manufacturerBadge(r:Equipment){
+ if(!verifiedManufacturer(r))return null;
+ const vendor=r.manufacturer_vendor_name;
+ const name=vendor||r.manufacturer_display_name||r.manufacturer;
+ const confirmed=r.manufacturer_verification_basis==='user_confirmation';
+ return {
+  href:safeUrl(confirmed?r.manufacturer_official_website_url:r.manufacturer_research_evidence_url),
+  label:confirmed?`User-confirmed ${vendor?'vendor':'manufacturer'}: ${name}`:`Verified brand and documented research use: ${name}`,
+  title:confirmed?`${vendor?'Vendor':'Manufacturer'} verified by project-owner confirmation. Open official website.`:'Official web presence and independent research use checked. Open research evidence.'
+ };
 }
 export function applyManufacturerAudit(r: Equipment, brands: Record<string,string>[]): Equipment {
  const brand=brands.find(b=>b.manufacturer===r.manufacturer);
  const result={...r};
- for(const field of ["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date","verification_basis"])
+ for(const field of MANUFACTURER_AUDIT_FIELDS)
   result["manufacturer_"+field]=brand?.[field] || (field.endsWith("status")?"needs_review":"");
  return result;
 }

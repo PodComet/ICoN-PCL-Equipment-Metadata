@@ -37,6 +37,13 @@ def inspect_catalog(root=ROOT):
             assert brand["official_website_url"]
         if brand["research_use_status"] == "documented_research_use":
             assert brand["research_evidence_url"]
+        assert brand.get("company_status", "") in {"", "active", "unknown", "defunct"}
+        if brand.get("company_status") == "defunct":
+            assert brand.get("company_status_note") and brand.get("company_status_source_url")
+            assert urlparse(brand["company_status_source_url"]).scheme in {"http", "https"}
+        if brand.get("vendor_name"):
+            assert brand["brand_identity_status"] == "verified_brand"
+            assert brand["official_website_url"] and brand["verification_basis"] == "user_confirmation"
     ids = [r["equipment_id"] for r in equipment]
     assert len(ids) == len(set(ids)), "Duplicate equipment identifiers"
     category_ids = {r["category_id"] for r in categories}

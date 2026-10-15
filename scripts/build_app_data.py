@@ -25,8 +25,9 @@ def main():
     overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
     for record in data["records"]:
         brand = brands[record["manufacturer"]]
-        for field in ["official_website_url", "brand_identity_status", "research_use_status", "research_evidence_url", "verification_notes", "review_date", "verification_basis"]:
-            record["manufacturer_" + field] = brand[field]
+        for field, value in brand.items():
+            if field != "manufacturer":
+                record["manufacturer_" + field] = value
         estimate = class_prices.get(record["category_id"], {})
         record.update({k: v for k, v in estimate.items() if k.startswith("estimate")})
         record["estimate_subject"] = record.get("equipment_subtype") or record["category_name"]
