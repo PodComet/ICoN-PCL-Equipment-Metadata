@@ -14,6 +14,8 @@
 | routes.csv | Nine material-family routes, eleven source manufacturing-process routes and two curated wet/dry etching capabilities |
 | route_steps.csv | All 109 ordered conceptual steps, preserving alternatives and concurrent equipment |
 | coverage.json | Generated counts, including unresolved documentation and model evidence |
+| deep_link_review_2026-10-14.csv | Sixty reviewed instruments: model-page, manual, specification, brochure and configuration-scoped price links |
+| deep_link_review_2026-10-14.json | Review findings, before/after field groups, URL-check results and coverage changes |
 
 Source: `Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf`. File hashes and source pages identify the supplied document without publishing its binary or local paths. The PDF intentionally excludes M52 and M55; they have not been silently recreated or renumbered. Source-PDF assertions are distinguished from independent checking. Source model records remain an archival provenance layer even where later research identifies a scope caveat.
 
@@ -37,6 +39,16 @@ python -m pytest -q
 ```
 
 The original XLSX and its matching reports remain excluded from Git. Manufacturer manuals remain external links; no third-party PDF manuals or images are redistributed here.
+
+## Manufacturer link review, 2026-10-14
+
+This pass updated 60 instruments across 27 categories, including ten Purdue-list profiles. Product-page coverage increased from 64 to 108 records, specification links from 36 to 83, brochure links from zero to 18, and published manufacturer prices from ten to 29. Checked operating-manual associations increased from 102 to 107. This is a focused pass, not a claim that every catalog record was reverified.
+
+Prices record the selected SKU or configuration, currency, date and source. Sale and published shop prices remain separate from explicit MSRP and class estimates. Search-index prices can be stale: the live Sartorius article page was used where the two differed. The EUROSTAR 20 URL now presents a newer generation; its current price is not assigned to the unresolved source identifier. Digital Vortex-Genie 2 has a product-linked document whose extracted scope remains unresolved, so it does not receive a checked-manual badge.
+
+Some manufacturer sites blocked automated requests with HTTP 403/465 while their model documents remained visible through official indexed sources. Those retrieval limits are recorded in the JSON audit; they are not reported as successful direct downloads. Obsolete PDF candidates returning 404/410 were replaced by official landing pages. Exact installed configurations, unspecified equipment and custom assemblies remain unresolved where evidence is missing.
+
+The app carries the review's before/after groups in `webapp/app/data/research-updates.json`. Old saved snapshots receive an update only when their fields still match the prior defaults. Custom manual/price evidence groups and explicitly edited personal fields are preserved. Keep earlier review groups when adding later review migrations.
 
 
 ## Photos and class-equivalent estimates

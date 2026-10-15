@@ -54,6 +54,17 @@ export function documentationLink(r: Equipment) {
   if(safeUrl(r.manual_url))return {url:safeUrl(r.manual_url),label:"Manual / document"};
   return null;
 }
+export function allDocumentationLinks(r:Equipment){
+ const links=[documentationLink(r),
+  {url:safeUrl(r.technical_spec_url),label:'Technical specifications'},
+  {url:safeUrl(r.brochure_url),label:'Brochure'},
+  safeUrl(r.manual_url)?{url:safeUrl(r.manual_url),label:r.manual_match_status===VERIFIED?'Operating manual':'Linked manual / document (needs review)'}:null];
+ const seen=new Set<string>();
+ return links.filter((link):link is {url:string;label:string}=>{
+  if(!link?.url||seen.has(link.url))return false;
+  seen.add(link.url);return true;
+ });
+}
 export function pricePresentation(r: Equipment) {
   const format = (value: string, currency = "USD") => {
     try {return new Intl.NumberFormat("en-US", {style:"currency",currency,maximumFractionDigits:0}).format(Number(value));}

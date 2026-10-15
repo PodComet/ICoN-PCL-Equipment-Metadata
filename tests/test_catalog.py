@@ -1,4 +1,5 @@
 import csv
+import json
 from pathlib import Path
 
 from catalog_tools import ROOT, inspect_catalog, load_csv, render_views
@@ -68,3 +69,21 @@ def test_generated_views_are_reproducible(tmp_path):
     render_views(tmp_path)
     for filename in ["catalog/coverage.json", "docs/requested-equipment.md"]:
         assert (ROOT / filename).read_bytes() == (tmp_path / filename).read_bytes()
+
+
+def test_manufacturer_link_review_matches_canonical_data_and_keeps_msrp_distinct():
+    ledger = json.loads((ROOT / 'catalog/deep_link_review_2026-10-14.json').read_text(encoding='utf-8'))
+    records = {r['equipment_id']: r for r in load_csv(ROOT / 'catalog/equipment.csv')}
+    review = load_csv(ROOT / 'catalog/deep_link_review_2026-10-14.csv')
+    assert len(review) == ledger['summary']['reviewed_records']
+    for update in ledger['updates']:
+        record = records[update['equipment_id']]
+        for group in update['groups']:
+            assert all(record[key] == value for key, value in group['after'].items())
+            assert not {'category_id', 'purdue_list', 'source_pdf', 'source_page'}.intersection(group['after'])
+    for finding in ledger['findings']:
+        if finding.get('price'):
+            for equipment_id in finding['ids']:
+                record = records[equipment_id]
+                assert record['manufacturer_price_scope'] and record['manufacturer_price_checked_date']
+                assert not record['msrp_value'], 'Published selling prices must not become asserted MSRP'

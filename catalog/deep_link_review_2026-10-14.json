@@ -1,0 +1,3061 @@
+{
+  "review_date": "2026-10-14",
+  "summary": {
+    "reviewed_records": 60,
+    "changed_records": 60,
+    "purdue_records_reviewed": 10,
+    "categories_reviewed": 27,
+    "before": {
+      "product_page_url": 64,
+      "technical_spec_url": 36,
+      "manual_url": 159,
+      "brochure_url": 0,
+      "manufacturer_price_value": 10,
+      "verified_operating_manual": 102
+    },
+    "after": {
+      "product_page_url": 108,
+      "technical_spec_url": 83,
+      "manual_url": 163,
+      "brochure_url": 18,
+      "manufacturer_price_value": 29,
+      "verified_operating_manual": 107
+    }
+  },
+  "method": "Official manufacturer model pages and documents. Published prices are configuration-scoped, not asserted MSRP. Family and generation uncertainty is preserved. HTTP failures are recorded separately from indexed manufacturer evidence; 403 does not establish a dead link. Obsolete 404/410 PDF candidates were replaced with current official landing pages.",
+  "findings": [
+    {
+      "ids": [
+        "M07-01"
+      ],
+      "product_page_url": "https://www.syringepump.com/NE-300.php",
+      "technical_spec_url": "https://www.syringepump.com/NE-300.php",
+      "brochure_url": "https://www.syringepump.com/download/NE-300Brochure.pdf",
+      "price": {
+        "value": "375",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "InfusionONE / 300-US pump; shipping and syringes excluded."
+      }
+    },
+    {
+      "ids": [
+        "M07-04"
+      ],
+      "product_page_url": "https://www.syringepump.com/NE-1000.php",
+      "technical_spec_url": "https://www.syringepump.com/NE-1000.php",
+      "price": {
+        "value": "825",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "1000-US / SyringeONE standard pump; syringes, plumbing, firmware upgrades and shipping excluded."
+      }
+    },
+    {
+      "ids": [
+        "M07-05"
+      ],
+      "product_page_url": "https://www.syringepump.com/NE-4000.php",
+      "technical_spec_url": "https://www.syringepump.com/NE-4000.php",
+      "brochure_url": "https://www.syringepump.com/download/NE-4000Brochure.pdf",
+      "price": {
+        "value": "1085",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "NE-4000-US two-channel pump; syringes, plumbing and firmware upgrades excluded."
+      }
+    },
+    {
+      "ids": [
+        "M09-01"
+      ],
+      "product_page_url": "https://www.sonicator.com/products/q125-sonicator",
+      "technical_spec_url": "https://www.sonicator.com/products/q125-sonicator",
+      "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q125_Manual.pdf",
+      "manual_scope": "Q125 operation manual, revision 5-23, 24 pages; official PDF linked from the manufacturer's manual directory. Installed generation must still be checked.",
+      "manual_sha256": "1fd74c13ac645530f09eaf8a67b46b4b92b414f7c73b073f263396849f0213b2",
+      "price": {
+        "value": "3560",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "Q125-110, 110 V with standard 1/8-inch probe; stand sold separately. Q125A without probe is a different configuration."
+      }
+    },
+    {
+      "ids": [
+        "M09-04"
+      ],
+      "product_page_url": "https://www.sonicator.com/products/q500-sonicator",
+      "technical_spec_url": "https://www.sonicator.com/products/q500-sonicator",
+      "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/q500-manual-rev-8-20.pdf?v=1599831057",
+      "manual_scope": "Q500 operation manual, revision 8-20, 30 pages; official PDF linked from manufacturer manual directory.",
+      "manual_sha256": "fe71db261d79ead0101f7eb2671bd82fbb278da7bc5521afabcf00a8d0b718fc",
+      "price": {
+        "value": "5300",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "Q500-110, 110 V with standard 1/2-inch probe; stand sold separately. Q500A without probe is a different configuration."
+      }
+    },
+    {
+      "ids": [
+        "M09-05"
+      ],
+      "product_page_url": "https://www.sonicator.com/products/q700-sonicator",
+      "technical_spec_url": "https://www.sonicator.com/products/q700-sonicator",
+      "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q700_MANUAL_8-20.pdf?v=1599074861",
+      "manual_scope": "Q700 operation manual, revision 8-20, 35 pages; official PDF linked from manufacturer manual directory.",
+      "manual_sha256": "e98ceea51a87e45140cfa0ed71c85516448c7d9cca208902e90e31d813bb5690",
+      "price": {
+        "value": "6100",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "Q700-110, 110 V with standard 1/2-inch probe; stand sold separately. Q700A without probe is a different configuration."
+      }
+    },
+    {
+      "ids": [
+        "M03-01"
+      ],
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/",
+      "product_page_scope": "Current EUROSTAR 20 digital page resolves to new-generation item 0020132593. The requested identifier 20105154 remains generation-unresolved; current price and specifications are not assigned as an exact match.",
+      "note": "Official current page has changed generation despite retaining 20105154 in its URL. No new price or manual verification assigned."
+    },
+    {
+      "ids": [
+        "M04-01"
+      ],
+      "product_page_url": "https://www.radleys.com/range/reactor-ready-lab-reactor/",
+      "technical_spec_url": "https://www.radleys.com/range/reactor-ready-lab-reactor/",
+      "product_page_scope": "Reactor-Ready Flex configurable system; vessel sizes and options are selected separately."
+    },
+    {
+      "ids": [
+        "M04-04"
+      ],
+      "product_page_url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/",
+      "technical_spec_url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/"
+    },
+    {
+      "ids": [
+        "M04-05"
+      ],
+      "product_page_url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/",
+      "technical_spec_url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/"
+    },
+    {
+      "ids": [
+        "M04-02"
+      ],
+      "brochure_url": "https://www.asynt.com/wp-content/uploads/2015/10/Asynt-ReactoMate-DATUM-Support-V1.1.pdf",
+      "note": "Official DATUM support brochure; identifies the support system rather than a fully specified reactor configuration."
+    },
+    {
+      "ids": [
+        "M11-03"
+      ],
+      "product_page_url": "https://silverson.com/products/laboratory-mixers",
+      "technical_spec_url": "https://www.silverson.com/images/uploads/products/Lab-Tech-Info.pdf",
+      "brochure_url": "https://silverson.com/images/uploads/documents/Silverson_Brochure_Laboratory_Mixers_US.pdf",
+      "product_page_scope": "Laboratory mixer page explicitly describes the L5M-A; mixing assemblies and options vary."
+    },
+    {
+      "ids": [
+        "M12-01"
+      ],
+      "product_page_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/",
+      "technical_spec_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/"
+    },
+    {
+      "ids": [
+        "M12-05"
+      ],
+      "product_page_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/",
+      "technical_spec_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/"
+    },
+    {
+      "ids": [
+        "M22-01"
+      ],
+      "product_page_url": "https://beneq.com/tfs200/",
+      "brochure_url": "https://beneq.com/wp-content/uploads/2022/11/beneq-tfs200-a4-brochure.pdf",
+      "product_page_scope": "Beneq TFS 200 configurable platform; options such as plasma and glovebox integration are not inferred for any installed unit."
+    },
+    {
+      "ids": [
+        "M22-02"
+      ],
+      "brochure_url": "https://arradiance.com/equipment/arr-850720-front-loading-tray-system.pdf",
+      "note": "Official GEMStar XT front-loading tray configuration sheet. ARR-850720 is one configuration, not proof of all XT options."
+    },
+    {
+      "ids": [
+        "M23-01"
+      ],
+      "product_page_url": "https://product.quorumtech.com/product/turboqs",
+      "technical_spec_url": "https://product.quorumtech.com/product/turboqs"
+    },
+    {
+      "ids": [
+        "M31-01"
+      ],
+      "product_page_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+      "technical_spec_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+      "product_page_scope": "nXDS10i part A73601983, 100-127/200-240 V, single-phase; accessory and pump variants differ."
+    },
+    {
+      "ids": [
+        "M31-02"
+      ],
+      "product_page_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump",
+      "technical_spec_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump"
+    },
+    {
+      "ids": [
+        "M33-01"
+      ],
+      "product_page_url": "https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f",
+      "technical_spec_url": "https://julabo.us/resources/data-sheet-for-corio-cd-600f/"
+    },
+    {
+      "ids": [
+        "M34-02"
+      ],
+      "product_page_url": "https://www.anton-paar.com/uk-en/products/details/litesizer/?sku=317782",
+      "brochure_url": "https://www.anton-paar.com/?L=0&document=75263&eID=documentsDownload",
+      "product_page_scope": "Litesizer DLS family page with DLS 701 selection (SKU 317782); sibling models appear in the same table."
+    },
+    {
+      "ids": [
+        "M36-02"
+      ],
+      "product_page_url": "https://www.thermofisher.com/fr/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-iS20-ftir-spectrometer.html",
+      "brochure_url": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf"
+    },
+    {
+      "ids": [
+        "M36-03"
+      ],
+      "brochure_url": "https://www.perkinelmer.com/library/bro-ir-ready-to-go-spectrum-two-ftir-spectrometer.html",
+      "note": "Official Spectrum Two brochure landing page replaces an obsolete PDF URL; a download form may be required."
+    },
+    {
+      "ids": [
+        "M37-01"
+      ],
+      "product_page_url": "https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english",
+      "product_page_scope": "Current MiniFlex family page includes historical MiniFlex600/Gen 5 information. Current configurations are not assumed to match a legacy 600."
+    },
+    {
+      "ids": [
+        "M38-01"
+      ],
+      "product_page_url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php",
+      "technical_spec_url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php"
+    },
+    {
+      "ids": [
+        "M38-03"
+      ],
+      "product_page_url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html",
+      "technical_spec_url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html",
+      "product_page_scope": "SU3800/SU3900 family page; use the SU3800 column for this record."
+    },
+    {
+      "ids": [
+        "M40-01"
+      ],
+      "product_page_url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/",
+      "technical_spec_url": "https://static.horiba.com/fileadmin/Horiba/Products/Scientific/Molecular_and_Microanalysis/LabRAM_Odyssey_R_/SPECSHEET-LabRAM_Odyssey.pdf",
+      "product_page_scope": "LabRAM Odyssey family; laser, objective and grating configurations affect specifications."
+    },
+    {
+      "ids": [
+        "M41-03"
+      ],
+      "product_page_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications",
+      "technical_spec_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications"
+    },
+    {
+      "ids": [
+        "M42-01"
+      ],
+      "product_page_url": "https://www.tainstruments.com/tga-5500/",
+      "technical_spec_url": "https://www.tainstruments.com/tga-5500/",
+      "brochure_url": "https://www.tainstruments.com/pdf/brochure/BROCH-DTGA-HP750.pdf"
+    },
+    {
+      "ids": [
+        "M42-02"
+      ],
+      "product_page_url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic",
+      "technical_spec_url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic"
+    },
+    {
+      "ids": [
+        "M45-02"
+      ],
+      "product_page_url": "https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595",
+      "product_page_scope": "BioFlo 120 controller family; vessel type, working volume and options must be matched separately."
+    },
+    {
+      "ids": [
+        "M57-01"
+      ],
+      "product_page_url": "https://www.gamry.com/potentiostats/reference/reference-620",
+      "technical_spec_url": "https://www.gamry.com/potentiostats/reference/reference-620",
+      "manual_url": "https://www.gamry.com/assets/Uploads-v2/Reference-620-Operators-Manual-v2.pdf",
+      "manual_scope": "Reference 620 operator manual revision 1.4 (March 19, 2025), 94 pages, document 988-00086. Official download filename uses v2, but the PDF itself states revision 1.4."
+    },
+    {
+      "ids": [
+        "M57-02"
+      ],
+      "technical_spec_url": "https://www.biologic.net/wp-content/uploads/2019/09/modular-stable-potentiostat_sp-200-sp-300.pdf",
+      "note": "Manufacturer specification sheet covers SP-200 and SP-300; use the SP-300 values."
+    },
+    {
+      "ids": [
+        "M61-01"
+      ],
+      "product_page_url": "https://plasma.oxinst.jp/products/rie/plasmapro-80-rie",
+      "brochure_url": "https://plasma.oxinst.jp/assets/uploads/products/plasma/documents/PlasmaPro-80-brochure.pdf",
+      "product_page_scope": "Official Japanese-language PlasmaPro 80 RIE page, with English platform brochure."
+    },
+    {
+      "ids": [
+        "REQ-EQ-019"
+      ],
+      "technical_spec_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_22/Content/prod-usr-man/complianceUR16e/H_g5_sections/appendix_g5/tech_spec_sheet.htm",
+      "note": "UR16e-specific manufacturer technical-specification page; no link substituted for the newer UR16 model."
+    },
+    {
+      "ids": [
+        "REQ-EQ-031"
+      ],
+      "technical_spec_url": "https://psylotech.com/wp-content/uploads/2023/08/uTS-2022.10.pdf",
+      "note": "Manufacturer uTS family data sheet; exact requested 200 Series configuration remains unresolved."
+    },
+    {
+      "ids": [
+        "REQ-EQ-032"
+      ],
+      "technical_spec_url": "https://psylotech.com/wp-content/uploads/2023/01/Temperature-2023.01.pdf",
+      "note": "Manufacturer temperature capabilities sheet explicitly includes prototype laser heating; exact supplied laser add-on remains unresolved."
+    },
+    {
+      "ids": [
+        "M01-02"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+      "price": {
+        "value": "4210",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA224-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-04"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+      "price": {
+        "value": "3420",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA64-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-05"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+      "price": {
+        "value": "3760",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA124-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-06"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+      "price": {
+        "value": "3760",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA64I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-07"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+      "price": {
+        "value": "4110",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA124I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-08"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+      "price": {
+        "value": "4550",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA224I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M01-09"
+      ],
+      "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+      "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+      "price": {
+        "value": "5010",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US manufacturer shop price for article BCA324I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+      },
+      "note": "Live manufacturer page price used rather than an older search-index price."
+    },
+    {
+      "ids": [
+        "M03-03"
+      ],
+      "product_page_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+      "technical_spec_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+      "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf",
+      "price": {
+        "value": "1764",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US OHS 40 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+      }
+    },
+    {
+      "ids": [
+        "M03-09"
+      ],
+      "product_page_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+      "technical_spec_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+      "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf",
+      "price": {
+        "value": "2566",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US OHS 60 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+      }
+    },
+    {
+      "ids": [
+        "M03-10"
+      ],
+      "product_page_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+      "technical_spec_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+      "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf",
+      "price": {
+        "value": "2860",
+        "currency": "USD",
+        "kind": "published_price",
+        "scope": "US OHS 100 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+      }
+    },
+    {
+      "ids": [
+        "M50-01"
+      ],
+      "product_page_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+      "technical_spec_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+      "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/7language-ltp0077-geniepulse.pdf?v=1768314348",
+      "manual_scope": "Manufacturer product-linked operating manual for SI-P236; confirm voltage and fitted attachments against the installed unit.",
+      "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/pulsegenie-ltp0075.pdf?v=1768314348",
+      "price": {
+        "value": "469.60",
+        "currency": "USD",
+        "kind": "sale_price",
+        "scope": "US storefront sale price for displayed SKU SI-P236; regular price is higher. Voltage, plug and attachment options must be checked."
+      },
+      "note": ""
+    },
+    {
+      "ids": [
+        "M50-04"
+      ],
+      "product_page_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+      "technical_spec_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+      "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/genie2-manual_1_2.pdf?v=1768313309",
+      "manual_scope": "Manufacturer product-linked operating manual for SI-0236; confirm voltage and fitted attachments against the installed unit.",
+      "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature.pdf?v=1768313308",
+      "price": {
+        "value": "345.60",
+        "currency": "USD",
+        "kind": "sale_price",
+        "scope": "US storefront sale price for displayed SKU SI-0236; regular price is higher. Voltage, plug and attachment options must be checked."
+      },
+      "note": ""
+    },
+    {
+      "ids": [
+        "M50-05"
+      ],
+      "product_page_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+      "technical_spec_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+      "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/ltp0057_digital_vg2-manual-rev_f-web.pdf?v=1768314145",
+      "manual_scope": "Official product-linked Digital Vortex-Genie 2 document, LTP0057; extracted PDF text is dominated by parts diagrams. Operating-manual content and exact generation require further review.",
+      "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature_1_2.pdf?v=1768314139",
+      "price": {
+        "value": "447.20",
+        "currency": "USD",
+        "kind": "sale_price",
+        "scope": "US storefront sale price for displayed SKU SI-A236; regular price is higher. Voltage, plug and attachment options must be checked."
+      },
+      "note": "Product title and SKU establish Digital Vortex-Genie 2. Storefront description repeats Pulse copy, so capabilities are checked against the model-specific manual.",
+      "manual_verified": false
+    },
+    {
+      "ids": [
+        "REQ-EQ-007"
+      ],
+      "technical_spec_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+      "note": "Official LUMEX Avance-25 page includes machine specifications; current standard/options need matching to installed generation."
+    },
+    {
+      "ids": [
+        "REQ-EQ-008"
+      ],
+      "technical_spec_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+      "note": "Base-model specifications only. Reactive configuration remains unverified and is not established by the base product page."
+    },
+    {
+      "ids": [
+        "REQ-EQ-013"
+      ],
+      "brochure_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+      "technical_spec_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+      "note": "Official model presentation includes VC-500A/5X specifications; not an operator manual."
+    },
+    {
+      "ids": [
+        "REQ-EQ-018"
+      ],
+      "product_page_url": "https://barrett.com/wam",
+      "technical_spec_url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+      "product_page_scope": "WAM arm family with 4-DOF and 7-DOF configurations; the installed DOF/tooling is not established here."
+    },
+    {
+      "ids": [
+        "REQ-EQ-020"
+      ],
+      "technical_spec_url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/"
+    },
+    {
+      "ids": [
+        "REQ-EQ-042"
+      ],
+      "technical_spec_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_20/Content/prod-usr-man/complianceUR12e/H_g5_sections/appendix_g5/tech_spec_data_12e.htm"
+    },
+    {
+      "ids": [
+        "REQ-EQ-044"
+      ],
+      "product_page_url": "https://www.fanucamerica.com/products/robot/crx-10ia",
+      "technical_spec_url": "https://www.fanucamerica.com/docs/default-source/crx-data-sheets/crx-10ia-data-sheet.pdf"
+    },
+    {
+      "ids": [
+        "M09-03"
+      ],
+      "product_page_url": "https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm",
+      "technical_spec_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP400St-HielscherUltrasonics_eng-13022024.pdf",
+      "product_page_scope": "Official German product page; English model-specific fact sheet supplied."
+    },
+    {
+      "ids": [
+        "M09-08"
+      ],
+      "product_page_url": "https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm",
+      "technical_spec_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP200St-HielscherUltrasonics_eng-13022024.pdf"
+    },
+    {
+      "ids": [
+        "M46-02"
+      ],
+      "manual_url": "https://www.elgalabwater.com/sites/default/files/2022-05/PURELAB%20Quest%20Operator%20Manual%20MANU41196%20Version%2002%202020%20ENG.pdf",
+      "manual_scope": "Manufacturer-hosted PURELAB Quest operator manual MANU41196 version 02 (2020), identified through official indexed documentation. Direct retrieval was blocked in this review; not newly verified.",
+      "technical_spec_url": "https://www.elgalabwater.com/products/purelab-quest",
+      "manual_verified": false
+    }
+  ],
+  "updates": [
+    {
+      "equipment_id": "M07-01",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "375",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.syringepump.com/NE-300.php",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "InfusionONE / 300-US pump; shipping and syringes excluded."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.syringepump.com/NE-300.php",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.syringepump.com/NE-300.php"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.syringepump.com/download/NE-300Brochure.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M07-04",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "825",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.syringepump.com/NE-1000.php",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "1000-US / SyringeONE standard pump; syringes, plumbing, firmware upgrades and shipping excluded."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.syringepump.com/NE-1000.php",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.syringepump.com/NE-1000.php"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M07-05",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "1085",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.syringepump.com/NE-4000.php",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "NE-4000-US two-channel pump; syringes, plumbing and firmware upgrades excluded."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.syringepump.com/NE-4000.php",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.syringepump.com/NE-4000.php"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.syringepump.com/download/NE-4000Brochure.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M09-01",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "",
+            "manual_scope": "",
+            "manual_status": "not_found_in_bounded_research",
+            "manual_match_status": "not_verified"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q125_Manual.pdf",
+            "manual_scope": "Q125 operation manual, revision 5-23, 24 pages; official PDF linked from the manufacturer's manual directory. Installed generation must still be checked.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "3560",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.sonicator.com/products/q125-sonicator",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "Q125-110, 110 V with standard 1/8-inch probe; stand sold separately. Q125A without probe is a different configuration."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.sonicator.com/products/q125-sonicator",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.sonicator.com/products/q125-sonicator"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M09-04",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "https://lab.vanderbilt.edu/wp-content/uploads/sites/21/public_files/q500_manual_rev_3-12.pdf",
+            "manual_scope": "Q500",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/q500-manual-rev-8-20.pdf?v=1599831057",
+            "manual_scope": "Q500 operation manual, revision 8-20, 30 pages; official PDF linked from manufacturer manual directory.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "5300",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.sonicator.com/products/q500-sonicator",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "Q500-110, 110 V with standard 1/2-inch probe; stand sold separately. Q500A without probe is a different configuration."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.sonicator.com/products/q500-sonicator",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.sonicator.com/products/q500-sonicator"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M09-05",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "",
+            "manual_scope": "",
+            "manual_status": "not_found_in_bounded_research",
+            "manual_match_status": "not_verified"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q700_MANUAL_8-20.pdf?v=1599074861",
+            "manual_scope": "Q700 operation manual, revision 8-20, 35 pages; official PDF linked from manufacturer manual directory.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "6100",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.sonicator.com/products/q700-sonicator",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "Q700-110, 110 V with standard 1/2-inch probe; stand sold separately. Q700A without probe is a different configuration."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.sonicator.com/products/q700-sonicator",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.sonicator.com/products/q700-sonicator"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M03-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/",
+            "product_page_scope": "Current EUROSTAR 20 digital page resolves to new-generation item 0020132593. The requested identifier 20105154 remains generation-unresolved; current price and specifications are not assigned as an exact match."
+          }
+        },
+        {
+          "before": {
+            "notes": "Model family verified. Candidate 20105154 is newer 2026 generation; match instrument generation before applying older shared manual."
+          },
+          "after": {
+            "notes": "Model family verified. Candidate 20105154 is newer 2026 generation; match instrument generation before applying older shared manual. Deep-link review 2026-10-14: Official current page has changed generation despite retaining 20105154 in its URL. No new price or manual verification assigned."
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M04-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.radleys.com/range/reactor-ready-lab-reactor/",
+            "product_page_scope": "Reactor-Ready Flex configurable system; vessel sizes and options are selected separately."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.radleys.com/range/reactor-ready-lab-reactor/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M04-04",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M04-05",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M04-02",
+      "groups": [
+        {
+          "before": {
+            "notes": "Official product guide confirms DATUM and ATOM; guide is not operating manual."
+          },
+          "after": {
+            "notes": "Official product guide confirms DATUM and ATOM; guide is not operating manual. Deep-link review 2026-10-14: Official DATUM support brochure; identifies the support system rather than a fully specified reactor configuration."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.asynt.com/wp-content/uploads/2015/10/Asynt-ReactoMate-DATUM-Support-V1.1.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M11-03",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://silverson.com/products/laboratory-mixers",
+            "product_page_scope": "Laboratory mixer page explicitly describes the L5M-A; mixing assemblies and options vary."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.silverson.com/images/uploads/products/Lab-Tech-Info.pdf"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://silverson.com/images/uploads/documents/Silverson_Brochure_Laboratory_Mixers_US.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M12-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M12-05",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M22-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://beneq.com/tfs200/",
+            "product_page_scope": "Beneq TFS 200 configurable platform; options such as plasma and glovebox integration are not inferred for any installed unit."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://beneq.com/wp-content/uploads/2022/11/beneq-tfs200-a4-brochure.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M22-02",
+      "groups": [
+        {
+          "before": {
+            "notes": "Configurable reactor family; XT-R and XT-P distinct. Datasheets are not operating manuals."
+          },
+          "after": {
+            "notes": "Configurable reactor family; XT-R and XT-P distinct. Datasheets are not operating manuals. Deep-link review 2026-10-14: Official GEMStar XT front-loading tray configuration sheet. ARR-850720 is one configuration, not proof of all XT options."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://arradiance.com/equipment/arr-850720-front-loading-tray-system.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M23-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://product.quorumtech.com/product/turboqs",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://product.quorumtech.com/product/turboqs"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M31-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+            "product_page_scope": "nXDS10i part A73601983, 100-127/200-240 V, single-phase; accessory and pump variants differ."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M31-02",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M33-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://julabo.us/resources/data-sheet-for-corio-cd-600f/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M34-02",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.anton-paar.com/uk-en/products/details/litesizer/?sku=317782",
+            "product_page_scope": "Litesizer DLS family page with DLS 701 selection (SKU 317782); sibling models appear in the same table."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.anton-paar.com/?L=0&document=75263&eID=documentsDownload"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M36-02",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.thermofisher.com/fr/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-iS20-ftir-spectrometer.html",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M36-03",
+      "groups": [
+        {
+          "before": {
+            "notes": "Preserved source-PDF record. No ownership assertion."
+          },
+          "after": {
+            "notes": "Preserved source-PDF record. No ownership assertion. Deep-link review 2026-10-14: Official Spectrum Two brochure landing page replaces an obsolete PDF URL; a download form may be required."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.perkinelmer.com/library/bro-ir-ready-to-go-spectrum-two-ftir-spectrometer.html"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M37-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english",
+            "product_page_scope": "Current MiniFlex family page includes historical MiniFlex600/Gen 5 information. Current configurations are not assumed to match a legacy 600."
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M38-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M38-03",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html",
+            "product_page_scope": "SU3800/SU3900 family page; use the SU3800 column for this record."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M40-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/",
+            "product_page_scope": "LabRAM Odyssey family; laser, objective and grating configurations affect specifications."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://static.horiba.com/fileadmin/Horiba/Products/Scientific/Molecular_and_Microanalysis/LabRAM_Odyssey_R_/SPECSHEET-LabRAM_Odyssey.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M41-03",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M42-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.tainstruments.com/tga-5500/",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.tainstruments.com/tga-5500/"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.tainstruments.com/pdf/brochure/BROCH-DTGA-HP750.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M42-02",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M45-02",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595",
+            "product_page_scope": "BioFlo 120 controller family; vessel type, working volume and options must be matched separately."
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M57-01",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "https://www.gamry.com/assets/uploads/988-00086-Reference-620-Operators-Manual.pdf",
+            "manual_scope": "Source-PDF retained link; exact model coverage needs verification",
+            "manual_status": "source_pdf_reported_not_reverified",
+            "manual_match_status": "source_reported_not_reverified"
+          },
+          "after": {
+            "manual_url": "https://www.gamry.com/assets/Uploads-v2/Reference-620-Operators-Manual-v2.pdf",
+            "manual_scope": "Reference 620 operator manual revision 1.4 (March 19, 2025), 94 pages, document 988-00086. Official download filename uses v2, but the PDF itself states revision 1.4.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.gamry.com/potentiostats/reference/reference-620",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.gamry.com/potentiostats/reference/reference-620"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M57-02",
+      "groups": [
+        {
+          "before": {
+            "notes": "Candidate remains unresolved in bounded audit; do not present as verified."
+          },
+          "after": {
+            "notes": "Candidate remains unresolved in bounded audit; do not present as verified. Deep-link review 2026-10-14: Manufacturer specification sheet covers SP-200 and SP-300; use the SP-300 values."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.biologic.net/wp-content/uploads/2019/09/modular-stable-potentiostat_sp-200-sp-300.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M61-01",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://plasma.oxinst.jp/products/rie/plasmapro-80-rie",
+            "product_page_scope": "Official Japanese-language PlasmaPro 80 RIE page, with English platform brochure."
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://plasma.oxinst.jp/assets/uploads/products/plasma/documents/PlasmaPro-80-brochure.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-019",
+      "groups": [
+        {
+          "before": {
+            "notes": "Nanomaterial relation is indirect sample handling, not material synthesis. Manufacturer source provided and identified by parent research. Review 2026-10-14: Indexed manufacturer UR16e product URLs were unavailable in this review. Existing model documentation is retained; no new product link, photo or exact MSRP was inferred."
+          },
+          "after": {
+            "notes": "Nanomaterial relation is indirect sample handling, not material synthesis. Manufacturer source provided and identified by parent research. Review 2026-10-14: Indexed manufacturer UR16e product URLs were unavailable in this review. Existing model documentation is retained; no new product link, photo or exact MSRP was inferred. Deep-link review 2026-10-14: UR16e-specific manufacturer technical-specification page; no link substituted for the newer UR16 model."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": "https://www.universal-robots.com/media/1819035/ur16e-tech-spec_tcn_202105.pdf"
+          },
+          "after": {
+            "technical_spec_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_22/Content/prod-usr-man/complianceUR16e/H_g5_sections/appendix_g5/tech_spec_sheet.htm"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-031",
+      "groups": [
+        {
+          "before": {
+            "notes": "Load rating, grips and measurement configuration unspecified. Manufacturer temperature brochure confirms 200 series 10kN uTS; load-frame capacity/configuration unspecified, brochure excluded. Review 2026-10-14: Current manufacturer microscopy product section located; exact 200 Series configuration remains unspecified."
+          },
+          "after": {
+            "notes": "Load rating, grips and measurement configuration unspecified. Manufacturer temperature brochure confirms 200 series 10kN uTS; load-frame capacity/configuration unspecified, brochure excluded. Review 2026-10-14: Current manufacturer microscopy product section located; exact 200 Series configuration remains unspecified. Deep-link review 2026-10-14: Manufacturer uTS family data sheet; exact requested 200 Series configuration remains unresolved."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://psylotech.com/wp-content/uploads/2023/08/uTS-2022.10.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-032",
+      "groups": [
+        {
+          "before": {
+            "notes": "Accessory to a compatible load frame; not counted as an independent load-frame example. Manufacturer brochure describes licensed laser-heating system; no operating manual. Distinct from 800C/1600C furnace options. Review 2026-10-14: Manufacturer temperature section documents laser-heating capabilities. Exact high-temperature laser add-on configuration and photograph remain unresolved."
+          },
+          "after": {
+            "notes": "Accessory to a compatible load frame; not counted as an independent load-frame example. Manufacturer brochure describes licensed laser-heating system; no operating manual. Distinct from 800C/1600C furnace options. Review 2026-10-14: Manufacturer temperature section documents laser-heating capabilities. Exact high-temperature laser add-on configuration and photograph remain unresolved. Deep-link review 2026-10-14: Manufacturer temperature capabilities sheet explicitly includes prototype laser heating; exact supplied laser add-on remains unresolved."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://psylotech.com/wp-content/uploads/2023/01/Temperature-2023.01.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-02",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "4210",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA224-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "https://shop.sartorius.com/gb/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": "https://shop.sartorius.com/gb/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S"
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-04",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "3420",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA64-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-05",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "3760",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA124-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-06",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "3760",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA64I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-07",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "4110",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA124I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-08",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "4550",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA224I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M01-09",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "5010",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US manufacturer shop price for article BCA324I-1S. Internal/external calibration and capacity are specific to this SKU; tax, delivery, calibration services and options may be additional."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": ""
+          },
+          "after": {
+            "notes": "Deep-link review 2026-10-14: Live manufacturer page price used rather than an older search-index price."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M03-03",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "1764",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US OHS 40 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M03-09",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "2566",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US OHS 60 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M03-10",
+      "groups": [
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "2860",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US OHS 100 Digital product-page headline price. Voltage and kit selectors are present; shaft, stand, System kits and selected configuration require confirmation."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M50-01",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/7language-ltp0077-geniepulse.pdf?v=1768314348",
+            "manual_scope": "Source-PDF retained link; exact model coverage needs verification",
+            "manual_status": "source_pdf_reported_not_reverified",
+            "manual_match_status": "source_reported_not_reverified"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/7language-ltp0077-geniepulse.pdf?v=1768314348",
+            "manual_scope": "Manufacturer product-linked operating manual for SI-P236; confirm voltage and fitted attachments against the installed unit.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "469.60",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "sale_price",
+            "manufacturer_price_source_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US storefront sale price for displayed SKU SI-P236; regular price is higher. Voltage, plug and attachment options must be checked."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.scientificindustries.com/products/vortex-genie-pulse"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/pulsegenie-ltp0075.pdf?v=1768314348"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M50-04",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "",
+            "manual_scope": "",
+            "manual_status": "not_found",
+            "manual_match_status": "not_verified"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/genie2-manual_1_2.pdf?v=1768313309",
+            "manual_scope": "Manufacturer product-linked operating manual for SI-0236; confirm voltage and fitted attachments against the installed unit.",
+            "manual_status": "manufacturer_operating_manual_verified",
+            "manual_match_status": "verified_operating_manual"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "345.60",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "sale_price",
+            "manufacturer_price_source_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US storefront sale price for displayed SKU SI-0236; regular price is higher. Voltage, plug and attachment options must be checked."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.scientificindustries.com/products/vortex-genie-2"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature.pdf?v=1768313308"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M50-05",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "",
+            "manual_scope": "",
+            "manual_status": "not_found",
+            "manual_match_status": "not_verified"
+          },
+          "after": {
+            "manual_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/ltp0057_digital_vg2-manual-rev_f-web.pdf?v=1768314145",
+            "manual_scope": "Official product-linked Digital Vortex-Genie 2 document, LTP0057; extracted PDF text is dominated by parts diagrams. Operating-manual content and exact generation require further review.",
+            "manual_status": "manufacturer_document_scope_unresolved",
+            "manual_match_status": "scope_or_generation_unresolved"
+          }
+        },
+        {
+          "before": {
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer_price_value": "447.20",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "sale_price",
+            "manufacturer_price_source_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+            "manufacturer_price_checked_date": "2026-10-14",
+            "manufacturer_price_scope": "US storefront sale price for displayed SKU SI-A236; regular price is higher. Voltage, plug and attachment options must be checked."
+          }
+        },
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "notes": "Candidate remains unresolved in bounded audit; do not present as verified."
+          },
+          "after": {
+            "notes": "Candidate remains unresolved in bounded audit; do not present as verified. Deep-link review 2026-10-14: Product title and SKU establish Digital Vortex-Genie 2. Storefront description repeats Pulse copy, so capabilities are checked against the model-specific manual."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature_1_2.pdf?v=1768314139"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-007",
+      "groups": [
+        {
+          "before": {
+            "notes": "Hybrid metal AM and subtractive finishing; nanomaterial capability not established. Manufacturer evidence confirms model and options. Press release and owner design guide discussion are not publicly verified operating manual. Review 2026-10-14: Official LUMEX Avance-25 page and model photograph found; machine revision and options may vary."
+          },
+          "after": {
+            "notes": "Hybrid metal AM and subtractive finishing; nanomaterial capability not established. Manufacturer evidence confirms model and options. Press release and owner design guide discussion are not publicly verified operating manual. Review 2026-10-14: Official LUMEX Avance-25 page and model photograph found; machine revision and options may vary. Deep-link review 2026-10-14: Official LUMEX Avance-25 page includes machine specifications; current standard/options need matching to installed generation."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.lumex-matsuura.com/english/lumex-avance-25"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-008",
+      "groups": [
+        {
+          "before": {
+            "notes": "Reactive configuration and material approvals require documentation; base-model brochure is insufficient. Base machine confirmed; Reactive label not established as manufacturer stock variant. Preserve request; no base manual extended to reactive configuration. Review 2026-10-14: Official base LUMEX Avance-25 page and photo used as a family reference. Reactive configuration remains unverified."
+          },
+          "after": {
+            "notes": "Reactive configuration and material approvals require documentation; base-model brochure is insufficient. Base machine confirmed; Reactive label not established as manufacturer stock variant. Preserve request; no base manual extended to reactive configuration. Review 2026-10-14: Official base LUMEX Avance-25 page and photo used as a family reference. Reactive configuration remains unverified. Deep-link review 2026-10-14: Base-model specifications only. Reactive configuration remains unverified and is not established by the base product page."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.lumex-matsuura.com/english/lumex-avance-25"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-013",
+      "groups": [
+        {
+          "before": {
+            "notes": "Do not assign specifications of the AM HWD variant to this base machine. Manufacturer product page confirms machine; brochures/presentations excluded. Do not conflate with AM HWD hybrid variant. Review 2026-10-14: Official Mazak VC-500A/5X virtual showroom page located; no verified photo or public exact MSRP added."
+          },
+          "after": {
+            "notes": "Do not assign specifications of the AM HWD variant to this base machine. Manufacturer product page confirms machine; brochures/presentations excluded. Do not conflate with AM HWD hybrid variant. Review 2026-10-14: Official Mazak VC-500A/5X virtual showroom page located; no verified photo or public exact MSRP added. Deep-link review 2026-10-14: Official model presentation includes VC-500A/5X specifications; not an operator manual."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf"
+          }
+        },
+        {
+          "before": {
+            "brochure_url": ""
+          },
+          "after": {
+            "brochure_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-018",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "https://www.barrett.com/wam-arm",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://barrett.com/wam",
+            "product_page_scope": "WAM arm family with 4-DOF and 7-DOF configurations; the installed DOF/tooling is not established here."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-020",
+      "groups": [
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-042",
+      "groups": [
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_20/Content/prod-usr-man/complianceUR12e/H_g5_sections/appendix_g5/tech_spec_data_12e.htm"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "REQ-EQ-044",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "https://www.fanucamerica.com/products/robots/series/collaborative-robot/crx-10ia",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.fanucamerica.com/products/robot/crx-10ia",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.fanucamerica.com/docs/default-source/crx-data-sheets/crx-10ia-data-sheet.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M09-03",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm",
+            "product_page_scope": "Official German product page; English model-specific fact sheet supplied."
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP400St-HielscherUltrasonics_eng-13022024.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M09-08",
+      "groups": [
+        {
+          "before": {
+            "product_page_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "product_page_url": "https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm",
+            "product_page_scope": ""
+          }
+        },
+        {
+          "before": {
+            "technical_spec_url": ""
+          },
+          "after": {
+            "technical_spec_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP200St-HielscherUltrasonics_eng-13022024.pdf"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "M46-02",
+      "groups": [
+        {
+          "before": {
+            "manual_url": "https://www.elgalabwater.com/sites/default/files/2022-05/PURELAB%20Quest%20Operator%20Manual%20MANU41196%20Version%2002%202020%20ENG.pdf",
+            "manual_scope": "Source-PDF retained link; exact model coverage needs verification",
+            "manual_status": "source_pdf_reported_not_reverified",
+            "manual_match_status": "source_reported_not_reverified"
+          },
+          "after": {
+            "manual_url": "https://www.elgalabwater.com/sites/default/files/2022-05/PURELAB%20Quest%20Operator%20Manual%20MANU41196%20Version%2002%202020%20ENG.pdf",
+            "manual_scope": "Manufacturer-hosted PURELAB Quest operator manual MANU41196 version 02 (2020), identified through official indexed documentation. Direct retrieval was blocked in this review; not newly verified.",
+            "manual_status": "source_pdf_reported_not_reverified",
+            "manual_match_status": "source_reported_not_reverified"
+          }
+        }
+      ]
+    }
+  ],
+  "url_checks": [
+    {
+      "url": "https://www.syringepump.com/NE-300.php",
+      "resolved_url": "https://www.syringepump.com/NE-300.php",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "503bf2992e6c6fc1537151676e99ee841c09d73f394e7b0a5d590c81d214301a"
+    },
+    {
+      "url": "https://www.syringepump.com/download/NE-300Brochure.pdf",
+      "resolved_url": "https://www.syringepump.com/download/NE-300Brochure.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "96aa3785baf4c6f0918df353aee4067eeaef25aa24e7840433399dba0b77a3bf",
+      "pages": 3
+    },
+    {
+      "url": "https://www.syringepump.com/NE-1000.php",
+      "resolved_url": "https://www.syringepump.com/NE-1000.php",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "6586ad38075674c45b6ee053347ce408fb48c196b76e9e99a5d1df15b0e595f3"
+    },
+    {
+      "url": "https://www.syringepump.com/NE-4000.php",
+      "resolved_url": "https://www.syringepump.com/NE-4000.php",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "5140794ddc795b63121da23936fbe8dc25ad5241c38d681c972b83a329fa03f0"
+    },
+    {
+      "url": "https://www.syringepump.com/download/NE-4000Brochure.pdf",
+      "resolved_url": "https://www.syringepump.com/download/NE-4000Brochure.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "bc0ae717b5b666c44993575968ccfdab07a206b143fc1dab8b11ccc24aa49348",
+      "pages": 3
+    },
+    {
+      "url": "https://www.sonicator.com/products/q125-sonicator",
+      "resolved_url": "https://www.sonicator.com/products/q125-sonicator",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "e5ab6d2d32e8d4eab4d59a62a1b29b46e7a27c62f54c582e43226d0e3c42daa4"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q125_Manual.pdf",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q125_Manual.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "1fd74c13ac645530f09eaf8a67b46b4b92b414f7c73b073f263396849f0213b2",
+      "pages": 24
+    },
+    {
+      "url": "https://www.sonicator.com/products/q500-sonicator",
+      "resolved_url": "https://www.sonicator.com/products/q500-sonicator",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "58dccd658872622750115f49d97925ff38747846482c988295e8c2e0cfb44c98"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1726/3473/files/q500-manual-rev-8-20.pdf?v=1599831057",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/q500-manual-rev-8-20.pdf?v=1599831057",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "fe71db261d79ead0101f7eb2671bd82fbb278da7bc5521afabcf00a8d0b718fc",
+      "pages": 30
+    },
+    {
+      "url": "https://www.sonicator.com/products/q700-sonicator",
+      "resolved_url": "https://www.sonicator.com/products/q700-sonicator",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "cfaa5a8e862145e59d8b1243a7c83c0522fcaba18f7e25053f08ff8225dc9291"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q700_MANUAL_8-20.pdf?v=1599074861",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/1726/3473/files/Q700_MANUAL_8-20.pdf?v=1599074861",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "e98ceea51a87e45140cfa0ed71c85516448c7d9cca208902e90e31d813bb5690",
+      "pages": 35
+    },
+    {
+      "url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.radleys.com/range/reactor-ready-lab-reactor/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.asynt.com/wp-content/uploads/2015/10/Asynt-ReactoMate-DATUM-Support-V1.1.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://silverson.com/products/laboratory-mixers",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.silverson.com/images/uploads/products/Lab-Tech-Info.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://silverson.com/images/uploads/documents/Silverson_Brochure_Laboratory_Mixers_US.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/",
+      "resolved_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "c8a965a0990d8a99ff0d98710cc86fc72adc0c6aacfa2afa319af82c3a7edb34"
+    },
+    {
+      "url": "https://www.retsch.com/files/452819/product-data-sheet-pm-300.pdf",
+      "error": "HTTP Error 410: Gone"
+    },
+    {
+      "url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/",
+      "resolved_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "7af0ab3d66948fc530cabe7738b81934802ea7ef608b9e097396dd56bdb05bd4"
+    },
+    {
+      "url": "https://beneq.com/tfs200/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://beneq.com/wp-content/uploads/2022/11/beneq-tfs200-a4-brochure.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://arradiance.com/equipment/arr-850720-front-loading-tray-system.pdf",
+      "resolved_url": "https://arradiance.com/datasheets/arr-850720-front-loading-tray-system.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "85b4b80f8ecb20c70911c5fb15e785c846b6b6fb449feb465ccc57fb99632635",
+      "pages": 1
+    },
+    {
+      "url": "https://product.quorumtech.com/product/turboqs",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f",
+      "resolved_url": "https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "572ddc641352a40bb0bb6863eeb3243847b043d0642855ddfd4b0d37cf15065c"
+    },
+    {
+      "url": "https://julabo.us/resources/data-sheet-for-corio-cd-600f/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.anton-paar.com/uk-en/products/details/litesizer/?sku=317782",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.anton-paar.com/?L=0&document=75263&eID=documentsDownload",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.thermofisher.com/fr/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-iS20-ftir-spectrometer.html",
+      "resolved_url": "https://www.thermofisher.com/us/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments.html",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "47fe3f60ee84755135f7d65a363ba0f4ceab4306e344afbb317e57703bb1acee"
+    },
+    {
+      "url": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf",
+      "resolved_url": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "15b7eb36a5d938bc421797027f85b04ae07a1d3b4bfd326b3808cfd89721e890",
+      "pages": 8
+    },
+    {
+      "url": "https://www.perkinelmer.com/lab-solutions/resources/docs/BRO_SpectrumTwo.pdf",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english",
+      "resolved_url": "https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "465c9bbfc64297bc5bfe804d5b3ee8376a994da485a554abaa4a02cdd76ba539"
+    },
+    {
+      "url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/",
+      "resolved_url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "4b337d0a4b12a6b7092713178893b93c5415b895941916da2a19b066f1ecdcca"
+    },
+    {
+      "url": "https://static.horiba.com/fileadmin/Horiba/Products/Scientific/Molecular_and_Microanalysis/LabRAM_Odyssey_R_/SPECSHEET-LabRAM_Odyssey.pdf",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications",
+      "resolved_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "ec0e6f05c8257f1dca500b5a75b82c66f3c68ce1fb6907f0f51beed220abe856"
+    },
+    {
+      "url": "https://www.tainstruments.com/tga-5500/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.tainstruments.com/pdf/brochure/BROCH-DTGA-HP750.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595",
+      "resolved_url": "https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "97133a680882400a59d4c79aabb345ce0e7383a2cdf6158a2e65d4890e15085a"
+    },
+    {
+      "url": "https://www.gamry.com/potentiostats/reference/reference-620",
+      "resolved_url": "https://www.gamry.com/potentiostats/reference/reference-620",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "5dbcd05ba546ed708c45584db292fde2c750ad8c0b9a76086a8b2bdf1d355be9"
+    },
+    {
+      "url": "https://www.gamry.com/assets/Uploads-v2/Reference-620-Operators-Manual-v2.pdf",
+      "resolved_url": "https://www.gamry.com/assets/Uploads-v2/Reference-620-Operators-Manual-v2.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "348dc540ed7f3d75a9e650241b3c1c1985bf44823f8060709c19885c848b5fd4",
+      "pages": 94
+    },
+    {
+      "url": "https://www.biologic.net/wp-content/uploads/2019/09/modular-stable-potentiostat_sp-200-sp-300.pdf",
+      "resolved_url": "https://www.biologic.net/wp-content/uploads/2019/09/modular-stable-potentiostat_sp-200-sp-300.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "ee0f2e4b9beec104f08d4cf7f2971255eb04c51ab073bdb9e5980101f74b7c84",
+      "pages": 8
+    },
+    {
+      "url": "https://plasma.oxinst.jp/products/rie/plasmapro-80-rie",
+      "resolved_url": "https://plasma.oxinst.jp/products/rie/plasmapro-80-rie",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "fa62a7d73ad4e9959f93959d79db7c555d3e21410b45291d3e87e3b1e7f418e6"
+    },
+    {
+      "url": "https://plasma.oxinst.jp/assets/uploads/products/plasma/documents/PlasmaPro-80-brochure.pdf",
+      "resolved_url": "https://plasma.oxinst.jp/assets/uploads/products/plasma/documents/PlasmaPro-80-brochure.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "88d55fbaceb9b2e3bd4e9eee686ad24cdc2cf42692cdb4c50beb7221822258a7",
+      "pages": 8
+    },
+    {
+      "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_22/Content/prod-usr-man/complianceUR16e/H_g5_sections/appendix_g5/tech_spec_sheet.htm",
+      "resolved_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_22/Content/prod-usr-man/complianceUR16e/H_g5_sections/appendix_g5/tech_spec_sheet.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "ae65db52a27e1c4eba0cb4e57884bd726e7c2138ae8e7f64304c73ce509f1031"
+    },
+    {
+      "url": "https://psylotech.com/wp-content/uploads/2023/08/uTS-2022.10.pdf",
+      "error": "HTTP Error 465: "
+    },
+    {
+      "url": "https://psylotech.com/wp-content/uploads/2023/01/Temperature-2023.01.pdf",
+      "error": "HTTP Error 465: "
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "4149a7189b89dcaf0137f6384d927b8a4b021f4adc23a30c2290f435d6ee659b"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "232615ec78d5f79a9ea4514dcaa66b0c4393c6610cb8533d7b998456be8b0245"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "5187a4b04130f63d8ed52d0a05901fe33afd902242379eb2f617f9cca5d54fd1"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "69a53c719ec46ab39a4149f4c0787126fef72b360dfcf12175aa58d2e92cd449"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "5ad279cca3936748a7b8d6bcdbf26968d97221e60c69da52ffbc242a9c041ecb"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "c844085549d4c6e74a9ed462c6b8d06c0ddd04c85770dbccae1317f17a3a3949"
+    },
+    {
+      "url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+      "resolved_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "3feb0e2cd155b3489a628655a401bb785391595574d65270346e09318f9862ca"
+    },
+    {
+      "url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+      "resolved_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "dac1bd280dfd105e22be1ca06762ff930db4a94e642c317f6f32d03bc0a1cae8"
+    },
+    {
+      "url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf",
+      "resolved_url": "https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325931.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "33489218818b708613eda0f009ea150277c25b2659b491bae9d475a86806f90c",
+      "pages": 6
+    },
+    {
+      "url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+      "resolved_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "3573fdb631367bc2b1e452fa272a93344fddd2d7fe42b497752006df6cb18893"
+    },
+    {
+      "url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+      "resolved_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "0c7f3960de038386dba97a8ae5d65c8a47353fcf29e41e680058f54ac112465f"
+    },
+    {
+      "url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+      "resolved_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "30f5953d487acab90bfbd0571fb3554e9cf5b39e66cedd22907d716533295eec"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/7language-ltp0077-geniepulse.pdf?v=1768314348",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/7language-ltp0077-geniepulse.pdf?v=1768314348",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "a88ed3de035b1d66a36f3a4012d2f923bad21837ea63fa641b4bd55e6cc2b38c",
+      "pages": 2
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/pulsegenie-ltp0075.pdf?v=1768314348",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/pulsegenie-ltp0075.pdf?v=1768314348",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "33991afff1a798743e9c4885702c987a84e70becb059f5631e22c452ee5da522",
+      "pages": 2
+    },
+    {
+      "url": "https://www.scientificindustries.com/products/vortex-genie-2",
+      "resolved_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "4c249c25689e2dd8f77e5047a2e5fdee3fc968c762a32f2c0b4260cdcfb3ac57"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/genie2-manual_1_2.pdf?v=1768313309",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/genie2-manual_1_2.pdf?v=1768313309",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "b76d7fc062211a9542eb35fa90096848e2e46a46865a188fb95fc45dc084f0d1",
+      "pages": 4
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature.pdf?v=1768313308",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature.pdf?v=1768313308",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "2f36ede46cfd2fad76f7240e047f7e47ccf9483261339743e171c504ec718d56",
+      "pages": 2
+    },
+    {
+      "url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+      "resolved_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "f2818e6f59cb705d088b06efa8b87207d0c07a23ad871ecd79c803c380b8d7ba"
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/ltp0057_digital_vg2-manual-rev_f-web.pdf?v=1768314145",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/ltp0057_digital_vg2-manual-rev_f-web.pdf?v=1768314145",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "a1e1272ccb610f7cd77f54f4359141ecd47c1a7743ae9beb1602a4c24fa04f66",
+      "pages": 2
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature_1_2.pdf?v=1768314139",
+      "resolved_url": "https://cdn.shopify.com/s/files/1/0707/2500/9564/files/geniefamily-literature_1_2.pdf?v=1768314139",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "2f36ede46cfd2fad76f7240e047f7e47ccf9483261339743e171c504ec718d56",
+      "pages": 2
+    },
+    {
+      "url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+      "resolved_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "c0f6d4337c2f7c1a831b6714b75bc7288068b2353c05c4f1466b48c7426d73a9"
+    },
+    {
+      "url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+      "error": "HTTP Error 403: Site Disabled"
+    },
+    {
+      "url": "https://barrett.com/wam",
+      "resolved_url": "https://barrett.com/wam",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "b2bcd8398009f0142285f83b05807b45622dcb9fe61d58446c90a6f16372555f"
+    },
+    {
+      "url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+      "resolved_url": "https://web.barrett.com/support/WAM_Documentation/WAM_Datasheet.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "0170baebbd5fa24c2cf52244d799ce3875178f5cb1487f7b0a791b66641bd7b4",
+      "pages": 2
+    },
+    {
+      "url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_20/Content/prod-usr-man/complianceUR12e/H_g5_sections/appendix_g5/tech_spec_data_12e.htm",
+      "resolved_url": "https://www.universal-robots.com/manuals/EN/HTML/SW5_20/Content/prod-usr-man/complianceUR12e/H_g5_sections/appendix_g5/tech_spec_data_12e.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "be1c700c83e03104a6f738fa2e995efc6c7fc79bb550571bffc05a1ab1757830"
+    },
+    {
+      "url": "https://www.fanucamerica.com/products/robot/crx-10ia",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.fanucamerica.com/docs/default-source/crx-data-sheets/crx-10ia-data-sheet.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm",
+      "resolved_url": "https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "2548d25cb9b28645e8e0bdc5e5ca8cff8607cd0ad8322a9c29a3d6b24b0d47af"
+    },
+    {
+      "url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP400St-HielscherUltrasonics_eng-13022024.pdf",
+      "resolved_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP400St-HielscherUltrasonics_eng-13022024.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "1513505bcd6e659df54068d9f15c8daedd66514367de93a60ebdc05ccf316953",
+      "pages": 1
+    },
+    {
+      "url": "https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm",
+      "resolved_url": "https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "sha256": "82a26391ca4869ed7daeca4c35ea87363cfe17a932bba1cf1d9d7d88e21d410c"
+    },
+    {
+      "url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP200St-HielscherUltrasonics_eng-13022024.pdf",
+      "resolved_url": "https://www.hielscher.com/wp-content/uploads/FactSheet-UP200St-HielscherUltrasonics_eng-13022024.pdf",
+      "status": 200,
+      "content_type": "application/pdf",
+      "sha256": "5e0fc414a73f3b4554e7ec1ccf0fdb69e09fe03dcee15a9c258d56bf8da532e7",
+      "pages": 1
+    },
+    {
+      "url": "https://www.elgalabwater.com/products/purelab-quest",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.elgalabwater.com/sites/default/files/2022-05/PURELAB%20Quest%20Operator%20Manual%20MANU41196%20Version%2002%202020%20ENG.pdf",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

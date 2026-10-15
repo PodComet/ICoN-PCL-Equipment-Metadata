@@ -1,0 +1,62 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {refreshResearchEvidence,withSharedResearchOverrides} from '../app/research-policy.ts';
+import {allDocumentationLinks,pricePresentation} from '../app/catalog-lib.ts';
+
+const updates=JSON.parse(readFileSync(new URL('../app/data/research-updates.json',import.meta.url),'utf8'));
+const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
+const q125=seed.records.find(r=>r.equipment_id==='M09-01');
+const update=updates.find(r=>r.equipment_id===q125.equipment_id);
+const old=()=>Object.assign({...q125},...update.groups.map(group=>group.before));
+
+test('saved pre-review snapshots gain model links and sourced prices while research notes survive',()=>{
+ const snapshot={...old(),notes:'My experimental notes'};
+ const refreshed=refreshResearchEvidence(snapshot,updates);
+ assert.equal(refreshed.product_page_url,'https://www.sonicator.com/products/q125-sonicator');
+ assert.equal(refreshed.manual_match_status,'verified_operating_manual');
+ assert.equal(pricePresentation(refreshed).estimated,false);
+ assert.equal(refreshed.notes,'My experimental notes');
+ assert.deepEqual(refreshResearchEvidence(refreshed,updates),refreshed);
+});
+
+test('custom manual and price evidence are retained as complete groups',()=>{
+ const snapshot={...old(),manual_url:'https://example.org/my-manual.pdf',manual_match_status:'not_verified',manufacturer_price_value:'777',manufacturer_price_source_url:'https://example.org/my-quote'};
+ const refreshed=refreshResearchEvidence(snapshot,updates);
+ assert.equal(refreshed.manual_url,snapshot.manual_url);assert.equal(refreshed.manual_match_status,'not_verified');
+ assert.equal(refreshed.manufacturer_price_value,'777');assert.equal(refreshed.manufacturer_price_source_url,snapshot.manufacturer_price_source_url);
+ assert.equal(refreshed.product_page_url,q125.product_page_url);
+});
+
+test('explicitly cleared links stay cleared and new equipment cannot inherit a reviewed model price',()=>{
+ const snapshot=old(),refreshed=refreshResearchEvidence(snapshot,updates,['product_page_url','manufacturer_price_value']);
+ assert.equal(refreshed.product_page_url,snapshot.product_page_url);assert.equal(refreshed.manufacturer_price_value,snapshot.manufacturer_price_value);
+ const variant={...old(),equipment_id:'USER-NEW-VARIANT'};
+ assert.deepEqual(refreshResearchEvidence(variant,updates),variant);
+});
+
+test('CSV admin clears remain effective after loading a reviewed seed',()=>{
+ const cleared={...q125,product_page_url:'',manufacturer_price_value:'',manufacturer_price_currency:'',manufacturer_price_kind:'',manufacturer_price_source_url:'',manufacturer_price_checked_date:'',manufacturer_price_scope:''};
+ const saved=withSharedResearchOverrides(cleared,['product_page_url','manufacturer_price_value']);
+ const refreshed=refreshResearchEvidence(saved,updates);
+ assert.equal(refreshed.product_page_url,'');assert.equal(refreshed.manufacturer_price_value,'');
+ assert.equal(pricePresentation(refreshed).estimated,true);
+});
+
+test('instrument details expose manual, specifications and brochure without duplicate or unsafe links',()=>{
+ const record={equipment_id:'EXAMPLE-DOCS',model_name:'Example instrument',manual_match_status:'verified_operating_manual',manual_url:'https://example.org/manual.pdf',technical_spec_url:'https://example.org/spec.pdf',brochure_url:'https://example.org/brochure.pdf'};
+ assert.deepEqual(allDocumentationLinks(record).map(link=>link.label),['Operating manual','Technical specifications','Brochure']);
+ assert.equal(allDocumentationLinks({...record,brochure_url:record.technical_spec_url}).length,2);
+ assert.equal(allDocumentationLinks({...record,brochure_url:'javascript:alert(1)'}).length,2);
+ const pending=allDocumentationLinks({...record,manual_match_status:'scope_or_generation_unresolved'});
+ assert.equal(pending[0].label,'Technical specifications');
+ assert.ok(pending.some(link=>link.label==='Linked manual / document (needs review)'));
+ assert.ok(!pending.some(link=>link.label==='Operating manual'));
+});
+
+test('new-generation EUROSTAR pricing is not attached to the unresolved source identifier',()=>{
+ const instrument=seed.records.find(r=>r.equipment_id==='M03-01');
+ assert.equal(instrument.manual_match_status,'scope_or_generation_unresolved');
+ assert.equal(instrument.manufacturer_price_value,'');
+ assert.match(instrument.product_page_scope,/new-generation.*0020132593/);
+});

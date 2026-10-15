@@ -116,6 +116,9 @@ def inspect_catalog(root=ROOT):
         "model_evidence": dict(sorted(Counter(r["model_evidence_status"] for r in equipment).items())),
         "msrp_records": sum(bool(r["msrp_value"]) for r in equipment),
         "published_manufacturer_price_records": sum(bool(r.get("manufacturer_price_value")) for r in equipment),
+        "manufacturer_product_page_records": sum(bool(r.get("product_page_url")) for r in equipment),
+        "technical_specification_records": sum(bool(r.get("technical_spec_url")) for r in equipment),
+        "brochure_records": sum(bool(r.get("brochure_url")) for r in equipment),
     }
 
 

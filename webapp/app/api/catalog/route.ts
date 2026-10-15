@@ -62,7 +62,7 @@ export async function PUT(request: Request) {
       if (typeof v !== "string" || v.length>6000) return json({error:`Invalid ${k}.`},400);
       fields[k]=v.trim();
     }
-    const record:Equipment = audited({...original,...fields});
+    const record:Equipment = audited({...original,...fields},Object.keys(fields));
     if (!record.model_name || !record.variant_label || !record.product_family) return json({error:"Model name, product family and variant label are required."},400);
     for (const field of ["manual_url","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","price_source_url"]) {
       if (record[field] && !safeUrl(record[field])) return json({error:`${field} must be an http or https URL.`},400);

@@ -10,6 +10,8 @@ The catalog preserves the supplied PDF's M identifiers, nine material families, 
 
 Validate CSV edits and regenerate the readable view with `python catalog_tools.py`.
 
+The latest [manufacturer link review](catalog/deep_link_review_2026-10-14.csv) updated 60 instruments across 27 categories, adding 44 product-page links, 47 specification links, 18 brochure links and 19 configuration-scoped published prices. See the [review audit](catalog/deep_link_review_2026-10-14.json) for source limitations and before/after evidence.
+
 Proposed category relationships are recorded in the numbered [equipment ontology recommendations](docs/recommendations.md). Approved X-to-M moves are documented in the [category merge guide](docs/category-merges.md); legacy X identifiers remain searchable.
 
 ## Machine-list comparison

@@ -7,7 +7,7 @@ const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.met
 const plan=rows=>buildPlan(csvUpdateText(rows),seed.records,seed.categories,seed.routes,seed.manufacturers);
 test('published manufacturer prices take priority over estimates without becoming exact MSRP',()=>{
  const rows=seed.records.filter(r=>r.manufacturer_price_value);
- assert.equal(rows.length,10);
+ assert.ok(rows.length>0);assert.equal(rows.length,seed.coverage.published_manufacturer_price_records);
  for(const r of rows){assert.equal(validateManufacturerPrice(r),'');assert.equal(pricePresentation(r).label,manufacturerPrice(r).label);assert.equal(r.msrp_value,'');assert.equal(pricePresentation(r).estimated,false)}
 });
 test('MTI OTF-1200X displays sourced configuration pricing instead of its class band',()=>{
