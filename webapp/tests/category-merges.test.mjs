@@ -22,7 +22,7 @@ test('wet and dry etching share M61 while method filters remain disjoint',()=>{
 });
 
 test('historical stored payloads migrate category without discarding edited metadata',()=>{
- for(const [id,legacy,category] of [['REQ-EQ-021','X-ETCH','M61'],['REQ-EQ-022','X-FILTER','M15'],['REQ-EQ-041','X-LASER','M56'],['REQ-EQ-023','X-MIX','M50'],['REQ-EQ-036','X-MIX','M50']]){
+ for(const [id,legacy,category] of [['REQ-EQ-021','X-ETCH','M61'],['REQ-EQ-022','X-FILTER','M15'],['REQ-EQ-041','X-LASER','M56'],['REQ-EQ-023','X-MIX','M50'],['REQ-EQ-036','X-MIX','M50'],['REQ-EQ-019','X-ROB','M62'],['REQ-EQ-043','X-ROB','M62']]){
   const before={...byId.get(id),category_id:legacy,category_name:'Old category',legacy_category_ids:'',equipment_subtype:'',related_process_ids:'',notes:'Personal research note',manufacturer_price_value:'12345'};
   const after=normalize(before);
   assert.equal(after.category_id,category);assert.equal(after.notes,before.notes);assert.equal(after.manufacturer_price_value,'12345');
@@ -53,7 +53,7 @@ test('CO2 source joins M56 without inheriting a nanoparticle-ablation process or
 });
 
 test('legacy CSV updates resolve by record while ambiguous new X-FILTER assignments are rejected',()=>{
- for(const [id,category] of [['REQ-EQ-021','X-ETCH'],['REQ-EQ-022','X-FILTER'],['REQ-EQ-041','X-LASER'],['REQ-EQ-023','X-MIX'],['REQ-EQ-036','X-MIX']]){
+ for(const [id,category] of [['REQ-EQ-021','X-ETCH'],['REQ-EQ-022','X-FILTER'],['REQ-EQ-041','X-LASER'],['REQ-EQ-023','X-MIX'],['REQ-EQ-036','X-MIX'],['REQ-EQ-019','X-ROB'],['REQ-EQ-043','X-ROB']]){
   const result=plan(csvUpdateText([{operation:'update',equipment_id:id,category_id:category,notes:'Updated research note'}]));
   assert.deepEqual(result.errors,[]);assert.ok(result.warnings.some(w=>w.message.includes('Legacy category')));
   assert.ok(result.changes[0].after.category_id.startsWith('M'));
@@ -92,4 +92,28 @@ test('M50 broadening preserves distinct mixing methods, equipment cards and scop
  assert.deepEqual(generic.errors,[]);assert.equal(generic.changes[0].after.estimated_msrp_low,'300');assert.equal(generic.changes[0].after.estimated_msrp_high,'150000');
  const acoustic=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-ACOUSTIC',category_id:'M50',manufacturer:'Resodyn',model_name:'New acoustic model',equipment_subtype:'Resonant acoustic mixing'}]));
  assert.deepEqual(acoustic.errors,[]);assert.equal(acoustic.changes[0].after.estimated_msrp_low,'1000');
+});
+
+test('M62 reuses all 13 robotics profiles, preserves provenance and keeps mobile bases distinct',()=>{
+ const category=seed.categories.find(c=>c.category_id==='M62');
+ assert.equal(category.category_origin,'project_extension');assert.equal(category.source_pdf,'');
+ const robots=rows.filter(r=>r.record.category_id==='M62');
+ assert.equal(robots.length,13);assert.equal(new Set(robots.map(r=>r.record.equipment_id)).size,13);
+ assert.equal(rows.filter(r=>matches(r,'X-ROB','','','',false,false)).length,13);
+ assert.equal(rows.filter(r=>matches(r,'M62','','','',false,false)).length,13);
+ assert.ok(robots.every(r=>r.record.purdue_list==='true'&&r.record.legacy_category_ids==='X-ROB'));
+ assert.ok(robots.every(r=>!r.record.related_material_ids&&!r.record.related_process_ids));
+ const tracer=byId.get('REQ-EQ-043');
+ assert.match(tracer.equipment_subtype,/Mobile base; no robot arm/);
+ assert.match(tracer.estimate_subject,/excluding robot arm/);
+ assert.equal(tracer.estimated_msrp_low,'3000');assert.equal(tracer.estimated_msrp_high,'15000');
+ assert.match(byId.get('REQ-EQ-017').equipment_subtype,/configuration unspecified/);
+ assert.match(byId.get('REQ-EQ-015').equipment_subtype,/cart drive unspecified/);
+ for(const categoryId of ['M62','X-ROB']){
+  const result=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-ROBOT',category_id:categoryId,manufacturer:'Example integrator',model_name:'New automation system'}]));
+  assert.deepEqual(result.errors,[]);const added=result.changes[0].after;
+  assert.equal(added.category_id,'M62');assert.equal(added.purdue_list,'false');
+  assert.ok(!added.related_material_ids&&!added.related_process_ids);
+  assert.ok(!added.equipment_subtype||added.equipment_subtype.includes('unspecified'));
+ }
 });

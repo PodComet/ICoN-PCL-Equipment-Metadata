@@ -7,7 +7,9 @@ from catalog_tools import ROOT, inspect_catalog, load_csv, render_views
 def test_catalog_integrity_and_relationships():
     summary = inspect_catalog()
     assert summary["core_examples"] == 590
-    assert summary["active_m_categories"] == 59
+    assert summary["active_m_categories"] == 60
+    assert summary["source_m_categories"] == 59
+    assert summary["project_m_categories"] == 1
     assert summary["requested_occurrences"] == 44
     assert summary["highlighted_equipment_records"] == 44
 
@@ -28,7 +30,7 @@ def test_requested_duplicate_and_variants_are_preserved():
 def test_approved_x_categories_merge_into_m_without_losing_requested_links():
     records = load_csv(ROOT / "catalog/equipment.csv")
     by_id = {r["equipment_id"]: r for r in records}
-    assert not {"X-ETCH", "X-FILTER", "X-LASER", "X-MIX"}.intersection(r["category_id"] for r in records)
+    assert not {"X-ETCH", "X-FILTER", "X-LASER", "X-MIX", "X-ROB"}.intersection(r["category_id"] for r in records)
     for equipment_id, category in [("REQ-EQ-021", "M61"), ("REQ-EQ-022", "M15"),
                                    ("REQ-EQ-022-CENTRIFUGES", "M13"), ("REQ-EQ-041", "M56"),
                                    ("REQ-EQ-023", "M50"), ("REQ-EQ-036", "M50")]:
@@ -39,6 +41,18 @@ def test_approved_x_categories_merge_into_m_without_losing_requested_links():
     wet = by_id["REQ-EQ-021"]
     assert "P13" in wet["related_process_ids"].split(";")
     assert "P14" not in wet["related_process_ids"].split(";")
+
+
+def test_robotics_extension_retains_all_requested_profiles_and_source_provenance():
+    records = load_csv(ROOT / "catalog/equipment.csv")
+    robots = [r for r in records if r["category_id"] == "M62"]
+    assert len(robots) == 13
+    assert all(r["purdue_list"] == "true" and r["legacy_category_ids"] == "X-ROB" for r in robots)
+    assert all(r["catalog_scope"] == "requested_supplement" for r in robots)
+    assert all(not r["related_material_ids"] and not r["related_process_ids"] for r in robots)
+    category = next(r for r in load_csv(ROOT / "catalog/categories.csv") if r["category_id"] == "M62")
+    assert category["category_origin"] == "project_extension"
+    assert not category["source_pdf"] and not category["source_category_name"]
 
 
 def test_manual_scope_does_not_promote_generation_mismatches():

@@ -9,6 +9,7 @@ The project owner approved these X-to-M changes on 2026-10-14. M identifiers are
 | X-FILTER Filtration and centrifugation, centrifuge component | M13 General-purpose centrifuges | Centrifugation; model, format and speed class unspecified |
 | X-LASER CO2 laser source | M56 Laser sources | CO2 source with continuous-wave and modulated operation; existing pulsed sources retain their subtype |
 | X-MIX Bulk shaking and resonant acoustic mixing | M50 Shakers and vessel-driven mixers | Vortex mixing, mechanical shaking and resonant acoustic mixing remain separate subtypes |
+| X-ROB Robotic handling and mobile robotics | M62 Robotic handling and automation systems | Manipulator arms, dual-arm systems, mobile bases and mobile manipulator assemblies |
 
 The original ten-example sets remain intact. Existing M13 benchtop centrifuges and M15 tangential-flow filtration systems retain those specific subtypes. The unspecified Purdue components are not labeled as tangential-flow filtration, nanofiltration or ultracentrifuges.
 
@@ -37,3 +38,9 @@ X-EDM and X-CNC remain machining families. X-MET remains optical surface metrolo
 M50 contains ten original vortex examples plus the requested paint shaker and Resodyn LabRAM II. `equipment_subtype` keeps Vortex mixing, Mechanical shaking and Resonant acoustic mixing separately searchable. The source category name Vortex mixer remains archived in `categories.csv`. X-MIX remains a searchable legacy identifier and is accepted in CSV updates.
 
 Existing model, manual, Purdue inventory and pricing information stays with each instrument. The paint shaker and LabRAM II retain their previous class-equivalent planning ranges rather than inheriting a small vortex mixer estimate. Resodyn identifies LabRAM II as a low-frequency resonant acoustic mixer, approximately 60 Hz; it remains separate from the ultrasonic M09 and M10 families. See the [manufacturer product page](https://resodynmixers.com/products/labram-ii-lab-mixer/).
+
+## Robotics extension
+
+M62 is a project-added family approved on 2026-10-14, following the original M61. It does not fill the source document's intentional M52/M55 gaps and has no invented PDF page or checksum. `category_origin=project_extension` distinguishes it from the 59 source categories. Its 13 existing requested profiles meet the ten-example breadth target without duplicate records or promotion to the original core-example sets.
+
+All original equipment IDs, Purdue markers, inventory links, model/manual review statuses and sourced prices remain intact. Subtypes distinguish manipulator arms, Baxter's dual-arm platform, mobile dual-arm assemblies and the TRACER mobile base. YuMi's exact arm configuration and the FANUC cart's drive remain unspecified. The TRACER price estimate remains a mobile-base allowance excluding robot arms. The general robotics category does not establish model-specific nanoparticle synthesis or material compatibility. Legacy X-ROB remains searchable and resolves to M62 in CSV updates and stored records.

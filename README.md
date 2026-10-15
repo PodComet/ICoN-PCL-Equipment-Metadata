@@ -4,7 +4,7 @@ Research equipment metadata and a reproducible machine-list comparison tool.
 
 ## Equipment database
 
-The [CSV catalog](catalog/equipment.csv) contains **590 research examples across 59 active machine categories**, plus 42 supplemental records covering the requested equipment. All 44 requested occurrences are retained, including the repeated AM400 entry. See the [bolded requested-equipment view](docs/requested-equipment.md), [database guide](catalog/README.md), and [evidence coverage](catalog/coverage.json).
+The [CSV catalog](catalog/equipment.csv) contains **590 research examples across 59 source M categories**, plus 42 supplemental records covering the requested equipment. There are 60 active M categories, including the project-added M62 robotics family populated by 13 existing requested profiles. All 44 requested occurrences are retained, including the repeated AM400 entry. See the [bolded requested-equipment view](docs/requested-equipment.md), [database guide](catalog/README.md), and [evidence coverage](catalog/coverage.json).
 
 The catalog preserves the supplied PDF's M identifiers, nine material families, eleven additional source process routes and 109 ordered conceptual steps. Two curated wet/dry etching capabilities supplement those source routes. M52 and M55 were intentionally absent from that source. New examples include explicit research candidates; the ten-example target does not imply ten verified manuals per family. Model evidence, manual scope, source-reported links and unresolved gaps remain separate fields. MSRP fields await dated price evidence.
 

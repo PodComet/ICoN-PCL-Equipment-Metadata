@@ -40,11 +40,23 @@ def inspect_catalog(root=ROOT):
     ids = [r["equipment_id"] for r in equipment]
     assert len(ids) == len(set(ids)), "Duplicate equipment identifiers"
     category_ids = {r["category_id"] for r in categories}
-    assert len(category_ids) == 59 and {"M52", "M55"}.isdisjoint(category_ids)
+    assert len(category_ids) == len(categories) and {"M52", "M55"}.isdisjoint(category_ids)
+    source_categories = {r["category_id"] for r in categories if r["category_origin"] == "source_pdf"}
+    project_categories = {r["category_id"] for r in categories if r["category_origin"] == "project_extension"}
+    assert len(source_categories) == 59 and source_categories | project_categories == category_ids
+    for category in categories:
+        if category["category_id"] in project_categories:
+            assert not any(category[k] for k in ["source_pdf", "source_page", "source_sha256", "source_category_name"])
+        else:
+            assert category["source_pdf"] and category["source_category_name"]
     core = [r for r in equipment if r["catalog_scope"] == "core_example"]
     coverage = Counter(r["category_id"] for r in core)
-    assert set(coverage) == category_ids
-    assert all(coverage[c] == 10 for c in category_ids), "Expected ten core examples per active M category"
+    assert set(coverage) == source_categories
+    assert all(coverage[c] == 10 for c in source_categories), "Expected ten core examples per source M category"
+    for category in categories:
+        if category["category_id"] in project_categories:
+            count = sum(r["category_id"] == category["category_id"] for r in equipment)
+            assert count >= int(category["target_examples"]), "Project M category has fewer records than its example target"
     assert len(requests) == 44 and len(source_models) == 64 and len(steps) == 109
     assert len(routes) == 22  # 20 retained source routes plus wet/dry etching capabilities
     route_ids = {r["route_id"] for r in routes}
@@ -93,6 +105,7 @@ def inspect_catalog(root=ROOT):
         assert len(names) == len(set(names)), cid
     return {
         "active_m_categories": len(categories), "core_examples": len(core),
+        "source_m_categories": len(source_categories), "project_m_categories": len(project_categories),
         "equipment_records": len(equipment), "requested_occurrences": len(requests),
         "highlighted_equipment_records": sum(r["highlight_requested"] == "true" for r in equipment),
         "source_pdf_model_records": len(source_models), "material_families": 9,

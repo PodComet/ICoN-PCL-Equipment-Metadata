@@ -3,3 +3,4 @@ X-ETCH,M61,Selective wet etching,Wet etching joins M61; preserve wet and dry pro
 X-FILTER,M13;M15,Filtration and centrifugation,Compound requirement split by component. Choose M13 for centrifuges and M15 for filtration; legacy category alone cannot select one.
 X-LASER,M56,CO2 laser source,"CO2 laser source joins M56. Keep wavelength, laser medium and continuous-wave/modulated versus pulsed operation distinct."
 X-MIX,M50,Bulk shaking and resonant acoustic mixing,"M50 broadened to shakers and vessel-driven mixers. Preserve vortex, mechanical shaking and resonant acoustic subtypes; LabRAM II is not ultrasonic."
+X-ROB,M62,Robotic handling and mobile robotics,"Project-added M62 robotics family. Preserve arms, dual-arm systems, mobile bases and mobile manipulator configurations separately; existing equipment and inventory IDs remain stable."

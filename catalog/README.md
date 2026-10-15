@@ -1,13 +1,13 @@
 # Equipment database
 
-`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 active M categories plus a separate requested-equipment supplement. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
+`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 60 active M categories. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
 
 ## Files
 
 | File | Meaning |
 | --- | --- |
 | equipment.csv | Main catalog: product families, variants, manuals, pricing fields and material/process relationships |
-| categories.csv | Current M family labels, original source category names and source-PDF page/checksum |
+| categories.csv | Current M family labels, source/project origin, original source category names and source-PDF page/checksum |
 | category_aliases.csv | Retired X identifiers and their canonical M destinations; X-FILTER has two destinations |
 | requested_equipment.csv | All 44 requested occurrences, mapped to 44 highlighted equipment records after splitting the filtration-and-centrifuges requirement |
 | source_models.csv | All 64 model/manual records retained by the source PDF, with their original provenance |
