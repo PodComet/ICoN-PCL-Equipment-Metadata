@@ -1,0 +1,34 @@
+{
+  "checked_date": "2026-10-14",
+  "equipment_id": "M20-03",
+  "price_source_url": "https://mtixtl.com/products/otf1200x",
+  "structured_source_url": "https://mtixtl.com/products/otf1200x.js",
+  "currency": "USD",
+  "price_kind": "manufacturer_starting_price",
+  "variants": [
+    {
+      "sku": "OTF1200X60",
+      "tube_outer_diameter_mm": 60,
+      "published_price": 5998
+    },
+    {
+      "sku": "OTF1200X75",
+      "tube_outer_diameter_mm": 76,
+      "published_price": 6295
+    },
+    {
+      "sku": "OTF1200X80",
+      "tube_outer_diameter_mm": 80,
+      "published_price": 6495
+    },
+    {
+      "sku": "OTF1200X4",
+      "tube_outer_diameter_mm": 100,
+      "published_price": 6995
+    }
+  ],
+  "explicit_msrp": false,
+  "research_evidence_url": "https://www.vanderbilt.edu/vinse/instrumentation/tube-furnace_mti_otf-1200x/",
+  "additional_research_evidence_url": "https://luo.chem.utah.edu/instrument/index.php",
+  "notes": "Manufacturer store and product JSON agree. Numeric prices are not transferred to different MTI furnace models or unspecified Purdue furnaces."
+}

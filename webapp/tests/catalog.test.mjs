@@ -51,6 +51,15 @@ test('card documentation selects manual before specifications and rejects unsafe
  assert.equal(documentationLink({...r,manual_url:'',technical_spec_url:''}),null);
 });
 
+test('missing checked manuals fall back to specifications, brochure and product page',()=>{
+ const r={equipment_id:'fallback-doc',model_name:'Instrument',manual_match_status:'not_verified',manual_url:'https://example.com/unreviewed-manual',technical_spec_url:'https://example.com/spec',brochure_url:'https://example.com/brochure',product_page_url:'https://example.com/model'};
+ assert.equal(documentationLink(r).label,'Technical specifications');
+ assert.equal(documentationLink({...r,technical_spec_url:''}).label,'Brochure');
+ assert.equal(documentationLink({...r,technical_spec_url:'',brochure_url:''}).label,'Manufacturer product page');
+ assert.equal(documentationLink({...r,technical_spec_url:'javascript:bad',brochure_url:'https://example.com/brochure'}).label,'Brochure');
+ assert.equal(documentationLink({...r,manual_match_status:VERIFIED}).label,'Operating manual');
+});
+
 test('every class has explicit estimates and component estimates avoid full-system bands',()=>{
  assert.ok(seed.records.every(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low)&&r.estimate_basis&&r.estimate_source_urls));
  const mobile=seed.records.find(r=>r.equipment_id==='REQ-EQ-043');

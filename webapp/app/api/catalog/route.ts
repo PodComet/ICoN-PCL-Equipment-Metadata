@@ -7,7 +7,7 @@ import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equ
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
-const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
+const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
 
@@ -64,7 +64,7 @@ export async function PUT(request: Request) {
     }
     const record:Equipment = audited({...original,...fields});
     if (!record.model_name || !record.variant_label || !record.product_family) return json({error:"Model name, product family and variant label are required."},400);
-    for (const field of ["manual_url","product_page_url","technical_spec_url","image_url","image_source_url","price_source_url"]) {
+    for (const field of ["manual_url","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","price_source_url"]) {
       if (record[field] && !safeUrl(record[field])) return json({error:`${field} must be an http or https URL.`},400);
     }
     if (record.capacity_ml && (!Number.isFinite(Number(record.capacity_ml)) || Number(record.capacity_ml)<=0)) return json({error:"Capacity must be a positive number of mL."},400);
@@ -81,7 +81,7 @@ export async function PUT(request: Request) {
     if (creating) {
       for(const k of MANUFACTURER_PRICE_FIELDS)record[k]=fields[k]||'';
       record.equipment_id="USER-"+crypto.randomUUID();
-      record.product_page_url=fields.product_page_url||"";record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";
+      record.product_page_url=fields.product_page_url||"";record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";record.brochure_url=fields.brochure_url||"";
       record.catalog_scope="user_variant";record.record_kind="user_variant";
       record.source_pdf="";record.source_page="";record.source_sha256="";
       record.model_status="user_entered";record.model_evidence_status="candidate_needs_review";record.model_evidence_url="";
