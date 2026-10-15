@@ -1,0 +1,529 @@
+{
+  "checked_date": "2026-10-15",
+  "scope": "All 44 user-designated Purdue profiles; no private inventory IDs or serial numbers included.",
+  "new_photo_records": 6,
+  "purdue_photos_before": 22,
+  "purdue_photos_after": 28,
+  "purdue_manufacturers_named": 32,
+  "purdue_manufacturers_unspecified": 12,
+  "records": [
+    {
+      "equipment_id": "REQ-EQ-009",
+      "model_name": "FormAlloy L2",
+      "before": {
+        "notes": "Bulk metal deposition; nanocomposite processing would require independent validation. Institution confirms L2 and says SOP provided after training; SOP not public manufacturer manual.",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "notes": "Bulk metal deposition; nanocomposite processing would require independent validation. Institution confirms L2 and says SOP provided after training; SOP not public manufacturer manual. Photo review 2026-10-15: Purdue lab facility sheet explicitly labels its customized L2. Image is an institutional reference configuration, not an assertion that it is this inventory unit. JHU image with an X5 filename was not used.",
+        "image_url": "https://web.ics.purdue.edu/~lou49/FormAlloy.png",
+        "image_source_url": "https://web.ics.purdue.edu/~lou49/facilities.html",
+        "image_scope": "Purdue Manufacturing for Extremes facility sheet with photos of a customized FormAlloy L2; configuration may differ from the listed unit. Optics and laser upgrades are not established by this image.",
+        "media_checked_date": "2026-10-15"
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-012",
+      "model_name": "Balticold Spray LTD CSM 108.02",
+      "before": {
+        "notes": "Requested CSM 108.02 differs from CSM 108.2 in published sources; preserve the supplied identifier. Published supplier model CSM108.2 differs requested 108.02. Do not silently rename or assign 108.2 manual.",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "notes": "Requested CSM 108.02 differs from CSM 108.2 in published sources; preserve the supplied identifier. Published supplier model CSM108.2 differs requested 108.02. Do not silently rename or assign 108.2 manual. Photo review 2026-10-15: Related CSM108.2 supplier photo added with an explicit mismatch caption. Original requested CSM 108.02 name preserved. Current manufacturer photorealistic render was not used as a photograph.",
+        "image_url": "https://imgcdn.mediabrains.com/clientimages/70a85aba-2502-440f-a1b9-62b6ba6320db.png",
+        "image_source_url": "https://www.thermalspraydirectory.com/company/929368/products/245625/low-pressure-cold-gas-dynamic-spray-machine-csm-108-2",
+        "image_scope": "Related-model reference: supplier listing photo of CSM108.2. The requested CSM 108.02 identifier remains unconfirmed; this is not an exact installed-unit match.",
+        "media_checked_date": "2026-10-15",
+        "product_page_url": "https://balticoldspray.com/products/csm108-2/",
+        "product_page_scope": "Manufacturer page for documented CSM108.2, a related model reference only. Requested CSM 108.02 identifier and installed configuration remain unresolved."
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-013",
+      "model_name": "MAZAK VC-500A/5X",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.kdmachinery.com/wp-content/uploads/2021/07/2017-Mazak-VC-500A5X-CNC-Vertical-Machining-Center-Ref-8070335-2.jpg",
+        "image_source_url": "https://www.kdmachinery.com/2017-mazak-vc-500a-5x-2/",
+        "image_scope": "MAZAK VC-500A/5X base model photographed in KD Machinery listing 8070335 (2017 machine); not the AM HWD hybrid and not a photograph of the Purdue unit.",
+        "media_checked_date": "2026-10-15"
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-014",
+      "model_name": "EDMMax 434W Fast Wire EDM",
+      "before": {
+        "notes": "Machining electrically conductive workpieces; not nanoparticle synthesis. Exact model confirmed; distinct from 434WW pure-water variant.",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "notes": "Machining electrically conductive workpieces; not nanoparticle synthesis. Exact model confirmed; distinct from 434WW pure-water variant. Photo review 2026-10-15: Exact 434W vendor listing supplies photo and model link. Vendor association with EDM Network is retained; no underlying OEM or new price assertion added.",
+        "image_url": "https://i.machineryhost.com/4a716f7ba05468f225127f29aa2040c5/7150a42273d93f92e3369248faa73afe/large-0001848_edmmax-434w-fast-wire-edm.jpg",
+        "image_source_url": "https://www.edmnetwork.com/listings/4738614-edmmax-434w-fast-wire-edm",
+        "image_scope": "EDMMax 434W photo from EDM Network, the named vendor; not the 434WW pure-water variant or a Purdue installed-unit photograph.",
+        "media_checked_date": "2026-10-15",
+        "product_page_url": "https://www.edmnetwork.com/listings/4738614-edmmax-434w-fast-wire-edm",
+        "product_page_scope": "EDM Network vendor listing for exact EDMMax 434W model. Vendor identity is established; underlying OEM and installed-unit configuration are not independently established."
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-015",
+      "model_name": "FANUC Fanuc_Robot_LR_Mate200i + CART",
+      "before": {
+        "notes": "LR Mate generation and cart integration unspecified; arm-only instructions do not cover the cart. Retain exact unsuffixed 200i and cart configuration. 200iC/200iD manuals do not establish coverage; controller/cart integration unidentified.",
+        "technical_spec_url": ""
+      },
+      "after": {
+        "notes": "LR Mate generation and cart integration unspecified; arm-only instructions do not cover the cart. Retain exact unsuffixed 200i and cart configuration. 200iC/200iD manuals do not establish coverage; controller/cart integration unidentified. Photo review 2026-10-15: Robots.com documents the legacy unsuffixed LR Mate 200i arm; linked as supplier specifications only. Cart, controller and exact installation remain unresolved. Current 200iD photograph was not substituted.",
+        "technical_spec_url": "https://www.robots.com/industrial-robots/fanuc-lr-mate-200i"
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-016",
+      "model_name": "Rethink Robotics Baxter",
+      "before": {
+        "notes": "Robot tooling and contained sample compatibility require configuration-specific assessment. Manufacturing Intera versus Research robot distinction unresolved. Public mirrors have manufacturer user guide but no qualifying manufacturer/institution/distributor-hosted copy located; institution introduction explicitly is not user manual.",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "notes": "Robot tooling and contained sample compatibility require configuration-specific assessment. Manufacturing Intera versus Research robot distinction unresolved. Public mirrors have manufacturer user guide but no qualifying manufacturer/institution/distributor-hosted copy located; institution introduction explicitly is not user manual. Photo review 2026-10-15: University of Maryland Baxter Research Robot photo added as an explicitly scoped illustrative configuration. This does not resolve the Purdue unit version or reactivate the defunct manufacturer.",
+        "image_url": "https://facilities.robotics.umd.edu/sites/default/files/styles/optimized/public/assets/rml/Baxter/baxter-showTable.jpg",
+        "image_source_url": "https://facilities.robotics.umd.edu/rml/equipment/baxter.html",
+        "image_scope": "Baxter Research Robot at the University of Maryland; illustrative configuration, not the Purdue unit. Research/manufacturing version and installed tooling remain unconfirmed. Rethink Robotics is defunct.",
+        "media_checked_date": "2026-10-15"
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-019",
+      "model_name": "Universal Robots UR16e",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_url": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "image_url": "https://a.storyblok.com/f/169662/1920x780/93827aeb47/ur16e-collaborative-robotjpg.jpg/m/735x413",
+        "image_source_url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+        "image_scope": "UR16e manufacturer launch photograph; installation and end-effector configuration may vary. Not the newer UR16 model.",
+        "media_checked_date": "2026-10-15",
+        "product_page_url": "https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/",
+        "product_page_scope": "Working manufacturer launch article for historical UR16e model; current /products/ur16e/ returned 404 in this review. Existing exact-model documentation is retained."
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-043",
+      "model_name": "Tracer 2.0 Mobile Platform",
+      "before": {
+        "manufacturer": "Unspecified",
+        "notes": "Mobile base without manipulator; arm/tool integration is separate. Exact TRACER 2.0 manual; do not substitute earlier TRACER manual merely marked version 2.",
+        "product_page_url": "https://global.agilex.ai/products/tracer-2-0",
+        "product_page_scope": "",
+        "image_source_url": "https://global.agilex.ai/products/tracer-2-0",
+        "media_checked_date": "2026-10-13"
+      },
+      "after": {
+        "manufacturer": "AgileX Robotics",
+        "notes": "Mobile base without manipulator; arm/tool integration is separate. Exact TRACER 2.0 manual; do not substitute earlier TRACER manual merely marked version 2. Manufacturer review 2026-10-15: TRACER 2.0 is manufactured by AgileX Robotics, supported by manufacturer model page and the existing manufacturer-authored manual. Product URL updated to the current TRACER 2.0 page; previous URL contained unrelated Ranger Air copy. Brand research-use evidence is Mobile ALOHA (section 3, page 4), which uses the earlier Tracer AGV; it does not verify the TRACER 2.0 configuration or nanomaterial capability.",
+        "product_page_url": "https://global.agilex.ai/products/tracer-2-0-indoor-robot-smart-logistics",
+        "product_page_scope": "Manufacturer page explicitly describing TRACER 2.0. The previous /products/tracer-2-0 page has conflicting Ranger Air text and is superseded; do not inherit its specifications.",
+        "image_source_url": "https://global.agilex.ai/products/tracer-2-0-indoor-robot-smart-logistics",
+        "media_checked_date": "2026-10-15"
+      }
+    }
+  ],
+  "image_checks": [
+    {
+      "equipment_id": "M37-09",
+      "image_url": "https://cdn.prod.website-files.com/5f03223e594ffa7755520340/66294dad1e6ec5aee423b209_AXRD%20Benchtop.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 408,
+      "height": 350,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M37-10",
+      "image_url": "https://cdn.prod.website-files.com/5f03223e594ffa7755520340/63f830de47f20331363cc2e9_iXRD_mini_clipped_v2_gradient.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 871,
+      "height": 1001,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-005",
+      "image_url": "https://www.renishaw.com.cn/media/img/gen/f48c545277754519b7d2957c6bcffec4.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 2832,
+      "height": 3385,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-007",
+      "image_url": "https://www.lumex-matsuura.com/english/main/wp-content/uploads/2019/09/lumex04.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 2000,
+      "height": 450,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-008",
+      "image_url": "https://www.lumex-matsuura.com/english/main/wp-content/uploads/2019/09/lumex04.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 2000,
+      "height": 450,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-009",
+      "image_url": "https://web.ics.purdue.edu/~lou49/FormAlloy.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1345,
+      "height": 770,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-010",
+      "image_url": "https://www.keyence.com/img/series/360/75383.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 360,
+      "height": 360,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-012",
+      "image_url": "https://imgcdn.mediabrains.com/clientimages/70a85aba-2502-440f-a1b9-62b6ba6320db.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1850,
+      "height": 832,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-013",
+      "image_url": "https://www.kdmachinery.com/wp-content/uploads/2021/07/2017-Mazak-VC-500A5X-CNC-Vertical-Machining-Center-Ref-8070335-2.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 1920,
+      "height": 1440,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-014",
+      "image_url": "https://i.machineryhost.com/4a716f7ba05468f225127f29aa2040c5/7150a42273d93f92e3369248faa73afe/large-0001848_edmmax-434w-fast-wire-edm.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 404,
+      "height": 525,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-016",
+      "image_url": "https://facilities.robotics.umd.edu/sites/default/files/styles/optimized/public/assets/rml/Baxter/baxter-showTable.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 448,
+      "height": 416,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-017",
+      "image_url": "https://media-d.global.abb/is/image/abbc/overview_image_yumi_dual_arm",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 400,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-018",
+      "image_url": "https://images.squarespace-cdn.com/content/v1/5c4f6d1db98a7857373097fd/f0f1def7-07e9-477b-adeb-39901d8c1c2d/wam-arm.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 1129,
+      "height": 2021,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-019",
+      "image_url": "https://a.storyblok.com/f/169662/1920x780/93827aeb47/ur16e-collaborative-robotjpg.jpg/m/735x413",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 735,
+      "height": 413,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-020",
+      "image_url": "https://www.doosanrobotics.com/images/product/m0609-slide01.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 1920,
+      "height": 1960,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-024",
+      "image_url": "https://cdn.prod.website-files.com/63d925b46a84dec214bc0bbd/69cfa6f671f91b2794334b3f_core-2.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 784,
+      "height": 640,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-025",
+      "image_url": "https://cdn.prod.website-files.com/63d925b46a84dec214bc0bbd/68e90eab2744d33e3cb99eda_open-graph-bolt-v3.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1200,
+      "height": 630,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-026",
+      "image_url": "https://franka.de/hubfs/260217_MFR3_Duo_Camera10_fp%20(1).png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1500,
+      "height": 844,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-027",
+      "image_url": "https://www.gamry.com/assets/Uploads/multiport-corrosion-cell-kit__ScaleMaxWidthWzQwMF0.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 347,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-031",
+      "image_url": "https://psylotech.com/wp-content/uploads/2022/12/microscopy-1.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 322,
+      "height": 455,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-034",
+      "image_url": "https://www.yornew.com/en/images/vmc300-h1.webp",
+      "http_status": 200,
+      "content_type": "text/plain",
+      "width": 1200,
+      "height": 720,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-035",
+      "image_url": "https://cdn.prod.website-files.com/63d925b46a84dec214bc0bbd/69cfa87330ebbdbc2cfd0187_compressed_thor-product-image.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1296,
+      "height": 1080,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-036",
+      "image_url": "https://resodynmixers.com/wp-content/uploads/2018/10/LabRAM-2_Front-Closed.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 800,
+      "height": 800,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-040",
+      "image_url": "https://lightcon.com/wp-content/uploads/products/Femtosecond-Lasers/CARBIDE/LC-product-photo-CB3-front-1440x900-251001-768x480.webp",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "width": 768,
+      "height": 480,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-041",
+      "image_url": "https://novanta.com/precision-manufacturing/wp-content/uploads/sites/28/2026/04/48-series.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 1200,
+      "height": 1200,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-042",
+      "image_url": "https://a.storyblok.com/f/169662/3000x3000/ee593553f3/ur12e-2025-warm50-1x1-68pct-01.png/m/736x552",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 736,
+      "height": 552,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-043",
+      "image_url": "https://global.agilex.ai/cdn/shop/files/Tracer-2.0_453_b1a6b1e4-3d5c-4050-bfdf-a1be1f059b6a.png?v=1744097502&width=1946",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 1946,
+      "height": 1946,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-044",
+      "image_url": "https://www.fanucamerica.com/uploads/products/crx-10ia/CRX-10iA-Beauty-Shot.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 811,
+      "height": 1365,
+      "verification": "decoded_image"
+    }
+  ],
+  "deferred_photo_records": [
+    {
+      "equipment_id": "REQ-EQ-001",
+      "model_name": "Physical Vapor Deposition (PVD) tool",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-002",
+      "model_name": "Cluster ALD tool",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-003",
+      "model_name": "Glovebox ALD systems with potential robotic arms to transfer wafers",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-004",
+      "model_name": "1700 °C atmospheric control furnace(s)",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-015",
+      "model_name": "FANUC Fanuc_Robot_LR_Mate200i + CART",
+      "manufacturer": "FANUC",
+      "reason": "Legacy unsuffixed LR Mate 200i + cart configuration unresolved; current 200iD photo excluded. Legacy-arm supplier specification link added."
+    },
+    {
+      "equipment_id": "REQ-EQ-021",
+      "model_name": "Selective etching reactor (custom built)",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-022",
+      "model_name": "Automatic filtration (custom built)",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-023",
+      "model_name": "Large scale shaker (paint shaker)",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-028",
+      "model_name": "4x 1200 ºC tube furnaces",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-029",
+      "model_name": "3x 1600 ºC tube furnaces",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-030",
+      "model_name": "1x 1800 ºC tube furnace",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-032",
+      "model_name": "Psylotech high temperature laser add-on",
+      "manufacturer": "Psylotech",
+      "reason": "Manufacturer offers laser heating, but available photo depicts a convective chamber. No laser add-on photo assigned."
+    },
+    {
+      "equipment_id": "REQ-EQ-037",
+      "model_name": "Spin coater with automatic liquid dispenser",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    },
+    {
+      "equipment_id": "REQ-EQ-038",
+      "model_name": "FormAlloy L2 Optics Upgrade",
+      "manufacturer": "FormAlloy",
+      "reason": "Upgrade component, supplier and revision unspecified; base L2 photo does not establish an optics/laser upgrade image."
+    },
+    {
+      "equipment_id": "REQ-EQ-039",
+      "model_name": "FormAlloy L2 Laser Upgrade",
+      "manufacturer": "FormAlloy",
+      "reason": "Upgrade component, supplier and revision unspecified; base L2 photo does not establish an optics/laser upgrade image."
+    },
+    {
+      "equipment_id": "REQ-EQ-022-CENTRIFUGES",
+      "model_name": "Purdue-list centrifuges (models unspecified)",
+      "manufacturer": "Unspecified",
+      "reason": "Manufacturer/model unspecified in the supplied requirement; no stock image assigned to an unidentified instrument."
+    }
+  ],
+  "source_limitations": [
+    "Photo URLs remain on their source hosts; no image redistribution license is asserted.",
+    "BaltiCold CSM108.2 is a related-model reference; requested CSM108.02 remains unresolved.",
+    "Purdue L2 source is a facility sheet containing instrument photos and configuration text; pictured unit identity is not linked to private inventory.",
+    "Baxter photo is a research configuration at another university; Rethink Robotics remains defunct.",
+    "Mazak photo is a dealer-listed base model; AM HWD photo and unrelated customer-story equipment images excluded.",
+    "Manufacturer research-use badge does not establish exact-model academic use or nanomaterial capability."
+  ],
+  "additional_link_repairs": [
+    {
+      "file": "equipment_price_overrides.csv",
+      "equipment_id": "REQ-EQ-043",
+      "field": "estimate_source_urls",
+      "before": "https://global.agilex.ai/products/tracer-2-0",
+      "after": "https://global.agilex.ai/products/tracer-2-0-indoor-robot-smart-logistics",
+      "scope": "Reference URL correction only; estimate amounts, assumptions, confidence and review date unchanged."
+    }
+  ]
+}
