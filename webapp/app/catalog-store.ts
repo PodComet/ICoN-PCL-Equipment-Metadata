@@ -7,9 +7,10 @@ import researchUpdates from "./data/research-updates.json";
 import {refreshResearchEvidence} from "./research-policy";
 import linkReplacements from "./data/link-replacements.json";
 import {repairRetiredLinks} from "./link-policy";
+import {applyModelLifecycle} from './model-lifecycle';
 
 export const seedById=new Map((seed.records as Equipment[]).map(r=>[r.equipment_id,r]));
-export const audited=(r:Equipment,protectedFields:string[]=[])=>applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers);
+export const audited=(r:Equipment,protectedFields:string[]=[])=>applyModelLifecycle(applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers),seed.model_lifecycle);
 export async function loadSharedCatalog(){
  const results=await env.DB!.batch([
   env.DB!.prepare("SELECT revision FROM catalog_meta WHERE id='shared'"),

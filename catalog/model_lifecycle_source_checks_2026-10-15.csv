@@ -1,0 +1,414 @@
+source_url,equipment_ids,http_status,content_type,retrieval_result,checked_date
+https://adamschittenden.com/,M27-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://afm.oxinst.com/,M41-01;M41-04;M41-05;M41-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://aixtron.com/investoren/events/hauptversammlung/archiv/2010/en/100324_AIX_GB2009_EN_gesch.pdf,M21-06;M21-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://aixtron.com/presse/2019/2019-12/191210_PlayNitride_e_final.pdf,M21-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://amarequip.com/,M05-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://analyzing-testing.netzsch.com/en/products,M42-02;M42-06;M42-07,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic,M42-02,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://api.p1.mks.com/mam/celum/celum_assets/resources/1179A-2179A-179Aman.pdf,M32-03;M32-08;M32-09,200,application/pdf,retrieved_document_link,2026-10-15
+https://arradiance.com/gemstar,M22-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://atc.zju.edu.cn/upload/tinsfile/1714118554toojs.pdf,M22-01,200,application/pdf,retrieved_document_link,2026-10-15
+https://avestin.com/,M43-02,200,text/html,retrieved_html,2026-10-15
+https://avestin.com/products/LiposoFastLF-50,M43-02,200,text/html,retrieved_html,2026-10-15
+https://backend.orbit.dtu.dk/ws/files/138122440/PhD_thesis_Anders_Bodin_.pdf,M54-03,200,application/pdf,retrieved_document_link,2026-10-15
+https://balticoldspray.com/,REQ-EQ-012,200,text/html,retrieved_html,2026-10-15
+https://balticoldspray.com/products/csm108-2/,REQ-EQ-012,200,text/html,retrieved_html,2026-10-15
+https://bandelin.com/,M10-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://barrett.com/wam,REQ-EQ-018,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://beneq.com/tfs200/,M22-01;M22-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://bpb-us-w2.wpmucdn.com/muse.union.edu/dist/c/690/files/2024/10/Denton-Desk-V-Manual.pdf,M23-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://cdn.cytivalifesciences.com/api/public/content/WQisi10CC0yd8JjTRQrw7Q-pdf?v=cebdfca8,M08-01;M08-04,200,application/pdf,retrieved_document_link,2026-10-15
+https://cem.com/,M06-02;M06-07;M06-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://cem.com/vessels,M06-02;M06-07;M06-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://chemglass.com/dual-vacuum-trap-assembly-o-rings-airfree-schlenk?sku=AF-0203-03,M27-07;M27-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://chemglass.com/pages/about_history,M04-03;M27-01;M27-04;M27-05;M27-06;M27-07;M27-08;M27-09;M27-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://chemglass.com/portable-vacuum-systems-airfree,M27-04;M27-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://chemglass.com/vacuum?orderby=10,M27-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://chemyx.com/about-us/,M07-09;M07-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://chemyx.com/support/legacy-products/,M07-09;M07-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://corehelp.standardbots.com/1-introduction.html,REQ-EQ-024,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://crf.korea.ac.kr/front/attach/preview/81dc29d1-5752-400c-8dc7-182cdb975614,M23-03,200,application/pdf;charset=UTF-8,retrieved_document_link,2026-10-15
+https://d3.cytivalifesciences.com/prod/IFU/29046893.pdf,M15-10,200,application/octet-stream,retrieved_document_link,2026-10-15
+https://docs.research.missouri.edu/emc/Quorum-150TES-user-manual.pdf,M23-04,200,application/pdf,retrieved_document_link,2026-10-15
+https://documents.thermofisher.com/TFS-Assets/LCD/Catalogs/lpg-catalog-2017.pdf,M13-02;M13-07;M13-08;M14-02;M14-08;M14-09;M18-03;M18-09;M19-03;M19-10;M29-07;M35-03;M35-08;M36-02;M36-06;M36-07;M38-02;M38-09;M39-02;M39-07;M39-08;M40-09;M46-03;M50-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://documents.thermofisher.com/TFS-Assets/LED/Specification-Sheets/GenPure-xCAD-Plus-UVUF-TOC-AE-Specifications-Sheet-061014.pdf,M46-03,200,application/pdf,retrieved_document_link,2026-10-15
+https://documents.thermofisher.com/TFS-Assets/LED/manuals/50143327-k-Sorvall%20ST%208%20Series-en.pdf,M13-02,200,application/pdf,retrieved_document_link,2026-10-15
+https://documents.thermofisher.com/TFS-Assets/MSD/Specification-Sheets/PS53460-evolution-one-one-plus-spectrophotometer-guaranteed-specifications.pdf,M35-03,200,application/pdf,retrieved_document_link,2026-10-15
+https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf,M36-02,200,application/pdf,retrieved_document_link,2026-10-15
+https://downloads.leica-microsystems.com/EM%20ACE600/Brochure%20or%20Flyer/EM_ACE200_600_Brochure_CN.pdf,M23-02;M23-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://ekspla.com/,M56-03;M56-06;M56-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://emea.my.edwardsvacuum.com/medias/A73501880-Instructions.pdf?attachment=true&context=bWFzdGVyfHJvb3R8MTgzOTk1OHxhcHBsaWNhdGlvbi9wZGZ8YUdRNEwyZzVaUzh4TURNek56QTNNamszTVRjM09UQXZRVGN6TlRBeE9EZ3dJQzBnU1c1emRISjFZM1JwYjI1ekxuQmtaZ3w3ZjllOWYxMzYxNzM5ZmQ2ZjAwYzdkNGY1ZTM0MjE3MDA3OTZhYWZkNDY5YThjMWEyYTRmNzdkZmQ2YWI2NWQ2,M31-01;M31-04;M31-05;M31-06,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://engineering.jhu.edu/MCP/equipment/formalloy-l2-directed-energy-deposition-ded-system/,REQ-EQ-009;REQ-EQ-038;REQ-EQ-039,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://flowsciences.com/standard-products/vented-balance-enclosure/,M30-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://flowsciences.com/technical-support/,M30-02;M30-06;M30-07;M30-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://formalloy.com/about-us/,REQ-EQ-009;REQ-EQ-038;REQ-EQ-039,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://franka.de/de-de/mobile-fr3-duo,REQ-EQ-026,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://franka.de/mobile-fr3-duo,REQ-EQ-026,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://github.com/RethinkRobotics/baxter_examples,REQ-EQ-016,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://global.agilex.ai/products/about-agilex,REQ-EQ-043,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://global.agilex.ai/products/tracer-2-0-indoor-robot-smart-logistics,REQ-EQ-043,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://heidolph-instruments.com/documents/Produkt%C3%BCbersicht-2023-EN.pdf,M02-02;M03-02;M03-07;M03-08;M16-02;M16-07;M16-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://heidolph.com/dach/en/hei-plate-mix-n-heat-core-135-mm~p351,M02-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://heidolph.com/emea/en/technical_data/Hei-VAP%20Core%20Standard%20G1%20diagonal%20glassware%20Handlift~p225,M16-02,200,application/pdf,retrieved_document_link,2026-10-15
+https://info.fishersci.com/fisherbrand,M10-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://infors-ht.com/en/products/bioreactors/bench-top-bioreactors/minifors,M45-03;M45-07;M45-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://insidetx.com/product/tamara-nanoparticle-lnp-formulation-system/,M08-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://investor.appliedmaterials.com/news-releases/news-release-details/applied-materials-broadens-its-technology-portfolio-specialty,M22-04;M22-05,403,text/html,http_error,2026-10-15
+https://investor.mt.com/investor-home/default.aspx,M01-03;M42-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://ir.lib.nycu.edu.tw/bitstream/11536/42094/1/452701.pdf,M21-04,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://julabo.us/resources/operating-manual-for-refrigerated-baths/,M33-01;M33-04;M33-05;M33-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://kewaunee.com/,M29-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://knowledge1.thermofisher.com/@api/deki/files/14092/269-334402_-_REV_B_-_Summit_User_Guide__EN.pdf?revision=3,M36-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://knowledge1.thermofisher.com/@api/deki/files/4467/269-275000_-_Rev_D_-_Nicolet_iS50_User_Guide.pdf?revision=1,M36-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://lab.vanderbilt.edu/wp-content/uploads/sites/21/public_files/q500_manual_rev_3-12.pdf,M09-04,200,application/pdf,retrieved_document_link,2026-10-15
+https://labfriendcoredataprod.blob.core.windows.net/labfriendcore-data-prod/files/Carbolite%20CWF%20Series%20Instruction%20Manual.pdf,M19-02;M19-07;M19-08;M19-09,200,application/pdf,retrieved_document_link,2026-10-15
+https://lctechinc.com/gloveboxes/,M28-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://lightcon.com/products/carbide-femtosecond-lasers/,REQ-EQ-040,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://m.labconco.com/product/protector-xstream-laboratory-hoods,M17-01;M17-04;M17-05;M29-01;M29-04;M29-05;M29-06;M30-01;M30-04;M30-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://m.labconco.com/product/rxperttm-double-hepa-filtered-balance-systems,M30-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://m.labconco.com/resources/brochures/freezone-freeze-dry-systems-catalog,M17-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://manual.doosanrobotics.com/en/user-manual/3.3.0/1-m-h-series/m0609,REQ-EQ-020,200,text/html,retrieved_html,2026-10-15
+https://media.beckman.com/-/media/japan-team/pdfs/brochures/optima-max-series_jp.pdf?rev=a68a374424264069a67ef505204a2494,M14-06;M14-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://mtixtl.com/,M20-03;M20-09;M20-10;M21-01;M25-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://mtixtl.com/products/otf-1200x-ii-pec4sl-ld,M21-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://mtixtl.com/products/otf1200x,M20-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://nabertherm.com/sites/default/files/2024-04/laboratory_english.pdf,M19-01;M19-04;M19-05;M19-06;M20-02;M20-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://nabertherm.com/sites/default/files/noindex/2025-01/M01.1060_Czech_2024-07.pdf,M19-01;M19-04;M19-05;M19-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://neocera.com/,M48-01;M48-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://neocera.com/pld-ped-systems/,M48-01;M48-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://new.marshallscientific.com/products/branson-cpx2800-digital-ultrasonic-cleaner?pr_prod_strat=e5_desc&pr_rec_id=b69966d4a&pr_rec_pid=14808949096815&pr_ref_pid=14808950997359&pr_seq=uniform,M10-02;M10-07;M10-08;M10-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://new.marshallscientific.com/v/vspfiles/specs/Memmert%20VO%20Vacuum%20Ovens%20Manual%20-%20Marshall%20Scientific.pdf,M18-01;M18-04;M18-05,404,text/html; charset=utf-8,http_error,2026-10-15
+https://new.silverson.com/en/products/laboratory-mixers/,M11-03,401,text/html,http_error,2026-10-15
+https://novanta.com/precision-manufacturing/product/48-series-8-10-watt-co2-lasers/,REQ-EQ-041,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://oainet.speedstorecdn.com/OAI_Model-6000-data-sheet.pdf,M58-03;M58-09;M58-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://oaresearch.co.uk/,M54-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://oceania.ohaus.com/en-eu/products/balances-scales/analytical-balances/pioneer-analytical-%281%29/electronic-balance-px224-e-%281%29,M01-01,,,network_error,2026-10-15
+https://plasma.oxinst.com/campaigns/open-load,M21-10;M22-03;M61-01;M61-04;M61-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://plasma.oxinst.jp/products/rie/plasmapro-80-rie,M61-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://product.quorumtech.com/product/turboqs,M23-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://psylotech.com/,REQ-EQ-031;REQ-EQ-032,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://psylotech.com/#microscopy,REQ-EQ-031,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://psylotech.com/#temperature,REQ-EQ-032,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://psylotech.com/wp-content/uploads/2023/01/Temperature-2023.01.pdf,REQ-EQ-032,200,application/pdf,retrieved_document_link,2026-10-15
+https://psylotech.com/wp-content/uploads/2023/02/Temperature-2023.02.pdf,REQ-EQ-031,200,application/pdf,retrieved_document_link,2026-10-15
+https://raith.com/,M59-01;M59-04;M59-05;M59-06;M59-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://raman.oxinst.com/,M40-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://resodynmixers.com/products/labram-ii-lab-mixer/,REQ-EQ-036,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex,M37-01;M37-04;M37-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english,M37-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://sceweb.sce.uhcl.edu/harman/CENG5931Baxter2015/Guides/BAXTER_Introduction_2_08_2016.pdf,REQ-EQ-016,,,network_error,2026-10-15
+https://scientificproducts.com/,M17-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://scil-nano.com/equipment/,M60-09;M60-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://scscoatings.com/,M24-06;M24-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://search.renishaw.com/en?contenttype=%2Ctechdoc&language=en&page=1&products=am&term=Specifications+and+downloads,REQ-EQ-005,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://service.palas.de/en/repair,M51-08,200,text/html; charset=utf-8;,retrieved_html,2026-10-15
+https://shop-kinematica.ch/wp-content/uploads/downloads-pdf/PT2500/POLYTRON%C2%AE_PT_2500_E_en_V_3.1.pdf,M11-02;M11-06;M11-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://shop.perkinelmer.com/product/L160000A,M36-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S,M01-05,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-220-g01-mg-external-adjustment/BCA224-1S,M01-02;M01-04;M01-05;M01-06;M01-07;M01-08;M01-09;M15-01;M15-04;M15-05;M15-06;M15-07;M45-01;M45-04;M46-10,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S,M01-04,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S,M01-07,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S,M01-08,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S,M01-09,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S,M01-06,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://shop.sartorius.com/us/p/entris-ii-advanced-line-laboratory-balances/M_Entris-II_Laboratory_Balances,M01-02;M01-04;M01-05;M01-06;M01-07;M01-08;M01-09,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://silverson.com/products/laboratory-mixers,M11-03;M11-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://sonics.com/division-manuals/manuals-liquid-processing/,M09-02;M09-06;M09-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://sonics.com/product/vcx-750-110/,M09-02;M09-06;M09-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://standardbots.com/,REQ-EQ-024;REQ-EQ-025;REQ-EQ-035,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://standardbots.com/bolt,REQ-EQ-025,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://standardbots.com/ro1,REQ-EQ-024,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://standardbots.com/thor,REQ-EQ-035,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://store.bruker.com/products/set-of-filter-sample-rings-d2-steel,M36-01;M36-04;M36-05;M37-03;M37-08;M40-03;M41-02;M41-07;M41-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://support.harvardapparatus.com/hc/en-us/article_attachments/31241958761107,M07-02;M07-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://support.kdscientific.com/hc/en-us/article_attachments/1500011652162,M07-03;M07-07;M07-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://support.kdscientific.com/hc/en-us/articles/1500007839022-Legato-100-Series-Manual,M07-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://therisnano.com/,M54-02;M54-05;M54-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf,M54-02;M54-05;M54-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://tsi.com/getmedia/18bb5a6c-e2c0-42a4-b5ba-928cec739eba/3082_Electrostatic%20Classifier_A4_5001530_RevA_Web?ext=.pdf,M51-01;M51-04;M51-05;M51-06;M51-07;M53-01;M53-04;M53-05,200,application/pdf,retrieved_document_link,2026-10-15
+https://tsi.com/getmedia/5a446194-f650-4d98-81d9-ac0c2e03616d/Service-Options_3082-Booklet_5x7_5002622_RevD_Web.pdf?ext=.pdf,M51-05;M51-06;M51-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://tsi.com/getmedia/6567643a-8097-48d2-8409-4a82cf856096/3080-001-A4-RevA_Changing_Power_Supply?ext=.pdf,M51-04,200,application/pdf,retrieved_document_link,2026-10-15
+https://tsi.com/products/aerosol-generators-dispersers/seed-aerosol-generators/single-jet-atomizer-9302/,M53-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://ugtl.hkust-gz.edu.cn/wp-content/uploads/2024/08/XRD-guidebook.pdf,M37-02,200,application/pdf,retrieved_document_link,2026-10-15
+https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983,M31-01,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://us.ohaus.com/en-us/products,M01-01;M50-09,,,network_error,2026-10-15
+https://vac-atm.com/,M28-02;M28-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://web.barrett.com/support/WAM_Documentation/WAM_UserManual_AH-00.pdf,REQ-EQ-018,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.abb.com/gb/en/areas/robotics/products/robots/collaborative-robots/dual-arm-yumi,REQ-EQ-017,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.abb.com/global/en/areas/robotics/products/robots/collaborative-robots/dual-arm-yumi,REQ-EQ-017,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.aceglass.com/,M27-02,,,network_error,2026-10-15
+https://www.acrossinternational.com/,M12-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.agilent.com/Library/usermanuals/Public/G6860-90001.pdf,M35-04,403,text/html,http_error,2026-10-15
+https://www.agilent.com/cs/library/brochures/brochure-cary-3500-uv-5994-0335en-us-agilent.pdf,M35-01,403,text/html,http_error,2026-10-15
+https://www.agilent.com/cs/library/usermanuals/public/IDP-15_Dry_Scroll_Vacuum_pump_instruction_manual.pdf,M31-09,403,text/html,http_error,2026-10-15
+https://www.agilent.com/cs/library/usermanuals/public/IDP-3%20Dry%20Scroll%20vacuum%20Pump.pdf,M31-07,403,text/html,http_error,2026-10-15
+https://www.agilent.com/en,M31-02;M31-07;M31-08;M31-09;M35-01;M35-04;M35-05,403,text/html,http_error,2026-10-15
+https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump,M31-02,403,text/html,http_error,2026-10-15
+https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-7-dry-scroll-pump,M31-08,403,text/html,http_error,2026-10-15
+https://www.aixtron.com/,M21-06;M21-07;M21-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.alfalaval.com/,M49-03;M49-08;M49-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.alicat.com/,M32-02;M32-06;M32-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.alicat.com/products/gas-flow/mass-flow-controller/laminar-dp-mass-flow-controllers/,M32-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.amplitude-laser.net.cn/news/surelite-4-a-new-high-energy-diode-pumped-laser-platform/,M56-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.annealsys.com/,M21-09,,,network_error,2026-10-15
+https://www.anton-paar.com/,M06-01;M06-04;M06-05;M06-06;M34-02;M34-07,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.anton-paar.com/corp-en/products/details/?L=0&cHash=6b4647e6e4156966bd651d97250bf84d&document=17877&eID=documentsDownload&srsltid=AfmBOoo19-izlO1yiBIFo7wITWWykMgziOXi5GRP4Z5n6G66CX062OAm,M06-06,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.anton-paar.com/fi-en/products/details/monowave-450-automated-microwave-assisted-extraction/,M06-01;M06-04;M06-05,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.anton-paar.com/uk-en/products/details/litesizer/?sku=317782,M34-02,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.apexicindia.com/,M44-03,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.asynt.com/,M04-02;M04-06,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.asynt.com/wp-content/uploads/2024/06/Asynt-Product-Guide.pdf,M04-02;M04-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.avantiresearch.com/,M43-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.avantiresearch.com/en-gb/products/product/1000061-mini-extruder-pro-kit-with-base,M43-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.barrett.com/wam-arm,REQ-EQ-018,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.beckman.com/centrifuges,M14-01;M14-04;M14-05;M14-06;M14-07,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.beckmancoulter.com/download/file/wsr-128301/B08094AM?type=pdf,M14-01;M14-04;M14-05,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.berghof-instruments.com/,M05-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.binder-world.com/,M18-02;M18-06;M18-07;M18-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.binder-world.com/us-en/products/drying-ovens/vacuum-drying-chambers/product/vd-56,M18-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.biolinscientific.com/,M25-01;M44-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.biolinscientific.com/contact-us/find-an-office?id=5376449477,M44-04;M44-05;M44-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.biologic.net/,M57-02;M57-06;M57-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.biotage.com/,M06-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.bronkhorst.com/,M32-01;M32-04;M32-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.bronkhorst.com/getmedia/98668a82-8d1c-4b7f-af8e-995be25641b3/EL-FLOW-Select_en.pdf,M32-01,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.brookhaveninstruments.com/,M34-03;M34-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.brookhaveninstruments.com/products/nanobrook-series/,M34-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.brooksinstrument.com/,M32-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.brooksinstrument.com/hubfs/Installation-Manual-SLA5800-EN.pdf?hsLang=en,M32-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.buchi.com/en/blogs/colorful-researchers/coffee-cups-condensers-enhancing-condenser-efficiency,M16-04;M16-05;M16-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.buchi.com/en/buchi-world/about,M16-01;M16-04;M16-05;M16-06;M17-02;M17-06;M17-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.buchi.com/en/products/instruments/lyovapor-l-210,M17-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.buchi.com/en/products/instruments/rotavapor-r-180,M16-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.buchi.com/ja/products/instruments/rotavapor-r-180,M16-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.buchiglas.com/en-us/contact/headquarter.html,M04-07;M04-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.buchiglas.com/fileadmin/buchiglas_international/download/dvs/Brochures_and_Flyers/B_Buchi_Pilot_Plant_and_Pressure_Reactor.pdf,M04-07;M04-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.cambustion.com/,M51-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.carbolite-gero.com/,M19-02;M19-07;M19-08;M19-09;M20-01;M20-04;M20-05;M20-06;M20-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.carbolite.com/files/12830/laboratory-industrial-ovens-furnaces.pdf,M20-01;M20-04;M20-05;M20-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.coherent.com/,M56-10,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.cressington.com/,M23-03;M23-07,200,text/html,retrieved_html,2026-10-15
+https://www.cytivalifesciences.com/news-center/cytiva-launches-manufacturing-system-for-lipid-nanoparticles-10001,M08-01;M08-04;M08-05;M08-06;M08-07;M08-08;M15-10,200,text/html,retrieved_html,2026-10-15
+https://www.dentonvacuum.com/,M23-08;M23-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.dolomite-microfluidics.com/,M08-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.doosanrobotics.com/en/,REQ-EQ-020,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/,REQ-EQ-020,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.dunnlab.de/wp-content/uploads/Chemglass_Vacuum_Manifolds_Airfree_Bro_EN-1.pdf,M27-01,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.durag.com/mediafiles/stream/?id=4%2Fa%2F2%2Ff%2F4a2fd7efc905b22b09f625563647a40e855d44ac_durag_grimm_psmps_datasheet_en.pdf,M51-03;M51-09,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.edmnetwork.com/listings/4738614-edmmax-434w-fast-wire-edm,REQ-EQ-014,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.edmnetwork.com/pages/why-choose-us,REQ-EQ-014,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.edwardsvacuum.com/,M31-01;M31-04;M31-05;M31-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.electrospinz.co.nz/,M47-09,,,network_error,2026-10-15
+https://www.elgalabwater.com/,M46-02;M46-08;M46-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.elgalabwater.com/products/purelab-quest,M46-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.elionix.co.jp/,M59-03;M59-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.elma-ultrasonic.com/,M10-01;M10-04;M10-05;M10-06;M26-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.elma-ultrasonic.com/en/elmasonic-select,M10-01;M10-04;M10-05;M10-06,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.emerson.com/en-us/automation/branson,M10-02;M10-07;M10-08;M10-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/,M13-01;M13-04;M13-05;M13-06;M45-02;M45-05;M45-06,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/en/your-centrifuge-solution/himac-product-line/,M14-03;M14-10,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/gb-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5910Ri-p-PF-963296,M13-01,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595,M45-02,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/product-media/doc/en/330744/Centrifugation_Operating-manual_Centrifuge-5920-R.pdf,M13-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5810-5810R-p-PF-240994,M13-05,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5920R-p-PF-240991,M13-06,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.escolifesciences.com/,M29-02;M29-08;M30-03;M30-09;M30-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.escolifesciences.com/downloads/powdermax-sellsheet,M30-03,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.escolifesciences.com/products/ductless-fume-hood/powdermax--fr,M30-09;M30-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.evgroup.com/,M58-02;M58-07;M58-08;M60-03;M60-07;M60-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf,M60-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/,M60-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.evonik.com/,M49-02;M49-10,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.fanuc.eu/~/media/files/pdf/products/robots/educational%20cell/fanuc-crx-educational-cell-manual.pdf?la=de,REQ-EQ-044,410,,http_error,2026-10-15
+https://www.fanucamerica.com/,REQ-EQ-015;REQ-EQ-044,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.fanucamerica.com/products/robot/crx-10ia,REQ-EQ-044,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.firstnano.com/,M21-02;M21-04;M21-05,,,network_error,2026-10-15
+https://www.firstnano.com/systems/exhaust-abatement/easyexhaust-405/,M21-02;M21-05,,,network_error,2026-10-15
+https://www.fluidnatek.com/,M26-03;M26-04;M26-05;M26-06;M47-01;M47-04;M47-05;M47-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.fluigent.com/,M08-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.fluigent.com/wp-content/uploads/2022/01/raydrop-double-emulsion_datasheet-1.pdf,M08-03,403,text/html; charset=iso-8859-1,http_error,2026-10-15
+https://www.forgenano.com/archivesite/products/prometheus/,M22-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.fritsch-international.com/,M12-02;M12-07;M12-08;M12-09;M12-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-7-premium-line/compare/,M12-02;M12-07;M12-08;M12-09;M12-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.fritsch.de/probenaufbereitung/mahlen/planetenmuehlen/details/produkt/pulverisette-7-premium-line/,M12-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.gamry.com/assets/Uploads/Reference3000-Operators-Manual.pdf,M57-01;M57-04;M57-05;REQ-EQ-027,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.gamry.com/cells-and-accessories/electrochemical-cells/multiport-corrosion-cell-kit/,REQ-EQ-027,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.gamry.com/potentiostats/reference/reference-620,M57-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.gamry.com/potentiostats/reference/reference-620/,M57-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.gamry.com/support-2/legacy-devices/reference-3000/,M57-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.genizer.com/jacketed-liposome-extruder_p0005.html,M43-03;M43-04;M43-05;M43-06;M43-07;M43-08;M43-09;M43-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.genizer.com/online-liposome-extruder_p0004.html,M43-09;M43-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.genizer.com/u_file/2206/file/9a6c1a4757.pdf,M43-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.getinge.com/int/products/applikon-biobench/,M45-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.gophotonics.com/products/lasers/light-conversion/29-487-carbide-cb1-04,REQ-EQ-040,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.heidolph-instruments.com/documents/operation%20manuals/overhead%20stirrer/Operation-Manual-Overhead-Stirrer-Hei-TORQUE-Value-Precision.pdf,M03-02;M03-07;M03-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.hettichlab.com/downloadcenter/Products/Datasheets/ROTINA380_380R_EN.pdf,M13-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.hettichlab.com/en-nl/products/centrifuges/benchtop-centrifuges/rotina-380-380-r/1706/,M13-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm,M09-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.hielscher.com/products.htm,M09-03;M09-08;M09-09;M09-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm,M09-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html,M38-03,403,text/html,http_error,2026-10-15
+https://www.hitachi-hightech.com/file/global/pdf/science/products/microscopes/compare/HitachiHighTech_CompareTEM_EN.pdf,M39-03;M39-09;M39-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.hitachi-hightech.com/global/en/products/,M38-03;M38-07;M38-08;M39-03;M39-09;M39-10,403,text/html,http_error,2026-10-15
+https://www.holmarc.com/search.php,M24-10;M25-04;M25-05;M25-06;M25-07;M25-08;M25-09;M25-10,200,text/html,retrieved_html,2026-10-15
+https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/,M40-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.horiba.com/jpn/scientific/support/discontinued-product-jp/,M34-10;M40-01;M40-04;M40-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.horiba.com/kor/scientific/products/raman-imaging-and-spectrometers/browse-products/,M40-01;M40-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.huber-online.com/fileadmin/user_upload/3006.0069.99_en.pdf,M33-03;M33-09,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE,M60-07,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.ika-apparatuur.nl/amfile/file/download/file/51504/product/2117/,M04-09;M04-10,429,text/html,http_error,2026-10-15
+https://www.ika.com/de/News/Neue-Dispergierer-von-IKA-cnw-265.html,M11-04;M11-05,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RCT-basic-25008259/,M02-01,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/,M02-05,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/,M03-01,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-4442000/Downloads-cpdl.html,M03-01;M03-04;M03-05;M03-06,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html,M03-04,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-60-digital-4446000/,M03-05,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/,M50-06,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/,M50-07,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/,M50-02,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/en/lab,M02-01;M02-04;M02-05;M02-06;M02-07;M02-08;M02-09;M03-01;M03-04;M03-05;M03-06;M04-09;M04-10;M11-01;M11-04;M11-05;M11-09;M16-03;M16-09;M16-10;M50-02;M50-06;M50-07,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/id/Products-LabEq/Rotary-Evaporators-pg35/,M16-03;M16-09;M16-10,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.ika.com/ika/pdf/flyer-catalog/201910_Integrated%20Safety_6%20Page%20Flyer_EN_web_single_update_final.pdf,M02-01;M02-04;M02-05;M02-06;M02-07;M02-08;M02-09,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.inertcorp.com/gloveboxes/purelab/2gb-glovebox-system/,M28-03;M28-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.inovenso.com/product/,M26-01;M26-07;M26-08;M47-02;M47-07;M47-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.ivium.com/,M57-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.jacomex.com/,M28-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.jasco-global.com/,M35-10;M36-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.jeol.co.jp/download_catalogue.html,M39-04,200,text/html,retrieved_html,2026-10-15
+https://www.jeol.co.jp/download_catalogues.html,M38-01;M38-04;M38-05;M38-06;M39-01;M39-04;M39-05;M39-06;M59-02;M59-08;M59-09,200,text/html,retrieved_html,2026-10-15
+https://www.jeol.com/download_catalogues.php,M38-01;M38-05;M38-06;M39-01;M39-05;M39-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.jeol.com/products/scientific/sem/JSM-IT210.php,M38-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f,M33-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.julabo.com/en-us/products/refrigerated-circulators/refrigerated-heating-circulators/corio-cd-600f,M33-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/,REQ-EQ-010,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/models/vr-6000/,REQ-EQ-010,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.kibron.com/category/langmuir-blodgett-troughs/microtrough-g-series,M44-02;M44-06;M44-07;M44-08;M44-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.kibron.com/product/microspot-surface-potentiometer,M44-02;M44-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.laboratory-equipment.com/media/asset-library/b/i/binder-vd-series-vacuum-drying-chambers-operating-manual.pdf,M18-02;M18-06;M18-07,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.lauda.de/pim/datasheet/LAUDA_RE415S_L001405_en_20241206_131759.pdf,M33-02;M33-07;M33-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.laurell.com/,M24-01;M24-04;M24-05,,,network_error,2026-10-15
+https://www.lesker.com/process-equipment-division/atomic-layer-deposition-systems.cfm,M22-08;M23-10,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.linarisrl.com/,M26-10;M47-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.lumex-matsuura.com/english/lumex-avance-25,REQ-EQ-007;REQ-EQ-008,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.lumibird.com/en/the-group-about-lumibird/,M56-01;M56-04;M56-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.malvernpanalytical.com/en/products/product-range/aeris-range,M34-01;M37-02;M37-06;M37-07,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.malvernpanalytical.com/en/products/product-range/zetasizer-range/zetasizer-advance-range,M34-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.malvernpanalytical.com/en/support/product-support/zetasizer-range,M34-04;M34-05;M34-06,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.martinchrist.de/fileadmin/user_upload/christ/PDF/Bedienungsanleitung/Labor/en/BA_Alpha_1-2_LDplus_2006-11_2-11_en.pdf,M17-03;M17-08;M17-09,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.martinchrist.de/fr/produits/laboratoire,M17-08;M17-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.matsuura.co.jp/english/main/wp-content/uploads/2022/10/20221025_LUMEX-Avance-25_Upgrade_PressRelease.pdf,REQ-EQ-007;REQ-EQ-008,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.mazak.com/us-en/,REQ-EQ-013,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/,REQ-EQ-013,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/,REQ-EQ-013,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.mbraun.com/en-us/,M28-01;M28-04;M28-05;M28-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.memmert.com/en/home,M18-01;M18-04;M18-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.merckmillipore.com/IN/en/product/Milli-Q-IQ-7003-05-10-15-Water-Purification-Systems%2CMM_NF-C205110,M46-01,403,text/html,http_error,2026-10-15
+https://www.merckmillipore.com/MC/en/life-science/milliq,M15-03;M46-01;M46-04;M46-05;M46-06;M46-07,403,text/html,http_error,2026-10-15
+https://www.metrohm-autolab.com/about-us,M57-03;M57-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.milestonesrl.com/products/microwave-assisted-synthesis,M06-03;M06-10,,,network_error,2026-10-15
+https://www.mks.com/mam/celum/celum_assets/resources/1179A-2179A-179Aman.pdf,M32-08,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.nanonex.com/Chs/Machines/index.html,M60-02;M60-05;M60-06,200,text/html,retrieved_html,2026-10-15
+https://www.nanonex.com/Products1.htm,M60-02;M60-05,200,text/html,retrieved_html,2026-10-15
+https://www.nanophoton.net/products/ramantouch,M40-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.nanosurf.com/en/products/flexafm,M41-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.nikalyte.com/downloads/,M54-01;M54-04;M54-07;M54-08;M54-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.nikalyte.com/pvd-systems/,M54-01;M54-07;M54-08;M54-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.obducat.com/company/,M60-01;M60-04,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.obducat.com/products-foundry-services/eitre-3-6-8/,M60-01;M60-04,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.ossila.com/products/dip-coater,M24-02;M25-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.ossila.com/products/spin-coater,M24-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.otsukael.com/product/detail/productid/1,M34-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.oxinst.com/news/oxford-instruments-asylum-research-releases-new-vero-vrs1250-atomic-force-microscope/?sbms=asylum,M41-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.palas.de/en/product/demc1000,M51-02;M51-08;M53-02;M53-06;M53-07,200,text/html; charset=utf-8;,retrieved_html,2026-10-15
+https://www.palmsens.com/product/palmsens4/,M57-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.parksystems.com/en/products/research-afm/small-sample-afm/nx10,M41-03;M41-09,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications,M41-03,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.parrinst.com/de/products/sample-preparation/acid-digestion/selection-guide/,M05-01;M05-04;M05-05;M05-06;M05-07;M05-08;M05-09;M05-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.perkinelmer.com/library/bro-ir-ready-to-go-spectrum-two-ftir-spectrometer.html,M35-09;M36-03;M36-08;M42-03;M42-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.pfeiffervacuum.com/us/assets/121347/1/Instruction%20Manual%20HiScroll%206_12_18%2C%201ph%2C%20ATEX_EN_en.pdf,M31-03;M31-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.planartech.com/,M21-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.plasma-therm.com/product/versaline/,M61-03;M61-08,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.polyscience.com/products/circulating-baths/refrigeratedheated-circulating-baths/refrigerated-circulator-7-liter-ad-20-c,M33-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.protoxrd.com/products/powder-diffraction/axrd-benchtop,M37-09;M37-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.protoxrd.com/products/powder-diffraction/overview,M37-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.protoxrd.com/products/residual-stress-measurement/ixrd-mini,M37-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.pvdproducts.com/pulsed-laser-deposition-systems/rd-and-pilot-production-tools/pld-6000,M48-03;M48-04;M48-09;M48-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.pvdproducts.com/support/resources,M48-09;M48-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.quorumtech.com/,M23-01;M23-04;M23-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.radleys.com/,M04-01;M04-04;M04-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.radleys.com/range/jacketed-lab-reactors/,M04-01;M04-04;M04-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.radleys.com/range/reactor-ready-duo-lab-reactor/,M04-04,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.radleys.com/range/reactor-ready-lab-reactor/,M04-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/,M04-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.renishaw.com.cn/zh/38071--38071,REQ-EQ-005,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.renishaw.com/es/microscopio-confocal-raman-invia--6260,M40-02;M40-06;M40-07;REQ-EQ-005,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.repligen.com/Products/krosflo_tff/krosflo_kr2i/resources/user_guides/kr2i_user_guide.pdf,M15-02;M15-09,404,text/html,http_error,2026-10-15
+https://www.repligen.com/products/downstream-filtration/krosflo-tff-systems/krosflo-kr2i,M15-02;M15-08;M15-09,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.retsch.com/downloads/operating-instructions/,M12-01;M12-04;M12-05;M12-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.retsch.com/files/230359/pm-100-pm-200-index-p.pdf,M12-04;M12-05,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/,M12-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/,M12-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.richmondscientific.com/wp-content/uploads/2021/09/HITACHI_Manuals_CP-100-NX_Instruction_Manual.pdf,M14-03;M14-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.samcointl.com/,M61-02;M61-06;M61-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.sartorius.com/download/1045568/manual-vivaflow50-50r-200-slu6097-e210810-pdf-data.pdf,M15-04;M15-05,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.sartorius.com/en/products/process-filtration/tangential-flow-filtration/tff-systems,M15-06;M15-07,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.sartorius.com/products/lab-filtration-purification/ultrafiltration-devices/tangential-crossflow,M15-01,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.scengrobotics.com/robots/detail/tracer-navigation,REQ-EQ-043,200,text/html,retrieved_html,2026-10-15
+https://www.scientificindustries.com/products/digital-vortex-genie-2,M50-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.scientificindustries.com/products/vortex-genie-2,M50-04,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.scientificindustries.com/products/vortex-genie-pulse,M50-01;M50-04;M50-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.shimadzu.com/,M01-10;M35-02;M35-06;M35-07;M36-09;M42-09,200,text/html,retrieved_html,2026-10-15
+https://www.sigma-zentrifugen.de/en/products/centrifuges/details/sigma-3-18ks,M13-03;M13-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sigma-zentrifugen.de/en/products/centrifuges/details/sigma-3-30ks,M13-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sigmaaldrich.com/US/en/product/mm/pxhvmpc50,M15-03,,,network_error,2026-10-15
+https://www.solarisbiotech.com/en/bioreactors-fermentors,M45-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.sonicator.com/pages/sonicator-catalog-data-sheets,M09-01;M09-04;M09-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sonicator.com/products/q125-sonicator,M09-01,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sonicator.com/products/q500-sonicator,M09-04,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sonicator.com/products/q700-sonicator,M09-05,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.spectra-physics.com/,M56-02;M56-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sps-polos.com/,M24-03,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.spts.com/products/chip-manufacturing/etch,M61-09,,,network_error,2026-10-15
+https://www.sterlitech.com/cf016-crossflow-cell,M49-01;M49-04;M49-05;M49-06;M49-07,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sterlitech.com/cf042-crossflow-cell,M49-04,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.sterlitech.com/faqs/hp4750-stirred-cell,M49-06;M49-07,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.surface-tec.com/largepld.php,M48-02;M48-06;M48-07;M48-08,200,text/html; charset=ISO-8859-1,retrieved_html,2026-10-15
+https://www.surface-tec.com/plduhvdownload.php,M48-02;M48-06;M48-07,200,text/html; charset=ISO-8859-1,retrieved_html,2026-10-15
+https://www.suss.com/en,M24-08;M24-09;M58-01;M58-04;M58-05;M58-06,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.syringepump.com/NE-1000.php,M07-04,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.syringepump.com/NE-300.php,M07-01,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.syringepump.com/NE-4000.php,M07-05,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.syringepump.com/download/NE-1000%20Syringe%20Pump%20User%20Manual.pdf,M07-01;M07-04;M07-05,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.syringepump.com/download/index.html,M07-01;M07-04;M07-05,200,text/html,retrieved_html,2026-10-15
+https://www.tainstruments.com/about-ta-instruments/,M42-01;M42-04;M42-05,403,text/html,http_error,2026-10-15
+https://www.tainstruments.com/tga-5500/,M42-01,403,text/html,http_error,2026-10-15
+https://www.thermalspraydirectory.com/company/929368/products/245625/low-pressure-cold-gas-dynamic-spray-machine-csm-108-2,REQ-EQ-012,403,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.thermofisher.com/fr/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-iS20-ftir-spectrometer.html,M36-02,200,text/html;charset=utf-8,retrieved_html,2026-10-15
+https://www.thermofisher.com/order/catalog/product/51014551,M18-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.thermofisher.com/order/catalog/product/es/en/75000100,M14-02,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.thermofisher.com/order/catalog/product/kr/en/FB1315M,M19-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.topas-gmbh.de/,M53-03;M53-08;M53-09;M53-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.ulvac.com/,M61-10,200,text/html;charset=UTF-8,retrieved_html,2026-10-15
+https://www.unchainedlabs.com/nanoparticle-payload-encapsulation/,M08-02,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.universal-robots.com/manuals/EN/PDF/SW5_25_1/user-manual-UR12e-PDF_online/733-429-00_UR12e_User_Manual_en_Global.pdf,REQ-EQ-042,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.universal-robots.com/manuals/EN/PDF/SW5_25_1/user-manual-UR16e-PDF_online/711-102-00_UR16e_User_Manual_en_Global.pdf,REQ-EQ-019,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.universal-robots.com/news-and-media/news-center/universal-robots-launches-heavy-duty-payload-cobot-for-collaborative-automation/,REQ-EQ-019,200,text/html,retrieved_html,2026-10-15
+https://www.universal-robots.com/products/ur12e-1300/,REQ-EQ-019;REQ-EQ-042,200,text/html,retrieved_html,2026-10-15
+https://www.universal-robots.com/products/ur12e/,REQ-EQ-042,200,text/html,retrieved_html,2026-10-15
+https://www.ursinus.edu/live/files/3159-zetasizer-nano-user-manual-englishpdf,M34-06,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.uvic.ca/health/medsci/assets/docs/research-facilities/centrifuge-eppendorf-5810r-manual.pdf,M13-04;M13-05,404,text/html; charset=UTF-8,http_error,2026-10-15
+https://www.veeco.com/,M22-06;M22-07,200,text/html; charset=UTF-8,retrieved_html,2026-10-15
+https://www.velp.com/en-us/arex-ceraltop-hot-plate-stirrer.aspx,M02-03;M02-10;M03-03;M03-09;M03-10;M11-10;M50-03;M50-08,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx,M03-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx,M03-03,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx,M03-09,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.velp.com/public/file/VELPLEAFLETZX3-252451.pdf,M50-03,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.velp.com/public/file/VELP_OHSSeries_EN_rev4-325932.pdf,M03-03;M03-09;M03-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.velp.com/public/file/VTFENITFRESDECH10001361-295453.PDF,M02-10,200,application/pdf,retrieved_document_link,2026-10-15
+https://www.waldner.de/en/,M29-03;M29-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.yamato-usa.com/,M18-10,200,text/html; charset=utf-8,retrieved_html,2026-10-15
+https://www.yornew.com/en/contact.asp,REQ-EQ-034,200,text/html,retrieved_html,2026-10-15
+https://www.yornew.com/en/vmc300.asp,REQ-EQ-034,200,text/html,retrieved_html,2026-10-15
+https://www.zeiss.com/microscopy/en/home.html,M38-10,200,text/html; charset=UTF-8,retrieved_html,2026-10-15

@@ -15,6 +15,39 @@ def load_csv(path):
         return list(csv.DictReader(handle))
 
 
+def validate_model_lifecycle(equipment, reviews):
+    """Reject identity mismatches and incomplete evidence before applying any badge."""
+    by_id = {r["equipment_id"]: r for r in equipment}
+    assert len(reviews) == len({r["equipment_id"] for r in reviews}), "Duplicate model lifecycle review"
+    for review in reviews:
+        eid = review["equipment_id"]
+        assert eid in by_id, "Unknown lifecycle equipment ID: " + eid
+        assert all(review[key] == by_id[eid][key] for key in ["model_name", "manufacturer"]), "Lifecycle model identity mismatch: " + eid
+        assert review["lifecycle_status"] in {"newer_model_confirmed", "current_alternative", "no_successor_confirmed", "model_unresolved"}
+        assert date.fromisoformat(review["successor_checked_date"]).isoformat() == review["successor_checked_date"]
+        if review["lifecycle_status"] != "model_unresolved":
+            assert review["successor_evidence_url"], "Lifecycle source required: " + eid
+        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check"}
+        if review["review_method"] == "targeted_official_domain_search":
+            assert review["review_query"] and review["review_source_match"]
+        for value in filter(None, review["review_source_urls"].split(";")):
+            parsed = urlparse(value)
+            assert parsed.scheme in {"http", "https"} and parsed.netloc
+        for key in ["successor_product_url", "successor_evidence_url"]:
+            value = review[key]
+            if value:
+                parsed = urlparse(value)
+                assert parsed.scheme in {"http", "https"} and parsed.netloc, "Invalid lifecycle URL: " + eid
+        if review["lifecycle_status"] == "newer_model_confirmed":
+            assert review["successor_relationship"] in {"direct_successor", "newer_generation"}
+            assert all(review[key].strip() for key in ["successor_model_name", "successor_product_url", "successor_scope"]), "Incomplete successor: " + eid
+            assert review["successor_model_name"].strip().casefold() != review["model_name"].strip().casefold(), "Successor points to itself: " + eid
+        else:
+            assert not any(review[key] for key in ["successor_model_name", "successor_product_url", "successor_relationship", "successor_scope"]), "Unconfirmed review must not supply a badge: " + eid
+            assert review["review_notes"].strip()
+    return dict(sorted(Counter(r["lifecycle_status"] for r in reviews).items()))
+
+
 def inspect_catalog(root=ROOT):
     folder = Path(root) / "catalog"
     equipment = load_csv(folder / "equipment.csv")
@@ -25,6 +58,7 @@ def inspect_catalog(root=ROOT):
     source_models = load_csv(folder / "source_models.csv")
     manufacturers = load_csv(folder / "manufacturers.csv")
     aliases = load_csv(folder / "category_aliases.csv")
+    validate_model_lifecycle(equipment, load_csv(folder / "model_lifecycle.csv"))
     assert {r["manufacturer"] for r in manufacturers} == {r["manufacturer"] for r in equipment}
     assert len(manufacturers) == len({r["manufacturer"] for r in manufacturers})
     for brand in manufacturers:

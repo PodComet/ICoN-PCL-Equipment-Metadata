@@ -8,6 +8,7 @@ import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equ
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
+import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 const EDITABLE = new Set(["equipment_subtype","model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
@@ -80,6 +81,7 @@ export async function PUT(request: Request) {
     const validProcesses=new Set(seed.routes.filter(r=>r.route_kind==="manufacturing_process").map(r=>r.route_id));
     if (record.related_material_ids.split(";").filter(Boolean).some(id=>!validMaterials.has(id)) || record.related_process_ids.split(";").filter(Boolean).some(id=>!validProcesses.has(id))) return json({error:"Select valid material and process IDs."},400);
     if (creating) {
+      for(const field of LIFECYCLE_FIELDS)record[field]='';
       for(const k of MANUFACTURER_PRICE_FIELDS)record[k]=fields[k]||'';
       record.equipment_id="USER-"+crypto.randomUUID();
       record.product_page_url=fields.product_page_url||"";record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";record.brochure_url=fields.brochure_url||"";

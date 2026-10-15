@@ -7,6 +7,7 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from reference_tools import build as build_references
+from catalog_tools import validate_model_lifecycle
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -20,10 +21,16 @@ def main():
     ]}
     data["manufacturers"] = read_csv("manufacturers")
     data["category_aliases"] = read_csv("category_aliases")
+    data["model_lifecycle"] = read_csv("model_lifecycle")
+    validate_model_lifecycle(data["records"], data["model_lifecycle"])
+    lifecycle_fields = [key for key in data["model_lifecycle"][0] if key.startswith(("lifecycle_", "successor_"))]
+    lifecycle_by_id = {r["equipment_id"]: r for r in data["model_lifecycle"]}
     brands = {r["manufacturer"]: r for r in data["manufacturers"]}
     class_prices = {r["category_id"]: r for r in read_csv("category_price_estimates")}
     overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
     for record in data["records"]:
+        review = lifecycle_by_id.get(record["equipment_id"], {})
+        record.update({key: review.get(key, "") for key in lifecycle_fields})
         brand = brands[record["manufacturer"]]
         for field, value in brand.items():
             if field != "manufacturer":

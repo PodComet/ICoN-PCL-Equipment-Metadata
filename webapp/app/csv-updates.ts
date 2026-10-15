@@ -1,5 +1,6 @@
 import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
 import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
+import {LIFECYCLE_FIELDS} from './model-lifecycle.ts';
 
 export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","equipment_subtype","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
 export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","category_id",...UPDATE_FIELDS];
@@ -63,6 +64,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    if(!categoryMap.has(category))throw new Error("Choose a known category_id from the category reference.");
    const record:Equipment={...(before||parent||Object.fromEntries(Object.keys(records[0]||{}).map(k=>[k,""]))),equipment_id:id,model_name:before?.model_name||"",category_id:category,category_name:categoryMap.get(category)!} as Equipment;
    if(op!=='update'){
+    for(const field of LIFECYCLE_FIELDS)record[field]='';
     for(const k of [...MANUFACTURER_PRICE_FIELDS,'product_page_scope','source_record_id','legacy_category_ids'])record[k]='';
     for(const k of ['model_name','variant_label','capacity_ml','manual_url','manual_scope','msrp_value','msrp_currency','price_source_url','price_checked_date','product_page_url','technical_spec_url','brochure_url','image_url','image_source_url','image_scope','notes','source_pdf','source_page','source_sha256','model_evidence_url','manual_lookup_url','documentation_url','requested_ids','institution_label','institution_basis','institution_logo_url','manufacturer_official_website_url','manufacturer_research_evidence_url'])record[k]='';
     record.highlight_requested='false';record.purdue_list='false';record.ownership_status='not_independently_verified';record.access_evidence_url='';
@@ -88,6 +90,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    }
    const changed:string[]=[];
    for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>6000)throw new Error(field+" exceeds 6,000 characters.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
+   if(changed.includes('model_name')||changed.includes('manufacturer'))for(const field of LIFECYCLE_FIELDS)record[field]='';
    if(changed.includes('product_page_url'))record.product_page_scope='';
    if(op!=='update'&&!input.model_name)throw new Error("New records require model_name.");
    if(!record.variant_label&&op!=='update')record.variant_label=record.model_name;
