@@ -2,6 +2,7 @@
 import argparse
 import csv
 import json
+from datetime import date
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
@@ -58,6 +59,12 @@ def inspect_catalog(root=ROOT):
         if row["msrp_value"]:
             assert float(row["msrp_value"]) >= 0
             assert row["msrp_currency"] and row["price_source_url"] and row["price_checked_date"]
+        if row.get("manufacturer_price_value"):
+            assert float(row["manufacturer_price_value"]) >= 0
+            assert row["manufacturer_price_kind"] in {"list_price", "sale_price", "starting_price", "published_price"}
+            assert len(row["manufacturer_price_currency"]) == 3 and row["manufacturer_price_currency"].isupper()
+            assert row["manufacturer_price_source_url"] and row["manufacturer_price_scope"]
+            assert date.fromisoformat(row["manufacturer_price_checked_date"]).isoformat() == row["manufacturer_price_checked_date"]
     for request in requests:
         assert request["equipment_id"] in ids
         record = next(r for r in equipment if r["equipment_id"] == request["equipment_id"])
@@ -80,6 +87,7 @@ def inspect_catalog(root=ROOT):
         "manual_coverage": dict(sorted(Counter(r["manual_match_status"] for r in equipment).items())),
         "model_evidence": dict(sorted(Counter(r["model_evidence_status"] for r in equipment).items())),
         "msrp_records": sum(bool(r["msrp_value"]) for r in equipment),
+        "published_manufacturer_price_records": sum(bool(r.get("manufacturer_price_value")) for r in equipment),
     }
 
 

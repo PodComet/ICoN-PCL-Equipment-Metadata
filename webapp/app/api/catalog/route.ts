@@ -3,11 +3,11 @@ import seed from "../../data/catalog.json";
 import inventory from "../../data/purdue-inventory.json";
 import {attachInventory} from "../../inventory-lib";
 import { getChatGPTUser } from "../../chatgpt-auth";
-import { safeUrl, type Equipment } from "../../catalog-lib";
+import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equipment } from "../../catalog-lib";
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
-const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes"]);
+const EDITABLE = new Set(["model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
 
@@ -72,10 +72,14 @@ export async function PUT(request: Request) {
       if (!Number.isFinite(Number(record.msrp_value)) || Number(record.msrp_value)<0 || !/^[A-Z]{3}$/.test(record.msrp_currency) || !record.price_source_url || !/^\d{4}-\d{2}-\d{2}$/.test(record.price_checked_date)) return json({error:"MSRP requires a nonnegative amount, three-letter currency, source URL and date."},400);
       record.price_status="user_entered_msrp";
     } else {record.price_status="not_researched";record.msrp_currency="";record.price_source_url="";record.price_checked_date="";}
+    if(record.product_page_url!==original.product_page_url||creating)record.product_page_scope='';
+    if(!record.manufacturer_price_value)for(const k of MANUFACTURER_PRICE_FIELDS)record[k]='';
+    const publishedPriceError=validateManufacturerPrice(record);if(publishedPriceError)return json({error:publishedPriceError},400);
     const validMaterials=new Set(seed.routes.filter(r=>r.route_kind==="material_family").map(r=>r.route_id));
     const validProcesses=new Set(seed.routes.filter(r=>r.route_kind==="manufacturing_process").map(r=>r.route_id));
     if (record.related_material_ids.split(";").filter(Boolean).some(id=>!validMaterials.has(id)) || record.related_process_ids.split(";").filter(Boolean).some(id=>!validProcesses.has(id))) return json({error:"Select valid material and process IDs."},400);
     if (creating) {
+      for(const k of MANUFACTURER_PRICE_FIELDS)record[k]=fields[k]||'';
       record.equipment_id="USER-"+crypto.randomUUID();
       record.product_page_url=fields.product_page_url||"";record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";
       record.catalog_scope="user_variant";record.record_kind="user_variant";

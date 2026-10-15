@@ -1,6 +1,6 @@
-import {safeUrl,applyManufacturerAudit,type Equipment} from "./catalog-lib.ts";
+import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
 
-export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes"];
+export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
 export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","category_id",...UPDATE_FIELDS];
 export type Change={line:number;operation:string;equipment_id:string;name:string;fields:string[];before:Equipment|null;after:Equipment};
 export type Plan={changes:Change[];errors:{line:number;message:string}[];warnings:{line:number;message:string}[];unchanged:number;rowCount:number};
@@ -59,6 +59,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    if(!categoryMap.has(category))throw new Error("Choose a known category_id from the category reference.");
    const record:Equipment={...(before||parent||Object.fromEntries(Object.keys(records[0]||{}).map(k=>[k,""]))),equipment_id:id,model_name:before?.model_name||"",category_id:category,category_name:categoryMap.get(category)!} as Equipment;
    if(op!=='update'){
+    for(const k of [...MANUFACTURER_PRICE_FIELDS,'product_page_scope'])record[k]='';
     for(const k of ['model_name','variant_label','capacity_ml','manual_url','manual_scope','msrp_value','msrp_currency','price_source_url','price_checked_date','product_page_url','technical_spec_url','image_url','image_source_url','image_scope','notes','source_pdf','source_page','source_sha256','model_evidence_url','manual_lookup_url','documentation_url','requested_ids','institution_label','institution_basis','institution_logo_url','manufacturer_official_website_url','manufacturer_research_evidence_url'])record[k]='';
     record.highlight_requested='false';record.purdue_list='false';record.ownership_status='not_independently_verified';record.access_evidence_url='';
     record.catalog_scope='admin_supplement';record.record_kind=op==='add_variant'?'user_variant':'model_candidate';record.model_status='user_entered';record.model_evidence_status='candidate_needs_review';record.manual_match_status='not_verified';record.manual_status='not_found';
@@ -66,6 +67,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    }
    const changed:string[]=[];
    for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>6000)throw new Error(field+" exceeds 6,000 characters.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
+   if(changed.includes('product_page_url'))record.product_page_scope='';
    if(op!=='update'&&!input.model_name)throw new Error("New records require model_name.");
    if(!record.variant_label&&op!=='update')record.variant_label=record.model_name;
    if(!record.product_family&&op!=='update')record.product_family=record.model_name;
@@ -76,6 +78,8 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    if(record.capacity_ml&&(!Number.isFinite(Number(record.capacity_ml))||Number(record.capacity_ml)<=0))throw new Error("capacity_ml must be positive.");
    if(record.msrp_value){if(!Number.isFinite(Number(record.msrp_value))||Number(record.msrp_value)<0||!/^[A-Z]{3}$/.test(record.msrp_currency)||!safeUrl(record.price_source_url)||!/^\d{4}-\d{2}-\d{2}$/.test(record.price_checked_date)||Number.isNaN(Date.parse(record.price_checked_date))||new Date(record.price_checked_date).toISOString().slice(0,10)!==record.price_checked_date)throw new Error("Exact MSRP needs a nonnegative amount, ISO currency, source URL and YYYY-MM-DD date.");record.price_status='admin_entered_msrp'}
    else if(changed.includes('msrp_value')||op!=='update'){record.price_status='not_researched';record.msrp_currency='';record.price_source_url='';record.price_checked_date=''}
+   if(!record.manufacturer_price_value&&(changed.includes('manufacturer_price_value')||op!=='update'))for(const k of MANUFACTURER_PRICE_FIELDS)record[k]='';
+   const publishedPriceError=validateManufacturerPrice(record);if(publishedPriceError)throw new Error(publishedPriceError);
    for(const [field,valid] of [['related_material_ids',validMaterial],['related_process_ids',validProcess]] as const){if((record[field]||'').split(';').filter(Boolean).some(id=>!valid.has(id)))throw new Error("Unknown IDs in "+field)}
    for(const [idField,typeField] of [['related_material_ids','related_material_types'],['related_process_ids','related_process_types']])if(changed.includes(idField)&&!input[typeField])record[typeField]=record[idField].split(';').filter(Boolean).map(id=>routes.find(r=>r.route_id===id)?.route_name||id).join(';');
    if(op!=='update'||changed.includes('manual_url')||changed.includes('manual_scope')){record.manual_match_status='not_verified';record.manual_status=record.manual_url?'user_entered_unverified':'not_found'}

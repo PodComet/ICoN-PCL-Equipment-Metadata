@@ -11,6 +11,8 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 - Linked Purdue inventory records distinguish physical units from model variants. Instrument IDs and supplied serial/other IDs are searchable, appear in instrument details, and have a separate Admin CSV snapshot download.
 - Prominent equipment-class headings; manufacturer photos where found, with exact/family captions and source links.
 - Direct card links to manuals, technical specifications or product references.
+- In instrument details, the model name immediately above Selected variant opens its manufacturer product page; family-only pages carry configuration scope. Multi-variant selection tabs remain separate controls.
+- Published manufacturer list/sale/starting prices have their own six evidence fields and source links. They never overwrite exact MSRP or the asterisked class-equivalent estimate. CSV imports, manual entry and personal editing validate the same published-price evidence requirements.
 - Manual links and scope, exact MSRP fields and asterisked class-equivalent estimates, material/process relationships and source provenance.
 - Signed-in, account-specific persistent edits and added variants, protected by revision checks. CSV export includes your saved edits. Browser changes do not automatically commit to GitHub.
 - The deployed app is owner-private. The code and curated CSV seed are public. The original inventory workbook and PDF are not redistributed.

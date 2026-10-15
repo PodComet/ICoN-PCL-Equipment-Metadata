@@ -52,6 +52,18 @@ export function pricePresentation(r: Equipment) {
   return {label:"MSRP",value:"Not recorded",estimated:false};
 }
 
+export const MANUFACTURER_PRICE_FIELDS=['manufacturer_price_value','manufacturer_price_currency','manufacturer_price_kind','manufacturer_price_source_url','manufacturer_price_checked_date','manufacturer_price_scope'];
+export function validateManufacturerPrice(r:Equipment){
+ if(!r.manufacturer_price_value)return '';
+ if(!Number.isFinite(Number(r.manufacturer_price_value))||Number(r.manufacturer_price_value)<0||!/^[A-Z]{3}$/.test(r.manufacturer_price_currency)||!['list_price','sale_price','starting_price','published_price'].includes(r.manufacturer_price_kind)||!safeUrl(r.manufacturer_price_source_url)||!/^\d{4}-\d{2}-\d{2}$/.test(r.manufacturer_price_checked_date)||Number.isNaN(Date.parse(r.manufacturer_price_checked_date))||new Date(r.manufacturer_price_checked_date).toISOString().slice(0,10)!==r.manufacturer_price_checked_date||!r.manufacturer_price_scope)return 'Published manufacturer price needs an amount, currency, price kind, source URL, valid date and configuration scope.';
+ return '';
+}
+export function manufacturerPrice(r:Equipment){
+ if(!r.manufacturer_price_value||validateManufacturerPrice(r))return null;
+ const labels:Record<string,string>={list_price:'Manufacturer list price',sale_price:'Manufacturer sale price',starting_price:'Manufacturer starting price',published_price:'Published manufacturer price'};
+ return {label:labels[r.manufacturer_price_kind],value:new Intl.NumberFormat('en-US',{style:'currency',currency:r.manufacturer_price_currency,maximumFractionDigits:0}).format(Number(r.manufacturer_price_value)),source:safeUrl(r.manufacturer_price_source_url),scope:r.manufacturer_price_scope,date:r.manufacturer_price_checked_date};
+}
+
 export function verifiedManufacturer(r: Equipment) {
  return ["verified_manufacturer","verified_brand"].includes(r.manufacturer_brand_identity_status) &&
   r.manufacturer_research_use_status === "documented_research_use" &&

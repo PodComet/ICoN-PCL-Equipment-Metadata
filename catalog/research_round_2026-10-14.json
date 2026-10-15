@@ -1,0 +1,298 @@
+[
+  {
+    "file": "purdue-product-research-round2.json",
+    "findings": {
+      "checked_date": "2026-10-14",
+      "records": [
+        {
+          "equipment_id": "REQ-EQ-005",
+          "product_page_url": "https://www.renishaw.com.cn/zh/38071--38071",
+          "image_url": "https://www.renishaw.com.cn/media/img/gen/f48c545277754519b7d2957c6bcffec4.png",
+          "image_source_url": "https://www.renishaw.com.cn/zh/38071--38071",
+          "image_scope": "AM400 manufacturer product image; photograph does not identify a particular Purdue unit.",
+          "notes": "Official manufacturer model launch page (Chinese). Current English portfolio emphasizes successor machines; this historical model-specific launch page explicitly identifies AM400. Direct full-resolution image link explicitly present in page media gallery. No official published MSRP found.",
+          "evidence_confidence": "high",
+          "image_http_status": 200,
+          "image_content_type": "image/png"
+        },
+        {
+          "equipment_id": "REQ-EQ-007",
+          "product_page_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+          "image_url": "https://www.lumex-matsuura.com/english/main/wp-content/uploads/2019/09/lumex04.jpg",
+          "image_source_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+          "image_scope": "LUMEX Avance-25 manufacturer product image; configuration and machine revision may vary.",
+          "notes": "Official model page; image explicitly has alt LUMEX Avance-25. No official published MSRP found.",
+          "evidence_confidence": "high",
+          "image_http_status": 200,
+          "image_content_type": "image/jpeg"
+        },
+        {
+          "equipment_id": "REQ-EQ-008",
+          "product_page_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+          "image_url": "https://www.lumex-matsuura.com/english/main/wp-content/uploads/2019/09/lumex04.jpg",
+          "image_source_url": "https://www.lumex-matsuura.com/english/lumex-avance-25",
+          "image_scope": "Base LUMEX Avance-25 model photo; Reactive configuration not independently verified.",
+          "notes": "Official base model page and image only; do not describe this as an exact Reactive variant image or verified Reactive specification. No official published MSRP found.",
+          "evidence_confidence": "high for base model; unresolved for Reactive configuration",
+          "image_http_status": 200,
+          "image_content_type": "image/jpeg"
+        },
+        {
+          "equipment_id": "M37-10",
+          "product_page_url": "https://www.protoxrd.com/products/residual-stress-measurement/ixrd-mini",
+          "image_url": "https://cdn.prod.website-files.com/5f03223e594ffa7755520340/63f830de47f20331363cc2e9_iXRD_mini_clipped_v2_gradient.png",
+          "image_source_url": "https://www.protoxrd.com/products/residual-stress-measurement/ixrd-mini",
+          "image_scope": "iXRD Mini manufacturer product image; accessories and enclosure configuration may vary.",
+          "notes": "Official model page; image explicitly has alt iXRD Mini. No official published MSRP found.",
+          "evidence_confidence": "high",
+          "image_http_status": 200,
+          "image_content_type": "image/png"
+        },
+        {
+          "equipment_id": "REQ-EQ-013",
+          "product_page_url": "https://virtual.mazakusa.com/machine/vc-500a-5x/",
+          "notes": "Official manufacturer virtual-showroom model-specific page verified through web index, with VC-500A/5X specifications and brochure. Direct HTML access returned 403; no photo asset asserted. No official published MSRP found.",
+          "evidence_confidence": "high for product URL"
+        },
+        {
+          "equipment_id": "REQ-EQ-017",
+          "product_page_url": "https://www.abb.com/gb/en/areas/robotics/products/robots/collaborative-robots/dual-arm-yumi",
+          "notes": "Official ABB IRB 14000 Dual-arm YuMi model page verified through web browsing. Direct HTML access timed out; no direct image asset asserted. No official published MSRP found.",
+          "evidence_confidence": "high for product URL"
+        }
+      ],
+      "unresolved": [
+        {
+          "equipment_id": "REQ-EQ-019",
+          "reason": "Official UR16e search result still indexed; requests to current URL return404 and old URL redirects to /products/legacy/ur16e/ which also returns404. Do not add stale link."
+        },
+        {
+          "equipment_id": "REQ-EQ-009",
+          "reason": "Official current FormAlloy manufacturing-solutions page covers L-series/X-series, not verified L2-specific URL or photo. Do not assign current X-series photo to L2."
+        }
+      ],
+      "existing_coverage_unchanged": [
+        "REQ-EQ-010",
+        "REQ-EQ-018",
+        "REQ-EQ-020"
+      ],
+      "msrp_findings": "No explicit exact manufacturer MSRP found for priority instruments; retain clearly labeled class-equivalent estimates."
+    }
+  },
+  {
+    "file": "purdue_future_round2_findings.json",
+    "findings": {
+      "checked_date": "2026-10-14",
+      "patches": [
+        {
+          "equipment_id": "REQ-EQ-024",
+          "product_page_url": "https://standardbots.com/ro1",
+          "image_url": "https://cdn.prod.website-files.com/63d925b46a84dec214bc0bbd/69cfa6f671f91b2794334b3f_core-2.png",
+          "image_source_url": "https://standardbots.com/ro1",
+          "image_scope": "Core robot arm photo from current manufacturer Core product page; optional base and accessories may vary.",
+          "notes": "Current official product page uses /ro1 URL but identifies product as Core. Manufacturer displays $37k list price; not explicitly labeled MSRP. Published list price USD 37000 checked 2026-10-14; must be stored as manufacturer list price, not exact MSRP."
+        },
+        {
+          "equipment_id": "REQ-EQ-034",
+          "product_page_url": "https://www.yornew.com/en/vmc300.asp",
+          "image_url": "https://www.yornew.com/en/images/vmc300-h1.webp",
+          "image_source_url": "https://www.yornew.com/en/vmc300.asp",
+          "image_scope": "Manufacturer photograph labeled VMC300 small 5-axis CNC machine center; optional control and axis configuration may vary.",
+          "notes": "Exact product page confirms VMC300. No published MSRP found. Photo URL resolved from actual img src images/vmc300-h1.webp; HTTP 200 verified 2026-10-14."
+        },
+        {
+          "equipment_id": "REQ-EQ-040",
+          "product_page_url": "https://lightcon.com/products/carbide-femtosecond-lasers/",
+          "image_url": "https://lightcon.com/wp-content/uploads/products/Femtosecond-Lasers/CARBIDE/LC-product-photo-CB3-front-1440x900-251001-768x480.webp",
+          "image_source_url": "https://lightcon.com/products/carbide-femtosecond-lasers/",
+          "image_scope": "Current CARBIDE-CB3 family illustration; not a photograph of the requested CARBIDE CB1-04 model.",
+          "notes": "Current official CARBIDE family page covers CB3 and CB5. Exact CB1-04 is not listed; do not infer matching dimensions or specifications. No public MSRP located."
+        },
+        {
+          "equipment_id": "REQ-EQ-031",
+          "product_page_url": "https://psylotech.com/#microscopy",
+          "notes": "Current official uTS microscopy product section. Brochure https://psylotech.com/wp-content/uploads/2023/08/uTS-2022.10.pdf. 200 Series exact configuration not established on current product section; retain existing family-image qualification. No MSRP located."
+        },
+        {
+          "equipment_id": "REQ-EQ-032",
+          "product_page_url": "https://psylotech.com/#temperature",
+          "notes": "Official temperature section states laser heating to 2500 C available to early adopters. Its adjacent image shows a convective chamber, not laser: no replacement image assigned. Brochure https://psylotech.com/wp-content/uploads/2023/02/Temperature-2023.02.pdf. No public MSRP found."
+        }
+      ],
+      "unchanged_verified": [
+        "REQ-EQ-025",
+        "REQ-EQ-026",
+        "REQ-EQ-027",
+        "REQ-EQ-035",
+        "REQ-EQ-036",
+        "REQ-EQ-041",
+        "REQ-EQ-042",
+        "REQ-EQ-043",
+        "REQ-EQ-044"
+      ],
+      "unresolved": [
+        "REQ-EQ-028",
+        "REQ-EQ-029",
+        "REQ-EQ-030",
+        "REQ-EQ-037",
+        "REQ-EQ-038",
+        "REQ-EQ-039"
+      ],
+      "limitations": "Unspecified furnace/spin-coater manufacturer and model cannot be truthfully assigned a product photo. FormAlloy current products-services page documents L-Series and OEM specialty hardware, but exact optics and laser upgrade SKUs were not found. No explicitly labeled exact MSRP found. AgileX current TRACER2 page includes inconsistent Ranger Air descriptive copy, so no new specs inferred."
+    }
+  },
+  {
+    "file": "official_prices_round2.json",
+    "findings": {
+      "checked_date": "2026-10-14",
+      "method": "Primary manufacturer sources only. Numeric list prices are separate from explicit MSRP. No explicit MSRP found in bounded round.",
+      "records": [
+        {
+          "equipment_id": "M02-01",
+          "model": "IKA RCT basic",
+          "price_kind": "list_price",
+          "value": 1078,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RCT-basic-25008259/",
+          "exact_model_scope": "RCT basic, current displayed article 0020112668; newer generation than URL slug",
+          "evidence_quote": "List price USD 1,078.00",
+          "notes": "Manufacturer list price, not explicitly MSRP. Current product generation; confirm configuration before procurement."
+        },
+        {
+          "equipment_id": "M02-05",
+          "model": "IKA RET control-visc",
+          "price_kind": "list_price",
+          "value": 1933,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/",
+          "exact_model_scope": "RET control-visc article 0005020001",
+          "evidence_quote": "List price USD 1,933.00",
+          "notes": "Manufacturer list price, not explicitly MSRP."
+        },
+        {
+          "equipment_id": "M03-04",
+          "model": "IKA EUROSTAR 40 digital",
+          "price_kind": "list_price",
+          "value": 2324,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html",
+          "exact_model_scope": "EUROSTAR 40 digital 115 V article 0004444001",
+          "evidence_quote": "List price USD 2,324.00",
+          "notes": "Technical data page retrieved exact model; base description URL redirected to category. Price excludes separately ordered stand/stirring element."
+        },
+        {
+          "equipment_id": "M03-05",
+          "model": "IKA EUROSTAR 60 digital",
+          "price_kind": "list_price",
+          "value": 2735,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-60-digital-4446000/",
+          "exact_model_scope": "EUROSTAR 60 digital article 0004446001; stirrer and chuck key",
+          "evidence_quote": "List price USD 2,735.00",
+          "notes": "Manufacturer list price, not explicitly MSRP; accessories outside scope."
+        },
+        {
+          "equipment_id": "M50-02",
+          "model": "IKA VORTEX 3",
+          "price_kind": "list_price",
+          "value": 823,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/",
+          "exact_model_scope": "VORTEX 3 article 0003340001 with VG 3.1 standard attachment",
+          "evidence_quote": "List price USD 823.00",
+          "notes": "US article; other regions show different prices. Not explicitly MSRP."
+        },
+        {
+          "equipment_id": "M50-06",
+          "model": "IKA MS 3 basic",
+          "price_kind": "list_price",
+          "value": 904,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/",
+          "exact_model_scope": "MS 3 basic article 0003617000 standard supplied attachments",
+          "evidence_quote": "List price USD 904.00",
+          "notes": "Manufacturer list price, not explicitly MSRP."
+        },
+        {
+          "equipment_id": "M50-07",
+          "model": "IKA MS 3 digital",
+          "price_kind": "list_price",
+          "value": 1021,
+          "currency": "USD",
+          "source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/",
+          "exact_model_scope": "MS 3 digital article 0003319000 standard supplied attachments",
+          "evidence_quote": "List price USD 1,021.00",
+          "notes": "Manufacturer list price, not explicitly MSRP."
+        },
+        {
+          "equipment_id": "REQ-EQ-024",
+          "model": "Standard Bots Core",
+          "price_kind": "list_price",
+          "value": 37000,
+          "currency": "USD",
+          "source_url": "https://standardbots.com/blog/robotic-automation-solutions",
+          "product_page_url": "https://standardbots.com/core",
+          "exact_model_scope": "Core robot; blog statement does not specify integrated cell or options",
+          "evidence_quote": "Core costs 37k, and Thor lists at 49.5k.",
+          "notes": "Official manufacturer blog, not explicit MSRP; consult quote for current configuration. Core direct page inaccessible to research tool."
+        },
+        {
+          "equipment_id": "REQ-EQ-035",
+          "model": "Standard Bots Thor",
+          "price_kind": "list_price",
+          "value": 49500,
+          "currency": "USD",
+          "source_url": "https://standardbots.com/blog/robotic-automation-solutions",
+          "product_page_url": "https://standardbots.com/thor",
+          "exact_model_scope": "Thor robot; configuration unspecified",
+          "evidence_quote": "",
+          "notes": "Same evidence quote as Core record. Current product page uses quote request and gives no public numeric price. Not explicit MSRP."
+        },
+        {
+          "equipment_id": "REQ-EQ-025",
+          "model": "Standard Bots Bolt",
+          "price_kind": "quote_only",
+          "value": null,
+          "currency": "",
+          "source_url": "https://standardbots.com/bolt",
+          "exact_model_scope": "Bolt product family; original two Spark arms and Nimbus options unpriced",
+          "evidence_quote": "The most intelligent and most capable member of our droid family. Coming soon.",
+          "notes": "Reserve/configure inquiry; no numeric price. Cannot infer bundle price from component arms."
+        },
+        {
+          "equipment_id": "REQ-EQ-019",
+          "model": "Universal Robots UR16e",
+          "price_kind": "quote_only",
+          "value": null,
+          "currency": "",
+          "source_url": "https://www.universal-robots.com/products/ur16e/",
+          "exact_model_scope": "UR16e standard arm/controller/teach pendant bundle",
+          "evidence_quote": "Request a quote",
+          "notes": "Official exact model product URL; no numeric public price."
+        },
+        {
+          "equipment_id": "REQ-EQ-027",
+          "model": "Gamry corrosion cell",
+          "price_kind": "quote_only",
+          "value": null,
+          "currency": "",
+          "source_url": "https://www.gamry.com/cells-and-accessories/electrochemical-cells/multiport-corrosion-cell-kit/",
+          "exact_model_scope": "MultiPort Corrosion Cell Kit comparator; generic requested Gamry cell has unspecified exact configuration",
+          "evidence_quote": "Request Information",
+          "notes": "Official page supplies manual/specification but no numeric price. Exact requested cell configuration still unresolved."
+        },
+        {
+          "equipment_id": "M01-01",
+          "model": "OHAUS PX224/E",
+          "price_kind": "quote_only",
+          "value": null,
+          "currency": "",
+          "source_url": "https://oceania.ohaus.com/en-eu/products/balances-scales/analytical-balances/pioneer-analytical-%281%29/electronic-balance-px224-e-%281%29",
+          "exact_model_scope": "PX224/E article 30429811, 220g/0.1mg",
+          "evidence_quote": "Request a Quote",
+          "notes": "Official exact model page found. No public manufacturer numeric price."
+        }
+      ]
+    }
+  }
+]

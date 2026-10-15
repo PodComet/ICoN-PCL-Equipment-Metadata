@@ -1,5 +1,7 @@
 # Updating equipment by CSV
 
+Published manufacturer prices are separate from exact MSRP. Use `manufacturer_price_value`, `manufacturer_price_currency`, `manufacturer_price_kind` (`list_price`, `sale_price`, `starting_price`, or `published_price`), `manufacturer_price_source_url`, `manufacturer_price_checked_date` (YYYY-MM-DD), and `manufacturer_price_scope` (model/configuration). An amount requires all evidence fields. Clearing the amount clears its associated metadata; new variants start with no inherited price. These prices appear alongside the planning estimate and never become MSRP automatically.
+
 Use the app's **Admin CSV updates** tab. Everyone who can sign in is an admin for now. Updates affect the shared catalog. Your personal instrument edits remain separate.
 
 1. Download **Current data for updates** to get stable equipment IDs, or start with the blank template in `templates/equipment_updates_template.csv`.

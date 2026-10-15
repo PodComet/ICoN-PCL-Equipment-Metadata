@@ -78,3 +78,7 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 .app-shell .text-button,.app-shell .brand-audit-panel>a,.app-shell .manufacturer-audit>a,
 .app-shell .filter-title button{color:#000;font-weight:600}
 .app-shell .brand-legend>svg{color:#16803b}
+
+.detail-family-link{color:inherit;text-decoration:underline;text-underline-offset:5px;display:inline}.detail-family-link svg{vertical-align:middle}
+.detail-model-page{margin:16px 0 22px}.detail-model-page .variant-product-link{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:#000;text-decoration:underline;text-underline-offset:3px}.detail-model-page p{margin:7px 0 0}
+.published-price{margin:10px 0 16px;font-size:12px;line-height:1.6;color:#000}.published-price>a{display:inline-flex;align-items:center;gap:5px;color:#000;text-decoration:underline}.published-price p{margin:7px 0}.detail-grid .published-price{border-bottom:1px solid var(--line);padding-bottom:16px}.published-price strong{font-weight:700}
