@@ -76,6 +76,16 @@ test('green stars require both official presence and independent research eviden
  assert.equal(changed.manufacturer_official_website_url,'');
 });
 
+test('FRITSCH confirmation grants its star without inventing independent research evidence',()=>{
+ const brand=seed.manufacturers.find(b=>b.manufacturer==='FRITSCH');
+ const records=seed.records.filter(r=>r.manufacturer==='FRITSCH');
+ assert.equal(brand.verification_basis,'user_confirmation');
+ assert.equal(brand.research_use_status,'research_supplier_claim_only');
+ assert.equal(records.length,5);assert.ok(records.every(verifiedManufacturer));
+ const unknown=applyManufacturerAudit({...records[0],manufacturer:'Unconfirmed maker'},seed.manufacturers);
+ assert.equal(unknown.manufacturer_verification_basis,'');assert.equal(verifiedManufacturer(unknown),false);
+});
+
 test('multi-select filters use OR inside each list and AND across lists',()=>{
  const filters={query:'',category:['M13','M37'],manufacturer:['Eppendorf','Proto'],material:[],process:[],manualOnly:false,requestedOnly:false};
  assert.equal(filterRows(rows,filters).length,6);

@@ -71,13 +71,13 @@ export function manufacturerPrice(r:Equipment){
 
 export function verifiedManufacturer(r: Equipment) {
  return ["verified_manufacturer","verified_brand"].includes(r.manufacturer_brand_identity_status) &&
-  r.manufacturer_research_use_status === "documented_research_use" &&
-  !!safeUrl(r.manufacturer_official_website_url) && !!safeUrl(r.manufacturer_research_evidence_url);
+  !!safeUrl(r.manufacturer_official_website_url) &&
+  (r.manufacturer_verification_basis==='user_confirmation'||(r.manufacturer_research_use_status === "documented_research_use" && !!safeUrl(r.manufacturer_research_evidence_url)));
 }
 export function applyManufacturerAudit(r: Equipment, brands: Record<string,string>[]): Equipment {
  const brand=brands.find(b=>b.manufacturer===r.manufacturer);
  const result={...r};
- for(const field of ["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date"])
+ for(const field of ["official_website_url","brand_identity_status","research_use_status","research_evidence_url","verification_notes","review_date","verification_basis"])
   result["manufacturer_"+field]=brand?.[field] || (field.endsWith("status")?"needs_review":"");
  return result;
 }
