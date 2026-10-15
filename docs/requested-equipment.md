@@ -25,8 +25,8 @@ Repeated requests and unspecified models remain explicit. None of these records 
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Barrett WAM Robotic Arm** | REQ-EQ-018 | Robotic manipulation;Laboratory automation | verified operating manual ([document](https://web.barrett.com/support/WAM_Documentation/WAM_UserManual_AH-00.pdf)) |
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Universal Robot UR16e** | REQ-EQ-019 | Robotic manipulation;Machine tending | verified operating manual ([document](https://www.universal-robots.com/manuals/EN/PDF/SW5_25_1/user-manual-UR16e-PDF_online/711-102-00_UR16e_User_Manual_en_Global.pdf)) |
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Doosan Robotics Manipulator M0609** | REQ-EQ-020 | Robotic manipulation;Machine tending | verified operating manual ([document](https://manual.doosanrobotics.com/en/user-manual/3.3.0/1-m-h-series/part-4-overview-of-user-manual)) |
-| <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Selective etching reactor (custom built)** | REQ-EQ-021 | Selective wet etching;Pattern transfer | not verified |
-| <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Automatic filtration (custom built) and centrifuges** | REQ-EQ-022 | Filtration;Centrifugation;Washing;Recovery | not verified |
+| <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Selective etching reactor (custom built)** | REQ-EQ-021 | Selective wet etching;Pattern transfer;Wet chemical etching | not verified |
+| <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Automatic filtration (custom built) and centrifuges** | REQ-EQ-022; REQ-EQ-022-CENTRIFUGES | Filtration;Washing;Recovery | not verified |
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Large scale shaker (paint shaker)** | REQ-EQ-023 | Mechanical shaking;Suspension mixing | not verified |
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Core (Standard Bots)** | REQ-EQ-024 | Robotic manipulation;Machine tending | verified operating manual ([document](https://corehelp.standardbots.com/1-introduction.html)) |
 | <img src="../assets/purdue-p.png" width="22" alt="Purdue list"> **Bolt (Standard Bots) with 2 Spark arms and Nimbus** | REQ-EQ-025 | Bimanual manipulation;Mobile handling | not verified |
@@ -52,3 +52,4 @@ Repeated requests and unspecified models remain explicit. None of these records 
 
 Renishaw AM400 occurs twice in the request; both occurrences point to one equipment-model record.
 LabRAM II is classified as resonant acoustic mixing; its requested wording is preserved above.
+The combined filtration-and-centrifuges request links to separate M15 filtration and M13 centrifugation records. Its original inventory entry remains shared source context.

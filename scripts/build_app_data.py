@@ -15,6 +15,7 @@ def main():
         ("routes", "routes"), ("steps", "route_steps")
     ]}
     data["manufacturers"] = read_csv("manufacturers")
+    data["category_aliases"] = read_csv("category_aliases")
     brands = {r["manufacturer"]: r for r in data["manufacturers"]}
     class_prices = {r["category_id"]: r for r in read_csv("category_price_estimates")}
     overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
@@ -24,7 +25,7 @@ def main():
             record["manufacturer_" + field] = brand[field]
         estimate = class_prices.get(record["category_id"], {})
         record.update({k: v for k, v in estimate.items() if k.startswith("estimate")})
-        record["estimate_subject"] = record["category_name"]
+        record["estimate_subject"] = record.get("equipment_subtype") or record["category_name"]
         record.update({k: v for k, v in overrides.get(record["equipment_id"], {}).items() if k != "equipment_id"})
     data["coverage"] = json.loads((ROOT / "catalog/coverage.json").read_text(encoding="utf-8"))
     output = ROOT / "webapp/app/data/catalog.json"

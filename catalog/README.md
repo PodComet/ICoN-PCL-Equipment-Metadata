@@ -7,10 +7,11 @@
 | File | Meaning |
 | --- | --- |
 | equipment.csv | Main catalog: product families, variants, manuals, pricing fields and material/process relationships |
-| categories.csv | Authoritative M definitions and source-PDF page/checksum |
-| requested_equipment.csv | All 44 requested occurrences, mapped to 43 highlighted equipment records |
+| categories.csv | Current M family labels, original source category names and source-PDF page/checksum |
+| category_aliases.csv | Retired X identifiers and their canonical M destinations; X-FILTER has two destinations |
+| requested_equipment.csv | All 44 requested occurrences, mapped to 44 highlighted equipment records after splitting the filtration-and-centrifuges requirement |
 | source_models.csv | All 64 model/manual records retained by the source PDF, with their original provenance |
-| routes.csv | Nine material-family routes and eleven additional manufacturing-process routes |
+| routes.csv | Nine material-family routes, eleven source manufacturing-process routes and two curated wet/dry etching capabilities |
 | route_steps.csv | All 109 ordered conceptual steps, preserving alternatives and concurrent equipment |
 | coverage.json | Generated counts, including unresolved documentation and model evidence |
 
@@ -42,7 +43,7 @@ The original XLSX and its matching reports remain excluded from Git. Manufacture
 
 `equipment.csv` includes optional `image_url`, `image_source_url`, `image_scope`, `technical_spec_url`, `product_page_url`, and `media_checked_date` fields. Photos remain manufacturer-hosted and can become unavailable; photo rights remain with their owners. Family photos explicitly identify their scope.
 
-`category_price_estimates.csv` contains 70 broad new-equipment planning ranges. `equipment_price_overrides.csv` specializes accessories, upgrades, mobile bases, configured assemblies, and per-unit furnace quantities. `market_benchmarks.json` records the research anchors and distinguishes published selling prices from quote-only pages. No range is an exact model MSRP. Where no public price was found, ranges are low-confidence analyst judgments; specification sources establish class scope and do not substantiate numerical bounds. Exclusions are recorded in the basis.
+`category_price_estimates.csv` contains 67 broad new-equipment planning ranges. `equipment_price_overrides.csv` specializes accessories, upgrades, mobile bases, configured assemblies, and per-unit furnace quantities. `market_benchmarks.json` records the research anchors and distinguishes published selling prices from quote-only pages. No range is an exact model MSRP. Where no public price was found, ranges are low-confidence analyst judgments; specification sources establish class scope and do not substantiate numerical bounds. Exclusions are recorded in the basis.
 
 `python scripts/build_app_data.py` joins these CSVs into the app seed. CSV export includes the joined estimate fields while preserving exact MSRP separately. An exact sourced MSRP entered in the app takes display priority over estimates.
 

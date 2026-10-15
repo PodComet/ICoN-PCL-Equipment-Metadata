@@ -48,3 +48,9 @@ Import history records the file name, actor, revision, timestamp and before/afte
 ## Manual entry
 
 The equipment directory has an admin-only **Add machine profile** section below the filter menus. Enter an instrument or variant, select **Review profile**, then **Add to shared catalog**. This form produces the same row format and calls the same preview/apply endpoints as CSV. It uses the same revision checks, verification rules and import history.
+
+## Category merges
+
+Use the current M identifiers: M61 for etching, M15 for filtration, M13 for general-purpose centrifuges and M56 for laser sources. `equipment_subtype` records the specific mechanism or configuration. P13 and P14 distinguish wet chemical and dry plasma etching in the process picker.
+
+Legacy X-ETCH and X-LASER resolve to M61 and M56. An old X-FILTER update resolves from its stable equipment ID; a new X-FILTER profile is ambiguous and must explicitly choose M13 or M15. Legacy aliases and `source_record_id` are provenance fields in snapshots, not editable update-template columns. New variants do not inherit private inventory links. See [category merges](category-merges.md).

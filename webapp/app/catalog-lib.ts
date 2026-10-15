@@ -24,7 +24,7 @@ export function matches(row: CatalogRow, query: string, category: string|string[
     (!picked(process).length || picked(process).some(id=>r.related_process_ids?.split(";").includes(id))) &&
     (!manualOnly || r.manual_match_status === VERIFIED) &&
     (!requestedOnly || r.purdue_list === "true") &&
-    query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.product_family,r.variant_label,r.category_id,r.category_name,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes,r.purdue_instrument_ids,r.purdue_serial_or_other_ids].join(" ").toLowerCase().includes(word));
+    query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.product_family,r.variant_label,r.category_id,r.category_name,r.legacy_category_ids,r.equipment_subtype,r.source_record_id,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes,r.purdue_instrument_ids,r.purdue_serial_or_other_ids].join(" ").toLowerCase().includes(word));
 }
 export function groupRows(rows: CatalogRow[]) {
   const groups = new Map<string, CatalogRow[]>();

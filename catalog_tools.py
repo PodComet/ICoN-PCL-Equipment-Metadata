@@ -24,6 +24,7 @@ def inspect_catalog(root=ROOT):
     steps = load_csv(folder / "route_steps.csv")
     source_models = load_csv(folder / "source_models.csv")
     manufacturers = load_csv(folder / "manufacturers.csv")
+    aliases = load_csv(folder / "category_aliases.csv")
     assert {r["manufacturer"] for r in manufacturers} == {r["manufacturer"] for r in equipment}
     assert len(manufacturers) == len({r["manufacturer"] for r in manufacturers})
     for brand in manufacturers:
@@ -45,8 +46,15 @@ def inspect_catalog(root=ROOT):
     assert set(coverage) == category_ids
     assert all(coverage[c] == 10 for c in category_ids), "Expected ten core examples per active M category"
     assert len(requests) == 44 and len(source_models) == 64 and len(steps) == 109
-    assert len(routes) == 20
+    assert len(routes) == 22  # 20 retained source routes plus wet/dry etching capabilities
+    route_ids = {r["route_id"] for r in routes}
+    for alias in aliases:
+        assert alias["legacy_category_id"] not in category_ids
+        assert set(alias["canonical_category_ids"].split(";")).issubset(category_ids)
+    retired = {a["legacy_category_id"] for a in aliases}
     for row in equipment:
+        assert row["category_id"] not in retired, row["equipment_id"]
+        assert set(filter(None, row["related_process_ids"].split(";"))).issubset(route_ids)
         assert row["model_name"] and row["product_family_id"] and row["variant_label"]
         assert row["highlight_requested"] in {"true", "false"}
         assert row["purdue_list"] == row["highlight_requested"]
@@ -70,6 +78,11 @@ def inspect_catalog(root=ROOT):
         record = next(r for r in equipment if r["equipment_id"] == request["equipment_id"])
         assert record["highlight_requested"] == "true"
         assert request["requested_id"] in record["requested_ids"].split(";")
+        for related_id in filter(None, request.get("related_equipment_ids", "").split(";")):
+            related = next(r for r in equipment if r["equipment_id"] == related_id)
+            assert related["highlight_requested"] == "true"
+            assert request["requested_id"] in related["requested_ids"].split(";")
+            assert related["source_record_id"] == record["equipment_id"]
     for route in routes:
         assert set(route["equipment_category_ids"].split(";")).issubset(category_ids)
     for step in steps:
@@ -83,7 +96,9 @@ def inspect_catalog(root=ROOT):
         "equipment_records": len(equipment), "requested_occurrences": len(requests),
         "highlighted_equipment_records": sum(r["highlight_requested"] == "true" for r in equipment),
         "source_pdf_model_records": len(source_models), "material_families": 9,
-        "additional_process_routes": 11, "ordered_route_steps": len(steps),
+        "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
+        "source_routes": 20, "curated_process_capabilities": 2, "retired_x_categories": len(aliases),
+        "ordered_route_steps": len(steps),
         "manual_coverage": dict(sorted(Counter(r["manual_match_status"] for r in equipment).items())),
         "model_evidence": dict(sorted(Counter(r["model_evidence_status"] for r in equipment).items())),
         "msrp_records": sum(bool(r["msrp_value"]) for r in equipment),
@@ -112,9 +127,12 @@ def render_views(root=ROOT):
         manual = md(record["manual_match_status"].replace("_", " "))
         if record["manual_url"]:
             manual += f" ([document]({record['manual_url']}))"
-        lines.append(f"| {title} | {record['equipment_id']} | {md(record['related_process_types'])} | {manual} |")
+        related = item.get("related_equipment_ids", "")
+        record_ids = "; ".join(filter(None, [record['equipment_id'], related]))
+        lines.append(f"| {title} | {record_ids} | {md(record['related_process_types'])} | {manual} |")
     lines.extend(["", "Renishaw AM400 occurs twice in the request; both occurrences point to one equipment-model record.",
-                  "LabRAM II is classified as resonant acoustic mixing; its requested wording is preserved above.", ""])
+                  "LabRAM II is classified as resonant acoustic mixing; its requested wording is preserved above.",
+                  "The combined filtration-and-centrifuges request links to separate M15 filtration and M13 centrifugation records. Its original inventory entry remains shared source context.", ""])
     docs = root / "docs"
     docs.mkdir(exist_ok=True)
     (docs / "requested-equipment.md").write_text("\n".join(lines), encoding="utf-8")

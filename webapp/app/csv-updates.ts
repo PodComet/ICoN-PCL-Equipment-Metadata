@@ -1,6 +1,7 @@
 import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
+import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
 
-export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
+export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","equipment_subtype","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
 export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","category_id",...UPDATE_FIELDS];
 export type Change={line:number;operation:string;equipment_id:string;name:string;fields:string[];before:Equipment|null;after:Equipment};
 export type Plan={changes:Change[];errors:{line:number;message:string}[];warnings:{line:number;message:string}[];unchanged:number;rowCount:number};
@@ -28,7 +29,7 @@ export function csvUpdateText(rows:Record<string,string>[]) {
  const cell=(value:string)=>{let text=String(value??"");if(/^[\s]*[=+@-]/.test(text))text="'"+text;return '"'+text.replaceAll('"','""')+'"'};
  return '\ufeff'+[CSV_COLUMNS,...rows.map(r=>CSV_COLUMNS.map(k=>r[k]||""))].map(r=>r.map(cell).join(',')).join('\r\n')+'\r\n';
 }
-export function buildPlan(text:string,records:Equipment[],categories:Record<string,string>[],routes:Record<string,string>[],brands:Record<string,string>[]):Plan {
+export function buildPlan(text:string,records:Equipment[],categories:Record<string,string>[],routes:Record<string,string>[],brands:Record<string,string>[],aliases:CategoryAlias[]=[]):Plan {
  const plan:Plan={changes:[],errors:[],warnings:[],unchanged:0,rowCount:0};
  let rows:string[][];try{rows=parseCSV(text)}catch(e){plan.errors.push({line:1,message:(e as Error).message});return plan}
  if(!rows.length){plan.errors.push({line:1,message:"CSV is empty."});return plan}
@@ -54,12 +55,15 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    if(op!=='update'&&before)throw new Error("New equipment_id already exists. Use update or choose a new ID.");
    const parent=op==='add_variant'?byId.get(input.parent_equipment_id):null;
    if(op==='add_variant'&&!parent)throw new Error("parent_equipment_id must identify an existing shared instrument.");
-   if(op==='update'&&input.category_id&&input.category_id!==before!.category_id)throw new Error("Category reassignment needs a separate review; omit category_id for updates.");
-   const category=before?.category_id||parent?.category_id||input.category_id;
+   const inputCategory=resolveCategoryId(input.category_id||'',aliases,before?.category_id||parent?.category_id);
+   if(input.category_id&&!inputCategory)throw new Error("X-FILTER was split. Choose M13 for centrifuges or M15 for filtration.");
+   if(op==='update'&&input.category_id&&inputCategory!==before!.category_id)throw new Error("Category reassignment needs a separate review; omit category_id for updates.");
+   const category=before?.category_id||parent?.category_id||inputCategory;
+   if(input.category_id&&inputCategory!==input.category_id)plan.warnings.push({line,message:`Legacy category ${input.category_id} resolves to ${inputCategory}.`});
    if(!categoryMap.has(category))throw new Error("Choose a known category_id from the category reference.");
    const record:Equipment={...(before||parent||Object.fromEntries(Object.keys(records[0]||{}).map(k=>[k,""]))),equipment_id:id,model_name:before?.model_name||"",category_id:category,category_name:categoryMap.get(category)!} as Equipment;
    if(op!=='update'){
-    for(const k of [...MANUFACTURER_PRICE_FIELDS,'product_page_scope'])record[k]='';
+    for(const k of [...MANUFACTURER_PRICE_FIELDS,'product_page_scope','source_record_id','legacy_category_ids'])record[k]='';
     for(const k of ['model_name','variant_label','capacity_ml','manual_url','manual_scope','msrp_value','msrp_currency','price_source_url','price_checked_date','product_page_url','technical_spec_url','brochure_url','image_url','image_source_url','image_scope','notes','source_pdf','source_page','source_sha256','model_evidence_url','manual_lookup_url','documentation_url','requested_ids','institution_label','institution_basis','institution_logo_url','manufacturer_official_website_url','manufacturer_research_evidence_url'])record[k]='';
     record.highlight_requested='false';record.purdue_list='false';record.ownership_status='not_independently_verified';record.access_evidence_url='';
     record.catalog_scope='admin_supplement';record.record_kind=op==='add_variant'?'user_variant':'model_candidate';record.model_status='user_entered';record.model_evidence_status='candidate_needs_review';record.manual_match_status='not_verified';record.manual_status='not_found';
@@ -83,7 +87,8 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    for(const [field,valid] of [['related_material_ids',validMaterial],['related_process_ids',validProcess]] as const){if((record[field]||'').split(';').filter(Boolean).some(id=>!valid.has(id)))throw new Error("Unknown IDs in "+field)}
    for(const [idField,typeField] of [['related_material_ids','related_material_types'],['related_process_ids','related_process_types']])if(changed.includes(idField)&&!input[typeField])record[typeField]=record[idField].split(';').filter(Boolean).map(id=>routes.find(r=>r.route_id===id)?.route_name||id).join(';');
    if(op!=='update'||changed.includes('manual_url')||changed.includes('manual_scope')){record.manual_match_status='not_verified';record.manual_status=record.manual_url?'user_entered_unverified':'not_found'}
-   const after=applyManufacturerAudit(record,brands);
+   const classified=op!=='update'&&input.category_id&&inputCategory!==input.category_id?canonicalizeEquipment({...record,category_id:input.category_id},byId,categories,aliases):record;
+   const after=applyManufacturerAudit(classified,brands);
    if(!brands.some(b=>b.manufacturer===record.manufacturer))plan.warnings.push({line,message:"Manufacturer not in the reviewed registry; no green star will be awarded."});
    if(op!=='update')plan.warnings.push({line,message:"New record starts without Purdue ownership/list markers or verified manual/model status."});
    if(op==='update'&&!changed.length){plan.unchanged++;return}

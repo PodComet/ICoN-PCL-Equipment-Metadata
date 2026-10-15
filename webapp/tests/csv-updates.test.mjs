@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {parseCSV,buildPlan,csvUpdateText} from '../app/csv-updates.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
-const plan=text=>buildPlan(text,seed.records,seed.categories,seed.routes,seed.manufacturers);
+const plan=text=>buildPlan(text,seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 test('CSV handles BOM, quoted commas, escaped quotes and multiline notes',()=>{
  assert.deepEqual(parseCSV('\ufeffa,b\r\n"one,two","line1\nline2 ""quote"""\r\n'),[['a','b'],['one,two','line1\nline2 "quote"']]);
  assert.throws(()=>parseCSV('a,b\n"unfinished'));

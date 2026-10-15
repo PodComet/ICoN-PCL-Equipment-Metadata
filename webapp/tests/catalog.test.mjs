@@ -8,7 +8,7 @@ const rows=seed.records.map(record=>({record,revision:0}));
 
 test('Purdue filter contains exactly the requested distinct records',()=>{
  const result=rows.filter(r=>matches(r,'','','','',false,true));
- assert.equal(result.length,43);
+ assert.equal(result.length,44);
  assert.equal(result.filter(r=>r.record.model_name==='Renishaw AM400').length,1);
 });
 test('material/process/name filters compose without searching checksum noise',()=>{

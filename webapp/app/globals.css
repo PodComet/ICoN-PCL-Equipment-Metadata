@@ -84,3 +84,5 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 .published-price{margin:10px 0 16px;font-size:12px;line-height:1.6;color:#000}.published-price>a{display:inline-flex;align-items:center;gap:5px;color:#000;text-decoration:underline}.published-price p{margin:7px 0}.detail-grid .published-price{border-bottom:1px solid var(--line);padding-bottom:16px}.published-price strong{font-weight:700}
 
 .primary-published-price{font-size:12px;line-height:1.6;color:#000}.primary-published-price>a{display:inline-flex;align-items:center;gap:6px;color:#000;text-decoration:underline}.primary-published-price b{display:block;font-size:17px;font-weight:750}.class-estimate-disclosure{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}.class-estimate-disclosure summary{font-size:12px;color:#000;font-weight:600;cursor:pointer;margin-bottom:15px}
+
+.equipment-subtype{color:#111;font-size:.85rem;font-weight:700;line-height:1.45;margin:.2rem 0 .65rem}

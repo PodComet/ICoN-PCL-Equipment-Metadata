@@ -24,7 +24,7 @@ export async function POST(request:Request){
   if(typeof input.csv!=='string'||!['preview','apply'].includes(input.mode))return json({error:"Choose a CSV file and preview it first."},400);
   const catalog=await loadSharedCatalog();
   if(input.mode==='apply'&&(!Number.isSafeInteger(input.expected_revision)||input.expected_revision!==catalog.revision))return json({error:"The shared catalog changed since preview. Preview this CSV again."},409);
-  const plan=buildPlan(input.csv,catalog.records,seed.categories,seed.routes,seed.manufacturers);
+  const plan=buildPlan(input.csv,catalog.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
   if(input.mode==='preview')return json({plan,revision:catalog.revision});
   if(plan.errors.length)return json({error:"Resolve CSV validation errors before applying.",plan},400);
   if(!plan.changes.length)return json({error:"No changes to apply."},400);

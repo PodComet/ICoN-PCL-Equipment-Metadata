@@ -2,9 +2,10 @@ import {env} from "cloudflare:workers";
 import seed from "./data/catalog.json";
 import {applyManufacturerAudit,type Equipment} from "./catalog-lib";
 import {UPDATE_FIELDS} from "./csv-updates";
+import {canonicalizeEquipment} from "./category-policy";
 
 export const seedById=new Map((seed.records as Equipment[]).map(r=>[r.equipment_id,r]));
-export const audited=(r:Equipment)=>applyManufacturerAudit(r,seed.manufacturers);
+export const audited=(r:Equipment)=>applyManufacturerAudit(canonicalizeEquipment(r,seedById,seed.categories,seed.category_aliases),seed.manufacturers);
 export async function loadSharedCatalog(){
  const results=await env.DB!.batch([
   env.DB!.prepare("SELECT revision FROM catalog_meta WHERE id='shared'"),
