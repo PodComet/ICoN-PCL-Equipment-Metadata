@@ -22,7 +22,7 @@ test('wet and dry etching share M61 while method filters remain disjoint',()=>{
 });
 
 test('historical stored payloads migrate category without discarding edited metadata',()=>{
- for(const [id,legacy,category] of [['REQ-EQ-021','X-ETCH','M61'],['REQ-EQ-022','X-FILTER','M15'],['REQ-EQ-041','X-LASER','M56']]){
+ for(const [id,legacy,category] of [['REQ-EQ-021','X-ETCH','M61'],['REQ-EQ-022','X-FILTER','M15'],['REQ-EQ-041','X-LASER','M56'],['REQ-EQ-023','X-MIX','M50'],['REQ-EQ-036','X-MIX','M50']]){
   const before={...byId.get(id),category_id:legacy,category_name:'Old category',legacy_category_ids:'',equipment_subtype:'',related_process_ids:'',notes:'Personal research note',manufacturer_price_value:'12345'};
   const after=normalize(before);
   assert.equal(after.category_id,category);assert.equal(after.notes,before.notes);assert.equal(after.manufacturer_price_value,'12345');
@@ -53,7 +53,7 @@ test('CO2 source joins M56 without inheriting a nanoparticle-ablation process or
 });
 
 test('legacy CSV updates resolve by record while ambiguous new X-FILTER assignments are rejected',()=>{
- for(const [id,category] of [['REQ-EQ-021','X-ETCH'],['REQ-EQ-022','X-FILTER'],['REQ-EQ-041','X-LASER']]){
+ for(const [id,category] of [['REQ-EQ-021','X-ETCH'],['REQ-EQ-022','X-FILTER'],['REQ-EQ-041','X-LASER'],['REQ-EQ-023','X-MIX'],['REQ-EQ-036','X-MIX']]){
   const result=plan(csvUpdateText([{operation:'update',equipment_id:id,category_id:category,notes:'Updated research note'}]));
   assert.deepEqual(result.errors,[]);assert.ok(result.warnings.some(w=>w.message.includes('Legacy category')));
   assert.ok(result.changes[0].after.category_id.startsWith('M'));
@@ -70,4 +70,26 @@ test('new variants cannot inherit the combined source inventory reference',()=>{
  assert.deepEqual(result.errors,[]);
  const variant=result.changes[0].after;
  assert.equal(variant.source_record_id,'');assert.equal(variant.purdue_list,'false');assert.equal(variant.legacy_category_ids,'');
+});
+
+test('M50 broadening preserves distinct mixing methods, equipment cards and scoped estimates',()=>{
+ const mixing=rows.filter(r=>r.record.category_id==='M50');
+ assert.equal(mixing.length,12);
+ assert.ok(mixing.every(r=>r.record.category_name==='Shakers and vessel-driven mixers'));
+ const subtype=name=>mixing.filter(r=>matches(r,name,'M50','','',false,false));
+ assert.equal(subtype('Vortex mixing').length,10);
+ assert.deepEqual(subtype('Mechanical shaking').map(r=>r.record.equipment_id),['REQ-EQ-023']);
+ assert.deepEqual(subtype('Resonant acoustic mixing').map(r=>r.record.equipment_id),['REQ-EQ-036']);
+ assert.equal(subtype('X-MIX').length,2);
+ const labram=byId.get('REQ-EQ-036'),shaker=byId.get('REQ-EQ-023');
+ assert.ok(labram.purdue_list==='true'&&shaker.purdue_list==='true');
+ assert.equal(labram.estimated_msrp_low,'1000');assert.equal(labram.estimated_msrp_high,'150000');
+ assert.equal(byId.get('M50-01').estimated_msrp_high,'2000');
+ assert.equal(labram.manual_match_status,'verified_operating_manual');
+ assert.ok(!labram.related_process_types.toLowerCase().includes('ultrasonic'));
+ assert.equal(seed.categories.find(c=>c.category_id==='M50').source_category_name,'Vortex mixer');
+ const generic=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-MIXER',category_id:'M50',manufacturer:'Custom',model_name:'New unspecified mixing system'}]));
+ assert.deepEqual(generic.errors,[]);assert.equal(generic.changes[0].after.estimated_msrp_low,'300');assert.equal(generic.changes[0].after.estimated_msrp_high,'150000');
+ const acoustic=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-ACOUSTIC',category_id:'M50',manufacturer:'Resodyn',model_name:'New acoustic model',equipment_subtype:'Resonant acoustic mixing'}]));
+ assert.deepEqual(acoustic.errors,[]);assert.equal(acoustic.changes[0].after.estimated_msrp_low,'1000');
 });

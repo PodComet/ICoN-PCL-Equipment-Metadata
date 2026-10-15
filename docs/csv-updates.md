@@ -54,3 +54,5 @@ The equipment directory has an admin-only **Add machine profile** section below 
 Use the current M identifiers: M61 for etching, M15 for filtration, M13 for general-purpose centrifuges and M56 for laser sources. `equipment_subtype` records the specific mechanism or configuration. P13 and P14 distinguish wet chemical and dry plasma etching in the process picker.
 
 Legacy X-ETCH and X-LASER resolve to M61 and M56. An old X-FILTER update resolves from its stable equipment ID; a new X-FILTER profile is ambiguous and must explicitly choose M13 or M15. Legacy aliases and `source_record_id` are provenance fields in snapshots, not editable update-template columns. New variants do not inherit private inventory links. See [category merges](category-merges.md).
+
+M50 is now Shakers and vessel-driven mixers. Use `equipment_subtype` to distinguish Vortex mixing, Mechanical shaking and Resonant acoustic mixing. Legacy X-MIX resolves to M50. The LabRAM II retains its resonant acoustic classification rather than an ultrasonic classification.

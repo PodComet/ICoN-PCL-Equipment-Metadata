@@ -8,6 +8,7 @@ The project owner approved these X-to-M changes on 2026-10-14. M identifiers are
 | X-FILTER Filtration and centrifugation, filtration component | M15 Filtration systems | Custom automatic filtration; configuration unspecified |
 | X-FILTER Filtration and centrifugation, centrifuge component | M13 General-purpose centrifuges | Centrifugation; model, format and speed class unspecified |
 | X-LASER CO2 laser source | M56 Laser sources | CO2 source with continuous-wave and modulated operation; existing pulsed sources retain their subtype |
+| X-MIX Bulk shaking and resonant acoustic mixing | M50 Shakers and vessel-driven mixers | Vortex mixing, mechanical shaking and resonant acoustic mixing remain separate subtypes |
 
 The original ten-example sets remain intact. Existing M13 benchtop centrifuges and M15 tangential-flow filtration systems retain those specific subtypes. The unspecified Purdue components are not labeled as tangential-flow filtration, nanofiltration or ultracentrifuges.
 
@@ -30,3 +31,9 @@ The CO2 source retains its source-only price estimate and does not inherit nanop
 The application reapplies the approved category mapping after loading shared and personal records. User-entered notes, documentation and sourced prices remain intact. Legacy X-ETCH and X-LASER CSV identifiers resolve to their canonical M categories. X-FILTER resolves only when an existing equipment record identifies the component; new records must explicitly select M13 or M15.
 
 X-EDM and X-CNC remain machining families. X-MET remains optical surface metrology; no EDM or optical profiler has been classified as an atomic force microscope.
+
+## Mixing family
+
+M50 contains ten original vortex examples plus the requested paint shaker and Resodyn LabRAM II. `equipment_subtype` keeps Vortex mixing, Mechanical shaking and Resonant acoustic mixing separately searchable. The source category name Vortex mixer remains archived in `categories.csv`. X-MIX remains a searchable legacy identifier and is accepted in CSV updates.
+
+Existing model, manual, Purdue inventory and pricing information stays with each instrument. The paint shaker and LabRAM II retain their previous class-equivalent planning ranges rather than inheriting a small vortex mixer estimate. Resodyn identifies LabRAM II as a low-frequency resonant acoustic mixer, approximately 60 Hz; it remains separate from the ultrasonic M09 and M10 families. See the [manufacturer product page](https://resodynmixers.com/products/labram-ii-lab-mixer/).

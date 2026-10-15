@@ -69,6 +69,23 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
     record.catalog_scope='admin_supplement';record.record_kind=op==='add_variant'?'user_variant':'model_candidate';record.model_status='user_entered';record.model_evidence_status='candidate_needs_review';record.manual_match_status='not_verified';record.manual_status='not_found';
     if(op==='add_equipment'){record.product_family_id='PF-'+id;record.product_family='';for(const k of Object.keys(record))if(k.startsWith('estimate'))record[k]='';const comparator=records.find(r=>r.category_id===category);if(comparator)for(const k of Object.keys(comparator))if(k.startsWith('estimate'))record[k]=comparator[k]}
    }
+   if(op==='add_equipment'&&category==='M50'){
+    const peers=records.filter(r=>r.category_id==='M50');
+    const subtype=input.equipment_subtype?.toLowerCase();
+    const comparator=subtype?peers.find(r=>r.equipment_subtype?.toLowerCase()===subtype):undefined;
+    if(comparator){for(const key of Object.keys(comparator))if(key.startsWith('estimate'))record[key]=comparator[key]}
+    else{
+     const priced=peers.filter(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low));
+     if(priced.length){
+      record.estimated_msrp_low=String(Math.min(...priced.map(r=>Number(r.estimated_msrp_low))));
+      record.estimated_msrp_high=String(Math.max(...priced.map(r=>Number(r.estimated_msrp_high))));
+      record.estimate_subject='Shakers and vessel-driven mixers; subtype unspecified';
+      record.estimate_confidence='low';
+      record.estimate_basis='Broad family planning estimate spanning the existing vortex, mechanical-shaking and resonant-acoustic class bands. This is not a model quote or manufacturer MSRP. Specify the documented subtype to use a comparable class. Excludes tax, freight, installation and service.';
+      record.estimate_source_urls=[...new Set(priced.flatMap(r=>(r.estimate_source_urls||'').split(';')).filter(Boolean))].join(';');
+     }
+    }
+   }
    const changed:string[]=[];
    for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>6000)throw new Error(field+" exceeds 6,000 characters.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
    if(changed.includes('product_page_url'))record.product_page_scope='';

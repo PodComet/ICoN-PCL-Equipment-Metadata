@@ -28,9 +28,10 @@ def test_requested_duplicate_and_variants_are_preserved():
 def test_approved_x_categories_merge_into_m_without_losing_requested_links():
     records = load_csv(ROOT / "catalog/equipment.csv")
     by_id = {r["equipment_id"]: r for r in records}
-    assert not {"X-ETCH", "X-FILTER", "X-LASER"}.intersection(r["category_id"] for r in records)
+    assert not {"X-ETCH", "X-FILTER", "X-LASER", "X-MIX"}.intersection(r["category_id"] for r in records)
     for equipment_id, category in [("REQ-EQ-021", "M61"), ("REQ-EQ-022", "M15"),
-                                   ("REQ-EQ-022-CENTRIFUGES", "M13"), ("REQ-EQ-041", "M56")]:
+                                   ("REQ-EQ-022-CENTRIFUGES", "M13"), ("REQ-EQ-041", "M56"),
+                                   ("REQ-EQ-023", "M50"), ("REQ-EQ-036", "M50")]:
         assert by_id[equipment_id]["category_id"] == category
         assert by_id[equipment_id]["purdue_list"] == "true"
     request = next(r for r in load_csv(ROOT / "catalog/requested_equipment.csv") if r["requested_id"] == "REQ-022")

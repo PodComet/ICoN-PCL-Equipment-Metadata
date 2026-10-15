@@ -2,3 +2,4 @@ legacy_category_id,canonical_category_ids,legacy_category_name,notes
 X-ETCH,M61,Selective wet etching,Wet etching joins M61; preserve wet and dry process capabilities.
 X-FILTER,M13;M15,Filtration and centrifugation,Compound requirement split by component. Choose M13 for centrifuges and M15 for filtration; legacy category alone cannot select one.
 X-LASER,M56,CO2 laser source,"CO2 laser source joins M56. Keep wavelength, laser medium and continuous-wave/modulated versus pulsed operation distinct."
+X-MIX,M50,Bulk shaking and resonant acoustic mixing,"M50 broadened to shakers and vessel-driven mixers. Preserve vortex, mechanical shaking and resonant acoustic subtypes; LabRAM II is not ultrasonic."

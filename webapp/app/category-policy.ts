@@ -20,7 +20,7 @@ export function canonicalizeEquipment(record:Equipment,canonical:Map<string,Equi
  const result:Equipment={...record,category_id:categoryId,category_name:categories.find(c=>c.category_id===categoryId)?.category_name||record.category_name};
  result.legacy_category_ids=joined(record.legacy_category_ids,base?.legacy_category_ids,old!==categoryId?old:'');
  result.source_record_id=record.source_record_id||base?.source_record_id||'';
- result.equipment_subtype=record.equipment_subtype||base?.equipment_subtype||(old==='X-ETCH'?'Wet chemical etching':old==='X-LASER'?'CO2 laser source':'');
+ result.equipment_subtype=record.equipment_subtype||base?.equipment_subtype||(old==='X-ETCH'?'Wet chemical etching':old==='X-LASER'?'CO2 laser source':old==='X-MIX'?'Vessel-driven mixing; subtype unspecified':'');
  if(base?.legacy_category_ids)for(const [field,value] of Object.entries(base))if(field.startsWith('estimate'))result[field]=value;
  // Historical stored payloads must retain the newly introduced etching method tags.
  const processIds=tokens(base?.related_process_ids).filter(id=>['P13','P14'].includes(id));
