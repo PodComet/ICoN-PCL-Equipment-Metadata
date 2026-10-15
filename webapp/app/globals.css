@@ -48,3 +48,33 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 .inventory-section{margin:26px 0;padding:22px;background:#f3f6f3;border:1px solid #dce5db;border-radius:12px}
 .inventory-section h4{margin:0 0 8px;font-size:1.08rem}.inventory-entries{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:14px;margin-top:16px}
 .inventory-entries article{background:white;border:1px solid #dce5db;border-radius:9px;padding:18px;min-width:0}.inventory-entries h5{font-size:1rem;margin:0 0 10px}.inventory-status{font-size:.78rem;font-weight:700;color:#345a43}.inventory-entries dl{font-size:.86rem;margin:16px 0}.inventory-entries dt{font-weight:700;margin-top:10px}.inventory-entries dd{margin:4px 0;overflow-wrap:anywhere}
+
+/* Readable supporting text, with stronger emphasis for filter options that match. */
+.app-shell{--muted:#000;--text:#000}
+.app-shell p,.app-shell small,.app-shell label,.app-shell figcaption,
+.app-shell dt,.app-shell dd,.app-shell th,.app-shell td,
+.app-shell input,.app-shell select,.app-shell textarea,
+.app-shell .small-label,.app-shell .eyebrow,.app-shell .private-chip,
+.app-shell .status,.app-shell .card-meta,.app-shell .card-meta span,
+.app-shell .card-tags span,.app-shell .tag-list span,.app-shell .tags span,
+.app-shell .result-summary,.app-shell .result-summary span,
+.app-shell .search-hint,.app-shell .photo-missing,.app-shell .card-document>span,
+.app-shell .inventory-status,.app-shell .inventory-card-ids,
+.app-shell .detail-sub,.app-shell .detail-footer>span,
+.app-shell .sidebar-caption,.app-shell .site-footer,.app-shell footer,
+.app-shell .import-history li,.app-shell .import-history li span,
+.app-shell .csv-upload span,.app-shell .manual-preview,.app-shell .manual-preview dl,
+.app-shell .filter-popup-top,.app-shell .filter-popup-top button,
+.app-shell .option-count,.app-shell .filter-checks span,
+.app-shell .multi-filter summary,.app-shell .multi-filter>label,
+.app-shell .manual-machine summary,.app-shell .variant-strip button,
+.app-shell .manufacturer-link,.app-shell .manufacturer-unlinked{color:#000;font-weight:600}
+.app-shell input::placeholder,.app-shell textarea::placeholder{color:#000;opacity:1;font-weight:600}
+.app-shell .filter-options>button,.app-shell .filter-options .option-no-matches{color:#000;font-weight:600}
+.app-shell .filter-options .option-has-matches{color:#000;font-weight:800}
+.app-shell .filter-options .option-has-matches .option-count{font-weight:800}
+.app-shell .workspace-nav nav button,.app-shell .workspace-nav>a,
+.app-shell .document-link,.app-shell .subtle-link,.app-shell .card-document>a,
+.app-shell .text-button,.app-shell .brand-audit-panel>a,.app-shell .manufacturer-audit>a,
+.app-shell .filter-title button{color:#000;font-weight:600}
+.app-shell .brand-legend>svg{color:#16803b}
