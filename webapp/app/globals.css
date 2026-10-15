@@ -86,3 +86,25 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 .primary-published-price{font-size:12px;line-height:1.6;color:#000}.primary-published-price>a{display:inline-flex;align-items:center;gap:6px;color:#000;text-decoration:underline}.primary-published-price b{display:block;font-size:17px;font-weight:750}.class-estimate-disclosure{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}.class-estimate-disclosure summary{font-size:12px;color:#000;font-weight:600;cursor:pointer;margin-bottom:15px}
 
 .equipment-subtype{color:#111;font-size:.85rem;font-weight:700;line-height:1.45;margin:.2rem 0 .65rem}
+
+/* Facet availability stays distinct from whether an option is selected. */
+.app-shell .facet-legend{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0 12px;font-size:11px;font-weight:600;color:#000}
+.facet-legend>span{display:inline-flex;align-items:center;gap:5px}
+.app-shell .facet-key-positive,.app-shell .facet-key-empty{display:inline-flex;align-items:center;justify-content:center;min-width:26px;min-height:23px;border-radius:5px;font-size:11px;font-weight:800}
+.app-shell .facet-key-positive{background:#174e37;color:#fff;border:1px solid #174e37}
+.app-shell .facet-key-empty{background:#f4f5f2;color:#000;border:1px dashed #8f9b91}
+.app-shell .filter-options>button{min-height:47px;gap:9px;margin:0 0 5px;padding:9px 8px;border-radius:6px;border:1px solid transparent;border-left-width:4px;line-height:1.4}
+.app-shell .filter-options>button.option-has-matches{background:#edf7e9;border-color:#a1bf9a;border-left-color:#21613f;color:#000;font-weight:800}
+.app-shell .filter-options>button.option-no-matches{background:#f4f5f2;border:1px dashed #b0bab1;border-left:4px solid #cbd1cb;color:#000;font-weight:600}
+.app-shell .option-text{display:flex;flex-direction:column;gap:3px;min-width:0;flex:1}
+.app-shell .option-label{overflow-wrap:anywhere}
+.app-shell .option-empty-label{font-size:10px;font-weight:600;line-height:1.2;color:#000}
+.app-shell .filter-options .option-count{display:inline-flex;align-items:center;justify-content:center;min-width:29px;min-height:26px;margin-left:auto;padding:3px 6px;border-radius:5px;flex-shrink:0;font-size:12px;font-variant-numeric:tabular-nums}
+.app-shell .filter-options .option-has-matches .option-count{background:#174e37;border:1px solid #174e37;color:#fff;font-weight:800}
+.app-shell .filter-options .option-no-matches .option-count{background:#fff;border:1px dashed #8f9b91;color:#000;font-weight:600}
+.app-shell .filter-options>button[aria-selected=true]{outline:2px solid #173e2d;outline-offset:-2px}
+.app-shell .filter-options>button.option-has-matches[aria-selected=true]{background:#d9eccf;border-color:#21613f}
+.app-shell .filter-options>button.option-no-matches[aria-selected=true]{border-style:solid;background:#e9ece7}
+.app-shell .filter-options>button[aria-selected=true] .option-check{background:#174e37;border-color:#174e37;color:#fff}
+.app-shell .filter-options>button:hover{box-shadow:inset 0 0 0 1px #4c7557}
+.app-shell .filter-options>button:focus-visible{outline:3px solid #174e37;outline-offset:-3px}
