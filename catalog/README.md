@@ -16,6 +16,7 @@
 | coverage.json | Generated counts, including unresolved documentation and model evidence |
 | deep_link_review_2026-10-14.csv | Sixty reviewed instruments: model-page, manual, specification, brochure and configuration-scoped price links |
 | deep_link_review_2026-10-14.json | Review findings, before/after field groups, URL-check results and coverage changes |
+| link_review_2026-10-15.json | Current US Mazak replacements, HTTP checks, and fields superseding historical link reviews |
 
 Source: `Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf`. File hashes and source pages identify the supplied document without publishing its binary or local paths. The PDF intentionally excludes M52 and M55; they have not been silently recreated or renumbered. Source-PDF assertions are distinguished from independent checking. Source model records remain an archival provenance layer even where later research identifies a scope caveat.
 
@@ -49,6 +50,12 @@ Prices record the selected SKU or configuration, currency, date and source. Sale
 Some manufacturer sites blocked automated requests with HTTP 403/465 while their model documents remained visible through official indexed sources. Those retrieval limits are recorded in the JSON audit; they are not reported as successful direct downloads. Obsolete PDF candidates returning 404/410 were replaced by official landing pages. Exact installed configurations, unspecified equipment and custom assemblies remain unresolved where evidence is missing.
 
 The app carries the review's before/after groups in `webapp/app/data/research-updates.json`. Old saved snapshots receive an update only when their fields still match the prior defaults. Custom manual/price evidence groups and explicitly edited personal fields are preserved. Keep earlier review groups when adding later review migrations.
+
+## Retired Mazak links, 2026-10-15
+
+Active Mazak references now use the current US site. The VC-500A/5X card links to the official [VC Series brochure request page](https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/), and its model evidence links to an official US customer article that explicitly describes the base machine. The brochure uses a request form. An exact current public specification sheet or operator manual was not established, so the retired presentation PDF has been removed from the specification field. The AM HWD hybrid has not been substituted for the base machine. No price or photo is inferred.
+
+`webapp/app/data/link-replacements.json` maps only reviewed retired URLs. The app applies those replacements after saved-record and research overlays, including class-reference lists, so an old saved link does not reappear. Other custom URLs, cleared fields, model identity and Purdue associations remain intact. Historical reports retain the URLs recorded on their original dates; `link_review_2026-10-15.json` records the later replacement evidence and superseding fields.
 
 
 ## Photos and class-equivalent estimates

@@ -1,0 +1,22 @@
+[
+  {
+    "old_url": "https://virtual.mazakusa.com/machine/vc-500a-5x/",
+    "replacement_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+    "field_replacements": {
+      "model_evidence_url": "https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/"
+    },
+    "product_page_scope": "Current US VC Series brochure request page for the legacy base VC-500A/5X family. A form may be required. This is not an exact current product/specification page; the AM HWD hybrid is a different model."
+  },
+  {
+    "old_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+    "replacement_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+    "field_replacements": {
+      "technical_spec_url": "",
+      "manual_url": ""
+    }
+  },
+  {
+    "old_url": "https://www.mazak.com/uk-en/products/vcn/",
+    "replacement_url": "https://www.mazak.com/us-en/"
+  }
+]

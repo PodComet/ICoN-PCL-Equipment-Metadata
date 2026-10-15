@@ -1,0 +1,98 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "All active Mazak URLs in the canonical equipment catalog, manufacturer audit and class-reference links; known retired URLs are also repaired after saved-record overlays.",
+  "url_replacements": [
+    {
+      "old_url": "https://virtual.mazakusa.com/machine/vc-500a-5x/",
+      "replacement_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+      "field_replacements": {
+        "model_evidence_url": "https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/"
+      },
+      "product_page_scope": "Current US VC Series brochure request page for the legacy base VC-500A/5X family. A form may be required. This is not an exact current product/specification page; the AM HWD hybrid is a different model."
+    },
+    {
+      "old_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+      "replacement_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+      "field_replacements": {
+        "technical_spec_url": "",
+        "manual_url": ""
+      }
+    },
+    {
+      "old_url": "https://www.mazak.com/uk-en/products/vcn/",
+      "replacement_url": "https://www.mazak.com/us-en/"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "REQ-EQ-013",
+      "before": {
+        "model_evidence_url": "https://virtual.mazakusa.com/machine/vc-500a-5x/",
+        "manual_scope": "",
+        "review_date": "2026-10-13",
+        "notes": "Do not assign specifications of the AM HWD variant to this base machine. Manufacturer product page confirms machine; brochures/presentations excluded. Do not conflate with AM HWD hybrid variant. Review 2026-10-14: Official Mazak VC-500A/5X virtual showroom page located; no verified photo or public exact MSRP added. Deep-link review 2026-10-14: Official model presentation includes VC-500A/5X specifications; not an operator manual.",
+        "technical_spec_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf",
+        "product_page_url": "https://virtual.mazakusa.com/machine/vc-500a-5x/",
+        "product_page_scope": "",
+        "brochure_url": "https://virtual.mazakusa.com/wp-content/uploads/2020/07/VC-500A5X-Presentation.pdf"
+      },
+      "after": {
+        "model_evidence_url": "https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/",
+        "manual_scope": "An exact operator manual and a current public specification sheet for the base VC-500A/5X were not found. The linked VC Series brochure request page may require a form. The AM HWD hybrid is a different model.",
+        "review_date": "2026-10-15",
+        "notes": "Do not assign specifications of the AM HWD variant to this base machine. Manufacturer product page confirms machine; brochures/presentations excluded. Do not conflate with AM HWD hybrid variant. Review 2026-10-14: Official Mazak VC-500A/5X virtual showroom page located; no verified photo or public exact MSRP added. Deep-link review 2026-10-14: Official model presentation includes VC-500A/5X specifications; not an operator manual. Link repair 2026-10-15: Retired virtual.mazakusa.com URLs replaced by the current US VC Series brochure request page and an official customer article confirming the base VC-500A/5X. No AM HWD specifications or photo have been assigned. No new MSRP or manual verification asserted.",
+        "technical_spec_url": "",
+        "product_page_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+        "product_page_scope": "Current US VC Series brochure request page for the legacy base VC-500A/5X family. A form may be required. This is not an exact current product/specification page; the AM HWD hybrid is a different model.",
+        "brochure_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/"
+      }
+    }
+  ],
+  "other_updates": [
+    {
+      "file": "manufacturers.csv",
+      "key": "MAZAK",
+      "before": {
+        "official_website_url": "https://www.mazak.com/uk-en/products/vcn/",
+        "verification_notes": "Official supplier website confirmed through browser search indexed primary page; direct automated fetch may be restricted. Direct fetch unavailable: HTTP Error 403: Site Disabled NC State Processes Lab lists MAZAK Integrex; demonstrates brand use, not exact VC-500A/5X. Independent documented use supports research relevance, not prevalence or exact-model validation.",
+        "review_date": "2026-10-13"
+      },
+      "after": {
+        "official_website_url": "https://www.mazak.com/us-en/",
+        "verification_notes": "Official supplier website confirmed through browser search indexed primary page; direct automated fetch may be restricted. Direct fetch unavailable: HTTP Error 403: Site Disabled NC State Processes Lab lists MAZAK Integrex; demonstrates brand use, not exact VC-500A/5X. Independent documented use supports research relevance, not prevalence or exact-model validation. Official US site https://www.mazak.com/us-en/ checked with HTTP 200 on 2026-10-15; independent research-use evidence and verification basis retained.",
+        "review_date": "2026-10-15"
+      }
+    },
+    {
+      "file": "category_price_estimates.csv",
+      "key": "X-CNC",
+      "before": {
+        "estimate_source_urls": "https://virtual.mazakusa.com/machine/vc-500a-5x/;https://www.yornew.com/en/vmc300.asp"
+      },
+      "after": {
+        "estimate_source_urls": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/;https://www.yornew.com/en/vmc300.asp"
+      }
+    }
+  ],
+  "checks": [
+    {
+      "url": "https://www.mazak.com/us-en/",
+      "status": 200,
+      "resolved_url": "https://www.mazak.com/us-en/",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+      "status": 200,
+      "resolved_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "url": "https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/",
+      "status": 200,
+      "resolved_url": "https://www.mazak.com/us-en/news-media/customer-success/Shop-Proves-a-True-Star-of-Productivity-and-Customer-Care/",
+      "checked_date": "2026-10-15"
+    }
+  ],
+  "limitations": "The current AM HWD product page is a different configuration. The legacy base model is confirmed by an official US customer article. The VC Series brochure page contains a request form; no exact current operator manual, directly downloadable specification PDF, price or photo is inferred. Historical review files preserve the URLs that were actually recorded on their review dates."
+}
