@@ -17,8 +17,15 @@
 | deep_link_review_2026-10-14.csv | Sixty reviewed instruments: model-page, manual, specification, brochure and configuration-scoped price links |
 | deep_link_review_2026-10-14.json | Review findings, before/after field groups, URL-check results and coverage changes |
 | link_review_2026-10-15.json | Current US Mazak replacements, HTTP checks, and fields superseding historical link reviews |
+| references.csv | Structured academic citations, ordered oldest to newest by publication year |
+| reference_links.csv | Scoped background or checked-claim links from papers to the project or catalog entities |
+| reference_files.csv | Local article basenames, file checksums, page counts and version/duplicate-copy provenance |
+| bibliography.bib / bibliography.ris / bibliography.csl.json | Complete academic-library exports for citation managers |
+| reference_coverage.json / reference_import_2026-10-15.json | Reference counts, import boundary, metadata-check sources and unresolved caveats |
 
 Source: `Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf`. File hashes and source pages identify the supplied document without publishing its binary or local paths. The PDF intentionally excludes M52 and M55; they have not been silently recreated or renumbered. Source-PDF assertions are distinguished from independent checking. Source model records remain an archival provenance layer even where later research identifies a scope caveat.
+
+The [academic reference database](../docs/academic-references.md) separately indexes 17 supplied papers from 18 PDF copies. The first import contains background relationships rather than checked exact-model equipment claims. Academic citations do not retroactively establish the literature provenance or experimental validity of every existing material/process association. Manuals and manufacturer sources remain in their existing evidence fields outside this article-only bibliography.
 
 ## Editing conventions
 

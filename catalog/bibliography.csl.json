@@ -1,0 +1,941 @@
+[
+  {
+    "id": "REF-1B8A93012C77",
+    "type": "paper-conference",
+    "title": "caNanoLab: A nanomaterial data repository for biomedical research",
+    "author": [
+      {
+        "family": "Morris",
+        "given": "Stephanie A."
+      },
+      {
+        "family": "Gaheen",
+        "given": "Sharon"
+      },
+      {
+        "family": "Lijowski",
+        "given": "Michal"
+      },
+      {
+        "family": "Heiskanen",
+        "given": "Mervi"
+      },
+      {
+        "family": "Klemm",
+        "given": "Juli"
+      }
+    ],
+    "container-title": "2014 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
+    "page": "29-33",
+    "DOI": "10.1109/bibm.2014.6999371",
+    "URL": "https://doi.org/10.1109/bibm.2014.6999371",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          11
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-1459F96962BC",
+    "type": "article-journal",
+    "title": "eNanoMapper: harnessing ontologies to enable data integration for nanomaterial risk assessment",
+    "author": [
+      {
+        "family": "Hastings",
+        "given": "Janna"
+      },
+      {
+        "family": "Jeliazkova",
+        "given": "Nina"
+      },
+      {
+        "family": "Owen",
+        "given": "Gareth"
+      },
+      {
+        "family": "Tsiliki",
+        "given": "Georgia"
+      },
+      {
+        "family": "Munteanu",
+        "given": "Cristian R"
+      },
+      {
+        "family": "Steinbeck",
+        "given": "Christoph"
+      },
+      {
+        "family": "Willighagen",
+        "given": "Egon"
+      }
+    ],
+    "container-title": "Journal of Biomedical Semantics",
+    "volume": "6",
+    "issue": "1",
+    "article-number": "10",
+    "DOI": "10.1186/s13326-015-0005-5",
+    "URL": "https://doi.org/10.1186/s13326-015-0005-5",
+    "page": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          3,
+          21
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-669D514DB3F7",
+    "type": "article-journal",
+    "title": "A universal metadata system for the characterization of nanomaterials",
+    "author": [
+      {
+        "family": "Erkimbaev",
+        "given": "A. O."
+      },
+      {
+        "family": "Zitserman",
+        "given": "V. Yu."
+      },
+      {
+        "family": "Kobzev",
+        "given": "G. A."
+      },
+      {
+        "family": "Trakhtengerts",
+        "given": "M. S."
+      }
+    ],
+    "container-title": "Scientific and Technical Information Processing",
+    "volume": "42",
+    "issue": "4",
+    "page": "211-222",
+    "DOI": "10.3103/s0147688215040024",
+    "URL": "https://doi.org/10.3103/s0147688215040024",
+    "issued": {
+      "date-parts": [
+        [
+          2015,
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-9773760A68D7",
+    "type": "article-journal",
+    "title": "How should the completeness and quality of curated nanomaterial data be evaluated?",
+    "author": [
+      {
+        "family": "Marchese Robinson",
+        "given": "Richard L."
+      },
+      {
+        "family": "Lynch",
+        "given": "Iseult"
+      },
+      {
+        "family": "Peijnenburg",
+        "given": "Willie"
+      },
+      {
+        "family": "Rumble",
+        "given": "John"
+      },
+      {
+        "family": "Klaessig",
+        "given": "Fred"
+      },
+      {
+        "family": "Marquardt",
+        "given": "Clarissa"
+      },
+      {
+        "family": "Rauscher",
+        "given": "Hubert"
+      },
+      {
+        "family": "Puzyn",
+        "given": "Tomasz"
+      },
+      {
+        "family": "Purian",
+        "given": "Ronit"
+      },
+      {
+        "family": "Åberg",
+        "given": "Christoffer"
+      },
+      {
+        "family": "Karcher",
+        "given": "Sandra"
+      },
+      {
+        "family": "Vriens",
+        "given": "Hanne"
+      },
+      {
+        "family": "Hoet",
+        "given": "Peter"
+      },
+      {
+        "family": "Hoover",
+        "given": "Mark D."
+      },
+      {
+        "family": "Hendren",
+        "given": "Christine Ogilvie"
+      },
+      {
+        "family": "Harper",
+        "given": "Stacey L."
+      }
+    ],
+    "container-title": "Nanoscale",
+    "volume": "8",
+    "issue": "19",
+    "page": "9919-9943",
+    "DOI": "10.1039/c5nr08944a",
+    "URL": "https://doi.org/10.1039/c5nr08944a",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-97E9BC69EB00",
+    "type": "article-journal",
+    "title": "Building an International Consensus on Multi-Disciplinary Metadata Standards: A CODATA Case History in Nanotechnology",
+    "author": [
+      {
+        "family": "Rumble",
+        "given": "John",
+        "suffix": "Jr."
+      },
+      {
+        "family": "Broome",
+        "given": "John"
+      },
+      {
+        "family": "Hodson",
+        "given": "Simon"
+      }
+    ],
+    "container-title": "Data Science Journal",
+    "volume": "18",
+    "article-number": "12",
+    "DOI": "10.5334/dsj-2019-012",
+    "URL": "https://doi.org/10.5334/dsj-2019-012",
+    "page": "12",
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-2B58D7070E0F",
+    "type": "article-journal",
+    "title": "Digital research data: from analysis of existing standards to a scientific foundation for a modular metadata schema in nanosafety",
+    "author": [
+      {
+        "family": "Elberskirch",
+        "given": "Linda"
+      },
+      {
+        "family": "Binder",
+        "given": "Kunigunde"
+      },
+      {
+        "family": "Riefler",
+        "given": "Norbert"
+      },
+      {
+        "family": "Sofranko",
+        "given": "Adriana"
+      },
+      {
+        "family": "Liebing",
+        "given": "Julia"
+      },
+      {
+        "family": "Minella",
+        "given": "Christian Bonatto"
+      },
+      {
+        "family": "Mädler",
+        "given": "Lutz"
+      },
+      {
+        "family": "Razum",
+        "given": "Matthias"
+      },
+      {
+        "family": "van Thriel",
+        "given": "Christoph"
+      },
+      {
+        "family": "Unfried",
+        "given": "Klaus"
+      },
+      {
+        "family": "Schins",
+        "given": "Roel P. F."
+      },
+      {
+        "family": "Kraegeloh",
+        "given": "Annette"
+      }
+    ],
+    "container-title": "Particle and Fibre Toxicology",
+    "volume": "19",
+    "issue": "1",
+    "article-number": "1",
+    "DOI": "10.1186/s12989-021-00442-x",
+    "URL": "https://doi.org/10.1186/s12989-021-00442-x",
+    "page": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-7F0A9F422735",
+    "type": "article-journal",
+    "title": "Shared metadata for data-centric materials science",
+    "author": [
+      {
+        "family": "Ghiringhelli",
+        "given": "Luca M."
+      },
+      {
+        "family": "Baldauf",
+        "given": "Carsten"
+      },
+      {
+        "family": "Bereau",
+        "given": "Tristan"
+      },
+      {
+        "family": "Brockhauser",
+        "given": "Sandor"
+      },
+      {
+        "family": "Carbogno",
+        "given": "Christian"
+      },
+      {
+        "family": "Chamanara",
+        "given": "Javad"
+      },
+      {
+        "family": "Cozzini",
+        "given": "Stefano"
+      },
+      {
+        "family": "Curtarolo",
+        "given": "Stefano"
+      },
+      {
+        "family": "Draxl",
+        "given": "Claudia"
+      },
+      {
+        "family": "Dwaraknath",
+        "given": "Shyam"
+      },
+      {
+        "family": "Fekete",
+        "given": "Ádám"
+      },
+      {
+        "family": "Kermode",
+        "given": "James"
+      },
+      {
+        "family": "Koch",
+        "given": "Christoph T."
+      },
+      {
+        "family": "Kühbach",
+        "given": "Markus"
+      },
+      {
+        "family": "Ladines",
+        "given": "Alvin Noe"
+      },
+      {
+        "family": "Lambrix",
+        "given": "Patrick"
+      },
+      {
+        "family": "Himmer",
+        "given": "Maja-Olivia"
+      },
+      {
+        "family": "Levchenko",
+        "given": "Sergey V."
+      },
+      {
+        "family": "Oliveira",
+        "given": "Micael"
+      },
+      {
+        "family": "Michalchuk",
+        "given": "Adam"
+      },
+      {
+        "family": "Miller",
+        "given": "Ronald E."
+      },
+      {
+        "family": "Onat",
+        "given": "Berk"
+      },
+      {
+        "family": "Pavone",
+        "given": "Pasquale"
+      },
+      {
+        "family": "Pizzi",
+        "given": "Giovanni"
+      },
+      {
+        "family": "Regler",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Rignanese",
+        "given": "Gian-Marco"
+      },
+      {
+        "family": "Schaarschmidt",
+        "given": "Jörg"
+      },
+      {
+        "family": "Scheidgen",
+        "given": "Markus"
+      },
+      {
+        "family": "Schneidewind",
+        "given": "Astrid"
+      },
+      {
+        "family": "Sheveleva",
+        "given": "Tatyana"
+      },
+      {
+        "family": "Su",
+        "given": "Chuanxun"
+      },
+      {
+        "family": "Usvyat",
+        "given": "Denis"
+      },
+      {
+        "family": "Valsson",
+        "given": "Omar"
+      },
+      {
+        "family": "Wöll",
+        "given": "Christof"
+      },
+      {
+        "family": "Scheffler",
+        "given": "Matthias"
+      }
+    ],
+    "container-title": "Scientific Data",
+    "volume": "10",
+    "issue": "1",
+    "article-number": "626",
+    "DOI": "10.1038/s41597-023-02501-8",
+    "URL": "https://doi.org/10.1038/s41597-023-02501-8",
+    "page": "626",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-6EB15E9D0564",
+    "type": "article-journal",
+    "title": "A 30-Year Review on Nanocomposites: Comprehensive Bibliometric Insights into Microstructural, Electrical, and Mechanical Properties Assisted by Artificial Intelligence",
+    "author": [
+      {
+        "family": "Gomes Souza",
+        "given": "Fernando",
+        "suffix": "Jr."
+      },
+      {
+        "family": "Bhansali",
+        "given": "Shekhar"
+      },
+      {
+        "family": "Pal",
+        "given": "Kaushik"
+      },
+      {
+        "family": "Silveira Maranhão",
+        "given": "Fabíola da"
+      },
+      {
+        "family": "Santos Oliveira",
+        "given": "Marcella"
+      },
+      {
+        "family": "Valladão",
+        "given": "Viviane Silva"
+      },
+      {
+        "family": "Brandão e Silva",
+        "given": "Daniele Silvéria"
+      },
+      {
+        "family": "Silva",
+        "given": "Gabriel Bezerra"
+      }
+    ],
+    "container-title": "Materials",
+    "volume": "17",
+    "issue": "5",
+    "article-number": "1088",
+    "DOI": "10.3390/ma17051088",
+    "URL": "https://doi.org/10.3390/ma17051088",
+    "page": "1088",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-7939F61E47C2",
+    "type": "article-journal",
+    "title": "Magnetization Switching of Single Magnetite Nanoparticles Monitored Optically",
+    "author": [
+      {
+        "family": "Adhikari",
+        "given": "Subhasis"
+      },
+      {
+        "family": "Wang",
+        "given": "Yonghui"
+      },
+      {
+        "family": "Spaeth",
+        "given": "Patrick"
+      },
+      {
+        "family": "Scalerandi",
+        "given": "Francesca"
+      },
+      {
+        "family": "Albrecht",
+        "given": "Wiebke"
+      },
+      {
+        "family": "Liu",
+        "given": "Junyan"
+      },
+      {
+        "family": "Orrit",
+        "given": "Michel"
+      }
+    ],
+    "container-title": "Nano Letters",
+    "volume": "24",
+    "issue": "32",
+    "page": "9861-9867",
+    "DOI": "10.1021/acs.nanolett.4c01850",
+    "URL": "https://doi.org/10.1021/acs.nanolett.4c01850",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-8508E2857729",
+    "type": "article-journal",
+    "title": "Digitalizing Material Knowledge: A Practical Framework for Ontology-Driven Knowledge Graphs in Process Chains",
+    "author": [
+      {
+        "family": "Garcia Trelles",
+        "given": "Elena"
+      },
+      {
+        "family": "Schweizer",
+        "given": "Christoph"
+      },
+      {
+        "family": "Thomas",
+        "given": "Akhil"
+      },
+      {
+        "family": "von Hartrott",
+        "given": "Philipp"
+      },
+      {
+        "family": "Janka-Ramm",
+        "given": "Marina"
+      }
+    ],
+    "container-title": "Applied Sciences",
+    "volume": "14",
+    "issue": "24",
+    "article-number": "11683",
+    "DOI": "10.3390/app142411683",
+    "URL": "https://doi.org/10.3390/app142411683",
+    "page": "11683",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-EFB6B5BC5792",
+    "type": "article-journal",
+    "title": "The northeast materials database for magnetic materials",
+    "author": [
+      {
+        "family": "Itani",
+        "given": "Suman"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yibo"
+      },
+      {
+        "family": "Zang",
+        "given": "Jiadong"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "16",
+    "issue": "1",
+    "article-number": "9415",
+    "DOI": "10.1038/s41467-025-64458-z",
+    "URL": "https://doi.org/10.1038/s41467-025-64458-z",
+    "page": "9415",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-34B02AD08192",
+    "type": "article-journal",
+    "title": "The emerging role of machine learning in nanomaterials research: applications, challenges, and future directions",
+    "author": [
+      {
+        "family": "Mim",
+        "given": "Juhi Jannat"
+      },
+      {
+        "family": "Rakib",
+        "given": "Saifuddun"
+      },
+      {
+        "family": "Akter",
+        "given": "Shahana"
+      },
+      {
+        "family": "Nisha",
+        "given": "Jannat Rosul"
+      },
+      {
+        "family": "Khan",
+        "given": "Safiullah"
+      },
+      {
+        "family": "Rahman",
+        "given": "S. M. Maksudur"
+      },
+      {
+        "family": "Manik",
+        "given": "Mehedi Hasan"
+      },
+      {
+        "family": "Hossain",
+        "given": "Nayem"
+      }
+    ],
+    "container-title": "Journal of Nanoparticle Research",
+    "volume": "27",
+    "issue": "11",
+    "article-number": "282",
+    "DOI": "10.1007/s11051-025-06472-2",
+    "URL": "https://doi.org/10.1007/s11051-025-06472-2",
+    "page": "282",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          25
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-ED683576037E",
+    "type": "article-journal",
+    "title": "In Search of Theories in Library and Information Science: A Topic Modeling Approach",
+    "author": [
+      {
+        "family": "Roy",
+        "given": "Bijan Kumar"
+      },
+      {
+        "family": "Mukhopadhyay",
+        "given": "Parthasarathi"
+      }
+    ],
+    "container-title": "International Journal of Information Science and Management",
+    "volume": "24",
+    "issue": "1",
+    "page": "29-64",
+    "DOI": "10.22034/ijism.2026.2022500.1393",
+    "URL": "https://doi.org/10.22034/ijism.2026.2022500.1393",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-0BBA41E8870B",
+    "type": "article-journal",
+    "title": "nanoPharos: A case study on FAIR (Nano)material (Meta)data management",
+    "author": [
+      {
+        "family": "Papadiamantis",
+        "given": "Anastasios G."
+      },
+      {
+        "family": "Tsoumanis",
+        "given": "Andreas"
+      },
+      {
+        "family": "Melagraki",
+        "given": "Georgia"
+      },
+      {
+        "family": "Lynch",
+        "given": "Iseult"
+      },
+      {
+        "family": "Afantitis",
+        "given": "Antreas"
+      }
+    ],
+    "container-title": "NanoImpact",
+    "volume": "41",
+    "article-number": "100602",
+    "DOI": "10.1016/j.impact.2025.100602",
+    "URL": "https://doi.org/10.1016/j.impact.2025.100602",
+    "page": "100602",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-F86A67571673",
+    "type": "article-journal",
+    "title": "Machine Learning for Nanomaterial Discovery and Design",
+    "author": [
+      {
+        "family": "del Bosque",
+        "given": "Antonio"
+      },
+      {
+        "family": "Fernández-Arias",
+        "given": "Pablo"
+      },
+      {
+        "family": "Vergara",
+        "given": "Diego"
+      }
+    ],
+    "container-title": "Machine Learning and Knowledge Extraction",
+    "volume": "8",
+    "issue": "1",
+    "article-number": "10",
+    "DOI": "10.3390/make8010010",
+    "URL": "https://doi.org/10.3390/make8010010",
+    "page": "10",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-FCFC50CCA023",
+    "type": "article-journal",
+    "title": "Semantic Intelligence in Metallurgy: A Dual‐Stage Language Model Framework for Processing‐Aware Magnesium Alloy Design",
+    "author": [
+      {
+        "family": "Lu",
+        "given": "Ziliang"
+      },
+      {
+        "family": "Kapoor",
+        "given": "Ishwar"
+      },
+      {
+        "family": "Araki",
+        "given": "Takeru"
+      },
+      {
+        "family": "Chen",
+        "given": "Lu"
+      },
+      {
+        "family": "Song",
+        "given": "Tao"
+      },
+      {
+        "family": "Li",
+        "given": "Yixiang"
+      },
+      {
+        "family": "Su",
+        "given": "Yang"
+      },
+      {
+        "family": "Zeng",
+        "given": "Xiaoqin"
+      },
+      {
+        "family": "Wang",
+        "given": "Leyun"
+      }
+    ],
+    "container-title": "Materials Genome Engineering Advances",
+    "volume": "4",
+    "issue": "1",
+    "article-number": "e70056",
+    "DOI": "10.1002/mgea.70056",
+    "URL": "https://doi.org/10.1002/mgea.70056",
+    "page": "e70056",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-59A237EFFA76",
+    "type": "article",
+    "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
+    "author": [
+      {
+        "family": "Lin",
+        "given": "Mingda"
+      },
+      {
+        "family": "Wang",
+        "given": "Weijie"
+      },
+      {
+        "family": "Zhang",
+        "given": "Zeyu"
+      },
+      {
+        "family": "Cui",
+        "given": "Bowen"
+      },
+      {
+        "family": "He",
+        "given": "Yefei"
+      },
+      {
+        "family": "Zhao",
+        "given": "Haoyu"
+      },
+      {
+        "family": "He",
+        "given": "Yuanyu"
+      },
+      {
+        "family": "Chen",
+        "given": "Donny Y."
+      },
+      {
+        "family": "Chen",
+        "given": "Feng"
+      },
+      {
+        "family": "Zhuang",
+        "given": "Bohan"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2609.01740",
+    "URL": "https://arxiv.org/abs/2609.01740",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ]
+    },
+    "genre": "Preprint"
+  }
+]

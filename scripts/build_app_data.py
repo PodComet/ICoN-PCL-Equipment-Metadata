@@ -2,14 +2,18 @@
 from pathlib import Path
 import csv
 import json
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+from reference_tools import build as build_references
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
         return list(csv.DictReader(source))
 
 def main():
+    build_references(ROOT)
     data = {key: read_csv(name) for key, name in [
         ("records", "equipment"), ("categories", "categories"),
         ("routes", "routes"), ("steps", "route_steps")

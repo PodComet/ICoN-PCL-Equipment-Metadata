@@ -7,7 +7,7 @@ export function safeUrl(url: string | undefined) {
   try { const parsed = new URL(url); return ["https:", "http:"].includes(parsed.protocol) ? parsed.href : ""; }
   catch { return ""; }
 }
-export function csvText(records: Equipment[]) {
+export function csvText(records: Record<string,string>[]) {
   const fields = [...new Set(records.flatMap(Object.keys))];
   function cell(value: unknown) {
     let text = String(value ?? "");

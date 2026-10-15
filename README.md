@@ -12,6 +12,8 @@ Validate CSV edits and regenerate the readable view with `python catalog_tools.p
 
 The latest [manufacturer link review](catalog/deep_link_review_2026-10-14.csv) updated 60 instruments across 27 categories, adding 44 product-page links, 47 specification links, 18 brochure links and 19 configuration-scoped published prices. See the [review audit](catalog/deep_link_review_2026-10-14.json) for source limitations and before/after evidence.
 
+The [academic reference database](docs/academic-references.md) contains 17 distinct supplied papers, with publication metadata, stable IDs, source-file checksums and scoped literature relationships. Browse them in the app's **Academic references** tab, oldest to newest, or use the [BibTeX](catalog/bibliography.bib), [RIS](catalog/bibliography.ris) and [CSL JSON](catalog/bibliography.csl.json) exports. The original article PDFs remain local. Background reading is distinguished from checked support for a specific claim.
+
 Proposed category relationships are recorded in the numbered [equipment ontology recommendations](docs/recommendations.md). Approved X-to-M moves are documented in the [category merge guide](docs/category-merges.md); legacy X identifiers remain searchable.
 
 ## Machine-list comparison

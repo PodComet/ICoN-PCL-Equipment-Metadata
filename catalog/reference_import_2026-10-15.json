@@ -1,0 +1,144 @@
+{
+  "review_date": "2026-10-15",
+  "scope": "Academic article PDFs supplied in the project folder, recursively; non-article files excluded. Bibliographic metadata only; original files and full text remain local.",
+  "imported_references": 17,
+  "imported_pdf_copies": 18,
+  "duplicate_copies": 1,
+  "excluded_document_kinds": [
+    "equipment guide",
+    "instruction manuals",
+    "analytics guide",
+    "poster abstract",
+    "talk abstract",
+    "project drafts and meeting notes"
+  ],
+  "metadata_checks": [
+    {
+      "reference_id": "REF-ED683576037E",
+      "doi": "10.22034/ijism.2026.2022500.1393",
+      "metadata_status": "pdf_checked",
+      "metadata_source_url": "",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-59A237EFFA76",
+      "doi": "10.48550/arxiv.2609.01740",
+      "metadata_status": "pdf_and_repository_checked",
+      "metadata_source_url": "https://arxiv.org/abs/2609.01740",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-1B8A93012C77",
+      "doi": "10.1109/bibm.2014.6999371",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1109%2Fbibm.2014.6999371",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-F86A67571673",
+      "doi": "10.3390/make8010010",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.3390%2Fmake8010010",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-34B02AD08192",
+      "doi": "10.1007/s11051-025-06472-2",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1007%2Fs11051-025-06472-2",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-2B58D7070E0F",
+      "doi": "10.1186/s12989-021-00442-x",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1186%2Fs12989-021-00442-x",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-1459F96962BC",
+      "doi": "10.1186/s13326-015-0005-5",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1186%2Fs13326-015-0005-5",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-669D514DB3F7",
+      "doi": "10.3103/s0147688215040024",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.3103%2Fs0147688215040024",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-8508E2857729",
+      "doi": "10.3390/app142411683",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.3390%2Fapp142411683",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-7F0A9F422735",
+      "doi": "10.1038/s41597-023-02501-8",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1038%2Fs41597-023-02501-8",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-6EB15E9D0564",
+      "doi": "10.3390/ma17051088",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.3390%2Fma17051088",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-7939F61E47C2",
+      "doi": "10.1021/acs.nanolett.4c01850",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1021%2Facs.nanolett.4c01850",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-FCFC50CCA023",
+      "doi": "10.1002/mgea.70056",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1002%2Fmgea.70056",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-0BBA41E8870B",
+      "doi": "10.1016/j.impact.2025.100602",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1016%2Fj.impact.2025.100602",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-9773760A68D7",
+      "doi": "10.1039/c5nr08944a",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1039%2Fc5nr08944a",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-97E9BC69EB00",
+      "doi": "10.5334/dsj-2019-012",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.5334%2Fdsj-2019-012",
+      "checked_date": "2026-10-15"
+    },
+    {
+      "reference_id": "REF-EFB6B5BC5792",
+      "doi": "10.1038/s41467-025-64458-z",
+      "metadata_status": "pdf_and_registry_checked",
+      "metadata_source_url": "https://api.crossref.org/works/10.1038%2Fs41467-025-64458-z",
+      "checked_date": "2026-10-15"
+    }
+  ],
+  "limitations": [
+    "Project links are curated background, not proof that each paper informed the original database.",
+    "No exact-model equipment-performance claim is supported by this initial import.",
+    "Peer review was not independently audited; the arXiv preprint is explicitly distinct.",
+    "One article has PDF-only metadata because its Crossref DOI lookup returned 404.",
+    "The local magnetization manuscript differs in version from its matched published citation."
+  ],
+  "excluded_inspected_document_count": 8
+}

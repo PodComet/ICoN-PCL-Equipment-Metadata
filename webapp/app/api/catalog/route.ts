@@ -1,5 +1,6 @@
 import { env } from "cloudflare:workers";
 import seed from "../../data/catalog.json";
+import literature from "../../data/references.json";
 import inventory from "../../data/purdue-inventory.json";
 import {attachInventory} from "../../inventory-lib";
 import { getChatGPTUser } from "../../chatgpt-auth";
@@ -27,7 +28,7 @@ export async function GET() {
       }
     }
     const assets=user?inventory:[];
-    return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,canEdit:!!user,canAdmin:isCatalogAdmin(user),sharedRevision:shared.revision});
+    return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,coverage:literature.coverage},canEdit:!!user,canAdmin:isCatalogAdmin(user),sharedRevision:shared.revision});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);

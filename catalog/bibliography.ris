@@ -1,0 +1,365 @@
+TY  - CPAPER
+ID  - REF-1B8A93012C77
+AU  - Morris, Stephanie A.
+AU  - Gaheen, Sharon
+AU  - Lijowski, Michal
+AU  - Heiskanen, Mervi
+AU  - Klemm, Juli
+TI  - caNanoLab: A nanomaterial data repository for biomedical research
+PY  - 2014
+T2  - 2014 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)
+SP  - 29
+EP  - 33
+DO  - 10.1109/bibm.2014.6999371
+UR  - https://doi.org/10.1109/bibm.2014.6999371
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-1459F96962BC
+AU  - Hastings, Janna
+AU  - Jeliazkova, Nina
+AU  - Owen, Gareth
+AU  - Tsiliki, Georgia
+AU  - Munteanu, Cristian R
+AU  - Steinbeck, Christoph
+AU  - Willighagen, Egon
+TI  - eNanoMapper: harnessing ontologies to enable data integration for nanomaterial risk assessment
+PY  - 2015
+JO  - Journal of Biomedical Semantics
+VL  - 6
+IS  - 1
+SP  - 10
+DO  - 10.1186/s13326-015-0005-5
+UR  - https://doi.org/10.1186/s13326-015-0005-5
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-669D514DB3F7
+AU  - Erkimbaev, A. O.
+AU  - Zitserman, V. Yu.
+AU  - Kobzev, G. A.
+AU  - Trakhtengerts, M. S.
+TI  - A universal metadata system for the characterization of nanomaterials
+PY  - 2015
+JO  - Scientific and Technical Information Processing
+VL  - 42
+IS  - 4
+SP  - 211
+EP  - 222
+DO  - 10.3103/s0147688215040024
+UR  - https://doi.org/10.3103/s0147688215040024
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-9773760A68D7
+AU  - Marchese Robinson, Richard L.
+AU  - Lynch, Iseult
+AU  - Peijnenburg, Willie
+AU  - Rumble, John
+AU  - Klaessig, Fred
+AU  - Marquardt, Clarissa
+AU  - Rauscher, Hubert
+AU  - Puzyn, Tomasz
+AU  - Purian, Ronit
+AU  - Åberg, Christoffer
+AU  - Karcher, Sandra
+AU  - Vriens, Hanne
+AU  - Hoet, Peter
+AU  - Hoover, Mark D.
+AU  - Hendren, Christine Ogilvie
+AU  - Harper, Stacey L.
+TI  - How should the completeness and quality of curated nanomaterial data be evaluated?
+PY  - 2016
+JO  - Nanoscale
+VL  - 8
+IS  - 19
+SP  - 9919
+EP  - 9943
+DO  - 10.1039/c5nr08944a
+UR  - https://doi.org/10.1039/c5nr08944a
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-97E9BC69EB00
+AU  - Rumble, John, Jr.
+AU  - Broome, John
+AU  - Hodson, Simon
+TI  - Building an International Consensus on Multi-Disciplinary Metadata Standards: A CODATA Case History in Nanotechnology
+PY  - 2019
+JO  - Data Science Journal
+VL  - 18
+SP  - 12
+DO  - 10.5334/dsj-2019-012
+UR  - https://doi.org/10.5334/dsj-2019-012
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-2B58D7070E0F
+AU  - Elberskirch, Linda
+AU  - Binder, Kunigunde
+AU  - Riefler, Norbert
+AU  - Sofranko, Adriana
+AU  - Liebing, Julia
+AU  - Minella, Christian Bonatto
+AU  - Mädler, Lutz
+AU  - Razum, Matthias
+AU  - van Thriel, Christoph
+AU  - Unfried, Klaus
+AU  - Schins, Roel P. F.
+AU  - Kraegeloh, Annette
+TI  - Digital research data: from analysis of existing standards to a scientific foundation for a modular metadata schema in nanosafety
+PY  - 2022
+JO  - Particle and Fibre Toxicology
+VL  - 19
+IS  - 1
+SP  - 1
+DO  - 10.1186/s12989-021-00442-x
+UR  - https://doi.org/10.1186/s12989-021-00442-x
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-7F0A9F422735
+AU  - Ghiringhelli, Luca M.
+AU  - Baldauf, Carsten
+AU  - Bereau, Tristan
+AU  - Brockhauser, Sandor
+AU  - Carbogno, Christian
+AU  - Chamanara, Javad
+AU  - Cozzini, Stefano
+AU  - Curtarolo, Stefano
+AU  - Draxl, Claudia
+AU  - Dwaraknath, Shyam
+AU  - Fekete, Ádám
+AU  - Kermode, James
+AU  - Koch, Christoph T.
+AU  - Kühbach, Markus
+AU  - Ladines, Alvin Noe
+AU  - Lambrix, Patrick
+AU  - Himmer, Maja-Olivia
+AU  - Levchenko, Sergey V.
+AU  - Oliveira, Micael
+AU  - Michalchuk, Adam
+AU  - Miller, Ronald E.
+AU  - Onat, Berk
+AU  - Pavone, Pasquale
+AU  - Pizzi, Giovanni
+AU  - Regler, Benjamin
+AU  - Rignanese, Gian-Marco
+AU  - Schaarschmidt, Jörg
+AU  - Scheidgen, Markus
+AU  - Schneidewind, Astrid
+AU  - Sheveleva, Tatyana
+AU  - Su, Chuanxun
+AU  - Usvyat, Denis
+AU  - Valsson, Omar
+AU  - Wöll, Christof
+AU  - Scheffler, Matthias
+TI  - Shared metadata for data-centric materials science
+PY  - 2023
+JO  - Scientific Data
+VL  - 10
+IS  - 1
+SP  - 626
+DO  - 10.1038/s41597-023-02501-8
+UR  - https://doi.org/10.1038/s41597-023-02501-8
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-6EB15E9D0564
+AU  - Gomes Souza, Fernando, Jr.
+AU  - Bhansali, Shekhar
+AU  - Pal, Kaushik
+AU  - Silveira Maranhão, Fabíola da
+AU  - Santos Oliveira, Marcella
+AU  - Valladão, Viviane Silva
+AU  - Brandão e Silva, Daniele Silvéria
+AU  - Silva, Gabriel Bezerra
+TI  - A 30-Year Review on Nanocomposites: Comprehensive Bibliometric Insights into Microstructural, Electrical, and Mechanical Properties Assisted by Artificial Intelligence
+PY  - 2024
+JO  - Materials
+VL  - 17
+IS  - 5
+SP  - 1088
+DO  - 10.3390/ma17051088
+UR  - https://doi.org/10.3390/ma17051088
+Y2  - 2026-10-15
+N1  - Publication year is 2024, despite 2025 in the local filename.
+ER  -
+
+TY  - JOUR
+ID  - REF-7939F61E47C2
+AU  - Adhikari, Subhasis
+AU  - Wang, Yonghui
+AU  - Spaeth, Patrick
+AU  - Scalerandi, Francesca
+AU  - Albrecht, Wiebke
+AU  - Liu, Junyan
+AU  - Orrit, Michel
+TI  - Magnetization Switching of Single Magnetite Nanoparticles Monitored Optically
+PY  - 2024
+JO  - Nano Letters
+VL  - 24
+IS  - 32
+SP  - 9861
+EP  - 9867
+DO  - 10.1021/acs.nanolett.4c01850
+UR  - https://doi.org/10.1021/acs.nanolett.4c01850
+Y2  - 2026-10-15
+N1  - The local file is a prepublication manuscript, not the publisher version. The citation identifies the title/author-matched 2024 published counterpart. PDF locators refer to the local manuscript; content differences from the final article have not been exhaustively checked.
+ER  -
+
+TY  - JOUR
+ID  - REF-8508E2857729
+AU  - Garcia Trelles, Elena
+AU  - Schweizer, Christoph
+AU  - Thomas, Akhil
+AU  - von Hartrott, Philipp
+AU  - Janka-Ramm, Marina
+TI  - Digitalizing Material Knowledge: A Practical Framework for Ontology-Driven Knowledge Graphs in Process Chains
+PY  - 2024
+JO  - Applied Sciences
+VL  - 14
+IS  - 24
+SP  - 11683
+DO  - 10.3390/app142411683
+UR  - https://doi.org/10.3390/app142411683
+Y2  - 2026-10-15
+N1  - Publication year is 2024. Two byte-identical supplied PDF copies are retained in file provenance; one filename says 2026.
+ER  -
+
+TY  - JOUR
+ID  - REF-EFB6B5BC5792
+AU  - Itani, Suman
+AU  - Zhang, Yibo
+AU  - Zang, Jiadong
+TI  - The northeast materials database for magnetic materials
+PY  - 2025
+JO  - Nature Communications
+VL  - 16
+IS  - 1
+SP  - 9415
+DO  - 10.1038/s41467-025-64458-z
+UR  - https://doi.org/10.1038/s41467-025-64458-z
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-34B02AD08192
+AU  - Mim, Juhi Jannat
+AU  - Rakib, Saifuddun
+AU  - Akter, Shahana
+AU  - Nisha, Jannat Rosul
+AU  - Khan, Safiullah
+AU  - Rahman, S. M. Maksudur
+AU  - Manik, Mehedi Hasan
+AU  - Hossain, Nayem
+TI  - The emerging role of machine learning in nanomaterials research: applications, challenges, and future directions
+PY  - 2025
+JO  - Journal of Nanoparticle Research
+VL  - 27
+IS  - 11
+SP  - 282
+DO  - 10.1007/s11051-025-06472-2
+UR  - https://doi.org/10.1007/s11051-025-06472-2
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-ED683576037E
+AU  - Roy, Bijan Kumar
+AU  - Mukhopadhyay, Parthasarathi
+TI  - In Search of Theories in Library and Information Science: A Topic Modeling Approach
+PY  - 2026
+JO  - International Journal of Information Science and Management
+VL  - 24
+IS  - 1
+SP  - 29
+EP  - 64
+DO  - 10.22034/ijism.2026.2022500.1393
+UR  - https://doi.org/10.22034/ijism.2026.2022500.1393
+Y2  - 2026-10-15
+N1  - Citation transcribed from the supplied article first page. Crossref lookup returned 404 on 2026-10-15; DOI registration/resolution remains unverified. No publication details inferred from the filename.
+ER  -
+
+TY  - JOUR
+ID  - REF-0BBA41E8870B
+AU  - Papadiamantis, Anastasios G.
+AU  - Tsoumanis, Andreas
+AU  - Melagraki, Georgia
+AU  - Lynch, Iseult
+AU  - Afantitis, Antreas
+TI  - nanoPharos: A case study on FAIR (Nano)material (Meta)data management
+PY  - 2026
+JO  - NanoImpact
+VL  - 41
+SP  - 100602
+DO  - 10.1016/j.impact.2025.100602
+UR  - https://doi.org/10.1016/j.impact.2025.100602
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-F86A67571673
+AU  - del Bosque, Antonio
+AU  - Fernández-Arias, Pablo
+AU  - Vergara, Diego
+TI  - Machine Learning for Nanomaterial Discovery and Design
+PY  - 2026
+JO  - Machine Learning and Knowledge Extraction
+VL  - 8
+IS  - 1
+SP  - 10
+DO  - 10.3390/make8010010
+UR  - https://doi.org/10.3390/make8010010
+Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-FCFC50CCA023
+AU  - Lu, Ziliang
+AU  - Kapoor, Ishwar
+AU  - Araki, Takeru
+AU  - Chen, Lu
+AU  - Song, Tao
+AU  - Li, Yixiang
+AU  - Su, Yang
+AU  - Zeng, Xiaoqin
+AU  - Wang, Leyun
+TI  - Semantic Intelligence in Metallurgy: A Dual‐Stage Language Model Framework for Processing‐Aware Magnesium Alloy Design
+PY  - 2026
+JO  - Materials Genome Engineering Advances
+VL  - 4
+IS  - 1
+SP  - e70056
+DO  - 10.1002/mgea.70056
+UR  - https://doi.org/10.1002/mgea.70056
+Y2  - 2026-10-15
+ER  -
+
+TY  - UNPB
+ID  - REF-59A237EFFA76
+AU  - Lin, Mingda
+AU  - Wang, Weijie
+AU  - Zhang, Zeyu
+AU  - Cui, Bowen
+AU  - He, Yefei
+AU  - Zhao, Haoyu
+AU  - He, Yuanyu
+AU  - Chen, Donny Y.
+AU  - Chen, Feng
+AU  - Zhuang, Bohan
+TI  - ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes
+PY  - 2026
+T2  - arXiv
+DO  - 10.48550/arxiv.2609.01740
+UR  - https://arxiv.org/abs/2609.01740
+Y2  - 2026-10-15
+N1  - arXiv submission date is 2026-09-01; the supplied PDF is dated 2026-09-02. No peer-review acceptance is asserted.
+ER  -
