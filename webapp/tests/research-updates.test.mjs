@@ -60,3 +60,27 @@ test('new-generation EUROSTAR pricing is not attached to the unresolved source i
  assert.equal(instrument.manufacturer_price_value,'');
  assert.match(instrument.product_page_scope,/new-generation.*0020132593/);
 });
+
+test('saved equipment snapshots receive sourced photos without losing research notes',()=>{
+ const instrument=seed.records.find(r=>r.equipment_id==='M07-05');
+ const snapshot={...instrument,image_url:'',image_source_url:'',image_scope:'',media_checked_date:'',notes:'Keep my syringe configuration'};
+ const refreshed=refreshResearchEvidence(snapshot,updates);
+ assert.match(refreshed.image_url,/syringepump\.com\/images\/NE-4000/);
+ assert.equal(refreshed.image_source_url,instrument.product_page_url);
+ assert.equal(refreshed.notes,snapshot.notes);
+ assert.equal(refreshed.manufacturer_price_value,snapshot.manufacturer_price_value);
+ assert.deepEqual(refreshResearchEvidence(refreshed,updates),refreshed);
+});
+
+test('photo refresh preserves personal images and intentional admin clears with their attribution',()=>{
+ const instrument=seed.records.find(r=>r.equipment_id==='M07-05');
+ const blank={...instrument,image_url:'',image_source_url:'',image_scope:'',media_checked_date:''};
+ const custom={...blank,image_url:'https://example.org/my-lab-pump.jpg',image_scope:'My installed pump'};
+ const refreshed=refreshResearchEvidence(custom,updates);
+ assert.equal(refreshed.image_url,custom.image_url);
+ assert.equal(refreshed.image_scope,custom.image_scope);
+ assert.equal(refreshed.image_source_url,'');
+ const cleared=withSharedResearchOverrides(blank,['image_url']);
+ assert.equal(refreshResearchEvidence(cleared,updates).image_url,'');
+ assert.equal(refreshResearchEvidence(blank,updates,['image_scope']).image_url,'');
+});

@@ -1,0 +1,589 @@
+{
+  "checked_date": "2026-10-15",
+  "method": "Manually selected product/model images from existing manufacturer product pages; image response decoded and dimensions checked. Manufacturer hosts retain images; no image redistribution license is asserted. Family/configuration limitations are retained in captions.",
+  "records": [
+    {
+      "equipment_id": "M01-04",
+      "model_name": "Sartorius Entris II BCA64-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-60-g01-mg-external-adjustment/BCA64-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M01-05",
+      "model_name": "Sartorius Entris II BCA124-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balance-120-g01-mg-external-adjustment/BCA124-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M01-06",
+      "model_name": "Sartorius Entris II BCA64I-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA64I-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M01-07",
+      "model_name": "Sartorius Entris II BCA124I-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA124I-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M01-08",
+      "model_name": "Sartorius Entris II BCA224I-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA224I-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M01-09",
+      "model_name": "Sartorius Entris II BCA324I-1S",
+      "image_url": "https://shop.sartorius.com/medias/?context=bWFzdGVyfHJvb3R8Mjk2OTJ8aW1hZ2UvanBlZ3xhRFEwTDJnME1DOHhNRFUwTmpneE5qQXlORFl3Tmd8MjU4MDFmNzM5YmNjYjdjZjEyNTg4N2JiYTVkOGNhYTA2MDJiOTAxZGQ0ZjA4Y2VkODk2MDc2NDBjZDAyMDkwYw",
+      "image_source_url": "https://shop.sartorius.com/us/p/entris-ii-advanced-line-analytical-balances-with-internal-adjustment-01-mg/BCA324I-1S",
+      "image_scope": "Sartorius Entris II Advanced analytical balance family: shared manufacturer gallery photo; capacity and adjustment variant are not visually distinguished.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 267,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M03-03",
+      "model_name": "VELP OHS 40 Digital",
+      "image_url": "https://www.velp.com/public/img/ohs-40-digital-3-4-zoom-336566.jpg",
+      "image_source_url": "https://www.velp.com/en-us/ohs-40-digital-overhead-stirrer.aspx",
+      "image_scope": "VELP OHS 40 Digital: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 2000,
+      "height": 2000,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M03-09",
+      "model_name": "VELP OHS 60 Digital",
+      "image_url": "https://www.velp.com/public/img/ohs-60-digital-3-4-zoom-336557.jpg",
+      "image_source_url": "https://www.velp.com/en-us/ohs-60-digital-overhead-stirrer.aspx",
+      "image_scope": "VELP OHS 60 Digital: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 2000,
+      "height": 2000,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M03-10",
+      "model_name": "VELP OHS 100 Digital",
+      "image_url": "https://www.velp.com/public/img/ohs-100-digital-3-4-zoom-336363.jpg",
+      "image_source_url": "https://www.velp.com/en-us/ohs-100-digital-overhead-stirrer.aspx",
+      "image_scope": "VELP OHS 100 Digital: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 2000,
+      "height": 2000,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M04-01",
+      "model_name": "Radleys Reactor-Ready Flex",
+      "image_url": "https://radleys.lon1.cdn.digitaloceanspaces.com/wp-content/uploads/2025/07/22090504/E4-Reactor-Ready-Flex-Hero-Image-V3.jpg",
+      "image_source_url": "https://www.radleys.com/range/reactor-ready-lab-reactor/",
+      "image_scope": "Radleys Reactor-Ready Flex: manufacturer example configuration; vessels, stirrer, chiller and accessories may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 768,
+      "height": 768,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M04-04",
+      "model_name": "Radleys Reactor-Ready Duo",
+      "image_url": "https://radleys.lon1.cdn.digitaloceanspaces.com/wp-content/uploads/2019/04/22093057/E18-Reactor-Ready-Duo-1.jpg",
+      "image_source_url": "https://www.radleys.com/range/reactor-ready-duo-lab-reactor/",
+      "image_scope": "Radleys Reactor-Ready Duo: manufacturer example configuration; vessels, stirrer, chiller and accessories may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 600,
+      "height": 599,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M04-05",
+      "model_name": "Radleys Reactor-Ready Pilot",
+      "image_url": "https://radleys.lon1.cdn.digitaloceanspaces.com/wp-content/uploads/2019/04/22093058/E18-Reactor-Ready-Pilot.jpg",
+      "image_source_url": "https://www.radleys.com/range/reactor-ready-pilot-lab-reactor/",
+      "image_scope": "Radleys Reactor-Ready Pilot: manufacturer example configuration; vessels, stirrer, chiller and accessories may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 600,
+      "height": 599,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M07-01",
+      "model_name": "New Era NE-300 InfusionONE",
+      "image_url": "https://www.syringepump.com/images/NE-300_mini-new.jpg",
+      "image_source_url": "https://www.syringepump.com/NE-300.php",
+      "image_scope": "New Era NE-300 InfusionONE: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 390,
+      "height": 239,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M07-04",
+      "model_name": "New Era NE-1000",
+      "image_url": "https://www.syringepump.com/images/NE-1000%20white.jpg",
+      "image_source_url": "https://www.syringepump.com/NE-1000.php",
+      "image_scope": "New Era NE-1000: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 432,
+      "height": 257,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M07-05",
+      "model_name": "New Era NE-4000",
+      "image_url": "https://www.syringepump.com/images/NE-4000%20white%20small%20150.jpg",
+      "image_source_url": "https://www.syringepump.com/NE-4000.php",
+      "image_scope": "New Era NE-4000 two-channel syringe pump: manufacturer product photo; syringes shown for illustration.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 600,
+      "height": 409,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M09-01",
+      "model_name": "Qsonica Q125",
+      "image_url": "https://www.sonicator.com/cdn/shop/products/q125-sonicator-with-stand_grande.png?v=1496273970",
+      "image_source_url": "https://www.sonicator.com/products/q125-sonicator",
+      "image_scope": "Qsonica Q125: manufacturer photo with probe and support stand; accessories may be sold separately.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 600,
+      "height": 600,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M09-04",
+      "model_name": "Qsonica Q500",
+      "image_url": "https://www.sonicator.com/cdn/shop/products/q500-with-stand_grande.png?v=1496273756",
+      "image_source_url": "https://www.sonicator.com/products/q500-sonicator",
+      "image_scope": "Qsonica Q500: manufacturer photo with probe and support stand; accessories may be sold separately.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 600,
+      "height": 600,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M09-05",
+      "model_name": "Qsonica Q700",
+      "image_url": "https://www.sonicator.com/cdn/shop/products/q700-with-stand_grande.png?v=1496243695",
+      "image_source_url": "https://www.sonicator.com/products/q700-sonicator",
+      "image_scope": "Qsonica Q700: manufacturer photo with probe and support stand; accessories may be sold separately.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 600,
+      "height": 600,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M09-03",
+      "model_name": "Hielscher UP400St",
+      "image_url": "https://www.hielscher.com/wp-content/uploads/Ultrasonic_Homogenizer_UP400St_S24d22D-05-p1000.jpg",
+      "image_source_url": "https://www.hielscher.com/de/up400st-powerful-ultrasonicator.htm",
+      "image_scope": "Hielscher UP400St: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 617,
+      "height": 1000,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M09-08",
+      "model_name": "Hielscher UP200St",
+      "image_url": "https://www.hielscher.com/wp-content/uploads/./ultrasonic-disruptor-UP200St-rosette-beaker-opt-1.jpg",
+      "image_source_url": "https://www.hielscher.com/up200st-powerful-ultrasonic--lab-homogenizer.htm",
+      "image_scope": "Hielscher UP200St: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 445,
+      "height": 664,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M11-03",
+      "model_name": "Silverson L5M-A",
+      "image_url": "https://silverson.com/images/uploads/products/_detail/silverson-high-shear-laboratory-mixer-l5m-a.webp",
+      "image_source_url": "https://silverson.com/products/laboratory-mixers",
+      "image_scope": "Silverson L5M-A: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "width": 940,
+      "height": 1504,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M12-01",
+      "model_name": "RETSCH PM 300",
+      "image_url": "https://www.retsch.com/assets/images/w/main_pm300-13ews26ddt7nxxw.png",
+      "image_source_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-300/",
+      "image_scope": "RETSCH PM 300: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 470,
+      "height": 470,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M12-05",
+      "model_name": "RETSCH PM 200",
+      "image_url": "https://www.retsch.com/assets/images/e/main_pm200-m2yeyzyr3pbmb54.png",
+      "image_source_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-200/",
+      "image_scope": "RETSCH PM 200: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 470,
+      "height": 470,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M21-01",
+      "model_name": "MTI OTF-1200X-II-PEC4SL",
+      "image_url": "https://mtixtl.com/cdn/shop/files/OTF-1200X-II-PEC4SL_548fb40f-777c-436d-9a6f-abefb785e96f.jpg?v=1711401812",
+      "image_source_url": "https://mtixtl.com/products/otf-1200x-ii-pec4sl-ld",
+      "image_scope": "MTI OTF-1200X-II-PEC4SL-LD: manufacturer configuration photo for the linked PEC4SL family page; installed suffix and accessories require confirmation.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 1000,
+      "height": 667,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M33-01",
+      "model_name": "JULABO CORIO CD-600F",
+      "image_url": "https://dbyt75tph3sip.cloudfront.net/image/512030579289/image_llo6bntva144942t52hcn77450/-S238-FJPG/9012704-corio-cd-600f-1.jpg",
+      "image_source_url": "https://www.julabo.com/de-ch/produkte/kaeltethermostate/kaelte-umwaelzthermostate/corio-cd-600f",
+      "image_scope": "JULABO CORIO CD-600F: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 238,
+      "height": 340,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M38-01",
+      "model_name": "JEOL JSM-IT210",
+      "image_url": "https://www.jeol.com/products/assets/images/JSM-IT210e.png",
+      "image_source_url": "https://www.jeol.com/products/scientific/sem/JSM-IT210.php",
+      "image_scope": "JEOL JSM-IT210: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 900,
+      "height": 900,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M40-01",
+      "model_name": "HORIBA LabRAM Odyssey",
+      "image_url": "https://static.horiba.com/fileadmin/Horiba/_processed_/a/7/csm_LabRAM-Odyssey-Picture_d7829c3e6e.jpg",
+      "image_source_url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/labram-odyssey-1882/",
+      "image_scope": "HORIBA LabRAM Odyssey: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 500,
+      "height": 276,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M41-03",
+      "model_name": "Park Systems NX10",
+      "image_url": "https://www.parksystems.com/content/dam/parksystems/pages/products/nx10/NX10_main.jpg",
+      "image_source_url": "https://www.parksystems.com/products/small-sample-afm/park-nx10/specifications",
+      "image_scope": "Park Systems NX10: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 960,
+      "height": 540,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M45-02",
+      "model_name": "Eppendorf BioFlo 120",
+      "image_url": "https://www.eppendorf.com/product-media/img/global/185319/Eppendorf_Fermentors-Bioreactors_BioFlo-120_advanced-control-station_product.jpg?imwidth=540",
+      "image_source_url": "https://www.eppendorf.com/pl-en/Products/Bioprocess/Bioprocess-Controllers/BioFlo-120-p-PF-176595",
+      "image_scope": "Eppendorf BioFlo 120 advanced control station: manufacturer configuration photo; vessels, sensors and standard/advanced controller options vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 540,
+      "height": 810,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M50-01",
+      "model_name": "Vortex-Genie Pulse",
+      "image_url": "https://www.scientificindustries.com/cdn/shop/files/vortex_genie_pulse_4.png?v=1761674030&width=300",
+      "image_source_url": "https://www.scientificindustries.com/products/vortex-genie-pulse",
+      "image_scope": "Vortex-Genie Pulse: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 300,
+      "height": 300,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M50-04",
+      "model_name": "Scientific Industries Vortex-Genie 2",
+      "image_url": "https://www.scientificindustries.com/cdn/shop/files/vortex-genie-2_1_1_3f5d28bf-e924-4246-8606-93f16db6d7c9.png?v=1761673382&width=300",
+      "image_source_url": "https://www.scientificindustries.com/products/vortex-genie-2",
+      "image_scope": "Scientific Industries Vortex-Genie 2: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 300,
+      "height": 300,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M50-05",
+      "model_name": "Scientific Industries Digital Vortex-Genie 2",
+      "image_url": "https://www.scientificindustries.com/cdn/shop/files/digital-vortex-genie-2_1_1.png?v=1761673727&width=300",
+      "image_source_url": "https://www.scientificindustries.com/products/digital-vortex-genie-2",
+      "image_scope": "Scientific Industries Digital Vortex-Genie 2: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/png",
+      "width": 300,
+      "height": 300,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M57-01",
+      "model_name": "Gamry Reference 620",
+      "image_url": "https://www.gamry.com/assets/Uploads/Reference620__ScaleMaxWidthWzQwMF0.jpg",
+      "image_source_url": "https://www.gamry.com/potentiostats/reference/reference-620",
+      "image_scope": "Gamry Reference 620: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 347,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "M61-01",
+      "model_name": "Oxford Instruments PlasmaPro 80 RIE",
+      "image_url": "https://plasma.oxinst.jp/assets/uploads/products/plasma/images/PlasmaPro-80-RIE.jpg",
+      "image_source_url": "https://plasma.oxinst.jp/products/rie/plasmapro-80-rie",
+      "image_scope": "Oxford Instruments PlasmaPro 80 RIE: manufacturer product photo; accessories and configuration may vary.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 575,
+      "height": 500,
+      "verification": "decoded_image"
+    },
+    {
+      "equipment_id": "REQ-EQ-017",
+      "model_name": "ABB YuMi",
+      "image_url": "https://media-d.global.abb/is/image/abbc/overview_image_yumi_dual_arm",
+      "image_source_url": "https://www.abb.com/gb/en/areas/robotics/products/robots/collaborative-robots/dual-arm-yumi",
+      "image_scope": "ABB dual-arm YuMi IRB 14000: manufacturer product photo; photograph does not identify a particular Purdue unit.",
+      "media_checked_date": "2026-10-15",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "width": 400,
+      "height": 400,
+      "verification": "decoded_image"
+    }
+  ],
+  "not_added": [
+    {
+      "equipment_id": "M01-01",
+      "model_name": "OHAUS PX224/E",
+      "product_page_url": "https://oceania.ohaus.com/en-eu/products/balances-scales/analytical-balances/pioneer-analytical-%281%29/electronic-balance-px224-e-%281%29",
+      "reason": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1006)>"
+    },
+    {
+      "equipment_id": "M02-01",
+      "model_name": "IKA RCT basic",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RCT-basic-25008259/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M02-05",
+      "model_name": "IKA RET control-visc",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M03-01",
+      "model_name": "IKA EUROSTAR 20 digital, 20105154",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M03-04",
+      "model_name": "IKA EUROSTAR 40 digital",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M03-05",
+      "model_name": "IKA EUROSTAR 60 digital",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-60-digital-4446000/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M22-01",
+      "model_name": "Beneq TFS 200",
+      "product_page_url": "https://beneq.com/tfs200/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M23-01",
+      "model_name": "Quorum TurboQ S",
+      "product_page_url": "https://product.quorumtech.com/product/turboqs",
+      "reason": "No confidently matched instrument image selected; generic logos, brochure covers, sibling models and unresolved add-ons excluded."
+    },
+    {
+      "equipment_id": "M31-01",
+      "model_name": "Edwards nXDS10i",
+      "product_page_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M31-02",
+      "model_name": "Agilent IDP-10",
+      "product_page_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-10-dry-scroll-pump",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M34-02",
+      "model_name": "Anton Paar Litesizer DLS 701",
+      "product_page_url": "https://www.anton-paar.com/uk-en/products/details/litesizer/?sku=317782",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M36-02",
+      "model_name": "Thermo Scientific Nicolet iS20",
+      "product_page_url": "https://www.thermofisher.com/fr/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-iS20-ftir-spectrometer.html",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M37-01",
+      "model_name": "Rigaku MiniFlex600",
+      "product_page_url": "https://rigaku.com/products/x-ray-diffraction-and-scattering/xrd/miniflex?setLang=english",
+      "reason": "No confidently matched instrument image selected; generic logos, brochure covers, sibling models and unresolved add-ons excluded."
+    },
+    {
+      "equipment_id": "M38-03",
+      "model_name": "Hitachi SU3800",
+      "product_page_url": "https://www.hitachi-hightech.com/eu/en/products/microscopes/sem-tem-stem/sem/su3800.html",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M42-01",
+      "model_name": "TA Instruments TGA 5500",
+      "product_page_url": "https://www.tainstruments.com/tga-5500/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M42-02",
+      "model_name": "NETZSCH TG 309 Libra Classic",
+      "product_page_url": "https://analyzing-testing.netzsch.com/en/products/thermogravimetric-analysis-tga-thermogravimetry-tg/tg-309-libra-classic",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M50-02",
+      "model_name": "IKA VORTEX 3",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M50-06",
+      "model_name": "IKA MS 3 basic",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "M50-07",
+      "model_name": "IKA MS 3 digital",
+      "product_page_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/",
+      "reason": "HTTP Error 403: Forbidden"
+    },
+    {
+      "equipment_id": "REQ-EQ-013",
+      "model_name": "MAZAK VC-500A/5X",
+      "product_page_url": "https://www.mazak.com/us-en/products/download-brochure/vc-series-brochure1/",
+      "reason": "No confidently matched instrument image selected; generic logos, brochure covers, sibling models and unresolved add-ons excluded."
+    },
+    {
+      "equipment_id": "REQ-EQ-032",
+      "model_name": "Psylotech high temperature laser add-on",
+      "product_page_url": "https://psylotech.com/#temperature",
+      "reason": "No confidently matched instrument image selected; generic logos, brochure covers, sibling models and unresolved add-ons excluded."
+    }
+  ]
+}
