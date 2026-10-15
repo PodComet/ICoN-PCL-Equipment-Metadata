@@ -56,7 +56,7 @@ dialog{border:1px solid var(--line);border-radius:16px;background:var(--paper);p
 .app-shell input,.app-shell select,.app-shell textarea,
 .app-shell .small-label,.app-shell .eyebrow,.app-shell .private-chip,
 .app-shell .status,.app-shell .card-meta,.app-shell .card-meta span,
-.app-shell .card-tags span,.app-shell .tag-list span,.app-shell .tags span,
+.app-shell .card-tags span,.app-shell .mini-tags span,.app-shell .tag-list span,.app-shell .tags span,
 .app-shell .result-summary,.app-shell .result-summary span,
 .app-shell .search-hint,.app-shell .photo-missing,.app-shell .card-document>span,
 .app-shell .inventory-status,.app-shell .inventory-card-ids,

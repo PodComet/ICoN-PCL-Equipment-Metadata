@@ -34,6 +34,11 @@ export function groupRows(rows: CatalogRow[]) {
   }
   return [...groups.values()];
 }
+export function photoFirstGroups(rows:CatalogRow[]){
+ const groups=groupRows(rows),withPhotos:CatalogRow[][]=[],withoutPhotos:CatalogRow[][]=[];
+ for(const group of groups)(group.some(row=>safeUrl(row.record.image_url))?withPhotos:withoutPhotos).push(group);
+ return [...withPhotos,...withoutPhotos];
+}
 
 export function documentationLink(r: Equipment) {
   if (safeUrl(r.manual_url)) return {url: safeUrl(r.manual_url), label: r.manual_match_status === VERIFIED ? "Operating manual" : "Manual / document"};

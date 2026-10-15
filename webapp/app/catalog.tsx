@@ -5,7 +5,7 @@ import AdminCSV from "./admin-csv";
 import FilterSelect from "./filter-select";
 import ManualMachine from "./manual-machine";
 import {attachInventory,inventoryFor,inventoryStatus,type InventoryAsset} from "./inventory-lib";
-import {csvText, groupRows, matches, filterRows, filterCounts, safeUrl, documentationLink, pricePresentation, manufacturerPrice, MANUFACTURER_PRICE_FIELDS, verifiedManufacturer, VERIFIED, type CatalogRow, type Equipment, type Route} from "./catalog-lib";
+import {csvText, photoFirstGroups, matches, filterRows, filterCounts, safeUrl, documentationLink, pricePresentation, manufacturerPrice, MANUFACTURER_PRICE_FIELDS, verifiedManufacturer, VERIFIED, type CatalogRow, type Equipment, type Route} from "./catalog-lib";
 
 type Data={assets:InventoryAsset[];rows:CatalogRow[];categories:Record<string,string>[];routes:Route[];steps:Record<string,string>[];coverage:Record<string,any>;manufacturers:Record<string,string>[];canEdit:boolean;canAdmin:boolean;sharedRevision:number};
 const repo="https://github.com/PodComet/ICoN-PCL-Equipment-Metadata";
@@ -22,8 +22,9 @@ function Price({record:r}:{record:Equipment}){const p=pricePresentation(r);retur
 
 
 function EquipmentCard({variants,onDetails,onEdit,canEdit}:{variants:CatalogRow[];onDetails:(rows:CatalogRow[],id:string)=>void;onEdit:(row:CatalogRow)=>void;canEdit:boolean}){
- const [selected,setSelected]=useState(variants[0].record.equipment_id);
- const row=variants.find(v=>v.record.equipment_id===selected)||variants[0],r=row.record;
+ const initial=variants.find(v=>safeUrl(v.record.image_url))||variants[0];
+ const [selected,setSelected]=useState(initial.record.equipment_id);
+ const row=variants.find(v=>v.record.equipment_id===selected)||initial,r=row.record;
  const doc=documentationLink(r);
  const Icon=/microscop|spectro|diffract|analy|metrolog/i.test(r.category_name)?Microscope:/deposition|coating|film/i.test(r.category_name)?Layers3:FlaskConical;
  return <article className={"equipment-card "+(r.purdue_list==="true"?"purdue-card":"")}>
@@ -71,7 +72,7 @@ export default function Catalog({user}:{user:{name:string;email:string}|null}){
  useEffect(()=>{load()},[]);useEffect(()=>{setLimit(24)},[query,category,material,process,manufacturer,manualOnly,requestedOnly]);useEffect(()=>{if(toast){const t=setTimeout(()=>setToast(""),4000);return()=>clearTimeout(t)}},[toast]);
  const filterState=useMemo(()=>({query,category,material,process,manufacturer,manualOnly,requestedOnly}),[query,category,material,process,manufacturer,manualOnly,requestedOnly]);
  const counts=useMemo(()=>Object.fromEntries((["category","material","process","manufacturer"] as const).map(key=>[key,filterCounts(data?.rows||[],filterState,key)])) as Record<"category"|"material"|"process"|"manufacturer",Map<string,number>>,[data,filterState]);
- const filtered=useMemo(()=>filterRows(data?.rows||[],filterState),[data,filterState]),groups=useMemo(()=>groupRows(filtered),[filtered]);
+ const filtered=useMemo(()=>filterRows(data?.rows||[],filterState),[data,filterState]),groups=useMemo(()=>photoFirstGroups(filtered),[filtered]);
  const categories=useMemo(()=>{const map=new Map(data?.categories.map(c=>[c.category_id,c.category_name]));for(const row of data?.rows||[])if(!map.has(row.record.category_id))map.set(row.record.category_id,row.record.category_name);return [...map.entries()].sort((a,b)=>a[0].localeCompare(b[0]))},[data]);
  const manufacturers=useMemo(()=>[...new Set(data?.rows.map(r=>r.record.manufacturer).filter(Boolean))].sort(),[data]);
  const materialRoutes=data?.routes.filter(r=>r.route_kind==="material_family")||[],processRoutes=data?.routes.filter(r=>r.route_kind==="manufacturing_process")||[];
