@@ -19,7 +19,7 @@ test('library searches authors, DOI, filenames and topics and combines type filt
  assert.equal(filterReferences(data,'10.3390/app142411683').length,1);
  const byFile=filterReferences(data,'Ontology 2026');assert.equal(byFile.length,1);assert.equal(byFile[0].publication_year,'2024');
  assert.equal(filterReferences(data,'','machine_learning','preprint').length,1);
- assert.equal(filterReferences(data,'no such article').length,0);
+ assert.equal(filterReferences(data,'unmatched-reference-query-93817').length,0);
 });
 test('project and category context never imply inherited exact-model support',()=>{
  const base={equipment_id:'MODEL-A',model_name:'A',category_id:'M13',related_material_ids:'N02',related_process_ids:'P01'};
@@ -48,11 +48,11 @@ test('checked category evidence is available separately without granting model s
  assert.deepEqual(categoryEvidenceLinks({...record,category_id:'M01'},links),[]);
 });
 test('expanded library stays academic-only and preserves scoped model evidence',()=>{
- assert.equal(data.references.length,42);assert.equal(data.reference_files.length,36);
- assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,103);
+ assert.equal(data.references.length,52);assert.equal(data.reference_files.length,42);
+ assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,146);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
- assert.equal(JSON.parse(data.exports.csl_json).length,42);
+ assert.equal(JSON.parse(data.exports.csl_json).length,52);
  assert.ok(data.references.every(r=>!JSON.stringify(r).includes('C:\\')));
 });
 

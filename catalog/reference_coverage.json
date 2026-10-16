@@ -1,11 +1,11 @@
 {
-  "references": 42,
-  "local_article_files": 36,
+  "references": 52,
+  "local_article_files": 42,
   "duplicate_file_copies": 1,
-  "published_articles": 37,
+  "published_articles": 47,
   "preprints": 5,
   "metadata_needs_review": 1,
-  "context_links": 24,
-  "checked_claim_links": 103,
+  "context_links": 25,
+  "checked_claim_links": 146,
   "default_order": "publication_year_ascending"
 }

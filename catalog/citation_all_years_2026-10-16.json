@@ -1,0 +1,309 @@
+{
+  "review_date": "2026-10-16",
+  "scope": "Original local academic parents published after 2024 (2025–2026) only; cited works have no publication-year cutoff. This targeted methods pass does not complete an exhaustive full-text audit.",
+  "summary": {
+    "primary_studies_used": 9,
+    "bridge_reviews_used": 1,
+    "new_reference_records": 10,
+    "new_equipment_records": 8,
+    "existing_equipment_enriched": 2,
+    "new_manufacturing_routes": 7,
+    "new_equipment_categories": 3,
+    "new_ordered_steps": 29,
+    "new_checked_claims": 43,
+    "inventoried_bibliography_entries": 630,
+    "candidate_decision_records": 99,
+    "inventory_entries_with_review_activity": 87,
+    "inventory_entries_pending": 543
+  },
+  "new_reference_ids": [
+    "REF-FECC540EA90C",
+    "REF-A12730235B6E",
+    "REF-F47C1575F2CD",
+    "REF-20918C55AB9B",
+    "REF-C546FBEFD594",
+    "REF-C292BBE498C8",
+    "REF-EF3B4AF5F5B9",
+    "REF-9AA6864E528A",
+    "REF-8C4B8E41222D",
+    "REF-D18BF093C30D"
+  ],
+  "new_equipment_ids": [
+    "LIT-M53-GOMES2021",
+    "LIT-M15-GOMES2021",
+    "LIT-M67-EXAKT80E",
+    "LIT-M53-LIQUIFOG",
+    "LIT-M21-HASSAN2017",
+    "LIT-M69-FCTHPD1050",
+    "LIT-M59-RAITH150",
+    "LIT-M68-VST"
+  ],
+  "new_route_ids": [
+    "P36",
+    "P37",
+    "P38",
+    "P39",
+    "P40",
+    "P41",
+    "P42"
+  ],
+  "new_category_ids": [
+    "M67",
+    "M68",
+    "M69"
+  ],
+  "studies": [
+    {
+      "key": "gomes2021",
+      "reference_id": "REF-FECC540EA90C",
+      "doi": "10.1039/d1nr03231c",
+      "title": "Machine learning and materials modelling interpretation of                     in vivo                     toxicological response to TiO                     2                     nanoparticles library (UV and non-UV exposure)",
+      "publication_year": "2021",
+      "source_url": "https://iris.inrim.it/retrieve/c6f1fedf-753e-4d51-abbd-b1dfe78db5d7/d1nr03231c.pdf",
+      "locator": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDFp37 reference11; citation continuesp38",
+      "hop": 1,
+      "version": "Published version of record with two institutional repository cover pages",
+      "context_only": false,
+      "pdf": "gomes2021.pdf",
+      "sha256": "2c808f42851cc4d9838a89ba413e0dc866f4ba09c8b799a9b14efec9062ff55c"
+    },
+    {
+      "key": "yao2022",
+      "reference_id": "REF-A12730235B6E",
+      "doi": "10.1039/d2nr03712b",
+      "title": "Seeking regularity from irregularity: unveiling the synthesis–nanomorphology relationships of heterogeneous nanomaterials using unsupervised machine learning",
+      "publication_year": "2022",
+      "source_url": "https://publish.illinois.edu/chenlab-matse/files/2022/10/d2nr03712b.pdf",
+      "locator": "System(i) seededAu tetrahedra PDFpp3–4 andFig1; System(ii) polymerpatches onAu nanoprisms PDFp5 andFig2; System(iii) polyamide membranes PDFpp6–8",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDFp39 reference49",
+      "hop": 1,
+      "version": "Published version of record hosted by corresponding-author university lab",
+      "context_only": false,
+      "pdf": "yao2022.pdf",
+      "sha256": "18ff413e4abcb73d4a86eb6b960e6c2c925b094b51cbd2d76edeb9fdffafb840"
+    },
+    {
+      "key": "delbosque2023",
+      "reference_id": "REF-F47C1575F2CD",
+      "doi": "10.1016/j.polymdegradstab.2023.110278",
+      "title": "Mechanical and sensing performance under hydrothermal ageing of wearable sensors made of polydimethylsiloxane with graphitic nanofillers",
+      "publication_year": "2023",
+      "source_url": "https://burjcdigital.urjc.es/server/api/core/bitstreams/819a0a97-b8f7-4270-af47-6321dced38a7/content",
+      "locator": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+      "parent_chain": "10.3390/make8010010, Original parent PDF reference 6, page 20",
+      "hop": 1,
+      "version": "Published version of record, 8 pages",
+      "context_only": false,
+      "pdf": "delbosque2023-hydrothermal-ageing.pdf",
+      "sha256": "f709d61dedc309a4e7dd192977c023db4f5318cfe32c3685f196cc7f414bfc64"
+    },
+    {
+      "key": "sanchez2023",
+      "reference_id": "REF-20918C55AB9B",
+      "doi": "10.1021/acsami.2c22162",
+      "title": "Electrical Transport Mechanisms in Graphene Nanoplatelet Doped Polydimethylsiloxane and Application to Ultrasensitive Temperature Sensors",
+      "publication_year": "2023",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10176477/fullTextXML",
+      "locator": "Experimental 2.1 Materials and 2.2 Manufacturing of GNP/PDMS Nanocomposites; 2.4 Complex Impedance Measurements",
+      "parent_chain": "10.3390/make8010010, Original parent PDF reference 13, page 20",
+      "hop": 1,
+      "version": "Published open-access fulltext XML",
+      "context_only": false
+    },
+    {
+      "key": "malkiel2018",
+      "reference_id": "REF-C546FBEFD594",
+      "doi": "10.1038/s41377-018-0060-7",
+      "title": "Plasmonic nanostructure design and characterization via Deep Learning",
+      "publication_year": "2018",
+      "source_url": "https://www.light-am.com/article/pdf/preview/xjzz-2018-7-555.pdf",
+      "locator": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+      "parent_chain": "10.3390/make8010010, Original parent PDF reference 42, page 21",
+      "hop": 1,
+      "version": "Published version of record, Light: Science & Applications2018;7:60",
+      "context_only": false,
+      "pdf": "malkiel2018.pdf",
+      "sha256": "6570f28259944ba0af30243ebad704548957992a365bef4b7b3b23e94394d309"
+    },
+    {
+      "key": "kusne2020",
+      "reference_id": "REF-C292BBE498C8",
+      "doi": "10.1038/s41467-020-19597-w",
+      "title": "On-the-fly closed-loop materials discovery via Bayesian active learning",
+      "publication_year": "2020",
+      "source_url": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=929196",
+      "locator": "Methods M2a Sample fabrication, PDFpage8; M2d HAADF-STEM and M2f Ge4Sb6Te7 photonic device fabrication, PDFpage9",
+      "parent_chain": "10.3390/make8010010, Original parent PDF reference 51, page 22",
+      "hop": 1,
+      "version": "Published Nature Communications version,2020;11:5966",
+      "context_only": false,
+      "pdf": "kusne2020.pdf",
+      "sha256": "c578ab421fc6cfac7c2e786443914149e4ecaa1852a1980bb59a31829b4751d3"
+    },
+    {
+      "key": "bridge2024",
+      "reference_id": "REF-EF3B4AF5F5B9",
+      "doi": "10.1016/j.csbj.2024.10.020",
+      "title": "A systematic review on the state-of-the-art and research gaps regarding inorganic and carbon-based multicomponent and high-aspect ratio nanomaterials",
+      "publication_year": "2024",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11550189/",
+      "locator": "Bibliography, references 15, 55 and 93",
+      "parent_chain": "nanoPharos2026 References: Papadiamantis et al. (2024), PDF page19",
+      "hop": 1,
+      "version": "Published PMC full text",
+      "context_only": true
+    },
+    {
+      "key": "awan2018",
+      "reference_id": "REF-9AA6864E528A",
+      "doi": "10.1021/acsomega.8b01881",
+      "title": "Cellulose Nanocrystal–ZnO Nanohybrids for Controlling Photocatalytic Activity and UV Protection in Cosmetic Formulation",
+      "publication_year": "2018",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6217527/",
+      "locator": "Experimental Methods > Synthesis of the ZnO@MFCNC Colloidal Nanohybrid (JATS sec3.2); Results and Discussion; Figure8",
+      "parent_chain": "10.1016/j.impact.2025.100602 → 10.1016/j.csbj.2024.10.020 (nanoPharos2026 References: Papadiamantis et al.2024) → 10.1021/acsomega.8b01881 (Papadiamantis2024 review reference15)",
+      "hop": 2,
+      "version": "Published full text in PMC/JATS XML",
+      "context_only": false
+    },
+    {
+      "key": "hassan2017",
+      "reference_id": "REF-8C4B8E41222D",
+      "doi": "10.1021/acsomega.7b00759",
+      "title": "Antimicrobial Properties of Copper-Doped ZnO Coatings under Darkness and White Light Illumination",
+      "publication_year": "2017",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6044572/",
+      "locator": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+      "parent_chain": "10.1016/j.impact.2025.100602 → 10.1016/j.csbj.2024.10.020 (nanoPharos2026 References: Papadiamantis et al.2024) → 10.1021/acsomega.7b00759 (Papadiamantis2024 review reference55)",
+      "hop": 2,
+      "version": "Published full text in PMC/JATS XML",
+      "context_only": false
+    },
+    {
+      "key": "bai2019",
+      "reference_id": "REF-D18BF093C30D",
+      "doi": "10.1016/j.wear.2019.202944",
+      "title": "In-situ Ti-6Al-4V/TiC composites synthesized by reactive spark plasma sintering: processing, microstructure, and dry sliding wear behaviour",
+      "publication_year": "2019",
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/151820/",
+      "locator": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+      "parent_chain": "10.1016/j.impact.2025.100602 → 10.1016/j.csbj.2024.10.020 (nanoPharos2026 References: Papadiamantis et al.2024) → 10.1016/j.wear.2019.202944 (Papadiamantis2024 review reference93)",
+      "hop": 2,
+      "version": "Author accepted manuscript in university repository,40-page bundle includes cover and review materials; methods are manuscriptp3 / PDFp10",
+      "context_only": false,
+      "pdf": "bai2019-accepted.pdf",
+      "sha256": "8080d79b55fbb44037a687f6099a5101ec9e2662a0aaf82f5b86b6d636b0c8aa"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M12-04",
+      "model_name": "RETSCH PM 100",
+      "manufacturer": "RETSCH",
+      "before": {
+        "related_process_ids": "P07",
+        "related_process_types": "Mechanical milling and mechanochemical synthesis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Liquid exfoliation or catalytic CVD",
+        "related_material_ids": "N01;N02;N07",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Carbon nanomaterials",
+        "notes": "",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established"
+      },
+      "after": {
+        "related_process_ids": "P07;P41",
+        "related_process_types": "Mechanical milling and mechanochemical synthesis;Mechanochemical nanocarbon coating and reactive spark-plasma sintering",
+        "related_material_ids": "N01;N02;N07;N10",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Carbon nanomaterials;Nanocomposites",
+        "notes": " RETSCH PM100 mills graphite with Ti-6Al-4V powder before reactive SPS; nanocarbon coating evidence, not a claim that all final TiC grains are below 100 nm.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1016/j.wear.2019.202944: RETSCH PM100 mills graphite with Ti-6Al-4V powder before reactive SPS; nanocarbon coating evidence, not a claim that all final TiC grains are below 100 nm."
+      }
+    },
+    {
+      "equipment_id": "M57-03",
+      "model_name": "Metrohm Autolab PGSTAT302N",
+      "manufacturer": "Metrohm",
+      "before": {
+        "related_process_types": "Liquid-phase electrochemical deposition;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Solution coating, vapor deposition or interfacial transfer",
+        "related_material_ids": "N01;N02;N09",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Nanofilms and nanoscale coatings",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established"
+      },
+      "after": {
+        "related_process_types": "Liquid-phase electrochemical deposition",
+        "related_material_ids": "N01;N02;N09;N10",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Nanofilms and nanoscale coatings;Nanocomposites",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified. Characterization only: Autolab PGSTAT302N performs EIS on manufactured GNP/PDMS. This is not synthesis or electrodeposition evidence.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1021/acsami.2c22162: Characterization only: Autolab PGSTAT302N performs EIS on manufactured GNP/PDMS. This is not synthesis or electrodeposition evidence."
+      }
+    }
+  ],
+  "limitations": [
+    "Six newly used primary papers are direct citations of qualifying parents; three are explicitly second-hop studies via a directly cited 2024 review.",
+    "No date cutoff on cited works; this pass adds primary studies from 2017–2023.",
+    "Title screening and methods verification are distinct review depths; pending entries remain in the inventory.",
+    "No guessed makes/models, operating settings, exact MSRP, photos, current availability or Purdue ownership from academic articles.",
+    "Raw papers remain local; public Git contains bibliographic facts, paraphrased claims and source locators."
+  ],
+  "parent_scope": [
+    {
+      "reference_id": "REF-EFB6B5BC5792",
+      "doi": "10.1038/s41467-025-64458-z",
+      "publication_year": 2025,
+      "title": "The northeast materials database for magnetic materials",
+      "inventory_status": "publisher_bibliography_ingested",
+      "deposited_reference_entries": 68
+    },
+    {
+      "reference_id": "REF-34B02AD08192",
+      "doi": "10.1007/s11051-025-06472-2",
+      "publication_year": 2025,
+      "title": "The emerging role of machine learning in nanomaterials research",
+      "inventory_status": "publisher_bibliography_ingested",
+      "deposited_reference_entries": 384
+    },
+    {
+      "reference_id": "REF-ED683576037E",
+      "doi": "10.22034/ijism.2026.2022500.1393",
+      "publication_year": 2026,
+      "title": "In Search of Theories in Library and Information Science: A Topic Modeling Approach",
+      "inventory_status": "parent_scope_screen_only",
+      "scope_note": "Library and information science topic modelling; no nanomanufacturing apparatus established. Publisher bibliography not deposited; no complete cited-reference extraction claimed.",
+      "deposited_reference_entries": 0
+    },
+    {
+      "reference_id": "REF-0BBA41E8870B",
+      "doi": "10.1016/j.impact.2025.100602",
+      "publication_year": 2026,
+      "title": "nanoPharos",
+      "inventory_status": "publisher_bibliography_ingested",
+      "deposited_reference_entries": 64
+    },
+    {
+      "reference_id": "REF-F86A67571673",
+      "doi": "10.3390/make8010010",
+      "publication_year": 2026,
+      "title": "Machine Learning for Nanomaterial Discovery and Design",
+      "inventory_status": "publisher_bibliography_ingested",
+      "deposited_reference_entries": 65
+    },
+    {
+      "reference_id": "REF-FCFC50CCA023",
+      "doi": "10.1002/mgea.70056",
+      "publication_year": 2026,
+      "title": "Semantic Intelligence in Metallurgy",
+      "inventory_status": "publisher_bibliography_ingested",
+      "deposited_reference_entries": 49
+    },
+    {
+      "reference_id": "REF-59A237EFFA76",
+      "doi": "10.48550/arxiv.2609.01740",
+      "publication_year": 2026,
+      "title": "ZipTok3D",
+      "inventory_status": "parent_scope_screen_only",
+      "scope_note": "Computer graphics and 3D representation paper; no nanomaterial manufacturing apparatus established. Bibliography not ingested into this manufacturing queue; no full-text audit of cited papers claimed.",
+      "deposited_reference_entries": 0
+    }
+  ],
+  "inventory_policy": "Inventory entries are parent–citation edges, not unique papers or full-text reviews. Publisher list order is not claimed as printed reference numbering unless the publisher key encodes it. Raw cited years and DOIs are retained as deposited, including unresolved/misdated entries. Library membership alone does not count as methods review for this chain."
+}

@@ -40,6 +40,21 @@ test('assignment enforces slot classes and candidates include saved user variant
  assert.match(i.instance_id,/^M13-[0-9a-f-]{36}$/);assert.deepEqual(i.category_refs,['M13','X-FILTER']);assert.equal(i.equipment_id,record.equipment_id);
  assert.equal(w.steps[0].slots[0].instrument,null);
 });
+test('process instruments follow the current step classes before narrowing to a slot',()=>{
+ const w=workflow();w.steps[0].slots=[newSlot(['M13']),newSlot(['M15'])];w.steps=w.steps.slice(0,1);
+ const records=[record,{...record,equipment_id:'filter',category_id:'M15',legacy_category_ids:''},
+  {...record,equipment_id:'tag-only',category_id:'M56',legacy_category_ids:''},
+  {...record,equipment_id:'legacy',category_id:'M99',legacy_category_ids:'M15'}];
+ assert.deepEqual(routeCandidates(records,process,null,w.steps).map(r=>r.equipment_id),['TEST-M13','filter','legacy']);
+ assert.deepEqual(routeCandidates(records,process,w.steps[0].slots[0],w.steps).map(r=>r.equipment_id),['TEST-M13']);
+ const wildcard=newSlot();w.steps[0].slots.push(wildcard);
+ assert.deepEqual(routeCandidates(records,process,wildcard,w.steps).map(r=>r.equipment_id),['TEST-M13','filter','legacy']);
+ w.steps[0].slots.push(newSlot(['M56']));
+ assert.ok(routeCandidates(records,process,null,w.steps).some(r=>r.equipment_id==='tag-only'),'Explicitly added step classes become relevant');
+ w.steps[0].slots=[newSlot()];
+ assert.deepEqual(routeCandidates(records,process,w.steps[0].slots[0],w.steps),[],'Unclassified slots must not expose the entire ontology');
+ assert.deepEqual(routeCandidates(records,process,null,[]),[],'Removing all classified slots removes the candidate list');
+});
 test('moving an instance preserves its ID, configuration, signals and prices without double counting',()=>{
  let w=workflow();w.steps[0].slots=[newSlot(['M13']),newSlot(['M13'])];const [a,b]=w.steps[0].slots;
  w=assignInstrument(w,a.slot_id,record);const i=w.steps[0].slots[0].instrument;
@@ -114,4 +129,15 @@ test('breadth routes expose only their supported classes and start with empty ze
  const alloy=seed.routes.find(r=>r.route_id==='P35');
  assert.equal(alloy.related_material_ids,'N10');
  assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M64','M65'].includes(r.category_id)));
+});
+
+test('all-years citation routes expose only classes used by their actual current steps',()=>{
+ for(let n=36;n<=42;n++){
+  const route=seed.routes.find(r=>r.route_id==='P'+n),draft=createWorkflow(route,seed.steps);
+  const classes=new Set(draft.steps.flatMap(s=>s.slots.flatMap(slot=>slot.allowed_category_ids)));
+  const candidates=routeCandidates(seed.records,route,null,draft.steps);
+  assert.ok(candidates.length);assert.equal(budgetLabel(workflowBudget(draft.steps)),'$0');
+  assert.ok(candidates.every(r=>classes.has(r.category_id)));
+  for(const slot of draft.steps.flatMap(s=>s.slots))assert.ok(routeCandidates(seed.records,route,slot,draft.steps).length);
+ }
 });

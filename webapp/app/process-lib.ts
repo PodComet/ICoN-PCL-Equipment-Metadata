@@ -38,8 +38,11 @@ export function instrumentFor(r:Equipment):ProcessInstrument{return {
  configuration:{},operating_parameters:{},operation_sequence:[],signals:{},inputs:{},outputs:{},extensions:{},price_snapshot:priceSnapshot(r),
 };}
 export function slotAccepts(slot:ProcessSlot,r:Equipment){return !slot.allowed_category_ids.length||slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
-export function routeCandidates(records:Equipment[],route:Route,slot:ProcessSlot|null){
- return records.filter(r=>slot?slotAccepts(slot,r):splitIds(route.equipment_category_ids).includes(r.category_id)||splitIds(r.related_process_ids).includes(route.route_id));
+export function routeCandidates(records:Equipment[],route:Route,slot:ProcessSlot|null,steps?:ProcessStep[]){
+ // The current plan's classified steps define relevance, including user-added slots.
+ // A route tag alone does not establish that a model fits any equipment step.
+ const classes=new Set(steps===undefined?splitIds(route.equipment_category_ids):steps.flatMap(s=>s.slots.flatMap(v=>v.allowed_category_ids)));
+ return records.filter(r=>[r.category_id,...splitIds(r.legacy_category_ids)].some(id=>classes.has(id))&&(!slot||slotAccepts(slot,r)));
 }
 export function assignInstrument(workflow:ProcessWorkflow,slotId:string,r:Equipment):ProcessWorkflow{
  const slot=workflow.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId);

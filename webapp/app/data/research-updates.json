@@ -5115,5 +5115,77 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M12-04",
+    "model_name": "RETSCH PM 100",
+    "manufacturer": "RETSCH",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P07",
+          "related_process_types": "Mechanical milling and mechanochemical synthesis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Liquid exfoliation or catalytic CVD",
+          "related_material_ids": "N01;N02;N07",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Carbon nanomaterials"
+        },
+        "after": {
+          "related_process_ids": "P07;P41",
+          "related_process_types": "Mechanical milling and mechanochemical synthesis;Mechanochemical nanocarbon coating and reactive spark-plasma sintering",
+          "related_material_ids": "N01;N02;N07;N10",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Carbon nanomaterials;Nanocomposites"
+        }
+      },
+      {
+        "before": {
+          "notes": ""
+        },
+        "after": {
+          "notes": " RETSCH PM100 mills graphite with Ti-6Al-4V powder before reactive SPS; nanocarbon coating evidence, not a claim that all final TiC grains are below 100 nm."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1016/j.wear.2019.202944: RETSCH PM100 mills graphite with Ti-6Al-4V powder before reactive SPS; nanocarbon coating evidence, not a claim that all final TiC grains are below 100 nm."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M57-03",
+    "model_name": "Metrohm Autolab PGSTAT302N",
+    "manufacturer": "Metrohm",
+    "groups": [
+      {
+        "before": {
+          "related_process_types": "Liquid-phase electrochemical deposition;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Solution coating, vapor deposition or interfacial transfer",
+          "related_material_ids": "N01;N02;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_process_types": "Liquid-phase electrochemical deposition",
+          "related_material_ids": "N01;N02;N09;N10",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Nanofilms and nanoscale coatings;Nanocomposites"
+        }
+      },
+      {
+        "before": {
+          "notes": "Candidate remains unresolved in bounded audit; do not present as verified."
+        },
+        "after": {
+          "notes": "Candidate remains unresolved in bounded audit; do not present as verified. Characterization only: Autolab PGSTAT302N performs EIS on manufactured GNP/PDMS. This is not synthesis or electrodeposition evidence."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1021/acsami.2c22162: Characterization only: Autolab PGSTAT302N performs EIS on manufactured GNP/PDMS. This is not synthesis or electrodeposition evidence."
+        }
+      }
+    ]
   }
 ]

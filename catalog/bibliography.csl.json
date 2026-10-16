@@ -484,6 +484,44 @@
     }
   },
   {
+    "id": "REF-8C4B8E41222D",
+    "type": "article-journal",
+    "title": "Antimicrobial Properties of Copper-Doped ZnO Coatings under Darkness and White Light Illumination",
+    "author": [
+      {
+        "given": "Iman A.",
+        "family": "Hassan"
+      },
+      {
+        "given": "Sanjayan",
+        "family": "Sathasivam"
+      },
+      {
+        "given": "Sean P.",
+        "family": "Nair"
+      },
+      {
+        "given": "Claire J.",
+        "family": "Carmalt"
+      }
+    ],
+    "container-title": "ACS Omega",
+    "volume": "2",
+    "issue": "8",
+    "page": "4556-4562",
+    "DOI": "10.1021/acsomega.7b00759",
+    "URL": "https://doi.org/10.1021/acsomega.7b00759",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          31
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-20E3C9CDA0A8",
     "type": "article-journal",
     "title": "Synthesis and characterization of Zr- and Hf-doped nano-TiO 2 as internal standards for analytical quantification of nanomaterials in complex matrices",
@@ -522,6 +560,103 @@
     }
   },
   {
+    "id": "REF-C546FBEFD594",
+    "type": "article-journal",
+    "title": "Plasmonic nanostructure design and characterization via Deep Learning",
+    "author": [
+      {
+        "given": "Itzik",
+        "family": "Malkiel"
+      },
+      {
+        "given": "Michael",
+        "family": "Mrejen"
+      },
+      {
+        "given": "Achiya",
+        "family": "Nagler"
+      },
+      {
+        "given": "Uri",
+        "family": "Arieli"
+      },
+      {
+        "given": "Lior",
+        "family": "Wolf"
+      },
+      {
+        "given": "Haim",
+        "family": "Suchowski"
+      }
+    ],
+    "container-title": "Light: Science &amp; Applications",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "60",
+    "DOI": "10.1038/s41377-018-0060-7",
+    "URL": "https://doi.org/10.1038/s41377-018-0060-7",
+    "page": "60",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          9,
+          5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-9AA6864E528A",
+    "type": "article-journal",
+    "title": "Cellulose Nanocrystal–ZnO Nanohybrids for Controlling Photocatalytic Activity and UV Protection in Cosmetic Formulation",
+    "author": [
+      {
+        "given": "Fatima",
+        "family": "Awan"
+      },
+      {
+        "given": "Muhammad Shahidul",
+        "family": "Islam"
+      },
+      {
+        "given": "Yeyu",
+        "family": "Ma"
+      },
+      {
+        "given": "Cindy",
+        "family": "Yang"
+      },
+      {
+        "given": "Zengqian",
+        "family": "Shi"
+      },
+      {
+        "given": "Richard M.",
+        "family": "Berry"
+      },
+      {
+        "given": "Kam C.",
+        "family": "Tam"
+      }
+    ],
+    "container-title": "ACS Omega",
+    "volume": "3",
+    "issue": "10",
+    "page": "12403-12411",
+    "DOI": "10.1021/acsomega.8b01881",
+    "URL": "https://doi.org/10.1021/acsomega.8b01881",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-97E9BC69EB00",
     "type": "article-journal",
     "title": "Building an International Consensus on Multi-Disciplinary Metadata Standards: A CODATA Case History in Nanotechnology",
@@ -550,6 +685,51 @@
       "date-parts": [
         [
           2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-D18BF093C30D",
+    "type": "article-journal",
+    "title": "In-situ Ti-6Al-4V/TiC composites synthesized by reactive spark plasma sintering: processing, microstructure, and dry sliding wear behaviour",
+    "author": [
+      {
+        "given": "Mingwen",
+        "family": "Bai"
+      },
+      {
+        "given": "Righdan",
+        "family": "Namus"
+      },
+      {
+        "given": "Yidong",
+        "family": "Xu"
+      },
+      {
+        "given": "Dikai",
+        "family": "Guan"
+      },
+      {
+        "given": "Mark W.",
+        "family": "Rainforth"
+      },
+      {
+        "given": "Beverley J.",
+        "family": "Inkson"
+      }
+    ],
+    "container-title": "Wear",
+    "volume": "432-433",
+    "article-number": "202944",
+    "DOI": "10.1016/j.wear.2019.202944",
+    "URL": "https://doi.org/10.1016/j.wear.2019.202944",
+    "page": "202944",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          8
         ]
       ]
     }
@@ -654,6 +834,157 @@
           2020,
           9,
           29
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-C292BBE498C8",
+    "type": "article-journal",
+    "title": "On-the-fly closed-loop materials discovery via Bayesian active learning",
+    "author": [
+      {
+        "given": "A. Gilad",
+        "family": "Kusne"
+      },
+      {
+        "given": "Heshan",
+        "family": "Yu"
+      },
+      {
+        "given": "Changming",
+        "family": "Wu"
+      },
+      {
+        "given": "Huairuo",
+        "family": "Zhang"
+      },
+      {
+        "given": "Jason",
+        "family": "Hattrick-Simpers"
+      },
+      {
+        "given": "Brian",
+        "family": "DeCost"
+      },
+      {
+        "given": "Suchismita",
+        "family": "Sarker"
+      },
+      {
+        "given": "Corey",
+        "family": "Oses"
+      },
+      {
+        "given": "Cormac",
+        "family": "Toher"
+      },
+      {
+        "given": "Stefano",
+        "family": "Curtarolo"
+      },
+      {
+        "given": "Albert V.",
+        "family": "Davydov"
+      },
+      {
+        "given": "Ritesh",
+        "family": "Agarwal"
+      },
+      {
+        "given": "Leonid A.",
+        "family": "Bendersky"
+      },
+      {
+        "given": "Mo",
+        "family": "Li"
+      },
+      {
+        "given": "Apurva",
+        "family": "Mehta"
+      },
+      {
+        "given": "Ichiro",
+        "family": "Takeuchi"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "11",
+    "issue": "1",
+    "article-number": "5966",
+    "DOI": "10.1038/s41467-020-19597-w",
+    "URL": "https://doi.org/10.1038/s41467-020-19597-w",
+    "page": "5966",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          11,
+          24
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-FECC540EA90C",
+    "type": "article-journal",
+    "title": "Machine learning and materials modelling interpretation of                     in vivo                     toxicological response to TiO                     2                     nanoparticles library (UV and non-UV exposure)",
+    "author": [
+      {
+        "given": "Susana I. L.",
+        "family": "Gomes"
+      },
+      {
+        "given": "Mónica J. B.",
+        "family": "Amorim"
+      },
+      {
+        "given": "Suman",
+        "family": "Pokhrel"
+      },
+      {
+        "given": "Lutz",
+        "family": "Mädler"
+      },
+      {
+        "given": "Matteo",
+        "family": "Fasano"
+      },
+      {
+        "given": "Eliodoro",
+        "family": "Chiavazzo"
+      },
+      {
+        "given": "Pietro",
+        "family": "Asinari"
+      },
+      {
+        "given": "Jaak",
+        "family": "Jänes"
+      },
+      {
+        "given": "Kaido",
+        "family": "Tämm"
+      },
+      {
+        "given": "Jaanus",
+        "family": "Burk"
+      },
+      {
+        "given": "Janeck J.",
+        "family": "Scott-Fordsmand"
+      }
+    ],
+    "container-title": "Nanoscale",
+    "volume": "13",
+    "issue": "35",
+    "page": "14666-14678",
+    "DOI": "10.1039/d1nr03231c",
+    "URL": "https://doi.org/10.1039/d1nr03231c",
+    "issued": {
+      "date-parts": [
+        [
+          2021
         ]
       ]
     }
@@ -854,6 +1185,50 @@
     }
   },
   {
+    "id": "REF-A12730235B6E",
+    "type": "article-journal",
+    "title": "Seeking regularity from irregularity: unveiling the synthesis–nanomorphology relationships of heterogeneous nanomaterials using unsupervised machine learning",
+    "author": [
+      {
+        "given": "Lehan",
+        "family": "Yao"
+      },
+      {
+        "given": "Hyosung",
+        "family": "An"
+      },
+      {
+        "given": "Shan",
+        "family": "Zhou"
+      },
+      {
+        "given": "Ahyoung",
+        "family": "Kim"
+      },
+      {
+        "given": "Erik",
+        "family": "Luijten"
+      },
+      {
+        "given": "Qian",
+        "family": "Chen"
+      }
+    ],
+    "container-title": "Nanoscale",
+    "volume": "14",
+    "issue": "44",
+    "page": "16479-16489",
+    "DOI": "10.1039/d2nr03712b",
+    "URL": "https://doi.org/10.1039/d2nr03712b",
+    "issued": {
+      "date-parts": [
+        [
+          2022
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-2B58D7070E0F",
     "type": "article-journal",
     "title": "Digital research data: from analysis of existing standards to a scientific foundation for a modular metadata schema in nanosafety",
@@ -1045,6 +1420,47 @@
     }
   },
   {
+    "id": "REF-F47C1575F2CD",
+    "type": "article-journal",
+    "title": "Mechanical and sensing performance under hydrothermal ageing of wearable sensors made of polydimethylsiloxane with graphitic nanofillers",
+    "author": [
+      {
+        "given": "Antonio",
+        "family": "del Bosque"
+      },
+      {
+        "given": "Xoan F.",
+        "family": "Sánchez-Romate"
+      },
+      {
+        "given": "Diego",
+        "family": "Calvo"
+      },
+      {
+        "given": "María",
+        "family": "Sánchez"
+      },
+      {
+        "given": "Alejandro",
+        "family": "Ureña"
+      }
+    ],
+    "container-title": "Polymer Degradation and Stability",
+    "volume": "209",
+    "page": "110278",
+    "article-number": "110278",
+    "DOI": "10.1016/j.polymdegradstab.2023.110278",
+    "URL": "https://doi.org/10.1016/j.polymdegradstab.2023.110278",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          3
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-2AF830405DFB",
     "type": "article",
     "title": "Optimization of microfluidic synthesis of silver nanoparticles: a generic approach using machine learning",
@@ -1083,6 +1499,44 @@
       ]
     },
     "genre": "Preprint"
+  },
+  {
+    "id": "REF-20918C55AB9B",
+    "type": "article-journal",
+    "title": "Electrical Transport Mechanisms in Graphene Nanoplatelet Doped Polydimethylsiloxane and Application to Ultrasensitive Temperature Sensors",
+    "author": [
+      {
+        "given": "Xoan Xosé",
+        "family": "Fernández Sánchez-Romate"
+      },
+      {
+        "given": "Antonio",
+        "family": "del Bosque García"
+      },
+      {
+        "given": "María",
+        "family": "Sánchez"
+      },
+      {
+        "given": "Alejandro",
+        "family": "Ureña"
+      }
+    ],
+    "container-title": "ACS Applied Materials &amp; Interfaces",
+    "volume": "15",
+    "issue": "18",
+    "page": "22377-22394",
+    "DOI": "10.1021/acsami.2c22162",
+    "URL": "https://doi.org/10.1021/acsami.2c22162",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          10
+        ]
+      ]
+    }
   },
   {
     "id": "REF-0D7D4A923858",
@@ -1770,6 +2224,54 @@
           2024,
           7,
           30
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-EF3B4AF5F5B9",
+    "type": "article-journal",
+    "title": "A systematic review on the state-of-the-art and research gaps regarding inorganic and carbon-based multicomponent and high-aspect ratio nanomaterials",
+    "author": [
+      {
+        "given": "Anastasios G.",
+        "family": "Papadiamantis"
+      },
+      {
+        "given": "Angelos",
+        "family": "Mavrogiorgis"
+      },
+      {
+        "given": "Stavros",
+        "family": "Papatzelos"
+      },
+      {
+        "given": "Dimitris",
+        "family": "Mintis"
+      },
+      {
+        "given": "Georgia",
+        "family": "Melagraki"
+      },
+      {
+        "given": "Iseult",
+        "family": "Lynch"
+      },
+      {
+        "given": "Antreas",
+        "family": "Afantitis"
+      }
+    ],
+    "container-title": "Computational and Structural Biotechnology Journal",
+    "volume": "25",
+    "page": "211-229",
+    "DOI": "10.1016/j.csbj.2024.10.020",
+    "URL": "https://doi.org/10.1016/j.csbj.2024.10.020",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12
         ]
       ]
     }
