@@ -4415,5 +4415,457 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M43-03",
+    "model_name": "Genizer GJE-10mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+          "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-04",
+    "model_name": "Genizer GJE-100mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "manual_url": "https://www.genizer.com/u_file/2206/file/7e2bf4053a.pdf",
+          "manual_status": "verified_operating_manual",
+          "manual_scope": "2015 manufacturer instruction manual explicitly lists GJE-10ml, GJE-100ml, GJE-800ml, GJE-3000ml and GJE-10000ml.",
+          "manual_match_status": "verified_operating_manual"
+        },
+        "after": {
+          "manual_url": "https://www.genizer.com/u_file/2409/file/cea84beaa5.pdf",
+          "manual_status": "verified_operating_manual",
+          "manual_scope": "Manufacturer 2023-version operating manual explicitly identifies GJE-100mL on its cover; linked from official downloads. Applies to the documented version/configuration.",
+          "manual_match_status": "verified_operating_manual"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+          "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-05",
+    "model_name": "Genizer GJE-800mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+          "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-06",
+    "model_name": "Genizer GJE-3000mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+          "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-07",
+    "model_name": "Genizer GJE-10000mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+          "image_source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "image_scope": "GJE jacketed liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "technical_spec_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+          "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-08",
+    "model_name": "Genizer HandExtruder-1mL",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "manual_url": "https://www.genizer.com/u_file/2206/file/9a6c1a4757.pdf",
+          "manual_status": "verified_operating_manual",
+          "manual_scope": "Manufacturer instruction manual includes HandExtruder-1ml and HandExtruder-1ml-RT.",
+          "manual_match_status": "verified_operating_manual"
+        },
+        "after": {
+          "manual_url": "https://www.genizer.com/u_file/2206/file/9a6c1a4757.pdf",
+          "manual_status": "available_version_unresolved",
+          "manual_scope": "Manufacturer manual explicitly names HandExtruder-1mL and -1mL-RT, but its pressure specification differs from the current product page. Version/configuration equivalence is unresolved; current specifications and September 2026 brochure are linked separately.",
+          "manual_match_status": "scope_or_generation_unresolved"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/10/80479216df.jpg",
+          "image_source_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+          "image_scope": "Manufacturer HandExtruder product-family photo; RT/non-RT configuration is not distinguished.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "technical_spec_url": "",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+          "technical_spec_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+          "brochure_url": "https://www.genizer.com/u_file/2609/file/79cf0d0eb8.pdf",
+          "product_page_scope": "Official HandExtruder product page explicitly lists HandExtruder-1mL and -1mL-RT. This record is the non-RT 1mL model.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_url": "https://www.genizer.com/u_file/2206/file/9a6c1a4757.pdf",
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "record_kind": "commercial_model"
+        },
+        "after": {
+          "model_evidence_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "record_kind": "commercial_model"
+        }
+      },
+      {
+        "before": {
+          "capacity_ml": ""
+        },
+        "after": {
+          "capacity_ml": "1"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1250",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "Official HandExtruder family page displays USD 1,250 before optional RT/syringe selections; selected configuration may differ. This is a displayed manufacturer price, not an asserted MSRP."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-09",
+    "model_name": "Genizer GOE-8L",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "manual_url": "",
+          "manual_status": "not_found",
+          "manual_scope": "",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_url": "https://www.genizer.com/u_file/2206/file/1ebf30df6a.pdf",
+          "manual_status": "available_family_document",
+          "manual_scope": "Official online-extruder instruction manual uses older Gextruder flow-rate catalog names, not GOE-8L. Exact model equivalence is unconfirmed; the linked product page and brochure explicitly list GOE-8L.",
+          "manual_match_status": "scope_or_generation_unresolved"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/10/31670b08df.jpg",
+          "image_source_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "image_scope": "GOE online liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/10/31670b08df.jpg",
+          "image_source_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "image_scope": "GOE online liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "technical_spec_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "technical_spec_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "brochure_url": "https://www.genizer.com/u_file/pdf/file/20221127/2022112710_65959.pdf",
+          "product_page_scope": "Manufacturer GOE family page and brochure explicitly list GOE-8L; photo is a family reference, not a verified capacity-specific unit.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "model_status": "correction",
+          "model_evidence_status": "candidate_needs_review",
+          "record_kind": "model_candidate"
+        },
+        "after": {
+          "model_evidence_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "record_kind": "commercial_model"
+        }
+      },
+      {
+        "before": {
+          "capacity_ml": ""
+        },
+        "after": {
+          "capacity_ml": "8000"
+        }
+      },
+      {
+        "before": {
+          "notes": "Use canonical catalog name GOE-8L. Product page lists this exact capacity; brochure is not operating manual."
+        },
+        "after": {
+          "notes": "Use canonical catalog name GOE-8L. Product page lists this exact capacity; brochure is not operating manual. 2026-10-16 review confirms the GOE catalog name/capacity in the official product page and brochure. The older online-family manual is linked with unresolved model equivalence."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M43-10",
+    "model_name": "Genizer GOE-20L",
+    "manufacturer": "Genizer",
+    "groups": [
+      {
+        "before": {
+          "manual_url": "",
+          "manual_status": "not_found",
+          "manual_scope": "",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_url": "https://www.genizer.com/u_file/2206/file/1ebf30df6a.pdf",
+          "manual_status": "available_family_document",
+          "manual_scope": "Official online-extruder instruction manual uses older Gextruder flow-rate catalog names, not GOE-20L. Exact model equivalence is unconfirmed; the linked product page and brochure explicitly list GOE-20L.",
+          "manual_match_status": "scope_or_generation_unresolved"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/10/31670b08df.jpg",
+          "image_source_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "image_scope": "GOE online liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "image_url": "https://www.genizer.com/u_file/2507/products/10/31670b08df.jpg",
+          "image_source_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "image_scope": "GOE online liposome extruder family photo; pictured capacity may differ from selected variant",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "technical_spec_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "brochure_url": "",
+          "product_page_scope": "",
+          "documentation_url": ""
+        },
+        "after": {
+          "product_page_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "technical_spec_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "brochure_url": "https://www.genizer.com/u_file/pdf/file/20221127/2022112710_65959.pdf",
+          "product_page_scope": "Manufacturer GOE family page and brochure explicitly list GOE-20L; photo is a family reference, not a verified capacity-specific unit.",
+          "documentation_url": "https://www.genizer.com/art/downloads_a0035.html"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "model_status": "correction",
+          "model_evidence_status": "candidate_needs_review",
+          "record_kind": "model_candidate"
+        },
+        "after": {
+          "model_evidence_url": "https://www.genizer.com/online-liposome-extruder_p0004.html",
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "record_kind": "commercial_model"
+        }
+      },
+      {
+        "before": {
+          "capacity_ml": ""
+        },
+        "after": {
+          "capacity_ml": "20000"
+        }
+      },
+      {
+        "before": {
+          "notes": "Use canonical catalog name GOE-20L. Product page lists this exact capacity; brochure is not operating manual."
+        },
+        "after": {
+          "notes": "Use canonical catalog name GOE-20L. Product page lists this exact capacity; brochure is not operating manual. 2026-10-16 review confirms the GOE catalog name/capacity in the official product page and brochure. The older online-family manual is linked with unresolved model equivalence."
+        }
+      }
+    ]
   }
 ]

@@ -1,0 +1,319 @@
+{
+  "review_date": "2026-10-16",
+  "provided_source_url": "https://www.genizer.com/art/downloads_a0035.html",
+  "manufacturer_before": {
+    "manufacturer": "Genizer",
+    "official_website_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+    "brand_identity_status": "verified_manufacturer",
+    "research_use_status": "research_supplier_claim_only",
+    "research_evidence_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+    "verification_notes": "Official page title: GMP Jacketed Liposome Extruder | 500 PSI, Temperature-Controlled, Zero Dead Volume - Genizer Independent research-use evidence not established in this bounded review; no claim of common adoption. Supplier describes research applications or installations; independent adoption evidence was not established.",
+    "review_date": "2026-10-13",
+    "verification_basis": "",
+    "display_name": "",
+    "vendor_name": "",
+    "company_status": "",
+    "company_status_note": "",
+    "company_status_source_url": ""
+  },
+  "manufacturer_after": {
+    "manufacturer": "Genizer",
+    "official_website_url": "https://www.genizer.com/art/downloads_a0035.html",
+    "brand_identity_status": "verified_manufacturer",
+    "research_use_status": "research_supplier_claim_only",
+    "research_evidence_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+    "verification_notes": "Project owner explicitly confirms Genizer as a legitimate corporation and requests its green star. Official downloads and product pages checked. Research-use status remains supplier-claim-only; no independent academic-adoption claim is inferred from this confirmation.",
+    "review_date": "2026-10-16",
+    "verification_basis": "user_confirmation",
+    "display_name": "",
+    "vendor_name": "",
+    "company_status": "",
+    "company_status_note": "",
+    "company_status_source_url": ""
+  },
+  "equipment_updates": [
+    {
+      "equipment_id": "M43-03",
+      "model_name": "Genizer GJE-10mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "documentation_url": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-04",
+      "model_name": "Genizer GJE-100mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "manual_url": "https://www.genizer.com/u_file/2206/file/7e2bf4053a.pdf",
+        "manual_scope": "2015 manufacturer instruction manual explicitly lists GJE-10ml, GJE-100ml, GJE-800ml, GJE-3000ml and GJE-10000ml.",
+        "documentation_url": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "manual_url": "https://www.genizer.com/u_file/2409/file/cea84beaa5.pdf",
+        "manual_scope": "Manufacturer 2023-version operating manual explicitly identifies GJE-100mL on its cover; linked from official downloads. Applies to the documented version/configuration.",
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-05",
+      "model_name": "Genizer GJE-800mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "documentation_url": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-06",
+      "model_name": "Genizer GJE-3000mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "documentation_url": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-07",
+      "model_name": "Genizer GJE-10000mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "documentation_url": "",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GJE family page lists the selected capacity; September 2026 brochure lists all five GJE models. Family photo is not capacity-specific.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-08",
+      "model_name": "Genizer HandExtruder-1mL",
+      "manufacturer": "Genizer",
+      "before": {
+        "capacity_ml": "",
+        "model_evidence_url": "https://www.genizer.com/u_file/2206/file/9a6c1a4757.pdf",
+        "manual_status": "verified_operating_manual",
+        "manual_scope": "Manufacturer instruction manual includes HandExtruder-1ml and HandExtruder-1ml-RT.",
+        "documentation_url": "",
+        "manual_match_status": "verified_operating_manual",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": "",
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": ""
+      },
+      "after": {
+        "capacity_ml": "1",
+        "model_evidence_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+        "manual_status": "available_version_unresolved",
+        "manual_scope": "Manufacturer manual explicitly names HandExtruder-1mL and -1mL-RT, but its pressure specification differs from the current product page. Version/configuration equivalence is unresolved; current specifications and September 2026 brochure are linked separately.",
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "manual_match_status": "scope_or_generation_unresolved",
+        "image_url": "https://www.genizer.com/u_file/2507/products/10/80479216df.jpg",
+        "image_source_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+        "image_scope": "Manufacturer HandExtruder product-family photo; RT/non-RT configuration is not distinguished.",
+        "technical_spec_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+        "media_checked_date": "2026-10-16",
+        "product_page_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+        "product_page_scope": "Official HandExtruder product page explicitly lists HandExtruder-1mL and -1mL-RT. This record is the non-RT 1mL model.",
+        "brochure_url": "https://www.genizer.com/u_file/2609/file/79cf0d0eb8.pdf",
+        "manufacturer_price_value": "1250",
+        "manufacturer_price_currency": "USD",
+        "manufacturer_price_kind": "published_price",
+        "manufacturer_price_source_url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+        "manufacturer_price_checked_date": "2026-10-16",
+        "manufacturer_price_scope": "Official HandExtruder family page displays USD 1,250 before optional RT/syringe selections; selected configuration may differ. This is a displayed manufacturer price, not an asserted MSRP."
+      }
+    },
+    {
+      "equipment_id": "M43-09",
+      "model_name": "Genizer GOE-8L",
+      "manufacturer": "Genizer",
+      "before": {
+        "record_kind": "model_candidate",
+        "capacity_ml": "",
+        "model_status": "correction",
+        "manual_url": "",
+        "manual_status": "not_found",
+        "manual_scope": "",
+        "documentation_url": "",
+        "notes": "Use canonical catalog name GOE-8L. Product page lists this exact capacity; brochure is not operating manual.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "record_kind": "commercial_model",
+        "capacity_ml": "8000",
+        "model_status": "confirmed",
+        "manual_url": "https://www.genizer.com/u_file/2206/file/1ebf30df6a.pdf",
+        "manual_status": "available_family_document",
+        "manual_scope": "Official online-extruder instruction manual uses older Gextruder flow-rate catalog names, not GOE-8L. Exact model equivalence is unconfirmed; the linked product page and brochure explicitly list GOE-8L.",
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "notes": "Use canonical catalog name GOE-8L. Product page lists this exact capacity; brochure is not operating manual. 2026-10-16 review confirms the GOE catalog name/capacity in the official product page and brochure. The older online-family manual is linked with unresolved model equivalence.",
+        "manual_match_status": "scope_or_generation_unresolved",
+        "model_evidence_status": "documented",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GOE family page and brochure explicitly list GOE-8L; photo is a family reference, not a verified capacity-specific unit.",
+        "brochure_url": "https://www.genizer.com/u_file/pdf/file/20221127/2022112710_65959.pdf"
+      }
+    },
+    {
+      "equipment_id": "M43-10",
+      "model_name": "Genizer GOE-20L",
+      "manufacturer": "Genizer",
+      "before": {
+        "record_kind": "model_candidate",
+        "capacity_ml": "",
+        "model_status": "correction",
+        "manual_url": "",
+        "manual_status": "not_found",
+        "manual_scope": "",
+        "documentation_url": "",
+        "notes": "Use canonical catalog name GOE-20L. Product page lists this exact capacity; brochure is not operating manual.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "media_checked_date": "2026-10-13",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "record_kind": "commercial_model",
+        "capacity_ml": "20000",
+        "model_status": "confirmed",
+        "manual_url": "https://www.genizer.com/u_file/2206/file/1ebf30df6a.pdf",
+        "manual_status": "available_family_document",
+        "manual_scope": "Official online-extruder instruction manual uses older Gextruder flow-rate catalog names, not GOE-20L. Exact model equivalence is unconfirmed; the linked product page and brochure explicitly list GOE-20L.",
+        "documentation_url": "https://www.genizer.com/art/downloads_a0035.html",
+        "notes": "Use canonical catalog name GOE-20L. Product page lists this exact capacity; brochure is not operating manual. 2026-10-16 review confirms the GOE catalog name/capacity in the official product page and brochure. The older online-family manual is linked with unresolved model equivalence.",
+        "manual_match_status": "scope_or_generation_unresolved",
+        "model_evidence_status": "documented",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "Manufacturer GOE family page and brochure explicitly list GOE-20L; photo is a family reference, not a verified capacity-specific unit.",
+        "brochure_url": "https://www.genizer.com/u_file/pdf/file/20221127/2022112710_65959.pdf"
+      }
+    }
+  ],
+  "summary": {
+    "manufacturer_stars_enabled": 1,
+    "equipment_profiles": 8,
+    "missing_photos_added": 1,
+    "brochure_links_added": 8,
+    "newer_exact_manual_links": 1,
+    "family_manuals_added_with_explicit_scope": 2,
+    "published_manufacturer_prices_added": 1
+  },
+  "evidence": [
+    {
+      "url": "https://www.genizer.com/art/downloads_a0035.html",
+      "scope": "Official index links hand, jacketed and online extruder manuals and brochures."
+    },
+    {
+      "url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+      "scope": "Explicit HandExtruder-1mL / -RT specifications and og:image for manufacturer product photo."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2409/file/cea84beaa5.pdf",
+      "scope": "15-page, 2023-version manual; PDF p.1 explicitly names GJE-100mL. Do not apply to all GJE capacities."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2609/file/bb6fa36f80.pdf",
+      "scope": "September 2026 brochure p.1 explicitly lists all five catalog GJE capacities."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2609/file/79cf0d0eb8.pdf",
+      "scope": "September 2026 HandExtruder family brochure."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/pdf/file/20221127/2022112710_65959.pdf",
+      "scope": "Online brochure p.1 explicitly lists GOE-8L and GOE-20L; brochure remains distinct from an operator manual."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2206/file/1ebf30df6a.pdf",
+      "scope": "Manual cover uses Gextruder flow-rate models; GOE-8L / -20L equivalence not established."
+    },
+    {
+      "url": "https://www.genizer.com/liposome-handextruder_p0006.html",
+      "scope": "Visible HandExtruder page and Product/Offer structured data display USD1250. Options/configuration remain scoped; not stated MSRP."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.genizer.com/u_file/2507/products/10/80479216df.jpg",
+      "width": 4000,
+      "height": 3000,
+      "status": 200,
+      "verification": "decoded_image",
+      "scope": "HandExtruder family photo; RT/non-RT not distinguished."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2507/products/12/f07b238802.jpg",
+      "width": 1000,
+      "height": 1000,
+      "status": 200,
+      "verification": "decoded_image",
+      "scope": "Existing GJE family image rechecked."
+    },
+    {
+      "url": "https://www.genizer.com/u_file/2507/products/10/31670b08df.jpg",
+      "width": 1000,
+      "height": 1000,
+      "status": 200,
+      "verification": "decoded_image",
+      "scope": "Existing GOE family image rechecked."
+    }
+  ],
+  "limits": [
+    "User-confirmed manufacturer status does not become independently documented academic adoption.",
+    "Family photos are labeled; selected capacity/configuration is not asserted to be pictured.",
+    "Manual and current HandExtruder page give differing pressure specifications; manual version scope remains unresolved.",
+    "No MSRP, successor-model claim, ownership or material/process capability was inferred. HandExtruder displayed manufacturer price is stored separately from MSRP."
+  ]
+}

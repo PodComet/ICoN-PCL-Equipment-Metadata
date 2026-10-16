@@ -1,7 +1,7 @@
 {
   "active_m_categories": 60,
   "additional_process_routes": 22,
-  "brochure_records": 18,
+  "brochure_records": 26,
   "core_examples": 590,
   "curated_process_capabilities": 2,
   "equipment_records": 644,
@@ -12,28 +12,28 @@
     "component_instructions": 2,
     "document_link_not_fully_checked": 2,
     "not_found": 12,
-    "not_verified": 462,
+    "not_verified": 460,
     "request_required": 7,
-    "scope_or_generation_unresolved": 5,
+    "scope_or_generation_unresolved": 8,
     "source_reported_not_reverified": 47,
-    "verified_operating_manual": 107
+    "verified_operating_manual": 106
   },
-  "manufacturer_product_page_records": 114,
+  "manufacturer_product_page_records": 115,
   "material_families": 9,
   "model_evidence": {
-    "candidate_needs_review": 298,
-    "documented": 299,
+    "candidate_needs_review": 296,
+    "documented": 301,
     "literature_reported": 12,
     "source_reported": 35
   },
   "msrp_records": 0,
   "ordered_route_steps": 145,
   "project_m_categories": 1,
-  "published_manufacturer_price_records": 29,
+  "published_manufacturer_price_records": 30,
   "requested_occurrences": 44,
   "retired_x_categories": 5,
   "source_m_categories": 59,
   "source_pdf_model_records": 64,
   "source_routes": 20,
-  "technical_specification_records": 86
+  "technical_specification_records": 87
 }
