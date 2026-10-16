@@ -1,4 +1,5 @@
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
+import {processDependencyGraph} from './process-dependencies.ts';
 
 export type JsonValue = null | boolean | number | string | JsonValue[] | {[key:string]:JsonValue};
 export type Parameters = Record<string,JsonValue>;
@@ -55,31 +56,44 @@ export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:
 export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]=[]){
  const expected=sourceSteps.filter(s=>s.route_id===workflow.route_id),orders=workflow.steps.map(s=>s.source_step_order).filter(Boolean);
  const missingSteps=expected.filter(s=>!orders.includes(s.step_order)).length;
- const wrongOrder=orders.some((o,i)=>i>0&&Number(o)<=Number(orders[i-1]));
- let readySteps=0,unresolved=0,review=workflow.extensions.sequence_review_required===true&&workflow.extensions.sequence_reviewed!==true?1:0,missingSlots=0;
+ const dependencyIssues=processDependencyGraph(workflow).errors;
+ const wrongOrder=workflow.extensions.dependency_schema!=='process-dependencies/v1'&&orders.some((o,i)=>i>0&&Number(o)<=Number(orders[i-1]));
+ const reviewItems:{step_id:string;label:string;notes:string}[]=[];
+ if(workflow.extensions.sequence_review_required===true&&workflow.extensions.sequence_reviewed!==true)reviewItems.push({step_id:'',label:'Process sequence',notes:'This capability-only sequence needs review for the intended process and operating configuration.'});
+ let readySteps=0,unresolved=0,invalidAssignments=0,missingSlots=0;
  for(const step of workflow.steps){
   const source=expected.find(s=>s.step_order===step.source_step_order);
   const req=source?stepRequirements(source):null;
   const assigned=step.slots.filter(s=>s.instrument&&slotAccepts(s,s.instrument.equipment_snapshot));
+  invalidAssignments+=step.slots.filter(s=>s.instrument&&!slotAccepts(s,s.instrument.equipment_snapshot)).length;
   const matches=(branch:string[])=>{const used=new Set<string>();return branch.every(cid=>{const s=assigned.find(s=>!used.has(unitId(s.instrument!))&&s.instrument!.category_refs.includes(cid));if(!s)return false;used.add(unitId(s.instrument!));return true;});};
   const extra=step.slots.filter(s=>s.extensions.requirement_role===undefined);
   const absentExtra=extra.filter(s=>!s.instrument).length;
   if(req){
-   if(req.readiness_review_required&&step.extensions.requirements_reviewed!==true)review++;
+   if(req.readiness_review_required&&step.extensions.requirements_reviewed!==true)reviewItems.push({step_id:step.step_id,label:step.label,notes:req.notes});
    const unknown=req.unresolved_required_equipment&&!assigned.some(s=>s.extensions.requirement_role==='unclassified'&&s.allowed_category_ids.length);
    if(unknown)unresolved++;
    const optionalComplete=(req.optional_branches||[]).filter(b=>b.some(cid=>assigned.some(s=>s.instrument!.category_refs.includes(cid)))).every(matches);
    const covered=(!req.required_branches.length||req.required_branches.some(matches))&&optionalComplete;
    if(covered&&!unknown&&!absentExtra)readySteps++;else missingSlots+=Math.max(1,absentExtra);
   }else{
-   // Historical or custom plans do not acquire a scientific readiness claim from fill count alone.
-   if(step.source_step_order&&expected.length)review++;
+   if(step.source_step_order&&expected.length)reviewItems.push({step_id:step.step_id,label:step.label,notes:'Review this source stage: structured branch and configuration requirements are not available.'});
    const empty=step.slots.filter(s=>!s.instrument).length;missingSlots+=empty;
    if(!empty&&step.slots.length)readySteps++;else if(!step.slots.length)unresolved++;
   }
  }
- const complete=workflow.steps.length>0&&readySteps===workflow.steps.length&&!missingSteps&&!wrongOrder&&!unresolved&&!review;
- return {complete,readySteps,totalSteps:workflow.steps.length,missingSlots,missingSteps,wrongOrder,unresolved,review};
+ // Completion means declared equipment coverage in order. Configuration review is a separate advisory, not a hidden completion gate.
+ const complete=workflow.steps.length>0&&readySteps===workflow.steps.length&&!missingSteps&&!wrongOrder&&!dependencyIssues.length&&!unresolved&&!invalidAssignments;
+ return {complete,readySteps,totalSteps:workflow.steps.length,missingSlots,missingSteps,wrongOrder,dependencyIssues,unresolved,invalidAssignments,review:reviewItems.length,reviewItems};
+}
+export function workflowReadinessMessage(r:ReturnType<typeof workflowReadiness>):string{
+ if(r.complete)return 'Equipment plan complete · expected output shown';
+ if(r.wrongOrder)return 'Restore the source step order';
+ if(r.dependencyIssues.length)return r.dependencyIssues[0];
+ if(r.missingSteps)return r.missingSteps+' source '+(r.missingSteps===1?'step missing':'steps missing');
+ if(r.unresolved)return r.unresolved+' apparatus '+(r.unresolved===1?'requirement needs':'requirements need')+' an equipment class and instrument';
+ if(r.invalidAssignments)return 'Replace instruments that do not match their slot classes';
+ return r.readySteps+' of '+r.totalSteps+' stages covered · complete a required equipment branch in each stage';
 }
 export function priceSnapshot(r:Equipment):PriceSnapshot{
  const number=(s:string)=>s?.trim()!==''&&Number.isFinite(Number(s))&&Number(s)>=0?Number(s):null;
@@ -185,5 +199,6 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
    const identity=old||linked||instrumentFor(r);i.equipment_id=identity.equipment_id;i.category_id=identity.category_id;i.category_refs=identity.category_refs;i.equipment_snapshot=identity.equipment_snapshot;i.price_snapshot=identity.price_snapshot;trustedUnits.set(unit,i);
   }
  }
+ const dependencyIssues=processDependencyGraph(w).errors;if(dependencyIssues.length)throw new Error(dependencyIssues[0]);
  return w;
 }

@@ -1,7 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {assignInstrument,createWorkflow,expandWorkflowRequirements,newSlot,newStep,requirementSlots,reuseInstrument,unitId,validateWorkflow,workflowBudget,workflowReadiness} from '../app/process-lib.ts';
+import {assignInstrument,createWorkflow,expandWorkflowRequirements,newSlot,newStep,requirementSlots,reuseInstrument,unitId,validateWorkflow,workflowBudget,workflowReadiness,workflowReadinessMessage} from '../app/process-lib.ts';
+import {processDependencyGraph,stepDependencies,withStepDependencies,removeWorkflowStep} from '../app/process-dependencies.ts';
 import {positionProfile,separateFiber,validatePositionInterface} from '../app/position-lib.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const positions=JSON.parse(readFileSync(new URL('../app/data/positions.json',import.meta.url),'utf8'));
@@ -22,12 +23,12 @@ test('required category boxes cover AND, OR, optional groups and simultaneous-un
  const pumps=seed.steps.find(s=>s.route_id==='P27'&&s.step_order==='2');assert.equal(createWorkflow(seed.routes.find(r=>r.route_id==='P27'),[pumps]).steps[0].slots.filter(s=>s.allowed_category_ids.includes('M07')).length,2);
 });
 
-test('unclassified required apparatus, review dependencies, removed stages and wrong order prevent completion',()=>{
+test('equipment completion is separate from review; unresolved apparatus, removed stages and wrong order still block it',()=>{
  const sources=[source(req([['M70']],{unresolved_required_equipment:true,readiness_review_required:true})),source(req([[]]),'2')];
  let w=createWorkflow(route,sources);w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);
  assert.equal(workflowReadiness(w,sources).unresolved,1,'Filling known categories does not resolve unknown apparatus');
  const unclassified=w.steps[0].slots.find(s=>s.extensions.requirement_role==='unclassified');unclassified.allowed_category_ids=['M62'];w=assignInstrument(w,unclassified.slot_id,robot);
- assert.equal(workflowReadiness(w,sources).review,1);assert.equal(workflowReadiness(w,sources).complete,false);
+ assert.equal(workflowReadiness(w,sources).review,1);assert.equal(workflowReadiness(w,sources).complete,true);assert.equal(workflowReadiness(w,sources).reviewItems[0].step_id,w.steps[0].step_id);
  w.steps[0].extensions.requirements_reviewed=true;assert.equal(workflowReadiness(w,sources).complete,true,'Manual handling does not require invented hardware');
  assert.equal(workflowReadiness({...w,steps:[w.steps[1],w.steps[0]]},sources).wrongOrder,true);
  assert.equal(workflowReadiness({...w,steps:w.steps.slice(0,1)},sources).missingSteps,1);
@@ -71,4 +72,39 @@ test('older saved plans expand category choices without losing assigned machines
  assert.deepEqual(expanded.steps[0].slots.map(s=>s.allowed_category_ids),[['M70'],['M62']]);
  assert.deepEqual(expandWorkflowRequirements(expanded,sources),expanded,'Repeated opening does not create new slot IDs');
  assert.equal(assigned.steps[0].slots.length,1,'Saved input remains unchanged');
+});
+
+
+test('P19 with all six filled boxes completes while its configuration review remains advisory',()=>{
+ const route=seed.routes.find(r=>r.route_id==='P19'),sources=seed.steps.filter(s=>s.route_id==='P19');
+ let w=createWorkflow(route,sources);assert.equal(w.steps.flatMap(s=>s.slots).length,6);
+ for(const step of w.steps)for(const slot of step.slots){
+  if(!slot.allowed_category_ids.length)slot.allowed_category_ids=['M11'];
+  const record=seed.records.find(r=>r.category_id===slot.allowed_category_ids[0]);assert.ok(record);
+  w=assignInstrument(w,slot.slot_id,record);
+ }
+ const status=workflowReadiness(w,sources);
+ assert.equal(status.complete,true);assert.equal(status.review,1);assert.match(workflowReadinessMessage(status),/Equipment plan complete/);
+ w.steps[1].slots[0].instrument=null;assert.equal(workflowReadiness(w,sources).complete,false);assert.match(workflowReadinessMessage(workflowReadiness(w,sources)),/required equipment branch/);
+});
+
+test('hierarchy keeps independent actions as peers and dependent actions as children, with persistent references',()=>{
+ const sources=[source(req([['M70']])),source(req([['M70']]),'2'),source(req([['M70']]),'3')];let w=createWorkflow(route,sources);
+ const [a,b,c]=w.steps.map(s=>s.step_id);
+ assert.deepEqual(processDependencyGraph(w).levels.map(l=>l.map(s=>s.step_id)),[[a],[b],[c]],'Existing linear plans retain source order');
+ w=withStepDependencies(w,b,[]);w=withStepDependencies(w,c,[a,b]);
+ assert.deepEqual(processDependencyGraph(w).levels.map(l=>l.map(s=>s.step_id)),[[a,b],[c]]);
+ assert.deepEqual(stepDependencies(w,w.steps[2]),[a,b]);assert.deepEqual(stepDependencies(w,w.steps[0]),[]);
+ const original=JSON.stringify(w);assert.throws(()=>withStepDependencies(w,a,[c]),/cycle/);assert.equal(JSON.stringify(w),original,'Rejected changes do not mutate the draft');
+ assert.throws(()=>withStepDependencies(w,c,['missing']),/existing prerequisite/);
+ for(const step of w.steps)w=assignInstrument(w,step.slots[0].slot_id,tc);
+ const saved=validateWorkflow(w,seed.routes,[tc]);assert.deepEqual(saved.steps[2].extensions.prerequisite_step_ids,[a,b]);assert.equal(workflowReadiness(saved,sources).complete,true);
+ const reordered={...w,steps:[w.steps[2],w.steps[1],w.steps[0]]};assert.equal(workflowReadiness(reordered,sources).complete,true,'Dependencies determine execution order in an edited graph');
+ const bad=structuredClone(w);bad.steps[0].extensions.prerequisite_step_ids=[c];assert.equal(workflowReadiness(bad,sources).complete,false);assert.throws(()=>validateWorkflow(bad,seed.routes,[tc]),/cycle/);
+ const removed=removeWorkflowStep(w,b);assert.deepEqual(stepDependencies(removed,removed.steps.find(s=>s.step_id===c)),[a]);assert.equal(processDependencyGraph(removed).errors.length,0);
+});
+
+test('completion rejects a filled instrument that no longer matches its slot classes',()=>{
+ const sources=[source(req([['M70']]))];let w=createWorkflow(route,sources);w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);w.steps[0].slots[0].allowed_category_ids=['M13'];
+ const status=workflowReadiness(w,sources);assert.equal(status.complete,false);assert.equal(status.invalidAssignments,1);assert.match(workflowReadinessMessage(status),/do not match/);
 });
