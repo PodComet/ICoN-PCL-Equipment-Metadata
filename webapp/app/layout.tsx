@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "Nanomaterial Equipment Ontology",
   description: "Search research equipment, compare product variants, and curate source-linked metadata.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: { url: "/favicon.svg?v=icon-pcl-1", type: "image/svg+xml", sizes: "any" },
+    shortcut: "/favicon.svg?v=icon-pcl-1",
   },
 };
 
