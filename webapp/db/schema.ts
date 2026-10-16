@@ -27,3 +27,20 @@ export const catalogImports = sqliteTable("catalog_imports", {
  changesJson:text("changes_json").notNull(),
  createdAt:text("created_at").notNull(),
 });
+
+export const processWorkflows = sqliteTable('process_workflows', {
+ workflowId:text('workflow_id').primaryKey(),
+ userId:text('user_id').notNull(),
+ routeId:text('route_id').notNull(),
+ name:text('name').notNull(),
+ payload:text('payload').notNull(),
+ revision:integer('revision').notNull(),
+ createdAt:text('created_at').notNull(),
+ updatedAt:text('updated_at').notNull(),
+});
+export const processWorkflowVersions = sqliteTable('process_workflow_versions', {
+ workflowId:text('workflow_id').notNull(),
+ revision:integer('revision').notNull(),
+ payload:text('payload').notNull(),
+ createdAt:text('created_at').notNull(),
+},t=>[primaryKey({columns:[t.workflowId,t.revision]})]);

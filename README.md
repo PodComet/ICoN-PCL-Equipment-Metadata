@@ -18,6 +18,8 @@ The [academic reference database](docs/academic-references.md) contains 17 disti
 
 Proposed category relationships are recorded in the numbered [equipment ontology recommendations](docs/recommendations.md). Approved X-to-M moves are documented in the [category merge guide](docs/category-merges.md); legacy X identifiers remain searchable.
 
+The app’s **Processes** tab builds saved equipment workflows from the sequenced process routes. Drag exact instrument models into class-filtered slots, add or reorder steps, retain per-instance configuration / operation / signal / I/O data, and tally equipment prices from $0. Workflow IDs, ontology references, price snapshots, revision history and JSON export preserve the plan for future integrations. See [Process equipment plans](webapp/docs/process-workflows.md). Saved user workflows stay in the private app database.
+
 ## Machine-list comparison
 
 Compare columns A and B of an Excel workbook or the first two columns of a CSV file. Produce a shared-machine list, unmatched lists, and a complete JSON audit trail with original values and spreadsheet row numbers.

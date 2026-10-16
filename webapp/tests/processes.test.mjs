@@ -1,0 +1,65 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {assignInstrument,budgetLabel,createWorkflow,instrumentFor,moveInstrument,newSlot,priceSnapshot,routeCandidates,validateWorkflow,workflowBudget} from '../app/process-lib.ts';
+const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
+const process=seed.routes.find(r=>r.route_id==='P03');
+const base={equipment_id:'TEST-M13',model_name:'Test centrifuge',manufacturer:'Test',category_id:'M13',legacy_category_ids:'X-FILTER',related_process_ids:'P03'};
+const record={...base,msrp_value:'6000',msrp_currency:'USD'};
+const workflow=()=>createWorkflow(process,seed.steps);
+
+test('source process sequences keep order, alternatives and empty equipment slots',()=>{
+ const w=workflow(),source=seed.steps.filter(s=>s.route_id==='P03').sort((a,b)=>Number(a.step_order)-Number(b.step_order));
+ assert.equal(w.steps.length,source.length);
+ for(let n=0;n<source.length;n++){
+  assert.equal(w.steps[n].label,source[n].step_label);assert.equal(w.steps[n].source_sequence,source[n].equipment_sequence);
+  assert.ok(w.steps[n].slots.every(s=>s.instrument===null));
+  assert.deepEqual(w.steps[n].slots[0]?.allowed_category_ids,source[n].equipment_category_ids.split(';').filter(Boolean));
+ }
+ assert.equal(budgetLabel(workflowBudget(w.steps)),'$0');
+});
+test('assignment enforces slot classes and candidates include saved user variants',()=>{
+ const w=workflow();w.steps[0].slots=[newSlot(['M13'])];const slot=w.steps[0].slots[0];
+ assert.deepEqual(routeCandidates([record,{...record,equipment_id:'USER-model'}, {...record,equipment_id:'wrong',category_id:'M56',legacy_category_ids:''}],process,slot).map(r=>r.equipment_id),['TEST-M13','USER-model']);
+ assert.throws(()=>assignInstrument(w,slot.slot_id,{...record,category_id:'M56',legacy_category_ids:''}),/does not match/);
+ const result=assignInstrument(w,slot.slot_id,record),i=result.steps[0].slots[0].instrument;
+ assert.match(i.instance_id,/^M13-[0-9a-f-]{36}$/);assert.deepEqual(i.category_refs,['M13','X-FILTER']);assert.equal(i.equipment_id,record.equipment_id);
+ assert.equal(w.steps[0].slots[0].instrument,null);
+});
+test('moving an instance preserves its ID, configuration, signals and prices without double counting',()=>{
+ let w=workflow();w.steps[0].slots=[newSlot(['M13']),newSlot(['M13'])];const [a,b]=w.steps[0].slots;
+ w=assignInstrument(w,a.slot_id,record);const i=w.steps[0].slots[0].instrument;
+ i.configuration={volume:{value:250,unit:'mL'}};i.operating_parameters={speed:{value:1000,unit:'rpm'}};i.signals={ready:{protocol:'digital'}};
+ const moved=moveInstrument(w,a.slot_id,b.slot_id);
+ assert.equal(moved.steps[0].slots[0].instrument,null);assert.deepEqual(moved.steps[0].slots[1].instrument,i);
+ assert.equal(budgetLabel(workflowBudget(moved.steps)),'$6,000');
+});
+test('budget respects quantities, mixed currencies, estimate ranges, zero prices and missing prices',()=>{
+ const variants=[record,{...base,equipment_id:'eur',msrp_value:'200',msrp_currency:'EUR'},{...base,equipment_id:'estimate',estimated_msrp_low:'10',estimated_msrp_high:'100',estimate_currency:'USD'},{...base,equipment_id:'missing'},{...base,equipment_id:'free',msrp_value:'0',msrp_currency:'USD'}];
+ const w=workflow();w.steps[0].slots=variants.map(r=>({...newSlot(),instrument:instrumentFor(r)}));w.steps[0].slots[0].instrument.quantity=2;
+ const b=workflowBudget(w.steps);
+ assert.equal(b.assigned,6);assert.equal(b.missing,1);assert.deepEqual(b.totals.map(t=>[t.currency,t.low,t.high,t.estimated]),[['EUR',200,200,false],['USD',12010,12100,true]]);
+ assert.equal(priceSnapshot({...base,msrp_value:'',msrp_currency:'USD'}).kind,'unpriced');
+ assert.equal(priceSnapshot({...record,msrp_value:'0'}).low,0);
+});
+test('new saves use trusted ontology identity and pricing while preserving future namespaces',()=>{
+ const w=workflow();w.steps[0].slots=[newSlot(['M13'])];const slot=w.steps[0].slots[0];
+ const assigned=assignInstrument(w,slot.slot_id,record),i=assigned.steps[0].slots[0].instrument;
+ i.equipment_snapshot.model_name='Forged';i.price_snapshot.low=1;i.category_refs=['M56'];i.configuration={container:{volume:250,unit:'mL'}};i.inputs={feed:{schema_version:3,channels:['temperature','flow']}};i.extensions={future:{typed:{enabled:true}}};
+ assigned.extensions={future_ontology_schema:{version:2}};
+ const checked=validateWorkflow(assigned,seed.routes,[record]);const stored=checked.steps[0].slots[0].instrument;
+ assert.equal(stored.equipment_snapshot.model_name,record.model_name);assert.equal(stored.price_snapshot.low,6000);assert.deepEqual(stored.category_refs,['M13','X-FILTER']);
+ assert.deepEqual(stored.configuration,i.configuration);assert.deepEqual(stored.inputs,i.inputs);assert.deepEqual(checked.extensions,assigned.extensions);
+ const saved=structuredClone(checked);saved.workflow_id='PROC-P03-'+crypto.randomUUID();
+ const edited=structuredClone(saved);edited.steps[0].slots[0].instrument.price_snapshot.low=999;
+ const rechecked=validateWorkflow(edited,seed.routes,[{...record,msrp_value:'7000'}],saved);
+ assert.equal(rechecked.steps[0].slots[0].instrument.price_snapshot.low,6000,'Historical price changed without replacement');
+ assert.equal(rechecked.steps[0].slots[0].instrument.instance_id,stored.instance_id);
+});
+test('invalid, duplicate, unknown and incompatible assignments cannot be saved',()=>{
+ const make=()=>{const w=workflow();w.steps[0].slots=[newSlot(['M13'])];return assignInstrument(w,w.steps[0].slots[0].slot_id,record)};
+ for(const mutate of [w=>w.steps[0].slots.push(structuredClone(w.steps[0].slots[0])),w=>w.steps[0].slots[0].instrument.quantity=-1,w=>w.steps[0].slots[0].instrument.equipment_id='missing',w=>w.steps[0].slots[0].allowed_category_ids=['M56'],w=>w.schema_version=9,w=>w.steps[0].slots[0].instrument.instance_id='fake']){
+  const w=make();mutate(w);assert.throws(()=>validateWorkflow(w,seed.routes,[record]));
+ }
+ const w=make();w.steps[0].slots[0].instrument.extensions=JSON.parse('{"__proto__":{"bad":true}}');assert.throws(()=>validateWorkflow(w,seed.routes,[record]),/property name/);
+});

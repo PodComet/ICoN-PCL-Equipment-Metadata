@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import "./processes.css";
 
 export const metadata: Metadata = {
   title: "Nanomaterial Equipment Ontology",
