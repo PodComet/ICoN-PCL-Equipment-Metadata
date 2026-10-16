@@ -90,7 +90,7 @@ def validate_database(data, root=ROOT):
         for field in ['url', 'metadata_source_url']:
             if row[field] and (urlsplit(row[field]).scheme not in {'http', 'https'} or not urlsplit(row[field]).netloc):
                 raise ValueError(f'Invalid reference {field}')
-        if row['publication_status'] not in {'published', 'preprint'} or row['metadata_status'] not in {'pdf_and_registry_checked', 'pdf_and_repository_checked', 'pdf_checked', 'needs_review'} or row['peer_review_status'] not in {'not_independently_checked', 'not_asserted', 'verified'}:
+        if row['publication_status'] not in {'published', 'preprint'} or row['metadata_status'] not in {'pdf_and_registry_checked', 'pdf_and_repository_checked', 'pdf_checked', 'full_text_and_registry_checked', 'needs_review'} or row['peer_review_status'] not in {'not_independently_checked', 'not_asserted', 'verified'}:
             raise ValueError('Invalid reference status')
         date.fromisoformat(row['checked_date'])
         if row['reference_type'] == 'preprint' and (row['publication_status'] != 'preprint' or row['peer_review_status'] == 'verified'):

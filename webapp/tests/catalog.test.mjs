@@ -61,7 +61,9 @@ test('missing checked manuals fall back to specifications, brochure and product 
 });
 
 test('every class has explicit estimates and component estimates avoid full-system bands',()=>{
- assert.ok(seed.records.every(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low)&&r.estimate_basis&&r.estimate_source_urls));
+ assert.ok(seed.records.filter(r=>r.estimate_confidence!=='not_estimated').every(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low)&&r.estimate_basis&&r.estimate_source_urls));
+ const gripper=seed.records.find(r=>r.equipment_id==='LIT-M62-YOO2023-RG2');
+ assert.equal(gripper.estimated_msrp_low,'');assert.equal(gripper.estimated_msrp_high,'');assert.match(gripper.estimate_basis,/robot class|robot-class/i);
  const mobile=seed.records.find(r=>r.equipment_id==='REQ-EQ-043');
  assert.equal(mobile.estimate_subject,'Research mobile base, excluding robot arm');
  assert.ok(Number(mobile.estimated_msrp_high)<25000);

@@ -9,8 +9,9 @@ def test_membership_preserves_model_data_and_matches_review_report():
     memberships = load_csv(ROOT / 'catalog/product_families.csv')
     assert validate_product_families(equipment, memberships) == 34
     seed = json.loads((ROOT / 'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
-    assert len(seed['records']) == len(equipment) == 632
-    assert len({r['product_family_id'] for r in seed['records']}) == 535
+    assert len(seed['records']) == len(equipment)
+    assert len([r for r in equipment if r['catalog_scope']!='literature_reported']) == 632
+    assert len({r['product_family_id'] for r in seed['records'] if r['catalog_scope']!='literature_reported'}) == 535
     by_id = {r['equipment_id']: r for r in seed['records']}
     for original in equipment:
         for field in ['model_name', 'manufacturer', 'manual_url', 'manual_match_status', 'product_page_url', 'image_url', 'msrp_value', 'category_id', 'related_material_ids', 'related_process_ids', 'purdue_list']:

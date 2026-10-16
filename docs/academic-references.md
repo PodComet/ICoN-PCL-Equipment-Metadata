@@ -1,6 +1,6 @@
 # Academic reference database
 
-The first import contains **17 distinct academic papers from 18 local PDF copies** supplied in the project folder. It includes journal articles, a conference paper and a clearly labeled arXiv preprint. Instruction manuals, the equipment guide, analytics guides, spreadsheets, meeting notes, project drafts, and poster/talk abstracts are outside this import. Papers cited inside those papers have not been imported automatically.
+The first import contains **17 distinct academic papers from 18 local PDF copies** supplied in the project folder. It includes journal articles, a conference paper and a clearly labeled arXiv preprint. Instruction manuals, the equipment guide, analytics guides, spreadsheets, meeting notes, project drafts, and poster/talk abstracts are outside this import. The later [2026-10-16 citation review](citation-sweep-2026-10-16.md) follows manufacturing-related references from the ten 2024-2026 papers. The current library contains 28 reference records: 11 additions represent ten studies, because a published/preprint pair is retained explicitly. Cited articles are imported after methods review, not automatically.
 
 The default display and bibliography export order is **publication year, oldest to newest**, followed by available publication date and author/title ties. Undated records come last in either sort direction. IDs remain stable when sorting changes. Citation managers should apply the destination journal's required reference style when preparing a manuscript; the library's chronological display does not prescribe manuscript reference order.
 
@@ -21,8 +21,8 @@ PDF binaries, extracted full text, abstracts, author contact details and absolut
 
 ## Evidence and version rules
 
-- A **background** link records relevance or context. It does not assert that the original catalog was derived from that paper, nor that its methods are implemented in the app. The first import has no checked, exact-model equipment claim links.
-- A **supports_claim** link requires `review_status=claim_checked`, a specific claim, locator and scope. Review the actual passage before asserting support. A manufacturer mention is insufficient to establish an instrument's material/process capability.
+- A **background** link records relevance or context. It does not assert that the original catalog was derived from that paper, nor that its methods are implemented in the app. The first import has no checked, exact-model equipment claim links. The later citation review adds 33 scoped claims across equipment, categories and processes.
+- A **supports_claim** link requires `review_status=claim_checked`, a specific claim, locator and scope. Review the actual passage before asserting support. A manufacturer mention is insufficient to establish an instrument's material/process capability. `full_text_and_registry_checked` identifies online full-text review without falsely implying a local PDF. Exact hardware from a preprint supplement stays linked to that version, even when the main article has a later published counterpart.
 - Instrument links apply to their exact equipment ID. Category and material/process links appear as contextual reading, never as inherited instrument validation. Project-wide references are browsed in the library rather than attached to every instrument.
 - Local PDF locators use PDF page positions (starting at 1), not necessarily printed journal page numbers. Section names make the passage easier to find.
 - Publication years come from the paper and corroborating registry metadata, not filenames. The two byte-identical ontology PDFs represent one 2024 article; a filename says 2026. The nanocomposite review is a 2024 article although its filename says 2025.

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterReferences,instrumentReferenceLinks,sortReferences,referenceCitation} from '../app/references-lib.ts';
+import {filterReferences,instrumentReferenceLinks,sortReferences,referenceCitation,metadataCheckLabel} from '../app/references-lib.ts';
 const data=JSON.parse(readFileSync(new URL('../app/data/references.json',import.meta.url),'utf8'));
 
 test('reference order is chronological, reversible and stable with undated records last',()=>{
@@ -34,11 +34,13 @@ test('project and category context never imply inherited exact-model support',()
  assert.deepEqual(instrumentReferenceLinks({...base,equipment_id:'NEW-VARIANT'},links).map(l=>l.link_id),['d','e']);
  assert.deepEqual(instrumentReferenceLinks({...base,category_id:'M01',related_material_ids:''},links).map(l=>l.link_id),['b']);
 });
-test('initial import stays academic-only and exports do not invent model evidence',()=>{
- assert.equal(data.references.length,17);assert.equal(data.reference_files.length,18);
- assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,0);
+test('expanded library stays academic-only and preserves scoped model evidence',()=>{
+ assert.equal(data.references.length,28);assert.equal(data.reference_files.length,25);
+ assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,33);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
- assert.equal(JSON.parse(data.exports.csl_json).length,17);
+ assert.equal(JSON.parse(data.exports.csl_json).length,28);
  assert.ok(data.references.every(r=>!JSON.stringify(r).includes('C:\\')));
 });
+
+test('online full-text checks are not mislabeled as PDF checks',()=>{assert.equal(metadataCheckLabel('full_text_and_registry_checked'),'Full text + registry checked');assert.equal(metadataCheckLabel('unknown'),'Metadata needs review');});

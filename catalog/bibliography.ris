@@ -84,6 +84,24 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-20E3C9CDA0A8
+AU  - Ellis, Laura-Jayne A.
+AU  - Papadiamantis, Anastasios G.
+AU  - Weigel, Stefan
+AU  - Valsami-Jones, Eugenia
+TI  - Synthesis and characterization of Zr- and Hf-doped nano-TiO 2 as internal standards for analytical quantification of nanomaterials in complex matrices
+PY  - 2018
+JO  - Royal Society Open Science
+VL  - 5
+IS  - 6
+SP  - 171884
+DO  - 10.1098/rsos.171884
+UR  - https://doi.org/10.1098/rsos.171884
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.1016/j.impact.2025.100602, References: Ellis et al. (2018), PDF page 19. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
+ER  -
+
+TY  - JOUR
 ID  - REF-97E9BC69EB00
 AU  - Rumble, John, Jr.
 AU  - Broome, John
@@ -96,6 +114,55 @@ SP  - 12
 DO  - 10.5334/dsj-2019-012
 UR  - https://doi.org/10.5334/dsj-2019-012
 Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-3FA6AA8B06E0
+AU  - Mekki-Berrada, Flore
+AU  - Ren, Zekun
+AU  - Huang, Tan
+AU  - Wong, Wai Kuan
+AU  - Zheng, Fang
+AU  - Xie, Jiaxun
+AU  - Tian, Isaac Parker Siyu
+AU  - Jayavelu, Senthilnath
+AU  - Mahfoud, Zackaria
+AU  - Bash, Daniil
+AU  - Hippalgaonkar, Kedar
+AU  - Khan, Saif
+AU  - Buonassisi, Tonio
+AU  - Li, Qianxiao
+AU  - Wang, Xiaonan
+TI  - Two-step machine learning enables optimized nanoparticle synthesis
+PY  - 2021
+JO  - npj Computational Materials
+VL  - 7
+IS  - 1
+SP  - 55
+DO  - 10.1038/s41524-021-00520-w
+UR  - https://doi.org/10.1038/s41524-021-00520-w
+Y2  - 2026-10-16
+N1  - Citation sweep: del Bosque2026 (10.3390/make8010010), reference54; also Mim et al.2025 references28/146. Methods: Experimental design. Paper reports a droplet assembly with Hamilton syringes, IDEX manifold and unnamed syringe pumps; no turnkey commercial instrument model is inferred.
+ER  -
+
+TY  - JOUR
+ID  - REF-6FAA7B96669B
+AU  - Rao, Rahul
+AU  - Carpena-Núñez, Jennifer
+AU  - Nikolaev, Pavel
+AU  - Susner, Michael A.
+AU  - Reyes, Kristofer G.
+AU  - Maruyama, Benji
+TI  - Advanced machine learning decision policies for diameter control of carbon nanotubes
+PY  - 2021
+JO  - npj Computational Materials
+VL  - 7
+IS  - 1
+SP  - 157
+DO  - 10.1038/s41524-021-00629-y
+UR  - https://doi.org/10.1038/s41524-021-00629-y
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.3390/make8010010, Reference 59, PDF page 21. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
 ER  -
 
 TY  - JOUR
@@ -121,6 +188,80 @@ SP  - 1
 DO  - 10.1186/s12989-021-00442-x
 UR  - https://doi.org/10.1186/s12989-021-00442-x
 Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-9A8ACDF7DC3D
+AU  - Scaffaro, Roberto
+AU  - Gammino, Michele
+AU  - Maio, Andrea
+TI  - Wet electrospinning-aided self-assembly of multifunctional GO-CNT@PCL core-shell nanocomposites with spider leg bioinspired hierarchical architectures
+PY  - 2022
+JO  - Composites Science and Technology
+VL  - 221
+SP  - 109363
+DO  - 10.1016/j.compscitech.2022.109363
+UR  - https://doi.org/10.1016/j.compscitech.2022.109363
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.3390/ma17051088, Reference 13. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
+ER  -
+
+TY  - UNPB
+ID  - REF-A18B8DB1ADFC
+AU  - Lampe, Carola
+AU  - Kouroudis, Ioannis
+AU  - Harth, Milan
+AU  - Martin, Stefan
+AU  - Gagliardi, Alessio
+AU  - Urban, Alexander S.
+TI  - Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis
+PY  - 2022
+T2  - arXiv
+DO  - 10.48550/arxiv.2210.09783
+UR  - https://arxiv.org/abs/2210.09783
+Y2  - 2026-10-16
+N1  - Citation sweep: Mim et al.2025 (10.1007/s11051-025-06472-2), references148/164. Evidence uses the cited 2022 preprint, section4.1 Synthesis, PDF p.9. Stirring, antisolvent addition, centrifugation and redispersion are reported, without equipment makes/models. The named optical spectrometer is characterization-only and was not added.
+ER  -
+
+TY  - JOUR
+ID  - REF-9843819D5591
+AU  - Li, J.
+AU  - van Nieuwkerk, P.
+AU  - Verschuuren, M. A.
+AU  - Koopmans, B.
+AU  - Lavrijsen, R.
+TI  - Substrate conformal imprint fabrication process of synthetic antiferromagnetic nanoplatelets
+PY  - 2022
+JO  - Applied Physics Letters
+VL  - 121
+IS  - 18
+SP  - 182407
+DO  - 10.1063/5.0100657
+UR  - https://doi.org/10.1063/5.0100657
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.1021/acs.nanolett.4c01850, Supporting Information reference8 cites arXiv2206.15320v1 (same work later published). Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Article 182407 follows the publisher PDF and registry; repository cover-sheet 182406 is erroneous. Parent supplement cites the earlier arXiv version 2206.15320.
+ER  -
+
+TY  - UNPB
+ID  - REF-0D7D4A923858
+AU  - Yoo, Hyuk Jun
+AU  - Kim, Nayeon
+AU  - Lee, Heeseung
+AU  - Kim, Daeho
+AU  - Ow, Leslie Tiong Ching
+AU  - Nam, Hyobin
+AU  - Kim, Chansoo
+AU  - Lee, Seung Yong
+AU  - Lee, Kwan-Young
+AU  - Kim, Donghun
+AU  - Han, Sang Soo
+TI  - Bespoke Nanoparticle Synthesis and Chemical Knowledge Discovery Via Autonomous Experimentations
+PY  - 2023
+T2  - arXiv
+DO  - 10.48550/arxiv.2309.00349
+UR  - https://arxiv.org/abs/2309.00349
+Y2  - 2026-10-16
+N1  - Cited directly by Mim et al. (2025) reference151. Exact hardware evidence uses this version: SI Figures S1, S2b and S2c-1, combined PDF pages33,37,38. Later published as 10.1002/adfm.202312561; both versions are retained, not counted as two independent studies. Final publisher SI was inaccessible.
 ER  -
 
 TY  - JOUR
@@ -172,6 +313,23 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-CB807EB452AB
+AU  - Scaffaro, Roberto
+AU  - Maio, Andrea
+AU  - Gammino, Michele
+TI  - Electrospun polymeric nanohybrids with outstanding pollutants adsorption and electroactivity for water treatment and sensing devices
+PY  - 2024
+JO  - Advanced Composites and Hybrid Materials
+VL  - 7
+IS  - 1
+SP  - 13
+DO  - 10.1007/s42114-023-00827-w
+UR  - https://doi.org/10.1007/s42114-023-00827-w
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.3390/ma17051088, Reference 11. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
+ER  -
+
+TY  - JOUR
 ID  - REF-6EB15E9D0564
 AU  - Gomes Souza, Fernando, Jr.
 AU  - Bhansali, Shekhar
@@ -191,6 +349,54 @@ DO  - 10.3390/ma17051088
 UR  - https://doi.org/10.3390/ma17051088
 Y2  - 2026-10-15
 N1  - Publication year is 2024, despite 2025 in the local filename.
+ER  -
+
+TY  - JOUR
+ID  - REF-AE397253458C
+AU  - Yoo, Hyuk Jun
+AU  - Kim, Nayeon
+AU  - Lee, Heeseung
+AU  - Kim, Daeho
+AU  - Ow, Leslie Tiong Ching
+AU  - Nam, Hyobin
+AU  - Kim, Chansoo
+AU  - Lee, Seung Yong
+AU  - Lee, Kwan‐Young
+AU  - Kim, Donghun
+AU  - Han, Sang Soo
+TI  - Bespoke Metal Nanoparticle Synthesis at Room Temperature and Discovery of Chemical Knowledge on Nanoparticle Growth via Autonomous Experimentations
+PY  - 2024
+JO  - Advanced Functional Materials
+VL  - 34
+IS  - 27
+SP  - 2312561
+DO  - 10.1002/adfm.202312561
+UR  - https://doi.org/10.1002/adfm.202312561
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 151, PDF page 43 cites the 2023 preprint 10.48550/arXiv.2309.00349. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Parent cites preprint 10.48550/arXiv.2309.00349. Exact hardware names were checked in that preprint SI, not the inaccessible final publisher SI; the preprint has its own evidence record.
+ER  -
+
+TY  - JOUR
+ID  - REF-1110175424B9
+AU  - Harris, Sumner B.
+AU  - Biswas, Arpan
+AU  - Yun, Seok Joon
+AU  - Roccapriore, Kevin M.
+AU  - Rouleau, Christopher M.
+AU  - Puretzky, Alexander A.
+AU  - Vasudevan, Rama K.
+AU  - Geohegan, David B.
+AU  - Xiao, Kai
+TI  - Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation
+PY  - 2024
+JO  - Small Methods
+VL  - 8
+IS  - 9
+SP  - 2301763
+DO  - 10.1002/smtd.202301763
+UR  - https://doi.org/10.1002/smtd.202301763
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 150, PDF page 43. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Methods locators refer to the OSTI accepted manuscript, not an older arXiv version or the separately indexed cover illustration.
 ER  -
 
 TY  - JOUR
@@ -232,6 +438,26 @@ DO  - 10.3390/app142411683
 UR  - https://doi.org/10.3390/app142411683
 Y2  - 2026-10-15
 N1  - Publication year is 2024. Two byte-identical supplied PDF copies are retained in file provenance; one filename says 2026.
+ER  -
+
+TY  - JOUR
+ID  - REF-D0CCF2644737
+AU  - Sun, Yu
+AU  - Qin, Shuhuai
+AU  - Li, Yingli
+AU  - Hasan, Naimul
+AU  - Li, Yan Vivian
+AU  - Liu, Jiangguo
+TI  - Machine learning integrated with in vitro experiments for study of drug release from PLGA nanoparticles
+PY  - 2025
+JO  - Scientific Reports
+VL  - 15
+IS  - 1
+SP  - 4218
+DO  - 10.1038/s41598-024-82728-6
+UR  - https://doi.org/10.1038/s41598-024-82728-6
+Y2  - 2026-10-16
+N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 307, PDF page 49. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Study includes both micro- and nanoparticles; use of M09 is not a guarantee that every formulation is nanoscale.
 ER  -
 
 TY  - JOUR

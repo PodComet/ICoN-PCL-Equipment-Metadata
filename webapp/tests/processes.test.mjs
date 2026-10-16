@@ -8,6 +8,20 @@ const base={equipment_id:'TEST-M13',model_name:'Test centrifuge',manufacturer:'T
 const record={...base,msrp_value:'6000',msrp_currency:'USD'};
 const workflow=()=>createWorkflow(process,seed.steps);
 
+test('literature processes open with ordered source stages, eligible apparatus and zero initial budget',()=>{
+ for(const rid of ['P15','P16','P17','P18','P19','P20','P21','P22','P23']){
+  const route=seed.routes.find(r=>r.route_id===rid),draft=createWorkflow(route,seed.steps);
+  assert.ok(draft.steps.length>=3);assert.equal(budgetLabel(workflowBudget(draft.steps)),'$0');
+  assert.ok(draft.steps.some(s=>s.slots.length));
+  const candidates=routeCandidates(seed.records,route,null);
+  assert.ok(candidates.length);
+  if(rid!=='P23')assert.ok(candidates.some(r=>r.catalog_scope==='literature_reported'));
+  else assert.ok(candidates.every(r=>r.category_id==='M13'));
+ }
+ const gripper=seed.records.find(r=>r.equipment_id==='LIT-M62-YOO2023-RG2');
+ assert.equal(priceSnapshot(gripper).kind,'unpriced');
+});
+
 test('source process sequences keep order, alternatives and empty equipment slots',()=>{
  const w=workflow(),source=seed.steps.filter(s=>s.route_id==='P03').sort((a,b)=>Number(a.step_order)-Number(b.step_order));
  assert.equal(w.steps.length,source.length);

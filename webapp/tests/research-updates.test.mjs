@@ -10,6 +10,18 @@ const q125=seed.records.find(r=>r.equipment_id==='M09-01');
 const update=updates.find(r=>r.equipment_id===q125.equipment_id);
 const old=()=>Object.assign({...q125},...update.groups.map(group=>group.before));
 
+test('new literature associations refresh old models while preserving personal notes and explicit relationship edits',()=>{
+ for(const eid of ['M02-05','REQ-EQ-020']){
+  const record=seed.records.find(r=>r.equipment_id===eid),change=updates.find(r=>r.equipment_id===eid);
+  const previous=Object.assign({...record},...change.groups.map(g=>g.before),{notes:'My lab notes'});
+  const refreshed=refreshResearchEvidence(previous,updates);
+  assert.ok(refreshed.related_process_ids.split(';').includes('P18'));assert.equal(refreshed.notes,'My lab notes');
+  const protectedRecord=withSharedResearchOverrides({...previous,related_process_ids:''},['related_process_ids']);
+  assert.equal(refreshResearchEvidence(protectedRecord,updates).related_process_ids,'');
+  assert.equal(refreshResearchEvidence({...previous,model_name:'Different model',related_process_ids:''},updates).related_process_ids,'');
+ }
+});
+
 test('saved pre-review snapshots gain model links and sourced prices while research notes survive',()=>{
  const snapshot={...old(),notes:'My experimental notes'};
  const refreshed=refreshResearchEvidence(snapshot,updates);

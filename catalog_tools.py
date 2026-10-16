@@ -27,7 +27,7 @@ def validate_model_lifecycle(equipment, reviews):
         assert date.fromisoformat(review["successor_checked_date"]).isoformat() == review["successor_checked_date"]
         if review["lifecycle_status"] != "model_unresolved":
             assert review["successor_evidence_url"], "Lifecycle source required: " + eid
-        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check"}
+        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check", "literature_methods_identity_check"}
         if review["review_method"] == "targeted_official_domain_search":
             assert review["review_query"] and review["review_source_match"]
         for value in filter(None, review["review_source_urls"].split(";")):
@@ -128,8 +128,9 @@ def inspect_catalog(root=ROOT):
         if category["category_id"] in project_categories:
             count = sum(r["category_id"] == category["category_id"] for r in equipment)
             assert count >= int(category["target_examples"]), "Project M category has fewer records than its example target"
-    assert len(requests) == 44 and len(source_models) == 64 and len(steps) == 109
-    assert len(routes) == 22  # 20 retained source routes plus wet/dry etching capabilities
+    assert len(requests) == 44 and len(source_models) == 64
+    assert sum(s["source_pdf"] == "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf" for s in steps) == 109, "Retain all original source steps"
+    assert {"N" + str(i).zfill(2) for i in range(1, 10)} | {"P01"} | {"P" + str(i).zfill(2) for i in range(3, 15)} <= {r["route_id"] for r in routes}, "Retain original routes and curated etching capabilities"
     route_ids = {r["route_id"] for r in routes}
     for alias in aliases:
         assert alias["legacy_category_id"] not in category_ids
@@ -181,7 +182,9 @@ def inspect_catalog(root=ROOT):
         "highlighted_equipment_records": sum(r["highlight_requested"] == "true" for r in equipment),
         "source_pdf_model_records": len(source_models), "material_families": 9,
         "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
-        "source_routes": 20, "curated_process_capabilities": 2, "retired_x_categories": len(aliases),
+        "source_routes": 20, "curated_process_capabilities": sum(r["route_kind"] == "manufacturing_process" and not r["source_pdf"] for r in routes),
+        "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf"} for r in routes),
+        "literature_equipment_records": sum(r["catalog_scope"] == "literature_reported" for r in equipment), "retired_x_categories": len(aliases),
         "ordered_route_steps": len(steps),
         "manual_coverage": dict(sorted(Counter(r["manual_match_status"] for r in equipment).items())),
         "model_evidence": dict(sorted(Counter(r["model_evidence_status"] for r in equipment).items())),

@@ -13,14 +13,17 @@ from reference_tools import ROOT, REFERENCE_FIELDS, build, exports, normalize_do
 def test_article_only_import_deduplicates_work_and_retains_copies():
     data=read_database()
     assert validate_database(data)
-    assert len(data['references'])==17 and len(data['reference_files'])==18
+    initial=json.loads((ROOT/'catalog/reference_import_2026-10-15.json').read_text(encoding='utf-8'))
+    initial_ids={r['reference_id'] for r in initial['metadata_checks']}
+    assert len(initial_ids)==17
+    assert len([f for f in data['reference_files'] if f['reference_id'] in initial_ids])==18
     ontology=next(r for r in data['references'] if r['doi']=='10.3390/app142411683')
     copies=[f for f in data['reference_files'] if f['reference_id']==ontology['reference_id']]
     assert len(copies)==2 and len({f['sha256'] for f in copies})==1
     assert ontology['publication_year']=='2024'
     assert all(r['reference_type'] in {'journal_article','conference_paper','preprint'} for r in data['references'])
     assert not any('Manuals' in f['source_filename'] for f in data['reference_files'])
-    assert not any(l['relation']=='supports_claim' for l in data['reference_links'])
+    assert not any(l['relation']=='supports_claim' for l in data['reference_links'] if l['reference_id'] in initial_ids)
 
 
 def test_publication_dates_and_metadata_caveats_remain_distinct():
@@ -45,7 +48,7 @@ def test_chronological_order_and_full_author_exports():
     assert 'Gomes Souza, Jr., Fernando' in result['bibtex']
     assert 'AU  - Gomes Souza, Fernando, Jr.' in result['ris']
     assert 'TY  - UNPB' in result['ris'] and 'genre' in next(r for r in csl if 'arxiv' in r['DOI'])
-    assert len([line for line in result['ris'].splitlines() if line=='ER  -'])==17
+    assert len([line for line in result['ris'].splitlines() if line=='ER  -'])==len(refs)
 
 
 @pytest.mark.parametrize('change,message',[
@@ -71,7 +74,7 @@ def test_generation_is_reproducible_and_sqlite_links_have_foreign_keys(tmp_path)
         assert (tmp_path/'catalog'/filename).read_bytes()==(ROOT/'catalog'/filename).read_bytes()
     assert (tmp_path/'webapp/app/data/references.json').read_bytes()==(ROOT/'webapp/app/data/references.json').read_bytes()
     with sqlite3.connect(database) as db:
-        assert db.execute('SELECT COUNT(*) FROM "references"').fetchone()[0]==17
+        assert db.execute('SELECT COUNT(*) FROM "references"').fetchone()[0]==len(read_database()['references'])
         assert db.execute('PRAGMA foreign_key_check').fetchall()==[]
         db.execute('PRAGMA foreign_keys=ON')
         with pytest.raises(sqlite3.IntegrityError):db.execute("UPDATE reference_files SET reference_id='unknown'")
@@ -87,7 +90,7 @@ def test_csv_updates_preview_then_apply_and_preserve_existing_links(tmp_path):
     assert (tmp_path/'catalog/references.csv').read_bytes()==original
     subprocess.run([*command,'--apply'],capture_output=True,check=True)
     updated=read_database(tmp_path)
-    assert len(updated['references'])==17 and updated['reference_links']==data['reference_links']
+    assert len(updated['references'])==len(data['references']) and updated['reference_links']==data['reference_links']
     assert next(r for r in updated['references'] if r['reference_id']==record['reference_id'])['notes']=='Reviewed by curator'
     record['reference_type']='manual';write_csv(incoming,[record],REFERENCE_FIELDS)
     before=(tmp_path/'catalog/references.csv').read_bytes()

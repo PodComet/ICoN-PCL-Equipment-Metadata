@@ -46,11 +46,13 @@ def test_approved_x_categories_merge_into_m_without_losing_requested_links():
 
 def test_robotics_extension_retains_all_requested_profiles_and_source_provenance():
     records = load_csv(ROOT / "catalog/equipment.csv")
-    robots = [r for r in records if r["category_id"] == "M62"]
+    robots = [r for r in records if r["category_id"] == "M62" and r["catalog_scope"] == "requested_supplement"]
     assert len(robots) == 13
     assert all(r["purdue_list"] == "true" and r["legacy_category_ids"] == "X-ROB" for r in robots)
     assert all(r["catalog_scope"] == "requested_supplement" for r in robots)
-    assert all(not r["related_material_ids"] and not r["related_process_ids"] for r in robots)
+    assert all(not r["related_material_ids"] and not r["related_process_ids"] for r in robots if r["equipment_id"] != "REQ-EQ-020")
+    doosan=next(r for r in robots if r["equipment_id"] == "REQ-EQ-020")
+    assert doosan["related_material_ids"] == "N01" and doosan["related_process_ids"] == "P18"
     category = next(r for r in load_csv(ROOT / "catalog/categories.csv") if r["category_id"] == "M62")
     assert category["category_origin"] == "project_extension"
     assert not category["source_pdf"] and not category["source_category_name"]

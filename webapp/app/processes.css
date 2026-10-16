@@ -23,3 +23,5 @@
 .process-pointer-preview .drag-photo>img{width:62px!important;height:62px!important;padding:3px}
 .process-pointer-preview>span{line-height:1.4}
 @media(max-width:550px){.process-flow-toolbar{flex-wrap:wrap;gap:7px}.process-flow-actions{margin-left:auto;gap:5px}.process-flow-actions>.secondary-button{font-size:9px;padding:6px}.process-library-card .process-instrument-photo>img{height:92px!important}.process-step .process-instrument-photo>img{height:80px!important}}
+
+.process-academic-sources{margin-top:12px;padding-top:10px;border-top:1px solid #cbd8c1}.process-academic-sources>div{margin-top:10px}.process-academic-sources a{color:#254e25;font-weight:700}.process-academic-sources p{font-size:11px;line-height:1.5}

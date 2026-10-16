@@ -43,7 +43,7 @@ export function photoFirstGroups(rows:CatalogRow[]){
 export function fallbackDocumentationLink(r:Equipment){
   if (safeUrl(r.technical_spec_url)) return {url: safeUrl(r.technical_spec_url), label: "Technical specifications"};
   if (safeUrl(r.brochure_url)) return {url:safeUrl(r.brochure_url),label:"Brochure"};
-  if (safeUrl(r.documentation_url)) return {url: safeUrl(r.documentation_url), label: "Technical document"};
+  if (safeUrl(r.documentation_url)) return {url: safeUrl(r.documentation_url), label: r.catalog_scope==="literature_reported"&&r.documentation_url===r.model_evidence_url?"Article methods / apparatus":"Technical document"};
   if (safeUrl(r.product_page_url)) return {url:safeUrl(r.product_page_url),label:"Manufacturer product page"};
   if (safeUrl(r.model_evidence_url)) return {url: safeUrl(r.model_evidence_url), label: "Product details"};
   return null;

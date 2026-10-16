@@ -57,9 +57,9 @@ test('the full review has complete confirmed updates and never marks newer targe
 });
 
 test('screening coverage remains distinct from a confirmed successor or latest-model certification',()=>{
- assert.equal(seed.model_lifecycle.length,632);
+ assert.equal(seed.model_lifecycle.length,seed.records.length);
  const unresolved=seed.records.filter(r=>r.lifecycle_status==='model_unresolved');
- assert.equal(unresolved.length,105);assert.ok(unresolved.every(r=>!newerModel(r)));
+ assert.equal(unresolved.filter(r=>r.catalog_scope!=='literature_reported').length,105);assert.ok(unresolved.every(r=>!newerModel(r)));
  assert.equal(newerModel(record('M57-05')).name,'Gamry Reference 3020');
  assert.equal(newerModel(record('M39-09')),null);
 });

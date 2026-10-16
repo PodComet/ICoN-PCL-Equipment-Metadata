@@ -2295,8 +2295,40 @@
         "after": {
           "technical_spec_url": "https://www.doosanrobotics.com/en/product-solutions/product/m-series/m0609/"
         }
+      },
+      {
+        "before": {
+          "related_process_ids": "",
+          "related_process_types": "Robotic manipulation;Machine tending",
+          "related_material_ids": "",
+          "related_material_types": "Indirect handling of contained material samples; no material-specific manufacturing capability established"
+        },
+        "after": {
+          "related_process_ids": "P18",
+          "related_process_types": "Robot-assisted aqueous silver nanoparticle synthesis",
+          "related_material_ids": "N01",
+          "related_material_types": "Metal nanoparticles"
+        }
+      },
+      {
+        "before": {
+          "notes": "Match installed controller/software version to manual. Online operating manual, not support portal. Includes safety, startup, installation and user operation sections."
+        },
+        "after": {
+          "notes": "Match installed controller/software version to manual. Online operating manual, not support portal. Includes safety, startup, installation and user operation sections. Citation sweep: Doosan M0609 manipulator reported for silver nanoparticle synthesis in Yoo2023 preprint SI; published study DOI 10.1002/adfm.202312561. Model-level evidence only; no identification of any Purdue unit, serial number or installed configuration."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "curated supplement; material/process links are proposed context, not verified model capability"
+        },
+        "after": {
+          "association_basis": "curated supplement; material/process links are proposed context, not verified model capability Additional P18 model-use evidence: 10.48550/arxiv.2309.00349 SI; no Purdue unit/configuration inference."
+        }
       }
-    ]
+    ],
+    "model_name": "Doosan Robotics Manipulator M0609",
+    "manufacturer": "Doosan"
   },
   {
     "equipment_id": "REQ-EQ-042",
@@ -4346,5 +4378,42 @@
     ],
     "model_name": "Agilent IDP-15",
     "manufacturer": "Agilent"
+  },
+  {
+    "equipment_id": "M02-05",
+    "model_name": "IKA RET control-visc",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P04;P05;P06;P08;P09;P10;P11",
+          "related_process_types": "Microemulsion / reverse-micelle synthesis;Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Surface modification and functionalization;Nanoscale self-assembly;Biological / biosystem-assisted synthesis;Thermal conversion / pyrolysis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Sol-gel condensation with optional templating;Illustrative inert-atmosphere solution synthesis;Nanoprecipitation or emulsion / solvent removal;Microfluidic assembly or film hydration / extrusion;Liquid exfoliation or catalytic CVD;Electrospinning with optional thermal conversion;Solution coating, vapor deposition or interfacial transfer",
+          "related_material_ids": "N01;N02;N03;N04;N05;N06;N07;N08;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Silica nanoparticles;Semiconductor nanocrystals;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Carbon nanomaterials;Nanofibers;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_process_ids": "P04;P05;P06;P08;P09;P10;P11;P18",
+          "related_process_types": "Microemulsion / reverse-micelle synthesis;Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Surface modification and functionalization;Nanoscale self-assembly;Biological / biosystem-assisted synthesis;Thermal conversion / pyrolysis;Robot-assisted aqueous silver nanoparticle synthesis",
+          "related_material_ids": "N01;N02;N03;N04;N05;N06;N07;N08;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Silica nanoparticles;Semiconductor nanocrystals;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Carbon nanomaterials;Nanofibers;Nanofilms and nanoscale coatings"
+        }
+      },
+      {
+        "before": {
+          "notes": "Official safety flyer is model evidence only, not operator manual. Analog C-MAG HS models are distinct from digital variants. Review 2026-10-14: Official manufacturer list price found for RET control-visc article 0005020001. This is not explicitly MSRP."
+        },
+        "after": {
+          "notes": "Official safety flyer is model evidence only, not operator manual. Analog C-MAG HS models are distinct from digital variants. Review 2026-10-14: Official manufacturer list price found for RET control-visc article 0005020001. This is not explicitly MSRP. Citation sweep: IKA RET control-visc stirrer reported for silver nanoparticle synthesis in Yoo2023 preprint SI; published study DOI 10.1002/adfm.202312561. Model-level evidence only; no identification of any Purdue unit, serial number or installed configuration."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established Additional P18 model-use evidence: 10.48550/arxiv.2309.00349 SI; no Purdue unit/configuration inference."
+        }
+      }
+    ]
   }
 ]

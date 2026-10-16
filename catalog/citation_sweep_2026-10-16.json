@@ -1,0 +1,722 @@
+{
+  "review_date": "2026-10-16",
+  "scope": "One citation hop from the 2024-2026 articles in the original local-paper library, including cited supporting-information references. Manufacturing-related references were prioritized; this is not an exhaustive full-text review of every bibliography entry.",
+  "summary": {
+    "parent_articles": 10,
+    "primary_studies_used": 10,
+    "new_reference_records": 11,
+    "new_equipment_records": 12,
+    "existing_equipment_enriched": 2,
+    "new_process_routes": 9,
+    "new_ordered_steps": 36,
+    "total_reference_records": 28,
+    "total_equipment_records": 644,
+    "new_equipment_breakdown": {
+      "commercial_models_or_components": 4,
+      "manufacturer_named_model_unreported": 2,
+      "custom_apparatus": 5,
+      "manufacturer_and_model_unreported": 1
+    }
+  },
+  "parent_articles": [
+    {
+      "reference_id": "REF-6EB15E9D0564",
+      "title": "A 30-Year Review on Nanocomposites: Comprehensive Bibliometric Insights into Microstructural, Electrical, and Mechanical Properties Assisted by Artificial Intelligence",
+      "publication_year": "2024",
+      "doi": "10.3390/ma17051088"
+    },
+    {
+      "reference_id": "REF-7939F61E47C2",
+      "title": "Magnetization Switching of Single Magnetite Nanoparticles Monitored Optically",
+      "publication_year": "2024",
+      "doi": "10.1021/acs.nanolett.4c01850"
+    },
+    {
+      "reference_id": "REF-8508E2857729",
+      "title": "Digitalizing Material Knowledge: A Practical Framework for Ontology-Driven Knowledge Graphs in Process Chains",
+      "publication_year": "2024",
+      "doi": "10.3390/app142411683"
+    },
+    {
+      "reference_id": "REF-EFB6B5BC5792",
+      "title": "The northeast materials database for magnetic materials",
+      "publication_year": "2025",
+      "doi": "10.1038/s41467-025-64458-z"
+    },
+    {
+      "reference_id": "REF-34B02AD08192",
+      "title": "The emerging role of machine learning in nanomaterials research: applications, challenges, and future directions",
+      "publication_year": "2025",
+      "doi": "10.1007/s11051-025-06472-2"
+    },
+    {
+      "reference_id": "REF-ED683576037E",
+      "title": "In Search of Theories in Library and Information Science: A Topic Modeling Approach",
+      "publication_year": "2026",
+      "doi": "10.22034/ijism.2026.2022500.1393"
+    },
+    {
+      "reference_id": "REF-0BBA41E8870B",
+      "title": "nanoPharos: A case study on FAIR (Nano)material (Meta)data management",
+      "publication_year": "2026",
+      "doi": "10.1016/j.impact.2025.100602"
+    },
+    {
+      "reference_id": "REF-F86A67571673",
+      "title": "Machine Learning for Nanomaterial Discovery and Design",
+      "publication_year": "2026",
+      "doi": "10.3390/make8010010"
+    },
+    {
+      "reference_id": "REF-FCFC50CCA023",
+      "title": "Semantic Intelligence in Metallurgy: A Dual‐Stage Language Model Framework for Processing‐Aware Magnesium Alloy Design",
+      "publication_year": "2026",
+      "doi": "10.1002/mgea.70056"
+    },
+    {
+      "reference_id": "REF-59A237EFFA76",
+      "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",
+      "publication_year": "2026",
+      "doi": "10.48550/arxiv.2609.01740"
+    }
+  ],
+  "other_parent_screening": {
+    "REF-8508E2857729": {
+      "bibliography_items": 69,
+      "outcome": "No manufacturing additions: cited works primarily concern ontologies, data systems, testing and bulk-metal case studies; no nanoscale manufacturing apparatus established from this parent.",
+      "file": "FraunhoferGermany applsci-14-11683.txt"
+    },
+    "REF-EFB6B5BC5792": {
+      "bibliography_items": 68,
+      "outcome": "No additions: database/computational references and bulk magnetic-alloy fabrication do not establish a nanomaterial manufacturing use; no nanoscale claim inferred from magnetism alone.",
+      "file": "s41467-025-64458-z.txt"
+    },
+    "REF-FCFC50CCA023": {
+      "bibliography_items": 49,
+      "outcome": "No additions: cited magnesium-alloy casting, transport prediction and language-model papers lacked a confirmed nanomaterial manufacturing apparatus in the screened scope. Reference17 (JACS3c05819) is text-mining/prediction, not an equipment-use experiment.",
+      "file": "Materials Genome Engineering Advances - 2026 - Lu - Semantic Intelligence in Metallurgy A Dual‐Stage Language Model.txt"
+    },
+    "REF-ED683576037E": {
+      "outcome": "Out of manufacturing scope: library/information-science topic modeling and associated citations.",
+      "file": "10.22034_ijism.2026.2022500.1393.txt"
+    },
+    "REF-59A237EFFA76": {
+      "outcome": "Out of manufacturing scope: 3D shape tokenization/computer graphics. GPUs and computational training do not establish nanomaterial manufacturing.",
+      "file": "3D tokenization article.txt"
+    },
+    "REF-0BBA41E8870B": {
+      "outcome": "Ellis2018 reference selected for full-text methods review: doped nano-TiO2/ZrO2 synthesis. Metadata and toxicity-only sources excluded.",
+      "file": "Papadiamantis 2026.txt"
+    }
+  },
+  "nanocomposite_screen": {
+    "review_date": "2026-10-16",
+    "parents": [
+      {
+        "doi": "10.3390/ma17051088",
+        "publication_year": 2024,
+        "bibliography_entries": 482,
+        "local_text": "work/literature-inspection/Gomes Souza 2025 materials-17-01088-v2.txt",
+        "scope": "Targeted title/method screening of refs 11,13,471,473,477,480; not full-text review of 482 papers."
+      },
+      {
+        "doi": "10.1021/acs.nanolett.4c01850",
+        "publication_year": 2024,
+        "main_bibliography_entries": 34,
+        "supplement_bibliography_entries": 14,
+        "scope": "Targeted screening of main refs32,33 and supporting-information ref8; SI8 is the strongest manufacturing source. Bibliographies overlap; counts are entries, not unique articles."
+      }
+    ],
+    "findings": [
+      {
+        "doi": "10.1016/j.compscitech.2022.109363",
+        "parent_doi": "10.3390/ma17051088",
+        "parent_locator": "Reference 13",
+        "source_url": "https://iris.unipa.it/retrieve/9c425f01-feb7-498e-9184-c6ccc4974884/Manuscript_R1_definitivo_AM%20%285%29.pdf",
+        "locator": "Author accepted manuscript section2.1, pp4-5, Figure1",
+        "methods_paraphrase": "A custom vertical wet electrospinning assembly deposits PCL solution into a stirred ethanol collector containing GO and/or CNT. Collected material is moulded and dried at room temperature. No commercial electrospinner make/model is reported.",
+        "equipment": [
+          {
+            "manufacturer": "Custom research apparatus; institution University of Palermo",
+            "model_name": "Wet electrospinning apparatus with stirred coagulation bath (Scaffaro2022)",
+            "category_id": "M26",
+            "scope": "Paper-reported custom assembly, not a commercial product or the existing Linari model."
+          },
+          {
+            "manufacturer": "Not reported",
+            "model_name": "Stirred coagulation bath",
+            "category_id": "M02",
+            "scope": "Generic apparatus only; exact stirrer not identified."
+          }
+        ],
+        "route_steps": [
+          {
+            "label": "Prepare PCL solution",
+            "equipment_category_ids": [
+              "M02"
+            ]
+          },
+          {
+            "label": "Wet electrospin into stirred GO/CNT ethanol collector",
+            "equipment_category_ids": [
+              "M26",
+              "M02"
+            ]
+          },
+          {
+            "label": "Mould and ambient-dry collected scaffold",
+            "equipment_category_ids": []
+          }
+        ],
+        "material": "GO/CNT-decorated PCL core-shell fibrous nanocomposites; maps N05,N07,N08",
+        "catalog_comparison": "M26 and M02 classes exist; this custom wet collector assembly is absent. Electrospinning is present only in N08 material-family narrative, not a standalone manufacturing-process route. Add electrospinning route with wet-collection variant, and link self-assemblyP09 if appropriate."
+      },
+      {
+        "doi": "10.1007/s42114-023-00827-w",
+        "parent_doi": "10.3390/ma17051088",
+        "parent_locator": "Reference 11",
+        "source_url": "https://link.springer.com/article/10.1007/s42114-023-00827-w",
+        "additional_pdf_url": "https://iris.unipa.it/retrieve/58811b85-ff9f-4be9-aa86-c43744917984/s42114-023-00827-w.pdf",
+        "locator": "Section2.1 Materials and preparative; publisher PDF p2",
+        "methods_paraphrase": "GO/CNT dispersions in acetone are ultrasonicated, PVDF-HFP dissolved by magnetic stirring, then horizontally electrospun using Linari equipment. The article names the manufacturer but no equipment model.",
+        "equipment": [
+          {
+            "manufacturer": "Linari Engineering (paper says Linari, Italy)",
+            "model_name": "Horizontal electrospinning apparatus; model not reported",
+            "category_id": "M26",
+            "scope": "Manufacturer-level reported apparatus. Do not assign the existing RT Advanced model M26-10 without evidence."
+          }
+        ],
+        "route_steps": [
+          {
+            "label": "Disperse GO/CNT by ultrasonication",
+            "equipment_category_ids": [
+              "M09",
+              "M10"
+            ],
+            "scope": "Ultrasonication reported, probe versus bath not specified; do not assert both required."
+          },
+          {
+            "label": "Dissolve PVDF-HFP under magnetic stirring",
+            "equipment_category_ids": [
+              "M02"
+            ]
+          },
+          {
+            "label": "Horizontal electrospinning and mat collection",
+            "equipment_category_ids": [
+              "M26"
+            ]
+          }
+        ],
+        "material": "GO/CNT-loaded PVDF-HFP fibrous nanocomposite mats; maps N05,N07,N08",
+        "catalog_comparison": "Linari manufacturer already represented; exact apparatus cannot be equated with existing RT Advanced. Supports a generic/unspecified-model record or class evidence and standalone electrospinning process."
+      },
+      {
+        "doi": "10.1063/5.0100657",
+        "parent_doi": "10.1021/acs.nanolett.4c01850",
+        "parent_locator": "Supporting Information reference8 cites arXiv2206.15320v1 (same work later published)",
+        "source_url": "https://pure.tue.nl/ws/portalfiles/portal/257465755/5.0100657.pdf",
+        "cited_version_url": "https://arxiv.org/html/2206.15320v1",
+        "locator": "Published article p182407-2 (repository PDF page4), Figure1",
+        "methods_paraphrase": "DC magnetron sputtering forms sacrificial Cu and SAF multilayers; spin-coated resist is patterned using a custom manual SCIL station. RIE and Ar-ion milling transfer the pattern; resist removal, sonication and Cu-layer dissolution release magnetic nanoplatelets. No instrument commercial models named.",
+        "equipment": [
+          {
+            "manufacturer": "Custom research apparatus; Eindhoven University of Technology",
+            "model_name": "Custom manual SCIL imprint station (Li2022)",
+            "category_id": "M60",
+            "scope": "Explicit custom station, not the catalog AutoSCIL or LabSCIL commercial models."
+          },
+          {
+            "manufacturer": "Not reported",
+            "model_name": "Argon ion-beam milling apparatus",
+            "category_id": "M61",
+            "scope": "Generic reported etching apparatus; Ar-ion milling not specifically represented by an instrument record."
+          }
+        ],
+        "route_steps": [
+          {
+            "label": "Sputter Cu sacrificial layer and SAF multilayer",
+            "equipment_category_ids": [
+              "M23"
+            ]
+          },
+          {
+            "label": "Spin-coat resist",
+            "equipment_category_ids": [
+              "M24"
+            ]
+          },
+          {
+            "label": "Custom SCIL imprint and hotplate bake",
+            "equipment_category_ids": [
+              "M60",
+              "M02"
+            ],
+            "scope": "Hotplate reported; magnetic stirring not implied."
+          },
+          {
+            "label": "Reactive-ion etch resist",
+            "equipment_category_ids": [
+              "M61"
+            ]
+          },
+          {
+            "label": "Ar-ion beam mill multilayer",
+            "equipment_category_ids": [
+              "M61"
+            ]
+          },
+          {
+            "label": "Wet remove resist",
+            "equipment_category_ids": [
+              "M61"
+            ]
+          },
+          {
+            "label": "Sonicate to remove redeposition",
+            "equipment_category_ids": [
+              "M10"
+            ],
+            "scope": "Sonication reported, apparatus type not identified."
+          },
+          {
+            "label": "Dissolve sacrificial Cu to release nanoplatelets",
+            "equipment_category_ids": [
+              "M61"
+            ]
+          }
+        ],
+        "material": "Synthetic antiferromagnetic metallic multilayer nanoplatelets, including120nm; mapsN01,N09",
+        "catalog_comparison": "Maps existing lithographyP06, wetetchP13 and dryetchP14; no new process is necessary. Add customM60 apparatus and optionally genericM61 ion-beam mill. Commercial AutoSCIL/LabSCIL exist but cannot inherit exact article validation.",
+        "metadata_warning": "Repository landing metadata incorrectly says article182406; the publisher PDF consistently states182407. Check publisher/Crossref before import."
+      }
+    ],
+    "additional_checked_not_selected": [
+      {
+        "doi": "10.1038/srep45997",
+        "parent_doi": "10.1021/acs.nanolett.4c01850",
+        "parent_locator": "Main reference32",
+        "source_url": "https://www.nature.com/articles/srep45997",
+        "reason": "Full text Methods reports Schlenk-line inert atmosphere decomposition, without commercial synthesis equipment models. Relevant but offers no further apparatus beyond existingM27. Explicitly named JEOL/Nion microscopes are characterization, excluded."
+      }
+    ],
+    "access_limits": [
+      {
+        "doi": "10.1016/j.onano.2023.100133",
+        "parent_locator": "Gomes Souza reference480",
+        "result": "Publisher403, no primary full methods obtained; abstract names laser ablation/ultrasonication/centrifugation/filtration, no specific model verified. Do not ingest make/model."
+      },
+      {
+        "doi": "10.1002/aenm.202203925",
+        "parent_locator": "Gomes Souza reference477",
+        "result": "Publisher abstract available but supporting methodsPDF403; no manufacturing model verified."
+      },
+      {
+        "doi": "10.1177/08927057221118823",
+        "parent_locator": "Gomes Souza reference473",
+        "result": "Publisher abstract only obtained. Hydrothermal preparation/melt mixing support broad topic but no instrument identity verified."
+      },
+      {
+        "doi": "10.1016/j.matchemphys.2022.126864",
+        "parent_locator": "Gomes Souza reference471",
+        "result": "Publisher excerpts only. Friction-stir nanocomposite processing is potentially a missing route, but specific apparatus/sequence full methods unavailable; defer."
+      },
+      {
+        "doi": "10.1021/acsphotonics.3c00123",
+        "parent_locator": "Magnetization main reference33",
+        "result": "Publisher and institutional full-text endpoint403. Did not use as source for manufacturing apparatus."
+      }
+    ],
+    "exclusions": "Pure characterization instruments and commercial purchased nanoparticles were not counted as manufacturing equipment. Do not infer commercial model from a manufacturer or shared process capability."
+  },
+  "ml_screen": {
+    "review_date": "2026-10-16",
+    "scope": {
+      "parent_bibliographies": [
+        {
+          "doi": "10.3390/make8010010",
+          "numbered_references": 65
+        },
+        {
+          "doi": "10.1007/s11051-025-06472-2",
+          "numbered_references": 384
+        }
+      ],
+      "approach": "Targeted screening of manufacturing-related references, not an exhaustive full-text audit of all 449 numbered entries. Mim et al. (2025) has duplicate citations (e.g. 147/149, 148/164); numbered count is not unique-paper count.",
+      "primary_fulltexts_screened": 6,
+      "recommended_primary_studies": 3
+    },
+    "findings": [
+      {
+        "doi": "10.1038/s41598-024-82728-6",
+        "title": "Machine learning integrated with in vitro experiments for study of drug release from PLGA nanoparticles",
+        "publication_year": 2025,
+        "parent_doi": "10.1007/s11051-025-06472-2",
+        "parent_locator": "Reference 307, PDF page 49",
+        "source_url": "https://www.nature.com/articles/s41598-024-82728-6",
+        "locator": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+        "methods_paraphrase": "Antibiotic-loaded PLGA particles were made by double-emulsion solvent evaporation. The drug/polymer/PVA dispersion was sonicated with Fisherbrand Model 505, then added to aqueous PVA; solvent evaporation yielded particles. The study includes nano- and microparticles, so nanoparticle claims must remain size-qualified.",
+        "equipment": [
+          {
+            "manufacturer": "Fisherbrand",
+            "model_name": "Fisherbrand Model 505 Sonic Dismembrator",
+            "category_id": "M09",
+            "scope": "Exact manufacturing model reported; missing from catalog. Article does not identify the installed probe configuration.",
+            "existing_equipment_id": null,
+            "product_url": "https://www.fishersci.com/shop/products/fisher-scientific-model-505-sonic-dismembrator-4/p-3974677",
+            "technical_spec_url": "https://www.fishersci.com/content/dam/fssite/eu/brands/f/22640---fisherbrand/Sonic_Dismembrator.pdf"
+          }
+        ],
+        "proposed_process": "Double-emulsion / solvent-evaporation nanoparticle synthesis",
+        "route_match": "Missing process-level route; N05 already covers polymeric nanoparticles. Do not misclassify as P04 reverse-micelle microemulsion.",
+        "route_steps": [
+          {
+            "label": "Prepare polymer and drug phases",
+            "equipment_category_ids": []
+          },
+          {
+            "label": "Ultrasonically emulsify the dispersion",
+            "equipment_category_ids": [
+              "M09"
+            ]
+          },
+          {
+            "label": "Disperse into aqueous stabilizer phase",
+            "equipment_category_ids": []
+          },
+          {
+            "label": "Evaporate solvent and obtain particles",
+            "equipment_category_ids": []
+          }
+        ],
+        "material": "N05: antibiotic-loaded PLGA nanoparticles",
+        "excluded_characterization": "Malvern Zetasizer Nano ZS, JEOL JSM-6500F and Agilent Cary 4000 are characterization-only here; excluded."
+      },
+      {
+        "doi": "10.1002/adfm.202312561",
+        "title": "Bespoke Metal Nanoparticle Synthesis at Room Temperature and Discovery of Chemical Knowledge on Nanoparticle Growth via Autonomous Experimentations",
+        "publication_year": 2024,
+        "parent_doi": "10.1007/s11051-025-06472-2",
+        "parent_locator": "Reference 151, PDF page 43 cites the 2023 preprint 10.48550/arXiv.2309.00349",
+        "source_url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adfm.202312561",
+        "locator": "Sections 2.2 Hardware Setting and Automation; 4 Experimental Section > Batch Synthesis; exact models: cited preprint supporting information Figures S1, S2b, S2c-1 (arXiv combined PDF pages 33,37,38; SI pages 4,8,9)",
+        "methods_paraphrase": "Robotic handling, reagent dispensing and stirring create aqueous silver nanoparticles at room temperature. The arm loads vessels; a pump doses reagents; stirring supports reduction, then the arm transfers finished samples for optical feedback.",
+        "equipment": [
+          {
+            "manufacturer": "Tecan",
+            "model_name": "Tecan Cavro Centris",
+            "category_id": "M07",
+            "scope": "New exact pump, reported with 5 mL syringes and 3-port valves. OEM module, not a complete turnkey synthesizer.",
+            "existing_equipment_id": null,
+            "product_url": "https://partnering.tecan.com/cavro-centris-pump-for-oem-liquid-handling",
+            "technical_spec_url": "https://www.tecan.com/hubfs/HubDB/Te-DocDB/pdf/BR_PB_OEM_CP_Cavro_Centris_Pump_395529_V3-0.pdf"
+          },
+          {
+            "manufacturer": "IKA",
+            "model_name": "IKA RET control-visc",
+            "category_id": "M02",
+            "scope": "Existing model used for synthesis stirring.",
+            "existing_equipment_id": "M02-05"
+          },
+          {
+            "manufacturer": "Doosan",
+            "model_name": "Doosan Robotics Manipulator M0609",
+            "category_id": "M62",
+            "scope": "Existing Purdue-listed model reported in a separate Korean study; no assertion about Purdue configuration.",
+            "existing_equipment_id": "REQ-EQ-020"
+          },
+          {
+            "manufacturer": "OnRobot",
+            "model_name": "OnRobot RG2",
+            "category_id": "M62",
+            "scope": "New gripper attached to M0609; accessory rather than standalone robot.",
+            "existing_equipment_id": null
+          }
+        ],
+        "proposed_process": "Aqueous batch chemical reduction of metal nanoparticles",
+        "route_match": "Missing explicit process route; N01 exists. P04 is reverse-micelle synthesis, chemically distinct.",
+        "route_steps": [
+          {
+            "label": "Place vessel in synthesis station",
+            "equipment_category_ids": [
+              "M62"
+            ]
+          },
+          {
+            "label": "Dispense and mix aqueous precursors",
+            "equipment_category_ids": [
+              "M07",
+              "M02"
+            ]
+          },
+          {
+            "label": "Add metal precursor and stir to form nanoparticles",
+            "equipment_category_ids": [
+              "M07",
+              "M02"
+            ]
+          },
+          {
+            "label": "Transfer product for optical feedback",
+            "equipment_category_ids": [
+              "M62"
+            ]
+          }
+        ],
+        "material": "N01: silver nanoparticles",
+        "evidence_version_note": "Published main text read directly. Publisher SI download returned 403. Exact hardware names read from original cited preprint SI and independently corroborated by the authors BatchSynthesisModule repository. Add the used preprint as a separate linked version in the library if attributing these exact-model claims.",
+        "version_doi": "10.48550/arXiv.2309.00349",
+        "version_source_url": "https://arxiv.org/pdf/2309.00349",
+        "author_hardware_repository": "https://github.com/KIST-CSRC/BatchSynthesisModule"
+      },
+      {
+        "doi": "10.1002/smtd.202301763",
+        "title": "Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation",
+        "publication_year": 2024,
+        "parent_doi": "10.1007/s11051-025-06472-2",
+        "parent_locator": "Reference 150, PDF page 43",
+        "source_url": "https://www.osti.gov/pages/servlets/purl/2438990",
+        "locator": "Accepted manuscript PDF page 23, Methods > Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics. Automated platform discussion and Figure 2 establish custom Auto-PLD.",
+        "methods_paraphrase": "Ultrathin WSe2 films were grown by co-ablating WSe2 and selenium targets with a KrF excimer source in a custom automated PLD chamber, using controlled argon conditions and laser-heated substrates.",
+        "equipment": [
+          {
+            "manufacturer": "Coherent",
+            "model_name": "Coherent LPX 305F",
+            "category_id": "M56",
+            "scope": "Exact 248 nm KrF excimer source used for target ablation, not a standalone PLD machine. Missing model.",
+            "existing_equipment_id": null
+          },
+          {
+            "manufacturer": "Custom research apparatus (ORNL)",
+            "model_name": "ORNL Auto-PLD dual-target deposition platform",
+            "category_id": "M48",
+            "scope": "Custom reported apparatus, not a commercial make/model and no inferred MSRP. Includes multi-substrate exchange wheel.",
+            "existing_equipment_id": null
+          }
+        ],
+        "proposed_process": "Pulsed laser deposition of nanoscale films",
+        "route_match": "M48 exists but explicit PLD manufacturing route is missing; N09 applies. Distinct from P03 laser-ablation nanoparticle collection.",
+        "route_steps": [
+          {
+            "label": "Clean and prepare substrates",
+            "equipment_category_ids": [
+              "M10"
+            ]
+          },
+          {
+            "label": "Load substrates and establish vacuum / gas environment",
+            "equipment_category_ids": [
+              "M48",
+              "M32"
+            ]
+          },
+          {
+            "label": "Heat substrate and ablate targets to deposit film",
+            "equipment_category_ids": [
+              "M48",
+              "M56"
+            ]
+          },
+          {
+            "label": "Finish deposition using thickness feedback",
+            "equipment_category_ids": [
+              "M48"
+            ]
+          }
+        ],
+        "material": "N09: ultrathin WSe2 films",
+        "scope_note": "M10 bath and M32 gas-controller categories are reported apparatus functions without named models; do not assert any existing commercial example was the device used. Characterization-only camera, oscilloscope and Raman source excluded."
+      }
+    ],
+    "screened_reserves": [
+      {
+        "doi": "10.1038/s41524-021-00520-w",
+        "parents": [
+          {
+            "doi": "10.3390/make8010010",
+            "ref": 54
+          },
+          {
+            "doi": "10.1007/s11051-025-06472-2",
+            "ref": 146
+          },
+          {
+            "doi": "10.1007/s11051-025-06472-2",
+            "ref": 28
+          }
+        ],
+        "locator": "Methods > Experimental design",
+        "finding": "Silver nanoparticles synthesized in a droplet microfluidic assembly. Syringe-pump make/model unspecified. Named IDEX 9-port PEEK manifold and Hamilton glass syringes are components. Reserve: weaker fit for adding a named manufacturing instrument; future microfluidic route evidence.",
+        "decision": "Included after full Methods review: custom assembly or previously missing process; no guessed commercial model."
+      },
+      {
+        "doi": "10.1038/s41524-021-00629-y",
+        "parents": [
+          {
+            "doi": "10.3390/make8010010",
+            "ref": 59
+          }
+        ],
+        "locator": "Methods > CNT growth in ARES",
+        "finding": "Custom ARES apparatus uses a Verdi 6 W 532 nm laser for localized CNT synthesis heating and Raman excitation; ALD alumina and magnetron-sputtered Co prepare catalyst micropillars. Strong reserve for a laser-assisted CVD route, but retained as reserve to cap final recommendations at three studies. No commercial complete-reactor model stated.",
+        "decision": "Promoted to included study after root review of full Methods; adds ARES and P21."
+      },
+      {
+        "doi": "10.48550/arXiv.2210.09783",
+        "parents": [
+          {
+            "doi": "10.1007/s11051-025-06472-2",
+            "ref": 148
+          },
+          {
+            "doi": "10.1007/s11051-025-06472-2",
+            "ref": 164
+          }
+        ],
+        "locator": "Section 4.1 Synthesis",
+        "finding": "Ligand-assisted reprecipitation of perovskite nanoplatelets using stirring, antisolvent addition and centrifugation; no manufacturing-instrument model named. HORIBA fluorometer is characterization-only. Excluded from final recommendations for weaker equipment identity.",
+        "decision": "Included after full Methods review: custom assembly or previously missing process; no guessed commercial model."
+      }
+    ],
+    "other_exclusions": [
+      {
+        "doi": "10.1016/j.matt.2023.01.018",
+        "parent_doi": "10.3390/make8010010",
+        "parent_ref": 55,
+        "reason": "Perspective/review, not a primary experimental equipment claim."
+      }
+    ],
+    "limitations": [
+      "Not all references in both parent articles were full-text screened.",
+      "Do not treat absent precise models as proof that an equipment class is absent.",
+      "Proposed sequences are literature-backed conceptual routes, not operational SOPs; omit numerical settings from general process template.",
+      "Manufacturer documentation confirms product identity/configuration only; it is not a substitute for the cited study evidence.",
+      "No new MSRP values or current availability claims were established."
+    ]
+  },
+  "additional_studies": [
+    {
+      "doi": "10.1098/rsos.171884",
+      "parent_doi": "10.1016/j.impact.2025.100602",
+      "parent_locator": "References: Ellis et al. (2018), PDF page 19",
+      "source_url": "https://pure-oai.bham.ac.uk/ws/files/53751449/Ellis_et_al_Synthesis_and_characterization_Royal_Society_Open_Science_2018.pdf",
+      "locator": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+      "methods_paraphrase": "PTFE-lined Parr vessels are used to hydrothermally prepare Hf/Zr-doped titania and Hf-doped zirconia, followed by washing, centrifugation and oven drying. No autoclave model or capacity is reported."
+    },
+    {
+      "doi": "10.1038/s41524-021-00629-y",
+      "parent_doi": "10.3390/make8010010",
+      "parent_locator": "Reference 59, PDF page 21",
+      "source_url": "https://www.nature.com/articles/s41524-021-00629-y",
+      "locator": "Methods: CNT growth in ARES; Results: SWCNT growth",
+      "methods_paraphrase": "The custom ARES cold-wall CVD system grows single-walled carbon nanotubes on catalyst-coated micropillars, using a Verdi laser for localized heating and controlled growth gases. The laser is also used for feedback; its role here includes manufacturing, not only characterization."
+    },
+    {
+      "doi": "10.1038/s41524-021-00520-w",
+      "parent_doi": "10.3390/make8010010",
+      "parent_locator": "Reference54; also Mim et al.2025 references28/146",
+      "source_url": "https://www.nature.com/articles/s41524-021-00520-w",
+      "locator": "Methods: Experimental design; Figure1",
+      "decision": "Added custom M08 assembly and P22"
+    },
+    {
+      "doi": "10.48550/arxiv.2210.09783",
+      "parent_doi": "10.1007/s11051-025-06472-2",
+      "parent_locator": "References148/164 (duplicate citation)",
+      "source_url": "https://arxiv.org/abs/2210.09783",
+      "locator": "Preprint section4.1 Synthesis, PDF p.9",
+      "decision": "Added P23 plus class-level M13 evidence; no unreported commercial equipment model assigned"
+    }
+  ],
+  "new_reference_ids": [
+    "REF-20E3C9CDA0A8",
+    "REF-9A8ACDF7DC3D",
+    "REF-CB807EB452AB",
+    "REF-9843819D5591",
+    "REF-D0CCF2644737",
+    "REF-AE397253458C",
+    "REF-1110175424B9",
+    "REF-6FAA7B96669B",
+    "REF-0D7D4A923858",
+    "REF-3FA6AA8B06E0",
+    "REF-A18B8DB1ADFC"
+  ],
+  "new_equipment_ids": [
+    "LIT-M05-ELLIS2018",
+    "LIT-M26-SCAFFARO2022",
+    "LIT-M26-SCAFFARO2024",
+    "LIT-M60-LI2022",
+    "LIT-M61-LI2022",
+    "LIT-M09-SUN2025",
+    "LIT-M07-YOO2023",
+    "LIT-M62-YOO2023-RG2",
+    "LIT-M56-HARRIS2024",
+    "LIT-M48-HARRIS2024",
+    "LIT-M21-RAO2021",
+    "LIT-M08-MEKKI2021"
+  ],
+  "new_route_ids": [
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20",
+    "P21",
+    "P22",
+    "P23"
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M02-05",
+      "model_name": "IKA RET control-visc",
+      "manufacturer": "IKA",
+      "before": {
+        "related_process_ids": "P04;P05;P06;P08;P09;P10;P11",
+        "related_process_types": "Microemulsion / reverse-micelle synthesis;Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Surface modification and functionalization;Nanoscale self-assembly;Biological / biosystem-assisted synthesis;Thermal conversion / pyrolysis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Sol-gel condensation with optional templating;Illustrative inert-atmosphere solution synthesis;Nanoprecipitation or emulsion / solvent removal;Microfluidic assembly or film hydration / extrusion;Liquid exfoliation or catalytic CVD;Electrospinning with optional thermal conversion;Solution coating, vapor deposition or interfacial transfer",
+        "related_material_ids": "N01;N02;N03;N04;N05;N06;N07;N08;N09",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Silica nanoparticles;Semiconductor nanocrystals;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Carbon nanomaterials;Nanofibers;Nanofilms and nanoscale coatings",
+        "notes": "Official safety flyer is model evidence only, not operator manual. Analog C-MAG HS models are distinct from digital variants. Review 2026-10-14: Official manufacturer list price found for RET control-visc article 0005020001. This is not explicitly MSRP.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established"
+      },
+      "after": {
+        "related_process_ids": "P04;P05;P06;P08;P09;P10;P11;P18",
+        "related_process_types": "Microemulsion / reverse-micelle synthesis;Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Surface modification and functionalization;Nanoscale self-assembly;Biological / biosystem-assisted synthesis;Thermal conversion / pyrolysis;Robot-assisted aqueous silver nanoparticle synthesis",
+        "related_material_ids": "N01;N02;N03;N04;N05;N06;N07;N08;N09",
+        "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Silica nanoparticles;Semiconductor nanocrystals;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Carbon nanomaterials;Nanofibers;Nanofilms and nanoscale coatings",
+        "notes": "Official safety flyer is model evidence only, not operator manual. Analog C-MAG HS models are distinct from digital variants. Review 2026-10-14: Official manufacturer list price found for RET control-visc article 0005020001. This is not explicitly MSRP. Citation sweep: IKA RET control-visc stirrer reported for silver nanoparticle synthesis in Yoo2023 preprint SI; published study DOI 10.1002/adfm.202312561. Model-level evidence only; no identification of any Purdue unit, serial number or installed configuration.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established Additional P18 model-use evidence: 10.48550/arxiv.2309.00349 SI; no Purdue unit/configuration inference."
+      }
+    },
+    {
+      "equipment_id": "REQ-EQ-020",
+      "model_name": "Doosan Robotics Manipulator M0609",
+      "manufacturer": "Doosan",
+      "before": {
+        "related_process_ids": "",
+        "related_process_types": "Robotic manipulation;Machine tending",
+        "related_material_ids": "",
+        "related_material_types": "Indirect handling of contained material samples; no material-specific manufacturing capability established",
+        "notes": "Match installed controller/software version to manual. Online operating manual, not support portal. Includes safety, startup, installation and user operation sections.",
+        "association_basis": "curated supplement; material/process links are proposed context, not verified model capability"
+      },
+      "after": {
+        "related_process_ids": "P18",
+        "related_process_types": "Robot-assisted aqueous silver nanoparticle synthesis",
+        "related_material_ids": "N01",
+        "related_material_types": "Metal nanoparticles",
+        "notes": "Match installed controller/software version to manual. Online operating manual, not support portal. Includes safety, startup, installation and user operation sections. Citation sweep: Doosan M0609 manipulator reported for silver nanoparticle synthesis in Yoo2023 preprint SI; published study DOI 10.1002/adfm.202312561. Model-level evidence only; no identification of any Purdue unit, serial number or installed configuration.",
+        "association_basis": "curated supplement; material/process links are proposed context, not verified model capability Additional P18 model-use evidence: 10.48550/arxiv.2309.00349 SI; no Purdue unit/configuration inference."
+      }
+    }
+  ],
+  "limitations": [
+    "Characterization-only instruments excluded.",
+    "Unknown models, probe configurations and oven types were not replaced with guessed commercial products.",
+    "Yoo published and preprint versions are separate reference records for one study; exact hardware claims are linked to the checked preprint SI.",
+    "Source PDFs and extracted full text remain local; only curated metadata, facts and evidence links are published.",
+    "No MSRP or current-model availability assertions were added.",
+    "Citation screening and blocked full texts are recorded; deferred candidates remain excluded."
+  ]
+}

@@ -211,6 +211,44 @@
     }
   },
   {
+    "id": "REF-20E3C9CDA0A8",
+    "type": "article-journal",
+    "title": "Synthesis and characterization of Zr- and Hf-doped nano-TiO 2 as internal standards for analytical quantification of nanomaterials in complex matrices",
+    "author": [
+      {
+        "family": "Ellis",
+        "given": "Laura-Jayne A."
+      },
+      {
+        "family": "Papadiamantis",
+        "given": "Anastasios G."
+      },
+      {
+        "family": "Weigel",
+        "given": "Stefan"
+      },
+      {
+        "family": "Valsami-Jones",
+        "given": "Eugenia"
+      }
+    ],
+    "container-title": "Royal Society Open Science",
+    "volume": "5",
+    "issue": "6",
+    "article-number": "171884",
+    "DOI": "10.1098/rsos.171884",
+    "URL": "https://doi.org/10.1098/rsos.171884",
+    "page": "171884",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-97E9BC69EB00",
     "type": "article-journal",
     "title": "Building an International Consensus on Multi-Disciplinary Metadata Standards: A CODATA Case History in Nanotechnology",
@@ -239,6 +277,136 @@
       "date-parts": [
         [
           2019
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-3FA6AA8B06E0",
+    "type": "article-journal",
+    "title": "Two-step machine learning enables optimized nanoparticle synthesis",
+    "author": [
+      {
+        "family": "Mekki-Berrada",
+        "given": "Flore"
+      },
+      {
+        "family": "Ren",
+        "given": "Zekun"
+      },
+      {
+        "family": "Huang",
+        "given": "Tan"
+      },
+      {
+        "family": "Wong",
+        "given": "Wai Kuan"
+      },
+      {
+        "family": "Zheng",
+        "given": "Fang"
+      },
+      {
+        "family": "Xie",
+        "given": "Jiaxun"
+      },
+      {
+        "family": "Tian",
+        "given": "Isaac Parker Siyu"
+      },
+      {
+        "family": "Jayavelu",
+        "given": "Senthilnath"
+      },
+      {
+        "family": "Mahfoud",
+        "given": "Zackaria"
+      },
+      {
+        "family": "Bash",
+        "given": "Daniil"
+      },
+      {
+        "family": "Hippalgaonkar",
+        "given": "Kedar"
+      },
+      {
+        "family": "Khan",
+        "given": "Saif"
+      },
+      {
+        "family": "Buonassisi",
+        "given": "Tonio"
+      },
+      {
+        "family": "Li",
+        "given": "Qianxiao"
+      },
+      {
+        "family": "Wang",
+        "given": "Xiaonan"
+      }
+    ],
+    "container-title": "npj Computational Materials",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "55",
+    "DOI": "10.1038/s41524-021-00520-w",
+    "URL": "https://doi.org/10.1038/s41524-021-00520-w",
+    "page": "55",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          4,
+          20
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-6FAA7B96669B",
+    "type": "article-journal",
+    "title": "Advanced machine learning decision policies for diameter control of carbon nanotubes",
+    "author": [
+      {
+        "family": "Rao",
+        "given": "Rahul"
+      },
+      {
+        "family": "Carpena-Núñez",
+        "given": "Jennifer"
+      },
+      {
+        "family": "Nikolaev",
+        "given": "Pavel"
+      },
+      {
+        "family": "Susner",
+        "given": "Michael A."
+      },
+      {
+        "family": "Reyes",
+        "given": "Kristofer G."
+      },
+      {
+        "family": "Maruyama",
+        "given": "Benji"
+      }
+    ],
+    "container-title": "npj Computational Materials",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "157",
+    "DOI": "10.1038/s41524-021-00629-y",
+    "URL": "https://doi.org/10.1038/s41524-021-00629-y",
+    "page": "157",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          1
         ]
       ]
     }
@@ -313,6 +481,190 @@
         ]
       ]
     }
+  },
+  {
+    "id": "REF-9A8ACDF7DC3D",
+    "type": "article-journal",
+    "title": "Wet electrospinning-aided self-assembly of multifunctional GO-CNT@PCL core-shell nanocomposites with spider leg bioinspired hierarchical architectures",
+    "author": [
+      {
+        "family": "Scaffaro",
+        "given": "Roberto"
+      },
+      {
+        "family": "Gammino",
+        "given": "Michele"
+      },
+      {
+        "family": "Maio",
+        "given": "Andrea"
+      }
+    ],
+    "container-title": "Composites Science and Technology",
+    "volume": "221",
+    "article-number": "109363",
+    "DOI": "10.1016/j.compscitech.2022.109363",
+    "URL": "https://doi.org/10.1016/j.compscitech.2022.109363",
+    "page": "109363",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-A18B8DB1ADFC",
+    "type": "article",
+    "title": "Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis",
+    "author": [
+      {
+        "given": "Carola",
+        "family": "Lampe"
+      },
+      {
+        "given": "Ioannis",
+        "family": "Kouroudis"
+      },
+      {
+        "given": "Milan",
+        "family": "Harth"
+      },
+      {
+        "given": "Stefan",
+        "family": "Martin"
+      },
+      {
+        "given": "Alessio",
+        "family": "Gagliardi"
+      },
+      {
+        "given": "Alexander S.",
+        "family": "Urban"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2210.09783",
+    "URL": "https://arxiv.org/abs/2210.09783",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          18
+        ]
+      ]
+    },
+    "genre": "Preprint"
+  },
+  {
+    "id": "REF-9843819D5591",
+    "type": "article-journal",
+    "title": "Substrate conformal imprint fabrication process of synthetic antiferromagnetic nanoplatelets",
+    "author": [
+      {
+        "family": "Li",
+        "given": "J."
+      },
+      {
+        "family": "van Nieuwkerk",
+        "given": "P."
+      },
+      {
+        "family": "Verschuuren",
+        "given": "M. A."
+      },
+      {
+        "family": "Koopmans",
+        "given": "B."
+      },
+      {
+        "family": "Lavrijsen",
+        "given": "R."
+      }
+    ],
+    "container-title": "Applied Physics Letters",
+    "volume": "121",
+    "issue": "18",
+    "article-number": "182407",
+    "DOI": "10.1063/5.0100657",
+    "URL": "https://doi.org/10.1063/5.0100657",
+    "page": "182407",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-0D7D4A923858",
+    "type": "article",
+    "title": "Bespoke Nanoparticle Synthesis and Chemical Knowledge Discovery Via Autonomous Experimentations",
+    "author": [
+      {
+        "given": "Hyuk Jun",
+        "family": "Yoo"
+      },
+      {
+        "given": "Nayeon",
+        "family": "Kim"
+      },
+      {
+        "given": "Heeseung",
+        "family": "Lee"
+      },
+      {
+        "given": "Daeho",
+        "family": "Kim"
+      },
+      {
+        "given": "Leslie Tiong Ching",
+        "family": "Ow"
+      },
+      {
+        "given": "Hyobin",
+        "family": "Nam"
+      },
+      {
+        "given": "Chansoo",
+        "family": "Kim"
+      },
+      {
+        "given": "Seung Yong",
+        "family": "Lee"
+      },
+      {
+        "given": "Kwan-Young",
+        "family": "Lee"
+      },
+      {
+        "given": "Donghun",
+        "family": "Kim"
+      },
+      {
+        "given": "Sang Soo",
+        "family": "Han"
+      }
+    ],
+    "container-title": "arXiv",
+    "DOI": "10.48550/arxiv.2309.00349",
+    "URL": "https://arxiv.org/abs/2309.00349",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          1
+        ]
+      ]
+    },
+    "genre": "Preprint"
   },
   {
     "id": "REF-7F0A9F422735",
@@ -478,6 +830,41 @@
     }
   },
   {
+    "id": "REF-CB807EB452AB",
+    "type": "article-journal",
+    "title": "Electrospun polymeric nanohybrids with outstanding pollutants adsorption and electroactivity for water treatment and sensing devices",
+    "author": [
+      {
+        "family": "Scaffaro",
+        "given": "Roberto"
+      },
+      {
+        "family": "Maio",
+        "given": "Andrea"
+      },
+      {
+        "family": "Gammino",
+        "given": "Michele"
+      }
+    ],
+    "container-title": "Advanced Composites and Hybrid Materials",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "13",
+    "DOI": "10.1007/s42114-023-00827-w",
+    "URL": "https://doi.org/10.1007/s42114-023-00827-w",
+    "page": "13",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          15
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-6EB15E9D0564",
     "type": "article-journal",
     "title": "A 30-Year Review on Nanocomposites: Comprehensive Bibliometric Insights into Microstructural, Electrical, and Mechanical Properties Assisted by Artificial Intelligence",
@@ -529,6 +916,132 @@
           2024,
           2,
           27
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-AE397253458C",
+    "type": "article-journal",
+    "title": "Bespoke Metal Nanoparticle Synthesis at Room Temperature and Discovery of Chemical Knowledge on Nanoparticle Growth via Autonomous Experimentations",
+    "author": [
+      {
+        "family": "Yoo",
+        "given": "Hyuk Jun"
+      },
+      {
+        "family": "Kim",
+        "given": "Nayeon"
+      },
+      {
+        "family": "Lee",
+        "given": "Heeseung"
+      },
+      {
+        "family": "Kim",
+        "given": "Daeho"
+      },
+      {
+        "family": "Ow",
+        "given": "Leslie Tiong Ching"
+      },
+      {
+        "family": "Nam",
+        "given": "Hyobin"
+      },
+      {
+        "family": "Kim",
+        "given": "Chansoo"
+      },
+      {
+        "family": "Lee",
+        "given": "Seung Yong"
+      },
+      {
+        "family": "Lee",
+        "given": "Kwan‐Young"
+      },
+      {
+        "family": "Kim",
+        "given": "Donghun"
+      },
+      {
+        "family": "Han",
+        "given": "Sang Soo"
+      }
+    ],
+    "container-title": "Advanced Functional Materials",
+    "volume": "34",
+    "issue": "27",
+    "article-number": "2312561",
+    "DOI": "10.1002/adfm.202312561",
+    "URL": "https://doi.org/10.1002/adfm.202312561",
+    "page": "2312561",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          3,
+          6
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-1110175424B9",
+    "type": "article-journal",
+    "title": "Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation",
+    "author": [
+      {
+        "family": "Harris",
+        "given": "Sumner B."
+      },
+      {
+        "family": "Biswas",
+        "given": "Arpan"
+      },
+      {
+        "family": "Yun",
+        "given": "Seok Joon"
+      },
+      {
+        "family": "Roccapriore",
+        "given": "Kevin M."
+      },
+      {
+        "family": "Rouleau",
+        "given": "Christopher M."
+      },
+      {
+        "family": "Puretzky",
+        "given": "Alexander A."
+      },
+      {
+        "family": "Vasudevan",
+        "given": "Rama K."
+      },
+      {
+        "family": "Geohegan",
+        "given": "David B."
+      },
+      {
+        "family": "Xiao",
+        "given": "Kai"
+      }
+    ],
+    "container-title": "Small Methods",
+    "volume": "8",
+    "issue": "9",
+    "article-number": "2301763",
+    "DOI": "10.1002/smtd.202301763",
+    "URL": "https://doi.org/10.1002/smtd.202301763",
+    "page": "2301763",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          28
         ]
       ]
     }
@@ -622,6 +1135,53 @@
           2024,
           12,
           14
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-D0CCF2644737",
+    "type": "article-journal",
+    "title": "Machine learning integrated with in vitro experiments for study of drug release from PLGA nanoparticles",
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Yu"
+      },
+      {
+        "family": "Qin",
+        "given": "Shuhuai"
+      },
+      {
+        "family": "Li",
+        "given": "Yingli"
+      },
+      {
+        "family": "Hasan",
+        "given": "Naimul"
+      },
+      {
+        "family": "Li",
+        "given": "Yan Vivian"
+      },
+      {
+        "family": "Liu",
+        "given": "Jiangguo"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "15",
+    "issue": "1",
+    "article-number": "4218",
+    "DOI": "10.1038/s41598-024-82728-6",
+    "URL": "https://doi.org/10.1038/s41598-024-82728-6",
+    "page": "4218",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          2,
+          4
         ]
       ]
     }
