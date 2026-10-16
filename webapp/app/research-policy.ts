@@ -1,6 +1,6 @@
 import type {Equipment} from './catalog-lib.ts';
 
-export type ResearchUpdate={equipment_id:string;groups:{before:Partial<Record<string,string>>;after:Partial<Record<string,string>>}[]};
+export type ResearchUpdate={equipment_id:string;model_name?:string;manufacturer?:string;groups:{before:Partial<Record<string,string>>;after:Partial<Record<string,string>>}[]};
 
 function sharedOverrides(record:Equipment):string[]{
  try{const values=JSON.parse(record._shared_fields||'[]');return Array.isArray(values)?values.filter((value):value is string=>typeof value==='string'):[]}catch{return []}
@@ -11,7 +11,8 @@ export function withSharedResearchOverrides(record:Equipment,fields:string[]):Eq
 
 /** Refresh old seed snapshots while preserving edited fields and evidence groups. */
 export function refreshResearchEvidence(record:Equipment,updates:ResearchUpdate[],protectedFields:string[]=[]):Equipment{
- const update=updates.find(entry=>entry.equipment_id===record.equipment_id);
+ const identity=(value:string)=>(value||'').trim().toLowerCase();
+ const update=updates.find(entry=>entry.equipment_id===record.equipment_id&&(!entry.model_name||identity(entry.model_name)===identity(record.model_name))&&(!entry.manufacturer||identity(entry.manufacturer)===identity(record.manufacturer)));
  if(!update)return record;
  const result={...record},protectedSet=new Set([...sharedOverrides(record),...protectedFields]);
  for(const group of update.groups){

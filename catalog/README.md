@@ -9,6 +9,7 @@
 | equipment.csv | Main catalog: product families, variants, manuals, pricing fields and material/process relationships |
 | product_families.csv | Curated family/chip membership overlay, exact member identities, previous defaults, grouping source/basis and date; applied by the app seed builder |
 | product_family_review_2026-10-15.json | Review of 29 additional families and eight duplicate category profiles; 632 records retained in 535 cards |
+| submodel_photo_review_2026-10-15.json | Image review across 47 toggleable families: 81 profile additions for 78 sub-models, scoped sources, image checks and unresolved gaps |
 | categories.csv | Current M family labels, source/project origin, original source category names and source-PDF page/checksum |
 | category_aliases.csv | Retired X identifiers and their canonical M destinations; X-FILTER has two destinations |
 | requested_equipment.csv | All 44 requested occurrences, mapped to 44 highlighted equipment records after splitting the filtration-and-centrifuges requirement |

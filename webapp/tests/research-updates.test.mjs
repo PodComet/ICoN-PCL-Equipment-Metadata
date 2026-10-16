@@ -20,6 +20,39 @@ test('saved pre-review snapshots gain model links and sourced prices while resea
  assert.deepEqual(refreshResearchEvidence(refreshed,updates),refreshed);
 });
 
+test('alternate sub-models have independently sourced images and saved snapshots gain the right photo',()=>{
+ const added=updates.filter(entry=>entry.model_name&&entry.groups.some(group=>group.after.image_url));
+ assert.equal(added.length,81);
+ for(const update of added){
+  const record=seed.records.find(r=>r.equipment_id===update.equipment_id);
+  const group=update.groups.find(g=>g.after.image_url);
+  const saved={...record,...group.before,notes:'Keep my experimental notes'};
+  const refreshed=refreshResearchEvidence(saved,updates);
+  for(const field of ['image_url','image_source_url','image_scope','media_checked_date'])assert.equal(refreshed[field],record[field],record.equipment_id+' '+field);
+  assert.equal(refreshed.notes,saved.notes);
+  assert.deepEqual(refreshResearchEvidence(refreshed,updates),refreshed);
+ }
+ for(const ids of [['M10-01','M10-04','M10-05','M10-06'],['M16-02','M16-07','M16-08'],['M18-01','M18-04','M18-05']]){
+  const variants=ids.map(id=>seed.records.find(r=>r.equipment_id===id));
+  assert.ok(variants.every(r=>r.image_url&&r.image_source_url&&r.image_scope));
+  assert.equal(new Set(variants.map(r=>r.image_url)).size,ids.length,'Capacity/controller variants use their own photos when available');
+ }
+});
+
+test('new photo migrations preserve custom images, intentional clears and renamed model identities',()=>{
+ const record=seed.records.find(r=>r.equipment_id==='M10-06');
+ const update=updates.find(r=>r.equipment_id===record.equipment_id),group=update.groups.find(g=>g.after.image_url);
+ const saved={...record,...group.before};
+ for(const patch of [{model_name:'A different model'},{manufacturer:'Another manufacturer'}]){
+  const changed={...saved,...patch};assert.deepEqual(refreshResearchEvidence(changed,updates),changed);
+ }
+ const custom={...saved,image_url:'https://example.org/my-photo.jpg',image_source_url:'https://example.org/source',image_scope:'My photo'};
+ assert.equal(refreshResearchEvidence(custom,updates).image_url,custom.image_url);
+ assert.equal(refreshResearchEvidence(saved,updates,['image_url']).image_url,saved.image_url);
+ const cleared=withSharedResearchOverrides(saved,['image_url']);
+ assert.equal(refreshResearchEvidence(cleared,updates).image_url,'');
+});
+
 test('custom manual and price evidence are retained as complete groups',()=>{
  const snapshot={...old(),manual_url:'https://example.org/my-manual.pdf',manual_match_status:'not_verified',manufacturer_price_value:'777',manufacturer_price_source_url:'https://example.org/my-quote'};
  const refreshed=refreshResearchEvidence(snapshot,updates);
