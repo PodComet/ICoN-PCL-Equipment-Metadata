@@ -54,6 +54,15 @@ export function moveInstrument(workflow:ProcessWorkflow,fromId:string,toId:strin
  const instrument=from.instrument;
  return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(slot=>slot.slot_id===fromId?{...slot,instrument:null}:slot.slot_id===toId?{...slot,instrument}:slot)}))};
 }
+export function clearWorkflowEquipment(workflow:ProcessWorkflow):ProcessWorkflow{
+ return {...workflow,steps:workflow.steps.map(step=>({...step,slots:step.slots.map(slot=>({...slot,instrument:null}))}))};
+}
+export function processPhotoSources(record:Equipment,currentRecords:Equipment[]=[]):Equipment[]{
+ const identity=(value:string)=>(value||'').normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
+ const current=currentRecords.filter(r=>r.equipment_id===record.equipment_id&&identity(r.model_name)===identity(record.model_name)&&identity(r.manufacturer)===identity(record.manufacturer));
+ const seen=new Set<string>();
+ return [record,...current].filter(r=>{const url=safeUrl(r.image_url);if(!url||seen.has(url))return false;seen.add(url);return true;});
+}
 export function workflowBudget(steps:ProcessStep[]){
  const totals=new Map<string,{currency:string;low:number;high:number;estimated:boolean;manufacturer:boolean;quantity:number}>();let missing=0,assigned=0;
  for(const i of steps.flatMap(s=>s.slots).flatMap(s=>s.instrument?[s.instrument]:[])){

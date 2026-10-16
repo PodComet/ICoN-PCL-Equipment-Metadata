@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {assignInstrument,budgetLabel,createWorkflow,instrumentFor,moveInstrument,newSlot,priceSnapshot,routeCandidates,validateWorkflow,workflowBudget} from '../app/process-lib.ts';
+import {assignInstrument,budgetLabel,clearWorkflowEquipment,createWorkflow,instrumentFor,moveInstrument,newSlot,priceSnapshot,processPhotoSources,routeCandidates,validateWorkflow,workflowBudget} from '../app/process-lib.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const process=seed.routes.find(r=>r.route_id==='P03');
 const base={equipment_id:'TEST-M13',model_name:'Test centrifuge',manufacturer:'Test',category_id:'M13',legacy_category_ids:'X-FILTER',related_process_ids:'P03'};
@@ -62,4 +62,27 @@ test('invalid, duplicate, unknown and incompatible assignments cannot be saved',
   const w=make();mutate(w);assert.throws(()=>validateWorkflow(w,seed.routes,[record]));
  }
  const w=make();w.steps[0].slots[0].instrument.extensions=JSON.parse('{"__proto__":{"bad":true}}');assert.throws(()=>validateWorkflow(w,seed.routes,[record]),/property name/);
+});
+
+
+test('clear all empties assignments and costs while preserving workflow identity, custom steps and slot metadata',()=>{
+ let w=workflow();w.workflow_id='PROC-P03-'+crypto.randomUUID();w.notes='Keep these planning notes';w.extensions={future:{keep:true}};
+ w.steps[0].slots=[newSlot(['M13'],'Custom recovery slot'),newSlot(['M13'],'Backup')];w=assignInstrument(w,w.steps[0].slots[0].slot_id,record);
+ w.steps[0].notes='Keep the step notes';w.steps[0].slots[0].extensions={future_field:['keep']};w.steps[0].slots[0].instrument.configuration={volume:{value:250,unit:'mL'}};
+ const original=structuredClone(w),cleared=clearWorkflowEquipment(w);
+ assert.equal(cleared.workflow_id,w.workflow_id);assert.equal(cleared.name,w.name);assert.equal(cleared.notes,w.notes);assert.deepEqual(cleared.extensions,w.extensions);
+ assert.deepEqual(cleared.steps,w.steps.map(step=>({...step,slots:step.slots.map(slot=>({...slot,instrument:null}))})));
+ assert.deepEqual(w,original,'Clearing mutated the backup used for Undo');assert.equal(workflowBudget(cleared.steps).assigned,0);assert.equal(budgetLabel(workflowBudget(cleared.steps)),'$0');
+});
+test('process photos can refresh blank or broken old snapshots only from the same exact catalog identity',()=>{
+ const saved={...record,image_url:'',image_scope:'',image_source_url:''};
+ const current={...record,image_url:'https://example.org/current.png',image_scope:'Exact model photo',image_source_url:'https://example.org/model'};
+ assert.deepEqual(processPhotoSources(saved,[current]),[current]);assert.equal(saved.image_url,'');
+ assert.deepEqual(processPhotoSources(saved,[{...current,model_name:'Different model'}]),[]);
+ assert.deepEqual(processPhotoSources(saved,[{...current,manufacturer:'Different brand'}]),[]);
+ assert.deepEqual(processPhotoSources(saved,[{...current,equipment_id:'different-id'}]),[]);
+ const old={...saved,image_url:'https://example.org/older-photo.png'};
+ assert.deepEqual(processPhotoSources(old,[current]).map(p=>p.image_url),[old.image_url,current.image_url]);
+ assert.equal(processPhotoSources(current,[current]).length,1);
+ assert.deepEqual(processPhotoSources({...saved,image_url:'javascript:bad'},[]),[]);
 });
