@@ -5,6 +5,7 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 ## Features
 
 - 632 instrument/category records presented as 535 product-family cards with selectable sub-model chips. Curated membership comes from `catalog/product_families.csv`, joined by the seed builder. Model-specific evidence, prices, photographs and unit identifiers are never merged. Existing canonical instrument IDs remain stable.
+- A family box shows “Newer model available” whenever any matching sub-model has a confirmed successor, independent of selection. Its scope gives the number of affected sub-models; clicking the notice opens a confirmed model's details. Affected sub-model chips carry their own visible badges in the directory and detail view, including while unselected. Model-specific successor links and evidence remain on the selected model's detail view.
 - One chip represents an exact model listed in two categories; its detail view has a separate category-context selector. Filtering happens before grouping, so only matching sub-models and category contexts are shown. Evidence is read from the selected context, never promoted from another category.
 - Instrument cards with a photo appear before cards without photos, including after filtering. A newly opened card starts on a matching sub-model with a photo when available. Curated numeric chip order is stable; other chips retain their existing order.
 - Clickable equipment-type headings open the selected instrument detail card.

@@ -1,4 +1,5 @@
 import type {Equipment, CatalogRow} from './catalog-lib.ts';
+import {newerModel} from './model-lifecycle.ts';
 
 export type ProductFamilyRule = Record<string,string>;
 const identity=(value:string|undefined)=>(value||'').trim().toLowerCase();
@@ -43,4 +44,9 @@ export function modelVariants(rows:CatalogRow[]):ModelVariant[]{
 }
 export function variantContext(variant:ModelVariant,categoryId:string):CatalogRow {
  return variant.rows.find(row=>row.record.category_id===categoryId)||variant.rows[0];
+}
+
+/** Family notices include unselected models without copying their evidence. */
+export function variantsWithNewerModels(rows:CatalogRow[]):ModelVariant[]{
+ return modelVariants(rows).filter(variant=>variant.rows.some(row=>newerModel(row.record)));
 }

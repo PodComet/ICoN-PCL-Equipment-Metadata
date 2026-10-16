@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {applyProductFamily,independentVariant,modelVariants,variantContext} from '../app/product-family-policy.ts';
+import {applyProductFamily,independentVariant,modelVariants,variantContext,variantsWithNewerModels} from '../app/product-family-policy.ts';
 import {groupRows,filterRows,photoFirstGroups} from '../app/catalog-lib.ts';
 import {buildPlan,csvUpdateText} from '../app/csv-updates.ts';
 import {newerModel} from '../app/model-lifecycle.ts';
@@ -79,4 +79,27 @@ test('Purdue sub-models keep their exact inventory associations',()=>{
  const assets=[{equipment_id:'REQ-EQ-042',instrument_id:'PCL IIT - 042'},{equipment_id:'REQ-EQ-019',instrument_id:'PCL IIT - 019'}];
  for(const row of ur){assert.equal(row.record.purdue_list,'true');assert.equal(inventoryFor(assets,row.record.equipment_id).length,1)}
  assert.equal(inventoryFor(assets,'REQ-EQ-042')[0].instrument_id,'PCL IIT - 042');
+});
+
+test('all 21 affected families have a notice even when the default sub-model has no successor',()=>{
+ const affected=groupRows(rows).filter(group=>variantsWithNewerModels(group).length);
+ assert.equal(affected.length,21);
+ assert.equal(affected.reduce((count,group)=>count+variantsWithNewerModels(group).length,0),24);
+ for(const id of ['M08-01','M51-01']){
+  const group=family(id),before=structuredClone(group);
+  assert.equal(newerModel(record(id)),null);
+  assert.equal(variantsWithNewerModels(group).length,1);
+  assert.equal(modelVariants(group).length,2);
+  assert.deepEqual(group,before,'A family notice must not change the selected model evidence');
+ }
+ assert.equal(variantsWithNewerModels(family('M03-03')).length,0);
+});
+
+test('family notices count model chips once and respect matching category/model rows',()=>{
+ const original=record('M15-04');
+ const categoryCopy={...original,equipment_id:'alias-context',category_id:'M99'};
+ assert.equal(variantsWithNewerModels([{record:original,revision:0},{record:categoryCopy,revision:0}]).length,1);
+ assert.equal(variantsWithNewerModels(family('M51-01').filter(row=>row.record.equipment_id==='M51-01')).length,0);
+ const incomplete={...original,successor_evidence_url:''};
+ assert.equal(variantsWithNewerModels([{record:incomplete,revision:0}]).length,0);
 });
