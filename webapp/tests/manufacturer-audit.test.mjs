@@ -7,7 +7,7 @@ const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.met
 const equipment=id=>seed.records.find(r=>r.equipment_id===id);
 
 test('owner confirmations grant manufacturer stars without upgrading academic-adoption evidence',()=>{
- for(const manufacturer of ['BaltiCold','Radleys','Asynt','Chemglass','Buchi AG','Berghof','Amar','Genizer']){
+ for(const manufacturer of ['BaltiCold','Radleys','Asynt','Chemglass','Buchi AG','Berghof','Amar','Genizer','JASCO']){
   const brand=seed.manufacturers.find(b=>b.manufacturer===manufacturer);
   assert.equal(brand.verification_basis,'user_confirmation');
   assert.notEqual(brand.research_use_status,'documented_research_use');

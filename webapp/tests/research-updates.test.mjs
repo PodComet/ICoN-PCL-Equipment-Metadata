@@ -34,8 +34,9 @@ test('saved pre-review snapshots gain model links and sourced prices while resea
 
 test('alternate sub-models have independently sourced images and saved snapshots gain the right photo',()=>{
  const added=updates.filter(entry=>entry.model_name&&entry.groups.some(group=>group.after.image_url));
- assert.equal(added.filter(r=>r.manufacturer!=='Genizer').length,81);
+ assert.equal(added.filter(r=>!['Genizer','JASCO'].includes(r.manufacturer)).length,81);
  assert.equal(added.filter(r=>r.manufacturer==='Genizer').length,8);
+ assert.equal(added.filter(r=>r.manufacturer==='JASCO').length,2);
  for(const update of added){
   const record=seed.records.find(r=>r.equipment_id===update.equipment_id);
   const group=update.groups.find(g=>g.after.image_url);

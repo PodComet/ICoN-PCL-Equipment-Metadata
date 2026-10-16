@@ -1,0 +1,182 @@
+{
+  "review_date": "2026-10-16",
+  "provided_source_url": "https://jascoinc.com/",
+  "manufacturer_before": {
+    "manufacturer": "JASCO",
+    "official_website_url": "https://www.jasco-global.com/",
+    "brand_identity_status": "verified_manufacturer",
+    "research_use_status": "research_supplier_claim_only",
+    "research_evidence_url": "https://www.jasco-global.com/",
+    "verification_notes": "Official page title: JASCO Global | Spectroscopy and Chromatography Technology Independent research-use evidence not established in this bounded review; no claim of common adoption. Supplier describes research applications or installations; independent adoption evidence was not established.",
+    "review_date": "2026-10-13",
+    "verification_basis": "",
+    "display_name": "",
+    "vendor_name": "",
+    "company_status": "",
+    "company_status_note": "",
+    "company_status_source_url": ""
+  },
+  "manufacturer_after": {
+    "manufacturer": "JASCO",
+    "official_website_url": "https://jascoinc.com/",
+    "brand_identity_status": "verified_manufacturer",
+    "research_use_status": "research_supplier_claim_only",
+    "research_evidence_url": "https://jascoinc.com/",
+    "verification_notes": "Project owner explicitly confirms JASCO and requests its green star. Use https://jascoinc.com/ as the preferred manufacturer source for product identities, photographs, specifications and documents. Existing V-730 product page and historical FT/IR-4700 brochure checked. This brand confirmation does not establish independent academic adoption, model-specific process suitability, current availability or ownership.",
+    "review_date": "2026-10-16",
+    "verification_basis": "user_confirmation",
+    "display_name": "",
+    "vendor_name": "",
+    "company_status": "",
+    "company_status_note": "",
+    "company_status_source_url": ""
+  },
+  "equipment_updates": [
+    {
+      "equipment_id": "M35-10",
+      "model_name": "JASCO V-730",
+      "manufacturer": "JASCO",
+      "before": {
+        "record_kind": "model_candidate",
+        "model_status": "unverified_candidate",
+        "model_evidence_url": "",
+        "manual_status": "not_verified_in_research",
+        "manual_scope": "",
+        "documentation_url": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate only; exact model and manual coverage require verification. No ownership assertion.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": "",
+        "manual_lookup_url": "https://www.google.com/search?q=JASCO%20V-730%20operator%20manual"
+      },
+      "after": {
+        "record_kind": "commercial_model",
+        "model_status": "confirmed",
+        "model_evidence_url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/models/v-730-uv-vis-spectrophotometer/",
+        "manual_status": "not_found",
+        "manual_scope": "No model-specific operator manual verified in this review; official technical specifications and a manufacturer brochure are linked instead.",
+        "documentation_url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/specifications/",
+        "review_date": "2026-10-16",
+        "notes": "Model identity confirmed on the JASCO V-730 product page. Specifications and V-700 family brochure explicitly include V-730. No operator manual, exact MSRP, ownership or model-specific nanomaterial process capability was verified.",
+        "manual_match_status": "not_found",
+        "model_evidence_status": "documented",
+        "image_url": "https://jascoinc.com/wp-content/uploads/2017/04/jasco_inst.png",
+        "image_source_url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/models/v-730-uv-vis-spectrophotometer/",
+        "image_scope": "Manufacturer V-730 model photo; optional sampling accessories/configuration not implied.",
+        "technical_spec_url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/specifications/",
+        "media_checked_date": "2026-10-16",
+        "product_page_url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/models/v-730-uv-vis-spectrophotometer/",
+        "product_page_scope": "Official model-specific V-730 page. Optional accessories and V-730BIO configuration are not implied.",
+        "brochure_url": "https://jascoinc.com/wp-content/uploads/2018/05/V-700-Catalog.pdf",
+        "manual_lookup_url": "https://jascoinc.com/wp-content/uploads/2018/05/V-700-Catalog.pdf"
+      }
+    },
+    {
+      "equipment_id": "M36-10",
+      "model_name": "JASCO FT/IR-4700",
+      "manufacturer": "JASCO",
+      "before": {
+        "record_kind": "model_candidate",
+        "model_status": "unverified_candidate",
+        "model_evidence_url": "",
+        "manual_status": "not_verified_in_research",
+        "manual_scope": "",
+        "documentation_url": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate only; exact model and manual coverage require verification. No ownership assertion.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": "",
+        "manual_lookup_url": "https://www.google.com/search?q=JASCO%20FT/IR-4700%20operator%20manual"
+      },
+      "after": {
+        "record_kind": "commercial_model",
+        "model_status": "confirmed",
+        "model_evidence_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+        "manual_status": "not_found",
+        "manual_scope": "No model-specific operator manual verified in this review; official technical specifications and a manufacturer brochure are linked instead.",
+        "documentation_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+        "review_date": "2026-10-16",
+        "notes": "Historical JASCO FT/IR-4000/6000 brochure explicitly lists FT/IR-4700; official application note identifies the instrument in its photograph. Model is not renamed to the current X-series. Operator manual, exact MSRP, current availability, ownership and model-specific nanomaterial process suitability remain unverified.",
+        "manual_match_status": "not_found",
+        "model_evidence_status": "documented",
+        "image_url": "https://jascoinc.com/wp-content/uploads/2020/07/fig-4-phthalates-.jpg",
+        "image_source_url": "https://jascoinc.com/applications/simplified-evaluation-method-of-phthalates/",
+        "image_scope": "JASCO application-note figure: FT/IR-4700 at left with a SMART-400i accessory detail at right. Example accessory configuration, not a claim accessories are included.",
+        "technical_spec_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+        "media_checked_date": "2026-10-16",
+        "product_page_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+        "product_page_scope": "Historical manufacturer product brochure, not a current model webpage: explicitly names FT/IR-4700. Not substituted with current FT/IR-X models; availability and successor status are not established by this document.",
+        "brochure_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+        "manual_lookup_url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf"
+      }
+    }
+  ],
+  "summary": {
+    "equipment_profiles": 2,
+    "missing_photos_added": 2,
+    "model_sources_added": 2,
+    "brochures_added": 2,
+    "technical_spec_links_added": 2
+  },
+  "evidence": [
+    {
+      "url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/models/v-730-uv-vis-spectrophotometer/",
+      "scope": "Explicit V-730 product identity and labeled model photograph."
+    },
+    {
+      "url": "https://jascoinc.com/products/spectroscopy/uv-visible-nir-spectrophotometers/specifications/",
+      "scope": "Separate V-730 section; numerical specifications are not copied into the catalog."
+    },
+    {
+      "url": "https://jascoinc.com/wp-content/uploads/2018/05/V-700-Catalog.pdf",
+      "scope": "V-700 family brochure explicitly includes V-730; not an operator manual."
+    },
+    {
+      "url": "https://jascoinc.com/docs/product-brochures/ftir_new_2013_brochure.pdf",
+      "scope": "Four-page historical brochure: cover names 4600/4700 and page 4 lists 4700-specific specifications; not current X-series or an operator manual."
+    },
+    {
+      "url": "https://jascoinc.com/applications/simplified-evaluation-method-of-phthalates/",
+      "scope": "Figure 4 identifies FT/IR-4700 plus SMART-400i; photograph includes accessory inset."
+    }
+  ],
+  "images": [
+    {
+      "url": "https://jascoinc.com/wp-content/uploads/2017/04/jasco_inst.png",
+      "width": 315,
+      "height": 191,
+      "status": 200,
+      "verification": "decoded_image_and_visual_check"
+    },
+    {
+      "url": "https://jascoinc.com/wp-content/uploads/2020/07/fig-4-phthalates-.jpg",
+      "width": 892,
+      "height": 367,
+      "status": 200,
+      "verification": "decoded_image_and_visual_check"
+    }
+  ],
+  "limits": [
+    "User-confirmed green star; independent academic research-use status preserved.",
+    "Brochures are not relabeled as operating manuals.",
+    "Historical FT/IR-4700 documentation is distinguished from a current product listing.",
+    "No exact MSRP, availability, ownership, successor or process-validation assertion added.",
+    "No additional JASCO product models were imported."
+  ]
+}
