@@ -1,0 +1,3762 @@
+{
+  "schema": "process-requirements-review/v1",
+  "reviewed_date": "2026-10-16",
+  "scope": "All 172 existing P manufacturing-process step rows in catalog/route_steps.csv; N material-family routes excluded. P13/P14 have no CSV step rows and are identified separately as capability-only fallback recommendations.",
+  "reviewed_step_count": 172,
+  "reviewed_route_count": 39,
+  "method": "Manual semantic review of every supplied equipment_sequence, category list, and preserved source locator. No new external source claims, operating settings, or guessed equipment classes are introduced.",
+  "semantics": {
+    "required_branches": "OR across branches; AND within each branch; repeated category IDs represent multiple physical slots within that stage.",
+    "empty_branch": "No classified machine is required for this branch, but its handling/development/ambient operation remains part of the sequence.",
+    "optional_category_ids": "Always display these optional class slots; do not globally require them. If an optional branch is selected, all categories listed together in optional_branches belong to that branch.",
+    "unresolved_required_equipment": "The supplied row explicitly requires apparatus for which a suitable classified slot is absent. Do not report equipment-plan completion until the requirement is reviewed and resolved.",
+    "readiness_review_required": "Cross-step branch dependency, conditional capability, concurrency, or source ambiguity is not resolved by independent slot filling. Show review-needed instead of asserting feasibility.",
+    "reuse": "The same physical instrument can occur at multiple stages. Repeated stages do not automatically multiply physical units or price. Distinct duplicate IDs WITHIN one required branch do represent simultaneous physical slots.",
+    "readiness": "At most an equipment-plan completeness indicator; does not validate chemistry, controls, timing, capacities, compatibility, hazards, or actual manufacturing success."
+  },
+  "counts": {
+    "required_and_optional_classes_separated": 10,
+    "all_listed_classes_jointly_required": 81,
+    "required_apparatus_not_fully_classified": 29,
+    "alternative_complete_category_branches": 18,
+    "optional_equipment_stage": 5,
+    "no_separate_machine_established": 28,
+    "optional_unclassified_characterization_preparation": 1
+  },
+  "unresolved_required_step_count": 29,
+  "readiness_review_step_count": 23,
+  "fallback_routes_without_csv_steps": [
+    {
+      "route_id": "P13",
+      "recommended_required_branches": [
+        [
+          "M61"
+        ]
+      ],
+      "readiness_review_required": true,
+      "notes": "User-curated wet-etch capability category only; no complete validated sequence in route_steps.csv."
+    },
+    {
+      "route_id": "P14",
+      "recommended_required_branches": [
+        [
+          "M61"
+        ]
+      ],
+      "readiness_review_required": true,
+      "notes": "User-curated dry-plasma-etch capability category only; no complete validated sequence in route_steps.csv."
+    }
+  ],
+  "steps": [
+    {
+      "route_id": "P01",
+      "step_order": 1,
+      "step_label": "Prepare source",
+      "required_branches": [
+        [
+          "M31",
+          "M32"
+        ]
+      ],
+      "optional_category_ids": [
+        "M28"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Vacuum and gas provision are concurrent requirements. Glovebox source loading is explicitly optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "21",
+        "catalog_row": "route_steps.csv:P01:1"
+      },
+      "source_equipment_sequence": "Optional M28 source loading. Establish M31 vacuum and M32 gas before source operation."
+    },
+    {
+      "route_id": "P01",
+      "step_order": 2,
+      "step_label": "Generate vapor",
+      "required_branches": [
+        [
+          "M54"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "21",
+        "catalog_row": "route_steps.csv:P01:2"
+      },
+      "source_equipment_sequence": "M54 generates vapor / clusters."
+    },
+    {
+      "route_id": "P01",
+      "step_order": 3,
+      "step_label": "Condense / grow",
+      "required_branches": [
+        [
+          "M32",
+          "M54"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Aggregation source and gas supply are jointly needed. Reuse of the same physical source/supply from earlier stages is possible and should not be billed twice automatically.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "21",
+        "catalog_row": "route_steps.csv:P01:3"
+      },
+      "source_equipment_sequence": "M54 aggregation region. M32 supplies gas concurrently."
+    },
+    {
+      "route_id": "P01",
+      "step_order": 4,
+      "step_label": "Collect / recover",
+      "required_branches": [
+        [
+          "M54"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "The collector or configured substrate stage belongs to the aggregation-source assembly; this does not establish a second physical M54 unit.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "21",
+        "catalog_row": "route_steps.csv:P01:4"
+      },
+      "source_equipment_sequence": "M54 collector or configured substrate stage."
+    },
+    {
+      "route_id": "P01",
+      "step_order": 5,
+      "step_label": "Verify / preserve",
+      "required_branches": [
+        [
+          "M37",
+          "M39",
+          "M41"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "21",
+        "catalog_row": "route_steps.csv:P01:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M39 + M37 + M41, then preserve."
+    },
+    {
+      "route_id": "P03",
+      "step_order": 1,
+      "step_label": "Prepare target / medium",
+      "required_branches": [
+        [
+          "M10",
+          "M46"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Cleaning and water provision are explicit classes. The sequence also requires a compatible chamber but does not classify it; do not treat the two named machines as a complete ablation assembly.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "22",
+        "catalog_row": "route_steps.csv:P03:1"
+      },
+      "source_equipment_sequence": "M10 target cleaning; M46 supplies liquid medium. Prepare a compatible chamber."
+    },
+    {
+      "route_id": "P03",
+      "step_order": 2,
+      "step_label": "Deliver pulses",
+      "required_branches": [
+        [
+          "M56"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Laser source is classified. A compatible optical train and chamber are also explicitly required but are not separate classified choices in this source row.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "22",
+        "catalog_row": "route_steps.csv:P03:2"
+      },
+      "source_equipment_sequence": "M56 laser source with a compatible optical train / chamber."
+    },
+    {
+      "route_id": "P03",
+      "step_order": 3,
+      "step_label": "Form particles",
+      "required_branches": [
+        [
+          "M56"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Continue using the same configured laser/chamber arrangement; a second laser is not implied.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "22",
+        "catalog_row": "route_steps.csv:P03:3"
+      },
+      "source_equipment_sequence": "Quench in the configured medium while M56 supplies pulses."
+    },
+    {
+      "route_id": "P03",
+      "step_order": 4,
+      "step_label": "Recover / formulate",
+      "required_branches": [
+        [
+          "M13"
+        ],
+        [
+          "M15"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Compatible centrifugation OR filtration recovers the product, rather than both being globally required.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "22",
+        "catalog_row": "route_steps.csv:P03:4"
+      },
+      "source_equipment_sequence": "M13 OR M15 for compatible recovery."
+    },
+    {
+      "route_id": "P03",
+      "step_order": 5,
+      "step_label": "Verify properties",
+      "required_branches": [
+        [
+          "M35",
+          "M37",
+          "M39"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "22",
+        "catalog_row": "route_steps.csv:P03:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M39 + M37 + M35."
+    },
+    {
+      "route_id": "P04",
+      "step_order": 1,
+      "step_label": "Prepare phases",
+      "required_branches": [
+        [
+          "M01",
+          "M02"
+        ],
+        [
+          "M01",
+          "M50"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Read M01 preparation followed by M02 OR M50 phase mixing; retain balance in either branch. The short source phrase leaves OR scope ambiguous, so review branch scope before claiming a complete plan.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "23",
+        "catalog_row": "route_steps.csv:P04:1"
+      },
+      "source_equipment_sequence": "M01 --> M02 OR M50 phase mixing."
+    },
+    {
+      "route_id": "P04",
+      "step_order": 2,
+      "step_label": "Introduce reactants",
+      "required_branches": [
+        [
+          "M04",
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [
+        "M07"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Reaction vessel and stirring are jointly required; automated syringe feeding is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "23",
+        "catalog_row": "route_steps.csv:P04:2"
+      },
+      "source_equipment_sequence": "Optional M07 feed --> M04 reaction vessel with M02 stirring."
+    },
+    {
+      "route_id": "P04",
+      "step_order": 3,
+      "step_label": "Nucleate / grow",
+      "required_branches": [
+        [
+          "M04",
+          "M33"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "23",
+        "catalog_row": "route_steps.csv:P04:3"
+      },
+      "source_equipment_sequence": "Continue in M04. M33 supplies temperature control."
+    },
+    {
+      "route_id": "P04",
+      "step_order": 4,
+      "step_label": "Break / purify",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [
+        "M16"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Centrifugal washing/separation is required. Subsequent solvent removal by rotary evaporation is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "23",
+        "catalog_row": "route_steps.csv:P04:4"
+      },
+      "source_equipment_sequence": "M13 washing / separation --> optional M16 solvent removal."
+    },
+    {
+      "route_id": "P04",
+      "step_order": 5,
+      "step_label": "Formulate / verify",
+      "required_branches": [
+        [
+          "M34",
+          "M36"
+        ]
+      ],
+      "optional_category_ids": [
+        "M09"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "The two parallel verification classes are both specified. Redispersion is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "23",
+        "catalog_row": "route_steps.csv:P04:5"
+      },
+      "source_equipment_sequence": "Optional M09 redispersion --> parallel M34 + M36 checks."
+    },
+    {
+      "route_id": "P05",
+      "step_order": 1,
+      "step_label": "Prepare substrate / bath",
+      "required_branches": [
+        [
+          "M01",
+          "M02",
+          "M10"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "24",
+        "catalog_row": "route_steps.csv:P05:1"
+      },
+      "source_equipment_sequence": "Bath: M01 --> M02. Substrate cleaning: M10 in parallel."
+    },
+    {
+      "route_id": "P05",
+      "step_order": 2,
+      "step_label": "Assemble cell",
+      "required_branches": [
+        [
+          "M57"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "24",
+        "catalog_row": "route_steps.csv:P05:2"
+      },
+      "source_equipment_sequence": "Assemble the electrode cell and M57 controller."
+    },
+    {
+      "route_id": "P05",
+      "step_order": 3,
+      "step_label": "Deposit / grow",
+      "required_branches": [
+        [
+          "M33",
+          "M57"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Controller/cell and temperature-control support are specified together; the source does not make temperature support optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "24",
+        "catalog_row": "route_steps.csv:P05:3"
+      },
+      "source_equipment_sequence": "M57 controls deposition. M33 supports temperature control."
+    },
+    {
+      "route_id": "P05",
+      "step_order": 4,
+      "step_label": "Rinse / recover",
+      "required_branches": [
+        [
+          "M46"
+        ]
+      ],
+      "optional_category_ids": [
+        "M18"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Rinse-water provision is specified; drying is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "24",
+        "catalog_row": "route_steps.csv:P05:4"
+      },
+      "source_equipment_sequence": "M46 rinse --> optional M18 drying."
+    },
+    {
+      "route_id": "P05",
+      "step_order": 5,
+      "step_label": "Verify deposit",
+      "required_branches": [
+        [
+          "M37",
+          "M38",
+          "M41"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "24",
+        "catalog_row": "route_steps.csv:P05:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M38 + M41 + M37."
+    },
+    {
+      "route_id": "P06",
+      "step_order": 1,
+      "step_label": "Prepare resist layer",
+      "required_branches": [
+        [
+          "M10",
+          "M24",
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [
+        "M22"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Cleaning, coating and bake are specified; hard-mask deposition alone is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "25",
+        "catalog_row": "route_steps.csv:P06:1"
+      },
+      "source_equipment_sequence": "M10 clean --> optional M22 hard-mask deposition --> M24 resist coat --> M02 bake."
+    },
+    {
+      "route_id": "P06",
+      "step_order": 2,
+      "step_label": "Define pattern: choose one",
+      "required_branches": [
+        [
+          "M58"
+        ],
+        [
+          "M59"
+        ],
+        [
+          "M60"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose exactly one pattern-definition route. The chosen route must be consistent with development and transfer stages.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "25",
+        "catalog_row": "route_steps.csv:P06:2"
+      },
+      "source_equipment_sequence": "Choose M58 mask exposure OR M59 e-beam writing OR M60 imprint.",
+      "branch_conditions": {
+        "kind": "cross_step_pattern_route",
+        "related_steps": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "route_id": "P06",
+      "step_order": 3,
+      "step_label": "Develop / clear layer",
+      "required_branches": [
+        [],
+        [
+          "M61"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Wet development is a non-machine alternative to M61 residual-layer clearing for a suitable imprint route. The empty category branch means an operation with no classified machine, not omission of development. Review consistency with the pattern-definition choice.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "25",
+        "catalog_row": "route_steps.csv:P06:3"
+      },
+      "source_equipment_sequence": "Wet development, OR M61 residual-layer clearing for a suitable imprint process.",
+      "branch_conditions": {
+        "empty_branch": "wet_development",
+        "M61": "appropriate_imprint_residual_layer_clearance",
+        "related_steps": [
+          2
+        ]
+      }
+    },
+    {
+      "route_id": "P06",
+      "step_order": 4,
+      "step_label": "Transfer pattern",
+      "required_branches": [
+        [
+          "M61"
+        ],
+        [
+          "M23"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Etch OR compatible deposition followed by wet lift-off. Wet lift-off remains an operation even though no separate classified machine is established. Transfer choice must match prior patterning.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "25",
+        "catalog_row": "route_steps.csv:P06:4"
+      },
+      "source_equipment_sequence": "M61 etch, OR process-compatible M23 deposition --> wet lift-off."
+    },
+    {
+      "route_id": "P06",
+      "step_order": 5,
+      "step_label": "Inspect / measure",
+      "required_branches": [
+        [
+          "M38",
+          "M41"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "25",
+        "catalog_row": "route_steps.csv:P06:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M38 + M41."
+    },
+    {
+      "route_id": "P07",
+      "step_order": 1,
+      "step_label": "Prepare / load",
+      "required_branches": [
+        [
+          "M01",
+          "M12"
+        ]
+      ],
+      "optional_category_ids": [
+        "M28"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Weighing and mill loading are required. Inert glovebox handling is explicitly optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "26",
+        "catalog_row": "route_steps.csv:P07:1"
+      },
+      "source_equipment_sequence": "M01 weigh --> M12 load. M28 provides optional inert handling."
+    },
+    {
+      "route_id": "P07",
+      "step_order": 2,
+      "step_label": "Apply mechanical energy",
+      "required_branches": [
+        [
+          "M12"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "26",
+        "catalog_row": "route_steps.csv:P07:2"
+      },
+      "source_equipment_sequence": "M12 milling / mechanochemical processing."
+    },
+    {
+      "route_id": "P07",
+      "step_order": 3,
+      "step_label": "Recover / fractionate",
+      "required_branches": [
+        [
+          "M30"
+        ]
+      ],
+      "optional_category_ids": [
+        "M13"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Powder containment for unloading is specified; slurry fractionation is optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "26",
+        "catalog_row": "route_steps.csv:P07:3"
+      },
+      "source_equipment_sequence": "Unload using M30 containment; optional M13 fractionation of a slurry."
+    },
+    {
+      "route_id": "P07",
+      "step_order": 4,
+      "step_label": "Condition if required",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [
+        "M18",
+        "M20"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "optional_equipment_stage",
+      "notes": "Both drying and subsequent thermal treatment are optional; neither should prevent equipment-plan completion when omitted.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "26",
+        "catalog_row": "route_steps.csv:P07:4"
+      },
+      "source_equipment_sequence": "Optional M18 drying --> optional M20 thermal treatment."
+    },
+    {
+      "route_id": "P07",
+      "step_order": 5,
+      "step_label": "Verify product",
+      "required_branches": [
+        [
+          "M37",
+          "M38",
+          "M39"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "26",
+        "catalog_row": "route_steps.csv:P07:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M37 + M38 + M39."
+    },
+    {
+      "route_id": "P08",
+      "step_order": 1,
+      "step_label": "Prepare starting surface",
+      "required_branches": [
+        [
+          "M09"
+        ],
+        [
+          "M10"
+        ]
+      ],
+      "optional_category_ids": [
+        "M02"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Cleaning/dispersion uses probe OR bath sonication; feed mixing is permissive, not mandatory. Review suitability for the chosen liquid/dry treatment route.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "27",
+        "catalog_row": "route_steps.csv:P08:1"
+      },
+      "source_equipment_sequence": "M09 OR M10 cleaning / dispersion; M02 can mix feeds."
+    },
+    {
+      "route_id": "P08",
+      "step_order": 2,
+      "step_label": "Modify: choose route",
+      "required_branches": [
+        [
+          "M04"
+        ],
+        [
+          "M61"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose liquid functionalization OR compatible dry plasma treatment. This determines whether the following washing stage is required.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "27",
+        "catalog_row": "route_steps.csv:P08:2"
+      },
+      "source_equipment_sequence": "Choose M04 liquid functionalization OR compatible M61 plasma treatment.",
+      "branch_conditions": {
+        "kind": "liquid_vs_dry_treatment",
+        "related_steps": [
+          3,
+          4
+        ]
+      }
+    },
+    {
+      "route_id": "P08",
+      "step_order": 3,
+      "step_label": "Remove excess reagent",
+      "required_branches": [
+        [
+          "M13"
+        ],
+        [
+          "M15"
+        ],
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Liquid functionalization requires centrifugation OR filtration washing. The empty branch is allowed only for the dry-treatment branch, so independent per-step slot filling cannot prove readiness.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "27",
+        "catalog_row": "route_steps.csv:P08:3"
+      },
+      "source_equipment_sequence": "Liquid route: M13 OR M15 washing. Bypass for a dry treatment.",
+      "branch_conditions": {
+        "branches_0_1": "step_2_chosen_M04",
+        "branch_2": "step_2_chosen_M61"
+      }
+    },
+    {
+      "route_id": "P08",
+      "step_order": 4,
+      "step_label": "Stabilize / integrate",
+      "required_branches": [
+        [
+          "M09"
+        ],
+        [
+          "M18"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Redispersion OR substrate conditioning is route-dependent. Do not accept an arbitrary option without reviewing the selected modification route.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "27",
+        "catalog_row": "route_steps.csv:P08:4"
+      },
+      "source_equipment_sequence": "M09 redispersion OR M18 substrate conditioning."
+    },
+    {
+      "route_id": "P08",
+      "step_order": 5,
+      "step_label": "Verify modification",
+      "required_branches": [
+        [
+          "M34",
+          "M36",
+          "M39"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "27",
+        "catalog_row": "route_steps.csv:P08:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M36 + M34 + M39."
+    },
+    {
+      "route_id": "P09",
+      "step_order": 1,
+      "step_label": "Prepare building blocks",
+      "required_branches": [
+        [
+          "M01",
+          "M02",
+          "M46"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "28",
+        "catalog_row": "route_steps.csv:P09:1"
+      },
+      "source_equipment_sequence": "M01 --> M02. M46 supplies water / buffer."
+    },
+    {
+      "route_id": "P09",
+      "step_order": 2,
+      "step_label": "Set assembly conditions",
+      "required_branches": [
+        [
+          "M08"
+        ],
+        [
+          "M24"
+        ],
+        [
+          "M44"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose flow mixing, solution coating, or interface assembly. Later stages depend on this assembly route.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "28",
+        "catalog_row": "route_steps.csv:P09:2"
+      },
+      "source_equipment_sequence": "Choose M08 flow mixing OR M24 solution coating OR M44 interface assembly."
+    },
+    {
+      "route_id": "P09",
+      "step_order": 3,
+      "step_label": "Organize / anneal",
+      "required_branches": [
+        [
+          "M33"
+        ],
+        [
+          "M18"
+        ],
+        [
+          "M44"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Temperature control, solvent conditioning, or continued trough assembly is route-specific. Independent OR logic does not establish a coherent route.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "28",
+        "catalog_row": "route_steps.csv:P09:3"
+      },
+      "source_equipment_sequence": "Route-specific M33 temperature control OR M18 solvent conditioning OR continued M44 assembly."
+    },
+    {
+      "route_id": "P09",
+      "step_order": 4,
+      "step_label": "Recover / stabilize",
+      "required_branches": [
+        [],
+        [
+          "M15"
+        ],
+        [
+          "M25"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Medium exchange OR substrate integration is conditional (if applicable). Empty branch is a documented bypass and must be reviewed against the chosen assembly route.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "28",
+        "catalog_row": "route_steps.csv:P09:4"
+      },
+      "source_equipment_sequence": "M15 medium exchange OR M25 substrate integration, if applicable."
+    },
+    {
+      "route_id": "P09",
+      "step_order": 5,
+      "step_label": "Verify organization",
+      "required_branches": [
+        [
+          "M34",
+          "M39",
+          "M41"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "28",
+        "catalog_row": "route_steps.csv:P09:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M39 + M41 + M34."
+    },
+    {
+      "route_id": "P10",
+      "step_order": 1,
+      "step_label": "Prepare biological feed",
+      "required_branches": [
+        [
+          "M46",
+          "M01",
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [
+        "M45"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Water, weighing and feed mixing are jointly specified. Culture equipment is required only for microbial routes, which the generic process does not distinguish.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "29",
+        "catalog_row": "route_steps.csv:P10:1"
+      },
+      "source_equipment_sequence": "M46 + M01 --> M02 biological / precursor feeds. M45 culture is needed only for microbial routes.",
+      "branch_conditions": {
+        "M45_required_if": "microbial_route"
+      }
+    },
+    {
+      "route_id": "P10",
+      "step_order": 2,
+      "step_label": "Form particles",
+      "required_branches": [
+        [
+          "M02",
+          "M33"
+        ],
+        [
+          "M04",
+          "M33"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose mixing/hotplate or reactor, with concurrent temperature support in either branch.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "29",
+        "catalog_row": "route_steps.csv:P10:2"
+      },
+      "source_equipment_sequence": "M02 OR M04 mixing / reaction. M33 supports temperature control."
+    },
+    {
+      "route_id": "P10",
+      "step_order": 3,
+      "step_label": "Recover / wash",
+      "required_branches": [
+        [
+          "M13"
+        ],
+        [
+          "M15"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Centrifugation OR filtration separation/washing, rather than both.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "29",
+        "catalog_row": "route_steps.csv:P10:3"
+      },
+      "source_equipment_sequence": "M13 OR M15 separation and washing."
+    },
+    {
+      "route_id": "P10",
+      "step_order": 4,
+      "step_label": "Stabilize / finish",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [
+        "M50",
+        "M17"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "optional_equipment_stage",
+      "notes": "Both finish mixing and validated drying are explicitly optional.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "29",
+        "catalog_row": "route_steps.csv:P10:4"
+      },
+      "source_equipment_sequence": "Optional M50 mixing --> optional validated M17 drying."
+    },
+    {
+      "route_id": "P10",
+      "step_order": 5,
+      "step_label": "Verify material",
+      "required_branches": [
+        [
+          "M34",
+          "M36",
+          "M39"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "29",
+        "catalog_row": "route_steps.csv:P10:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M34 + M39 + M36."
+    },
+    {
+      "route_id": "P11",
+      "step_order": 1,
+      "step_label": "Prepare precursor",
+      "required_branches": [
+        [
+          "M01",
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [
+        "M26"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "required_and_optional_classes_separated",
+      "notes": "Balance and precursor mixing are required; fiber-template production is an optional branch.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "30",
+        "catalog_row": "route_steps.csv:P11:1"
+      },
+      "source_equipment_sequence": "M01 --> M02 precursor mixing. M26 is an optional fiber-template route."
+    },
+    {
+      "route_id": "P11",
+      "step_order": 2,
+      "step_label": "Choose thermal route",
+      "required_branches": [
+        [
+          "M19"
+        ],
+        [
+          "M20"
+        ]
+      ],
+      "optional_category_ids": [
+        "M32"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose chamber OR tube furnace. Gas support is conditional on the gas route, and the furnace must match the next conversion stage.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "30",
+        "catalog_row": "route_steps.csv:P11:2"
+      },
+      "source_equipment_sequence": "Choose M19 chamber furnace OR M20 tube furnace. M32 supports a gas route.",
+      "branch_conditions": {
+        "M32_required_if": "gas_route",
+        "furnace_must_match_step": 3
+      }
+    },
+    {
+      "route_id": "P11",
+      "step_order": 3,
+      "step_label": "Convert / anneal",
+      "required_branches": [
+        [
+          "M19"
+        ],
+        [
+          "M20"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Continue in the SAME furnace chosen for step 2. An arbitrary different furnace selection does not prove a coherent process.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "30",
+        "catalog_row": "route_steps.csv:P11:3"
+      },
+      "source_equipment_sequence": "Continue in the selected M19 OR M20 furnace.",
+      "branch_conditions": {
+        "same_selected_class_and_assembly_as_step": 2
+      }
+    },
+    {
+      "route_id": "P11",
+      "step_order": 4,
+      "step_label": "Recover / formulate",
+      "required_branches": [
+        [
+          "M28"
+        ],
+        [
+          "M30"
+        ]
+      ],
+      "optional_category_ids": [
+        "M09"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Choose compatible glovebox OR containment support for recovery. Subsequent dispersion is optional; cooling itself remains an operation.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "30",
+        "catalog_row": "route_steps.csv:P11:4"
+      },
+      "source_equipment_sequence": "Cool first. M28 OR M30 supports recovery --> optional M09 dispersion."
+    },
+    {
+      "route_id": "P11",
+      "step_order": 5,
+      "step_label": "Verify conversion",
+      "required_branches": [
+        [
+          "M36",
+          "M37",
+          "M38",
+          "M42"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "30",
+        "catalog_row": "route_steps.csv:P11:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M37 + M38 + M36 + M42."
+    },
+    {
+      "route_id": "P12",
+      "step_order": 1,
+      "step_label": "Prepare suspension",
+      "required_branches": [
+        [
+          "M46",
+          "M09"
+        ],
+        [
+          "M46",
+          "M50"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "alternative_complete_category_branches",
+      "notes": "Medium provision is required with probe sonication OR vessel-driven suspension mixing.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "31",
+        "catalog_row": "route_steps.csv:P12:1"
+      },
+      "source_equipment_sequence": "M46 medium --> M09 OR M50 suspension preparation."
+    },
+    {
+      "route_id": "P12",
+      "step_order": 2,
+      "step_label": "Generate aerosol",
+      "required_branches": [
+        [
+          "M32",
+          "M53"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "31",
+        "catalog_row": "route_steps.csv:P12:2"
+      },
+      "source_equipment_sequence": "M53 atomizer. M32 supplies carrier gas concurrently."
+    },
+    {
+      "route_id": "P12",
+      "step_order": 3,
+      "step_label": "Condition / classify",
+      "required_branches": [
+        [
+          "M51"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Mobility classification is classified. Prior drying/charge conditioning is also explicit, but no corresponding apparatus category is supplied.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "31",
+        "catalog_row": "route_steps.csv:P12:3"
+      },
+      "source_equipment_sequence": "Dry / charge-condition aerosol before M51 mobility classification."
+    },
+    {
+      "route_id": "P12",
+      "step_order": 4,
+      "step_label": "Measure / collect",
+      "required_branches": [
+        [
+          "M51"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": true,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "The sizing branch requires a compatible CPC/electrometer, which is not separately classified. A separate collector is an alternative output but is likewise unclassified. Do not mark the system complete from a mobility-classifier slot alone.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "31",
+        "catalog_row": "route_steps.csv:P12:4"
+      },
+      "source_equipment_sequence": "M51-based sizing needs a compatible CPC / electrometer. A separate collector is an alternative output."
+    },
+    {
+      "route_id": "P12",
+      "step_order": 5,
+      "step_label": "Verify recovered fraction",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [
+        "M39",
+        "M34"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "optional_equipment_stage",
+      "notes": "Recovered-fraction verification is explicitly conditional. If this verification branch is chosen, its two stated parallel classes are both intended.",
+      "source_locator": {
+        "file": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "location": "31",
+        "catalog_row": "route_steps.csv:P12:5"
+      },
+      "source_equipment_sequence": "Parallel checks: M39 + M34 on a recovered liquid / solid fraction, if required.",
+      "optional_branches": [
+        [
+          "M39",
+          "M34"
+        ]
+      ]
+    },
+    {
+      "route_id": "P15",
+      "step_order": 1,
+      "step_label": "Prepare precursor and dopant dispersion",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "A mixer is described as unreported. Do not invent magnetic, overhead, rotor-stator, or manual identity; source review or a user-reviewed apparatus choice is needed.",
+      "source_locator": {
+        "file": "Ellis-2018-rsos171884.pdf",
+        "location": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+        "catalog_row": "route_steps.csv:P15:1"
+      },
+      "source_equipment_sequence": "Mix the specified precursor/dopant formulation; mixer make/type not reported."
+    },
+    {
+      "route_id": "P15",
+      "step_order": 2,
+      "step_label": "Hydrothermal treatment",
+      "required_branches": [
+        [
+          "M05"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Ellis-2018-rsos171884.pdf",
+        "location": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+        "catalog_row": "route_steps.csv:P15:2"
+      },
+      "source_equipment_sequence": "M05 Parr PTFE-lined vessel reported; no exact model or capacity."
+    },
+    {
+      "route_id": "P15",
+      "step_order": 3,
+      "step_label": "Cool and recover precipitate",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Cooling and recovery are handling operations here; no separate additional machine is established.",
+      "source_locator": {
+        "file": "Ellis-2018-rsos171884.pdf",
+        "location": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+        "catalog_row": "route_steps.csv:P15:3"
+      },
+      "source_equipment_sequence": "Cooling and recovery precede washing; no additional model identified."
+    },
+    {
+      "route_id": "P15",
+      "step_order": 4,
+      "step_label": "Wash and centrifuge",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Ellis-2018-rsos171884.pdf",
+        "location": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+        "catalog_row": "route_steps.csv:P15:4"
+      },
+      "source_equipment_sequence": "M13 centrifugation reported; model unreported."
+    },
+    {
+      "route_id": "P15",
+      "step_order": 5,
+      "step_label": "Oven-dry product",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "An oven is required, but oven type/geometry is unreported. Vacuum-oven or furnace capability must not be guessed; this is not an automatically complete manual stage.",
+      "source_locator": {
+        "file": "Ellis-2018-rsos171884.pdf",
+        "location": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+        "catalog_row": "route_steps.csv:P15:5"
+      },
+      "source_equipment_sequence": "Oven drying reported; oven type/model unreported. Add suitable drying equipment after review; vacuum is not asserted."
+    },
+    {
+      "route_id": "P16",
+      "step_order": 1,
+      "step_label": "Prepare polymer solution and collector dispersion",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Stirred feeds and collector are stated, but the stirrer type is unreported. No magnetic or overhead category is inferred. The integrated collector in the next assembly may be reusable after review.",
+      "source_locator": {
+        "file": "scaffaro2022.pdf",
+        "location": "Author accepted manuscript section2.1, pp4-5, Figure1",
+        "catalog_row": "route_steps.csv:P16:1"
+      },
+      "source_equipment_sequence": "Stirred PCL feed and GO/CNT ethanol collector; stirrer type/model unreported."
+    },
+    {
+      "route_id": "P16",
+      "step_order": 2,
+      "step_label": "Electrospin into stirred coagulation bath",
+      "required_branches": [
+        [
+          "M26"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "The custom wet-electrospinning assembly includes its stirred collector; do not automatically add a second collector machine.",
+      "source_locator": {
+        "file": "scaffaro2022.pdf",
+        "location": "Author accepted manuscript section2.1, pp4-5, Figure1",
+        "catalog_row": "route_steps.csv:P16:2"
+      },
+      "source_equipment_sequence": "M26 custom vertical wet electrospinning assembly, including stirred collector."
+    },
+    {
+      "route_id": "P16",
+      "step_order": 3,
+      "step_label": "Mould and ambient-dry scaffold",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Moulding and ambient drying need no separately identified oven; retain as handling/ambient operation, not an unresolved oven requirement.",
+      "source_locator": {
+        "file": "scaffaro2022.pdf",
+        "location": "Author accepted manuscript section2.1, pp4-5, Figure1",
+        "catalog_row": "route_steps.csv:P16:3"
+      },
+      "source_equipment_sequence": "Mould collected scaffold and dry at room temperature; no drying oven reported."
+    },
+    {
+      "route_id": "P17",
+      "step_order": 1,
+      "step_label": "Prepare polymer and drug phases",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Feed-phase preparation does not establish a separate powered preparation device; retain preparation without inventing a model.",
+      "source_locator": {
+        "file": "Article 10.1038/s41598-024-82728-6",
+        "location": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+        "catalog_row": "route_steps.csv:P17:1"
+      },
+      "source_equipment_sequence": "Study-specific PLGA/drug phases; no preparation-device model reported."
+    },
+    {
+      "route_id": "P17",
+      "step_order": 2,
+      "step_label": "Ultrasonically emulsify",
+      "required_branches": [
+        [
+          "M09"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1038/s41598-024-82728-6",
+        "location": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+        "catalog_row": "route_steps.csv:P17:2"
+      },
+      "source_equipment_sequence": "M09 Fisherbrand Model 505 emulsification; probe configuration unreported."
+    },
+    {
+      "route_id": "P17",
+      "step_order": 3,
+      "step_label": "Disperse into aqueous stabilizer",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Transfer/disperse operation is stated without a separate powered-device identity; do not invent an extra mixer.",
+      "source_locator": {
+        "file": "Article 10.1038/s41598-024-82728-6",
+        "location": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+        "catalog_row": "route_steps.csv:P17:3"
+      },
+      "source_equipment_sequence": "Transfer into aqueous PVA phase; apparatus not identified."
+    },
+    {
+      "route_id": "P17",
+      "step_order": 4,
+      "step_label": "Evaporate solvent and recover particles",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Evaporation/recovery is stated but a rotary evaporator or other powered evaporator is not asserted. Preserve the operation without inventing one.",
+      "source_locator": {
+        "file": "Article 10.1038/s41598-024-82728-6",
+        "location": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+        "catalog_row": "route_steps.csv:P17:4"
+      },
+      "source_equipment_sequence": "Solvent evaporation yields particles; source includes micro- and nanoscale formulations. Rotary evaporator not asserted."
+    },
+    {
+      "route_id": "P18",
+      "step_order": 1,
+      "step_label": "Load synthesis vessel",
+      "required_branches": [
+        [
+          "M62"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Robot and gripper form one handling assembly. The gripper is not a second M62 robot slot.",
+      "source_locator": {
+        "file": "Article 10.1002/adfm.202312561",
+        "location": "Sections 2.2 Hardware Setting and Automation; 4 Experimental Section > Batch Synthesis; exact models: cited preprint supporting information Figures S1, S2b, S2c-1 (arXiv combined PDF pages 33,37,38; SI pages 4,8,9)",
+        "catalog_row": "route_steps.csv:P18:1"
+      },
+      "source_equipment_sequence": "M62 Doosan M0609 with OnRobot RG2 handles vessels (exact hardware: preprint SI)."
+    },
+    {
+      "route_id": "P18",
+      "step_order": 2,
+      "step_label": "Dispense reagent sequence",
+      "required_branches": [
+        [
+          "M07",
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "This row explicitly says stirring occurs DURING dosing and directs addition of M02 when planning both. Show both required category slots in this step. Step 3 is continuation/overlap, not an instruction to dose first without stirring.",
+      "source_locator": {
+        "file": "Article 10.1002/adfm.202312561",
+        "location": "Sections 2.2 Hardware Setting and Automation; 4 Experimental Section > Batch Synthesis; exact models: cited preprint supporting information Figures S1, S2b, S2c-1 (arXiv combined PDF pages 33,37,38; SI pages 4,8,9)",
+        "catalog_row": "route_steps.csv:P18:2"
+      },
+      "source_equipment_sequence": "M07 Tecan Cavro Centris reagent dispensing (preprint SI). Stirring occurs during dosing; add M02 slot when planning both together.",
+      "concurrency_with_step": 3
+    },
+    {
+      "route_id": "P18",
+      "step_order": 3,
+      "step_label": "Stir during reduction",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Same stirrer can continue from concurrent dosing/stirring in step 2. Sequence is a planning abstraction, not serial operational timing; review concurrent assembly.",
+      "source_locator": {
+        "file": "Article 10.1002/adfm.202312561",
+        "location": "Sections 2.2 Hardware Setting and Automation; 4 Experimental Section > Batch Synthesis; exact models: cited preprint supporting information Figures S1, S2b, S2c-1 (arXiv combined PDF pages 33,37,38; SI pages 4,8,9)",
+        "catalog_row": "route_steps.csv:P18:3"
+      },
+      "source_equipment_sequence": "M02 IKA RET control-visc stirring at room temperature. Dosing and stirring overlap; these are planning stages, not a serial operational SOP.",
+      "shared_equipment_with_step": 2
+    },
+    {
+      "route_id": "P18",
+      "step_order": 4,
+      "step_label": "Transfer product for optical feedback",
+      "required_branches": [
+        [
+          "M62"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Robot transfers the completed sample; optical feedback is not imported as an additional manufacturing instrument. The same robot may be reused.",
+      "source_locator": {
+        "file": "Article 10.1002/adfm.202312561",
+        "location": "Sections 2.2 Hardware Setting and Automation; 4 Experimental Section > Batch Synthesis; exact models: cited preprint supporting information Figures S1, S2b, S2c-1 (arXiv combined PDF pages 33,37,38; SI pages 4,8,9)",
+        "catalog_row": "route_steps.csv:P18:4"
+      },
+      "source_equipment_sequence": "M62 transfers finished sample; spectroscopy is feedback, not an added manufacturing model."
+    },
+    {
+      "route_id": "P19",
+      "step_order": 1,
+      "step_label": "Clean and mount substrates",
+      "required_branches": [
+        [
+          "M09"
+        ],
+        [
+          "M10"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": true,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Probe OR bath sonication are planning alternatives because sonicator geometry is unreported; do not require both. The row also states hotplate mounting, but no hotplate category is included. A complete preparation assembly needs review.",
+      "source_locator": {
+        "file": "ml-harris2024-osti.pdf",
+        "location": "Accepted manuscript PDF page 23, Methods > Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics. Automated platform discussion and Figure 2 establish custom Auto-PLD.",
+        "catalog_row": "route_steps.csv:P19:1"
+      },
+      "source_equipment_sequence": "Sonication cleaning reported; probe versus bath and model unreported. M09 OR M10 are planning possibilities, not two reported devices. Hotplate mounting follows."
+    },
+    {
+      "route_id": "P19",
+      "step_order": 2,
+      "step_label": "Load chamber and establish gas environment",
+      "required_branches": [
+        [
+          "M48"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "M48 custom chamber includes source-specific vacuum and gas controls; do not require additional stand-alone devices solely from that assembly description.",
+      "source_locator": {
+        "file": "ml-harris2024-osti.pdf",
+        "location": "Accepted manuscript PDF page 23, Methods > Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics. Automated platform discussion and Figure 2 establish custom Auto-PLD.",
+        "catalog_row": "route_steps.csv:P19:2"
+      },
+      "source_equipment_sequence": "M48 custom Auto-PLD chamber with vacuum and Ar flow/pressure control; add support equipment slots as needed."
+    },
+    {
+      "route_id": "P19",
+      "step_order": 3,
+      "step_label": "Heat substrate and ablate targets",
+      "required_branches": [
+        [
+          "M48"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "M48 includes its LPX laser. Do not count the separately catalogued M56 component as a second full instrument requirement.",
+      "source_locator": {
+        "file": "ml-harris2024-osti.pdf",
+        "location": "Accepted manuscript PDF page 23, Methods > Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics. Automated platform discussion and Figure 2 establish custom Auto-PLD.",
+        "catalog_row": "route_steps.csv:P19:3"
+      },
+      "source_equipment_sequence": "M48 assembly includes LPX 305F laser; M56 is the separately catalogued component, not an additional complete machine."
+    },
+    {
+      "route_id": "P19",
+      "step_order": 4,
+      "step_label": "Complete deposition with feedback",
+      "required_branches": [
+        [
+          "M48"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Continue the same automated deposition assembly; diagnostic feedback is not a separately imported manufacturing requirement.",
+      "source_locator": {
+        "file": "ml-harris2024-osti.pdf",
+        "location": "Accepted manuscript PDF page 23, Methods > Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics. Automated platform discussion and Figure 2 establish custom Auto-PLD.",
+        "catalog_row": "route_steps.csv:P19:4"
+      },
+      "source_equipment_sequence": "Custom automated deposition uses in situ feedback; no extra manufacturing-model claim for diagnostic cameras or spectrometers."
+    },
+    {
+      "route_id": "P20",
+      "step_order": 1,
+      "step_label": "Disperse nanocarbon fillers",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Ultrasonication requires an apparatus, but probe/bath geometry is unreported. Do not silently choose M09 or M10 or mark this as a complete manual stage.",
+      "source_locator": {
+        "file": "scaffaro2024.pdf",
+        "location": "Section2.1 Materials and preparative; publisher PDF p2",
+        "catalog_row": "route_steps.csv:P20:1"
+      },
+      "source_equipment_sequence": "Ultrasonication reported, probe versus bath unspecified; add a reviewed suitable instrument."
+    },
+    {
+      "route_id": "P20",
+      "step_order": 2,
+      "step_label": "Dissolve polymer under magnetic stirring",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "scaffaro2024.pdf",
+        "location": "Section2.1 Materials and preparative; publisher PDF p2",
+        "catalog_row": "route_steps.csv:P20:2"
+      },
+      "source_equipment_sequence": "M02 magnetic stirring reported; no exact stirrer model."
+    },
+    {
+      "route_id": "P20",
+      "step_order": 3,
+      "step_label": "Electrospin and collect mat",
+      "required_branches": [
+        [
+          "M26"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "scaffaro2024.pdf",
+        "location": "Section2.1 Materials and preparative; publisher PDF p2",
+        "catalog_row": "route_steps.csv:P20:3"
+      },
+      "source_equipment_sequence": "M26 horizontal Linari apparatus; exact model unreported."
+    },
+    {
+      "route_id": "P21",
+      "step_order": 1,
+      "step_label": "Deposit alumina barrier",
+      "required_branches": [
+        [
+          "M22"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00629-y",
+        "location": "Methods: CNT growth in ARES; Results: SWCNT growth",
+        "catalog_row": "route_steps.csv:P21:1"
+      },
+      "source_equipment_sequence": "M22 ALD alumina barrier reported, equipment model unspecified."
+    },
+    {
+      "route_id": "P21",
+      "step_order": 2,
+      "step_label": "Deposit cobalt catalyst",
+      "required_branches": [
+        [
+          "M23"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Retain classified sputter deposition, but source disagrees on magnetron versus ion-beam description. Review this internal discrepancy before compatibility assertions.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00629-y",
+        "location": "Methods: CNT growth in ARES; Results: SWCNT growth",
+        "catalog_row": "route_steps.csv:P21:2"
+      },
+      "source_equipment_sequence": "Methods reports magnetron sputtering; Results calls it ion-beam sputtering. This internal discrepancy is retained; exact system is unreported."
+    },
+    {
+      "route_id": "P21",
+      "step_order": 3,
+      "step_label": "Load chamber and establish growth gases",
+      "required_branches": [
+        [
+          "M21"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Custom ARES CVD chamber includes source-specific gas/pressure control; do not infer separate stand-alone model requirements.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00629-y",
+        "location": "Methods: CNT growth in ARES; Results: SWCNT growth",
+        "catalog_row": "route_steps.csv:P21:3"
+      },
+      "source_equipment_sequence": "M21 custom ARES chamber with automated mass-flow and pressure control."
+    },
+    {
+      "route_id": "P21",
+      "step_order": 4,
+      "step_label": "Laser-heat catalyst to grow nanotubes",
+      "required_branches": [
+        [
+          "M21"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "The source-specific Verdi laser is an included synthesis-heat component of the custom CVD assembly, not an extra complete CVD machine.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00629-y",
+        "location": "Methods: CNT growth in ARES; Results: SWCNT growth",
+        "catalog_row": "route_steps.csv:P21:4"
+      },
+      "source_equipment_sequence": "M21 ARES uses the Verdi laser as a localized synthesis heat source, not only as a Raman probe."
+    },
+    {
+      "route_id": "P21",
+      "step_order": 5,
+      "step_label": "Use growth feedback for next experiment",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Feedback informs subsequent experiments. No additional characterized-only equipment model is imported as a manufacturing requirement.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00629-y",
+        "location": "Methods: CNT growth in ARES; Results: SWCNT growth",
+        "catalog_row": "route_steps.csv:P21:5"
+      },
+      "source_equipment_sequence": "Raman feedback informs subsequent settings; no new characterization-only instrument is imported."
+    },
+    {
+      "route_id": "P22",
+      "step_order": 1,
+      "step_label": "Load precursor and carrier syringes",
+      "required_branches": [
+        [
+          "M07"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00520-w",
+        "location": "Methods: Experimental design; Figure 1",
+        "catalog_row": "route_steps.csv:P22:1"
+      },
+      "source_equipment_sequence": "Hamilton syringes and automated syringe pumping reported; pump make/model unspecified."
+    },
+    {
+      "route_id": "P22",
+      "step_order": 2,
+      "step_label": "Generate aqueous droplets",
+      "required_branches": [
+        [
+          "M08"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00520-w",
+        "location": "Methods: Experimental design; Figure 1",
+        "catalog_row": "route_steps.csv:P22:2"
+      },
+      "source_equipment_sequence": "M08 reported manifold/tee-junction assembly combines reactants with oil carrier."
+    },
+    {
+      "route_id": "P22",
+      "step_order": 3,
+      "step_label": "Grow particles in reaction tubing",
+      "required_branches": [
+        [
+          "M08"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Continue the same source-specific manifold and reaction-tubing arrangement; a second complete M08 machine is not established.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00520-w",
+        "location": "Methods: Experimental design; Figure 1",
+        "catalog_row": "route_steps.csv:P22:3"
+      },
+      "source_equipment_sequence": "M08 droplet flow through PFA reaction tubing provides mixing and growth residence."
+    },
+    {
+      "route_id": "P22",
+      "step_order": 4,
+      "step_label": "Measure feedback and update flow ratios",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Feedback operation is retained; no new manufacturing apparatus is established by the supplied row.",
+      "source_locator": {
+        "file": "Article 10.1038/s41524-021-00520-w",
+        "location": "Methods: Experimental design; Figure 1",
+        "catalog_row": "route_steps.csv:P22:4"
+      },
+      "source_equipment_sequence": "Inline optical feedback guides the next experiment; no characterization-only instrument imported."
+    },
+    {
+      "route_id": "P23",
+      "step_order": 1,
+      "step_label": "Prepare and mix precursors",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "The row explicitly says stirrer type/model unreported. Retain an unresolved stirring requirement rather than silently substituting magnetic, overhead, or manual operation.",
+      "source_locator": {
+        "file": "ml-lampe2022.pdf",
+        "location": "Preprint section 4.1 Synthesis, PDF p.9",
+        "catalog_row": "route_steps.csv:P23:1"
+      },
+      "source_equipment_sequence": "PbBr2 precursor and Cs-oleate combined under vigorous stirring; stirrer type/model unreported."
+    },
+    {
+      "route_id": "P23",
+      "step_order": 2,
+      "step_label": "Add antisolvent and stir",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Stirring continues from the unclassified stirring stage; the source does not establish a separate pump or microfluidic platform.",
+      "source_locator": {
+        "file": "ml-lampe2022.pdf",
+        "location": "Preprint section 4.1 Synthesis, PDF p.9",
+        "catalog_row": "route_steps.csv:P23:2"
+      },
+      "source_equipment_sequence": "Acetone addition followed by stirring; no syringe pump or microfluidic automation claimed."
+    },
+    {
+      "route_id": "P23",
+      "step_order": 3,
+      "step_label": "Centrifuge precipitated nanoplatelets",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "ml-lampe2022.pdf",
+        "location": "Preprint section 4.1 Synthesis, PDF p.9",
+        "catalog_row": "route_steps.csv:P23:3"
+      },
+      "source_equipment_sequence": "M13 centrifugation reported; exact centrifuge model unspecified."
+    },
+    {
+      "route_id": "P23",
+      "step_order": 4,
+      "step_label": "Redisperse collected precipitate",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Redispersion is an operation without an identified powered machine; characterization spectrometer is excluded.",
+      "source_locator": {
+        "file": "ml-lampe2022.pdf",
+        "location": "Preprint section 4.1 Synthesis, PDF p.9",
+        "catalog_row": "route_steps.csv:P23:4"
+      },
+      "source_equipment_sequence": "Redisperse in hexane; named optical spectrometer is characterization and is excluded."
+    },
+    {
+      "route_id": "P24",
+      "step_order": 1,
+      "step_label": "Prepare separate silver and reducing/stabilizing feeds",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Preparing separate feed solutions establishes no distinct preparation-device class; do not invent one.",
+      "source_locator": {
+        "file": "nathanael2023.pdf",
+        "location": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+        "catalog_row": "route_steps.csv:P24:1"
+      },
+      "source_equipment_sequence": "Prepare separate silver and reducing/stabilizing feeds. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P24",
+      "step_order": 2,
+      "step_label": "Meter the two reagent streams",
+      "required_branches": [
+        [
+          "M07"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "nathanael2023.pdf",
+        "location": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+        "catalog_row": "route_steps.csv:P24:2"
+      },
+      "source_equipment_sequence": "Meter the two reagent streams. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P24",
+      "step_order": 3,
+      "step_label": "Mix and react in a continuous T-junction channel",
+      "required_branches": [
+        [
+          "M08"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "nathanael2023.pdf",
+        "location": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+        "catalog_row": "route_steps.csv:P24:3"
+      },
+      "source_equipment_sequence": "Mix and react in a continuous T-junction channel. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P24",
+      "step_order": 4,
+      "step_label": "Collect the nanoparticle suspension",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Collection is handling here; no separate collection machine is identified.",
+      "source_locator": {
+        "file": "nathanael2023.pdf",
+        "location": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+        "catalog_row": "route_steps.csv:P24:4"
+      },
+      "source_equipment_sequence": "Collect the nanoparticle suspension. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 1,
+      "step_label": "Form nanocubes in a heated stirred flask under inert gas",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Heated stirring under inert gas explicitly needs an apparatus arrangement, but no heater/stirrer/inert-service classes are assigned. Do not count this as machine-free.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:1"
+      },
+      "source_equipment_sequence": "Form nanocubes in a heated stirred flask under inert gas. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 2,
+      "step_label": "Cool, wash and redisperse the nanocubes",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Cooling, washing and redispersion are specified without identifying an additional powered device; preserve handling operations without inventing a centrifuge.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:2"
+      },
+      "source_equipment_sequence": "Cool, wash and redisperse the nanocubes. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 3,
+      "step_label": "Disperse nanocubes with carbon support by sonication",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Sonication is explicit, but probe versus bath identity is not assigned; a reviewed apparatus choice is needed.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:3"
+      },
+      "source_equipment_sequence": "Disperse nanocubes with carbon support by sonication. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 4,
+      "step_label": "Collect the supported catalyst",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:4"
+      },
+      "source_equipment_sequence": "Collect the supported catalyst. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 5,
+      "step_label": "Remove ligands and wash the catalyst",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Ligand removal and washing are source-specific operations with no separate machine class established in this row.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:5"
+      },
+      "source_equipment_sequence": "Remove ligands and wash the catalyst. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P25",
+      "step_order": 6,
+      "step_label": "Dry the supported catalyst under vacuum",
+      "required_branches": [
+        [
+          "M18"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "gao2022.pdf",
+        "location": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+        "catalog_row": "route_steps.csv:P25:6"
+      },
+      "source_equipment_sequence": "Dry the supported catalyst under vacuum. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P26",
+      "step_order": 1,
+      "step_label": "Prepare catalyst-bearing sapphire substrates by ion implantation",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Ion implantation explicitly requires an implantation apparatus, for which the current row provides no category. Do not substitute CVD, furnace or robot.",
+      "source_locator": {
+        "file": "li2024.pdf",
+        "location": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+        "catalog_row": "route_steps.csv:P26:1"
+      },
+      "source_equipment_sequence": "Prepare catalyst-bearing sapphire substrates by ion implantation. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P26",
+      "step_order": 2,
+      "step_label": "Clean and anneal the substrates",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Annealing requires a thermal-treatment apparatus, but the source row provides no class and does not establish a furnace geometry.",
+      "source_locator": {
+        "file": "li2024.pdf",
+        "location": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+        "catalog_row": "route_steps.csv:P26:2"
+      },
+      "source_equipment_sequence": "Clean and anneal the substrates. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P26",
+      "step_order": 3,
+      "step_label": "Load substrates into the CVD reactor",
+      "required_branches": [
+        [
+          "M62"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Robot-assisted loading is explicit; the CVD system is represented at the following growth stage. This is not a second robot requirement.",
+      "source_locator": {
+        "file": "li2024.pdf",
+        "location": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+        "catalog_row": "route_steps.csv:P26:3"
+      },
+      "source_equipment_sequence": "Load substrates into the CVD reactor. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P26",
+      "step_order": 4,
+      "step_label": "Reduce catalyst and grow nanotube arrays",
+      "required_branches": [
+        [
+          "M21"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "li2024.pdf",
+        "location": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+        "catalog_row": "route_steps.csv:P26:4"
+      },
+      "source_equipment_sequence": "Micro-STS1200 is the reactor component of the custom CARCO platform; automation and tooling are study-specific."
+    },
+    {
+      "route_id": "P26",
+      "step_order": 5,
+      "step_label": "Cool and retrieve the substrates",
+      "required_branches": [
+        [
+          "M62"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "The same robot can retrieve cooled substrates; no extra cooling-machine model is established.",
+      "source_locator": {
+        "file": "li2024.pdf",
+        "location": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+        "catalog_row": "route_steps.csv:P26:5"
+      },
+      "source_equipment_sequence": "Cool and retrieve the substrates. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P27",
+      "step_order": 1,
+      "step_label": "Prepare polymer reservoirs and aqueous antisolvent",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Reservoir/solution preparation identifies no additional powered apparatus.",
+      "source_locator": {
+        "file": "Article 10.1039/d4dd00104d",
+        "location": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+        "catalog_row": "route_steps.csv:P27:1"
+      },
+      "source_equipment_sequence": "Prepare polymer reservoirs and aqueous antisolvent. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P27",
+      "step_order": 2,
+      "step_label": "Meter and combine the formulation streams",
+      "required_branches": [
+        [
+          "M07",
+          "M07"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "The source explicitly identifies TWO physical pumps: LSPOne for the organic stream and Fusion 200 for aqueous stream. Preserve duplicate M07 requirements; do not deduplicate the two slots.",
+      "source_locator": {
+        "file": "Article 10.1039/d4dd00104d",
+        "location": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+        "catalog_row": "route_steps.csv:P27:2"
+      },
+      "source_equipment_sequence": "LSPOne 10-port/250 microlitre configuration supplies organic phase; Fusion 200 supplies aqueous phase. Add separate slots for both physical pumps.",
+      "required_slot_labels": [
+        "Organic-phase metering pump",
+        "Aqueous-phase metering pump"
+      ]
+    },
+    {
+      "route_id": "P27",
+      "step_order": 3,
+      "step_label": "Form nanoparticles by hydrodynamic-flow-focusing nanoprecipitation",
+      "required_branches": [
+        [
+          "M08"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1039/d4dd00104d",
+        "location": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+        "catalog_row": "route_steps.csv:P27:3"
+      },
+      "source_equipment_sequence": "Form nanoparticles by hydrodynamic-flow-focusing nanoprecipitation. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P27",
+      "step_order": 4,
+      "step_label": "Collect particles and evaporate solvent by shaking",
+      "required_branches": [
+        [
+          "M50"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1039/d4dd00104d",
+        "location": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+        "catalog_row": "route_steps.csv:P27:4"
+      },
+      "source_equipment_sequence": "Collect particles and evaporate solvent by shaking. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P28",
+      "step_order": 1,
+      "step_label": "Combine monomers and organoclay",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Combining monomers and clay does not establish a separate powered device; subsequent mixing stages contain the classified stirring requirement.",
+      "source_locator": {
+        "file": "ferreira2014.pdf",
+        "location": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+        "catalog_row": "route_steps.csv:P28:1"
+      },
+      "source_equipment_sequence": "Combine monomers and organoclay. Unreported make/model and reactor geometry; no model capability inferred. No characterization models imported as manufacturing apparatus."
+    },
+    {
+      "route_id": "P28",
+      "step_order": 2,
+      "step_label": "Heat and magnetically stir under controlled vacuum/nitrogen conditions",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Magnetic hotplate stirring is classified, but controlled vacuum/nitrogen provision is unclassified. Do not assume a dry-pump or manifold model.",
+      "source_locator": {
+        "file": "ferreira2014.pdf",
+        "location": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+        "catalog_row": "route_steps.csv:P28:2"
+      },
+      "source_equipment_sequence": "Heat and magnetically stir under controlled vacuum/nitrogen conditions. Unreported make/model and reactor geometry; no model capability inferred. No characterization models imported as manufacturing apparatus."
+    },
+    {
+      "route_id": "P28",
+      "step_order": 3,
+      "step_label": "Catalyst-assisted polycondensation",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Continue the same reaction/mixing arrangement; this does not establish a second physical stirrer.",
+      "source_locator": {
+        "file": "ferreira2014.pdf",
+        "location": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+        "catalog_row": "route_steps.csv:P28:3"
+      },
+      "source_equipment_sequence": "Catalyst-assisted polycondensation. Unreported make/model and reactor geometry; no model capability inferred. No characterization models imported as manufacturing apparatus."
+    },
+    {
+      "route_id": "P29",
+      "step_order": 1,
+      "step_label": "Prepare polymer solution and nanofiller dispersion",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Preparing solutions/dispersion does not identify a separate powered apparatus in this supplied row; the named homogenizer appears in step 2.",
+      "source_locator": {
+        "file": "xu2013.pdf",
+        "location": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "catalog_row": "route_steps.csv:P29:1"
+      },
+      "source_equipment_sequence": "Prepare polymer solution and nanofiller dispersion. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication."
+    },
+    {
+      "route_id": "P29",
+      "step_order": 2,
+      "step_label": "Homogenize composite solution",
+      "required_branches": [
+        [
+          "M11"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "xu2013.pdf",
+        "location": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "catalog_row": "route_steps.csv:P29:2"
+      },
+      "source_equipment_sequence": "Homogenize composite solution. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication."
+    },
+    {
+      "route_id": "P29",
+      "step_order": 3,
+      "step_label": "Magnetically stir mixture",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "xu2013.pdf",
+        "location": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "catalog_row": "route_steps.csv:P29:3"
+      },
+      "source_equipment_sequence": "Magnetically stir mixture. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication."
+    },
+    {
+      "route_id": "P29",
+      "step_order": 4,
+      "step_label": "Cast in dish and vacuum dry film",
+      "required_branches": [
+        [
+          "M18"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "xu2013.pdf",
+        "location": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "catalog_row": "route_steps.csv:P29:4"
+      },
+      "source_equipment_sequence": "Cast in dish and vacuum dry film. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication."
+    },
+    {
+      "route_id": "P30",
+      "step_order": 1,
+      "step_label": "Dissolve technical lignin in solvent",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Dissolution is specified without a separate device. No powered mixer should be invented.",
+      "source_locator": {
+        "file": "tian2017.pdf",
+        "location": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+        "catalog_row": "route_steps.csv:P30:1"
+      },
+      "source_equipment_sequence": "Lignin is dissolved in DMSO; preparation device unreported."
+    },
+    {
+      "route_id": "P30",
+      "step_order": 2,
+      "step_label": "Exchange solvent by dialysis",
+      "required_branches": [
+        [
+          "M66"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "tian2017.pdf",
+        "location": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+        "catalog_row": "route_steps.csv:P30:2"
+      },
+      "source_equipment_sequence": "Spectra/Por 2 RC tubing, 12-14 kDa, exchanges solvent against water. Diffusion-based dialysis is not M15 pressure filtration."
+    },
+    {
+      "route_id": "P30",
+      "step_order": 3,
+      "step_label": "Retain the self-assembled particle dispersion",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Retention/collection of the dispersion is an outcome-handling step; no new machine is established.",
+      "source_locator": {
+        "file": "tian2017.pdf",
+        "location": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+        "catalog_row": "route_steps.csv:P30:3"
+      },
+      "source_equipment_sequence": "Dispersion contains approximately 195-197 nm particles with a reported 10-20 nm core-shell feature. No concentration or new instrument model inferred."
+    },
+    {
+      "route_id": "P31",
+      "step_order": 1,
+      "step_label": "Prepare functionalized inorganic filler",
+      "required_branches": [
+        [
+          "M05"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "tang2024.pdf",
+        "location": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "catalog_row": "route_steps.csv:P31:1"
+      },
+      "source_equipment_sequence": "Prepare functionalized inorganic filler. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60."
+    },
+    {
+      "route_id": "P31",
+      "step_order": 2,
+      "step_label": "Prepare polymer nanofiber dispersion and mix filler",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "tang2024.pdf",
+        "location": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "catalog_row": "route_steps.csv:P31:2"
+      },
+      "source_equipment_sequence": "Prepare polymer nanofiber dispersion and mix filler. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60."
+    },
+    {
+      "route_id": "P31",
+      "step_order": 3,
+      "step_label": "Homogenize and cast acid sol into dish",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Homogenization is stated but its apparatus geometry is not established. High-speed stirring does not justify guessing rotor-stator M11.",
+      "source_locator": {
+        "file": "tang2024.pdf",
+        "location": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "catalog_row": "route_steps.csv:P31:3"
+      },
+      "source_equipment_sequence": "Homogenize and cast acid sol into dish. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60."
+    },
+    {
+      "route_id": "P31",
+      "step_order": 4,
+      "step_label": "Gel and exchange solvent with water",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Gelation/solvent exchange does not establish a separate machine; do not infer pressure filtration or dialysis.",
+      "source_locator": {
+        "file": "tang2024.pdf",
+        "location": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "catalog_row": "route_steps.csv:P31:4"
+      },
+      "source_equipment_sequence": "Gel and exchange solvent with water. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60."
+    },
+    {
+      "route_id": "P31",
+      "step_order": 5,
+      "step_label": "Compress and dry nanocomposite paper",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Compression and drying require a source-specific arrangement; no press/dryer geometry is established, and M60 nanoimprint must not be inferred.",
+      "source_locator": {
+        "file": "tang2024.pdf",
+        "location": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "catalog_row": "route_steps.csv:P31:5"
+      },
+      "source_equipment_sequence": "Compress and dry nanocomposite paper. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60."
+    },
+    {
+      "route_id": "P32",
+      "step_order": 1,
+      "step_label": "Mix oxide precursors and graphene dispersion",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Mixing precursors does not establish a distinct powered apparatus class; do not infer overhead or magnetic geometry.",
+      "source_locator": {
+        "file": "nason2024.pdf",
+        "location": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+        "catalog_row": "route_steps.csv:P32:1"
+      },
+      "source_equipment_sequence": "Mix oxide precursors and graphene dispersion. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports."
+    },
+    {
+      "route_id": "P32",
+      "step_order": 2,
+      "step_label": "Solvothermal reaction in lined vessel",
+      "required_branches": [
+        [
+          "M05"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "nason2024.pdf",
+        "location": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+        "catalog_row": "route_steps.csv:P32:2"
+      },
+      "source_equipment_sequence": "Solvothermal reaction in lined vessel. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports."
+    },
+    {
+      "route_id": "P32",
+      "step_order": 3,
+      "step_label": "Centrifuge and wash product",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "nason2024.pdf",
+        "location": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+        "catalog_row": "route_steps.csv:P32:3"
+      },
+      "source_equipment_sequence": "Centrifuge and wash product. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports."
+    },
+    {
+      "route_id": "P32",
+      "step_order": 4,
+      "step_label": "Vacuum dry, grind and atmosphere-controlled calcine",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Vacuum drying, grinding and atmosphere-controlled calcination are explicit apparatus-dependent operations but unclassified here. Do not silently choose M18, M12 or M20 from those words.",
+      "source_locator": {
+        "file": "nason2024.pdf",
+        "location": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+        "catalog_row": "route_steps.csv:P32:4"
+      },
+      "source_equipment_sequence": "Vacuum dry, grind and atmosphere-controlled calcine. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports."
+    },
+    {
+      "route_id": "P33",
+      "step_order": 1,
+      "step_label": "Prepare deoxygenated precursor solutions",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Nitrogen protection requires source-specific atmosphere provision but the source identifies no manifold/glovebox/control type; do not infer one.",
+      "source_locator": {
+        "file": "other-reichel2017.pdf",
+        "location": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+        "catalog_row": "route_steps.csv:P33:1"
+      },
+      "source_equipment_sequence": "Nitrogen-protected solutions reported; no Schlenk manifold or specific reaction-vessel model identified."
+    },
+    {
+      "route_id": "P33",
+      "step_order": 2,
+      "step_label": "Dose precursors under mechanical stirring",
+      "required_branches": [
+        [
+          "M63"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Dosing assembly is classified. Mechanical stirring is also explicit, but its geometry is unreported; M03 must not be inferred, so a complete assembly remains unresolved.",
+      "source_locator": {
+        "file": "other-reichel2017.pdf",
+        "location": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+        "catalog_row": "route_steps.csv:P33:2"
+      },
+      "source_equipment_sequence": "Computer-controlled titration/dosing assembly with 805 Dosimat. Stirrer geometry is not specified; M03 overhead model not inferred."
+    },
+    {
+      "route_id": "P33",
+      "step_order": 3,
+      "step_label": "Maintain pH and temperature during precipitation",
+      "required_branches": [
+        [
+          "M63"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Same dosing assembly as step 2, not another physical titrator. Thermostatted-vessel/temperature provision is explicit but no thermal-control class is assigned.",
+      "source_locator": {
+        "file": "other-reichel2017.pdf",
+        "location": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+        "catalog_row": "route_steps.csv:P33:3"
+      },
+      "source_equipment_sequence": "pH-feedback assembly, Biotrode electrode and thermostatted vessel reported. Same dosing assembly is used across dosing/control stages; do not double-count the same physical unit."
+    },
+    {
+      "route_id": "P33",
+      "step_order": 4,
+      "step_label": "Recover and redisperse material",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "optional_unclassified_characterization_preparation",
+      "notes": "Magnetic separation/washing belongs to an optional characterization-preparation branch; do not make it globally required for production. It has no current category and must be reviewed if chosen.",
+      "source_locator": {
+        "file": "other-reichel2017.pdf",
+        "location": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+        "catalog_row": "route_steps.csv:P33:4"
+      },
+      "source_equipment_sequence": "Magnetic separation/washing is documented for the magnetic-characterization preparation branch (PDF p6), not a required production step for every formulation.",
+      "optional_unclassified_equipment": [
+        "Source-specific magnetic separation/washing arrangement"
+      ]
+    },
+    {
+      "route_id": "P34",
+      "step_order": 1,
+      "step_label": "Mix graphite and reagents under cooling",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Magnetic stirring is classified. The flask/ice bath are source-specific accessories rather than separately established powered machines.",
+      "source_locator": {
+        "file": "Article 10.3390/nano10101936",
+        "location": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+        "catalog_row": "route_steps.csv:P34:1"
+      },
+      "source_equipment_sequence": "Round-bottom flask, magnetic stirring and ice bath reported. Numerical operating settings and reagent quantities omitted."
+    },
+    {
+      "route_id": "P34",
+      "step_order": 2,
+      "step_label": "Complete oxidation and thermal treatment",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Stirring is classified; heating apparatus is unreported. A hotplate-class candidate may offer heat, but the source does not establish a particular complete thermal arrangement. Review compatibility rather than inventing a furnace.",
+      "source_locator": {
+        "file": "Article 10.3390/nano10101936",
+        "location": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+        "catalog_row": "route_steps.csv:P34:2"
+      },
+      "source_equipment_sequence": "Stirred reaction mixture; heating apparatus not identified. This is a conceptual source sequence, not an operational recipe."
+    },
+    {
+      "route_id": "P34",
+      "step_order": 3,
+      "step_label": "Separate and wash product",
+      "required_branches": [
+        [
+          "M13"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.3390/nano10101936",
+        "location": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+        "catalog_row": "route_steps.csv:P34:3"
+      },
+      "source_equipment_sequence": "Centrifugation reported in synthesis section 2.2; exact model unspecified. The 5430R in section 2.6 is not assigned here."
+    },
+    {
+      "route_id": "P34",
+      "step_order": 4,
+      "step_label": "Exchange solvent by dialysis",
+      "required_branches": [
+        [
+          "M66"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.3390/nano10101936",
+        "location": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+        "catalog_row": "route_steps.csv:P34:4"
+      },
+      "source_equipment_sequence": "Diffusion-based solvent exchange; no membrane-system commercial model identified in section 2.2."
+    },
+    {
+      "route_id": "P34",
+      "step_order": 5,
+      "step_label": "Freeze-dry prepared dispersion",
+      "required_branches": [
+        [
+          "M17"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.3390/nano10101936",
+        "location": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+        "catalog_row": "route_steps.csv:P34:5"
+      },
+      "source_equipment_sequence": "Lyophilizer reported; no model identified. Characterization SpeedDry is not imported as the synthesis freeze dryer."
+    },
+    {
+      "route_id": "P35",
+      "step_order": 1,
+      "step_label": "Cast and homogenize alloy stock",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Casting/homogenization apparatus is explicitly unreported; do not present this as a machine-free stage.",
+      "source_locator": {
+        "file": "other-fan2025.pdf",
+        "location": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+        "catalog_row": "route_steps.csv:P35:1"
+      },
+      "source_equipment_sequence": "Casting and homogenization equipment unreported."
+    },
+    {
+      "route_id": "P35",
+      "step_order": 2,
+      "step_label": "Extrude rod stock",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Extrusion press is explicitly unreported and currently unclassified. Do not substitute CNC or ball milling.",
+      "source_locator": {
+        "file": "other-fan2025.pdf",
+        "location": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+        "catalog_row": "route_steps.csv:P35:2"
+      },
+      "source_equipment_sequence": "Extrusion press unreported; no CNC or ball-mill substitution inferred."
+    },
+    {
+      "route_id": "P35",
+      "step_order": 3,
+      "step_label": "Rotary-swage the rod",
+      "required_branches": [
+        [
+          "M64"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "other-fan2025.pdf",
+        "location": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+        "catalog_row": "route_steps.csv:P35:3"
+      },
+      "source_equipment_sequence": "Four-die swaging machine reported; make/model unspecified."
+    },
+    {
+      "route_id": "P35",
+      "step_order": 4,
+      "step_label": "Induction flash-anneal",
+      "required_branches": [
+        [
+          "M65"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "other-fan2025.pdf",
+        "location": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+        "catalog_row": "route_steps.csv:P35:4"
+      },
+      "source_equipment_sequence": "SPG-20 induction heating reported; not a muffle or tube furnace. MAG42 monitoring camera is not an additional synthesis instrument."
+    },
+    {
+      "route_id": "P35",
+      "step_order": 5,
+      "step_label": "Quench treated rod",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Water-quench vessel is identified without a powered-machine model; retain as handling/accessory operation without inventing an additional machine.",
+      "source_locator": {
+        "file": "other-fan2025.pdf",
+        "location": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+        "catalog_row": "route_steps.csv:P35:5"
+      },
+      "source_equipment_sequence": "Water quench vessel reported without a model."
+    },
+    {
+      "route_id": "P36",
+      "step_order": 1,
+      "step_label": "Prepare precursor solution",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Precursor solution preparation does not establish a specific powered mixer; no class is inferred.",
+      "source_locator": {
+        "file": "gomes2021.pdf",
+        "location": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+        "catalog_row": "route_steps.csv:P36:1"
+      },
+      "source_equipment_sequence": "Metalorganic precursor preparation; mixing apparatus unreported."
+    },
+    {
+      "route_id": "P36",
+      "step_order": 2,
+      "step_label": "Atomize precursor at flame nozzle",
+      "required_branches": [
+        [
+          "M53"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "gomes2021.pdf",
+        "location": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+        "catalog_row": "route_steps.csv:P36:2"
+      },
+      "source_equipment_sequence": "Reported custom flame-spray nozzle; no commercial atomizer or pump model inferred."
+    },
+    {
+      "route_id": "P36",
+      "step_order": 3,
+      "step_label": "Form nanoparticles in the flame",
+      "required_branches": [
+        [
+          "M53"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Use the SAME flame-spray assembly as preceding atomization. This stage does not require a second physical M53 unit.",
+      "source_locator": {
+        "file": "gomes2021.pdf",
+        "location": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+        "catalog_row": "route_steps.csv:P36:3"
+      },
+      "source_equipment_sequence": "Same flame-spray assembly as the preceding stage, not a second required unit.",
+      "shared_equipment_with_step": 2
+    },
+    {
+      "route_id": "P36",
+      "step_order": 4,
+      "step_label": "Collect powder on overhead glass filter",
+      "required_branches": [
+        [
+          "M15"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "gomes2021.pdf",
+        "location": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+        "catalog_row": "route_steps.csv:P36:4"
+      },
+      "source_equipment_sequence": "Glass collection filter and support arrangement; make/model unreported."
+    },
+    {
+      "route_id": "P37",
+      "step_order": 1,
+      "step_label": "Disperse nanocarbon in PDMS by three-roll milling",
+      "required_branches": [
+        [
+          "M67"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "delbosque2023-hydrothermal-ageing.pdf",
+        "location": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "catalog_row": "route_steps.csv:P37:1"
+      },
+      "source_equipment_sequence": "EXAKT 80E mini-calender is named; do not substitute 80E PLUS."
+    },
+    {
+      "route_id": "P37",
+      "step_order": 2,
+      "step_label": "Degas by heated stirring under vacuum",
+      "required_branches": [
+        [
+          "M02"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Magnetic hotplate stirring is classified, but the vacuum arrangement is explicit and its pump type is unreported. Do not silently assign dry-pump M31.",
+      "source_locator": {
+        "file": "delbosque2023-hydrothermal-ageing.pdf",
+        "location": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "catalog_row": "route_steps.csv:P37:2"
+      },
+      "source_equipment_sequence": "Magnetic stirring under vacuum reported; vacuum-pump type is unspecified."
+    },
+    {
+      "route_id": "P37",
+      "step_order": 3,
+      "step_label": "Add curing agent and mix",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Mixing is explicitly manual; do not create an unresolved machine requirement.",
+      "source_locator": {
+        "file": "delbosque2023-hydrothermal-ageing.pdf",
+        "location": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "catalog_row": "route_steps.csv:P37:3"
+      },
+      "source_equipment_sequence": "Manual mixing reported; no additional machine inferred."
+    },
+    {
+      "route_id": "P37",
+      "step_order": 4,
+      "step_label": "Cast and thermally cure",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "An oven is explicitly required but class geometry and model are unreported. This must remain an unresolved requirement until reviewed.",
+      "source_locator": {
+        "file": "delbosque2023-hydrothermal-ageing.pdf",
+        "location": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "catalog_row": "route_steps.csv:P37:4"
+      },
+      "source_equipment_sequence": "An oven is required but its class geometry and make/model are unreported; add a reviewed slot as needed."
+    },
+    {
+      "route_id": "P38",
+      "step_order": 1,
+      "step_label": "Co-sputter Ge–Sb–Te composition libraries",
+      "required_branches": [
+        [
+          "M23"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "kusne2020.pdf",
+        "location": "Methods M2a Sample fabrication, PDFpage8; M2d HAADF-STEM and M2f Ge4Sb6Te7 photonic device fabrication, PDFpage9",
+        "catalog_row": "route_steps.csv:P38:1"
+      },
+      "source_equipment_sequence": "Co-sputter deposition system is reported without make/model."
+    },
+    {
+      "route_id": "P38",
+      "step_order": 2,
+      "step_label": "Thermally anneal selected films",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Thermal annealing requires an apparatus whose geometry is unspecified. Do not infer muffle or tube furnace from the supplied row.",
+      "source_locator": {
+        "file": "kusne2020.pdf",
+        "location": "Methods M2a Sample fabrication, PDFpage8; M2d HAADF-STEM and M2f Ge4Sb6Te7 photonic device fabrication, PDFpage9",
+        "catalog_row": "route_steps.csv:P38:2"
+      },
+      "source_equipment_sequence": "Thermal-treatment apparatus unspecified; no particular furnace geometry inferred."
+    },
+    {
+      "route_id": "P38",
+      "step_order": 3,
+      "step_label": "Pattern photonic device by electron-beam lithography",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [
+        "M59"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "optional_equipment_stage",
+      "notes": "Optional photonic-device validation branch, not required for every composition-library sample. If selected, it must be paired coherently with the optional etch stage.",
+      "source_locator": {
+        "file": "kusne2020.pdf",
+        "location": "Methods M2a Sample fabrication, PDFpage8; M2d HAADF-STEM and M2f Ge4Sb6Te7 photonic device fabrication, PDFpage9",
+        "catalog_row": "route_steps.csv:P38:3"
+      },
+      "source_equipment_sequence": "Optional device-validation branch; not required for every composition-library sample.",
+      "branch_conditions": {
+        "paired_optional_stage": 4
+      }
+    },
+    {
+      "route_id": "P38",
+      "step_order": 4,
+      "step_label": "Etch photonic waveguide by ICP",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [
+        "M61"
+      ],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": true,
+      "disposition": "optional_equipment_stage",
+      "notes": "Optional photonic-device validation branch. Do not make etching a global requirement for all deposited libraries.",
+      "source_locator": {
+        "file": "kusne2020.pdf",
+        "location": "Methods M2a Sample fabrication, PDFpage8; M2d HAADF-STEM and M2f Ge4Sb6Te7 photonic device fabrication, PDFpage9",
+        "catalog_row": "route_steps.csv:P38:4"
+      },
+      "source_equipment_sequence": "Optional device-validation branch; exact etcher is not reported.",
+      "branch_conditions": {
+        "paired_optional_stage": 3
+      }
+    },
+    {
+      "route_id": "P39",
+      "step_order": 1,
+      "step_label": "Disperse coated cellulose nanocrystals and add precursor",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "A manufacturing mixer is explicitly unreported; no geometry/model is inferred.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.8b01881",
+        "location": "Experimental Methods > Synthesis of the ZnO@MFCNC Colloidal Nanohybrid (JATS sec3.2); Results and Discussion; Figure8",
+        "catalog_row": "route_steps.csv:P39:1"
+      },
+      "source_equipment_sequence": "Manufacturing mixer type unreported; no stirrer geometry inferred."
+    },
+    {
+      "route_id": "P39",
+      "step_order": 2,
+      "step_label": "Add alkaline solution and stir",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": true,
+      "readiness_review_required": false,
+      "disposition": "required_apparatus_not_fully_classified",
+      "notes": "Stirring is explicit without magnetic/overhead identity. Continue or review the same unresolved mixing arrangement; do not invent a second named machine.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.8b01881",
+        "location": "Experimental Methods > Synthesis of the ZnO@MFCNC Colloidal Nanohybrid (JATS sec3.2); Results and Discussion; Figure8",
+        "catalog_row": "route_steps.csv:P39:2"
+      },
+      "source_equipment_sequence": "Stirring is stated without magnetic/overhead identity."
+    },
+    {
+      "route_id": "P39",
+      "step_order": 3,
+      "step_label": "Hydrothermally treat colloidal hybrid",
+      "required_branches": [
+        [
+          "M05"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.8b01881",
+        "location": "Experimental Methods > Synthesis of the ZnO@MFCNC Colloidal Nanohybrid (JATS sec3.2); Results and Discussion; Figure8",
+        "catalog_row": "route_steps.csv:P39:3"
+      },
+      "source_equipment_sequence": "Hydrothermal apparatus class only; make/model and vessel size unreported."
+    },
+    {
+      "route_id": "P39",
+      "step_order": 4,
+      "step_label": "Purify by dialysis",
+      "required_branches": [
+        [
+          "M66"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.8b01881",
+        "location": "Experimental Methods > Synthesis of the ZnO@MFCNC Colloidal Nanohybrid (JATS sec3.2); Results and Discussion; Figure8",
+        "catalog_row": "route_steps.csv:P39:4"
+      },
+      "source_equipment_sequence": "Diffusion-based dialysis; membrane/device identity unreported."
+    },
+    {
+      "route_id": "P40",
+      "step_order": 1,
+      "step_label": "Prepare separate precursor solutions",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Solution preparation does not establish a distinct powered preparation instrument.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.7b00759",
+        "location": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+        "catalog_row": "route_steps.csv:P40:1"
+      },
+      "source_equipment_sequence": "Precursor-preparation apparatus unreported."
+    },
+    {
+      "route_id": "P40",
+      "step_order": 2,
+      "step_label": "Atomize solutions into aerosols",
+      "required_branches": [
+        [
+          "M53"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.7b00759",
+        "location": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+        "catalog_row": "route_steps.csv:P40:2"
+      },
+      "source_equipment_sequence": "Johnson Matthey Liquifog piezoelectric aerosol generator is reported; numeric model unreported."
+    },
+    {
+      "route_id": "P40",
+      "step_order": 3,
+      "step_label": "Combine aerosols and deposit on heated substrate",
+      "required_branches": [
+        [
+          "M21"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.7b00759",
+        "location": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+        "catalog_row": "route_steps.csv:P40:3"
+      },
+      "source_equipment_sequence": "Custom cold-wall AACVD chamber, with streams mixed at a Y-junction."
+    },
+    {
+      "route_id": "P40",
+      "step_order": 4,
+      "step_label": "Cool coated substrate under atmosphere",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Cool within the source-specific CVD/atmosphere arrangement; no separate cooling-machine class is established.",
+      "source_locator": {
+        "file": "Article 10.1021/acsomega.7b00759",
+        "location": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+        "catalog_row": "route_steps.csv:P40:4"
+      },
+      "source_equipment_sequence": "Cooling/atmosphere provision is source-specific; no separate model inferred."
+    },
+    {
+      "route_id": "P41",
+      "step_order": 1,
+      "step_label": "Blend alloy powder with graphite in planetary mill",
+      "required_branches": [
+        [
+          "M12"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "bai2019-accepted.pdf",
+        "location": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+        "catalog_row": "route_steps.csv:P41:1"
+      },
+      "source_equipment_sequence": "RETSCH PM100 is explicitly named."
+    },
+    {
+      "route_id": "P41",
+      "step_order": 2,
+      "step_label": "Recover nanocarbon-coated alloy powder",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Recovery is a handling/outcome stage after milling; no second mill or powered separator is established.",
+      "source_locator": {
+        "file": "bai2019-accepted.pdf",
+        "location": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+        "catalog_row": "route_steps.csv:P41:2"
+      },
+      "source_equipment_sequence": "Milling produces disordered carbon clusters predominantly below 100 nm."
+    },
+    {
+      "route_id": "P41",
+      "step_order": 3,
+      "step_label": "Load coated powder into graphite die",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Die loading is a preparation/handling operation; no separate machine is inferred.",
+      "source_locator": {
+        "file": "bai2019-accepted.pdf",
+        "location": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+        "catalog_row": "route_steps.csv:P41:3"
+      },
+      "source_equipment_sequence": "Die loading is a preparation operation; no separate machine inferred."
+    },
+    {
+      "route_id": "P41",
+      "step_order": 4,
+      "step_label": "Consolidate by reactive spark-plasma sintering",
+      "required_branches": [
+        [
+          "M69"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "bai2019-accepted.pdf",
+        "location": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+        "catalog_row": "route_steps.csv:P41:4"
+      },
+      "source_equipment_sequence": "FCT Systeme HP D1050 is named. Final TiC reinforcement is submicron, not uniformly below 100 nm."
+    },
+    {
+      "route_id": "P42",
+      "step_order": 1,
+      "step_label": "Spin-coat resist on substrate",
+      "required_branches": [
+        [
+          "M24"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "malkiel2018.pdf",
+        "location": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "catalog_row": "route_steps.csv:P42:1"
+      },
+      "source_equipment_sequence": "Spin coater is reported without make/model."
+    },
+    {
+      "route_id": "P42",
+      "step_order": 2,
+      "step_label": "Pattern resist by electron beam",
+      "required_branches": [
+        [
+          "M59"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "malkiel2018.pdf",
+        "location": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "catalog_row": "route_steps.csv:P42:2"
+      },
+      "source_equipment_sequence": "RAITH150 lithography system is explicitly named."
+    },
+    {
+      "route_id": "P42",
+      "step_order": 3,
+      "step_label": "Develop and rinse substrate",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments.",
+      "source_locator": {
+        "file": "malkiel2018.pdf",
+        "location": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "catalog_row": "route_steps.csv:P42:3"
+      },
+      "source_equipment_sequence": "No separate instrument identity established."
+    },
+    {
+      "route_id": "P42",
+      "step_order": 4,
+      "step_label": "Deposit gold by electron-beam evaporation",
+      "required_branches": [
+        [
+          "M68"
+        ]
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "all_listed_classes_jointly_required",
+      "notes": "Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.",
+      "source_locator": {
+        "file": "malkiel2018.pdf",
+        "location": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "catalog_row": "route_steps.csv:P42:4"
+      },
+      "source_equipment_sequence": "VST evaporator reported; exact model and corporate identity unresolved."
+    },
+    {
+      "route_id": "P42",
+      "step_order": 5,
+      "step_label": "Lift off resist and rinse",
+      "required_branches": [
+        []
+      ],
+      "optional_category_ids": [],
+      "unresolved_required_equipment": false,
+      "readiness_review_required": false,
+      "disposition": "no_separate_machine_established",
+      "notes": "Lift-off and rinse remain operations, without an additional separately established machine.",
+      "source_locator": {
+        "file": "malkiel2018.pdf",
+        "location": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "catalog_row": "route_steps.csv:P42:5"
+      },
+      "source_equipment_sequence": "Source-specific lift-off; no additional machine inferred."
+    }
+  ]
+}

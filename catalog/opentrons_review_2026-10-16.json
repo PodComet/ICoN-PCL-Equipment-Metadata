@@ -1,0 +1,130 @@
+{
+  "reviewed_date": "2026-10-16",
+  "scope": "Official content of linked thermocycler page and directly linked manufacturer model/manual/specification resources. Sidebar navigation is not evidence that all listed products form the thermocycler process.",
+  "catalog_before": {
+    "opentrons_records": 0,
+    "thermocycler_records": 0,
+    "last_category": "M69"
+  },
+  "suggested_category": {
+    "category_id_suggestion": "M70",
+    "category_name": "Programmable thermocyclers",
+    "source_origin": "project_extension",
+    "source_pdf_fields": "must remain blank",
+    "target_examples_suggestion": 2,
+    "reason": "Two generations explicitly identified by manufacturer. Not a furnace/hotplate equivalence."
+  },
+  "manufacturer": {
+    "manufacturer": "Opentrons",
+    "legal_name": "Opentrons Labworks Inc.",
+    "official_website_url": "https://opentrons.com/",
+    "identity_evidence_url": "https://docs.opentrons.com/thermocycler/",
+    "identity_note": "Official model/manual establishes current manufacturer web presence. Common academic adoption not independently assessed in this bounded review.",
+    "research_use_status_suggestion": "research_supplier_claim_only",
+    "research_evidence_url": "https://opentrons.com/resources/citations",
+    "research_evidence_note": "Manufacturer research-use claims and citations directory; no primary paper methods audited here."
+  },
+  "recommended_instruments": [
+    {
+      "model_name": "Opentrons Thermocycler Module GEN2",
+      "model_number": "TCG2",
+      "category_id_suggestion": "M70",
+      "product_family_suggestion": "Opentrons Thermocycler Module",
+      "variant_label": "GEN2 / TCG2",
+      "model_evidence_status_suggestion": "documented_commercial_model",
+      "model_evidence_url": "https://opentrons.com/products/thermocycler-module-1",
+      "product_page_url": "https://opentrons.com/products/thermocycler-module-1",
+      "manual_url": "https://docs.opentrons.com/thermocycler/",
+      "manual_status_suggestion": "manufacturer_manual_found",
+      "manual_scope": "GEN2 / TCG2; current manufacturer HTML manual, March 2026",
+      "technical_spec_url": "https://docs.opentrons.com/thermocycler/product-specs/",
+      "documentation_url": "https://docs.opentrons.com/python-api/modules/thermocycler/",
+      "image_url": "https://cdn11.bigcommerce.com/s-zmwgbev7rb/products/241/images/849/Thermocycler-1__21867.1729268547.386.513.png?c=1",
+      "image_source_url": "https://opentrons.com/products/thermocycler-module-1",
+      "image_scope": "Exact GEN2 product image from manufacturer product page, open lid with plate; image inspected visually, 386 × 386 PNG, HTTP 200",
+      "image_license_note": "Manufacturer copyright; source attribution, not an open-license claim.",
+      "manufacturer_price_value": 10230,
+      "manufacturer_price_currency": "USD",
+      "manufacturer_price_kind": "starting_at",
+      "manufacturer_price_source_url": "https://opentrons.com/products/categories/modules",
+      "manufacturer_price_checked_date": "2026-10-16",
+      "manufacturer_price_scope": "Manufacturer product-family starting price, US/select territories. Configuration, caddy and robot costs may differ. Not labeled MSRP.",
+      "price_caution": "A SKU-specific search rendering shows $11,980 for a configured variant, but bare product URL did not expose a stable exact configured price in the accessible rendering. Do not label $10,230 exact GEN2 MSRP.",
+      "nanomaterial_associations": "None verified by the linked control documentation. Do not assign a nano-material or existing nanomanufacturing route solely because PCR is supported. Available for user-added thermocycling steps and an explicitly labeled control-interface demonstration."
+    },
+    {
+      "model_name": "Opentrons Thermocycler Module GEN1",
+      "category_id_suggestion": "M70",
+      "product_family_suggestion": "Opentrons Thermocycler Module",
+      "variant_label": "GEN1 / earlier generation",
+      "model_evidence_url": "https://docs.opentrons.com/python-api/modules/thermocycler/#changes-with-the-gen2-thermocycler-module",
+      "model_evidence_scope": "Official API documentation explicitly identifies both GEN1 and GEN2; it is shared API documentation, not an exact GEN1 operator manual.",
+      "documentation_url": "https://docs.opentrons.com/python-api/modules/thermocycler/",
+      "manual_url": "",
+      "image_url": "",
+      "manufacturer_price_value": "",
+      "caution": "Earlier generation is evidenced. Current availability, exact GEN1 specs, manual and photo not independently resolved. Never copy GEN2 photo, price or manual into GEN1 as exact. GEN2 is a documented later generation; no discontinuation asserted."
+    },
+    {
+      "model_name": "Opentrons Flex Gripper GEN1",
+      "category_id_suggestion": "M62",
+      "equipment_subtype": "robotic labware gripper / Flex accessory",
+      "model_evidence_url": "https://opentrons.com/products/opentrons-flex-gripper-gen1",
+      "product_page_url": "https://opentrons.com/products/opentrons-flex-gripper-gen1",
+      "manual_url": "https://insights.opentrons.com/hubfs/Products/Flex/Flex%20Gripper%20Quickstart%20Guide.pdf",
+      "manual_scope": "Exact Flex Gripper quickstart guide, 2 pages",
+      "technical_spec_url": "https://docs.opentrons.com/flex/system-description/gripper/",
+      "brochure_url": "https://insights.opentrons.com/hubfs/Products/Modules/Flex%20Gripper_One%20Sheet.pdf",
+      "image_url": "https://cdn11.bigcommerce.com/s-zmwgbev7rb/products/256/images/846/Gripper__36803.1729268555.386.513.png?c=1",
+      "image_source_url": "https://opentrons.com/products/opentrons-flex-gripper-gen1",
+      "image_scope": "Manufacturer-linked exact product image; image pixel inspection not performed in this review",
+      "manufacturer_price_value": 9750,
+      "manufacturer_price_currency": "USD",
+      "manufacturer_price_kind": "starting_at",
+      "manufacturer_price_source_url": "https://opentrons.com/products/categories/modules",
+      "manufacturer_price_checked_date": "2026-10-16",
+      "manufacturer_price_scope": "Manufacturer starting price for Flex Gripper family; Flex robot not included. Not labeled MSRP.",
+      "caution": "Associated handling accessory explicitly discussed in thermocycler auto-sealing lid section. Requires compatible Flex system; do not infer stand-alone robot or synthesis capability. No universal process association."
+    }
+  ],
+  "associated_hosts_not_full_record_researched": [
+    {
+      "model_name": "Opentrons Flex",
+      "product_page_url": "https://opentrons.com/robots/flex",
+      "manual_url": "https://docs.opentrons.com/flex/",
+      "role": "Compatible host liquid-handling robot; thermocycler page references Flex Gripper operations."
+    },
+    {
+      "model_name": "Opentrons OT-2",
+      "product_page_url": "https://opentrons.com/robots/ot-2",
+      "manual_url": "https://docs.opentrons.com/ot2/",
+      "role": "Compatible host liquid-handling robot. The GEN2 manual has OT-2 attachment instructions."
+    }
+  ],
+  "position_roadmap": {
+    "model_status": "draft scaffold",
+    "all_other_equipment": "Create empty per-model Position List containers with evidence_ids=[], fibers=[] and review_status=not_started; do not invent generic operational states. Future population is manual-derived and model-bound.",
+    "example_fibers_file": "poly-fibers-example.json",
+    "example_evidence_file": "poly-evidence-example.json",
+    "rules": [
+      "Never treat category-level positions as valid for every model.",
+      "Do not retain unresolved sample IDs TC-M06/TC-P04/BME-S01 from user example as verified citations. Only IDs with actual evidence entries are resolvable.",
+      "User-supplied espresso interface is a schema example, not Opentrons evidence.",
+      "Do not copy 30-cycle PCR recipe, 105 °C lid target, 37 °C cooling target, inventory/access guards or readiness semantics from the user example as manufacturer requirements.",
+      "Lid passive cooling and block active cooling are distinct.",
+      "A filled process equipment plan is not proof of successful synthesis or safe operational execution. The requested animation should indicate equipment coverage/readiness for planning and label the output visual theoretical."
+    ]
+  },
+  "local_cache": {
+    "manual_pdf": "Thermocycler Manual.pdf",
+    "manual_pdf_edition": "December 2024",
+    "manual_pdf_pages": 28,
+    "manual_pdf_sha256": "f935510639c6717f113d22898d731c7c8abcecbcc25181d77973bf3ec08ed488",
+    "manual_pdf_url": "https://insights.opentrons.com/hubfs/Products/Modules/Thermocycler%20Manual.pdf",
+    "current_html_edition": "March 2026",
+    "images": [
+      "thermocycler-product.png",
+      "thermocycler-manual-hero.png"
+    ]
+  }
+}

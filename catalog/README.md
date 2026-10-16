@@ -1,6 +1,6 @@
 # Equipment database
 
-`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 67 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes contain source-reported starting examples; the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
+`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 68 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes contain source-reported starting examples; the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
 
 ## Files
 
@@ -100,3 +100,7 @@ Parallel capacities, co-listed alternatives, renaming and unresolved source iden
 The [breadth citation review](../docs/citation-breadth-2026-10-16.md) adds fourteen studies, twelve processes and source-specific claims. N10 groups composites with nanoscale phases; it is not a universal manufacturing sequence. The [candidate review CSV](citation_review_2026-10-16-breadth.csv) retains source access, review depth and unresolved work.
 
 JASCO was confirmed by the project owner on 2026-10-16. Prefer [jascoinc.com](https://jascoinc.com/) for its model content, photos and documents. The [JASCO source review](link_review_2026-10-16-jasco.json) supplies V-730 and historical FT/IR-4700 resources; brochures remain distinct from operator manuals, and the green star does not invent an academic-adoption claim.
+
+## Position Lists and process requirements
+
+`equipment_position_lists.csv` indexes every model’s Position List roadmap. `position_interfaces.json` stores reviewed/draft `poly-fibers/v2` interfaces and `poly-evidence/v1` registers; remaining models have empty templates. The GEN2 example contains eight verified manufacturer facts and two draft model assumptions. Do not copy positions between models by category. `route_steps.csv` now includes `requirements_json`: OR across `required_branches`, AND within each branch, optional categories and unresolved apparatus/review flags. See [the workbench guide](../docs/process-workbench-2026-10-16.md).

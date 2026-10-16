@@ -14,11 +14,11 @@ const hydrate=(r,protectedFields=[])=>applyProductFamily(r,seed.product_families
 const plan=input=>buildPlan(csvUpdateText(input),seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 
 test('family presentation preserves all records and preserves the 535 dated cards alongside literature additions',()=>{
- assert.equal(rows.length,666);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,666);
- assert.equal(groupRows(rows).length,569);assert.equal(seed.product_families.length,86);
- assert.equal(new Set(seed.product_families.map(r=>r.product_family_id)).size,34);
- assert.equal(rows.filter(row=>newerModel(row.record)).length,24);
- const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,666);
+ assert.equal(rows.length,669);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,669);
+ assert.equal(groupRows(rows).length,571);assert.equal(seed.product_families.length,88);
+ assert.equal(new Set(seed.product_families.map(r=>r.product_family_id)).size,35);
+ assert.equal(rows.filter(row=>newerModel(row.record)).length,25);
+ const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,669);
  const firstMissing=ordered.findIndex(group=>!group.some(row=>row.record.image_url));
  assert.ok(ordered.slice(firstMissing).every(group=>!group.some(row=>row.record.image_url)));
 });
@@ -81,10 +81,10 @@ test('Purdue sub-models keep their exact inventory associations',()=>{
  assert.equal(inventoryFor(assets,'REQ-EQ-042')[0].instrument_id,'PCL IIT - 042');
 });
 
-test('all 21 affected families have a notice even when the default sub-model has no successor',()=>{
+test('all 22 affected families have a notice even when the default sub-model has no successor',()=>{
  const affected=groupRows(rows).filter(group=>variantsWithNewerModels(group).length);
- assert.equal(affected.length,21);
- assert.equal(affected.reduce((count,group)=>count+variantsWithNewerModels(group).length,0),24);
+ assert.equal(affected.length,22);
+ assert.equal(affected.reduce((count,group)=>count+variantsWithNewerModels(group).length,0),25);
  for(const id of ['M08-01','M51-01']){
   const group=family(id),before=structuredClone(group);
   assert.equal(newerModel(record(id)),null);

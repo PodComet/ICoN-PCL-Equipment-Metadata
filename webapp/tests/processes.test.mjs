@@ -28,7 +28,7 @@ test('source process sequences keep order, alternatives and empty equipment slot
  for(let n=0;n<source.length;n++){
   assert.equal(w.steps[n].label,source[n].step_label);assert.equal(w.steps[n].source_sequence,source[n].equipment_sequence);
   assert.ok(w.steps[n].slots.every(s=>s.instrument===null));
-  assert.deepEqual(w.steps[n].slots[0]?.allowed_category_ids,source[n].equipment_category_ids.split(';').filter(Boolean));
+  assert.ok(source[n].equipment_category_ids.split(';').filter(Boolean).every(cid=>w.steps[n].slots.some(slot=>slot.allowed_category_ids.includes(cid))));
  }
  assert.equal(budgetLabel(workflowBudget(w.steps)),'$0');
 });
@@ -122,7 +122,7 @@ test('breadth routes expose only their supported classes and start with empty ze
   const route=seed.routes.find(r=>r.route_id==='P'+n),draft=createWorkflow(route,seed.steps);
   assert.ok(draft.steps.length>=3);assert.equal(budgetLabel(workflowBudget(draft.steps)),'$0');
   assert.ok(draft.steps.some(s=>s.slots.length));
-  for(const slot of draft.steps.flatMap(s=>s.slots))assert.ok(routeCandidates(seed.records,route,slot).length);
+  for(const slot of draft.steps.flatMap(s=>s.slots))assert.equal(routeCandidates(seed.records,route,slot).length>0,slot.extensions.requirement_role!=='unclassified');
  }
  const dialysis=seed.routes.find(r=>r.route_id==='P30');
  assert.ok(routeCandidates(seed.records,dialysis,null).every(r=>r.category_id==='M66'));
@@ -138,6 +138,6 @@ test('all-years citation routes expose only classes used by their actual current
   const candidates=routeCandidates(seed.records,route,null,draft.steps);
   assert.ok(candidates.length);assert.equal(budgetLabel(workflowBudget(draft.steps)),'$0');
   assert.ok(candidates.every(r=>classes.has(r.category_id)));
-  for(const slot of draft.steps.flatMap(s=>s.slots))assert.ok(routeCandidates(seed.records,route,slot,draft.steps).length);
+  for(const slot of draft.steps.flatMap(s=>s.slots))assert.equal(routeCandidates(seed.records,route,slot,draft.steps).length>0,slot.extensions.requirement_role!=='unclassified');
  }
 });

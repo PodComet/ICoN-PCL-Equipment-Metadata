@@ -51,7 +51,7 @@ test('CSV clones and model identity changes clear lifecycle metadata, ordinary e
 });
 
 test('the full review has complete confirmed updates and never marks newer targets as old by inheritance',()=>{
- const confirmed=seed.records.filter(r=>newerModel(r));assert.equal(confirmed.length,24);
+ const confirmed=seed.records.filter(r=>newerModel(r));assert.equal(confirmed.length,25);
  for(const r of confirmed){assert.deepEqual(hydrate(r),r);assert.match(newerModel(r).url,/^https:\/\//)}
  for(const id of ['M15-01','M51-01','M08-01','M42-02'])assert.equal(newerModel(hydrate(record(id))),null);
 });
@@ -59,7 +59,7 @@ test('the full review has complete confirmed updates and never marks newer targe
 test('screening coverage remains distinct from a confirmed successor or latest-model certification',()=>{
  assert.equal(seed.model_lifecycle.length,seed.records.length);
  const unresolved=seed.records.filter(r=>r.lifecycle_status==='model_unresolved');
- assert.equal(unresolved.filter(r=>r.catalog_scope!=='literature_reported').length,105);assert.ok(unresolved.every(r=>!newerModel(r)));
+ assert.equal(unresolved.filter(r=>['core_example','requested_supplement'].includes(r.catalog_scope)).length,105);assert.ok(unresolved.every(r=>!newerModel(r)));
  assert.equal(newerModel(record('M57-05')).name,'Gamry Reference 3020');
  assert.equal(newerModel(record('M39-09')),null);
 });

@@ -1,0 +1,670 @@
+equipment_id,manufacturer,model_name,interface_name,schema,review_status,position_count,evidence_ids,interface_registry,notes
+M01-01,OHAUS,OHAUS PX224/E,p_M01-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-02,Sartorius,Sartorius Entris II BCA224-1S,p_M01-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-03,METTLER TOLEDO,METTLER TOLEDO Analytical Balance MA204,p_M01-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-04,Sartorius,Sartorius Entris II BCA64-1S,p_M01-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-05,Sartorius,Sartorius Entris II BCA124-1S,p_M01-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-06,Sartorius,Sartorius Entris II BCA64I-1S,p_M01-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-07,Sartorius,Sartorius Entris II BCA124I-1S,p_M01-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-08,Sartorius,Sartorius Entris II BCA224I-1S,p_M01-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-09,Sartorius,Sartorius Entris II BCA324I-1S,p_M01-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M01-10,Shimadzu,Shimadzu ATX224,p_M01-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-01,IKA,IKA RCT basic,p_M02-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-02,Heidolph,Heidolph Hei-PLATE Mix n Heat Core,p_M02-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-03,VELP,VELP AREX 5,p_M02-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-04,IKA,IKA RCT digital,p_M02-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-05,IKA,IKA RET control-visc,p_M02-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-06,IKA,IKA C-MAG HS 4,p_M02-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-07,IKA,IKA C-MAG HS 7,p_M02-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-08,IKA,IKA C-MAG HS 10,p_M02-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-09,IKA,IKA RH basic,p_M02-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M02-10,VELP,VELP AREC.X,p_M02-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-01,IKA,"IKA EUROSTAR 20 digital, 20105154",p_M03-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-02,Heidolph,Heidolph Hei-TORQUE Precision 100,p_M03-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-03,VELP,VELP OHS 40 Digital,p_M03-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-04,IKA,IKA EUROSTAR 40 digital,p_M03-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-05,IKA,IKA EUROSTAR 60 digital,p_M03-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-06,IKA,IKA EUROSTAR 100 digital,p_M03-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-07,Heidolph,Heidolph Hei-TORQUE Precision 200,p_M03-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-08,Heidolph,Heidolph Hei-TORQUE Precision 400,p_M03-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-09,VELP,VELP OHS 60 Digital,p_M03-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M03-10,VELP,VELP OHS 100 Digital,p_M03-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-01,Radleys,Radleys Reactor-Ready Flex,p_M04-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-02,Asynt,Asynt ReactoMate DATUM,p_M04-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-03,Chemglass,Chemglass Benchtop Jacketed Reactor,p_M04-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-04,Radleys,Radleys Reactor-Ready Duo,p_M04-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-05,Radleys,Radleys Reactor-Ready Pilot,p_M04-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-06,Asynt,Asynt ReactoMate ATOM,p_M04-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-07,Buchi AG,Buchi AG miniclave,p_M04-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-08,Buchi AG,Buchi AG midiclave,p_M04-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-09,IKA,IKA LR 1000 basic,p_M04-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M04-10,IKA,IKA LR 1000 control,p_M04-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-01,Parr,Parr 4744,p_M05-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-02,Berghof,Berghof digestec DAB-2,p_M05-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-03,Amar,Amar hydrothermal reactor family,p_M05-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-04,Parr,Parr 4745,p_M05-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-05,Parr,Parr 4746,p_M05-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-06,Parr,Parr 4747,p_M05-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-07,Parr,Parr 4748,p_M05-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-08,Parr,Parr 4748A,p_M05-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-09,Parr,Parr 4749,p_M05-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M05-10,Parr,Parr 4749A,p_M05-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-01,Anton Paar,Anton Paar Monowave 450,p_M06-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-02,CEM,CEM Discover 2.0,p_M06-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-03,Milestone,Milestone flexiWAVE,p_M06-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-04,Anton Paar,Anton Paar Monowave 400,p_M06-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-05,Anton Paar,Anton Paar Monowave 200,p_M06-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-06,Anton Paar,Anton Paar Multiwave 5000,p_M06-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-07,CEM,CEM Discover SP,p_M06-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-08,CEM,CEM MARS 6,p_M06-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-09,Biotage,Biotage Initiator+,p_M06-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M06-10,Milestone,Milestone synthWAVE,p_M06-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-01,New Era,New Era NE-300 InfusionONE,p_M07-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-02,Harvard Apparatus,Harvard Apparatus Pump 11 Elite,p_M07-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-03,KD Scientific,KD Scientific Legato 100,p_M07-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-04,New Era,New Era NE-1000,p_M07-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-05,New Era,New Era NE-4000,p_M07-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-06,Harvard Apparatus,Harvard Apparatus PHD ULTRA,p_M07-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-07,KD Scientific,KD Scientific Legato 200,p_M07-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-08,KD Scientific,KD Scientific Legato 210,p_M07-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-09,Chemyx,Chemyx Fusion 200,p_M07-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M07-10,Chemyx,Chemyx Fusion 4000,p_M07-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-01,Cytiva,Cytiva NanoAssemblr Ignite+,p_M08-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-02,Unchained Labs,Unchained Labs Sunshine,p_M08-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-03,Fluigent,Fluigent RayDrop,p_M08-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-04,Cytiva,Cytiva NanoAssemblr Ignite,p_M08-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-05,Cytiva,Cytiva NanoAssemblr Spark,p_M08-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-06,Cytiva,Cytiva NanoAssemblr Benchtop,p_M08-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-07,Cytiva,Cytiva NanoAssemblr Blaze,p_M08-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-08,Cytiva,Cytiva NanoAssemblr GMP System,p_M08-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-09,Dolomite,Dolomite Automated Nanoparticle System,p_M08-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M08-10,Inside Therapeutics,Inside Therapeutics TAMARA,p_M08-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-01,Qsonica,Qsonica Q125,p_M09-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-02,Sonics,Sonics VCX 750,p_M09-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-03,Hielscher,Hielscher UP400St,p_M09-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-04,Qsonica,Qsonica Q500,p_M09-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-05,Qsonica,Qsonica Q700,p_M09-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-06,Sonics,Sonics VCX 130,p_M09-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-07,Sonics,Sonics VCX 500,p_M09-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-08,Hielscher,Hielscher UP200St,p_M09-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-09,Hielscher,Hielscher UIP500hdT,p_M09-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M09-10,Hielscher,Hielscher UIP1000hdT,p_M09-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-01,Elma,Elma Elmasonic Select 30,p_M10-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-02,Branson,Branson CPX2800,p_M10-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-03,Fisherbrand,Fisherbrand FB11201,p_M10-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-04,Elma,Elma Elmasonic Select 60,p_M10-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-05,Elma,Elma Elmasonic Select 100,p_M10-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-06,Elma,Elma Elmasonic Select 180,p_M10-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-07,Branson,Branson CPX3800,p_M10-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-08,Branson,Branson CPX5800,p_M10-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-09,Branson,Branson CPX8800,p_M10-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M10-10,Bandelin,Bandelin SONOREX RK 100 H,p_M10-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-01,IKA,IKA T 18 digital Solution,p_M11-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-02,Kinematica,Kinematica POLYTRON PT 2500 E,p_M11-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-03,Silverson,Silverson L5M-A,p_M11-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-04,IKA,IKA T 25 digital,p_M11-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-05,IKA,IKA T 50 digital,p_M11-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-06,Kinematica,Kinematica POLYTRON PT 3100 D,p_M11-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-07,Kinematica,Kinematica POLYTRON PT 10-35 GT,p_M11-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-08,Silverson,Silverson L4RT,p_M11-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-09,IKA,IKA ULTRA-TURRAX Tube Drive,p_M11-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M11-10,VELP,VELP OV 5,p_M11-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-01,RETSCH,RETSCH PM 300,p_M12-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-02,FRITSCH,FRITSCH PULVERISETTE 7 premium line,p_M12-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-03,Across International,Across International PQ-N2,p_M12-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-04,RETSCH,RETSCH PM 100,p_M12-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-05,RETSCH,RETSCH PM 200,p_M12-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-06,RETSCH,RETSCH PM 400,p_M12-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-07,FRITSCH,FRITSCH PULVERISETTE 5 classic line,p_M12-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-08,FRITSCH,FRITSCH PULVERISETTE 5 premium line,p_M12-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-09,FRITSCH,FRITSCH PULVERISETTE 6 classic line,p_M12-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M12-10,FRITSCH,FRITSCH PULVERISETTE 7 classic line,p_M12-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-01,Eppendorf,Eppendorf Centrifuge 5910 Ri,p_M13-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-02,Thermo Scientific,Thermo Scientific Sorvall ST 8R,p_M13-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-03,Sigma,Sigma 3-18KS,p_M13-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-04,Eppendorf,Eppendorf Centrifuge 5804 R,p_M13-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-05,Eppendorf,Eppendorf Centrifuge 5810 R,p_M13-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-06,Eppendorf,Eppendorf Centrifuge 5920 R,p_M13-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-07,Thermo Scientific,Thermo Scientific Sorvall ST 16R,p_M13-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-08,Thermo Scientific,Thermo Scientific Sorvall ST 40R,p_M13-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-09,Sigma,Sigma 3-30KS,p_M13-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M13-10,Hettich,Hettich ROTINA 380 R,p_M13-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-01,Beckman Coulter,Beckman Coulter Optima XPN-100,p_M14-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-02,Thermo Scientific,Thermo Scientific Sorvall WX 100+,p_M14-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-03,Himac,Himac CP100NX,p_M14-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-04,Beckman Coulter,Beckman Coulter Optima XPN-80,p_M14-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-05,Beckman Coulter,Beckman Coulter Optima XPN-90,p_M14-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-06,Beckman Coulter,Beckman Coulter Optima MAX-XP,p_M14-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-07,Beckman Coulter,Beckman Coulter Optima MAX-TL,p_M14-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-08,Thermo Scientific,Thermo Scientific Sorvall WX 80+,p_M14-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-09,Thermo Scientific,Thermo Scientific Sorvall WX 90+,p_M14-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M14-10,Himac,Himac CP80NX,p_M14-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-01,Sartorius,Sartorius Vivaflow SU,p_M15-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-02,Repligen,Repligen KrosFlo KR2i,p_M15-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-03,Merck,Merck Pellicon XL 50,p_M15-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-04,Sartorius,Sartorius Vivaflow 50,p_M15-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-05,Sartorius,Sartorius Vivaflow 200,p_M15-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-06,Sartorius,Sartorius Sartoflow Smart,p_M15-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-07,Sartorius,Sartorius Sartoflow Advanced,p_M15-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-08,Repligen,Repligen KrosFlo KR2i RPM,p_M15-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-09,Repligen,Repligen KrosFlo KMPi,p_M15-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M15-10,Cytiva,Cytiva AKTA flux s,p_M15-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-01,BUCHI,BUCHI Rotavapor R-180,p_M16-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-02,Heidolph,Heidolph Hei-VAP Core,p_M16-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-03,IKA,IKA RV 10 digital,p_M16-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-04,BUCHI,BUCHI Rotavapor R-80,p_M16-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-05,BUCHI,BUCHI Rotavapor R-100,p_M16-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-06,BUCHI,BUCHI Rotavapor R-300,p_M16-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-07,Heidolph,Heidolph Hei-VAP Expert,p_M16-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-08,Heidolph,Heidolph Hei-VAP Ultimate,p_M16-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-09,IKA,IKA RV 3,p_M16-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M16-10,IKA,IKA RV 8,p_M16-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-01,Labconco,"Labconco FreeZone 2.5 L, −50 °C",p_M17-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-02,BUCHI,BUCHI Lyovapor L-210,p_M17-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-03,Martin Christ,Martin Christ Alpha 1-2 LDplus,p_M17-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-04,Labconco,"Labconco FreeZone 4.5 L, -50 C",p_M17-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-05,Labconco,"Labconco FreeZone 6 L, -84 C",p_M17-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-06,BUCHI,BUCHI Lyovapor L-200,p_M17-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-07,BUCHI,BUCHI Lyovapor L-300,p_M17-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-08,Martin Christ,Martin Christ Alpha 2-4 LSCplus,p_M17-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-09,Martin Christ,Martin Christ Beta 1-8 LSCplus,p_M17-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M17-10,SP VirTis,SP VirTis BenchTop Pro,p_M17-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-01,Memmert,Memmert VO29,p_M18-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-02,BINDER,BINDER VD 56,p_M18-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-03,Thermo Scientific,Thermo Scientific Vacutherm VT 6025,p_M18-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-04,Memmert,Memmert VO49,p_M18-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-05,Memmert,Memmert VO101,p_M18-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-06,BINDER,BINDER VD 23,p_M18-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-07,BINDER,BINDER VD 115,p_M18-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-08,BINDER,BINDER VDL 56,p_M18-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-09,Thermo Scientific,Thermo Scientific Vacutherm VT 6060,p_M18-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M18-10,Yamato,Yamato DP63,p_M18-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-01,Nabertherm,Nabertherm L 3/11,p_M19-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-02,Carbolite Gero,Carbolite Gero CWF 12/5,p_M19-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-03,Thermo Scientific,Thermo Scientific Thermolyne FB1315M,p_M19-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-04,Nabertherm,Nabertherm L 5/11,p_M19-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-05,Nabertherm,Nabertherm L 9/11,p_M19-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-06,Nabertherm,Nabertherm L 15/11,p_M19-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-07,Carbolite Gero,Carbolite Gero CWF 11/5,p_M19-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-08,Carbolite Gero,Carbolite Gero CWF 13/5,p_M19-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-09,Carbolite Gero,Carbolite Gero CWF 12/13,p_M19-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M19-10,Thermo Scientific,Thermo Scientific Thermolyne F48025,p_M19-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-01,Carbolite Gero,Carbolite Gero TF1,p_M20-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-02,Nabertherm,Nabertherm R 50/250/12,p_M20-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-03,MTI,MTI OTF-1200X,p_M20-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-04,Carbolite Gero,Carbolite Gero TS1,p_M20-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-05,Carbolite Gero,Carbolite Gero TF3,p_M20-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-06,Carbolite Gero,Carbolite Gero STF,p_M20-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-07,Carbolite Gero,Carbolite Gero HTRH,p_M20-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-08,Nabertherm,Nabertherm RHTH 50/150/17,p_M20-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-09,MTI,MTI GSL-1600X,p_M20-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M20-10,MTI,MTI GSL-1800X,p_M20-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-01,MTI,MTI OTF-1200X-II-PEC4SL,p_M21-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-02,FirstNano,FirstNano EasyTube 3000,p_M21-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-03,planarTECH,planarTECH planarGROW,p_M21-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-04,FirstNano,FirstNano EasyTube 1000,p_M21-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-05,FirstNano,FirstNano EasyTube 2000,p_M21-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-06,AIXTRON,AIXTRON Black Magic,p_M21-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-07,AIXTRON,AIXTRON Close Coupled Showerhead,p_M21-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-08,AIXTRON,AIXTRON G5+ C,p_M21-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-09,Annealsys,Annealsys MCVD,p_M21-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M21-10,Oxford Instruments,Oxford Instruments PlasmaPro 100 PECVD,p_M21-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-01,Beneq,Beneq TFS 200,p_M22-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-02,Arradiance,Arradiance GEMStar XT,p_M22-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-03,Oxford Instruments,Oxford Instruments FlexAL,p_M22-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-04,Picosun,Picosun R-200 Advanced,p_M22-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-05,Picosun,Picosun R-150,p_M22-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-06,Veeco,Veeco Savannah S100,p_M22-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-07,Veeco,Veeco Savannah S200,p_M22-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-08,Kurt J. Lesker,Kurt J. Lesker ALD150LX,p_M22-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-09,Beneq,Beneq TFS 500,p_M22-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M22-10,Forge Nano,Forge Nano Prometheus,p_M22-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-01,Quorum,Quorum TurboQ S,p_M23-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-02,Leica,Leica EM ACE200,p_M23-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-03,Cressington,Cressington 108auto,p_M23-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-04,Quorum,Quorum Q150T ES,p_M23-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-05,Quorum,Quorum Q150R ES,p_M23-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-06,Leica,Leica EM ACE600,p_M23-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-07,Cressington,Cressington 208HR,p_M23-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-08,Denton,Denton Desk V,p_M23-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-09,Denton,Denton Discovery 18,p_M23-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M23-10,Kurt J. Lesker,Kurt J. Lesker PVD75,p_M23-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-01,Laurell,Laurell WS-650-23B,p_M24-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-02,Ossila,Ossila Spin Coater,p_M24-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-03,SPS,SPS: POLOS SPIN200x Advanced,p_M24-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-04,Laurell,Laurell WS-400B,p_M24-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-05,Laurell,Laurell WS-650MZ-23NPP,p_M24-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-06,Specialty Coating Systems,Specialty Coating Systems G3P-8,p_M24-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-07,Specialty Coating Systems,Specialty Coating Systems G3P-12,p_M24-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-08,SUSS,SUSS Delta 6RC,p_M24-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-09,SUSS,SUSS LabSpin6,p_M24-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M24-10,Holmarc,Holmarc HO-TH-05,p_M24-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-01,Biolin Scientific,Biolin Scientific: KSV NIMA Dip Coater,p_M25-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-02,Ossila,Ossila Dip Coater V2,p_M25-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-03,MTI,MTI PTL-MM01,p_M25-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-04,Holmarc,Holmarc HO-TH-01,p_M25-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-05,Holmarc,Holmarc HO-TH-01BC,p_M25-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-06,Holmarc,Holmarc HO-TH-02MD,p_M25-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-07,Holmarc,Holmarc HO-TH-ADDC1,p_M25-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-08,Holmarc,Holmarc HO-TH-02,p_M25-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-09,Holmarc,Holmarc HO-TH-02B,p_M25-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M25-10,Holmarc,Holmarc HO-TH-03BC,p_M25-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-01,Inovenso,Inovenso NE300,p_M26-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-02,Elma,Elmarco Nanospider NS LAB,p_M26-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-03,Fluidnatek,Fluidnatek LE-100,p_M26-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-04,Fluidnatek,Fluidnatek LE-10,p_M26-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-05,Fluidnatek,Fluidnatek LE-50,p_M26-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-06,Fluidnatek,Fluidnatek LE-500,p_M26-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-07,Inovenso,Inovenso NE100,p_M26-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-08,Inovenso,Inovenso NE200,p_M26-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-09,Spraybase,Spraybase Electrospinning Platform,p_M26-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M26-10,Linari Engineering,Linari Engineering RT Advanced,p_M26-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-01,Chemglass,Chemglass AF-0452-01,p_M27-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-02,Ace Glass,Ace Glass 8734 vacuum manifold,p_M27-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-03,Adams & Chittenden,Adams & Chittenden Schlenk Manifold,p_M27-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-04,Chemglass,Chemglass AF-0300-13,p_M27-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-05,Chemglass,Chemglass AF-0300-03,p_M27-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-06,Chemglass,Chemglass AF-0450,p_M27-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-07,Chemglass,Chemglass AF-0060,p_M27-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-08,Chemglass,Chemglass AF-0061,p_M27-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-09,Chemglass,Chemglass AF-0062,p_M27-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M27-10,Chemglass,Chemglass CG-4440,p_M27-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-01,MBRAUN,MBRAUN LABstar pro,p_M28-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-02,Vacuum Atmospheres,Vacuum Atmospheres OMNI-LAB,p_M28-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-03,Inert,Inert PureLab HE,p_M28-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-04,MBRAUN,MBRAUN UNIlab Pro,p_M28-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-05,MBRAUN,MBRAUN LABmaster Pro,p_M28-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-06,MBRAUN,MBRAUN UNIlab Plus,p_M28-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-07,Inert,Inert PureLab HE 2GB,p_M28-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-08,Vacuum Atmospheres,Vacuum Atmospheres NEXGEN,p_M28-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-09,Jacomex,Jacomex GP Concept,p_M28-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M28-10,LC Technology,LC Technology LC-1,p_M28-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-01,Labconco,"Labconco Protector XStream, 4 ft",p_M29-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-02,Esco,Esco Frontier Acela,p_M29-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-03,Waldner,Waldner Secuflow,p_M29-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-04,Labconco,Labconco Protector XL,p_M29-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-05,Labconco,Labconco Protector Premier,p_M29-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-06,Labconco,"Labconco Protector XStream, 6 ft",p_M29-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-07,Thermo Scientific,Thermo Scientific Hamilton SafeAire II,p_M29-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-08,Esco,Esco Frontier Mono,p_M29-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-09,Kewaunee,Kewaunee Supreme Air,p_M29-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M29-10,Waldner,Waldner SCALA,p_M29-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-01,Labconco,Labconco RXPert Balance System,p_M30-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-02,Flow Sciences,Flow Sciences Vented Balance Safety Enclosure,p_M30-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-03,Esco,Esco PowderMax,p_M30-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-04,Labconco,Labconco XPert Balance Enclosure,p_M30-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-05,Labconco,Labconco XPert Nano Enclosure,p_M30-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-06,Flow Sciences,Flow Sciences VBSE 18-inch configuration,p_M30-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-07,Flow Sciences,Flow Sciences VBSE 24-inch configuration,p_M30-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-08,Flow Sciences,Flow Sciences VBSE 36-inch configuration,p_M30-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-09,Esco,Esco PowderMax 3-ft configuration,p_M30-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M30-10,Esco,Esco PowderMax 4-ft configuration,p_M30-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-01,Edwards,Edwards nXDS10i,p_M31-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-02,Agilent,Agilent IDP-10,p_M31-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-03,Pfeiffer,Pfeiffer HiScroll 12,p_M31-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-04,Edwards,Edwards nXDS6i,p_M31-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-05,Edwards,Edwards nXDS15i,p_M31-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-06,Edwards,Edwards nXDS20i,p_M31-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-07,Agilent,Agilent IDP-3,p_M31-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-08,Agilent,Agilent IDP-7,p_M31-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-09,Agilent,Agilent IDP-15,p_M31-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M31-10,Pfeiffer,Pfeiffer HiScroll 18,p_M31-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-01,Bronkhorst,Bronkhorst EL-FLOW Select F-200CV,p_M32-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-02,Alicat,Alicat MC series,p_M32-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-03,MKS,MKS GE50A,p_M32-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-04,Bronkhorst,Bronkhorst EL-FLOW Select F-201CV,p_M32-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-05,Bronkhorst,Bronkhorst EL-FLOW Select F-202AV,p_M32-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-06,Alicat,Alicat MCW series,p_M32-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-07,Alicat,Alicat MCS series,p_M32-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-08,MKS,MKS 1179A,p_M32-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-09,MKS,MKS 1479A,p_M32-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M32-10,Brooks,Brooks SLA5850,p_M32-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-01,JULABO,JULABO CORIO CD-600F,p_M33-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-02,LAUDA,LAUDA ECO RE 415,p_M33-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-03,Huber,Huber Minichiller 300,p_M33-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-04,JULABO,JULABO CORIO CD-200F,p_M33-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-05,JULABO,JULABO CORIO CD-300F,p_M33-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-06,JULABO,JULABO MAGIO MS-600F,p_M33-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-07,LAUDA,LAUDA ECO RE 420,p_M33-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-08,LAUDA,LAUDA PRO RP 845,p_M33-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-09,Huber,Huber Minichiller 600,p_M33-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M33-10,PolyScience,PolyScience AD07R-20,p_M33-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-01,Malvern Panalytical,Malvern Zetasizer Ultra,p_M34-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-02,Anton Paar,Anton Paar Litesizer DLS 701,p_M34-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-03,Brookhaven,Brookhaven NanoBrook Omni,p_M34-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-04,Malvern,Malvern Zetasizer Pro,p_M34-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-05,Malvern,Malvern Zetasizer Lab,p_M34-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-06,Malvern,Malvern Zetasizer Nano ZS,p_M34-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-07,Anton Paar,Anton Paar Litesizer 500,p_M34-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-08,Brookhaven,Brookhaven NanoBrook 90Plus PALS,p_M34-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-09,Otsuka,Otsuka ELSZ-2000,p_M34-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M34-10,HORIBA,HORIBA SZ-100,p_M34-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-01,Agilent,Agilent Cary 3500 Multicell,p_M35-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-02,Shimadzu,Shimadzu UV-1900i Plus,p_M35-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-03,Thermo Scientific,Thermo Scientific Evolution One,p_M35-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-04,Agilent,Agilent Cary 60,p_M35-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-05,Agilent,Agilent Cary 100,p_M35-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-06,Shimadzu,Shimadzu UV-2600i,p_M35-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-07,Shimadzu,Shimadzu UV-2700i,p_M35-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-08,Thermo Scientific,Thermo Scientific Evolution Pro,p_M35-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-09,PerkinElmer,PerkinElmer LAMBDA 365,p_M35-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M35-10,JASCO,JASCO V-730,p_M35-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-01,Bruker,Bruker ALPHA II,p_M36-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-02,Thermo Scientific,Thermo Scientific Nicolet iS20,p_M36-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-03,PerkinElmer,PerkinElmer Spectrum Two,p_M36-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-04,Bruker,Bruker INVENIO,p_M36-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-05,Bruker,Bruker VERTEX 70v,p_M36-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-06,Thermo Scientific,Thermo Scientific Nicolet iS50,p_M36-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-07,Thermo Scientific,Thermo Scientific Nicolet Summit,p_M36-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-08,PerkinElmer,PerkinElmer Spectrum 3,p_M36-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-09,Shimadzu,Shimadzu IRSpirit,p_M36-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M36-10,JASCO,JASCO FT/IR-4700,p_M36-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-01,Rigaku,Rigaku MiniFlex600,p_M37-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-02,Malvern Panalytical,Malvern Panalytical Aeris,p_M37-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-03,Bruker,Bruker D2 PHASER,p_M37-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-04,Rigaku,Rigaku SmartLab,p_M37-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-05,Rigaku,Rigaku SmartLab SE,p_M37-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-06,Malvern Panalytical,Malvern Panalytical Empyrean,p_M37-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-07,Malvern Panalytical,Malvern Panalytical X'Pert PRO,p_M37-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-08,Bruker,Bruker D8 ADVANCE,p_M37-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-09,Proto,Proto AXRD,p_M37-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M37-10,Proto,Proto iXRD Mini,p_M37-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-01,JEOL,JEOL JSM-IT210,p_M38-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-02,Thermo Scientific,Thermo Scientific Axia ChemiSEM,p_M38-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-03,Hitachi,Hitachi SU3800,p_M38-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-04,JEOL,JEOL JSM-IT200,p_M38-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-05,JEOL,JEOL JSM-IT510,p_M38-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-06,JEOL,JEOL JSM-IT800,p_M38-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-07,Hitachi,Hitachi SU3900,p_M38-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-08,Hitachi,Hitachi SU5000,p_M38-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-09,Thermo Scientific,Thermo Scientific Apreo 2,p_M38-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M38-10,ZEISS,ZEISS GeminiSEM 500,p_M38-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-01,JEOL,JEOL JEM-120i,p_M39-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-02,Thermo Scientific,Thermo Scientific Talos L120C G2,p_M39-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-03,Hitachi,Hitachi HT7800,p_M39-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-04,JEOL,JEOL JEM-1400Flash,p_M39-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-05,JEOL,JEOL JEM-2100Plus,p_M39-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-06,JEOL,JEOL JEM-F200,p_M39-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-07,Thermo Scientific,Thermo Scientific Talos F200X G2,p_M39-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-08,Thermo Scientific,Thermo Scientific Spectra 300,p_M39-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-09,Hitachi,Hitachi HT7830,p_M39-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M39-10,Hitachi,Hitachi HF5000,p_M39-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-01,HORIBA,HORIBA LabRAM Odyssey,p_M40-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-02,Renishaw,Renishaw inVia InSpect,p_M40-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-03,Bruker,Bruker SENTERRA II,p_M40-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-04,HORIBA,HORIBA LabRAM HR Evolution,p_M40-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-05,HORIBA,HORIBA XploRA PLUS,p_M40-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-06,Renishaw,Renishaw inVia Qontor,p_M40-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-07,Renishaw,Renishaw inVia Reflex,p_M40-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-08,WITec,WITec alpha300 R,p_M40-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-09,Thermo Scientific,Thermo Scientific DXR3,p_M40-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M40-10,Nanophoton,Nanophoton RAMANtouch,p_M40-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-01,Asylum Research,Asylum Research Vero VRS1250,p_M41-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-02,Bruker,Bruker Dimension Icon,p_M41-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-03,Park Systems,Park Systems NX10,p_M41-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-04,Asylum Research,Asylum Research Cypher S,p_M41-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-05,Asylum Research,Asylum Research Cypher ES,p_M41-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-06,Asylum Research,Asylum Research MFP-3D Origin,p_M41-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-07,Bruker,Bruker Dimension FastScan,p_M41-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-08,Bruker,Bruker MultiMode 8,p_M41-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-09,Park Systems,Park Systems NX20,p_M41-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M41-10,Nanosurf,Nanosurf FlexAFM,p_M41-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-01,TA Instruments,TA Instruments TGA 5500,p_M42-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-02,NETZSCH,NETZSCH TG 309 Libra Classic,p_M42-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-03,PerkinElmer,PerkinElmer TGA 8000,p_M42-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-04,TA Instruments,TA Instruments TGA 55,p_M42-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-05,TA Instruments,TA Instruments TGA 550,p_M42-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-06,NETZSCH,NETZSCH TG 209 F1 Libra,p_M42-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-07,NETZSCH,NETZSCH STA 449 F3 Jupiter,p_M42-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-08,PerkinElmer,PerkinElmer TGA 4000,p_M42-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-09,Shimadzu,Shimadzu DTG-60,p_M42-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M42-10,METTLER TOLEDO,METTLER TOLEDO TGA/DSC 3+,p_M42-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-01,Avanti,Avanti Mini Extruder Pro,p_M43-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-02,Avestin,Avestin LiposoFast LF-50,p_M43-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-03,Genizer,Genizer GJE-10mL,p_M43-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-04,Genizer,Genizer GJE-100mL,p_M43-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-05,Genizer,Genizer GJE-800mL,p_M43-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-06,Genizer,Genizer GJE-3000mL,p_M43-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-07,Genizer,Genizer GJE-10000mL,p_M43-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-08,Genizer,Genizer HandExtruder-1mL,p_M43-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-09,Genizer,Genizer GOE-8L,p_M43-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M43-10,Genizer,Genizer GOE-20L,p_M43-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-01,Biolin Scientific,Biolin Scientific: KSV NIMA Medium,p_M44-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-02,Kibron,Kibron MicroTrough XS,p_M44-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-03,Apex Instruments,Apex Instruments Langmuir Blodgett System,p_M44-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-04,KSV NIMA,KSV NIMA Small LB trough,p_M44-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-05,KSV NIMA,KSV NIMA Large LB trough,p_M44-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-06,Kibron,Kibron MicroTrough XL,p_M44-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-07,Kibron,Kibron MicroTrough G1,p_M44-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-08,Kibron,Kibron MicroTrough G2,p_M44-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-09,Kibron,Kibron MicroTrough G4,p_M44-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M44-10,KSV NIMA,KSV NIMA Ribbon Barrier trough,p_M44-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-01,Sartorius,Sartorius Biostat B,p_M45-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-02,Eppendorf,Eppendorf BioFlo 120,p_M45-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-03,INFORS HT,INFORS HT Minifors 2,p_M45-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-04,Sartorius,Sartorius Biostat B-DCU,p_M45-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-05,Eppendorf,Eppendorf BioFlo 320,p_M45-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-06,Eppendorf,Eppendorf DASGIP,p_M45-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-07,INFORS HT,INFORS HT Multifors 2,p_M45-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-08,INFORS HT,INFORS HT Labfors 5,p_M45-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-09,Applikon,Applikon ez-Control,p_M45-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M45-10,Solaris Biotech,Solaris Biotech Jupiter,p_M45-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-01,Merck,Merck Milli-Q IQ 7000,p_M46-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-02,ELGA,ELGA PURELAB Quest,p_M46-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-03,Thermo Scientific,Thermo Scientific Barnstead GenPure xCAD Plus,p_M46-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-04,Merck,Merck Milli-Q IQ 7003,p_M46-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-05,Merck,Merck Milli-Q IQ 7005,p_M46-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-06,Merck,Merck Milli-Q IQ 7010,p_M46-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-07,Merck,Merck Milli-Q IQ 7015,p_M46-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-08,ELGA,ELGA PURELAB Chorus 1,p_M46-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-09,ELGA,ELGA PURELAB flex 3,p_M46-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M46-10,Sartorius,Sartorius arium pro VF,p_M46-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-01,Fluidnatek,Fluidnatek LE-100,p_M47-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-02,Inovenso,Inovenso NE300,p_M47-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-03,Spraybase,Spraybase Electrospraying Platform,p_M47-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-04,Fluidnatek,Fluidnatek LE-10,p_M47-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-05,Fluidnatek,Fluidnatek LE-50,p_M47-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-06,Fluidnatek,Fluidnatek LE-500,p_M47-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-07,Inovenso,Inovenso NE100,p_M47-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-08,Inovenso,Inovenso NE200,p_M47-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-09,Electrospinz,Electrospinz ES1a,p_M47-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M47-10,Linari Engineering,Linari Engineering RT Advanced,p_M47-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-01,Neocera,Neocera Pioneer 180,p_M48-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-02,SURFACE,SURFACE PLD Workstation,p_M48-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-03,PVD Products,PVD Products PLD 5000,p_M48-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-04,PVD Products,PVD Products PLD 6000,p_M48-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-05,Neocera,Neocera Pioneer 120,p_M48-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-06,SURFACE,SURFACE Laser MBE,p_M48-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-07,SURFACE,SURFACE Laser Star Cluster,p_M48-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-08,SURFACE,SURFACE Large Area PLD,p_M48-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-09,PVD Products,PVD Products Nano PLD,p_M48-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M48-10,PVD Products,PVD Products PLD 3000,p_M48-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-01,Sterlitech,Sterlitech CF016A,p_M49-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-02,Evonik,Evonik METcell,p_M49-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-03,Alfa Laval,Alfa Laval LabStak M20,p_M49-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-04,Sterlitech,Sterlitech CF042,p_M49-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-05,Sterlitech,Sterlitech Sepa CF,p_M49-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-06,Sterlitech,Sterlitech HP4750,p_M49-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-07,Sterlitech,Sterlitech HP4750X,p_M49-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-08,Alfa Laval,Alfa Laval LabStak M10,p_M49-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-09,Alfa Laval,Alfa Laval LabStak M37/38,p_M49-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M49-10,Evonik,Evonik METcell CrossFlow System,p_M49-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-01,Scientific Industries,Vortex-Genie Pulse,p_M50-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-02,IKA,IKA VORTEX 3,p_M50-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-03,VELP,VELP ZX3,p_M50-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-04,Scientific Industries,Scientific Industries Vortex-Genie 2,p_M50-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-05,Scientific Industries,Scientific Industries Digital Vortex-Genie 2,p_M50-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-06,IKA,IKA MS 3 basic,p_M50-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-07,IKA,IKA MS 3 digital,p_M50-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-08,VELP,VELP TX4,p_M50-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-09,OHAUS,OHAUS VXMNAL,p_M50-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M50-10,Thermo Scientific,Thermo Scientific LP Vortex Mixer,p_M50-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-01,TSI,TSI Electrostatic Classifier 3082,p_M51-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-02,Palas,Palas DEMC 1000,p_M51-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-03,GRIMM,GRIMM SMPS+C with U-DMA,p_M51-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-04,TSI,TSI Electrostatic Classifier 3080,p_M51-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-05,TSI,TSI DMA 3081A,p_M51-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-06,TSI,TSI Nano DMA 3085A,p_M51-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-07,TSI,TSI 1nm DMA 3086,p_M51-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-08,Palas,Palas DEMC 2000,p_M51-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-09,GRIMM,GRIMM SMPS+C with S-DMA,p_M51-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M51-10,Cambustion,Cambustion DMS500,p_M51-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-01,TSI,TSI Single-Jet Atomizer 9302,p_M53-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-02,Palas,Palas AGK 2000,p_M53-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-03,Topas,Topas ATM 226,p_M53-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-04,TSI,TSI Six-Jet Atomizer 9306,p_M53-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-05,TSI,TSI Constant Output Atomizer 3076,p_M53-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-06,Palas,Palas AGK 2000 E,p_M53-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-07,Palas,Palas AGK 2000 iP,p_M53-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-08,Topas,Topas ATM 220,p_M53-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-09,Topas,Topas ATM 230,p_M53-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M53-10,Topas,Topas ATM 241,p_M53-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-01,Nikalyte,Nikalyte NL50,p_M54-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-02,Theris Nanotechnology,Theris Nanotechnology: Theris NanoStreamS,p_M54-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-03,Mantis Deposition,Mantis Deposition: Mantis NanoGen50,p_M54-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-04,Nikalyte,Nikalyte NL-UHV,p_M54-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-05,Theris,Theris NanoStreamT,p_M54-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-06,Theris,Theris NanoStreamV,p_M54-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-07,Nikalyte,Nikalyte NL-CUBE 300 nanoparticle configuration,p_M54-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-08,Nikalyte,Nikalyte NL-CUBE 375 nanoparticle configuration,p_M54-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-09,Nikalyte,Nikalyte NEXUS nanoparticle configuration,p_M54-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M54-10,Oxford Applied Research,Oxford Applied Research NC200,p_M54-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-01,Lumibird,Lumibird Q-smart HE,p_M56-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-02,Spectra-Physics,Spectra-Physics: Talon HE 355-500,p_M56-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-03,EKSPLA,EKSPLA NL303HT,p_M56-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-04,Lumibird,Lumibird Q-smart 450,p_M56-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-05,Lumibird,Lumibird Q-smart 850,p_M56-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-06,EKSPLA,EKSPLA NL301,p_M56-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-07,EKSPLA,EKSPLA NL310,p_M56-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-08,Spectra-Physics,Spectra-Physics Quanta-Ray INDI,p_M56-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-09,Continuum,Continuum Surelite III,p_M56-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M56-10,Coherent,Coherent Monaco,p_M56-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-01,Gamry,Gamry Reference 620,p_M57-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-02,BioLogic,BioLogic SP-300,p_M57-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-03,Metrohm,Metrohm Autolab PGSTAT302N,p_M57-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-04,Gamry,Gamry Interface 1010E,p_M57-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-05,Gamry,Gamry Reference 3000,p_M57-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-06,BioLogic,BioLogic VSP-300,p_M57-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-07,BioLogic,BioLogic SP-200,p_M57-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-08,Metrohm,Metrohm Autolab PGSTAT204,p_M57-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-09,PalmSens,PalmSens4,p_M57-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M57-10,Ivium,Ivium CompactStat,p_M57-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-01,SUSS,SUSS MA/BA6 Gen4,p_M58-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-02,EVG,EVG620 NT,p_M58-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-03,OAI,OAI Model 800E,p_M58-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-04,SUSS,SUSS MA6,p_M58-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-05,SUSS,SUSS MJB4,p_M58-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-06,SUSS,SUSS MA8,p_M58-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-07,EVG,EVG610,p_M58-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-08,EVG,EVG6200,p_M58-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-09,OAI,OAI Model 200,p_M58-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-10,OAI,OAI Model 500,p_M58-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-01,RAITH,RAITH VOYAGER,p_M59-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-02,JEOL,JEOL JBX-8100FS,p_M59-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-03,Elionix,Elionix ELS-BODEN Sigma,p_M59-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-04,RAITH,RAITH EBPG5200,p_M59-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-05,RAITH,RAITH EBPG5150,p_M59-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-06,RAITH,RAITH eLINE Plus,p_M59-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-07,RAITH,RAITH PIONEER Two,p_M59-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-08,JEOL,JEOL JBX-9500FS,p_M59-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-09,JEOL,JEOL JBX-6300FS,p_M59-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M59-10,Elionix,Elionix ELS-G100,p_M59-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-01,Obducat,Obducat EITRE 3,p_M60-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-02,Nanonex,Nanonex NX-2000,p_M60-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-03,EVG,EVG620 NT SmartNIL configuration,p_M60-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-04,Obducat,Obducat EITRE 6,p_M60-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-05,Nanonex,Nanonex NX-2500,p_M60-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-06,Nanonex,Nanonex NX-2600,p_M60-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-07,EVG,EVG520 HE,p_M60-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-08,EVG,EVG7200,p_M60-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-09,SCIL,SCIL AutoSCIL,p_M60-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M60-10,SCIL,SCIL LabSCIL,p_M60-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-01,Oxford Instruments,Oxford Instruments PlasmaPro 80 RIE,p_M61-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-02,Samco,Samco RIE-200NL,p_M61-02,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-03,Plasma-Therm,Plasma-Therm VERSALINE ICP / RIE,p_M61-03,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-04,Oxford Instruments,Oxford Instruments PlasmaPro 100 Cobra,p_M61-04,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-05,Oxford Instruments,Oxford Instruments PlasmaPro 100 Estrelas,p_M61-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-06,Samco,Samco RIE-10NR,p_M61-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-07,Samco,Samco RIE-400iP,p_M61-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-08,Plasma-Therm,Plasma-Therm 790,p_M61-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-09,SPTS,SPTS Rapier,p_M61-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M61-10,ULVAC,ULVAC NE-550,p_M61-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-001,Unspecified,Physical Vapor Deposition (PVD) tool,p_REQ-EQ-001,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-002,Unspecified,Cluster ALD tool,p_REQ-EQ-002,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-003,Unspecified,Glovebox ALD systems with potential robotic arms to transfer wafers,p_REQ-EQ-003,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-004,Unspecified,1700 °C atmospheric control furnace(s),p_REQ-EQ-004,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-005,Renishaw,Renishaw AM400,p_REQ-EQ-005,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-007,Matsuura,Matsuura LUMEX Avance-25,p_REQ-EQ-007,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-008,Matsuura,Matsuura LUMEX Avance-25 - Reactive,p_REQ-EQ-008,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-009,FormAlloy,FormAlloy L2,p_REQ-EQ-009,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-010,Keyence,Keyence VR-6000,p_REQ-EQ-010,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-012,BaltiCold,Balticold Spray LTD CSM 108.02,p_REQ-EQ-012,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-013,MAZAK,MAZAK VC-500A/5X,p_REQ-EQ-013,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-014,EDMMax,EDMMax 434W Fast Wire EDM,p_REQ-EQ-014,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-015,FANUC,FANUC Fanuc_Robot_LR_Mate200i + CART,p_REQ-EQ-015,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-016,Rethink Robotics,Rethink Robotics Baxter,p_REQ-EQ-016,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-017,ABB,ABB YuMi,p_REQ-EQ-017,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-018,Barrett,Barrett WAM Robotic Arm,p_REQ-EQ-018,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-019,Universal Robots,Universal Robots UR16e,p_REQ-EQ-019,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-020,Doosan,Doosan Robotics Manipulator M0609,p_REQ-EQ-020,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-021,Unspecified,Selective etching reactor (custom built),p_REQ-EQ-021,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-022,Unspecified,Automatic filtration (custom built),p_REQ-EQ-022,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-023,Unspecified,Large scale shaker (paint shaker),p_REQ-EQ-023,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-024,Standard Bots,Standard Bots Core,p_REQ-EQ-024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-025,Standard Bots,Bolt (Standard Bots) with 2 Spark arms and Nimbus,p_REQ-EQ-025,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-026,Franka,Mobile FR3 Duo (Franka),p_REQ-EQ-026,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-027,Gamry,Gamry corrosion cell,p_REQ-EQ-027,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-028,Unspecified,4x 1200 ºC tube furnaces,p_REQ-EQ-028,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-029,Unspecified,3x 1600 ºC tube furnaces,p_REQ-EQ-029,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-030,Unspecified,1x 1800 ºC tube furnace,p_REQ-EQ-030,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-031,Psylotech,Psylotech 200 Series miniaturized load frame,p_REQ-EQ-031,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-032,Psylotech,Psylotech high temperature laser add-on,p_REQ-EQ-032,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-034,YorNew,YorNew VMC300,p_REQ-EQ-034,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-035,Standard Bots,Standard Bots Thor,p_REQ-EQ-035,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-036,Resodyn,Resodyn LabRAM II,p_REQ-EQ-036,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-037,Unspecified,Spin coater with automatic liquid dispenser,p_REQ-EQ-037,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-038,FormAlloy,FormAlloy L2 Optics Upgrade,p_REQ-EQ-038,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-039,FormAlloy,FormAlloy L2 Laser Upgrade,p_REQ-EQ-039,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-040,Light Conversion,Light Conversion CARBIDE CB1-04,p_REQ-EQ-040,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-041,SYNRAD,SYNRAD Series48 Model 48-1,p_REQ-EQ-041,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-042,Universal Robots,Universal Robots UR12e,p_REQ-EQ-042,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-043,AgileX Robotics,Tracer 2.0 Mobile Platform,p_REQ-EQ-043,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-044,FANUC,FANUC CRX-10iA Robot Arm,p_REQ-EQ-044,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+REQ-EQ-022-CENTRIFUGES,Unspecified,Purdue-list centrifuges (models unspecified),p_REQ-EQ-022-CENTRIFUGES,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M05-ELLIS2018,Parr,Parr PTFE-lined hydrothermal vessel (model unreported),p_LIT-M05-ELLIS2018,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M26-SCAFFARO2022,Research-built apparatus,Wet electrospinning setup with stirred collector (Scaffaro 2022),p_LIT-M26-SCAFFARO2022,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M26-SCAFFARO2024,Linari Engineering,Linari horizontal electrospinning apparatus (model unreported),p_LIT-M26-SCAFFARO2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M60-LI2022,Research-built apparatus,Manual SCIL imprint station (Li 2022),p_LIT-M60-LI2022,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M61-LI2022,Unspecified,Argon ion-beam milling apparatus (Li 2022; model unreported),p_LIT-M61-LI2022,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M09-SUN2025,Fisherbrand,Fisherbrand Model 505 Sonic Dismembrator,p_LIT-M09-SUN2025,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M07-YOO2023,Tecan,Tecan Cavro Centris,p_LIT-M07-YOO2023,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M62-YOO2023-RG2,OnRobot,OnRobot RG2,p_LIT-M62-YOO2023-RG2,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M56-HARRIS2024,Coherent,Coherent LPX 305F,p_LIT-M56-HARRIS2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M48-HARRIS2024,Research-built apparatus,ORNL Auto-PLD dual-target deposition platform,p_LIT-M48-HARRIS2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M21-RAO2021,Research-built apparatus,ARES laser-induced cold-wall CVD system (Rao 2021),p_LIT-M21-RAO2021,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M08-MEKKI2021,Research-built apparatus,Droplet-based silver nanoparticle synthesis assembly (Mekki-Berrada 2021),p_LIT-M08-MEKKI2021,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M07-NATHANAEL2023,World Precision Instruments,AL-4000,p_LIT-M07-NATHANAEL2023,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M08-NATHANAEL2023,Research-built apparatus,Continuous T-junction PTFE microreactor (Nathanael 2023),p_LIT-M08-NATHANAEL2023,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M21-LI2024,"Units Technology Co., Ltd.",Micro-STS1200,p_LIT-M21-LI2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M62-LI2024,Dobot,MG400,p_LIT-M62-LI2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M07-ORTIZ2024,Advanced Microfluidics SA,"LSPOne (10-port, 250 microlitre)",p_LIT-M07-ORTIZ2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M08-ORTIZ2024,Research-built apparatus,PDMS Y-junction nanoprecipitation device (Ortiz-Perez 2024),p_LIT-M08-ORTIZ2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M61-ORTIZ2024,Quorum,Emitech K1050X Plasma Asher,p_LIT-M61-ORTIZ2024,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M63-REICHEL2017,Research-built apparatus,pH-stat magnetite precipitation assembly (Reichel 2017),p_LIT-M63-REICHEL2017,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M63-DOSIMAT805,Metrohm,805 Dosimat,p_LIT-M63-DOSIMAT805,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M50-MARTINEZ2020,Eppendorf,Thermomixer C,p_LIT-M50-MARTINEZ2020,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M10-MARTINEZ2020,Cole-Parmer,CPXH ultrasonic bath (capacity unreported),p_LIT-M10-MARTINEZ2020,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M66-TIAN2017,Research-built apparatus,Dialysis self-assembly arrangement (Tian 2017),p_LIT-M66-TIAN2017,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M64-FAN2025,Unspecified,Four-die rotary swaging machine (Fan 2025; model unreported),p_LIT-M64-FAN2025,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M65-FAN2025,Shenzhen Shuangping Power Technology Co. Ltd.,SPG-20,p_LIT-M65-FAN2025,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M53-GOMES2021,Research-built apparatus,Flame-spray pyrolysis assembly (Gomes 2021),p_LIT-M53-GOMES2021,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M15-GOMES2021,Unspecified,Flame-aerosol glass collection filter assembly (Gomes 2021),p_LIT-M15-GOMES2021,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M67-EXAKT80E,EXAKT,80E,p_LIT-M67-EXAKT80E,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M53-LIQUIFOG,Johnson Matthey,Liquifog piezoelectric aerosol generator (model unreported),p_LIT-M53-LIQUIFOG,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M21-HASSAN2017,Research-built apparatus,Cold-wall aerosol-assisted CVD reactor (Hassan 2017),p_LIT-M21-HASSAN2017,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M69-FCTHPD1050,FCT Systeme GmbH,HP D1050,p_LIT-M69-FCTHPD1050,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M59-RAITH150,Raith,RAITH150,p_LIT-M59-RAITH150,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+LIT-M68-VST,VST (as reported),Electron-beam evaporator (Malkiel 2018; model unreported),p_LIT-M68-VST,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+EXT-M70-OPENTRONS-GEN2,Opentrons,Opentrons Thermocycler Module GEN2,p_opentrons_TCG2_lid_interface_draft_v1,poly-fibers/v2,draft_manual_linked,2,TC-M01;TC-P01;TC-P02,position_interfaces.json,"Two-position planning abstraction, not executable controls. See registry for individual evidence IDs and model assumptions."
+EXT-M70-OPENTRONS-GEN1,Opentrons,Opentrons Thermocycler Module GEN1,p_EXT-M70-OPENTRONS-GEN1,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+EXT-M62-OPENTRONS-GRIPPER,Opentrons,Opentrons Flex Gripper GEN1,p_EXT-M62-OPENTRONS-GRIPPER,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.

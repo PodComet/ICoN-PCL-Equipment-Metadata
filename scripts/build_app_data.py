@@ -52,6 +52,8 @@ def main():
     output = ROOT / "webapp/app/data/catalog.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    positions = json.loads((ROOT / "catalog/position_interfaces.json").read_text(encoding="utf-8"))
+    (ROOT / "webapp/app/data/positions.json").write_text(json.dumps(positions, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

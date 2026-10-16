@@ -44,3 +44,7 @@ Run `node --experimental-strip-types --test tests/processes.test.mjs` for sequen
 ## Relevant instrument library
 
 Selecting a process shows instruments from the equipment classes in its current steps. Select a slot to narrow the list; use **Show all process instruments** to restore all step classes. Added classified slots expand the relevant classes. Empty class selections use the other classified steps; a wholly unclassified plan shows no candidates until classes are selected. Route tags alone cannot bypass the step-class filter. Saved plans retain their own edited steps. Class matches are planning suggestions and need model/configuration compatibility review.
+
+## Category cubes, physical units and Position Lists
+
+The [current workbench guide](../../docs/process-workbench-2026-10-16.md) describes separate category cubes, AND/OR/optional requirement semantics, the complete equipment browser, readiness checks and conceptual output animation. Existing plans expand required cubes in an unsaved draft. Explicit reuse links stage instances with `extensions.physical_unit_id` and counts their price once. Each instrument exposes its model-specific Position List roadmap and per-position fiber exports.

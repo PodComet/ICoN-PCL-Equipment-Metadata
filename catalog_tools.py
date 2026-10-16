@@ -27,7 +27,7 @@ def validate_model_lifecycle(equipment, reviews):
         assert date.fromisoformat(review["successor_checked_date"]).isoformat() == review["successor_checked_date"]
         if review["lifecycle_status"] != "model_unresolved":
             assert review["successor_evidence_url"], "Lifecycle source required: " + eid
-        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check", "literature_methods_identity_check"}
+        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check", "literature_methods_identity_check", "official_module_identity_check"}
         if review["review_method"] == "targeted_official_domain_search":
             assert review["review_query"] and review["review_source_match"]
         for value in filter(None, review["review_source_urls"].split(";")):
@@ -183,7 +183,8 @@ def inspect_catalog(root=ROOT):
         "source_pdf_model_records": len(source_models), "material_families": sum(r["route_kind"] == "material_family" for r in routes),
         "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
         "source_routes": 20, "curated_process_capabilities": sum(r["route_kind"] == "manufacturing_process" and not r["source_pdf"] for r in routes),
-        "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf"} for r in routes),
+        "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf", "Opentrons Thermocycler Python API"} for r in routes),
+        "control_interface_examples": sum(r["source_pdf"] == "Opentrons Thermocycler Python API" for r in routes),
         "literature_equipment_records": sum(r["catalog_scope"] == "literature_reported" for r in equipment), "retired_x_categories": len(aliases),
         "ordered_route_steps": len(steps),
         "manual_coverage": dict(sorted(Counter(r["manual_match_status"] for r in equipment).items())),

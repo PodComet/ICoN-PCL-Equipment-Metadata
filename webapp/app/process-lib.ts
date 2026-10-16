@@ -17,12 +17,69 @@ export const splitIds=(value:string|undefined)=>[...new Set((value||'').split(';
 export const newProcessId=(prefix:string)=>prefix+'-'+crypto.randomUUID();
 export function newSlot(allowed:string[]=[],label='Instrument slot'):ProcessSlot{return {slot_id:newProcessId('SLOT'),label,allowed_category_ids:[...allowed],instrument:null,extensions:{}};}
 export function newStep(allowed:string[]=[]):ProcessStep{return {step_id:newProcessId('STEP'),label:'New step',notes:'',source_step_order:'',source_sequence:'',slots:[newSlot(allowed)],extensions:{}};}
+export type StepRequirements={required_branches:string[][];optional_category_ids:string[];optional_branches?:string[][];unresolved_required_equipment:boolean;readiness_review_required:boolean;notes:string};
+export function stepRequirements(source:Record<string,string>):StepRequirements|null{
+ try{const r=JSON.parse(source.requirements_json||'null');if(!r||!Array.isArray(r.required_branches)||!r.required_branches.every((b:unknown)=>Array.isArray(b)&&b.every(c=>typeof c==='string'))||!Array.isArray(r.optional_category_ids))return null;return r;}catch{return null;}
+}
+export function requirementSlots(requirements:StepRequirements):ProcessSlot[]{
+ const counts=new Map<string,number>();
+ for(const branch of requirements.required_branches){const n=new Map<string,number>();for(const c of branch)n.set(c,(n.get(c)||0)+1);for(const [c,v] of n)counts.set(c,Math.max(counts.get(c)||0,v));}
+ for(const c of requirements.optional_category_ids)if(!counts.has(c))counts.set(c,1);
+ const slots:ProcessSlot[]=[...counts].flatMap(([cid,n])=>Array.from({length:n},(_,i)=>({...newSlot([cid],cid+(n>1?' · unit '+(i+1):'')),extensions:{requirement_role:requirements.optional_category_ids.includes(cid)?'optional':requirements.required_branches.every(b=>b.filter(c=>c===cid).length>i)?'required':'alternative'}})));
+ if(requirements.unresolved_required_equipment)slots.push({...newSlot([],'Unclassified required apparatus'),extensions:{requirement_role:'unclassified'}});
+ return slots;
+}
 export function createWorkflow(route:Route,sourceSteps:Record<string,string>[]):ProcessWorkflow{
- const steps=sourceSteps.filter(s=>s.route_id===route.route_id).sort((a,b)=>Number(a.step_order)-Number(b.step_order)).map(s=>({
+ const steps=sourceSteps.filter(s=>s.route_id===route.route_id).sort((a,b)=>Number(a.step_order)-Number(b.step_order)).map<ProcessStep>(s=>({
   ...newStep(),label:s.step_label,source_step_order:s.step_order,source_sequence:s.equipment_sequence,
-  slots:splitIds(s.equipment_category_ids).length?[newSlot(splitIds(s.equipment_category_ids))]:[],
+  slots:stepRequirements(s)?requirementSlots(stepRequirements(s)!):splitIds(s.equipment_category_ids).length?[newSlot(splitIds(s.equipment_category_ids))]:[],
+  extensions:(stepRequirements(s)?{requirements:stepRequirements(s)! as unknown as JsonValue}:{}) as Parameters,
  }));
- return {schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:{}};
+ return {schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:steps.length?{}:{sequence_review_required:true}};
+}
+export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]):ProcessWorkflow{
+ return {...workflow,steps:workflow.steps.map(step=>{
+  const source=sourceSteps.find(s=>s.route_id===workflow.route_id&&s.step_order===step.source_step_order),req=source?stepRequirements(source):null;
+  if(!req)return step;
+  const remaining=[...step.slots];
+  const slots=requirementSlots(req).map(wanted=>{
+   const cid=wanted.allowed_category_ids[0];
+   let index=remaining.findIndex(old=>cid?old.instrument?.category_refs.includes(cid):old.extensions.requirement_role==='unclassified');
+   if(index<0)index=remaining.findIndex(old=>!old.instrument&&(cid?old.allowed_category_ids.includes(cid):old.extensions.requirement_role==='unclassified'));
+   if(index<0)return wanted;
+   const old=remaining.splice(index,1)[0];return {...old,allowed_category_ids:cid?wanted.allowed_category_ids:old.allowed_category_ids,label:old.label==='Instrument slot'?wanted.label:old.label,extensions:{...old.extensions,...wanted.extensions}};
+  });
+  return {...step,slots:[...slots,...remaining],extensions:{...step.extensions,requirements:req as unknown as JsonValue}};
+ })};
+}
+export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]=[]){
+ const expected=sourceSteps.filter(s=>s.route_id===workflow.route_id),orders=workflow.steps.map(s=>s.source_step_order).filter(Boolean);
+ const missingSteps=expected.filter(s=>!orders.includes(s.step_order)).length;
+ const wrongOrder=orders.some((o,i)=>i>0&&Number(o)<=Number(orders[i-1]));
+ let readySteps=0,unresolved=0,review=workflow.extensions.sequence_review_required===true&&workflow.extensions.sequence_reviewed!==true?1:0,missingSlots=0;
+ for(const step of workflow.steps){
+  const source=expected.find(s=>s.step_order===step.source_step_order);
+  const req=source?stepRequirements(source):null;
+  const assigned=step.slots.filter(s=>s.instrument&&slotAccepts(s,s.instrument.equipment_snapshot));
+  const matches=(branch:string[])=>{const used=new Set<string>();return branch.every(cid=>{const s=assigned.find(s=>!used.has(unitId(s.instrument!))&&s.instrument!.category_refs.includes(cid));if(!s)return false;used.add(unitId(s.instrument!));return true;});};
+  const extra=step.slots.filter(s=>s.extensions.requirement_role===undefined);
+  const absentExtra=extra.filter(s=>!s.instrument).length;
+  if(req){
+   if(req.readiness_review_required&&step.extensions.requirements_reviewed!==true)review++;
+   const unknown=req.unresolved_required_equipment&&!assigned.some(s=>s.extensions.requirement_role==='unclassified'&&s.allowed_category_ids.length);
+   if(unknown)unresolved++;
+   const optionalComplete=(req.optional_branches||[]).filter(b=>b.some(cid=>assigned.some(s=>s.instrument!.category_refs.includes(cid)))).every(matches);
+   const covered=(!req.required_branches.length||req.required_branches.some(matches))&&optionalComplete;
+   if(covered&&!unknown&&!absentExtra)readySteps++;else missingSlots+=Math.max(1,absentExtra);
+  }else{
+   // Historical or custom plans do not acquire a scientific readiness claim from fill count alone.
+   if(step.source_step_order&&expected.length)review++;
+   const empty=step.slots.filter(s=>!s.instrument).length;missingSlots+=empty;
+   if(!empty&&step.slots.length)readySteps++;else if(!step.slots.length)unresolved++;
+  }
+ }
+ const complete=workflow.steps.length>0&&readySteps===workflow.steps.length&&!missingSteps&&!wrongOrder&&!unresolved&&!review;
+ return {complete,readySteps,totalSteps:workflow.steps.length,missingSlots,missingSteps,wrongOrder,unresolved,review};
 }
 export function priceSnapshot(r:Equipment):PriceSnapshot{
  const number=(s:string)=>s?.trim()!==''&&Number.isFinite(Number(s))&&Number(s)>=0?Number(s):null;
@@ -37,11 +94,19 @@ export function instrumentFor(r:Equipment):ProcessInstrument{return {
  category_refs:[...new Set([r.category_id,...splitIds(r.legacy_category_ids)])],equipment_snapshot:{...r},quantity:1,
  configuration:{},operating_parameters:{},operation_sequence:[],signals:{},inputs:{},outputs:{},extensions:{},price_snapshot:priceSnapshot(r),
 };}
+export function unitId(i:ProcessInstrument){return typeof i.extensions.physical_unit_id==='string'?i.extensions.physical_unit_id:i.instance_id;}
+export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotId:string):ProcessWorkflow{
+ const slots=workflow.steps.flatMap(s=>s.slots),from=slots.find(s=>s.slot_id===fromSlotId),to=slots.find(s=>s.slot_id===slotId);
+ if(!from?.instrument||!to||!slotAccepts(to,from.instrument.equipment_snapshot))throw new Error('Choose an existing unit that matches this slot.');
+ const i=from.instrument,reused={...structuredClone(i),instance_id:newProcessId(i.category_id),extensions:{...i.extensions,physical_unit_id:unitId(i)}};
+ return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(v=>v.slot_id===slotId?{...v,instrument:reused}:v)}))};
+}
 export function slotAccepts(slot:ProcessSlot,r:Equipment){return !slot.allowed_category_ids.length||slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
 export function routeCandidates(records:Equipment[],route:Route,slot:ProcessSlot|null,steps?:ProcessStep[]){
  // The current plan's classified steps define relevance, including user-added slots.
  // A route tag alone does not establish that a model fits any equipment step.
  const classes=new Set(steps===undefined?splitIds(route.equipment_category_ids):steps.flatMap(s=>s.slots.flatMap(v=>v.allowed_category_ids)));
+ if(slot?.extensions.requirement_role==='unclassified'&&!slot.allowed_category_ids.length)return [];
  return records.filter(r=>[r.category_id,...splitIds(r.legacy_category_ids)].some(id=>classes.has(id))&&(!slot||slotAccepts(slot,r)));
 }
 export function assignInstrument(workflow:ProcessWorkflow,slotId:string,r:Equipment):ProcessWorkflow{
@@ -67,8 +132,9 @@ export function processPhotoSources(record:Equipment,currentRecords:Equipment[]=
  return [record,...current].filter(r=>{const url=safeUrl(r.image_url);if(!url||seen.has(url))return false;seen.add(url);return true;});
 }
 export function workflowBudget(steps:ProcessStep[]){
- const totals=new Map<string,{currency:string;low:number;high:number;estimated:boolean;manufacturer:boolean;quantity:number}>();let missing=0,assigned=0;
+ const totals=new Map<string,{currency:string;low:number;high:number;estimated:boolean;manufacturer:boolean;quantity:number}>();let missing=0,assigned=0;const units=new Set<string>();
  for(const i of steps.flatMap(s=>s.slots).flatMap(s=>s.instrument?[s.instrument]:[])){
+  if(units.has(unitId(i)))continue;units.add(unitId(i));
   assigned+=i.quantity;const p=i.price_snapshot;if(p.kind==='unpriced'){missing+=i.quantity;continue;}
   const t=totals.get(p.currency)||{currency:p.currency,low:0,high:0,estimated:false,manufacturer:false,quantity:0};
   t.low+=p.low*i.quantity;t.high+=p.high*i.quantity;t.quantity+=i.quantity;t.estimated||=p.kind==='estimate';t.manufacturer||=p.kind==='manufacturer';totals.set(p.currency,t);
@@ -96,8 +162,9 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
  if(existing&&(w.workflow_id!==existing.workflow_id||w.route_id!==existing.route_id))throw new Error('A saved workflow keeps its original process and ID. Start a new workflow to change process.');
  w.route_name=route.route_name;jsonObject(w.extensions,'Workflow extensions');
  if(!Array.isArray(w.steps)||!w.steps.length||w.steps.length>100)throw new Error('Use between 1 and 100 steps.');
- const ids=new Set<string>(),known=new Map(records.map(r=>[r.equipment_id,r]));let slotCount=0;
+ const ids=new Set<string>(),known=new Map(records.map(r=>[r.equipment_id,r])),units=new Map<string,{equipment_id:string;quantity:number}>();let slotCount=0;
  const oldInstruments=new Map(existing?.steps.flatMap(s=>s.slots).flatMap(s=>s.instrument?[s.instrument]:[]).map(i=>[i.instance_id,i])||[]);
+ const trustedUnits=new Map([...oldInstruments.values()].map(i=>[unitId(i),i]));
  function id(value:unknown,prefix:string){if(typeof value!=='string'||!new RegExp('^'+prefix+'-'+uuid+'$','i').test(value)||ids.has(value))throw new Error('Workflow component IDs must be unique system IDs.');ids.add(value);}
  for(const step of w.steps){
   if(!isObject(step))throw new Error('Invalid step.');id(step.step_id,'STEP');text(step.label,200,'step name',true);text(step.notes,12000,'step notes');text(step.source_sequence,12000,'source sequence');text(step.source_step_order,30,'source step');jsonObject(step.extensions,'Step extensions');
@@ -111,9 +178,11 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
    if(!slotAccepts(slot,r))throw new Error('An assigned instrument does not match its slot classes.');
    if(!Number.isSafeInteger(i.quantity)||i.quantity<1||i.quantity>1000)throw new Error('Equipment quantity must be a whole number between 1 and 1000.');
    for(const key of ['configuration','operating_parameters','signals','inputs','outputs','extensions'] as const)jsonObject(i[key],key);
+   const unit=unitId(i),prior=units.get(unit);if(prior&&(prior.equipment_id!==i.equipment_id||prior.quantity!==i.quantity))throw new Error('A reused physical unit keeps the same model and quantity across steps.');units.set(unit,{equipment_id:i.equipment_id,quantity:i.quantity});
    if(!Array.isArray(i.operation_sequence)||i.operation_sequence.length>200||i.operation_sequence.some(v=>typeof v!=='string'||v.length>6000))throw new Error('Invalid operation sequence.');
    // Identity, ontology evidence and prices are server-owned snapshots; custom configuration stays separate.
-   const identity=old||instrumentFor(r);i.equipment_id=identity.equipment_id;i.category_id=identity.category_id;i.category_refs=identity.category_refs;i.equipment_snapshot=identity.equipment_snapshot;i.price_snapshot=identity.price_snapshot;
+   const linked=trustedUnits.get(unit);if(linked&&linked.equipment_id!==i.equipment_id)throw new Error('A physical unit cannot change model.');
+   const identity=old||linked||instrumentFor(r);i.equipment_id=identity.equipment_id;i.category_id=identity.category_id;i.category_refs=identity.category_refs;i.equipment_snapshot=identity.equipment_snapshot;i.price_snapshot=identity.price_snapshot;trustedUnits.set(unit,i);
   }
  }
  return w;
