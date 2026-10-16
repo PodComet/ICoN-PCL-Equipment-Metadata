@@ -7,7 +7,7 @@ const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.met
 const equipment=id=>seed.records.find(r=>r.equipment_id===id);
 
 test('owner confirmations grant manufacturer stars without upgrading academic-adoption evidence',()=>{
- for(const manufacturer of ['BaltiCold','IKA','Radleys','Asynt','Chemglass','Buchi AG','Berghof','Amar','Genizer']){
+ for(const manufacturer of ['BaltiCold','Radleys','Asynt','Chemglass','Buchi AG','Berghof','Amar','Genizer']){
   const brand=seed.manufacturers.find(b=>b.manufacturer===manufacturer);
   assert.equal(brand.verification_basis,'user_confirmation');
   assert.notEqual(brand.research_use_status,'documented_research_use');
@@ -60,4 +60,15 @@ test('changing equipment identity clears stale vendor, alias and defunct metadat
  assert.equal(manufacturerBadge(changed).label,'User-confirmed manufacturer: Asynt');
  const unknown=applyManufacturerAudit({...changed,manufacturer:'Unknown manufacturer'},seed.manufacturers);
  assert.equal(manufacturerBadge(unknown),null);
+});
+
+
+test('independently checked methods can supplement an earlier owner confirmation or supplier-only status',()=>{
+ for(const [name,doi] of [['IKA','10.1021/am302624t'],['Chemyx','10.1039/d4dd00104d']]){
+  const brand=seed.manufacturers.find(b=>b.manufacturer===name);
+  assert.equal(brand.research_use_status,'documented_research_use');
+  assert.ok(brand.research_evidence_url.endsWith(doi));
+  assert.ok(verifiedManufacturer(applyManufacturerAudit(seed.records.find(r=>r.manufacturer===name),seed.manufacturers)));
+ }
+ assert.equal(seed.manufacturers.find(b=>b.manufacturer==='IKA').verification_basis,'user_confirmation');
 });

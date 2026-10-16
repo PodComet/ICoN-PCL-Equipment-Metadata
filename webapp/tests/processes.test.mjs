@@ -100,3 +100,18 @@ test('process photos can refresh blank or broken old snapshots only from the sam
  assert.equal(processPhotoSources(current,[current]).length,1);
  assert.deepEqual(processPhotoSources({...saved,image_url:'javascript:bad'},[]),[]);
 });
+
+
+test('breadth routes expose only their supported classes and start with empty zero-cost slots',()=>{
+ for(let n=24;n<=35;n++){
+  const route=seed.routes.find(r=>r.route_id==='P'+n),draft=createWorkflow(route,seed.steps);
+  assert.ok(draft.steps.length>=3);assert.equal(budgetLabel(workflowBudget(draft.steps)),'$0');
+  assert.ok(draft.steps.some(s=>s.slots.length));
+  for(const slot of draft.steps.flatMap(s=>s.slots))assert.ok(routeCandidates(seed.records,route,slot).length);
+ }
+ const dialysis=seed.routes.find(r=>r.route_id==='P30');
+ assert.ok(routeCandidates(seed.records,dialysis,null).every(r=>r.category_id==='M66'));
+ const alloy=seed.routes.find(r=>r.route_id==='P35');
+ assert.equal(alloy.related_material_ids,'N10');
+ assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M64','M65'].includes(r.category_id)));
+});

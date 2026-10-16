@@ -130,3 +130,16 @@ test('photo refresh preserves personal images and intentional admin clears with 
  assert.equal(refreshResearchEvidence(cleared,updates).image_url,'');
  assert.equal(refreshResearchEvidence(blank,updates,['image_scope']).image_url,'');
 });
+
+
+test('breadth model-use citations refresh independently of local research notes and preserve identity',()=>{
+ for(const [eid,route] of [['M07-09','P27'],['M11-04','P29']]){
+  const r=seed.records.find(r=>r.equipment_id===eid),rule=updates.find(r=>r.equipment_id===eid);
+  const g=rule.groups.find(g=>g.after.related_process_ids?.split(';').includes(route));
+  const saved={...r,...g.before,notes:'My observations'};
+  const refreshed=refreshResearchEvidence(saved,updates);
+  assert.ok(refreshed.related_process_ids.split(';').includes(route));assert.equal(refreshed.notes,'My observations');
+  assert.equal(refreshResearchEvidence(withSharedResearchOverrides(saved,['related_process_ids']),updates).related_process_ids,g.before.related_process_ids);
+  assert.equal(refreshResearchEvidence({...saved,model_name:'Changed identity'},updates).related_process_ids,g.before.related_process_ids);
+ }
+});

@@ -1,3 +1,43 @@
+TY  - JOUR
+ID  - REF-18DCA84AA62D
+AU  - Xu, Xuezhu
+AU  - Liu, Fei
+AU  - Jiang, Long
+AU  - Zhu, J. Y.
+AU  - Haagenson, Darrin
+AU  - Wiesenborn, Dennis P.
+TI  - Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents
+PY  - 2013
+JO  - ACS Applied Materials & Interfaces
+VL  - 5
+IS  - 8
+SP  - 2999
+EP  - 3009
+DO  - 10.1021/am302624t
+UR  - https://doi.org/10.1021/am302624t
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 44. Evidence scoped to published version of record. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication.
+ER  -
+
+TY  - JOUR
+ID  - REF-CB1F7E60F962
+AU  - Ferreira, Letícia P.
+AU  - Moreira, Andrei N.
+AU  - Souza Jr., Fernando G. de
+AU  - Pinto, José Carlos Costa da Silva
+TI  - Preparo de nanocompósitos de poli(succinato de butileno) (PBS) e argila motmorilonita organofílica via polimerização in situ
+PY  - 2014
+JO  - Polímeros
+VL  - 24
+IS  - 5
+SP  - 604
+EP  - 611
+DO  - 10.1590/0104-1428.1662
+UR  - https://doi.org/10.1590/0104-1428.1662
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 39. Evidence scoped to published version of record. Unreported make/model and reactor geometry; no model capability inferred. No characterization models imported as manufacturing apparatus. PDF title uses PBS; registry title has PDS. Polymer identity follows the paper.
+ER  -
+
 TY  - CPAPER
 ID  - REF-1B8A93012C77
 AU  - Morris, Stephanie A.
@@ -84,6 +124,78 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-DEA08BE551A8
+AU  - Reichel, Victoria
+AU  - Kovács, András
+AU  - Kumari, Monika
+AU  - Bereczk-Tompa, Éva
+AU  - Schneck, Emanuel
+AU  - Diehle, Patrick
+AU  - Pósfai, Mihály
+AU  - Hirt, Ann M.
+AU  - Duchamp, Martial
+AU  - Dunin-Borkowski, Rafal E.
+AU  - Faivre, Damien
+TI  - Single crystalline superstructured stable single domain magnetite nanoparticles
+PY  - 2017
+JO  - Scientific Reports
+VL  - 7
+IS  - 1
+SP  - 45484
+DO  - 10.1038/srep45484
+UR  - https://doi.org/10.1038/srep45484
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1021/acs.nanolett.4c01850, Supporting Information reference10; supplied combined Magnetization2 PDF p45. Evidence scoped to published version of record. No commercial model inferred for stirrer, thermostat, reaction vessel or magnet. This is aqueous coprecipitation, not hydrothermalP15. Do not encode numeric synthesis settings as an operating procedure.
+ER  -
+
+TY  - JOUR
+ID  - REF-5C978B93F5DA
+AU  - Kleibert, Armin
+AU  - Balan, Ana
+AU  - Yanes, Rocio
+AU  - Derlet, Peter M.
+AU  - Vaz, C. A. F.
+AU  - Timm, Martin
+AU  - Fraile Rodríguez, Arantxa
+AU  - Béché, Armand
+AU  - Verbeeck, Jo
+AU  - Dhaka, R. S.
+AU  - Radovic, Milan
+AU  - Nowak, Ulrich
+AU  - Nolting, Frithjof
+TI  - Direct observation of enhanced magnetism in individual size- and shape-selected 3d transition metal nanoparticles
+PY  - 2017
+JO  - Physical Review B
+VL  - 95
+IS  - 19
+SP  - 195404
+DO  - 10.1103/physrevb.95.195404
+UR  - https://doi.org/10.1103/physrevb.95.195404
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1021/acs.nanolett.4c01850, Main reference15; supplied combined Magnetization2 PDF p12. Evidence scoped to published version of record in University of Barcelona repository. No brandedACISmodel established. Treat as literature apparatus profile orM54classcitation, not evidence for every candidateM54commercialproduct. Section header isII Experimental Details (noII.Asubsection in this PDF). Characterization microscopes and MaurerKTR1075-1temperaturemeasurement device are excluded from manufacturing profile additions unless separately scoped.
+ER  -
+
+TY  - JOUR
+ID  - REF-FF5B44C12861
+AU  - Tian, Dong
+AU  - Hu, Jinguang
+AU  - Bao, Jie
+AU  - Chandra, Richard P.
+AU  - Saddler, Jack N.
+AU  - Lu, Canhui
+TI  - Lignin valorization: lignin nanoparticles as high-value bio-additive for multifunctional nanocomposites
+PY  - 2017
+JO  - Biotechnology for Biofuels
+VL  - 10
+IS  - 1
+SP  - 192
+DO  - 10.1186/s13068-017-0876-z
+UR  - https://doi.org/10.1186/s13068-017-0876-z
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 47. Evidence scoped to published version of record. Sonicator type not stated; do not infer M09 probe versus M10bath. Composite-film oven not explicitly vacuum; M18 evidence applies only upstream lignin drying. No rotary evaporator inferred from evaporation alone.
+ER  -
+
+TY  - JOUR
 ID  - REF-20E3C9CDA0A8
 AU  - Ellis, Laura-Jayne A.
 AU  - Papadiamantis, Anastasios G.
@@ -114,6 +226,49 @@ SP  - 12
 DO  - 10.5334/dsj-2019-012
 UR  - https://doi.org/10.5334/dsj-2019-012
 Y2  - 2026-10-15
+ER  -
+
+TY  - JOUR
+ID  - REF-1A623A02A7D2
+AU  - Pellegrino, Francesco
+AU  - Isopescu, Raluca
+AU  - Pellutiè, Letizia
+AU  - Sordello, Fabrizio
+AU  - Rossi, Andrea M.
+AU  - Ortel, Erik
+AU  - Martra, Gianmario
+AU  - Hodoroaba, Vasile-Dan
+AU  - Maurino, Valter
+TI  - Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles
+PY  - 2020
+JO  - Scientific Reports
+VL  - 10
+IS  - 1
+SP  - 18910
+DO  - 10.1038/s41598-020-75967-w
+UR  - https://doi.org/10.1038/s41598-020-75967-w
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDF p.43, reference 152. Evidence scoped to published full text. No microwave heating was used or inferred. Nitrogen sparging does not establish a particular Schlenk manifold model. No new commercial model is warranted. Nature direct download returned a browser challenge. Complete published XML was retrieved through Europe PMC; no PDF was treated as checked.
+ER  -
+
+TY  - JOUR
+ID  - REF-881E66C7D754
+AU  - Martinez, Diego Stéfani T.
+AU  - Da Silva, Gabriela H.
+AU  - de Medeiros, Aline Maria Z.
+AU  - Khan, Latif U.
+AU  - Papadiamantis, Anastasios G.
+AU  - Lynch, Iseult
+TI  - Effect of the Albumin Corona on the Toxicity of Combined Graphene Oxide and Cadmium to Daphnia magna and Integration of the Datasets into the NanoCommons Knowledge Base
+PY  - 2020
+JO  - Nanomaterials
+VL  - 10
+IS  - 10
+SP  - 1936
+DO  - 10.3390/nano10101936
+UR  - https://doi.org/10.3390/nano10101936
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1016/j.impact.2025.100602, Bibliography Martinez etal2020, original parentPDF p19. Evidence scoped to published full-text JATS/XML, EuropePMC archive; PDF fetch unavailable. Modified Hummers process includes chemical hazards; catalog sequence is conceptual, not an SOP. 5430R is direct post-adsorption evidence only; not a manufacturing-modelvalidation. Christ SpeedDry mentioned for solid-state characterization preparation, not freeze-drying synthesis. Do not map it toM17. Source commercial characterizers (Multimode 8, Zetasizer Nano ZS, etc.) can support independently scopedanalysiscitations but are not fabricationequipment.
 ER  -
 
 TY  - JOUR
@@ -163,6 +318,31 @@ DO  - 10.1038/s41524-021-00629-y
 UR  - https://doi.org/10.1038/s41524-021-00629-y
 Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.3390/make8010010, Reference 59, PDF page 21. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
+ER  -
+
+TY  - JOUR
+ID  - REF-36037737F346
+AU  - Gao, Qiang
+AU  - Pillai, Hemanth Somarajan
+AU  - Huang, Yang
+AU  - Liu, Shikai
+AU  - Mu, Qingmin
+AU  - Han, Xue
+AU  - Yan, Zihao
+AU  - Zhou, Hua
+AU  - He, Qian
+AU  - Xin, Hongliang
+AU  - Zhu, Huiyuan
+TI  - Breaking adsorption-energy scaling limitations of electrocatalytic nitrate reduction on intermetallic CuPd nanocubes by machine-learned insights
+PY  - 2022
+JO  - Nature Communications
+VL  - 13
+IS  - 1
+SP  - 2338
+DO  - 10.1038/s41467-022-29926-w
+UR  - https://doi.org/10.1038/s41467-022-29926-w
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/make8010010, Original parent PDFp22, reference49. Evidence scoped to Published Nature Communications article,13:2338,2022. Solution-phase nanocube manufacture is not electrochemical deposition: nitrate electrochemistry later in the paper tests the finished catalyst. Do not infer a Schlenk manifold merely from nitrogen atmosphere. The claim concerns the reported catalyst system, not universal alloy synthesis.
 ER  -
 
 TY  - JOUR
@@ -243,6 +423,22 @@ N1  - Citation sweep 2026-10-16: discovered through 10.1021/acs.nanolett.4c01850
 ER  -
 
 TY  - UNPB
+ID  - REF-2AF830405DFB
+AU  - Nathanael, Konstantia
+AU  - Cheng, Sibo
+AU  - Kovalchuk, Nina M.
+AU  - Arcucci, Rossella
+AU  - Simmons, Mark J.H.
+TI  - Optimization of microfluidic synthesis of silver nanoparticles: a generic approach using machine learning
+PY  - 2023
+T2  - arXiv
+DO  - 10.48550/arxiv.2303.10469
+UR  - https://doi.org/10.48550/arxiv.2303.10469
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDF p.43; entries147 and149 duplicate the same arXiv preprint.. Evidence scoped to arXiv v1,2023-03-18. Do not label this process droplet-based or link its exact apparatus claim to P22. DLS/TEM instruments are characterization, not synthesis steps. Final journal metadata confirmed; do not count final and preprint as independent studies. Later journal counterpart: 10.1016/j.cherd.2023.03.007. Its metadata is corroborated, but exact hardware claims use the inspected preprint only.
+ER  -
+
+TY  - UNPB
 ID  - REF-0D7D4A923858
 AU  - Yoo, Hyuk Jun
 AU  - Kim, Nayeon
@@ -313,6 +509,46 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-FE86B9BC9BE2
+AU  - Nason, Charlie A. F.
+AU  - Vijaya Kumar Saroja, Ajay Piriya
+AU  - Lu, Yi
+AU  - Wei, Runzhe
+AU  - Han, Yupei
+AU  - Xu, Yang
+TI  - Layered Potassium Titanium Niobate/Reduced Graphene Oxide Nanocomposite as a Potassium-Ion Battery Anode
+PY  - 2024
+JO  - Nano-Micro Letters
+VL  - 16
+IS  - 1
+SP  - 1
+DO  - 10.1007/s40820-023-01222-2
+UR  - https://doi.org/10.1007/s40820-023-01222-2
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 171. Evidence scoped to published version of record. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports. First published online 2023-11-06; cited volume year 2024 is retained for chronological bibliography display.
+ER  -
+
+TY  - JOUR
+ID  - REF-64316ABBCDBF
+AU  - Tang, Lin
+AU  - Ruan, Kunpeng
+AU  - Liu, Xi
+AU  - Tang, Yusheng
+AU  - Zhang, Yali
+AU  - Gu, Junwei
+TI  - Flexible and Robust Functionalized Boron Nitride/Poly(p-Phenylene Benzobisoxazole) Nanocomposite Paper with High Thermal Conductivity and Outstanding Electrical Insulation
+PY  - 2024
+JO  - Nano-Micro Letters
+VL  - 16
+IS  - 1
+SP  - 38
+DO  - 10.1007/s40820-023-01257-5
+UR  - https://doi.org/10.1007/s40820-023-01257-5
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 132. Evidence scoped to published version of record. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60. First published online 2023-11-30; cited volume year 2024 is retained for chronological bibliography display.
+ER  -
+
+TY  - JOUR
 ID  - REF-CB807EB452AB
 AU  - Scaffaro, Roberto
 AU  - Maio, Andrea
@@ -376,6 +612,28 @@ Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 151, PDF page 43 cites the 2023 preprint 10.48550/arXiv.2309.00349. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Parent cites preprint 10.48550/arXiv.2309.00349. Exact hardware names were checked in that preprint SI, not the inaccessible final publisher SI; the preprint has its own evidence record.
 ER  -
 
+TY  - UNPB
+ID  - REF-853696934496
+AU  - Li, Yue
+AU  - Wang, Shurui
+AU  - Lv, Zhou
+AU  - Wang, Zhaoji
+AU  - Zhao, Yunbiao
+AU  - Xie, Ying
+AU  - Xu, Yang
+AU  - Qian, Liu
+AU  - Yang, Yaodong
+AU  - Zhao, Ziqiang
+AU  - Zhang, Jin
+TI  - Transforming the Synthesis of Carbon Nanotubes with Machine Learning Models and Automation
+PY  - 2024
+T2  - arXiv
+DO  - 10.48550/arxiv.2404.01006
+UR  - https://doi.org/10.48550/arxiv.2404.01006
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDFp43, reference160. Evidence scoped to arXiv v1,2024-04-01,51-page combined manuscript and SI. Preprint, no independent peer-review claim. Distinct from P21 laser-induced cold-wall CVD; no laser used to heat this reported process. No furnace model inferred for the separate pre-growth air annealing. The paper states wafers were segmented into4cm×6cm samples, internally inconsistent with3-inch wafers and160samples; do not import these dimensions.
+ER  -
+
 TY  - JOUR
 ID  - REF-1110175424B9
 AU  - Harris, Sumner B.
@@ -397,6 +655,26 @@ DO  - 10.1002/smtd.202301763
 UR  - https://doi.org/10.1002/smtd.202301763
 Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 150, PDF page 43. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Methods locators refer to the OSTI accepted manuscript, not an older arXiv version or the separately indexed cover illustration.
+ER  -
+
+TY  - JOUR
+ID  - REF-0A33E81203AA
+AU  - Ortiz-Perez, Ana
+AU  - van Tilborg, Derek
+AU  - van der Meel, Roy
+AU  - Grisoni, Francesca
+AU  - Albertazzi, Lorenzo
+TI  - Machine learning-guided high throughput nanoparticle design
+PY  - 2024
+JO  - Digital Discovery
+VL  - 3
+IS  - 7
+SP  - 1280
+EP  - 1291
+DO  - 10.1039/d4dd00104d
+UR  - https://doi.org/10.1039/d4dd00104d
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDFp43, reference163. Evidence scoped to Published RSC fulltext, DigitalDiscovery3:1280-1291. P09 may receive a scoped self-assembly citation; it does not imply that every P09 candidate instrument is validated. Do not misclassify nanoprecipitation as P17 double emulsion. Plasma bonding is optional support-device preparation, outside the proposed core particle-production sequence. Published-versus-preprint versions are not separate independent studies. Published fulltext methods inspected via search-service cache. Direct publisher/repository downloads returned403. Cached browser result retained locally, not a PDF-checked claim.
 ER  -
 
 TY  - JOUR
@@ -458,6 +736,30 @@ DO  - 10.1038/s41598-024-82728-6
 UR  - https://doi.org/10.1038/s41598-024-82728-6
 Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.1007/s11051-025-06472-2, Reference 307, PDF page 49. Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Study includes both micro- and nanoparticles; use of M09 is not a guarantee that every formulation is nanoscale.
+ER  -
+
+TY  - JOUR
+ID  - REF-E2CE24FAF2D6
+AU  - Fan, Yunhao
+AU  - Li, Yaofeng
+AU  - Guo, Hui
+AU  - Zhu, Gaoming
+AU  - Liu, Boyu
+AU  - Wang, Hao
+AU  - Zhou, Hao
+AU  - Xu, Yuling
+AU  - Zeng, Xiaoqin
+AU  - Wang, Leyun
+TI  - High strength and ductility in a rare-earth free magnesium alloy processed by rotary swaging and flash annealing
+PY  - 2025
+JO  - Communications Materials
+VL  - 6
+IS  - 1
+SP  - 27
+DO  - 10.1038/s43246-025-00736-z
+UR  - https://doi.org/10.1038/s43246-025-00736-z
+Y2  - 2026-10-16
+N1  - Breadth review 2026-10-16. 10.1002/mgea.70056, Reference29, original parentPDF p12. Evidence scoped to published version of record. Broader nanomaterial scope is nanostructured bulk alloy with nanoprecipitates, not freestanding nanoparticles. Label distinctly; do not generalize every bulk Mg manufacturing process as nano. SPG-20 manufacturer web legitimacy / manuals / photos unreviewed; article is equipment-use evidence, not vendor verification. Four-die machine brand/model not reported. Conventional salt-bath anneal is comparison arm, not equivalent to induction flash annealing.
 ER  -
 
 TY  - JOUR

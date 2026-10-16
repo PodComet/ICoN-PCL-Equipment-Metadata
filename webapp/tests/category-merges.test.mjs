@@ -15,7 +15,7 @@ const plan=text=>buildPlan(text,seed.records,seed.categories,seed.routes,seed.ma
 test('wet and dry etching share M61 while method filters remain disjoint',()=>{
  const base={query:'',category:['M61'],material:[],process:[],manufacturer:[],manualOnly:false,requestedOnly:false};
  const wet=filterRows(rows,{...base,process:['P13']}),dry=filterRows(rows,{...base,process:['P14']});
- assert.equal(filterRows(rows,base).length,12);
+ assert.equal(filterRows(rows,base).length,13);
  assert.deepEqual(wet.map(r=>r.record.equipment_id),['REQ-EQ-021']);
  assert.equal(dry.length,10);assert.ok(dry.every(r=>!r.record.related_process_ids.split(';').includes('P13')));
  assert.equal(rows.filter(r=>matches(r,'X-ETCH','','','',false,false)).length,1);
@@ -74,7 +74,7 @@ test('new variants cannot inherit the combined source inventory reference',()=>{
 
 test('M50 broadening preserves distinct mixing methods, equipment cards and scoped estimates',()=>{
  const mixing=rows.filter(r=>r.record.category_id==='M50');
- assert.equal(mixing.length,12);
+ assert.equal(mixing.length,13);
  assert.ok(mixing.every(r=>r.record.category_name==='Shakers and vessel-driven mixers'));
  const subtype=name=>mixing.filter(r=>matches(r,name,'M50','','',false,false));
  assert.equal(subtype('Vortex mixing').length,10);
@@ -100,7 +100,7 @@ test('M62 reuses all 13 robotics profiles, preserves provenance and keeps mobile
  const robots=rows.filter(r=>r.record.category_id==='M62'&&r.record.catalog_scope==='requested_supplement');
  assert.equal(robots.length,13);assert.equal(new Set(robots.map(r=>r.record.equipment_id)).size,13);
  assert.equal(rows.filter(r=>matches(r,'X-ROB','','','',false,false)).length,13);
- assert.equal(rows.filter(r=>matches(r,'M62','','','',false,false)).length,14);
+ assert.equal(rows.filter(r=>matches(r,'M62','','','',false,false)).length,15);
  assert.ok(robots.every(r=>r.record.purdue_list==='true'&&r.record.legacy_category_ids==='X-ROB'));
  assert.ok(robots.filter(r=>r.record.equipment_id!=='REQ-EQ-020').every(r=>!r.record.related_material_ids&&!r.record.related_process_ids));
  const tracer=byId.get('REQ-EQ-043');

@@ -1,0 +1,2836 @@
+{
+  "review_date": "2026-10-16",
+  "scope": "Second targeted breadth pass from the original 2024-2026 parent bibliographies. New processes and independent citations for existing equipment/classes are both eligible. This does not complete an exhaustive citation-by-citation audit.",
+  "summary": {
+    "primary_studies_used": 14,
+    "new_reference_records": 14,
+    "new_equipment_records": 14,
+    "existing_equipment_enriched": 2,
+    "new_manufacturing_routes": 12,
+    "new_material_families": 1,
+    "new_equipment_categories": 4,
+    "new_ordered_steps": 52,
+    "new_checked_claims": 70,
+    "total_reference_records": 42,
+    "total_equipment_records": 658,
+    "candidate_review_records": 50
+  },
+  "new_reference_ids": [
+    "REF-CB1F7E60F962",
+    "REF-18DCA84AA62D",
+    "REF-FF5B44C12861",
+    "REF-64316ABBCDBF",
+    "REF-FE86B9BC9BE2",
+    "REF-1A623A02A7D2",
+    "REF-2AF830405DFB",
+    "REF-36037737F346",
+    "REF-853696934496",
+    "REF-0A33E81203AA",
+    "REF-DEA08BE551A8",
+    "REF-5C978B93F5DA",
+    "REF-881E66C7D754",
+    "REF-E2CE24FAF2D6"
+  ],
+  "new_equipment_ids": [
+    "LIT-M07-NATHANAEL2023",
+    "LIT-M08-NATHANAEL2023",
+    "LIT-M21-LI2024",
+    "LIT-M62-LI2024",
+    "LIT-M07-ORTIZ2024",
+    "LIT-M08-ORTIZ2024",
+    "LIT-M61-ORTIZ2024",
+    "LIT-M63-REICHEL2017",
+    "LIT-M63-DOSIMAT805",
+    "LIT-M50-MARTINEZ2020",
+    "LIT-M10-MARTINEZ2020",
+    "LIT-M66-TIAN2017",
+    "LIT-M64-FAN2025",
+    "LIT-M65-FAN2025"
+  ],
+  "new_route_ids": [
+    "P24",
+    "P25",
+    "P26",
+    "P27",
+    "P28",
+    "P29",
+    "P30",
+    "P31",
+    "P32",
+    "P33",
+    "P34",
+    "P35"
+  ],
+  "new_category_ids": [
+    "M63",
+    "M64",
+    "M65",
+    "M66"
+  ],
+  "studies": [
+    {
+      "key": "ferreira2014",
+      "doi": "10.1590/0104-1428.1662",
+      "reference_id": "REF-CB1F7E60F962",
+      "title": "Preparo de nanocompósitos de poli(succinato de butileno) (PBS) e argila motmorilonita organofílica via polimerização in situ",
+      "source_url": "https://revistapolimeros.org.br/article/10.1590/0104-1428.1662/pdf/polimeros-24-5-604.pdf",
+      "locator": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+      "parent_chain": "10.3390/ma17051088, Reference 39",
+      "version": "published version of record",
+      "pdf": "ferreira2014.pdf",
+      "sha256": "5cd0e3b1eb61d4f897d9c00f109133bf6acfa5e4b5c8ab344a92aa2ddfeef633"
+    },
+    {
+      "key": "xu2013",
+      "doi": "10.1021/am302624t",
+      "reference_id": "REF-18DCA84AA62D",
+      "title": "Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents",
+      "source_url": "https://research.fs.usda.gov/download/treesearch/44265.pdf",
+      "locator": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+      "parent_chain": "10.3390/ma17051088, Reference 44",
+      "version": "published version of record",
+      "pdf": "xu2013.pdf",
+      "sha256": "3bae12d9fbb58ca50a92efc0382ce87f55babd6173ffa5cf0f69b495181f8c97"
+    },
+    {
+      "key": "tian2017",
+      "doi": "10.1186/s13068-017-0876-z",
+      "reference_id": "REF-FF5B44C12861",
+      "title": "Lignin valorization: lignin nanoparticles as high-value bio-additive for multifunctional nanocomposites",
+      "source_url": "https://link.springer.com/content/pdf/10.1186/s13068-017-0876-z.pdf",
+      "locator": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+      "parent_chain": "10.3390/ma17051088, Reference 47",
+      "version": "published version of record",
+      "pdf": "tian2017.pdf",
+      "sha256": "984b5bc3115abc421dd5bc6b211964f4525eaa7cc87f6c3fcd09468dd59975f1"
+    },
+    {
+      "key": "tang2024",
+      "doi": "10.1007/s40820-023-01257-5",
+      "reference_id": "REF-64316ABBCDBF",
+      "title": "Flexible and Robust Functionalized Boron Nitride/Poly(p-Phenylene Benzobisoxazole) Nanocomposite Paper with High Thermal Conductivity and Outstanding Electrical Insulation",
+      "source_url": "https://link.springer.com/content/pdf/10.1007/s40820-023-01257-5.pdf",
+      "locator": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+      "parent_chain": "10.3390/ma17051088, Reference 132",
+      "version": "published version of record",
+      "pdf": "tang2024.pdf",
+      "sha256": "d16d38e512ce886d8618bfbec04535f77d23e0a2ba349e83d39e27bf0003138b"
+    },
+    {
+      "key": "nason2024",
+      "doi": "10.1007/s40820-023-01222-2",
+      "reference_id": "REF-FE86B9BC9BE2",
+      "title": "Layered Potassium Titanium Niobate/Reduced Graphene Oxide Nanocomposite as a Potassium-Ion Battery Anode",
+      "source_url": "https://eprints.soton.ac.uk/491369/1/s40820-023-01222-2.pdf",
+      "locator": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+      "parent_chain": "10.3390/ma17051088, Reference 171",
+      "version": "published version of record",
+      "pdf": "nason2024.pdf",
+      "sha256": "9700d77353ad08dc8f13bbe7d43510a630e526ce2c536b224d88fecdb43072fc"
+    },
+    {
+      "key": "pellegrino2020",
+      "doi": "10.1038/s41598-020-75967-w",
+      "reference_id": "REF-1A623A02A7D2",
+      "title": "Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7609603/",
+      "locator": "Methods > Nanoparticles synthesis; nanoscale evidence in Abstract and Discussion",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDF p.43, reference 152",
+      "version": "published full text"
+    },
+    {
+      "key": "nathanael2023",
+      "doi": "10.48550/arxiv.2303.10469",
+      "reference_id": "REF-2AF830405DFB",
+      "title": "Optimization of microfluidic synthesis of silver nanoparticles: a generic approach using machine learning",
+      "source_url": "https://arxiv.org/pdf/2303.10469v1",
+      "locator": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDF p.43; entries147 and149 duplicate the same arXiv preprint.",
+      "version": "arXiv v1,2023-03-18",
+      "pdf": "nathanael2023.pdf",
+      "sha256": "38a5604dbd84ae1fc5cc217cea1440e63953d1aeca675a6e085b6f0d09c263d2"
+    },
+    {
+      "key": "gao2022",
+      "doi": "10.1038/s41467-022-29926-w",
+      "reference_id": "REF-36037737F346",
+      "title": "Breaking adsorption-energy scaling limitations of electrocatalytic nitrate reduction on intermetallic CuPd nanocubes by machine-learned insights",
+      "source_url": "https://www.osti.gov/servlets/purl/1896789",
+      "locator": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+      "parent_chain": "10.3390/make8010010, Original parent PDFp22, reference49",
+      "version": "Published Nature Communications article,13:2338,2022",
+      "pdf": "gao2022.pdf",
+      "sha256": "d175f7348c9506eede74b8e5be0942b40375aca51d0b8e09501c1a25478b50e7"
+    },
+    {
+      "key": "li2024",
+      "doi": "10.48550/arxiv.2404.01006",
+      "reference_id": "REF-853696934496",
+      "title": "Transforming the Synthesis of Carbon Nanotubes with Machine Learning Models and Automation",
+      "source_url": "https://arxiv.org/pdf/2404.01006v1",
+      "locator": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDFp43, reference160",
+      "version": "arXiv v1,2024-04-01,51-page combined manuscript and SI",
+      "pdf": "li2024.pdf",
+      "sha256": "c405eaa78492a3de1a635f4db55c8241692a64de3059ec92dc9d312f5dc3f811"
+    },
+    {
+      "key": "ortiz2024",
+      "doi": "10.1039/d4dd00104d",
+      "reference_id": "REF-0A33E81203AA",
+      "title": "Machine learning-guided high throughput nanoparticle design",
+      "source_url": "https://doi.org/10.1039/D4DD00104D",
+      "locator": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+      "parent_chain": "10.1007/s11051-025-06472-2, Original parent PDFp43, reference163",
+      "version": "Published RSC fulltext, DigitalDiscovery3:1280-1291"
+    },
+    {
+      "key": "reichel2017",
+      "doi": "10.1038/srep45484",
+      "reference_id": "REF-DEA08BE551A8",
+      "title": "Single crystalline superstructured stable single domain magnetite nanoparticles",
+      "source_url": "https://www.nature.com/articles/srep45484.pdf",
+      "locator": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+      "parent_chain": "10.1021/acs.nanolett.4c01850, Supporting Information reference10; supplied combined Magnetization2 PDF p45",
+      "version": "published version of record",
+      "pdf": "other-reichel2017.pdf",
+      "sha256": "8841ad8560b20660f77611e295acabbca8cf17614f3a90c9dd5461c05271b533"
+    },
+    {
+      "key": "kleibert2017",
+      "doi": "10.1103/physrevb.95.195404",
+      "reference_id": "REF-5C978B93F5DA",
+      "title": "Direct observation of enhanced magnetism in individual size- and shape-selected 3d transition metal nanoparticles",
+      "source_url": "https://diposit.ub.edu/bitstreams/40bcf67f-8c5d-4ce6-8e92-974abe3dc92e/download",
+      "locator": "SectionII Experimental Details, PDF p2 (article195404-2), soft-landing continuation PDF p3",
+      "parent_chain": "10.1021/acs.nanolett.4c01850, Main reference15; supplied combined Magnetization2 PDF p12",
+      "version": "published version of record in University of Barcelona repository",
+      "pdf": "other-kleibert2017.pdf",
+      "sha256": "89950cd74be312315e569aa337a7c648c634386fff2d55748b759b84863aa05e"
+    },
+    {
+      "key": "martinez2020",
+      "doi": "10.3390/nano10101936",
+      "reference_id": "REF-881E66C7D754",
+      "title": "Effect of the Albumin Corona on the Toxicity of Combined Graphene Oxide and Cadmium to Daphnia magna and Integration of the Datasets into the NanoCommons Knowledge Base",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7599915/fullTextXML",
+      "locator": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material",
+      "parent_chain": "10.1016/j.impact.2025.100602, Bibliography Martinez etal2020, original parentPDF p19",
+      "version": "published full-text JATS/XML, EuropePMC archive; PDF fetch unavailable"
+    },
+    {
+      "key": "fan2025",
+      "doi": "10.1038/s43246-025-00736-z",
+      "reference_id": "REF-E2CE24FAF2D6",
+      "title": "High strength and ductility in a rare-earth free magnesium alloy processed by rotary swaging and flash annealing",
+      "source_url": "https://www.nature.com/articles/s43246-025-00736-z.pdf",
+      "locator": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+      "parent_chain": "10.1002/mgea.70056, Reference29, original parentPDF p12",
+      "version": "published version of record",
+      "pdf": "other-fan2025.pdf",
+      "sha256": "b7dc9c0c296649ecc5aaa3174d6e352744440cd5316cf7865580e90b21ca0786"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M07-09",
+      "model_name": "Chemyx Fusion 200",
+      "manufacturer": "Chemyx",
+      "before": {
+        "related_process_ids": "P04",
+        "related_process_types": "Microemulsion / reverse-micelle synthesis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Sol-gel condensation with optional templating;Illustrative inert-atmosphere solution synthesis;Nanoprecipitation or emulsion / solvent removal;Microfluidic assembly or film hydration / extrusion;Electrospinning with optional thermal conversion",
+        "notes": "",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established"
+      },
+      "after": {
+        "related_process_ids": "P04;P27",
+        "related_process_types": "Microemulsion / reverse-micelle synthesis;Microfluidic nanoprecipitation of polymeric nanoparticles",
+        "notes": " Chemyx Fusion 200 supplies aqueous antisolvent; manual operation in this specific published setup. No other Fusion variant or inventory unit inferred.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1039/d4dd00104d. Chemyx Fusion 200 supplies aqueous antisolvent; manual operation in this specific published setup. No other Fusion variant or inventory unit inferred."
+      }
+    },
+    {
+      "equipment_id": "M11-04",
+      "model_name": "IKA T 25 digital",
+      "manufacturer": "IKA",
+      "before": {
+        "related_process_ids": "",
+        "related_process_types": "Nanoprecipitation or emulsion / solvent removal;Liquid exfoliation or catalytic CVD",
+        "related_material_ids": "N05;N07",
+        "related_material_types": "Polymeric nanoparticles;Carbon nanomaterials",
+        "notes": "",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established"
+      },
+      "after": {
+        "related_process_ids": "P29",
+        "related_process_types": "Solution casting of nanofiller/polymer composite films",
+        "related_material_ids": "N05;N07;N10;N08",
+        "related_material_types": "Polymeric nanoparticles;Carbon nanomaterials;Nanocomposites;Nanofibers",
+        "notes": " Paper states IKA T25 digital ULTRA-TURRAX for cellulose-reinforced polymer film preparation. Speed values are not imported; no other IKA homogenizer model is validated.",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1021/am302624t. Paper states IKA T25 digital ULTRA-TURRAX for cellulose-reinforced polymer film preparation. Speed values are not imported; no other IKA homogenizer model is validated."
+      }
+    }
+  ],
+  "research_screens": {
+    "nanocomposites": {
+      "review_date": "2026-10-16",
+      "parent_doi": "10.3390/ma17051088",
+      "scope": "Breadth-oriented second pass of19 previously unused bibliography entries. Five primary full texts curated with methods and metadata verification. Not an exhaustive audit of482references.",
+      "summary": {
+        "new_citation_entries_screened": 19,
+        "primary_full_texts_curated": 5,
+        "existing_exact_model_citation_matches": 1,
+        "proposed_new_process_patterns": 5,
+        "new_exact_commercial_models_required": 0,
+        "held_integrity_notice": 1
+      },
+      "findings": [
+        {
+          "key": "ferreira2014",
+          "parent_doi": "10.3390/ma17051088",
+          "parent_locator": "Reference 39",
+          "doi": "10.1590/0104-1428.1662",
+          "metadata": {
+            "reference_type": "journal_article",
+            "title": "Preparo de nanocompósitos de poli(succinato de butileno) (PDS) e argila motmorilonita organofílica via polimerização in situ",
+            "authors": [
+              {
+                "given": "Letícia P.",
+                "family": "Ferreira"
+              },
+              {
+                "given": "Andrei N.",
+                "family": "Moreira"
+              },
+              {
+                "given": "Fernando G. de",
+                "family": "Souza Jr."
+              },
+              {
+                "given": "José Carlos Costa da Silva",
+                "family": "Pinto"
+              }
+            ],
+            "container_title": "Polímeros",
+            "volume": "24",
+            "issue": "5",
+            "pages": "604-611",
+            "article_number": "",
+            "online_publication_date": "2014-09-30",
+            "cited_volume_year": 2014,
+            "registry_url": "https://api.crossref.org/works/10.1590/0104-1428.1662",
+            "metadata_status": "pdf_and_registry_checked"
+          },
+          "full_text": {
+            "access": "full_primary_methods_read",
+            "version": "published version of record",
+            "local_pdf": "work/citation-breadth-2026-10-16/ferreira2014.pdf",
+            "sha256": "5cd0e3b1eb61d4f897d9c00f109133bf6acfa5e4b5c8ab344a92aa2ddfeef633",
+            "page_count": 8,
+            "visual_methods_qa": true,
+            "source_url": "https://revistapolimeros.org.br/article/10.1590/0104-1428.1662/pdf/polimeros-24-5-604.pdf"
+          },
+          "locator": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+          "nanoscale_evidence": "Organoclay silicate lamellae are about1nm thick; intercalated and exfoliated structures assessed.",
+          "methods_paraphrase": "PBS is polycondensed with organoclay present from the initial monomer mixture in a heated, magnetically stirred closed vacuum/nitrogen system, then catalyst-assisted chain growth.",
+          "apparatus": [
+            {
+              "category_id": "M02",
+              "manufacturer": "Not reported",
+              "model_name": "Not reported",
+              "claim": "Magnetic stirring used during in-situ nanocomposite polycondensation."
+            },
+            {
+              "category_id": null,
+              "manufacturer": "Not reported",
+              "model_name": "Closed vacuum/nitrogen polymerization system",
+              "scope": "No jacketed reactor or Schlenk manifold identity is established."
+            }
+          ],
+          "new_process": {
+            "name": "In-situ polycondensation of polymer–clay nanocomposites",
+            "material_ids": [
+              "N05"
+            ],
+            "steps": [
+              {
+                "label": "Combine monomers and organoclay",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Heat and magnetically stir under controlled vacuum/nitrogen conditions",
+                "equipment_category_ids": [
+                  "M02"
+                ]
+              },
+              {
+                "label": "Catalyst-assisted polycondensation",
+                "equipment_category_ids": [
+                  "M02"
+                ]
+              }
+            ]
+          },
+          "additional_citation_targets": [
+            {
+              "target_type": "category",
+              "target_id": "M02",
+              "claim": "Magnetic stirring is used in the reported PBS/organoclay in-situ polycondensation."
+            }
+          ],
+          "limitations": [
+            "Unreported make/model and reactor geometry; no model capability inferred.",
+            "No characterization models imported as manufacturing apparatus."
+          ]
+        },
+        {
+          "key": "xu2013",
+          "parent_doi": "10.3390/ma17051088",
+          "parent_locator": "Reference 44",
+          "doi": "10.1021/am302624t",
+          "metadata": {
+            "reference_type": "journal_article",
+            "title": "Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents",
+            "authors": [
+              {
+                "given": "Xuezhu",
+                "family": "Xu"
+              },
+              {
+                "given": "Fei",
+                "family": "Liu"
+              },
+              {
+                "given": "Long",
+                "family": "Jiang"
+              },
+              {
+                "given": "J. Y.",
+                "family": "Zhu"
+              },
+              {
+                "given": "Darrin",
+                "family": "Haagenson"
+              },
+              {
+                "given": "Dennis P.",
+                "family": "Wiesenborn"
+              }
+            ],
+            "container_title": "ACS Applied Materials & Interfaces",
+            "volume": "5",
+            "issue": "8",
+            "pages": "2999-3009",
+            "article_number": "",
+            "online_publication_date": "2013-04-08",
+            "cited_volume_year": 2013,
+            "registry_url": "https://api.crossref.org/works/10.1021/am302624t",
+            "metadata_status": "pdf_and_registry_checked"
+          },
+          "full_text": {
+            "access": "full_primary_methods_read",
+            "version": "published version of record",
+            "local_pdf": "work/citation-breadth-2026-10-16/xu2013.pdf",
+            "sha256": "3bae12d9fbb58ca50a92efc0382ce87f55babd6173ffa5cf0f69b495181f8c97",
+            "page_count": 11,
+            "visual_methods_qa": true,
+            "source_url": "https://research.fs.usda.gov/download/treesearch/44265.pdf"
+          },
+          "locator": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+          "nanoscale_evidence": "CNC/CNF nanoscale reinforcing fibers imaged in Fig1; source describes CNC10–20nm widths.",
+          "methods_paraphrase": "CNC or CNF aqueous feed is mixed into PEO solution, rotor-stator homogenized, magnetically stirred, cast in glass dishes and vacuum-oven dried.",
+          "apparatus": [
+            {
+              "category_id": "M11",
+              "equipment_id": "M11-04",
+              "manufacturer": "IKA",
+              "model_name": "T25 digital Ultra-Turrax",
+              "claim": "Exact stated homogenizer for PEO/CNC and PEO/CNF solutions before film casting."
+            },
+            {
+              "category_id": "M02",
+              "manufacturer": "Not reported",
+              "model_name": "Magnetic stirrer"
+            },
+            {
+              "category_id": "M18",
+              "manufacturer": "Not reported",
+              "model_name": "Vacuum oven"
+            }
+          ],
+          "new_process": {
+            "name": "Solution casting of nanofiller/polymer composite films",
+            "material_ids": [
+              "N05",
+              "N08"
+            ],
+            "steps": [
+              {
+                "label": "Prepare polymer solution and nanofiller dispersion",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Homogenize composite solution",
+                "equipment_category_ids": [
+                  "M11"
+                ]
+              },
+              {
+                "label": "Magnetically stir mixture",
+                "equipment_category_ids": [
+                  "M02"
+                ]
+              },
+              {
+                "label": "Cast in dish and vacuum dry film",
+                "equipment_category_ids": [
+                  "M18"
+                ]
+              }
+            ]
+          },
+          "additional_citation_targets": [
+            {
+              "target_type": "equipment",
+              "target_id": "M11-04",
+              "claim": "IKA T25 digital ULTRA-TURRAX homogenizes PEO/CNC or PEO/CNF mixture prior to casting."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M02",
+              "claim": "Magnetic stirring prepares cellulose-reinforced polymer casting mixture."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M18",
+              "claim": "Vacuum oven dries the cast nanocomposite films."
+            }
+          ],
+          "gaps": [
+            {
+              "apparatus": "Masuko Sangyo SuperMassColloider MKZA6-2",
+              "proposed_category": "Wet friction grinding / nanofibrillation system",
+              "scope": "Reported as upstream supplier production method, citing refs15/29; not directly run in this comparative study. Do not force into M12 planetary ball mill."
+            }
+          ],
+          "limitations": [
+            "M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models.",
+            "Unverified/inconsistent operating-speed values omitted.",
+            "As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication."
+          ]
+        },
+        {
+          "key": "tian2017",
+          "parent_doi": "10.3390/ma17051088",
+          "parent_locator": "Reference 47",
+          "doi": "10.1186/s13068-017-0876-z",
+          "metadata": {
+            "reference_type": "journal_article",
+            "title": "Lignin valorization: lignin nanoparticles as high-value bio-additive for multifunctional nanocomposites",
+            "authors": [
+              {
+                "given": "Dong",
+                "family": "Tian"
+              },
+              {
+                "given": "Jinguang",
+                "family": "Hu"
+              },
+              {
+                "given": "Jie",
+                "family": "Bao"
+              },
+              {
+                "given": "Richard P.",
+                "family": "Chandra"
+              },
+              {
+                "given": "Jack N.",
+                "family": "Saddler"
+              },
+              {
+                "given": "Canhui",
+                "family": "Lu"
+              }
+            ],
+            "container_title": "Biotechnology for Biofuels",
+            "volume": "10",
+            "issue": "1",
+            "pages": "",
+            "article_number": "192",
+            "online_publication_date": "2017-07-24",
+            "cited_volume_year": 2017,
+            "registry_url": "https://api.crossref.org/works/10.1186/s13068-017-0876-z",
+            "metadata_status": "pdf_and_registry_checked"
+          },
+          "full_text": {
+            "access": "full_primary_methods_read",
+            "version": "published version of record",
+            "local_pdf": "work/citation-breadth-2026-10-16/tian2017.pdf",
+            "sha256": "984b5bc3115abc421dd5bc6b211964f4525eaa7cc87f6c3fcd09468dd59975f1",
+            "page_count": 11,
+            "visual_methods_qa": true,
+            "source_url": "https://link.springer.com/content/pdf/10.1186/s13068-017-0876-z.pdf"
+          },
+          "locator": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+          "nanoscale_evidence": "Lignin spheres are about195–197nm in diameter, with10–20nm core-shell structure; included as nanostructured material, not a claim all external dimensions arebelow100nm.",
+          "methods_paraphrase": "Technical lignin in DMSO self-assembles during dialysis solvent exchange. LNP/PVA mixture is sonicated, degassed, glass-cast and oven dried. Upstream extraction explicitly uses magnetic hotplate, vacuum filtration and vacuum drying.",
+          "apparatus": [
+            {
+              "category_id": null,
+              "manufacturer": "Spectrum Labs",
+              "model_name": "Spectra/Por2 Standard RC Dry Dialysis Tubing12–14kDa",
+              "scope": "Consumable diffusion membrane, not a pressure-driven filtration instrument."
+            },
+            {
+              "category_id": "M02",
+              "manufacturer": "Not reported",
+              "model_name": "Magnetic hotplate"
+            },
+            {
+              "category_id": "M15",
+              "manufacturer": "Not reported",
+              "model_name": "Vacuum filtration apparatus"
+            },
+            {
+              "category_id": "M18",
+              "manufacturer": "Not reported",
+              "model_name": "Vacuum oven"
+            }
+          ],
+          "new_process": {
+            "name": "Dialysis-induced lignin nanoparticle self-assembly",
+            "material_ids": [
+              "N05"
+            ],
+            "steps": [
+              {
+                "label": "Dissolve technical lignin",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Dialysis solvent exchange drives nanoparticle self-assembly",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Concentrate and retain nanoparticle dispersion",
+                "equipment_category_ids": []
+              }
+            ]
+          },
+          "additional_citation_targets": [
+            {
+              "target_type": "route",
+              "target_id": "P09",
+              "claim": "Lignin nanoparticle micellization occurs during dialysis solvent exchange."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M02",
+              "claim": "Magnetic hotplate stirs the lignin extraction mixture."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M15",
+              "claim": "Vacuum filtration separates the biomass during technical lignin extraction."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M18",
+              "claim": "Vacuum oven dries isolated technical lignin before nanoparticle preparation."
+            }
+          ],
+          "gaps": [
+            {
+              "apparatus": "Dialysis solvent-exchange assembly",
+              "proposed_category": "Dialysis / diffusion-based solvent exchange",
+              "scope": "Distinct from M15 filtration; tubing brand known but no instrument make/model asserted."
+            }
+          ],
+          "limitations": [
+            "Sonicator type not stated; do not infer M09 probe versus M10bath.",
+            "Composite-film oven not explicitly vacuum; M18 evidence applies only upstream lignin drying.",
+            "No rotary evaporator inferred from evaporation alone."
+          ]
+        },
+        {
+          "key": "tang2024",
+          "parent_doi": "10.3390/ma17051088",
+          "parent_locator": "Reference 132",
+          "doi": "10.1007/s40820-023-01257-5",
+          "metadata": {
+            "reference_type": "journal_article",
+            "title": "Flexible and Robust Functionalized Boron Nitride/Poly(p-Phenylene Benzobisoxazole) Nanocomposite Paper with High Thermal Conductivity and Outstanding Electrical Insulation",
+            "authors": [
+              {
+                "given": "Lin",
+                "family": "Tang"
+              },
+              {
+                "given": "Kunpeng",
+                "family": "Ruan"
+              },
+              {
+                "given": "Xi",
+                "family": "Liu"
+              },
+              {
+                "given": "Yusheng",
+                "family": "Tang"
+              },
+              {
+                "given": "Yali",
+                "family": "Zhang"
+              },
+              {
+                "given": "Junwei",
+                "family": "Gu"
+              }
+            ],
+            "container_title": "Nano-Micro Letters",
+            "volume": "16",
+            "issue": "1",
+            "pages": "",
+            "article_number": "38",
+            "online_publication_date": "2023-11-30",
+            "cited_volume_year": 2024,
+            "registry_url": "https://api.crossref.org/works/10.1007/s40820-023-01257-5",
+            "metadata_status": "pdf_and_registry_checked"
+          },
+          "full_text": {
+            "access": "full_primary_methods_read",
+            "version": "published version of record",
+            "local_pdf": "work/citation-breadth-2026-10-16/tang2024.pdf",
+            "sha256": "d16d38e512ce886d8618bfbec04535f77d23e0a2ba349e83d39e27bf0003138b",
+            "page_count": 15,
+            "visual_methods_qa": true,
+            "source_url": "https://link.springer.com/content/pdf/10.1007/s40820-023-01257-5.pdf"
+          },
+          "locator": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+          "nanoscale_evidence": "PBO nanofiber diameters10–40nm explicitly reported in §3.1.",
+          "methods_paraphrase": "Functionalize BN in a hydrothermal reactor; chemically strip PBO fibers, magnetically mix functionalized BN into PNF, homogenize, dish-gel, water-exchange, compress and dry paper.",
+          "apparatus": [
+            {
+              "category_id": "M05",
+              "manufacturer": "Not reported",
+              "model_name": "Hydrothermal reactor"
+            },
+            {
+              "category_id": "M02",
+              "manufacturer": "Not reported",
+              "model_name": "Magnetic stirrer"
+            }
+          ],
+          "new_process": {
+            "name": "Sol–gel film transformation of polymer nanofiber composite paper",
+            "material_ids": [
+              "N05",
+              "N08"
+            ],
+            "steps": [
+              {
+                "label": "Prepare functionalized inorganic filler",
+                "equipment_category_ids": [
+                  "M05"
+                ]
+              },
+              {
+                "label": "Prepare polymer nanofiber dispersion and mix filler",
+                "equipment_category_ids": [
+                  "M02"
+                ]
+              },
+              {
+                "label": "Homogenize and cast acid sol into dish",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Gel and exchange solvent with water",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Compress and dry nanocomposite paper",
+                "equipment_category_ids": []
+              }
+            ]
+          },
+          "additional_citation_targets": [
+            {
+              "target_type": "route",
+              "target_id": "P08",
+              "claim": "BN surface functionalization precedes nanofiber composite-paper assembly."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M05",
+              "claim": "Hydrothermal reactor used in BN surface functionalization."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M02",
+              "claim": "Magnetic stirring mixes PNF, salt and functionalized BN."
+            }
+          ],
+          "limitations": [
+            "2024volume/article38 first published online2023-11-30; preserve both dates.",
+            "No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity.",
+            "Compression does not establish nanoimprint press M60."
+          ]
+        },
+        {
+          "key": "nason2024",
+          "parent_doi": "10.3390/ma17051088",
+          "parent_locator": "Reference 171",
+          "doi": "10.1007/s40820-023-01222-2",
+          "metadata": {
+            "reference_type": "journal_article",
+            "title": "Layered Potassium Titanium Niobate/Reduced Graphene Oxide Nanocomposite as a Potassium-Ion Battery Anode",
+            "authors": [
+              {
+                "given": "Charlie A. F.",
+                "family": "Nason"
+              },
+              {
+                "given": "Ajay Piriya",
+                "family": "Vijaya Kumar Saroja"
+              },
+              {
+                "given": "Yi",
+                "family": "Lu"
+              },
+              {
+                "given": "Runzhe",
+                "family": "Wei"
+              },
+              {
+                "given": "Yupei",
+                "family": "Han"
+              },
+              {
+                "given": "Yang",
+                "family": "Xu"
+              }
+            ],
+            "container_title": "Nano-Micro Letters",
+            "volume": "16",
+            "issue": "1",
+            "pages": "",
+            "article_number": "1",
+            "online_publication_date": "2023-11-06",
+            "cited_volume_year": 2024,
+            "registry_url": "https://api.crossref.org/works/10.1007/s40820-023-01222-2",
+            "metadata_status": "pdf_and_registry_checked"
+          },
+          "full_text": {
+            "access": "full_primary_methods_read",
+            "version": "published version of record",
+            "local_pdf": "work/citation-breadth-2026-10-16/nason2024.pdf",
+            "sha256": "9700d77353ad08dc8f13bbe7d43510a630e526ce2c536b224d88fecdb43072fc",
+            "page_count": 16,
+            "visual_methods_qa": true,
+            "source_url": "https://eprints.soton.ac.uk/491369/1/s40820-023-01222-2.pdf"
+          },
+          "locator": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+          "nanoscale_evidence": "Study explicitly prepares nanoscale KTNO particles distributed across rGO sheets, confirmed by electron microscopy.",
+          "methods_paraphrase": "Stir precursors with rGO, solvothermally react in Parr Teflon-lined autoclave, centrifuge/wash, vacuum dry, mortar-grind and nitrogen-calcine composite.",
+          "apparatus": [
+            {
+              "category_id": "M05",
+              "manufacturer": "Parr",
+              "model_name": "Teflon-lined autoclave; model unreported"
+            },
+            {
+              "category_id": "M13",
+              "manufacturer": "Not reported",
+              "model_name": "Centrifuge"
+            }
+          ],
+          "new_process": {
+            "name": "Solvothermal growth of oxide/graphene nanocomposites",
+            "material_ids": [
+              "N02",
+              "N07"
+            ],
+            "steps": [
+              {
+                "label": "Mix oxide precursors and graphene dispersion",
+                "equipment_category_ids": []
+              },
+              {
+                "label": "Solvothermal reaction in lined vessel",
+                "equipment_category_ids": [
+                  "M05"
+                ]
+              },
+              {
+                "label": "Centrifuge and wash product",
+                "equipment_category_ids": [
+                  "M13"
+                ]
+              },
+              {
+                "label": "Vacuum dry, grind and atmosphere-controlled calcine",
+                "equipment_category_ids": []
+              }
+            ]
+          },
+          "additional_citation_targets": [
+            {
+              "target_type": "category",
+              "target_id": "M05",
+              "claim": "Parr Teflon-lined autoclave performs the KTNO/rGO solvothermal synthesis."
+            },
+            {
+              "target_type": "category",
+              "target_id": "M13",
+              "claim": "Centrifugation recovers synthesized KTNO/rGO powder."
+            },
+            {
+              "target_type": "route",
+              "target_id": "P11",
+              "claim": "Nitrogen-atmosphere calcination converts the recovered composite precursor."
+            }
+          ],
+          "limitations": [
+            "2024volume/article1 first published online2023-11-06; preserve both dates.",
+            "Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity.",
+            "Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only.",
+            "Battery characterization hardware excluded from manufacturing imports."
+          ]
+        }
+      ],
+      "screened_ledger": [
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 1,
+          "title": "Nanocomposites: A Brief Review",
+          "decision": "excluded_primary_evidence",
+          "review_level": "bibliography_title_screen",
+          "reason": "General review; prioritized direct experimental papers instead.",
+          "doi": "",
+          "source_url": ""
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 5,
+          "title": "Recent Advances on Nanocomposite Resists With Design Functionality for Lithographic Microfabrication",
+          "decision": "excluded_primary_evidence",
+          "review_level": "registry_title_screen",
+          "reason": "Review; potential future citation trail, not a primary apparatus demonstration.",
+          "doi": "10.3389/fmats.2021.629792",
+          "source_url": "https://doi.org/10.3389/fmats.2021.629792"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 9,
+          "title": "Processing of Nanostructured Polymers and Advanced Polymeric Based Nanocomposites",
+          "decision": "excluded_primary_evidence",
+          "review_level": "registry_title_screen",
+          "reason": "Broad review; no direct apparatus claim imported.",
+          "doi": "10.1016/j.mser.2014.08.002",
+          "source_url": "https://doi.org/10.1016/j.mser.2014.08.002"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 15,
+          "title": "Improvement of Nanosilica Effects on Mechanically Processed Styrene-Butadiene Rubber by Rational Hybridization with Nanodiamond",
+          "decision": "deferred_methods_not_checked",
+          "review_level": "registry_title_screen",
+          "reason": "Relevant mechanical-compounding candidate; equipment and full methods not verified.",
+          "doi": "10.1016/j.diamond.2022.109487",
+          "source_url": "https://doi.org/10.1016/j.diamond.2022.109487"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 16,
+          "title": "Promising Antimicrobial and Antibiofilm Activities of Reduced Graphene Oxide–Metal Oxide Nanocomposites",
+          "decision": "held_integrity_notice",
+          "review_level": "publisher_expression_of_concern_read",
+          "reason": "Publisher notice10.1039/D4RA90062F flags concerns about Fig10 antimicrobial photos and Fig13SEM. No evidence imported.",
+          "doi": "10.1039/d1ra04542c",
+          "source_url": "https://pubs.rsc.org/en/content/articlehtml/2024/ra/d4ra90062f"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 19,
+          "title": "An Experimental Study on the Synthesis of Poly(Vinyl Pivalate)-Based Magnetic Nanocomposites through Suspension Polymerization Process",
+          "decision": "deferred_full_text",
+          "review_level": "publisher_abstract_and_section_snippets",
+          "reason": "Relevant nanoparticle suspension-polymerization candidate, but complete apparatus details not verified.",
+          "doi": "10.1016/j.eurpolymj.2015.05.015",
+          "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0014305715002797"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 25,
+          "title": "In Situ Production of Polystyrene Magnetic Nanocomposites through a Batch Suspension Polymerization Process",
+          "decision": "deferred_full_text",
+          "review_level": "bibliographic_title_screen",
+          "reason": "Relevant candidate; no complete primary methods checked.",
+          "doi": "10.1002/mame.201100050",
+          "source_url": "https://doi.org/10.1002/mame.201100050"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 39,
+          "title": "Preparo de nanocompósitos de poli(succinato de butileno) (PDS) e argila motmorilonita organofílica via polimerização in situ",
+          "decision": "eligible_checked_claims",
+          "review_level": "primary_full_text_methods_and_registry",
+          "reason": "Usable source-scoped process/equipment evidence; exact locators provided.",
+          "doi": "10.1590/0104-1428.1662",
+          "source_url": "https://revistapolimeros.org.br/article/10.1590/0104-1428.1662/pdf/polimeros-24-5-604.pdf"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 44,
+          "title": "Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents",
+          "decision": "eligible_checked_claims",
+          "review_level": "primary_full_text_methods_and_registry",
+          "reason": "Usable source-scoped process/equipment evidence; exact locators provided.",
+          "doi": "10.1021/am302624t",
+          "source_url": "https://research.fs.usda.gov/download/treesearch/44265.pdf"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 45,
+          "title": "Electrospun Nanocomposites from Polystyrene Loaded with Cellulose Nanowhiskers",
+          "decision": "deferred_full_text",
+          "review_level": "bibliographic_title_screen",
+          "reason": "Possible additional P20/M26 evidence; apparatus methods not verified.",
+          "doi": "10.1002/app.30011",
+          "source_url": "https://doi.org/10.1002/app.30011"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 47,
+          "title": "Lignin valorization: lignin nanoparticles as high-value bio-additive for multifunctional nanocomposites",
+          "decision": "eligible_checked_claims",
+          "review_level": "primary_full_text_methods_and_registry",
+          "reason": "Usable source-scoped process/equipment evidence; exact locators provided.",
+          "doi": "10.1186/s13068-017-0876-z",
+          "source_url": "https://link.springer.com/content/pdf/10.1186/s13068-017-0876-z.pdf"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 52,
+          "title": "Tenebrio molitor Larvae-Based Magnetic Polyurea Employed as Crude Oil Spill Removal Tool",
+          "decision": "no_additional_named_manufacturing_equipment",
+          "review_level": "primary_experimental_section_screen",
+          "reason": "In-situ polymerization relevant, but no synthesis machine identified. Named Shimadzu balance/ICEL equipment is magnetic-force characterization only.",
+          "doi": "10.3390/ma15145063",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9324184/"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 57,
+          "title": "Oil Spill Sorber Based on Extrinsically Magnetizable Porous Geopolymer",
+          "decision": "reserve_class_only_evidence",
+          "review_level": "primary_methods_section_screen",
+          "reason": "Stirring/oven curing and magnetic separation reported, but model names belong to characterization. Coprecipitation/geopolymer route could be future breadth addition; not one of curated5.",
+          "doi": "10.3390/ma14195641",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8510211/"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 132,
+          "title": "Flexible and Robust Functionalized Boron Nitride/Poly(p-Phenylene Benzobisoxazole) Nanocomposite Paper with High Thermal Conductivity and Outstanding Electrical Insulation",
+          "decision": "eligible_checked_claims",
+          "review_level": "primary_full_text_methods_and_registry",
+          "reason": "Usable source-scoped process/equipment evidence; exact locators provided.",
+          "doi": "10.1007/s40820-023-01257-5",
+          "source_url": "https://link.springer.com/content/pdf/10.1007/s40820-023-01257-5.pdf"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 171,
+          "title": "Layered Potassium Titanium Niobate/Reduced Graphene Oxide Nanocomposite as a Potassium-Ion Battery Anode",
+          "decision": "eligible_checked_claims",
+          "review_level": "primary_full_text_methods_and_registry",
+          "reason": "Usable source-scoped process/equipment evidence; exact locators provided.",
+          "doi": "10.1007/s40820-023-01222-2",
+          "source_url": "https://eprints.soton.ac.uk/491369/1/s40820-023-01222-2.pdf"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 175,
+          "title": "Deposition Parameters and Morphology of Yttria-Stabilized Zirconia Electrolyte Films Deposited by Spray Pyrolysis",
+          "decision": "deferred_full_text",
+          "review_level": "bibliographic_title_screen",
+          "reason": "Potential spray-pyrolysis manufacturing route, nanoscale and apparatus scope unverified.",
+          "doi": "",
+          "source_url": ""
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 183,
+          "title": "Development of Experimental Device for Inductive Heating of Magnetic Nanoparticles",
+          "decision": "excluded_manufacturing_claim",
+          "review_level": "bibliographic_abstract_screen",
+          "reason": "Induction-heating nanoparticle application/hyperthermia device; manufacturing use not established.",
+          "doi": "10.1088/1361-6501/ad1d49",
+          "source_url": "https://doi.org/10.1088/1361-6501/ad1d49"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 186,
+          "title": "Experimental Evaluation of the Miniemulsion Polymerization of Vinyl Pivalate: The Role of the Main Process Variables",
+          "decision": "deferred_full_text",
+          "review_level": "publisher_abstract_read",
+          "reason": "Direct polymer nanoparticles and miniemulsion relevant;97.2nm reported, but full apparatus methods not checked.",
+          "doi": "10.1002/mren.202000049",
+          "source_url": "https://onlinelibrary.wiley.com/doi/10.1002/mren.202000049"
+        },
+        {
+          "parent_doi": "10.3390/ma17051088",
+          "parent_reference_number": 189,
+          "title": "Green Polyurethane Synthesis by Emulsion Technique: A Magnetic Composite for Oil Spill Removal",
+          "decision": "deferred_full_text",
+          "review_level": "publisher_abstract_read",
+          "reason": "Relevant magnetic polymer composite route; full methods not assessed in bounded pass.",
+          "doi": "10.1590/0104-1428.2397",
+          "source_url": "https://revistapolimeros.org.br/article/doi/10.1590/0104-1428.2397"
+        }
+      ]
+    },
+    "machine_learning": {
+      "review_date": "2026-10-16",
+      "review_kind": "bounded_new_breadth_pass",
+      "scope": {
+        "parent_dois": [
+          "10.1007/s11051-025-06472-2",
+          "10.3390/make8010010"
+        ],
+        "screened_unique_entries": 15,
+        "screened_numbered_entries": 16,
+        "usable_primary_studies": 5,
+        "methods_fulltexts_used": 5,
+        "additional_fulltext_scope_only_exclusions": 1,
+        "local_methods_pdfs": 3,
+        "published_xml_fulltexts": 1,
+        "publisher_fulltext_via_web_cache": 1,
+        "not_exhaustive": true,
+        "prior_sources_excluded": "Compared against catalog/references.csv and catalog/citation_sweep_2026-10-16.json. All 5 usable studies are new to the reference library."
+      },
+      "findings": [
+        {
+          "study_key": "pellegrino2020",
+          "metadata": {
+            "doi": "10.1038/s41598-020-75967-w",
+            "title": "Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles",
+            "authors": [
+              {
+                "given": "Francesco",
+                "family": "Pellegrino"
+              },
+              {
+                "given": "Raluca",
+                "family": "Isopescu"
+              },
+              {
+                "given": "Letizia",
+                "family": "Pellutiè"
+              },
+              {
+                "given": "Fabrizio",
+                "family": "Sordello"
+              },
+              {
+                "given": "Andrea M.",
+                "family": "Rossi"
+              },
+              {
+                "given": "Erik",
+                "family": "Ortel"
+              },
+              {
+                "given": "Gianmario",
+                "family": "Martra"
+              },
+              {
+                "given": "Vasile-Dan",
+                "family": "Hodoroaba"
+              },
+              {
+                "given": "Valter",
+                "family": "Maurino"
+              }
+            ],
+            "publication_year": 2020,
+            "container_title": "Scientific Reports",
+            "volume": "10",
+            "issue": "1",
+            "pages": "",
+            "article_number": "18910",
+            "reference_type": "journal_article",
+            "publication_status": "published",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_citations": [
+            {
+              "parent_doi": "10.1007/s11051-025-06472-2",
+              "reference_numbers": [
+                152
+              ],
+              "locator": "Original parent PDF p.43, reference 152"
+            }
+          ],
+          "access": {
+            "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7609603/",
+            "machine_readable_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7609603/fullTextXML",
+            "version": "published full text",
+            "local_files": [
+              "pellegrino2020.xml",
+              "pellegrino2020-fulltext.txt",
+              "ml-crossref-s41598-020-75967-w.json"
+            ],
+            "local_pdf": null,
+            "note": "Nature direct download returned a browser challenge. Complete published XML was retrieved through Europe PMC; no PDF was treated as checked."
+          },
+          "methods_locator": "Methods > Nanoparticles synthesis; nanoscale evidence in Abstract and Discussion",
+          "methods_summary": "Titanium-triethanolamine precursor and capping agent were dissolved in water, pH adjusted, and the solution filtered. After nitrogen sparging, hydrothermal treatment occurred in a Teflon-lined stainless-steel high-pressure autoclave.",
+          "nanoscale_evidence": "Anatase particles had reported lengths approximately20-110nm in Discussion (broader abstract claim20-140nm); not all longest dimensions are below100nm.",
+          "equipment": [
+            {
+              "category_id": "M05",
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "class_only",
+              "claim": "A Teflon-lined stainless-steel high-pressure autoclave was used for hydrothermal TiO2 nanoparticle synthesis.",
+              "scope": "No manufacturer, vessel capacity or model reported."
+            },
+            {
+              "category_id": "M15",
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "class_only",
+              "claim": "Precursor solution was filtered before hydrothermal treatment.",
+              "scope": "Filter type and make/model unspecified; class association only."
+            }
+          ],
+          "existing_material_ids": [
+            "N02"
+          ],
+          "existing_route_ids": [],
+          "integration_recommendation": "Add independent class-level evidence for M05 and N02. Existing P15 specifically concerns doped metal oxides; this undoped TiO2 study may support a broadened hydrothermal parent route only if the displayed claim retains the TiO2 scope. Do not silently claim doped synthesis.",
+          "proposed_process": null,
+          "conceptual_steps": [
+            {
+              "label": "Prepare and adjust the titanium precursor solution",
+              "equipment_category_ids": []
+            },
+            {
+              "label": "Filter the precursor solution",
+              "equipment_category_ids": [
+                "M15"
+              ]
+            },
+            {
+              "label": "Hydrothermally form TiO2 nanoparticles",
+              "equipment_category_ids": [
+                "M05"
+              ]
+            }
+          ],
+          "caveats": [
+            "No microwave heating was used or inferred.",
+            "Nitrogen sparging does not establish a particular Schlenk manifold model.",
+            "No new commercial model is warranted."
+          ]
+        },
+        {
+          "study_key": "nathanael2023",
+          "metadata": {
+            "doi": "10.48550/arxiv.2303.10469",
+            "title": "Optimization of microfluidic synthesis of silver nanoparticles: a generic approach using machine learning",
+            "authors": [
+              {
+                "given": "Konstantia",
+                "family": "Nathanael"
+              },
+              {
+                "given": "Sibo",
+                "family": "Cheng"
+              },
+              {
+                "given": "Nina M.",
+                "family": "Kovalchuk"
+              },
+              {
+                "given": "Rossella",
+                "family": "Arcucci"
+              },
+              {
+                "given": "Mark J.H.",
+                "family": "Simmons"
+              }
+            ],
+            "publication_year": 2023,
+            "publication_date": "2023-03-18",
+            "container_title": "arXiv",
+            "reference_type": "preprint",
+            "publication_status": "preprint",
+            "peer_review_status": "preprint_not_peer_reviewed"
+          },
+          "related_versions": [
+            {
+              "relation": "published_version_of_same_study",
+              "metadata": {
+                "doi": "10.1016/j.cherd.2023.03.007",
+                "title": "Optimization of microfluidic synthesis of silver nanoparticles: A generic approach using machine learning",
+                "authors": [
+                  {
+                    "given": "Konstantia",
+                    "family": "Nathanael"
+                  },
+                  {
+                    "given": "Sibo",
+                    "family": "Cheng"
+                  },
+                  {
+                    "given": "Nina M.",
+                    "family": "Kovalchuk"
+                  },
+                  {
+                    "given": "Rossella",
+                    "family": "Arcucci"
+                  },
+                  {
+                    "given": "Mark J.H.",
+                    "family": "Simmons"
+                  }
+                ],
+                "publication_year": 2023,
+                "container_title": "Chemical Engineering Research and Design",
+                "volume": "193",
+                "issue": "",
+                "pages": "65-74",
+                "article_number": "",
+                "reference_type": "journal_article",
+                "publication_status": "published",
+                "peer_review_status": "not_independently_checked"
+              },
+              "url": "https://doi.org/10.1016/j.cherd.2023.03.007",
+              "method_claims_source": false,
+              "scope": "Published title, authors, pages and DOI checked against Crossref and Birmingham repository; final PDF inaccessible. Exact apparatus claims are scoped to the inspected preprint."
+            }
+          ],
+          "parent_citations": [
+            {
+              "parent_doi": "10.1007/s11051-025-06472-2",
+              "reference_numbers": [
+                147,
+                149
+              ],
+              "locator": "Original parent PDF p.43; entries147 and149 duplicate the same arXiv preprint."
+            }
+          ],
+          "access": {
+            "source_url": "https://arxiv.org/pdf/2303.10469v1",
+            "metadata_source_url": "https://arxiv.org/abs/2303.10469",
+            "version": "arXiv v1,2023-03-18",
+            "local_files": [
+              "nathanael2023.pdf",
+              "nathanael2023-paged.txt",
+              "ml-nathanael2023-datacite.json",
+              "ml-crossref-j.cherd.2023.03.007.json"
+            ],
+            "local_pdf": {
+              "filename": "nathanael2023.pdf",
+              "sha256": "38a5604dbd84ae1fc5cc217cea1440e63953d1aeca675a6e085b6f0d09c263d2",
+              "version": "preprint",
+              "page_count": 26
+            },
+            "note": "Final journal metadata confirmed; do not count final and preprint as independent studies."
+          },
+          "methods_locator": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+          "methods_summary": "Two feeds were syringe-pumped into a PTFE T-junction and reacted in a straight or coiled outlet channel to obtain silver nanoparticles. This is continuous single-phase flow, whereas existing P22 describes a separate droplet reactor study.",
+          "nanoscale_evidence": "Figure 7 reports measured and predicted particle sizes in nanometres; section 2.1 describes DLS and TEM confirmation.",
+          "equipment": [
+            {
+              "category_id": "M07",
+              "manufacturer": "World Precision Instruments",
+              "model_name": "AL-4000",
+              "existing_equipment_id": null,
+              "identity_level": "exact_model",
+              "claim": "AL-4000 syringe pumps regulated the two reagent inlet flows.",
+              "scope": "The inspected preprint explicitly reports the pump model with Fisher5mL syringes; do not propagate to other pump variants."
+            },
+            {
+              "category_id": "M08",
+              "manufacturer": null,
+              "model_name": "Custom continuous T-junction PTFE microreactor",
+              "identity_level": "custom_apparatus",
+              "claim": "A continuous T-junction microreactor with straight or coiled PTFE outlet channel produced Ag nanoparticles.",
+              "scope": "Custom assembled with Cole-Parmer tubing and Upchurch Scientific Tee; not a commercial integrated formulation platform."
+            }
+          ],
+          "existing_material_ids": [
+            "N01"
+          ],
+          "existing_route_ids": [],
+          "proposed_process": "Continuous-flow T-junction synthesis of silver nanoparticles",
+          "conceptual_steps": [
+            {
+              "label": "Prepare separate silver and reducing/stabilizing feeds",
+              "equipment_category_ids": []
+            },
+            {
+              "label": "Meter the two reagent streams",
+              "equipment_category_ids": [
+                "M07"
+              ]
+            },
+            {
+              "label": "Mix and react in a continuous T-junction channel",
+              "equipment_category_ids": [
+                "M08"
+              ]
+            },
+            {
+              "label": "Collect the nanoparticle suspension",
+              "equipment_category_ids": []
+            }
+          ],
+          "caveats": [
+            "Do not label this process droplet-based or link its exact apparatus claim to P22.",
+            "DLS/TEM instruments are characterization, not synthesis steps."
+          ]
+        },
+        {
+          "study_key": "gao2022",
+          "metadata": {
+            "doi": "10.1038/s41467-022-29926-w",
+            "title": "Breaking adsorption-energy scaling limitations of electrocatalytic nitrate reduction on intermetallic CuPd nanocubes by machine-learned insights",
+            "authors": [
+              {
+                "given": "Qiang",
+                "family": "Gao"
+              },
+              {
+                "given": "Hemanth Somarajan",
+                "family": "Pillai"
+              },
+              {
+                "given": "Yang",
+                "family": "Huang"
+              },
+              {
+                "given": "Shikai",
+                "family": "Liu"
+              },
+              {
+                "given": "Qingmin",
+                "family": "Mu"
+              },
+              {
+                "given": "Xue",
+                "family": "Han"
+              },
+              {
+                "given": "Zihao",
+                "family": "Yan"
+              },
+              {
+                "given": "Hua",
+                "family": "Zhou"
+              },
+              {
+                "given": "Qian",
+                "family": "He"
+              },
+              {
+                "given": "Hongliang",
+                "family": "Xin"
+              },
+              {
+                "given": "Huiyuan",
+                "family": "Zhu"
+              }
+            ],
+            "publication_year": 2022,
+            "container_title": "Nature Communications",
+            "volume": "13",
+            "issue": "1",
+            "pages": "",
+            "article_number": "2338",
+            "reference_type": "journal_article",
+            "publication_status": "published",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_citations": [
+            {
+              "parent_doi": "10.3390/make8010010",
+              "reference_numbers": [
+                49
+              ],
+              "locator": "Original parent PDFp22, reference49"
+            }
+          ],
+          "access": {
+            "source_url": "https://www.osti.gov/servlets/purl/1896789",
+            "publisher_url": "https://www.nature.com/articles/s41467-022-29926-w",
+            "version": "Published Nature Communications article,13:2338,2022",
+            "local_files": [
+              "gao2022.pdf",
+              "gao2022-paged.txt",
+              "ml-crossref-s41467-022-29926-w.json"
+            ],
+            "local_pdf": {
+              "filename": "gao2022.pdf",
+              "sha256": "d175f7348c9506eede74b8e5be0942b40375aca51d0b8e09501c1a25478b50e7",
+              "version": "published",
+              "page_count": 12
+            }
+          },
+          "methods_locator": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+          "methods_summary": "A stirred three-necked flask under nitrogen was used for solution-phase formation of CuPd nanocubes, followed by cooling, washing and redispersion. Carbon-support preparation used sonication, centrifugation, ligand removal, washing and vacuum-oven drying.",
+          "nanoscale_evidence": "CuPd cubes measured50±4nm, PDFp5; also Cu~35nm andPd~12nm control nanocubes.",
+          "equipment": [
+            {
+              "category_id": "M13",
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "class_only",
+              "claim": "Centrifugation collected carbon-supported nanocube catalysts.",
+              "scope": "Make/model/rotor not reported."
+            },
+            {
+              "category_id": "M18",
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "class_only",
+              "claim": "Carbon-supported catalysts were dried in a vacuum oven.",
+              "scope": "Make/model not reported."
+            },
+            {
+              "category_id": null,
+              "candidate_category_ids": [
+                "M02",
+                "M03"
+              ],
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "ambiguous_class",
+              "claim": "Heated stirred three-necked flask used for nanocube synthesis.",
+              "scope": "Stirrer drive and heating apparatus unreported; do not assert magnetic versus overhead stirring."
+            },
+            {
+              "category_id": null,
+              "candidate_category_ids": [
+                "M09",
+                "M10"
+              ],
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "ambiguous_class",
+              "claim": "Sonication dispersed nanocubes with carbon black.",
+              "scope": "Probe versus bath not stated; do not attach source as exact evidence to either class."
+            }
+          ],
+          "existing_material_ids": [
+            "N01"
+          ],
+          "existing_route_ids": [],
+          "proposed_process": "Solution-phase intermetallic nanocube synthesis and carbon-support loading",
+          "conceptual_steps": [
+            {
+              "label": "Form nanocubes in a heated stirred flask under inert gas",
+              "equipment_category_ids": [],
+              "equipment_required_but_class_unresolved": true
+            },
+            {
+              "label": "Cool, wash and redisperse the nanocubes",
+              "equipment_category_ids": []
+            },
+            {
+              "label": "Disperse nanocubes with carbon support by sonication",
+              "equipment_category_ids": [],
+              "equipment_required_but_class_unresolved": true
+            },
+            {
+              "label": "Collect the supported catalyst",
+              "equipment_category_ids": [
+                "M13"
+              ]
+            },
+            {
+              "label": "Remove ligands and wash the catalyst",
+              "equipment_category_ids": []
+            },
+            {
+              "label": "Dry the supported catalyst under vacuum",
+              "equipment_category_ids": [
+                "M18"
+              ]
+            }
+          ],
+          "caveats": [
+            "Solution-phase nanocube manufacture is not electrochemical deposition: nitrate electrochemistry later in the paper tests the finished catalyst.",
+            "Do not infer a Schlenk manifold merely from nitrogen atmosphere.",
+            "The claim concerns the reported catalyst system, not universal alloy synthesis."
+          ]
+        },
+        {
+          "study_key": "li2024",
+          "metadata": {
+            "doi": "10.48550/arxiv.2404.01006",
+            "title": "Transforming the Synthesis of Carbon Nanotubes with Machine Learning Models and Automation",
+            "authors": [
+              {
+                "name": "Yue Li"
+              },
+              {
+                "name": "Shurui Wang"
+              },
+              {
+                "name": "Zhou Lv"
+              },
+              {
+                "name": "Zhaoji Wang"
+              },
+              {
+                "name": "Yunbiao Zhao"
+              },
+              {
+                "name": "Ying Xie"
+              },
+              {
+                "name": "Yang Xu"
+              },
+              {
+                "name": "Liu Qian"
+              },
+              {
+                "name": "Yaodong Yang"
+              },
+              {
+                "name": "Ziqiang Zhao"
+              },
+              {
+                "name": "Jin Zhang"
+              }
+            ],
+            "publication_year": 2024,
+            "publication_date": "2024-04-01",
+            "container_title": "arXiv",
+            "reference_type": "preprint",
+            "publication_status": "preprint",
+            "peer_review_status": "preprint_not_peer_reviewed"
+          },
+          "parent_citations": [
+            {
+              "parent_doi": "10.1007/s11051-025-06472-2",
+              "reference_numbers": [
+                160
+              ],
+              "locator": "Original parent PDFp43, reference160"
+            }
+          ],
+          "access": {
+            "source_url": "https://arxiv.org/pdf/2404.01006v1",
+            "metadata_source_url": "https://arxiv.org/abs/2404.01006",
+            "version": "arXiv v1,2024-04-01,51-page combined manuscript and SI",
+            "local_files": [
+              "li2024.pdf",
+              "li2024-paged.txt",
+              "ml-li2024-datacite.json"
+            ],
+            "local_pdf": {
+              "filename": "li2024.pdf",
+              "sha256": "c405eaa78492a3de1a635f4db55c8241692a64de3059ec92dc9d312f5dc3f811",
+              "version": "preprint",
+              "page_count": 51
+            }
+          },
+          "methods_locator": "Methods > Robotic CVD, PDF pp.27-28; Growth of HACNT arrays, PDF pp.30-32.",
+          "methods_summary": "Ion-implanted sapphire substrates were cleaned and annealed, loaded by a robot into a mini-CVD reactor, subjected to reduction and CNT-growth phases, cooled, and retrieved automatically.",
+          "nanoscale_evidence": "Horizontally aligned carbon nanotube arrays; SWNTs identified in characterization, PDFp32. Nanotube material scope rather than a claim that macroscopic substrate dimensions are nanoscale.",
+          "equipment": [
+            {
+              "category_id": "M21",
+              "manufacturer": "Units Technology Co., Ltd.",
+              "model_name": "Micro-STS1200",
+              "identity_level": "exact_model",
+              "existing_equipment_id": null,
+              "claim": "Micro-STS1200 mini-CVD reactor formed horizontally aligned carbon nanotube arrays in CARCO.",
+              "scope": "Named component of a custom automated setup; no claim every stock configuration implements the automation."
+            },
+            {
+              "category_id": "M62",
+              "manufacturer": "Dobot",
+              "model_name": "MG400",
+              "identity_level": "exact_model",
+              "existing_equipment_id": null,
+              "claim": "DobotMG400 robot loaded and retrieved CVD substrates with a suction nozzle.",
+              "scope": "Reported substrate handling, not an intrinsic CNT synthesis capability of the robot."
+            },
+            {
+              "category_id": null,
+              "manufacturer": null,
+              "model_name": "FAD-MEVVA ion implanter",
+              "identity_level": "apparatus_name_only",
+              "claim": "Ion implantation loaded catalyst elements onto sapphire substrates.",
+              "scope": "No suitable current M-category; do not misclassify implantation as sputtering or etching. Manufacturer unreported."
+            },
+            {
+              "category_id": null,
+              "candidate_category_ids": [
+                "M09",
+                "M10"
+              ],
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "ambiguous_class",
+              "claim": "Substrates were sequentially ultrasonically cleaned.",
+              "scope": "Ultrasonic device type not specified."
+            }
+          ],
+          "existing_material_ids": [
+            "N07"
+          ],
+          "existing_route_ids": [],
+          "proposed_process": "Robot-assisted thermal CVD of aligned carbon nanotube arrays",
+          "conceptual_steps": [
+            {
+              "label": "Prepare catalyst-bearing sapphire substrates by ion implantation",
+              "equipment_category_ids": [],
+              "equipment_required_but_class_unresolved": true
+            },
+            {
+              "label": "Clean and anneal the substrates",
+              "equipment_category_ids": [],
+              "equipment_required_but_class_unresolved": true
+            },
+            {
+              "label": "Load substrates into the CVD reactor",
+              "equipment_category_ids": [
+                "M62"
+              ]
+            },
+            {
+              "label": "Reduce catalyst and grow nanotube arrays",
+              "equipment_category_ids": [
+                "M21"
+              ]
+            },
+            {
+              "label": "Cool and retrieve the substrates",
+              "equipment_category_ids": [
+                "M62"
+              ]
+            }
+          ],
+          "caveats": [
+            "Preprint, no independent peer-review claim.",
+            "Distinct from P21 laser-induced cold-wall CVD; no laser used to heat this reported process.",
+            "No furnace model inferred for the separate pre-growth air annealing.",
+            "The paper states wafers were segmented into4cm×6cm samples, internally inconsistent with3-inch wafers and160samples; do not import these dimensions."
+          ]
+        },
+        {
+          "study_key": "ortiz2024",
+          "metadata": {
+            "doi": "10.1039/d4dd00104d",
+            "title": "Machine learning-guided high throughput nanoparticle design",
+            "authors": [
+              {
+                "given": "Ana",
+                "family": "Ortiz-Perez"
+              },
+              {
+                "given": "Derek",
+                "family": "van Tilborg"
+              },
+              {
+                "given": "Roy",
+                "family": "van der Meel"
+              },
+              {
+                "given": "Francesca",
+                "family": "Grisoni"
+              },
+              {
+                "given": "Lorenzo",
+                "family": "Albertazzi"
+              }
+            ],
+            "publication_year": 2024,
+            "container_title": "Digital Discovery",
+            "volume": "3",
+            "issue": "7",
+            "pages": "1280-1291",
+            "article_number": "",
+            "reference_type": "journal_article",
+            "publication_status": "published",
+            "peer_review_status": "not_independently_checked",
+            "publication_date": "2024-06-03"
+          },
+          "parent_citations": [
+            {
+              "parent_doi": "10.1007/s11051-025-06472-2",
+              "reference_numbers": [
+                163
+              ],
+              "locator": "Original parent PDFp43, reference163"
+            }
+          ],
+          "access": {
+            "source_url": "https://doi.org/10.1039/D4DD00104D",
+            "publisher_pdf_url": "https://pubs.rsc.org/en/content/articlepdf/2024/dd/d4dd00104d",
+            "version": "Published RSC fulltext, DigitalDiscovery3:1280-1291",
+            "local_files": [
+              "ml-ortiz2024-web-source.json",
+              "ml-crossref-d4dd00104d.json"
+            ],
+            "local_pdf": null,
+            "note": "Published fulltext methods inspected via search-service cache. Direct publisher/repository downloads returned403. Cached browser result retained locally, not a PDF-checked claim."
+          },
+          "methods_locator": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+          "methods_summary": "Polymer reservoirs were combined by an LSPOne pump and delivered as an organic stream into a PDMS Y-junction. Fusion200 delivered aqueous antisolvent to side channels. Nanoprecipitated PLGA-PEG particles were collected and shaken to remove solvent.",
+          "nanoscale_evidence": "PLGA-PEG self-assembled nanospheres with DLS hydrodynamicdiameter/PDI measurements; Figure3 and ESI contain formulation-specific sizes. Do not infer size solely from the channel dimensions.",
+          "equipment": [
+            {
+              "category_id": "M07",
+              "manufacturer": "Chemyx",
+              "model_name": "Chemyx Fusion 200",
+              "existing_equipment_id": "M07-09",
+              "identity_level": "exact_model",
+              "claim": "Fusion200 two-channel syringe pump delivered aqueous antisolvent to microfluidic side inlets.",
+              "scope": "Reported use only; Chemyx pump operated manually in this setup."
+            },
+            {
+              "category_id": "M07",
+              "manufacturer": "Advanced Microfluidics SA",
+              "model_name": "LSPOne",
+              "existing_equipment_id": null,
+              "identity_level": "exact_model",
+              "claim": "LSPOne syringe pump with10-portvalve and250µLsyringe mixed polymers and delivered the organic phase.",
+              "scope": "Only the specified configuration has direct evidence; do not propagate to all LSPOne capacities or variants."
+            },
+            {
+              "category_id": "M08",
+              "manufacturer": null,
+              "model_name": "Custom PDMS Y-junction hydrodynamic-flow-focusing device",
+              "identity_level": "custom_apparatus",
+              "claim": "Custom Y-junction microfluidic device formed PLGA-PEG nanoparticles by nanoprecipitation.",
+              "scope": "A custom setup, not a NanoAssemblr or other unnamed commercial model."
+            },
+            {
+              "category_id": "M50",
+              "manufacturer": null,
+              "model_name": null,
+              "identity_level": "class_only",
+              "claim": "Collected nanoparticle solutions were shaken to evaporate acetonitrile.",
+              "scope": "Shaker manufacturer/model unreported."
+            },
+            {
+              "category_id": "M61",
+              "manufacturer": "Quorum",
+              "model_name": "Emitech K1050X Plasma Asher",
+              "identity_level": "exact_model",
+              "claim": "Oxygen plasma bonding joined PDMS replicas to glass before formulation.",
+              "scope": "Support fabrication of the microfluidic chip; not direct particle synthesis. Manufacturer named in paper; no additional verification of brand status done in this pass."
+            }
+          ],
+          "existing_material_ids": [
+            "N05"
+          ],
+          "existing_route_ids": [
+            "P09"
+          ],
+          "proposed_process": "Microfluidic nanoprecipitation of polymeric nanoparticles",
+          "conceptual_steps": [
+            {
+              "label": "Prepare polymer reservoirs and aqueous antisolvent",
+              "equipment_category_ids": []
+            },
+            {
+              "label": "Meter and combine the formulation streams",
+              "equipment_category_ids": [
+                "M07"
+              ]
+            },
+            {
+              "label": "Form nanoparticles by hydrodynamic-flow-focusing nanoprecipitation",
+              "equipment_category_ids": [
+                "M08"
+              ]
+            },
+            {
+              "label": "Collect particles and evaporate solvent by shaking",
+              "equipment_category_ids": [
+                "M50"
+              ]
+            }
+          ],
+          "caveats": [
+            "P09 may receive a scoped self-assembly citation; it does not imply that every P09 candidate instrument is validated.",
+            "Do not misclassify nanoprecipitation as P17 double emulsion.",
+            "Plasma bonding is optional support-device preparation, outside the proposed core particle-production sequence.",
+            "Published-versus-preprint versions are not separate independent studies."
+          ]
+        }
+      ],
+      "screening_ledger": [
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            152
+          ],
+          "cited_doi": "10.1038/s41598-020-75967-w",
+          "decision": "include_methods_checked",
+          "fulltext_status": "published full text",
+          "study_key": "pellegrino2020"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            147,
+            149
+          ],
+          "cited_doi": "10.48550/arxiv.2303.10469",
+          "decision": "include_methods_checked",
+          "fulltext_status": "arXiv v1,2023-03-18",
+          "study_key": "nathanael2023"
+        },
+        {
+          "parent_doi": "10.3390/make8010010",
+          "reference_numbers": [
+            49
+          ],
+          "cited_doi": "10.1038/s41467-022-29926-w",
+          "decision": "include_methods_checked",
+          "fulltext_status": "Published Nature Communications article,13:2338,2022",
+          "study_key": "gao2022"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            160
+          ],
+          "cited_doi": "10.48550/arxiv.2404.01006",
+          "decision": "include_methods_checked",
+          "fulltext_status": "arXiv v1,2024-04-01,51-page combined manuscript and SI",
+          "study_key": "li2024"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            163
+          ],
+          "cited_doi": "10.1039/d4dd00104d",
+          "decision": "include_methods_checked",
+          "fulltext_status": "Published RSC fulltext, DigitalDiscovery3:1280-1291",
+          "study_key": "ortiz2024"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            159
+          ],
+          "cited_doi": "10.48550/arxiv.2009.06739",
+          "decision": "exclude_computational_only",
+          "fulltext_status": "primary_arxiv_abstract_checked",
+          "reason": "Predictive synthesis schedules were validated by computational molecular-dynamics simulations; no experimental CVD apparatus established.",
+          "source_url": "https://arxiv.org/abs/2009.06739"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            165
+          ],
+          "cited_doi": "10.1021/acs.jpclett.2c02045",
+          "decision": "exclude_bibliographic_identity_conflict",
+          "fulltext_status": "publisher_metadata_and_abstract_checked",
+          "cited_title": "Hybrid machine learning models for electronic property prediction",
+          "resolved_title": "Statistical Properties of Bit Strings Sampled from Sycamore Random Quantum Circuits",
+          "resolved_authors": [
+            "Sangchul Oh",
+            "Sabre Kais"
+          ],
+          "reason": "DOI resolves to an unrelated quantum-computing article; parent title/authors/pages do not match. No equipment/process claim imported.",
+          "source_url": "https://pubs.acs.org/doi/10.1021/acs.jpclett.2c02045"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            168
+          ],
+          "cited_doi": "10.1016/j.commatsci.2023.112548",
+          "decision": "exclude_bibliographic_identity_conflict",
+          "fulltext_status": "publisher_metadata_and_abstract_checked",
+          "cited_title": "Reinforcement learning for scalable graphene synthesis",
+          "resolved_title": "Prediction of carbon nanotubes reinforced interphase properties in fuzzy fibre reinforced polymer via inverse analysis and optimisation",
+          "resolved_authors": [
+            "Marzena Pawlik",
+            "Huirong Le",
+            "Paul Wood",
+            "Yiling Lu"
+          ],
+          "reason": "DOI points to a computational interphase mechanics article, not the claimed graphene synthesis article.",
+          "source_url": "https://www.sciencedirect.com/science/article/pii/S0927025623005426"
+        },
+        {
+          "parent_doi": "10.3390/make8010010",
+          "reference_numbers": [
+            31
+          ],
+          "also_cited_in": {
+            "parent_doi": "10.1007/s11051-025-06472-2",
+            "reference_numbers": [
+              359
+            ]
+          },
+          "cited_doi": "10.1038/s41578-021-00337-5",
+          "decision": "defer_secondary_review",
+          "fulltext_status": "publisher_abstract_and_article_type_checked",
+          "reason": "Review article useful for later citation chaining, not primary apparatus evidence in this bounded pass.",
+          "source_url": "https://www.nature.com/articles/s41578-021-00337-5"
+        },
+        {
+          "parent_doi": "10.3390/make8010010",
+          "reference_numbers": [
+            56
+          ],
+          "cited_doi": "10.3390/ijms231810712",
+          "decision": "defer_secondary_review",
+          "fulltext_status": "publisher_review_scope_checked",
+          "reason": "State-of-the-art review with broad nanocomposite manufacturing references; retain for a later bounded primary-reference pass.",
+          "source_url": "https://www.mdpi.com/1422-0067/23/18/10712"
+        },
+        {
+          "parent_doi": "10.3390/make8010010",
+          "reference_numbers": [
+            53
+          ],
+          "cited_doi": "10.1126/sciadv.aax9324",
+          "decision": "exclude_computational_only",
+          "fulltext_status": "primary_fulltext_methods_scope_screened",
+          "reason": "ZeoGAN zeolite generation and classical molecular simulations; no physical synthesis equipment demonstrated.",
+          "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6941911/"
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            153
+          ],
+          "cited_doi": "10.1002/adfm.202108543",
+          "decision": "defer_identity_unresolved",
+          "fulltext_status": "doi_and_registry_lookup_unresolved",
+          "reason": "Exact DOI/title not confirmed from accessible primary sources; Crossref attempt rate-limited and DOI page inaccessible. No guess of correction or equipment."
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            156
+          ],
+          "cited_doi": "10.1021/acsenergylett.2c02674",
+          "decision": "defer_identity_unresolved",
+          "fulltext_status": "doi_and_registry_lookup_unresolved",
+          "reason": "Crossref404 and inaccessible DOI page in this pass; no equipment inference from the bibliographic title."
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            157
+          ],
+          "cited_doi": "10.1038/s41929-022-00830-1",
+          "decision": "defer_identity_unresolved",
+          "fulltext_status": "doi_and_registry_lookup_unresolved",
+          "reason": "Crossref404 and inaccessible DOI page in this pass; no apparatus claim imported."
+        },
+        {
+          "parent_doi": "10.1007/s11051-025-06472-2",
+          "reference_numbers": [
+            169
+          ],
+          "cited_doi": "10.1038/s41563-020-0785-4",
+          "decision": "defer_identity_unresolved",
+          "fulltext_status": "doi_and_registry_lookup_unresolved",
+          "reason": "Exact DOI/title not confirmed; registry attempt rate-limited and DOI page inaccessible. Do not substitute the similarly numbered0785-6 News&Views."
+        }
+      ],
+      "limitations": [
+        "Targeted breadth pass, not an exhaustive audit of either bibliography.",
+        "Some original bibliography entries contain resolvable identity conflicts; others remain unresolved because primary-source access failed.",
+        "No brand/model inferred for unnamed hardware; conceptual route steps are not operating procedures.",
+        "Machine settings and inconsistent substrate dimensions intentionally not imported."
+      ]
+    },
+    "other_parents": {
+      "review_date": "2026-10-16",
+      "scope": "Bounded breadth screen of citations from five original 2024–2026 parents, with four promoted primary sources. Reserves and shallow/deferred reviews have explicit statuses. This is not an exhaustive bibliography or full-text audit.",
+      "findings": [
+        {
+          "key": "reichel2017",
+          "metadata": {
+            "doi": "10.1038/srep45484",
+            "reference_id": "REF-DEA08BE551A8",
+            "reference_type": "journal_article",
+            "title": "Single crystalline superstructured stable single domain magnetite nanoparticles",
+            "authors": [
+              {
+                "given": "Victoria",
+                "family": "Reichel"
+              },
+              {
+                "given": "András",
+                "family": "Kovács"
+              },
+              {
+                "given": "Monika",
+                "family": "Kumari"
+              },
+              {
+                "given": "Éva",
+                "family": "Bereczk-Tompa"
+              },
+              {
+                "given": "Emanuel",
+                "family": "Schneck"
+              },
+              {
+                "given": "Patrick",
+                "family": "Diehle"
+              },
+              {
+                "given": "Mihály",
+                "family": "Pósfai"
+              },
+              {
+                "given": "Ann M.",
+                "family": "Hirt"
+              },
+              {
+                "given": "Martial",
+                "family": "Duchamp"
+              },
+              {
+                "given": "Rafal E.",
+                "family": "Dunin-Borkowski"
+              },
+              {
+                "given": "Damien",
+                "family": "Faivre"
+              }
+            ],
+            "publication_year": 2017,
+            "publication_date": "2017-03-30",
+            "container_title": "Scientific Reports",
+            "volume": "7",
+            "issue": "1",
+            "pages": "",
+            "article_number": "45484",
+            "url": "https://doi.org/10.1038/srep45484",
+            "metadata_status": "pdf_and_registry_checked",
+            "metadata_source_url": "https://api.crossref.org/works/10.1038/srep45484",
+            "checked_date": "2026-10-16",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_chain": [
+            {
+              "parent_reference_id": "REF-7939F61E47C2",
+              "parent_doi": "10.1021/acs.nanolett.4c01850",
+              "locator": "Supporting Information reference10; supplied combined Magnetization2 PDF p45",
+              "cited_doi": "10.1038/srep45484"
+            }
+          ],
+          "source": {
+            "filename": "other-reichel2017.pdf",
+            "url": "https://www.nature.com/articles/srep45484.pdf",
+            "version": "published version of record",
+            "sha256": "8841ad8560b20660f77611e295acabbca8cf17614f3a90c9dd5461c05271b533",
+            "page_count": 8
+          },
+          "nano_evidence": "Abstract and Results Structural properties: approximately 40 nm magnetite mesoparticles composed of approximately 10 nm aligned sub-units; measured mean 36.7 ± 3.7 nm.",
+          "process": {
+            "recommendation": "new_process",
+            "name": "pH-stat controlled coprecipitation of magnetite nanoparticles",
+            "existing_material_ids": [
+              "N02"
+            ],
+            "existing_route_ids": [],
+            "steps": [
+              {
+                "label": "Prepare deoxygenated iron and polymer solutions",
+                "equipment": "Nitrogen-protected reagent/reaction vessels; exact make/model unspecified"
+              },
+              {
+                "label": "Dose precursor under mechanical stirring",
+                "equipment": "Computer-controlled titration/dosing assembly and mechanical stirrer"
+              },
+              {
+                "label": "Maintain pH and temperature during precipitation",
+                "equipment": "Titration controller, pH electrode, thermostatted50 mL reaction vessel"
+              },
+              {
+                "label": "Magnetically separate, wash and redisperse",
+                "equipment": "Magnet; make/model unspecified; optional purification used for magnetic characterization"
+              }
+            ],
+            "locator": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6"
+          },
+          "equipment": [
+            {
+              "name": "Metrohm Dosimat 805",
+              "identity_status": "explicit_exact_model",
+              "role": "Computer-controlled liquid dosing component in synthesis",
+              "suggested_class": "new automatic titration/pH-stat dosing class; do not force into syringe-pump M07",
+              "locator": "Methods > Synthesis..., PDF p5",
+              "manufacturer_documentation_url": "https://www.metrohm.com/content/dam/metrohm/shared/documents/manuals/88/88058001EN.pdf"
+            },
+            {
+              "name": "Titration unit reported as Methrom Titrino 888",
+              "identity_status": "conflicting_model_name",
+              "role": "pH-stat titration control",
+              "suggested_class": "same new titration class",
+              "locator": "Methods > Synthesis..., PDF p5",
+              "limits": "Paper prints “Methrom Titrino 888”; official Metrohm model888 is Titrando. Preserve the reported name with unresolved identity. Do not silently claim the paper validates 888 Titrando.",
+              "manufacturer_comparison_url": "https://www.metrohm.com/en/product/28880010.html"
+            },
+            {
+              "name": "Biotrode pH electrode",
+              "identity_status": "family_without_partnumber",
+              "role": "Feedback pH measurement during precipitation",
+              "locator": "Methods > Synthesis..., PDF p5"
+            },
+            {
+              "name": "Thermostatted50 mL reaction vessel and mechanical stirrer",
+              "identity_status": "unnamed_apparatus",
+              "role": "Reaction containment/mixing/temperature control",
+              "suggested_class": "M03/M04/M33 are planning analogues only; source does not explicitly establish overhead geometry, jacket or recirculating thermostat."
+            }
+          ],
+          "limits": [
+            "No commercial model inferred for stirrer, thermostat, reaction vessel or magnet.",
+            "This is aqueous coprecipitation, not hydrothermalP15.",
+            "Do not encode numeric synthesis settings as an operating procedure."
+          ]
+        },
+        {
+          "key": "kleibert2017",
+          "metadata": {
+            "doi": "10.1103/PhysRevB.95.195404",
+            "reference_id": "REF-5C978B93F5DA",
+            "reference_type": "journal_article",
+            "title": "Direct observation of enhanced magnetism in individual size- and shape-selected 3d transition metal nanoparticles",
+            "authors": [
+              {
+                "given": "Armin",
+                "family": "Kleibert"
+              },
+              {
+                "given": "Ana",
+                "family": "Balan"
+              },
+              {
+                "given": "Rocio",
+                "family": "Yanes"
+              },
+              {
+                "given": "Peter M.",
+                "family": "Derlet"
+              },
+              {
+                "given": "C. A. F.",
+                "family": "Vaz"
+              },
+              {
+                "given": "Martin",
+                "family": "Timm"
+              },
+              {
+                "given": "Arantxa",
+                "family": "Fraile Rodríguez"
+              },
+              {
+                "given": "Armand",
+                "family": "Béché"
+              },
+              {
+                "given": "Jo",
+                "family": "Verbeeck"
+              },
+              {
+                "given": "R. S.",
+                "family": "Dhaka"
+              },
+              {
+                "given": "Milan",
+                "family": "Radovic"
+              },
+              {
+                "given": "Ulrich",
+                "family": "Nowak"
+              },
+              {
+                "given": "Frithjof",
+                "family": "Nolting"
+              }
+            ],
+            "publication_year": 2017,
+            "publication_date": "2017-05-05",
+            "container_title": "Physical Review B",
+            "volume": "95",
+            "issue": "19",
+            "pages": "",
+            "article_number": "195404",
+            "url": "https://doi.org/10.1103/PhysRevB.95.195404",
+            "metadata_status": "pdf_and_registry_checked",
+            "metadata_source_url": "https://api.crossref.org/works/10.1103/PhysRevB.95.195404",
+            "checked_date": "2026-10-16",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_chain": [
+            {
+              "parent_reference_id": "REF-7939F61E47C2",
+              "parent_doi": "10.1021/acs.nanolett.4c01850",
+              "locator": "Main reference15; supplied combined Magnetization2 PDF p12",
+              "cited_doi": "10.1103/PhysRevB.95.195404"
+            }
+          ],
+          "source": {
+            "filename": "other-kleibert2017.pdf",
+            "url": "https://diposit.ub.edu/bitstreams/40bcf67f-8c5d-4ce6-8e92-974abe3dc92e/download",
+            "version": "published version of record in University of Barcelona repository",
+            "sha256": "89950cd74be312315e569aa337a7c648c634386fff2d55748b759b84863aa05e",
+            "page_count": 13
+          },
+          "nano_evidence": "Abstract and experiments report isolated Fe, Co, Ni particles 8–20 nm; their fabrication uses arc erosion and condensation in He/Ar.",
+          "process": {
+            "recommendation": "additional_evidence_existing_process",
+            "name": "Vapor condensation / inert-gas aggregation",
+            "existing_route_ids": [
+              "P01"
+            ],
+            "existing_material_ids": [
+              "N01"
+            ],
+            "steps": [
+              {
+                "label": "Prepare and clean substrate",
+                "equipment": "UHV surface-preparation chamber; lithographic markers precede synthesis"
+              },
+              {
+                "label": "Generate metal vapor by arc erosion",
+                "equipment": "Arc cluster ion source (ACIS)"
+              },
+              {
+                "label": "Condense nanoparticles in inert carrier gas",
+                "equipment": "ACIS He/Ar condensation zone"
+              },
+              {
+                "label": "Mass-filter and deposit nanoparticles",
+                "equipment": "Mass filter, electrostatic quadrupole deflector, vacuum chamber"
+              }
+            ],
+            "locator": "SectionII Experimental Details, PDF p2 (article195404-2), soft-landing continuation PDF p3"
+          },
+          "equipment": [
+            {
+              "name": "Arc cluster ion source (ACIS)",
+              "identity_status": "apparatus_name_no_make_or_model",
+              "role": "Metal-vapor formation and inert-gas nanoparticle condensation",
+              "suggested_class": "M54",
+              "locator": "SectionII, PDFpp2–3",
+              "claim": "A research ACIS generated Fe/Co/Ni vapor by arc erosion and condensed it in a He/Ar mixture before mass filtering and deposition."
+            }
+          ],
+          "limits": [
+            "No brandedACISmodel established. Treat as literature apparatus profile orM54classcitation, not evidence for every candidateM54commercialproduct.",
+            "Section header isII Experimental Details (noII.Asubsection in this PDF).",
+            "Characterization microscopes and MaurerKTR1075-1temperaturemeasurement device are excluded from manufacturing profile additions unless separately scoped."
+          ]
+        },
+        {
+          "key": "martinez2020",
+          "metadata": {
+            "doi": "10.3390/nano10101936",
+            "reference_id": "REF-881E66C7D754",
+            "reference_type": "journal_article",
+            "title": "Effect of the Albumin Corona on the Toxicity of Combined Graphene Oxide and Cadmium to Daphnia magna and Integration of the Datasets into the NanoCommons Knowledge Base",
+            "authors": [
+              {
+                "given": "Diego Stéfani T.",
+                "family": "Martinez"
+              },
+              {
+                "given": "Gabriela H.",
+                "family": "Da Silva"
+              },
+              {
+                "given": "Aline Maria Z.",
+                "family": "de Medeiros"
+              },
+              {
+                "given": "Latif U.",
+                "family": "Khan"
+              },
+              {
+                "given": "Anastasios G.",
+                "family": "Papadiamantis"
+              },
+              {
+                "given": "Iseult",
+                "family": "Lynch"
+              }
+            ],
+            "publication_year": 2020,
+            "publication_date": "2020-09-29",
+            "container_title": "Nanomaterials",
+            "volume": "10",
+            "issue": "10",
+            "pages": "1936",
+            "article_number": "",
+            "url": "https://doi.org/10.3390/nano10101936",
+            "metadata_status": "full_text_and_registry_checked",
+            "metadata_source_url": "https://api.crossref.org/works/10.3390/nano10101936",
+            "checked_date": "2026-10-16",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_chain": [
+            {
+              "parent_reference_id": "REF-0BBA41E8870B",
+              "parent_doi": "10.1016/j.impact.2025.100602",
+              "locator": "Bibliography Martinez etal2020, original parentPDF p19",
+              "cited_doi": "10.3390/nano10101936"
+            }
+          ],
+          "source": {
+            "filename": "other-martinez2020.xml",
+            "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7599915/fullTextXML",
+            "version": "published full-text JATS/XML, EuropePMC archive; PDF fetch unavailable",
+            "sha256": "d1ce17a22d128cbbf6ae42d420a1186602549dca1ebadd7569ec4a07a8646121"
+          },
+          "nano_evidence": "Results3.2: AFM confirms single-layer graphene oxide below1.5nm thickness; flake lateral dimensions18–308nm, mean141nm.",
+          "process": {
+            "recommendation": "new_process_and_existing_process_evidence",
+            "name": "Oxidative exfoliation of graphite to graphene oxide",
+            "existing_material_ids": [
+              "N07"
+            ],
+            "existing_route_ids": [
+              "P08"
+            ],
+            "steps": [
+              {
+                "label": "Mix graphite and oxidation reagents under cooling",
+                "equipment": "Round-bottom flask, magnetic stirrer, ice bath"
+              },
+              {
+                "label": "Complete oxidation and thermal treatment",
+                "equipment": "Stirred reaction flask; heating equipment unnamed"
+              },
+              {
+                "label": "Separate and wash product",
+                "equipment": "Centrifuge; model unspecified in synthesissection 2.2"
+              },
+              {
+                "label": "Dialyze and freeze-dry dispersion",
+                "equipment": "Dialysis setup and lyophilizer; models unspecified"
+              }
+            ],
+            "locator": "Section2.2 Synthesis of the Graphene Oxide; P08surface-modification evidence fromSection2.4 Preparation and Characterisation of BSA@GO Material"
+          },
+          "equipment": [
+            {
+              "name": "Eppendorf Thermomixer C",
+              "identity_status": "explicit_exact_model",
+              "role": "Thermostatted incubation during albumin-corona coating ofGO",
+              "suggested_class": "M50",
+              "locator": "Section2.4",
+              "scope": "Direct fabrication of BSA@GO coating, not initial graphite oxidation."
+            },
+            {
+              "name": "Cole-Parmer CPXH ultrasonic bath",
+              "identity_status": "family_without_capacity_suffix",
+              "role": "Prepare GO stock dispersion before coating",
+              "suggested_class": "M10",
+              "locator": "Section2.4",
+              "scope": "Paper says CPXH 40 Hz but no capacity suffix; preserve as family-levelidentity and do not assume full model/frequency correction."
+            },
+            {
+              "name": "Eppendorf 5430R",
+              "identity_status": "explicit_exact_model",
+              "role": "Centrifugation separatingGO/BSA@GO after Cd adsorption experiment",
+              "suggested_class": "M13",
+              "locator": "Section2.6 Cadmium Adsorption Experiments",
+              "scope": "Exact 5430R is documented for post-adsorption separation. Do not propagate this identity to unnamed synthesis centrifuge in2.2 or corona washing in2.4."
+            },
+            {
+              "name": "Lyophilizer",
+              "identity_status": "unnamed_apparatus",
+              "role": "Dry GO after dialysis",
+              "suggested_class": "M17",
+              "locator": "Section2.2"
+            },
+            {
+              "name": "Magnetic stirrer",
+              "identity_status": "unnamed_apparatus",
+              "role": "Stir oxidation flask",
+              "suggested_class": "M02",
+              "locator": "Section2.2"
+            }
+          ],
+          "surface_modification_sequence": [
+            {
+              "label": "Disperse GO",
+              "equipment_category": "M10"
+            },
+            {
+              "label": "Incubate with albumin",
+              "equipment_category": "M50"
+            },
+            {
+              "label": "Centrifuge, wash and redisperse coatedGO",
+              "equipment_category": "M13"
+            }
+          ],
+          "limits": [
+            "Modified Hummers process includes chemical hazards; catalog sequence is conceptual, not an SOP.",
+            "5430R is direct post-adsorption evidence only; not a manufacturing-modelvalidation.",
+            "Christ SpeedDry mentioned for solid-state characterization preparation, not freeze-drying synthesis. Do not map it toM17.",
+            "Source commercial characterizers (Multimode 8, Zetasizer Nano ZS, etc.) can support independently scopedanalysiscitations but are not fabricationequipment."
+          ]
+        },
+        {
+          "key": "fan2025",
+          "metadata": {
+            "doi": "10.1038/s43246-025-00736-z",
+            "reference_id": "REF-E2CE24FAF2D6",
+            "reference_type": "journal_article",
+            "title": "High strength and ductility in a rare-earth free magnesium alloy processed by rotary swaging and flash annealing",
+            "authors": [
+              {
+                "given": "Yunhao",
+                "family": "Fan"
+              },
+              {
+                "given": "Yaofeng",
+                "family": "Li"
+              },
+              {
+                "given": "Hui",
+                "family": "Guo"
+              },
+              {
+                "given": "Gaoming",
+                "family": "Zhu"
+              },
+              {
+                "given": "Boyu",
+                "family": "Liu"
+              },
+              {
+                "given": "Hao",
+                "family": "Wang"
+              },
+              {
+                "given": "Hao",
+                "family": "Zhou"
+              },
+              {
+                "given": "Yuling",
+                "family": "Xu"
+              },
+              {
+                "given": "Xiaoqin",
+                "family": "Zeng"
+              },
+              {
+                "given": "Leyun",
+                "family": "Wang"
+              }
+            ],
+            "publication_year": 2025,
+            "publication_date": "2025-02-10",
+            "container_title": "Communications Materials",
+            "volume": "6",
+            "issue": "1",
+            "pages": "",
+            "article_number": "27",
+            "url": "https://doi.org/10.1038/s43246-025-00736-z",
+            "metadata_status": "pdf_and_registry_checked",
+            "metadata_source_url": "https://api.crossref.org/works/10.1038/s43246-025-00736-z",
+            "checked_date": "2026-10-16",
+            "peer_review_status": "not_independently_checked"
+          },
+          "parent_chain": [
+            {
+              "parent_reference_id": "REF-FCFC50CCA023",
+              "parent_doi": "10.1002/mgea.70056",
+              "locator": "Reference29, original parentPDF p12",
+              "cited_doi": "10.1038/s43246-025-00736-z"
+            }
+          ],
+          "source": {
+            "filename": "other-fan2025.pdf",
+            "url": "https://www.nature.com/articles/s43246-025-00736-z.pdf",
+            "version": "published version of record",
+            "sha256": "b7dc9c0c296649ecc5aaa3174d6e352744440cd5316cf7865580e90b21ca0786",
+            "page_count": 10
+          },
+          "nano_evidence": "The abstract and Results “Precipitates and atomistic clusters in AX61-FA” explicitly report nanosized Al2Ca precipitates. Fig4b/c (PDF p6) shows them by TEM. Discussion (PDF pp5–6) ties their formation to swaging and flash annealing. The bulk Mg grain size is18µm; this is not a nanograin claim.",
+          "process": {
+            "recommendation": "new_process_and_class_gaps",
+            "name": "Rotary swaging and induction flash annealing of nanoprecipitate-strengthened magnesium alloy",
+            "existing_route_ids": [],
+            "existing_material_ids": [],
+            "material_label": "Bulk Mg-Al-Ca alloy containing in-situ Al2Ca nanoprecipitates (nanostructured metal/alloy); not a free-metal-nanoparticle N01 route",
+            "steps": [
+              {
+                "label": "Cast and homogenize alloy",
+                "equipment": "Casting/homogenization equipment unnamed"
+              },
+              {
+                "label": "Extrude rod stock",
+                "equipment": "Extrusion press unnamed"
+              },
+              {
+                "label": "Rotary-swage rod",
+                "equipment": "Four-die rotary swaging machine; make/model unspecified"
+              },
+              {
+                "label": "Induction flash-anneal",
+                "equipment": "Shenzhen Shuangping SPG-20 high-frequency induction heater"
+              },
+              {
+                "label": "Quench treated rod",
+                "equipment": "Water quench vessel; unspecified"
+              }
+            ],
+            "locator": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6"
+          },
+          "equipment": [
+            {
+              "name": "SPG-20 high-frequency inductive heating instrument",
+              "manufacturer": "Shenzhen Shuangping Power Technology Co. Ltd.",
+              "identity_status": "explicit_exact_model",
+              "role": "Flash annealing creates nanoprecipitates in bulk Mg alloy",
+              "suggested_class": "Missing class: induction heating / rapid annealing. Do not force M19 muffle or M20 tube furnace."
+            },
+            {
+              "name": "Four-die rotary swaging machine",
+              "identity_status": "unnamed_apparatus",
+              "role": "Severe plastic deformation before flash annealing",
+              "suggested_class": "Missing class: rotary swaging / severe plastic deformation. Do not force planetary ball mill M12 or CNC class."
+            },
+            {
+              "name": "MAG42 infrared thermal imager",
+              "manufacturer": "Shanghai Magnity Technologies Co. Ltd.",
+              "identity_status": "explicit_exact_model",
+              "role": "Records instantaneous sample temperature during induction heating",
+              "scope": "Process monitoring, not synthesis device; optional future thermal-imager class."
+            }
+          ],
+          "limits": [
+            "Broader nanomaterial scope is nanostructured bulk alloy with nanoprecipitates, not freestanding nanoparticles. Label distinctly; do not generalize every bulk Mg manufacturing process as nano.",
+            "SPG-20 manufacturer web legitimacy / manuals / photos unreviewed; article is equipment-use evidence, not vendor verification.",
+            "Four-die machine brand/model not reported.",
+            "Conventional salt-bath anneal is comparison arm, not equivalent to induction flash annealing."
+          ]
+        }
+      ],
+      "screening_ledger": [
+        {
+          "doi": "10.1038/srep45484",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Supporting Information reference10; supplied combined Magnetization2 PDF p45",
+          "status": "recommended",
+          "review_depth": "Full text methods and registry checked",
+          "reason": "New process: pH-stat controlled coprecipitation of magnetite nanoparticles.",
+          "source_url": "https://www.nature.com/articles/srep45484.pdf"
+        },
+        {
+          "doi": "10.1103/PhysRevB.95.195404",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Main reference15; supplied combined Magnetization2 PDF p12",
+          "status": "recommended",
+          "review_depth": "Full text methods and registry checked",
+          "reason": "Additional primary evidence for existing vapor condensation / inert-gas aggregation process P01 and class M54.",
+          "source_url": "https://diposit.ub.edu/bitstreams/40bcf67f-8c5d-4ce6-8e92-974abe3dc92e/download"
+        },
+        {
+          "doi": "10.3390/nano10101936",
+          "parent_reference_id": "REF-0BBA41E8870B",
+          "parent_citation_locator": "Bibliography Martinez etal2020, original parentPDF p19",
+          "status": "recommended",
+          "review_depth": "Full text methods and registry checked",
+          "reason": "New oxidative-exfoliation process for graphene oxide, plus evidence for existing surface-functionalization process P08.",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7599915/fullTextXML"
+        },
+        {
+          "doi": "10.1038/s43246-025-00736-z",
+          "parent_reference_id": "REF-FCFC50CCA023",
+          "parent_citation_locator": "Reference29, original parentPDF p12",
+          "status": "recommended",
+          "review_depth": "Full text methods and registry checked",
+          "reason": "New process: rotary swaging and induction flash annealing of a bulk magnesium alloy containing nanoprecipitates.",
+          "source_url": "https://www.nature.com/articles/s43246-025-00736-z.pdf"
+        },
+        {
+          "doi": "10.1021/acsnano.1c05374",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Mainreference34, originalparentPDFp14",
+          "status": "reserve_checked",
+          "review_depth": "Full text methods and registry checked",
+          "reason": "Published Methods, Sample Preparation, PDF p7: Al nanorods 100 × 40 nm, thickness 60 nm (Fig3, PDF p4), made by electron-beam lithography. Supports P06/M59 class only. Spin coating of purchased 100 nm gold nanoparticles, pp7–8, supports M24 specimen preparation; no spin-coater or lithographer model stated.",
+          "source_url": "https://ris.utwente.nl/ws/portalfiles/portal/268388496/acsnano.1c05374.pdf"
+        },
+        {
+          "doi": "10.3762/bjnano.16.7",
+          "parent_reference_id": "REF-0BBA41E8870B",
+          "parent_citation_locator": "BibliographyPunz2025, originalparentPDFp19",
+          "status": "reserve_context",
+          "review_depth": "full_text_examples_and_registry_checked",
+          "reason": "Example1, pp7–8, maps Ag nanoparticle polyol reduction and sulfidation from Levard2011 (ref34): secondary method context only. Example4, pp13–14, reports 50–100 nm silica from Stöber/emulsion synthesis and amino/carboxyl functionalization. Supports P08 process context; no equipment identity.",
+          "source_url": "https://www.beilstein-journals.org/bjnano/articles/16/7"
+        },
+        {
+          "doi": "10.1103/PhysRevLett.112.107201",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Mainreference31, originalparentPDFp14",
+          "status": "reserve_partial",
+          "review_depth": "publisher_indexed_full_page_excerpt_checked",
+          "reason": "Published p107201-1 directly states 8–20 nm Fe particles generated by an arc cluster ion source and deposited onto Si. Same P01/M54 process as Kleibert. Local publisher PDF fetch returned403; registry fetch failed. Indexed page excerpt, not complete full-text audit.",
+          "source_url": "https://link.aps.org/pdf/10.1103/PhysRevLett.112.107201"
+        },
+        {
+          "doi": "10.1021/acs.nanolett.2c00178",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Mainreference8andSIreference7, originalparentPDFpp12,45",
+          "status": "no_manufacturing_addition",
+          "review_depth": "full_text_xml_checked",
+          "reason": "Main text describes photothermal magnetic imaging, without a productive manufacturing method in reviewed main text. Supplementary sample preparation not reviewed; remains unresolved for fabrication details.",
+          "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9101077/fullTextXML"
+        },
+        {
+          "doi": "10.1021/acsnano.0c02521",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "SIreference14, originalparentPDFp46",
+          "status": "deferred_access",
+          "review_depth": "abstract_and_institution_metadata_checked",
+          "reason": "Abstract reports magnetite nanoparticles 7.6–23.4 nm synthesized by solution methods. ACS full text403; no verified methods or hardware.",
+          "source_url": "https://samurai.nims.go.jp/articles/0b9417a3-50f6-4e84-9589-6a233a7a0d0a?locale=en"
+        },
+        {
+          "doi": "10.1103/PhysRevB.92.224423",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Mainreference19, originalparentPDFp13",
+          "status": "deferred_access",
+          "review_depth": "publisher_abstract_checked",
+          "reason": "Variable-temperature magnetoresistive STM of magnetite nanocrystals. Publisher full text403; synthesis method unresolved; no equipment import.",
+          "source_url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.92.224423"
+        },
+        {
+          "doi": "10.1038/s41563-019-0505-2",
+          "parent_reference_id": "REF-7939F61E47C2",
+          "parent_citation_locator": "Mainreference5, originalparentPDFp11",
+          "status": "deferred_methods",
+          "review_depth": "publisher_abstract_and_metadata_checked",
+          "reason": "Pressure-tuned magnetism of 2D CrI3; exfoliation/stacking preparation is a candidate but methods not reviewed. No fabrication-hardware assertion.",
+          "source_url": "https://www.nature.com/articles/s41563-019-0505-2"
+        },
+        {
+          "doi": "10.1038/s41597-024-03006-8",
+          "parent_reference_id": "REF-0BBA41E8870B",
+          "parent_citation_locator": "BibliographyAmos2024, originalparentPDFp19",
+          "status": "context_only",
+          "review_depth": "full_text_topic_screen",
+          "reason": "Knowledge/instance mapping architecture and material-workflow provenance. No new model-specific manufacturing apparatus established in topic screen. Punz offers more focused process context.",
+          "source_url": "https://www.nature.com/articles/s41597-024-03006-8"
+        },
+        {
+          "doi": "",
+          "parent_reference_id": "REF-8508E2857729",
+          "parent_citation_locator": "Reference15:Soedarmadjietal2019 Trackingmaterialssciencedatalineage",
+          "status": "bibliography_screen_deferred",
+          "review_depth": "parent_bibliography_title_screen",
+          "reason": "Data-lineage management topic; downstream experimental methods not reviewed. Bibliography title screen only; not a full-text exclusion.",
+          "source_url": ""
+        },
+        {
+          "doi": "",
+          "parent_reference_id": "REF-EFB6B5BC5792",
+          "parent_citation_locator": "Reference30:Acostaetal2022 Machinelearningstudyofthemagneticorderingin2Dmaterials",
+          "status": "bibliography_screen_deferred",
+          "review_depth": "parent_bibliography_title_screen",
+          "reason": "Computational 2D magnetism topic; experimental manufacturing apparatus not established at title screen. Full text not reviewed.",
+          "source_url": ""
+        },
+        {
+          "doi": "",
+          "parent_reference_id": "REF-EFB6B5BC5792",
+          "parent_citation_locator": "Reference33:Luetal2022 On-the-flyinterpretablemachinelearningforrapiddiscoveryoftwo-dimensionalferromagnets",
+          "status": "bibliography_screen_deferred",
+          "review_depth": "parent_bibliography_title_screen",
+          "reason": "Prediction/discovery topic; nano-manufacturing hardware unverified. Full text not reviewed.",
+          "source_url": ""
+        },
+        {
+          "doi": "10.1016/j.cej.2025.161128",
+          "parent_reference_id": "REF-FCFC50CCA023",
+          "parent_citation_locator": "Reference5:Emamietal2025",
+          "status": "bibliography_screen_deferred",
+          "review_depth": "parent_bibliography_title_screen",
+          "reason": "Battery recycling process optimization. Whether outputs are nanoscale materials is unresolved. Full text not reviewed.",
+          "source_url": ""
+        }
+      ],
+      "counts": {
+        "recommended_primary_sources": 4,
+        "candidate_ledger_entries": 16,
+        "full_text_recommended_primary_sources": 4,
+        "reviewed_reserve_or_context_sources": 4,
+        "unavailable_or_unreviewed_candidates": 8
+      },
+      "parent_scope_notes": {
+        "REF-8508E2857729": "Ontology bibliography screen only; no full-text manufacturing additions.",
+        "REF-EFB6B5BC5792": "Northeast magnetic database bibliography screen only; no full-text manufacturing additions.",
+        "REF-FCFC50CCA023": "Fan2025 full methods reviewed; nanoscale precipitates make this relevant despite the bulk magnesium matrix.",
+        "REF-0BBA41E8870B": "Martinez2020 selected; Punz and Amos context checked.",
+        "REF-7939F61E47C2": "Reichel and Kleibert selected; Spaeth2021 full-methods reserve; other sources partial/deferred."
+      },
+      "local_registry_cache": "other-crossref.json"
+    }
+  },
+  "limitations": [
+    "Targeted breadth review; unreviewed bibliography entries remain outstanding.",
+    "Unknown makes/models, oven geometries and sonicator types are not guessed.",
+    "Direct-model and category-level claims remain separate in instrument cards.",
+    "No operational settings, exact MSRP, inventory ownership or current-model availability claims inferred from academic articles.",
+    "PDF/full-text caches remain local; public Git contains curated metadata, paraphrased facts, evidence scopes and review decisions.",
+    "The four new equipment classes contain literature-reported starting examples, not ten researched market alternatives per class. The original 59 source classes retain ten core examples each.",
+    "Induction/swaging concern embedded nanoprecipitates in bulk Mg alloy. N10 keeps those composites distinct from free N01 particles.",
+    "New literature-only classes and components without appropriate pricing evidence remain explicitly unpriced; no unsupported numeric estimate is invented."
+  ],
+  "review_ledger_csv": "citation_review_2026-10-16-breadth.csv",
+  "new_material_ids": [
+    "N10"
+  ],
+  "manufacturer_evidence_updates": [
+    {
+      "manufacturer": "Chemyx",
+      "doi": "10.1039/d4dd00104d",
+      "basis": "Existing official identity plus newly checked independent Fusion 200 use."
+    },
+    {
+      "manufacturer": "IKA",
+      "doi": "10.1021/am302624t",
+      "basis": "Existing owner confirmation plus newly checked independent T25 digital use."
+    }
+  ],
+  "validation": {
+    "python_tests_passed": 45,
+    "app_tests_passed": 92,
+    "typescript": "passed",
+    "production_build": "passed",
+    "browser_checks": [
+      "42 reference records; new topic filter shows 14 additions",
+      "Exact Fusion 200 article claim and separate category-evidence disclosure",
+      "P30 opens with M66 dialysis slot and zero initial budget",
+      "P35 opens with M64/M65 slots; bulk-alloy material scope retained"
+    ],
+    "private_inventory_published": false
+  }
+}

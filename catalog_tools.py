@@ -180,7 +180,7 @@ def inspect_catalog(root=ROOT):
         "source_m_categories": len(source_categories), "project_m_categories": len(project_categories),
         "equipment_records": len(equipment), "requested_occurrences": len(requests),
         "highlighted_equipment_records": sum(r["highlight_requested"] == "true" for r in equipment),
-        "source_pdf_model_records": len(source_models), "material_families": 9,
+        "source_pdf_model_records": len(source_models), "material_families": sum(r["route_kind"] == "material_family" for r in routes),
         "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
         "source_routes": 20, "curated_process_capabilities": sum(r["route_kind"] == "manufacturing_process" and not r["source_pdf"] for r in routes),
         "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf"} for r in routes),

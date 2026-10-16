@@ -30,6 +30,11 @@ export function instrumentReferenceLinks(record:Equipment,links:ReferenceLink[])
   link.target_type==='route'?((record.related_material_ids||'').split(';').includes(link.target_id)||(record.related_process_ids||'').split(';').includes(link.target_id))&&link.relation==='background':false);
 }
 
+/** Category evidence is displayed separately and never becomes model-level support. */
+export function categoryEvidenceLinks(record:Equipment,links:ReferenceLink[]){
+ return links.filter(link=>link.target_type==='category'&&link.target_id===record.category_id&&link.relation==='supports_claim'&&link.review_status==='claim_checked');
+}
+
 export function metadataCheckLabel(status:string){
  return ({pdf_checked:'PDF checked · registry unresolved',needs_review:'Metadata needs review',full_text_and_registry_checked:'Full text + registry checked',pdf_and_registry_checked:'PDF + registry checked',pdf_and_repository_checked:'PDF + repository checked'} as Record<string,string>)[status]||'Metadata needs review';
 }

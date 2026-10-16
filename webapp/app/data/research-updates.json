@@ -4867,5 +4867,75 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M07-09",
+    "model_name": "Chemyx Fusion 200",
+    "manufacturer": "Chemyx",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P04",
+          "related_process_types": "Microemulsion / reverse-micelle synthesis;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth;Sol-gel condensation with optional templating;Illustrative inert-atmosphere solution synthesis;Nanoprecipitation or emulsion / solvent removal;Microfluidic assembly or film hydration / extrusion;Electrospinning with optional thermal conversion"
+        },
+        "after": {
+          "related_process_ids": "P04;P27",
+          "related_process_types": "Microemulsion / reverse-micelle synthesis;Microfluidic nanoprecipitation of polymeric nanoparticles"
+        }
+      },
+      {
+        "before": {
+          "notes": ""
+        },
+        "after": {
+          "notes": " Chemyx Fusion 200 supplies aqueous antisolvent; manual operation in this specific published setup. No other Fusion variant or inventory unit inferred."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1039/d4dd00104d. Chemyx Fusion 200 supplies aqueous antisolvent; manual operation in this specific published setup. No other Fusion variant or inventory unit inferred."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M11-04",
+    "model_name": "IKA T 25 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "",
+          "related_process_types": "Nanoprecipitation or emulsion / solvent removal;Liquid exfoliation or catalytic CVD",
+          "related_material_ids": "N05;N07",
+          "related_material_types": "Polymeric nanoparticles;Carbon nanomaterials"
+        },
+        "after": {
+          "related_process_ids": "P29",
+          "related_process_types": "Solution casting of nanofiller/polymer composite films",
+          "related_material_ids": "N05;N07;N10;N08",
+          "related_material_types": "Polymeric nanoparticles;Carbon nanomaterials;Nanocomposites;Nanofibers"
+        }
+      },
+      {
+        "before": {
+          "notes": ""
+        },
+        "after": {
+          "notes": " Paper states IKA T25 digital ULTRA-TURRAX for cellulose-reinforced polymer film preparation. Speed values are not imported; no other IKA homogenizer model is validated."
+        }
+      },
+      {
+        "before": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1021/am302624t. Paper states IKA T25 digital ULTRA-TURRAX for cellulose-reinforced polymer film preparation. Speed values are not imported; no other IKA homogenizer model is validated."
+        }
+      }
+    ]
   }
 ]

@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterReferences,instrumentReferenceLinks,sortReferences,referenceCitation,metadataCheckLabel} from '../app/references-lib.ts';
+import {filterReferences,instrumentReferenceLinks,categoryEvidenceLinks,sortReferences,referenceCitation,metadataCheckLabel} from '../app/references-lib.ts';
 const data=JSON.parse(readFileSync(new URL('../app/data/references.json',import.meta.url),'utf8'));
 
 test('reference order is chronological, reversible and stable with undated records last',()=>{
@@ -34,12 +34,25 @@ test('project and category context never imply inherited exact-model support',()
  assert.deepEqual(instrumentReferenceLinks({...base,equipment_id:'NEW-VARIANT'},links).map(l=>l.link_id),['d','e']);
  assert.deepEqual(instrumentReferenceLinks({...base,category_id:'M01',related_material_ids:''},links).map(l=>l.link_id),['b']);
 });
+
+test('checked category evidence is available separately without granting model support',()=>{
+ const record={equipment_id:'MY-MODEL',category_id:'M13'};
+ const links=[
+  {link_id:'category',target_type:'category',target_id:'M13',relation:'supports_claim',review_status:'claim_checked'},
+  {link_id:'unchecked',target_type:'category',target_id:'M13',relation:'supports_claim',review_status:'needs_review'},
+  {link_id:'other',target_type:'category',target_id:'M14',relation:'supports_claim',review_status:'claim_checked'},
+  {link_id:'model',target_type:'equipment',target_id:'OTHER-MODEL',relation:'supports_claim',review_status:'claim_checked'},
+ ];
+ assert.deepEqual(categoryEvidenceLinks(record,links).map(l=>l.link_id),['category']);
+ assert.deepEqual(instrumentReferenceLinks(record,links),[]);
+ assert.deepEqual(categoryEvidenceLinks({...record,category_id:'M01'},links),[]);
+});
 test('expanded library stays academic-only and preserves scoped model evidence',()=>{
- assert.equal(data.references.length,28);assert.equal(data.reference_files.length,25);
- assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,33);
+ assert.equal(data.references.length,42);assert.equal(data.reference_files.length,36);
+ assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,103);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
- assert.equal(JSON.parse(data.exports.csl_json).length,28);
+ assert.equal(JSON.parse(data.exports.csl_json).length,42);
  assert.ok(data.references.every(r=>!JSON.stringify(r).includes('C:\\')));
 });
 
