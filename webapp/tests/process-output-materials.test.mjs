@@ -38,6 +38,17 @@ test('output card preserves the input amounts and actual equipment sequence with
  assert.equal(result.products[0].amount,'Output amount not established');assert.equal(JSON.stringify(w),before);
  const saved=validateWorkflow(JSON.parse(JSON.stringify(w)),seed.routes,seed.records);assert.deepEqual(materialPlanFor(saved),input);
 });
+
+test('custom component names and free-text amounts survive saving and output export verbatim',()=>{
+ const plan={...emptyMaterialPlan('P39'),inputs:[newStartingMaterial({name:'Cellulose blend A (research sample)',role:'feedstock'},'2.5 g in 40 mL; 3 aliquots'),newStartingMaterial({name:'Water',role:'solvent'},'17.3 mL + rinse as needed')]};
+ const saved=validateWorkflow(JSON.parse(JSON.stringify(withMaterialPlan(workflow('P39'),plan))),seed.routes,seed.records);
+ assert.deepEqual(materialPlanFor(saved),plan);
+ const exported=JSON.parse(JSON.stringify(materialOutcome(materialPlanFor(saved),data,saved)));
+ assert.deepEqual(exported.inputs,plan.inputs);
+ assert.ok(exported.label.includes('Cellulose blend A'));
+ assert.equal(exported.example,null);
+ assert.equal(exported.products[0].amount,'Output amount not established');
+});
 test('supporting liquids alone produce no inferred chemical product and output references stay scoped',()=>{
  const plan={...emptyMaterialPlan('P03'),inputs:[newStartingMaterial({name:'Water',role:'solvent'},'50 mL')]},empty=materialOutcome(plan,data,workflow('P03'));
  assert.deepEqual(empty.products,[]);assert.equal(outputReference(empty,media),null);
