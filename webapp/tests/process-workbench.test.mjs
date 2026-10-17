@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {assignInstrument,createWorkflow,expandWorkflowRequirements,newSlot,newStep,requirementSlots,reuseInstrument,unitId,validateWorkflow,workflowBudget,workflowReadiness,workflowReadinessMessage} from '../app/process-lib.ts';
+import {assignInstrument,createWorkflow,expandWorkflowRequirements,fillMatchingInstrumentSlots,moveInstrument,newSlot,newStep,requirementSlots,reuseInstrument,unitId,validateWorkflow,workflowBudget,workflowReadiness,workflowReadinessMessage} from '../app/process-lib.ts';
 import {processDependencyGraph,stepDependencies,withStepDependencies,removeWorkflowStep} from '../app/process-dependencies.ts';
 import {positionProfile,separateFiber,validatePositionInterface} from '../app/position-lib.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
@@ -11,6 +11,75 @@ const tc=seed.records.find(r=>r.equipment_id==='EXT-M70-OPENTRONS-GEN2');
 const req=(branches,extra={})=>({required_branches:branches,optional_category_ids:[],unresolved_required_equipment:false,readiness_review_required:false,notes:'Reviewed planning requirements',...extra});
 const source=(requirements,order='1')=>({route_id:'P43',step_order:order,step_label:'Step '+order,equipment_sequence:'Test sequence',equipment_category_ids:'M70;M62',requirements_json:JSON.stringify(requirements)});
 const robot=seed.records.find(r=>r.equipment_id==='EXT-M62-OPENTRONS-GRIPPER');
+
+test('one selected model fills matching vacant M slots before and after its source step with one unit price',()=>{
+ const route=seed.routes.find(r=>r.route_id==='P19'),record=seed.records.find(r=>r.category_id==='M48');
+ let w=createWorkflow(route,seed.steps);const slot=w.steps[2].slots[0];w=assignInstrument(w,slot.slot_id,record);
+ const before=JSON.stringify(w),result=fillMatchingInstrumentSlots(w,slot.slot_id),filled=result.workflow.steps.flatMap(s=>s.slots).filter(s=>s.instrument);
+ assert.equal(result.filledSlotIds.length,2);assert.equal(result.additionalUnits,0);assert.equal(filled.length,3);
+ assert.equal(new Set(filled.map(s=>unitId(s.instrument))).size,1);assert.equal(new Set(filled.map(s=>s.instrument.instance_id)).size,3);
+ assert.ok(filled.every(s=>s.instrument.equipment_id===record.equipment_id));assert.equal(workflowBudget(result.workflow.steps).assigned,1);
+ assert.equal(JSON.stringify(w),before,'Automatic fill must not mutate the prior draft');
+ assert.ok(result.workflow.steps[0].slots.every(s=>s.instrument===null),'Other M classes and unclassified apparatus stay vacant');
+ assert.doesNotThrow(()=>validateWorkflow(result.workflow,seed.routes,seed.records));
+ assert.equal(fillMatchingInstrumentSlots(result.workflow,slot.slot_id).workflow,result.workflow,'Repeating a completed fill is a no-op');
+});
+
+test('automatic fill preserves existing assignments, slot metadata and source-step unit choices',()=>{
+ const sources=[source(req([['M70','M70']])),source(req([['M70']]),'2'),source(req([['M70']]),'3')];
+ let w=createWorkflow(route,sources);const original=seed.records.find(r=>r.equipment_id==='EXT-M70-OPENTRONS-GEN1');
+ w=assignInstrument(w,w.steps[1].slots[0].slot_id,original);w.steps[1].slots[0].instrument.configuration={plate:'Existing user choice'};
+ w.steps[2].notes='Keep this stage';w.steps[2].slots[0].label='My destination';w.steps[2].slots[0].extensions.future={port:2};
+ w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);const existing=structuredClone(w.steps[1]);
+ const result=fillMatchingInstrumentSlots(w,w.steps[0].slots[0].slot_id);
+ assert.equal(result.filledSlotIds.length,1);assert.equal(result.workflow.steps[0].slots[1].instrument,null,'Separate source-step positions still need their own selection');
+ assert.deepEqual(result.workflow.steps[1],existing);assert.equal(result.workflow.steps[2].notes,'Keep this stage');
+ assert.equal(result.workflow.steps[2].slots[0].label,'My destination');assert.deepEqual(result.workflow.steps[2].slots[0].extensions.future,{port:2});
+ assert.equal(result.workflow.steps[2].slots[0].instrument.equipment_id,tc.equipment_id);
+});
+
+test('automatic fill matches the canonical M class, not a shared X alias or unclassified slot',()=>{
+ const record={...seed.records.find(r=>r.category_id==='M13'),legacy_category_ids:'X-FILTER'};
+ let w=createWorkflow(route,[]);w.steps=[newStep(['M13']),newStep(['M15']),newStep(['X-FILTER']),newStep([]),newStep(['M13','M62'])];
+ w=assignInstrument(w,w.steps[0].slots[0].slot_id,record);const result=fillMatchingInstrumentSlots(w,w.steps[0].slots[0].slot_id);
+ assert.deepEqual(result.filledSlotIds,[w.steps[4].slots[0].slot_id]);assert.ok(result.workflow.steps.slice(1,4).every(s=>s.slots[0].instrument===null));
+ assert.throws(()=>fillMatchingInstrumentSlots(createWorkflow(route,[]),'missing'),/assigned instrument/);
+});
+
+test('automatic fill allocates distinct units within one stage and reuses those units across later stages',()=>{
+ const sources=[source(req([['M70']])),source(req([['M70','M70']]),'2'),source(req([['M70','M70']]),'3')];
+ let w=createWorkflow(route,sources);w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);
+ const result=fillMatchingInstrumentSlots(w,w.steps[0].slots[0].slot_id),all=result.workflow.steps.flatMap(s=>s.slots).map(s=>s.instrument);
+ assert.equal(result.filledSlotIds.length,4);assert.equal(result.additionalUnits,1);assert.equal(new Set(all.map(unitId)).size,2);
+ for(const step of result.workflow.steps.slice(1))assert.equal(new Set(step.slots.map(s=>unitId(s.instrument))).size,2);
+ const budget=workflowBudget(result.workflow.steps);assert.equal(budget.assigned,2);assert.equal(budget.totals[0].low,20460);
+ assert.equal(workflowReadiness(result.workflow,sources).complete,true);assert.doesNotThrow(()=>validateWorkflow(result.workflow,seed.routes,seed.records));
+});
+
+test('automatic reuse preserves snapshots while keeping nested stage configuration and future data independent',()=>{
+ const sources=[source(req([['M70']])),source(req([['M70']]),'2')];let w=createWorkflow(route,sources);
+ w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);const original=w.steps[0].slots[0].instrument;
+ original.configuration={plate:{capacity:96}};original.operating_parameters={temperature:{value:95,unit:'C'}};original.operation_sequence=['Configure profile'];original.extensions.future={port:{name:'A'}};
+ const result=fillMatchingInstrumentSlots(w,w.steps[0].slots[0].slot_id),reused=result.workflow.steps[1].slots[0].instrument;
+ assert.deepEqual(reused.price_snapshot,original.price_snapshot);assert.deepEqual(reused.configuration,original.configuration);
+ reused.configuration.plate.capacity=384;reused.operating_parameters.temperature.value=60;reused.operation_sequence.push('New stage action');reused.extensions.future.port.name='B';
+ assert.equal(original.configuration.plate.capacity,96);assert.equal(original.operating_parameters.temperature.value,95);assert.deepEqual(original.operation_sequence,['Configure profile']);assert.equal(original.extensions.future.port.name,'A');
+ const saved=validateWorkflow(result.workflow,seed.routes,seed.records);assert.equal(unitId(saved.steps[1].slots[0].instrument),unitId(saved.steps[0].slots[0].instrument));
+ const explicit=reuseInstrument(w,w.steps[1].slots[0].slot_id,w.steps[0].slots[0].slot_id);explicit.steps[1].slots[0].instrument.extensions.future.port.name='C';assert.equal(original.extensions.future.port.name,'A');
+});
+
+test('moved and explicitly reused assignments can fill the remaining matching stages without losing the physical unit',()=>{
+ const sources=[source(req([['M70']])),source(req([['M70']]),'2'),source(req([['M70']]),'3')];let w=createWorkflow(route,sources);
+ w=assignInstrument(w,w.steps[0].slots[0].slot_id,tc);const [a,b]=w.steps.map(s=>s.slots[0].slot_id),original=w.steps[0].slots[0].instrument;
+ original.configuration={plate:{name:'Original'}};
+ const moved=fillMatchingInstrumentSlots(moveInstrument(w,a,b),b);assert.equal(moved.filledSlotIds.length,2);assert.equal(moved.workflow.steps[1].slots[0].instrument.instance_id,original.instance_id);
+ const reused=fillMatchingInstrumentSlots(reuseInstrument(w,b,a),b);assert.equal(reused.filledSlotIds.length,1);
+ for(const result of [moved,reused]){
+  assert.ok(result.workflow.steps.every(s=>unitId(s.slots[0].instrument)===unitId(original)));
+  assert.equal(workflowBudget(result.workflow.steps).assigned,1);assert.equal(workflowReadiness(result.workflow,sources).complete,true);
+  assert.doesNotThrow(()=>validateWorkflow(result.workflow,seed.routes,seed.records));
+ }
+});
 
 test('required category boxes cover AND, OR, optional groups and simultaneous-unit multiplicity',()=>{
  let sources=[source(req([['M70','M62']]))],w=createWorkflow(route,sources);

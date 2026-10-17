@@ -112,7 +112,7 @@ export function unitId(i:ProcessInstrument){return typeof i.extensions.physical_
 export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotId:string):ProcessWorkflow{
  const slots=workflow.steps.flatMap(s=>s.slots),from=slots.find(s=>s.slot_id===fromSlotId),to=slots.find(s=>s.slot_id===slotId);
  if(!from?.instrument||!to||!slotAccepts(to,from.instrument.equipment_snapshot))throw new Error('Choose an existing unit that matches this slot.');
- const i=from.instrument,reused={...structuredClone(i),instance_id:newProcessId(i.category_id),extensions:{...i.extensions,physical_unit_id:unitId(i)}};
+ const i=from.instrument,reused=structuredClone(i);reused.instance_id=newProcessId(i.category_id);reused.extensions.physical_unit_id=unitId(i);
  return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(v=>v.slot_id===slotId?{...v,instrument:reused}:v)}))};
 }
 export function slotAccepts(slot:ProcessSlot,r:Equipment){return !slot.allowed_category_ids.length||slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
@@ -127,6 +127,34 @@ export function assignInstrument(workflow:ProcessWorkflow,slotId:string,r:Equipm
  const slot=workflow.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId);
  if(!slot||!slotAccepts(slot,r))throw new Error('This model does not match the slot’s equipment classes. Choose a matching model or edit the slot classes.');
  return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(slot=>slot.slot_id===slotId?{...slot,instrument:instrumentFor(r)}:slot)}))};
+}
+export function fillMatchingInstrumentSlots(workflow:ProcessWorkflow,sourceSlotId:string){
+ const sourceStep=workflow.steps.find(s=>s.slots.some(v=>v.slot_id===sourceSlotId));
+ const instrument=sourceStep?.slots.find(v=>v.slot_id===sourceSlotId)?.instrument;
+ if(!sourceStep||!instrument)throw new Error('Choose an assigned instrument before filling matching slots.');
+ const filledSlotIds:string[]=[];let additionalUnits=0;
+ if(!/^M\d{2,3}$/.test(instrument.category_id))return {workflow,filledSlotIds,additionalUnits};
+ // Prefer the selected unit, then reuse additional units of this exact model if a stage needs more than one.
+ const units=new Map<string,ProcessInstrument>([[unitId(instrument),instrument]]);
+ for(const step of workflow.steps)for(const slot of step.slots){
+  const i=slot.instrument;if(i&&i.equipment_id===instrument.equipment_id&&i.category_id===instrument.category_id&&!units.has(unitId(i)))units.set(unitId(i),i);
+ }
+ const steps=workflow.steps.map(step=>{
+  if(step.step_id===sourceStep.step_id)return step;
+  const used=new Set(step.slots.flatMap(s=>s.instrument?[unitId(s.instrument)]:[]));let changed=false;
+  const slots=step.slots.map(slot=>{
+   // A shared historical X alias or an unclassified slot is not an explicit match to this M class.
+   if(slot.instrument||!slot.allowed_category_ids.includes(instrument.category_id))return slot;
+   const available=[...units.values()].find(i=>!used.has(unitId(i))),copy=structuredClone(available||instrument);
+   copy.instance_id=newProcessId(copy.category_id);
+   if(available)copy.extensions.physical_unit_id=unitId(available);
+   else{delete copy.extensions.physical_unit_id;units.set(unitId(copy),copy);additionalUnits++;}
+   used.add(unitId(copy));filledSlotIds.push(slot.slot_id);changed=true;
+   return {...slot,instrument:copy};
+  });
+  return changed?{...step,slots}:step;
+ });
+ return {workflow:filledSlotIds.length?{...workflow,steps}:workflow,filledSlotIds,additionalUnits};
 }
 export function moveInstrument(workflow:ProcessWorkflow,fromId:string,toId:string):ProcessWorkflow{
  if(fromId===toId)return workflow;
