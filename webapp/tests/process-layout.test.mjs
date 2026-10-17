@@ -10,7 +10,15 @@ test('layout identity and dimensions stay pinned through assignments, edits and 
  w.name='A much longer edited plan name';w.steps[0].label='An edited step label';w.extensions.any_future_data={text:'Material changes'};
  assert.equal(processLayout(w,false).key,initial.key);assert.equal(processLayout(w,false).nodeWidth(w.steps[0].slots.length),width);
  const changed={...w,steps:[...w.steps,newStep(['M70'])]};assert.notEqual(processLayout(changed,false).key,initial.key);assert.notEqual(processLayout(w,true).key,initial.key);
- assert.equal(fittedProcessScale(1000,800,300,100),.8);assert.equal(fittedProcessScale(1000,500,300,100),.5);assert.equal(fittedProcessScale(500,800),1);
+ assert.equal(fittedProcessScale(500,800),1);
+});
+test('a fitted sequence fits both viewport dimensions, including tall parallel branches',()=>{
+ for(const [width,height,availableWidth,availableHeight] of [[1000,300,800,100],[1000,300,500,100],[2200,1000,1200,240],[440,367,1200,240]]){
+  const scale=fittedProcessScale(width,availableWidth,height,availableHeight);
+  assert.ok(scale>0&&scale<=1);
+  assert.ok(width*scale<=availableWidth+1e-8);
+  assert.ok(height*scale<=availableHeight+1e-8);
+ }
 });
 test('curated source processes contain no unclassified required equipment placeholders',()=>{
  for(const route of seed.routes.filter(r=>r.route_id.startsWith('P'))){

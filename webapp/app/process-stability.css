@@ -44,3 +44,13 @@ html {scrollbar-gutter:stable}
 .process-equipment-library .process-library-card>.process-library-actions {grid-column:1/-1;grid-row:4;margin:0;padding-top:5px;align-self:end;height:32px;box-sizing:border-box}
 .process-equipment-library .process-library-card>.process-library-actions button {font-size:11px;white-space:nowrap}
 @media(max-width:850px){.process-workflow-picker{grid-template-columns:minmax(0,1fr) auto}.process-workflow-picker>label:first-child{grid-column:1/-1}.process-workflow-picker>label:nth-child(2){max-width:320px}.process-workflow-picker>label:first-child select{font-size:15px}}
+
+/* The chart owns a reserved viewport; measured content can only change its scale.
+   This also reserves the first paint while the hidden Processes tab is fitted. */
+.process-flow-area .process-hierarchy.fitted {box-sizing:border-box;height:220px;min-height:220px;max-height:220px;contain:size layout}
+.process-flow-area .process-hierarchy.expanded {box-sizing:border-box;height:620px;min-height:620px;max-height:620px;contain:size layout;scrollbar-gutter:stable}
+/* Clear/undo/status changes may scroll within these rows, never grow the panel. */
+.process-flow-area .process-flow-toolbar {box-sizing:border-box;height:34px;min-height:34px;max-height:34px;flex-wrap:nowrap;overflow:auto;scrollbar-width:thin}
+.process-flow-area .process-flow-toolbar>strong,.process-flow-area .process-flow-actions {flex-shrink:0;white-space:nowrap}
+.process-flow-area .process-flow-toolbar>span {min-width:0;overflow:hidden;max-height:32px}
+.process-flow-area .process-hierarchy-help {box-sizing:border-box;height:18px;min-height:18px;max-height:18px;margin:3px 0 5px;overflow:auto;scrollbar-width:thin}

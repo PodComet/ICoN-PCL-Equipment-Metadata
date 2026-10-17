@@ -12,5 +12,5 @@ export function processLayout(workflow:ProcessWorkflow,expanded:boolean){
 }
 
 export function fittedProcessScale(width:number,availableWidth:number,height=1,availableHeight=height){
- return Math.min(1,Math.max(1,availableWidth)/Math.max(1,width),Math.max(.8,availableHeight/Math.max(1,height)));
+ return Math.min(1,Math.max(1,availableWidth)/Math.max(1,width),Math.max(1,availableHeight)/Math.max(1,height));
 }

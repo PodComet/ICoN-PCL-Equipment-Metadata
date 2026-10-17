@@ -93,3 +93,8 @@ The output card now contains a row for each assigned occurrence, with separate p
 ## USD display
 
 Card prices and process budgets display USD. Source amounts/currencies and the dated conversion basis remain available. Saved price snapshots retain their original quote and FX metadata; legacy non-USD snapshots convert for totals. See [USD pricing](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/usd-pricing.md).
+
+
+## Stable chart viewport
+
+The fitted sequence reserves a 220 px chart viewport before it is first displayed; the enlarged view reserves 620 px and scrolls internally. Process structure is scaled to fit both available dimensions in the fitted view, including parallel branches. Instrument selection, assignment, photos, status messages, clear/undo and tab switches do not set the viewport height. The first fit runs when the Processes tab becomes visible. A real container-size or structure change can update the drawing scale; page position and unrelated window resize events cannot. Toolbar and helper rows reserve their own space.
