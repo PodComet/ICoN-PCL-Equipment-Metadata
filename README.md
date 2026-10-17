@@ -140,3 +140,5 @@ The finished-output card now provides independent POSITION, FIBER and DIRECTION 
 [Component formulations and cumulative process pricing](docs/COMPONENTS_AND_PRICING.md) describes the 41 sourced examples, 42 dated pack quotes, CSV formats, reproducible totals and explicit gaps. [MIT.nano review](docs/MIT_NANO_REVIEW.md) records 28 model additions and 34 additional instrument photos relevant to existing P-class production or characterization tasks.
 
 See the [M89–M99 expansion review](docs/mit-class-expansion.md) for the latest MIT.nano-inspired classes, process links, model/price provenance and scope limits.
+
+The [2026 purchase-price review](docs/PRICE_RESEARCH_2026.md) adds 59 instrument prices and 42 distinct component/material pack quotes. Four explicitly dated 2026 distributor pricebooks are documented separately from current website observations and manufacturer MSRP. Reproducible coverage CSVs identify remaining price gaps; supplier references do not silently establish formulation compatibility.

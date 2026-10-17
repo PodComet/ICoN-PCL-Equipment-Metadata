@@ -29,7 +29,7 @@ M27,Schlenk / vacuum-inert-gas manifold,,,,No qualifying MSRP/list-price benchma
 M28,Inert-atmosphere glovebox,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M29,Ducted chemical fume hood,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M30,Powder / balance containment enclosure,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-M31,Dry vacuum pump,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M31,Dry vacuum pump,4916.4,7536.8,USD,"Category M31: 1.2 × lowest benchmark USD 4097 (Agilent IDP-3) through 0.8 × highest benchmark USD 9421 (Agilent IDP-15). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.agilent.com/store/en_US/Prod-IDP3B01/IDP3B01;https://www.agilent.com/store/en_US/Prod-X3815-64000/X3815-64000,2026-10-17
 M32,Gas mass-flow controller,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M33,Recirculating temperature-control unit,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M34,DLS / electrophoretic light-scattering analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17

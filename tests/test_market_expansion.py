@@ -3,7 +3,12 @@ from catalog_tools import ROOT, load_csv, inspect_catalog
 
 def later_updates():
     report=json.loads((ROOT/"catalog/link_review_2026-10-17-sellers.json").read_text(encoding="utf-8"))
-    return report, {u["equipment_id"]:u["after"] for u in report["equipment_updates"]}
+    overrides={u["equipment_id"]:dict(u["after"]) for u in report["equipment_updates"]}
+    pricing=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))
+    for update in pricing['equipment_updates']:
+        for group in update['groups']:
+            overrides.setdefault(update['equipment_id'],{}).update(group['after'])
+    return report,overrides
 
 
 
@@ -36,7 +41,9 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
     additions={field:sum(not g['before'].get(field) and bool(g['after'].get(field)) for u in later['updates'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'} for g in u['groups'] if field in g['after']) for field in ['image_url','manufacturer_price_value']}
     assert report['after']['photos']==293
     assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'})==293+additions['image_url']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])
-    assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'})==58+additions['manufacturer_price_value']
+    prices=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))
+    priced_later=sum(not g['before']['manufacturer_price_value'] and bool(g['after']['manufacturer_price_value']) for u in prices['equipment_updates'] for g in u['groups'])
+    assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'})==58+additions['manufacturer_price_value']+priced_later
     assert len(report['updates'])==33
     for update in report['updates']:
         assert update['sources'] and all(rows[update['equipment_id']][k]==overrides.get(update['equipment_id'],{}).get(k,v) for k,v in update['after'].items())

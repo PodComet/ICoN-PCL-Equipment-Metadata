@@ -12,7 +12,9 @@ def test_eleven_new_classes_have_distinct_models_and_evidence_without_fabricated
     assert set(counts)=={f'M{n}' for n in range(89,100)} and all(1<=n<=10 for n in counts.values())
     assert sum(counts.values())==109 and counts['M90']==9
     assert len({(r['manufacturer'].lower(),r['model_name'].lower()) for r in new})==109
-    offers={r['equipment_id']:r for r in seller_offers(ROOT)}
+    # The expansion report is a release snapshot; later dated price research is
+    # reconciled independently by test_price_coverage.py.
+    offers={r['equipment_id']:r for r in seller_offers(ROOT) if not r['offer_id'].startswith('SELL-PRICE26-')}
     assert sum(bool(r['image_url']) for r in new)==report['summary']['photos']==95
     assert sum(bool(r['manufacturer_price_value']) or r['equipment_id'] in offers for r in new)==report['summary']['published_prices']==9
     for r in new:

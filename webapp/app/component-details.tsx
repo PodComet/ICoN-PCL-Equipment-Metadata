@@ -1,4 +1,4 @@
-import {componentFor,materialCost,type ComponentOffer} from './component-lib';
+import {componentFor,componentOffers,materialCost,type ComponentOffer} from './component-lib';
 import {componentData} from './process-budget';
 import {processMoney} from './process-budget-lib';
 import {usdText} from './currency-lib';
@@ -11,7 +11,7 @@ export function ComponentPhoto({material,plan,compact=false}:{material:StartingM
 }
 export default function ComponentDetails({material,plan,onOffer}:{material:StartingMaterial;plan:MaterialPlan;onOffer?:(id:string)=>void}){
  const line=materialCost(material,plan,componentData),component=componentFor(material,plan,componentData);
- const offers=componentData.offers.filter(o=>o.component_id===component?.component_id);
+ const offers=componentOffers(component,componentData);
  const pack=(o:ComponentOffer)=>usdText(o.price_value,o.currency)+' / '+(o.pack_quantity??'')+' '+o.pack_unit;
  return <div className="component-details"><strong>{line.cost_usd===null?'Amount cost not established':processMoney(line.cost_usd)+' estimated material use*'}</strong>{line.offer&&<><a href={line.offer.source_url} target="_blank" rel="noopener noreferrer">{line.offer.seller} · {pack(line.offer)}</a><small>{line.offer.name} · {line.offer.checked_date}</small></>}{offers.length>1&&onOffer&&<label>Market quote<select aria-label={'Market quote for '+material.name} value={line.offer?.offer_id||''} onChange={e=>onOffer(e.target.value)}>{offers.map(o=><option key={o.offer_id} value={o.offer_id}>{o.seller} · {pack(o)}{!component?.eligible_offer_ids.includes(o.offer_id)?' · reference only':''}</option>)}</select></label>}<details><summary>{component?'Amount & price evidence':'Price match needed'}</summary><p>{line.reason}</p>{component&&<><p><b>Source role:</b> {component.source_role}. <b>Reported amount:</b> {component.amount}. {component.concentration}</p><p>{component.scope} {component.offer_match_notes}</p></>}{line.offer&&<p>{line.offer.grade} · {line.offer.form}. {line.offer.notes}</p>}</details></div>;
 }

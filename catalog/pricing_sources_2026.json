@@ -1,0 +1,105 @@
+{
+  "schema": "pricing-sources/v1",
+  "checked_date": "2026-10-17",
+  "scope": "Public purchase-price evidence. University supplier relationships establish procurement relevance, not endorsement of a particular SKU, price or scientific suitability. Account-specific institutional discounts are not public market prices.",
+  "sources": [
+    {
+      "id": "OHAUS-2026-CLARKSON",
+      "title": "2026 OHAUS Price List",
+      "url": "https://store.clarksonlab.com/Vendors/vOha.pdf",
+      "publisher": "Clarkson Laboratory and Supply — authorized distributor",
+      "source_year": "2026",
+      "effective_date": "2026-01-01",
+      "kind": "authorized_distributor_pricebook",
+      "market": "US / USD",
+      "notes": "Read the List Price column. MAP is a minimum advertised price, not a purchase offer. Confirm exact model, regional suffix, SKU and included equipment."
+    },
+    {
+      "id": "THERMO-2026-CLARKSON",
+      "title": "Thermo Scientific 2026 Laboratory Equipment Price List",
+      "url": "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "publisher": "Clarkson Laboratory and Supply — authorized distributor",
+      "source_year": "2026",
+      "effective_date": "2026-01-01",
+      "kind": "authorized_distributor_pricebook",
+      "market": "US / USD",
+      "notes": "Whole-instrument List Price rows only. Exact model, controller and voltage required; accessories and hourly facility charges are excluded."
+    },
+    {
+      "id": "NABERTHERM-2026-CLARKSON",
+      "title": "Nabertherm Inc 2026 Price List",
+      "url": "https://store.clarksonlab.com/Vendors/vNabi.pdf",
+      "publisher": "Clarkson Laboratory and Supply — authorized distributor",
+      "source_year": "2026",
+      "effective_date": "",
+      "kind": "authorized_distributor_pricebook",
+      "market": "US / USD",
+      "notes": "Publisher footer explicitly identifies 2026. Controller and electrical suffix retained. Shipping mode is not a delivered freight price."
+    },
+    {
+      "id": "VELP-2026-CLARKSON",
+      "title": "VELP Scientifica 2026 Price List",
+      "url": "https://store.clarksonlab.com/vendors/vVels.pdf",
+      "publisher": "Clarkson Laboratory and Supply — distributor",
+      "source_year": "2026",
+      "effective_date": "",
+      "kind": "distributor_pricebook",
+      "market": "US / USD",
+      "notes": "Publisher title identifies 2026. AREX 5 at 115 V/60 Hz is distinct from AREX 5 Digital and Advance variants."
+    },
+    {
+      "id": "IKA-2025-CLARKSON",
+      "title": "IKA Works price list, valid May 15, 2025",
+      "url": "https://store.clarksonlab.com/Vendors/vIka.pdf",
+      "publisher": "Clarkson Laboratory and Supply — distributor",
+      "source_year": "2025",
+      "effective_date": "2025-05-15",
+      "kind": "distributor_pricebook",
+      "market": "US / USD",
+      "notes": "Still publicly available in October 2026; retained with its actual 2025 effective year. More recent exact-model offers take precedence where verified."
+    },
+    {
+      "id": "EP-2026-CATALOG",
+      "title": "Eppendorf 2026 price-list download page",
+      "url": "https://www.eppendorf.com/de-en/service-support/download-center/product-catalog/",
+      "publisher": "Eppendorf",
+      "source_year": "2026",
+      "effective_date": "",
+      "kind": "manufacturer_pricebook_directory",
+      "market": "Germany / EUR",
+      "notes": "Official directory confirms a 2026 English price list. This directory alone supplies no exact numeric US-model price; no price is inferred from its title."
+    }
+  ],
+  "institutional_context": [
+    {
+      "institution": "MIT",
+      "url": "https://procurement.mit.edu/expert-buying-advice/lab-supplies-and-equipment",
+      "finding": "MIT recommends vetted preferred suppliers and identifies its VWR stockroom. Negotiated prices are accessed through its purchasing system."
+    },
+    {
+      "institution": "Northwestern University",
+      "url": "https://www.northwestern.edu/procurement/source-purchase/preferred-vendors/internal-billing/lab-supply-stockroom.html",
+      "finding": "Northwestern directs users to the Fisher punchout and live-price catalog within iBuyNU. Private contract prices were not accessed."
+    },
+    {
+      "institution": "University of California, Berkeley",
+      "url": "https://supplychain.berkeley.edu/node/143",
+      "finding": "The university lists Fisher Scientific, VWR and Sigma-Aldrich as laboratory catalog suppliers. This does not establish individual Molecular Foundry purchases."
+    }
+  ],
+  "review_summary": {
+    "instrument_prices_added": 59,
+    "manufacturer_prices_added": 11,
+    "seller_offers_added": 48,
+    "new_condition_instrument_prices": 51,
+    "secondary_or_unspecified_instrument_prices": 8,
+    "component_offer_rows_added": 58,
+    "unique_new_component_pack_quotes": 42,
+    "component_mappings": 16,
+    "new_component_eligibility_links": 21,
+    "unreviewed_instrument_records": 754,
+    "reviewed_instruments": 105,
+    "reviewed_component_ids": 79,
+    "unreviewed_component_ids": 109
+  }
+}

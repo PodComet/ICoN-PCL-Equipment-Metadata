@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {componentQuantity,parseComponentAmount,formulationPlan,materialCost,materialsBudget,unchangedFormulation} from '../app/component-lib.ts';
+import {componentQuantity,parseComponentAmount,formulationPlan,materialCost,materialsBudget,unchangedFormulation,componentOffers} from '../app/component-lib.ts';
 import {overallProcessBudget} from '../app/process-budget-lib.ts';
 import {materialPlanFor,withMaterialPlan} from '../app/process-materials-lib.ts';
 import {assignInstrument,createWorkflow,validateWorkflow,workflowBudget} from '../app/process-lib.ts';
@@ -61,4 +61,19 @@ test('a sourced molecular weight prices a molar solid amount without inventing l
  const p=formulationPlan(formulation('P32')),salt=p.inputs.find(m=>m.name.startsWith('Potassium acetate')),liquid=p.inputs.find(m=>m.name.startsWith('Titanium(IV) isopropoxide'));
  const quote=materialCost(salt,p,data);assert.equal(quote.status,'priced');assert.ok(quote.offer.molar_mass_source_url);assert.ok(Math.abs(quote.quantity.value-0.559398)<1e-8);
  assert.equal(materialCost(liquid,p,data).cost_usd,null);
+});
+
+test('reviewed quote aliases appear in selection while incompatible reference packs never acquire a dose cost',()=>{
+ const p=formulationPlan(formulation('P30')),m=p.inputs.find(m=>m.name==='Dimethyl sulfoxide'),c=formulation('P30').components.find(c=>c.line_id===m.component_line_id),source=data.offers.find(o=>c.eligible_offer_ids.includes(o.offer_id));
+ const alias={...source,component_id:'reviewed-alternate-identity'},bound={...data,offers:data.offers.map(o=>o.offer_id===alias.offer_id?alias:o)};
+ assert.ok(componentOffers(c,bound).some(o=>o.offer_id===alias.offer_id));assert.equal(materialCost(m,p,bound).status,'priced');
+ for(const id of ['P10','P18','P22','P24','P27','P37']){
+  const plan=formulationPlan(formulation(id));
+  for(const material of plan.inputs){
+   const line=formulation(id).components.find(c=>c.line_id===material.component_line_id);
+   if(/silver-nitrate-.*aqueous|silver-nitrate-1mm|pdms-sylgard184|sylgard184-curing/.test(line.component_id)){
+    assert.ok(componentOffers(line,data).length>0);assert.equal(materialCost(material,plan,data).cost_usd,null);
+   }
+  }
+ }
 });

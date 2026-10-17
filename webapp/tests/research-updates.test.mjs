@@ -10,6 +10,17 @@ const q125=seed.records.find(r=>r.equipment_id==='M09-01');
 const update=updates.find(r=>r.equipment_id===q125.equipment_id);
 const old=()=>Object.assign({...q125},...update.groups.map(group=>group.before));
 
+test('new exact-package prices refresh untouched snapshots with cents and preserve custom quote groups',()=>{
+ const record=seed.records.find(r=>r.equipment_id==='M13-01'),change=updates.find(u=>u.equipment_id===record.equipment_id),group=change.groups.find(g=>g.after.manufacturer_price_checked_date==='2026-10-17');
+ const prior={...record,...group.before,notes:'Lab-specific rotor notes'};
+ const refreshed=refreshResearchEvidence(prior,updates);
+ assert.equal(refreshed.manufacturer_price_value,'20817.99');assert.match(refreshed.manufacturer_price_scope,/FA-6x50/);assert.equal(refreshed.notes,prior.notes);
+ const custom={...prior,manufacturer_price_source_url:'https://example.org/lab-quote'};
+ assert.equal(refreshResearchEvidence(custom,updates).manufacturer_price_value,prior.manufacturer_price_value);
+ assert.equal(refreshResearchEvidence({...prior,model_name:'A different centrifuge'},updates).manufacturer_price_value,prior.manufacturer_price_value);
+ assert.equal(refreshResearchEvidence(prior,updates,['manufacturer_price_value']).manufacturer_price_value,prior.manufacturer_price_value);
+});
+
 test('new literature associations refresh old models while preserving personal notes and explicit relationship edits',()=>{
  for(const eid of ['M02-05','REQ-EQ-020']){
   const record=seed.records.find(r=>r.equipment_id===eid),change=updates.find(r=>r.equipment_id===eid);

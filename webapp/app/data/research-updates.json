@@ -4870,6 +4870,24 @@
           "image_scope": "Agilent IDP-3: manufacturer model photograph; inlet, power and installation options may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "4097",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.agilent.com/store/en_US/Prod-IDP3B01/IDP3B01",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "IDP-3, one-phase 115 V/60 Hz motor; base pump, not inlet isolation valve or aluminum manifold variant. Official US store List Price per each, observed 2026-10-17; publication year not stated. Tax, freight and optional accessories not included."
+        }
       }
     ],
     "model_name": "Agilent IDP-3",
@@ -4890,6 +4908,24 @@
           "image_source_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-7-dry-scroll-pump",
           "image_scope": "Agilent IDP-7: manufacturer model photograph; inlet, power and installation options may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "6574",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.agilent.com/store/en_US/Prod-X3807-64000/X3807-64000",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "IDP-7 base dry scroll pump, 100-120/200-240 V; not the separately priced inlet isolation valve variant. Official US store List Price per each, observed 2026-10-17; publication year not stated. Tax, freight and optional accessories not included."
         }
       }
     ],
@@ -4953,6 +4989,24 @@
           "image_source_url": "https://www.agilent.com/en/product/vacuum-technologies/dry-scroll-pumps/idp-pumps/idp-15-dry-scroll-pump",
           "image_scope": "Agilent IDP-15: manufacturer model photograph; power, inlet and isolation options may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "9421",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.agilent.com/store/en_US/Prod-X3815-64000/X3815-64000",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "IDP-15 base dry scroll pump, 100-115/220-230 V; not the separately priced inlet isolation valve variant. Official US store List Price per each, observed 2026-10-17; publication year not stated. Tax, freight and optional accessories not included."
         }
       }
     ],
@@ -5477,6 +5531,24 @@
         },
         "after": {
           "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1039/d4dd00104d. Chemyx Fusion 200 supplies aqueous antisolvent; manual operation in this specific published setup. No other Fusion variant or inventory unit inferred."
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "2199",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://chemyx.com/syringe-pump/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official current page explicitly lists legacy Fusion 200 separately from Fusion 200X, with USD 2199. Request-quote stock status; not an assertion of immediate inventory."
         }
       }
     ]
@@ -8617,6 +8689,181 @@
         "after": {
           "related_process_ids": "P16;P29;P31;P37",
           "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M24-02",
+    "manufacturer": "Ossila",
+    "model_name": "Ossila Spin Coater",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "2925",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.ossila.com/products/spin-coater?variant=37157117953",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact standard L2001A3 configuration, multi-substrate polypropylene chuck, Type B US plug. Product variant 37157117953; excludes tax and shipping. Not a family starting price."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M25-02",
+    "manufacturer": "Ossila",
+    "model_name": "Ossila Dip Coater V2",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3000",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.ossila.com/products/dip-coater?variant=8806311133301",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact V2 dip coater product code L2006A2-US, Type B US plug; variant 8806311133301. Excludes tax and shipping."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M49-01",
+    "manufacturer": "Sterlitech",
+    "model_name": "Sterlitech CF016A",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1464.61",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.sterlitech.com/cf016-crossflow-cell-cf016a",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact CF016A acrylic cell assembly, SKU 1160310; a cell assembly, not a full pump/recirculation TFF system."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M07-10",
+    "manufacturer": "Chemyx",
+    "model_name": "Chemyx Fusion 4000",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "4399",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://chemyx.com/syringe-pump/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official current page explicitly lists legacy Fusion 4000 separately from Fusion 4000X, with USD 4399. Request-quote stock status; not an assertion of immediate inventory."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-01",
+    "manufacturer": "Eppendorf",
+    "model_name": "Eppendorf Centrifuge 5910 Ri",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "20817.99",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5910Ri-p-PF-963296",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "5910 Ri refrigerated touch-interface centrifuge with FA-6x50 rotor including rotor lid, US 120 V. This is the complete named rotor package, not the USD 17956.83 base without rotor. Official US price observed 2026-10-17; price effective year not stated."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-06",
+    "manufacturer": "Eppendorf",
+    "model_name": "Eppendorf Centrifuge 5920 R",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "24565.08",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5920R-p-PF-240991",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "5920 R refrigerated keypad centrifuge with S-4xUniversal-Large rotor, buckets and adapters for 15/50 mL conical tubes, US 120 V/50-60 Hz. Not rotor-only or a base without rotor. Official US price observed 2026-10-17; price effective year not stated."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M13-5425-R",
+    "manufacturer": "Eppendorf",
+    "model_name": "Eppendorf Centrifuge 5425 R",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "10434.09",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.eppendorf.com/us-en/Products/Centrifugation/Microcentrifuges/Centrifuge-5425-5425R-p-PF-934144",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "5425 R refrigerated KEYPad configuration with FA-24x2 rotor and QuickLock Pro lid, 120 V US, SKU 5406000044. Not non-refrigerated 5425 or base without rotor. Official US price observed 2026-10-17; price effective year not stated."
         }
       }
     ]

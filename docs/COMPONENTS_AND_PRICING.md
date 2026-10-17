@@ -8,7 +8,7 @@ In **Processes**, choose **Choose materials**, select a **Documented formulation
 
 - `catalog/component_formulations.csv`: one example per P class, batch/scale, output label, source and academic reference IDs.
 - `catalog/formulation_components.csv`: ordered material rows, original roles, quantities, concentration, consumption scope and reviewed eligible market offer IDs.
-- `catalog/component_offers.csv`: 42 dated pack quotes with seller, manufacturer, SKU, grade, chemical form, pack amount, currency and product-photo attribution.
+- `catalog/component_offers.csv`: 100 dated offer rows, including reviewed reference aliases, with seller, manufacturer, SKU, grade, chemical form, pack amount, currency and product-photo attribution. The [subsequent pricing review](PRICE_RESEARCH_2026.md) added 42 distinct source pack quotes.
 - `catalog/component_review_2026-10-17.json`: source research and unresolved gaps.
 - `component_tools.py`: offline validation/export; the normal `scripts/build_app_data.py` build regenerates `webapp/app/data/components.json`.
 

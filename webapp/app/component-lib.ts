@@ -11,6 +11,9 @@ export function componentFor(material:StartingMaterial,plan:MaterialPlan,data:Co
  const formulation=formulationFor(plan,data),component=formulation?.components.find(c=>c.line_id===material.component_line_id);
  return component&&component.component_id===material.component_id&&key(component.name)===key(material.name)&&component.role===material.role?component:null;
 }
+export function componentOffers(component:FormulationComponent|null,data:ComponentData){
+ return component?data.offers.filter(o=>o.component_id===component.component_id||component.eligible_offer_ids.includes(o.offer_id)):[];
+}
 export function formulationPlan(formulation:ComponentFormulation):MaterialPlan{
  return {schema:'process-materials/v1',route_id:formulation.route_id,formulation_id:formulation.formulation_id,example_id:'',expected_output:formulation.output_label,inputs:formulation.components.map(c=>({...newStartingMaterial({name:c.name,role:c.role},c.amount),component_id:c.component_id,component_line_id:c.line_id,offer_id:c.eligible_offer_ids[0]||''}))};
 }
@@ -30,7 +33,7 @@ export function parseComponentAmount(amount:string):Quantity|null{
 }
 export function materialCost(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){
  const component=componentFor(material,plan,data),f=formulationFor(plan,data);
- const referenceOffers=component?data.offers.filter(o=>o.component_id===component.component_id||component.eligible_offer_ids.includes(o.offer_id)):[];
+ const referenceOffers=componentOffers(component,data);
  const selected=referenceOffers.find(o=>o.offer_id===material.offer_id),offer=selected||referenceOffers.find(o=>component?.eligible_offer_ids.includes(o.offer_id))||referenceOffers[0]||null;
  const unknown=(reason:string)=>({material_id:material.material_id,name:material.name,amount:material.amount,status:'unpriced' as const,reason,cost_usd:null as number|null,offer,formulation_id:f?.formulation_id||'',component_line_id:component?.line_id||''});
  if(!component)return unknown('Choose a sourced formulation to establish product identity; custom inputs have no verified price match.');
