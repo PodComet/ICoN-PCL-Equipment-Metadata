@@ -1,0 +1,608 @@
+{
+  "schema": "process-science-review/v1",
+  "checked_date": "2026-10-17",
+  "route_reviews": [
+    {
+      "route_id": "P01",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P03",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. Studied frequency 20-80 kHz and power 1.5-5 W; selected 1.5 W/20 kHz captured. The reported table lower power of 1 W differs from stated significant-ablation threshold of 1.5 W. No plot-digitized outputs used. "
+    },
+    {
+      "route_id": "P04",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P05",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. Later changes to 0.1 M H2SO4, 1000 s and optimized gold concentrations are different recipes and not attached to the initial-trial formulation. Sensor detection performance of optimized electrodes is therefore excluded. "
+    },
+    {
+      "route_id": "P06",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. 30 keV e-beam energy is reported but not represented as a voltage. No spin speed, exposure dose or development time supplied in this paragraph. Later post-transfer plasma conditions not mixed into this recipe. "
+    },
+    {
+      "route_id": "P07",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P08",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P09",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. Table 2 acceleration stages 200 rpm/s and final 1000 rpm/s exist; omitted from numeric fields because acceleration parameter is not implemented. Duration units omitted in source table; do not infer them. "
+    },
+    {
+      "route_id": "P10",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P11",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P12",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P13",
+      "status": "reviewed_unmapped_steps",
+      "notes": "Source recipe exists but canonical route_steps has no P13 sequence. Conditions must be explicitly placed by user; 30, 60, 90 min are separate experimental branches. "
+    },
+    {
+      "route_id": "P14",
+      "status": "reviewed_unmapped_steps",
+      "notes": "Source recipe exists but canonical route_steps has no P14 sequence. Power and pressure source nomenclature preserved. No feature-size prediction attached because downstream deposition changes aperture-to-dot relationships. "
+    },
+    {
+      "route_id": "P15",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P16",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P17",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. Inner and outer PVA stocks reported as 9% and 3% without explicit w/w or w/v basis; retained in canonical component data, not cast into mass_fraction. No numeric stirring speed or evaporation temperature found. Particle sizes in the release figures are not unambiguously assigned to 75 uL formulation; therefore no size anchor attached. "
+    },
+    {
+      "route_id": "P18",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. No output size/peak anchor attached without reading the exact iteration-112 table image; general 513 nm target and mean size are not assumed to be that iteration measurement. "
+    },
+    {
+      "route_id": "P19",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. F1, F2, substrate temperature and Ar growth pressure are jointly varied. Figure 3 values P=71.4 mTorr/T=526 degC/F1=1.20/F2=1.44 J cm^-2 are a surrogate-model predicted optimum, not an observed recipe-property measurement, and are intentionally not loaded as such. Optical contrast stopping criterion -0.364 is model-derived nominal monolayer thickness, not proof of uniform monolayer output. No laser power from the remote 140 W heater is treated as delivered target power. "
+    },
+    {
+      "route_id": "P20",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. "
+    },
+    {
+      "route_id": "P21",
+      "status": "reviewed_bounded_extraction",
+      "notes": "Important source-reported settings extracted; not a complete operating procedure. Verdi 6 W is laser source specification, not actual delivered heating power. Laser power was varied for temperature control. Temperature alone cannot identify a diameter: 265 vs 225 cm^-1 RBM optimization changed reductant/oxidant pressure ratios too. Broad 500-900 degC/2-50 Torr bounds are not a matched recipe. Magnetron vs ion-beam sputtering is inconsistent across source text; no invented catalyst-deposition condition. "
+    },
+    {
+      "route_id": "P22",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "A documented formulation domain, not one fixed recipe: individual experiment volumes not recovered. Total doses are explicitly unavailable; do not display a fabricated total cost or universal dosage. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P23",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Stock preparation references Bohn2018; Cs2CO3 is an upstream stock reagent, not additional direct dose. Main methods do not provide one optimized Cs/Pb/acetone volume set; incomplete status is deliberate. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P24",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "One source-bound manufacturing example, not an operational SOP or a universal dose for this process class. Characterization-only reagents are excluded. Unreported amounts remain unknown. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P25",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "One source-bound manufacturing example, not an operational SOP or a universal dose for this process class. Characterization-only reagents are excluded. Unreported amounts remain unknown. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P26",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "One source-bound manufacturing example, not an operational SOP or a universal dose for this process class. Characterization-only reagents are excluded. Unreported amounts remain unknown. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P27",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "All named production inputs plus reusable-chip fabrication inputs retained separately. No four-polymer mixture is fabricated: actual composition fractions must be selected from source dataset. Cell-culture/characterization reagents excluded. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P28",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "One source-bound manufacturing example, not an operational SOP or a universal dose for this process class. Characterization-only reagents are excluded. Unreported amounts remain unknown. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P29",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Source-reported research-scale formulation, not a universal dosage or validated operating procedure. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P30",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Starts with source-extracted technical lignin, not raw poplar extraction. DES and organosolv upstream preparation are separate source procedures. Final dispersion adjusted to 4 mg/mL; no yield inferred. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P31",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Multistage formulation; not all input masses feed into the same final batch. m-BN and PNF are source-made intermediates. Acid concentrations, wash volumes and batch yield unreported. Retain stage distinction when costing. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P32",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Source-reported research-scale formulation, not a universal dosage or validated operating procedure. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P33",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Source-reported research-scale formulation, not a universal dosage or validated operating procedure. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P34",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Historical source transcription for research planning, not an operating recipe. Source NaNO3 unit and initial acid concentration require review; no silent corrections. Wash is a formulated intermediate, not a single pure reagent. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P35",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Flash-annealing branch only; NaCl salt-bath comparator is excluded. Initial extruded rods diameter 20.6 mm; rotary-swaged diameter 18.8 mm. No batch mass inferred from dimensions alone. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P36",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Pure approximately 10 nm TiO2 branch only. Fe naphthenate is required only for separately specified doped branches, whose table and prose quantities differ. No gas consumption inferred from flow rates. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P37",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "CNT branch only; GNP M 25 is an alternative formulation, not an additional ingredient. Characterization electrodes and hydrothermal ageing water are outside the manufacturing branch. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P38",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "20 nm optical-library branch only. Other film thicknesses are different specimens. Gas species/flow and target dimensions are unreported in the source paragraph and are not guessed. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P39",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Starts with source-prepared MFCNC. Upstream melamine-formaldehyde coating is citation-mediated and is not reconstructed as a ready recipe. SPF formulation and methylene-blue tests excluded. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P40",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "2 mol% Cu doped branch. Preserve source hydrate and substrate-dimension ambiguities. Carrier gas flow is not a purchased cylinder quantity. Pure ZnO uses a different cooling atmosphere. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P41",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Graphite die is reusable tooling in M 69, not consumed graphite powder. Foil consumption is unknown. Wear-test isopropanol and silicon-nitride counterface balls are excluded. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P42",
+      "status": "reviewed_primary_source_partial_conditions",
+      "notes": "Source-reported research-scale formulation, not a universal dosage or validated operating procedure. Only selected key conditions were extracted. Additional source conditions may be in unmapped_conditions; unreported values remain unresolved. Characterization settings excluded from manufacturing; not a complete operating procedure."
+    },
+    {
+      "route_id": "P43",
+      "status": "not_applicable_control_interface",
+      "notes": "Not a nanomaterial manufacturing route. A thermocycler does not identify PCR reagents, concentrations, volumes or output. Require a separately reviewed protocol before offering production components. P43 is a finite thermocycler control-interface example. No nanomaterial synthesis protocol, doses, measured product, or operating defaults were invented."
+    }
+  ],
+  "relationship_candidates": [
+    {
+      "series_id": "P12-SERIES-01",
+      "route_id": "P12",
+      "formulation_id": "P12-LITERATURE-EXAMPLE",
+      "input_parameter": "molar_concentration",
+      "input_label": "Zinc nitrate hexahydrate precursor",
+      "input_unit": "M",
+      "output_property": "SEM secondary-particle mean size",
+      "output_unit": "nm",
+      "points": [
+        {
+          "input_value": 0.01,
+          "output_value": 248,
+          "uncertainty": 73
+        },
+        {
+          "input_value": 0.1,
+          "output_value": 470,
+          "uncertainty": 160
+        }
+      ],
+      "fixed_condition_ids": [
+        "P12-COND-03",
+        "P12-COND-04",
+        "P12-COND-05",
+        "P12-COND-06",
+        "P12-COND-07"
+      ],
+      "fixed_conditions_text": "Same aqueous zinc nitrate precursor, air 1.5 SLPM, ultrasonic nebulizer 2.1 MHz, furnace 500 degC, 2 h synthesis and 30-32 s mist residence; otherwise same described USP setup.",
+      "source_url": "https://doi.org/10.1155/2014/780206",
+      "source_title": "Structural and Morphological Properties of Nanostructured ZnO Particles Grown by Ultrasonic Spray Pyrolysis Method with Horizontal Furnace",
+      "source_locator": "Section 2.1; Results Figure 4; abstract",
+      "reference_ids": [
+        "REF-1082AA538278"
+      ],
+      "interpolation_status": "candidate_requires_scientific_review",
+      "caveats": "Only two measured concentrations; no validated linear concentration-size law, and substantial size dispersion. Secondary particles are aggregates of smaller crystallites. No extrapolation.",
+      "interpolation_enabled": false,
+      "status": "relationship_candidate_requires_review"
+    },
+    {
+      "series_id": "SERIES-P36-FLAME-PURE-TIO2",
+      "route_id": "P36",
+      "formulation_id": "P36-SOURCE-01",
+      "material": "Pure TiO2 from0.5M Ti-isopropoxide/xylene",
+      "varying_parameters": [
+        "precursor_liquid_flow",
+        "dispersion_oxygen_flow"
+      ],
+      "held_fixed": {
+        "pilot_CH4_L_min": 1.5,
+        "pilot_O2_L_min": 3.2,
+        "nozzle_pressure_drop_bar": 1.5,
+        "filter_height_cm": 60,
+        "Ti_concentration_M": 0.5
+      },
+      "points": [
+        {
+          "source_branch": "TiO2_5nm",
+          "precursor_flow_mL_min": 4,
+          "dispersion_O2_L_min": 7,
+          "TEM_size_nm": 5,
+          "specific_surface_area_m2_g": 275,
+          "band_gap_eV": 3.2
+        },
+        {
+          "source_branch": "TiO2_10nm",
+          "precursor_flow_mL_min": 5,
+          "dispersion_O2_L_min": 5,
+          "TEM_size_nm": 10,
+          "specific_surface_area_m2_g": 112,
+          "band_gap_eV": 3.3
+        },
+        {
+          "source_branch": "TiO2_27nm",
+          "precursor_flow_mL_min": 7,
+          "dispersion_O2_L_min": 3,
+          "TEM_size_nm": 27,
+          "specific_surface_area_m2_g": 54,
+          "band_gap_eV": 3.3
+        }
+      ],
+      "source_url": "https://doi.org/10.1039/d1nr03231c",
+      "source_title": "Machine learning and materials modelling interpretation of                     in vivo                     toxicological response to TiO                     2                     nanoparticles library (UV and non-UV exposure)",
+      "source_locator": "Table1(flame parameters),Table2(measured properties),Section5.1",
+      "reference_ids": [
+        "REF-FECC540EA90C"
+      ],
+      "caveats": [
+        "Two flow parameters co-vary; cannot attribute outcome to one flow alone.",
+        "Measured source series is not a validated interpolating or extrapolating predictor.",
+        "Gas-flow reference conditions unreported; pressure is nozzle differential, not chamber absolute pressure.",
+        "5nm/27nm points are documented adjacent source branches, not the currently selected10nm formulation."
+      ],
+      "title": "Machine learning and materials modelling interpretation of                     in vivo                     toxicological response to TiO                     2                     nanoparticles library (UV and non-UV exposure)",
+      "locator": "Table1(flame parameters),Table2(measured properties),Section5.1",
+      "interpolation_enabled": false,
+      "status": "relationship_candidate_requires_review"
+    }
+  ],
+  "excluded": [
+    {
+      "route_id": "P43",
+      "formulation_id": "P43-SOURCE-01",
+      "source_step_order": "1",
+      "label": "Thermocycler control example",
+      "text_value": "No nanomaterial manufacturing formulation",
+      "source_url": "https://docs.opentrons.com/python-api/modules/thermocycler/",
+      "source_locator": "Control-interface example only",
+      "reason": "Not applicable; no PCR production recipe or output inferred.",
+      "title": "Opentrons Thermocycler Python API",
+      "locator": "Control-interface example only",
+      "source_title": "Opentrons Thermocycler Python API",
+      "reference_ids": [],
+      "integration_status": "retained_review_only"
+    }
+  ],
+  "source_condition_id_map": {
+    "P01-COND-01": "PC-P01-96767680EBB67325",
+    "P01-COND-02": "PC-P01-7E8D8EF7A1CA8D05",
+    "P01-COND-03": "PC-P01-D44EE728A01351DC",
+    "P01-COND-04": "PC-P01-7CCF400A26B91FF6",
+    "P01-COND-05": "PC-P01-FB6371C99FAAA275",
+    "P01-COND-06": "PC-P01-797725FBAD49E08B",
+    "P01-COND-07": "PC-P01-DFCD9F18C95633D2",
+    "P03-COND-01": "PC-P03-657EA80E25106390",
+    "P03-COND-02": "PC-P03-D1E472EE853C009F",
+    "P03-COND-03": "PC-P03-4FCD572192BBCF23",
+    "P03-COND-04": "PC-P03-31882E91EC48454C",
+    "P03-COND-05": "PC-P03-C3A87B7570E53499",
+    "P03-COND-06": "PC-P03-B4729D14ACFABA42",
+    "P03-COND-07": "PC-P03-A3EA7A6B4FCACFED",
+    "P04-COND-01": "PC-P04-1DEA722028B556DE",
+    "P04-COND-02": "PC-P04-3CE1490DCEEB433D",
+    "P04-COND-03": "PC-P04-72D4EA0EFD1A0660",
+    "P05-COND-01": "PC-P05-53CEB0DA1F52BECE",
+    "P05-COND-02": "PC-P05-D101D34D40AB5FAA",
+    "P05-COND-03": "PC-P05-EC3CDFCF2A3E3507",
+    "P05-COND-04": "PC-P05-91F6FC215AF23F39",
+    "P05-COND-05": "PC-P05-A802B2AE65E94830",
+    "P05-COND-06": "PC-P05-3A1F89119462993E",
+    "P06-COND-01": "PC-P06-32DE7621F2771CF0",
+    "P06-COND-02": "PC-P06-B2014EB7F841D255",
+    "P07-COND-01": "PC-P07-0F84B644D990D409",
+    "P07-COND-02": "PC-P07-E27EA3C8EEFDEDF2",
+    "P07-COND-03": "PC-P07-2EF6EF636C131FA2",
+    "P07-COND-04": "PC-P07-158E50F31688084A",
+    "P07-COND-05": "PC-P07-E1BB743605204600",
+    "P07-COND-06": "PC-P07-0D4642E21C199F52",
+    "P07-COND-07": "PC-P07-CEFCE281825F1085",
+    "P08-COND-01": "PC-P08-F5B8FEFBAD300996",
+    "P08-COND-02": "PC-P08-7A60CDA1A93291F6",
+    "P08-COND-03": "PC-P08-145917D9D113CBDB",
+    "P08-COND-04": "PC-P08-893CC0613BEF0E96",
+    "P09-COND-01": "PC-P09-454D17B1B0698CFB",
+    "P09-COND-02": "PC-P09-4A22E5A39004432E",
+    "P09-COND-03": "PC-P09-1717EDAF8567F219",
+    "P09-COND-04": "PC-P09-1EC34AE5A9A4BE77",
+    "P09-COND-05": "PC-P09-9994C7B417A9A8B7",
+    "P09-COND-06": "PC-P09-99FBA9D6A8E612F6",
+    "P09-COND-07": "PC-P09-16D0E81D28050734",
+    "P09-COND-08": "PC-P09-8B8D328811A0ED41",
+    "P09-COND-09": "PC-P09-5FFBEA9A3B5499CE",
+    "P10-COND-01": "PC-P10-05ED8170DD7C869E",
+    "P10-COND-02": "PC-P10-037886BE7245089F",
+    "P10-COND-03": "PC-P10-EFF4AFCC14DBAFB8",
+    "P10-COND-04": "PC-P10-46265016A15AB0C4",
+    "P10-COND-05": "PC-P10-135202694E431990",
+    "P11-COND-01": "PC-P11-A37AF608ECF7DF6E",
+    "P11-COND-02": "PC-P11-A40B5FB2BE792EE9",
+    "P11-COND-03": "PC-P11-0635481D20699358",
+    "P11-COND-04": "PC-P11-FFB627431B5C077F",
+    "P11-COND-05": "PC-P11-899EA3DA2EBFB7EE",
+    "P11-COND-06": "PC-P11-643981826BC9F555",
+    "P11-COND-07": "PC-P11-5E7F9055A585C1EE",
+    "P11-COND-08": "PC-P11-3893BCF61A550DF2",
+    "P11-COND-09": "PC-P11-A2DABA960F77459A",
+    "P12-COND-01": "PC-P12-6400AE7DECDCC645",
+    "P12-COND-02": "PC-P12-329B95552C549EEC",
+    "P12-COND-03": "PC-P12-9CD5A1EBA28A6663",
+    "P12-COND-04": "PC-P12-0CA4DBEA702E77D0",
+    "P12-COND-05": "PC-P12-379ED539DEED991E",
+    "P12-COND-06": "PC-P12-AC9FEEEFCE260DAA",
+    "P12-COND-07": "PC-P12-6D5E13F87EB62C3E",
+    "P13-COND-01": "PC-P13-65E0C31120081BCE",
+    "P13-COND-02": "PC-P13-5756CB615E32FFAA",
+    "P13-COND-03": "PC-P13-03CFFBEB88518659",
+    "P13-COND-04": "PC-P13-DC005FCF4CF91C89",
+    "P13-COND-05": "PC-P13-BC939E6D485FB424",
+    "P13-COND-06": "PC-P13-2A60B283B21E346E",
+    "P13-COND-07": "PC-P13-C6878E36B299124A",
+    "P14-COND-01": "PC-P14-04D6E9EA65BF62DF",
+    "P14-COND-02": "PC-P14-20A0B103FF418D35",
+    "P14-COND-03": "PC-P14-B3025809728D5E40",
+    "P14-COND-04": "PC-P14-CC895AA7382C362F",
+    "P14-COND-05": "PC-P14-AD7997A7289FCD63",
+    "P15-COND-01": "PC-P15-4F550EA983FE08AB",
+    "P15-COND-02": "PC-P15-7860974D7C6F5D09",
+    "P15-COND-03": "PC-P15-403D7A4A01F6A7AE",
+    "P15-COND-04": "PC-P15-E65CB53EC482CF92",
+    "P15-COND-05": "PC-P15-D06C900CE6BF64E6",
+    "P15-COND-06": "PC-P15-8FA8ACD4647C1224",
+    "P15-COND-07": "PC-P15-F0DD8F6DD0C8A7BC",
+    "P15-COND-08": "PC-P15-9F7502CB3BE4E0CB",
+    "P16-COND-01": "PC-P16-43FFC5CF486359D0",
+    "P16-COND-02": "PC-P16-AE13C4600614F9FB",
+    "P16-COND-03": "PC-P16-EBD835318690F0E4",
+    "P16-COND-04": "PC-P16-AA29873E51423B2C",
+    "P16-COND-05": "PC-P16-298389CEA8F6B90E",
+    "P16-COND-06": "PC-P16-6A6762A3F342E2CE",
+    "P16-COND-07": "PC-P16-BC5D86CF163D5BDF",
+    "P17-COND-01": "PC-P17-1CE1A0521AB38557",
+    "P17-COND-02": "PC-P17-A6E39CACB308FA88",
+    "P17-COND-03": "PC-P17-2E140F426EEC1DE0",
+    "P18-COND-01": "PC-P18-E0DDE50BAC47AB47",
+    "P18-COND-02": "PC-P18-2A3C7C5D872D1A2B",
+    "P18-COND-03": "PC-P18-54E19B4AF9C12F23",
+    "P18-COND-04": "PC-P18-1684A3580D9FFC20",
+    "P18-COND-05": "PC-P18-E56F25E15ED8A0C8",
+    "P18-COND-06": "PC-P18-E50A2F4D534149E6",
+    "P18-COND-07": "PC-P18-120908BC1E2D6D69",
+    "P18-COND-08": "PC-P18-6D5BBFC816566A4F",
+    "P19-COND-01": "PC-P19-5B38C0563B4D64A4",
+    "P19-COND-02": "PC-P19-4212C1044ACA7267",
+    "P19-COND-03": "PC-P19-23E6866423BB134A",
+    "P19-COND-04": "PC-P19-2A635B8DE6FEDCC3",
+    "P19-COND-05": "PC-P19-C55E2E41E6A78FF8",
+    "P19-COND-06": "PC-P19-F00726D38671232C",
+    "P19-COND-07": "PC-P19-03A27AE3E665FEA7",
+    "P19-COND-08": "PC-P19-1BE56B8DCD295A3E",
+    "P19-COND-09": "PC-P19-B5028EB8C21869B0",
+    "P19-COND-10": "PC-P19-E24D7AE03E00AD39",
+    "P20-COND-01": "PC-P20-58037ADF248AF94C",
+    "P20-COND-02": "PC-P20-985421F6EE8719C7",
+    "P20-COND-03": "PC-P20-CA56BBA635E2E496",
+    "P20-COND-04": "PC-P20-3094399C23FAF762",
+    "P20-COND-05": "PC-P20-29DBA57123FFB26A",
+    "P20-COND-06": "PC-P20-2B01EC6C55AB182E",
+    "P20-COND-07": "PC-P20-A32B34E0D4A48724",
+    "P21-COND-01": "PC-P21-C072A50FE1DC8452",
+    "P21-COND-02": "PC-P21-03442F75DE79A4C4",
+    "P21-COND-03": "PC-P21-DDF84170E533CD03",
+    "P21-COND-04": "PC-P21-9685F1B3171C1424",
+    "P21-COND-05": "PC-P21-B5ACD6447657F6C8",
+    "COND-P22-001": "PC-P22-5A8BDA721CDA5E75",
+    "COND-P22-002": "PC-P22-4C707DD773919B85",
+    "COND-P22-003": "PC-P22-5CBBDDE1B069DDB3",
+    "COND-P22-004": "PC-P22-CB3FD100CF1AEFFB",
+    "COND-P22-005": "PC-P22-1A2EE78B99F324C2",
+    "COND-P22-006": "PC-P22-6B1FBE411C469B74",
+    "COND-P22-007": "PC-P22-21C611474662DD1B",
+    "COND-P23-001": "PC-P23-79DBA714D63E7E3A",
+    "COND-P23-002": "PC-P23-4834AD5C0B886A1F",
+    "COND-P23-003": "PC-P23-CD5BF423B3F68676",
+    "COND-P23-004": "PC-P23-811501D950635C98",
+    "COND-P23-005": "PC-P23-A16C26A6DAD6E0E8",
+    "COND-P23-006": "PC-P23-B946773ECE6273A0",
+    "COND-P24-001": "PC-P24-E69DE9C46B01DDD7",
+    "COND-P24-002": "PC-P24-8A73A4F31331D659",
+    "COND-P24-003": "PC-P24-4FA4D9B55CE73E07",
+    "COND-P24-004": "PC-P24-3D018FBBD3BE4F5A",
+    "COND-P25-001": "PC-P25-54E2A3462A6C75B5",
+    "COND-P25-002": "PC-P25-E7995D245651A7BB",
+    "COND-P25-003": "PC-P25-40A4420DD1617D47",
+    "COND-P25-004": "PC-P25-1251ECA7FF58E4F4",
+    "COND-P25-005": "PC-P25-E8EA86F566494332",
+    "COND-P25-006": "PC-P25-8FB0A3B15F96EE5D",
+    "COND-P25-007": "PC-P25-B84504DAEC8318DC",
+    "COND-P25-008": "PC-P25-F00C690FC189FB58",
+    "COND-P26-001": "PC-P26-D606F961A76B6233",
+    "COND-P26-002": "PC-P26-3D956BF54D0F49C1",
+    "COND-P26-003": "PC-P26-F725EFC570FDCEBE",
+    "COND-P26-004": "PC-P26-A6C35DE61D9451F7",
+    "COND-P26-005": "PC-P26-DAB6716DF018672C",
+    "COND-P26-006": "PC-P26-252CE36D30B775C6",
+    "COND-P26-007": "PC-P26-B61B5155CFA4EC39",
+    "COND-P26-008": "PC-P26-2EB317D879FDE696",
+    "COND-P27-001": "PC-P27-B03E95EEA53701F8",
+    "COND-P27-002": "PC-P27-579FD33F5A917ACD",
+    "COND-P27-003": "PC-P27-8456B55C28942558",
+    "COND-P27-004": "PC-P27-36A2649B7457124E",
+    "COND-P27-005": "PC-P27-733BDCA9BFC4776F",
+    "COND-P27-006": "PC-P27-0A1713ED6FD57FEE",
+    "COND-P28-001": "PC-P28-0063FF702F2CF644",
+    "COND-P28-002": "PC-P28-17EF4EBFE4F49FD5",
+    "COND-P28-003": "PC-P28-1D4A8175676381D8",
+    "COND-P28-004": "PC-P28-438FD3336D435040",
+    "COND-P28-005": "PC-P28-1FB1DC787A217029",
+    "COND-P28-006": "PC-P28-D19B95AFD92EA2DC",
+    "COND-P28-007": "PC-P28-1BAD363C64E3C13E",
+    "COND-P29-001": "PC-P29-76FFCE6D70CB637D",
+    "COND-P29-002": "PC-P29-9DA6DD38AF8D592A",
+    "COND-P29-003": "PC-P29-5DF5D58BB1F1FC40",
+    "COND-P29-004": "PC-P29-D6E6554B67AFFCEA",
+    "COND-P29-005": "PC-P29-DDED9D0562D23633",
+    "COND-P29-006": "PC-P29-BDEC67FDBD981D5C",
+    "COND-P29-007": "PC-P29-D782FFF079A9C36D",
+    "COND-P29-008": "PC-P29-F0EA89E052E3B507",
+    "COND-P30-001": "PC-P30-526F7DABA37C1006",
+    "COND-P30-002": "PC-P30-B14E4FAC4BE8A06F",
+    "COND-P30-003": "PC-P30-7D7B73096D2B33C5",
+    "COND-P30-004": "PC-P30-111E1AE7D578BCBB",
+    "COND-P31-001": "PC-P31-CF9D658DC32DD6D4",
+    "COND-P31-002": "PC-P31-1D51957D3FEA82EB",
+    "COND-P31-003": "PC-P31-D1A852EAF5F27AA2",
+    "COND-P31-004": "PC-P31-6EDA74BC6A9924D3",
+    "COND-P31-005": "PC-P31-765B0AFDCAF83091",
+    "COND-P31-006": "PC-P31-192C236CE97D707F",
+    "COND-P31-007": "PC-P31-B385DC6B642DC1F8",
+    "COND-P31-008": "PC-P31-CBCCD50BF1FF008B",
+    "COND-P32-001": "PC-P32-AB5C8BCDD0F6A68E",
+    "COND-P32-002": "PC-P32-B0FAF666D5E83C2C",
+    "COND-P32-003": "PC-P32-36DB3F7D1C97A342",
+    "COND-P32-004": "PC-P32-276DCDAC6AE946DE",
+    "COND-P32-005": "PC-P32-6382F45C0E8F93AD",
+    "COND-P32-006": "PC-P32-850934BF7C2EB6FD",
+    "COND-P32-007": "PC-P32-FD9B12F936231063",
+    "COND-P32-008": "PC-P32-7C8C3049D53EB626",
+    "COND-P33-001": "PC-P33-FA637B72F095BFC2",
+    "COND-P33-002": "PC-P33-A1ACE8D203CF6395",
+    "COND-P33-003": "PC-P33-A12BB3108D9E664C",
+    "COND-P33-004": "PC-P33-0197F039409D8CC6",
+    "COND-P33-005": "PC-P33-E4E8383E4722F758",
+    "COND-P33-006": "PC-P33-475458A948BC188E",
+    "COND-P33-007": "PC-P33-203C76F92B82194E",
+    "COND-P34-001": "PC-P34-154E529942F14964",
+    "COND-P34-002": "PC-P34-D4A8CC7B98BA95CB",
+    "COND-P34-003": "PC-P34-D0B030E101BBA75F",
+    "COND-P34-004": "PC-P34-8646B0DED8EB6C99",
+    "COND-P34-005": "PC-P34-CFF886329824803E",
+    "COND-P34-006": "PC-P34-2EDE276BD29A4AAE",
+    "COND-P34-007": "PC-P34-E5F067217D115A04",
+    "COND-P34-008": "PC-P34-69F38F5BFA8F00B3",
+    "COND-P35-001": "PC-P35-F192782316439AA5",
+    "COND-P35-002": "PC-P35-615771C1BEFAA769",
+    "COND-P35-003": "PC-P35-C9B4975AC8042692",
+    "COND-P35-004": "PC-P35-05D6EC34F836A403",
+    "COND-P36-001": "PC-P36-D9C401A8369CAA0B",
+    "COND-P36-002": "PC-P36-4E3C535D42169B58",
+    "COND-P36-003": "PC-P36-AAE15F72AAB5761C",
+    "COND-P36-004": "PC-P36-39EBD20D65BE1756",
+    "COND-P36-005": "PC-P36-2E966C53BFFB1240",
+    "COND-P36-006": "PC-P36-4180E8261F517F7E",
+    "COND-P36-007": "PC-P36-78B3CBC9CD7CC651",
+    "COND-P37-001": "PC-P37-31F4C72331A2B14C",
+    "COND-P37-002": "PC-P37-4A72B40EBD28359B",
+    "COND-P37-003": "PC-P37-C675F75A4C10D4CE",
+    "COND-P37-004": "PC-P37-87A67F58B18F11F1",
+    "COND-P37-005": "PC-P37-48A507F2D4FA71CA",
+    "COND-P37-006": "PC-P37-89046F57672CD1AB",
+    "COND-P37-007": "PC-P37-52B21017E5563031",
+    "COND-P37-008": "PC-P37-CEF7D50684228CD5",
+    "COND-P38-001": "PC-P38-54FFA975B7199EB6",
+    "COND-P38-002": "PC-P38-010350921CA7C3CC",
+    "COND-P38-003": "PC-P38-35E3982FA3F94B90",
+    "COND-P39-001": "PC-P39-021CDFAE67279C09",
+    "COND-P39-002": "PC-P39-46D6249B0A91FF30",
+    "COND-P39-003": "PC-P39-25A295CFB8AC5404",
+    "COND-P39-004": "PC-P39-DF197AFBC29289B5",
+    "COND-P39-005": "PC-P39-D8533236511EF6E5",
+    "COND-P39-006": "PC-P39-B46E1FAEA152A2AA",
+    "COND-P39-007": "PC-P39-2FBEA9E379A747DE",
+    "COND-P40-001": "PC-P40-B55336D8B2633A13",
+    "COND-P40-002": "PC-P40-F81EF4074B390CA0",
+    "COND-P40-003": "PC-P40-7A6B1C5B8AD226F5",
+    "COND-P40-004": "PC-P40-B4F4AE80C9DABDB0",
+    "COND-P40-005": "PC-P40-744117455A113A2F",
+    "COND-P40-006": "PC-P40-42058BCD7FF4C07A",
+    "COND-P40-007": "PC-P40-79DB86BB318DA452",
+    "COND-P41-001": "PC-P41-AA819B678A0183F9",
+    "COND-P41-002": "PC-P41-7BA6B4F55790D1C5",
+    "COND-P41-003": "PC-P41-85A2D81681BAF23F",
+    "COND-P41-004": "PC-P41-95527AB10E62B4E3",
+    "COND-P41-005": "PC-P41-06635475C3AB8B77",
+    "COND-P41-006": "PC-P41-9EAD2BB70613E370",
+    "COND-P41-007": "PC-P41-F6C4970FFB1DEE45",
+    "COND-P42-001": "PC-P42-224261D8CAABB33C",
+    "COND-P42-002": "PC-P42-3A7AADD076D23438",
+    "COND-P42-003": "PC-P42-AF10B309758872B5",
+    "COND-P42-004": "PC-P42-A1BB781F604D5028",
+    "COND-P42-005": "PC-P42-638AA30DA08FA182"
+  },
+  "summary": {
+    "condition_records": 289,
+    "source_evidence_records": 321,
+    "property_anchors": 32,
+    "conditional_expectation_anchors": 2,
+    "reviewed_routes": 42,
+    "experimental_validation": "future_roadmap"
+  },
+  "scope": "Literature-specific settings and reported measurements. Explicit source loading; no universal recipes, extrapolation or invented uncertainty. Every output product and assessment has its own persistent planning evidence identity, separate from source evidence IDs."
+}

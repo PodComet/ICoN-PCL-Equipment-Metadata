@@ -13,12 +13,14 @@ from price_policy import with_msrp_estimates
 from market_tools import seller_offers
 from component_tools import build as build_components
 from price_coverage import build as build_price_coverage
+from process_science_tools import build as build_process_science
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
         return list(csv.DictReader(source))
 
 def main():
+    build_process_science(ROOT)
     build_references(ROOT)
     data = {key: read_csv(name) for key, name in [
         ("records", "equipment"), ("categories", "categories"),

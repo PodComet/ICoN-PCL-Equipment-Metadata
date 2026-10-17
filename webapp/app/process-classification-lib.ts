@@ -1,5 +1,6 @@
 import {expandWorkflowRequirements,splitIds,type ProcessWorkflow,type ProcessStep,type ProcessSlot,type JsonValue} from './process-lib.ts';
 import type {Equipment} from './catalog-lib.ts';
+import {withOutputEvidence} from './output-evidence-lib.ts';
 export const PENDING_CLASSES='unclassified_equipment_slots';
 export function pendingClassSlots(step:ProcessStep):ProcessSlot[]{
  const value=step.extensions[PENDING_CLASSES];
@@ -15,7 +16,7 @@ function refreshSlotCapability(slot:ProcessSlot,records:Equipment[]):ProcessSlot
 }
 /** Unknown saved requests retain their IDs and metadata outside the machine-slot grid. */
 export function normalizeWorkflowClasses(workflow:ProcessWorkflow,sources:Record<string,string>[],records:Equipment[],categories:Record<string,string>[]):ProcessWorkflow{
- const expanded=expandWorkflowRequirements(workflow,sources),known=new Set(categories.map(c=>c.category_id).filter(id=>/^M\d{2,3}$/.test(id)));
+ const expanded=withOutputEvidence(expandWorkflowRequirements(workflow,sources)),known=new Set(categories.map(c=>c.category_id).filter(id=>/^M\d{2,3}$/.test(id)));
  return {...expanded,steps:expanded.steps.map(step=>{
   const pending=new Map(pendingClassSlots(step).map(s=>[s.slot_id,structuredClone(s)])),slots:ProcessSlot[]=[];
   for(const saved of step.slots){

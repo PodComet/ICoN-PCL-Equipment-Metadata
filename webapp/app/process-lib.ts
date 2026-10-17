@@ -4,6 +4,8 @@ import {sellerPrice} from './seller-prices.ts';
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
 import {processDependencyGraph,stepDependencies} from './process-dependencies.ts';
 import {validateMaterialPlan} from './process-materials-lib.ts';
+import {CONDITIONS_KEY,stepConditions,validateConditions} from './process-condition-lib.ts';
+import {OUTPUT_EVIDENCE_KEY,withOutputEvidence} from './output-evidence-lib.ts';
 
 export type JsonValue = null | boolean | number | string | JsonValue[] | {[key:string]:JsonValue};
 export type Parameters = Record<string,JsonValue>;
@@ -58,7 +60,7 @@ export function createWorkflow(route:Route,sourceSteps:Record<string,string>[]):
   slots:stepRequirements(s)?requirementSlots(stepRequirements(s)!):splitIds(s.equipment_category_ids).length?[newSlot(splitIds(s.equipment_category_ids))]:[],
   extensions:{...(stepRequirements(s)?{requirements:stepRequirements(s)! as unknown as JsonValue}:{}),...(s.extension_id?{source_extension_id:s.extension_id,source_document:s.source_pdf,source_locator:s.source_page}:{})} as Parameters,
  }));
- return {schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:steps.length?{}:{sequence_review_required:true}};
+ return withOutputEvidence({schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:steps.length?{}:{sequence_review_required:true}});
 }
 export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]):ProcessWorkflow{
  let expanded={...workflow,steps:workflow.steps.map(step=>{
@@ -268,6 +270,7 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
  function id(value:unknown,prefix:string){if(typeof value!=='string'||!new RegExp('^'+prefix+'-'+uuid+'$','i').test(value)||ids.has(value))throw new Error('Workflow component IDs must be unique system IDs.');ids.add(value);}
  for(const step of w.steps){
   if(!isObject(step))throw new Error('Invalid step.');id(step.step_id,'STEP');text(step.label,200,'step name',true);text(step.notes,12000,'step notes');text(step.source_sequence,12000,'source sequence');text(step.source_step_order,30,'source step');jsonObject(step.extensions,'Step extensions');
+  if(step.extensions[CONDITIONS_KEY]!==undefined){validateConditions(step.extensions[CONDITIONS_KEY],step);for(const c of stepConditions(step))id(c.condition_id,'COND');}
   if(!Array.isArray(step.slots)||step.slots.length>50||(slotCount+=step.slots.length)>250)throw new Error('Use at most 50 slots per step and 250 per workflow.');
   const pending=step.extensions.unclassified_equipment_slots;
   if(pending!==undefined){
@@ -297,5 +300,9 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
   }
  }
  const dependencyIssues=processDependencyGraph(w).errors;if(dependencyIssues.length)throw new Error(dependencyIssues[0]);
- return w;
+ if(existing?.extensions[OUTPUT_EVIDENCE_KEY]){
+  if(w.extensions[OUTPUT_EVIDENCE_KEY]!==undefined&&w.extensions[OUTPUT_EVIDENCE_KEY]!==existing.extensions[OUTPUT_EVIDENCE_KEY])throw new Error('A saved output keeps its original evidence identity.');
+  w.extensions[OUTPUT_EVIDENCE_KEY]=existing.extensions[OUTPUT_EVIDENCE_KEY];
+ }
+ return withOutputEvidence(w);
 }

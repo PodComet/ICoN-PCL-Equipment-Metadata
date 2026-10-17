@@ -1,0 +1,950 @@
+{
+  "temperature": {
+    "label": "Temperature",
+    "canonical": "°C",
+    "dimension": "temperature",
+    "minimum": -273.15,
+    "units": [
+      {
+        "unit": "°C",
+        "factor": 1
+      },
+      {
+        "unit": "K",
+        "factor": 1,
+        "offset": -273.15
+      },
+      {
+        "unit": "°F",
+        "factor": 0.5555555555555556,
+        "offset": -17.77777777777778
+      }
+    ]
+  },
+  "duration": {
+    "label": "Duration",
+    "canonical": "s",
+    "dimension": "time",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "s",
+        "factor": 1
+      },
+      {
+        "unit": "min",
+        "factor": 60
+      },
+      {
+        "unit": "h",
+        "factor": 3600
+      },
+      {
+        "unit": "d",
+        "factor": 86400
+      }
+    ]
+  },
+  "pressure_absolute": {
+    "label": "Absolute pressure",
+    "canonical": "Pa",
+    "dimension": "pressure_absolute",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "Pa",
+        "factor": 1
+      },
+      {
+        "unit": "kPa",
+        "factor": 1000
+      },
+      {
+        "unit": "MPa",
+        "factor": 1000000
+      },
+      {
+        "unit": "bar",
+        "factor": 100000
+      },
+      {
+        "unit": "mbar",
+        "factor": 100
+      },
+      {
+        "unit": "atm",
+        "factor": 101325
+      },
+      {
+        "unit": "Torr",
+        "factor": 133.32236842105263
+      },
+      {
+        "unit": "mTorr",
+        "factor": 0.13332236842105263
+      }
+    ]
+  },
+  "pressure_gauge": {
+    "label": "Gauge pressure",
+    "canonical": "Pa",
+    "dimension": "pressure_gauge",
+    "units": [
+      {
+        "unit": "Pa",
+        "factor": 1
+      },
+      {
+        "unit": "kPa",
+        "factor": 1000
+      },
+      {
+        "unit": "MPa",
+        "factor": 1000000
+      },
+      {
+        "unit": "bar",
+        "factor": 100000
+      },
+      {
+        "unit": "mbar",
+        "factor": 100
+      },
+      {
+        "unit": "psi",
+        "factor": 6894.757293168
+      }
+    ]
+  },
+  "pressure_unspecified": {
+    "label": "Pressure · reference unspecified",
+    "canonical": "Pa",
+    "dimension": "pressure_unspecified",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "Pa",
+        "factor": 1
+      },
+      {
+        "unit": "kPa",
+        "factor": 1000
+      },
+      {
+        "unit": "MPa",
+        "factor": 1000000
+      },
+      {
+        "unit": "bar",
+        "factor": 100000
+      },
+      {
+        "unit": "mbar",
+        "factor": 100
+      },
+      {
+        "unit": "atm",
+        "factor": 101325
+      },
+      {
+        "unit": "Torr",
+        "factor": 133.32236842105263
+      },
+      {
+        "unit": "psi",
+        "factor": 6894.757293168
+      },
+      {
+        "unit": "mTorr",
+        "factor": 0.13332236842105263
+      }
+    ]
+  },
+  "heating_rate": {
+    "label": "Heating rate",
+    "canonical": "K/s",
+    "dimension": "temperature_rate",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "K/s",
+        "factor": 1
+      },
+      {
+        "unit": "°C/s",
+        "factor": 1
+      },
+      {
+        "unit": "°C/min",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "K/min",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "°F/min",
+        "factor": 0.00925925925925926
+      }
+    ]
+  },
+  "cooling_rate": {
+    "label": "Cooling rate",
+    "canonical": "K/s",
+    "dimension": "temperature_rate",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "K/s",
+        "factor": 1
+      },
+      {
+        "unit": "°C/s",
+        "factor": 1
+      },
+      {
+        "unit": "°C/min",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "K/min",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "°F/min",
+        "factor": 0.00925925925925926
+      }
+    ]
+  },
+  "stirring_speed": {
+    "label": "Stirring speed",
+    "canonical": "rpm",
+    "dimension": "rotational_speed",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "rpm",
+        "factor": 1
+      },
+      {
+        "unit": "rps",
+        "factor": 60
+      }
+    ]
+  },
+  "centrifuge_speed": {
+    "label": "Centrifuge speed",
+    "canonical": "rpm",
+    "dimension": "rotational_speed",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "rpm",
+        "factor": 1
+      },
+      {
+        "unit": "rps",
+        "factor": 60
+      }
+    ]
+  },
+  "rotation_speed": {
+    "label": "Mechanical rotation speed",
+    "canonical": "rpm",
+    "dimension": "rotational_speed",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "rpm",
+        "factor": 1
+      },
+      {
+        "unit": "rps",
+        "factor": 60
+      }
+    ]
+  },
+  "spin_speed": {
+    "label": "Spin-coating speed",
+    "canonical": "rpm",
+    "dimension": "rotational_speed",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "rpm",
+        "factor": 1
+      },
+      {
+        "unit": "rps",
+        "factor": 60
+      }
+    ]
+  },
+  "relative_centrifugal_force": {
+    "label": "Relative centrifugal force",
+    "canonical": "×g",
+    "dimension": "relative_centrifugal_force",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "×g",
+        "factor": 1
+      }
+    ]
+  },
+  "gas_flow": {
+    "label": "Gas flow",
+    "canonical": "sccm",
+    "dimension": "gas_flow",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "sccm",
+        "factor": 1,
+        "dimension": "standard_gas_flow"
+      },
+      {
+        "unit": "slm",
+        "factor": 1000,
+        "dimension": "standard_gas_flow"
+      },
+      {
+        "unit": "mL/min",
+        "factor": 1,
+        "dimension": "gas_flow_reference_unspecified",
+        "canonical": "mL/min"
+      },
+      {
+        "unit": "L/min",
+        "factor": 1000,
+        "dimension": "gas_flow_reference_unspecified",
+        "canonical": "mL/min"
+      }
+    ]
+  },
+  "liquid_flow": {
+    "label": "Liquid flow",
+    "canonical": "mL/min",
+    "dimension": "liquid_flow",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mL/min",
+        "factor": 1
+      },
+      {
+        "unit": "µL/min",
+        "factor": 0.001
+      },
+      {
+        "unit": "mL/h",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "µL/h",
+        "factor": 1.6666666666666667e-05
+      },
+      {
+        "unit": "L/min",
+        "factor": 1000
+      }
+    ]
+  },
+  "laser_wavelength": {
+    "label": "Laser wavelength",
+    "canonical": "nm",
+    "dimension": "length",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "nm",
+        "factor": 1
+      },
+      {
+        "unit": "µm",
+        "factor": 1000
+      },
+      {
+        "unit": "m",
+        "factor": 1000000000
+      }
+    ]
+  },
+  "pulse_duration": {
+    "label": "Pulse duration",
+    "canonical": "s",
+    "dimension": "time",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "ns",
+        "factor": 1e-09
+      },
+      {
+        "unit": "ps",
+        "factor": 1e-12
+      },
+      {
+        "unit": "fs",
+        "factor": 1e-15
+      },
+      {
+        "unit": "µs",
+        "factor": 1e-06
+      },
+      {
+        "unit": "ms",
+        "factor": 0.001
+      },
+      {
+        "unit": "s",
+        "factor": 1
+      }
+    ]
+  },
+  "laser_pulse_energy": {
+    "label": "Laser pulse energy",
+    "canonical": "J",
+    "dimension": "energy",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mJ",
+        "factor": 0.001
+      },
+      {
+        "unit": "µJ",
+        "factor": 1e-06
+      },
+      {
+        "unit": "J",
+        "factor": 1
+      }
+    ]
+  },
+  "laser_fluence": {
+    "label": "Laser fluence",
+    "canonical": "J/cm²",
+    "dimension": "fluence",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "J/cm²",
+        "factor": 1
+      },
+      {
+        "unit": "mJ/cm²",
+        "factor": 0.001
+      }
+    ]
+  },
+  "laser_power": {
+    "label": "Laser power",
+    "canonical": "W",
+    "dimension": "power",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "W",
+        "factor": 1
+      },
+      {
+        "unit": "mW",
+        "factor": 0.001
+      },
+      {
+        "unit": "kW",
+        "factor": 1000
+      }
+    ]
+  },
+  "power": {
+    "label": "Power",
+    "canonical": "W",
+    "dimension": "power",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "W",
+        "factor": 1
+      },
+      {
+        "unit": "mW",
+        "factor": 0.001
+      },
+      {
+        "unit": "kW",
+        "factor": 1000
+      }
+    ]
+  },
+  "repetition_rate": {
+    "label": "Repetition rate",
+    "canonical": "Hz",
+    "dimension": "frequency",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "Hz",
+        "factor": 1
+      },
+      {
+        "unit": "kHz",
+        "factor": 1000
+      },
+      {
+        "unit": "MHz",
+        "factor": 1000000
+      }
+    ]
+  },
+  "voltage": {
+    "label": "Voltage / potential",
+    "canonical": "V",
+    "dimension": "voltage",
+    "units": [
+      {
+        "unit": "V",
+        "factor": 1
+      },
+      {
+        "unit": "mV",
+        "factor": 0.001
+      },
+      {
+        "unit": "kV",
+        "factor": 1000
+      }
+    ]
+  },
+  "current": {
+    "label": "Current",
+    "canonical": "A",
+    "dimension": "current",
+    "units": [
+      {
+        "unit": "A",
+        "factor": 1
+      },
+      {
+        "unit": "mA",
+        "factor": 0.001
+      },
+      {
+        "unit": "µA",
+        "factor": 1e-06
+      }
+    ]
+  },
+  "current_density": {
+    "label": "Current density",
+    "canonical": "A/cm²",
+    "dimension": "current_density",
+    "units": [
+      {
+        "unit": "A/cm²",
+        "factor": 1
+      },
+      {
+        "unit": "mA/cm²",
+        "factor": 0.001
+      },
+      {
+        "unit": "A/m²",
+        "factor": 0.0001
+      }
+    ]
+  },
+  "ph": {
+    "label": "pH",
+    "canonical": "pH",
+    "dimension": "ph",
+    "units": [
+      {
+        "unit": "pH",
+        "factor": 1
+      }
+    ]
+  },
+  "molar_concentration": {
+    "label": "Molar concentration",
+    "canonical": "mol/L",
+    "dimension": "molar_concentration",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mol/L",
+        "factor": 1
+      },
+      {
+        "unit": "mmol/L",
+        "factor": 0.001
+      },
+      {
+        "unit": "µmol/L",
+        "factor": 1e-06
+      }
+    ]
+  },
+  "mass_concentration": {
+    "label": "Mass concentration",
+    "canonical": "g/L",
+    "dimension": "mass_concentration",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "g/L",
+        "factor": 1
+      },
+      {
+        "unit": "mg/mL",
+        "factor": 1
+      },
+      {
+        "unit": "mg/L",
+        "factor": 0.001
+      },
+      {
+        "unit": "g/mL",
+        "factor": 1000
+      }
+    ]
+  },
+  "mass_fraction": {
+    "label": "Mass fraction",
+    "canonical": "wt%",
+    "dimension": "mass_fraction",
+    "minimum": 0,
+    "maximum": 100,
+    "units": [
+      {
+        "unit": "wt%",
+        "factor": 1
+      }
+    ]
+  },
+  "volume_fraction": {
+    "label": "Volume fraction",
+    "canonical": "vol%",
+    "dimension": "volume_fraction",
+    "minimum": 0,
+    "maximum": 100,
+    "units": [
+      {
+        "unit": "vol%",
+        "factor": 1
+      }
+    ]
+  },
+  "distance": {
+    "label": "Distance / spacing",
+    "canonical": "mm",
+    "dimension": "length",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mm",
+        "factor": 1
+      },
+      {
+        "unit": "cm",
+        "factor": 10
+      },
+      {
+        "unit": "m",
+        "factor": 1000
+      },
+      {
+        "unit": "µm",
+        "factor": 0.001
+      },
+      {
+        "unit": "nm",
+        "factor": 1e-06
+      }
+    ]
+  },
+  "atmosphere": {
+    "label": "Atmosphere / gas composition",
+    "canonical": "",
+    "dimension": "text",
+    "text": true,
+    "units": [
+      {
+        "unit": "",
+        "factor": 1
+      }
+    ]
+  },
+  "environment": {
+    "label": "Environment / qualitative condition",
+    "canonical": "",
+    "dimension": "text",
+    "text": true,
+    "units": [
+      {
+        "unit": "",
+        "factor": 1
+      }
+    ]
+  },
+  "cycles": {
+    "label": "Cycle / pass count",
+    "canonical": "count",
+    "dimension": "count",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "count",
+        "factor": 1
+      }
+    ]
+  },
+  "scan_speed": {
+    "label": "Scan / withdrawal speed",
+    "canonical": "mm/s",
+    "dimension": "linear_speed",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mm/s",
+        "factor": 1
+      },
+      {
+        "unit": "mm/min",
+        "factor": 0.016666666666666666
+      },
+      {
+        "unit": "µm/s",
+        "factor": 0.001
+      },
+      {
+        "unit": "m/s",
+        "factor": 1000
+      }
+    ]
+  },
+  "film_thickness": {
+    "label": "Film thickness target",
+    "canonical": "nm",
+    "dimension": "length",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "nm",
+        "factor": 1
+      },
+      {
+        "unit": "µm",
+        "factor": 1000
+      },
+      {
+        "unit": "mm",
+        "factor": 1000000
+      }
+    ]
+  },
+  "rotation_angle": {
+    "label": "Rotation / tilt angle",
+    "canonical": "°",
+    "dimension": "angle",
+    "units": [
+      {
+        "unit": "°",
+        "factor": 1
+      },
+      {
+        "unit": "rad",
+        "factor": 57.29577951308232
+      }
+    ]
+  },
+  "compaction_pressure": {
+    "label": "Compaction pressure / applied stress",
+    "canonical": "Pa",
+    "dimension": "mechanical_stress",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "MPa",
+        "factor": 1000000
+      },
+      {
+        "unit": "GPa",
+        "factor": 1000000000
+      },
+      {
+        "unit": "Pa",
+        "factor": 1
+      },
+      {
+        "unit": "kPa",
+        "factor": 1000
+      },
+      {
+        "unit": "bar",
+        "factor": 100000
+      },
+      {
+        "unit": "psi",
+        "factor": 6894.757293168
+      }
+    ]
+  },
+  "induction_frequency": {
+    "label": "Induction frequency",
+    "canonical": "Hz",
+    "dimension": "frequency",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "Hz",
+        "factor": 1
+      },
+      {
+        "unit": "kHz",
+        "factor": 1000
+      },
+      {
+        "unit": "MHz",
+        "factor": 1000000
+      }
+    ]
+  },
+  "roll_gap": {
+    "label": "Roll gap",
+    "canonical": "mm",
+    "dimension": "length",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "mm",
+        "factor": 1
+      },
+      {
+        "unit": "µm",
+        "factor": 0.001
+      },
+      {
+        "unit": "cm",
+        "factor": 10
+      }
+    ]
+  },
+  "quench_medium": {
+    "label": "Quench medium",
+    "canonical": "",
+    "dimension": "text",
+    "text": true,
+    "units": [
+      {
+        "unit": "",
+        "factor": 1
+      }
+    ]
+  },
+  "flow_ratio": {
+    "label": "Flow-rate ratio",
+    "canonical": "",
+    "dimension": "text",
+    "text": true,
+    "units": [
+      {
+        "unit": "",
+        "factor": 1
+      }
+    ]
+  },
+  "relative_humidity": {
+    "label": "Relative humidity",
+    "canonical": "%RH",
+    "dimension": "relative_humidity",
+    "minimum": 0,
+    "maximum": 100,
+    "units": [
+      {
+        "unit": "%RH",
+        "factor": 1
+      }
+    ]
+  },
+  "ultrasonic_amplitude": {
+    "label": "Ultrasonic amplitude · device scale",
+    "canonical": "% amplitude",
+    "dimension": "device_amplitude",
+    "minimum": 0,
+    "maximum": 100,
+    "units": [
+      {
+        "unit": "% amplitude",
+        "factor": 1
+      }
+    ]
+  },
+  "mass_ratio": {
+    "label": "Mass ratio · relative to a named reference mass",
+    "canonical": "% of reference mass",
+    "dimension": "mass_ratio",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "% of reference mass",
+        "factor": 1
+      }
+    ]
+  },
+  "pressure_differential": {
+    "label": "Differential pressure / pressure drop",
+    "canonical": "Pa",
+    "dimension": "pressure_difference",
+    "units": [
+      {
+        "unit": "Pa",
+        "factor": 1
+      },
+      {
+        "unit": "kPa",
+        "factor": 1000
+      },
+      {
+        "unit": "bar",
+        "factor": 100000
+      },
+      {
+        "unit": "mbar",
+        "factor": 100
+      }
+    ]
+  },
+  "frequency": {
+    "label": "Excitation / operating frequency",
+    "canonical": "Hz",
+    "dimension": "frequency",
+    "minimum": 0,
+    "units": [
+      {
+        "unit": "Hz",
+        "factor": 1
+      },
+      {
+        "unit": "kHz",
+        "factor": 1000
+      },
+      {
+        "unit": "MHz",
+        "factor": 1000000
+      }
+    ]
+  },
+  "strain": {
+    "label": "Strain · specify engineering or equivalent basis",
+    "canonical": "%",
+    "dimension": "strain",
+    "units": [
+      {
+        "unit": "%",
+        "factor": 1
+      }
+    ]
+  }
+}

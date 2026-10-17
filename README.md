@@ -4,6 +4,8 @@ The [functional process review](docs/process-class-refinement-2026-10-17.md) rep
 
 Research equipment metadata and a reproducible machine-list comparison tool.
 
+The [operating conditions and evidence guide](docs/process-conditions-and-evidence.md) documents 289 structured source conditions, stable output evidence IDs and 32 reported property measurements. Two reviewed fixed-case P20 properties can appear as explicitly unvalidated literature analogues when the selected formulation and settings match. Experimental validation remains future roadmap functionality.
+
 ## Equipment database
 
 The [CSV catalog](catalog/equipment.csv) contains **590 research examples across 59 source M categories**, plus 42 supplemental records covering the requested equipment. There are 86 active M categories: the 59 source classes, M62 robotics, seven literature-derived classes for titration/dosing, swaging, induction heating, dialysis, three-roll milling, electron-beam evaporation and spark-plasma sintering, plus M70 programmable thermocyclers, eleven process-gap classes M71–M81, and seven implemented planning classes M82–M88. All 44 requested occurrences are retained, including the repeated AM400 entry. See the [bolded requested-equipment view](docs/requested-equipment.md), [database guide](catalog/README.md), and [evidence coverage](catalog/coverage.json).

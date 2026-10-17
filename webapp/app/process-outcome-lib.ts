@@ -4,6 +4,8 @@ import {materialName,type MaterialImages} from './material-options.ts';
 import {stepDependencies} from './process-dependencies.ts';
 import type {ProcessWorkflow} from './process-lib.ts';
 import {unchangedFormulation,type ComponentData} from './component-lib.ts';
+import {productEvidence,outputNamespace} from './output-evidence-lib.ts';
+import {stepConditions} from './process-condition-lib.ts';
 const names=(items:MaterialSuggestion[])=>items.map(m=>m.name.trim()).filter(Boolean);
 export function compositionExample(plan:MaterialPlan,data:MaterialDataset){
  const keys=(items:MaterialSuggestion[])=>items.map(m=>m.role+':'+materialName(m.name)).sort();
@@ -26,9 +28,9 @@ export function materialOutcome(plan:MaterialPlan,data:MaterialDataset,workflow:
  const formulation=!twoPhoton&&components?unchangedFormulation(plan,components):null;
  if(formulation&&formulation.completeness!=='not_applicable')base={label:formulation.output_label,basis:'source_example',detail:'Documented formulation example · '+formulation.batch_basis+' · source conditions and yield still require review',example:null};
  if(twoPhoton)base={label:plan.expected_output.trim()||'Two-photon patterned polymer structure — planning target',basis:'user_target',detail:'Select a model-compatible two-photon photopolymer and development recipe. The existing electron-beam/metal-pattern formulation does not validate this branch; resolution, shrinkage and output chemistry are not predicted.',example:null};
- const product=base.basis==='unspecified'?null:{name:base.label,form:mode,components:names(primary),substrates:names(substrates),amount:'Output amount not established'};
+ const product=base.basis==='unspecified'?null:{...productEvidence(workflow,0),name:base.label,form:mode,components:names(primary),substrates:names(substrates),amount:'Output amount not established',supporting_reference_ids:formulation?.reference_ids||example?.reference_ids.split(';').filter(Boolean)||[]};
  const sequence=workflow.steps.map((step,index)=>({step_id:step.step_id,number:index+1,label:step.label,pending_classification:pendingClassSlots(step).map(slot=>({slot_id:slot.slot_id,label:slot.label,previous_class_ids:slot.allowed_category_ids})),requires:stepDependencies(workflow,step).map(id=>workflow.steps.findIndex(s=>s.step_id===id)+1),instruments:step.slots.filter(s=>s.instrument).map(s=>({equipment_id:s.instrument!.equipment_id,instance_id:s.instrument!.instance_id,category_id:s.instrument!.category_id,model_name:s.instrument!.equipment_snapshot.model_name,manufacturer:s.instrument!.equipment_snapshot.manufacturer,configuration:s.instrument!.configuration,operating_parameters:s.instrument!.operating_parameters,operation_sequence:s.instrument!.operation_sequence})),vacant_slots:step.slots.filter(s=>!s.instrument).map(s=>({classes:s.allowed_category_ids,role:String(s.extensions.requirement_role||'required')}))}));
- return {...base,formulation,products:product?[product]:[],mode,sequence,inputs:plan.inputs.map(m=>({...m})),route_id:plan.route_id,workflow_id:workflow.workflow_id};
+ return {...base,evidence_id:outputNamespace(workflow)+'-ASSESSMENT',evidence_revision:workflow.extensions.output_evidence_revision??null,formulation,products:product?[product]:[],mode,sequence,conditions:workflow.steps.map(s=>({step_id:s.step_id,source_step_order:s.source_step_order,step_label:s.label,conditions:structuredClone(stepConditions(s))})),experimental_validation:'future_roadmap',inputs:plan.inputs.map(m=>({...m})),route_id:plan.route_id,workflow_id:workflow.workflow_id};
 }
 export function outputReference(outcome:ReturnType<typeof materialOutcome>,media:MaterialImages){
  if(!outcome.products.length)return null;

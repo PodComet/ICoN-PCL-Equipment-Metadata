@@ -4,6 +4,15 @@ import {getChatGPTUser} from '../../chatgpt-auth';
 import {loadSharedCatalog,personalRecord} from '../../catalog-store';
 import {newProcessId,validateWorkflow,type ProcessWorkflow} from '../../process-lib';
 import {normalizeWorkflowClasses} from '../../process-classification-lib';
+import materials from '../../data/process-materials.json';
+import componentSeed from '../../data/components.json';
+import scienceSeed from '../../data/process-science.json';
+import {materialPlanFor,type MaterialDataset} from '../../process-materials-lib';
+import type {ComponentData} from '../../component-lib';
+import type {ConditionLibrary} from '../../process-condition-lib';
+import {materialOutcome} from '../../process-outcome-lib';
+import {expectedProperties} from '../../process-properties-lib';
+import {workflowReadiness,type JsonValue} from '../../process-lib';
 
 const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 type Stored={workflow_id:string;payload:string;revision:number;created_at:string;updated_at:string};
@@ -49,6 +58,12 @@ export async function PUT(request:Request){
   let workflow:ProcessWorkflow;try{workflow=validateWorkflow(input.workflow,seed.routes,records,existing)}catch(e){return json({error:e instanceof Error?e.message:'Invalid workflow.'},400)}
   const now=new Date().toISOString(),revision=(previous?.revision||0)+1;
   if(!previous)workflow.workflow_id=newProcessId('PROC-'+workflow.route_id);
+  workflow.extensions.output_evidence_revision=revision;
+  const plan=materialPlanFor(workflow),science=scienceSeed as unknown as ConditionLibrary,complete=workflowReadiness(workflow,seed.steps).complete;
+  const outcome=materialOutcome(plan,materials as MaterialDataset,workflow,componentSeed as unknown as ComponentData);
+  const assessments=expectedProperties(workflow,plan,componentSeed as unknown as ComponentData,science,complete);
+  const used=new Set([...assessments.flatMap(p=>p.source_evidence_ids),...outcome.conditions.flatMap(s=>s.conditions.flatMap(c=>science.conditions.filter(t=>t.template_id===c.reference_condition_id).map(t=>t.evidence_id)))]);
+  workflow.extensions.output_evidence_snapshot={schema:'process-output-evidence/v1',revision,assessed_at:now,...outcome,property_assessments:assessments,source_evidence:science.evidence.filter(e=>used.has(e.evidence_id))} as unknown as JsonValue;
   const payload=JSON.stringify(workflow),created=previous?.created_at||now;
   const statement=previous?
    env.DB!.prepare('UPDATE process_workflows SET name=?,payload=?,revision=CASE WHEN revision=? THEN revision+1 ELSE NULL END,updated_at=? WHERE workflow_id=? AND user_id=?').bind(workflow.name,payload,input.expected_revision,now,workflow.workflow_id,user.userId):

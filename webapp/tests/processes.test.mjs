@@ -79,7 +79,7 @@ test('new saves use trusted ontology identity and pricing while preserving futur
  assigned.extensions={future_ontology_schema:{version:2}};
  const checked=validateWorkflow(assigned,seed.routes,[record]);const stored=checked.steps[0].slots[0].instrument;
  assert.equal(stored.equipment_snapshot.model_name,record.model_name);assert.equal(stored.price_snapshot.low,6000);assert.deepEqual(stored.category_refs,['M13','X-FILTER']);
- assert.deepEqual(stored.configuration,i.configuration);assert.deepEqual(stored.inputs,i.inputs);assert.deepEqual(checked.extensions,assigned.extensions);
+ assert.deepEqual(stored.configuration,i.configuration);assert.deepEqual(stored.inputs,i.inputs);assert.deepEqual(checked.extensions.future_ontology_schema,assigned.extensions.future_ontology_schema);assert.match(checked.extensions.output_evidence_namespace,/^OUT-EV-/);
  const saved=structuredClone(checked);saved.workflow_id='PROC-P03-'+crypto.randomUUID();
  const edited=structuredClone(saved);edited.steps[0].slots[0].instrument.price_snapshot.low=999;
  const rechecked=validateWorkflow(edited,seed.routes,[{...record,msrp_value:'7000'}],saved);
