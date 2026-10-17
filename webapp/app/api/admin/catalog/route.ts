@@ -9,15 +9,15 @@ import {withSharedResearchOverrides} from "../../../research-policy";
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{"Cache-Control":"no-store"}});
 export async function GET(){
  try{
-  const user=await getChatGPTUser();if(!isCatalogAdmin(user))return json({error:"Sign in to access CSV administration."},401);
+  const user=await getChatGPTUser();if(!await isCatalogAdmin(user))return json({error:"Unlock administration to access CSV updates."},user?403:401);
   const catalog=await loadSharedCatalog();
   const history=await env.DB!.prepare("SELECT id,filename,revision,changed_count,created_at FROM catalog_imports ORDER BY revision DESC LIMIT 20").all();
-  return json({...catalog,history:history.results,categories:seed.categories,routes:seed.routes,adminPolicy:"all_signed_in_users"});
+  return json({...catalog,history:history.results,categories:seed.categories,routes:seed.routes,adminPolicy:"password_session"});
  }catch(e){console.error("Admin catalog read failed",e);return json({error:"Shared catalog could not be loaded."},500)}
 }
 export async function POST(request:Request){
  try{
-  const user=await getChatGPTUser();if(!isCatalogAdmin(user))return json({error:"Sign in to access CSV administration."},401);
+  const user=await getChatGPTUser();if(!await isCatalogAdmin(user))return json({error:"Unlock administration to access CSV updates."},user?403:401);
   if(request.headers.get('origin')!==new URL(request.url).origin)return json({error:"Same-origin requests required."},403);
   if(Number(request.headers.get('content-length')||0)>3_100_000)return json({error:"CSV request exceeds 3 MB."},413);
   const text=await request.text();if(text.length>3_100_000)return json({error:"CSV request exceeds 3 MB."},413);

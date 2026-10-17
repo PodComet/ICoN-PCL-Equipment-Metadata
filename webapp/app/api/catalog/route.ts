@@ -32,8 +32,8 @@ export async function GET() {
       }
     }
     const priced=withMsrpEstimates(rows.map(row=>row.record),seed.model_lifecycle,msrpPolicy);rows.forEach((row,i)=>row.record=priced[i]);
-    const assets=user?inventory:[];
-    return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,coverage:literature.coverage},canEdit:!!user,canAdmin:isCatalogAdmin(user),sharedRevision:shared.revision});
+    const canAdmin=await isCatalogAdmin(user),assets=canAdmin?inventory:[];
+    return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,coverage:literature.coverage},canEdit:!!user,canAdmin,sharedRevision:shared.revision});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);

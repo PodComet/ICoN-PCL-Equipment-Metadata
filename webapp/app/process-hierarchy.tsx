@@ -1,5 +1,5 @@
 'use client';
-import {Children,useEffect,useRef,useState,type ReactNode} from 'react';
+import {Children,useLayoutEffect,useRef,useState,type ReactNode} from 'react';
 import {processDependencyGraph} from './process-dependencies';
 import type {ProcessWorkflow} from './process-lib';
 import {processLayout,fittedProcessScale} from './process-layout-lib';
@@ -7,12 +7,15 @@ import {processLayout,fittedProcessScale} from './process-layout-lib';
 type Edge={key:string;path:string};
 export default function ProcessHierarchy({workflow,expanded,start,finish,children}:{workflow:ProcessWorkflow;expanded:boolean;start:ReactNode;finish:ReactNode;children:ReactNode}){
  const graph=processDependencyGraph(workflow),layout=processLayout(workflow,expanded),nodes=Children.toArray(children),frame=useRef<HTMLDivElement>(null),board=useRef<HTMLDivElement>(null);
- const fitted=useRef<{key:string;scale:number}|null>(null);
+ const fitted=useRef<{key:string;scale:number;availableWidth:number}|null>(null);
  const [drawing,setDrawing]=useState<{width:number;height:number;scale:number;edges:Edge[]}>({width:0,height:0,scale:1,edges:[]});
- useEffect(()=>{
+ useLayoutEffect(()=>{
   const element=board.current,container=frame.current;if(!element||!container)return;
   const measure=(resize=false)=>{
-   const width=element.offsetWidth,height=element.offsetHeight,origin=element.getBoundingClientRect(),renderScale=origin.width/width||1;
+   const width=element.offsetWidth,height=element.offsetHeight;
+   // The Processes workspace mounts while hidden. Do not pin a zero-size initial fit.
+   if(!width||!height||!container.clientWidth)return;
+   const origin=element.getBoundingClientRect(),renderScale=origin.width/width||1;
    const rects=new Map(Array.from(element.querySelectorAll<HTMLElement>('[data-hierarchy-node]')).map(n=>{const r=n.getBoundingClientRect();return [n.dataset.hierarchyNode!,{left:(r.left-origin.left)/renderScale,right:(r.right-origin.left)/renderScale,top:(r.top-origin.top)/renderScale,height:r.height/renderScale}]}));
    const depths=new Map(graph.levels.flatMap((level,index)=>level.map(step=>[step.step_id,index] as const))),edges:Edge[]=[];
    for(const step of workflow.steps){
@@ -37,9 +40,9 @@ export default function ProcessHierarchy({workflow,expanded,start,finish,childre
     }
    }
    // Pin the initial fit until the user changes structure/view or resizes the window.
-   if(!fitted.current||fitted.current.key!==layout.key||resize){
+   if(!fitted.current||fitted.current.key!==layout.key||fitted.current.availableWidth!==container.clientWidth||resize){
     const availableHeight=Math.max(80,Math.min(260,window.innerHeight-(container.getBoundingClientRect().top+window.scrollY)-330));
-    fitted.current={key:layout.key,scale:expanded?1:fittedProcessScale(width,container.clientWidth,height,availableHeight)};
+    fitted.current={key:layout.key,availableWidth:container.clientWidth,scale:expanded?1:fittedProcessScale(width,container.clientWidth,height,availableHeight)};
    }
    const next={width,height,scale:fitted.current.scale,edges};
    setDrawing(previous=>JSON.stringify(previous)===JSON.stringify(next)?previous:next);

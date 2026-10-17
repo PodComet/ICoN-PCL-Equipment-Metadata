@@ -1,5 +1,11 @@
 import { integer, primaryKey, sqliteTable, text } from "drizzle-orm/sqlite-core";
 
+export const adminUnlockLimits=sqliteTable('admin_unlock_limits',{
+ key:text('key').primaryKey(),
+ windowStarted:integer('window_started').notNull(),
+ attempts:integer('attempts').notNull(),
+});
+
 export const equipmentEdits = sqliteTable("equipment_edits", {
   userId: text("user_id").notNull(),
   equipmentId: text("equipment_id").notNull(),

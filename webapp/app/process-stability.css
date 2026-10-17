@@ -1,5 +1,12 @@
 /* Reserve geometry before photos arrive and while assignments/filter results change. */
 html {scrollbar-gutter:stable}
+.processes-workspace {overflow-anchor:none}
+/* Selection changes color, never the slot's border or content dimensions. */
+.process-flow-area .process-hierarchy .process-slot,
+.process-flow-area .process-hierarchy .process-slot.selected {border-width:2px;padding:6px}
+/* Keep the tray in place when a class has many, few, or zero matching models. */
+.process-equipment-library>.process-library-cards {box-sizing:border-box;height:278px;min-height:278px;max-height:278px;overflow:auto;align-content:start;scrollbar-gutter:stable}
+.process-equipment-library .process-library-heading>small {box-sizing:border-box;min-height:36px;height:36px;line-height:18px;overflow:auto;min-width:0}
 .process-workflow-picker {grid-template-columns:minmax(0,3fr) minmax(190px,1fr) auto;gap:12px;padding:9px 10px;margin-bottom:9px;align-items:center}
 .process-workflow-picker>label {min-width:0}
 .process-workflow-picker>label:first-child {padding:8px 10px;border:2px solid #bd9137;border-radius:8px;background:#fff6dd;font-size:15px;gap:6px;color:#15213c}

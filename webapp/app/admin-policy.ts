@@ -1,7 +1,11 @@
 import type { ChatGPTUser } from "./chatgpt-auth";
+import {cookies} from 'next/headers';
+import {env} from 'cloudflare:workers';
+import {ADMIN_COOKIE,verifyAdminSession,type AdminSecrets} from './admin-session';
 
-// Temporary policy: every authenticated site user is an administrator.
-// Replace this one function with role/allowlist checks when access is gated.
-export function isCatalogAdmin(user: ChatGPTUser | null): boolean {
-  return !!user;
+// Sign-in establishes identity. Only a verified password session grants admin access.
+export async function isCatalogAdmin(user: ChatGPTUser | null): Promise<boolean> {
+  if(!user)return false;
+  const jar=await cookies();
+  return verifyAdminSession(jar.get(ADMIN_COOKIE)?.value,user.userId,env as AdminSecrets);
 }

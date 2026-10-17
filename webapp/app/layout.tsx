@@ -6,6 +6,7 @@ import "./process-theme.css";
 import "./process-stability.css";
 import "./instrument-positions.css";
 import "./process-material-cards.css";
+import "./admin-access.css";
 
 export const metadata: Metadata = {
   title: "Nanomaterial Equipment Ontology",

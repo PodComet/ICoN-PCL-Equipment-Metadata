@@ -1,6 +1,8 @@
 """Local-preview-only integration checks; never pointed at a hosted catalog."""
 import concurrent.futures
 import csv
+import getpass
+import os
 import http.cookiejar
 import io
 import json
@@ -31,6 +33,8 @@ def csv_text(rows):
     writer.writerows(rows)
     return output.getvalue()
 
+password = os.environ.get('ICONPCL_TEST_ADMIN_PASSWORD') or getpass.getpass('Local administrator password: ')
+assert request('/api/admin/session', {'password': password})[0] == 200
 assert request('/api/admin/catalog', anonymous=True)[0] == 401
 assert request('/api/admin/catalog', {'mode': 'preview', 'csv': ''}, origin='https://wrong.test')[0] == 403
 status, snapshot = request('/api/admin/catalog')
