@@ -4,7 +4,7 @@ from catalog_tools import ROOT, load_csv
 
 def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
     steps=load_csv(ROOT/'catalog/route_steps.csv')
-    rows=[s for s in steps if s['route_id'].startswith('P') and s['route_id']!='P43']
+    rows=[s for s in steps if s['route_id'].startswith('P') and s['route_id']!='P43' and not s.get('extension_id')]
     assert len(rows)==172
     known={c['category_id'] for c in load_csv(ROOT/'catalog/categories.csv')}
     for s in rows:
@@ -18,7 +18,7 @@ def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
     assert sum(json.loads(s['requirements_json'])['unresolved_required_equipment'] for s in rows)==0
     implementation=json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))
     additional_reviews=sum(not m['previous_requirements']['readiness_review_required'] for m in implementation['process_links'] if 'previous_requirements' in m)
-    assert sum(json.loads(s['requirements_json'])['readiness_review_required'] for s in rows)==50+additional_reviews+sum(not json.loads(c['before']['requirements_json'])['readiness_review_required'] for c in json.loads((ROOT/'catalog/process_class_refinement_2026-10-17.json').read_text(encoding='utf-8'))['changes'] if c['step_id'].startswith('P'))
+    assert sum(json.loads(s['requirements_json'])['readiness_review_required'] for s in rows)==json.loads((ROOT/'catalog/mit_class_expansion_2026-10-17.json').read_text(encoding='utf-8'))['summary']['additional_existing_stage_reviews']+50+additional_reviews+sum(not json.loads(c['before']['requirements_json'])['readiness_review_required'] for c in json.loads((ROOT/'catalog/process_class_refinement_2026-10-17.json').read_text(encoding='utf-8'))['changes'] if c['step_id'].startswith('P'))
     pump=next(s for s in rows if s['route_id']=='P27' and s['step_order']=='2')
     assert json.loads(pump['requirements_json'])['required_branches']==[['M07','M07']]
     assert sum(s['source_pdf']=='Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf' for s in steps)==109

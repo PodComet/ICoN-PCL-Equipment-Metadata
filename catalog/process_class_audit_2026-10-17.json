@@ -4,14 +4,14 @@
   "scope": "All 42 manufacturing processes in the Processes tab: 173 source steps plus 2 capability-only planning stages. Material-family route narratives are excluded. Account-specific saved requests are reviewed on load and retained if unclassified.",
   "summary": {
     "processes": 42,
-    "steps": 175,
-    "classified_equipment_slots": 277,
+    "steps": 185,
+    "classified_equipment_slots": 300,
     "action_steps_without_separate_class": 15,
     "unclassified_required_machine_slots": 0,
     "proposed_classes": 0,
-    "source_steps": 173,
+    "source_steps": 183,
     "capability_steps": 2,
-    "implemented_classes": 7
+    "implemented_classes": 18
   },
   "proposals": [
     {
@@ -686,6 +686,17 @@
     "source_steps": 173,
     "capability_steps": 2
   },
-  "implementation_scope": "M82–M88 are active project extensions. Existing source sequences remain unchanged. Added model/step links are curator planning candidates; optional/manual branches and operation-specific subtypes are preserved.",
-  "functional_refinement_report": "process_class_refinement_2026-10-17.json"
+  "implementation_scope": "M82–M88 are active project extensions. Existing source sequences remain unchanged. Added model/step links are curator planning candidates; optional/manual branches and operation-specific subtypes are preserved. M89–M99 capability expansion adds optional checks/preparation and a separate P06 two-photon branch; it does not claim those instruments occur in source papers.",
+  "functional_refinement_report": "process_class_refinement_2026-10-17.json",
+  "mit_extension_baseline": {
+    "processes": 42,
+    "steps": 175,
+    "classified_equipment_slots": 277,
+    "action_steps_without_separate_class": 15,
+    "unclassified_required_machine_slots": 0,
+    "proposed_classes": 0,
+    "source_steps": 173,
+    "capability_steps": 2,
+    "implemented_classes": 7
+  }
 }

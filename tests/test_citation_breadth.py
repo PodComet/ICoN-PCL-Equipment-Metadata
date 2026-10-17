@@ -24,13 +24,13 @@ def test_new_routes_keep_source_stages_and_do_not_force_unrelated_equipment_clas
     routes={r['route_id']:r for r in load_csv(ROOT/'catalog/routes.csv')}
     steps=load_csv(ROOT/'catalog/route_steps.csv')
     for n in range(24,36):
-        rid=f'P{n}';seq=[s for s in steps if s['route_id']==rid]
+        rid=f'P{n}';seq=[s for s in steps if s['route_id']==rid and not s.get('extension_id')]
         assert [int(s['step_order']) for s in seq]==list(range(1,len(seq)+1))
         assert all(s['equipment_sequence'] and s['source_page'] for s in seq)
-    assert len([s for s in steps if s['route_id'] in {f'P{n}' for n in range(24,36)}])==52
+    assert len([s for s in steps if s['route_id'] in {f'P{n}' for n in range(24,36)} and not s.get('extension_id')])==52
     assert routes['P30']['equipment_category_ids']=='M66'
     assert 'M15' not in routes['P30']['equipment_category_ids']
-    assert set(routes['P35']['equipment_category_ids'].split(';'))=={'M74','M19','M20','M75','M64','M65','M84'}
+    assert set(routes['P35']['equipment_category_ids'].split(';'))=={'M74','M19','M20','M75','M64','M65','M84','M94','M98','M99'}
     assert routes['P35']['related_material_ids']=='N10'
     calcine=next(s for s in steps if s['route_id']=='P32' and s['step_order']=='4')
     assert json.loads(calcine['requirements_json'])['required_branches']==[['M18','M81','M20']]

@@ -38,7 +38,7 @@ def test_new_classes_have_exact_model_photos_pricing_provenance_and_inventory_re
             priced+=1
     assert priced==review['summary']['published_prices']
     assert len(review['purdue_review']['records'])==len(additions)
-    assert inspect_catalog()['active_m_categories']==86
+    assert inspect_catalog()['active_m_categories']==97
 
 def test_green_stars_have_official_and_independent_research_evidence():
     brands=report()['new_manufacturers']

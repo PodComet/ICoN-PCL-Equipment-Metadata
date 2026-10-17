@@ -51,7 +51,7 @@ test('CSV clones and model identity changes clear lifecycle metadata, ordinary e
 });
 
 test('the full review has complete confirmed updates and never marks newer targets as old by inheritance',()=>{
- const confirmed=seed.records.filter(r=>newerModel(r));assert.equal(confirmed.length,25);
+ const confirmed=seed.records.filter(r=>r.catalog_scope!=='mit_class_expansion'&&newerModel(r));assert.equal(confirmed.length,25);
  for(const r of confirmed){assert.deepEqual(hydrate(r),r);assert.match(newerModel(r).url,/^https:\/\//)}
  for(const id of ['M15-01','M51-01','M08-01','M42-02'])assert.equal(newerModel(hydrate(record(id))),null);
 });

@@ -14,11 +14,11 @@ const hydrate=(r,protectedFields=[])=>applyProductFamily(r,seed.product_families
 const plan=input=>buildPlan(csvUpdateText(input),seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 
 test('family presentation preserves all records and preserves the 535 dated cards alongside literature additions',()=>{
- const original=rows.filter(r=>!/^M8[2-8]$/.test(r.record.category_id)&&r.record.catalog_scope!=='mit_nano_expansion');
+ const original=rows.filter(r=>!/^M8[2-8]$/.test(r.record.category_id)&&!['mit_nano_expansion','mit_class_expansion'].includes(r.record.catalog_scope));
  assert.equal(original.length,858);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,rows.length);
  assert.equal(groupRows(original).length,724);const originalFamilies=seed.product_families.filter(m=>original.some(r=>r.record.equipment_id===m.equipment_id));assert.equal(originalFamilies.length,102);
  assert.equal(new Set(originalFamilies.map(r=>r.product_family_id)).size,39);
- assert.equal(rows.filter(row=>newerModel(row.record)).length,25);
+ assert.equal(rows.filter(row=>row.record.catalog_scope!=='mit_class_expansion'&&newerModel(row.record)).length,25);
  const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,rows.length);
  const firstMissing=ordered.findIndex(group=>!group.some(row=>row.record.image_url));
  assert.ok(ordered.slice(firstMissing).every(group=>!group.some(row=>row.record.image_url)));
@@ -83,7 +83,7 @@ test('Purdue sub-models keep their exact inventory associations',()=>{
 });
 
 test('all 22 affected families have a notice even when the default sub-model has no successor',()=>{
- const affected=groupRows(rows).filter(group=>variantsWithNewerModels(group).length);
+ const affected=groupRows(rows.filter(r=>r.record.catalog_scope!=='mit_class_expansion')).filter(group=>variantsWithNewerModels(group).length);
  assert.equal(affected.length,22);
  assert.equal(affected.reduce((count,group)=>count+variantsWithNewerModels(group).length,0),25);
  for(const id of ['M08-01','M51-01']){

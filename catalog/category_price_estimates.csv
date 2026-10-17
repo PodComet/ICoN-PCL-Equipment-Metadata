@@ -85,6 +85,17 @@ M85,Wet-process benches and batch solvent-exchange stations,,,,No qualifying MSR
 M86,Process data acquisition and feedback-control systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M87,Casting/moulding fixtures and ambient drying stations,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M88,Powder dispensing and die-loading systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M89,Two-photon lithography and micro/nano printing systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M90,Cryogenic grid vitrification systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M91,Magnetic-property measurement systems (SQUID/VSM),,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M92,ICP-OES elemental analysis,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M93,Contact stylus profilometry,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M94,Nanoindentation and nanomechanical testing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M95,X-ray photoelectron spectroscopy (XPS),,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M96,Auger electron spectroscopy systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M97,Quartz crystal microbalance with dissipation monitoring,3118.44,4678.96,USD,"Category M97: 1.2 × lowest benchmark USD 2598.7 (openQCM Q-1) through 0.8 × highest benchmark USD 5848.7 (openQCM NEXT). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://store.openqcm.com/openqcm-q-1-with-dissipation-module/?setCurrencyId=2;https://store.openqcm.com/openqcm-next/?setCurrencyId=2,2026-10-17
+M98,X-ray fluorescence spectrometers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M99,X-ray microscopy and tomography,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-AM,Metal additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-CNC,CNC machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-CS,Cold spray deposition,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17

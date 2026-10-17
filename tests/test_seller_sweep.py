@@ -21,7 +21,7 @@ def test_seller_prices_do_not_become_msrp_or_official_list_benchmarks():
 def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
     report=json.loads((ROOT/'catalog/link_review_2026-10-17-sellers.json').read_text(encoding='utf-8'))
     new_ids={r['equipment_id'] for r in json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records']}
-    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv') if r['equipment_id'] not in new_ids and r['catalog_scope']!='mit_nano_expansion'}
+    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv') if r['equipment_id'] not in new_ids and r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion'}}
     s=report['summary']
     assert len(rows)==s['models']==858
     assert sum(bool(r['image_url']) for r in rows.values())==s['photos_after']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])

@@ -44,11 +44,11 @@ def test_new_processes_keep_source_sequences_and_required_evidence():
     assert len(audit['new_route_ids'])==9
     for rid in audit['new_route_ids']:
         assert routes[rid]['route_kind']=='manufacturing_process'
-        seq=[s for s in steps if s['route_id']==rid]
+        seq=[s for s in steps if s['route_id']==rid and not s.get('extension_id')]
         assert [int(s['step_order']) for s in seq]==list(range(1,len(seq)+1))
         assert all(s['equipment_sequence'] and s['source_page'] for s in seq)
         assert any(l['target_type']=='route' and l['target_id']==rid and l['relation']=='supports_claim' for l in data['reference_links'])
-    assert len([s for s in steps if s['route_id'] in audit['new_route_ids']])==36
+    assert len([s for s in steps if s['route_id'] in audit['new_route_ids'] and not s.get('extension_id')])==36
     assert 'rotary' not in ' '.join(s['equipment_category_ids'].lower() for s in steps if s['route_id']=='P17')
     assert 'M16' not in routes['P17']['equipment_category_ids']
     assert 'M18' not in routes['P15']['equipment_category_ids']

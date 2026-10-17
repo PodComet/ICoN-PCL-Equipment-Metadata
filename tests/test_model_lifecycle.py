@@ -9,7 +9,7 @@ def test_dated_lifecycle_review_matches_canonical_csv_and_generated_seed():
     reviews = load_csv(ROOT / 'catalog/model_lifecycle.csv')
     report = json.loads((ROOT / 'catalog/model_lifecycle_review_2026-10-15.json').read_text(encoding='utf-8'))
     seed = json.loads((ROOT / 'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
-    dated=[r for r in reviews if r['review_method'] not in {'literature_methods_identity_check','official_module_identity_check','primary_source_identity_only'}]
+    dated=[r for r in reviews if r['equipment_id'] not in {v['equipment_id'] for v in records if v['catalog_scope']=='mit_class_expansion'} and r['review_method'] not in {'literature_methods_identity_check','official_module_identity_check','primary_source_identity_only'}]
     counts = validate_model_lifecycle(records, dated)
     assert counts == report['status_counts']
     assert counts['newer_model_confirmed'] == 24

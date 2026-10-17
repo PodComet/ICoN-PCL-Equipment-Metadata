@@ -7,7 +7,7 @@ export function pendingClassSlots(step:ProcessStep):ProcessSlot[]{
 }
 /** Capability corrections follow the exact current model; configuration and prices stay with the saved occurrence. */
 function refreshSlotCapability(slot:ProcessSlot,records:Equipment[]):ProcessSlot{
- const i=slot.instrument;if(!i||slot.extensions.allowed_equipment_subtypes===undefined)return slot;
+ const i=slot.instrument;if(!i)return slot;
  const identity=(s:string)=>(s||'').normalize('NFKC').trim().toLowerCase();
  const current=records.find(r=>r.equipment_id===i.equipment_id&&identity(r.manufacturer)===identity(i.equipment_snapshot.manufacturer)&&identity(r.model_name)===identity(i.equipment_snapshot.model_name));
  if(!current||(current.equipment_subtype||'')===(i.equipment_snapshot.equipment_subtype||''))return slot;

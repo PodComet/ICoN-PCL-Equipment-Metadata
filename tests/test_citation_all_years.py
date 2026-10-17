@@ -44,7 +44,7 @@ def test_new_processes_keep_classified_and_unclassified_stages_explicit():
     routes={r['route_id']:r for r in load_csv(ROOT/'catalog/routes.csv')}
     steps=load_csv(ROOT/'catalog/route_steps.csv')
     for n in range(36,43):
-        seq=[s for s in steps if s['route_id']==f'P{n}']
+        seq=[s for s in steps if s['route_id']==f'P{n}' and not s.get('extension_id')]
         assert [int(s['step_order']) for s in seq]==list(range(1,len(seq)+1))
         assert any(s['equipment_category_ids'] for s in seq)
         for stage in seq:
@@ -54,6 +54,6 @@ def test_new_processes_keep_classified_and_unclassified_stages_explicit():
                 assert not any(req['required_branches'])
         assert all(s['equipment_sequence'] and s['source_page'] for s in seq)
     assert routes['P42']['equipment_category_ids']=='M24;M59;M68;M85'
-    assert routes['P41']['equipment_category_ids']=='M12;M69;M88'
+    assert routes['P41']['equipment_category_ids']=='M12;M69;M88;M94;M98;M99'
     assert set(routes['P37']['equipment_category_ids'].split(';'))=={'M67','M02','M31','M71','M87'}
     assert routes['P36']['equipment_category_ids']=='M53;M15'

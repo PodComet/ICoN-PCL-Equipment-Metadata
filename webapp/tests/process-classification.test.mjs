@@ -38,7 +38,7 @@ test('classification restores the original slot identity and metadata without ch
  const w=create('P43'),custom=newSlot([],'My controller');custom.extensions={notes:'Custom settings'};w.steps[0].slots.push(custom);const fixed=normalize(w);
  const next=resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M62',seed.categories),restored=next.steps[0].slots.find(s=>s.slot_id===custom.slot_id);
  assert.deepEqual(restored,{...custom,allowed_category_ids:['M62']});assert.deepEqual(pendingClassSlots(next.steps[0]),[]);assert.deepEqual(pendingClassSlots(fixed.steps[0]),[custom]);
- assert.throws(()=>resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M99',seed.categories),/current M-class/);
+ assert.throws(()=>resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M999',seed.categories),/current M-class/);
 });
 test('unambiguous legacy X classes migrate, while split legacy classes need a deliberate choice',()=>{
  const w=create('P43');w.steps=[newStep(['X-ROB']),newStep(['X-FILTER'])];
