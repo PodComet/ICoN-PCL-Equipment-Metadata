@@ -14,7 +14,11 @@ icon:EvidenceShape a sh:NodeShape ; sh:targetClass icon:SourceEvidence ;
   sh:property [ sh:path icon:claim ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
   sh:property [ sh:path icon:sourceLocator ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
   sh:property [ sh:path prov:hadPrimarySource ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ;
-  sh:property [ sh:path dct:references ; sh:minCount 1 ; sh:class icon:AcademicReference ] .
+  sh:property [ sh:path dct:references ; sh:class icon:AcademicReference ] ;
+  sh:or (
+    [ sh:property [ sh:path icon:classification ; sh:in ( "manufacturer_fact" "curator_interpretation" ) ] ]
+    [ sh:property [ sh:path dct:references ; sh:minCount 1 ] ]
+  ) .
 
 icon:ConditionShape a sh:NodeShape ; sh:targetClass icon:OperatingCondition ;
   sh:property [ sh:path icon:inRoute ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Route ] ;

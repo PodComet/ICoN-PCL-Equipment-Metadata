@@ -45,6 +45,8 @@ The vocabulary namespace is `https://github.com/PodComet/ICoN-PCL-Equipment-Meta
 - `ReportedProperty` is a literature measurement. Its `supportsExpectation` flag preserves the app's limited conditional analogue admission; it does not assert experimental validation of a user's plan.
 - `SourceEvidence` connects claims and locators to source URLs and academic references. No inference promotes background reading to exact-model evidence.
 
+Literature-reported claims require an academic reference. Manufacturer facts can cite manufacturer documentation directly without an unrelated academic reference; a source URL, claim and locator are still required.
+
 Query P20 conditions and their evidence with RDFLib:
 
 ```python

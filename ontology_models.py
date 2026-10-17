@@ -60,9 +60,15 @@ class EvidenceRecord(Contract):
     source_url: HttpUrl
     source_title: Text
     source_locator: Text
-    reference_ids: list[Text] = Field(min_length=1)
+    reference_ids: list[Text]
     scope: str
     reviewed_date: date
+
+    @model_validator(mode='after')
+    def literature_needs_a_reference(self) -> Self:
+        if self.classification == 'literature_reported' and not self.reference_ids:
+            raise ValueError('A literature-reported claim requires an academic reference')
+        return self
 
 
 class Uncertainty(Contract):

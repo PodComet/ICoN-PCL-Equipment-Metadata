@@ -68,6 +68,8 @@ def test_typed_records_reject_nonfinite_values_and_empty_provenance():
     for invalid in [dict(source_url='javascript:alert(1)'), dict(reference_ids=[]), dict(source_locator='')]:
         with pytest.raises(ValidationError):
             EvidenceRecord.model_validate({**data['evidence'][0], **invalid})
+    manual = EvidenceRecord.model_validate({**data['evidence'][0], 'classification': 'manufacturer_fact', 'reference_ids': []})
+    assert manual.reference_ids == []  # Manufacturer documentation does not need an unrelated academic paper.
 
 
 def test_parallel_process_actions_and_prerequisites_are_not_flattened():

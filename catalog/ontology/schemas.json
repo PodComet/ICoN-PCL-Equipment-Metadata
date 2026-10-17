@@ -172,7 +172,6 @@
           "minLength": 1,
           "type": "string"
         },
-        "minItems": 1,
         "title": "Reference Ids",
         "type": "array"
       },

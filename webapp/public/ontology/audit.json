@@ -31,7 +31,7 @@
     "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
     "equipment.csv": "7f3f7d09a303ec4e118321115bf87d049f0fb51237d59fad59181c0cb174b44b",
     "model_identity_reviews.csv": "10781315fac733ac4e93886c86e844c4efac60428d9f7296265c43bf299b0a4c",
-    "ontology/shapes.ttl": "43f20d2eb31964b09fef0683233f2a4e0bc02fd343747c17a1d31ec16fcbb264",
+    "ontology/shapes.ttl": "0ae625328143bfa3770a192c2ab6c0bd7a7ceea9d8f5a96a55e23b41a2638394",
     "process_condition_evidence.csv": "a6e34ccdcee5a163b1ab3e84f8a42dcaec2d0c2ac1f0cb2f40789dabfa81e977",
     "process_conditions.csv": "80cb82b090b2641b3344b69dcc84cfdf4389f3ce7cb93a0a3bfdfae02e176907",
     "process_property_anchors.csv": "f593da35a2de9052d7b070d25a963edc828d19ca2791de78bc2749787cb4ca02",
