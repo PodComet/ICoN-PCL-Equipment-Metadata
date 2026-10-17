@@ -22,7 +22,7 @@ export const splitIds=(value:string|undefined)=>[...new Set((value||'').split(';
 export const newProcessId=(prefix:string)=>prefix+'-'+crypto.randomUUID();
 export function newSlot(allowed:string[]=[],label='Instrument slot'):ProcessSlot{return {slot_id:newProcessId('SLOT'),label,allowed_category_ids:[...allowed],instrument:null,extensions:{}};}
 export function newStep(allowed:string[]=[]):ProcessStep{return {step_id:newProcessId('STEP'),label:'New step',notes:'',source_step_order:'',source_sequence:'',slots:[newSlot(allowed)],extensions:{}};}
-export type StepRequirements={required_branches:string[][];optional_category_ids:string[];optional_branches?:string[][];unresolved_required_equipment:boolean;readiness_review_required:boolean;notes:string};
+export type StepRequirements={required_branches:string[][];optional_category_ids:string[];optional_branches?:string[][];allowed_subtypes_by_category?:Record<string,string[]>;unresolved_required_equipment:boolean;readiness_review_required:boolean;notes:string};
 export function stepRequirements(source:Record<string,string>):StepRequirements|null{
  try{const r=JSON.parse(source.requirements_json||'null');if(!r||!Array.isArray(r.required_branches)||!r.required_branches.every((b:unknown)=>Array.isArray(b)&&b.every(c=>typeof c==='string'))||!Array.isArray(r.optional_category_ids))return null;return r;}catch{return null;}
 }
@@ -32,6 +32,7 @@ export function requirementSlots(requirements:StepRequirements):ProcessSlot[]{
  for(const c of requirements.optional_category_ids)if(!counts.has(c))counts.set(c,1);
  const slots:ProcessSlot[]=[...counts].flatMap(([cid,n])=>Array.from({length:n},(_,i)=>({...newSlot([cid],cid+(n>1?' · unit '+(i+1):'')),extensions:{requirement_role:requirements.optional_category_ids.includes(cid)?'optional':requirements.required_branches.every(b=>b.filter(c=>c===cid).length>i)?'required':'alternative'}})));
  if(requirements.unresolved_required_equipment)slots.push({...newSlot([],'Unclassified required apparatus'),extensions:{requirement_role:'unclassified'}});
+ for(const slot of slots){const subtypes=requirements.allowed_subtypes_by_category?.[slot.allowed_category_ids[0]];if(subtypes)slot.extensions.allowed_equipment_subtypes=[...subtypes];}
  return slots;
 }
 export function createWorkflow(route:Route,sourceSteps:Record<string,string>[]):ProcessWorkflow{
@@ -127,13 +128,17 @@ export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotI
  const i=from.instrument,reused=structuredClone(i);reused.instance_id=newProcessId(i.category_id);reused.extensions.physical_unit_id=unitId(i);
  return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(v=>v.slot_id===slotId?{...v,instrument:reused}:v)}))};
 }
-export function slotAccepts(slot:ProcessSlot,r:Equipment){return !!slot.allowed_category_ids.length&&slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
+export function slotAccepts(slot:ProcessSlot,r:Equipment){
+ const subtypes=slot.extensions.allowed_equipment_subtypes;
+ return !!slot.allowed_category_ids.length&&slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id))&&
+  (subtypes===undefined||Array.isArray(subtypes)&&subtypes.some(s=>typeof s==='string'&&splitIds(r.equipment_subtype).includes(s)));
+}
 export function routeCandidates(records:Equipment[],route:Route,slot:ProcessSlot|null,steps?:ProcessStep[]){
  // The current plan's classified steps define relevance, including user-added slots.
  // A route tag alone does not establish that a model fits any equipment step.
  const classes=new Set(steps===undefined?splitIds(route.equipment_category_ids):steps.flatMap(s=>s.slots.flatMap(v=>v.allowed_category_ids)));
  if(slot?.extensions.requirement_role==='unclassified'&&!slot.allowed_category_ids.length)return [];
- return records.filter(r=>[r.category_id,...splitIds(r.legacy_category_ids)].some(id=>classes.has(id))&&(!slot||slotAccepts(slot,r)));
+ return records.filter(r=>[r.category_id,...splitIds(r.legacy_category_ids)].some(id=>classes.has(id))&&(slot?slotAccepts(slot,r):!steps||steps.some(s=>s.slots.some(v=>slotAccepts(v,r)))));
 }
 export function assignInstrument(workflow:ProcessWorkflow,slotId:string,r:Equipment):ProcessWorkflow{
  const slot=workflow.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId);
@@ -156,7 +161,7 @@ export function fillMatchingInstrumentSlots(workflow:ProcessWorkflow,sourceSlotI
   const used=new Set(step.slots.flatMap(s=>s.instrument?[unitId(s.instrument)]:[]));let changed=false;
   const slots=step.slots.map(slot=>{
    // A shared historical X alias or an unclassified slot is not an explicit match to this M class.
-   if(slot.instrument||!slot.allowed_category_ids.includes(instrument.category_id))return slot;
+   if(slot.instrument||!slot.allowed_category_ids.includes(instrument.category_id)||!slotAccepts(slot,instrument.equipment_snapshot))return slot;
    const available=[...units.values()].find(i=>!used.has(unitId(i))),copy=structuredClone(available||instrument);
    copy.instance_id=newProcessId(copy.category_id);
    if(available)copy.extensions.physical_unit_id=unitId(available);

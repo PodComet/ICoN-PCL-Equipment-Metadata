@@ -78,6 +78,13 @@ M78,Aerosol particle detector,,,,No qualifying MSRP/list-price benchmark found f
 M79,Aerosol collection system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M80,Laser-ablation reaction chambers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M81,Laboratory mortar and grinding mills,3033.6,6261.6,USD,"Category M81: 1.2 × lowest benchmark USD 2528 (A 10 basic) through 0.8 × highest benchmark USD 7827 (M 20 Universal mill). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Mills-pg194/A-10-basic-4020700/Downloads-cpdl.html;https://www.ika.com/en/Products-LabEq/M-20-Universal-mill-1603600/Downloads-cpdl.html,2026-10-17
+M82,Liquid handling and pipetting systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M83,Magnetic particle separation systems,,,USD,Category rule would yield USD 314.4–209.6 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.neb.com/products/s1506-6-tube-magnetic-separation-rack,2026-10-17
+M84,Quench tanks and immersion cooling vessels,,,USD,Category rule would yield USD 3630–2420 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://llfurnace.com/promos/,2026-10-17
+M85,Wet-process benches and batch solvent-exchange stations,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M86,Process data acquisition and feedback-control systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M87,Casting/moulding fixtures and ambient drying stations,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M88,Powder dispensing and die-loading systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-AM,Metal additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-CNC,CNC machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-CS,Cold spray deposition,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17

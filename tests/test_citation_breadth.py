@@ -30,7 +30,7 @@ def test_new_routes_keep_source_stages_and_do_not_force_unrelated_equipment_clas
     assert len([s for s in steps if s['route_id'] in {f'P{n}' for n in range(24,36)}])==52
     assert routes['P30']['equipment_category_ids']=='M66'
     assert 'M15' not in routes['P30']['equipment_category_ids']
-    assert routes['P35']['equipment_category_ids']=='M74;M19;M20;M75;M64;M65'
+    assert set(routes['P35']['equipment_category_ids'].split(';'))=={'M74','M19','M20','M75','M64','M65','M84'}
     assert routes['P35']['related_material_ids']=='N10'
     calcine=next(s for s in steps if s['route_id']=='P32' and s['step_order']=='4')
     assert json.loads(calcine['requirements_json'])['required_branches']==[['M18','M81','M20']]

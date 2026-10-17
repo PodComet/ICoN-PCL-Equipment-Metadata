@@ -9,7 +9,7 @@ def test_new_classes_have_scoped_model_evidence_without_inheriting_purdue_owners
     report=json.loads((ROOT/'catalog/process_slot_completion_2026-10-16.json').read_text(encoding='utf-8'))
     records={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     classes={c['category_id']:c for c in report['new_categories']}
-    assert len(classes)==11 and len(report['new_records'])==93 and len(records)==858
+    assert len(classes)==11 and len(report['new_records'])==93 and len(records)==858+len(json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records'])
     counts=Counter(r['category_id'] for r in report['new_records'])
     assert set(counts)==set(classes) and all(1<=n<=10 for n in counts.values())
     assert counts['M80']==1  # Only one evidenced custom chamber; no invented market equivalents.
@@ -57,6 +57,6 @@ def test_exported_model_estimates_reproduce_the_offline_seed():
     seed=json.loads((ROOT/'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
     computed=with_msrp_estimates(seed['records'],seed['model_lifecycle'],seed['msrp_policy'])
     export=load_csv(ROOT/'catalog/equipment_msrp_estimates.csv')
-    assert len(export)==len(computed)==858
+    assert len(export)==len(computed)==len(seed['records'])
     for saved,current in zip(export,computed):
         assert all(value==current[key] for key,value in saved.items())

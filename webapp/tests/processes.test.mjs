@@ -129,7 +129,7 @@ test('breadth routes expose only their supported classes and start with empty ze
  assert.ok(routeCandidates(seed.records,dialysis,null).every(r=>r.category_id==='M66'));
  const alloy=seed.routes.find(r=>r.route_id==='P35');
  assert.equal(alloy.related_material_ids,'N10');
- assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M74','M19','M20','M75','M64','M65'].includes(r.category_id)));
+ assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M74','M19','M20','M75','M64','M65','M84'].includes(r.category_id)));
 });
 
 test('all-years citation routes expose only classes used by their actual current steps',()=>{

@@ -14,11 +14,12 @@ const hydrate=(r,protectedFields=[])=>applyProductFamily(r,seed.product_families
 const plan=input=>buildPlan(csvUpdateText(input),seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 
 test('family presentation preserves all records and preserves the 535 dated cards alongside literature additions',()=>{
- assert.equal(rows.length,858);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,858);
- assert.equal(groupRows(rows).length,724);assert.equal(seed.product_families.length,102);
- assert.equal(new Set(seed.product_families.map(r=>r.product_family_id)).size,39);
+ const original=rows.filter(r=>!/^M8[2-8]$/.test(r.record.category_id));
+ assert.equal(original.length,858);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,rows.length);
+ assert.equal(groupRows(original).length,724);const originalFamilies=seed.product_families.filter(m=>original.some(r=>r.record.equipment_id===m.equipment_id));assert.equal(originalFamilies.length,102);
+ assert.equal(new Set(originalFamilies.map(r=>r.product_family_id)).size,39);
  assert.equal(rows.filter(row=>newerModel(row.record)).length,25);
- const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,858);
+ const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,rows.length);
  const firstMissing=ordered.findIndex(group=>!group.some(row=>row.record.image_url));
  assert.ok(ordered.slice(firstMissing).every(group=>!group.some(row=>row.record.image_url)));
 });

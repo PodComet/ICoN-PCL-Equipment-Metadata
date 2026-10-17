@@ -1,11 +1,12 @@
 # Equipment database
 
-`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 79 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes retain source-reported starting examples and now include manufacturer-documented market alternatives (at least five model/component records in the earlier M01–M70 classes; new M71–M81 classes have one to ten documented examples); the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
+`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 86 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes retain source-reported starting examples and now include manufacturer-documented market alternatives (at least five model/component records in the earlier M01–M70 classes; new M71–M81 classes have one to ten documented examples); the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
 
 ## Files
 
 | File | Meaning |
 | --- | --- |
+| class_implementation_2026-10-17.json | 67 model/variant additions in M82–M88, 67 photo links, 58 published prices, manufacturer histories/research evidence, 14 step integrations and scoped gaps |
 | process_slot_completion_2026-10-16.json | 93 primary-source alternatives in eleven new classes; 29 required-stage classifications, scopes and unresolved media/prices |
 | equipment_msrp_estimates.csv | Reproducible per-model formula result, benchmark IDs, source URLs and unavailable status |
 | msrp_rule_review_2026-10-16.json | Pricing policy and calculation audit |

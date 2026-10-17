@@ -92,7 +92,7 @@ test('FRITSCH confirmation grants its star without inventing independent researc
  const records=seed.records.filter(r=>r.manufacturer==='FRITSCH');
  assert.equal(brand.verification_basis,'user_confirmation');
  assert.equal(brand.research_use_status,'research_supplier_claim_only');
- assert.equal(records.length,6);assert.ok(records.every(verifiedManufacturer));
+ assert.equal(records.length,7);assert.ok(records.every(verifiedManufacturer));
  const unknown=applyManufacturerAudit({...records[0],manufacturer:'Unconfirmed maker'},seed.manufacturers);
  assert.equal(unknown.manufacturer_verification_basis,'');assert.equal(verifiedManufacturer(unknown),false);
 });

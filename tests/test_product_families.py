@@ -7,7 +7,8 @@ from catalog_tools import ROOT, load_csv, validate_product_families
 def test_membership_preserves_model_data_and_matches_review_report():
     equipment = load_csv(ROOT / 'catalog/equipment.csv')
     memberships = load_csv(ROOT / 'catalog/product_families.csv')
-    assert validate_product_families(equipment, memberships) == 39
+    assert validate_product_families(equipment, memberships) == len({m['product_family_id'] for m in memberships})
+    assert len({m['product_family_id'] for m in memberships if m['review_date']<'2026-10-17'}) == 39
     seed = json.loads((ROOT / 'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
     assert len(seed['records']) == len(equipment)
     assert len([r for r in equipment if r['catalog_scope'] in {'core_example','requested_supplement'}]) == 632

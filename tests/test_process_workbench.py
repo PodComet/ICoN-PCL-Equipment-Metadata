@@ -16,7 +16,9 @@ def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
         assert type(req['readiness_review_required']) is bool
         assert req['notes']
     assert sum(json.loads(s['requirements_json'])['unresolved_required_equipment'] for s in rows)==0
-    assert sum(json.loads(s['requirements_json'])['readiness_review_required'] for s in rows)==50
+    implementation=json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))
+    additional_reviews=sum(not m['previous_requirements']['readiness_review_required'] for m in implementation['process_links'] if 'previous_requirements' in m)
+    assert sum(json.loads(s['requirements_json'])['readiness_review_required'] for s in rows)==50+additional_reviews
     pump=next(s for s in rows if s['route_id']=='P27' and s['step_order']=='2')
     assert json.loads(pump['requirements_json'])['required_branches']==[['M07','M07']]
     assert sum(s['source_pdf']=='Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf' for s in steps)==109
@@ -25,10 +27,10 @@ def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
 def test_position_roadmap_is_model_bound_and_never_fabricates_operating_states():
     records={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     index=load_csv(ROOT/'catalog/equipment_position_lists.csv')
-    assert len(index)==len(records)==858
+    assert len(index)==len(records)
     assert {r['equipment_id'] for r in index}==set(records)
     assert all(r['model_name']==records[r['equipment_id']]['model_name'] for r in index)
-    assert sum(r['review_status']=='not_started' and r['position_count']=='0' for r in index)==857
+    assert sum(r['review_status']=='not_started' and r['position_count']=='0' for r in index)==len(records)-1
     library=json.loads((ROOT/'catalog/position_interfaces.json').read_text(encoding='utf-8'))
     profile=library['profiles'][0];interface=profile['interface']
     assert profile['equipment_id']=='EXT-M70-OPENTRONS-GEN2'

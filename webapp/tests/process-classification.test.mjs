@@ -17,8 +17,8 @@ test('the full audit covers every source action and all machine slots have curre
   const w=normalize(create(route.route_id));
   for(const step of w.steps){if(!step.slots.length)actions.push(route.route_id+'.'+step.source_step_order);for(const slot of step.slots){slots++;assert.ok(slot.allowed_category_ids.length);assert.ok(slot.allowed_category_ids.every(id=>/^M\d{2,3}$/.test(id)&&known.has(id)));}}
  }
- assert.equal(slots,audit.summary.classified_equipment_slots);assert.deepEqual(actions.sort(),audit.steps.map(s=>s.step_id).sort());assert.equal(actions.length,29);
- assert.ok(audit.proposals.every(p=>!known.has(p.proposed_id)&&p.status==='proposed_not_active'));
+ assert.equal(slots,audit.summary.classified_equipment_slots);assert.deepEqual(actions.sort(),audit.steps.filter(s=>!s.implementation_status.startsWith('implemented_')||s.implementation_status==='implemented_subtype_gap').map(s=>s.step_id).sort());assert.equal(actions.length,audit.summary.action_steps_without_separate_class);
+ assert.ok(audit.proposals.every(p=>known.has(p.proposed_id)&&p.status==='implemented'));
 });
 test('classless requests cannot accept models or expose the whole process pool',()=>{
  const w=create('P43'),slot=newSlot();w.steps[0].slots.push(slot);
@@ -38,7 +38,7 @@ test('classification restores the original slot identity and metadata without ch
  const w=create('P43'),custom=newSlot([],'My controller');custom.extensions={notes:'Custom settings'};w.steps[0].slots.push(custom);const fixed=normalize(w);
  const next=resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M62',seed.categories),restored=next.steps[0].slots.find(s=>s.slot_id===custom.slot_id);
  assert.deepEqual(restored,{...custom,allowed_category_ids:['M62']});assert.deepEqual(pendingClassSlots(next.steps[0]),[]);assert.deepEqual(pendingClassSlots(fixed.steps[0]),[custom]);
- assert.throws(()=>resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M83',seed.categories),/current M-class/);
+ assert.throws(()=>resolvePendingClass(fixed,fixed.steps[0].step_id,custom.slot_id,'M99',seed.categories),/current M-class/);
 });
 test('unambiguous legacy X classes migrate, while split legacy classes need a deliberate choice',()=>{
  const w=create('P43');w.steps=[newStep(['X-ROB']),newStep(['X-FILTER'])];

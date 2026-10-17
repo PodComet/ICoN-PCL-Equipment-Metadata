@@ -5,12 +5,13 @@
   "summary": {
     "processes": 42,
     "steps": 175,
-    "classified_equipment_slots": 257,
-    "action_steps_without_separate_class": 29,
+    "classified_equipment_slots": 271,
+    "action_steps_without_separate_class": 15,
     "unclassified_required_machine_slots": 0,
-    "proposed_classes": 7,
+    "proposed_classes": 0,
     "source_steps": 173,
-    "capability_steps": 2
+    "capability_steps": 2,
+    "implemented_classes": 7
   },
   "proposals": [
     {
@@ -19,7 +20,7 @@
       "scope": "Manual/electronic pipettes and dispensers, plus automated pipetting workstations; complements pumps M07 and general robots M62.",
       "source_url": "https://www.eppendorf.com/en/own-your-solution/manual/",
       "caveat": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P17.1",
         "P17.3",
@@ -27,7 +28,10 @@
         "P24.4",
         "P27.1",
         "P40.1"
-      ]
+      ],
+      "model_count": 10,
+      "photo_count": 10,
+      "published_price_count": 10
     },
     {
       "proposed_id": "M83",
@@ -35,10 +39,13 @@
       "scope": "Magnetic racks, separators and flow-through magnetic recovery assemblies.",
       "source_url": "https://www.thermofisher.com/us/en/home/brands/product-brand/dynal/magnets.html?open=order-magnets",
       "caveat": "P33 step 4 is an optional characterization-preparation branch, not a universal production requirement. Representative magnetic-bead racks are not validated for the cited magnetite formulation.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P33.4"
-      ]
+      ],
+      "model_count": 10,
+      "photo_count": 10,
+      "published_price_count": 10
     },
     {
       "proposed_id": "M84",
@@ -46,10 +53,13 @@
       "scope": "Water/oil/polymer quench baths and tanks, kept distinct from furnaces and recirculating chillers.",
       "source_url": "https://nabertherm.com/en/products/industry/thermal-process/processes-under-protective/compact-quenching",
       "caveat": "P35 explicitly records a water-quench vessel but no make/model; the cited manufacturer page establishes the equipment type only.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P35.5"
-      ]
+      ],
+      "model_count": 10,
+      "photo_count": 10,
+      "published_price_count": 3
     },
     {
       "proposed_id": "M85",
@@ -57,13 +67,16 @@
       "scope": "Development, rinsing, lift-off, washing and batch solvent-exchange stations, with operation-specific configuration.",
       "source_url": "https://www.modutek.com/wet-benches/stainless-steel-wet-bench-systems/",
       "caveat": "A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P25.5",
         "P31.4",
         "P42.3",
         "P42.5"
-      ]
+      ],
+      "model_count": 10,
+      "photo_count": 10,
+      "published_price_count": 8
     },
     {
       "proposed_id": "M86",
@@ -71,22 +84,28 @@
       "scope": "Sensor interfaces, DAQ hardware and controllers; software and feedback policies remain configuration data.",
       "source_url": "https://www.ni.com/en-us/shop/compactdaq.html",
       "caveat": "Existing optical instruments remain M35/M40 and pumps remain M07; DAQ type evidence does not establish a valid closed-loop controller for either cited process.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P21.5",
         "P22.4"
-      ]
+      ],
+      "model_count": 9,
+      "photo_count": 9,
+      "published_price_count": 9
     },
     {
       "proposed_id": "M87",
       "name": "Casting/moulding fixtures and ambient drying stations",
       "scope": "Scaffold moulds, casting fixtures and controlled ambient conditioning enclosures.",
       "source_url": "",
-      "caveat": "Proposal derived from the P16 source action. An accessory-level extension may fit better than an M-class; do not substitute a heated oven for room-temperature drying.",
-      "status": "proposed_not_active",
+      "caveat": "Casting fixtures and ambient enclosures are distinct subtypes. Mould geometry/material compatibility requires review. No heated oven is substituted for room-temperature drying.",
+      "status": "implemented",
       "steps": [
         "P16.3"
-      ]
+      ],
+      "model_count": 8,
+      "photo_count": 8,
+      "published_price_count": 8
     },
     {
       "proposed_id": "M88",
@@ -94,10 +113,13 @@
       "scope": "Metered powder feeders/dispensers and configurable die-filling/loading assemblies.",
       "source_url": "https://www.mt.com/us/en/home/products/Laboratory_Weighing_Solutions/analytical-balances/automatic-balance.html",
       "caveat": "Candidate for a future automated P41 loading branch. Commercial powder dosing establishes the equipment type, not graphite-die or nanocarbon compatibility.",
-      "status": "proposed_not_active",
+      "status": "implemented",
       "steps": [
         "P41.3"
-      ]
+      ],
+      "model_count": 10,
+      "photo_count": 10,
+      "published_price_count": 10
     }
   ],
   "steps": [
@@ -135,7 +157,8 @@
         "M87"
       ],
       "recommendation": "Moulding and ambient drying use fixtures/accessories; no heated oven is established.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_required",
+      "implementation_note": "Casting fixtures and ambient enclosures are distinct subtypes. Mould geometry/material compatibility requires review. No heated oven is substituted for room-temperature drying."
     },
     {
       "step_id": "P17.1",
@@ -155,7 +178,8 @@
         "M82"
       ],
       "recommendation": "Feed preparation is reported without a device. Mixing and liquid-transfer classes are optional implementation choices.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P17.3",
@@ -175,7 +199,8 @@
         "M82"
       ],
       "recommendation": "Transfer/disperse operation; mixing geometry is unreported.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P17.4",
@@ -212,7 +237,8 @@
         "M86"
       ],
       "recommendation": "Reuse Raman measurement hardware; feedback orchestration is a control-layer gap.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Existing optical instruments remain M35/M40 and pumps remain M07; DAQ type evidence does not establish a valid closed-loop controller for either cited process."
     },
     {
       "step_id": "P22.4",
@@ -232,7 +258,8 @@
         "M86"
       ],
       "recommendation": "Optical feedback and flow adjustment need the existing sensor/pump plus a separately specified controller.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Existing optical instruments remain M35/M40 and pumps remain M07; DAQ type evidence does not establish a valid closed-loop controller for either cited process."
     },
     {
       "step_id": "P23.4",
@@ -271,7 +298,8 @@
         "M82"
       ],
       "recommendation": "Solution preparation and dispensing lack a reported device identity.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P24.4",
@@ -288,7 +316,8 @@
         "M82"
       ],
       "recommendation": "Collection can remain a receiving-vessel action; use liquid handling only for a deliberate automated sampling/transfer branch.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P25.2",
@@ -329,7 +358,8 @@
         "M85"
       ],
       "recommendation": "Washing and ligand removal require source-specific chemistry and hardware review.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_subtype_gap",
+      "implementation_note": "Class active, but no independently documented compatible colloid/gel station in this batch. Source action retained; wafer benches are excluded."
     },
     {
       "step_id": "P27.1",
@@ -349,7 +379,8 @@
         "M82"
       ],
       "recommendation": "Reservoir and solution preparation can remain manual; liquid handling is an automation candidate.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P28.1",
@@ -434,7 +465,8 @@
         "M85"
       ],
       "recommendation": "Batch gelation/solvent exchange is distinct from pressure filtration and dialysis; do not assign M15/M66 without evidence.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_subtype_gap",
+      "implementation_note": "Class active, but no independently documented compatible colloid/gel station in this batch. Source action retained; wafer benches are excluded."
     },
     {
       "step_id": "P32.1",
@@ -469,7 +501,8 @@
         "M83"
       ],
       "recommendation": "Magnetic recovery/washing is documented in an optional characterization-preparation branch only.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "P33 step 4 is an optional characterization-preparation branch, not a universal production requirement. Representative magnetic-bead racks are not validated for the cited magnetite formulation."
     },
     {
       "step_id": "P35.5",
@@ -486,7 +519,8 @@
         "M84"
       ],
       "recommendation": "A water-quench vessel is explicitly recorded; its make/model and configuration remain unreported.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_required",
+      "implementation_note": "P35 explicitly records a water-quench vessel but no make/model; the cited manufacturer page establishes the equipment type only."
     },
     {
       "step_id": "P36.1",
@@ -539,7 +573,8 @@
         "M82"
       ],
       "recommendation": "Solution preparation and transfer can be implemented with reviewed mixing/liquid-handling choices.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows."
     },
     {
       "step_id": "P40.4",
@@ -594,7 +629,8 @@
         "M88"
       ],
       "recommendation": "Graphite die loading is currently a handling action associated with SPS. Automated powder dosing/die loading would be a new branch.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_optional",
+      "implementation_note": "Candidate for a future automated P41 loading branch. Commercial powder dosing establishes the equipment type, not graphite-die or nanocarbon compatibility."
     },
     {
       "step_id": "P42.3",
@@ -611,7 +647,8 @@
         "M85"
       ],
       "recommendation": "Develop/rinse is wet processing, not automatically etching or a separate lithography machine.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_required",
+      "implementation_note": "A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required."
     },
     {
       "step_id": "P42.5",
@@ -628,7 +665,19 @@
         "M85"
       ],
       "recommendation": "Resist lift-off/rinse needs a solvent-compatible wet-process station if a machine-level implementation is selected.",
-      "implementation_status": "action_stage_no_separate_machine_asserted"
+      "implementation_status": "implemented_required",
+      "implementation_note": "A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required."
     }
-  ]
+  ],
+  "baseline_summary": {
+    "processes": 42,
+    "steps": 175,
+    "classified_equipment_slots": 257,
+    "action_steps_without_separate_class": 29,
+    "unclassified_required_machine_slots": 0,
+    "proposed_classes": 7,
+    "source_steps": 173,
+    "capability_steps": 2
+  },
+  "implementation_scope": "M82–M88 are active project extensions. Existing source sequences remain unchanged. Added model/step links are curator planning candidates; optional/manual branches and operation-specific subtypes are preserved."
 }
