@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT))
 from reference_tools import build as build_references
 from catalog_tools import validate_model_lifecycle, validate_product_families
 from price_policy import with_msrp_estimates
+from market_tools import seller_offers
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -60,7 +61,7 @@ def main():
     with (ROOT / 'catalog/category_price_estimates.csv').open('w', encoding='utf-8', newline='') as handle:
         writer=csv.DictWriter(handle,fieldnames=class_fields);writer.writeheader();writer.writerows(class_rows)
     report={'policy':data['msrp_policy'], 'status_counts':dict(Counter(r['estimate_status'] for r in data['records'])), 'method_counts':dict(Counter(r['estimate_method'] for r in data['records'])), 'records':[{key:r[key] for key in estimate_fields} for r in data['records']]}
-    (ROOT / 'catalog/msrp_rule_review_2026-10-16.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    (ROOT / f"catalog/msrp_rule_review_{data['msrp_policy']['checked_date']}.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     output = ROOT / "webapp/app/data/catalog.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
@@ -81,6 +82,8 @@ def main():
     (ROOT / 'webapp/app/data/material-images.json').write_text(json.dumps({'checked_date': media['checked_date'], 'images': images}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     currency = json.loads((ROOT / 'catalog/currency_reference_rates.json').read_text(encoding='utf-8'))
     (ROOT / 'webapp/app/data/currency-rates.json').write_text(json.dumps(currency,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    offers = seller_offers(ROOT)
+    (ROOT / 'webapp/app/data/seller-offers.json').write_text(json.dumps({'checked_date': max((o['checked_date'] for o in offers), default=''), 'offers': offers}, ensure_ascii=False, separators=(',', ':'))+'\n',encoding='utf-8')
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

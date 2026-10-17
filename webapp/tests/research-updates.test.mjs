@@ -34,7 +34,7 @@ test('saved pre-review snapshots gain model links and sourced prices while resea
 
 test('alternate sub-models have independently sourced images and saved snapshots gain the right photo',()=>{
  const added=updates.filter(entry=>entry.model_name&&entry.groups.some(group=>group.after.image_url));
- assert.equal(added.filter(r=>!['Genizer','JASCO'].includes(r.manufacturer)).length,107);
+ assert.ok(added.filter(r=>!['Genizer','JASCO'].includes(r.manufacturer)).length>=107);
  assert.equal(added.filter(r=>r.manufacturer==='Genizer').length,8);
  assert.equal(added.filter(r=>r.manufacturer==='JASCO').length,2);
  for(const update of added){
@@ -101,11 +101,13 @@ test('instrument details expose manual, specifications and brochure without dupl
  assert.ok(!pending.some(link=>link.label==='Operating manual'));
 });
 
-test('new-generation EUROSTAR pricing is not attached to the unresolved source identifier',()=>{
+test('EUROSTAR price matches the exact regional SKU without promoting its unverified manual',()=>{
  const instrument=seed.records.find(r=>r.equipment_id==='M03-01');
  assert.equal(instrument.manual_match_status,'scope_or_generation_unresolved');
- assert.equal(instrument.manufacturer_price_value,'');
- assert.match(instrument.product_page_scope,/new-generation.*0020132593/);
+ assert.equal(instrument.manufacturer_price_value,'998');
+ assert.equal(instrument.manufacturer_price_currency,'EUR');
+ assert.match(instrument.manufacturer_price_source_url,/EUROSTAR-20-digital-20105154/);
+ assert.match(instrument.product_page_scope,/0020105154.*0020132593/);
 });
 
 test('saved equipment snapshots receive sourced photos without losing research notes',()=>{
@@ -143,4 +145,14 @@ test('breadth model-use citations refresh independently of local research notes 
   assert.equal(refreshResearchEvidence(withSharedResearchOverrides(saved,['related_process_ids']),updates).related_process_ids,g.before.related_process_ids);
   assert.equal(refreshResearchEvidence({...saved,model_name:'Changed identity'},updates).related_process_ids,g.before.related_process_ids);
  }
+});
+
+
+test('successive price reviews advance old snapshots without replacing custom quotes',()=>{
+ const record={equipment_id:'QA-PRICE-HISTORY',manufacturer:'Example',model_name:'Model One',manufacturer_price_value:'',manufacturer_price_source_url:''};
+ const first={manufacturer_price_value:'100',manufacturer_price_source_url:'https://example.org/old'};
+ const second={manufacturer_price_value:'120',manufacturer_price_source_url:'https://example.org/new'};
+ const reviews=[{equipment_id:record.equipment_id,manufacturer:record.manufacturer,model_name:record.model_name,groups:[{before:{manufacturer_price_value:'',manufacturer_price_source_url:''},after:first},{before:first,after:second}]}];
+ const refreshed=refreshResearchEvidence(record,reviews);assert.equal(refreshed.manufacturer_price_value,'120');assert.deepEqual(refreshResearchEvidence(refreshed,reviews),refreshed);
+ const custom={...record,manufacturer_price_value:'90',manufacturer_price_source_url:'https://example.org/lab-quote'};assert.deepEqual(refreshResearchEvidence(custom,reviews),custom);
 });

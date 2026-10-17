@@ -78,6 +78,7 @@ def validate_product_families(equipment, memberships):
 
 
 def inspect_catalog(root=ROOT):
+    from market_tools import seller_offers
     folder = Path(root) / "catalog"
     equipment = load_csv(folder / "equipment.csv")
     categories = load_csv(folder / "categories.csv")
@@ -207,6 +208,9 @@ def inspect_catalog(root=ROOT):
         "manual_coverage": dict(sorted(Counter(r["manual_match_status"] for r in equipment).items())),
         "model_evidence": dict(sorted(Counter(r["model_evidence_status"] for r in equipment).items())),
         "msrp_records": sum(bool(r["msrp_value"]) for r in equipment),
+        "photo_records": sum(bool(r.get("image_url")) for r in equipment),
+        "seller_offer_records": len(seller_offers(root)),
+        "published_seller_price_models": len({o["equipment_id"] for o in seller_offers(root)}),
         "published_manufacturer_price_records": sum(bool(r.get("manufacturer_price_value")) for r in equipment),
         "manufacturer_product_page_records": sum(bool(r.get("product_page_url")) for r in equipment),
         "technical_specification_records": sum(bool(r.get("technical_spec_url")) for r in equipment),

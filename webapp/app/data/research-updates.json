@@ -407,8 +407,38 @@
         "after": {
           "notes": "Model family verified. Candidate 20105154 is newer 2026 generation; match instrument generation before applying older shared manual. Deep-link review 2026-10-14: Official current page has changed generation despite retaining 20105154 in its URL. No new price or manual verification assigned."
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "998",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.ika.com/de/Produkte-LabEq/Ruehrwerke-pg187/EUROSTAR-20-digital-20105154/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact catalog SKU 0020105154 (EUROSTAR 20 digital new generation), German-market EUR quote; no US-local equivalent attached because US localization selects different SKU 0020132593. Convert to USD for display but retain regional scope."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-20-digital-20105154/",
+          "product_page_scope": "Current EUROSTAR 20 digital page resolves to new-generation item 0020132593. The requested identifier 20105154 remains generation-unresolved; current price and specifications are not assigned as an exact match."
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/de/Produkte-LabEq/Ruehrwerke-pg187/EUROSTAR-20-digital-20105154/",
+          "product_page_scope": "German-market exact SKU 0020105154; its regional price is converted to USD. US localization resolves a different SKU 0020132593. Manual generation remains unresolved."
+        }
       }
-    ]
+    ],
+    "manufacturer": "IKA",
+    "model_name": "IKA EUROSTAR 20 digital, 20105154"
   },
   {
     "equipment_id": "M04-01",
@@ -748,8 +778,42 @@
         "after": {
           "technical_spec_url": "https://us.my.edwardsvacuum.com/en_US/USD/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.ptbsales.com/media/catalog/product/n/x/nxds-10i-new_1.jpg?width=700&height=700&store=default&image-type=image",
+          "image_source_url": "https://www.ptbsales.com/edwards-nxds10i-new.html",
+          "image_scope": "PTB Sales main product photo for this exact Edwards model, offered NEW; remote reference only. HTTP 200 image/jpeg verified 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "12009",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US shop published undiscounted Price for standard variant A73601983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 8,406.30. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
       }
-    ]
+    ],
+    "manufacturer": "Edwards",
+    "model_name": "Edwards nXDS10i"
   },
   {
     "equipment_id": "M31-02",
@@ -824,8 +888,28 @@
           "image_scope": "JULABO CORIO CD-600F: manufacturer product photo; accessories and configuration may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "11494",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://julabo.us/product/corio-cd-600f/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official USD price for listed 9012704.02 (115 V/60 Hz) and 9012704.13 (230 V/60 Hz) versions; R449A, 5–7.5 L. Accessories, fluids and optional certifications additional."
+        }
       }
-    ]
+    ],
+    "manufacturer": "JULABO",
+    "model_name": "JULABO CORIO CD-600F"
   },
   {
     "equipment_id": "M34-02",
@@ -870,8 +954,24 @@
         "after": {
           "brochure_url": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/BR53026-nicolet-is20-ftir-spectrometer.pdf"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://nicoletcz.cz/app/uploads/elementor/thumbs/aa5d3aa0-pv2c03u62f2rqsk2yobqlduh734ee2js4ckv64i24g.jpg",
+          "image_source_url": "https://nicoletcz.cz/en/product/nicolet-is20/",
+          "image_scope": "NicoletCZ distributor product-page leading image for exact Thermo Scientific Nicolet iS20. Supplier page is a distributor source, not the manufacturer; no numeric price adopted. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
       }
-    ]
+    ],
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Nicolet iS20"
   },
   {
     "equipment_id": "M36-03",
@@ -891,8 +991,24 @@
         "after": {
           "brochure_url": "https://www.perkinelmer.com/library/bro-ir-ready-to-go-spectrum-two-ftir-spectrometer.html"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.perkinelmer.co.jp/Portals/0/images/prod/ftir/SpectrumTwo_368x207.jpg",
+          "image_source_url": "https://www.perkinelmer.co.jp/prod/ftir/spectrum_two/",
+          "image_scope": "Official PerkinElmer Japan Spectrum Two product-page leading equipment photograph; model-specific standard configuration, optional sampling accessories not guaranteed. No numeric price adopted. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
       }
-    ]
+    ],
+    "manufacturer": "PerkinElmer",
+    "model_name": "PerkinElmer Spectrum Two"
   },
   {
     "equipment_id": "M37-01",
@@ -3963,6 +4079,34 @@
           "image_scope": "Sonics VCX 500: manufacturer product photograph with example beaker/stand; accessories may be optional.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "5305",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://sonics.com/product/vcx-500-110/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US VCX-500-110 processor package includes converter and 1/2-inch replaceable-tip probe; stand sold separately. Source structured data currency is USD."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://sonics.com/product/vcx-500-110/",
+          "product_page_scope": "US VCX-500-110 processor package includes converter and 1/2-inch replaceable-tip probe; stand sold separately. Source structured data currency is USD."
+        }
       }
     ],
     "model_name": "Sonics VCX 500",
@@ -4026,6 +4170,34 @@
           "image_scope": "Holmarc HO-TH-01: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "251229",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
       }
     ],
     "model_name": "Holmarc HO-TH-01",
@@ -4046,6 +4218,34 @@
           "image_source_url": "https://www.holmarc.com/dip_coating_unit_01bc.php",
           "image_scope": "Holmarc HO-TH-01BC: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "727527",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit_01bc.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit_01bc.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
         }
       }
     ],
@@ -4068,6 +4268,34 @@
           "image_scope": "Holmarc HO-TH-02MD: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "480700",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/multiple_dip_coater.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/multiple_dip_coater.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
       }
     ],
     "model_name": "Holmarc HO-TH-02MD",
@@ -4088,6 +4316,34 @@
           "image_source_url": "https://www.holmarc.com/dip_coating_unit_angle_dependent.php",
           "image_scope": "Holmarc HO-TH-ADDC1: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "619850",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit_angle_dependent.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit_angle_dependent.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
         }
       }
     ],
@@ -4110,6 +4366,34 @@
           "image_scope": "Holmarc HO-TH-02: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "350658",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit_hot_chamber.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit_hot_chamber.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
       }
     ],
     "model_name": "Holmarc HO-TH-02",
@@ -4130,6 +4414,34 @@
           "image_source_url": "https://www.holmarc.com/dip_coating_unit_IR.php",
           "image_scope": "Holmarc HO-TH-02B: manufacturer model photograph from its dedicated product page; accessories may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "371278",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit_IR.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit_IR.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
         }
       }
     ],
@@ -4235,6 +4547,34 @@
           "image_source_url": "https://holmarc.com/dip_coating_unit_with_magnetic_stirrer_airtight_chamber.php",
           "image_scope": "Holmarc HO-TH-03BC: manufacturer model photograph with magnetic stirring and airtight chamber; accessories may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1190808",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/dip_coating_unit_with_magnetic_stirrer_airtight_chamber.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/dip_coating_unit_with_magnetic_stirrer_airtight_chamber.php",
+          "product_page_scope": "Exact model is named next to the manufacturer product-page Price, in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation. Retain existing verified manufacturer photo."
         }
       }
     ],
@@ -5175,6 +5515,34 @@
         "after": {
           "association_basis": "inherited family-level curated route; model-specific suitability not established Breadth-review evidence: 10.1021/am302624t. Paper states IKA T25 digital ULTRA-TURRAX for cellulose-reinforced polymer film preparation. Speed values are not imported; no other IKA homogenizer model is validated."
         }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3010",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/T-25-digital-ULTRA-TURRAX-3725000/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US T 25 digital ULTRA-TURRAX SKU 0003725001, drive only; dispersing tool is explicitly not included."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/T-25-digital-ULTRA-TURRAX-3725000/",
+          "product_page_scope": "US T 25 digital ULTRA-TURRAX SKU 0003725001, drive only; dispersing tool is explicitly not included."
+        }
       }
     ]
   },
@@ -5642,6 +6010,20 @@
         "after": {
           "price_status": "manufacturer_published_price_not_msrp"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://new.marshallscientific.com/cdn/shop/files/I-3340001-2.jpg?v=1761060954",
+          "image_source_url": "https://new.marshallscientific.com/products/ika-vortex-3-vortexer",
+          "image_scope": "Seller exact IKA VORTEX 3 product image; 115 V configuration I-3340001. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
       }
     ]
   },
@@ -5697,6 +6079,20 @@
         "after": {
           "price_status": "manufacturer_published_price_not_msrp"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://www.graylinemedical.com/cdn/shop/products/IKA3617000_PRI01_1200x928.jpg?v=1597293028",
+          "image_source_url": "https://www.graylinemedical.com/products/ika-ms-shaker-shaker-ms-3-basic-small-100-240v-3617000",
+          "image_scope": "Seller exact-model IKA MS 3 basic photograph, manufacturer part 3617000. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
       }
     ]
   },
@@ -5751,6 +6147,20 @@
         },
         "after": {
           "price_status": "manufacturer_published_price_not_msrp"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://new.marshallscientific.com/cdn/shop/files/I-3319000-2.jpg?v=1761060929",
+          "image_source_url": "https://new.marshallscientific.com/products/ika-ms-3-digital-shaker",
+          "image_scope": "Seller exact-model IKA MS 3 digital image, part 3319000. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
         }
       }
     ]
@@ -6466,6 +6876,1319 @@
         },
         "after": {
           "technical_spec_url": "https://www.metrohm.com/en/products/2/8050/28050010.html"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M01-01",
+    "model_name": "OHAUS PX224/E",
+    "manufacturer": "OHAUS",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://d2gdaxkudte5p.cloudfront.net/system/images/OH-30429847.jpg",
+          "image_source_url": "https://www.rpicorp.com/products/laboratory-equipment/balances/ohaus-pioneer-analytical-px224-e-am.html",
+          "image_scope": "Seller photo of PX224/E AM article OH-30429847; AM regional variant represents the named PX224/E family. Not evidence of a Purdue asset.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-06",
+    "model_name": "IKA C-MAG HS 4",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://pipette.com/mm5/graphics/m/ika/product_art/images/3581000_1.webp",
+          "image_source_url": "https://pipette.com/ika-works-inc-0003581000.html",
+          "image_scope": "Seller photo for C-MAG HS 4; listed SKU/MPN 0003581001.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "805",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-4-3581000/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-4-3581000/",
+          "product_page_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-07",
+    "model_name": "IKA C-MAG HS 7",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://cdn11.bigcommerce.com/s-j604a37zk5/products/3718/images/11851/image-of-an-IKA-C-MAG-HS-7-Magnetic-Stirrer__87245.1762427085.386.513.jpg?c=1",
+          "image_source_url": "https://us.darwin-microfluidics.com/products/ika-c-mag-hs-7-magnetic-stirrer/",
+          "image_scope": "Seller photo of C-MAG HS 7 non-digital model; regional SKU on seller page IK-0003581200.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "830",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-7-3581200/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-7-3581200/",
+          "product_page_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-08",
+    "model_name": "IKA C-MAG HS 10",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://pipette.com/mm5/graphics/m/ika/product_art/images/3581400_1.webp",
+          "image_source_url": "https://pipette.com/ika-works-inc-3581401.html",
+          "image_scope": "Seller photo of C-MAG HS 10 non-digital model; SKU/MPN 0003581401.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1163",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-10-3581400/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-10-3581400/",
+          "product_page_scope": "Official US list price for model as supplied on product page; standard stirring bars included, optional sensor/stand/accessories extra."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-09",
+    "model_name": "IKA RH basic",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://new.marshallscientific.com/cdn/shop/files/I-5019701-2.jpg?v=1761062127",
+          "image_source_url": "https://new.marshallscientific.com/products/ika-rh-basic-magnetic-hotplate-stirrer",
+          "image_scope": "Seller photo of new IKA RH Basic model 5019701.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M04-09",
+    "model_name": "IKA LR 1000 basic",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.msesupplies.com/cdn/shop/files/LR1000basic.jpg?v=1724273625&width=1200",
+          "image_source_url": "https://www.msesupplies.com/products/ika-lr-1000-basic-system",
+          "image_scope": "Seller product photo explicitly identified as LR 1000 basic System. Accessories shown may differ from purchased package.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "10018",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-1000-basic-System-20119960/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US manufacturer list quote for LR 1000 basic System SKU 0020119961, 100–115 V; reactor vessel, temperature sensor, anchor stirrer and support rod included."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-1000-basic-System-20119960/",
+          "product_page_scope": "US manufacturer list quote for LR 1000 basic System SKU 0020119961, 100–115 V; reactor vessel, temperature sensor, anchor stirrer and support rod included."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M04-10",
+    "model_name": "IKA LR 1000 control",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.msesupplies.com/cdn/shop/products/0025001992.jpg?v=1679986674&width=1200",
+          "image_source_url": "https://www.msesupplies.com/products/ika-lr-1000-control-system-high-viscosity-reactors-150-rpm-120-c",
+          "image_scope": "Seller product photo explicitly identified as LR 1000 control System. Accessories shown may differ from purchased package.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "18133",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-1000-control-System-25001991/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US manufacturer list quote for LR 1000 control System SKU 0025001992; reactor vessel, sensor, anchor stirrer with scrapers, support rod and USB cable included."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-1000-control-System-25001991/",
+          "product_page_scope": "US manufacturer list quote for LR 1000 control System SKU 0025001992; reactor vessel, sensor, anchor stirrer with scrapers, support rod and USB cable included."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M06-02",
+    "model_name": "CEM Discover 2.0",
+    "manufacturer": "CEM",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://cem.com/media/contentmanager/content/system-pages/thumbnails/Discover2_Straight_On_WithShadow_web_2.png",
+          "image_source_url": "https://cem.com/discover-2?___from_store=de&___store=en",
+          "image_scope": "Exact Discover 2.0 front product photograph, manufacturer product-page hero; optional autosampler/configuration not implied.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M07-03",
+    "model_name": "KD Scientific Legato 100",
+    "manufacturer": "KD Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.analyticalwest.com/media/catalog/product/cache/a7c683e7883febb914f1c8796c6712ca/7/8/788100_lg.jpg",
+          "image_source_url": "https://www.analyticalwest.com/manufacturers/kd-scientific-products/legato-pumps/788100.html",
+          "image_scope": "Seller product photo for exact Legato 100 model article 788100.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M07-07",
+    "model_name": "KD Scientific Legato 200",
+    "manufacturer": "KD Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.analyticalwest.com/media/catalog/product/cache/a7c683e7883febb914f1c8796c6712ca/l/e/legato-200.jpg",
+          "image_source_url": "https://www.analyticalwest.com/manufacturers/kd-scientific-products/legato-pumps/788200.html",
+          "image_scope": "Seller product photo for exact Legato 200 model article 788200.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M07-08",
+    "model_name": "KD Scientific Legato 210",
+    "manufacturer": "KD Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.analyticalwest.com/media/catalog/product/cache/a7c683e7883febb914f1c8796c6712ca/k/d/kds-788210-legato210-syringe-pump.jpg",
+          "image_source_url": "https://www.analyticalwest.com/manufacturers/kd-scientific-products/legato-pumps/788210.html",
+          "image_scope": "Seller product photo for exact Legato 210 model article 788210.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M09-02",
+    "model_name": "Sonics VCX 750",
+    "manufacturer": "Sonics",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "5685",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://sonics.com/product/vcx-750-110/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US VCX-750-110 processor package includes converter and 1/2-inch replaceable-tip probe; stand sold separately. Source structured data currency is USD."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M09-06",
+    "model_name": "Sonics VCX 130",
+    "manufacturer": "Sonics",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://sonics.com/wp-content/uploads/2025/06/VCX-130-on-stand-2022-2.jpg",
+          "image_source_url": "https://sonics.com/product/vcx-130-110/",
+          "image_scope": "Exact VCX-130 manufacturer photo with optional stand shown. Stand is explicitly sold separately from the quoted processor/converter/probe package.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3765",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://sonics.com/product/vcx-130-110/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US VCX-130-110 processor package includes converter and 1/4-inch probe; stand sold separately. Source structured data currency is USD."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://sonics.com/product/vcx-130-110/",
+          "product_page_scope": "US VCX-130-110 processor package includes converter and 1/4-inch probe; stand sold separately. Source structured data currency is USD."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M11-01",
+    "model_name": "IKA T 18 digital Solution",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "2749",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US T 18 digital Solution package SKU 0010015389 includes disperser, S 18 N-19 G tool, R 1826 stand and R 182 clamp; not the drive-only price."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/",
+          "product_page_scope": "US T 18 digital Solution package SKU 0010015389 includes disperser, S 18 N-19 G tool, R 1826 stand and R 182 clamp; not the drive-only price."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M11-05",
+    "model_name": "IKA T 50 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3944.8",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "sale_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-50-digital-ULTRA-TURRAX-3787000/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "US T 50 digital ULTRA-TURRAX SKU 0003787001 promotional price, shown reduced from USD 4,931; dispersing tool not included."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-50-digital-ULTRA-TURRAX-3787000/",
+          "product_page_scope": "US T 50 digital ULTRA-TURRAX SKU 0003787001 promotional price, shown reduced from USD 4,931; dispersing tool not included."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-03",
+    "model_name": "Across International PQ-N2",
+    "manufacturer": "Across International",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.acrossinternational.com/media/catalog/product/cache/6517c62f5899ad6aa0ba23ceb3eeff97/P/Q/PQN4-NEW_1.jpg",
+          "image_source_url": "https://www.acrossinternational.com/4x500ml-gear-drive-2-liter-planetary-ball-mill.html",
+          "image_scope": "Manufacturer-supplied image on exact PQ-N2 page; filename PQN4-NEW indicates series-representative mill, not proof of an exact PQ-N2 photograph.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "5190",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.acrossinternational.com/4x500ml-gear-drive-2-liter-planetary-ball-mill.html",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "PQ-N2 / SKU PQN2, four 500 mL stations (2 L); displayed estimated/configurable base price excludes tax and shipping; jars/media/configuration options may add cost."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.acrossinternational.com/4x500ml-gear-drive-2-liter-planetary-ball-mill.html",
+          "product_page_scope": "PQ-N2 / SKU PQN2, four 500 mL stations (2 L); displayed estimated/configurable base price excludes tax and shipping; jars/media/configuration options may add cost."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-02",
+    "model_name": "Thermo Scientific Sorvall ST 8R",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://static.wixstatic.com/media/e6df52_548c16aadb3b4ffe94e33e850065a0d4~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+          "image_source_url": "https://www.rescienceinc.com/product-page/thermo-sorvall-st-8r-refrigerated-centrifuge",
+          "image_scope": "Rescience seller photo of the exact Sorvall ST8R model; rotor/configuration is listing-specific and no institutional ownership is asserted.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-04",
+    "model_name": "Eppendorf Centrifuge 5804 R",
+    "manufacturer": "Eppendorf",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.eppendorf.com/product-media/img/global/127769/Eppendorf_Centrifugation_Centrifuge-5804-5804-R_product.jpg?imwidth=540",
+          "image_source_url": "https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5804-5804R-p-PF-240993",
+          "image_scope": "Manufacturer family photo explicitly showing both non-refrigerated 5804 and refrigerated 5804 R; representative of the refrigerated model, not an institutional asset.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-07",
+    "model_name": "Thermo Scientific Sorvall ST 16R",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://afablabresources.com/wp-content/uploads/2024/11/PXL_20241114_165331844-scaled.jpg",
+          "image_source_url": "https://afablabresources.com/products/centrifuge-evaporators/thermo-scientific-sorvall-st-16r-refrigerated-centrifuge-w-75003629-rotor/",
+          "image_scope": "Seller photo of a used exact Sorvall ST16R with listed rotor/bucket package; appearance/configuration representative, not the user's inventory unit.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M13-08",
+    "model_name": "Thermo Scientific Sorvall ST 40R",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://images.dotmed.com/images/listingpics2/5/5/3/6/5536754.jpg",
+          "image_source_url": "https://www.dotmed.com/listing/centrifuge/thermo-scientific/st40r/5536754",
+          "image_scope": "Seller listing photo of a used exact ST40R; no rotor/buckets included and not the Purdue asset.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M14-06",
+    "model_name": "Beckman Coulter Optima MAX-XP",
+    "manufacturer": "Beckman Coulter",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://imagedelivery.net/wgHagV-y9mRi7Go2OBhKVA/www.labrepco.com/2019/02/Centrifuge-Ultracentrifuge-Optima-MAX-XP-Full-View-2017-04.png/w=600,h=444",
+          "image_source_url": "https://www.labrepco.com/product/optima-max-xp-series-benchtop-ultracentrifuges/",
+          "image_scope": "Seller product catalog photo explicitly labeled Optima MAX-XP; rotor is not asserted included.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M14-07",
+    "model_name": "Beckman Coulter Optima MAX-TL",
+    "manufacturer": "Beckman Coulter",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.koshin-chem.co.jp/catalog/web/uploaded/product_imgs/OptimaMAX_2.jpg",
+          "image_source_url": "https://www.koshin-chem.co.jp/catalog/products/centri-ult-optimamaxtl/",
+          "image_scope": "Seller representative Optima MAX-series photograph displayed on the exact MAX-TL product page; image filename is family-level, so do not claim exact MAX-TL configuration.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M15-05",
+    "model_name": "Sartorius Vivaflow 200",
+    "manufacturer": "Sartorius",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://media.sterlitech.com/cdn-cgi/image/width=800,fit=scale-down,format=auto,quality=85/media/catalog/product/p/o/polyethersulfone-pes-vivaflow-200-cross-flow-cassette-vf20p3_sgd8cuwkvyyjq6cy.jpg",
+          "image_source_url": "https://www.sterlitech.com/polyethersulfone-pes-vivaflow-200-cross-flow-cassette-50kda-1-pk-vf20p3",
+          "image_scope": "Seller photo of Vivaflow 200 PES 50 kDa cassette VF20P3; one specific membrane variant, not a complete TFF instrument with pump.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M16-09",
+    "model_name": "IKA RV 3",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3955",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "RV3 V US article 0010003491; includes RV3 eco drive, HB eco S099 bath, RV10.900 vertical glassware, vapor tube NS24/40 and seal. Vacuum pump/chiller not included. RV3 generic catalog record priced for this explicitly specified V configuration."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/",
+          "product_page_scope": "RV3 V US article 0010003491; includes RV3 eco drive, HB eco S099 bath, RV10.900 vertical glassware, vapor tube NS24/40 and seal. Vacuum pump/chiller not included. RV3 generic catalog record priced for this explicitly specified V configuration."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M16-10",
+    "model_name": "IKA RV 8",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "4477",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-8-V-10003482/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "RV8 V US article 0010003570; RV8 drive, HB digital S099 bath, RV10.900 vertical glassware, seal and RV3.4 Woulff bottle. Vacuum pump/chiller separate. RV8 generic record priced for this specified V configuration."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-8-V-10003482/",
+          "product_page_scope": "RV8 V US article 0010003570; RV8 drive, HB digital S099 bath, RV10.900 vertical glassware, seal and RV3.4 Woulff bottle. Vacuum pump/chiller separate. RV8 generic record priced for this specified V configuration."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M17-05",
+    "model_name": "Labconco FreeZone 6 L, -84 C",
+    "manufacturer": "Labconco",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://imagedelivery.net/wgHagV-y9mRi7Go2OBhKVA/www.labrepco.com/2023/06/710611000.jpg/w=600,h=641",
+          "image_source_url": "https://www.labrepco.com/product/labconco-freezone-6-liter-84c-console-freeze-dryer/",
+          "image_scope": "Seller exact 710611000 FreeZone 6 L −84 °C console base-unit photo. Pump and tray dryer sold separately.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M18-08",
+    "model_name": "BINDER VDL 56",
+    "manufacturer": "BINDER",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://imagedelivery.net/wgHagV-y9mRi7Go2OBhKVA/www.labrepco.com/2020/07/VDL-56-FRONT.jpg/w=200,h=137",
+          "image_source_url": "https://www.labrepco.com/product/binder-series-vdl-56-vacuum-drying-chambers-for-non-flammable-solvents/",
+          "image_scope": "Seller VDL56 front-view photograph; base chamber without external vacuum pump/cabinet.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M18-10",
+    "model_name": "Yamato DP63",
+    "manufacturer": "Yamato",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.labcommerce.com/prod_imagefiles/prod1645/yamato_dp63new_front_orange.jpg",
+          "image_source_url": "https://www.labcommerce.com/manufacturer_productdesc/catid/148/prodid/1645/",
+          "image_scope": "Seller stock 1645 photo explicitly described as DP-63C/DP63C/DP63, 216 L and 220 V; representative of this listed configuration.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M24-10",
+    "model_name": "Holmarc HO-TH-05",
+    "manufacturer": "Holmarc",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.holmarc.com/images/spin_coating_unit1.jpg",
+          "image_source_url": "https://www.holmarc.com/spin_coating_unit.php",
+          "image_scope": "Exact model image presented on the cited product page; remote reference only. Image URL returned HTTP 200 image/jpeg on 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "198605",
+          "manufacturer_price_currency": "INR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.holmarc.com/spin_coating_unit.php",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Exact HO-TH-05 manufacturer product-page price in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.holmarc.com/spin_coating_unit.php",
+          "product_page_scope": "Exact HO-TH-05 manufacturer product-page price in INR. Prices exclude taxes and other charges; not a US landed quotation. Preserve original INR and use the project dated FX conversion for USD presentation."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M31-04",
+    "model_name": "Edwards nXDS6i",
+    "manufacturer": "Edwards",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.ptbsales.com/media/catalog/product/n/x/nxds-6i-new_1.jpg?width=700&height=700&store=default&image-type=image",
+          "image_source_url": "https://www.ptbsales.com/edwards-nxds6i-new.html",
+          "image_scope": "PTB Sales main product photo for this exact Edwards model, offered NEW; remote reference only. HTTP 200 image/jpeg verified 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "9603",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS6i/p/A73501983",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US shop published undiscounted Price for standard variant A73501983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 6,722.10. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS6i/p/A73501983",
+          "product_page_scope": "Official US shop published undiscounted Price for standard variant A73501983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 6,722.10. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M31-05",
+    "model_name": "Edwards nXDS15i",
+    "manufacturer": "Edwards",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.ptbsales.com/media/catalog/product/n/x/nxds-15i-new_1.jpg?width=700&height=700&store=default&image-type=image",
+          "image_source_url": "https://www.ptbsales.com/edwards-nxds15i-new.html",
+          "image_scope": "PTB Sales main product photo for this exact Edwards model, offered NEW; remote reference only. HTTP 200 image/jpeg verified 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "14411",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS15i/p/A73701983",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US shop published undiscounted Price for standard variant A73701983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 10,087.70. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS15i/p/A73701983",
+          "product_page_scope": "Official US shop published undiscounted Price for standard variant A73701983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 10,087.70. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M31-06",
+    "model_name": "Edwards nXDS20i",
+    "manufacturer": "Edwards",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.ptbsales.com/media/catalog/product/n/x/nxds-20i-new_1.jpg?width=700&height=700&store=default&image-type=image",
+          "image_source_url": "https://www.ptbsales.com/edwards-nxds20i-new.html",
+          "image_scope": "PTB Sales main product photo for this exact Edwards model, offered NEW; remote reference only. HTTP 200 image/jpeg verified 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "16221",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS20i/p/A73801983",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US shop published undiscounted Price for standard variant A73801983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 11,354.70. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS20i/p/A73801983",
+          "product_page_scope": "Official US shop published undiscounted Price for standard variant A73801983, 1Ph 100-127/200-240 V, 50/60 Hz. Page separately shows Your Price at a 30% discount: USD 11,354.70. This is not labeled MSRP. Required regional mains cable is excluded and must be selected separately."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M32-03",
+    "model_name": "MKS GE50A",
+    "manufacturer": "MKS",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.lesker.com/newweb/images/product_photos/Photo-IG-MKS-GE50_std.jpg",
+          "image_source_url": "https://www.lesker.com/newweb/process_instruments/mass-flow-mks-ge50a.cfm",
+          "image_scope": "Kurt J. Lesker distributor image explicitly labeled MKS GE50A Digital Mass Flow Controller. GE50A model family photo; gas/calibration/flow range/fittings and IO configuration unspecified. Page has differently configured offers, so no generic GE50A price assigned. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M32-10",
+    "model_name": "Brooks SLA5850",
+    "manufacturer": "Brooks",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.brooksinstrument.com/hubfs/Content%20-%20Products/SLA5800%20Series/Images/SLA5800%20Series%20TMF%20-%20EtherNet-IP.jpg",
+          "image_source_url": "https://www.brooksinstrument.com/product/sla5800-series",
+          "image_scope": "REPRESENTATIVE FAMILY PHOTO: official Brooks SLA5800 series EtherNet/IP configuration image on a page explicitly including SLA5850. Not proof of a particular SLA5850 suffix, IO option, flow range or installed unit. Display as representative family image; no numeric price adopted. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M33-05",
+    "model_name": "JULABO CORIO CD-300F",
+    "manufacturer": "JULABO",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://laboandco.b-cdn.net/jul-9012703-cryostat-a-circulation-corio-cd-300f-julabo_800_800-766515-0.jpg?width=896",
+          "image_source_url": "https://www.laboandco.com/cryostat-a-circulation-corio-cd-300f-julabo-jul-9012703",
+          "image_scope": "Labo and Co seller photo explicitly labeled CORIO CD300F. Exact model, while voltage/configuration is listing-specific.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "9408",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://julabo.us/product/corio-cd-300f/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US price for listed 9012703.02 115 V/60 Hz and 9012703.13 230 V/60 Hz versions with R134a. German manufacturer site says CD300F is discontinued/replaced by CD310F; US store still lists this legacy model at this checked price. Availability requires confirmation."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://julabo.us/product/corio-cd-300f/",
+          "product_page_scope": "Official US price for listed 9012703.02 115 V/60 Hz and 9012703.13 230 V/60 Hz versions with R134a. German manufacturer site says CD300F is discontinued/replaced by CD310F; US store still lists this legacy model at this checked price. Availability requires confirmation."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M33-06",
+    "model_name": "JULABO MAGIO MS-600F",
+    "manufacturer": "JULABO",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "16603",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "starting_price",
+          "manufacturer_price_source_url": "https://julabo.us/product/magio-ms-600f/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Official US page displays USD 16,603+ and lists 9032704.02 100–115 V without HST booster and 9032704.33 200–230 V with booster at same displayed price. Version/refrigerant selection required; fluids/accessories/certifications additional."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://julabo.us/product/magio-ms-600f/",
+          "product_page_scope": "Official US page displays USD 16,603+ and lists 9032704.02 100–115 V without HST booster and 9032704.33 200–230 V with booster at same displayed price. Version/refrigerant selection required; fluids/accessories/certifications additional."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M34-10",
+    "model_name": "HORIBA SZ-100",
+    "manufacturer": "HORIBA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://static.horiba.com/fileadmin/Horiba/_processed_/b/b/csm_SZ-100_0824_01_11279fb856.jpg",
+          "image_source_url": "https://www.horiba.com/ind/scientific/products/detail/action/show/Product/sz-100-1356/",
+          "image_scope": "Manufacturer SZ-100 product-page photograph (SZ-100 series; subconfiguration not specified). Exact catalog model series; not the SZ-100V2 successor. HTTP 200 image/jpeg verified 2026-10-17. Page labels SZ-100 discontinued; no numeric price.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M35-04",
+    "model_name": "Agilent Cary 60",
+    "manufacturer": "Agilent",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.spectralabsci.com/wp-content/uploads/2022/04/agilent-cary-60-productimage-0.jpg",
+          "image_source_url": "https://www.spectralabsci.com/equipment/agilent-cary-60-uv-vis-spectrophotometer/",
+          "image_scope": "Seller photograph of an exact Agilent Cary 60 / G6860A system offered Refurbished (item UV-01-0060), rather than a generic spectrometer. Remote reference only. HTTP 200 image/jpeg verified 2026-10-17. Price is Request Quote; no numeric price adopted.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-03",
+    "model_name": "VELP ZX3",
+    "manufacturer": "VELP",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://images.globalindustrial.com/images/275x275/VPL_F202A0176.jpg",
+          "image_source_url": "https://www.nationalsupplynetwork.com/F202A0176-VELP-SCIENTIFIC-INC.aspx",
+          "image_scope": "Seller image with alt text identifying VELP ZX3, exact part F202A0176, 100–240 V 50/60 Hz. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-08",
+    "model_name": "VELP TX4",
+    "manufacturer": "VELP",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://images.globalindustrial.com/images/275x275/VPL_F202A0270.jpg",
+          "image_source_url": "https://www.nationalsupplynetwork.com/F202A0270-VELP-SCIENTIFIC-INC.aspx",
+          "image_scope": "Seller image with alt text identifying VELP TX4 IR, exact part F202A0270, 100–240 V 50/60 Hz. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-09",
+    "model_name": "OHAUS VXMNAL",
+    "manufacturer": "OHAUS",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://images.globalindustrial.com/images/275x275/OHA_30392115.jpg",
+          "image_source_url": "https://www.nationalsupplynetwork.com/30392115-OHAUS-CORPORATION.aspx",
+          "image_scope": "Seller photograph identifies exact OHAUS VXMNAL, part 30392115, 120 V configuration. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "LIT-M62-YOO2023-RG2",
+    "model_name": "OnRobot RG2",
+    "manufacturer": "OnRobot",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://www.roscomponents.com/wp-content/uploads/2024/11/1444.jpg",
+          "image_source_url": "https://www.roscomponents.com/product/rg2/",
+          "image_scope": "Exact model image presented on the cited product page; remote reference only. Image URL returned HTTP 200 image/jpeg on 2026-10-17.",
+          "media_checked_date": "2026-10-17"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M31-ACP-15-SD",
+    "model_name": "Pfeiffer ACP 15 SD",
+    "manufacturer": "Pfeiffer",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://www.ajvs.com/redirect/5/Pfeiffer_ACP-15_Dry_Vacuum_Pump_V5SATSMGAF_1,b9e43d6bdf31f909ce8cf631dd1ded5a",
+          "image_source_url": "https://www.ajvs.com/pfeiffer-acp-15-sd-dry-vacuum-pump-23015",
+          "image_scope": "AJVS product-page main photo for Pfeiffer ACP 15 SD; manufacturer 2000001332 / V5SATSMTRF, three-phase 200–440 V model. Seller may use common ACP 15 housing imagery; configuration remains established by product description rather than image filename. Remote reference only; HTTP 200 image/jpeg (image/jpg for AJVS) verified by streaming response headers on 2026-10-17. No media downloaded.",
+          "media_checked_date": "2026-10-17"
         }
       }
     ]

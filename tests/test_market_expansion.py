@@ -1,6 +1,11 @@
 import json
 from catalog_tools import ROOT, load_csv, inspect_catalog
 
+def later_updates():
+    report=json.loads((ROOT/"catalog/link_review_2026-10-17-sellers.json").read_text(encoding="utf-8"))
+    return report, {u["equipment_id"]:u["after"] for u in report["equipment_updates"]}
+
+
 
 def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes():
     report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
@@ -8,9 +13,10 @@ def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes(
     assert len(report['new_records'])==96 and len(report['category_counts'])==68
     assert report['before']['records']==669 and report['after']['records']==sum(r['catalog_scope']!='process_slot_gap_expansion' for r in rows.values())==765
     assert all(r['added']>=1 and r['after']>=5 for r in report['category_counts'])
+    _, overrides=later_updates()
     for addition in report['new_records']:
         r=rows[addition['equipment_id']]
-        assert all(r[k]==v for k,v in addition.items() if k!='sources')
+        assert all(r[k]==overrides.get(r['equipment_id'],{}).get(k,v) for k,v in addition.items() if k!='sources')
         assert r['model_evidence_url'] and r['product_page_url'] and addition['sources']
         assert r['catalog_scope']=='market_expansion' and r['purdue_list']=='false'
         assert not any(r[k] for k in ['source_pdf','source_page','requested_ids','institution_label','source_record_id'])
@@ -26,11 +32,14 @@ def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes(
 def test_prices_media_and_existing_updates_retain_scoped_evidence():
     report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
     rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
-    assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==report['after']['photos']==293
-    assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==58
+    later,overrides=later_updates()
+    additions={field:sum(not g['before'].get(field) and bool(g['after'].get(field)) for u in later['updates'] if rows[u['equipment_id']]['catalog_scope']!='process_slot_gap_expansion' for g in u['groups'] if field in g['after']) for field in ['image_url','manufacturer_price_value']}
+    assert report['after']['photos']==293
+    assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==293+additions['image_url']
+    assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==58+additions['manufacturer_price_value']
     assert len(report['updates'])==33
     for update in report['updates']:
-        assert update['sources'] and all(rows[update['equipment_id']][k]==v for k,v in update['after'].items())
+        assert update['sources'] and all(rows[update['equipment_id']][k]==overrides.get(update['equipment_id'],{}).get(k,v) for k,v in update['after'].items())
     for r in rows.values():
         if r['category_id']=='M66' and r['catalog_scope']=='market_expansion':
             assert 'PACK OF' in r['manufacturer_price_scope'] or 'sales roll' in r['manufacturer_price_scope']

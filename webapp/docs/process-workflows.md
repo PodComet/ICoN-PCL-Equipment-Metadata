@@ -98,3 +98,8 @@ Card prices and process budgets display USD. Source amounts/currencies and the d
 ## Stable chart viewport
 
 The fitted sequence reserves a 220 px chart viewport before it is first displayed; the enlarged view reserves 620 px and scrolls internally. Process structure is scaled to fit both available dimensions in the fitted view, including parallel branches. Instrument selection, assignment, photos, status messages, clear/undo and tab switches do not set the viewport height. The first fit runs when the Processes tab becomes visible. A real container-size or structure change can update the drawing scale; page position and unrelated window resize events cannot. Toolbar and helper rows reserve their own space.
+
+
+## Published seller prices
+
+Cards and new equipment assignments prioritize explicit MSRP, published manufacturer prices and explicitly new-condition seller offers before separate formula estimates. Used, refurbished and condition-unstated seller quotes remain labeled reference offers outside new-equipment planning totals. Source currencies are retained and converted to USD. Existing workflow price snapshots remain historical. See the [source review](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/seller-price-photo-sweep-2026-10-17.md).

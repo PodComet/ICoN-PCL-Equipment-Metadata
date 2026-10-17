@@ -1,4 +1,5 @@
 import {usdText} from './currency-lib.ts';
+import {sellerPrice} from './seller-prices.ts';
 export type Equipment = Record<string, string> & {equipment_id: string; model_name: string};
 export type CatalogRow = {record: Equipment; revision: number; updated_at?: string};
 export type Route = Record<string, string>;
@@ -69,9 +70,13 @@ export function allDocumentationLinks(r:Equipment){
 export function pricePresentation(r: Equipment) {
   const format=usdText;
   if (r.msrp_value) return {label:r.msrp_currency==='USD'?"MSRP":"MSRP (USD equivalent)",value:format(r.msrp_value,r.msrp_currency),estimated:false};
-  if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated')return classEstimatePresentation(r);
   const published=manufacturerPrice(r);
   if(published)return {label:published.label,value:published.value,estimated:false};
+  const seller=sellerPrice(r);
+  if(seller)return {label:seller.label,value:seller.value,estimated:false};
+  if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated')return classEstimatePresentation(r);
+  const other=sellerPrice(r,false);
+  if(other)return {label:other.label+' · '+other.conditionLabel,value:other.value,estimated:false};
   return classEstimatePresentation(r);
 }
 export function classEstimatePresentation(r:Equipment){

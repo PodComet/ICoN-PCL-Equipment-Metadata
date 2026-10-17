@@ -19,7 +19,7 @@ export function refreshResearchEvidence(record:Equipment,updates:ResearchUpdate[
   const fields=Object.keys(group.before);
   if(fields.some(key=>protectedSet.has(key)))continue;
   // A custom URL, scope or price keeps its entire evidence group intact.
-  if(fields.every(key=>(record[key]||'')===group.before[key]||(record[key]||'')===group.after[key]))
+  if(fields.every(key=>(result[key]||'')===group.before[key]||(result[key]||'')===group.after[key]))
    for(const [key,value] of Object.entries(group.after))if(typeof value==='string')result[key]=value;
  }
  return result;

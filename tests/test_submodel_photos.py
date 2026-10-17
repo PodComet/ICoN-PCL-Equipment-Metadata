@@ -12,6 +12,9 @@ def test_submodel_photo_review_matches_catalog_without_promoting_other_evidence(
     assert len({r['equipment_id'] for r in report['records']}) == 81
     latest = json.loads((ROOT / 'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
     latest_by_id = {r['equipment_id']: r['after'] for r in latest['updates']}
+    sweep=json.loads((ROOT/'catalog/link_review_2026-10-17-sellers.json').read_text(encoding='utf-8'))
+    for update in sweep['equipment_updates']:
+        latest_by_id.setdefault(update['equipment_id'],{}).update(update['after'])
     for review in report['records']:
         record = records[review['equipment_id']]
         assert review['model_name'] == record['model_name'] and review['manufacturer'] == record['manufacturer']

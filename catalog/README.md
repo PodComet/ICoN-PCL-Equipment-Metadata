@@ -112,3 +112,8 @@ JASCO was confirmed by the project owner on 2026-10-16. Prefer [jascoinc.com](ht
 ## Position Lists and process requirements
 
 `equipment_position_lists.csv` indexes every model’s Position List roadmap. `position_interfaces.json` stores reviewed/draft `poly-fibers/v2` interfaces and `poly-evidence/v1` registers; remaining models have empty templates. The GEN2 example contains eight verified manufacturer facts and two draft model assumptions. Do not copy positions between models by category. `route_steps.csv` now includes `requirements_json`: OR across `required_branches`, AND within each branch, optional categories and unresolved apparatus/review flags. See [the workbench guide](../docs/process-workbench-2026-10-16.md).
+
+
+## Seller prices and photo sweep, 2026-10-17
+
+The [dated review](../docs/seller-price-photo-sweep-2026-10-17.md) adds 43 photos and prices for 65 previously unpriced models. `seller_offers.csv` keeps seller names, exact model identities, price kinds, unit conditions, source currencies, dates and configuration scope separately from manufacturer MSRP. Commercial sources remain outside the academic-only reference library. Generate app supplier data and the USD comparison report with the existing build scripts. Supplier images remain externally linked and source-attributed.

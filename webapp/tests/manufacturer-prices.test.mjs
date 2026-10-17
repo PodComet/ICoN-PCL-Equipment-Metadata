@@ -5,11 +5,17 @@ import {manufacturerPrice,validateManufacturerPrice,pricePresentation,classEstim
 import {buildPlan,csvUpdateText} from '../app/csv-updates.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const plan=rows=>buildPlan(csvUpdateText(rows),seed.records,seed.categories,seed.routes,seed.manufacturers);
-test('exact MSRP and rule estimates have priority while published prices retain their labels',()=>{
+test('explicit MSRP and published manufacturer prices keep their labels ahead of estimates',()=>{
  const rows=seed.records.filter(r=>r.manufacturer_price_value);
  assert.ok(rows.length>0);assert.equal(rows.length,seed.coverage.published_manufacturer_price_records);
- for(const r of rows){assert.equal(validateManufacturerPrice(r),'');const estimated=!r.msrp_value&&r.estimate_status==='calculated';assert.equal(pricePresentation(r).label,r.msrp_value?(r.msrp_currency==='USD'?'MSRP':'MSRP (USD equivalent)'):estimated?'Estimated MSRP*':manufacturerPrice(r).label);if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}assert.equal(pricePresentation(r).estimated,estimated)}
+ for(const r of rows){
+  assert.equal(validateManufacturerPrice(r),'');
+  assert.equal(pricePresentation(r).label,r.msrp_value?(r.msrp_currency==='USD'?'MSRP':'MSRP (USD equivalent)'):manufacturerPrice(r).label);
+  assert.equal(pricePresentation(r).estimated,false);
+  if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}
+ }
 });
+
 test('MTI OTF-1200X displays sourced configuration pricing instead of its class band',()=>{
  const r=seed.records.find(r=>r.equipment_id==='M20-03');
  assert.equal(verifiedManufacturer(r),true);assert.equal(r.manufacturer_research_use_status,'documented_research_use');

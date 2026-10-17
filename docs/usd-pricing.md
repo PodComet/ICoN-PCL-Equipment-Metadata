@@ -11,3 +11,6 @@ Source amounts, currencies, dates, configuration scope and URLs remain intact fo
 New process price snapshots store USD values and the original quote, rate, source and rate date. Older saved native-currency snapshots are converted for USD totals when displayed. Already converted USD snapshots are not converted twice. Reused physical units are still counted once. Unknown currencies have an unavailable conversion and are counted as unpriced, rather than being treated as USD.
 
 The catalog's CSV export adds explicit USD price columns while retaining source currency fields. The public `catalog/equipment_prices_usd.csv` report is reproducible with `python scripts/build_usd_prices.py`. Refresh rates by reviewing a newer official snapshot, committing it, regenerating app data and the report, testing and deploying. The app does not fetch changing exchange rates silently during a session.
+
+
+Published seller offers now follow the same USD display rules, with native quotes retained in `catalog/seller_offers.csv`. Cards prioritize sourced prices over formula estimates; new-equipment process totals use explicitly new-condition seller offers after manufacturer prices. Used, refurbished and condition-unstated offers are displayed as reference prices. See the [17 October review](seller-price-photo-sweep-2026-10-17.md) for evidence and scope.

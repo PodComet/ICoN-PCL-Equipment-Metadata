@@ -1,11 +1,12 @@
 import {usdPrice} from './currency-lib.ts';
+import {sellerPrice} from './seller-prices.ts';
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
 import {processDependencyGraph} from './process-dependencies.ts';
 import {validateMaterialPlan} from './process-materials-lib.ts';
 
 export type JsonValue = null | boolean | number | string | JsonValue[] | {[key:string]:JsonValue};
 export type Parameters = Record<string,JsonValue>;
-export type PriceSnapshot = {kind:'msrp'|'manufacturer'|'estimate'|'unpriced';currency:string;low:number;high:number;source_url:string;checked_date:string;scope:string};
+export type PriceSnapshot = {kind:'msrp'|'manufacturer'|'seller'|'estimate'|'unpriced';currency:string;low:number;high:number;source_url:string;checked_date:string;scope:string};
 export type ProcessInstrument = {
  instance_id:string; equipment_id:string; category_id:string; category_refs:string[];
  equipment_snapshot:Equipment; quantity:number; configuration:Parameters; operating_parameters:Parameters;
@@ -104,8 +105,10 @@ function sourcePriceSnapshot(r:Equipment):PriceSnapshot{
  const number=(s:string)=>s?.trim()!==''&&Number.isFinite(Number(s))&&Number(s)>=0?Number(s):null;
  const exact=number(r.msrp_value),published=number(r.manufacturer_price_value),low=number(r.estimated_msrp_low),high=number(r.estimated_msrp_high);
  if(exact!==null&&/^[A-Z]{3}$/.test(r.msrp_currency))return {kind:'msrp',currency:r.msrp_currency,low:exact,high:exact,source_url:safeUrl(r.price_source_url),checked_date:r.price_checked_date||'',scope:'Recorded model MSRP'};
- if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated'&&low!==null&&high!==null&&high>=low)return {kind:'estimate',currency:r.estimate_currency,low,high,source_url:safeUrl((r.estimate_source_urls||'').split(';')[0]),checked_date:r.estimate_checked_date||'',scope:r.estimate_basis};
  if(published!==null&&!validateManufacturerPrice(r))return {kind:'manufacturer',currency:r.manufacturer_price_currency,low:published,high:published,source_url:safeUrl(r.manufacturer_price_source_url),checked_date:r.manufacturer_price_checked_date,scope:r.manufacturer_price_kind+': '+r.manufacturer_price_scope};
+ const seller=sellerPrice(r);
+ if(seller)return {kind:'seller',currency:seller.currency,low:Number(seller.price_value),high:Number(seller.price_value),source_url:seller.source_url,checked_date:seller.checked_date,scope:seller.seller_name+' · new · '+seller.price_kind+': '+seller.scope};
+ if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated'&&low!==null&&high!==null&&high>=low)return {kind:'estimate',currency:r.estimate_currency,low,high,source_url:safeUrl((r.estimate_source_urls||'').split(';')[0]),checked_date:r.estimate_checked_date||'',scope:r.estimate_basis};
  if(low!==null&&high!==null&&high>=low&&/^[A-Z]{3}$/.test(r.estimate_currency))return {kind:'estimate',currency:r.estimate_currency,low,high,source_url:safeUrl(r.estimate_source_url),checked_date:r.estimate_checked_date||'',scope:r.estimate_subject||r.category_name};
  return {kind:'unpriced',currency:'',low:0,high:0,source_url:'',checked_date:'',scope:'Price not recorded'};
 }
@@ -185,7 +188,7 @@ export function workflowBudget(steps:ProcessStep[]){
   if(units.has(unitId(i)))continue;units.add(unitId(i));
   assigned+=i.quantity;const p=usdPrice(i.price_snapshot);if(p.kind==='unpriced'){missing+=i.quantity;continue;}
   const t=totals.get(p.currency)||{currency:p.currency,low:0,high:0,estimated:false,manufacturer:false,quantity:0};
-  t.low+=p.low*i.quantity;t.high+=p.high*i.quantity;t.quantity+=i.quantity;t.estimated||=p.kind==='estimate';t.manufacturer||=p.kind==='manufacturer';totals.set(p.currency,t);
+  t.low+=p.low*i.quantity;t.high+=p.high*i.quantity;t.quantity+=i.quantity;t.estimated||=p.kind==='estimate';t.manufacturer||=p.kind==='manufacturer'||p.kind==='seller';totals.set(p.currency,t);
  }
  return {totals:[...totals.values()].sort((a,b)=>a.currency.localeCompare(b.currency)),missing,assigned};
 }

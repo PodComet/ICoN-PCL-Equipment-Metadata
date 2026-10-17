@@ -21,7 +21,7 @@
     "source_reported_not_reverified": 47,
     "verified_operating_manual": 130
   },
-  "manufacturer_product_page_records": 328,
+  "manufacturer_product_page_records": 354,
   "material_families": 10,
   "model_evidence": {
     "candidate_needs_review": 292,
@@ -32,10 +32,13 @@
   },
   "msrp_records": 1,
   "ordered_route_steps": 227,
+  "photo_records": 421,
   "project_m_categories": 20,
-  "published_manufacturer_price_records": 71,
+  "published_manufacturer_price_records": 101,
+  "published_seller_price_models": 38,
   "requested_occurrences": 44,
   "retired_x_categories": 5,
+  "seller_offer_records": 38,
   "source_m_categories": 59,
   "source_pdf_model_records": 64,
   "source_routes": 20,

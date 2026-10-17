@@ -1,86 +1,86 @@
 category_id,category_name,estimated_msrp_low,estimated_msrp_high,estimate_currency,estimate_basis,estimate_confidence,estimate_source_urls,estimate_checked_date
-M01,Analytical balance,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M02,Magnetic hotplate stirrer,1293.6,1546.4,USD,"Category M02: 1.2 × lowest benchmark USD 1078 (IKA RCT basic) through 0.8 × highest benchmark USD 1933 (IKA RET control-visc). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RCT-basic-25008259/;https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/,2026-10-16
-M03,Overhead stirrer,2788.8,4297.6,USD,"Category M03: 1.2 × lowest benchmark USD 2324 (IKA EUROSTAR 40 digital) through 0.8 × highest benchmark USD 5372 (IKA EUROSTAR 200 digital). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html;https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-200-digital-3990000/,2026-10-16
-M04,Jacketed stirred reactor,,,USD,Category rule would yield USD 22140–14760 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-2ST-the-High-Performer-20013291/,2026-10-16
-M05,Hydrothermal / solvothermal vessel,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M06,Microwave synthesis reactor,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M07,Syringe pump,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M08,Microfluidic nanoparticle formulation system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M09,Probe ultrasonic processor,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M10,Ultrasonic bath,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M11,Rotor-stator homogenizer,,,USD,Category rule would yield USD 14856–9904 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-65-digital-ULTRA-TURRAX-4234500/,2026-10-16
-M12,Planetary ball mill,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M13,General-purpose centrifuges,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M14,Ultracentrifuge,,,JPY,Category rule would yield JPY 9108000–6072000 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.himac-science.jp/products/himac/ultra/cs150nx/cs150nx.html,2026-10-16
-M15,Filtration systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M16,Rotary evaporator,,,USD,Category rule would yield USD 19064.4–12709.6 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/,2026-10-16
-M17,Freeze dryer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M18,Vacuum drying oven,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M19,Muffle furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M20,Controlled-atmosphere tube furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M21,Chemical vapor deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M22,Atomic layer deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M23,Sputter deposition / coating system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M24,Spin coater,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M25,Dip coater,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M26,Electrospinning system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M27,Schlenk / vacuum-inert-gas manifold,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M28,Inert-atmosphere glovebox,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M29,Ducted chemical fume hood,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M30,Powder / balance containment enclosure,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M31,Dry vacuum pump,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M32,Gas mass-flow controller,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M33,Recirculating temperature-control unit,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M34,DLS / electrophoretic light-scattering analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M35,UV-visible spectrophotometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M36,FTIR spectrometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M37,X-ray diffractometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M38,Scanning electron microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M39,Transmission electron microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M40,Raman microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M41,Atomic force microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M42,Thermogravimetric analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M43,Liposome membrane extruder,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M44,Langmuir-Blodgett trough,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M45,Bioreactor / fermenter,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M46,Laboratory water purification system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M47,Electrospraying platform,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M48,Pulsed laser deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M49,Nanofiltration test cell / system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M50,Shakers and vessel-driven mixers,987.6,7760,USD,"Category M50: 1.2 × lowest benchmark USD 823 (IKA VORTEX 3) through 0.8 × highest benchmark USD 9700 (IKA KS 4000 i control). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/;https://www.ika.com/en/Products-LabEq/Shakers-pg179/KS-4000-i-control-3510000/,2026-10-16
-M51,Aerosol mobility classifier,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M53,Aerosol atomizer / generator,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M54,Inert-gas condensation / aggregation source,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M56,Laser sources,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M57,Potentiostat / galvanostat and electrochemical cell,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M58,UV mask aligner,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M59,Electron-beam lithography system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M60,Nanoimprint lithography press,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M61,Etching systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M62,Robotic handling and automation systems,,,USD,Category rule would yield USD 44400–39600 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://standardbots.com/ro1;https://standardbots.com/blog/robotic-automation-solutions,2026-10-16
-M63,Automatic titration and piston dosing systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M64,Rotary swaging equipment,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M65,Induction heating and rapid annealing systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M66,Dialysis solvent-exchange assemblies,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M67,Three-roll mills and calenders,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M68,Electron-beam evaporation systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M69,Spark-plasma sintering systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M70,Programmable thermocyclers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M71,Laboratory drying and curing ovens,3594,4224,USD,"Category M71: 1.2 × lowest benchmark USD 2995 (OVEN 125 basic dry) through 0.8 × highest benchmark USD 5280 (OVEN 125 control dry glass). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-Drying-oven-20003215/Downloads-cpdl.html;https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-glass-Drying-oven-20003996/Downloads-cpdl.html,2026-10-16
-M72,Laboratory compression and hot presses,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M73,Ion implantation systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M74,Metal melting and casting systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M75,Metal extrusion presses,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M76,Aerosol dryer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M77,Aerosol charge conditioner,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M78,Aerosol particle detector,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M79,Aerosol collection system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M80,Laser-ablation reaction chambers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-M81,Laboratory mortar and grinding mills,3033.6,6261.6,USD,"Category M81: 1.2 × lowest benchmark USD 2528 (A 10 basic) through 0.8 × highest benchmark USD 7827 (M 20 Universal mill). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Mills-pg194/A-10-basic-4020700/Downloads-cpdl.html;https://www.ika.com/en/Products-LabEq/M-20-Universal-mill-1603600/Downloads-cpdl.html,2026-10-16
-X-AM,Metal additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-X-CNC,CNC machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-X-CS,Cold spray deposition,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-X-EDM,Electrical discharge machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-X-MET,Optical surface metrology,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
-X-TEST,Mechanical characterization,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-16
+M01,Analytical balance,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M02,Magnetic hotplate stirrer,966,1546.4,USD,"Category M02: 1.2 × lowest benchmark USD 805 (IKA C-MAG HS 4) through 0.8 × highest benchmark USD 1933 (IKA RET control-visc). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/C-MAG-HS-4-3581000/;https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/,2026-10-17
+M03,Overhead stirrer,2788.8,4297.6,USD,"Category M03: 1.2 × lowest benchmark USD 2324 (IKA EUROSTAR 40 digital) through 0.8 × highest benchmark USD 5372 (IKA EUROSTAR 200 digital). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html;https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-200-digital-3990000/,2026-10-17
+M04,Jacketed stirred reactor,12021.6,14760,USD,"Category M04: 1.2 × lowest benchmark USD 10018 (IKA LR 1000 basic) through 0.8 × highest benchmark USD 18450 (IKA LR-2.ST the High-Performer (jacketed configuration)). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-1000-basic-System-20119960/;https://www.ika.com/en/Products-LabEq/High-Viscosity-Reactors-pg232/LR-2ST-the-High-Performer-20013291/,2026-10-17
+M05,Hydrothermal / solvothermal vessel,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M06,Microwave synthesis reactor,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M07,Syringe pump,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M08,Microfluidic nanoparticle formulation system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M09,Probe ultrasonic processor,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M10,Ultrasonic bath,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M11,Rotor-stator homogenizer,3298.8,9904,USD,"Category M11: 1.2 × lowest benchmark USD 2749 (IKA T 18 digital Solution) through 0.8 × highest benchmark USD 12380 (IKA T 65 digital ULTRA-TURRAX). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/;https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-65-digital-ULTRA-TURRAX-4234500/,2026-10-17
+M12,Planetary ball mill,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M13,General-purpose centrifuges,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M14,Ultracentrifuge,,,JPY,Category rule would yield JPY 9108000–6072000 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.himac-science.jp/products/himac/ultra/cs150nx/cs150nx.html,2026-10-17
+M15,Filtration systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M16,Rotary evaporator,4746,12709.6,USD,"Category M16: 1.2 × lowest benchmark USD 3955 (IKA RV 3) through 0.8 × highest benchmark USD 15887 (IKA RV 10 auto pro V). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/;https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/,2026-10-17
+M17,Freeze dryer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M18,Vacuum drying oven,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M19,Muffle furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M20,Controlled-atmosphere tube furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M21,Chemical vapor deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M22,Atomic layer deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M23,Sputter deposition / coating system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M24,Spin coater,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M25,Dip coater,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M26,Electrospinning system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M27,Schlenk / vacuum-inert-gas manifold,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M28,Inert-atmosphere glovebox,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M29,Ducted chemical fume hood,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M30,Powder / balance containment enclosure,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M31,Dry vacuum pump,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M32,Gas mass-flow controller,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M33,Recirculating temperature-control unit,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M34,DLS / electrophoretic light-scattering analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M35,UV-visible spectrophotometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M36,FTIR spectrometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M37,X-ray diffractometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M38,Scanning electron microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M39,Transmission electron microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M40,Raman microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M41,Atomic force microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M42,Thermogravimetric analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M43,Liposome membrane extruder,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M44,Langmuir-Blodgett trough,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M45,Bioreactor / fermenter,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M46,Laboratory water purification system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M47,Electrospraying platform,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M48,Pulsed laser deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M49,Nanofiltration test cell / system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M50,Shakers and vessel-driven mixers,987.6,7760,USD,"Category M50: 1.2 × lowest benchmark USD 823 (IKA VORTEX 3) through 0.8 × highest benchmark USD 9700 (IKA KS 4000 i control). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/;https://www.ika.com/en/Products-LabEq/Shakers-pg179/KS-4000-i-control-3510000/,2026-10-17
+M51,Aerosol mobility classifier,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M53,Aerosol atomizer / generator,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M54,Inert-gas condensation / aggregation source,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M56,Laser sources,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M57,Potentiostat / galvanostat and electrochemical cell,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M58,UV mask aligner,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M59,Electron-beam lithography system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M60,Nanoimprint lithography press,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M61,Etching systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M62,Robotic handling and automation systems,,,USD,Category rule would yield USD 44400–39600 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://standardbots.com/ro1;https://standardbots.com/blog/robotic-automation-solutions,2026-10-17
+M63,Automatic titration and piston dosing systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M64,Rotary swaging equipment,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M65,Induction heating and rapid annealing systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M66,Dialysis solvent-exchange assemblies,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M67,Three-roll mills and calenders,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M68,Electron-beam evaporation systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M69,Spark-plasma sintering systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M70,Programmable thermocyclers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M71,Laboratory drying and curing ovens,3594,4224,USD,"Category M71: 1.2 × lowest benchmark USD 2995 (OVEN 125 basic dry) through 0.8 × highest benchmark USD 5280 (OVEN 125 control dry glass). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-Drying-oven-20003215/Downloads-cpdl.html;https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-glass-Drying-oven-20003996/Downloads-cpdl.html,2026-10-17
+M72,Laboratory compression and hot presses,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M73,Ion implantation systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M74,Metal melting and casting systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M75,Metal extrusion presses,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M76,Aerosol dryer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M77,Aerosol charge conditioner,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M78,Aerosol particle detector,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M79,Aerosol collection system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M80,Laser-ablation reaction chambers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M81,Laboratory mortar and grinding mills,3033.6,6261.6,USD,"Category M81: 1.2 × lowest benchmark USD 2528 (A 10 basic) through 0.8 × highest benchmark USD 7827 (M 20 Universal mill). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Mills-pg194/A-10-basic-4020700/Downloads-cpdl.html;https://www.ika.com/en/Products-LabEq/M-20-Universal-mill-1603600/Downloads-cpdl.html,2026-10-17
+X-AM,Metal additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-CNC,CNC machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-CS,Cold spray deposition,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-EDM,Electrical discharge machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-MET,Optical surface metrology,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-TEST,Mechanical characterization,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
