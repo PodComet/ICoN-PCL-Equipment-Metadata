@@ -8,6 +8,9 @@ def later_updates():
     for update in pricing['equipment_updates']:
         for group in update['groups']:
             overrides.setdefault(update['equipment_id'],{}).update(group['after'])
+    media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
+    for update in media['equipment_updates']:
+        overrides.setdefault(update['equipment_id'],{}).update(update['after'])
     return report,overrides
 
 
@@ -39,6 +42,9 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
     rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     later,overrides=later_updates()
     additions={field:sum(not g['before'].get(field) and bool(g['after'].get(field)) for u in later['updates'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'} for g in u['groups'] if field in g['after']) for field in ['image_url','manufacturer_price_value']}
+    media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
+    for field in additions:
+        additions[field]+=sum(not u['before'].get(field) and bool(u['after'].get(field)) for u in media['equipment_updates'])
     assert report['after']['photos']==293
     assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion'})==293+additions['image_url']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])
     prices=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))

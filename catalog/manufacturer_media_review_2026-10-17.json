@@ -1,0 +1,344 @@
+{
+  "review_date": "2026-10-17",
+  "scope": "Four owner-confirmed manufacturers and all nine catalog records previously attributed to them; no new model records added.",
+  "manufacturer_confirmations": {
+    "Elma": "https://www.elma-ultrasonic.com/en/company",
+    "Microtrac": "https://www.microtrac.com/company/",
+    "Bandelin": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+    "Advanced Microfluidics SA": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+  },
+  "identity_correction": {
+    "equipment_id": "M26-02",
+    "from": "Elma",
+    "to": "Elmarco",
+    "source": "https://www.elmarco.com/product-lines/laboratory-equipment",
+    "star_inheritance": false
+  },
+  "new_photo_records": [
+    "M10-10",
+    "LIT-M07-ORTIZ2024",
+    "M26-02"
+  ],
+  "new_price": {
+    "equipment_id": "M10-10",
+    "amount": 907,
+    "currency": "EUR",
+    "kind": "manufacturer_regular_published_price",
+    "scope": "Regular base price shown on manufacturer shop page for order 312, 230 V 50/60 Hz heated bath; net of VAT, shipping and optional accessories. Page also displays EUR 816.30 under a promotion explicitly ending 31 October 2025; that expired discount is not adopted. Not MSRP or a US-region quote."
+  },
+  "existing_elma_prices_rechecked": {
+    "M10-01": "680 EUR",
+    "M10-04": "1200 EUR",
+    "M10-05": "1420 EUR",
+    "M10-06": "2000 EUR",
+    "EXP-20261016-M10-SELECT-150": "1930 EUR"
+  },
+  "quote_only": [
+    {
+      "equipment_id": "LIT-M07-ORTIZ2024",
+      "source": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+    },
+    {
+      "equipment_id": "EXP-20261016-M34-NANOTRAC-WAVE-II",
+      "source": "https://www.microtrac.com/products/dynamic-light-scattering/nanotrac-wave-ii/"
+    },
+    {
+      "equipment_id": "M26-02",
+      "source": "https://www.elmarco.com/product-lines/laboratory-equipment"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M10-01",
+      "before": {
+        "manufacturer_price_checked_date": "2026-10-16"
+      },
+      "after": {
+        "manufacturer_price_checked_date": "2026-10-17"
+      }
+    },
+    {
+      "equipment_id": "M10-04",
+      "before": {
+        "manufacturer_price_checked_date": "2026-10-16"
+      },
+      "after": {
+        "manufacturer_price_checked_date": "2026-10-17"
+      }
+    },
+    {
+      "equipment_id": "M10-05",
+      "before": {
+        "manufacturer_price_checked_date": "2026-10-16"
+      },
+      "after": {
+        "manufacturer_price_checked_date": "2026-10-17"
+      }
+    },
+    {
+      "equipment_id": "M10-06",
+      "before": {
+        "manufacturer_price_checked_date": "2026-10-16"
+      },
+      "after": {
+        "manufacturer_price_checked_date": "2026-10-17"
+      }
+    },
+    {
+      "equipment_id": "M10-10",
+      "before": {
+        "documentation_url": "",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "documentation_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "image_url": "https://bandelin.com/wp-content/uploads/Produktfoto_RK_100_H-2-600x600.jpg",
+        "image_source_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "image_scope": "Official SONOREX SUPER RK 100 H heated-bath photo; accessories shown are illustrative and may be sold separately.",
+        "technical_spec_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "media_checked_date": "2026-10-17",
+        "product_page_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "manufacturer_price_value": "907",
+        "manufacturer_price_currency": "EUR",
+        "manufacturer_price_kind": "published_price",
+        "manufacturer_price_source_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "manufacturer_price_checked_date": "2026-10-17",
+        "manufacturer_price_scope": "Regular base price shown on manufacturer shop page for order 312, 230 V 50/60 Hz heated bath; net of VAT, shipping and optional accessories. Page also displays EUR 816.30 under a promotion explicitly ending 31 October 2025; that expired discount is not adopted. Not MSRP or a US-region quote.",
+        "product_page_scope": "Official RK 100 H, order number 312, 230 V European configuration; not an assertion of US electrical compatibility."
+      }
+    },
+    {
+      "equipment_id": "M26-02",
+      "before": {
+        "manufacturer": "Elma",
+        "model_status": "unverified_candidate",
+        "model_evidence_url": "",
+        "documentation_url": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate only; exact model and manual coverage require verification. No ownership assertion.",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "manufacturer": "Elmarco",
+        "model_status": "confirmed",
+        "model_evidence_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "documentation_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "review_date": "2026-10-17",
+        "notes": "Manufacturer attribution corrected from Elma to Elmarco using the official NS LAB product page, 2026-10-17. Official photo and technical specifications added. Price on request; no public price confirmed. Legacy subtype/generation remains unspecified. No ownership assertion.",
+        "model_evidence_status": "documented",
+        "image_url": "https://www.elmarco.com/media/121-elmarco-nano-lab-9-720x405-eafcf08c.jpg",
+        "image_source_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "image_scope": "Manufacturer photo on the current Nanospider NS LAB laboratory-equipment page. Legacy NS LAB subtype and accessory configuration remain unspecified.",
+        "technical_spec_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "media_checked_date": "2026-10-17",
+        "product_page_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "product_page_scope": "Current NS LAB laboratory system; manufacturer corrected from Elma to Elmarco. Historical NS LAB generation is unspecified."
+      }
+    },
+    {
+      "equipment_id": "LIT-M07-ORTIZ2024",
+      "before": {
+        "documentation_url": "https://doi.org/10.1039/D4DD00104D",
+        "notes": "10-port valve and 250 microlitre syringe configuration; formulation mixing and organic-phase delivery. No current availability, exact MSRP or ownership assertion. A named component is not the complete platform.",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+        "notes": "10-port valve and 250 microlitre syringe configuration; formulation mixing and organic-phase delivery. No current availability, exact MSRP or ownership assertion. A named component is not the complete platform. Official manufacturer site reviewed 2026-10-17: LSPone family photo, specification page and brochure added; configuration-based quotation required, no public exact-model price found.",
+        "image_url": "https://amf.ch/app/uploads/2025/03/AMF-LSPone-Visual_500x500.jpg",
+        "image_source_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+        "image_scope": "Current standard LSPone manufacturer family illustration. Exact 10-port / 250 microlitre article configuration and its generation are not independently pictured.",
+        "technical_spec_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+        "media_checked_date": "2026-10-17",
+        "product_page_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+        "product_page_scope": "Current LSPone family. Article-specific 10-port / 250 microlitre configuration and installed generation require confirmation.",
+        "brochure_url": "https://amf.ch/app/uploads/2023/09/Brochure-AMF-LSPOne-2025-08.25.pdf"
+      }
+    },
+    {
+      "equipment_id": "EXP-20261016-M10-SELECT-150",
+      "before": {
+        "manufacturer_price_checked_date": "2026-10-16"
+      },
+      "after": {
+        "manufacturer_price_checked_date": "2026-10-17"
+      }
+    }
+  ],
+  "lifecycle_updates": [
+    {
+      "equipment_id": "M26-02",
+      "before": {
+        "manufacturer": "Elma",
+        "lifecycle_status": "model_unresolved",
+        "successor_checked_date": "2026-10-15",
+        "review_notes": "The catalog manufacturer is Elma, while the Nanospider NS LAB source belongs to Elmarco. Manufacturer/model identity needs correction before assigning lifecycle evidence. This review does not transfer Elma verification to Elmarco.",
+        "review_source_match": "generation_or_identity_unresolved"
+      },
+      "after": {
+        "manufacturer": "Elmarco",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_checked_date": "2026-10-17",
+        "review_notes": "Manufacturer identity corrected from Elma to Elmarco from official NS LAB page. Current NS LAB family is documented; legacy subtype/generation unspecified and no direct successor relationship verified.",
+        "review_source_match": "current_family_identity_checked"
+      }
+    }
+  ],
+  "manufacturer_updates": [
+    {
+      "manufacturer": "Bandelin",
+      "before": {
+        "official_website_url": "https://bandelin.com/",
+        "research_use_status": "needs_review",
+        "research_evidence_url": "",
+        "verification_notes": "Official website identifies this equipment company. Independent research usage not established in this audit. Common adoption is not claimed.",
+        "review_date": "2026-10-13",
+        "verification_basis": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "official_website_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+        "verification_notes": "Project owner confirms this manufacturer as green-star worthy on 2026-10-17. Official supplied company/product page checked. BANDELIN electronic GmbH & Co. KG, Berlin, Germany; family-owned ultrasonic equipment manufacturer with history dating to 1955. Independent academic adoption was not separately established in this bounded confirmation.",
+        "review_date": "2026-10-17",
+        "verification_basis": "user_confirmation",
+        "company_status": "active",
+        "company_status_note": "BANDELIN electronic GmbH & Co. KG, Berlin, Germany; family-owned ultrasonic equipment manufacturer with history dating to 1955.",
+        "company_status_source_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/"
+      }
+    },
+    {
+      "manufacturer": "Elma",
+      "before": {
+        "official_website_url": "https://www.elma-ultrasonic.com/",
+        "research_use_status": "needs_review",
+        "research_evidence_url": "",
+        "verification_notes": "Official website identifies this equipment company. Independent research usage not established in this audit. Common adoption is not claimed.",
+        "review_date": "2026-10-13",
+        "verification_basis": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "official_website_url": "https://www.elma-ultrasonic.com/en/company",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://www.elma-ultrasonic.com/en/company",
+        "verification_notes": "Project owner confirms this manufacturer as green-star worthy on 2026-10-17. Official supplied company/product page checked. Elma Schmidbauer GmbH, Singen, Germany; company history dates to 1948. Independent academic adoption was not separately established in this bounded confirmation.",
+        "review_date": "2026-10-17",
+        "verification_basis": "user_confirmation",
+        "company_status": "active",
+        "company_status_note": "Elma Schmidbauer GmbH, Singen, Germany; company history dates to 1948.",
+        "company_status_source_url": "https://www.elma-ultrasonic.com/en/company"
+      }
+    },
+    {
+      "manufacturer": "Advanced Microfluidics SA",
+      "before": {
+        "official_website_url": "",
+        "brand_identity_status": "needs_review",
+        "verification_notes": "Manufacturer string reported by the cited primary methods; official brand identity/current web presence not independently verified in this academic pass.",
+        "review_date": "2026-10-16",
+        "verification_basis": "reported_in_primary_literature",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "official_website_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+        "brand_identity_status": "verified_manufacturer",
+        "verification_notes": "Project owner confirms this manufacturer as green-star worthy on 2026-10-17. Official supplied company/product page checked. Advanced Microfluidics SA, EPFL Innovation Park, Ecublens, Switzerland. Existing independent primary-literature use evidence is retained.",
+        "review_date": "2026-10-17",
+        "verification_basis": "user_confirmation",
+        "company_status": "active",
+        "company_status_note": "Advanced Microfluidics SA, EPFL Innovation Park, Ecublens, Switzerland.",
+        "company_status_source_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+      }
+    },
+    {
+      "manufacturer": "Microtrac",
+      "before": {
+        "official_website_url": "https://www.microtrac.com/",
+        "research_evidence_url": "",
+        "verification_notes": "Manufacturer technical product page demonstrates official web presence and DLS instrumentation. Independent researcher adoption not assessed in this bounded update; no green star requested.",
+        "review_date": "2026-10-16",
+        "verification_basis": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "official_website_url": "https://www.microtrac.com/company/",
+        "research_evidence_url": "https://www.microtrac.com/company/",
+        "verification_notes": "Project owner confirms this manufacturer as green-star worthy on 2026-10-17. Official supplied company/product page checked. International particle-characterization manufacturer, part of Verder Scientific (Verder Group); operating companies in Japan, the USA, Germany and France. Independent academic adoption was not separately established in this bounded confirmation.",
+        "review_date": "2026-10-17",
+        "verification_basis": "user_confirmation",
+        "company_status": "active",
+        "company_status_note": "International particle-characterization manufacturer, part of Verder Scientific (Verder Group); operating companies in Japan, the USA, Germany and France.",
+        "company_status_source_url": "https://www.microtrac.com/company/"
+      }
+    },
+    {
+      "manufacturer": "Elmarco",
+      "before": {
+        "manufacturer": "",
+        "official_website_url": "",
+        "brand_identity_status": "",
+        "research_use_status": "",
+        "research_evidence_url": "",
+        "verification_notes": "",
+        "review_date": "",
+        "verification_basis": "",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "manufacturer": "Elmarco",
+        "official_website_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "brand_identity_status": "verified_manufacturer",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+        "verification_notes": "Official NS LAB product page establishes Elmarco as the manufacturer. Corrects the prior Elma attribution. Elma and Elmarco are distinct companies; owner confirmation for Elma does not transfer to Elmarco.",
+        "review_date": "2026-10-17",
+        "verification_basis": "",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "active",
+        "company_status_note": "",
+        "company_status_source_url": "https://www.elmarco.com/product-lines/laboratory-equipment"
+      }
+    }
+  ]
+}

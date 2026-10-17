@@ -2,13 +2,27 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {refreshResearchEvidence,withSharedResearchOverrides} from '../app/research-policy.ts';
-import {allDocumentationLinks,pricePresentation} from '../app/catalog-lib.ts';
+import {allDocumentationLinks,pricePresentation,applyManufacturerAudit,verifiedManufacturer} from '../app/catalog-lib.ts';
 
 const updates=JSON.parse(readFileSync(new URL('../app/data/research-updates.json',import.meta.url),'utf8'));
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const q125=seed.records.find(r=>r.equipment_id==='M09-01');
 const update=updates.find(r=>r.equipment_id===q125.equipment_id);
 const old=()=>Object.assign({...q125},...update.groups.map(group=>group.before));
+
+test('NS LAB identity correction never transfers Elma verification and preserves explicit edits',()=>{
+ const current=seed.records.find(r=>r.equipment_id==='M26-02'),change=updates.find(u=>u.equipment_id===current.equipment_id);
+ const prior=Object.assign({...current},...change.groups.map(group=>group.before),{notes:'My polymer formulation notes'});
+ assert.equal(prior.manufacturer,'Elma');
+ const refreshed=refreshResearchEvidence(prior,updates);
+ assert.equal(refreshed.manufacturer,'Elmarco');assert.ok(refreshed.image_url);assert.equal(refreshed.notes,prior.notes);
+ assert.equal(verifiedManufacturer(applyManufacturerAudit(refreshed,seed.manufacturers)),false);
+ const protectedMaker=refreshResearchEvidence(prior,updates,['manufacturer']);
+ assert.equal(protectedMaker.manufacturer,'Elma');assert.equal(protectedMaker.image_url,prior.image_url);
+ const customPhoto=refreshResearchEvidence({...prior,image_url:'https://example.org/my-nslab.jpg'},updates);
+ assert.equal(customPhoto.manufacturer,'Elmarco');assert.equal(customPhoto.image_url,'https://example.org/my-nslab.jpg');
+ assert.equal(refreshResearchEvidence({...prior,model_name:'Different instrument'},updates).manufacturer,'Elma');
+});
 
 test('new exact-package prices refresh untouched snapshots with cents and preserve custom quote groups',()=>{
  const record=seed.records.find(r=>r.equipment_id==='M13-01'),change=updates.find(u=>u.equipment_id===record.equipment_id),group=change.groups.find(g=>g.after.manufacturer_price_checked_date==='2026-10-17');

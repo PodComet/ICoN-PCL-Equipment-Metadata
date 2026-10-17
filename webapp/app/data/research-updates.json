@@ -8867,5 +8867,201 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M10-10",
+    "model_name": "Bandelin SONOREX RK 100 H",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://bandelin.com/wp-content/uploads/Produktfoto_RK_100_H-2-600x600.jpg",
+          "image_source_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+          "image_scope": "Official SONOREX SUPER RK 100 H heated-bath photo; accessories shown are illustrative and may be sold separately.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "907",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+          "manufacturer_price_checked_date": "2026-10-17",
+          "manufacturer_price_scope": "Regular base price shown on manufacturer shop page for order 312, 230 V 50/60 Hz heated bath; net of VAT, shipping and optional accessories. Page also displays EUR 816.30 under a promotion explicitly ending 31 October 2025; that expired discount is not adopted. Not MSRP or a US-region quote."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/",
+          "product_page_scope": "Official RK 100 H, order number 312, 230 V European configuration; not an assertion of US electrical compatibility."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/"
+        }
+      }
+    ],
+    "manufacturer": "Bandelin"
+  },
+  {
+    "equipment_id": "LIT-M07-ORTIZ2024",
+    "model_name": "LSPOne (10-port, 250 microlitre)",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://amf.ch/app/uploads/2025/03/AMF-LSPone-Visual_500x500.jpg",
+          "image_source_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+          "image_scope": "Current standard LSPone manufacturer family illustration. Exact 10-port / 250 microlitre article configuration and its generation are not independently pictured.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/",
+          "product_page_scope": "Current LSPone family. Article-specific 10-port / 250 microlitre configuration and installed generation require confirmation."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://amf.ch/app/uploads/2023/09/Brochure-AMF-LSPOne-2025-08.25.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": "https://doi.org/10.1039/D4DD00104D"
+        },
+        "after": {
+          "documentation_url": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+        }
+      }
+    ],
+    "manufacturer": "Advanced Microfluidics SA"
+  },
+  {
+    "equipment_id": "M26-02",
+    "model_name": "Elmarco Nanospider NS LAB",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "Elma"
+        },
+        "after": {
+          "manufacturer": "Elmarco"
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Elma",
+          "model_status": "unverified_candidate",
+          "model_evidence_status": "candidate_needs_review",
+          "model_evidence_url": ""
+        },
+        "after": {
+          "manufacturer": "Elmarco",
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.elmarco.com/product-lines/laboratory-equipment"
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Elma",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "manufacturer": "Elmarco",
+          "image_url": "https://www.elmarco.com/media/121-elmarco-nano-lab-9-720x405-eafcf08c.jpg",
+          "image_source_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+          "image_scope": "Manufacturer photo on the current Nanospider NS LAB laboratory-equipment page. Legacy NS LAB subtype and accessory configuration remain unspecified.",
+          "media_checked_date": "2026-10-17"
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Elma",
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "manufacturer": "Elmarco",
+          "product_page_url": "https://www.elmarco.com/product-lines/laboratory-equipment",
+          "product_page_scope": "Current NS LAB laboratory system; manufacturer corrected from Elma to Elmarco. Historical NS LAB generation is unspecified."
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Elma",
+          "technical_spec_url": ""
+        },
+        "after": {
+          "manufacturer": "Elmarco",
+          "technical_spec_url": "https://www.elmarco.com/product-lines/laboratory-equipment"
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Elma",
+          "documentation_url": ""
+        },
+        "after": {
+          "manufacturer": "Elmarco",
+          "documentation_url": "https://www.elmarco.com/product-lines/laboratory-equipment"
+        }
+      }
+    ]
   }
 ]

@@ -55830,6 +55830,21 @@
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/advancedmicrofluidicssa"
       }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://amf.ch/app/uploads/2025/03/AMF-LSPone-Visual_500x500.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://amf.ch/product/lspone-laboratory-syringe-pump/"
+      }
     ]
   },
   {
@@ -64472,6 +64487,21 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bandelin"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://bandelin.com/wp-content/uploads/Produktfoto_RK_100_H-2-600x600.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/"
       }
     ]
   },
@@ -73801,7 +73831,22 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
-        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/elma"
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/elmarco"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.elmarco.com/media/121-elmarco-nano-lab-9-720x405-eafcf08c.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.elmarco.com/product-lines/laboratory-equipment"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.elmarco.com/product-lines/laboratory-equipment"
       }
     ]
   },
@@ -116146,6 +116191,22 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Elma"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/elmarco",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "elmarco"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Elmarco"
       }
     ]
   },

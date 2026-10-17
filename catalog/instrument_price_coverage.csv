@@ -98,7 +98,7 @@ M10-06,M10,Elma,Elma Elmasonic Select 180,manufacturer_price,,2000,0,0,,,https:/
 M10-07,M10,Branson,Branson CPX3800,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/branson-cpx3800-digital-ultrasonic-cleaner
 M10-08,M10,Branson,Branson CPX5800,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/branson-cpx5800-digital-ultrasonic-cleaner
 M10-09,M10,Branson,Branson CPX8800,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/branson-cpx8800-digital-ultrasonic-cleaner
-M10-10,M10,Bandelin,Bandelin SONOREX RK 100 H,no_purchase_price,,,0,0,,,
+M10-10,M10,Bandelin,Bandelin SONOREX RK 100 H,manufacturer_price,,907,0,0,,,https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/
 M11-01,M11,IKA,IKA T 18 digital Solution,manufacturer_price,,2749,0,0,3298.8,9904,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/
 M11-02,M11,Kinematica,Kinematica POLYTRON PT 2500 E,estimate_only,,,0,0,3298.8,9904,
 M11-03,M11,Silverson,Silverson L5M-A,estimate_only,,,0,0,3298.8,9904,
@@ -250,7 +250,7 @@ M25-08,M25,Holmarc,Holmarc HO-TH-02,manufacturer_price,,350658,0,0,,,https://www
 M25-09,M25,Holmarc,Holmarc HO-TH-02B,manufacturer_price,,371278,0,0,,,https://www.holmarc.com/dip_coating_unit_IR.php
 M25-10,M25,Holmarc,Holmarc HO-TH-03BC,manufacturer_price,,1190808,0,0,,,https://www.holmarc.com/dip_coating_unit_with_magnetic_stirrer_airtight_chamber.php
 M26-01,M26,Inovenso,Inovenso NE300,no_purchase_price,,,0,0,,,
-M26-02,M26,Elma,Elmarco Nanospider NS LAB,no_purchase_price,,,0,0,,,
+M26-02,M26,Elmarco,Elmarco Nanospider NS LAB,no_purchase_price,,,0,0,,,
 M26-03,M26,Fluidnatek,Fluidnatek LE-100,no_purchase_price,,,0,0,,,
 M26-04,M26,Fluidnatek,Fluidnatek LE-10,no_purchase_price,,,0,0,,,
 M26-05,M26,Fluidnatek,Fluidnatek LE-50,no_purchase_price,,,0,0,,,
