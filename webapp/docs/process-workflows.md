@@ -49,6 +49,16 @@ Totals are displayed per step and for the complete process. Mixed currencies are
 
 Plans are conceptual equipment arrangements, not validated operating procedures. Class associations alone do not validate material compatibility, interfaces, temperatures, pressures or other operating limits.
 
+## Instrument popups and position hierarchy
+
+Click a directory card, an available-instrument card, or an occupied process-slot background/photo to open that exact instrument's popup. Enter or Space on a focused card or slot opens the same popup. Empty slots still filter the inline equipment pool. Embedded variant chips, links, selection buttons, drag handles and assignment controls keep their own actions. Drag movement suppresses the follow-up click. Closing the popup preserves the process draft and placement.
+
+Popups contain a **POSITION / Fibers / Directions** shortcut and an expanded, model-bound Position List. If the assigned model has been removed or renamed in the catalog, its saved snapshot can still open as a read-only popup. A different current model never silently replaces that snapshot.
+
+The display hierarchy is POSITION → one or more FIBERS → each fiber's DIRECTIONS and evidence IDs. Original `poly-fibers/v2` entries remain unchanged: the `position` field groups them for presentation, and a legacy single fiber receives a display-only “Fiber 1” label. Optional project fields `fiber_id` and `fiber_label` support multiple named fibers at the same position. Repeated positions require explicit, globally unique fiber IDs; direction names are unique within each fiber. Exports preserve the original schema and all metadata, and can select one fiber, all fibers in one position, or the full interface. Evidence IDs must resolve to the model evidence register.
+
+Uncurated instruments show the empty POSITION / FIBERS / DIRECTIONS structure and a downloadable blank interface. No mechanical positions, operating modes or allowed actions are invented from a category or inherited from a different model. Persistent position-data editing and manual extraction remain future work.
+
 ## Validation
 
 Run `node --experimental-strip-types --test tests/processes.test.mjs` for sequencing, ID preservation, class restrictions, quantities/currencies, snapshot integrity and metadata preservation. The loopback-only `python tests/integration/process_preview.py` additionally checks authentication, origin protection, D1 persistence, history and stale/concurrent writes. It records its disposable local workflow ID in ignored `.sites-runtime/process-qa-id.json` for targeted cleanup. Apply `drizzle/0002_hesitant_devos.sql` once to the local preview database; Sites applies it separately to hosting on publication.

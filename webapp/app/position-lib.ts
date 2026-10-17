@@ -1,6 +1,6 @@
 import type {Equipment} from './catalog-lib.ts';
 export type Direction={direction:string;description:string;evidence_ids:string[]};
-export type Fiber={position:string;description:string;evidence_ids:string[];directions:Direction[]};
+export type Fiber={position:string;description:string;evidence_ids:string[];directions:Direction[];fiber_id?:string;fiber_label?:string};
 export type PositionInterface={schema:'poly-fibers/v2';name:string;description:string;evidence_ids:string[];fibers:Fiber[]};
 export type PositionProfile={equipment_id:string;model_name:string;manufacturer:string;status:string;interface:PositionInterface};
 export type PositionEvidence={schema:string;namespace:string;subject:Record<string,string>;entries:{id:string;classification:string;claim:string;source:{kind:string;title:string;section:string;url:string|null;accessed:string};verification:{status:string;method:string}}[]};
@@ -15,15 +15,27 @@ export function validatePositionInterface(value:unknown,evidence:PositionEvidenc
  const text=(v:unknown,max=2000)=>typeof v==='string'&&v.trim()&&v.length<=max;
  const ids=(v:unknown)=>Array.isArray(v)&&v.length<=100&&v.every(id=>typeof id==='string'&&known.has(id));
  if(!r||r.schema!=='poly-fibers/v2'||!text(r.name,200)||!text(r.description)||!ids(r.evidence_ids)||!Array.isArray(r.fibers)||r.fibers.length>100)throw new Error('Use poly-fibers/v2 with a name, description, fibers array and known evidence IDs.');
- const positions=new Set<string>();
+ const positions=new Map<string,Fiber[]>(),fiberIds=new Set<string>();
  for(const f of r.fibers){
-  if(!text(f.position,200)||positions.has(f.position)||!text(f.description)||!ids(f.evidence_ids)||!Array.isArray(f.directions)||f.directions.length>100)throw new Error('Each position needs a unique name, description, evidence IDs and directions.');
-  positions.add(f.position);const names=new Set<string>();
+  if(!text(f.position,200)||!text(f.description)||!ids(f.evidence_ids)||!Array.isArray(f.directions)||f.directions.length>100)throw new Error('Each position needs a unique name or explicit fiber IDs, description, evidence IDs and directions.');
+  if(f.fiber_id!==undefined&&(!text(f.fiber_id,200)||fiberIds.has(f.fiber_id)))throw new Error('Each fiber ID must be nonempty and unique within the interface.');
+  if(f.fiber_label!==undefined&&!text(f.fiber_label,200))throw new Error('Use a nonempty fiber label.');
+  const peers=positions.get(f.position)||[];
+  if(peers.length&&(!f.fiber_id||peers.some(peer=>!peer.fiber_id)))throw new Error('Repeated positions need a unique name for each fiber in fiber_id.');
+  positions.set(f.position,[...peers,f]);if(f.fiber_id)fiberIds.add(f.fiber_id);const names=new Set<string>();
   for(const d of f.directions){if(!text(d.direction,200)||names.has(d.direction)||!text(d.description)||!ids(d.evidence_ids))throw new Error('Each direction needs a unique name within its position, a description and known evidence IDs.');names.add(d.direction);}
  }
  return structuredClone(r);
 }
-export function separateFiber(profile:PositionInterface,position:string):PositionInterface{
- const fiber=profile.fibers.find(f=>f.position===position);if(!fiber)throw new Error('Choose a recorded position.');
- return {...structuredClone(profile),fibers:[structuredClone(fiber)]};
+export function positionGroups(profile:PositionInterface){
+ const groups=new Map<string,{position:string;fibers:{id:string;label:string;fiber:Fiber}[]}>();
+ for(const fiber of profile.fibers){
+  const group=groups.get(fiber.position)||{position:fiber.position,fibers:[]};
+  group.fibers.push({id:fiber.fiber_id||fiber.position,label:fiber.fiber_label||'Fiber '+(group.fibers.length+1),fiber});groups.set(fiber.position,group);
+ }
+ return [...groups.values()];
+}
+export function separateFiber(profile:PositionInterface,position:string,fiberId?:string):PositionInterface{
+ const fibers=profile.fibers.filter(f=>f.position===position&&(fiberId===undefined||(f.fiber_id||f.position)===fiberId));if(!fibers.length)throw new Error('Choose a recorded position and fiber.');
+ return {...structuredClone(profile),fibers:structuredClone(fibers)};
 }
