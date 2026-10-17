@@ -1,0 +1,39 @@
+/* Reserve geometry before photos arrive and while assignments/filter results change. */
+html {scrollbar-gutter:stable}
+.process-workflow-picker {grid-template-columns:minmax(0,3fr) minmax(190px,1fr) auto;gap:12px;padding:9px 10px;margin-bottom:9px;align-items:center}
+.process-workflow-picker>label {min-width:0}
+.process-workflow-picker>label:first-child {padding:8px 10px;border:2px solid #bd9137;border-radius:8px;background:#fff6dd;font-size:15px;gap:6px;color:#15213c}
+.process-workflow-picker>label:first-child select {font-size:16px;font-weight:850;min-height:44px;padding:10px;background:#fffef9;border:1px solid #a57d2d;color:#15213c}
+.process-workflow-picker>label:nth-child(2) {font-size:11px;gap:5px}
+.process-workflow-picker>label:nth-child(2) select {font-size:12px;min-height:34px;padding:7px}
+.process-workflow-picker>.secondary-button {font-size:12px;padding:9px}
+.process-notice {box-sizing:border-box;min-height:29px;height:29px;overflow:hidden;margin:4px 0}
+.process-notice.is-empty {visibility:hidden}
+.process-chart-fitted .process-hierarchy .process-step {box-sizing:border-box;height:324px;min-height:324px;max-height:324px;overflow:hidden;transition:none}
+.process-chart-fitted .process-hierarchy .process-step-header {height:56px;min-height:56px;margin-bottom:4px;align-items:start}
+.process-chart-fitted .process-hierarchy .process-step-header textarea {field-sizing:fixed;box-sizing:border-box;height:54px;min-height:54px;max-height:54px;overflow:auto;resize:none}
+.process-chart-fitted .process-hierarchy .process-step-slots {height:236px;min-height:236px;align-items:stretch}
+.process-chart-fitted .process-hierarchy .process-slot {box-sizing:border-box;height:236px;min-height:236px;max-height:236px;overflow:hidden;transition:none}
+.process-chart-fitted .process-hierarchy .process-slot-category {height:86px;min-height:86px;overflow:auto;scrollbar-width:thin}
+.process-chart-fitted .process-hierarchy .process-slot-header {height:18px;min-height:18px;margin:0}
+.process-chart-fitted .process-hierarchy .process-assigned-mini {height:92px;min-height:92px;overflow:hidden}
+.process-chart-fitted .process-hierarchy .process-assigned-mini .process-model-link {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.process-chart-fitted .process-hierarchy .process-assignment-actions {height:18px;min-height:18px;flex-wrap:nowrap;margin-top:3px}
+.process-chart-fitted .process-hierarchy .process-use-selected {display:none}
+.process-chart-fitted .process-hierarchy .process-no-equipment {height:236px;min-height:236px;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;gap:10px}
+.process-chart-expanded .process-hierarchy .process-step {box-sizing:border-box;height:620px;min-height:620px;max-height:620px;overflow:auto;transition:none}
+.process-start-materials,.process-output {box-sizing:border-box;height:240px;min-height:240px;max-height:240px;overflow:auto;scrollbar-width:thin}
+.process-output {align-content:start}
+.process-output>strong {overflow-wrap:anywhere}
+.process-equipment-library .process-library-cards {grid-template-columns:repeat(auto-fill,minmax(min(100%,210px),1fr))}
+.process-equipment-library .process-library-card {display:grid;box-sizing:border-box;height:260px;min-height:260px;max-height:260px;grid-template-columns:64px minmax(0,1fr);grid-template-rows:56px 74px minmax(48px,1fr) 32px;gap:5px 9px;overflow:hidden;align-content:start;transition:none}
+.process-equipment-library .process-library-card>.process-category-label {grid-column:1/-1;grid-row:1;align-self:start;margin:0;max-height:56px;overflow:auto;scrollbar-width:thin}
+.process-equipment-library .process-library-card>:is(.process-instrument-photo,.process-no-photo) {grid-column:1;grid-row:2;box-sizing:border-box;width:64px;height:64px;min-height:64px;float:none;margin:0;overflow:hidden}
+.process-equipment-library .process-library-card .process-instrument-photo>img {width:64px;height:64px!important;object-fit:contain}
+.process-equipment-library .process-library-card>.process-mini-top {grid-column:2;grid-row:2;display:block;min-width:0;overflow:hidden}
+.process-equipment-library .process-library-card .process-model-link {display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;font-size:13px!important;line-height:1.3}
+.process-equipment-library .process-library-card .process-mini-maker {font-size:11px;line-height:1.3}
+.process-equipment-library .process-library-card>.process-mini-bottom {grid-column:1/-1;grid-row:3;align-self:start;margin:0;max-height:65px;overflow:auto;font-size:12px;scrollbar-width:thin}
+.process-equipment-library .process-library-card>.process-library-actions {grid-column:1/-1;grid-row:4;margin:0;padding-top:5px;align-self:end;height:32px;box-sizing:border-box}
+.process-equipment-library .process-library-card>.process-library-actions button {font-size:11px;white-space:nowrap}
+@media(max-width:850px){.process-workflow-picker{grid-template-columns:minmax(0,1fr) auto}.process-workflow-picker>label:first-child{grid-column:1/-1}.process-workflow-picker>label:nth-child(2){max-width:320px}.process-workflow-picker>label:first-child select{font-size:15px}}

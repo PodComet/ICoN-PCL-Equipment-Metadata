@@ -47,9 +47,13 @@ def test_new_processes_keep_classified_and_unclassified_stages_explicit():
         seq=[s for s in steps if s['route_id']==f'P{n}']
         assert [int(s['step_order']) for s in seq]==list(range(1,len(seq)+1))
         assert any(s['equipment_category_ids'] for s in seq)
-        assert any(not s['equipment_category_ids'] for s in seq)
+        for stage in seq:
+            req=json.loads(stage['requirements_json'])
+            assert not req['unresolved_required_equipment']
+            if not stage['equipment_category_ids']:
+                assert not any(req['required_branches'])
         assert all(s['equipment_sequence'] and s['source_page'] for s in seq)
     assert routes['P42']['equipment_category_ids']=='M24;M59;M68'
     assert routes['P41']['equipment_category_ids']=='M12;M69'
-    assert routes['P37']['equipment_category_ids']=='M02;M67'
-    assert routes['P36']['equipment_category_ids']=='M15;M53'
+    assert routes['P37']['equipment_category_ids']=='M67;M02;M31;M71'
+    assert routes['P36']['equipment_category_ids']=='M53;M15'

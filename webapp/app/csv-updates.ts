@@ -2,6 +2,8 @@ import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufac
 import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
 import {LIFECYCLE_FIELDS} from './model-lifecycle.ts';
 import {independentVariant} from './product-family-policy.ts';
+import {withMsrpEstimates} from './msrp-policy.ts';
+import msrpPolicy from './data/msrp-policy.json' with {type:'json'};
 
 export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","equipment_subtype","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
 export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","category_id",...UPDATE_FIELDS];
@@ -72,23 +74,6 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
     record.catalog_scope='admin_supplement';record.record_kind=op==='add_variant'?'user_variant':'model_candidate';record.model_status='user_entered';record.model_evidence_status='candidate_needs_review';record.manual_match_status='not_verified';record.manual_status='not_found';
     if(op==='add_equipment'){record.product_family_id='PF-'+id;record.product_family='';for(const k of Object.keys(record))if(k.startsWith('estimate'))record[k]='';const comparator=records.find(r=>r.category_id===category);if(comparator)for(const k of Object.keys(comparator))if(k.startsWith('estimate'))record[k]=comparator[k]}
    }
-   if(op==='add_equipment'&&category==='M50'){
-    const peers=records.filter(r=>r.category_id==='M50');
-    const subtype=input.equipment_subtype?.toLowerCase();
-    const comparator=subtype?peers.find(r=>r.equipment_subtype?.toLowerCase()===subtype):undefined;
-    if(comparator){for(const key of Object.keys(comparator))if(key.startsWith('estimate'))record[key]=comparator[key]}
-    else{
-     const priced=peers.filter(r=>Number(r.estimated_msrp_low)>0&&Number(r.estimated_msrp_high)>=Number(r.estimated_msrp_low));
-     if(priced.length){
-      record.estimated_msrp_low=String(Math.min(...priced.map(r=>Number(r.estimated_msrp_low))));
-      record.estimated_msrp_high=String(Math.max(...priced.map(r=>Number(r.estimated_msrp_high))));
-      record.estimate_subject='Shakers and vessel-driven mixers; subtype unspecified';
-      record.estimate_confidence='low';
-      record.estimate_basis='Broad family planning estimate spanning the existing vortex, mechanical-shaking and resonant-acoustic class bands. This is not a model quote or manufacturer MSRP. Specify the documented subtype to use a comparable class. Excludes tax, freight, installation and service.';
-      record.estimate_source_urls=[...new Set(priced.flatMap(r=>(r.estimate_source_urls||'').split(';')).filter(Boolean))].join(';');
-     }
-    }
-   }
    const changed:string[]=[];
    for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>6000)throw new Error(field+" exceeds 6,000 characters.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
    if(changed.includes('model_name')||changed.includes('manufacturer'))for(const field of LIFECYCLE_FIELDS)record[field]='';
@@ -117,6 +102,9 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    plan.changes.push({line,operation:op,equipment_id:id,name:record.model_name,fields:before?Object.keys(after).filter(k=>after[k]!==before[k]&&!k.startsWith("_")):changed,before,after});
   }catch(e){plan.errors.push({line,message:(e as Error).message})}
  });
+ const merged=new Map(records.map(r=>[r.equipment_id,r]));for(const change of plan.changes)merged.set(change.equipment_id,change.after);
+ const recalculated=new Map(withMsrpEstimates([...merged.values()],[...merged.values()],msrpPolicy).map(r=>[r.equipment_id,r]));
+ for(const change of plan.changes){change.after=recalculated.get(change.equipment_id)!;if(change.before)change.fields=Object.keys(change.after).filter(k=>change.after[k]!==change.before![k]&&!k.startsWith('_'));}
  if(plan.changes.length>100)plan.errors.push({line:1,message:"Split the file into batches of at most 100 changed records."});
  if(JSON.stringify(plan.changes).length>1_500_000)plan.errors.push({line:1,message:"Change payload is too large. Split this import into smaller files."});
  return plan;

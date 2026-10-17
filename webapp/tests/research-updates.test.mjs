@@ -87,7 +87,7 @@ test('CSV admin clears remain effective after loading a reviewed seed',()=>{
  const saved=withSharedResearchOverrides(cleared,['product_page_url','manufacturer_price_value']);
  const refreshed=refreshResearchEvidence(saved,updates);
  assert.equal(refreshed.product_page_url,'');assert.equal(refreshed.manufacturer_price_value,'');
- assert.equal(pricePresentation(refreshed).estimated,true);
+ assert.equal(pricePresentation(refreshed).estimated,false);assert.equal(pricePresentation(refreshed).value,'Not recorded');assert.equal(refreshed.estimate_status,'no_benchmarks');
 });
 
 test('instrument details expose manual, specifications and brochure without duplicate or unsafe links',()=>{

@@ -71,13 +71,14 @@ export function pricePresentation(r: Equipment) {
     catch {return currency + " " + value;}
   };
   if (r.msrp_value) return {label:"MSRP",value:format(r.msrp_value,r.msrp_currency),estimated:false};
+  if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated')return classEstimatePresentation(r);
   const published=manufacturerPrice(r);
   if(published)return {label:published.label,value:published.value,estimated:false};
   return classEstimatePresentation(r);
 }
 export function classEstimatePresentation(r:Equipment){
   const format=(value:string,currency='USD')=>{try{return new Intl.NumberFormat('en-US',{style:'currency',currency,minimumFractionDigits:0,maximumFractionDigits:2}).format(Number(value))}catch{return currency+' '+value}};
-  if (r.estimated_msrp_low && r.estimated_msrp_high) return {label:"Estimated MSRP*",value:format(r.estimated_msrp_low,r.estimate_currency)+"–"+format(r.estimated_msrp_high,r.estimate_currency),estimated:true};
+  if (r.estimated_msrp_low && r.estimated_msrp_high) return {label:"Estimated MSRP*",value:format(r.estimated_msrp_low,r.estimate_currency)+(r.estimated_msrp_low===r.estimated_msrp_high?'':"–"+format(r.estimated_msrp_high,r.estimate_currency)),estimated:true};
   return {label:"MSRP",value:"Not recorded",estimated:false};
 }
 

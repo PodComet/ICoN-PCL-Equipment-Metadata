@@ -5,19 +5,19 @@ import {manufacturerPrice,validateManufacturerPrice,pricePresentation,classEstim
 import {buildPlan,csvUpdateText} from '../app/csv-updates.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const plan=rows=>buildPlan(csvUpdateText(rows),seed.records,seed.categories,seed.routes,seed.manufacturers);
-test('published manufacturer prices take priority over estimates without becoming exact MSRP',()=>{
+test('exact MSRP and rule estimates have priority while published prices retain their labels',()=>{
  const rows=seed.records.filter(r=>r.manufacturer_price_value);
  assert.ok(rows.length>0);assert.equal(rows.length,seed.coverage.published_manufacturer_price_records);
- for(const r of rows){assert.equal(validateManufacturerPrice(r),'');assert.equal(pricePresentation(r).label,r.msrp_value?'MSRP':manufacturerPrice(r).label);if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}assert.equal(pricePresentation(r).estimated,false)}
+ for(const r of rows){assert.equal(validateManufacturerPrice(r),'');const estimated=!r.msrp_value&&r.estimate_status==='calculated';assert.equal(pricePresentation(r).label,r.msrp_value?'MSRP':estimated?'Estimated MSRP*':manufacturerPrice(r).label);if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}assert.equal(pricePresentation(r).estimated,estimated)}
 });
 test('MTI OTF-1200X displays sourced configuration pricing instead of its class band',()=>{
  const r=seed.records.find(r=>r.equipment_id==='M20-03');
  assert.equal(verifiedManufacturer(r),true);assert.equal(r.manufacturer_research_use_status,'documented_research_use');
  assert.deepEqual(pricePresentation(r),{label:'Manufacturer starting price',value:'$5,998',estimated:false});
- assert.equal(classEstimatePresentation(r).value,'$5,000–$100,000');
+ assert.equal(classEstimatePresentation(r).value,'Not recorded');
  assert.match(r.manufacturer_price_scope,/OTF1200X60/);assert.match(r.manufacturer_price_scope,/100 mm USD 6,995/);
  assert.equal(pricePresentation({...r,msrp_value:'6000',msrp_currency:'USD'}).label,'MSRP');
- assert.equal(pricePresentation({...r,manufacturer_price_source_url:'javascript:bad'}).estimated,true);
+ assert.equal(pricePresentation({...r,manufacturer_price_source_url:'javascript:bad'}).value,'Not recorded');
 });
 test('published prices require complete evidence and clearing removes stale metadata',()=>{
  const base={operation:'update',equipment_id:'M02-01',manufacturer_price_value:'1000',manufacturer_price_currency:'USD',manufacturer_price_kind:'list_price',manufacturer_price_source_url:'https://example.org/model',manufacturer_price_checked_date:'2026-02-30',manufacturer_price_scope:'Model and configuration'};

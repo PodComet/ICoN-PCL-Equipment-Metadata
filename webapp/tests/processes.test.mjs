@@ -16,7 +16,7 @@ test('literature processes open with ordered source stages, eligible apparatus a
   const candidates=routeCandidates(seed.records,route,null);
   assert.ok(candidates.length);
   if(rid!=='P23')assert.ok(candidates.some(r=>r.catalog_scope==='literature_reported'));
-  else assert.ok(candidates.every(r=>r.category_id==='M13'));
+  else assert.ok(candidates.every(r=>['M13','M02','M03'].includes(r.category_id)));
  }
  const gripper=seed.records.find(r=>r.equipment_id==='LIT-M62-YOO2023-RG2');
  assert.equal(priceSnapshot(gripper).kind,'unpriced');
@@ -128,7 +128,7 @@ test('breadth routes expose only their supported classes and start with empty ze
  assert.ok(routeCandidates(seed.records,dialysis,null).every(r=>r.category_id==='M66'));
  const alloy=seed.routes.find(r=>r.route_id==='P35');
  assert.equal(alloy.related_material_ids,'N10');
- assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M64','M65'].includes(r.category_id)));
+ assert.ok(routeCandidates(seed.records,alloy,null).every(r=>['M74','M19','M20','M75','M64','M65'].includes(r.category_id)));
 });
 
 test('all-years citation routes expose only classes used by their actual current steps',()=>{

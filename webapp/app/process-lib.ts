@@ -51,7 +51,9 @@ export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:
    if(index<0)return wanted;
    const old=remaining.splice(index,1)[0];return {...old,allowed_category_ids:cid?wanted.allowed_category_ids:old.allowed_category_ids,label:old.label==='Instrument slot'?wanted.label:old.label,extensions:{...old.extensions,...wanted.extensions}};
   });
-  return {...step,slots:[...slots,...remaining],extensions:{...step.extensions,requirements:req as unknown as JsonValue}};
+  // Retire only untouched, empty system placeholders once their required M classes are curated.
+  const kept=remaining.filter(old=>req.unresolved_required_equipment||old.instrument||old.allowed_category_ids.length||old.label!=='Unclassified required apparatus'||old.extensions.requirement_role!=='unclassified'||Object.keys(old.extensions).some(k=>k!=='requirement_role'));
+  return {...step,slots:[...slots,...kept],extensions:{...step.extensions,requirements:req as unknown as JsonValue}};
  })};
 }
 export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]=[]){
@@ -100,6 +102,7 @@ export function priceSnapshot(r:Equipment):PriceSnapshot{
  const number=(s:string)=>s?.trim()!==''&&Number.isFinite(Number(s))&&Number(s)>=0?Number(s):null;
  const exact=number(r.msrp_value),published=number(r.manufacturer_price_value),low=number(r.estimated_msrp_low),high=number(r.estimated_msrp_high);
  if(exact!==null&&/^[A-Z]{3}$/.test(r.msrp_currency))return {kind:'msrp',currency:r.msrp_currency,low:exact,high:exact,source_url:safeUrl(r.price_source_url),checked_date:r.price_checked_date||'',scope:'Recorded model MSRP'};
+ if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated'&&low!==null&&high!==null&&high>=low)return {kind:'estimate',currency:r.estimate_currency,low,high,source_url:safeUrl((r.estimate_source_urls||'').split(';')[0]),checked_date:r.estimate_checked_date||'',scope:r.estimate_basis};
  if(published!==null&&!validateManufacturerPrice(r))return {kind:'manufacturer',currency:r.manufacturer_price_currency,low:published,high:published,source_url:safeUrl(r.manufacturer_price_source_url),checked_date:r.manufacturer_price_checked_date,scope:r.manufacturer_price_kind+': '+r.manufacturer_price_scope};
  if(low!==null&&high!==null&&high>=low&&/^[A-Z]{3}$/.test(r.estimate_currency))return {kind:'estimate',currency:r.estimate_currency,low,high,source_url:safeUrl(r.estimate_source_url),checked_date:r.estimate_checked_date||'',scope:r.estimate_subject||r.category_name};
  return {kind:'unpriced',currency:'',low:0,high:0,source_url:'',checked_date:'',scope:'Price not recorded'};

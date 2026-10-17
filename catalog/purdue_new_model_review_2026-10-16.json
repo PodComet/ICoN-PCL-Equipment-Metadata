@@ -1,0 +1,1899 @@
+{
+  "checked_date": "2026-10-16",
+  "designated_model_profiles": 44,
+  "reviewed_new_profiles": 189,
+  "exact_matches": 0,
+  "scope": "Purdue P means this make/model appears on the user-designated Purdue list. It does not assign an inventory unit, serial number, ownership or purchasing status to a new model profile.",
+  "records": [
+    {
+      "equipment_id": "EXP-20261016-M01-EX224N-AD",
+      "manufacturer": "OHAUS",
+      "model_name": "OHAUS Explorer EX224N/AD",
+      "category_id": "M01",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M02-C-MAG-HS7-CONTROL",
+      "manufacturer": "IKA",
+      "model_name": "IKA C-MAG HS 7 control",
+      "category_id": "M02",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M03-EUROSTAR-200-DIGITAL",
+      "manufacturer": "IKA",
+      "model_name": "IKA EUROSTAR 200 digital",
+      "category_id": "M03",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M04-LR2ST-HIGH-PERFORMER",
+      "manufacturer": "IKA",
+      "model_name": "IKA LR-2.ST the High-Performer (jacketed configuration)",
+      "category_id": "M04",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M05-4740-75ML",
+      "manufacturer": "Parr",
+      "model_name": "Parr 4740, 75 mL",
+      "category_id": "M05",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M06-INITIATOR-ROBOT-SIXTY",
+      "manufacturer": "Biotage",
+      "model_name": "Biotage Initiator+ Robot Sixty, US/JPN",
+      "category_id": "M06",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M07-FUSION-6000X",
+      "manufacturer": "Chemyx",
+      "model_name": "Chemyx Fusion 6000X",
+      "category_id": "M07",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M08-SUNBATHER",
+      "manufacturer": "Unchained Labs",
+      "model_name": "Unchained Labs Sunbather",
+      "category_id": "M08",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M09-UP100H",
+      "manufacturer": "Hielscher",
+      "model_name": "Hielscher UP100H",
+      "category_id": "M09",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M10-SELECT-150",
+      "manufacturer": "Elma",
+      "model_name": "Elma Elmasonic Select 150",
+      "category_id": "M10",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M11-T65-DIGITAL",
+      "manufacturer": "IKA",
+      "model_name": "IKA T 65 digital ULTRA-TURRAX",
+      "category_id": "M11",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M12-PQ-N4",
+      "manufacturer": "Across International",
+      "model_name": "Across International PQ-N4",
+      "category_id": "M12",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M13-5425-R",
+      "manufacturer": "Eppendorf",
+      "model_name": "Eppendorf Centrifuge 5425 R",
+      "category_id": "M13",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M14-CS150NX",
+      "manufacturer": "Himac",
+      "model_name": "Himac CS150NX",
+      "category_id": "M14",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M15-FS15-RPM",
+      "manufacturer": "Repligen",
+      "model_name": "Repligen KrosFlo FS-15 RPM",
+      "category_id": "M15",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M16-RV10-AUTO-PRO-V",
+      "manufacturer": "IKA",
+      "model_name": "IKA RV 10 auto pro V",
+      "category_id": "M16",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M17-ALPHA-1-4-LSCPLUS",
+      "manufacturer": "Martin Christ",
+      "model_name": "Martin Christ Alpha 1-4 LSCplus",
+      "category_id": "M17",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M18-VDL115",
+      "manufacturer": "BINDER",
+      "model_name": "BINDER VDL 115",
+      "category_id": "M18",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M19-LE1-11",
+      "manufacturer": "Nabertherm",
+      "model_name": "Nabertherm LE 1/11",
+      "category_id": "M19",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M20-OTF1200XS25V110",
+      "manufacturer": "MTI",
+      "model_name": "MTI OTF-1200X-S, 1-inch / 110 V",
+      "category_id": "M20",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M21-AS-ONE-100",
+      "manufacturer": "Annealsys",
+      "model_name": "Annealsys AS-One 100",
+      "category_id": "M21",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M22-TRANSFORM",
+      "manufacturer": "Beneq",
+      "model_name": "Beneq Transform",
+      "category_id": "M22",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M23-ROTAQ-S",
+      "manufacturer": "Quorum",
+      "model_name": "Quorum RotaQ S",
+      "category_id": "M23",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M24-HO-TH-05TS4",
+      "manufacturer": "Holmarc",
+      "model_name": "Holmarc HO-TH-05TS4",
+      "category_id": "M24",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M25-HO-TH-02C",
+      "manufacturer": "Holmarc",
+      "model_name": "Holmarc HO-TH-02C",
+      "category_id": "M25",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M26-NANOSPINNER24",
+      "manufacturer": "Inovenso",
+      "model_name": "Inovenso NanoSpinner24",
+      "category_id": "M26",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M27-AF-0300-01",
+      "manufacturer": "Chemglass",
+      "model_name": "Chemglass Airfree AF-0300-01",
+      "category_id": "M27",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M28-PURESMART",
+      "manufacturer": "Jacomex",
+      "model_name": "Jacomex PureSmart",
+      "category_id": "M28",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M29-EFD-4A9",
+      "manufacturer": "Esco",
+      "model_name": "Esco Frontier Duo EFD-4A9",
+      "category_id": "M29",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M30-XPERT-BULK-3961500",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco XPert Bulk Powder Filtered System 3961500",
+      "category_id": "M30",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M31-ACP-15-SD",
+      "manufacturer": "Pfeiffer",
+      "model_name": "Pfeiffer ACP 15 SD",
+      "category_id": "M31",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M32-MCQ-20SLPM",
+      "manufacturer": "Alicat",
+      "model_name": "Alicat MCQ-20SLPM",
+      "category_id": "M32",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M33-DYNEO-DD-600F",
+      "manufacturer": "JULABO",
+      "model_name": "JULABO DYNEO DD-600F",
+      "category_id": "M33",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M34-NANOTRAC-WAVE-II",
+      "manufacturer": "Microtrac",
+      "model_name": "Microtrac NANOTRAC WAVE II",
+      "category_id": "M34",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M35-V-750",
+      "manufacturer": "JASCO",
+      "model_name": "JASCO V-750",
+      "category_id": "M35",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M36-FT-IR-4X",
+      "manufacturer": "JASCO",
+      "model_name": "JASCO FT/IR-4X",
+      "category_id": "M36",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M37-D6-PHASER",
+      "manufacturer": "Bruker",
+      "model_name": "Bruker D6 PHASER",
+      "category_id": "M37",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M38-JSM-IT710HR",
+      "manufacturer": "JEOL",
+      "model_name": "JEOL JSM-IT710HR",
+      "category_id": "M38",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M39-JEM-ARM200F-NEOARM",
+      "manufacturer": "JEOL",
+      "model_name": "JEOL JEM-ARM200F NEOARM",
+      "category_id": "M39",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M40-LABRAM-SOLEIL",
+      "manufacturer": "HORIBA",
+      "model_name": "HORIBA LabRAM Soleil",
+      "category_id": "M40",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M41-FX40",
+      "manufacturer": "Park Systems",
+      "model_name": "Park Systems FX40",
+      "category_id": "M41",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M42-DISCOVERY-SDT-650",
+      "manufacturer": "TA Instruments",
+      "model_name": "TA Instruments Discovery SDT 650",
+      "category_id": "M42",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M43-LIPOSOFAST-BASIC",
+      "manufacturer": "Avestin",
+      "model_name": "Avestin LiposoFast-Basic",
+      "category_id": "M43",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M44-LBXD-MT",
+      "manufacturer": "Apex Instruments",
+      "model_name": "Apex Instruments LBXD-MT",
+      "category_id": "M44",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M45-AMBR-250-MODULAR",
+      "manufacturer": "Sartorius",
+      "model_name": "Sartorius Ambr 250 Modular",
+      "category_id": "M45",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+      "category_id": "M46",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M47-PE-300",
+      "manufacturer": "Inovenso",
+      "model_name": "Inovenso PE-300",
+      "category_id": "M47",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M48-PLD-2000",
+      "manufacturer": "PVD Products",
+      "model_name": "PVD Products PLD 2000",
+      "category_id": "M48",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M49-CF090-316-SS",
+      "manufacturer": "Sterlitech",
+      "model_name": "Sterlitech CF090 (316 SS)",
+      "category_id": "M49",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M50-KS-4000-I-CONTROL",
+      "manufacturer": "IKA",
+      "model_name": "IKA KS 4000 i control",
+      "category_id": "M50",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M51-DIFFERENTIAL-MOBILITY-ANALYZER-3083",
+      "manufacturer": "TSI",
+      "model_name": "TSI Differential Mobility Analyzer 3083",
+      "category_id": "M51",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M53-ATM-228",
+      "manufacturer": "Topas",
+      "model_name": "Topas ATM 228",
+      "category_id": "M53",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M54-NL-DX3",
+      "manufacturer": "Nikalyte",
+      "model_name": "Nikalyte NL-DX3",
+      "category_id": "M54",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M56-NL230",
+      "manufacturer": "EKSPLA",
+      "model_name": "EKSPLA NL230",
+      "category_id": "M56",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M57-SP-150E",
+      "manufacturer": "BioLogic",
+      "model_name": "BioLogic SP-150e",
+      "category_id": "M57",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M58-MA12-GEN3",
+      "manufacturer": "SUSS",
+      "model_name": "SUSS MA12 Gen3",
+      "category_id": "M58",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M59-JBX-A9",
+      "manufacturer": "JEOL",
+      "model_name": "JEOL JBX-A9",
+      "category_id": "M59",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M60-EVG7300",
+      "manufacturer": "EVG",
+      "model_name": "EVG EVG7300",
+      "category_id": "M60",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M61-RIE-800IP-ALE",
+      "manufacturer": "Samco",
+      "model_name": "Samco RIE-800iP-ALE",
+      "category_id": "M61",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXP-20261016-M62-UR30",
+      "manufacturer": "Universal Robots",
+      "model_name": "Universal Robots UR30",
+      "category_id": "M62",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-ECO",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm Eco Titrator",
+      "category_id": "M63",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-916",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm 916 Ti-Touch with magnetic stirrer",
+      "category_id": "M63",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-OMNIS-ADVANCED",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm OMNIS Advanced Titrator with magnetic stirrer",
+      "category_id": "M63",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-848",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm 848 Titrino plus",
+      "category_id": "M63",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-905",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm 905 Titrando",
+      "category_id": "M63",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M64-FENN-2F",
+      "manufacturer": "FENN",
+      "model_name": "FENN 2F rotary swager",
+      "category_id": "M64",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M64-FENN-4F",
+      "manufacturer": "FENN",
+      "model_name": "FENN 4F rotary swager",
+      "category_id": "M64",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M64-FENN-6F",
+      "manufacturer": "FENN",
+      "model_name": "FENN 6F rotary swager",
+      "category_id": "M64",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M64-FENN-8F",
+      "manufacturer": "FENN",
+      "model_name": "FENN 8F rotary swager",
+      "category_id": "M64",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-MTI-SP15AB",
+      "manufacturer": "MTI",
+      "model_name": "MTI SP-15AB",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-MTI-IH1600",
+      "manufacturer": "MTI",
+      "model_name": "MTI IH-1600",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-AMBRELL-3542",
+      "manufacturer": "Ambrell",
+      "model_name": "Ambrell EASYHEAT 3542",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-AMBRELL-5060",
+      "manufacturer": "Ambrell",
+      "model_name": "Ambrell EASYHEAT 5060",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-AMBRELL-7590",
+      "manufacturer": "Ambrell",
+      "model_name": "Ambrell EASYHEAT 7590",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M65-AMBRELL-8310",
+      "manufacturer": "Ambrell",
+      "model_name": "Ambrell EASYHEAT 8310",
+      "category_id": "M65",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M66-THERMO-A52966",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Slide-A-Lyzer G3 A52966",
+      "category_id": "M66",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M66-THERMO-69580",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Slide-A-Lyzer MINI 69580",
+      "category_id": "M66",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M66-THERMO-87762",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Slide-A-Lyzer Flask 87762",
+      "category_id": "M66",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M66-THERMO-68100",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific SnakeSkin 68100",
+      "category_id": "M66",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M67-EXAKT-50PLUS",
+      "manufacturer": "EXAKT",
+      "model_name": "EXAKT 50 PLUS",
+      "category_id": "M67",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M67-EXAKT-80EPLUS",
+      "manufacturer": "EXAKT",
+      "model_name": "EXAKT 80E PLUS",
+      "category_id": "M67",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M67-EXAKT-80SPLUS",
+      "manufacturer": "EXAKT",
+      "model_name": "EXAKT 80S PLUS",
+      "category_id": "M67",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M67-EXAKT-120SPLUS",
+      "manufacturer": "EXAKT",
+      "model_name": "EXAKT 120S PLUS",
+      "category_id": "M67",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M67-EXAKT-120EH450",
+      "manufacturer": "EXAKT",
+      "model_name": "EXAKT 120EH-450 e-con",
+      "category_id": "M67",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M68-KJLC-PVD75-EBEAM",
+      "manufacturer": "Kurt J. Lesker",
+      "model_name": "Kurt J. Lesker PRO Line PVD 75 — e-beam configuration",
+      "category_id": "M68",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M68-DENTON-EXPLORER-EBEAM",
+      "manufacturer": "Denton",
+      "model_name": "Denton Explorer — e-beam configuration",
+      "category_id": "M68",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M68-ANGSTROM-NEXDEP-EBEAM",
+      "manufacturer": "Angstrom Engineering",
+      "model_name": "Angstrom Engineering Nexdep — e-beam configuration",
+      "category_id": "M68",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M68-ANGSTROM-EVOVAC-EBEAM",
+      "manufacturer": "Angstrom Engineering",
+      "model_name": "Angstrom Engineering EvoVac — e-beam configuration",
+      "category_id": "M68",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M69-FCT-HPD10",
+      "manufacturer": "FCT Systeme GmbH",
+      "model_name": "FCT HP D 10",
+      "category_id": "M69",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M69-FCT-HPD25",
+      "manufacturer": "FCT Systeme GmbH",
+      "model_name": "FCT HP D 25",
+      "category_id": "M69",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M69-FCT-HPD60",
+      "manufacturer": "FCT Systeme GmbH",
+      "model_name": "FCT HP D 60",
+      "category_id": "M69",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M69-FCT-HPD250",
+      "manufacturer": "FCT Systeme GmbH",
+      "model_name": "FCT HP D 250",
+      "category_id": "M69",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M70-APPLIED-A48141",
+      "manufacturer": "Applied Biosystems",
+      "model_name": "Applied Biosystems VeritiPro 96-well",
+      "category_id": "M70",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M70-APPLIED-A37834",
+      "manufacturer": "Applied Biosystems",
+      "model_name": "Applied Biosystems MiniAmp",
+      "category_id": "M70",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M70-APPLIED-4484075",
+      "manufacturer": "Applied Biosystems",
+      "model_name": "Applied Biosystems ProFlex 96-well",
+      "category_id": "M70",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "EXT-M70-APPLIED-A24811",
+      "manufacturer": "Applied Biosystems",
+      "model_name": "Applied Biosystems SimpliAmp",
+      "category_id": "M70",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY",
+      "manufacturer": "IKA",
+      "model_name": "OVEN 125 basic dry",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS",
+      "manufacturer": "IKA",
+      "model_name": "OVEN 125 basic dry glass",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY",
+      "manufacturer": "IKA",
+      "model_name": "OVEN 125 control dry",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS",
+      "manufacturer": "IKA",
+      "model_name": "OVEN 125 control dry glass",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-MEMMERT-UN30",
+      "manufacturer": "Memmert",
+      "model_name": "UN30",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-MEMMERT-UF55",
+      "manufacturer": "Memmert",
+      "model_name": "UF55",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-BINDER-ED-56",
+      "manufacturer": "BINDER",
+      "model_name": "ED 56",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-BINDER-FD-56",
+      "manufacturer": "BINDER",
+      "model_name": "FD 56",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-BINDER-FD-115",
+      "manufacturer": "BINDER",
+      "model_name": "FD 115",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M71-BINDER-FED-56",
+      "manufacturer": "BINDER",
+      "model_name": "FED 56",
+      "category_id": "M71",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-CARVER-3851-MODEL-C",
+      "manufacturer": "Carver",
+      "model_name": "3851 (Model C)",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-CARVER-4386-MODEL-CH",
+      "manufacturer": "Carver",
+      "model_name": "4386 (Model CH)",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-SPECAC-ATLAS-MANUAL-15T",
+      "manufacturer": "Specac",
+      "model_name": "Atlas Manual 15T",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-SPECAC-ATLAS-MANUAL-25T",
+      "manufacturer": "Specac",
+      "model_name": "Atlas Manual 25T",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJ15-SHORT",
+      "manufacturer": "MTI",
+      "model_name": "YLJ15 Short",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJ-24TS",
+      "manufacturer": "MTI",
+      "model_name": "YLJ-24TS",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJ-40",
+      "manufacturer": "MTI",
+      "model_name": "YLJ-40",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJHP2H",
+      "manufacturer": "MTI",
+      "model_name": "YLJHP2H",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJ-HP2",
+      "manufacturer": "MTI",
+      "model_name": "YLJ-HP2",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-MTI-YLJ-CSP-15",
+      "manufacturer": "MTI",
+      "model_name": "YLJ-CSP-15",
+      "category_id": "M72",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-RETSCH-RM-200",
+      "manufacturer": "RETSCH",
+      "model_name": "RM 200",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-FRITSCH-PULVERISETTE-2",
+      "manufacturer": "FRITSCH",
+      "model_name": "PULVERISETTE 2",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-LAARMANN-LMMG100",
+      "manufacturer": "LAARMANN",
+      "model_name": "LMMG100",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-IKA-A-10-BASIC",
+      "manufacturer": "IKA",
+      "model_name": "A 10 basic",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-IKA-A-11-BASIC",
+      "manufacturer": "IKA",
+      "model_name": "A 11 basic",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL",
+      "manufacturer": "IKA",
+      "model_name": "M 20 Universal mill",
+      "category_id": "M81",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-CAMBUSTION-AEROSOL-DIFFUSION-DRYER",
+      "manufacturer": "Cambustion",
+      "model_name": "Cambustion Aerosol Diffusion Dryer",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-PERMA-PURE-MD-700-12-INCH",
+      "manufacturer": "Perma Pure",
+      "model_name": "Perma Pure MD-700 12 inch",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-PERMA-PURE-MD-700-24-INCH",
+      "manufacturer": "Perma Pure",
+      "model_name": "Perma Pure MD-700 24 inch",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-PERMA-PURE-MD-700-48-INCH",
+      "manufacturer": "Perma Pure",
+      "model_name": "Perma Pure MD-700 48 inch",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-PERMA-PURE-MD-700-6-INCH",
+      "manufacturer": "Perma Pure",
+      "model_name": "Perma Pure MD-700 6 inch",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-TSI-3062",
+      "manufacturer": "TSI",
+      "model_name": "TSI Diffusion Dryer 3062",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-TSI-3062-NC",
+      "manufacturer": "TSI",
+      "model_name": "TSI Diffusion Dryer 3062-NC",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-TOPAS-DDU-570-H",
+      "manufacturer": "Topas",
+      "model_name": "Topas DDU 570/H",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M76-TOPAS-DDU-570-L",
+      "manufacturer": "Topas",
+      "model_name": "Topas DDU 570/L",
+      "category_id": "M76",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-CAMBUSTION-UDAC",
+      "manufacturer": "Cambustion",
+      "model_name": "Cambustion UDAC",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-PALAS-CD-2000",
+      "manufacturer": "Palas",
+      "model_name": "Palas CD 2000",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-PALAS-KR-85-370",
+      "manufacturer": "Palas",
+      "model_name": "Palas Kr-85-370",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-PALAS-XRC-049",
+      "manufacturer": "Palas",
+      "model_name": "Palas XRC 049",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TSI-3012",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Charge Conditioner 3012",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TSI-3012A",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Charge Conditioner 3012A",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TSI-3077",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Charge Conditioner 3077",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TSI-3077A",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Charge Conditioner 3077A",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TSI-3088",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Charge Conditioner 3088",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M77-TOPAS-EAN-581",
+      "manufacturer": "Topas",
+      "model_name": "Topas EAN 581",
+      "category_id": "M77",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-PALAS-CHARME",
+      "manufacturer": "Palas",
+      "model_name": "Palas Charme",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-PALAS-UF-CPC-100",
+      "manufacturer": "Palas",
+      "model_name": "Palas UF-CPC 100",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-PALAS-UF-CPC-200",
+      "manufacturer": "Palas",
+      "model_name": "Palas UF-CPC 200",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-PALAS-UF-CPC-50",
+      "manufacturer": "Palas",
+      "model_name": "Palas UF-CPC 50",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3068B",
+      "manufacturer": "TSI",
+      "model_name": "TSI Aerosol Electrometer 3068B",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3750",
+      "manufacturer": "TSI",
+      "model_name": "TSI Condensation Particle Counter 3750",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3752",
+      "manufacturer": "TSI",
+      "model_name": "TSI Condensation Particle Counter 3752",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3756",
+      "manufacturer": "TSI",
+      "model_name": "TSI Condensation Particle Counter 3756",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3757-50",
+      "manufacturer": "TSI",
+      "model_name": "TSI Condensation Particle Counter 3757-50",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M78-TSI-3789",
+      "manufacturer": "TSI",
+      "model_name": "TSI Condensation Particle Counter 3789",
+      "category_id": "M78",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-DEKATI-DGI",
+      "manufacturer": "Dekati",
+      "model_name": "Dekati DGI Impactor",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-DEKATI-DLPI",
+      "manufacturer": "Dekati",
+      "model_name": "Dekati DLPI+ Impactor",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-DEKATI-HT-DLPI",
+      "manufacturer": "Dekati",
+      "model_name": "Dekati HT-DLPI+ Impactor",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-110NR",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 110NR",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-120R",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 120R",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-125R",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 125R",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-135-10B",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 135-10B",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-135-6B",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 135-6B",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-135-8B",
+      "manufacturer": "TSI",
+      "model_name": "TSI MOUDI Impactor 135-8B",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M79-TSI-140",
+      "manufacturer": "TSI",
+      "model_name": "TSI QCM MOUDI Impactor 140",
+      "category_id": "M79",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-AXCELIS-PURION-XE",
+      "manufacturer": "Axcelis",
+      "model_name": "Axcelis Purion XE",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-AXCELIS-PURION-EXE",
+      "manufacturer": "Axcelis",
+      "model_name": "Axcelis Purion EXE",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-AXCELIS-PURION-VXE",
+      "manufacturer": "Axcelis",
+      "model_name": "Axcelis Purion VXE",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-AXCELIS-PURION-XEMAX",
+      "manufacturer": "Axcelis",
+      "model_name": "Axcelis Purion XEmax",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-AXCELIS-PURION-M",
+      "manufacturer": "Axcelis",
+      "model_name": "Axcelis Purion M",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-ULVAC-IMX-3500",
+      "manufacturer": "ULVAC",
+      "model_name": "ULVAC IMX-3500",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-ULVAC-IH-860PSIC",
+      "manufacturer": "ULVAC",
+      "model_name": "ULVAC IH-860PSIC",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-ULVAC-IH-1200PSIC",
+      "manufacturer": "ULVAC",
+      "model_name": "ULVAC IH-1200PSIC",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-APPLIED-MATERIALS-VIISTA-TRIDENT",
+      "manufacturer": "Applied Materials",
+      "model_name": "Applied Materials VIISta Trident",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M73-APPLIED-MATERIALS-VIISTA-900-3D",
+      "manufacturer": "Applied Materials",
+      "model_name": "Applied Materials VIISta 900 3D",
+      "category_id": "M73",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-INDUTHERM-MC-16",
+      "manufacturer": "Indutherm",
+      "model_name": "Indutherm MC 16",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-INDUTHERM-MC-20-V",
+      "manufacturer": "Indutherm",
+      "model_name": "Indutherm MC 20 V",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-INDUTHERM-MC-60-V",
+      "manufacturer": "Indutherm",
+      "model_name": "Indutherm MC 60 V",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-INDUTHERM-MC-100-V",
+      "manufacturer": "Indutherm",
+      "model_name": "Indutherm MC 100 V",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-INDUTHERM-MTC-100-V",
+      "manufacturer": "Indutherm",
+      "model_name": "Indutherm MTC 100 V",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-EDMUND-B-HLER-MAM-1",
+      "manufacturer": "Edmund Bühler",
+      "model_name": "Edmund Bühler MAM-1",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-EDMUND-B-HLER-MAM-1-GLOVEBOX-VERSION",
+      "manufacturer": "Edmund Bühler",
+      "model_name": "Edmund Bühler MAM-1 Glovebox Version",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-EDMUND-B-HLER-AM-200",
+      "manufacturer": "Edmund Bühler",
+      "model_name": "Edmund Bühler AM 200",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-EDMUND-B-HLER-AM-500",
+      "manufacturer": "Edmund Bühler",
+      "model_name": "Edmund Bühler AM 500",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M74-EDMUND-B-HLER-AM-A500",
+      "manufacturer": "Edmund Bühler",
+      "model_name": "Edmund Bühler AM A500",
+      "category_id": "M74",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-CDOCAST-CDO-EX250T",
+      "manufacturer": "CDOCAST",
+      "model_name": "CDOCAST CDO-EX250T",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-CDOCAST-CDO-EX350T",
+      "manufacturer": "CDOCAST",
+      "model_name": "CDOCAST CDO-EX350T",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-CDOCAST-CDO-EX500T",
+      "manufacturer": "CDOCAST",
+      "model_name": "CDOCAST CDO-EX500T",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-CDOCAST-CDO-EX600T",
+      "manufacturer": "CDOCAST",
+      "model_name": "CDOCAST CDO-EX600T",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-CDOCAST-CDO-EX800T",
+      "manufacturer": "CDOCAST",
+      "model_name": "CDOCAST CDO-EX800T",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-UBE-MACHINERY-SS3G",
+      "manufacturer": "UBE Machinery",
+      "model_name": "UBE Machinery SS3G",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M75-UBE-MACHINERY-SS5G",
+      "manufacturer": "UBE Machinery",
+      "model_name": "UBE Machinery SS5G",
+      "category_id": "M75",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    },
+    {
+      "equipment_id": "GAP-20261016-M80-LENA-FLOW-CHAMBER",
+      "manufacturer": "Research-built apparatus",
+      "model_name": "Fraunhofer IMM LENA flow-through ablation chamber",
+      "category_id": "M80",
+      "status": "no_exact_make_model_match",
+      "matched_equipment_ids": [],
+      "requested_ids": [],
+      "method": "Exact normalized manufacturer and model identity; punctuation/case and a repeated manufacturer prefix are ignored. Category/family/brand matches and unspecified planned-purchase models are insufficient."
+    }
+  ]
+}

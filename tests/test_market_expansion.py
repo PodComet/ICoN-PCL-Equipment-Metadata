@@ -6,7 +6,7 @@ def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes(
     report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
     rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     assert len(report['new_records'])==96 and len(report['category_counts'])==68
-    assert report['before']['records']==669 and report['after']['records']==len(rows)==765
+    assert report['before']['records']==669 and report['after']['records']==sum(r['catalog_scope']!='process_slot_gap_expansion' for r in rows.values())==765
     assert all(r['added']>=1 and r['after']>=5 for r in report['category_counts'])
     for addition in report['new_records']:
         r=rows[addition['equipment_id']]
@@ -26,8 +26,8 @@ def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes(
 def test_prices_media_and_existing_updates_retain_scoped_evidence():
     report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
     rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
-    assert sum(bool(r['image_url']) for r in rows.values())==report['after']['photos']==293
-    assert sum(bool(r['manufacturer_price_value']) for r in rows.values())==58
+    assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==report['after']['photos']==293
+    assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope']!='process_slot_gap_expansion')==58
     assert len(report['updates'])==33
     for update in report['updates']:
         assert update['sources'] and all(rows[update['equipment_id']][k]==v for k,v in update['after'].items())

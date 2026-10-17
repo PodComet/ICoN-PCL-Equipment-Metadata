@@ -3,11 +3,13 @@ from pathlib import Path
 import csv
 import json
 import sys
+from collections import Counter
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from reference_tools import build as build_references
 from catalog_tools import validate_model_lifecycle, validate_product_families
+from price_policy import with_msrp_estimates
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -29,8 +31,6 @@ def main():
     lifecycle_fields = [key for key in data["model_lifecycle"][0] if key.startswith(("lifecycle_", "successor_"))]
     lifecycle_by_id = {r["equipment_id"]: r for r in data["model_lifecycle"]}
     brands = {r["manufacturer"]: r for r in data["manufacturers"]}
-    class_prices = {r["category_id"]: r for r in read_csv("category_price_estimates")}
-    overrides = {r["equipment_id"]: r for r in read_csv("equipment_price_overrides")}
     for record in data["records"]:
         membership = families_by_id.get(record['equipment_id'], {})
         for key in ['product_family_id', 'product_family', 'variant_label']:
@@ -44,11 +44,23 @@ def main():
         for field, value in brand.items():
             if field != "manufacturer":
                 record["manufacturer_" + field] = value
-        estimate = class_prices.get(record["category_id"], {})
-        record.update({k: v for k, v in estimate.items() if k.startswith("estimate")})
-        record["estimate_subject"] = record.get("equipment_subtype") or record["category_name"]
-        record.update({k: v for k, v in overrides.get(record["equipment_id"], {}).items() if k != "equipment_id"})
     data["coverage"] = json.loads((ROOT / "catalog/coverage.json").read_text(encoding="utf-8"))
+    data['msrp_policy'] = json.loads((ROOT / 'webapp/app/data/msrp-policy.json').read_text(encoding='utf-8'))
+    data['records'] = with_msrp_estimates(data['records'], data['model_lifecycle'], data['msrp_policy'])
+    estimate_fields = ['equipment_id', 'model_name', 'manufacturer', 'category_id', 'estimated_msrp_low', 'estimated_msrp_high', 'estimate_currency', 'estimate_subject', 'estimate_method', 'estimate_status', 'estimate_basis', 'estimate_confidence', 'estimate_benchmark_ids', 'estimate_source_urls', 'estimate_checked_date']
+    with (ROOT / 'catalog/equipment_msrp_estimates.csv').open('w', encoding='utf-8', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=estimate_fields, extrasaction='ignore')
+        writer.writeheader(); writer.writerows(data['records'])
+    class_fields = ['category_id', 'category_name', 'estimated_msrp_low', 'estimated_msrp_high', 'estimate_currency', 'estimate_basis', 'estimate_confidence', 'estimate_source_urls', 'estimate_checked_date']
+    class_rows = []
+    for cid in sorted({r['category_id'] for r in data['records']}):
+        peers = [r for r in data['records'] if r['category_id'] == cid and r['estimate_method'] != 'older_model_plus_20']
+        row = next((r for r in peers if r['estimate_method'] == 'category_120_80' and r['estimate_currency'] == 'USD'), next((r for r in peers if r['estimate_status'] != 'explicit_msrp'), peers[0] if peers else {}))
+        class_rows.append({key: row.get(key, '') for key in class_fields})
+    with (ROOT / 'catalog/category_price_estimates.csv').open('w', encoding='utf-8', newline='') as handle:
+        writer=csv.DictWriter(handle,fieldnames=class_fields);writer.writeheader();writer.writerows(class_rows)
+    report={'policy':data['msrp_policy'], 'status_counts':dict(Counter(r['estimate_status'] for r in data['records'])), 'method_counts':dict(Counter(r['estimate_method'] for r in data['records'])), 'records':[{key:r[key] for key in estimate_fields} for r in data['records']]}
+    (ROOT / 'catalog/msrp_rule_review_2026-10-16.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     output = ROOT / "webapp/app/data/catalog.json"
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")

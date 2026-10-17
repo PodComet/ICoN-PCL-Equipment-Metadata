@@ -10,6 +10,8 @@ import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
 import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 import {independentVariant} from '../../product-family-policy';
+import {withMsrpEstimates} from '../../msrp-policy';
+import msrpPolicy from '../../data/msrp-policy.json';
 const EDITABLE = new Set(["equipment_subtype","model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
@@ -29,6 +31,7 @@ export async function GET() {
         if (index !== undefined) rows[index] = row; else rows.push(row);
       }
     }
+    const priced=withMsrpEstimates(rows.map(row=>row.record),seed.model_lifecycle,msrpPolicy);rows.forEach((row,i)=>row.record=priced[i]);
     const assets=user?inventory:[];
     return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,coverage:literature.coverage},canEdit:!!user,canAdmin:isCatalogAdmin(user),sharedRevision:shared.revision});
   } catch (error) {
@@ -98,6 +101,7 @@ export async function PUT(request: Request) {
       record.manual_status=record.manual_url?"user_entered_unverified":"not_found";
       record.manual_match_status="not_verified";
     }
+    record=withMsrpEstimates([...shared.records.filter(r=>r.equipment_id!==record.equipment_id),record],seed.model_lifecycle,msrpPolicy).at(-1)!;
     const sharedBase=byId.get(record.equipment_id);
     if(sharedBase)record._personal_fields=JSON.stringify([...EDITABLE].filter(k=>record[k]!==sharedBase[k]));
     const now=new Date().toISOString();

@@ -48,8 +48,8 @@ test('CO2 source joins M56 without inheriting a nanoparticle-ablation process or
  const laser=byId.get('REQ-EQ-041');
  assert.equal(laser.category_id,'M56');assert.match(laser.equipment_subtype,/CO2.*continuous-wave/);
  assert.ok(!laser.related_process_ids.split(';').includes('P03'));
- assert.match(laser.estimate_subject,/CO2 laser source only/);
- assert.equal(laser.estimated_msrp_high,'30000');
+ assert.match(laser.estimate_subject,/CO2 laser source; continuous-wave/);
+ assert.equal(laser.estimated_msrp_high,'');assert.equal(laser.estimate_status,'no_benchmarks');
 });
 
 test('legacy CSV updates resolve by record while ambiguous new X-FILTER assignments are rejected',()=>{
@@ -83,15 +83,15 @@ test('M50 broadening preserves distinct mixing methods, equipment cards and scop
  assert.equal(subtype('X-MIX').length,2);
  const labram=byId.get('REQ-EQ-036'),shaker=byId.get('REQ-EQ-023');
  assert.ok(labram.purdue_list==='true'&&shaker.purdue_list==='true');
- assert.equal(labram.estimated_msrp_low,'1000');assert.equal(labram.estimated_msrp_high,'150000');
- assert.equal(byId.get('M50-01').estimated_msrp_high,'2000');
+ assert.equal(labram.estimated_msrp_low,'987.6');assert.equal(labram.estimated_msrp_high,'7760');
+ assert.equal(byId.get('M50-01').estimated_msrp_high,'7760');
  assert.equal(labram.manual_match_status,'verified_operating_manual');
  assert.ok(!labram.related_process_types.toLowerCase().includes('ultrasonic'));
  assert.equal(seed.categories.find(c=>c.category_id==='M50').source_category_name,'Vortex mixer');
  const generic=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-MIXER',category_id:'M50',manufacturer:'Custom',model_name:'New unspecified mixing system'}]));
- assert.deepEqual(generic.errors,[]);assert.equal(generic.changes[0].after.estimated_msrp_low,'300');assert.equal(generic.changes[0].after.estimated_msrp_high,'150000');
+ assert.deepEqual(generic.errors,[]);assert.equal(generic.changes[0].after.estimated_msrp_low,'987.6');assert.equal(generic.changes[0].after.estimated_msrp_high,'7760');
  const acoustic=plan(csvUpdateText([{operation:'add_equipment',equipment_id:'EXAMPLE-ACOUSTIC',category_id:'M50',manufacturer:'Resodyn',model_name:'New acoustic model',equipment_subtype:'Resonant acoustic mixing'}]));
- assert.deepEqual(acoustic.errors,[]);assert.equal(acoustic.changes[0].after.estimated_msrp_low,'1000');
+ assert.deepEqual(acoustic.errors,[]);assert.equal(acoustic.changes[0].after.estimated_msrp_low,'987.6');
 });
 
 test('M62 reuses all 13 robotics profiles, preserves provenance and keeps mobile bases distinct',()=>{
@@ -105,8 +105,8 @@ test('M62 reuses all 13 robotics profiles, preserves provenance and keeps mobile
  assert.ok(robots.filter(r=>r.record.equipment_id!=='REQ-EQ-020').every(r=>!r.record.related_material_ids&&!r.record.related_process_ids));
  const tracer=byId.get('REQ-EQ-043');
  assert.match(tracer.equipment_subtype,/Mobile base; no robot arm/);
- assert.match(tracer.estimate_subject,/excluding robot arm/);
- assert.equal(tracer.estimated_msrp_low,'3000');assert.equal(tracer.estimated_msrp_high,'15000');
+ assert.match(tracer.estimate_subject,/Mobile base; no robot arm/);
+ assert.equal(tracer.estimated_msrp_low,'');assert.equal(tracer.estimated_msrp_high,'');assert.equal(tracer.estimate_status,'inverted_range');
  assert.match(byId.get('REQ-EQ-017').equipment_subtype,/configuration unspecified/);
  assert.match(byId.get('REQ-EQ-015').equipment_subtype,/cart drive unspecified/);
  for(const categoryId of ['M62','X-ROB']){
