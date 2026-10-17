@@ -1,3 +1,4 @@
+import {usdPrice} from './currency-lib.ts';
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
 import {processDependencyGraph} from './process-dependencies.ts';
 import {validateMaterialPlan} from './process-materials-lib.ts';
@@ -98,7 +99,8 @@ export function workflowReadinessMessage(r:ReturnType<typeof workflowReadiness>)
  if(r.invalidAssignments)return 'Replace instruments that do not match their slot classes';
  return r.readySteps+' of '+r.totalSteps+' stages covered · complete a required equipment branch in each stage';
 }
-export function priceSnapshot(r:Equipment):PriceSnapshot{
+export function priceSnapshot(r:Equipment):PriceSnapshot{return usdPrice(sourcePriceSnapshot(r)) as PriceSnapshot;}
+function sourcePriceSnapshot(r:Equipment):PriceSnapshot{
  const number=(s:string)=>s?.trim()!==''&&Number.isFinite(Number(s))&&Number(s)>=0?Number(s):null;
  const exact=number(r.msrp_value),published=number(r.manufacturer_price_value),low=number(r.estimated_msrp_low),high=number(r.estimated_msrp_high);
  if(exact!==null&&/^[A-Z]{3}$/.test(r.msrp_currency))return {kind:'msrp',currency:r.msrp_currency,low:exact,high:exact,source_url:safeUrl(r.price_source_url),checked_date:r.price_checked_date||'',scope:'Recorded model MSRP'};
@@ -181,13 +183,13 @@ export function workflowBudget(steps:ProcessStep[]){
  const totals=new Map<string,{currency:string;low:number;high:number;estimated:boolean;manufacturer:boolean;quantity:number}>();let missing=0,assigned=0;const units=new Set<string>();
  for(const i of steps.flatMap(s=>s.slots).flatMap(s=>s.instrument?[s.instrument]:[])){
   if(units.has(unitId(i)))continue;units.add(unitId(i));
-  assigned+=i.quantity;const p=i.price_snapshot;if(p.kind==='unpriced'){missing+=i.quantity;continue;}
+  assigned+=i.quantity;const p=usdPrice(i.price_snapshot);if(p.kind==='unpriced'){missing+=i.quantity;continue;}
   const t=totals.get(p.currency)||{currency:p.currency,low:0,high:0,estimated:false,manufacturer:false,quantity:0};
   t.low+=p.low*i.quantity;t.high+=p.high*i.quantity;t.quantity+=i.quantity;t.estimated||=p.kind==='estimate';t.manufacturer||=p.kind==='manufacturer';totals.set(p.currency,t);
  }
  return {totals:[...totals.values()].sort((a,b)=>a.currency.localeCompare(b.currency)),missing,assigned};
 }
-export function money(value:number,currency='USD'){try{return new Intl.NumberFormat('en-US',{style:'currency',currency,maximumFractionDigits:0}).format(value)}catch{return currency+' '+value.toLocaleString()}}
+export function money(value:number,currency='USD'){try{return new Intl.NumberFormat('en-US',{style:'currency',currency,minimumFractionDigits:0,maximumFractionDigits:2}).format(value)}catch{return currency+' '+value.toLocaleString()}}
 export function budgetLabel(budget:ReturnType<typeof workflowBudget>){
  if(!budget.assigned)return '$0';if(!budget.totals.length)return 'Price not recorded';
  return budget.totals.map(t=>money(t.low,t.currency)+(t.high!==t.low?'–'+money(t.high,t.currency):'')+(t.estimated?'*':'')).join(' + ');

@@ -1,3 +1,4 @@
+import {usdText} from './currency-lib.ts';
 export type Equipment = Record<string, string> & {equipment_id: string; model_name: string};
 export type CatalogRow = {record: Equipment; revision: number; updated_at?: string};
 export type Route = Record<string, string>;
@@ -66,18 +67,15 @@ export function allDocumentationLinks(r:Equipment){
  });
 }
 export function pricePresentation(r: Equipment) {
-  const format = (value: string, currency = "USD") => {
-    try {return new Intl.NumberFormat("en-US", {style:"currency",currency,minimumFractionDigits:0,maximumFractionDigits:2}).format(Number(value));}
-    catch {return currency + " " + value;}
-  };
-  if (r.msrp_value) return {label:"MSRP",value:format(r.msrp_value,r.msrp_currency),estimated:false};
+  const format=usdText;
+  if (r.msrp_value) return {label:r.msrp_currency==='USD'?"MSRP":"MSRP (USD equivalent)",value:format(r.msrp_value,r.msrp_currency),estimated:false};
   if(['older_model_plus_20','category_120_80'].includes(r.estimate_method)&&r.estimate_status==='calculated')return classEstimatePresentation(r);
   const published=manufacturerPrice(r);
   if(published)return {label:published.label,value:published.value,estimated:false};
   return classEstimatePresentation(r);
 }
 export function classEstimatePresentation(r:Equipment){
-  const format=(value:string,currency='USD')=>{try{return new Intl.NumberFormat('en-US',{style:'currency',currency,minimumFractionDigits:0,maximumFractionDigits:2}).format(Number(value))}catch{return currency+' '+value}};
+  const format=usdText;
   if (r.estimated_msrp_low && r.estimated_msrp_high) return {label:"Estimated MSRP*",value:format(r.estimated_msrp_low,r.estimate_currency)+(r.estimated_msrp_low===r.estimated_msrp_high?'':"–"+format(r.estimated_msrp_high,r.estimate_currency)),estimated:true};
   return {label:"MSRP",value:"Not recorded",estimated:false};
 }
@@ -91,7 +89,7 @@ export function validateManufacturerPrice(r:Equipment){
 export function manufacturerPrice(r:Equipment){
  if(!r.manufacturer_price_value||validateManufacturerPrice(r))return null;
  const labels:Record<string,string>={list_price:'Manufacturer list price',sale_price:'Manufacturer sale price',starting_price:'Manufacturer starting price',published_price:'Published manufacturer price'};
- return {label:labels[r.manufacturer_price_kind],value:new Intl.NumberFormat('en-US',{style:'currency',currency:r.manufacturer_price_currency,minimumFractionDigits:0,maximumFractionDigits:2}).format(Number(r.manufacturer_price_value)),source:safeUrl(r.manufacturer_price_source_url),scope:r.manufacturer_price_scope,date:r.manufacturer_price_checked_date};
+ return {label:labels[r.manufacturer_price_kind]+(r.manufacturer_price_currency==='USD'?'':' (USD equivalent)'),value:usdText(r.manufacturer_price_value,r.manufacturer_price_currency),source:safeUrl(r.manufacturer_price_source_url),scope:r.manufacturer_price_scope,date:r.manufacturer_price_checked_date};
 }
 
 export function verifiedManufacturer(r: Equipment) {

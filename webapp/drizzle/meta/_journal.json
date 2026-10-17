@@ -29,6 +29,13 @@
       "when": 1792209817692,
       "tag": "0003_admin_unlock_limits",
       "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1792210587351,
+      "tag": "0004_position_profiles",
+      "breakpoints": true
     }
   ]
 }

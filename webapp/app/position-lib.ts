@@ -1,6 +1,6 @@
 import type {Equipment} from './catalog-lib.ts';
-export type Direction={direction:string;description:string;evidence_ids:string[]};
-export type Fiber={position:string;description:string;evidence_ids:string[];directions:Direction[];fiber_id?:string;fiber_label?:string};
+export type Direction={direction:string;description:string;evidence_ids:string[];effect_summary?:string;effect_evidence_ids?:string[]};
+export type Fiber={position:string;position_description?:string;description:string;evidence_ids:string[];directions:Direction[];fiber_id?:string;fiber_label?:string};
 export type PositionInterface={schema:'poly-fibers/v2';name:string;description:string;evidence_ids:string[];fibers:Fiber[]};
 export type PositionProfile={equipment_id:string;model_name:string;manufacturer:string;status:string;interface:PositionInterface};
 export type PositionEvidence={schema:string;namespace:string;subject:Record<string,string>;entries:{id:string;classification:string;claim:string;source:{kind:string;title:string;section:string;url:string|null;accessed:string};verification:{status:string;method:string}}[]};
@@ -23,7 +23,7 @@ export function validatePositionInterface(value:unknown,evidence:PositionEvidenc
   const peers=positions.get(f.position)||[];
   if(peers.length&&(!f.fiber_id||peers.some(peer=>!peer.fiber_id)))throw new Error('Repeated positions need a unique name for each fiber in fiber_id.');
   positions.set(f.position,[...peers,f]);if(f.fiber_id)fiberIds.add(f.fiber_id);const names=new Set<string>();
-  for(const d of f.directions){if(!text(d.direction,200)||names.has(d.direction)||!text(d.description)||!ids(d.evidence_ids))throw new Error('Each direction needs a unique name within its position, a description and known evidence IDs.');names.add(d.direction);}
+  for(const d of f.directions){if(!text(d.direction,200)||names.has(d.direction)||!text(d.description)||!ids(d.evidence_ids))throw new Error('Each direction needs a unique name within its position, a description and known evidence IDs.');if(d.effect_summary!==undefined&&!text(d.effect_summary))throw new Error('Use a nonempty effect description.');if(d.effect_evidence_ids!==undefined&&!ids(d.effect_evidence_ids))throw new Error('Effect evidence IDs must exist in the evidence register.');names.add(d.direction);}
  }
  return structuredClone(r);
 }

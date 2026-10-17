@@ -8,7 +8,7 @@ const plan=rows=>buildPlan(csvUpdateText(rows),seed.records,seed.categories,seed
 test('exact MSRP and rule estimates have priority while published prices retain their labels',()=>{
  const rows=seed.records.filter(r=>r.manufacturer_price_value);
  assert.ok(rows.length>0);assert.equal(rows.length,seed.coverage.published_manufacturer_price_records);
- for(const r of rows){assert.equal(validateManufacturerPrice(r),'');const estimated=!r.msrp_value&&r.estimate_status==='calculated';assert.equal(pricePresentation(r).label,r.msrp_value?'MSRP':estimated?'Estimated MSRP*':manufacturerPrice(r).label);if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}assert.equal(pricePresentation(r).estimated,estimated)}
+ for(const r of rows){assert.equal(validateManufacturerPrice(r),'');const estimated=!r.msrp_value&&r.estimate_status==='calculated';assert.equal(pricePresentation(r).label,r.msrp_value?(r.msrp_currency==='USD'?'MSRP':'MSRP (USD equivalent)'):estimated?'Estimated MSRP*':manufacturerPrice(r).label);if(r.msrp_value){assert.equal(r.price_status,'manufacturer_suggested_retail_price');assert.equal(r.msrp_value,r.manufacturer_price_value);assert.equal(r.msrp_currency,r.manufacturer_price_currency);}assert.equal(pricePresentation(r).estimated,estimated)}
 });
 test('MTI OTF-1200X displays sourced configuration pricing instead of its class band',()=>{
  const r=seed.records.find(r=>r.equipment_id==='M20-03');

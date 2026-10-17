@@ -1,3 +1,4 @@
+import {usdConversion} from '../app/currency-lib.ts';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -63,11 +64,11 @@ test('moving an instance preserves its ID, configuration, signals and prices wit
  assert.equal(moved.steps[0].slots[0].instrument,null);assert.deepEqual(moved.steps[0].slots[1].instrument,i);
  assert.equal(budgetLabel(workflowBudget(moved.steps)),'$6,000');
 });
-test('budget respects quantities, mixed currencies, estimate ranges, zero prices and missing prices',()=>{
+test('USD budget converts foreign quotes and respects quantities, ranges, zero and missing prices',()=>{
  const variants=[record,{...base,equipment_id:'eur',msrp_value:'200',msrp_currency:'EUR'},{...base,equipment_id:'estimate',estimated_msrp_low:'10',estimated_msrp_high:'100',estimate_currency:'USD'},{...base,equipment_id:'missing'},{...base,equipment_id:'free',msrp_value:'0',msrp_currency:'USD'}];
  const w=workflow();w.steps[0].slots=variants.map(r=>({...newSlot(),instrument:instrumentFor(r)}));w.steps[0].slots[0].instrument.quantity=2;
  const b=workflowBudget(w.steps);
- assert.equal(b.assigned,6);assert.equal(b.missing,1);assert.deepEqual(b.totals.map(t=>[t.currency,t.low,t.high,t.estimated]),[['EUR',200,200,false],['USD',12010,12100,true]]);
+ assert.equal(b.assigned,6);assert.equal(b.missing,1);assert.deepEqual(b.totals.map(t=>[t.currency,t.low,t.high,t.estimated]),[['USD',12010+usdConversion(200,'EUR').value,12100+usdConversion(200,'EUR').value,true]]);
  assert.equal(priceSnapshot({...base,msrp_value:'',msrp_currency:'USD'}).kind,'unpriced');
  assert.equal(priceSnapshot({...record,msrp_value:'0'}).low,0);
 });

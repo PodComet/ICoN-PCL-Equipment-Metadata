@@ -8,6 +8,7 @@ import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equ
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
+import {loadPositionLibrary} from '../../position-store';
 import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 import {independentVariant} from '../../product-family-policy';
 import {withMsrpEstimates} from '../../msrp-policy';
@@ -33,7 +34,8 @@ export async function GET() {
     }
     const priced=withMsrpEstimates(rows.map(row=>row.record),seed.model_lifecycle,msrpPolicy);rows.forEach((row,i)=>row.record=priced[i]);
     const canAdmin=await isCatalogAdmin(user),assets=canAdmin?inventory:[];
-    return json({rows:attachInventory(rows,assets),assets,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,coverage:literature.coverage},canEdit:!!user,canAdmin,sharedRevision:shared.revision});
+    const positions=await loadPositionLibrary();
+    return json({rows:attachInventory(rows,assets),assets,positions:positions.library,positionRevision:positions.revision,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,coverage:literature.coverage},canEdit:!!user,canAdmin,sharedRevision:shared.revision});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);

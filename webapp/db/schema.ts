@@ -5,6 +5,12 @@ export const adminUnlockLimits=sqliteTable('admin_unlock_limits',{
  windowStarted:integer('window_started').notNull(),
  attempts:integer('attempts').notNull(),
 });
+export const positionProfileEdits=sqliteTable('position_profile_edits',{
+ equipmentId:text('equipment_id').primaryKey(),payload:text('payload').notNull(),revision:integer('revision').notNull(),updatedAt:text('updated_at').notNull(),
+});
+export const positionImports=sqliteTable('position_imports',{
+ id:text('id').primaryKey(),userId:text('user_id').notNull(),filename:text('filename').notNull(),revision:integer('revision').notNull(),changesJson:text('changes_json').notNull(),createdAt:text('created_at').notNull(),
+});
 
 export const equipmentEdits = sqliteTable("equipment_edits", {
   userId: text("user_id").notNull(),

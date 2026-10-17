@@ -5,7 +5,7 @@ import libraryData from './data/positions.json';
 import {positionProfile,positionGroups,separateFiber,type PositionLibrary} from './position-lib';
 import {safeUrl,type Equipment} from './catalog-lib';
 const library=libraryData as PositionLibrary;
-export default function PositionList({record,expanded=false,id}:{record:Equipment;expanded?:boolean;id?:string}){
+export default function PositionList({record,expanded=false,id,library=libraryData as PositionLibrary}:{record:Equipment;expanded?:boolean;id?:string;library?:PositionLibrary}){
  const p=positionProfile(record,library),groups=positionGroups(p.interface),[selected,setSelected]=useState('');
  const current=groups.find(group=>group.position===selected)||groups[0];
  const evidenceIds=new Set([...p.interface.evidence_ids,...p.interface.fibers.flatMap(f=>[...f.evidence_ids,...f.directions.flatMap(d=>d.evidence_ids)])]);

@@ -96,3 +96,9 @@ The catalog-wide newer-model screening summary is omitted from the UI. Every det
 ## Public-launch preparation
 
 The repository documentation includes a sourced draft research statement and exact custom-domain setup instructions. The hosted audience remains owner-private until the public launch step. Apply migration `0003_admin_unlock_limits.sql` to an existing local database for the administrator gate. Configure `CATALOG_ADMIN_PASSWORD_HASH` and `CATALOG_ADMIN_SESSION_KEY` as runtime secrets; never commit `.dev.vars` or plaintext passwords. Password verification uses salted PBKDF2-SHA256 (100,000 iterations); changing either secret invalidates sessions. Local access checks: `python tests/integration/admin_access_preview.py`. The script prompts for the password, tests the three access levels and rate limiting, and only targets localhost.
+
+## Instrument control selections and USD prices
+
+The finished-output card exposes POSITION → FIBER → DIRECTIONS for every assigned occurrence, with independent choices when one machine is reused. Administrators can preview and atomically apply complete model Position Lists from CSV UTF-8, with optional source-linked declared output effects. A downloadable Excel template includes column instructions. Uploaded effects remain unverified; missing material effects are explicit. Apply local migration `0004_position_profiles.sql` for the shared profile tables. New Position Lists are model-bound and do not execute hardware.
+
+All card prices and process totals display USD using the committed ECB reference-rate snapshot. Source currencies remain in details and exports. New foreign-price snapshots preserve the original quote and FX evidence; historic native-price snapshots convert for totals. Unknown rates remain unpriced. See the repository USD pricing and position-upload guides.

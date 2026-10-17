@@ -79,6 +79,8 @@ def main():
                'material_names': item['input_name_suggestions'], 'output_tags': item['representative_output_form_tags'],
                'kind': item['media_kind'], 'reference_id': item.get('reference_id', ''), 'article_url': item.get('article_url', '')} for item in media['images']]
     (ROOT / 'webapp/app/data/material-images.json').write_text(json.dumps({'checked_date': media['checked_date'], 'images': images}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    currency = json.loads((ROOT / 'catalog/currency_reference_rates.json').read_text(encoding='utf-8'))
+    (ROOT / 'webapp/app/data/currency-rates.json').write_text(json.dumps(currency,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":
