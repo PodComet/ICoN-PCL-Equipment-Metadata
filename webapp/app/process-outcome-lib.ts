@@ -3,13 +3,14 @@ import {materialOutput,type MaterialDataset,type MaterialPlan,type MaterialSugge
 import {materialName,type MaterialImages} from './material-options.ts';
 import {stepDependencies} from './process-dependencies.ts';
 import type {ProcessWorkflow} from './process-lib.ts';
+import {unchangedFormulation,type ComponentData} from './component-lib.ts';
 const names=(items:MaterialSuggestion[])=>items.map(m=>m.name.trim()).filter(Boolean);
 export function compositionExample(plan:MaterialPlan,data:MaterialDataset){
  const keys=(items:MaterialSuggestion[])=>items.map(m=>m.role+':'+materialName(m.name)).sort();
  const actual=keys(plan.inputs);
  return data.examples.find(e=>e.route_id===plan.route_id&&e.inputs.length===actual.length&&keys(e.inputs).every((key,i)=>key===actual[i]))||null;
 }
-export function materialOutcome(plan:MaterialPlan,data:MaterialDataset,workflow:ProcessWorkflow){
+export function materialOutcome(plan:MaterialPlan,data:MaterialDataset,workflow:ProcessWorkflow,components?:ComponentData){
  let base=materialOutput(plan,data.profiles,data.examples);
  const example=compositionExample(plan,data);
  if(example&&!plan.expected_output.trim())base={label:example.output_label,basis:'source_example',detail:'Documented input/product composition · quantities, operating conditions and yield still require review',example};
@@ -21,9 +22,11 @@ export function materialOutcome(plan:MaterialPlan,data:MaterialDataset,workflow:
    base={...base,label:primary[0].name+' nanoparticle'+(plan.route_id==='P03'&&liquids.length?' dispersion in '+names(liquids).join(' + '):' target'),detail:'Process-specific planning target from the selected metal · phase, dimensions, conversion and yield are not predicted'};
   }else if(mode==='film'&&primary.length===1&&primary[0].name==='Gold (Au)')base={...base,label:'Gold (Au) film'+(substrates.length?' on '+names(substrates).join(' + '):''),detail:'Film planning target from the selected deposition target and substrate · thickness and film quality are not predicted'};
  }
+ const formulation=components?unchangedFormulation(plan,components):null;
+ if(formulation&&formulation.completeness!=='not_applicable')base={label:formulation.output_label,basis:'source_example',detail:'Documented formulation example · '+formulation.batch_basis+' · source conditions and yield still require review',example:null};
  const product=base.basis==='unspecified'?null:{name:base.label,form:mode,components:names(primary),substrates:names(substrates),amount:'Output amount not established'};
  const sequence=workflow.steps.map((step,index)=>({step_id:step.step_id,number:index+1,label:step.label,pending_classification:pendingClassSlots(step).map(slot=>({slot_id:slot.slot_id,label:slot.label,previous_class_ids:slot.allowed_category_ids})),requires:stepDependencies(workflow,step).map(id=>workflow.steps.findIndex(s=>s.step_id===id)+1),instruments:step.slots.filter(s=>s.instrument).map(s=>({equipment_id:s.instrument!.equipment_id,instance_id:s.instrument!.instance_id,category_id:s.instrument!.category_id,model_name:s.instrument!.equipment_snapshot.model_name,manufacturer:s.instrument!.equipment_snapshot.manufacturer,configuration:s.instrument!.configuration,operating_parameters:s.instrument!.operating_parameters,operation_sequence:s.instrument!.operation_sequence})),vacant_slots:step.slots.filter(s=>!s.instrument).map(s=>({classes:s.allowed_category_ids,role:String(s.extensions.requirement_role||'required')}))}));
- return {...base,products:product?[product]:[],mode,sequence,inputs:plan.inputs.map(m=>({...m})),route_id:plan.route_id,workflow_id:workflow.workflow_id};
+ return {...base,formulation,products:product?[product]:[],mode,sequence,inputs:plan.inputs.map(m=>({...m})),route_id:plan.route_id,workflow_id:workflow.workflow_id};
 }
 export function outputReference(outcome:ReturnType<typeof materialOutcome>,media:MaterialImages){
  if(!outcome.products.length)return null;

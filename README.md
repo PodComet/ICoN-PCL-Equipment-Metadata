@@ -134,3 +134,7 @@ The [process workbench update](docs/process-workbench-2026-10-16.md) shows separ
 See [the sourced research-information draft](docs/public-research-information-draft.md) and [the custom-domain launch guide](docs/public-domain-launch.md). Shared catalog administration and private installed-equipment inventory now require a password-unlocked administrator session in addition to sign-in. Public catalog browsing and personal account plans remain separate. Runtime secrets and the private inventory are excluded from this repository.
 
 The finished-output card now provides independent POSITION, FIBER and DIRECTION selections for each assigned instrument occurrence, with [spreadsheet imports and evidence-linked declared effects](docs/instrument-position-upload.md). [USD pricing](docs/usd-pricing.md) uses the committed dated ECB reference snapshot and preserves original price evidence. The reproducible normalized report is `catalog/equipment_prices_usd.csv`.
+
+## Components and MIT.nano review
+
+[Component formulations and cumulative process pricing](docs/COMPONENTS_AND_PRICING.md) describes the 41 sourced examples, 42 dated pack quotes, CSV formats, reproducible totals and explicit gaps. [MIT.nano review](docs/MIT_NANO_REVIEW.md) records 28 model additions and 34 additional instrument photos relevant to existing P-class production or characterization tasks.

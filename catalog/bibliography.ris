@@ -1,4 +1,40 @@
 TY  - JOUR
+ID  - REF-3BBCD9736CB4
+AU  - Smythe, Elizabeth J.
+AU  - Dickey, Michael D.
+AU  - Whitesides, George M.
+AU  - Capasso, Federico
+TI  - A Technique to Transfer Metallic Nanoscale Patterns to Small and Non-Planar Surfaces
+PY  - 2008
+JO  - ACS Nano
+VL  - 3
+IS  - 1
+SP  - 59
+EP  - 65
+DO  - 10.1021/nn800720r
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC2658603/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P06. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
+ID  - REF-69EEE9C7FC96
+AU  - Prasad, TNVKV
+AU  - Elumalai, EK
+TI  - Biofabrication of Ag nanoparticles using Moringa oleifera leaf extract and their antimicrobial activity
+PY  - 2011
+JO  - Asian Pacific Journal of Tropical Biomedicine
+VL  - 1
+IS  - 6
+SP  - 439
+EP  - 442
+DO  - 10.1016/s2221-1691(11)60096-8
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC3614222/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P10. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
 ID  - REF-18DCA84AA62D
 AU  - Xu, Xuezhu
 AU  - Liu, Fei
@@ -17,6 +53,26 @@ DO  - 10.1021/am302624t
 UR  - https://doi.org/10.1021/am302624t
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.3390/ma17051088, Reference 44. Evidence scoped to published version of record. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication.
+ER  -
+
+TY  - JOUR
+ID  - REF-1082AA538278
+AU  - Flores-Carrasco, G.
+AU  - Carrillo-López, J.
+AU  - Luna-López, J. A.
+AU  - Martínez-Martínez, R.
+AU  - Espinosa-Torres, N. D.
+AU  - Rabanal, M. E.
+TI  - Structural and Morphological Properties of Nanostructured ZnO Particles Grown by Ultrasonic Spray Pyrolysis Method with Horizontal Furnace
+PY  - 2014
+JO  - Advances in Materials Science and Engineering
+VL  - 2014
+SP  - 1
+EP  - 6
+DO  - 10.1155/2014/780206
+UR  - https://doi.org/10.1155/2014/780206
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P12. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR
@@ -111,6 +167,28 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-DCA84F632DA3
+AU  - Alhmoud, Hashim
+AU  - Delalat, Bahman
+AU  - Ceto, Xavier
+AU  - Elnathan, Roey
+AU  - Cavallaro, Alex
+AU  - Vasilev, Krasimir
+AU  - Voelcker, Nicolas H.
+TI  - Antibacterial properties of silver dendrite decorated silicon nanowires
+PY  - 2016
+JO  - RSC Advances
+VL  - 6
+IS  - 70
+SP  - 65976
+EP  - 65987
+DO  - 10.1039/c6ra13734b
+UR  - https://doi.org/10.1039/C6RA13734B
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P13. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
 ID  - REF-9773760A68D7
 AU  - Marchese Robinson, Richard L.
 AU  - Lynch, Iseult
@@ -141,6 +219,26 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-D82B35D1EEF5
+AU  - Chandramohan, Abhishek
+AU  - Sibirev, Nikolai V.
+AU  - Dubrovskii, Vladimir G.
+AU  - Petty, Michael C.
+AU  - Gallant, Andrew J.
+AU  - Zeze, Dagou A.
+TI  - Model for large-area monolayer coverage of polystyrene nanospheres by spin coating
+PY  - 2017
+JO  - Scientific Reports
+VL  - 7
+IS  - 1
+SP  - 40888
+DO  - 10.1038/srep40888
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P09. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
 ID  - REF-DEA08BE551A8
 AU  - Reichel, Victoria
 AU  - Kovács, András
@@ -163,6 +261,25 @@ DO  - 10.1038/srep45484
 UR  - https://doi.org/10.1038/srep45484
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.1021/acs.nanolett.4c01850, Supporting Information reference10; supplied combined Magnetization2 PDF p45. Evidence scoped to published version of record. No commercial model inferred for stirrer, thermostat, reaction vessel or magnet. This is aqueous coprecipitation, not hydrothermalP15. Do not encode numeric synthesis settings as an operating procedure.
+ER  -
+
+TY  - JOUR
+ID  - REF-0CFF46AD0F5C
+AU  - Al-Sherbini, Al-Sayed
+AU  - Bakr, Mona
+AU  - Ghoneim, Iman
+AU  - Saad, Mohamed
+TI  - Exfoliation of graphene sheets via high energy wet milling of graphite in 2-ethylhexanol and kerosene
+PY  - 2017
+JO  - Journal of Advanced Research
+VL  - 8
+IS  - 3
+SP  - 209
+EP  - 215
+DO  - 10.1016/j.jare.2017.01.004
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5310818/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P07. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR
@@ -190,6 +307,24 @@ DO  - 10.1103/physrevb.95.195404
 UR  - https://doi.org/10.1103/physrevb.95.195404
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.1021/acs.nanolett.4c01850, Main reference15; supplied combined Magnetization2 PDF p12. Evidence scoped to published version of record in University of Barcelona repository. No brandedACISmodel established. Treat as literature apparatus profile orM54classcitation, not evidence for every candidateM54commercialproduct. Section header isII Experimental Details (noII.Asubsection in this PDF). Characterization microscopes and MaurerKTR1075-1temperaturemeasurement device are excluded from manufacturing profile additions unless separately scoped.
+ER  -
+
+TY  - JOUR
+ID  - REF-D5F50661EB81
+AU  - Xia, Qing
+AU  - Li, Lina
+AU  - Zhao, Liran
+TI  - Silica nanoparticle-based dual-responsive nanoprodrug system for liver cancer therapy
+PY  - 2017
+JO  - Experimental and Therapeutic Medicine
+VL  - 14
+IS  - 3
+SP  - 2071
+EP  - 2077
+DO  - 10.3892/etm.2017.4768
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5609098/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P04. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR
@@ -292,6 +427,27 @@ N1  - All-years cited-reference review. 10.1016/j.impact.2025.100602 → 10.1016
 ER  -
 
 TY  - JOUR
+ID  - REF-9F2E07E43FA2
+AU  - Mery, M
+AU  - Orellana, N
+AU  - Acevedo, C A
+AU  - Oyarzún, S
+AU  - Araneda, F
+AU  - Herrera, G
+AU  - Aliaga, D
+AU  - Creixell, W
+AU  - Corrales, T P
+AU  - Romero, C P
+TI  - Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses
+PY  - 2018
+JO  - Materials
+DO  - 10.3390/ma11122574
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P01. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
 ID  - REF-97E9BC69EB00
 AU  - Rumble, John, Jr.
 AU  - Broome, John
@@ -346,6 +502,25 @@ DO  - 10.1038/s41598-020-75967-w
 UR  - https://doi.org/10.1038/s41598-020-75967-w
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDF p.43, reference 152. Evidence scoped to published full text. No microwave heating was used or inferred. Nitrogen sparging does not establish a particular Schlenk manifold model. No new commercial model is warranted. Nature direct download returned a browser challenge. Complete published XML was retrieved through Europe PMC; no PDF was treated as checked.
+ER  -
+
+TY  - JOUR
+ID  - REF-D2CE6F5AFB82
+AU  - Ozoemena, Okoroike C.
+AU  - Maphumulo, Tobile
+AU  - Shai, Jerry L.
+AU  - Ozoemena, Kenneth I.
+TI  - Electrospun Carbon Nanofibers as an Electrochemical Immunosensing Platform forVibrio choleraeToxin: Aging Effect of the Redox Probe
+PY  - 2020
+JO  - ACS Omega
+VL  - 5
+IS  - 11
+SP  - 5762
+EP  - 5771
+DO  - 10.1021/acsomega.9b03820
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7097905/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P11. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR
@@ -471,6 +646,27 @@ DO  - 10.1038/s41524-021-00629-y
 UR  - https://doi.org/10.1038/s41524-021-00629-y
 Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.3390/make8010010, Reference 59, PDF page 21. Full methods reviewed; evidence applies only to the stated apparatus and study configuration.
+ER  -
+
+TY  - JOUR
+ID  - REF-4488A4233A2A
+AU  - Cueto-Díaz, Eduardo J.
+AU  - Castro-Muñiz, Alberto
+AU  - Suárez-García, Fabián
+AU  - Gálvez-Martínez, Santos
+AU  - Torquemada-Vico, Mª Carmen
+AU  - Valles-González, Mª Pilar
+AU  - Mateo-Martí, Eva
+TI  - APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules
+PY  - 2021
+JO  - Nanomaterials
+VL  - 11
+IS  - 11
+SP  - 2893
+DO  - 10.3390/nano11112893
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P08. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR
@@ -911,6 +1107,33 @@ N1  - The local file is a prepublication manuscript, not the publisher version. 
 ER  -
 
 TY  - JOUR
+ID  - REF-1608A125B68E
+AU  - Ariasena, Eduardus
+AU  - Raditya, Aldyla Nisa
+AU  - Salsabila, Nadia
+AU  - Asih, Geolita Ihsantia Ning
+AU  - Uperianti
+AU  - Sari, Rizky Indah
+AU  - Handayani, Murni
+AU  - Siburian, Rikson
+AU  - Kurniawan, Cepi
+AU  - Widiarti, Nuni
+AU  - Irkham
+AU  - Hartati, Yeni Wahyuni
+AU  - Anshori, Isa
+TI  - Evaluation of electrodeposition synthesis of gold nanodendrite on screen-printed carbon electrode for nonenzymatic ascorbic acid sensor
+PY  - 2024
+JO  - Scientific Reports
+VL  - 14
+IS  - 1
+SP  - 22854
+DO  - 10.1038/s41598-024-69970-8
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11445493/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P05. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
 ID  - REF-EF3B4AF5F5B9
 AU  - Papadiamantis, Anastasios G.
 AU  - Mavrogiorgis, Angelos
@@ -992,6 +1215,20 @@ DO  - 10.1038/s43246-025-00736-z
 UR  - https://doi.org/10.1038/s43246-025-00736-z
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.1002/mgea.70056, Reference29, original parentPDF p12. Evidence scoped to published version of record. Broader nanomaterial scope is nanostructured bulk alloy with nanoprecipitates, not freestanding nanoparticles. Label distinctly; do not generalize every bulk Mg manufacturing process as nano. SPG-20 manufacturer web legitimacy / manuals / photos unreviewed; article is equipment-use evidence, not vendor verification. Four-die machine brand/model not reported. Conventional salt-bath anneal is comparison arm, not equivalent to induction flash annealing.
+ER  -
+
+TY  - JOUR
+ID  - REF-ADA3D33C94DA
+AU  - Thapa, Parul
+AU  - Bachhar, Nirmalya
+AU  - Sarma, Shrutidhara
+TI  - Substrate-dependent thermal sensing using silver nanoparticles synthesized via laser ablation in solution
+PY  - 2025
+JO  - Scientific Reports
+DO  - 10.1038/s41598-025-02431-y
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12222828/
+Y2  - 2026-10-17
+N1  - Representative source formulation reviewed for P03. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
 ER  -
 
 TY  - JOUR

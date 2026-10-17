@@ -1,5 +1,72 @@
 [
   {
+    "id": "REF-3BBCD9736CB4",
+    "type": "article-journal",
+    "title": "A Technique to Transfer Metallic Nanoscale Patterns to Small and Non-Planar Surfaces",
+    "author": [
+      {
+        "given": "Elizabeth J.",
+        "family": "Smythe"
+      },
+      {
+        "given": "Michael D.",
+        "family": "Dickey"
+      },
+      {
+        "given": "George M.",
+        "family": "Whitesides"
+      },
+      {
+        "given": "Federico",
+        "family": "Capasso"
+      }
+    ],
+    "container-title": "ACS Nano",
+    "volume": "3",
+    "issue": "1",
+    "page": "59-65",
+    "DOI": "10.1021/nn800720r",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2658603/",
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          12,
+          30
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-69EEE9C7FC96",
+    "type": "article-journal",
+    "title": "Biofabrication of Ag nanoparticles using Moringa oleifera leaf extract and their antimicrobial activity",
+    "author": [
+      {
+        "given": "TNVKV",
+        "family": "Prasad"
+      },
+      {
+        "given": "EK",
+        "family": "Elumalai"
+      }
+    ],
+    "container-title": "Asian Pacific Journal of Tropical Biomedicine",
+    "volume": "1",
+    "issue": "6",
+    "page": "439-442",
+    "DOI": "10.1016/s2221-1691(11)60096-8",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3614222/",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          12
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-18DCA84AA62D",
     "type": "article-journal",
     "title": "Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents",
@@ -41,6 +108,49 @@
           2013,
           4,
           8
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-1082AA538278",
+    "type": "article-journal",
+    "title": "Structural and Morphological Properties of Nanostructured ZnO Particles Grown by Ultrasonic Spray Pyrolysis Method with Horizontal Furnace",
+    "author": [
+      {
+        "given": "G.",
+        "family": "Flores-Carrasco"
+      },
+      {
+        "given": "J.",
+        "family": "Carrillo-López"
+      },
+      {
+        "given": "J. A.",
+        "family": "Luna-López"
+      },
+      {
+        "given": "R.",
+        "family": "Martínez-Martínez"
+      },
+      {
+        "given": "N. D.",
+        "family": "Espinosa-Torres"
+      },
+      {
+        "given": "M. E.",
+        "family": "Rabanal"
+      }
+    ],
+    "container-title": "Advances in Materials Science and Engineering",
+    "volume": "2014",
+    "page": "1-6",
+    "DOI": "10.1155/2014/780206",
+    "URL": "https://doi.org/10.1155/2014/780206",
+    "issued": {
+      "date-parts": [
+        [
+          2014
         ]
       ]
     }
@@ -244,6 +354,54 @@
     }
   },
   {
+    "id": "REF-DCA84F632DA3",
+    "type": "article-journal",
+    "title": "Antibacterial properties of silver dendrite decorated silicon nanowires",
+    "author": [
+      {
+        "given": "Hashim",
+        "family": "Alhmoud"
+      },
+      {
+        "given": "Bahman",
+        "family": "Delalat"
+      },
+      {
+        "given": "Xavier",
+        "family": "Ceto"
+      },
+      {
+        "given": "Roey",
+        "family": "Elnathan"
+      },
+      {
+        "given": "Alex",
+        "family": "Cavallaro"
+      },
+      {
+        "given": "Krasimir",
+        "family": "Vasilev"
+      },
+      {
+        "given": "Nicolas H.",
+        "family": "Voelcker"
+      }
+    ],
+    "container-title": "RSC Advances",
+    "volume": "6",
+    "issue": "70",
+    "page": "65976-65987",
+    "DOI": "10.1039/c6ra13734b",
+    "URL": "https://doi.org/10.1039/C6RA13734B",
+    "issued": {
+      "date-parts": [
+        [
+          2016
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-9773760A68D7",
     "type": "article-journal",
     "title": "How should the completeness and quality of curated nanomaterial data be evaluated?",
@@ -328,6 +486,53 @@
     }
   },
   {
+    "id": "REF-D82B35D1EEF5",
+    "type": "article-journal",
+    "title": "Model for large-area monolayer coverage of polystyrene nanospheres by spin coating",
+    "author": [
+      {
+        "given": "Abhishek",
+        "family": "Chandramohan"
+      },
+      {
+        "given": "Nikolai V.",
+        "family": "Sibirev"
+      },
+      {
+        "given": "Vladimir G.",
+        "family": "Dubrovskii"
+      },
+      {
+        "given": "Michael C.",
+        "family": "Petty"
+      },
+      {
+        "given": "Andrew J.",
+        "family": "Gallant"
+      },
+      {
+        "given": "Dagou A.",
+        "family": "Zeze"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "40888",
+    "DOI": "10.1038/srep40888",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/",
+    "page": "40888",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          19
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-DEA08BE551A8",
     "type": "article-journal",
     "title": "Single crystalline superstructured stable single domain magnetite nanoparticles",
@@ -390,6 +595,43 @@
           2017,
           3,
           30
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-0CFF46AD0F5C",
+    "type": "article-journal",
+    "title": "Exfoliation of graphene sheets via high energy wet milling of graphite in 2-ethylhexanol and kerosene",
+    "author": [
+      {
+        "given": "Al-Sayed",
+        "family": "Al-Sherbini"
+      },
+      {
+        "given": "Mona",
+        "family": "Bakr"
+      },
+      {
+        "given": "Iman",
+        "family": "Ghoneim"
+      },
+      {
+        "given": "Mohamed",
+        "family": "Saad"
+      }
+    ],
+    "container-title": "Journal of Advanced Research",
+    "volume": "8",
+    "issue": "3",
+    "page": "209-215",
+    "DOI": "10.1016/j.jare.2017.01.004",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5310818/",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5
         ]
       ]
     }
@@ -465,6 +707,40 @@
           2017,
           5,
           5
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-D5F50661EB81",
+    "type": "article-journal",
+    "title": "Silica nanoparticle-based dual-responsive nanoprodrug system for liver cancer therapy",
+    "author": [
+      {
+        "given": "Qing",
+        "family": "Xia"
+      },
+      {
+        "given": "Lina",
+        "family": "Li"
+      },
+      {
+        "given": "Liran",
+        "family": "Zhao"
+      }
+    ],
+    "container-title": "Experimental and Therapeutic Medicine",
+    "volume": "14",
+    "issue": "3",
+    "page": "2071-2077",
+    "DOI": "10.3892/etm.2017.4768",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5609098/",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
         ]
       ]
     }
@@ -690,6 +966,65 @@
     }
   },
   {
+    "id": "REF-9F2E07E43FA2",
+    "type": "article-journal",
+    "title": "Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses",
+    "author": [
+      {
+        "given": "M",
+        "family": "Mery"
+      },
+      {
+        "given": "N",
+        "family": "Orellana"
+      },
+      {
+        "given": "C A",
+        "family": "Acevedo"
+      },
+      {
+        "given": "S",
+        "family": "Oyarzún"
+      },
+      {
+        "given": "F",
+        "family": "Araneda"
+      },
+      {
+        "given": "G",
+        "family": "Herrera"
+      },
+      {
+        "given": "D",
+        "family": "Aliaga"
+      },
+      {
+        "given": "W",
+        "family": "Creixell"
+      },
+      {
+        "given": "T P",
+        "family": "Corrales"
+      },
+      {
+        "given": "C P",
+        "family": "Romero"
+      }
+    ],
+    "container-title": "Materials",
+    "DOI": "10.3390/ma11122574",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          18
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-97E9BC69EB00",
     "type": "article-journal",
     "title": "Building an International Consensus on Multi-Disciplinary Metadata Standards: A CODATA Case History in Nanotechnology",
@@ -820,6 +1155,44 @@
       "date-parts": [
         [
           2020
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-D2CE6F5AFB82",
+    "type": "article-journal",
+    "title": "Electrospun Carbon Nanofibers as an Electrochemical Immunosensing Platform forVibrio choleraeToxin: Aging Effect of the Redox Probe",
+    "author": [
+      {
+        "given": "Okoroike C.",
+        "family": "Ozoemena"
+      },
+      {
+        "given": "Tobile",
+        "family": "Maphumulo"
+      },
+      {
+        "given": "Jerry L.",
+        "family": "Shai"
+      },
+      {
+        "given": "Kenneth I.",
+        "family": "Ozoemena"
+      }
+    ],
+    "container-title": "ACS Omega",
+    "volume": "5",
+    "issue": "11",
+    "page": "5762-5771",
+    "DOI": "10.1021/acsomega.9b03820",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7097905/",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          3,
+          12
         ]
       ]
     }
@@ -1148,6 +1521,56 @@
           2021,
           10,
           1
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-4488A4233A2A",
+    "type": "article-journal",
+    "title": "APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules",
+    "author": [
+      {
+        "given": "Eduardo J.",
+        "family": "Cueto-Díaz"
+      },
+      {
+        "given": "Alberto",
+        "family": "Castro-Muñiz"
+      },
+      {
+        "given": "Fabián",
+        "family": "Suárez-García"
+      },
+      {
+        "given": "Santos",
+        "family": "Gálvez-Martínez"
+      },
+      {
+        "given": "Mª Carmen",
+        "family": "Torquemada-Vico"
+      },
+      {
+        "given": "Mª Pilar",
+        "family": "Valles-González"
+      },
+      {
+        "given": "Eva",
+        "family": "Mateo-Martí"
+      }
+    ],
+    "container-title": "Nanomaterials",
+    "volume": "11",
+    "issue": "11",
+    "page": "2893",
+    "DOI": "10.3390/nano11112893",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/",
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          10,
+          29
         ]
       ]
     }
@@ -2262,6 +2685,79 @@
     }
   },
   {
+    "id": "REF-1608A125B68E",
+    "type": "article-journal",
+    "title": "Evaluation of electrodeposition synthesis of gold nanodendrite on screen-printed carbon electrode for nonenzymatic ascorbic acid sensor",
+    "author": [
+      {
+        "given": "Eduardus",
+        "family": "Ariasena"
+      },
+      {
+        "given": "Aldyla Nisa",
+        "family": "Raditya"
+      },
+      {
+        "given": "Nadia",
+        "family": "Salsabila"
+      },
+      {
+        "given": "Geolita Ihsantia Ning",
+        "family": "Asih"
+      },
+      {
+        "family": "Uperianti"
+      },
+      {
+        "given": "Rizky Indah",
+        "family": "Sari"
+      },
+      {
+        "given": "Murni",
+        "family": "Handayani"
+      },
+      {
+        "given": "Rikson",
+        "family": "Siburian"
+      },
+      {
+        "given": "Cepi",
+        "family": "Kurniawan"
+      },
+      {
+        "given": "Nuni",
+        "family": "Widiarti"
+      },
+      {
+        "family": "Irkham"
+      },
+      {
+        "given": "Yeni Wahyuni",
+        "family": "Hartati"
+      },
+      {
+        "given": "Isa",
+        "family": "Anshori"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "14",
+    "issue": "1",
+    "article-number": "22854",
+    "DOI": "10.1038/s41598-024-69970-8",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11445493/",
+    "page": "22854",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-EF3B4AF5F5B9",
     "type": "article-journal",
     "title": "A systematic review on the state-of-the-art and research gaps regarding inorganic and carbon-based multicomponent and high-aspect ratio nanomaterials",
@@ -2458,6 +2954,37 @@
           2025,
           2,
           10
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-ADA3D33C94DA",
+    "type": "article-journal",
+    "title": "Substrate-dependent thermal sensing using silver nanoparticles synthesized via laser ablation in solution",
+    "author": [
+      {
+        "given": "Parul",
+        "family": "Thapa"
+      },
+      {
+        "given": "Nirmalya",
+        "family": "Bachhar"
+      },
+      {
+        "given": "Shrutidhara",
+        "family": "Sarma"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "DOI": "10.1038/s41598-025-02431-y",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222828/",
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          2
         ]
       ]
     }

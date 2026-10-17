@@ -40,5 +40,5 @@ export function categoryEvidenceLinks(record:Equipment,links:ReferenceLink[]){
 }
 
 export function metadataCheckLabel(status:string){
- return ({pdf_checked:'PDF checked · registry unresolved',needs_review:'Metadata needs review',full_text_and_registry_checked:'Full text + registry checked',pdf_and_registry_checked:'PDF + registry checked',pdf_and_repository_checked:'PDF + repository checked'} as Record<string,string>)[status]||'Metadata needs review';
+ return ({pdf_checked:'PDF checked · registry unresolved',needs_review:'Metadata needs review',full_text_and_registry_checked:'Full text + registry checked',full_text_and_repository_checked:'Full text + repository checked',pdf_and_registry_checked:'PDF + registry checked',pdf_and_repository_checked:'PDF + repository checked'} as Record<string,string>)[status]||'Metadata needs review';
 }

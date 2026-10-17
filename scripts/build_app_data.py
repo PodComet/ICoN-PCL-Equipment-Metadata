@@ -11,6 +11,7 @@ from reference_tools import build as build_references
 from catalog_tools import validate_model_lifecycle, validate_product_families
 from price_policy import with_msrp_estimates
 from market_tools import seller_offers
+from component_tools import build as build_components
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -86,6 +87,7 @@ def main():
     (ROOT / 'webapp/app/data/seller-offers.json').write_text(json.dumps({'checked_date': max((o['checked_date'] for o in offers), default=''), 'offers': offers}, ensure_ascii=False, separators=(',', ':'))+'\n',encoding='utf-8')
     class_audit = json.loads((ROOT / 'catalog/process_class_audit_2026-10-17.json').read_text(encoding='utf-8'))
     (ROOT / 'webapp/app/data/process-class-audit.json').write_text(json.dumps(class_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    build_components(ROOT)
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

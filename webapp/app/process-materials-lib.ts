@@ -3,8 +3,8 @@ import type {JsonValue,ProcessWorkflow} from './process-lib.ts';
 export const MATERIAL_ROLES={feedstock:'Feedstock',target:'Deposition / ablation target',precursor:'Precursor',polymer:'Polymer / matrix',nanofiller:'Nanofiller',substrate:'Substrate',solvent:'Solvent / liquid phase',reagent:'Reagent',dopant:'Dopant',ligand:'Ligand / surface modifier',gas:'Gas',sample:'Sample'} as const;
 export type MaterialRole=keyof typeof MATERIAL_ROLES;
 export type MaterialSuggestion={name:string;role:MaterialRole};
-export type StartingMaterial=MaterialSuggestion & {material_id:string;amount:string};
-export type MaterialPlan={schema:'process-materials/v1';route_id:string;inputs:StartingMaterial[];expected_output:string;example_id:string};
+export type StartingMaterial=MaterialSuggestion & {material_id:string;amount:string;component_id?:string;component_line_id?:string;offer_id?:string};
+export type MaterialPlan={schema:'process-materials/v1';route_id:string;inputs:StartingMaterial[];expected_output:string;example_id:string;formulation_id?:string};
 export type MaterialProfile={route_id:string;naming_mode:string;suggestions:MaterialSuggestion[];basis:string};
 export type MaterialExample={example_id:string;route_id:string;label:string;output_label:string;inputs:MaterialSuggestion[];reference_ids:string;source_url:string;source_locator:string;scope:string};
 export type MaterialDataset={profiles:MaterialProfile[];examples:MaterialExample[]};
@@ -15,10 +15,12 @@ export function validateMaterialPlan(value:unknown,routeId:string,allowBlankName
  if(p.schema!=='process-materials/v1'||p.route_id!==routeId||!Array.isArray(p.inputs)||p.inputs.length>30)throw new Error('Use up to 30 starting materials for this process.');
  if(typeof p.expected_output!=='string'||p.expected_output.length>240||typeof p.example_id!=='string'||p.example_id.length>100)throw new Error('Invalid material output target.');
  const ids=new Set<string>();
+ if(p.formulation_id!==undefined&&(typeof p.formulation_id!=='string'||p.formulation_id.length>100))throw new Error('Invalid formulation reference.');
  for(const m of p.inputs){
   if(!m||typeof m!=='object'||!/^MAT-[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(m.material_id)||ids.has(m.material_id))throw new Error('Starting materials need unique system IDs.');
   ids.add(m.material_id);
   if(typeof m.name!=='string'||!allowBlankNames&&!m.name.trim()||m.name.length>180||!Object.hasOwn(MATERIAL_ROLES,m.role)||typeof m.amount!=='string'||m.amount.length>100)throw new Error('Enter a material name, role and optional amount.');
+  for(const field of ['component_id','component_line_id','offer_id'] as const)if(m[field]!==undefined&&(typeof m[field]!=='string'||m[field]!.length>180))throw new Error('Invalid component or offer reference.');
  }
 }
 export function materialPlanFor(workflow:ProcessWorkflow):MaterialPlan{
