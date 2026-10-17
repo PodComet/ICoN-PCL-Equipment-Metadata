@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {processLayout,fittedProcessScale} from '../app/process-layout-lib.ts';
+import {processLayout,fittedProcessScale,processViewportFit} from '../app/process-layout-lib.ts';
 import {assignInstrument,createWorkflow,expandWorkflowRequirements,newSlot,newStep} from '../app/process-lib.ts';
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url)));
 test('layout identity and dimensions stay pinned through assignments, edits and materials changes',()=>{
@@ -18,6 +18,21 @@ test('a fitted sequence fits both viewport dimensions, including tall parallel b
   assert.ok(scale>0&&scale<=1);
   assert.ok(width*scale<=availableWidth+1e-8);
   assert.ok(height*scale<=availableHeight+1e-8);
+ }
+});
+
+test('short and tall process graphs fill the available width without changing the reserved height',()=>{
+ for(const routeId of ['P39','P43','P01','P19']){
+  const layout=processLayout(createWorkflow(seed.routes.find(r=>r.route_id===routeId),seed.steps),false);
+  for(const width of [360,1200,2400])for(const height of [364,1100]){
+   const fit=processViewportFit(layout.minimumWidth,width,height,220);
+   assert.ok(Math.abs(fit.boardWidth*fit.scale-width)<1e-8,routeId+' fills '+width);
+   assert.ok(height*fit.scale<=220+1e-8,routeId+' stays within the fixed-height panel');
+   assert.ok(fit.boardWidth>=layout.minimumWidth);
+  }
+  const expanded=processViewportFit(layout.minimumWidth,2400,620,620,true);
+  assert.equal(expanded.scale,1);
+  assert.equal(expanded.boardWidth,Math.max(2400,layout.minimumWidth));
  }
 });
 test('curated source processes contain no unclassified required equipment placeholders',()=>{

@@ -54,3 +54,9 @@ html {scrollbar-gutter:stable}
 .process-flow-area .process-flow-toolbar>strong,.process-flow-area .process-flow-actions {flex-shrink:0;white-space:nowrap}
 .process-flow-area .process-flow-toolbar>span {min-width:0;overflow:hidden;max-height:32px}
 .process-flow-area .process-hierarchy-help {box-sizing:border-box;height:18px;min-height:18px;max-height:18px;margin:3px 0 5px;overflow:auto;scrollbar-width:thin}
+
+/* Stretch the stage columns across the entire fitted board; scaling is uniform. */
+.process-flow-area .process-hierarchy-layout {box-sizing:border-box}
+.process-flow-area .process-hierarchy-level {min-width:0;flex-shrink:0}
+.process-flow-area .process-peer-steps {align-items:stretch}
+.process-flow-area .process-hierarchy .process-hierarchy-node {width:100%}
