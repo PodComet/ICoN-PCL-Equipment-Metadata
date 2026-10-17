@@ -54,6 +54,13 @@ def main():
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     positions = json.loads((ROOT / "catalog/position_interfaces.json").read_text(encoding="utf-8"))
     (ROOT / "webapp/app/data/positions.json").write_text(json.dumps(positions, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    profiles = read_csv('process_material_profiles')
+    examples = read_csv('process_material_examples')
+    for row in profiles:
+        row['suggestions'] = json.loads(row.pop('suggestions_json'))
+    for row in examples:
+        row['inputs'] = json.loads(row.pop('inputs_json'))
+    (ROOT / 'webapp/app/data/process-materials.json').write_text(json.dumps({'profiles': profiles, 'examples': examples}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

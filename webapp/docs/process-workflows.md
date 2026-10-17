@@ -60,3 +60,14 @@ Selecting a process shows instruments from the equipment classes in its current 
 ## Category cubes, physical units and Position Lists
 
 The [current workbench guide](../../docs/process-workbench-2026-10-16.md) describes separate category cubes, AND/OR/optional requirement semantics, the complete equipment browser, readiness checks and conceptual output animation. Existing plans expand required cubes in an unsaved draft. Explicit reuse links stage instances with `extensions.physical_unit_id` and counts their price once. Each instrument exposes its model-specific Position List roadmap and per-position fiber exports.
+
+
+## Starting materials and expected output
+
+Every P process opens with an empty input node to the left of step 1. Choose materials opens an inline editor with process-specific suggestions and free-text names. Each entry has a role (precursor, feedstock, substrate, solvent, etc.), optional amount/concentration and a system-generated MAT UUID. The full list remains available when the compact node summarizes the first four entries.
+
+The plan stores `extensions.material_plan` using `process-materials/v1`, bound to the workflow route. It retains material identities, roles, amounts, an optional expected-output target and the selected example ID through saving, revision history and JSON export. Legacy workflows open with an empty material plan. A workflow can complete its equipment requirements while still prompting for unspecified starting materials.
+
+Four source composition examples cover lignin nanoparticle self-assembly, magnetite coprecipitation, supported CuPd nanocubes and patterned gold. Loading one replaces the input list and records its named output. Its article evidence is recognized only while the names, roles and output match the stored composition example. Amounts remain user entries: no source recipe, operating conditions, substitutions, yield or dimensions are validated. Every source is already in the academic reference library.
+
+Without an exact example, a user-named target is labeled user-defined. Otherwise a conservative label combines the selected inputs and process form (for example, “Film from Gold (Au) on Silicon wafer”). A precursor is not silently converted into an asserted product formula. Equipment completion still validates the process slots and sequence independently and lights the final output.

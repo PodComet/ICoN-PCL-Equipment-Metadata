@@ -14,11 +14,11 @@ const hydrate=(r,protectedFields=[])=>applyProductFamily(r,seed.product_families
 const plan=input=>buildPlan(csvUpdateText(input),seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 
 test('family presentation preserves all records and preserves the 535 dated cards alongside literature additions',()=>{
- assert.equal(rows.length,669);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,669);
- assert.equal(groupRows(rows).length,571);assert.equal(seed.product_families.length,88);
- assert.equal(new Set(seed.product_families.map(r=>r.product_family_id)).size,35);
+ assert.equal(rows.length,765);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,765);
+ assert.equal(groupRows(rows).length,657);assert.equal(seed.product_families.length,102);
+ assert.equal(new Set(seed.product_families.map(r=>r.product_family_id)).size,39);
  assert.equal(rows.filter(row=>newerModel(row.record)).length,25);
- const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,669);
+ const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,765);
  const firstMissing=ordered.findIndex(group=>!group.some(row=>row.record.image_url));
  assert.ok(ordered.slice(firstMissing).every(group=>!group.some(row=>row.record.image_url)));
 });

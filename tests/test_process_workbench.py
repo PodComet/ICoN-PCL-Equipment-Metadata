@@ -25,10 +25,10 @@ def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
 def test_position_roadmap_is_model_bound_and_never_fabricates_operating_states():
     records={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     index=load_csv(ROOT/'catalog/equipment_position_lists.csv')
-    assert len(index)==len(records)==669
+    assert len(index)==len(records)==765
     assert {r['equipment_id'] for r in index}==set(records)
     assert all(r['model_name']==records[r['equipment_id']]['model_name'] for r in index)
-    assert sum(r['review_status']=='not_started' and r['position_count']=='0' for r in index)==668
+    assert sum(r['review_status']=='not_started' and r['position_count']=='0' for r in index)==764
     library=json.loads((ROOT/'catalog/position_interfaces.json').read_text(encoding='utf-8'))
     profile=library['profiles'][0];interface=profile['interface']
     assert profile['equipment_id']=='EXT-M70-OPENTRONS-GEN2'

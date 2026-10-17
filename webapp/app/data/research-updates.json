@@ -1071,8 +1071,48 @@
         "after": {
           "brochure_url": "https://www.tainstruments.com/pdf/brochure/BROCH-DTGA-HP750.pdf"
         }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.tainstruments.com/wp-content/uploads/TGA-5500.jpg",
+          "image_source_url": "https://www.tainstruments.com/tga-5500/",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved"
+        },
+        "after": {
+          "model_status": "verified_manufacturer_model"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_url": ""
+        },
+        "after": {
+          "model_evidence_url": "https://www.tainstruments.com/tga-5500/"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_status": "candidate_needs_review"
+        },
+        "after": {
+          "model_evidence_status": "documented"
+        }
       }
-    ]
+    ],
+    "model_name": "TA Instruments TGA 5500",
+    "manufacturer": "TA Instruments"
   },
   {
     "equipment_id": "M42-02",
@@ -2899,10 +2939,60 @@
           "media_checked_date": ""
         },
         "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106989-elmasonic-select-30-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=30",
+          "image_scope": "Exact manufacturer Elmasonic Select 30 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
           "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106989-elmasonic-select-30-ultrasonic-cleaner-front-1400x840.png?2026-01-30T07:03:24.794Z",
           "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select",
           "image_scope": "Elmasonic Select 30: manufacturer product photo; baskets and accessories are optional.",
           "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106989-elmasonic-select-30-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=30",
+          "image_scope": "Exact manufacturer Elmasonic Select 30 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "680",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=30",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "Official exact Elmasonic Select 30, SKU 1106989-001 EU variant, public shop/structured-data offer excluding VAT and shipping. Basket/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=30",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=30"
         }
       }
     ],
@@ -2920,10 +3010,60 @@
           "media_checked_date": ""
         },
         "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106990-elmasonic-select-60-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=60",
+          "image_scope": "Exact manufacturer Elmasonic Select 60 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
           "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106990-elmasonic-select-60-ultrasonic-cleaner-front-1400x840.png",
           "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select",
           "image_scope": "Elmasonic Select 60: manufacturer model photo; baskets and accessories are optional.",
           "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106990-elmasonic-select-60-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=60",
+          "image_scope": "Exact manufacturer Elmasonic Select 60 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1200",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=60",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "Official exact Elmasonic Select 60, SKU 1106990-001 EU variant, public shop/structured-data offer excluding VAT and shipping. Basket/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=60",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=60"
         }
       }
     ],
@@ -2941,10 +3081,60 @@
           "media_checked_date": ""
         },
         "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106991-elmasonic-select-100-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=100",
+          "image_scope": "Exact manufacturer Elmasonic Select 100 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
           "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106991-elmasonic-select-100-ultrasonic-cleaner-front-1400x840.png",
           "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select",
           "image_scope": "Elmasonic Select 100: manufacturer model photo; baskets and accessories are optional.",
           "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106991-elmasonic-select-100-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=100",
+          "image_scope": "Exact manufacturer Elmasonic Select 100 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "1420",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=100",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "Official exact Elmasonic Select 100, SKU 1106991-001 EU variant, public shop/structured-data offer excluding VAT and shipping. Basket/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=100",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=100"
         }
       }
     ],
@@ -2962,10 +3152,60 @@
           "media_checked_date": ""
         },
         "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106994-elmasonic-select-180-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=180",
+          "image_scope": "Exact manufacturer Elmasonic Select 180 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
           "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106994-elmasonic-select-180-ultrasonic-cleaner-front-1400x840.png",
           "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select",
           "image_scope": "Elmasonic Select 180: manufacturer model photo; baskets and accessories are optional.",
           "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://shared81135.blob.core.windows.net/cms-file-storage/1106994-elmasonic-select-180-ultrasonic-cleaner-front.png",
+          "image_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=180",
+          "image_scope": "Exact manufacturer Elmasonic Select 180 photo from official model-specific structured product data.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "2000",
+          "manufacturer_price_currency": "EUR",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=180",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "Official exact Elmasonic Select 180, SKU 1106994-001 EU variant, public shop/structured-data offer excluding VAT and shipping. Basket/accessories extra."
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=180",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.elma-ultrasonic.com/en/elmasonic-select?model=180"
         }
       }
     ],
@@ -5184,6 +5424,1048 @@
         },
         "after": {
           "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1021/acsami.2c22162: Characterization only: Autolab PGSTAT302N performs EIS on manufactured GNP/PDMS. This is not synthesis or electrodeposition evidence."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M26-01",
+    "model_name": "Inovenso NE300",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE300-electrospinning-machine-1-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE300 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M26-07",
+    "model_name": "Inovenso NE100",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE100-electrospinning-machine-1-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE100 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M26-08",
+    "model_name": "Inovenso NE200",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE200-electrospinning-machine-2-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE200 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M28-01",
+    "model_name": "MBRAUN LABstar pro",
+    "manufacturer": "MBRAUN",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.mbraun.com/assets/images/5/MBRAUN-Glovebox-LABstarPro-01-gy3bb0ytqcv0gqm.jpg",
+          "image_source_url": "https://www.mbraun.com/en/glovebox/glovebox-systems.html",
+          "image_scope": "Manufacturer LABstar pro photograph explicitly named LABstarPro in its product gallery; module/accessory options may differ.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-01",
+    "model_name": "JEOL JEM-120i",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JEM-120i_main10.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/tem/JEM-120i.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/scientific/tem/JEM-120i.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/scientific/tem/JEM-120i.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M53-01",
+    "model_name": "TSI Single-Jet Atomizer 9302",
+    "manufacturer": "TSI",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://tsi.com/getmetafile/beb9110c-11b3-4174-8b4e-d9e967b57b2a/9302",
+          "image_source_url": "https://tsi.com/products/aerosol-generators-dispersers/seed-aerosol-generators/single-jet-atomizer-9302/",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://tsi.com/products/aerosol-generators-dispersers/seed-aerosol-generators/single-jet-atomizer-9302/",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://tsi.com/products/aerosol-generators-dispersers/seed-aerosol-generators/single-jet-atomizer-9302/"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-02",
+    "model_name": "IKA VORTEX 3",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "823",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/",
+          "manufacturer_price_checked_date": "2026-10-14",
+          "manufacturer_price_scope": "VORTEX 3 article 0003340001 with VG 3.1 standard attachment"
+        },
+        "after": {
+          "manufacturer_price_value": "823",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "US item 0003340001, VORTEX 3 with VG 3.1 standard attachment. Optional vessel attachments/fixtures separate."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/VORTEX-3-3340000/"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched"
+        },
+        "after": {
+          "price_status": "manufacturer_published_price_not_msrp"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-06",
+    "model_name": "IKA MS 3 basic",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "904",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/",
+          "manufacturer_price_checked_date": "2026-10-14",
+          "manufacturer_price_scope": "MS 3 basic article 0003617000 standard supplied attachments"
+        },
+        "after": {
+          "manufacturer_price_value": "904",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "MS 3 basic item 0003617000 with standard/universal attachments and one-hand insert as listed; optional accessories separate."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-basic-3617000/"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched"
+        },
+        "after": {
+          "price_status": "manufacturer_published_price_not_msrp"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M50-07",
+    "model_name": "IKA MS 3 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "1021",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/",
+          "manufacturer_price_checked_date": "2026-10-14",
+          "manufacturer_price_scope": "MS 3 digital article 0003319000 standard supplied attachments"
+        },
+        "after": {
+          "manufacturer_price_value": "1021",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "MS 3 digital item 0003319000 and listed delivery accessories; optional accessories separate."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched"
+        },
+        "after": {
+          "price_status": "manufacturer_published_price_not_msrp"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M49-06",
+    "model_name": "Sterlitech HP4750",
+    "manufacturer": "Sterlitech",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://media.sterlitech.com/cdn-cgi/image/width=800,fit=scale-down,format=auto,quality=85/media/catalog/product/h/p/hp4750.png",
+          "image_source_url": "https://www.sterlitech.com/hp4750-stirred-cell-up-to-1000-psig-hp4750",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer_price_value": "3559.83",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.sterlitech.com/hp4750-stirred-cell-up-to-1000-psig-hp4750",
+          "manufacturer_price_checked_date": "2026-10-16",
+          "manufacturer_price_scope": "HP4750 base stainless-steel high-pressure stirred cell only (SKU HP4750), excludes regulator, hose, stir plate, membrane and complete filtration system. Kits have separate prices."
+        }
+      },
+      {
+        "before": {
+          "manual_url": "https://www.sterlitech.com/media/amasty/amfile/attach/HP4750%20Cell%20Manual.pdf",
+          "manual_scope": "Manufacturer HP4750 Cell Assembly & Operation Manual, 2025. Do not extend to HP4750X.",
+          "manual_status": "verified_operating_manual",
+          "manual_match_status": "verified_operating_manual"
+        },
+        "after": {
+          "manual_url": "https://www.sterlitech.com/media/amasty/amfile/attach/HP4750%20Cell%20Manual.pdf",
+          "manual_scope": "HP4750 cell model-specific assembly and operation manual, copyright 2025.",
+          "manual_status": "manufacturer_operating_manual",
+          "manual_match_status": "verified_operating_manual"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.sterlitech.com/hp4750-stirred-cell-up-to-1000-psig-hp4750",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.sterlitech.com/hp4750-stirred-cell-up-to-1000-psig-hp4750"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched"
+        },
+        "after": {
+          "price_status": "manufacturer_published_price_not_msrp"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M53-03",
+    "model_name": "Topas ATM 226",
+    "manufacturer": "Topas",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.topas-gmbh.de/fileadmin/_processed_/9/e/csm_P0452H01-ATM226-S-TOPAS_496c456feb.jpg",
+          "image_source_url": "https://www.topas-gmbh.de/produkte/generierung/produkt/atm-228",
+          "image_scope": "Manufacturer related-product tile explicitly labelled ATM 226; not the ATM 228 photo.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M51-05",
+    "model_name": "TSI DMA 3081A",
+    "manufacturer": "TSI",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://tsi.com/getmetafile/ca7a6643-637e-44fa-a815-25624b7a68f0/3081A",
+          "image_source_url": "https://tsi.com/products/particle-sizers/electrostatic-classifiers-and-dmas/differential-mobility-analyzer-3083/",
+          "image_scope": "Manufacturer related-product image identified by exact DMA/classifier model in product page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M51-06",
+    "model_name": "TSI Nano DMA 3085A",
+    "manufacturer": "TSI",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://tsi.com/getmetafile/419fa3f7-3465-4124-8413-76b3661f83f5/3085A",
+          "image_source_url": "https://tsi.com/products/particle-sizers/electrostatic-classifiers-and-dmas/differential-mobility-analyzer-3083/",
+          "image_scope": "Manufacturer related-product image identified by exact DMA/classifier model in product page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M51-07",
+    "model_name": "TSI 1nm DMA 3086",
+    "manufacturer": "TSI",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://tsi.com/getmetafile/ee37a44f-78ea-433f-b393-cdf010f71590/3086_02",
+          "image_source_url": "https://tsi.com/products/particle-sizers/electrostatic-classifiers-and-dmas/differential-mobility-analyzer-3083/",
+          "image_scope": "Manufacturer related-product image identified by exact DMA/classifier model in product page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M51-01",
+    "model_name": "TSI Electrostatic Classifier 3082",
+    "manufacturer": "TSI",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://tsi.com/getmetafile/e2b7d8ca-1156-4aae-84b6-2f6687f0efbe/3082_03",
+          "image_source_url": "https://tsi.com/products/particle-sizers/electrostatic-classifiers-and-dmas/differential-mobility-analyzer-3083/",
+          "image_scope": "Manufacturer related-product image identified by exact DMA/classifier model in product page.",
+          "media_checked_date": "2026-10-16"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-04",
+    "model_name": "JEOL JEM-1400Flash",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JEM-1400Flash_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/tem/JEM-1400Flash.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/scientific/tem/JEM-1400Flash.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/scientific/tem/JEM-1400Flash.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-05",
+    "model_name": "JEOL JEM-2100Plus",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JEM-2100plus_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/tem/JEM-2100Plus.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/scientific/tem/JEM-2100Plus.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/scientific/tem/JEM-2100Plus.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-06",
+    "model_name": "JEOL JEM-F200",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JEM-F200_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/tem/JEM-F200.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/scientific/tem/JEM-F200.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/scientific/tem/JEM-F200.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M59-02",
+    "model_name": "JEOL JBX-8100FS",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JBX-8100FS_en.png",
+          "image_source_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-8100FS.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M59-08",
+    "model_name": "JEOL JBX-9500FS",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.jeol.com/products/assets/images/JBX-9500FS.png",
+          "image_source_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-9500FS.php",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-9500FS.php",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.jeol.com/products/semiconductor/ebx/JBX-9500FS.php"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M44-02",
+    "model_name": "Kibron MicroTrough XS",
+    "manufacturer": "Kibron",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.kibron.com/wp-content/uploads/2022/07/1-0-66.jpg",
+          "image_source_url": "https://www.kibron.com/product/microtrough-xs",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.kibron.com/product/microtrough-xs",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.kibron.com/product/microtrough-xs"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M44-06",
+    "model_name": "Kibron MicroTrough XL",
+    "manufacturer": "Kibron",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.kibron.com/wp-content/uploads/2022/07/1-0-67.jpg",
+          "image_source_url": "https://www.kibron.com/product/microtrough-xl",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.kibron.com/product/microtrough-xl",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.kibron.com/product/microtrough-xl"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M44-07",
+    "model_name": "Kibron MicroTrough G1",
+    "manufacturer": "Kibron",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.kibron.com/wp-content/uploads/2022/07/1-0-63.jpg",
+          "image_source_url": "https://www.kibron.com/product/microtrough-g1",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.kibron.com/product/microtrough-g1",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.kibron.com/product/microtrough-g1"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M44-08",
+    "model_name": "Kibron MicroTrough G2",
+    "manufacturer": "Kibron",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.kibron.com/wp-content/uploads/2022/07/1-0-61.jpg",
+          "image_source_url": "https://www.kibron.com/product/microtrough-g2",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.kibron.com/product/microtrough-g2",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.kibron.com/product/microtrough-g2"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M44-09",
+    "model_name": "Kibron MicroTrough G4",
+    "manufacturer": "Kibron",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.kibron.com/wp-content/uploads/2022/07/1-0-62.jpg",
+          "image_source_url": "https://www.kibron.com/product/microtrough-g4",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.kibron.com/product/microtrough-g4",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.kibron.com/product/microtrough-g4"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M59-01",
+    "model_name": "RAITH VOYAGER",
+    "manufacturer": "RAITH",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://raith.com/wp-content/uploads/2024/06/raith-voyager-scaled.jpg",
+          "image_source_url": "https://raith.com/products/voyager/",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://raith.com/products/voyager/",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://raith.com/products/voyager/"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved"
+        },
+        "after": {
+          "model_status": "verified_manufacturer_model"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_url": ""
+        },
+        "after": {
+          "model_evidence_url": "https://raith.com/products/voyager/"
+        }
+      },
+      {
+        "before": {
+          "model_evidence_status": "candidate_needs_review"
+        },
+        "after": {
+          "model_evidence_status": "documented"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M48-09",
+    "model_name": "PVD Products Nano PLD",
+    "manufacturer": "PVD Products",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.pvdproducts.com/hs-fs/hubfs/product%20images/Nano-w-Loadlock_white2-1.jpg?width=600&name=Nano-w-Loadlock_white2-1.jpg",
+          "image_source_url": "https://www.pvdproducts.com/pulsed-laser-deposition-systems",
+          "image_scope": "Nano PLD with optional load lock as labelled by manufacturer; pictured configuration differs with options.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.pvdproducts.com/pulsed-laser-deposition-systems",
+          "product_page_scope": ""
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.pvdproducts.com/pulsed-laser-deposition-systems"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "LIT-M63-DOSIMAT805",
+    "model_name": "805 Dosimat",
+    "manufacturer": "Metrohm",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://metrohm.scene7.com/is/image/metrohm/1378_s?$xh-1280$&bfc=on",
+          "image_source_url": "https://www.metrohm.com/en/products/2/8050/28050010.html",
+          "image_scope": "Manufacturer 805 Dosimat product photograph. The exact 1 mL historical dosing-unit configuration from the article is not identified by this photograph.",
+          "media_checked_date": "2026-10-16"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.metrohm.com/en/products/2/8050/28050010.html",
+          "product_page_scope": "805 Dosimat model page; exchange/dosing unit configuration is separate"
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.metrohm.com/en/products/2/8050/28050010.html"
         }
       }
     ]

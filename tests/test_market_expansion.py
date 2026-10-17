@@ -1,0 +1,53 @@
+import json
+from catalog_tools import ROOT, load_csv, inspect_catalog
+
+
+def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes():
+    report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
+    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
+    assert len(report['new_records'])==96 and len(report['category_counts'])==68
+    assert report['before']['records']==669 and report['after']['records']==len(rows)==765
+    assert all(r['added']>=1 and r['after']>=5 for r in report['category_counts'])
+    for addition in report['new_records']:
+        r=rows[addition['equipment_id']]
+        assert all(r[k]==v for k,v in addition.items() if k!='sources')
+        assert r['model_evidence_url'] and r['product_page_url'] and addition['sources']
+        assert r['catalog_scope']=='market_expansion' and r['purdue_list']=='false'
+        assert not any(r[k] for k in ['source_pdf','source_page','requested_ids','institution_label','source_record_id'])
+        assert 'Class-level' in r['association_basis'] and 'No model-specific literature use' in r['association_basis']
+    reviews={r['equipment_id']:r for r in load_csv(ROOT/'catalog/model_lifecycle.csv')}
+    for addition in report['new_records']:
+        r=reviews[addition['equipment_id']]
+        assert r['review_method']=='primary_source_identity_only' and r['lifecycle_status']=='model_unresolved'
+        assert not r['successor_product_url']
+    assert inspect_catalog()['highlighted_equipment_records']==44
+
+
+def test_prices_media_and_existing_updates_retain_scoped_evidence():
+    report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
+    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
+    assert sum(bool(r['image_url']) for r in rows.values())==report['after']['photos']==293
+    assert sum(bool(r['manufacturer_price_value']) for r in rows.values())==58
+    assert len(report['updates'])==33
+    for update in report['updates']:
+        assert update['sources'] and all(rows[update['equipment_id']][k]==v for k,v in update['after'].items())
+    for r in rows.values():
+        if r['category_id']=='M66' and r['catalog_scope']=='market_expansion':
+            assert 'PACK OF' in r['manufacturer_price_scope'] or 'sales roll' in r['manufacturer_price_scope']
+            assert r['msrp_value']=='' and r['record_kind']=='commercial_dialysis_component'
+    assert rows['EXP-20261016-M12-PQ-N4']['manufacturer_price_value']==''
+    assert 'P13' not in rows['EXP-20261016-M61-RIE-800IP-ALE']['related_process_ids'].split(';')
+    assert 'P14' in rows['EXP-20261016-M61-RIE-800IP-ALE']['related_process_ids'].split(';')
+
+
+def test_starting_material_examples_are_derived_from_existing_academic_references():
+    profiles=load_csv(ROOT/'catalog/process_material_profiles.csv')
+    examples=load_csv(ROOT/'catalog/process_material_examples.csv')
+    seed=json.loads((ROOT/'webapp/app/data/process-materials.json').read_text(encoding='utf-8'))
+    assert len(profiles)==42 and len(examples)==4
+    refs={r['reference_id'] for r in load_csv(ROOT/'catalog/references.csv')}
+    for source,built in zip(examples,seed['examples']):
+        assert set(source['reference_ids'].split(';'))<=refs
+        assert built['inputs']==json.loads(source['inputs_json']) and 'inputs_json' not in built
+        assert source['source_locator'] and source['scope'] and source['checked_date']=='2026-10-16'
+    assert all(p['suggestions'] and 'suggestions_json' not in p for p in seed['profiles'])

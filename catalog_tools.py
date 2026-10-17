@@ -27,7 +27,7 @@ def validate_model_lifecycle(equipment, reviews):
         assert date.fromisoformat(review["successor_checked_date"]).isoformat() == review["successor_checked_date"]
         if review["lifecycle_status"] != "model_unresolved":
             assert review["successor_evidence_url"], "Lifecycle source required: " + eid
-        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check", "literature_methods_identity_check", "official_module_identity_check"}
+        assert review["review_method"] in {"manual_primary_source_relationship_check", "targeted_official_domain_search", "supplied_requirement_identity_check", "literature_methods_identity_check", "official_module_identity_check", "primary_source_identity_only"}
         if review["review_method"] == "targeted_official_domain_search":
             assert review["review_query"] and review["review_source_match"]
         for value in filter(None, review["review_source_urls"].split(";")):
@@ -132,6 +132,23 @@ def inspect_catalog(root=ROOT):
     assert sum(s["source_pdf"] == "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf" for s in steps) == 109, "Retain all original source steps"
     assert {"N" + str(i).zfill(2) for i in range(1, 10)} | {"P01"} | {"P" + str(i).zfill(2) for i in range(3, 15)} <= {r["route_id"] for r in routes}, "Retain original routes and curated etching capabilities"
     route_ids = {r["route_id"] for r in routes}
+    profiles = load_csv(folder / 'process_material_profiles.csv')
+    examples = load_csv(folder / 'process_material_examples.csv')
+    process_ids = {r['route_id'] for r in routes if r['route_kind'] == 'manufacturing_process'}
+    assert len(profiles) == len(process_ids) and {p['route_id'] for p in profiles} == process_ids
+    roles = {'feedstock', 'target', 'precursor', 'polymer', 'nanofiller', 'substrate', 'solvent', 'reagent', 'dopant', 'ligand', 'gas', 'sample'}
+    for profile in profiles:
+        suggestions = json.loads(profile['suggestions_json'])
+        assert suggestions and all(s['name'].strip() and s['role'] in roles for s in suggestions)
+        assert profile['naming_mode'] and profile['basis']
+    reference_ids = {r['reference_id'] for r in load_csv(folder / 'references.csv')}
+    assert len(examples) == len({e['example_id'] for e in examples})
+    for example in examples:
+        assert example['route_id'] in process_ids and example['output_label'] and example['scope']
+        assert set(example['reference_ids'].split(';')) <= reference_ids
+        assert urlparse(example['source_url']).scheme in {'http', 'https'}
+        inputs = json.loads(example['inputs_json'])
+        assert 0 < len(inputs) <= 30 and all(i['name'].strip() and i['role'] in roles for i in inputs)
     for alias in aliases:
         assert alias["legacy_category_id"] not in category_ids
         assert set(alias["canonical_category_ids"].split(";")).issubset(category_ids)

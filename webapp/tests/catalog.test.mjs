@@ -99,14 +99,14 @@ test('FRITSCH confirmation grants its star without inventing independent researc
 
 test('multi-select filters use OR inside each list and AND across lists',()=>{
  const filters={query:'',category:['M13','M37'],manufacturer:['Eppendorf','Proto'],material:[],process:[],manualOnly:false,requestedOnly:false};
- assert.equal(filterRows(rows,filters).length,6);
+ assert.equal(filterRows(rows,filters).length,7);
  const narrowed=filterRows(rows,{...filters,material:['N06']});
- assert.equal(narrowed.length,4);assert.ok(narrowed.every(r=>r.record.manufacturer==='Eppendorf'));
+ assert.equal(narrowed.length,5);assert.ok(narrowed.every(r=>r.record.manufacturer==='Eppendorf'));
 });
 test('option counts respect other filters without constraining their own list',()=>{
  const filters={query:'',category:['M37'],manufacturer:['Eppendorf'],material:[],process:[],manualOnly:false,requestedOnly:false};
  assert.equal(filterRows(rows,filters).length,0);
- const counts=filterCounts(rows,filters,'category');assert.equal(counts.get('M13'),4);assert.equal(counts.get('M37')||0,0);
+ const counts=filterCounts(rows,filters,'category');assert.equal(counts.get('M13'),5);assert.equal(counts.get('M37')||0,0);
 });
 test('shift selection adds or removes a contiguous range and preserves unrelated selections',()=>{
  assert.deepEqual(rangeSelection(['z'],['a','b','c','d'],'a','c',true),['z','a','b','c']);

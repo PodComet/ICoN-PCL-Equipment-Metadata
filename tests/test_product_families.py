@@ -7,7 +7,7 @@ from catalog_tools import ROOT, load_csv, validate_product_families
 def test_membership_preserves_model_data_and_matches_review_report():
     equipment = load_csv(ROOT / 'catalog/equipment.csv')
     memberships = load_csv(ROOT / 'catalog/product_families.csv')
-    assert validate_product_families(equipment, memberships) == 35
+    assert validate_product_families(equipment, memberships) == 39
     seed = json.loads((ROOT / 'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
     assert len(seed['records']) == len(equipment)
     assert len([r for r in equipment if r['catalog_scope'] in {'core_example','requested_supplement'}]) == 632
@@ -17,7 +17,7 @@ def test_membership_preserves_model_data_and_matches_review_report():
         for field in ['model_name', 'manufacturer', 'manual_url', 'manual_match_status', 'product_page_url', 'image_url', 'msrp_value', 'category_id', 'related_material_ids', 'related_process_ids', 'purdue_list']:
             assert by_id[original['equipment_id']][field] == original[field]
     report = json.loads((ROOT / 'catalog/product_family_review_2026-10-15.json').read_text(encoding='utf-8'))
-    assert report['memberships'] == [m for m in memberships if not m['equipment_id'].startswith('EXT-')]
+    assert report['memberships'] == [m for m in memberships if m['review_date'] <= '2026-10-15']
     assert report['previous_cards'] - report['resulting_cards'] == report['cards_consolidated'] == 41
 
 

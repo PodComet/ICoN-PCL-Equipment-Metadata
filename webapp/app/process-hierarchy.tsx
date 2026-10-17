@@ -4,7 +4,7 @@ import {processDependencyGraph} from './process-dependencies';
 import type {ProcessWorkflow} from './process-lib';
 
 type Edge={key:string;path:string};
-export default function ProcessHierarchy({workflow,expanded,finish,children}:{workflow:ProcessWorkflow;expanded:boolean;finish:ReactNode;children:ReactNode}){
+export default function ProcessHierarchy({workflow,expanded,start,finish,children}:{workflow:ProcessWorkflow;expanded:boolean;start:ReactNode;finish:ReactNode;children:ReactNode}){
  const graph=processDependencyGraph(workflow),nodes=Children.toArray(children),frame=useRef<HTMLDivElement>(null),board=useRef<HTMLDivElement>(null);
  const [drawing,setDrawing]=useState<{width:number;height:number;scale:number;edges:Edge[]}>({width:0,height:0,scale:1,edges:[]});
  useEffect(()=>{
@@ -21,6 +21,10 @@ export default function ProcessHierarchy({workflow,expanded,finish,children}:{wo
      const path=depths.get(step.step_id)!-depths.get(parent)!>1?`M${x1},${y1} h12 V7 H${middle} V${y2} H${x2}`:`M${x1},${y1} H${middle} V${y2} H${x2}`;
      edges.push({key:parent+'-'+step.step_id,path});
     }
+   }
+   const inputNode=element.querySelector('.process-input-node'),first=rects.get(workflow.steps[0]?.step_id);
+   if(inputNode&&first){const r=inputNode.getBoundingClientRect(),x1=(r.right-origin.left)/renderScale,y1=(r.top-origin.top+r.height/2)/renderScale,x2=first.left-5,y2=first.top+first.height/2;
+    edges.push({key:'inputs-first-step',path:`M${x1},${y1} H${x2-12} V${y2} H${x2}`});
    }
    const finishNode=element.querySelector('.process-finish');
    if(finishNode){
@@ -48,6 +52,7 @@ export default function ProcessHierarchy({workflow,expanded,finish,children}:{wo
  return <div ref={frame} className={'process-hierarchy '+(expanded?'expanded':'fitted')} style={{height:drawing.height?drawing.height*drawing.scale+(expanded?18:0):undefined}} aria-label="Hierarchical process sequence">
   <div ref={board} className="process-hierarchy-layout" style={{transform:`scale(${drawing.scale})`}}>
    <svg className="process-dependency-arrows" width={drawing.width} height={drawing.height} aria-hidden="true"><defs><marker id="process-child-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="var(--process-flow-line, #39744e)"/></marker></defs>{drawing.edges.map(edge=><path key={edge.key} d={edge.path} fill="none" stroke="var(--process-flow-line, #39744e)" strokeWidth="2" markerEnd="url(#process-child-arrow)"/>)}</svg>
+   <div className="process-input-node">{start}</div>
    {graph.levels.map((level,index)=><section key={index} className="process-hierarchy-level" aria-label={'Dependency level '+(index+1)}><div className="process-level-label"><strong>LEVEL {index+1}</strong><span>{level.length>1?'Independent peers':index===0?'Start':'After prerequisites'}</span></div><div className="process-peer-steps">{level.map(step=><div key={step.step_id} data-hierarchy-node={step.step_id} className="process-hierarchy-node" style={{width:Math.max(expanded?300:220,step.slots.length*(expanded?240:120)+(expanded?32:20))}}>{nodes[workflow.steps.findIndex(s=>s.step_id===step.step_id)]}</div>)}</div></section>)}
    {finish}
   </div>

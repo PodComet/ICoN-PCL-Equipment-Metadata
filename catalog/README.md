@@ -1,11 +1,14 @@
 # Equipment database
 
-`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 68 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes contain source-reported starting examples; the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
+`equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 68 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes retain source-reported starting examples and now include manufacturer-documented market alternatives (at least five model/component records in every M class); the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
 
 ## Files
 
 | File | Meaning |
 | --- | --- |
+| market_expansion_2026-10-16.json | Dated review: 96 additions across all 68 M classes, 33 existing-profile updates, source/media/price scopes, category counts and unresolved issues |
+| process_material_profiles.csv | Editable starting-material suggestions and conservative output-label modes for all 42 manufacturing processes |
+| process_material_examples.csv | Four checked literature composition examples, with exact inputs/roles, output labels, reference IDs, source locations and limits; no operating recipes |
 | equipment.csv | Main catalog: product families, variants, manuals, pricing fields and material/process relationships |
 | product_families.csv | Curated family/chip membership overlay, exact member identities, previous defaults, grouping source/basis and date; applied by the app seed builder |
 | product_family_review_2026-10-15.json | Review of 29 additional families and eight duplicate category profiles; 632 records retained in 535 cards |

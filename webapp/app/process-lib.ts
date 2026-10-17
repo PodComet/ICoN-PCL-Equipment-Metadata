@@ -1,5 +1,6 @@
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
 import {processDependencyGraph} from './process-dependencies.ts';
+import {validateMaterialPlan} from './process-materials-lib.ts';
 
 export type JsonValue = null | boolean | number | string | JsonValue[] | {[key:string]:JsonValue};
 export type Parameters = Record<string,JsonValue>;
@@ -203,6 +204,7 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
  const route=routes.find(r=>r.route_kind==='manufacturing_process'&&r.route_id===w.route_id);if(!route)throw new Error('Select a valid process.');
  if(existing&&(w.workflow_id!==existing.workflow_id||w.route_id!==existing.route_id))throw new Error('A saved workflow keeps its original process and ID. Start a new workflow to change process.');
  w.route_name=route.route_name;jsonObject(w.extensions,'Workflow extensions');
+ if(w.extensions.material_plan!==undefined)validateMaterialPlan(w.extensions.material_plan,w.route_id);
  if(!Array.isArray(w.steps)||!w.steps.length||w.steps.length>100)throw new Error('Use between 1 and 100 steps.');
  const ids=new Set<string>(),known=new Map(records.map(r=>[r.equipment_id,r])),units=new Map<string,{equipment_id:string;quantity:number}>();let slotCount=0;
  const oldInstruments=new Map(existing?.steps.flatMap(s=>s.slots).flatMap(s=>s.instrument?[s.instrument]:[]).map(i=>[i.instance_id,i])||[]);
