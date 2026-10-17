@@ -4,6 +4,8 @@ The [functional process review](docs/process-class-refinement-2026-10-17.md) rep
 
 Research equipment metadata and a reproducible machine-list comparison tool.
 
+The [ontology validation guide](docs/ontology-validation.md) describes independent unit and schema checks, graph constraints, process dependency validation and reviewed model-name similarities. Download the [Turtle knowledge graph](catalog/ontology/ontology.ttl), [JSON-LD](catalog/ontology/ontology.jsonld) or [snapshot audit](catalog/ontology/audit.json), also available in the app's **Evidence & sources** tab.
+
 The [operating conditions and evidence guide](docs/process-conditions-and-evidence.md) documents 289 structured source conditions, stable output evidence IDs and 32 reported property measurements. Two reviewed fixed-case P20 properties can appear as explicitly unvalidated literature analogues when the selected formulation and settings match. Experimental validation remains future roadmap functionality.
 
 ## Equipment database

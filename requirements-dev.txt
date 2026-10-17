@@ -1,2 +1,2 @@
--r requirements.txt
+-r requirements-ontology.txt
 pytest==8.3.5

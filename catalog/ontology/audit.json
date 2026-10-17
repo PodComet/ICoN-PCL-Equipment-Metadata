@@ -1,0 +1,1310 @@
+{
+  "checks": [
+    "Typed record contracts and cross-record links",
+    "Pint conversion parity, physical bounds and compatible uncertainty units",
+    "SHACL graph constraints with no inference",
+    "NetworkX source sequence and extension anchor checks",
+    "TF-IDF/cosine model-name review; no automatic merges or property-model training"
+  ],
+  "counts": {
+    "acyclic_source_sequences": 49,
+    "categories": 103,
+    "conditions": 289,
+    "equipment_records": 1062,
+    "m_categories": 97,
+    "model_name_review_pairs": 9,
+    "numeric_conditions": 248,
+    "process_steps": 237,
+    "rdf_triples": 30099,
+    "recognized_cross_category_contexts": 8,
+    "reported_properties": 32,
+    "routes": 52,
+    "routes_without_source_sequence": 3,
+    "source_evidence": 321,
+    "unit_definitions_checked": 138,
+    "unreviewed_model_name_pairs": 0,
+    "x_categories": 6
+  },
+  "input_sha256_lf_normalized": {
+    "categories.csv": "d574603433499ac66258652c6ce4d8cc894d7c4eff60ac0ac2693fa484ccb9ef",
+    "component_formulations.csv": "4e76dc0c5b85b4bee1286703d39ad77b98ff3ae81821a46411ad8754c10c9fe6",
+    "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
+    "equipment.csv": "7f3f7d09a303ec4e118321115bf87d049f0fb51237d59fad59181c0cb174b44b",
+    "model_identity_reviews.csv": "10781315fac733ac4e93886c86e844c4efac60428d9f7296265c43bf299b0a4c",
+    "ontology/shapes.ttl": "43f20d2eb31964b09fef0683233f2a4e0bc02fd343747c17a1d31ec16fcbb264",
+    "process_condition_evidence.csv": "a6e34ccdcee5a163b1ab3e84f8a42dcaec2d0c2ac1f0cb2f40789dabfa81e977",
+    "process_conditions.csv": "80cb82b090b2641b3344b69dcc84cfdf4389f3ce7cb93a0a3bfdfae02e176907",
+    "process_property_anchors.csv": "f593da35a2de9052d7b070d25a963edc828d19ca2791de78bc2749787cb4ca02",
+    "process_science_review_2026-10-17.json": "18d33cf1e4573a5d32f972390af3c6281f17f00377644f20b68cb6659be06b75",
+    "product_families.csv": "3dc217c8b28af23a48dda15a861703c220d6b0ddf57c3ac204d4f4e79a5371d3",
+    "references.csv": "ca430db01a12bbb497d10a15eeedb0f83e3ab37368a1d1c0f7f163e317de8a8d",
+    "route_steps.csv": "15db3980838e230a813483020b72566dc039a75c53d080ccebf751afb5fe8fe1",
+    "routes.csv": "7381b45c1126b485e97934a7687f90f7949dfbcc7e2152cece816a48dde70d21",
+    "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6"
+  },
+  "libraries": {
+    "networkx": "3.6.1",
+    "pint": "0.25.3",
+    "pydantic": "2.12.5",
+    "pyshacl": "0.40.1",
+    "rdflib": "7.6.0",
+    "scikit-learn": "1.8.0"
+  },
+  "limitations": [
+    "A schema pass does not verify a scientific claim, web link, manufacturer or operating procedure.",
+    "Source-order predecessors describe the default planning display, not experimentally established causal dependencies.",
+    "Model-name similarity is not identity, interchangeability or successor evidence.",
+    "Experimental property validation remains future roadmap functionality."
+  ],
+  "model_review_candidates": [
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M12-02",
+      "equipment_b": "M12-08",
+      "manufacturer": "FRITSCH",
+      "model_a": "FRITSCH PULVERISETTE 7 premium line",
+      "model_b": "FRITSCH PULVERISETTE 5 premium line",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "PULVERISETTE model numbers 7 and 5 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.950471,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M29-01",
+      "equipment_b": "M29-06",
+      "manufacturer": "Labconco",
+      "model_a": "Labconco Protector XStream, 4 ft",
+      "model_b": "Labconco Protector XStream, 6 ft",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "Explicit 4 ft and 6 ft dimensions distinguish the configurations. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.948635,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M12-07",
+      "equipment_b": "M12-10",
+      "manufacturer": "FRITSCH",
+      "model_a": "FRITSCH PULVERISETTE 5 classic line",
+      "model_b": "FRITSCH PULVERISETTE 7 classic line",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "PULVERISETTE model numbers 5 and 7 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.943919,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M12-07",
+      "equipment_b": "M12-09",
+      "manufacturer": "FRITSCH",
+      "model_a": "FRITSCH PULVERISETTE 5 classic line",
+      "model_b": "FRITSCH PULVERISETTE 6 classic line",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "PULVERISETTE model numbers 5 and 6 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.932197,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M12-09",
+      "equipment_b": "M12-10",
+      "manufacturer": "FRITSCH",
+      "model_a": "FRITSCH PULVERISETTE 6 classic line",
+      "model_b": "FRITSCH PULVERISETTE 7 classic line",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "PULVERISETTE model numbers 6 and 7 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.932197,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M37-04",
+      "equipment_b": "M37-05",
+      "manufacturer": "Rigaku",
+      "model_a": "Rigaku SmartLab",
+      "model_b": "Rigaku SmartLab SE",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "The SE model suffix distinguishes the catalog entries. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.926018,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "M53-02",
+      "equipment_b": "M53-06",
+      "manufacturer": "Palas",
+      "model_a": "Palas AGK 2000",
+      "model_b": "Palas AGK 2000 E",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "The E suffix distinguishes the catalog entries. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.90641,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "EXT-M95-3B01A47DEF50",
+      "equipment_b": "EXT-M95-C282DC007BE1",
+      "manufacturer": "Physical Electronics",
+      "model_a": "VersaProbe III",
+      "model_b": "VersaProbe II",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "Roman numerals III and II distinguish the recorded generations. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.905919,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "EXT-M84-31F698D2F753",
+      "equipment_b": "EXT-M84-D5BA4C1D7090",
+      "manufacturer": "Nabertherm",
+      "model_a": "Q 200",
+      "model_b": "Q 200 D",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "The D suffix distinguishes the catalog entries. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.902871,
+      "status": "review_only_no_merge"
+    }
+  ],
+  "review_date": "2026-10-17",
+  "schema": "icon-ontology-audit/v1",
+  "scope": "Committed public catalog snapshot; excludes live admin edits, private inventory and saved user plans.",
+  "shacl_conforms": true,
+  "shacl_violations": 0,
+  "source_sequences": [
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N01:1"
+        ],
+        [
+          "N01:2"
+        ],
+        [
+          "N01:3"
+        ],
+        [
+          "N01:4"
+        ],
+        [
+          "N01:5"
+        ],
+        [
+          "N01:6"
+        ]
+      ],
+      "route_id": "N01",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N02:1"
+        ],
+        [
+          "N02:2"
+        ],
+        [
+          "N02:3"
+        ],
+        [
+          "N02:4"
+        ],
+        [
+          "N02:5"
+        ],
+        [
+          "N02:6"
+        ]
+      ],
+      "route_id": "N02",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N03:1"
+        ],
+        [
+          "N03:2"
+        ],
+        [
+          "N03:3"
+        ],
+        [
+          "N03:4"
+        ],
+        [
+          "N03:5"
+        ],
+        [
+          "N03:6"
+        ]
+      ],
+      "route_id": "N03",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N04:1"
+        ],
+        [
+          "N04:2"
+        ],
+        [
+          "N04:3"
+        ],
+        [
+          "N04:4"
+        ],
+        [
+          "N04:5"
+        ],
+        [
+          "N04:6"
+        ]
+      ],
+      "route_id": "N04",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N05:1"
+        ],
+        [
+          "N05:2"
+        ],
+        [
+          "N05:3"
+        ],
+        [
+          "N05:4"
+        ],
+        [
+          "N05:5"
+        ],
+        [
+          "N05:6"
+        ]
+      ],
+      "route_id": "N05",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N06:1"
+        ],
+        [
+          "N06:2"
+        ],
+        [
+          "N06:3"
+        ],
+        [
+          "N06:4"
+        ],
+        [
+          "N06:5"
+        ],
+        [
+          "N06:6"
+        ]
+      ],
+      "route_id": "N06",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N07:1"
+        ],
+        [
+          "N07:2"
+        ],
+        [
+          "N07:3"
+        ],
+        [
+          "N07:4"
+        ],
+        [
+          "N07:5"
+        ],
+        [
+          "N07:6"
+        ]
+      ],
+      "route_id": "N07",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N08:1"
+        ],
+        [
+          "N08:2"
+        ],
+        [
+          "N08:3"
+        ],
+        [
+          "N08:4"
+        ],
+        [
+          "N08:5"
+        ],
+        [
+          "N08:6"
+        ]
+      ],
+      "route_id": "N08",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "N09:1"
+        ],
+        [
+          "N09:2"
+        ],
+        [
+          "N09:3"
+        ],
+        [
+          "N09:4"
+        ],
+        [
+          "N09:5"
+        ],
+        [
+          "N09:6"
+        ]
+      ],
+      "route_id": "N09",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N10",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P01:1"
+        ],
+        [
+          "P01:2"
+        ],
+        [
+          "P01:3"
+        ],
+        [
+          "P01:4"
+        ],
+        [
+          "P01:5"
+        ]
+      ],
+      "route_id": "P01",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P03:1"
+        ],
+        [
+          "P03:2"
+        ],
+        [
+          "P03:3"
+        ],
+        [
+          "P03:4"
+        ],
+        [
+          "P03:4.5"
+        ],
+        [
+          "P03:5"
+        ]
+      ],
+      "route_id": "P03",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P04:1"
+        ],
+        [
+          "P04:2"
+        ],
+        [
+          "P04:3"
+        ],
+        [
+          "P04:4"
+        ],
+        [
+          "P04:5"
+        ]
+      ],
+      "route_id": "P04",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P05:1"
+        ],
+        [
+          "P05:2"
+        ],
+        [
+          "P05:3"
+        ],
+        [
+          "P05:4"
+        ],
+        [
+          "P05:5"
+        ]
+      ],
+      "route_id": "P05",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P06:1"
+        ],
+        [
+          "P06:2"
+        ],
+        [
+          "P06:3"
+        ],
+        [
+          "P06:4"
+        ],
+        [
+          "P06:5"
+        ]
+      ],
+      "route_id": "P06",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P07:1"
+        ],
+        [
+          "P07:2"
+        ],
+        [
+          "P07:3"
+        ],
+        [
+          "P07:4"
+        ],
+        [
+          "P07:5"
+        ]
+      ],
+      "route_id": "P07",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P08:1"
+        ],
+        [
+          "P08:2"
+        ],
+        [
+          "P08:3"
+        ],
+        [
+          "P08:4"
+        ],
+        [
+          "P08:5"
+        ]
+      ],
+      "route_id": "P08",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P09:1"
+        ],
+        [
+          "P09:2"
+        ],
+        [
+          "P09:3"
+        ],
+        [
+          "P09:4"
+        ],
+        [
+          "P09:4.5"
+        ],
+        [
+          "P09:5"
+        ]
+      ],
+      "route_id": "P09",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P10:1"
+        ],
+        [
+          "P10:2"
+        ],
+        [
+          "P10:3"
+        ],
+        [
+          "P10:4"
+        ],
+        [
+          "P10:4.5"
+        ],
+        [
+          "P10:5"
+        ]
+      ],
+      "route_id": "P10",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P11:1"
+        ],
+        [
+          "P11:2"
+        ],
+        [
+          "P11:3"
+        ],
+        [
+          "P11:4"
+        ],
+        [
+          "P11:5"
+        ]
+      ],
+      "route_id": "P11",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P12:1"
+        ],
+        [
+          "P12:2"
+        ],
+        [
+          "P12:3"
+        ],
+        [
+          "P12:4"
+        ],
+        [
+          "P12:5"
+        ]
+      ],
+      "route_id": "P12",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "P13",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "P14",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P15:1"
+        ],
+        [
+          "P15:2"
+        ],
+        [
+          "P15:3"
+        ],
+        [
+          "P15:4"
+        ],
+        [
+          "P15:5"
+        ],
+        [
+          "P15:5.1"
+        ]
+      ],
+      "route_id": "P15",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P16:1"
+        ],
+        [
+          "P16:2"
+        ],
+        [
+          "P16:3"
+        ]
+      ],
+      "route_id": "P16",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P17:1"
+        ],
+        [
+          "P17:2"
+        ],
+        [
+          "P17:3"
+        ],
+        [
+          "P17:4"
+        ]
+      ],
+      "route_id": "P17",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P18:1"
+        ],
+        [
+          "P18:2"
+        ],
+        [
+          "P18:3"
+        ],
+        [
+          "P18:4"
+        ]
+      ],
+      "route_id": "P18",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P19:1"
+        ],
+        [
+          "P19:2"
+        ],
+        [
+          "P19:3"
+        ],
+        [
+          "P19:4"
+        ]
+      ],
+      "route_id": "P19",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P20:1"
+        ],
+        [
+          "P20:2"
+        ],
+        [
+          "P20:3"
+        ]
+      ],
+      "route_id": "P20",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P21:1"
+        ],
+        [
+          "P21:2"
+        ],
+        [
+          "P21:3"
+        ],
+        [
+          "P21:4"
+        ],
+        [
+          "P21:5"
+        ]
+      ],
+      "route_id": "P21",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P22:1"
+        ],
+        [
+          "P22:2"
+        ],
+        [
+          "P22:3"
+        ],
+        [
+          "P22:4"
+        ]
+      ],
+      "route_id": "P22",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P23:1"
+        ],
+        [
+          "P23:2"
+        ],
+        [
+          "P23:3"
+        ],
+        [
+          "P23:4"
+        ]
+      ],
+      "route_id": "P23",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P24:1"
+        ],
+        [
+          "P24:2"
+        ],
+        [
+          "P24:3"
+        ],
+        [
+          "P24:4"
+        ]
+      ],
+      "route_id": "P24",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 6,
+      "levels": [
+        [
+          "P25:1"
+        ],
+        [
+          "P25:2"
+        ],
+        [
+          "P25:3"
+        ],
+        [
+          "P25:4"
+        ],
+        [
+          "P25:5"
+        ],
+        [
+          "P25:6"
+        ],
+        [
+          "P25:6.1"
+        ]
+      ],
+      "route_id": "P25",
+      "status": "acyclic_source_order",
+      "step_count": 7
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P26:1"
+        ],
+        [
+          "P26:2"
+        ],
+        [
+          "P26:3"
+        ],
+        [
+          "P26:4"
+        ],
+        [
+          "P26:5"
+        ]
+      ],
+      "route_id": "P26",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P27:1"
+        ],
+        [
+          "P27:2"
+        ],
+        [
+          "P27:3"
+        ],
+        [
+          "P27:4"
+        ]
+      ],
+      "route_id": "P27",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P28:1"
+        ],
+        [
+          "P28:2"
+        ],
+        [
+          "P28:3"
+        ]
+      ],
+      "route_id": "P28",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P29:1"
+        ],
+        [
+          "P29:2"
+        ],
+        [
+          "P29:3"
+        ],
+        [
+          "P29:4"
+        ]
+      ],
+      "route_id": "P29",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P30:1"
+        ],
+        [
+          "P30:2"
+        ],
+        [
+          "P30:3"
+        ]
+      ],
+      "route_id": "P30",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P31:1"
+        ],
+        [
+          "P31:2"
+        ],
+        [
+          "P31:3"
+        ],
+        [
+          "P31:4"
+        ],
+        [
+          "P31:5"
+        ]
+      ],
+      "route_id": "P31",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P32:1"
+        ],
+        [
+          "P32:2"
+        ],
+        [
+          "P32:3"
+        ],
+        [
+          "P32:4"
+        ]
+      ],
+      "route_id": "P32",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P33:1"
+        ],
+        [
+          "P33:2"
+        ],
+        [
+          "P33:3"
+        ],
+        [
+          "P33:4"
+        ],
+        [
+          "P33:4.1"
+        ]
+      ],
+      "route_id": "P33",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P34:1"
+        ],
+        [
+          "P34:2"
+        ],
+        [
+          "P34:3"
+        ],
+        [
+          "P34:4"
+        ],
+        [
+          "P34:5"
+        ]
+      ],
+      "route_id": "P34",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P35:1"
+        ],
+        [
+          "P35:2"
+        ],
+        [
+          "P35:3"
+        ],
+        [
+          "P35:4"
+        ],
+        [
+          "P35:5"
+        ],
+        [
+          "P35:5.1"
+        ]
+      ],
+      "route_id": "P35",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P36:1"
+        ],
+        [
+          "P36:2"
+        ],
+        [
+          "P36:3"
+        ],
+        [
+          "P36:4"
+        ]
+      ],
+      "route_id": "P36",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P37:1"
+        ],
+        [
+          "P37:2"
+        ],
+        [
+          "P37:3"
+        ],
+        [
+          "P37:4"
+        ]
+      ],
+      "route_id": "P37",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P38:1"
+        ],
+        [
+          "P38:2"
+        ],
+        [
+          "P38:3"
+        ],
+        [
+          "P38:4"
+        ],
+        [
+          "P38:4.1"
+        ]
+      ],
+      "route_id": "P38",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P39:1"
+        ],
+        [
+          "P39:2"
+        ],
+        [
+          "P39:3"
+        ],
+        [
+          "P39:4"
+        ]
+      ],
+      "route_id": "P39",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P40:1"
+        ],
+        [
+          "P40:2"
+        ],
+        [
+          "P40:3"
+        ],
+        [
+          "P40:4"
+        ],
+        [
+          "P40:4.1"
+        ]
+      ],
+      "route_id": "P40",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P41:1"
+        ],
+        [
+          "P41:2"
+        ],
+        [
+          "P41:3"
+        ],
+        [
+          "P41:4"
+        ],
+        [
+          "P41:4.1"
+        ]
+      ],
+      "route_id": "P41",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P42:1"
+        ],
+        [
+          "P42:2"
+        ],
+        [
+          "P42:3"
+        ],
+        [
+          "P42:4"
+        ],
+        [
+          "P42:5"
+        ]
+      ],
+      "route_id": "P42",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 0,
+      "levels": [
+        [
+          "P43:1"
+        ]
+      ],
+      "route_id": "P43",
+      "status": "acyclic_source_order",
+      "step_count": 1
+    }
+  ],
+  "status": "passed"
+}

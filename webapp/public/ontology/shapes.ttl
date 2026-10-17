@@ -1,0 +1,54 @@
+@prefix icon: <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+icon:ModelShape a sh:NodeShape ; sh:targetClass icon:EquipmentModel ;
+  sh:property [ sh:path dct:identifier ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+  sh:property [ sh:path icon:inCategory ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:EquipmentCategory ] ;
+  sh:property [ sh:path icon:manufacturer ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Manufacturer ] ;
+  sh:property [ sh:path icon:catalogAssociation ; sh:class icon:Route ] .
+
+icon:EvidenceShape a sh:NodeShape ; sh:targetClass icon:SourceEvidence ;
+  sh:property [ sh:path icon:claim ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+  sh:property [ sh:path icon:sourceLocator ; sh:minCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+  sh:property [ sh:path prov:hadPrimarySource ; sh:minCount 1 ; sh:nodeKind sh:IRI ] ;
+  sh:property [ sh:path dct:references ; sh:minCount 1 ; sh:class icon:AcademicReference ] .
+
+icon:ConditionShape a sh:NodeShape ; sh:targetClass icon:OperatingCondition ;
+  sh:property [ sh:path icon:inRoute ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Route ] ;
+  sh:property [ sh:path icon:inFormulation ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Formulation ] ;
+  sh:property [ sh:path icon:inStep ; sh:class icon:ProcessStep ] ;
+  sh:property [ sh:path icon:supportedBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:SourceEvidence ] ;
+  sh:property [ sh:path icon:quantityKind ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:QuantityKind ] ;
+  sh:or (
+    [ sh:property [ sh:path icon:operator ; sh:hasValue "text" ] ;
+      sh:property [ sh:path icon:reportedText ; sh:minCount 1 ; sh:minLength 1 ] ;
+      sh:property [ sh:path icon:reportedValue ; sh:maxCount 0 ] ]
+    [ sh:property [ sh:path icon:reportedValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ] ;
+      sh:property [ sh:path icon:reportedUnit ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:string ; sh:minLength 1 ] ;
+      sh:property [ sh:path icon:canonicalValue ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:double ] ]
+  ) .
+
+icon:PropertyShape a sh:NodeShape ; sh:targetClass icon:ReportedProperty ;
+  sh:property [ sh:path icon:supportedBy ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:SourceEvidence ] ;
+  sh:property [ sh:path icon:inFormulation ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Formulation ] ;
+  sh:property [ sh:path icon:inRoute ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Route ] ;
+  sh:property [ sh:path icon:reportedUnit ; sh:minCount 1 ; sh:minLength 1 ] ;
+  sh:property [ sh:path icon:requiresCondition ; sh:class icon:OperatingCondition ] ;
+  sh:property [ sh:path icon:supportsExpectation ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:boolean ] .
+
+icon:StepShape a sh:NodeShape ; sh:targetClass icon:ProcessStep ;
+  sh:property [ sh:path icon:inRoute ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:Route ] ;
+  sh:property [ sh:path icon:sourceOrderPredecessor ; sh:class icon:ProcessStep ] ;
+  sh:property [ sh:path icon:requiredAlternative ; sh:class icon:RequirementBranch ] ;
+  sh:property [ sh:path icon:optionalCategory ; sh:class icon:EquipmentCategory ] ;
+  sh:property [ sh:path icon:sourceCandidateCategory ; sh:class icon:EquipmentCategory ] .
+
+icon:BranchShape a sh:NodeShape ; sh:targetClass icon:RequirementBranch ;
+  sh:property [ sh:path icon:requiresCategory ; sh:class icon:EquipmentCategory ] ;
+  sh:property [ sh:path icon:hasRequirement ; sh:class icon:EquipmentRequirement ] .
+
+icon:EquipmentRequirementShape a sh:NodeShape ; sh:targetClass icon:EquipmentRequirement ;
+  sh:property [ sh:path icon:requiresCategory ; sh:minCount 1 ; sh:maxCount 1 ; sh:class icon:EquipmentCategory ] .

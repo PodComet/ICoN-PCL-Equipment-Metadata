@@ -5,6 +5,8 @@ import math
 from datetime import date
 from pathlib import Path
 from urllib.parse import urlsplit
+from ontology_models import validate_science
+from ontology_units import check_registry, normalize_condition, convert
 
 CONDITION_FIELDS=['template_id','route_id','formulation_id','source_step_order','parameter','label','operator','value','upper_value','unit','text_value','evidence_id','scope','match_scope']
 EVIDENCE_FIELDS=['evidence_id','classification','claim','source_url','source_title','source_locator','reference_ids_json','scope','reviewed_date']
@@ -62,7 +64,14 @@ def dataset(root):
         p['supports_expectation']=p['supports_expectation']=='true';p['approximate']=p['approximate']=='true'
         if p['supports_expectation'] and not p['required_condition_ids']:raise ValueError('A conditional expectation requires source conditions')
     review=json.loads((root/'catalog/process_science_review_2026-10-17.json').read_text(encoding='utf-8'))
-    return {'schema':'process-science/v1','checked_date':review['checked_date'],'conditions':conditions,'properties':properties,'evidence':evidence,'route_reviews':review['route_reviews'],'relationship_candidates':review['relationship_candidates'],'experimental_validation':'future_roadmap'}
+    data={'schema':'process-science/v1','checked_date':review['checked_date'],'conditions':conditions,'properties':properties,'evidence':evidence,'route_reviews':review['route_reviews'],'relationship_candidates':review['relationship_candidates'],'experimental_validation':'future_roadmap'}
+    validate_science(data)
+    check_registry(definitions)
+    for condition in conditions:normalize_condition(condition,definitions)
+    for prop in properties:
+        if prop['operator']!='text':convert(prop['value'],prop['unit'],prop['unit'])
+        if prop['uncertainty'] is not None:convert(prop['uncertainty']['value'],prop['uncertainty']['unit'],prop['unit'])
+    return data
 
 def build(root):
     root=Path(root);data=dataset(root)

@@ -1,0 +1,460 @@
+{
+  "ConditionRecord": {
+    "additionalProperties": false,
+    "properties": {
+      "evidence_id": {
+        "minLength": 1,
+        "title": "Evidence Id",
+        "type": "string"
+      },
+      "formulation_id": {
+        "minLength": 1,
+        "title": "Formulation Id",
+        "type": "string"
+      },
+      "label": {
+        "minLength": 1,
+        "title": "Label",
+        "type": "string"
+      },
+      "match_scope": {
+        "enum": [
+          "example",
+          "parameter_study",
+          "ambiguous"
+        ],
+        "title": "Match Scope",
+        "type": "string"
+      },
+      "operator": {
+        "enum": [
+          "eq",
+          "range",
+          "gte",
+          "lte",
+          "gt",
+          "lt",
+          "text"
+        ],
+        "title": "Operator",
+        "type": "string"
+      },
+      "parameter": {
+        "minLength": 1,
+        "title": "Parameter",
+        "type": "string"
+      },
+      "route_id": {
+        "minLength": 1,
+        "title": "Route Id",
+        "type": "string"
+      },
+      "scope": {
+        "minLength": 1,
+        "title": "Scope",
+        "type": "string"
+      },
+      "source_step_order": {
+        "title": "Source Step Order",
+        "type": "string"
+      },
+      "template_id": {
+        "minLength": 1,
+        "title": "Template Id",
+        "type": "string"
+      },
+      "text_value": {
+        "title": "Text Value",
+        "type": "string"
+      },
+      "unit": {
+        "title": "Unit",
+        "type": "string"
+      },
+      "upper_value": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "title": "Upper Value"
+      },
+      "value": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "title": "Value"
+      }
+    },
+    "required": [
+      "value",
+      "upper_value",
+      "operator",
+      "unit",
+      "text_value",
+      "template_id",
+      "route_id",
+      "formulation_id",
+      "source_step_order",
+      "parameter",
+      "label",
+      "evidence_id",
+      "scope",
+      "match_scope"
+    ],
+    "title": "ConditionRecord",
+    "type": "object"
+  },
+  "EquipmentIdentity": {
+    "properties": {
+      "category_id": {
+        "minLength": 1,
+        "title": "Category Id",
+        "type": "string"
+      },
+      "equipment_id": {
+        "minLength": 1,
+        "title": "Equipment Id",
+        "type": "string"
+      },
+      "manufacturer": {
+        "minLength": 1,
+        "title": "Manufacturer",
+        "type": "string"
+      },
+      "model_name": {
+        "minLength": 1,
+        "title": "Model Name",
+        "type": "string"
+      }
+    },
+    "required": [
+      "equipment_id",
+      "category_id",
+      "model_name",
+      "manufacturer"
+    ],
+    "title": "EquipmentIdentity",
+    "type": "object"
+  },
+  "EvidenceRecord": {
+    "additionalProperties": false,
+    "properties": {
+      "claim": {
+        "minLength": 1,
+        "title": "Claim",
+        "type": "string"
+      },
+      "classification": {
+        "enum": [
+          "literature_reported",
+          "curator_interpretation",
+          "manufacturer_fact"
+        ],
+        "title": "Classification",
+        "type": "string"
+      },
+      "evidence_id": {
+        "minLength": 1,
+        "title": "Evidence Id",
+        "type": "string"
+      },
+      "reference_ids": {
+        "items": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "minItems": 1,
+        "title": "Reference Ids",
+        "type": "array"
+      },
+      "reviewed_date": {
+        "format": "date",
+        "title": "Reviewed Date",
+        "type": "string"
+      },
+      "scope": {
+        "title": "Scope",
+        "type": "string"
+      },
+      "source_locator": {
+        "minLength": 1,
+        "title": "Source Locator",
+        "type": "string"
+      },
+      "source_title": {
+        "minLength": 1,
+        "title": "Source Title",
+        "type": "string"
+      },
+      "source_url": {
+        "format": "uri",
+        "maxLength": 2083,
+        "minLength": 1,
+        "title": "Source Url",
+        "type": "string"
+      }
+    },
+    "required": [
+      "evidence_id",
+      "classification",
+      "claim",
+      "source_url",
+      "source_title",
+      "source_locator",
+      "reference_ids",
+      "scope",
+      "reviewed_date"
+    ],
+    "title": "EvidenceRecord",
+    "type": "object"
+  },
+  "PropertyRecord": {
+    "$defs": {
+      "Uncertainty": {
+        "additionalProperties": false,
+        "properties": {
+          "kind": {
+            "minLength": 1,
+            "title": "Kind",
+            "type": "string"
+          },
+          "unit": {
+            "minLength": 1,
+            "title": "Unit",
+            "type": "string"
+          },
+          "value": {
+            "minimum": 0,
+            "title": "Value",
+            "type": "number"
+          }
+        },
+        "required": [
+          "value",
+          "unit",
+          "kind"
+        ],
+        "title": "Uncertainty",
+        "type": "object"
+      }
+    },
+    "additionalProperties": false,
+    "properties": {
+      "anchor_id": {
+        "minLength": 1,
+        "title": "Anchor Id",
+        "type": "string"
+      },
+      "approximate": {
+        "title": "Approximate",
+        "type": "boolean"
+      },
+      "evidence_id": {
+        "minLength": 1,
+        "title": "Evidence Id",
+        "type": "string"
+      },
+      "formulation_id": {
+        "minLength": 1,
+        "title": "Formulation Id",
+        "type": "string"
+      },
+      "label": {
+        "minLength": 1,
+        "title": "Label",
+        "type": "string"
+      },
+      "material_scope": {
+        "minLength": 1,
+        "title": "Material Scope",
+        "type": "string"
+      },
+      "operator": {
+        "enum": [
+          "eq",
+          "range",
+          "gte",
+          "lte",
+          "gt",
+          "lt",
+          "text"
+        ],
+        "title": "Operator",
+        "type": "string"
+      },
+      "property": {
+        "minLength": 1,
+        "title": "Property",
+        "type": "string"
+      },
+      "required_condition_ids": {
+        "items": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "title": "Required Condition Ids",
+        "type": "array"
+      },
+      "route_id": {
+        "minLength": 1,
+        "title": "Route Id",
+        "type": "string"
+      },
+      "scope": {
+        "minLength": 1,
+        "title": "Scope",
+        "type": "string"
+      },
+      "supports_expectation": {
+        "title": "Supports Expectation",
+        "type": "boolean"
+      },
+      "text_value": {
+        "title": "Text Value",
+        "type": "string"
+      },
+      "uncertainty": {
+        "anyOf": [
+          {
+            "$ref": "#/$defs/Uncertainty"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "unit": {
+        "title": "Unit",
+        "type": "string"
+      },
+      "upper_value": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "title": "Upper Value"
+      },
+      "value": {
+        "anyOf": [
+          {
+            "type": "number"
+          },
+          {
+            "type": "null"
+          }
+        ],
+        "title": "Value"
+      }
+    },
+    "required": [
+      "value",
+      "upper_value",
+      "operator",
+      "unit",
+      "text_value",
+      "anchor_id",
+      "route_id",
+      "formulation_id",
+      "property",
+      "label",
+      "evidence_id",
+      "required_condition_ids",
+      "scope",
+      "material_scope",
+      "supports_expectation",
+      "uncertainty",
+      "approximate"
+    ],
+    "title": "PropertyRecord",
+    "type": "object"
+  },
+  "Requirements": {
+    "additionalProperties": false,
+    "properties": {
+      "allowed_subtypes_by_category": {
+        "additionalProperties": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": "Allowed Subtypes By Category",
+        "type": "object"
+      },
+      "notes": {
+        "minLength": 1,
+        "title": "Notes",
+        "type": "string"
+      },
+      "optional_branches": {
+        "items": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": "Optional Branches",
+        "type": "array"
+      },
+      "optional_category_ids": {
+        "items": {
+          "minLength": 1,
+          "type": "string"
+        },
+        "title": "Optional Category Ids",
+        "type": "array"
+      },
+      "readiness_review_required": {
+        "title": "Readiness Review Required",
+        "type": "boolean"
+      },
+      "required_branches": {
+        "items": {
+          "items": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "title": "Required Branches",
+        "type": "array"
+      },
+      "unresolved_required_equipment": {
+        "title": "Unresolved Required Equipment",
+        "type": "boolean"
+      },
+      "when_selected": {
+        "items": {
+          "additionalProperties": true,
+          "type": "object"
+        },
+        "title": "When Selected",
+        "type": "array"
+      }
+    },
+    "required": [
+      "required_branches",
+      "optional_category_ids",
+      "unresolved_required_equipment",
+      "readiness_review_required",
+      "notes"
+    ],
+    "title": "Requirements",
+    "type": "object"
+  }
+}

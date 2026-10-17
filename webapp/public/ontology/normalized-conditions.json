@@ -1,0 +1,3513 @@
+[
+  {
+    "canonical": {
+      "quantity_kind": "pressure_unspecified",
+      "semantic_dimension": "pressure_unspecified",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P01-BAF1E6BFE00CDEED",
+    "reported_unit": "mbar",
+    "reported_value": 0.1,
+    "template_id": "PC-P01-96767680EBB67325"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 22.0
+    },
+    "evidence_id": "EV-P01-9E344E6F80C5FEF3",
+    "reported_unit": "°C",
+    "reported_value": 22.0,
+    "template_id": "PC-P01-7E8D8EF7A1CA8D05"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 130.0
+    },
+    "evidence_id": "EV-P01-25E85E64C6F720EF",
+    "reported_unit": "cm",
+    "reported_value": 13.0,
+    "template_id": "PC-P01-D44EE728A01351DC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "power",
+      "semantic_dimension": "power",
+      "unit": "W",
+      "upper_value": null,
+      "value": 20.0
+    },
+    "evidence_id": "EV-P01-E61FF96AFFF316D6",
+    "reported_unit": "W",
+    "reported_value": 20.0,
+    "template_id": "PC-P01-7CCF400A26B91FF6"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P01-FBF8E25BBBBED5C0",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P01-FB6371C99FAAA275"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3000.0
+    },
+    "evidence_id": "EV-P01-7D13D36585FE9CFD",
+    "reported_unit": "s",
+    "reported_value": 3000.0,
+    "template_id": "PC-P01-797725FBAD49E08B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 100.0
+    },
+    "evidence_id": "EV-P01-A9E88A5F15C5F0F6",
+    "reported_unit": "s",
+    "reported_value": 100.0,
+    "template_id": "PC-P01-DFCD9F18C95633D2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P03-5CC180B6549570F7",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P03-657EA80E25106390"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "laser_wavelength",
+      "semantic_dimension": "length",
+      "unit": "nm",
+      "upper_value": null,
+      "value": 1064.0
+    },
+    "evidence_id": "EV-P03-90F7D2B7EDBFB791",
+    "reported_unit": "nm",
+    "reported_value": 1064.0,
+    "template_id": "PC-P03-D1E472EE853C009F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pulse_duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 5e-09
+    },
+    "evidence_id": "EV-P03-B6320731391DF4CB",
+    "reported_unit": "ns",
+    "reported_value": 5.0,
+    "template_id": "PC-P03-4FCD572192BBCF23"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 420.0
+    },
+    "evidence_id": "EV-P03-00C27FB3082DD397",
+    "reported_unit": "min",
+    "reported_value": 7.0,
+    "template_id": "PC-P03-31882E91EC48454C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "laser_power",
+      "semantic_dimension": "power",
+      "unit": "W",
+      "upper_value": null,
+      "value": 1.5
+    },
+    "evidence_id": "EV-P03-9180E0E7F5459CDF",
+    "reported_unit": "W",
+    "reported_value": 1.5,
+    "template_id": "PC-P03-C3A87B7570E53499"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "repetition_rate",
+      "semantic_dimension": "frequency",
+      "unit": "Hz",
+      "upper_value": null,
+      "value": 20000.0
+    },
+    "evidence_id": "EV-P03-0793F482BCFAB12C",
+    "reported_unit": "kHz",
+    "reported_value": 20.0,
+    "template_id": "PC-P03-B4729D14ACFABA42"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": 32.0,
+      "value": 28.0
+    },
+    "evidence_id": "EV-P03-5E6C9BA0776DBF27",
+    "reported_unit": "°C",
+    "reported_value": 28.0,
+    "template_id": "PC-P03-A3EA7A6B4FCACFED"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P04-55231CA6FA5C7D58",
+    "reported_unit": "h",
+    "reported_value": 0.5,
+    "template_id": "PC-P04-1DEA722028B556DE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P04-BFD1DCA70B5F8530",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P04-3CE1490DCEEB433D"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P04-D0A8D7105979A9D1",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P04-72D4EA0EFD1A0660"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.001
+    },
+    "evidence_id": "EV-P05-1D668C5769A29356",
+    "reported_unit": "mmol/L",
+    "reported_value": 1.0,
+    "template_id": "PC-P05-53CEB0DA1F52BECE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.0001
+    },
+    "evidence_id": "EV-P05-B792DB590D8E215D",
+    "reported_unit": "mmol/L",
+    "reported_value": 0.1,
+    "template_id": "PC-P05-D101D34D40AB5FAA"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.5
+    },
+    "evidence_id": "EV-P05-DC1659C7F151DC29",
+    "reported_unit": "mol/L",
+    "reported_value": 0.5,
+    "template_id": "PC-P05-EC3CDFCF2A3E3507"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "voltage",
+      "semantic_dimension": "voltage",
+      "unit": "V",
+      "upper_value": null,
+      "value": -0.8
+    },
+    "evidence_id": "EV-P05-BD01B93531483B57",
+    "reported_unit": "V",
+    "reported_value": -0.8,
+    "template_id": "PC-P05-91F6FC215AF23F39"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1500.0
+    },
+    "evidence_id": "EV-P05-02D98DFE7B300B5C",
+    "reported_unit": "s",
+    "reported_value": 1500.0,
+    "template_id": "PC-P05-A802B2AE65E94830"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P05-1C64E810C0F4BD17",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P05-3A1F89119462993E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 150.0
+    },
+    "evidence_id": "EV-P06-6F4711CF3D1B071C",
+    "reported_unit": "°C",
+    "reported_value": 150.0,
+    "template_id": "PC-P06-32DE7621F2771CF0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P06-13E204ACBE5961FE",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P06-B2014EB7F841D255"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "rotation_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 400.0
+    },
+    "evidence_id": "EV-P07-24D6C57B83ED8EE1",
+    "reported_unit": "rpm",
+    "reported_value": 400.0,
+    "template_id": "PC-P07-0F84B644D990D409"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 216000.0
+    },
+    "evidence_id": "EV-P07-BBD9F83D4E7AD84E",
+    "reported_unit": "h",
+    "reported_value": 60.0,
+    "template_id": "PC-P07-E27EA3C8EEFDEDF2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "centrifuge_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 5000.0
+    },
+    "evidence_id": "EV-P07-549FE6E38BB09014",
+    "reported_unit": "rpm",
+    "reported_value": 5000.0,
+    "template_id": "PC-P07-2EF6EF636C131FA2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P07-F7E27F1971FF44CC",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P07-158E50F31688084A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P07-93B09D25778924F9",
+    "reported_unit": "°C",
+    "reported_value": 600.0,
+    "template_id": "PC-P07-E1BB743605204600"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 10800.0
+    },
+    "evidence_id": "EV-P07-F90E49E185ADFE63",
+    "reported_unit": "h",
+    "reported_value": 3.0,
+    "template_id": "PC-P07-0D4642E21C199F52"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P07-540A1E451CB4FC82",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P07-CEFCE281825F1085"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 50.0
+    },
+    "evidence_id": "EV-P08-376587C793B393DA",
+    "reported_unit": "°C",
+    "reported_value": 50.0,
+    "template_id": "PC-P08-F5B8FEFBAD300996"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P08-F23E56471C51E3D4",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P08-7A60CDA1A93291F6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "relative_centrifugal_force",
+      "semantic_dimension": "relative_centrifugal_force",
+      "unit": "×g",
+      "upper_value": null,
+      "value": 10500.0
+    },
+    "evidence_id": "EV-P08-C16024C85D1EAC97",
+    "reported_unit": "×g",
+    "reported_value": 10500.0,
+    "template_id": "PC-P08-145917D9D113CBDB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P08-DF209F575EDE6A87",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P08-893CC0613BEF0E96"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P09-856AC22C7FB632B6",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P09-454D17B1B0698CFB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P09-4A10A8F5FCD76DF6",
+    "reported_unit": "min",
+    "reported_value": 1.0,
+    "template_id": "PC-P09-4A22E5A39004432E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 1040.0
+    },
+    "evidence_id": "EV-P09-0D1589A51408C04E",
+    "reported_unit": "°C",
+    "reported_value": 1040.0,
+    "template_id": "PC-P09-1717EDAF8567F219"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 150.0
+    },
+    "evidence_id": "EV-P09-22D49B8B2C5F662D",
+    "reported_unit": "rpm",
+    "reported_value": 150.0,
+    "template_id": "PC-P09-1EC34AE5A9A4BE77"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 250.0
+    },
+    "evidence_id": "EV-P09-1A206F1413DD180B",
+    "reported_unit": "rpm",
+    "reported_value": 250.0,
+    "template_id": "PC-P09-9994C7B417A9A8B7"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 800.0
+    },
+    "evidence_id": "EV-P09-22DF6798F7200B9F",
+    "reported_unit": "rpm",
+    "reported_value": 800.0,
+    "template_id": "PC-P09-99FBA9D6A8E612F6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 2500.0
+    },
+    "evidence_id": "EV-P09-05502D7C981482CE",
+    "reported_unit": "rpm",
+    "reported_value": 2500.0,
+    "template_id": "PC-P09-16D0E81D28050734"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 5000.0
+    },
+    "evidence_id": "EV-P09-97C37F7D8E306771",
+    "reported_unit": "rpm",
+    "reported_value": 5000.0,
+    "template_id": "PC-P09-8B8D328811A0ED41"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 8000.0
+    },
+    "evidence_id": "EV-P09-9010C25EEE99CFCA",
+    "reported_unit": "rpm",
+    "reported_value": 8000.0,
+    "template_id": "PC-P09-5FFBEA9A3B5499CE"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P10-2A60AA780453C6DD",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P10-05ED8170DD7C869E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P10-1F4E28BF2EC456DF",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P10-037886BE7245089F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.001
+    },
+    "evidence_id": "EV-P10-618104BAC0D889D4",
+    "reported_unit": "mmol/L",
+    "reported_value": 1.0,
+    "template_id": "PC-P10-EFF4AFCC14DBAFB8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": 80.0,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P10-3CE18E604729DA2C",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P10-46265016A15AB0C4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P10-E29ED5C470405B37",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P10-135202694E431990"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P11-CBA7FF495AF64DD6",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P11-A37AF608ECF7DF6E"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P11-CF4CC49FFA57385D",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P11-A40B5FB2BE792EE9"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P11-A31572A703B23AF9",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P11-0635481D20699358"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P11-2D24AA8A706D4279",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P11-FFB627431B5C077F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P11-C02B9E79650A9E54",
+    "reported_unit": "°C",
+    "reported_value": 300.0,
+    "template_id": "PC-P11-899EA3DA2EBFB7EE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 10800.0
+    },
+    "evidence_id": "EV-P11-ED565D36051DA36D",
+    "reported_unit": "h",
+    "reported_value": 3.0,
+    "template_id": "PC-P11-643981826BC9F555"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 800.0
+    },
+    "evidence_id": "EV-P11-18AD6742770AF006",
+    "reported_unit": "°C",
+    "reported_value": 800.0,
+    "template_id": "PC-P11-5E7F9055A585C1EE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 25200.0
+    },
+    "evidence_id": "EV-P11-327F6FD0ABE84BF8",
+    "reported_unit": "h",
+    "reported_value": 7.0,
+    "template_id": "PC-P11-3893BCF61A550DF2"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P11-5F2DF36E50035B57",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P11-A2DABA960F77459A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.01
+    },
+    "evidence_id": "EV-P12-E42886CE3D23EB33",
+    "reported_unit": "mol/L",
+    "reported_value": 0.01,
+    "template_id": "PC-P12-6400AE7DECDCC645"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.1
+    },
+    "evidence_id": "EV-P12-023B136B6FDCC90C",
+    "reported_unit": "mol/L",
+    "reported_value": 0.1,
+    "template_id": "PC-P12-329B95552C549EEC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": null,
+      "value": 1500.0
+    },
+    "evidence_id": "EV-P12-57CBAFC1822CE798",
+    "reported_unit": "slm",
+    "reported_value": 1.5,
+    "template_id": "PC-P12-9CD5A1EBA28A6663"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 500.0
+    },
+    "evidence_id": "EV-P12-EB78B9CB5062F757",
+    "reported_unit": "°C",
+    "reported_value": 500.0,
+    "template_id": "PC-P12-0CA4DBEA702E77D0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P12-FB6E63D6B5EB7236",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P12-379ED539DEED991E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": 32.0,
+      "value": 30.0
+    },
+    "evidence_id": "EV-P12-47AABE80BE0711DC",
+    "reported_unit": "s",
+    "reported_value": 30.0,
+    "template_id": "PC-P12-AC9FEEEFCE260DAA"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P12-E3956B921FE93660",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P12-6D5E13F87EB62C3E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 4.8
+    },
+    "evidence_id": "EV-P13-A03B11014C22BF67",
+    "reported_unit": "mol/L",
+    "reported_value": 4.8,
+    "template_id": "PC-P13-65E0C31120081BCE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.02
+    },
+    "evidence_id": "EV-P13-3C8764543A29DCC6",
+    "reported_unit": "mol/L",
+    "reported_value": 0.02,
+    "template_id": "PC-P13-5756CB615E32FFAA"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P13-1640BBCC3A30135F",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P13-03CFFBEB88518659"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P13-95A1AA9CB7FA8962",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P13-DC005FCF4CF91C89"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P13-859139EDA04792B3",
+    "reported_unit": "min",
+    "reported_value": 60.0,
+    "template_id": "PC-P13-BC939E6D485FB424"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 5400.0
+    },
+    "evidence_id": "EV-P13-D74CDBDC08EE6612",
+    "reported_unit": "min",
+    "reported_value": 90.0,
+    "template_id": "PC-P13-2A60B283B21E346E"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P13-21062068E3141067",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P13-C6878E36B299124A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P14-B3BC2D6DCD500768",
+    "reported_unit": "s",
+    "reported_value": 10.0,
+    "template_id": "PC-P14-04D6E9EA65BF62DF"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": null,
+      "value": 30.0
+    },
+    "evidence_id": "EV-P14-AF07EB6793A37ED0",
+    "reported_unit": "sccm",
+    "reported_value": 30.0,
+    "template_id": "PC-P14-20A0B103FF418D35"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_unspecified",
+      "semantic_dimension": "pressure_unspecified",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 8.13266447368421
+    },
+    "evidence_id": "EV-P14-F855B0FC453FC150",
+    "reported_unit": "mTorr",
+    "reported_value": 61.0,
+    "template_id": "PC-P14-B3025809728D5E40"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "power",
+      "semantic_dimension": "power",
+      "unit": "W",
+      "upper_value": null,
+      "value": 80.0
+    },
+    "evidence_id": "EV-P14-C56F16DA5CDABA13",
+    "reported_unit": "W",
+    "reported_value": 80.0,
+    "template_id": "PC-P14-CC895AA7382C362F"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P14-8EF52E1F5019DA4B",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P14-AD7997A7289FCD63"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P15-8B0B10333B6B34B8",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P15-4F550EA983FE08AB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.01
+    },
+    "evidence_id": "EV-P15-151C6A75A0EEF29B",
+    "reported_unit": "mol/L",
+    "reported_value": 0.01,
+    "template_id": "PC-P15-7860974D7C6F5D09"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 200.0
+    },
+    "evidence_id": "EV-P15-71DDDE3689F39AE3",
+    "reported_unit": "°C",
+    "reported_value": 200.0,
+    "template_id": "PC-P15-403D7A4A01F6A7AE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P15-74AF3D473C378C45",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P15-E65CB53EC482CF92"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P15-83CB164230C6062B",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P15-D06C900CE6BF64E6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "centrifuge_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 5000.0
+    },
+    "evidence_id": "EV-P15-BE045E9E0098A746",
+    "reported_unit": "rpm",
+    "reported_value": 5000.0,
+    "template_id": "PC-P15-8FA8ACD4647C1224"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P15-DDCE23576523FE46",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P15-F0DD8F6DD0C8A7BC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P15-DBD4369D57A01152",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P15-9F7502CB3BE4E0CB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_fraction",
+      "semantic_dimension": "mass_fraction",
+      "unit": "wt%",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P16-47655172DC5276E2",
+    "reported_unit": "wt%",
+    "reported_value": 10.0,
+    "template_id": "PC-P16-43FFC5CF486359D0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "voltage",
+      "semantic_dimension": "voltage",
+      "unit": "V",
+      "upper_value": null,
+      "value": 17000.0
+    },
+    "evidence_id": "EV-P16-6AD3241877CDED10",
+    "reported_unit": "kV",
+    "reported_value": 17.0,
+    "template_id": "PC-P16-AE13C4600614F9FB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 0.01983333333333333
+    },
+    "evidence_id": "EV-P16-96BEB6F25D8A8507",
+    "reported_unit": "mL/h",
+    "reported_value": 1.19,
+    "template_id": "PC-P16-EBD835318690F0E4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 120.0
+    },
+    "evidence_id": "EV-P16-DF9673D1BDCFC9EC",
+    "reported_unit": "cm",
+    "reported_value": 12.0,
+    "template_id": "PC-P16-AA29873E51423B2C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 25.0
+    },
+    "evidence_id": "EV-P16-43DF95CCF4CB89BC",
+    "reported_unit": "cm",
+    "reported_value": 2.5,
+    "template_id": "PC-P16-298389CEA8F6B90E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 180.0
+    },
+    "evidence_id": "EV-P16-344D405DF45A8447",
+    "reported_unit": "min",
+    "reported_value": 3.0,
+    "template_id": "PC-P16-6A6762A3F342E2CE"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P16-B699132FE57E09F2",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P16-BC5D86CF163D5BDF"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P17-A70011836CE1B5BF",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P17-1CE1A0521AB38557"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "ultrasonic_amplitude",
+      "semantic_dimension": "device_amplitude",
+      "unit": "% amplitude",
+      "upper_value": null,
+      "value": 35.0
+    },
+    "evidence_id": "EV-P17-28E4D55ED3F96776",
+    "reported_unit": "% amplitude",
+    "reported_value": 35.0,
+    "template_id": "PC-P17-A6E39CACB308FA88"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 28800.0
+    },
+    "evidence_id": "EV-P17-538BC4BC5E2C405D",
+    "reported_unit": "h",
+    "reported_value": 8.0,
+    "template_id": "PC-P17-2E140F426EEC1DE0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.00125
+    },
+    "evidence_id": "EV-P18-CA798140665A7FEB",
+    "reported_unit": "mmol/L",
+    "reported_value": 1.25,
+    "template_id": "PC-P18-E0DDE50BAC47AB47"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.02
+    },
+    "evidence_id": "EV-P18-37D24B514B97A540",
+    "reported_unit": "mmol/L",
+    "reported_value": 20.0,
+    "template_id": "PC-P18-2A3C7C5D872D1A2B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.01
+    },
+    "evidence_id": "EV-P18-75E3AF893F6FE549",
+    "reported_unit": "mmol/L",
+    "reported_value": 10.0,
+    "template_id": "PC-P18-54E19B4AF9C12F23"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_fraction",
+      "semantic_dimension": "mass_fraction",
+      "unit": "wt%",
+      "upper_value": null,
+      "value": 0.375
+    },
+    "evidence_id": "EV-P18-D89B7CF1E0B23365",
+    "reported_unit": "wt%",
+    "reported_value": 0.375,
+    "template_id": "PC-P18-1684A3580D9FFC20"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P18-476663D6A1857E40",
+    "reported_unit": "min",
+    "reported_value": 5.0,
+    "template_id": "PC-P18-E56F25E15ED8A0C8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 2400.0
+    },
+    "evidence_id": "EV-P18-3B6FF96B54465067",
+    "reported_unit": "min",
+    "reported_value": 40.0,
+    "template_id": "PC-P18-E50A2F4D534149E6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "stirring_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 800.0
+    },
+    "evidence_id": "EV-P18-68AD820DB6D937AE",
+    "reported_unit": "rpm",
+    "reported_value": 800.0,
+    "template_id": "PC-P18-120908BC1E2D6D69"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P18-5B7C3323F5A35931",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P18-6D5BBFC816566A4F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P19-6464891422994D98",
+    "reported_unit": "min",
+    "reported_value": 5.0,
+    "template_id": "PC-P19-5B38C0563B4D64A4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 120.0
+    },
+    "evidence_id": "EV-P19-F6A869D6F2CA05D8",
+    "reported_unit": "°C",
+    "reported_value": 120.0,
+    "template_id": "PC-P19-4212C1044ACA7267"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P19-9DBD612198DBD547",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P19-23E6866423BB134A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": null,
+      "value": 5.0
+    },
+    "evidence_id": "EV-P19-2BB074C1EF6A222B",
+    "reported_unit": "sccm",
+    "reported_value": 5.0,
+    "template_id": "PC-P19-2A635B8DE6FEDCC3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_absolute",
+      "semantic_dimension": "pressure_absolute",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 0.0006666118421052632
+    },
+    "evidence_id": "EV-P19-53F32C17951457E5",
+    "reported_unit": "Torr",
+    "reported_value": 5e-06,
+    "template_id": "PC-P19-C55E2E41E6A78FF8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "laser_wavelength",
+      "semantic_dimension": "length",
+      "unit": "nm",
+      "upper_value": null,
+      "value": 248.0
+    },
+    "evidence_id": "EV-P19-8616493D6AE9DE15",
+    "reported_unit": "nm",
+    "reported_value": 248.0,
+    "template_id": "PC-P19-F00726D38671232C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pulse_duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 2.5000000000000002e-08
+    },
+    "evidence_id": "EV-P19-7EC3FC59CEBB9AD1",
+    "reported_unit": "ns",
+    "reported_value": 25.0,
+    "template_id": "PC-P19-03A27AE3E665FEA7"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "repetition_rate",
+      "semantic_dimension": "frequency",
+      "unit": "Hz",
+      "upper_value": null,
+      "value": 2.0
+    },
+    "evidence_id": "EV-P19-7D0AC31E3E49677C",
+    "reported_unit": "Hz",
+    "reported_value": 2.0,
+    "template_id": "PC-P19-1BE56B8DCD295A3E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 50.0
+    },
+    "evidence_id": "EV-P19-CFB8B8B7AF4A0ECD",
+    "reported_unit": "cm",
+    "reported_value": 5.0,
+    "template_id": "PC-P19-B5028EB8C21869B0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 100.0
+    },
+    "evidence_id": "EV-P19-1898CAE6AA245369",
+    "reported_unit": "cm",
+    "reported_value": 10.0,
+    "template_id": "PC-P19-E24D7AE03E00AD39"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_ratio",
+      "semantic_dimension": "mass_ratio",
+      "unit": "% of reference mass",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P20-904F8E1C0E720B16",
+    "reported_unit": "% of reference mass",
+    "reported_value": 10.0,
+    "template_id": "PC-P20-58037ADF248AF94C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 0.03
+    },
+    "evidence_id": "EV-P20-CCC163C5E29588C6",
+    "reported_unit": "mL/h",
+    "reported_value": 1.8,
+    "template_id": "PC-P20-985421F6EE8719C7"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "voltage",
+      "semantic_dimension": "voltage",
+      "unit": "V",
+      "upper_value": null,
+      "value": 15000.0
+    },
+    "evidence_id": "EV-P20-8CD68C4782F4F3C3",
+    "reported_unit": "kV",
+    "reported_value": 15.0,
+    "template_id": "PC-P20-CA56BBA635E2E496"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 120.0
+    },
+    "evidence_id": "EV-P20-49BF7DF802E10114",
+    "reported_unit": "cm",
+    "reported_value": 12.0,
+    "template_id": "PC-P20-3094399C23FAF762"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 25.0
+    },
+    "evidence_id": "EV-P20-B3495AA05F358E40",
+    "reported_unit": "°C",
+    "reported_value": 25.0,
+    "template_id": "PC-P20-29DBA57123FFB26A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P20-0A5796509B90AFE9",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P20-2B01EC6C55AB182E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "relative_humidity",
+      "semantic_dimension": "relative_humidity",
+      "unit": "%RH",
+      "upper_value": null,
+      "value": 50.0
+    },
+    "evidence_id": "EV-P20-8C8E42C4647EA06D",
+    "reported_unit": "%RH",
+    "reported_value": 50.0,
+    "template_id": "PC-P20-A32B34E0D4A48724"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_absolute",
+      "semantic_dimension": "pressure_absolute",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 0.00013332236842105263
+    },
+    "evidence_id": "EV-P21-973A6F331B56179A",
+    "reported_unit": "Torr",
+    "reported_value": 1e-06,
+    "template_id": "PC-P21-C072A50FE1DC8452"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P21-9A6E5653008F2FE1",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P21-03442F75DE79A4C4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "laser_wavelength",
+      "semantic_dimension": "length",
+      "unit": "nm",
+      "upper_value": null,
+      "value": 532.0
+    },
+    "evidence_id": "EV-P21-D8B810FF4661F164",
+    "reported_unit": "nm",
+    "reported_value": 532.0,
+    "template_id": "PC-P21-DDF84170E533CD03"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": 900.0,
+      "value": 500.0
+    },
+    "evidence_id": "EV-P21-208D10480076C95F",
+    "reported_unit": "°C",
+    "reported_value": 500.0,
+    "template_id": "PC-P21-9685F1B3171C1424"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_unspecified",
+      "semantic_dimension": "pressure_unspecified",
+      "unit": "Pa",
+      "upper_value": 6666.118421052632,
+      "value": 266.64473684210526
+    },
+    "evidence_id": "EV-P21-40C5FE9B5C0B6CF5",
+    "reported_unit": "Torr",
+    "reported_value": 2.0,
+    "template_id": "PC-P21-B5ACD6447657F6C8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": 1.0,
+      "value": 0.2
+    },
+    "evidence_id": "EV-P22-BD43F56D0DBDE8F8",
+    "reported_unit": "µL/min",
+    "reported_value": 200.0,
+    "template_id": "PC-P22-5A8BDA721CDA5E75"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.006
+    },
+    "evidence_id": "EV-P22-B5EE6AD8B7E62A04",
+    "reported_unit": "mmol/L",
+    "reported_value": 6.0,
+    "template_id": "PC-P22-4C707DD773919B85"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.015
+    },
+    "evidence_id": "EV-P22-50FF31F1B2852A09",
+    "reported_unit": "mmol/L",
+    "reported_value": 15.0,
+    "template_id": "PC-P22-5CBBDDE1B069DDB3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.01
+    },
+    "evidence_id": "EV-P22-4835B05FB9A695D1",
+    "reported_unit": "mmol/L",
+    "reported_value": 10.0,
+    "template_id": "PC-P22-CB3FD100CF1AEFFB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_fraction",
+      "semantic_dimension": "mass_fraction",
+      "unit": "wt%",
+      "upper_value": null,
+      "value": 5.0
+    },
+    "evidence_id": "EV-P22-D0A8A80B8BC7E7CC",
+    "reported_unit": "wt%",
+    "reported_value": 5.0,
+    "template_id": "PC-P22-1A2EE78B99F324C2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 0.02
+    },
+    "evidence_id": "EV-P22-FF578CD5FE764004",
+    "reported_unit": "mg/mL",
+    "reported_value": 0.02,
+    "template_id": "PC-P22-6B1FBE411C469B74"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 0.03
+    },
+    "evidence_id": "EV-P22-7E08C5BAF663E0D5",
+    "reported_unit": "µL/min",
+    "reported_value": 30.0,
+    "template_id": "PC-P22-21C611474662DD1B"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P23-7039E287D8FEF917",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P23-79DBA714D63E7E3A"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P23-8B7A4BDF5EFE9F68",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P23-4834AD5C0B886A1F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P23-64A0357E63DB4520",
+    "reported_unit": "s",
+    "reported_value": 10.0,
+    "template_id": "PC-P23-CD5BF423B3F68676"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P23-5267CED0939B982A",
+    "reported_unit": "min",
+    "reported_value": 1.0,
+    "template_id": "PC-P23-811501D950635C98"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "centrifuge_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 4000.0
+    },
+    "evidence_id": "EV-P23-D0CF12A4703C7EE9",
+    "reported_unit": "rpm",
+    "reported_value": 4000.0,
+    "template_id": "PC-P23-A16C26A6DAD6E0E8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 180.0
+    },
+    "evidence_id": "EV-P23-0B45459EC844DB96",
+    "reported_unit": "min",
+    "reported_value": 3.0,
+    "template_id": "PC-P23-B946773ECE6273A0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.00092
+    },
+    "evidence_id": "EV-P24-4FEBB9EE752672D2",
+    "reported_unit": "mmol/L",
+    "reported_value": 0.92,
+    "template_id": "PC-P24-E69DE9C46B01DDD7"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.000123
+    },
+    "evidence_id": "EV-P24-2DD45C7C623E1205",
+    "reported_unit": "mmol/L",
+    "reported_value": 0.123,
+    "template_id": "PC-P24-8A73A4F31331D659"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": 0.00382,
+      "value": 0.00191
+    },
+    "evidence_id": "EV-P24-C2172DE3D9426A23",
+    "reported_unit": "mmol/L",
+    "reported_value": 1.91,
+    "template_id": "PC-P24-4FA4D9B55CE73E07"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P24-EEBA03772D8474D2",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P24-3D018FBBD3BE4F5A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 80.0
+    },
+    "evidence_id": "EV-P25-A5BC86A7DD010F9D",
+    "reported_unit": "°C",
+    "reported_value": 80.0,
+    "template_id": "PC-P25-54E2A3462A6C75B5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P25-90E2B114E4067B5F",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P25-E7995D245651A7BB"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P25-5EB5528F829D3857",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P25-40A4420DD1617D47"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 250.0
+    },
+    "evidence_id": "EV-P25-0B5153A45B34DFA6",
+    "reported_unit": "°C",
+    "reported_value": 250.0,
+    "template_id": "PC-P25-1251ECA7FF58E4F4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P25-6C7F53F719861D77",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P25-E8EA86F566494332"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P25-C347825C100E9C8D",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P25-8FB0A3B15F96EE5D"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 70.0
+    },
+    "evidence_id": "EV-P25-0B06FEB1AA949224",
+    "reported_unit": "°C",
+    "reported_value": 70.0,
+    "template_id": "PC-P25-B84504DAEC8318DC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 36000.0
+    },
+    "evidence_id": "EV-P25-661B25DD4312D44C",
+    "reported_unit": "h",
+    "reported_value": 10.0,
+    "template_id": "PC-P25-F00C690FC189FB58"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 1100.0
+    },
+    "evidence_id": "EV-P26-FEC2EE2B16ECEE65",
+    "reported_unit": "°C",
+    "reported_value": 1100.0,
+    "template_id": "PC-P26-D606F961A76B6233"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P26-1FF9C3F4EA4AC2AF",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P26-3D956BF54D0F49C1"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P26-C6EA70E9BE18FFC9",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P26-F725EFC570FDCEBE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": 1000.0,
+      "value": 800.0
+    },
+    "evidence_id": "EV-P26-ED70A6369D9E170C",
+    "reported_unit": "°C",
+    "reported_value": 800.0,
+    "template_id": "PC-P26-A6C35DE61D9451F7"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": 1000.0,
+      "value": 1.0
+    },
+    "evidence_id": "EV-P26-6A398EE5E5B736E8",
+    "reported_unit": "s",
+    "reported_value": 1.0,
+    "template_id": "PC-P26-DAB6716DF018672C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": 1000.0,
+      "value": 1.0
+    },
+    "evidence_id": "EV-P26-78517C5305C63546",
+    "reported_unit": "s",
+    "reported_value": 1.0,
+    "template_id": "PC-P26-252CE36D30B775C6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": 500.0,
+      "value": 50.0
+    },
+    "evidence_id": "EV-P26-A37ECF72C5242A18",
+    "reported_unit": "sccm",
+    "reported_value": 50.0,
+    "template_id": "PC-P26-B61B5155CFA4EC39"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": 500.0,
+      "value": 15.0
+    },
+    "evidence_id": "EV-P26-5E4EC02BE84C5943",
+    "reported_unit": "sccm",
+    "reported_value": 15.0,
+    "template_id": "PC-P26-2EB317D879FDE696"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P27-F76AC76B7316008E",
+    "reported_unit": "mg/mL",
+    "reported_value": 10.0,
+    "template_id": "PC-P27-B03E95EEA53701F8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 4.9999999999999996e-05
+    },
+    "evidence_id": "EV-P27-65B1A6F69C01194F",
+    "reported_unit": "µmol/L",
+    "reported_value": 50.0,
+    "template_id": "PC-P27-579FD33F5A917ACD"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 0.015
+    },
+    "evidence_id": "EV-P27-8DA8BC02D28FCFEC",
+    "reported_unit": "µL/min",
+    "reported_value": 15.0,
+    "template_id": "PC-P27-8456B55C28942558"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 1.0
+    },
+    "evidence_id": "EV-P27-7FBACEE184927791",
+    "reported_unit": "mg/mL",
+    "reported_value": 1.0,
+    "template_id": "PC-P27-36A2649B7457124E"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P27-BFCF2A2A68C4B146",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P27-733BDCA9BFC4776F"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P27-46C12AF704D11CC1",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P27-0A1713ED6FD57FEE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 150.0
+    },
+    "evidence_id": "EV-P28-C35EF9138D34A9A2",
+    "reported_unit": "°C",
+    "reported_value": 150.0,
+    "template_id": "PC-P28-0063FF702F2CF644"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P28-0EF2091C81C0C93D",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P28-17EF4EBFE4F49FD5"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P28-57D8645E1C045612",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P28-1D4A8175676381D8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_unspecified",
+      "semantic_dimension": "pressure_unspecified",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 75000.0
+    },
+    "evidence_id": "EV-P28-35FBD20976CDE398",
+    "reported_unit": "bar",
+    "reported_value": 0.75,
+    "template_id": "PC-P28-438FD3336D435040"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 200.0
+    },
+    "evidence_id": "EV-P28-170A7C947F62C21B",
+    "reported_unit": "°C",
+    "reported_value": 200.0,
+    "template_id": "PC-P28-1FB1DC787A217029"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 43200.0
+    },
+    "evidence_id": "EV-P28-76F2A3574DF4E913",
+    "reported_unit": "h",
+    "reported_value": 12.0,
+    "template_id": "PC-P28-D19B95AFD92EA2DC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_fraction",
+      "semantic_dimension": "mass_fraction",
+      "unit": "wt%",
+      "upper_value": null,
+      "value": 4.0
+    },
+    "evidence_id": "EV-P28-4053E716AF5E334C",
+    "reported_unit": "wt%",
+    "reported_value": 4.0,
+    "template_id": "PC-P28-1BAD363C64E3C13E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_fraction",
+      "semantic_dimension": "mass_fraction",
+      "unit": "wt%",
+      "upper_value": null,
+      "value": 4.0
+    },
+    "evidence_id": "EV-P29-F17041D823806962",
+    "reported_unit": "wt%",
+    "reported_value": 4.0,
+    "template_id": "PC-P29-76FFCE6D70CB637D"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P29-F582FA3A19F22435",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P29-9DA6DD38AF8D592A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P29-29422E2DCBE5BF62",
+    "reported_unit": "min",
+    "reported_value": 5.0,
+    "template_id": "PC-P29-5DF5D58BB1F1FC40"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "stirring_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 100.0
+    },
+    "evidence_id": "EV-P29-E5EE742EF24D62E0",
+    "reported_unit": "rpm",
+    "reported_value": 100.0,
+    "template_id": "PC-P29-D6E6554B67AFFCEA"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P29-B650E9E810DFD67A",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P29-DDED9D0562D23633"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 43200.0
+    },
+    "evidence_id": "EV-P29-7D38A8116F45BF93",
+    "reported_unit": "h",
+    "reported_value": 12.0,
+    "template_id": "PC-P29-BDEC67FDBD981D5C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 80.0
+    },
+    "evidence_id": "EV-P29-558362863B38002D",
+    "reported_unit": "°C",
+    "reported_value": 80.0,
+    "template_id": "PC-P29-D782FFF079A9C36D"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P29-4A5025FA44B69B97",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P29-F0EA89E052E3B507"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 2.0
+    },
+    "evidence_id": "EV-P30-EFF79B70A007EC12",
+    "reported_unit": "mg/mL",
+    "reported_value": 2.0,
+    "template_id": "PC-P30-526F7DABA37C1006"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P30-B14DC3620275B29A",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P30-B14E4FAC4BE8A06F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 4.0
+    },
+    "evidence_id": "EV-P30-2970CCF07EA63F12",
+    "reported_unit": "mg/mL",
+    "reported_value": 4.0,
+    "template_id": "PC-P30-7D7B73096D2B33C5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 4.0
+    },
+    "evidence_id": "EV-P30-55F4B061A58C8274",
+    "reported_unit": "°C",
+    "reported_value": 4.0,
+    "template_id": "PC-P30-111E1AE7D578BCBB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 180.0
+    },
+    "evidence_id": "EV-P31-CCF00B3ED073A877",
+    "reported_unit": "°C",
+    "reported_value": 180.0,
+    "template_id": "PC-P31-CF9D658DC32DD6D4"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P31-1F433CFCFA2B8D7F",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P31-1D51957D3FEA82EB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P31-7FECD39E7F1310C1",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P31-D1A852EAF5F27AA2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P31-E5940B2BBD05A941",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P31-6EDA74BC6A9924D3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P31-6EC9B8362B10D2B5",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P31-765B0AFDCAF83091"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P31-449CAF99EF6F5F48",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P31-192C236CE97D707F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P31-E2C888F1FEADEA9C",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P31-B385DC6B642DC1F8"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P31-B5FF174476B6C93B",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P31-CBCCD50BF1FF008B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P32-78D5753EEAD00DB2",
+    "reported_unit": "min",
+    "reported_value": 5.0,
+    "template_id": "PC-P32-AB5C8BCDD0F6A68E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P32-B73DAFD9335D1C92",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P32-B0FAF666D5E83C2C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 200.0
+    },
+    "evidence_id": "EV-P32-9DFD79402FE53EC6",
+    "reported_unit": "°C",
+    "reported_value": 200.0,
+    "template_id": "PC-P32-36DB3F7D1C97A342"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "heating_rate",
+      "semantic_dimension": "temperature_rate",
+      "unit": "K/s",
+      "upper_value": null,
+      "value": 0.08333333333333333
+    },
+    "evidence_id": "EV-P32-B8DC684127784626",
+    "reported_unit": "°C/min",
+    "reported_value": 5.0,
+    "template_id": "PC-P32-276DCDAC6AE946DE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 45000.0
+    },
+    "evidence_id": "EV-P32-003C5406648E533B",
+    "reported_unit": "h",
+    "reported_value": 12.5,
+    "template_id": "PC-P32-6382F45C0E8F93AD"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "centrifuge_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 4500.0
+    },
+    "evidence_id": "EV-P32-FEFEB13519520C59",
+    "reported_unit": "rpm",
+    "reported_value": 4500.0,
+    "template_id": "PC-P32-850934BF7C2EB6FD"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 900.0
+    },
+    "evidence_id": "EV-P32-7265FDE53EB42A81",
+    "reported_unit": "min",
+    "reported_value": 15.0,
+    "template_id": "PC-P32-FD9B12F936231063"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 700.0
+    },
+    "evidence_id": "EV-P32-EAE8D0E4C6DBD9CC",
+    "reported_unit": "°C",
+    "reported_value": 700.0,
+    "template_id": "PC-P32-7C8C3049D53EB626"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P33-96D5CCBACD014868",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P33-FA637B72F095BFC2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "mass_concentration",
+      "semantic_dimension": "mass_concentration",
+      "unit": "g/L",
+      "upper_value": null,
+      "value": 0.1
+    },
+    "evidence_id": "EV-P33-4D691BD605B2BF2F",
+    "reported_unit": "mg/mL",
+    "reported_value": 0.1,
+    "template_id": "PC-P33-A1ACE8D203CF6395"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.1
+    },
+    "evidence_id": "EV-P33-90A1AB7E335FB2EB",
+    "reported_unit": "mol/L",
+    "reported_value": 0.1,
+    "template_id": "PC-P33-A12BB3108D9E664C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.1
+    },
+    "evidence_id": "EV-P33-5E62761934DE97B3",
+    "reported_unit": "mol/L",
+    "reported_value": 0.1,
+    "template_id": "PC-P33-0197F039409D8CC6"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P33-0FE65A30388892C1",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P33-E4E8383E4722F758"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 25.0
+    },
+    "evidence_id": "EV-P33-D3E471D0BD5FC0C8",
+    "reported_unit": "°C",
+    "reported_value": 25.0,
+    "template_id": "PC-P33-475458A948BC188E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "ph",
+      "semantic_dimension": "ph",
+      "unit": "pH",
+      "upper_value": null,
+      "value": 11.0
+    },
+    "evidence_id": "EV-P33-BE7BFC539DC5EBAF",
+    "reported_unit": "pH",
+    "reported_value": 11.0,
+    "template_id": "PC-P33-203C76F92B82194E"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P34-F55B5A4E5FA4990E",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P34-154E529942F14964"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P34-85B2322D8DC4B996",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P34-D4A8CC7B98BA95CB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 259200.0
+    },
+    "evidence_id": "EV-P34-CD776B0D9A1748C4",
+    "reported_unit": "h",
+    "reported_value": 72.0,
+    "template_id": "PC-P34-D0B030E101BBA75F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 95.0
+    },
+    "evidence_id": "EV-P34-FF3BF1A206BEC3AE",
+    "reported_unit": "°C",
+    "reported_value": 95.0,
+    "template_id": "PC-P34-8646B0DED8EB6C99"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P34-2E5536B8BE38AC04",
+    "reported_unit": "h",
+    "reported_value": 1.0,
+    "template_id": "PC-P34-CFF886329824803E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "centrifuge_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 6000.0
+    },
+    "evidence_id": "EV-P34-7DAECA6DD19F9F3E",
+    "reported_unit": "rpm",
+    "reported_value": 6000.0,
+    "template_id": "PC-P34-2EDE276BD29A4AAE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 900.0
+    },
+    "evidence_id": "EV-P34-041DEB7FB61B9131",
+    "reported_unit": "min",
+    "reported_value": 15.0,
+    "template_id": "PC-P34-E5F067217D115A04"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 259200.0
+    },
+    "evidence_id": "EV-P34-4889B301FB338A2B",
+    "reported_unit": "h",
+    "reported_value": 72.0,
+    "template_id": "PC-P34-69F38F5BFA8F00B3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 450.0
+    },
+    "evidence_id": "EV-P35-6836D19ECD7B29EB",
+    "reported_unit": "°C",
+    "reported_value": 450.0,
+    "template_id": "PC-P35-F192782316439AA5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 86400.0
+    },
+    "evidence_id": "EV-P35-2742903C3098A7AF",
+    "reported_unit": "h",
+    "reported_value": 24.0,
+    "template_id": "PC-P35-615771C1BEFAA769"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 250.0
+    },
+    "evidence_id": "EV-P35-1ECDDD89909F72B0",
+    "reported_unit": "°C",
+    "reported_value": 250.0,
+    "template_id": "PC-P35-C9B4975AC8042692"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 10.0
+    },
+    "evidence_id": "EV-P35-6448F26FCA82EFAF",
+    "reported_unit": "s",
+    "reported_value": 10.0,
+    "template_id": "PC-P35-05D6EC34F836A403"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.5
+    },
+    "evidence_id": "EV-P36-BDFC7B3549E15E1B",
+    "reported_unit": "mol/L",
+    "reported_value": 0.5,
+    "template_id": "PC-P36-D9C401A8369CAA0B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "liquid_flow",
+      "semantic_dimension": "liquid_flow",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 5.0
+    },
+    "evidence_id": "EV-P36-CD2ED686A67008C4",
+    "reported_unit": "mL/min",
+    "reported_value": 5.0,
+    "template_id": "PC-P36-4E3C535D42169B58"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "gas_flow_reference_unspecified",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 5000.0
+    },
+    "evidence_id": "EV-P36-2D4685DFDE052AF9",
+    "reported_unit": "L/min",
+    "reported_value": 5.0,
+    "template_id": "PC-P36-AAE15F72AAB5761C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "gas_flow_reference_unspecified",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 1500.0
+    },
+    "evidence_id": "EV-P36-A6D10493F1766BA9",
+    "reported_unit": "L/min",
+    "reported_value": 1.5,
+    "template_id": "PC-P36-39EBD20D65BE1756"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "gas_flow_reference_unspecified",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 3200.0
+    },
+    "evidence_id": "EV-P36-8203DD3B89F636E7",
+    "reported_unit": "L/min",
+    "reported_value": 3.2,
+    "template_id": "PC-P36-2E966C53BFFB1240"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "pressure_differential",
+      "semantic_dimension": "pressure_difference",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 150000.0
+    },
+    "evidence_id": "EV-P36-29D96BD02AA2FC31",
+    "reported_unit": "bar",
+    "reported_value": 1.5,
+    "template_id": "PC-P36-4180E8261F517F7E"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P36-965F191E8BFC63FA",
+    "reported_unit": "cm",
+    "reported_value": 60.0,
+    "template_id": "PC-P36-78B3CBC9CD7CC651"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "rotation_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 250.0
+    },
+    "evidence_id": "EV-P37-C8DAB3FEA27F2BCD",
+    "reported_unit": "rpm",
+    "reported_value": 250.0,
+    "template_id": "PC-P37-31F4C72331A2B14C"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P37-A020D994E4E1EFDB",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P37-4A72B40EBD28359B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 80.0
+    },
+    "evidence_id": "EV-P37-2AF57372413D8DE3",
+    "reported_unit": "°C",
+    "reported_value": 80.0,
+    "template_id": "PC-P37-C675F75A4C10D4CE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P37-34AF95F904CE0053",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P37-87A67F58B18F11F1"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P37-5295CDD9ABC61D6B",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P37-48A507F2D4FA71CA"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P37-51649F69E487C9E2",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P37-89046F57672CD1AB"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 125.0
+    },
+    "evidence_id": "EV-P37-D806C0ACC0C86F84",
+    "reported_unit": "°C",
+    "reported_value": 125.0,
+    "template_id": "PC-P37-52B21017E5563031"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1200.0
+    },
+    "evidence_id": "EV-P37-1859263DCF2FC050",
+    "reported_unit": "min",
+    "reported_value": 20.0,
+    "template_id": "PC-P37-CEF7D50684228CD5"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P38-C7968D69354262FC",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P38-54FFA975B7199EB6"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P38-55B6BC0F1B3F9AEF",
+    "reported_unit": "°C",
+    "reported_value": 300.0,
+    "template_id": "PC-P38-010350921CA7C3CC"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P38-E0A12EC7F0ED191E",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P38-35E3982FA3F94B90"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 5.0
+    },
+    "evidence_id": "EV-P39-7B43FB67B6EF7607",
+    "reported_unit": "°C",
+    "reported_value": 5.0,
+    "template_id": "PC-P39-021CDFAE67279C09"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P39-CB7262A3FF38A17A",
+    "reported_unit": "h",
+    "reported_value": 1.0,
+    "template_id": "PC-P39-46D6249B0A91FF30"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "molar_concentration",
+      "semantic_dimension": "molar_concentration",
+      "unit": "mol/L",
+      "upper_value": null,
+      "value": 0.0225
+    },
+    "evidence_id": "EV-P39-F57E95EC66C6DC3D",
+    "reported_unit": "mol/L",
+    "reported_value": 0.0225,
+    "template_id": "PC-P39-25A295CFB8AC5404"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P39-E81FB2B61D3A54CD",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P39-DF197AFBC29289B5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 7200.0
+    },
+    "evidence_id": "EV-P39-6F6404D48D86E979",
+    "reported_unit": "h",
+    "reported_value": 2.0,
+    "template_id": "PC-P39-D8533236511EF6E5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 100.0
+    },
+    "evidence_id": "EV-P39-BDBFF86ABA5339B3",
+    "reported_unit": "°C",
+    "reported_value": 100.0,
+    "template_id": "PC-P39-B46E1FAEA152A2AA"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P39-2CD5F0A99540BC56",
+    "reported_unit": "h",
+    "reported_value": 1.0,
+    "template_id": "PC-P39-2FBEA9E379A747DE"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 600.0
+    },
+    "evidence_id": "EV-P40-A9CDE2F3F6496C0F",
+    "reported_unit": "min",
+    "reported_value": 10.0,
+    "template_id": "PC-P40-B55336D8B2633A13"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "gas_flow_reference_unspecified",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 500.0
+    },
+    "evidence_id": "EV-P40-2AD4020B680D76F7",
+    "reported_unit": "L/min",
+    "reported_value": 0.5,
+    "template_id": "PC-P40-F81EF4074B390CA0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "gas_flow_reference_unspecified",
+      "unit": "mL/min",
+      "upper_value": null,
+      "value": 500.0
+    },
+    "evidence_id": "EV-P40-9B2AC896330377FB",
+    "reported_unit": "L/min",
+    "reported_value": 0.5,
+    "template_id": "PC-P40-7A6B1C5B8AD226F5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 350.0
+    },
+    "evidence_id": "EV-P40-F7C16CB5A824326F",
+    "reported_unit": "°C",
+    "reported_value": 350.0,
+    "template_id": "PC-P40-B4F4AE80C9DABDB0"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P40-2BAC34F7F88E08EB",
+    "reported_unit": "min",
+    "reported_value": 60.0,
+    "template_id": "PC-P40-744117455A113A2F"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P40-0619235E47C0C757",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P40-42058BCD7FF4C07A"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 100.0
+    },
+    "evidence_id": "EV-P40-EE3E5385D059B168",
+    "reported_unit": "°C",
+    "reported_value": 100.0,
+    "template_id": "PC-P40-79DB86BB318DA452"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "rotation_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P41-79B1C058CB15734C",
+    "reported_unit": "rpm",
+    "reported_value": 300.0,
+    "template_id": "PC-P41-AA819B678A0183F9"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": 28800.0,
+      "value": 3600.0
+    },
+    "evidence_id": "EV-P41-3CA998FC10F96913",
+    "reported_unit": "h",
+    "reported_value": 1.0,
+    "template_id": "PC-P41-7BA6B4F55790D1C5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 1800.0
+    },
+    "evidence_id": "EV-P41-48241E6060F404C6",
+    "reported_unit": "min",
+    "reported_value": 30.0,
+    "template_id": "PC-P41-85A2D81681BAF23F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 1000.0
+    },
+    "evidence_id": "EV-P41-43CED0A277722B81",
+    "reported_unit": "°C",
+    "reported_value": 1000.0,
+    "template_id": "PC-P41-95527AB10E62B4E3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "heating_rate",
+      "semantic_dimension": "temperature_rate",
+      "unit": "K/s",
+      "upper_value": null,
+      "value": 1.6666666666666667
+    },
+    "evidence_id": "EV-P41-CFD048028A89EEB3",
+    "reported_unit": "°C/min",
+    "reported_value": 100.0,
+    "template_id": "PC-P41-06635475C3AB8B77"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 300.0
+    },
+    "evidence_id": "EV-P41-466D6248EA43414E",
+    "reported_unit": "min",
+    "reported_value": 5.0,
+    "template_id": "PC-P41-9EAD2BB70613E370"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P41-C0030228E097DE9E",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P41-F6C4970FFB1DEE45"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "spin_speed",
+      "semantic_dimension": "rotational_speed",
+      "unit": "rpm",
+      "upper_value": null,
+      "value": 7000.0
+    },
+    "evidence_id": "EV-P42-BEEA00037B8FC99D",
+    "reported_unit": "rpm",
+    "reported_value": 7000.0,
+    "template_id": "PC-P42-224261D8CAABB33C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P42-4D0D2EC3392C29B7",
+    "reported_unit": "min",
+    "reported_value": 1.0,
+    "template_id": "PC-P42-3A7AADD076D23438"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "voltage",
+      "semantic_dimension": "voltage",
+      "unit": "V",
+      "upper_value": null,
+      "value": 10000.0
+    },
+    "evidence_id": "EV-P42-E3F54EAFD6495C30",
+    "reported_unit": "kV",
+    "reported_value": 10.0,
+    "template_id": "PC-P42-AF10B309758872B5"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P42-2CFCF816AB466592",
+    "reported_unit": "min",
+    "reported_value": 1.0,
+    "template_id": "PC-P42-A1BB781F604D5028"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 20.0
+    },
+    "evidence_id": "EV-P42-17B43FF1BDFB65FB",
+    "reported_unit": "s",
+    "reported_value": 20.0,
+    "template_id": "PC-P42-638AA30DA08FA182"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P25-D4697AAE5D084E6E",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P25-9A7C370479E853D3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 28800.0
+    },
+    "evidence_id": "EV-P25-2F3B95C7CF867D91",
+    "reported_unit": "h",
+    "reported_value": 8.0,
+    "template_id": "PC-P25-109606CE0A751077"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "temperature",
+      "semantic_dimension": "temperature",
+      "unit": "°C",
+      "upper_value": null,
+      "value": 60.0
+    },
+    "evidence_id": "EV-P32-3D96B52E90C8F215",
+    "reported_unit": "°C",
+    "reported_value": 60.0,
+    "template_id": "PC-P32-EC12A02CF0894EAB"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P32-77473B813FDFEACE",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P32-F8DE04F4EEFF74B7"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P27-5DC48420F7A662D8",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P27-F34C323B641DF262"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P35-3A684A6E38E5C68D",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P35-05197B2B511C145B"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P22-13D4494B9050E83E",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P22-1C83FAD9DC9F4762"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "gas_flow",
+      "semantic_dimension": "standard_gas_flow",
+      "unit": "sccm",
+      "upper_value": 118.3,
+      "value": 1.7
+    },
+    "evidence_id": "EV-P26-7474B44CA0D2E047",
+    "reported_unit": "sccm",
+    "reported_value": 1.7,
+    "template_id": "PC-P26-ECC4D5619FBD41EF"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P31-CD928C54CB6397C8",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P31-598FAC459233859D"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "duration",
+      "semantic_dimension": "time",
+      "unit": "s",
+      "upper_value": null,
+      "value": 18000.0
+    },
+    "evidence_id": "EV-P32-21722EF3FA6C5367",
+    "reported_unit": "h",
+    "reported_value": 5.0,
+    "template_id": "PC-P32-91E46E8C95EEE6D5"
+  },
+  {
+    "canonical": null,
+    "evidence_id": "EV-P32-10669905448FBB16",
+    "reported_unit": "",
+    "reported_value": null,
+    "template_id": "PC-P32-9C7A805D3C9A2A2D"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "induction_frequency",
+      "semantic_dimension": "frequency",
+      "unit": "Hz",
+      "upper_value": null,
+      "value": 540000.0
+    },
+    "evidence_id": "EV-P35-121D276E02E0393D",
+    "reported_unit": "kHz",
+    "reported_value": 540.0,
+    "template_id": "PC-P35-7B4C5B5AA80AF532"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 20.6
+    },
+    "evidence_id": "EV-P35-CA9B1F28989B1683",
+    "reported_unit": "mm",
+    "reported_value": 20.6,
+    "template_id": "PC-P35-C18C98734E2ABA4B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "distance",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 18.8
+    },
+    "evidence_id": "EV-P35-069BABA0D92F4C54",
+    "reported_unit": "mm",
+    "reported_value": 18.8,
+    "template_id": "PC-P35-567AD572ACB1EAF3"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "strain",
+      "semantic_dimension": "strain",
+      "unit": "%",
+      "upper_value": null,
+      "value": 18.3
+    },
+    "evidence_id": "EV-P35-AB5FC0458528D059",
+    "reported_unit": "%",
+    "reported_value": 18.3,
+    "template_id": "PC-P35-53C1C88A74D6EA2C"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.12
+    },
+    "evidence_id": "EV-P37-B963718629E5F01A",
+    "reported_unit": "µm",
+    "reported_value": 120.0,
+    "template_id": "PC-P37-1582E8C02BC16E64"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.04
+    },
+    "evidence_id": "EV-P37-D24498284D5435B9",
+    "reported_unit": "µm",
+    "reported_value": 40.0,
+    "template_id": "PC-P37-17FB2EB393E3918B"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.075
+    },
+    "evidence_id": "EV-P37-F3573A53EF7EA43A",
+    "reported_unit": "µm",
+    "reported_value": 75.0,
+    "template_id": "PC-P37-8D280FEF7B6FE60F"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.025
+    },
+    "evidence_id": "EV-P37-4EEDB07EAC820363",
+    "reported_unit": "µm",
+    "reported_value": 25.0,
+    "template_id": "PC-P37-4E1AAEE23C9E29EA"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.045
+    },
+    "evidence_id": "EV-P37-B11BEA9131AA1BC7",
+    "reported_unit": "µm",
+    "reported_value": 45.0,
+    "template_id": "PC-P37-6A6EC733A6B89FE2"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.015
+    },
+    "evidence_id": "EV-P37-364FEB2A523F58DC",
+    "reported_unit": "µm",
+    "reported_value": 15.0,
+    "template_id": "PC-P37-35301D1A26E08374"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.015
+    },
+    "evidence_id": "EV-P37-4CDDB4828E83FB78",
+    "reported_unit": "µm",
+    "reported_value": 15.0,
+    "template_id": "PC-P37-75A4000173F81ADD"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "roll_gap",
+      "semantic_dimension": "length",
+      "unit": "mm",
+      "upper_value": null,
+      "value": 0.005
+    },
+    "evidence_id": "EV-P37-D1BF2D01F377D69C",
+    "reported_unit": "µm",
+    "reported_value": 5.0,
+    "template_id": "PC-P37-91A1DA14CD31C918"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "film_thickness",
+      "semantic_dimension": "length",
+      "unit": "nm",
+      "upper_value": null,
+      "value": 20.0
+    },
+    "evidence_id": "EV-P38-1EA070E36EB9148B",
+    "reported_unit": "nm",
+    "reported_value": 20.0,
+    "template_id": "PC-P38-E7560313DE086E78"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "compaction_pressure",
+      "semantic_dimension": "mechanical_stress",
+      "unit": "Pa",
+      "upper_value": null,
+      "value": 80000000.0
+    },
+    "evidence_id": "EV-P41-AECB5E7F7C09A818",
+    "reported_unit": "MPa",
+    "reported_value": 80.0,
+    "template_id": "PC-P41-3889B3B9FBBE8D60"
+  },
+  {
+    "canonical": {
+      "quantity_kind": "film_thickness",
+      "semantic_dimension": "length",
+      "unit": "nm",
+      "upper_value": null,
+      "value": 40.0
+    },
+    "evidence_id": "EV-P42-2168AF2743E5303D",
+    "reported_unit": "nm",
+    "reported_value": 40.0,
+    "template_id": "PC-P42-4EC3FCBE9F9275C0"
+  }
+]

@@ -1,0 +1,7 @@
+category_id,category_name,source_pdf,source_page,source_sha256,target_examples,related_material_ids,related_process_ids,association_basis,source_category_name,category_origin
+X-AM,Additive manufacturing,,,,,,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental
+X-CNC,CNC machining,,,,,,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental
+X-CS,Cold spray deposition,,,,,,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental
+X-EDM,Electrical discharge machining,,,,,,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental
+X-MET,Optical surface metrology,,,,,N09,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental
+X-TEST,Mechanical characterization,,,,,,,Existing Purdue-origin X-class definition. Per-record method labels and scoped associations are retained; no exact-model suitability is inferred.,,purdue_supplemental

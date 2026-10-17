@@ -15,6 +15,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - run: python -m pip install -r requirements-dev.txt
       - run: python -m pytest -q
+      - run: python ontology_tools.py --check
   app:
     runs-on: ubuntu-latest
     defaults:

@@ -14,6 +14,7 @@ from market_tools import seller_offers
 from component_tools import build as build_components
 from price_coverage import build as build_price_coverage
 from process_science_tools import build as build_process_science
+from ontology_tools import build as build_ontology
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -27,6 +28,7 @@ def main():
         ("routes", "routes"), ("steps", "route_steps")
     ]}
     data["manufacturers"] = read_csv("manufacturers")
+    data["categories"] += read_csv("supplemental_categories")
     data["category_aliases"] = read_csv("category_aliases")
     data["model_lifecycle"] = read_csv("model_lifecycle")
     validate_model_lifecycle(data["records"], data["model_lifecycle"])
@@ -92,6 +94,7 @@ def main():
     (ROOT / 'webapp/app/data/process-class-audit.json').write_text(json.dumps(class_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     build_components(ROOT)
     build_price_coverage(ROOT,data['records'])
+    build_ontology(ROOT)
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":
