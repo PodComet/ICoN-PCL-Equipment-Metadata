@@ -33,7 +33,10 @@ export default function ProcessHierarchy({workflow,expanded,finish,children}:{wo
    // Reserve the actual first library row in the opening viewport.
    const library=document.querySelector('.process-equipment-library'),heading=library?.querySelector('.process-library-heading'),cards=Array.from(library?.querySelectorAll('.process-library-card')||[]),firstTop=cards[0]?.getBoundingClientRect().top;
    const row=cards.filter(c=>Math.abs(c.getBoundingClientRect().top-(firstTop||0))<2),rowHeight=Math.max(130,...row.map(c=>c.getBoundingClientRect().height));
-   const availableHeight=Math.max(80,Math.min(260,window.innerHeight-container.getBoundingClientRect().top-(heading?.getBoundingClientRect().height||65)-rowHeight-28));
+   const panel=container.closest('.process-flow-area'),panelStyle=panel?getComputedStyle(panel):null;
+   const panelBottom=panelStyle?parseFloat(panelStyle.paddingBottom)+parseFloat(panelStyle.borderBottomWidth):0;
+   const chartTop=container.getBoundingClientRect().top+window.scrollY;
+   const availableHeight=Math.max(80,Math.min(260,window.innerHeight-chartTop-(heading?.getBoundingClientRect().height||65)-rowHeight-28-panelBottom));
    const scale=expanded?1:Math.min(1,container.clientWidth/Math.max(1,width),availableHeight/Math.max(1,height));
    setDrawing({width,height,scale,edges});
   };
@@ -43,7 +46,7 @@ export default function ProcessHierarchy({workflow,expanded,finish,children}:{wo
  },[workflow,expanded]);
  return <div ref={frame} className={'process-hierarchy '+(expanded?'expanded':'fitted')} style={{height:drawing.height?drawing.height*drawing.scale+(expanded?18:0):undefined}} aria-label="Hierarchical process sequence">
   <div ref={board} className="process-hierarchy-layout" style={{transform:`scale(${drawing.scale})`}}>
-   <svg className="process-dependency-arrows" width={drawing.width} height={drawing.height} aria-hidden="true"><defs><marker id="process-child-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#39744e"/></marker></defs>{drawing.edges.map(edge=><path key={edge.key} d={edge.path} fill="none" stroke="#39744e" strokeWidth="2" markerEnd="url(#process-child-arrow)"/>)}</svg>
+   <svg className="process-dependency-arrows" width={drawing.width} height={drawing.height} aria-hidden="true"><defs><marker id="process-child-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="var(--process-flow-line, #39744e)"/></marker></defs>{drawing.edges.map(edge=><path key={edge.key} d={edge.path} fill="none" stroke="var(--process-flow-line, #39744e)" strokeWidth="2" markerEnd="url(#process-child-arrow)"/>)}</svg>
    {graph.levels.map((level,index)=><section key={index} className="process-hierarchy-level" aria-label={'Dependency level '+(index+1)}><div className="process-level-label"><strong>LEVEL {index+1}</strong><span>{level.length>1?'Independent peers':index===0?'Start':'After prerequisites'}</span></div><div className="process-peer-steps">{level.map(step=><div key={step.step_id} data-hierarchy-node={step.step_id} className="process-hierarchy-node" style={{width:Math.max(expanded?300:194,step.slots.length*(expanded?240:100)+(expanded?32:20))}}>{nodes[workflow.steps.findIndex(s=>s.step_id===step.step_id)]}</div>)}</div></section>)}
    {finish}
   </div>

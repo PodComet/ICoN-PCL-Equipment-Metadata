@@ -1,0 +1,107 @@
+/* A distinct gold-on-midnight workspace for the process graph. */
+.process-flow-area {
+ --process-midnight: #101d38;
+ --process-gold: #f4cf76;
+ --process-flow-line: #e7bd59;
+ background: var(--process-midnight);
+ color: #fff3d2;
+ border: 1px solid #c99f45;
+ border-radius: 12px;
+ padding: 9px 10px 8px;
+ box-shadow: 0 3px 12px #101d3818;
+}
+.process-flow-area .process-flow-toolbar>strong {color:var(--process-gold);font-size:13px;font-weight:900;letter-spacing:.1px}
+.process-flow-toolbar>strong>span {font-size:9px;font-weight:700;margin-left:8px;color:#e2cf9f}
+.process-flow-area .process-flow-toolbar>span,.process-flow-area .process-hierarchy-help {color:#e0d6bc}
+.app-shell .process-flow-area :is(p,small,label,figcaption,dt,dd) {color:inherit}
+.process-flow-area .process-hierarchy-help a {color:var(--process-gold)}
+.process-flow-area .secondary-button {background:#1c2e4f;color:#fff0c6;border-color:#9e8247}
+.process-flow-area .secondary-button:hover:not(:disabled) {background:#f4cf76;color:#101d38;border-color:#f4cf76}
+.process-flow-area :is(button,input,select,textarea):focus-visible {outline-color:#ffe19a}
+.process-flow-area .process-canvas:focus-visible {outline-color:#ffe19a}
+.process-flow-area .process-hierarchy.fitted {overflow:clip}
+.process-flow-area .process-hierarchy .process-step {background:#1b2c4b;border-color:#8e7541;box-shadow:0 3px 10px #0002}
+.process-flow-area .process-step-header textarea {color:#ffedbb;background:transparent}
+.process-flow-area .process-step-header textarea:hover {border-color:#a48950}
+.process-flow-area .process-step-number {background:#f4cf76;color:#101d38;font-weight:900}
+.process-flow-area .process-level-label {color:#ebd7a6}
+.process-flow-area .process-level-label>strong {color:#ffdf91;background:#263854;border-color:#8e7541}
+.process-flow-area .process-level-label>span {color:#e0d6bc;background:transparent}
+.process-flow-area .process-parent-label,.process-flow-area .process-dependency-editor {color:#e8dbb9}
+.process-flow-area .process-hierarchy .process-slot {background:#14233e;border-color:#a48a55;color:#fff3d2}
+.process-flow-area .process-hierarchy .process-slot.selected {background:#253858;border-color:#ffdc87;box-shadow:0 0 0 2px #f4cf7633}
+.process-flow-area .process-slot.drag-over {background:#3b3c42;border-color:#ffdc87;box-shadow:0 0 0 4px #f4cf7655}
+.process-flow-area .process-slot-category {color:#fff0c6}
+.process-flow-area .process-slot-category>span {color:#d7c698}
+.process-flow-area .process-empty-slot {color:#f4cf76!important}
+.process-flow-area .process-empty-slot:hover {background:#f4cf761a!important}
+.process-flow-area :is(.process-card-grip,.process-mini-maker,.process-mini-bottom,.process-slot-select) {color:#ebdfbf}
+.process-flow-area .process-model-link {color:#ffe3a1!important}
+.process-flow-area :is(.process-mini-bottom>a,.process-text-button,.process-assignment-actions button,.process-step-footer>button,.process-step-controls button,.process-slot-header>button:last-child) {color:#f4cf76}
+.process-flow-area :is(.process-source-sequence,.process-no-equipment,.process-no-photo,.position-list) {background:#263854;color:#fff0c6;border-color:#9e8247}
+.process-flow-area :is(.process-slot-settings,.process-assignment-fields,.process-parameters,.process-review-summary) {border-color:#7d704e;color:#eee0bd}
+.process-flow-area .process-photo-scope a {color:#ffe3a1}
+.process-flow-area .process-no-photo {float:none;width:100%}
+.process-flow-area .process-finish {color:#f4cf76;position:relative;z-index:1}
+.process-plan-complete .process-flow-area .process-slot:has(.process-assigned-mini) {border-color:#ddbb68}
+
+/* Matching class codes stay prominent in both the pool and the vacant slots. */
+.processes-page .process-class-code {
+ display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;
+ background:#f4cf76;color:#101d38;border:1px solid #bb8c28;border-radius:4px;
+ padding:2px 7px;font:950 19px/1.1 ui-sans-serif,system-ui,sans-serif;
+ letter-spacing:.2px;font-variant-numeric:tabular-nums;white-space:nowrap;
+}
+.processes-page .process-category-label {display:flex;align-items:center;gap:7px;margin:0 0 5px;line-height:1.3;letter-spacing:0}
+.process-category-label>span {font-weight:750}
+.processes-page .process-slot-class {display:flex;flex-wrap:wrap;align-items:start;gap:3px 6px}
+.process-slot-class>.process-class-code {margin:0 0 4px}
+.process-slot-class>span {display:block;flex:1 1 85px}
+.process-slot-class>em {display:block;font-size:10px;font-style:normal;margin:4px 0;color:inherit}
+.process-hierarchy .process-slot-category>strong {display:block;min-height:0;overflow:visible;-webkit-line-clamp:unset}
+.process-library-card .process-class-code {font-size:19px}
+.process-flow-area .process-category-label {color:#fff0c6}
+.process-flow-area .process-class-code {border-color:#ffe19a;box-shadow:0 1px 4px #0003}
+.process-chart-fitted .process-hierarchy .process-slot-category .process-class-code {font-size:20px}
+.process-chart-fitted .process-hierarchy .process-slot-category>strong {font-size:10px}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo {float:left;width:40px;margin:4px 5px 3px 0}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo>img {height:40px!important}
+.process-chart-fitted .process-hierarchy .process-step .process-mini-bottom {clear:both;margin-top:4px}
+.process-library-card .process-no-photo {float:left;width:46px;height:46px;margin:0 6px 4px 0}
+.process-library-card .process-no-photo>strong {display:none}
+.process-library-card .process-no-photo>span {font-size:8px;text-align:center;line-height:1.3}
+
+/* Filled previews retain the matching code, photograph and model without scaling to fine print. */
+.process-chart-fitted .process-hierarchy .process-parent-label,
+.process-chart-fitted .process-hierarchy .process-dependency-editor,
+.process-chart-fitted .process-hierarchy .process-step .process-card-grip,
+.process-chart-fitted .process-hierarchy .process-step .process-mini-bottom {display:none}
+.process-chart-fitted .process-hierarchy .process-slot-category .process-class-code {font-size:24px}
+.process-chart-fitted .process-hierarchy .process-slot-class>span {font-size:9px;line-height:1.25}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo {width:32px;margin:3px 4px 2px 0}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo>img {height:32px!important}
+.process-chart-fitted .process-hierarchy .process-step .process-model-link {font-size:9px!important;line-height:1.25}
+.process-chart-fitted .process-hierarchy .process-step .process-mini-maker {font-size:7px;line-height:1.3}
+.process-chart-fitted .process-hierarchy .process-step .process-no-photo {display:none}
+.process-chart-fitted .process-hierarchy .process-step .process-assignment-actions {margin:4px 0 0}
+.process-chart-fitted .process-hierarchy-layout {padding-top:8px;padding-bottom:4px}
+.process-flow-area .process-hierarchy-layout .process-output>span,
+.process-flow-area .process-hierarchy-layout .process-output>strong {font-size:12px}
+.process-flow-area .process-hierarchy-layout .process-output>small {font-size:9px}
+.process-flow-area .process-hierarchy-layout>.process-finish {width:200px;flex-basis:200px}
+.process-library-card {position:relative}
+.process-library-card>.process-card-grip {position:absolute;top:8px;right:5px;font-size:0;margin:0;gap:0;padding:2px}
+.process-library-card .process-category-label {padding-right:14px}
+
+/* The output lights only when workflowReadiness confirms required class coverage. */
+.process-flow-area .process-output {opacity:1;transition:background .3s,border-color .3s,box-shadow .3s;color:#c5bca5;background:#13213b;border-color:#6b6352}
+.process-flow-area .process-output.pending .process-output-illustration {opacity:.28;filter:grayscale(.7)}
+.process-flow-area .process-output>small {color:inherit}
+.process-flow-area .process-output-status {display:flex;justify-content:center;align-items:center;gap:4px;font-weight:900}
+.process-flow-area .process-output-status>svg {width:16px;height:16px;flex-shrink:0}
+.process-flow-area .process-output.complete {background:#f4cf76;color:#101d38;border:2px solid #fff0bb;box-shadow:0 0 0 3px #f4cf7629,0 0 22px #f4cf7673;animation:process-output-light 1.2s ease-out}
+.process-flow-area .process-output.complete .process-output-illustration {opacity:1;filter:drop-shadow(0 2px 5px #8c641945)}
+.process-flow-area .process-output .process-output-review {color:#503800;font-weight:800}
+@keyframes process-output-light {0%{box-shadow:0 0 0 0 #ffe19a00;filter:brightness(.7)}55%{box-shadow:0 0 0 7px #ffe19a44,0 0 38px #f4cf76aa;filter:brightness(1.12)}100%{box-shadow:0 0 0 3px #f4cf7629,0 0 22px #f4cf7673;filter:brightness(1)}}
+@media(prefers-reduced-motion:reduce){.process-flow-area .process-output.complete{animation:none}.process-flow-area .process-output{transition:none}}
+@media(max-width:650px){.process-flow-area{padding:7px}.process-flow-area .process-flow-toolbar{flex-wrap:wrap;gap:6px}.process-flow-area .process-flow-toolbar>span{display:none}.process-flow-toolbar>strong>span{display:none}}
