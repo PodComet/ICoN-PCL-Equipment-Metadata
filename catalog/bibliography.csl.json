@@ -123,6 +123,39 @@
     }
   },
   {
+    "id": "REF-2134F25D2557",
+    "type": "article-journal",
+    "title": "Magnetization Reversal and Specific Loss Power of Magnetic Nanoparticles in Cellular Environment Evaluated by AC Hysteresis Measurement",
+    "author": [
+      {
+        "given": "Satoshi",
+        "family": "Ota"
+      },
+      {
+        "given": "Tsutomu",
+        "family": "Yamada"
+      },
+      {
+        "given": "Yasushi",
+        "family": "Takemura"
+      }
+    ],
+    "container-title": "Journal of Nanomaterials",
+    "volume": "2015",
+    "issue": "1",
+    "article-number": "836761",
+    "DOI": "10.1155/2015/836761",
+    "URL": "https://doi.org/10.1155/2015/836761",
+    "page": "836761",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-1459F96962BC",
     "type": "article-journal",
     "title": "eNanoMapper: harnessing ontologies to enable data integration for nanomaterial risk assessment",

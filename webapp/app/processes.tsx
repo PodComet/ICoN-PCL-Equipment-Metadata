@@ -5,9 +5,10 @@ import FilterSelect from './filter-select';
 import PositionList from './positions';
 import {cardBackground} from './instrument-card';
 import ProcessOutput from './process-output';
+import {materialOutcome} from './process-outcome-lib';
 import ProcessHierarchy from './process-hierarchy';
 import {MaterialsEditor,StartingMaterials} from './process-materials';
-import {materialPlanFor,withMaterialPlan,materialOutput,type MaterialDataset} from './process-materials-lib';
+import {materialPlanFor,withMaterialPlan,type MaterialDataset} from './process-materials-lib';
 import materialSeed from './data/process-materials.json';
 const materialDataset=materialSeed as MaterialDataset;
 import {stepDependencies,withStepDependencies,removeWorkflowStep} from './process-dependencies';
@@ -70,7 +71,7 @@ export default function Processes({rows,routes,steps,categories,canSave,onOpen,l
  const candidates=useMemo(()=>eligible.filter(r=>(!classFilter||r.category_id===classFilter)&&search.toLowerCase().split(/\s+/).every(word=>[r.model_name,r.manufacturer,r.category_id,r.category_name,r.variant_label,r.capacity_ml].join(' ').toLowerCase().includes(word))).sort((a,b)=>Number(!!safeUrl(b.image_url))-Number(!!safeUrl(a.image_url))||a.model_name.localeCompare(b.model_name)),[eligible,classFilter,search]);
  const readiness=workflowReadiness(draft,steps);
  const completionMessage=workflowReadinessMessage(readiness);
- const materials=materialPlanFor(draft),plannedOutput=materialOutput(materials,materialDataset.profiles,materialDataset.examples);
+ const materials=materialPlanFor(draft),plannedOutput=materialOutcome(materials,materialDataset,draft);
  function updateDependencies(stepId:string,parents:string[]){try{change(withStepDependencies(draft,stepId,parents))}catch(e){setError(e instanceof Error?e.message:"Could not update step dependencies.")}}
  const className=(ids:string[])=>ids.map(id=>id+' / '+(categories.find(c=>c.category_id===id)?.category_name||'Equipment category')).join(' or ');
  useEffect(()=>{if(poolOpen)poolDialog.current?.showModal();else poolDialog.current?.close()},[poolOpen]);

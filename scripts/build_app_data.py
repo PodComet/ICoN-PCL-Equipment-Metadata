@@ -73,6 +73,12 @@ def main():
     for row in examples:
         row['inputs'] = json.loads(row.pop('inputs_json'))
     (ROOT / 'webapp/app/data/process-materials.json').write_text(json.dumps({'profiles': profiles, 'examples': examples}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    media = json.loads((ROOT / 'catalog/material_images.json').read_text(encoding='utf-8'))
+    images = [{**{key: item[key] for key in ['image_id', 'name', 'source_url', 'author', 'license', 'license_url', 'scope']},
+               'image_url': item.get('display_image_url') or item['image_url'], 'original_image_url': item['image_url'],
+               'material_names': item['input_name_suggestions'], 'output_tags': item['representative_output_form_tags'],
+               'kind': item['media_kind'], 'reference_id': item.get('reference_id', ''), 'article_url': item.get('article_url', '')} for item in media['images']]
+    (ROOT / 'webapp/app/data/material-images.json').write_text(json.dumps({'checked_date': media['checked_date'], 'images': images}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

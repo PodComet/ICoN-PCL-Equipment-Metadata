@@ -107,8 +107,8 @@ def test_export_escapes_tex_and_doi_normalization():
 
 def test_affiliations_cover_every_author_entry_without_inventing_an_unstated_institution():
     data=read_database();stats=coverage(data)
-    assert stats['author_entries']==402 and stats['authors_with_affiliations']==401
-    assert stats['authors_affiliation_not_stated']==1 and stats['authors_affiliation_pending']==0
+    assert stats['author_entries']==405 and stats['authors_with_affiliations']==401
+    assert stats['authors_affiliation_not_stated']==4 and stats['authors_affiliation_pending']==0
     assert stats['references_with_affiliations']==52
     absent=next(a for a in data['reference_affiliations'] if a['affiliation_status']=='not_stated')
     assert absent['author_name']=='John Broome' and absent['institution']==''

@@ -11,6 +11,7 @@
 | msrp_rule_review_2026-10-16.json | Pricing policy and calculation audit |
 | purdue_new_model_review_2026-10-16.json | Exact make/model comparison of 189 new profiles with the designated Purdue list |
 | market_expansion_2026-10-16.json | Dated review: 96 additions across all 68 M classes, 33 existing-profile updates, source/media/price scopes, category counts and unresolved issues |
+| material_images.json | Twelve source-verified, attributed and openly licensed material photos/micrographs; exact aliases and representative output scopes |
 | process_material_profiles.csv | Editable starting-material suggestions and conservative output-label modes for all 42 manufacturing processes |
 | process_material_examples.csv | Four checked literature composition examples, with exact inputs/roles, output labels, reference IDs, source locations and limits; no operating recipes |
 | equipment.csv | Main catalog: product families, variants, manuals, pricing fields and material/process relationships |

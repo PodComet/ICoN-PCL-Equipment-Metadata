@@ -75,11 +75,11 @@ test('checked category evidence is available separately without granting model s
  assert.deepEqual(categoryEvidenceLinks({...record,category_id:'M01'},links),[]);
 });
 test('expanded library stays academic-only and preserves scoped model evidence',()=>{
- assert.equal(data.references.length,52);assert.equal(data.reference_files.length,42);
+ assert.equal(data.references.length,53);assert.equal(data.reference_files.length,42);
  assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim').length,146);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
- assert.equal(JSON.parse(data.exports.csl_json).length,52);
+ assert.equal(JSON.parse(data.exports.csl_json).length,53);
  assert.ok(data.references.every(r=>!JSON.stringify(r).includes('C:\\')));
 });
 

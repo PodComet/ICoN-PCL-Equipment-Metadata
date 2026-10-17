@@ -1,0 +1,504 @@
+{
+  "schema": "material-photo-research/v1",
+  "checked_date": "2026-10-16",
+  "scope": "Photographs and micrographs of identified reference samples. None shows a user's selected batch or predicts the appearance, yield, purity, composition or morphology of an unperformed process.",
+  "display_requirements": [
+    "Show the material identity, author, source-page link and license link with each displayed image.",
+    "Label output photos as representative reference images, not simulated or measured results.",
+    "Do not apply a specific-polymer image to a different polymer, solution or unspecified formulation.",
+    "Do not use microscopy as a photograph of a bulk input unless explicitly labeled as microscopy of a reference sample.",
+    "Preserve scale bars and content; if a new crop or other modification is made, record that modification and follow the selected image license."
+  ],
+  "images": [
+    {
+      "image_id": "MAT-IMG-GOLD-CRYSTALS",
+      "name": "Gold metal crystals",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gold_crystals.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gold_crystals.jpg",
+      "original_source_url": "http://images-of-elements.com/gold.php",
+      "author": "Hi-Res Images of Chemical Elements / images-of-elements.com",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Elemental gold (Au); bulk crystalline metal. Purity and dimensions are not specified here.",
+      "scope": "Reference photo of gold metal; not a wafer coating, deposition target specification or nanoparticle sample.",
+      "caption": "Gold metal crystals — reference sample.",
+      "input_name_suggestions": [
+        "Gold (Au)",
+        "Gold"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 96165,
+        "width": 400,
+        "height": 400,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Gold_crystals.jpg",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 96165,
+        "width": 400,
+        "height": 400,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-SILVER-CRYSTAL",
+      "name": "Silver metal crystal",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Silver_crystal.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Silver_crystal.jpg",
+      "author": "Alchemist-hp; additional processing by Waugsberg",
+      "license": "CC BY-SA 3.0 DE",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/",
+      "media_kind": "photograph",
+      "chemical_identity": "Electrolytically prepared elemental silver (Ag), reported purity greater than 99.95%; approximately 11 g reference crystal.",
+      "scope": "Focus-stacked photograph of a bulk dendritic silver crystal; not silver nanoparticles or a specified deposition target.",
+      "caption": "Silver metal crystal — reference sample.",
+      "input_name_suggestions": [
+        "Silver (Ag)",
+        "Silver"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 5300916,
+        "width": 4428,
+        "height": 3472,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/500px-Silver_crystal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 51182,
+        "width": 500,
+        "height": 392,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-WATER-AMPOULE",
+      "name": "Distilled water ampoule",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Distilled_water_001.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Distilled_water_001.jpg",
+      "author": "أمين (Ameen Rammal)",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Distilled water (H2O), in an ampoule.",
+      "scope": "Illustrates water as a material. The photographed ampoule is not a recommended quantity, container or laboratory purity grade.",
+      "caption": "Distilled water in an ampoule — reference photo.",
+      "input_name_suggestions": [
+        "Water",
+        "Distilled water"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 3020195,
+        "width": 4000,
+        "height": 3000,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Distilled_water_001.jpg/500px-Distilled_water_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 31050,
+        "width": 500,
+        "height": 375,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-ETHANOL",
+      "name": "Absolute ethanol sample",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sample_of_Absolute_Ethanol.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sample_of_Absolute_Ethanol.jpg",
+      "author": "LHcheM; color balance by Jacek Halicki",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Ethanol (C2H5OH); source identifies sample as absolute ethanol.",
+      "scope": "Illustrates ethanol. Does not establish concentration, water content, quantity or grade of the user's selected solvent.",
+      "caption": "Absolute ethanol — reference sample.",
+      "input_name_suggestions": [
+        "Ethanol",
+        "Absolute ethanol"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 2657756,
+        "width": 2020,
+        "height": 2879,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sample_of_Absolute_Ethanol.jpg/500px-Sample_of_Absolute_Ethanol.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 44008,
+        "width": 500,
+        "height": 713,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-SILICON-WAFER",
+      "name": "Silicon wafer",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Silicon_wafer.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg",
+      "author": "Inductiveload",
+      "license": "Public domain, released by author",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Silicon_wafer.jpg#Licensing",
+      "media_kind": "photograph",
+      "chemical_identity": "Silicon wafer. Source does not specify doping, surface chemistry, crystal orientation or diameter.",
+      "scope": "Reference silicon wafer image. Do not identify it as ITO-coated glass, an arbitrary substrate or the user's coated product.",
+      "caption": "Silicon wafer — reference photo.",
+      "input_name_suggestions": [
+        "Silicon wafer"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 1012206,
+        "width": 1732,
+        "height": 1750,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Silicon_wafer.jpg/500px-Silicon_wafer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 70446,
+        "width": 500,
+        "height": 505,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-GRAPHITE-POWDER",
+      "name": "Graphite powder",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Graphite_powder.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Graphite_powder.jpg",
+      "author": "K. Murray (Kkmurray)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Graphite powder sold as a lubricant; purity, additives and particle size are not established.",
+      "scope": "Reference form of graphite powder. Does not represent graphene, graphene oxide, carbon black, carbon nanotubes or research-grade purity.",
+      "caption": "Graphite powder lubricant — reference appearance; grade unspecified.",
+      "input_name_suggestions": [
+        "Graphite",
+        "Graphite powder"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 45703,
+        "width": 790,
+        "height": 254,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Graphite_powder.jpg/500px-Graphite_powder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 20032,
+        "width": 500,
+        "height": 161,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-SILVER-NITRATE",
+      "name": "Silver nitrate crystals",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Silver_nitrate_crystals.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Silver_nitrate_crystals.jpg",
+      "author": "W. Oelen; crop and brightness adjustment by Materialscientist",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Silver nitrate (AgNO3) crystals.",
+      "scope": "Reference crystalline precursor. Does not show an aqueous solution, generic metal salt or nanoparticles.",
+      "caption": "Silver nitrate crystals — reference precursor.",
+      "input_name_suggestions": [
+        "Silver nitrate"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 46941,
+        "width": 336,
+        "height": 494,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Silver_nitrate_crystals.jpg",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 46941,
+        "width": 336,
+        "height": 494,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-PE-PELLETS",
+      "name": "Polyethylene pellets",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Polyethylene_balls1.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Polyethylene_balls1.jpg",
+      "author": "Lluis tgn; crop and brightness adjustment by Materialscientist",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Polyethylene pellets; molecular weight, density grade and additives unspecified.",
+      "scope": "Only suitable for polyethylene pellets. Do not use for PLGA, PDMS, PMMA, another named polymer, or a polymer solution.",
+      "caption": "Polyethylene pellets — reference polymer feedstock.",
+      "input_name_suggestions": [
+        "Polyethylene",
+        "Polyethylene pellets"
+      ],
+      "representative_output_form_tags": [],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 714118,
+        "width": 3376,
+        "height": 2728,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Polyethylene_balls1.jpg/500px-Polyethylene_balls1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 42100,
+        "width": 500,
+        "height": 404,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-GOLD-COLLOID",
+      "name": "Gold colloids of varying particle size",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Gold_Colloid_of_varying_size.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Gold_Colloid_of_varying_size.jpg",
+      "author": "Kumarbarc",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "media_kind": "photograph",
+      "chemical_identity": "Colloidal gold; source identifies different particle-size samples but does not establish numerical sizes or the user's formulation.",
+      "scope": "Actual reference gold nanoparticle suspensions. Colors, sizes, concentrations and stability of a proposed user's product are not predicted.",
+      "caption": "Gold colloids — representative reference samples, not a predicted result.",
+      "input_name_suggestions": [
+        "Gold nanoparticle dispersion",
+        "Gold nanoparticle suspension",
+        "Colloidal gold"
+      ],
+      "representative_output_form_tags": [
+        "gold nanoparticles",
+        "gold nanoparticle dispersion",
+        "gold nanoparticle suspension"
+      ],
+      "broad_class_display": "May illustrate an unspecified nanoparticle suspension only if the caption explicitly states the pictured material is gold and is a representative reference.",
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 624656,
+        "width": 4095,
+        "height": 1403,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Gold_Colloid_of_varying_size.jpg/500px-Gold_Colloid_of_varying_size.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 19653,
+        "width": 500,
+        "height": 171,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-ELECTROSPUN-SEM",
+      "name": "Electrospun polymer nanofiber membrane (SEM)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg",
+      "author": "Farizat Aidyn",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "media_kind": "SEM micrograph",
+      "chemical_identity": "Electrospun polymer membrane; exact polymer chemistry is not identified by the source. Beads are visible; scale bar is 10 micrometers.",
+      "scope": "Representative electrospun morphology only. Not evidence for a specific polymer, defect-free fibers, input formulation, route yield or predicted output dimensions.",
+      "caption": "Electrospun polymer membrane, SEM — representative morphology; chemistry unspecified.",
+      "input_name_suggestions": [],
+      "representative_output_form_tags": [
+        "electrospun polymer fibers",
+        "electrospun nanofiber membrane",
+        "polymer nanofibers"
+      ],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 1504704,
+        "width": 1280,
+        "height": 1026,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg/500px-Electrospun_polymer_nanofibers_with_bead-fiber_morphology.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 103126,
+        "width": 500,
+        "height": 401,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-CNT-SEM",
+      "name": "Carbon nanotube bundles (SEM)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/CNTSEM.JPG",
+      "source_url": "https://commons.wikimedia.org/wiki/File:CNTSEM.JPG",
+      "author": "Materialscientist at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "media_kind": "SEM micrograph",
+      "chemical_identity": "Carbon nanotube bundles; wall count, functionalization and purity are not established here.",
+      "scope": "Microscopy of a reference CNT sample. Do not show as the appearance of bulk CNT powder, graphene or a specific CNT/polymer composite product.",
+      "caption": "Carbon nanotube bundles, SEM — reference sample.",
+      "input_name_suggestions": [
+        "Carbon nanotubes"
+      ],
+      "representative_output_form_tags": [
+        "carbon nanotubes",
+        "carbon nanotube bundles"
+      ],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 89851,
+        "width": 652,
+        "height": 546,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/CNTSEM.JPG/500px-CNTSEM.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 95484,
+        "width": 500,
+        "height": 419,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      }
+    },
+    {
+      "image_id": "MAT-IMG-MAGNETITE-TEM",
+      "name": "Water-based magnetite nanoparticles (TEM)",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Transmission-electron-microscopic-TEM-image-of-the-water-based-magnetite-nanoparticles.jpg",
+      "source_url": "https://commons.wikimedia.org/wiki/File:Transmission-electron-microscopic-TEM-image-of-the-water-based-magnetite-nanoparticles.jpg",
+      "publication_url": "https://doi.org/10.1155/2015/836761",
+      "publication_title": "Magnetization Reversal and Specific Loss Power of Magnetic Nanoparticles in Cellular Environment Evaluated by AC Hysteresis Measurement",
+      "author": "Satoshi Ota, Tsutomu Yamada, Yasushi Takemura",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_basis": "Commons source and explicit reuse license; publisher DOI endpoint was inaccessible during this check.",
+      "media_kind": "TEM micrograph",
+      "chemical_identity": "Water-based magnetite (Fe3O4) nanoparticles identified in the source article.",
+      "scope": "Representative magnetite nanoparticle micrograph from a separate study. Does not show the P33 source paper's sample or establish the selected plan's particle size, yield or morphology.",
+      "caption": "Magnetite nanoparticles, TEM — representative reference from Ota et al. (2015), not the planned batch.",
+      "input_name_suggestions": [
+        "Magnetite nanoparticles",
+        "Fe3O4 nanoparticles"
+      ],
+      "representative_output_form_tags": [
+        "magnetite nanoparticles",
+        "Fe3O4 nanoparticles"
+      ],
+      "verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 268746,
+        "width": 600,
+        "height": 600,
+        "method": "Direct GET with descriptive project User-Agent and image decoder verification"
+      },
+      "display_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Transmission-electron-microscopic-TEM-image-of-the-water-based-magnetite-nanoparticles.jpg/500px-Transmission-electron-microscopic-TEM-image-of-the-water-based-magnetite-nanoparticles.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "display_image_verification": {
+        "checked_date": "2026-10-16",
+        "status": "verified_image_response",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "bytes": 110724,
+        "width": 500,
+        "height": 500,
+        "method": "Observed Wikimedia imageinfo API thumburl (requested width 400) followed by direct GET and image decoder verification; unscaled response uses verified original."
+      },
+      "reference_id": "REF-2134F25D2557",
+      "article_url": "https://doi.org/10.1155/2015/836761"
+    }
+  ],
+  "limitations": [
+    "No exact-material image is supplied for each of the many generic precursor, ligand, gas, polymer-solution and substrate formulations; keep a clearly labeled fallback for those.",
+    "Photographs of metals and graphite illustrate materials, not purity, shape, batch size or instrument compatibility.",
+    "No P33 source-specific magnetite product image was obtained; the proposed TEM is a separate, attributed representative study.",
+    "Image hosts may throttle automated requests. Use a descriptive application User-Agent for validation; do not bypass access controls. Browser image-load checks remain advisable."
+  ]
+}
