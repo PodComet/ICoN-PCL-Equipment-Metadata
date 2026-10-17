@@ -9,6 +9,7 @@ export async function GET(request:Request){
   csl_json:{body:literature.exports.csl_json,type:'application/vnd.citationstyles.csl+json',name:'icon-pcl-references.csl.json'},
   csv:{body:csvText(literature.references),type:'text/csv',name:'references.csv'},
   links_csv:{body:csvText(literature.reference_links),type:'text/csv',name:'reference_links.csv'},
+  affiliations_csv:{body:csvText(literature.reference_affiliations),type:'text/csv',name:'reference_affiliations.csv'},
  };
  if(format==='json'){const {exports,...data}=literature;return Response.json(data)}
  const result=Object.hasOwn(outputs,format)?outputs[format]:null;if(!result)return Response.json({error:'Unknown bibliography format'}, {status:400});

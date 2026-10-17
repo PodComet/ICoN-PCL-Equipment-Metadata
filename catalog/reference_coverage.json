@@ -7,5 +7,12 @@
   "metadata_needs_review": 1,
   "context_links": 25,
   "checked_claim_links": 146,
-  "default_order": "publication_year_ascending"
+  "default_order": "publication_year_ascending",
+  "author_entries": 402,
+  "authors_with_affiliations": 401,
+  "authors_missing_affiliations": 1,
+  "authors_affiliation_not_stated": 1,
+  "authors_affiliation_pending": 0,
+  "references_with_affiliations": 52,
+  "affiliation_records": 514
 }

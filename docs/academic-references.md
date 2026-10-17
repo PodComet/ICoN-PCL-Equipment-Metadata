@@ -9,6 +9,8 @@ The default display and bibliography export order is **publication year, oldest 
 | File | Purpose |
 | --- | --- |
 | [references.csv](../catalog/references.csv) | One record per academic work: structured authors, publication details, DOI, publication type, metadata source, review status, topics and caveats |
+| [reference_affiliations.csv](../catalog/reference_affiliations.csv) | Publication-specific author institutions, indexed to author order, with source, locator, date and an explicit not-stated status |
+| [reference_affiliation_review_2026-10-16.json](../catalog/reference_affiliation_review_2026-10-16.json) | Coverage and source audit for all 402 author entries in the 52 reference records |
 | [reference_files.csv](../catalog/reference_files.csv) | Local article basenames, SHA-256 checksums, PDF page counts and copy/version labels; several copies can refer to one work |
 | [reference_links.csv](../catalog/reference_links.csv) | A paper's relationship to a project, equipment category, route/material family or instrument, with a claim, PDF page/section locator and explicit scope |
 | [reference_import_2026-10-15.json](../catalog/reference_import_2026-10-15.json) | Import boundary, metadata-check sources, exclusions and limitations |
@@ -59,10 +61,29 @@ python -m pytest -q
 
 Validation rejects duplicate identifiers/DOIs, missing reference or catalog targets, malformed provenance, unsafe URLs and incomplete claim support. All proposed tables are checked before CSVs are written. Generation and export run offline; they never fetch or silently revise publication metadata. Review the diff and commit the CSVs, exports and generated app seed together. Publishing follows the app's normal deployment workflow; editing these files does not automatically deploy a site.
 
-For a portable SQLite copy with the same three tables and foreign keys:
+For a portable SQLite copy with the same four tables and foreign keys:
 
 ```sh
 python reference_tools.py build --sqlite academic-references.sqlite
 ```
 
-The app's **Academic references** tab searches titles, authors, DOI, years, topics and source filenames. It shows metadata caveats and file provenance and exports the complete library as BibTeX, RIS, CSL JSON or CSV. Instrument cards show a separate academic-reference section, explicitly separating contextual reading from checked model claims. Reference maintenance currently uses the validated CSV workflow in Git.
+The app's **Academic references** tab searches titles, authors, affiliated institutions, DOI, years, topics and source filenames. It shows metadata caveats and file provenance and exports the complete library as BibTeX, RIS, CSL JSON or CSV. Instrument cards show a separate academic-reference section, explicitly separating contextual reading from checked model claims. Reference maintenance currently uses the validated CSV workflow in Git.
+
+
+## Author institutions
+
+The Academic references tab lists each author with the institution(s) reported for that publication. The first three authors are visible initially; expand **All authors & affiliations** for the remaining authors. Multiple affiliations are preserved and each has a source link with a source locator. Search includes institution names. **Author affiliations CSV** exports this table independently, preserving standard citation/BibTeX/RIS/CSL author formatting.
+
+The 2026-10-16 review covers all **402 author entries** (publication-specific occurrences, not unique people). It records institutions for **401** and an explicit **not_stated** status for one: the Rumble 2019 article lists John Broome with Ottawa, Canada, but no institution. No current employer or university has been inferred. The Lampe 2022 preprint's Nano-Institute Munich group description is preserved as printed rather than assigning an unprinted university name. Present-address notes are excluded from parsed article front matter.
+
+Maintain [reference_affiliations_template.csv](../templates/reference_affiliations_template.csv) with one row per author/institution. `author_index` is zero-based and must match the exact `author_name` derived from that reference's `authors_json`; changing author order requires reviewing the affiliation rows. Use `affiliation_status=reported` with a named institution, or `not_stated` with an empty institution only when the cited article explicitly provides no institutional name. An author with no reviewed row is displayed as **Affiliation not yet verified**. Never fill gaps from another paper or a current author profile. `source_kind`, `source_url`, `source_locator` and `checked_date` are required. Source kinds distinguish article full text, publisher pages, publisher deposits in Crossref, Europe PMC article metadata, and reviewed supplied article copies. Source-reported affiliations are bibliographic metadata, not independently verified author biographies.
+
+Preview or apply updates with the existing importer:
+
+```sh
+python reference_tools.py update --reference-affiliations updated_affiliations.csv
+python reference_tools.py update --reference-affiliations updated_affiliations.csv --apply
+python reference_tools.py build
+```
+
+Validation rejects missing references, out-of-range author indices, mismatched author names, duplicate author/institution rows, unsafe source links, contact details in institution fields and inconsistent reported/not-stated statuses. Affiliation tables and generated seeds are committed together; runtime access and private Purdue serial numbers are unchanged.

@@ -1,0 +1,1276 @@
+{
+  "checked_date": "2026-10-16",
+  "scope": "Institutional affiliations reported for each publication/version, not current employment or author-profile inference. Each author index is zero-based and validated against its stored full name.",
+  "limits": [
+    "Registry entries are publisher-deposited metadata; they are not represented as independently verified author biographies.",
+    "Present-address notes are excluded from parsed article-front-matter affiliations.",
+    "The Lampe 2022 preprint prints a Nano-Institute Munich group affiliation without a university name; that text is preserved without inference.",
+    "The Rumble 2019 paper gives John Broome an Ottawa, CA address but no institution; this is explicitly not_stated.",
+    "The Roy/Mukhopadhyay supplied article has an unresolved registry DOI; affiliation evidence is its reviewed PDF title page and is labelled as a supplied article in the UI."
+  ],
+  "coverage": {
+    "references": 52,
+    "local_article_files": 42,
+    "duplicate_file_copies": 1,
+    "published_articles": 47,
+    "preprints": 5,
+    "metadata_needs_review": 1,
+    "context_links": 25,
+    "checked_claim_links": 146,
+    "default_order": "publication_year_ascending",
+    "author_entries": 402,
+    "authors_with_affiliations": 401,
+    "authors_missing_affiliations": 1,
+    "authors_affiliation_not_stated": 1,
+    "authors_affiliation_pending": 0,
+    "references_with_affiliations": 52,
+    "affiliation_records": 514
+  },
+  "references": [
+    {
+      "reference_id": "REF-18DCA84AA62D",
+      "doi": "10.1021/am302624t",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1021/am302624t",
+          "locator": "xu2013.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-CB1F7E60F962",
+      "doi": "10.1590/0104-1428.1662",
+      "author_count": 4,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1590%2F0104-1428.1662",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-1B8A93012C77",
+      "doi": "10.1109/bibm.2014.6999371",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1109/bibm.2014.6999371",
+          "locator": "caNanoLab_A_nanomaterial_data_repository_for_biomedical_research Morris 2014.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-1459F96962BC",
+      "doi": "10.1186/s13326-015-0005-5",
+      "author_count": 7,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4374589/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-669D514DB3F7",
+      "doi": "10.3103/s0147688215040024",
+      "author_count": 4,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.3103/s0147688215040024",
+          "locator": "Erkimbaev 2015 A_Universal_Metad.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-9773760A68D7",
+      "doi": "10.1039/c5nr08944a",
+      "author_count": 16,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1039%2Fc5nr08944a%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        },
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1039%2Fc5nr08944a",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-DEA08BE551A8",
+      "doi": "10.1038/srep45484",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5371993/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-5C978B93F5DA",
+      "doi": "10.1103/physrevb.95.195404",
+      "author_count": 13,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1103/physrevb.95.195404",
+          "locator": "other-kleibert2017.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-FF5B44C12861",
+      "doi": "10.1186/s13068-017-0876-z",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5525242/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-8C4B8E41222D",
+      "doi": "10.1021/acsomega.7b00759",
+      "author_count": 4,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6044572/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-20E3C9CDA0A8",
+      "doi": "10.1098/rsos.171884",
+      "author_count": 4,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6030338/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-C546FBEFD594",
+      "doi": "10.1038/s41377-018-0060-7",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6123479/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-9AA6864E528A",
+      "doi": "10.1021/acsomega.8b01881",
+      "author_count": 7,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC6217527/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-97E9BC69EB00",
+      "doi": "10.5334/dsj-2019-012",
+      "author_count": 3,
+      "authors_with_institutions": [
+        0,
+        2
+      ],
+      "institution_not_stated": [
+        1
+      ],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.5334/dsj-2019-012",
+          "locator": "Rumble 2019 902-1-5515-1-10-20190409.pdf; PDF page 1; author affiliation list. John Broome is listed with Ottawa, CA, but no institution."
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-D18BF093C30D",
+      "doi": "10.1016/j.wear.2019.202944",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://eprints.whiterose.ac.uk/id/eprint/151820/",
+          "locator": "bai2019-accepted.pdf; Accepted-version manuscript title-page author block; one shared department/institution for all six authors"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-1A623A02A7D2",
+      "doi": "10.1038/s41598-020-75967-w",
+      "author_count": 9,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7609603/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-881E66C7D754",
+      "doi": "10.3390/nano10101936",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7599915/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-C292BBE498C8",
+      "doi": "10.1038/s41467-020-19597-w",
+      "author_count": 16,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7686338/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-FECC540EA90C",
+      "doi": "10.1039/d1nr03231c",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1039%2Fd1nr03231c%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-3FA6AA8B06E0",
+      "doi": "10.1038/s41524-021-00520-w",
+      "author_count": 15,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "publisher_page",
+          "url": "https://doi.org/10.1038/s41524-021-00520-w",
+          "locator": "Article citation-author institution metadata"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-6FAA7B96669B",
+      "doi": "10.1038/s41524-021-00629-y",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "publisher_page",
+          "url": "https://doi.org/10.1038/s41524-021-00629-y",
+          "locator": "Article citation-author institution metadata"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-36037737F346",
+      "doi": "10.1038/s41467-022-29926-w",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054787/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-A12730235B6E",
+      "doi": "10.1039/d2nr03712b",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1039%2Fd2nr03712b%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-2B58D7070E0F",
+      "doi": "10.1186/s12989-021-00442-x",
+      "author_count": 12,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8728981/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-9A8ACDF7DC3D",
+      "doi": "10.1016/j.compscitech.2022.109363",
+      "author_count": 3,
+      "authors_with_institutions": [
+        0,
+        1,
+        2
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1016/j.compscitech.2022.109363",
+          "locator": "scaffaro2022.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-A18B8DB1ADFC",
+      "doi": "10.48550/arxiv.2210.09783",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://arxiv.org/pdf/2210.09783v1",
+          "locator": "ml-lampe2022.pdf; PDF page 1, affiliation markers 1 and 2. Affiliation 1 retained exactly as printed; no university name inferred."
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-9843819D5591",
+      "doi": "10.1063/5.0100657",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1063%2F5.0100657",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-F47C1575F2CD",
+      "doi": "10.1016/j.polymdegradstab.2023.110278",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1016/j.polymdegradstab.2023.110278",
+          "locator": "delbosque2023-hydrothermal-ageing.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-2AF830405DFB",
+      "doi": "10.48550/arxiv.2303.10469",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://arxiv.org/pdf/2303.10469v1",
+          "locator": "nathanael2023.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-20918C55AB9B",
+      "doi": "10.1021/acsami.2c22162",
+      "author_count": 4,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1021%2Facsami.2c22162%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-0D7D4A923858",
+      "doi": "10.48550/arxiv.2309.00349",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://arxiv.org/pdf/2309.00349v1",
+          "locator": "ml-yoo2023.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-7F0A9F422735",
+      "doi": "10.1038/s41597-023-02501-8",
+      "author_count": 35,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10502089/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-FE86B9BC9BE2",
+      "doi": "10.1007/s40820-023-01222-2",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10628103/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-64316ABBCDBF",
+      "doi": "10.1007/s40820-023-01257-5",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10689708/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-CB807EB452AB",
+      "doi": "10.1007/s42114-023-00827-w",
+      "author_count": 3,
+      "authors_with_institutions": [
+        0,
+        1,
+        2
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1007/s42114-023-00827-w",
+          "locator": "scaffaro2024.pdf; PDF page 1; affiliation marker 1"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-6EB15E9D0564",
+      "doi": "10.3390/ma17051088",
+      "author_count": 8,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10934506/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        },
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.3390%2Fma17051088%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-AE397253458C",
+      "doi": "10.1002/adfm.202312561",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1002%2Fadfm.202312561",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-853696934496",
+      "doi": "10.48550/arxiv.2404.01006",
+      "author_count": 11,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://arxiv.org/pdf/2404.01006v1",
+          "locator": "li2024.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-1110175424B9",
+      "doi": "10.1002/smtd.202301763",
+      "author_count": 9,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1002%2Fsmtd.202301763%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-0A33E81203AA",
+      "doi": "10.1039/d4dd00104d",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1039%2Fd4dd00104d",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-7939F61E47C2",
+      "doi": "10.1021/acs.nanolett.4c01850",
+      "author_count": 7,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11328164/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-EF3B4AF5F5B9",
+      "doi": "10.1016/j.csbj.2024.10.020",
+      "author_count": 7,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11550189/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-8508E2857729",
+      "doi": "10.3390/app142411683",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.3390%2Fapp142411683",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-D0CCF2644737",
+      "doi": "10.1038/s41598-024-82728-6",
+      "author_count": 6,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11794646/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-E2CE24FAF2D6",
+      "doi": "10.1038/s43246-025-00736-z",
+      "author_count": 10,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "publisher_page",
+          "url": "https://doi.org/10.1038/s43246-025-00736-z",
+          "locator": "Article citation-author institution metadata"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-EFB6B5BC5792",
+      "doi": "10.1038/s41467-025-64458-z",
+      "author_count": 3,
+      "authors_with_institutions": [
+        0,
+        1,
+        2
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "article_full_text",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12552508/fullTextXML",
+          "locator": "Article front matter; author-to-affiliation cross-references (present addresses excluded)"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-34B02AD08192",
+      "doi": "10.1007/s11051-025-06472-2",
+      "author_count": 8,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.1007/s11051-025-06472-2",
+          "locator": "Dhaka 2025 article.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-ED683576037E",
+      "doi": "10.22034/ijism.2026.2022500.1393",
+      "author_count": 2,
+      "authors_with_institutions": [
+        0,
+        1
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://doi.org/10.22034/ijism.2026.2022500.1393",
+          "locator": "10.22034_ijism.2026.2022500.1393.pdf; PDF title-page author affiliations"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-0BBA41E8870B",
+      "doi": "10.1016/j.impact.2025.100602",
+      "author_count": 5,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "europe_pmc_metadata",
+          "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=DOI%3A%2210.1016%2Fj.impact.2025.100602%22&format=json&resultType=core&pageSize=1",
+          "locator": "Exact-DOI article authorAffiliationDetailsList"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-F86A67571673",
+      "doi": "10.3390/make8010010",
+      "author_count": 3,
+      "authors_with_institutions": [
+        0,
+        1,
+        2
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.3390%2Fmake8010010",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-FCFC50CCA023",
+      "doi": "10.1002/mgea.70056",
+      "author_count": 9,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "crossref_deposit",
+          "url": "https://api.crossref.org/works/10.1002%2Fmgea.70056",
+          "locator": "Exact-DOI publisher deposit; author affiliation array"
+        }
+      ]
+    },
+    {
+      "reference_id": "REF-59A237EFFA76",
+      "doi": "10.48550/arxiv.2609.01740",
+      "author_count": 10,
+      "authors_with_institutions": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "institution_not_stated": [],
+      "pending_author_indices": [],
+      "sources": [
+        {
+          "kind": "local_article",
+          "url": "https://arxiv.org/pdf/2609.01740v1",
+          "locator": "3D tokenization article.pdf; PDF title-page author affiliations"
+        }
+      ]
+    }
+  ]
+}

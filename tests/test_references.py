@@ -7,7 +7,7 @@ import sys
 
 import pytest
 
-from reference_tools import ROOT, REFERENCE_FIELDS, build, exports, normalize_doi, read_database, sort_references, validate_database, write_csv
+from reference_tools import ROOT, REFERENCE_FIELDS, AFFILIATION_FIELDS, build, exports, normalize_doi, read_database, sort_references, validate_database, write_csv, coverage
 
 
 def test_article_only_import_deduplicates_work_and_retains_copies():
@@ -103,3 +103,47 @@ def test_export_escapes_tex_and_doi_normalization():
     bib=exports([record])['bibtex']
     assert r'\{example\} \& 50\% \_ \# \$ \textbackslash{}' in bib
     assert normalize_doi(' https://DOI.org/10.3390%2FMA17051088 ')=='10.3390/ma17051088'
+
+
+def test_affiliations_cover_every_author_entry_without_inventing_an_unstated_institution():
+    data=read_database();stats=coverage(data)
+    assert stats['author_entries']==402 and stats['authors_with_affiliations']==401
+    assert stats['authors_affiliation_not_stated']==1 and stats['authors_affiliation_pending']==0
+    assert stats['references_with_affiliations']==52
+    absent=next(a for a in data['reference_affiliations'] if a['affiliation_status']=='not_stated')
+    assert absent['author_name']=='John Broome' and absent['institution']==''
+    assert 'Ottawa' in absent['source_locator']
+    assert all(a['source_url'] and a['source_locator'] and '@' not in a['institution'] for a in data['reference_affiliations'])
+    ghiringhelli=next(r for r in data['references'] if r['doi']=='10.1038/s41597-023-02501-8')
+    institutions=[a['institution'] for a in data['reference_affiliations'] if a['reference_id']==ghiringhelli['reference_id'] and a['author_index']=='0']
+    assert len(institutions)==2 and not any('Friedrich' in i for i in institutions)
+
+
+@pytest.mark.parametrize('change,message',[
+    ('index','existing reference and author index'),('name','does not match'),('url','safe source URL'),('duplicate','Duplicate author institution'),('contact','contact details'),('locator','source locator'),('status','Affiliation status'),('conflicting','both reported and not-stated')
+])
+def test_affiliation_validation_rejects_mismatched_authorship_and_unsourced_data(change,message):
+    data=copy.deepcopy(read_database());item=data['reference_affiliations'][0]
+    if change=='index':item['author_index']='999'
+    elif change=='name':item['author_name']='A Different Author'
+    elif change=='url':item['source_url']='javascript:alert(1)'
+    elif change=='duplicate':data['reference_affiliations'].append({**item,'affiliation_id':'AFF-DUPLICATE'})
+    elif change=='contact':item['institution']='contact@example.edu'
+    elif change=='locator':item['source_locator']=''
+    elif change=='status':item['affiliation_status']='not_stated'
+    elif change=='conflicting':data['reference_affiliations'].append({**item,'affiliation_id':'AFF-CONFLICT','affiliation_status':'not_stated','institution':''})
+    with pytest.raises(ValueError,match=message):validate_database(data)
+
+
+def test_affiliation_updates_use_the_existing_validated_csv_importer(tmp_path):
+    shutil.copytree(ROOT/'catalog',tmp_path/'catalog');data=read_database(tmp_path)
+    original=data['reference_affiliations'][0];updated={**original,'source_locator':original['source_locator']+'; curator rechecked'}
+    incoming=tmp_path/'affiliations.csv';write_csv(incoming,[updated],AFFILIATION_FIELDS)
+    command=[sys.executable,str(ROOT/'reference_tools.py'),'update','--root',str(tmp_path),'--reference-affiliations',str(incoming)]
+    before=(tmp_path/'catalog/reference_affiliations.csv').read_bytes()
+    subprocess.run(command,capture_output=True,check=True)
+    assert (tmp_path/'catalog/reference_affiliations.csv').read_bytes()==before
+    subprocess.run([*command,'--apply'],capture_output=True,check=True)
+    after=read_database(tmp_path)
+    assert next(a for a in after['reference_affiliations'] if a['affiliation_id']==original['affiliation_id'])==updated
+    assert after['references']==data['references'] and after['reference_links']==data['reference_links']

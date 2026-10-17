@@ -15,7 +15,8 @@ ROOT = Path(__file__).resolve().parent
 REFERENCE_FIELDS = ['reference_id', 'reference_type', 'title', 'authors_json', 'publication_year', 'publication_date', 'container_title', 'volume', 'issue', 'pages', 'article_number', 'doi', 'url', 'publication_status', 'peer_review_status', 'metadata_status', 'metadata_source_url', 'checked_date', 'topics', 'notes']
 LINK_FIELDS = ['link_id', 'reference_id', 'target_type', 'target_id', 'relation', 'claim', 'locator', 'review_status', 'scope', 'review_date']
 FILE_FIELDS = ['file_id', 'reference_id', 'source_filename', 'sha256', 'page_count', 'local_version']
-TABLES = {'references': REFERENCE_FIELDS, 'reference_links': LINK_FIELDS, 'reference_files': FILE_FIELDS}
+AFFILIATION_FIELDS = ['affiliation_id', 'reference_id', 'author_index', 'author_name', 'institution', 'affiliation_status', 'source_url', 'source_kind', 'source_locator', 'checked_date']
+TABLES = {'references': REFERENCE_FIELDS, 'reference_links': LINK_FIELDS, 'reference_files': FILE_FIELDS, 'reference_affiliations': AFFILIATION_FIELDS}
 
 
 def load_csv(path):
@@ -48,6 +49,10 @@ def authors(record):
     return json.loads(record['authors_json'])
 
 
+def author_name(author):
+    return author.get('literal') or ' '.join(filter(None, [author.get('given'), author.get('family'), author.get('suffix')]))
+
+
 def sort_references(records):
     return sorted(records, key=lambda r: (int(r['publication_year']) if r['publication_year'] else 9999, r['publication_date'] or r['publication_year'], (authors(r)[0].get('family') or authors(r)[0].get('literal', '')).casefold(), r['title'].casefold(), r['reference_id']))
 
@@ -67,6 +72,7 @@ def validate_database(data, root=ROOT):
         if len(set(ids)) != len(ids) or any(not re.fullmatch(r'[A-Za-z0-9_-]+', x) for x in ids):
             raise ValueError(f'{name}: invalid or duplicate IDs')
     known = {r['reference_id'] for r in data['references']}
+    by_id = {r['reference_id']: r for r in data['references']}
     dois = set()
     for row in data['references']:
         if row['reference_type'] not in {'journal_article', 'conference_paper', 'preprint'}:
@@ -118,6 +124,34 @@ def validate_database(data, root=ROOT):
             raise ValueError('File provenance uses article basenames only; no absolute paths')
         if not item['page_count'].isdigit() or int(item['page_count']) < 1:
             raise ValueError('Invalid PDF page count')
+    affiliation_keys = set()
+    for item in data['reference_affiliations']:
+        record = by_id.get(item['reference_id'])
+        if not record or not re.fullmatch(r'0|[1-9]\d*', item['author_index']) or int(item['author_index']) >= len(authors(record)):
+            raise ValueError('Affiliation needs an existing reference and author index')
+        if item['author_name'] != author_name(authors(record)[int(item['author_index'])]):
+            raise ValueError('Affiliation author name does not match its indexed author')
+        institution = item['institution'].strip()
+        if item['affiliation_status'] not in {'reported', 'not_stated'} or (item['affiliation_status'] == 'reported') != bool(institution):
+            raise ValueError('Affiliation status must distinguish a reported institution from one not stated')
+        if len(institution) > 2000 or '@' in institution:
+            raise ValueError('Affiliation needs an institution without author contact details')
+        key = (item['reference_id'], item['author_index'], institution.casefold())
+        if key in affiliation_keys:
+            raise ValueError('Duplicate author institution')
+        affiliation_keys.add(key)
+        url = urlsplit(item['source_url'])
+        if url.scheme not in {'https', 'http'} or not url.netloc:
+            raise ValueError('Affiliation needs a safe source URL')
+        if item['source_kind'] not in {'article_full_text', 'publisher_page', 'crossref_deposit', 'europe_pmc_metadata', 'local_article'}:
+            raise ValueError('Invalid affiliation source kind')
+        if not item['source_locator'].strip():
+            raise ValueError('Affiliation needs a source locator')
+        date.fromisoformat(item['checked_date'])
+    for ref_id, index in {(a['reference_id'], a['author_index']) for a in data['reference_affiliations']}:
+        statuses={a['affiliation_status'] for a in data['reference_affiliations'] if a['reference_id']==ref_id and a['author_index']==index}
+        if len(statuses)>1:
+            raise ValueError('An author cannot have both reported and not-stated affiliations')
     return True
 
 
@@ -156,7 +190,10 @@ def exports(records):
 
 def coverage(data):
     records=data['references']
-    return {'references': len(records), 'local_article_files': len(data['reference_files']), 'duplicate_file_copies': len(data['reference_files'])-len({x['reference_id'] for x in data['reference_files']}), 'published_articles': sum(r['publication_status']=='published' for r in records), 'preprints': sum(r['publication_status']=='preprint' for r in records), 'metadata_needs_review': sum(r['metadata_status'] in {'pdf_checked','needs_review'} for r in records), 'context_links': sum(l['relation']=='background' for l in data['reference_links']), 'checked_claim_links': sum(l['relation']=='supports_claim' for l in data['reference_links']), 'default_order': 'publication_year_ascending'}
+    affiliations=data['reference_affiliations']
+    linked={(a['reference_id'],a['author_index']) for a in affiliations if a['affiliation_status']=='reported'}
+    not_stated={(a['reference_id'],a['author_index']) for a in affiliations if a['affiliation_status']=='not_stated'}
+    return {'references': len(records), 'local_article_files': len(data['reference_files']), 'duplicate_file_copies': len(data['reference_files'])-len({x['reference_id'] for x in data['reference_files']}), 'published_articles': sum(r['publication_status']=='published' for r in records), 'preprints': sum(r['publication_status']=='preprint' for r in records), 'metadata_needs_review': sum(r['metadata_status'] in {'pdf_checked','needs_review'} for r in records), 'context_links': sum(l['relation']=='background' for l in data['reference_links']), 'checked_claim_links': sum(l['relation']=='supports_claim' for l in data['reference_links']), 'default_order': 'publication_year_ascending', 'author_entries':sum(len(authors(r)) for r in records), 'authors_with_affiliations':len(linked), 'authors_missing_affiliations':sum(len(authors(r)) for r in records)-len(linked), 'authors_affiliation_not_stated':len(not_stated), 'authors_affiliation_pending':sum(len(authors(r)) for r in records)-len(linked)-len(not_stated), 'references_with_affiliations':len({a['reference_id'] for a in affiliations if a['affiliation_status']=='reported'}), 'affiliation_records':len(affiliations)}
 
 
 def build(root=ROOT, sqlite_path=None):
