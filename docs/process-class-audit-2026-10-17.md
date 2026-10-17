@@ -1,5 +1,7 @@
 # Process step M-class audit — 17 October 2026
 
+The [functional process review](process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
+
 Update: **M82–M88 are now active.** See the [implementation and model evidence](m82-m88-implementation-2026-10-17.md). The original recommendations below are retained as the source-review history; current status is in the implementation ledger and app.
 
 Reviewed 42 processes, 175 displayed steps (173 source steps plus 2 capability-only planning stages) and 257 classified machine slots. Material-family route narratives are outside the Processes tab and excluded from these counts. No canonical required machine slot has an empty class. Twenty-nine source actions establish no separate machine class; these previously appeared as clickable blank-looking equipment placeholders.

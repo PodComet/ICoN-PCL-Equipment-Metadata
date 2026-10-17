@@ -3,6 +3,7 @@ import seed from '../../data/catalog.json';
 import {getChatGPTUser} from '../../chatgpt-auth';
 import {loadSharedCatalog,personalRecord} from '../../catalog-store';
 import {newProcessId,validateWorkflow,type ProcessWorkflow} from '../../process-lib';
+import {normalizeWorkflowClasses} from '../../process-classification-lib';
 
 const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 type Stored={workflow_id:string;payload:string;revision:number;created_at:string;updated_at:string};
@@ -44,7 +45,8 @@ export async function PUT(request:Request){
   const shared=await loadSharedCatalog(),byId=new Map(shared.records.map(r=>[r.equipment_id,r]));
   const edits=await env.DB!.prepare('SELECT equipment_id,payload FROM equipment_edits WHERE user_id=?').bind(user.userId).all<{equipment_id:string;payload:string}>();
   for(const edit of edits.results)byId.set(edit.equipment_id,personalRecord(byId.get(edit.equipment_id),JSON.parse(edit.payload)));
-  let workflow:ProcessWorkflow;try{workflow=validateWorkflow(input.workflow,seed.routes,[...byId.values()],previous?JSON.parse(previous.payload):undefined)}catch(e){return json({error:e instanceof Error?e.message:'Invalid workflow.'},400)}
+  const records=[...byId.values()],existing=previous?normalizeWorkflowClasses(JSON.parse(previous.payload),seed.steps,records,seed.categories):undefined;
+  let workflow:ProcessWorkflow;try{workflow=validateWorkflow(input.workflow,seed.routes,records,existing)}catch(e){return json({error:e instanceof Error?e.message:'Invalid workflow.'},400)}
   const now=new Date().toISOString(),revision=(previous?.revision||0)+1;
   if(!previous)workflow.workflow_id=newProcessId('PROC-'+workflow.route_id);
   const payload=JSON.stringify(workflow),created=previous?.created_at||now;

@@ -17,7 +17,7 @@ def test_breadth_review_records_decisions_without_claiming_complete_bibliographi
     assert len(held)==1 and len(conflicts)==2
     assert not {r['cited_doi'] for r in held+conflicts}&{r['doi'].lower() for r in data['references']}
     new_ids=set(audit['new_reference_ids'])
-    assert sum(l['relation']=='supports_claim' and l['reference_id'] in new_ids for l in data['reference_links'])==70
+    assert sum(l['relation']=='supports_claim' and l['reference_id'] in new_ids for l in data['reference_links'])==72
 
 
 def test_new_routes_keep_source_stages_and_do_not_force_unrelated_equipment_classes():

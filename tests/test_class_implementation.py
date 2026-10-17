@@ -18,7 +18,10 @@ def test_new_classes_have_exact_model_photos_pricing_provenance_and_inventory_re
     designated=[r for r in records.values() if r['purdue_list']=='true']
     for addition in additions:
         row=records[addition['equipment_id']]
-        assert row==addition
+        refinement=json.loads((ROOT/'catalog/process_class_refinement_2026-10-17.json').read_text(encoding='utf-8'))
+        update=next((u for u in refinement['equipment_updates'] if u['equipment_id']==row['equipment_id']),None)
+        overrides={k:v for g in update['groups'] for k,v in g['after'].items()} if update else {}
+        assert row=={**addition,**overrides}
         assert row['image_url'] and row['image_source_url'] and row['image_scope']
         assert row['product_page_url'] and row['technical_spec_url']
         assert row['association_basis'] and row['equipment_subtype']
@@ -59,6 +62,6 @@ def test_step_extensions_preserve_source_sequences_optional_branches_and_wet_pro
         else:
             assert [link['category_id']] in req['required_branches']
         assert req['readiness_review_required']
-    wet=[r for r in review['new_records'] if r['category_id']=='M85']
-    assert all(r['related_process_ids']=='P42' for r in wet)
+    wet=[r for r in load_csv(ROOT/'catalog/equipment.csv') if r['category_id']=='M85']
+    assert all({'P05','P06','P42'} <= set(records['related_process_ids'].split(';')) for records in wet)
     assert all('wafer_wet_processing' in r['equipment_subtype'] for r in wet)

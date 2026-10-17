@@ -8192,5 +8192,433 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "EXT-M82-EF4A3293342F",
+    "manufacturer": "Eppendorf",
+    "model_name": "Research plus 0.1-2.5 uL (3123000012)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-3FA50D6A2507",
+    "manufacturer": "Eppendorf",
+    "model_name": "Reference 2 0.1-2.5 uL (4924000010)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-1C888A792DD5",
+    "manufacturer": "Eppendorf",
+    "model_name": "Xplorer plus 0.5-10 uL (4861000708)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-1D4C9E801009",
+    "manufacturer": "Eppendorf",
+    "model_name": "Repeater E3x (4987000134)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-E6C1E6265C14",
+    "manufacturer": "Gilson",
+    "model_name": "PIPETMAN L P1000L metal ejector (FA10006M)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-724948522D93",
+    "manufacturer": "Gilson",
+    "model_name": "MICROMAN E M1000E (FD10006)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-EFCF96C2359A",
+    "manufacturer": "Gilson",
+    "model_name": "PIPETMAN M Connected P1200M (F81045)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-9E949E29441B",
+    "manufacturer": "Gilson",
+    "model_name": "DISTRIMAN (F164001)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-076E4B7363A5",
+    "manufacturer": "Sartorius",
+    "model_name": "Tacta 100-1000 uL (LH-729070)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M82-305ACD258B8B",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Finnpipette F2 fixed 10 uL (4652020)",
+    "groups": [
+      {
+        "before": {
+          "related_material_ids": "N01;N02;N05;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+        },
+        "after": {
+          "related_material_ids": "N01;N02;N05;N06;N09",
+          "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-A2740C430AE1",
+    "manufacturer": "Cleatech",
+    "model_name": "1800-1-A Wet Processing Station 4FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-68905D3FE4B8",
+    "manufacturer": "Cleatech",
+    "model_name": "1800-1-B Wet Processing Station 5FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-A599248A7845",
+    "manufacturer": "Cleatech",
+    "model_name": "1800-1-C Wet Processing Station 6FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-DB1DA420DA8C",
+    "manufacturer": "Cleatech",
+    "model_name": "1820-1-A Integrated Laminar Flow Wet Bench 3FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-DEAE1D249E24",
+    "manufacturer": "Cleatech",
+    "model_name": "1820-1-B Integrated Laminar Flow Wet Bench 4FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-2978C6739C8E",
+    "manufacturer": "Cleatech",
+    "model_name": "1820-1-C Integrated Laminar Flow Wet Bench 6FT",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-AD05F36523FB",
+    "manufacturer": "Modutek",
+    "model_name": "8878 / 8878-9500 Semi-Auto Wet Bench",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-D3B19BD24178",
+    "manufacturer": "WAFAB International",
+    "model_name": "48-inch WPP Wet Bench",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-0B8154024E10",
+    "manufacturer": "Modutek",
+    "model_name": "Stainless Steel Solvent Station - Manual configuration",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      },
+      {
+        "before": {
+          "equipment_subtype": "wafer_wet_processing",
+          "notes": "Manufacturer explicitly offers manual configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility."
+        },
+        "after": {
+          "equipment_subtype": "wafer_wet_processing;solvent_processing",
+          "notes": "Manufacturer explicitly offers manual configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility. Manufacturer documents solvent/acetone/IPA and photoresist-stripping applications for this family. Solvent-processing eligibility is family-level and requires configured chemistry, exhaust, interlocks and fire-protection review."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M85-201D3C1451E6",
+    "manufacturer": "Modutek",
+    "model_name": "Stainless Steel Solvent Station - Semi-Automated configuration",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P42",
+          "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+        },
+        "after": {
+          "related_process_ids": "P05;P06;P42",
+          "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+        }
+      },
+      {
+        "before": {
+          "equipment_subtype": "wafer_wet_processing",
+          "notes": "Manufacturer explicitly offers semi-automated configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility."
+        },
+        "after": {
+          "equipment_subtype": "wafer_wet_processing;solvent_processing",
+          "notes": "Manufacturer explicitly offers semi-automated configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility. Manufacturer documents solvent/acetone/IPA and photoresist-stripping applications for this family. Solvent-processing eligibility is family-level and requires configured chemistry, exhaust, interlocks and fire-protection review."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M87-A7C4F7B49549",
+    "manufacturer": "Ladd Research",
+    "model_name": "21800 Double End Mold",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P16",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+        },
+        "after": {
+          "related_process_ids": "P16;P29;P31;P37",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M87-D03834FB4F5B",
+    "manufacturer": "Ladd Research",
+    "model_name": "21829 Four Bar Cavities Silicone Mold",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P16",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+        },
+        "after": {
+          "related_process_ids": "P16;P29;P31;P37",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M87-0288A353F573",
+    "manufacturer": "Ladd Research",
+    "model_name": "21838A Six Shallow Blocks Silicone Mold",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P16",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+        },
+        "after": {
+          "related_process_ids": "P16;P29;P31;P37",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M87-03FE28D6E3FD",
+    "manufacturer": "Ladd Research",
+    "model_name": "21810 Round Cavity Silicone Mold 10 mm",
+    "groups": [
+      {
+        "before": {
+          "related_process_ids": "P16",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+        },
+        "after": {
+          "related_process_ids": "P16;P29;P31;P37",
+          "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+        }
+      }
+    ]
   }
 ]

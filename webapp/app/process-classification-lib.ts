@@ -5,12 +5,21 @@ export function pendingClassSlots(step:ProcessStep):ProcessSlot[]{
  const value=step.extensions[PENDING_CLASSES];
  return Array.isArray(value)?value.filter(v=>!!v&&typeof v==='object'&&!Array.isArray(v)&&typeof v.slot_id==='string'&&typeof v.label==='string'&&Array.isArray(v.allowed_category_ids)&&v.instrument===null&&!!v.extensions&&typeof v.extensions==='object'&&!Array.isArray(v.extensions)) as unknown as ProcessSlot[]:[];
 }
+/** Capability corrections follow the exact current model; configuration and prices stay with the saved occurrence. */
+function refreshSlotCapability(slot:ProcessSlot,records:Equipment[]):ProcessSlot{
+ const i=slot.instrument;if(!i||slot.extensions.allowed_equipment_subtypes===undefined)return slot;
+ const identity=(s:string)=>(s||'').normalize('NFKC').trim().toLowerCase();
+ const current=records.find(r=>r.equipment_id===i.equipment_id&&identity(r.manufacturer)===identity(i.equipment_snapshot.manufacturer)&&identity(r.model_name)===identity(i.equipment_snapshot.model_name));
+ if(!current||(current.equipment_subtype||'')===(i.equipment_snapshot.equipment_subtype||''))return slot;
+ return {...slot,instrument:{...i,equipment_snapshot:{...i.equipment_snapshot,equipment_subtype:current.equipment_subtype||''},extensions:{...i.extensions,capability_classification_refresh:{previous_subtype:i.equipment_snapshot.equipment_subtype||'',current_subtype:current.equipment_subtype||'',basis:'Exact current ontology model classification; saved operation configuration and price retained.'}}}};
+}
 /** Unknown saved requests retain their IDs and metadata outside the machine-slot grid. */
 export function normalizeWorkflowClasses(workflow:ProcessWorkflow,sources:Record<string,string>[],records:Equipment[],categories:Record<string,string>[]):ProcessWorkflow{
  const expanded=expandWorkflowRequirements(workflow,sources),known=new Set(categories.map(c=>c.category_id).filter(id=>/^M\d{2,3}$/.test(id)));
  return {...expanded,steps:expanded.steps.map(step=>{
   const pending=new Map(pendingClassSlots(step).map(s=>[s.slot_id,structuredClone(s)])),slots:ProcessSlot[]=[];
-  for(const original of step.slots){
+  for(const saved of step.slots){
+   const original=refreshSlotCapability(saved,records);
    if(!original.instrument&&!original.allowed_category_ids.length&&original.label==='Unclassified required apparatus'&&Object.keys(original.extensions).length===1&&original.extensions.requirement_role==='unclassified'&&[...pending.values()].some(p=>p.extensions.requirement_role==='unclassified'))continue;
    const resolved=[...new Set(original.allowed_category_ids.flatMap(id=>{
     if(known.has(id))return [id];

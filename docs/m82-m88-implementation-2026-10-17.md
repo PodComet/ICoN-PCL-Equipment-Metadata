@@ -1,5 +1,7 @@
 # M82–M88 implementation — 17 October 2026
 
+The [functional process review](process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
+
 Seven user-authorized project classes add 67 model/configuration records. All have source-linked photos (58 unique image URLs checked HTTP 200 with image content types). 58 have exact published numeric prices: 42 manufacturer prices and 16 seller offers; nine configurations remain quote-only. None of the new prices is asserted to be MSRP. Original currency and offer condition are retained; the app displays the existing dated USD conversion.
 
 | Class | Scope | Models / variants | Photos | Published prices |

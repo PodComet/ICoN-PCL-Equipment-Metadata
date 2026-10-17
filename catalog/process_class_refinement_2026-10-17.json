@@ -1,0 +1,1409 @@
+{
+  "schema": "process-class-refinement/v1",
+  "checked_date": "2026-10-17",
+  "inventory": {
+    "canonical_steps": 227,
+    "canonical_process_steps": 173,
+    "canonical_material_family_steps": 54,
+    "extra_capability_stages_not_in_csv": 2,
+    "rendered_process_stages": 175
+  },
+  "audited_step_ids": [
+    "N01.1",
+    "N01.2",
+    "N01.3",
+    "N01.4",
+    "N01.5",
+    "N01.6",
+    "N02.1",
+    "N02.2",
+    "N02.3",
+    "N02.4",
+    "N02.5",
+    "N02.6",
+    "N03.1",
+    "N03.2",
+    "N03.3",
+    "N03.4",
+    "N03.5",
+    "N03.6",
+    "N04.1",
+    "N04.2",
+    "N04.3",
+    "N04.4",
+    "N04.5",
+    "N04.6",
+    "N05.1",
+    "N05.2",
+    "N05.3",
+    "N05.4",
+    "N05.5",
+    "N05.6",
+    "N06.1",
+    "N06.2",
+    "N06.3",
+    "N06.4",
+    "N06.5",
+    "N06.6",
+    "N07.1",
+    "N07.2",
+    "N07.3",
+    "N07.4",
+    "N07.5",
+    "N07.6",
+    "N08.1",
+    "N08.2",
+    "N08.3",
+    "N08.4",
+    "N08.5",
+    "N08.6",
+    "N09.1",
+    "N09.2",
+    "N09.3",
+    "N09.4",
+    "N09.5",
+    "N09.6",
+    "P01.1",
+    "P01.2",
+    "P01.3",
+    "P01.4",
+    "P01.5",
+    "P03.1",
+    "P03.2",
+    "P03.3",
+    "P03.4",
+    "P03.5",
+    "P04.1",
+    "P04.2",
+    "P04.3",
+    "P04.4",
+    "P04.5",
+    "P05.1",
+    "P05.2",
+    "P05.3",
+    "P05.4",
+    "P05.5",
+    "P06.1",
+    "P06.2",
+    "P06.3",
+    "P06.4",
+    "P06.5",
+    "P07.1",
+    "P07.2",
+    "P07.3",
+    "P07.4",
+    "P07.5",
+    "P08.1",
+    "P08.2",
+    "P08.3",
+    "P08.4",
+    "P08.5",
+    "P09.1",
+    "P09.2",
+    "P09.3",
+    "P09.4",
+    "P09.5",
+    "P10.1",
+    "P10.2",
+    "P10.3",
+    "P10.4",
+    "P10.5",
+    "P11.1",
+    "P11.2",
+    "P11.3",
+    "P11.4",
+    "P11.5",
+    "P12.1",
+    "P12.2",
+    "P12.3",
+    "P12.4",
+    "P12.5",
+    "P15.1",
+    "P15.2",
+    "P15.3",
+    "P15.4",
+    "P15.5",
+    "P16.1",
+    "P16.2",
+    "P16.3",
+    "P17.1",
+    "P17.2",
+    "P17.3",
+    "P17.4",
+    "P18.1",
+    "P18.2",
+    "P18.3",
+    "P18.4",
+    "P19.1",
+    "P19.2",
+    "P19.3",
+    "P19.4",
+    "P20.1",
+    "P20.2",
+    "P20.3",
+    "P21.1",
+    "P21.2",
+    "P21.3",
+    "P21.4",
+    "P21.5",
+    "P22.1",
+    "P22.2",
+    "P22.3",
+    "P22.4",
+    "P23.1",
+    "P23.2",
+    "P23.3",
+    "P23.4",
+    "P24.1",
+    "P24.2",
+    "P24.3",
+    "P24.4",
+    "P25.1",
+    "P25.2",
+    "P25.3",
+    "P25.4",
+    "P25.5",
+    "P25.6",
+    "P26.1",
+    "P26.2",
+    "P26.3",
+    "P26.4",
+    "P26.5",
+    "P27.1",
+    "P27.2",
+    "P27.3",
+    "P27.4",
+    "P28.1",
+    "P28.2",
+    "P28.3",
+    "P29.1",
+    "P29.2",
+    "P29.3",
+    "P29.4",
+    "P30.1",
+    "P30.2",
+    "P30.3",
+    "P31.1",
+    "P31.2",
+    "P31.3",
+    "P31.4",
+    "P31.5",
+    "P32.1",
+    "P32.2",
+    "P32.3",
+    "P32.4",
+    "P33.1",
+    "P33.2",
+    "P33.3",
+    "P33.4",
+    "P34.1",
+    "P34.2",
+    "P34.3",
+    "P34.4",
+    "P34.5",
+    "P35.1",
+    "P35.2",
+    "P35.3",
+    "P35.4",
+    "P35.5",
+    "P36.1",
+    "P36.2",
+    "P36.3",
+    "P36.4",
+    "P37.1",
+    "P37.2",
+    "P37.3",
+    "P37.4",
+    "P38.1",
+    "P38.2",
+    "P38.3",
+    "P38.4",
+    "P39.1",
+    "P39.2",
+    "P39.3",
+    "P39.4",
+    "P40.1",
+    "P40.2",
+    "P40.3",
+    "P40.4",
+    "P41.1",
+    "P41.2",
+    "P41.3",
+    "P41.4",
+    "P42.1",
+    "P42.2",
+    "P42.3",
+    "P42.4",
+    "P42.5",
+    "P43.1"
+  ],
+  "summary": {
+    "reviewed_canonical_stages": 227,
+    "reviewed_capability_stages": 2,
+    "updated_process_stages": 7,
+    "updated_material_stages": 1,
+    "primary_function_replacements": 1,
+    "extra_claim_links": 3
+  },
+  "changes": [
+    {
+      "step_id": "N06.5",
+      "before": {
+        "route_id": "N06",
+        "step_order": "5",
+        "step_label": "Fill / preserve",
+        "equipment_sequence": "Fill containers. M17 drying only for a validated formulation.",
+        "equipment_category_ids": "M17",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "11",
+        "requirements_json": ""
+      },
+      "after": {
+        "route_id": "N06",
+        "step_order": "5",
+        "step_label": "Fill / preserve",
+        "equipment_sequence": "Fill containers. M17 drying only for a validated formulation.",
+        "equipment_category_ids": "M82;M17",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "11",
+        "requirements_json": "{\"required_branches\":[[]],\"optional_category_ids\":[\"M82\",\"M17\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Container filling may be manual or use optional M82 liquid handling. M17 freeze drying remains a separate optional preservation operation for a validated formulation. No pipette model, mandatory automation or drying requirement is inferred from the source.\"}"
+      },
+      "reason": "Container filling may be manual or use optional M82 liquid handling. M17 freeze drying remains a separate optional preservation operation for a validated formulation. No pipette model, mandatory automation or drying requirement is inferred from the source."
+    },
+    {
+      "step_id": "P05.4",
+      "before": {
+        "route_id": "P05",
+        "step_order": "4",
+        "step_label": "Rinse / recover",
+        "equipment_sequence": "M46 rinse --> optional M18 drying.",
+        "equipment_category_ids": "M18;M46",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "24",
+        "requirements_json": "{\"required_branches\":[[\"M46\"]],\"optional_category_ids\":[\"M18\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Rinse-water provision is specified; drying is optional.\"}"
+      },
+      "after": {
+        "route_id": "P05",
+        "step_order": "4",
+        "step_label": "Rinse / recover",
+        "equipment_sequence": "M46 rinse --> optional M18 drying.",
+        "equipment_category_ids": "M85;M46;M18",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "24",
+        "requirements_json": "{\"required_branches\":[[\"M85\"]],\"optional_category_ids\":[\"M46\",\"M18\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Functional correction: M85 performs substrate rinsing; M46 is optional purified-water supply, not the rinse fixture. M18 remains optional drying. Review substrate holder, coating/chemistry compatibility, plumbing and exhaust; no exact model is asserted by the supplied source.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"]}}"
+      },
+      "reason": "Functional correction: M85 performs substrate rinsing; M46 is optional purified-water supply, not the rinse fixture. M18 remains optional drying. Review substrate holder, coating/chemistry compatibility, plumbing and exhaust; no exact model is asserted by the supplied source."
+    },
+    {
+      "step_id": "P06.3",
+      "before": {
+        "route_id": "P06",
+        "step_order": "3",
+        "step_label": "Develop / clear layer",
+        "equipment_sequence": "Wet development, OR M61 residual-layer clearing for a suitable imprint process.",
+        "equipment_category_ids": "M61",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[],[\"M61\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Wet development is a non-machine alternative to M61 residual-layer clearing for a suitable imprint route. The empty category branch means an operation with no classified machine, not omission of development. Review consistency with the pattern-definition choice.\"}"
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "3",
+        "step_label": "Develop / clear layer",
+        "equipment_sequence": "Wet development, OR M61 residual-layer clearing for a suitable imprint process.",
+        "equipment_category_ids": "M85;M61",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M85\"],[\"M61\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"],\"M61\":[\"Dry plasma etching / plasma processing\",\"Dry plasma / atomic-layer etching\"]}}"
+      },
+      "reason": "Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable."
+    },
+    {
+      "step_id": "P06.4",
+      "before": {
+        "route_id": "P06",
+        "step_order": "4",
+        "step_label": "Transfer pattern",
+        "equipment_sequence": "M61 etch, OR process-compatible M23 deposition --> wet lift-off.",
+        "equipment_category_ids": "M23;M61",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M61\"],[\"M23\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Etch OR compatible deposition followed by wet lift-off. Wet lift-off remains an operation even though no separate classified machine is established. Transfer choice must match prior patterning.\"}"
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "4",
+        "step_label": "Transfer pattern",
+        "equipment_sequence": "M61 etch, OR process-compatible M23 deposition --> wet lift-off.",
+        "equipment_category_ids": "M61;M23;M85",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M61\"],[\"M23\",\"M85\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Choose M61 etching OR the complete M23 deposition + M85 solvent lift-off branch. M85 represents wet lift-off, not deposition. Only documented solvent-processing stations are offered for the M85 slot; review resist/solvent, fire protection, exhaust and preceding patterning.\",\"allowed_subtypes_by_category\":{\"M85\":[\"solvent_processing\"]}}"
+      },
+      "reason": "Choose M61 etching OR the complete M23 deposition + M85 solvent lift-off branch. M85 represents wet lift-off, not deposition. Only documented solvent-processing stations are offered for the M85 slot; review resist/solvent, fire protection, exhaust and preceding patterning."
+    },
+    {
+      "step_id": "P29.4",
+      "before": {
+        "route_id": "P29",
+        "step_order": "4",
+        "step_label": "Cast in dish and vacuum dry film",
+        "equipment_sequence": "Cast in dish and vacuum dry film. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication.",
+        "equipment_category_ids": "M18",
+        "source_pdf": "xu2013.pdf",
+        "source_page": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "requirements_json": "{\"required_branches\":[[\"M18\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.\"}"
+      },
+      "after": {
+        "route_id": "P29",
+        "step_order": "4",
+        "step_label": "Cast in dish and vacuum dry film",
+        "equipment_sequence": "Cast in dish and vacuum dry film. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication.",
+        "equipment_category_ids": "M87;M18",
+        "source_pdf": "xu2013.pdf",
+        "source_page": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+        "requirements_json": "{\"required_branches\":[[\"M87\",\"M18\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. M87 casting fixture/dish AND M18 vacuum drying. Source methods identify both glass Petri-dish casting and vacuum-oven drying. A casting mould does not replace vacuum drying. Current commercial fixtures are planning candidates; geometry and polymer/solvent compatibility require review.\",\"allowed_subtypes_by_category\":{\"M87\":[\"casting_fixture\"]}}"
+      },
+      "reason": "M87 casting fixture/dish AND M18 vacuum drying. Source methods identify both glass Petri-dish casting and vacuum-oven drying. A casting mould does not replace vacuum drying. Current commercial fixtures are planning candidates; geometry and polymer/solvent compatibility require review."
+    },
+    {
+      "step_id": "P31.3",
+      "before": {
+        "route_id": "P31",
+        "step_order": "3",
+        "step_label": "Homogenize and cast acid sol into dish",
+        "equipment_sequence": "Homogenize and cast acid sol into dish. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60.",
+        "equipment_category_ids": "M03",
+        "source_pdf": "tang2024.pdf",
+        "source_page": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "requirements_json": "{\"required_branches\":[[\"M03\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator-reviewed functional M-class planning choices, 2026-10-16. These choices do not identify the unreported original make, model or apparatus geometry. Select a compatible model and operating configuration for this step. Prior source qualification: Homogenization is stated but its apparatus geometry is not established. High-speed stirring does not justify guessing rotor-stator M11.\"}"
+      },
+      "after": {
+        "route_id": "P31",
+        "step_order": "3",
+        "step_label": "Homogenize and cast acid sol into dish",
+        "equipment_sequence": "Homogenize and cast acid sol into dish. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60.",
+        "equipment_category_ids": "M03;M87",
+        "source_pdf": "tang2024.pdf",
+        "source_page": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+        "requirements_json": "{\"required_branches\":[[\"M03\",\"M87\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. M03 mixing/homogenization AND M87 casting fixture/dish. Source methods describe homogeneous stirring and pouring the acid sol into a culture dish. Stirrer geometry is not identified; keep the prior qualification. Select acid-compatible fixture geometry; ambient drying cabinets do not satisfy casting.\",\"allowed_subtypes_by_category\":{\"M87\":[\"casting_fixture\"]}}"
+      },
+      "reason": "M03 mixing/homogenization AND M87 casting fixture/dish. Source methods describe homogeneous stirring and pouring the acid sol into a culture dish. Stirrer geometry is not identified; keep the prior qualification. Select acid-compatible fixture geometry; ambient drying cabinets do not satisfy casting."
+    },
+    {
+      "step_id": "P37.4",
+      "before": {
+        "route_id": "P37",
+        "step_order": "4",
+        "step_label": "Cast and thermally cure",
+        "equipment_sequence": "An oven is required but its class geometry and make/model are unreported; add a reviewed slot as needed.",
+        "equipment_category_ids": "M71",
+        "source_pdf": "delbosque2023-hydrothermal-ageing.pdf",
+        "source_page": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "requirements_json": "{\"required_branches\":[[\"M71\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator-reviewed functional M-class planning choices, 2026-10-16. These choices do not identify the unreported original make, model or apparatus geometry. Select a compatible model and operating configuration for this step. Prior source qualification: An oven is explicitly required but class geometry and model are unreported. This must remain an unresolved requirement until reviewed.\"}"
+      },
+      "after": {
+        "route_id": "P37",
+        "step_order": "4",
+        "step_label": "Cast and thermally cure",
+        "equipment_sequence": "An oven is required but its class geometry and make/model are unreported; add a reviewed slot as needed.",
+        "equipment_category_ids": "M87;M71",
+        "source_pdf": "delbosque2023-hydrothermal-ageing.pdf",
+        "source_page": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+        "requirements_json": "{\"required_branches\":[[\"M87\",\"M71\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. M87 casting mould AND M71 thermal curing oven. The source reports a release-coated mould followed by oven curing. Ambient drying does not replace thermal curing. Mould geometry, release layer and temperature compatibility require review.\",\"allowed_subtypes_by_category\":{\"M87\":[\"casting_fixture\"]}}"
+      },
+      "reason": "M87 casting mould AND M71 thermal curing oven. The source reports a release-coated mould followed by oven curing. Ambient drying does not replace thermal curing. Mould geometry, release layer and temperature compatibility require review."
+    },
+    {
+      "step_id": "P42.5",
+      "before": {
+        "route_id": "P42",
+        "step_order": "5",
+        "step_label": "Lift off resist and rinse",
+        "equipment_sequence": "Source-specific lift-off; no additional machine inferred.",
+        "equipment_category_ids": "M85",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\":[[\"M85\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Lift-off and rinse remain operations, without an additional separately established machine. Curator implementation 2026-10-17: M85 is a required fixture/vessel class. A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required. These model alternatives are not asserted to have been used by the article authors.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"]}}"
+      },
+      "after": {
+        "route_id": "P42",
+        "step_order": "5",
+        "step_label": "Lift off resist and rinse",
+        "equipment_sequence": "Source-specific lift-off; no additional machine inferred.",
+        "equipment_category_ids": "M85",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\":[[\"M85\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. M85 solvent-processing station for resist lift-off/rinse. Generic acid/base polypropylene wet benches are excluded unless solvent capability is separately documented. Review the exact resist/solvent, exhaust and configured station; this is a planning eligibility filter, not an operating-procedure validation.\",\"allowed_subtypes_by_category\":{\"M85\":[\"solvent_processing\"]}}"
+      },
+      "reason": "M85 solvent-processing station for resist lift-off/rinse. Generic acid/base polypropylene wet benches are excluded unless solvent capability is separately documented. Review the exact resist/solvent, exhaust and configured station; this is a planning eligibility filter, not an operating-procedure validation."
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "EXT-M82-EF4A3293342F",
+      "manufacturer": "Eppendorf",
+      "model_name": "Research plus 0.1-2.5 uL (3123000012)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-3FA50D6A2507",
+      "manufacturer": "Eppendorf",
+      "model_name": "Reference 2 0.1-2.5 uL (4924000010)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-1C888A792DD5",
+      "manufacturer": "Eppendorf",
+      "model_name": "Xplorer plus 0.5-10 uL (4861000708)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-1D4C9E801009",
+      "manufacturer": "Eppendorf",
+      "model_name": "Repeater E3x (4987000134)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-E6C1E6265C14",
+      "manufacturer": "Gilson",
+      "model_name": "PIPETMAN L P1000L metal ejector (FA10006M)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-724948522D93",
+      "manufacturer": "Gilson",
+      "model_name": "MICROMAN E M1000E (FD10006)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-EFCF96C2359A",
+      "manufacturer": "Gilson",
+      "model_name": "PIPETMAN M Connected P1200M (F81045)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-9E949E29441B",
+      "manufacturer": "Gilson",
+      "model_name": "DISTRIMAN (F164001)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-076E4B7363A5",
+      "manufacturer": "Sartorius",
+      "model_name": "Tacta 100-1000 uL (LH-729070)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M82-305ACD258B8B",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Finnpipette F2 fixed 10 uL (4652020)",
+      "groups": [
+        {
+          "before": {
+            "related_material_ids": "N01;N02;N05;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Nanofilms and nanoscale coatings"
+          },
+          "after": {
+            "related_material_ids": "N01;N02;N05;N06;N09",
+            "related_material_types": "Metal nanoparticles;Metal-oxide nanoparticles;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Nanofilms and nanoscale coatings"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-A2740C430AE1",
+      "manufacturer": "Cleatech",
+      "model_name": "1800-1-A Wet Processing Station 4FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-68905D3FE4B8",
+      "manufacturer": "Cleatech",
+      "model_name": "1800-1-B Wet Processing Station 5FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-A599248A7845",
+      "manufacturer": "Cleatech",
+      "model_name": "1800-1-C Wet Processing Station 6FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-DB1DA420DA8C",
+      "manufacturer": "Cleatech",
+      "model_name": "1820-1-A Integrated Laminar Flow Wet Bench 3FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-DEAE1D249E24",
+      "manufacturer": "Cleatech",
+      "model_name": "1820-1-B Integrated Laminar Flow Wet Bench 4FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-2978C6739C8E",
+      "manufacturer": "Cleatech",
+      "model_name": "1820-1-C Integrated Laminar Flow Wet Bench 6FT",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-AD05F36523FB",
+      "manufacturer": "Modutek",
+      "model_name": "8878 / 8878-9500 Semi-Auto Wet Bench",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-D3B19BD24178",
+      "manufacturer": "WAFAB International",
+      "model_name": "48-inch WPP Wet Bench",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-0B8154024E10",
+      "manufacturer": "Modutek",
+      "model_name": "Stainless Steel Solvent Station - Manual configuration",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        },
+        {
+          "before": {
+            "equipment_subtype": "wafer_wet_processing",
+            "notes": "Manufacturer explicitly offers manual configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility."
+          },
+          "after": {
+            "equipment_subtype": "wafer_wet_processing;solvent_processing",
+            "notes": "Manufacturer explicitly offers manual configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility. Manufacturer documents solvent/acetone/IPA and photoresist-stripping applications for this family. Solvent-processing eligibility is family-level and requires configured chemistry, exhaust, interlocks and fire-protection review."
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M85-201D3C1451E6",
+      "manufacturer": "Modutek",
+      "model_name": "Stainless Steel Solvent Station - Semi-Automated configuration",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P42",
+            "related_process_types": "Electron-beam lithography, gold evaporation and lift-off"
+          },
+          "after": {
+            "related_process_ids": "P05;P06;P42",
+            "related_process_types": "Liquid-phase electrochemical deposition;Lithography and nanopattern fabrication;Electron-beam lithography, gold evaporation and lift-off"
+          }
+        },
+        {
+          "before": {
+            "equipment_subtype": "wafer_wet_processing",
+            "notes": "Manufacturer explicitly offers semi-automated configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility."
+          },
+          "after": {
+            "equipment_subtype": "wafer_wet_processing;solvent_processing",
+            "notes": "Manufacturer explicitly offers semi-automated configurations in its 304 stainless-steel solvent-station family. This is a documented configured product family, not a fabricated numerical model. Acetone/IPA/photoresist stripping applications documented. No numeric public price; quotation required. Does not establish gel solvent exchange or nanoparticle washing compatibility. Manufacturer documents solvent/acetone/IPA and photoresist-stripping applications for this family. Solvent-processing eligibility is family-level and requires configured chemistry, exhaust, interlocks and fire-protection review."
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M87-A7C4F7B49549",
+      "manufacturer": "Ladd Research",
+      "model_name": "21800 Double End Mold",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P16",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+          },
+          "after": {
+            "related_process_ids": "P16;P29;P31;P37",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M87-D03834FB4F5B",
+      "manufacturer": "Ladd Research",
+      "model_name": "21829 Four Bar Cavities Silicone Mold",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P16",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+          },
+          "after": {
+            "related_process_ids": "P16;P29;P31;P37",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M87-0288A353F573",
+      "manufacturer": "Ladd Research",
+      "model_name": "21838A Six Shallow Blocks Silicone Mold",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P16",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+          },
+          "after": {
+            "related_process_ids": "P16;P29;P31;P37",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+          }
+        }
+      ]
+    },
+    {
+      "equipment_id": "EXT-M87-03FE28D6E3FD",
+      "manufacturer": "Ladd Research",
+      "model_name": "21810 Round Cavity Silicone Mold 10 mm",
+      "groups": [
+        {
+          "before": {
+            "related_process_ids": "P16",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly"
+          },
+          "after": {
+            "related_process_ids": "P16;P29;P31;P37",
+            "related_process_types": "Wet electrospinning with nanocarbon self-assembly;Solution casting of nanofiller/polymer composite films;Sol–gel film transformation of polymer nanofiber composite paper;Three-roll dispersion and curing of carbon-filled elastomer nanocomposites"
+          }
+        }
+      ]
+    }
+  ],
+  "new_reference_links": [
+    {
+      "link_id": "LINK-ED85951E22ADBF",
+      "reference_id": "REF-18DCA84AA62D",
+      "target_type": "category",
+      "target_id": "M87",
+      "relation": "supports_claim",
+      "claim": "Casting mixtures in glass Petri dishes precedes vacuum drying; casting fixtures and vacuum ovens perform distinct functions.",
+      "locator": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+      "review_status": "claim_checked",
+      "scope": "Source-specific fixture/mould operation supports curator M87 placement only. No commercial make/model, solvent or temperature compatibility is established.",
+      "review_date": "2026-10-17"
+    },
+    {
+      "link_id": "LINK-B4589C04D5F65F",
+      "reference_id": "REF-64316ABBCDBF",
+      "target_type": "category",
+      "target_id": "M87",
+      "relation": "supports_claim",
+      "claim": "Homogeneous stirring precedes casting the acid sol into a culture dish; a fixture is additional to the stirring apparatus.",
+      "locator": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+      "review_status": "claim_checked",
+      "scope": "Source-specific fixture/mould operation supports curator M87 placement only. No commercial make/model, solvent or temperature compatibility is established.",
+      "review_date": "2026-10-17"
+    },
+    {
+      "link_id": "LINK-262FBE6CF0B330",
+      "reference_id": "REF-F47C1575F2CD",
+      "target_type": "category",
+      "target_id": "M87",
+      "relation": "supports_claim",
+      "claim": "A release-coated mould and an oven are both reported in composite manufacture; an ambient drying cabinet is not an oven substitute.",
+      "locator": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+      "review_status": "claim_checked",
+      "scope": "Source-specific fixture/mould operation supports curator M87 placement only. No commercial make/model, solvent or temperature compatibility is established.",
+      "review_date": "2026-10-17"
+    }
+  ],
+  "review": {
+    "schema": "process-class-replacement-review/v1",
+    "checked_date": "2026-10-17",
+    "reviewer_scope": "Read-only independent audit; no canonical data, app, Sites or Git mutations.",
+    "inventory": {
+      "canonical_steps": 227,
+      "canonical_process_steps": 173,
+      "canonical_material_family_steps": 54,
+      "extra_capability_stages_not_in_csv": 2,
+      "rendered_process_stages": 175
+    },
+    "method": "Read category definitions and scan all canonical route-stage labels/sequences for function overlap with M82–M88. Compare required/alternative/optional operation semantics; verify named devices against manufacturer documentation and inspect cached primary research methods for casting cases.",
+    "audited_step_ids": [
+      "N01.1",
+      "N01.2",
+      "N01.3",
+      "N01.4",
+      "N01.5",
+      "N01.6",
+      "N02.1",
+      "N02.2",
+      "N02.3",
+      "N02.4",
+      "N02.5",
+      "N02.6",
+      "N03.1",
+      "N03.2",
+      "N03.3",
+      "N03.4",
+      "N03.5",
+      "N03.6",
+      "N04.1",
+      "N04.2",
+      "N04.3",
+      "N04.4",
+      "N04.5",
+      "N04.6",
+      "N05.1",
+      "N05.2",
+      "N05.3",
+      "N05.4",
+      "N05.5",
+      "N05.6",
+      "N06.1",
+      "N06.2",
+      "N06.3",
+      "N06.4",
+      "N06.5",
+      "N06.6",
+      "N07.1",
+      "N07.2",
+      "N07.3",
+      "N07.4",
+      "N07.5",
+      "N07.6",
+      "N08.1",
+      "N08.2",
+      "N08.3",
+      "N08.4",
+      "N08.5",
+      "N08.6",
+      "N09.1",
+      "N09.2",
+      "N09.3",
+      "N09.4",
+      "N09.5",
+      "N09.6",
+      "P01.1",
+      "P01.2",
+      "P01.3",
+      "P01.4",
+      "P01.5",
+      "P03.1",
+      "P03.2",
+      "P03.3",
+      "P03.4",
+      "P03.5",
+      "P04.1",
+      "P04.2",
+      "P04.3",
+      "P04.4",
+      "P04.5",
+      "P05.1",
+      "P05.2",
+      "P05.3",
+      "P05.4",
+      "P05.5",
+      "P06.1",
+      "P06.2",
+      "P06.3",
+      "P06.4",
+      "P06.5",
+      "P07.1",
+      "P07.2",
+      "P07.3",
+      "P07.4",
+      "P07.5",
+      "P08.1",
+      "P08.2",
+      "P08.3",
+      "P08.4",
+      "P08.5",
+      "P09.1",
+      "P09.2",
+      "P09.3",
+      "P09.4",
+      "P09.5",
+      "P10.1",
+      "P10.2",
+      "P10.3",
+      "P10.4",
+      "P10.5",
+      "P11.1",
+      "P11.2",
+      "P11.3",
+      "P11.4",
+      "P11.5",
+      "P12.1",
+      "P12.2",
+      "P12.3",
+      "P12.4",
+      "P12.5",
+      "P15.1",
+      "P15.2",
+      "P15.3",
+      "P15.4",
+      "P15.5",
+      "P16.1",
+      "P16.2",
+      "P16.3",
+      "P17.1",
+      "P17.2",
+      "P17.3",
+      "P17.4",
+      "P18.1",
+      "P18.2",
+      "P18.3",
+      "P18.4",
+      "P19.1",
+      "P19.2",
+      "P19.3",
+      "P19.4",
+      "P20.1",
+      "P20.2",
+      "P20.3",
+      "P21.1",
+      "P21.2",
+      "P21.3",
+      "P21.4",
+      "P21.5",
+      "P22.1",
+      "P22.2",
+      "P22.3",
+      "P22.4",
+      "P23.1",
+      "P23.2",
+      "P23.3",
+      "P23.4",
+      "P24.1",
+      "P24.2",
+      "P24.3",
+      "P24.4",
+      "P25.1",
+      "P25.2",
+      "P25.3",
+      "P25.4",
+      "P25.5",
+      "P25.6",
+      "P26.1",
+      "P26.2",
+      "P26.3",
+      "P26.4",
+      "P26.5",
+      "P27.1",
+      "P27.2",
+      "P27.3",
+      "P27.4",
+      "P28.1",
+      "P28.2",
+      "P28.3",
+      "P29.1",
+      "P29.2",
+      "P29.3",
+      "P29.4",
+      "P30.1",
+      "P30.2",
+      "P30.3",
+      "P31.1",
+      "P31.2",
+      "P31.3",
+      "P31.4",
+      "P31.5",
+      "P32.1",
+      "P32.2",
+      "P32.3",
+      "P32.4",
+      "P33.1",
+      "P33.2",
+      "P33.3",
+      "P33.4",
+      "P34.1",
+      "P34.2",
+      "P34.3",
+      "P34.4",
+      "P34.5",
+      "P35.1",
+      "P35.2",
+      "P35.3",
+      "P35.4",
+      "P35.5",
+      "P36.1",
+      "P36.2",
+      "P36.3",
+      "P36.4",
+      "P37.1",
+      "P37.2",
+      "P37.3",
+      "P37.4",
+      "P38.1",
+      "P38.2",
+      "P38.3",
+      "P38.4",
+      "P39.1",
+      "P39.2",
+      "P39.3",
+      "P39.4",
+      "P40.1",
+      "P40.2",
+      "P40.3",
+      "P40.4",
+      "P41.1",
+      "P41.2",
+      "P41.3",
+      "P41.4",
+      "P42.1",
+      "P42.2",
+      "P42.3",
+      "P42.4",
+      "P42.5",
+      "P43.1"
+    ],
+    "recommendations": [
+      {
+        "step_id": "P05.4",
+        "decision": "replace_primary_function_keep_support",
+        "from": [
+          "M46"
+        ],
+        "to": [
+          "M85"
+        ],
+        "keep_optional": [
+          "M46",
+          "M18"
+        ],
+        "reason": "M46 supplies purified rinse water; it is not the workstation/fixture performing substrate rinsing. An M85 wet-processing/rinse station is the closer functional planning class. M46 remains optional water-source support, M18 optional drying. The source itself labels the operation M46 rinse, so retain original source statement as provenance and mark this as a curator correction.",
+        "source_urls": [
+          "https://www.modutek.com/wet-processing-equipment-components/quick-dump-rinsers/",
+          "https://www.modutek.com/precision-parts-cleaning-systems/"
+        ],
+        "local_source": "work/source_pdf.txt, P05 D; supplied PDF page24",
+        "compatibility": "Existing M85 records all carry wafer_wet_processing subtype. They are candidates for a configured substrate-rinse workstation, not validated electrochemical coupon compatibility. Require holder geometry, coating compatibility, rinse chemistry, DI plumbing and exhaust review; do not assert every M85 catalog model fits."
+      },
+      {
+        "step_id": "P06.3",
+        "decision": "classify_unassigned_alternative_not_replace_valid_class",
+        "from_required_branches": [
+          [],
+          [
+            "M61"
+          ]
+        ],
+        "to_required_branches": [
+          [
+            "M85"
+          ],
+          [
+            "M61"
+          ]
+        ],
+        "reason": "Wet development and dry residual-layer clearing are distinct alternatives. M85 fills the previously empty wet-development branch. M61 remains correct for plasma/etch clearing.",
+        "source_urls": [
+          "https://www.modutek.com/wet-benches/stainless-steel-wet-bench-systems/"
+        ],
+        "local_source": "work/source_pdf.txt, P06 C; supplied PDF page25",
+        "compatibility": "Use wet-processing subtype; select solvent- versus acid-compatible construction for the actual resist developer. No class-level model validation."
+      },
+      {
+        "step_id": "P06.4",
+        "decision": "add_missing_wet_operation_preserve_etch_and_deposition",
+        "from_required_branches": [
+          [
+            "M61"
+          ],
+          [
+            "M23"
+          ]
+        ],
+        "to_required_branches": [
+          [
+            "M61"
+          ],
+          [
+            "M23",
+            "M85"
+          ]
+        ],
+        "reason": "The deposition/lift-off branch needs deposition hardware and wet lift-off handling. M85 belongs to wet lift-off and does not replace M23 deposition or M61 etching on the alternative branch.",
+        "source_urls": [
+          "https://www.modutek.com/wet-benches/stainless-steel-wet-bench-systems/"
+        ],
+        "local_source": "work/source_pdf.txt, P06 D; supplied PDF page25",
+        "compatibility": "Wafer_wet_processing subtype with resist-strip chemistry review; preserve branch dependency with prior patterning choice."
+      },
+      {
+        "step_id": "P29.4",
+        "decision": "add_casting_fixture_keep_vacuum_oven",
+        "from": [
+          "M18"
+        ],
+        "to": [
+          "M87",
+          "M18"
+        ],
+        "reason": "Methods explicitly cast mixtures in glass Petri dishes then dry the casts in a vacuum oven. M87 supplies the casting fixture; it cannot replace M18 vacuum drying.",
+        "source_urls": [
+          "https://doi.org/10.1021/am302624t"
+        ],
+        "local_source": "work/citation-breadth-2026-10-16/xu2013.txt lines126–128, PDFp2 Materials and Methods",
+        "compatibility": "Select a casting_fixture subtype or suitable dish geometry; ambient-drying enclosures alone cannot satisfy the casting fixture or vacuum-drying requirement."
+      },
+      {
+        "step_id": "P31.3",
+        "decision": "add_casting_fixture_keep_stirring",
+        "from": [
+          "M03"
+        ],
+        "to": [
+          "M03",
+          "M87"
+        ],
+        "reason": "Methods describe high-speed homogeneous stirring and pouring acid sol into a culture dish. A casting fixture is additional to mixing. M87 does not replace stirring. Stirrer geometry remains curator planning and must not be asserted as reported.",
+        "source_urls": [
+          "https://doi.org/10.1007/s40820-023-01257-5"
+        ],
+        "local_source": "work/citation-breadth-2026-10-16/tang2024-pdf.txt PDFpp3–4 section2.2",
+        "compatibility": "Casting fixture must resist the stated acid medium. Keep gelation/solvent exchange distinct in the next stage."
+      },
+      {
+        "step_id": "P37.4",
+        "decision": "add_mould_keep_thermal_curing_oven",
+        "from": [
+          "M71"
+        ],
+        "to": [
+          "M87",
+          "M71"
+        ],
+        "reason": "Methods explicitly pour the mixture into a release-coated mould and cure it in an oven. M87 fits the mould/fixture component; it cannot replace M71 thermal curing.",
+        "source_urls": [
+          "https://doi.org/10.1016/j.polymdegradstab.2023.110278"
+        ],
+        "local_source": "work/cited-all-years-2026-10-16/delbosque2023-hydrothermal-ageing.txt lines147–150, PDFp2 section2.2",
+        "compatibility": "Mould geometry, release layer and temperature compatibility need review. Ambient-drying stations do not replace thermal curing."
+      },
+      {
+        "step_id": "N06.5",
+        "decision": "add_optional_filling_aid_preserve_optional_freeze_drying",
+        "from": [
+          "M17"
+        ],
+        "suggest_optional": [
+          "M82",
+          "M17"
+        ],
+        "reason": "Source says fill containers and permits M17 drying only for a validated formulation. M82 is a reasonable optional pipetting/dispensing aid for container filling, not a universal mandatory requirement; manual pouring remains possible. M17 remains a separate formulation-dependent optional preservation operation.",
+        "source_urls": [
+          "https://www.eppendorf.com/en/own-your-solution/manual/"
+        ],
+        "local_source": "work/source_pdf.txt, N06 E; supplied PDF page11",
+        "compatibility": "No filling apparatus/model is asserted by the supplied source. Volume, dispersion stability, sterility and fluid-contact compatibility need review."
+      }
+    ],
+    "retain_cases": [
+      {
+        "step_ids": [
+          "P18.2"
+        ],
+        "classes": [
+          "M07"
+        ],
+        "reject_replacement": "M82",
+        "reason": "Official Tecan Centris documentation identifies a syringe pump module. Reagent dispensing wording does not make its existing specific mechanism wrong.",
+        "source_urls": [
+          "https://partnering.tecan.com/cavro-centris-pump-for-oem-liquid-handling"
+        ]
+      },
+      {
+        "step_ids": [
+          "P18.1",
+          "P18.4"
+        ],
+        "classes": [
+          "M62"
+        ],
+        "reject_replacement": "M82",
+        "reason": "Robot handles vessels/finished samples; this is not pipetting. Preserve robot class.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P33.2",
+          "P33.3"
+        ],
+        "classes": [
+          "M63"
+        ],
+        "reject_replacement": "M82/M86",
+        "reason": "805 Dosimat dosing and titration is the specific existing apparatus class. An external DAQ may be an optional control component but is not a replacement for the dosing hardware.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P34.4"
+        ],
+        "classes": [
+          "M66"
+        ],
+        "reject_replacement": "M85",
+        "reason": "Diffusion-based dialysis solvent exchange uses a membrane assembly, not generic batch wet processing. Similar solvent-exchange verbs are insufficient for substitution.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P35.1"
+        ],
+        "classes": [
+          "M74",
+          "M19",
+          "M20"
+        ],
+        "reject_replacement": "M87",
+        "reason": "Metal melting/casting plus heat homogenization differs from unheated casting fixtures and ambient drying; preserve current physical operations and configuration review.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P41.4"
+        ],
+        "classes": [
+          "M69"
+        ],
+        "reject_replacement": "M88",
+        "reason": "Powder dosing/loading is preparation, SPS is consolidation. New M88 does not replace the SPS machine.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P03.3"
+        ],
+        "classes": [
+          "M56"
+        ],
+        "reject_replacement": "M84",
+        "reason": "Nanoparticle quenching in a laser-ablation reaction medium is not macroscopic hot-rod immersion quenching. Laser and chamber functions remain.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P05.2",
+          "P05.3"
+        ],
+        "classes": [
+          "M57"
+        ],
+        "reject_replacement": "M86",
+        "reason": "A potentiostat/galvanostat directly performs electrochemical control; generic DAQ does not replace its required regulated functionality.",
+        "source_urls": []
+      },
+      {
+        "step_ids": [
+          "P13.1",
+          "P14.1"
+        ],
+        "classes": [
+          "M61"
+        ],
+        "reject_replacement": "M85",
+        "reason": "Capability-only wet chemical etching and dry plasma etching retain M61 etched-material-removal function. A wet bench may be support for one configuration but is not categorically a substitute for an etching reactor.",
+        "source_urls": []
+      }
+    ],
+    "no_forced_substitutions": "No global replace was justified for centrifugal/filtration recovery, pump feeding, optical sensing, metal casting, furnaces or sintering. New classes fill distinct functions; class names are not interchangeable with generic action verbs.",
+    "provenance_note": "All recommendations are planning classifications. Preserve source-authored wording and references separately, with curator decisions and model suitability reviews."
+  },
+  "solvent_capability_evidence": {
+    "url": "https://www.modutek.com/wet-benches/stainless-steel-wet-bench-systems/",
+    "scope": "Manufacturer family-level solvent and photoresist-stripping use, with configurable station features. Does not certify an arbitrary polypropylene bench or every chemistry."
+  }
+}

@@ -1,5 +1,7 @@
 # Equipment database
 
+The [functional process review](../docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
+
 `equipment.csv` is the editable equipment catalog. It contains ten **research examples** for each of the 59 source M categories plus a separate requested-equipment supplement. M62 Robotic handling and automation systems is a project extension containing 13 of those requested profiles; the catalog now has 86 active M categories, including literature-derived M63 titration/dosing, M64 swaging, M65 induction heating, M66 dialysis, M67 three-roll mills, M68 electron-beam evaporation and M69 spark-plasma sintering. These new classes retain source-reported starting examples and now include manufacturer-documented market alternatives (at least five model/component records in the earlier M01–M70 classes; new M71–M81 classes have one to ten documented examples); the ten-example target remains complete for the original 59 source classes. Ten examples does not mean ten independently verified manuals or ten interchangeable complete machines. Each record carries its model and manual evidence status.
 
 ## Files

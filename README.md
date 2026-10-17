@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [functional process review](docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
+
 Research equipment metadata and a reproducible machine-list comparison tool.
 
 ## Equipment database

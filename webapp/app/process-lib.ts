@@ -57,7 +57,8 @@ export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:
   });
   // Retire only untouched, empty system placeholders once their required M classes are curated.
   const kept=remaining.filter(old=>req.unresolved_required_equipment||old.instrument||old.allowed_category_ids.length||old.label!=='Unclassified required apparatus'||old.extensions.requirement_role!=='unclassified'||Object.keys(old.extensions).some(k=>k!=='requirement_role'));
-  return {...step,slots:[...slots,...kept],extensions:{...step.extensions,requirements:req as unknown as JsonValue}};
+  const requirementsChanged=JSON.stringify(step.extensions.requirements)!==JSON.stringify(req);
+  return {...step,slots:[...slots,...kept],extensions:{...step.extensions,requirements:req as unknown as JsonValue,...(requirementsChanged&&step.extensions.requirements_reviewed===true?{requirements_reviewed:false}:{})}};
  })};
 }
 export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]=[]){
@@ -101,7 +102,7 @@ export function workflowReadinessMessage(r:ReturnType<typeof workflowReadiness>)
  if(r.dependencyIssues.length)return r.dependencyIssues[0];
  if(r.missingSteps)return r.missingSteps+' source '+(r.missingSteps===1?'step missing':'steps missing');
  if(r.unresolved)return r.unresolved+' apparatus '+(r.unresolved===1?'requirement needs':'requirements need')+' an equipment class and instrument';
- if(r.invalidAssignments)return 'Replace instruments that do not match their slot classes';
+ if(r.invalidAssignments)return 'Replace instruments that do not match their slot class or operation';
  return r.readySteps+' of '+r.totalSteps+' stages covered · complete a required equipment branch in each stage';
 }
 export function priceSnapshot(r:Equipment):PriceSnapshot{return usdPrice(sourcePriceSnapshot(r)) as PriceSnapshot;}
