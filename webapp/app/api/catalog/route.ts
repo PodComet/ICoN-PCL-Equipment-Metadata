@@ -1,3 +1,4 @@
+import {SEQUENCE_FIELD,validateSequenceTemplate} from '../../control-sequence-lib';
 import { env } from "cloudflare:workers";
 import seed from "../../data/catalog.json";
 import literature from "../../data/references.json";
@@ -13,7 +14,7 @@ import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 import {independentVariant} from '../../product-family-policy';
 import {withMsrpEstimates} from '../../msrp-policy';
 import msrpPolicy from '../../data/msrp-policy.json';
-const EDITABLE = new Set(["equipment_subtype","model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", ...MANUFACTURER_PRICE_FIELDS]);
+const EDITABLE = new Set(["equipment_subtype","model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", SEQUENCE_FIELD, ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
 
@@ -48,9 +49,9 @@ export async function PUT(request: Request) {
     if (!user) return json({error:"Sign in to edit your catalog."},401);
     const origin = request.headers.get("origin");
     if (!origin || origin !== new URL(request.url).origin) return json({error:"Same-origin requests required."},403);
-    if (Number(request.headers.get("content-length") || 0) > 65536) return json({error:"Record is too large."},413);
+    if (Number(request.headers.get("content-length") || 0) > 131072) return json({error:"Record is too large."},413);
     const text = await request.text();
-    if (text.length>65536) return json({error:"Record is too large."},413);
+    if (text.length>131072) return json({error:"Record is too large."},413);
     let input: any;
     try {input=JSON.parse(text);} catch {return json({error:"Invalid record data."},400);}
     if (!input || typeof input !== "object" || !input.fields || typeof input.fields !== "object" || Array.isArray(input.fields)) return json({error:"Invalid record fields."},400);
@@ -67,7 +68,7 @@ export async function PUT(request: Request) {
     const fields:Record<string,string>={};
     for (const [k,v] of Object.entries(input.fields)) {
       if (!EDITABLE.has(k)) return json({error:`Field ${k} cannot be edited.`},400);
-      if (typeof v !== "string" || v.length>6000) return json({error:`Invalid ${k}.`},400);
+      if (typeof v !== "string" || v.length>(k===SEQUENCE_FIELD?32000:6000)) return json({error:`Invalid ${k}.`},400);
       fields[k]=v.trim();
     }
     let record:Equipment = audited({...original,...fields},Object.keys(fields));
@@ -91,6 +92,7 @@ export async function PUT(request: Request) {
       for(const k of MANUFACTURER_PRICE_FIELDS)record[k]=fields[k]||'';
       record.equipment_id="USER-"+crypto.randomUUID();
       record=independentVariant(record,original);
+      record[SEQUENCE_FIELD]="";
       record.product_page_url=fields.product_page_url||"";record.image_url=fields.image_url||"";record.image_source_url=fields.image_source_url||"";record.image_scope=fields.image_scope||"";record.technical_spec_url=fields.technical_spec_url||"";record.brochure_url=fields.brochure_url||"";
       record.source_record_id="";record.legacy_category_ids="";
       record.catalog_scope="user_variant";record.record_kind="user_variant";
@@ -104,6 +106,7 @@ export async function PUT(request: Request) {
       record.manual_match_status="not_verified";
     }
     record=withMsrpEstimates([...shared.records.filter(r=>r.equipment_id!==record.equipment_id),record],seed.model_lifecycle,msrpPolicy).at(-1)!;
+    try{if(Object.hasOwn(fields,SEQUENCE_FIELD))validateSequenceTemplate(record)}catch(e){return json({error:e instanceof Error?e.message:"Invalid instrument sequence."},400)}
     const sharedBase=byId.get(record.equipment_id);
     if(sharedBase)record._personal_fields=JSON.stringify([...EDITABLE].filter(k=>record[k]!==sharedBase[k]));
     const now=new Date().toISOString();

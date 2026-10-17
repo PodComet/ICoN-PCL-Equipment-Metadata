@@ -1,3 +1,4 @@
+import {SEQUENCE_KEY,validateControlSequence} from './control-sequence-lib.ts';
 import {usdPrice} from './currency-lib.ts';
 import {sellerPrice} from './seller-prices.ts';
 import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
@@ -230,6 +231,7 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
    if(!slotAccepts(slot,r))throw new Error('An assigned instrument does not match its slot classes.');
    if(!Number.isSafeInteger(i.quantity)||i.quantity<1||i.quantity>1000)throw new Error('Equipment quantity must be a whole number between 1 and 1000.');
    for(const key of ['configuration','operating_parameters','signals','inputs','outputs','extensions'] as const)jsonObject(i[key],key);
+   if(i.configuration[SEQUENCE_KEY]!==undefined)i.configuration[SEQUENCE_KEY]=validateControlSequence(i.configuration[SEQUENCE_KEY]) as unknown as JsonValue;
    const unit=unitId(i),prior=units.get(unit);if(prior&&(prior.equipment_id!==i.equipment_id||prior.quantity!==i.quantity))throw new Error('A reused physical unit keeps the same model and quantity across steps.');units.set(unit,{equipment_id:i.equipment_id,quantity:i.quantity});
    if(!Array.isArray(i.operation_sequence)||i.operation_sequence.length>200||i.operation_sequence.some(v=>typeof v!=='string'||v.length>6000))throw new Error('Invalid operation sequence.');
    // Identity, ontology evidence and prices are server-owned snapshots; custom configuration stays separate.

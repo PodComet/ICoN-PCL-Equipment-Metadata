@@ -1,3 +1,4 @@
+import {SEQUENCE_FIELD,validateSequenceTemplate} from './control-sequence-lib.ts';
 import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
 import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
 import {LIFECYCLE_FIELDS} from './model-lifecycle.ts';
@@ -5,7 +6,7 @@ import {independentVariant} from './product-family-policy.ts';
 import {withMsrpEstimates} from './msrp-policy.ts';
 import msrpPolicy from './data/msrp-policy.json' with {type:'json'};
 
-export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","equipment_subtype","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",...MANUFACTURER_PRICE_FIELDS];
+export const UPDATE_FIELDS=["model_name","manufacturer","product_family","variant_label","equipment_subtype","capacity_ml","manual_url","manual_scope","product_page_url","technical_spec_url","brochure_url","image_url","image_source_url","image_scope","msrp_value","msrp_currency","price_source_url","price_checked_date","related_material_ids","related_material_types","related_process_ids","related_process_types","notes",SEQUENCE_FIELD,...MANUFACTURER_PRICE_FIELDS];
 export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","category_id",...UPDATE_FIELDS];
 export type Change={line:number;operation:string;equipment_id:string;name:string;fields:string[];before:Equipment|null;after:Equipment};
 export type Plan={changes:Change[];errors:{line:number;message:string}[];warnings:{line:number;message:string}[];unchanged:number;rowCount:number};
@@ -69,13 +70,14 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    if(op!=='update'){
     for(const field of LIFECYCLE_FIELDS)record[field]='';
     for(const k of [...MANUFACTURER_PRICE_FIELDS,'product_page_scope','source_record_id','legacy_category_ids'])record[k]='';
+    record[SEQUENCE_FIELD]='';
     for(const k of ['model_name','variant_label','capacity_ml','manual_url','manual_scope','msrp_value','msrp_currency','price_source_url','price_checked_date','product_page_url','technical_spec_url','brochure_url','image_url','image_source_url','image_scope','notes','source_pdf','source_page','source_sha256','model_evidence_url','manual_lookup_url','documentation_url','requested_ids','institution_label','institution_basis','institution_logo_url','manufacturer_official_website_url','manufacturer_research_evidence_url'])record[k]='';
     record.highlight_requested='false';record.purdue_list='false';record.ownership_status='not_independently_verified';record.access_evidence_url='';
     record.catalog_scope='admin_supplement';record.record_kind=op==='add_variant'?'user_variant':'model_candidate';record.model_status='user_entered';record.model_evidence_status='candidate_needs_review';record.manual_match_status='not_verified';record.manual_status='not_found';
     if(op==='add_equipment'){record.product_family_id='PF-'+id;record.product_family='';for(const k of Object.keys(record))if(k.startsWith('estimate'))record[k]='';const comparator=records.find(r=>r.category_id===category);if(comparator)for(const k of Object.keys(comparator))if(k.startsWith('estimate'))record[k]=comparator[k]}
    }
    const changed:string[]=[];
-   for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>6000)throw new Error(field+" exceeds 6,000 characters.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
+   for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>(field===SEQUENCE_FIELD?32000:6000))throw new Error(field+" exceeds its character limit.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
    if(changed.includes('model_name')||changed.includes('manufacturer'))for(const field of LIFECYCLE_FIELDS)record[field]='';
    if(op!=='update'||changed.includes('model_name')||changed.includes('manufacturer'))record=independentVariant(record,parent||before||record);
    if(changed.includes('product_page_url'))record.product_page_scope='';
@@ -94,6 +96,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
    for(const [field,valid] of [['related_material_ids',validMaterial],['related_process_ids',validProcess]] as const){if((record[field]||'').split(';').filter(Boolean).some(id=>!valid.has(id)))throw new Error("Unknown IDs in "+field)}
    for(const [idField,typeField] of [['related_material_ids','related_material_types'],['related_process_ids','related_process_types']])if(changed.includes(idField)&&!input[typeField])record[typeField]=record[idField].split(';').filter(Boolean).map(id=>routes.find(r=>r.route_id===id)?.route_name||id).join(';');
    if(op!=='update'||changed.includes('manual_url')||changed.includes('manual_scope')){record.manual_match_status='not_verified';record.manual_status=record.manual_url?'user_entered_unverified':'not_found'}
+   if(changed.includes(SEQUENCE_FIELD))validateSequenceTemplate(record);
    const classified=op!=='update'&&input.category_id&&inputCategory!==input.category_id?canonicalizeEquipment({...record,category_id:input.category_id},byId,categories,aliases):record;
    const after=applyManufacturerAudit(classified,brands);
    if(!brands.some(b=>b.manufacturer===record.manufacturer))plan.warnings.push({line,message:"Manufacturer not in the reviewed registry; no green star will be awarded."});

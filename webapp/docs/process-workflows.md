@@ -88,7 +88,7 @@ The final output box is clickable at every stage. It opens an **Expected output 
 
 ## Finished-product control choices
 
-The output card now contains a row for each assigned occurrence, with separate position, fiber and direction choices. Repeated uses of the same physical unit retain separate configuration selections. The workflow stores these under `configuration.ontology_control_selection`; expected-material exports include `instrument_controls` with occurrence IDs, declared effects and their sources. See the [spreadsheet upload instructions](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/instrument-position-upload.md).
+The instrument popup and output card both edit a full ordered sequence for each assigned occurrence. Each numbered action contains POSITION → FIBER → DIRECTION, source and optional settings/timing notes. Add, repeat, move earlier/later and remove actions; identical directions can occur repeatedly. Repeated uses of the same physical unit keep independent sequences. The workflow stores `instrument-control-sequence/v1` under `configuration.ontology_control_sequence`; saved workflow revisions and expected-material exports preserve action IDs, order, repeats, notes, evidence and review status. Existing free-text `operation_sequence` data stays separate. Legacy `ontology_control_selection` sets are preserved and presented with an explicit order-review message; their stored order is not asserted to be execution order. See the [spreadsheet upload instructions](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/instrument-position-upload.md).
 
 ## USD display
 
@@ -103,3 +103,12 @@ The fitted sequence reserves a 220 px chart viewport before it is first displaye
 ## Published seller prices
 
 Cards and new equipment assignments prioritize explicit MSRP, published manufacturer prices and explicitly new-condition seller offers before separate formula estimates. Used, refurbished and condition-unstated seller quotes remain labeled reference offers outside new-equipment planning totals. Source currencies are retained and converted to USD. Existing workflow price snapshots remain historical. See the [source review](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/seller-price-photo-sweep-2026-10-17.md).
+
+
+## Reusable instrument operation sequences
+
+Open an instrument from the Equipment directory and use **POSITION / Fibers / Directions** to reach the operation-sequence editor. **Save instrument sequence** stores a personal, exact-model template in the existing revision-protected catalog. The optional `control_sequence_json` CSV field exports/imports this `instrument-sequence-template/v1` envelope: exact equipment ID, manufacturer and model name plus the ordered sequence. CSV updates reject mismatched identities. New variants start with an empty sequence; a changed model cannot use a template bound to its previous identity. The field accepts up to 32,000 characters; a sequence supports up to 100 actions.
+
+Opening an occupied process slot edits that occurrence directly. Edits also appear immediately in the final output card; use **Save workflow** for durable process revisions. The output card offers **Copy saved instrument sequence** when a matching personal model template exists. Copying never updates another occurrence or silently overwrites an existing sequence. Model templates and process copies are independent. Anonymous visitors can compose/export model sequences; saving requires sign-in.
+
+Where a model Position List exists, choose model-bound positions, fibers and directions. **User-defined draft** allows entry for any model, including those awaiting manual review. Draft entries never inherit manufacturer facts or declared effects merely by matching an action name. Missing or changed profile entries are retained and flagged for review. Evidence-linked effects display per action; arbitrary sequence validity, timing, guards and final material properties are not inferred.
