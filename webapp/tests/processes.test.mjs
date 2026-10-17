@@ -49,7 +49,7 @@ test('process instruments follow the current step classes before narrowing to a 
  assert.deepEqual(routeCandidates(records,process,null,w.steps).map(r=>r.equipment_id),['TEST-M13','filter','legacy']);
  assert.deepEqual(routeCandidates(records,process,w.steps[0].slots[0],w.steps).map(r=>r.equipment_id),['TEST-M13']);
  const wildcard=newSlot();w.steps[0].slots.push(wildcard);
- assert.deepEqual(routeCandidates(records,process,wildcard,w.steps).map(r=>r.equipment_id),['TEST-M13','filter','legacy']);
+ assert.deepEqual(routeCandidates(records,process,wildcard,w.steps),[],'A classless slot cannot act as a wildcard for the process pool');
  w.steps[0].slots.push(newSlot(['M56']));
  assert.ok(routeCandidates(records,process,null,w.steps).some(r=>r.equipment_id==='tag-only'),'Explicitly added step classes become relevant');
  w.steps[0].slots=[newSlot()];

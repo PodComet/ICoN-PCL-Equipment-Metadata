@@ -117,3 +117,12 @@ Where a model Position List exists, choose model-bound positions, fibers and dir
 ### Full-width process stage boxes
 
 The fitted chart always uses the available midnight-blue panel width, including short processes such as P39 and P43. After fitting the graph height, extra logical width is distributed among stage columns in proportion to their equipment-slot widths. Stage boxes and their slots stretch together; arrows are measured again from the stretched boxes. Text and photos keep a uniform scale. Parallel peers remain vertically aligned within their dependency level. The 220 px fitted viewport stays fixed through selection, assignment and filtering. Window/container width changes recompute the fit; enlarged charts stretch when space is available and retain scrolling when their minimum readable width is wider than the panel.
+
+
+## Equipment class coverage and stable action stages
+
+Every equipment slot must carry a current M-class before it can accept a model or be saved. **Add step** and **Choose M-class to add equipment** show a compact picker in the existing Available instruments status row; they create the slot only after a class is chosen. No slot click, class-picker action or prerequisite disclosure switches the chart into enlarged mode. **Enlarge chart** is the explicit size control. Classless slots cannot act as wildcards for the process instrument pool.
+
+Source actions with no separately established machine are shown as **Process action** tiles instead of blank equipment placeholders. This preserves hand operations and source limits. The complete [classification audit and seven proposed categories](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/process-class-audit-2026-10-17.md) is also available in the Processes tab, including a CSV download of every reviewed step. Proposals M82–M88 remain recommendations; they are not asserted source apparatus or active catalog classes.
+
+Opening a saved plan restores source-supported M slots and resolves unambiguous old X aliases. Other empty, unclassified user requests move to `step.extensions.unclassified_equipment_slots` with their original slot IDs, labels, class references and metadata. They remain visible for deliberate classification and block completion until resolved. Class selection restores the same slot. Saved revisions and output exports retain pending request references. Existing assigned equipment, prices and configuration remain attached to their original instrument occurrences.

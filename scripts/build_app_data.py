@@ -84,6 +84,8 @@ def main():
     (ROOT / 'webapp/app/data/currency-rates.json').write_text(json.dumps(currency,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     offers = seller_offers(ROOT)
     (ROOT / 'webapp/app/data/seller-offers.json').write_text(json.dumps({'checked_date': max((o['checked_date'] for o in offers), default=''), 'offers': offers}, ensure_ascii=False, separators=(',', ':'))+'\n',encoding='utf-8')
+    class_audit = json.loads((ROOT / 'catalog/process_class_audit_2026-10-17.json').read_text(encoding='utf-8'))
+    (ROOT / 'webapp/app/data/process-class-audit.json').write_text(json.dumps(class_audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

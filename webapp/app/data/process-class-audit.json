@@ -1,0 +1,634 @@
+{
+  "schema": "process-class-audit/v1",
+  "checked_date": "2026-10-17",
+  "scope": "All 42 manufacturing processes in the Processes tab: 173 source steps plus 2 capability-only planning stages. Material-family route narratives are excluded. Account-specific saved requests are reviewed on load and retained if unclassified.",
+  "summary": {
+    "processes": 42,
+    "steps": 175,
+    "classified_equipment_slots": 257,
+    "action_steps_without_separate_class": 29,
+    "unclassified_required_machine_slots": 0,
+    "proposed_classes": 7,
+    "source_steps": 173,
+    "capability_steps": 2
+  },
+  "proposals": [
+    {
+      "proposed_id": "M82",
+      "name": "Liquid handling and pipetting systems",
+      "scope": "Manual/electronic pipettes and dispensers, plus automated pipetting workstations; complements pumps M07 and general robots M62.",
+      "source_url": "https://www.eppendorf.com/en/own-your-solution/manual/",
+      "caveat": "Candidate for transfers and feed preparation; no pipette model is asserted by the source rows.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P17.1",
+        "P17.3",
+        "P24.1",
+        "P24.4",
+        "P27.1",
+        "P40.1"
+      ]
+    },
+    {
+      "proposed_id": "M83",
+      "name": "Magnetic particle separation systems",
+      "scope": "Magnetic racks, separators and flow-through magnetic recovery assemblies.",
+      "source_url": "https://www.thermofisher.com/us/en/home/brands/product-brand/dynal/magnets.html?open=order-magnets",
+      "caveat": "P33 step 4 is an optional characterization-preparation branch, not a universal production requirement. Representative magnetic-bead racks are not validated for the cited magnetite formulation.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P33.4"
+      ]
+    },
+    {
+      "proposed_id": "M84",
+      "name": "Quench tanks and immersion cooling vessels",
+      "scope": "Water/oil/polymer quench baths and tanks, kept distinct from furnaces and recirculating chillers.",
+      "source_url": "https://nabertherm.com/en/products/industry/thermal-process/processes-under-protective/compact-quenching",
+      "caveat": "P35 explicitly records a water-quench vessel but no make/model; the cited manufacturer page establishes the equipment type only.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P35.5"
+      ]
+    },
+    {
+      "proposed_id": "M85",
+      "name": "Wet-process benches and batch solvent-exchange stations",
+      "scope": "Development, rinsing, lift-off, washing and batch solvent-exchange stations, with operation-specific configuration.",
+      "source_url": "https://www.modutek.com/wet-benches/stainless-steel-wet-bench-systems/",
+      "caveat": "A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P25.5",
+        "P31.4",
+        "P42.3",
+        "P42.5"
+      ]
+    },
+    {
+      "proposed_id": "M86",
+      "name": "Process data acquisition and feedback-control systems",
+      "scope": "Sensor interfaces, DAQ hardware and controllers; software and feedback policies remain configuration data.",
+      "source_url": "https://www.ni.com/en-us/shop/compactdaq.html",
+      "caveat": "Existing optical instruments remain M35/M40 and pumps remain M07; DAQ type evidence does not establish a valid closed-loop controller for either cited process.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P21.5",
+        "P22.4"
+      ]
+    },
+    {
+      "proposed_id": "M87",
+      "name": "Casting/moulding fixtures and ambient drying stations",
+      "scope": "Scaffold moulds, casting fixtures and controlled ambient conditioning enclosures.",
+      "source_url": "",
+      "caveat": "Proposal derived from the P16 source action. An accessory-level extension may fit better than an M-class; do not substitute a heated oven for room-temperature drying.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P16.3"
+      ]
+    },
+    {
+      "proposed_id": "M88",
+      "name": "Powder dispensing and die-loading systems",
+      "scope": "Metered powder feeders/dispensers and configurable die-filling/loading assemblies.",
+      "source_url": "https://www.mt.com/us/en/home/products/Laboratory_Weighing_Solutions/analytical-balances/automatic-balance.html",
+      "caveat": "Candidate for a future automated P41 loading branch. Commercial powder dosing establishes the equipment type, not graphite-die or nanocarbon compatibility.",
+      "status": "proposed_not_active",
+      "steps": [
+        "P41.3"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "step_id": "P15.3",
+      "route_id": "P15",
+      "step_order": "3",
+      "step_label": "Cool and recover precipitate",
+      "source_file": "Ellis-2018-rsos171884.pdf",
+      "source_section": "Section 2.4.2, article p.5 / repository PDF p.6; sections 2.4.3-2.4.6",
+      "source_url": "https://doi.org/10.1098/rsos.171884",
+      "source_statement": "Cooling and recovery precede washing; no additional model identified.",
+      "source_note": "Cooling and recovery are handling operations here; no separate additional machine is established.",
+      "existing_class_candidates": [
+        "M13",
+        "M15",
+        "M33"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Handling/recovery; choose centrifugation, filtration or controlled cooling only if a reviewed procedure calls for it.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P16.3",
+      "route_id": "P16",
+      "step_order": "3",
+      "step_label": "Mould and ambient-dry scaffold",
+      "source_file": "scaffaro2022.pdf",
+      "source_section": "Author accepted manuscript section2.1, pp4-5, Figure1",
+      "source_url": "https://doi.org/10.1016/j.compscitech.2022.109363",
+      "source_statement": "Mould collected scaffold and dry at room temperature; no drying oven reported.",
+      "source_note": "Moulding and ambient drying need no separately identified oven; retain as handling/ambient operation, not an unresolved oven requirement.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M87"
+      ],
+      "recommendation": "Moulding and ambient drying use fixtures/accessories; no heated oven is established.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P17.1",
+      "route_id": "P17",
+      "step_order": "1",
+      "step_label": "Prepare polymer and drug phases",
+      "source_file": "Article 10.1038/s41598-024-82728-6",
+      "source_section": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+      "source_url": "https://doi.org/10.1038/s41598-024-82728-6",
+      "source_statement": "Study-specific PLGA/drug phases; no preparation-device model reported.",
+      "source_note": "Feed-phase preparation does not establish a separate powered preparation device; retain preparation without inventing a model.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Feed preparation is reported without a device. Mixing and liquid-transfer classes are optional implementation choices.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P17.3",
+      "route_id": "P17",
+      "step_order": "3",
+      "step_label": "Disperse into aqueous stabilizer",
+      "source_file": "Article 10.1038/s41598-024-82728-6",
+      "source_section": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+      "source_url": "https://doi.org/10.1038/s41598-024-82728-6",
+      "source_statement": "Transfer into aqueous PVA phase; apparatus not identified.",
+      "source_note": "Transfer/disperse operation is stated without a separate powered-device identity; do not invent an extra mixer.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Transfer/disperse operation; mixing geometry is unreported.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P17.4",
+      "route_id": "P17",
+      "step_order": "4",
+      "step_label": "Evaporate solvent and recover particles",
+      "source_file": "Article 10.1038/s41598-024-82728-6",
+      "source_section": "In vitro experiments (protocols and procedures) > Methods for synthesis of PLGA MPs/NPs; publisher PDF page 4",
+      "source_url": "https://doi.org/10.1038/s41598-024-82728-6",
+      "source_statement": "Solvent evaporation yields particles; source includes micro- and nanoscale formulations. Rotary evaporator not asserted.",
+      "source_note": "Evaporation/recovery is stated but a rotary evaporator or other powered evaporator is not asserted. Preserve the operation without inventing one.",
+      "existing_class_candidates": [
+        "M16",
+        "M29"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Passive evaporation/recovery is reported. M16 applies only if rotary evaporation is deliberately adopted; M29 is containment, not evaporation machinery.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P21.5",
+      "route_id": "P21",
+      "step_order": "5",
+      "step_label": "Use growth feedback for next experiment",
+      "source_file": "Article 10.1038/s41524-021-00629-y",
+      "source_section": "Methods: CNT growth in ARES; Results: SWCNT growth",
+      "source_url": "https://doi.org/10.1038/s41524-021-00629-y",
+      "source_statement": "Raman feedback informs subsequent settings; no new characterization-only instrument is imported.",
+      "source_note": "Feedback informs subsequent experiments. No additional characterized-only equipment model is imported as a manufacturing requirement.",
+      "existing_class_candidates": [
+        "M40"
+      ],
+      "proposed_class_ids": [
+        "M86"
+      ],
+      "recommendation": "Reuse Raman measurement hardware; feedback orchestration is a control-layer gap.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P22.4",
+      "route_id": "P22",
+      "step_order": "4",
+      "step_label": "Measure feedback and update flow ratios",
+      "source_file": "Article 10.1038/s41524-021-00520-w",
+      "source_section": "Methods: Experimental design; Figure 1",
+      "source_url": "https://doi.org/10.1038/s41524-021-00520-w",
+      "source_statement": "Inline optical feedback guides the next experiment; no characterization-only instrument imported.",
+      "source_note": "Feedback operation is retained; no new manufacturing apparatus is established by the supplied row.",
+      "existing_class_candidates": [
+        "M35",
+        "M07"
+      ],
+      "proposed_class_ids": [
+        "M86"
+      ],
+      "recommendation": "Optical feedback and flow adjustment need the existing sensor/pump plus a separately specified controller.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P23.4",
+      "route_id": "P23",
+      "step_order": "4",
+      "step_label": "Redisperse collected precipitate",
+      "source_file": "ml-lampe2022.pdf",
+      "source_section": "Preprint section 4.1 Synthesis, PDF p.9",
+      "source_url": "https://arxiv.org/abs/2210.09783",
+      "source_statement": "Redisperse in hexane; named optical spectrometer is characterization and is excluded.",
+      "source_note": "Redispersion is an operation without an identified powered machine; characterization spectrometer is excluded.",
+      "existing_class_candidates": [
+        "M09",
+        "M10",
+        "M50"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Manual redispersion is retained. Sonication or vessel mixing are alternatives requiring procedure review.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P24.1",
+      "route_id": "P24",
+      "step_order": "1",
+      "step_label": "Prepare separate silver and reducing/stabilizing feeds",
+      "source_file": "nathanael2023.pdf",
+      "source_section": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+      "source_url": "https://doi.org/10.48550/arxiv.2303.10469",
+      "source_statement": "Prepare separate silver and reducing/stabilizing feeds. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed.",
+      "source_note": "Preparing separate feed solutions establishes no distinct preparation-device class; do not invent one.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Solution preparation and dispensing lack a reported device identity.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P24.4",
+      "route_id": "P24",
+      "step_order": "4",
+      "step_label": "Collect the nanoparticle suspension",
+      "source_file": "nathanael2023.pdf",
+      "source_section": "Section 2.1 AgNPs synthesis and characterisation, preprint PDF pp.6-7; Figure 1; particle sizes in Figure 7.",
+      "source_url": "https://doi.org/10.48550/arxiv.2303.10469",
+      "source_statement": "Collect the nanoparticle suspension. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed.",
+      "source_note": "Collection is handling here; no separate collection machine is identified.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Collection can remain a receiving-vessel action; use liquid handling only for a deliberate automated sampling/transfer branch.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P25.2",
+      "route_id": "P25",
+      "step_order": "2",
+      "step_label": "Cool, wash and redisperse the nanocubes",
+      "source_file": "gao2022.pdf",
+      "source_section": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+      "source_url": "https://doi.org/10.1038/s41467-022-29926-w",
+      "source_statement": "Cool, wash and redisperse the nanocubes. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed.",
+      "source_note": "Cooling, washing and redispersion are specified without identifying an additional powered device; preserve handling operations without inventing a centrifuge.",
+      "existing_class_candidates": [
+        "M13",
+        "M15",
+        "M09",
+        "M10"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Cooling/washing/redispersion do not identify the separation or mixing mechanism; do not make these classes jointly required.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P25.5",
+      "route_id": "P25",
+      "step_order": "5",
+      "step_label": "Remove ligands and wash the catalyst",
+      "source_file": "gao2022.pdf",
+      "source_section": "PDFp9, Methods > Synthesis of ordered intermetallic CuPd nanocubes; Preparation of carbon-supported catalysts (20% loading). Size evidence: PDFp5 Figure3 discussion.",
+      "source_url": "https://doi.org/10.1038/s41467-022-29926-w",
+      "source_statement": "Remove ligands and wash the catalyst. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed.",
+      "source_note": "Ligand removal and washing are source-specific operations with no separate machine class established in this row.",
+      "existing_class_candidates": [
+        "M15",
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M85"
+      ],
+      "recommendation": "Washing and ligand removal require source-specific chemistry and hardware review.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P27.1",
+      "route_id": "P27",
+      "step_order": "1",
+      "step_label": "Prepare polymer reservoirs and aqueous antisolvent",
+      "source_file": "Article 10.1039/d4dd00104d",
+      "source_section": "Materials and methods > Nanoparticle formulation > Microfluidic chip manufacturing; Microfluidic-assisted nanoparticle formulation. Fig2a; Results > Platform for nanoparticle design > Microfluidics device.",
+      "source_url": "https://doi.org/10.1039/d4dd00104d",
+      "source_statement": "Prepare polymer reservoirs and aqueous antisolvent. Apparatus class/model is unreported where no category is assigned; add a reviewed slot as needed.",
+      "source_note": "Reservoir/solution preparation identifies no additional powered apparatus.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Reservoir and solution preparation can remain manual; liquid handling is an automation candidate.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P28.1",
+      "route_id": "P28",
+      "step_order": "1",
+      "step_label": "Combine monomers and organoclay",
+      "source_file": "ferreira2014.pdf",
+      "source_section": "Experimental > Síntese do PBS e dos nanocompósitos, PDFp2 / journalp605; nanoscale interpretation PDFp4 / journalp607",
+      "source_url": "https://doi.org/10.1590/0104-1428.1662",
+      "source_statement": "Combine monomers and organoclay. Unreported make/model and reactor geometry; no model capability inferred. No characterization models imported as manufacturing apparatus.",
+      "source_note": "Combining monomers and clay does not establish a separate powered device; subsequent mixing stages contain the classified stirring requirement.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Initial combining is handling; later steps already carry the stirring requirements.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P29.1",
+      "route_id": "P29",
+      "step_order": "1",
+      "step_label": "Prepare polymer solution and nanofiller dispersion",
+      "source_file": "xu2013.pdf",
+      "source_section": "Materials and Methods, PDFp2 / journalp3000; Fig1 and Introduction PDFpp1–2",
+      "source_url": "https://doi.org/10.1021/am302624t",
+      "source_statement": "Prepare polymer solution and nanofiller dispersion. M11-04 identity matches stated IKA T25digital; do not propagate evidence to TubeDrive or other rotor-stator models. Unverified/inconsistent operating-speed values omitted. As-received CNC/CNF preparation summary is citation-mediated, unlike direct film fabrication.",
+      "source_note": "Preparing solutions/dispersion does not identify a separate powered apparatus in this supplied row; the named homogenizer appears in step 2.",
+      "existing_class_candidates": [
+        "M11"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Reuse the named homogenizer from step 2 only if chosen for this preparation; no additional unit is established.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P30.1",
+      "route_id": "P30",
+      "step_order": "1",
+      "step_label": "Dissolve technical lignin in solvent",
+      "source_file": "tian2017.pdf",
+      "source_section": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+      "source_url": "https://doi.org/10.1186/s13068-017-0876-z",
+      "source_statement": "Lignin is dissolved in DMSO; preparation device unreported.",
+      "source_note": "Dissolution is specified without a separate device. No powered mixer should be invented.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Dissolution apparatus is unreported. A powered stirrer is a planning option, not a source fact.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P30.3",
+      "route_id": "P30",
+      "step_order": "3",
+      "step_label": "Retain the self-assembled particle dispersion",
+      "source_file": "tian2017.pdf",
+      "source_section": "Experimental > Fabrication and characterization of lignin nanoparticles and > Preparation and characterization of lignin nanoparticles/PVA composite films, PDFpp8–9",
+      "source_url": "https://doi.org/10.1186/s13068-017-0876-z",
+      "source_statement": "Dispersion contains approximately 195-197 nm particles with a reported 10-20 nm core-shell feature. No concentration or new instrument model inferred.",
+      "source_note": "Retention/collection of the dispersion is an outcome-handling step; no new machine is established.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [],
+      "recommendation": "Retention/collection of the resulting dispersion needs no dedicated new machine class unless storage or automation is separately specified.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P31.4",
+      "route_id": "P31",
+      "step_order": "4",
+      "step_label": "Gel and exchange solvent with water",
+      "source_file": "tang2024.pdf",
+      "source_section": "§§2.1–2.2 PDFpp3–4; §3.1 and Fig1 PDFpp4–5",
+      "source_url": "https://doi.org/10.1007/s40820-023-01257-5",
+      "source_statement": "Gel and exchange solvent with water. 2024volume/article38 first published online2023-11-30; preserve both dates. No commercial fabrication models specified; high-speed stirring does not prove rotor-stator identity. Compression does not establish nanoimprint press M60.",
+      "source_note": "Gelation/solvent exchange does not establish a separate machine; do not infer pressure filtration or dialysis.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M85"
+      ],
+      "recommendation": "Batch gelation/solvent exchange is distinct from pressure filtration and dialysis; do not assign M15/M66 without evidence.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P32.1",
+      "route_id": "P32",
+      "step_order": "1",
+      "step_label": "Mix oxide precursors and graphene dispersion",
+      "source_file": "nason2024.pdf",
+      "source_section": "§2.1 Preparation of KTNO/rGO Nanocomposites PDFp3; nanoscale microscopy §3.1/Fig2",
+      "source_url": "https://doi.org/10.1007/s40820-023-01222-2",
+      "source_statement": "Mix oxide precursors and graphene dispersion. 2024volume/article1 first published online2023-11-06; preserve both dates. Parr model/capacity not specified; cannot validate any catalog exact model or Ellis apparatus identity. Vacuum drying and controlled-atmosphere calcination stated, but oven/furnace geometry not named; M18/M20 can be planning candidates only. Battery characterization hardware excluded from manufacturing imports.",
+      "source_note": "Mixing precursors does not establish a distinct powered apparatus class; do not infer overhead or magnetic geometry.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "The mixing geometry is unspecified; retain as an action until a procedure selects a mixer.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P33.4",
+      "route_id": "P33",
+      "step_order": "4",
+      "step_label": "Recover and redisperse material",
+      "source_file": "other-reichel2017.pdf",
+      "source_section": "Methods > Synthesis of magnetite (Fe3O4) nanoparticles, PDF p5; magnetic separation washing documented in Methods > Bulk Magnetic Characterization, PDF p6",
+      "source_url": "https://doi.org/10.1038/srep45484",
+      "source_statement": "Magnetic separation/washing is documented for the magnetic-characterization preparation branch (PDF p6), not a required production step for every formulation.",
+      "source_note": "Magnetic separation/washing belongs to an optional characterization-preparation branch; do not make it globally required for production. It has no current category and must be reviewed if chosen.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M83"
+      ],
+      "recommendation": "Magnetic recovery/washing is documented in an optional characterization-preparation branch only.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P35.5",
+      "route_id": "P35",
+      "step_order": "5",
+      "step_label": "Quench treated rod",
+      "source_file": "other-fan2025.pdf",
+      "source_section": "Methods > Materials fabrication and tensile test, PDFp6; continuationpp7–8; nanoevidenceFig4PDFp6, DiscussionPDFpp5–6",
+      "source_url": "https://doi.org/10.1038/s43246-025-00736-z",
+      "source_statement": "Water quench vessel reported without a model.",
+      "source_note": "Water-quench vessel is identified without a powered-machine model; retain as handling/accessory operation without inventing an additional machine.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M84"
+      ],
+      "recommendation": "A water-quench vessel is explicitly recorded; its make/model and configuration remain unreported.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P36.1",
+      "route_id": "P36",
+      "step_order": "1",
+      "step_label": "Prepare precursor solution",
+      "source_file": "gomes2021.pdf",
+      "source_section": "Section5.1 Material synthesis, journalpp14673–14674 / PDFpp10–11; Table1 journalp14673 / PDFp10; Section2.1 journalp14667 / PDFp4: TEM9–20nm, Table1 pureparticles5,10,27nm",
+      "source_url": "https://doi.org/10.1039/d1nr03231c",
+      "source_statement": "Metalorganic precursor preparation; mixing apparatus unreported.",
+      "source_note": "Precursor solution preparation does not establish a specific powered mixer; no class is inferred.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Precursor solution preparation does not establish a particular mixer.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P37.3",
+      "route_id": "P37",
+      "step_order": "3",
+      "step_label": "Add curing agent and mix",
+      "source_file": "delbosque2023-hydrothermal-ageing.pdf",
+      "source_section": "Experimental 2.1 Materials and 2.2 Manufacturing of PDMS sensors, PDF page 2; Table1 on same page",
+      "source_url": "https://doi.org/10.1016/j.polymdegradstab.2023.110278",
+      "source_statement": "Manual mixing reported; no additional machine inferred.",
+      "source_note": "Mixing is explicitly manual; do not create an unresolved machine requirement.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [],
+      "recommendation": "The source explicitly says manual mixing. No new M-class is needed for the hand operation; powered mixing would be a revised procedure.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P40.1",
+      "route_id": "P40",
+      "step_order": "1",
+      "step_label": "Prepare separate precursor solutions",
+      "source_file": "Article 10.1021/acsomega.7b00759",
+      "source_section": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+      "source_url": "https://doi.org/10.1021/acsomega.7b00759",
+      "source_statement": "Precursor-preparation apparatus unreported.",
+      "source_note": "Solution preparation does not establish a distinct powered preparation instrument.",
+      "existing_class_candidates": [
+        "M02",
+        "M03"
+      ],
+      "proposed_class_ids": [
+        "M82"
+      ],
+      "recommendation": "Solution preparation and transfer can be implemented with reviewed mixing/liquid-handling choices.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P40.4",
+      "route_id": "P40",
+      "step_order": "4",
+      "step_label": "Cool coated substrate under atmosphere",
+      "source_file": "Article 10.1021/acsomega.7b00759",
+      "source_section": "Experimental Section > Deposition Procedure (JATS sec4.1); Results and Discussion > Material Characterization (sec2.1), Figure2",
+      "source_url": "https://doi.org/10.1021/acsomega.7b00759",
+      "source_statement": "Cooling/atmosphere provision is source-specific; no separate model inferred.",
+      "source_note": "Cool within the source-specific CVD/atmosphere arrangement; no separate cooling-machine class is established.",
+      "existing_class_candidates": [
+        "M21",
+        "M32"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Cooling occurs in the existing CVD/atmosphere arrangement; reuse those classes rather than inventing a separate cooler.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P41.2",
+      "route_id": "P41",
+      "step_order": "2",
+      "step_label": "Recover nanocarbon-coated alloy powder",
+      "source_file": "bai2019-accepted.pdf",
+      "source_section": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+      "source_url": "https://doi.org/10.1016/j.wear.2019.202944",
+      "source_statement": "Milling produces disordered carbon clusters predominantly below 100 nm.",
+      "source_note": "Recovery is a handling/outcome stage after milling; no second mill or powered separator is established.",
+      "existing_class_candidates": [
+        "M12",
+        "M81"
+      ],
+      "proposed_class_ids": [],
+      "recommendation": "Recover the powder after the existing milling stage; no separate powered recovery machine is established.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P41.3",
+      "route_id": "P41",
+      "step_order": "3",
+      "step_label": "Load coated powder into graphite die",
+      "source_file": "bai2019-accepted.pdf",
+      "source_section": "Sections2.1 Powder mixing and2.2 Spark plasma sintering process, manuscriptp3 / PDFp10; Section3.1 Ti64 and graphite composite powder, manuscriptp5 / PDFp12, Figure2",
+      "source_url": "https://doi.org/10.1016/j.wear.2019.202944",
+      "source_statement": "Die loading is a preparation operation; no separate machine inferred.",
+      "source_note": "Die loading is a preparation/handling operation; no separate machine is inferred.",
+      "existing_class_candidates": [
+        "M69"
+      ],
+      "proposed_class_ids": [
+        "M88"
+      ],
+      "recommendation": "Graphite die loading is currently a handling action associated with SPS. Automated powder dosing/die loading would be a new branch.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P42.3",
+      "route_id": "P42",
+      "step_order": "3",
+      "step_label": "Develop and rinse substrate",
+      "source_file": "malkiel2018.pdf",
+      "source_section": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+      "source_url": "https://doi.org/10.1038/s41377-018-0060-7",
+      "source_statement": "No separate instrument identity established.",
+      "source_note": "Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M85"
+      ],
+      "recommendation": "Develop/rinse is wet processing, not automatically etching or a separate lithography machine.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    },
+    {
+      "step_id": "P42.5",
+      "route_id": "P42",
+      "step_order": "5",
+      "step_label": "Lift off resist and rinse",
+      "source_file": "malkiel2018.pdf",
+      "source_section": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+      "source_url": "https://doi.org/10.1038/s41377-018-0060-7",
+      "source_statement": "Source-specific lift-off; no additional machine inferred.",
+      "source_note": "Lift-off and rinse remain operations, without an additional separately established machine.",
+      "existing_class_candidates": [],
+      "proposed_class_ids": [
+        "M85"
+      ],
+      "recommendation": "Resist lift-off/rinse needs a solvent-compatible wet-process station if a machine-level implementation is selected.",
+      "implementation_status": "action_stage_no_separate_machine_asserted"
+    }
+  ]
+}

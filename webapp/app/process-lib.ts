@@ -68,6 +68,8 @@ export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<st
  if(workflow.extensions.sequence_review_required===true&&workflow.extensions.sequence_reviewed!==true)reviewItems.push({step_id:'',label:'Process sequence',notes:'This capability-only sequence needs review for the intended process and operating configuration.'});
  let readySteps=0,unresolved=0,invalidAssignments=0,missingSlots=0;
  for(const step of workflow.steps){
+  const pending=Array.isArray(step.extensions.unclassified_equipment_slots)?step.extensions.unclassified_equipment_slots.length:0;
+  if(pending)unresolved+=pending;
   const source=expected.find(s=>s.step_order===step.source_step_order);
   const req=source?stepRequirements(source):null;
   const assigned=step.slots.filter(s=>s.instrument&&slotAccepts(s,s.instrument.equipment_snapshot));
@@ -81,11 +83,11 @@ export function workflowReadiness(workflow:ProcessWorkflow,sourceSteps:Record<st
    if(unknown)unresolved++;
    const optionalComplete=(req.optional_branches||[]).filter(b=>b.some(cid=>assigned.some(s=>s.instrument!.category_refs.includes(cid)))).every(matches);
    const covered=(!req.required_branches.length||req.required_branches.some(matches))&&optionalComplete;
-   if(covered&&!unknown&&!absentExtra)readySteps++;else missingSlots+=Math.max(1,absentExtra);
+   if(covered&&!unknown&&!absentExtra&&!pending)readySteps++;else missingSlots+=Math.max(1,absentExtra);
   }else{
    if(step.source_step_order&&expected.length)reviewItems.push({step_id:step.step_id,label:step.label,notes:'Review this source stage: structured branch and configuration requirements are not available.'});
    const empty=step.slots.filter(s=>!s.instrument).length;missingSlots+=empty;
-   if(!empty&&step.slots.length)readySteps++;else if(!step.slots.length)unresolved++;
+   if(!empty&&step.slots.length&&!pending)readySteps++;else if(!step.slots.length)unresolved++;
   }
  }
  // Completion means declared equipment coverage in order. Configuration review is a separate advisory, not a hidden completion gate.
@@ -125,7 +127,7 @@ export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotI
  const i=from.instrument,reused=structuredClone(i);reused.instance_id=newProcessId(i.category_id);reused.extensions.physical_unit_id=unitId(i);
  return {...workflow,steps:workflow.steps.map(s=>({...s,slots:s.slots.map(v=>v.slot_id===slotId?{...v,instrument:reused}:v)}))};
 }
-export function slotAccepts(slot:ProcessSlot,r:Equipment){return !slot.allowed_category_ids.length||slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
+export function slotAccepts(slot:ProcessSlot,r:Equipment){return !!slot.allowed_category_ids.length&&slot.allowed_category_ids.some(id=>[r.category_id,...splitIds(r.legacy_category_ids)].includes(id));}
 export function routeCandidates(records:Equipment[],route:Route,slot:ProcessSlot|null,steps?:ProcessStep[]){
  // The current plan's classified steps define relevance, including user-added slots.
  // A route tag alone does not establish that a model fits any equipment step.
@@ -222,9 +224,19 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
  for(const step of w.steps){
   if(!isObject(step))throw new Error('Invalid step.');id(step.step_id,'STEP');text(step.label,200,'step name',true);text(step.notes,12000,'step notes');text(step.source_sequence,12000,'source sequence');text(step.source_step_order,30,'source step');jsonObject(step.extensions,'Step extensions');
   if(!Array.isArray(step.slots)||step.slots.length>50||(slotCount+=step.slots.length)>250)throw new Error('Use at most 50 slots per step and 250 per workflow.');
+  const pending=step.extensions.unclassified_equipment_slots;
+  if(pending!==undefined){
+   if(!Array.isArray(pending)||pending.length>50||(slotCount+=pending.length)>250)throw new Error('Too many pending equipment requests.');
+   for(const request of pending){
+    if(!isObject(request)||request.instrument!==null)throw new Error('Invalid pending equipment request.');
+    id(request.slot_id,'SLOT');text(request.label,200,'pending slot label',true);jsonObject(request.extensions,'Pending slot extensions');
+    if(!Array.isArray(request.allowed_category_ids)||request.allowed_category_ids.length>100||request.allowed_category_ids.some(c=>typeof c!=='string'||!/^M\d{2,3}$|^X-[A-Z0-9-]+$/.test(c)))throw new Error('Invalid pending class references.');
+   }
+  }
+
   for(const slot of step.slots){
    if(!isObject(slot))throw new Error('Invalid slot.');id(slot.slot_id,'SLOT');text(slot.label,200,'slot label',true);jsonObject(slot.extensions,'Slot extensions');
-   if(!Array.isArray(slot.allowed_category_ids)||slot.allowed_category_ids.length>100||slot.allowed_category_ids.some(c=>typeof c!=='string'||!/^M\d{2,3}$|^X-[A-Z0-9-]+$/.test(c)))throw new Error('Invalid slot classes.');
+   if(!Array.isArray(slot.allowed_category_ids)||!slot.allowed_category_ids.length||slot.allowed_category_ids.length>100||slot.allowed_category_ids.some(c=>typeof c!=='string'||!/^M\d{2,3}$/.test(c)))throw new Error('Choose an M-class for every equipment slot before saving.');
    if(slot.instrument===null)continue;const i=slot.instrument;if(!isObject(i))throw new Error('Invalid instrument assignment.');
    const old=oldInstruments.get(i.instance_id);const r=old?.equipment_snapshot||known.get(i.equipment_id);if(!r)throw new Error('This equipment is no longer in your ontology. Re-select a model.');
    id(i.instance_id,r.category_id);if(old&&old.equipment_id!==i.equipment_id)throw new Error('An instrument instance cannot change model. Replace the instrument to create a new instance.');
