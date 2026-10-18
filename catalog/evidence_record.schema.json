@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/raw/main/catalog/evidence_record.schema.json",
+  "title": "ICoN-PCL evidence record v1",
+  "type": "object",
+  "required": ["schema", "evidence_id", "record_kind", "classification", "title", "claim", "scope", "recorded_at", "sources", "related_records", "source_evidence_ids", "supersedes_id", "context"],
+  "properties": {
+    "schema": {"const": "iconpcl-evidence-record/v1"},
+    "evidence_id": {"type": "string", "minLength": 1},
+    "record_kind": {"enum": ["source_claim", "control_action", "instrument_sequence", "workflow_combination", "planned_output", "workflow_assessment", "property_assessment"]},
+    "classification": {"type": "string", "minLength": 1},
+    "title": {"type": "string"}, "claim": {"type": "string"}, "scope": {"type": "string", "minLength": 1}, "recorded_at": {"type": "string"},
+    "sources": {"type": "array", "items": {"type": "object", "required": ["title", "url", "locator", "checked_date"], "properties": {"title": {"type": "string"}, "url": {"type": "string"}, "locator": {"type": "string"}, "checked_date": {"type": "string"}}}},
+    "related_records": {"type": "array", "items": {"type": "object", "required": ["record_type", "record_id", "label"], "properties": {"record_type": {"type": "string"}, "record_id": {"type": "string"}, "label": {"type": "string"}}}},
+    "source_evidence_ids": {"type": "array", "items": {"type": "string"}}, "supersedes_id": {"type": "string"}, "context": {"type": "object"}, "content_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  },
+  "additionalProperties": false
+}

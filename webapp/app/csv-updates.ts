@@ -1,4 +1,4 @@
-import {SEQUENCE_FIELD,validateSequenceTemplate} from './control-sequence-lib.ts';
+import {SEQUENCE_FIELD,SEQUENCE_TEMPLATE_LIMIT,validateSequenceTemplate} from './control-sequence-lib.ts';
 import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
 import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
 import {LIFECYCLE_FIELDS} from './model-lifecycle.ts';
@@ -77,7 +77,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
     if(op==='add_equipment'){record.product_family_id='PF-'+id;record.product_family='';for(const k of Object.keys(record))if(k.startsWith('estimate'))record[k]='';const comparator=records.find(r=>r.category_id===category);if(comparator)for(const k of Object.keys(comparator))if(k.startsWith('estimate'))record[k]=comparator[k]}
    }
    const changed:string[]=[];
-   for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>(field===SEQUENCE_FIELD?32000:6000))throw new Error(field+" exceeds its character limit.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
+   for(const field of UPDATE_FIELDS){const value=input[field];if(value){if(value.length>(field===SEQUENCE_FIELD?SEQUENCE_TEMPLATE_LIMIT:6000))throw new Error(field+" exceeds its character limit.");const next=value==='[CLEAR]'?'':value;if(String(record[field]||"").trim()!==next){record[field]=next;changed.push(field)}}}
    if(changed.includes('model_name')||changed.includes('manufacturer'))for(const field of LIFECYCLE_FIELDS)record[field]='';
    if(op!=='update'||changed.includes('model_name')||changed.includes('manufacturer'))record=independentVariant(record,parent||before||record);
    if(changed.includes('product_page_url'))record.product_page_scope='';

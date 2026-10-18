@@ -1,4 +1,5 @@
 'use client';
+import {savedSequenceRef} from './sequence-evidence-lib';
 import {readControlSequence,SEQUENCE_KEY,type SequenceContext} from './control-sequence-lib';
 import {chooseSequence,CONTROL_KEY} from './process-controls-lib';
 import {normalizeWorkflowClasses,pendingClassSlots,resolvePendingClass} from './process-classification-lib';
@@ -152,7 +153,7 @@ export default function Processes({workspaceVisible=true,rows,routes,steps,categ
  function openCard(equipmentId:string,snapshot?:Equipment,slotId?:string){
   if(Date.now()<suppressCardOpen.current)return;
   const step=draft.steps.find(s=>s.slots.some(slot=>slot.slot_id===slotId)),slot=step?.slots.find(s=>s.slot_id===slotId),instrument=slot?.instrument;
-  const controls:SequenceContext|undefined=instrument?{sequence:readControlSequence(instrument.configuration[SEQUENCE_KEY],instrument.configuration[CONTROL_KEY]),label:'Step '+(draft.steps.indexOf(step!)+1)+' · '+step!.label+' · occurrence '+slotId,onChange:next=>{setDraft(current=>{const assigned=current.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId)?.instrument;if(assigned?.instance_id!==instrument.instance_id)return current;const updated=chooseSequence(current,slotId!,next);delete updated.extensions.output_evidence_snapshot;delete updated.extensions.output_evidence_revision;delete updated.extensions.process_budget_snapshot;return updated});setDirty(true);setUndoClear(null);setNotice('Instrument operation sequence updated in this process draft.');}}:undefined;
+  const controls:SequenceContext|undefined=instrument?{saved_evidence_id:savedSequenceRef(instrument)?.evidence_id,saved_revision:savedSequenceRef(instrument)?.revision,sequence:readControlSequence(instrument.configuration[SEQUENCE_KEY],instrument.configuration[CONTROL_KEY]),label:'Step '+(draft.steps.indexOf(step!)+1)+' · '+step!.label+' · occurrence '+slotId,onChange:next=>{setDraft(current=>{const assigned=current.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId)?.instrument;if(assigned?.instance_id!==instrument.instance_id)return current;const updated=chooseSequence(current,slotId!,next);delete updated.extensions.output_evidence_snapshot;delete updated.extensions.output_evidence_revision;delete updated.extensions.process_budget_snapshot;return updated});setDirty(true);setUndoClear(null);setNotice('Instrument operation sequence updated in this process draft.');}}:undefined;
   onOpen(equipmentId,snapshot,controls);
  }
  function handle(equipmentId:string,fromSlot?:string){return <button type="button" className="process-card-grip" aria-label={'Drag '+(recordMap.get(equipmentId)?.model_name||equipmentId)+' to equipment slot'} onPointerDown={e=>pointerStart(e,equipmentId,fromSlot)} onPointerMove={pointerMove} onPointerUp={pointerEnd} onPointerCancel={()=>{pointer.current=null;setPointerView(null);setHover('')}}><GripVertical size={14}/>Drag instrument</button>;}

@@ -1,4 +1,4 @@
-import {SEQUENCE_FIELD,validateSequenceTemplate} from '../../control-sequence-lib';
+import {SEQUENCE_FIELD,SEQUENCE_TEMPLATE_LIMIT,validateSequenceTemplate} from '../../control-sequence-lib';
 import { env } from "cloudflare:workers";
 import seed from "../../data/catalog.json";
 import literature from "../../data/references.json";
@@ -15,6 +15,8 @@ import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 import {independentVariant} from '../../product-family-policy';
 import {withMsrpEstimates} from '../../msrp-policy';
 import msrpPolicy from '../../data/msrp-policy.json';
+import {templateSequenceEvidence} from '../../sequence-evidence-lib';
+import {evidenceStatements} from '../../evidence-store';
 const EDITABLE = new Set(["equipment_subtype","model_name", "manufacturer", "product_family", "variant_label", "capacity_ml", "manual_url", "manual_scope", "product_page_url", "technical_spec_url", "brochure_url", "image_url", "image_source_url", "image_scope", "msrp_value", "msrp_currency", "price_source_url", "price_checked_date", "related_material_ids", "related_material_types", "related_process_ids", "related_process_types", "notes", SEQUENCE_FIELD, ...MANUFACTURER_PRICE_FIELDS]);
 function json(body: unknown, status=200) {return Response.json(body, {status, headers:{"Cache-Control":"no-store"}});}
 function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); return env.DB;}
@@ -65,11 +67,12 @@ export async function PUT(request: Request) {
     const saved = await db().prepare("SELECT payload,revision FROM equipment_edits WHERE user_id=? AND equipment_id=?").bind(user.userId,target).first<{payload:string;revision:number}>();
     const original = saved ? personalRecord(byId.get(target),JSON.parse(saved.payload)) : byId.get(target);
     if (!original) return json({error:"Equipment record was not found."},404);
+    if(!creating&&input.expected_revision!==(saved?.revision||0))return json({error:"This record changed in another window. Reload before saving."},409);
     if (creating && input.expected_revision!==0) return json({error:"New variants start at revision zero."},400);
     const fields:Record<string,string>={};
     for (const [k,v] of Object.entries(input.fields)) {
       if (!EDITABLE.has(k)) return json({error:`Field ${k} cannot be edited.`},400);
-      if (typeof v !== "string" || v.length>(k===SEQUENCE_FIELD?32000:6000)) return json({error:`Invalid ${k}.`},400);
+      if (typeof v !== "string" || v.length>(k===SEQUENCE_FIELD?SEQUENCE_TEMPLATE_LIMIT:6000)) return json({error:`Invalid ${k}.`},400);
       fields[k]=v.trim();
     }
     let record:Equipment = audited({...original,...fields},Object.keys(fields));
@@ -108,13 +111,14 @@ export async function PUT(request: Request) {
     }
     record=withMsrpEstimates([...shared.records.filter(r=>r.equipment_id!==record.equipment_id),record],seed.model_lifecycle,msrpPolicy).at(-1)!;
     try{if(Object.hasOwn(fields,SEQUENCE_FIELD))validateSequenceTemplate(record)}catch(e){return json({error:e instanceof Error?e.message:"Invalid instrument sequence."},400)}
+    const now=new Date().toISOString(),revision=input.expected_revision+1;
+    const sequenceEvidence=!creating&&Object.hasOwn(fields,SEQUENCE_FIELD)?await templateSequenceEvidence(record,revision,now,(await loadPositionLibrary()).library,original):null;
+    if(sequenceEvidence)record=sequenceEvidence.record;
     const sharedBase=byId.get(record.equipment_id);
     if(sharedBase)record._personal_fields=JSON.stringify([...EDITABLE].filter(k=>record[k]!==sharedBase[k]));
-    const now=new Date().toISOString();
-    const revision=input.expected_revision+1;
-    const result=await db().prepare("INSERT INTO equipment_edits (user_id,equipment_id,payload,revision,updated_at) VALUES (?,?,?,?,?) ON CONFLICT(user_id,equipment_id) DO UPDATE SET payload=excluded.payload,revision=excluded.revision,updated_at=excluded.updated_at WHERE equipment_edits.revision=? RETURNING revision").bind(user.userId,record.equipment_id,JSON.stringify(record),revision,now,input.expected_revision).first<{revision:number}>();
-    if (!result) return json({error:"This record changed in another window. Reload before saving."},409);
-    return json({record,revision:result.revision,updated_at:now});
+    const statement=db().prepare("INSERT INTO equipment_edits (user_id,equipment_id,payload,revision,updated_at) VALUES (?,?,?,?,?) ON CONFLICT(user_id,equipment_id) DO UPDATE SET payload=excluded.payload,revision=CASE WHEN equipment_edits.revision=? THEN excluded.revision ELSE NULL END,updated_at=excluded.updated_at").bind(user.userId,record.equipment_id,JSON.stringify(record),revision,now,input.expected_revision);
+    try{await db().batch([statement,...evidenceStatements(sequenceEvidence?.records||[],user.userId)]);}catch(e){const latest=await db().prepare('SELECT revision FROM equipment_edits WHERE user_id=? AND equipment_id=?').bind(user.userId,record.equipment_id).first<{revision:number}>();if(latest&&latest.revision!==input.expected_revision)return json({error:"This record changed in another window. Reload before saving."},409);throw e;}
+    return json({record,revision,updated_at:now});
   } catch (error) {
     console.error("Catalog save failed",error);
     return json({error:"The change could not be saved. Your form is still open."},500);

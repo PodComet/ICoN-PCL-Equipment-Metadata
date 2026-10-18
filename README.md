@@ -156,3 +156,5 @@ See the [M89–M99 expansion review](docs/mit-class-expansion.md) for the latest
 The [2026 purchase-price review](docs/PRICE_RESEARCH_2026.md) adds 59 instrument prices and 42 distinct component/material pack quotes. Four explicitly dated 2026 distributor pricebooks are documented separately from current website observations and manufacturer MSRP. Reproducible coverage CSVs identify remaining price gaps; supplier references do not silently establish formulation compatibility.
 
 Material pack prices include expandable P-category/method links and process filtering. See [input quantities and material pricing](docs/output-quantities-and-material-prices.md) for the 2026-10-18 supplier quote expansion and compatibility scope.
+
+The [Evidence register](docs/evidence-register.md) provides readable source claims and related records, with CSV/JSON companions. [Evidence-system documentation](docs/evidence-system.md) explains the app’s immutable saved action, sequence and workflow-combination evidence IDs, reproduction packages and private/public storage boundaries.

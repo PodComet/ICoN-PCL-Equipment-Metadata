@@ -5,6 +5,10 @@ import {isCatalogAdmin} from "../../../admin-policy";
 import {loadSharedCatalog} from "../../../catalog-store";
 import {buildPlan} from "../../../csv-updates";
 import {withSharedResearchOverrides} from "../../../research-policy";
+import {SEQUENCE_FIELD} from '../../../control-sequence-lib';
+import {templateSequenceEvidence} from '../../../sequence-evidence-lib';
+import {evidenceStatements} from '../../../evidence-store';
+import {loadPositionLibrary} from '../../../position-store';
 
 const json=(data:unknown,status=200)=>Response.json(data,{status,headers:{"Cache-Control":"no-store"}});
 export async function GET(){
@@ -30,9 +34,13 @@ export async function POST(request:Request){
   if(plan.errors.length)return json({error:"Resolve CSV validation errors before applying.",plan},400);
   if(!plan.changes.length)return json({error:"No changes to apply."},400);
   const id=crypto.randomUUID(),now=new Date().toISOString(),revision=catalog.revision+1;
+  const sequenceChanges=plan.changes.filter(c=>c.fields.includes(SEQUENCE_FIELD));
+  const sequenceRecords=[];
+  if(sequenceChanges.length){const library=(await loadPositionLibrary()).library;for(const change of sequenceChanges){const result=await templateSequenceEvidence(change.after,revision,now,library,change.before||undefined);change.after=result.record;sequenceRecords.push(...result.records);}}
   const statements=[env.DB!.prepare("INSERT INTO catalog_meta(id,revision) VALUES('shared',1) ON CONFLICT(id) DO UPDATE SET revision=CASE WHEN catalog_meta.revision=? THEN catalog_meta.revision+1 ELSE NULL END").bind(catalog.revision)];
   statements.push(env.DB!.prepare("INSERT INTO catalog_shared(equipment_id,payload,revision,updated_at) SELECT json_extract(value,'$.equipment_id'),json_extract(value,'$.payload'),?,? FROM json_each(?) WHERE true ON CONFLICT(equipment_id) DO UPDATE SET payload=excluded.payload,revision=excluded.revision,updated_at=excluded.updated_at").bind(revision,now,JSON.stringify(plan.changes.map(change=>({equipment_id:change.equipment_id,payload:JSON.stringify(withSharedResearchOverrides(change.after,change.fields))})))));
   statements.push(env.DB!.prepare("INSERT INTO catalog_imports(id,user_id,filename,revision,changed_count,changes_json,created_at) VALUES(?,?,?,?,?,?,?)").bind(id,user!.userId,String(input.filename||'updates.csv').slice(0,200),revision,plan.changes.length,JSON.stringify(plan.changes),now));
+  statements.push(...evidenceStatements(sequenceRecords,'__shared__'));
   try{await env.DB!.batch(statements)}catch(e){
    // The non-null revision guard aborts and rolls back the complete batch on conflict.
    const latest=await loadSharedCatalog();if(latest.revision!==catalog.revision)return json({error:"Another admin applied changes. Preview this CSV again; none of this batch was applied."},409);

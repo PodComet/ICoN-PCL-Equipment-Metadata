@@ -15,6 +15,7 @@ from component_tools import build as build_components
 from price_coverage import build as build_price_coverage
 from process_science_tools import build as build_process_science
 from ontology_tools import build as build_ontology
+from evidence_tools import build as build_evidence
 
 def read_csv(name):
     with (ROOT / "catalog" / (name + ".csv")).open(encoding="utf-8-sig", newline="") as source:
@@ -95,6 +96,7 @@ def main():
     build_components(ROOT)
     build_price_coverage(ROOT,data['records'])
     build_ontology(ROOT)
+    build_evidence(ROOT)
     print(f"Generated {len(data['records'])} equipment records")
 
 if __name__ == "__main__":

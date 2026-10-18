@@ -3,9 +3,10 @@ import type {Equipment} from './catalog-lib.ts';
 
 export const SEQUENCE_KEY='ontology_control_sequence';
 export const SEQUENCE_FIELD='control_sequence_json';
+export const SEQUENCE_TEMPLATE_LIMIT=64000;
 export type ControlAction={id:string;position:string;fiber_id:string;direction:string;source:'profile'|'user_defined';notes:string};
 export type ControlSequence={schema:'instrument-control-sequence/v1';steps:ControlAction[];order_basis?:'legacy_selection_requires_review'|'user_ordered'};
-export type SequenceContext={sequence:ControlSequence;label:string;onChange:(sequence:ControlSequence)=>void};
+export type SequenceContext={sequence:ControlSequence;label:string;saved_evidence_id?:string;saved_revision?:number;onChange:(sequence:ControlSequence)=>void};
 export const blankSequence=():ControlSequence=>({schema:'instrument-control-sequence/v1',steps:[],order_basis:'user_ordered'});
 export const newControlAction=():ControlAction=>({id:crypto.randomUUID(),position:'',fiber_id:'',direction:'',source:'profile',notes:''});
 export function validateControlSequence(value:unknown):ControlSequence{
@@ -42,9 +43,10 @@ export function sequenceTemplate(record:Equipment):ControlSequence{
 export function sequenceTemplateJSON(record:Equipment,sequence:ControlSequence){return JSON.stringify({schema:'instrument-sequence-template/v1',subject:{equipment_id:record.equipment_id,manufacturer:record.manufacturer,model_name:record.model_name},sequence:validateControlSequence(sequence)});}
 export function validateSequenceTemplate(record:Equipment){
  if(!record[SEQUENCE_FIELD])return;
- if(record[SEQUENCE_FIELD].length>32000)throw new Error('Instrument sequence exceeds 32,000 characters.');
+ if(record[SEQUENCE_FIELD].length>SEQUENCE_TEMPLATE_LIMIT)throw new Error('Instrument sequence template exceeds 64,000 characters including evidence references.');
  let t;try{t=JSON.parse(record[SEQUENCE_FIELD]);}catch{throw new Error('Instrument sequence must be valid JSON.');}
  if(t.schema!=='instrument-sequence-template/v1'||t.subject?.equipment_id!==record.equipment_id||identity(t.subject?.manufacturer)!==identity(record.manufacturer)||identity(t.subject?.model_name)!==identity(record.model_name))throw new Error('Instrument sequence must match this exact manufacturer, model and equipment ID.');
+ if(JSON.stringify(t.sequence).length>32000)throw new Error('Instrument sequence actions exceed 32,000 characters.');
  validateControlSequence(t.sequence);
 }
 export function moveControlAction(sequence:ControlSequence,id:string,delta:number):ControlSequence{

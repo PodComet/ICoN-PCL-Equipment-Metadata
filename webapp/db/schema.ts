@@ -75,3 +75,7 @@ export const researchGrants=sqliteTable('research_grants',{
 export const researchOwners=sqliteTable('research_owners',{
  ownerId:text('owner_id').primaryKey(),revision:integer('revision').notNull(),
 });
+
+export const evidenceRecords=sqliteTable('evidence_records',{
+ evidenceId:text('evidence_id').primaryKey(),ownerId:text('owner_id').notNull(),recordKind:text('record_kind').notNull(),subjectId:text('subject_id').notNull(),revision:integer('revision').notNull(),payload:text('payload').notNull(),createdAt:text('created_at').notNull(),
+},t=>[index('evidence_owner_created').on(t.ownerId,t.createdAt),index('evidence_subject_revision').on(t.subjectId,t.revision)]);
