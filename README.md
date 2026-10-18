@@ -1,5 +1,9 @@
 # ICoN-PCL Equipment Metadata
 
+The **Research data / ELN** tab adds an openBIS-style Space / Project / Collection / Object / Data set workspace, instrument-export ingestion, private records and explicit sharing, revision history, qualified provenance and portable RO-Crate packages. See the [FAIR research-data guide](docs/FAIR_RESEARCH_DATA.md) and [machine-readable standards map](catalog/research_standards.json). This is a local ELN/LIMS foundation, not a connected openBIS server.
+
+**Current catalog snapshot (17 October 2026):** 1,079 model/category records, 922 equipment family cards, 97 active M classes plus six retained X classes, 44 P-class routes, 249 ordered steps and 76 academic references. Older dated review counts below describe their respective review snapshots.
+
 The [functional process review](docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
 
 Research equipment metadata and a reproducible machine-list comparison tool.

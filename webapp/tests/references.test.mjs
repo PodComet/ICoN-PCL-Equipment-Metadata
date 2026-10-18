@@ -75,12 +75,18 @@ test('checked category evidence is available separately without granting model s
  assert.deepEqual(categoryEvidenceLinks({...record,category_id:'M01'},links),[]);
 });
 test('expanded library stays academic-only and preserves scoped model evidence',()=>{
- assert.equal(data.references.filter(r=>!r.topics.includes('source_formulation')&&!r.topics.includes('citation_sweep_2026_10_17')).length,53);assert.equal(data.reference_files.length,42);
+ assert.equal(data.references.filter(r=>!['source_formulation','citation_sweep_2026_10_17','openbis_architecture_2026_10_17'].some(topic=>r.topics.includes(topic))).length,53);assert.equal(data.reference_files.length,42);
  assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim'&&!l.link_id.startsWith('LINK-FORM-')&&!l.link_id.startsWith('LINK-MIT-RAMAN-')&&!l.link_id.startsWith('LINK-SW17-')).length,149);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
  assert.equal(JSON.parse(data.exports.csl_json).length,data.references.length);
  assert.ok(data.references.every(r=>!JSON.stringify(r).includes('C:\\')));
+});
+
+test('openBIS architecture background does not acquire manufactured-material or exact-model support',()=>{
+ const r=data.references.find(r=>r.doi==='10.1002/adem.202502882');assert.ok(r);assert.equal(r.publication_year,'2026');
+ const links=data.reference_links.filter(l=>l.reference_id===r.reference_id);assert.ok(links.length);assert.ok(links.every(l=>l.target_type==='project'&&l.relation==='background'));
+ assert.equal(data.reference_classes.filter(c=>c.reference_id===r.reference_id).length,0);
 });
 
 test('online full-text checks are not mislabeled as PDF checks',()=>{assert.equal(metadataCheckLabel('full_text_and_registry_checked'),'Full text + registry checked');assert.equal(metadataCheckLabel('unknown'),'Metadata needs review');});

@@ -1,20 +1,20 @@
 {
-  "references": 75,
+  "references": 76,
   "local_article_files": 42,
   "duplicate_file_copies": 1,
-  "published_articles": 70,
+  "published_articles": 71,
   "preprints": 5,
   "metadata_needs_review": 2,
-  "context_links": 105,
+  "context_links": 106,
   "checked_claim_links": 265,
   "default_order": "publication_year_ascending",
-  "author_entries": 546,
-  "authors_with_affiliations": 540,
+  "author_entries": 552,
+  "authors_with_affiliations": 546,
   "authors_missing_affiliations": 6,
   "authors_affiliation_not_stated": 6,
   "authors_affiliation_pending": 0,
-  "references_with_affiliations": 73,
-  "affiliation_records": 706,
+  "references_with_affiliations": 74,
+  "affiliation_records": 712,
   "references_with_classes": 60,
-  "general_background_references": 15
+  "general_background_references": 16
 }

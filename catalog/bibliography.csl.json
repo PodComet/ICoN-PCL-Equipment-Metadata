@@ -3755,6 +3755,51 @@
     }
   },
   {
+    "id": "REF-824033058978",
+    "type": "article-journal",
+    "title": "Towards Defect Phase Diagrams: From Research Data Management to Automated Workflows",
+    "author": [
+      {
+        "family": "Rejiba",
+        "given": "Khalil"
+      },
+      {
+        "family": "Lee",
+        "given": "Sang-Hyeok"
+      },
+      {
+        "family": "Gasper",
+        "given": "Christina"
+      },
+      {
+        "family": "Freund",
+        "given": "Martina"
+      },
+      {
+        "family": "Korte-Kerzel",
+        "given": "Sandra"
+      },
+      {
+        "family": "Kerzel",
+        "given": "Ulrich"
+      }
+    ],
+    "container-title": "Advanced Engineering Materials",
+    "article-number": "e202502882",
+    "DOI": "10.1002/adem.202502882",
+    "URL": "https://doi.org/10.1002/adem.202502882",
+    "page": "e202502882",
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4,
+          4
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-59A237EFFA76",
     "type": "article",
     "title": "ZipTok3D: High-Fidelity 3D Tokenization with Compact Token Prefixes",

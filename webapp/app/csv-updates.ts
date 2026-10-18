@@ -11,7 +11,7 @@ export const CSV_COLUMNS=["operation","equipment_id","parent_equipment_id","cate
 export type Change={line:number;operation:string;equipment_id:string;name:string;fields:string[];before:Equipment|null;after:Equipment};
 export type Plan={changes:Change[];errors:{line:number;message:string}[];warnings:{line:number;message:string}[];unchanged:number;rowCount:number};
 
-export function parseCSV(text:string):string[][] {
+export function parseCSV(text:string,maxRows=1001):string[][] {
  if(text.length>3_000_000)throw new Error("CSV must be under 3 MB.");
  text=text.replace(/^\uFEFF/,"");
  const rows:string[][]=[];let row:string[]=[],cell="",quoted=false,closed=false;
@@ -27,7 +27,7 @@ export function parseCSV(text:string):string[][] {
  }
  if(quoted)throw new Error("An opening quote has no closing quote.");
  if(cell||row.length||closed){push();if(row.some(v=>v.trim()))rows.push(row)}
- if(rows.length>1001)throw new Error("Use at most 1,000 data rows per file.");
+ if(rows.length>maxRows)throw new Error('Use at most '+(maxRows-1).toLocaleString('en-US')+' data rows per file.');
  return rows;
 }
 export function csvUpdateText(rows:Record<string,string>[]) {

@@ -1,0 +1,6 @@
+# model: Synthetic detector (format example only)
+# acquisition_time: 2026-10-17T10:00:00Z
+# data_scope: Synthetic values; not experimental evidence
+time [s],mass [mg],temperature [°C]
+0,2,25
+1,3,26

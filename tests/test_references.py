@@ -106,7 +106,7 @@ def test_export_escapes_tex_and_doi_normalization():
 
 
 def test_affiliations_cover_every_author_entry_without_inventing_an_unstated_institution():
-    data=read_database();new_ids={r['reference_id'] for r in data['references'] if 'source_formulation' in r['topics'] or 'citation_sweep_2026_10_17' in r['topics']}
+    data=read_database();new_ids={r['reference_id'] for r in data['references'] if any(topic in r['topics'] for topic in ['source_formulation','citation_sweep_2026_10_17','openbis_architecture_2026_10_17'])}
     historical={k:[r for r in rows if r.get('reference_id') not in new_ids] for k,rows in data.items()};stats=coverage(historical)
     assert coverage(data)['authors_affiliation_pending']==0
     assert stats['author_entries']==405 and stats['authors_with_affiliations']==401
@@ -119,6 +119,16 @@ def test_affiliations_cover_every_author_entry_without_inventing_an_unstated_ins
     ghiringhelli=next(r for r in data['references'] if r['doi']=='10.1038/s41597-023-02501-8')
     institutions=[a['institution'] for a in data['reference_affiliations'] if a['reference_id']==ghiringhelli['reference_id'] and a['author_index']=='0']
     assert len(institutions)==2 and not any('Friedrich' in i for i in institutions)
+
+
+def test_openbis_architecture_article_is_background_with_publication_specific_affiliations():
+    data=read_database();article=next(r for r in data['references'] if r['doi']=='10.1002/adem.202502882')
+    assert article['publication_date']=='2026-04-04' and article['publication_year']=='2026'
+    affiliations=[a for a in data['reference_affiliations'] if a['reference_id']==article['reference_id']]
+    assert len(affiliations)==6 and {int(a['author_index']) for a in affiliations}==set(range(6))
+    links=[l for l in data['reference_links'] if l['reference_id']==article['reference_id']]
+    assert links and all(l['relation']=='background' and l['target_type']=='project' for l in links)
+    assert not any(l['relation']=='supports_claim' for l in links)
 
 
 @pytest.mark.parametrize('change,message',[

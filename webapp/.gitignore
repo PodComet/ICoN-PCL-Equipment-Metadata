@@ -57,3 +57,6 @@ next-env.d.ts
 /work/
 
 *.tsbuildinfo
+/research-data/
+/instrument-exports/
+/research-packages/

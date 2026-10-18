@@ -174486,6 +174486,47 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-OPENBIS17-824033058978",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ReferenceLink"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "LINK-OPENBIS17-824033058978"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-824033058978"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Materials-science research-data architecture combining ELN/LIMS records, metadata parsers and linked provenance supports the project design."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#relation": [
+      {
+        "@value": "background"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#reviewStatus": [
+      {
+        "@value": "context_reviewed"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Project architecture background only; this link does not establish a manufacturing recipe, output yield or use of any catalog model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceLocator": [
+      {
+        "@value": "Abstract; sections 1.1, 3.1-3.4, 4.1-4.3 and 5; figures 3, 6-12"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-044C7FEC4736",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ReferenceLink"
@@ -180054,6 +180095,30 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#publicationYear": [
       {
         "@value": "2023"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-824033058978",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#AcademicReference"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-824033058978"
+      },
+      {
+        "@value": "doi:10.1002/adem.202502882"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Towards Defect Phase Diagrams: From Research Data Management to Automated Workflows"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#publicationYear": [
+      {
+        "@value": "2026"
       }
     ]
   },

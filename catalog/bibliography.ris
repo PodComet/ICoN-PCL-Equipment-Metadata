@@ -1553,6 +1553,24 @@ UR  - https://doi.org/10.1002/mgea.70056
 Y2  - 2026-10-15
 ER  -
 
+TY  - JOUR
+ID  - REF-824033058978
+AU  - Rejiba, Khalil
+AU  - Lee, Sang-Hyeok
+AU  - Gasper, Christina
+AU  - Freund, Martina
+AU  - Korte-Kerzel, Sandra
+AU  - Kerzel, Ulrich
+TI  - Towards Defect Phase Diagrams: From Research Data Management to Automated Workflows
+PY  - 2026
+JO  - Advanced Engineering Materials
+SP  - e202502882
+DO  - 10.1002/adem.202502882
+UR  - https://doi.org/10.1002/adem.202502882
+Y2  - 2026-10-17
+N1  - Architecture background for materials-science ELN/LIMS, metadata ingestion and provenance. Published version dated 2026-04-04; distinct from its 2025 preprint. No exact-model manufacturing-use claim is asserted.
+ER  -
+
 TY  - UNPB
 ID  - REF-59A237EFFA76
 AU  - Lin, Mingda

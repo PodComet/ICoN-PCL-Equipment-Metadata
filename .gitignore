@@ -4,3 +4,8 @@ __pycache__/
 data/private/*
 !data/private/.gitkeep
 reports/local/
+
+# Private research records, source exports and local RO-Crate packages
+/research-data/
+/instrument-exports/
+/research-packages/
