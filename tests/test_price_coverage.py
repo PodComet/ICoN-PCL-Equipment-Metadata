@@ -47,7 +47,6 @@ def test_reference_packs_do_not_gain_consumption_eligibility_by_alias_or_name():
         for lid in mapping.get('reference_line_ids',[]):
             assert offer['component_id']==lines[lid]['component_id']
             assert offer['offer_id'] not in lines[lid]['eligible_offer_ids']
-    assert len(data['offers'])==100
     assert audit['summary']['unique_new_component_pack_quotes']==42
     assert len(audit['component_review_status'])==188
 

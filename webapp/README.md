@@ -24,6 +24,10 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 - Signed-in, account-specific persistent edits and added variants, protected by revision checks. CSV export includes your saved edits. Browser changes do not automatically commit to GitHub.
 - The deployed app is owner-private. The code and curated CSV seed are public. The original inventory workbook and PDF are not redistributed.
 
+## Visuals
+
+The Visuals tab derives a process-context graph and a process-chain graph from the current ontology and authorized saved plans. It refreshes catalog/reference data and newer saved revisions, retains parameter units and scoped evidence, and exports SVG, JSON and RDF. See [methods and limits](https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/docs/visuals.md).
+
 ## Local development
 
 The portable preview opens automatically as **admin** on loopback, preserving existing local plans. See [local administrator behavior and security-test mode](docs/local-admin.md). Production builds keep the hosted sign-in/password flow.
@@ -105,3 +109,5 @@ The repository documentation includes a sourced draft research statement and exa
 The finished-output card exposes POSITION → FIBER → DIRECTIONS for every assigned occurrence, with independent choices when one machine is reused. Administrators can preview and atomically apply complete model Position Lists from CSV UTF-8, with optional source-linked declared output effects. A downloadable Excel template includes column instructions. Uploaded effects remain unverified; missing material effects are explicit. Apply local migration `0004_position_profiles.sql` for the shared profile tables. New Position Lists are model-bound and do not execute hardware.
 
 All card prices and process totals display USD using the committed ECB reference-rate snapshot. Source currencies remain in details and exports. New foreign-price snapshots preserve the original quote and FX evidence; historic native-price snapshots convert for totals. Unknown rates remain unpriced. See the repository USD pricing and position-upload guides.
+
+The equipment directory’s material pack-price table supports P-code/name searches and process filtering. Its Processes column links each material identity to sourced formulation methods, without implicitly approving a grade or changing costing eligibility.

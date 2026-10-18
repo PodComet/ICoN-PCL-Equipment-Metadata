@@ -17,7 +17,7 @@ P04,P04-LITERATURE-EXAMPLE,P04-LITERATURE-EXAMPLE-C07,ammonium-hydroxide,Ammoniu
 P04,P04-LITERATURE-EXAMPLE,P04-LITERATURE-EXAMPLE-C08,ethanol,Ethanol,Post-isolation washing; volume not reported,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/ethanol-200-proof-100-non-denatured-pure-alcohol-hplc-grade?selected=EAPHPLC200-1GAL
 P04,P04-LITERATURE-EXAMPLE,P04-LITERATURE-EXAMPLE-C09,water,Water,Repeated post-isolation washing; volume not reported,consumed,1,0,reference_offer_only,https://www.laballey.com/products/water-hplc-grade?selected=WAHPLC-4L
 P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C01,haucl4-solution-1mm,"Gold(III) chloride aqueous solution, 1 mM",1 mM in 550 µL final mixed bath,consumed,0,0,no_market_offer,
-P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C02,l-cysteine,L-Cysteine,0.1 mM in the same 550 µL bath,consumed,0,0,no_market_offer,
+P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C02,l-cysteine,L-Cysteine,0.1 mM in the same 550 µL bath,consumed,4,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/sigma/c7352
 P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C03,sulfuric-acid,Sulfuric acid,0.5 M in the same 550 µL bath,consumed,0,0,no_market_offer,
 P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C04,water,Distilled water,Solvent to 550 µL final total bath,consumed,1,0,reference_offer_only,https://www.laballey.com/products/water-hplc-grade?selected=WAHPLC-4L
 P05,P05-LITERATURE-EXAMPLE,P05-LITERATURE-EXAMPLE-C05,spce,Screen-printed carbon electrode,One activated SPCE,reusable,0,0,no_market_offer,
@@ -68,7 +68,7 @@ P13,P13-LITERATURE-EXAMPLE,P13-LITERATURE-EXAMPLE-C08,ethanol,Ethanol,Ultrasonic
 P13,P13-LITERATURE-EXAMPLE,P13-LITERATURE-EXAMPLE-C09,nitrogen,Nitrogen,Drying stream; consumed volume not reported,consumed,1,0,reference_offer_only,https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/
 P14,P14-LITERATURE-EXAMPLE,P14-LITERATURE-EXAMPLE-C01,ps-sphere-coated-chip,Silicon chip bearing 300 nm polystyrene sphere monolayer,One prepared mask; dimensions depend on selected upstream P09 batch,reusable,0,0,no_market_offer,
 P14,P14-LITERATURE-EXAMPLE,P14-LITERATURE-EXAMPLE-C02,oxygen,Oxygen,30 sccm for 10 s; no total cylinder usage or purge volume reported,consumed,0,0,no_market_offer,
-P15,P15-LITERATURE-20261017,P15-LITERATURE-20261017-C01,titanium-isopropoxide,Titanium(IV) isopropoxide,4 mL solution as stated by source; solution concentration not specified,consumed,0,0,no_market_offer,
+P15,P15-LITERATURE-20261017,P15-LITERATURE-20261017-C01,titanium-isopropoxide,Titanium(IV) isopropoxide,4 mL solution as stated by source; solution concentration not specified,consumed,4,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/T0133;https://www.scbt.com/p/titanium-iv-isopropoxide-546-68-9
 P15,P15-LITERATURE-20261017,P15-LITERATURE-20261017-C02,benzyl-alcohol,Benzyl alcohol,17 mL,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/benzyl-alcohol?selected=BZALCF-500ML
 P15,P15-LITERATURE-20261017,P15-LITERATURE-20261017-C03,zirconyl-nitrate-hydrate-0p01m-aqueous,Zirconium(IV) oxynitrate hydrate solution,13 mL of 0.01 M ZrO(NO3)2·xH2O solution,consumed,0,0,no_market_offer,
 P15,P15-LITERATURE-20261017,P15-LITERATURE-20261017-C04,ultrapure-water,Ultrapure water,Wash after hydrothermal treatment; volume not reported,consumed,0,0,no_market_offer,
@@ -153,7 +153,7 @@ P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C01,plga-ap082,"PLGA, PolySc
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C02,plga-peg-ak102,"PLGA-PEG, PolySciTech AK102",Variable fraction; stock15mg/mL,consumed,1,1,compatible_pack_offer,https://akinainc.com/polyscitech/products/polyvivo/index.php?highlight=AK102
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C03,plga-peg-cooh-ai078,"PLGA-PEG-COOH, PolySciTech AI078",Variable fraction; stock15mg/mL,consumed,1,1,compatible_pack_offer,https://akinainc.com/polyscitech/products/polyvivo/index.php?highlight=AI078
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C04,plga-peg-nh2-cai189,"PLGA-PEG-NH2, PolySciTech CAI189",Variable fraction; stock15mg/mL,consumed,0,0,no_market_offer,
-P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C05,did-v22889,"DiD solution, Invitrogen Vybrant V22889",50µM in polymer mixture; commercial1mM stock dilutedto500µM,consumed,0,0,no_market_offer,
+P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C05,did-v22889,"DiD solution, Invitrogen Vybrant V22889",50µM in polymer mixture; commercial1mM stock dilutedto500µM,consumed,1,0,reference_offer_only,https://www.fishersci.com/shop/products/molecular-probes-vybrant-multicolor-cell-labeling-kit/V22889
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C06,acetonitrile-99,Acetonitrile>99%,Organic flow15µL/min; per-formulation total solvent volume not explicitly given,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/acetonitrile-hplc-grade?selected=CANHPLC-4L
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C07,ultrapure-water,Ultrapure water,S/AS0.1–0.25; additional dilutionto1mg/mL product,consumed,0,0,no_market_offer,
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C08,pdms-sylgard184-base,Sylgard184 PDMS base,Base:curing agent10:1w/w; total resin amount unreported,reusable,1,0,reference_offer_only,https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer
@@ -163,7 +163,7 @@ P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C11,oxygen-gas,Oxygen,Plasma
 P27,P27-LITERATURE-20261017,P27-LITERATURE-20261017-C12,pvdf-filter-0p2um,"PVDF0.2µm membrane filter, Whatman",All solvents filtered; count/diameter unreported,consumed,0,0,no_market_offer,
 P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C01,succinic-acid-acs99,Succinic acid ACS99.0%,0.304 mol,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/sial/s3674
 P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C02,butanediol-1-4-99p3,"1,4-Butanediol99.3%",0.304 mol,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/sial/493732
-P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C03,titanium-tetrabutoxide,Titanium(IV) butoxide (Ti(OBu)4),0.3wt% added to reaction medium; absolute mass/basis not explicit,consumed,0,0,no_market_offer,
+P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C03,titanium-tetrabutoxide,Titanium(IV) butoxide (Ti(OBu)4),0.3wt% added to reaction medium; absolute mass/basis not explicit,consumed,3,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/B0742
 P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C04,mmt-methyl-octadecyl-dihydroxyethyl-ammonium,Montmorillonite modified by methyl octadecyl dihydroxyethyl ammonium,4wt% theoretical clay in PBS-4; other studied formulations6wt% and8wt%,consumed,0,0,no_market_offer,
 P28,P28-LITERATURE-20261017,P28-LITERATURE-20261017-C05,nitrogen-gas,Nitrogen,Flow under closed/vacuum system around0.75bar; flow volume not reported,consumed,1,0,reference_offer_only,https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/
 P29,P29-SOURCE-01,P29-SOURCE-01-C01,peo-mv1m,"Poly(ethylene oxide), viscosity-average MW 1,000,000",4 wt% PEO in deionized water,consumed,1,1,compatible_pack_offer,https://www.sigmaaldrich.com/US/en/product/aldrich/372781
@@ -247,15 +247,15 @@ P42,P42-SOURCE-01,P42-SOURCE-01-C03,pmma-a4,PMMA-A 4 electron-beam resist,Dispen
 P42,P42-SOURCE-01,P42-SOURCE-01-C04,mibk-ipa13,"MIBK/isopropanol developer, 1:3",Bath volume unreported; MIBK:IPA 1:3,consumed,0,0,no_market_offer,
 P42,P42-SOURCE-01,P42-SOURCE-01-C05,isopropanol,Isopropanol,Development rinse and final wash volumes unreported,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/isopropyl-alcohol-99-8-acs-grade?selected=IPAA99-500ML
 P42,P42-SOURCE-01,P42-SOURCE-01-C06,acetone,Acetone,Lift-off bath volume unreported,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/acetone-acs-reagent-grade?selected=ACEA-500ML
-P44,P44-SOURCE-01,P44-SOURCE-01-C01,cesium-carbonate,Cesium carbonate,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C01,cesium-carbonate,Cesium carbonate,Batch amount not established in this curated route,consumed,2,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/C2160
 P44,P44-SOURCE-01,P44-SOURCE-01-C02,lead-bromide-and-or-lead-iodide,Lead bromide and/or lead iodide,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
-P44,P44-SOURCE-01,P44-SOURCE-01-C03,1-octadecene,1-Octadecene,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
-P44,P44-SOURCE-01,P44-SOURCE-01-C04,oleic-acid,Oleic acid,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C03,1-octadecene,1-Octadecene,Batch amount not established in this curated route,consumed,2,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/O0008
+P44,P44-SOURCE-01,P44-SOURCE-01-C04,oleic-acid,Oleic acid,Batch amount not established in this curated route,consumed,2,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/O0180
 P44,P44-SOURCE-01,P44-SOURCE-01-C05,oleylamine,Oleylamine,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/aldrich/o7805
 P44,P44-SOURCE-01,P44-SOURCE-01-C06,galden-fluorinated-carrier-fluid,Galden fluorinated carrier fluid,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
 P45,P45-SOURCE-01,P45-SOURCE-01-C01,pd-nanocube-seeds,Pd nanocube seeds,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
 P45,P45-SOURCE-01,P45-SOURCE-01-C02,oleylamine,Oleylamine,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/aldrich/o7805
-P45,P45-SOURCE-01,P45-SOURCE-01-C03,tri-n-octylphosphine,Tri-n-octylphosphine,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P45,P45-SOURCE-01,P45-SOURCE-01-C03,tri-n-octylphosphine,Tri-n-octylphosphine,Batch amount not established in this curated route,consumed,3,0,reference_offer_only,https://www.tcichemicals.com/US/en/p/T0503
 P45,P45-SOURCE-01,P45-SOURCE-01-C04,nitrogen,Nitrogen,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/
 P45,P45-SOURCE-01,P45-SOURCE-01-C05,air,Air,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
 P45,P45-SOURCE-01,P45-SOURCE-01-C06,ethanol-wash-solvent,Ethanol wash solvent,Batch amount not established in this curated route,consumed,0,0,no_market_offer,

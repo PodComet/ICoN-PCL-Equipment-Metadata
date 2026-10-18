@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The **Visuals** tab provides live process-context and process-chain graphs, following the process-centered patterns of Garcia Trelles et al. (2024). It reads current ontology data and saved revisions, preserves evidence and units, and offers SVG / JSON / RDF exports. See [dynamic visuals and scientific scope](docs/visuals.md).
+
 The [metadata standards review](docs/metadata-standards.md) adds standard field mappings, scoped eNanoMapper/NPO term references and QUDT quantity values to the public RDF graph, and corrects RO-Crate unit field names. The portable local preview opens automatically as **admin**; see [local administration](webapp/docs/local-admin.md). Hosted authentication remains enforced.
 
 The **Research data / ELN** tab adds an openBIS-style Space / Project / Collection / Object / Data set workspace, instrument-export ingestion, private records and explicit sharing, revision history, qualified provenance and portable RO-Crate packages. See the [FAIR research-data guide](docs/FAIR_RESEARCH_DATA.md) and [machine-readable standards map](catalog/research_standards.json). This is a local ELN/LIMS foundation, not a connected openBIS server.
@@ -152,3 +154,5 @@ The finished-output card now provides independent POSITION, FIBER and DIRECTION 
 See the [M89–M99 expansion review](docs/mit-class-expansion.md) for the latest MIT.nano-inspired classes, process links, model/price provenance and scope limits.
 
 The [2026 purchase-price review](docs/PRICE_RESEARCH_2026.md) adds 59 instrument prices and 42 distinct component/material pack quotes. Four explicitly dated 2026 distributor pricebooks are documented separately from current website observations and manufacturer MSRP. Reproducible coverage CSVs identify remaining price gaps; supplier references do not silently establish formulation compatibility.
+
+Material pack prices include expandable P-category/method links and process filtering. See [input quantities and material pricing](docs/output-quantities-and-material-prices.md) for the 2026-10-18 supplier quote expansion and compatibility scope.

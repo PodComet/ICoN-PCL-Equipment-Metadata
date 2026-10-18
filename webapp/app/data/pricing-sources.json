@@ -115,9 +115,9 @@
     "component_occurrences": 260,
     "component_statuses": {
       "compatible_pack_offer": 72,
-      "no_market_offer": 117,
-      "reference_offer_only": 71
+      "no_market_offer": 109,
+      "reference_offer_only": 79
     },
-    "component_pack_offers": 100
+    "component_pack_offers": 121
   }
 }

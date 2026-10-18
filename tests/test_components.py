@@ -1,4 +1,5 @@
 import copy
+from datetime import date
 import pytest
 from component_tools import dataset
 from pathlib import Path
@@ -18,6 +19,6 @@ def test_stock_and_grade_matches_are_explicit_and_quotes_are_dated():
         for c in f['components']:
             assert set(c['eligible_offer_ids'])<=offers.keys()
             if c['amount_status']=='ambiguous':assert c['quantity_value'] is None
-    assert all(o['price_value']>0 and o['checked_date']=='2026-10-17' for o in offers.values())
+    assert all(o['price_value']>0 and date.fromisoformat(o['checked_date'])<=date.today() for o in offers.values())
     assert all(not o['image_url'] or o['image_scope'] for o in offers.values())
     assert not any('methanol' in o['image_url'] for o in offers.values() if o['component_id']=='ethanol')
