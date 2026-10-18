@@ -1,0 +1,219 @@
+{
+  "schema": "iconpcl-metadata-profile/v1",
+  "checked_date": "2026-10-17",
+  "status": "reviewed_additive_alignment",
+  "sources": {
+    "nanopublications": "https://nanopub.net/guidelines/working_draft/",
+    "nanopub_skill": "https://github.com/knowledgepixels/nanopub-skill",
+    "QUDT": "https://qudt.org/doc/2026/06/DOC_SCHEMA-QUDT.html",
+    "ISA_JSON": "https://isa-specs.readthedocs.io/en/latest/isajson.html",
+    "eNanoMapper": "https://www.enanomapper.net/ontology",
+    "PROV_O": "https://www.w3.org/TR/prov-o/",
+    "SKOS": "https://www.w3.org/TR/skos-reference/",
+    "schema_ProductModel": "https://schema.org/ProductModel",
+    "schema_unitCode": "https://schema.org/unitCode",
+    "schema_unitText": "https://schema.org/unitText"
+  },
+  "prefixes": {
+    "dct": "http://purl.org/dc/terms/",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "schema": "https://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "icon": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#"
+  },
+  "field_mappings": [
+    {
+      "local_field": "equipment_id",
+      "exchange_field": "dct:identifier",
+      "scope": "stable local model/category-context record ID"
+    },
+    {
+      "local_field": "model_name",
+      "exchange_field": "rdfs:label",
+      "scope": "catalog label; not a physical-asset identifier"
+    },
+    {
+      "local_field": "manufacturer",
+      "exchange_field": "schema:manufacturer",
+      "scope": "named organization; Unspecified remains local"
+    },
+    {
+      "local_field": "product_page_url",
+      "exchange_field": "schema:url",
+      "scope": "model product page"
+    },
+    {
+      "local_field": "image_url",
+      "exchange_field": "schema:image",
+      "scope": "sourced representative model photo; image scope remains local"
+    },
+    {
+      "local_field": "manual_url",
+      "exchange_field": "dct:references",
+      "scope": "manual URL; exact-model versus family scope is retained"
+    },
+    {
+      "local_field": "technical_spec_url",
+      "exchange_field": "dct:references",
+      "scope": "technical specification URL"
+    },
+    {
+      "local_field": "category_id",
+      "exchange_field": "icon:inCategory",
+      "scope": "local M/X classification concept; no guessed external equivalence"
+    },
+    {
+      "local_field": "related_process_ids",
+      "exchange_field": "icon:catalogAssociation",
+      "scope": "catalog relevance, not proof of exact-model process suitability"
+    },
+    {
+      "local_field": "related_material_ids",
+      "exchange_field": "icon:catalogAssociation",
+      "scope": "catalog relevance, not measured composition"
+    },
+    {
+      "local_field": "evidence_id",
+      "exchange_field": "dct:identifier",
+      "scope": "stable local source-evidence ID; not a signed nanopub URI"
+    },
+    {
+      "local_field": "source_url",
+      "exchange_field": "prov:wasDerivedFrom",
+      "scope": "origin of extracted claim; retain source locator and review scope"
+    },
+    {
+      "local_field": "claim",
+      "exchange_field": "icon:claim",
+      "scope": "claim text with source and scoped classification"
+    },
+    {
+      "local_field": "source_locator",
+      "exchange_field": "icon:sourceLocator",
+      "scope": "page/section/table locator"
+    },
+    {
+      "local_field": "value",
+      "exchange_field": "icon:reportedValue",
+      "scope": "reported source value; preserve operator"
+    },
+    {
+      "local_field": "unit",
+      "exchange_field": "icon:reportedUnit",
+      "scope": "reported unit string; do not discard it on normalization"
+    },
+    {
+      "local_field": "normalized_conditions[].canonical.value",
+      "exchange_field": "qudt:numericValue",
+      "scope": "only exact normalized settings with reviewed QUDT unit mapping; decimal RDF literal"
+    },
+    {
+      "local_field": "normalized_conditions[].canonical.unit",
+      "exchange_field": "qudt:unit",
+      "scope": "reviewed QUDT unit IRI on a normalized QuantityValue"
+    },
+    {
+      "local_field": "parameter",
+      "exchange_field": "icon:quantityKind",
+      "scope": "local quantity kind preserves gauge/absolute and other distinctions"
+    },
+    {
+      "local_field": "upper_value",
+      "exchange_field": "icon:reportedUpperValue",
+      "scope": "range upper bound; not an exact point quantity"
+    },
+    {
+      "local_field": "creator",
+      "exchange_field": "dct:creator",
+      "scope": "Future nanopublication field: nanopub author identity, distinct from cited article authors"
+    },
+    {
+      "local_field": "created",
+      "exchange_field": "dct:created",
+      "scope": "Future nanopublication field: nanopub creation timestamp with timezone, not source publication year"
+    },
+    {
+      "local_field": "license",
+      "exchange_field": "dct:license",
+      "scope": "Future nanopublication field: explicit permission/rights URI; no default relicensing"
+    },
+    {
+      "local_field": "processSequence",
+      "exchange_field": "ISA-JSON:processSequence",
+      "scope": "ISA exchange target only; current workflow JSON is not ISA-JSON"
+    },
+    {
+      "local_field": "parameterValues",
+      "exchange_field": "ISA-JSON:parameterValues",
+      "scope": "ISA exchange target only for process parameters"
+    },
+    {
+      "local_field": "characteristics",
+      "exchange_field": "ISA-JSON:characteristics",
+      "scope": "ISA exchange target only for material attributes"
+    },
+    {
+      "local_field": "termAccession",
+      "exchange_field": "ISA-JSON:termAccession",
+      "scope": "ontology term IRI; preserve annotationValue and termSource"
+    },
+    {
+      "local_field": "record.files[].extraction.variables[].unit_uri",
+      "exchange_field": "schema:unitCode",
+      "scope": "RO-Crate PropertyValue: QUDT unit URL, replacing the nonstandard unitID key."
+    },
+    {
+      "local_field": "record.files[].extraction.variables[].unit_code",
+      "exchange_field": "schema:unitCode",
+      "scope": "If no unit URL exists, prefix UCUM code with UCUM:; preserve raw code under icon:ucumCode."
+    },
+    {
+      "local_field": "record.files[].extraction.variables[].unit_text",
+      "exchange_field": "schema:unitText",
+      "scope": "Preserve original instrument-export unit text, including unmapped units."
+    }
+  ],
+  "nanomaterial_annotation_fields": [
+    "annotationValue",
+    "termAccession",
+    "termSource"
+  ],
+  "nanopublication": {
+    "status": "not_exported_or_published",
+    "format": "TriG / RDF named graphs",
+    "graphs": [
+      "Head",
+      "assertion",
+      "provenance",
+      "pubinfo"
+    ],
+    "head_predicates": [
+      "np:hasAssertion",
+      "np:hasProvenance",
+      "np:hasPublicationInfo"
+    ],
+    "required_before_signing": [
+      "Reviewed atomic assertion and source locator",
+      "Actual creator ORCID or agent IRI and signing identity",
+      "Explicit reuse license",
+      "Current UTC creation timestamp",
+      "Matching assertion/provenance/pubinfo template IRIs",
+      "CLI structure and template validation"
+    ],
+    "publication": "Separate explicit instruction and network target required; installation does not publish data."
+  },
+  "limitations": [
+    "Local CSV and workflow field names are versioned application contracts, not universal nanomaterials standards.",
+    "The current public graph is not a signed nanopublication; it has no trusty URI.",
+    "ISA field names document an exchange crosswalk, not a validated ISA-JSON export.",
+    "M/P/N families remain local concepts; external NPO/eNanoMapper terms are scoped references, not owl:sameAs or exactMatch.",
+    "Nanomaterial-specific community profiles and institutional validation remain required for an ISA-TAB-Nano submission."
+  ],
+  "skill_source": {
+    "repository": "https://github.com/knowledgepixels/nanopub-skill",
+    "installed_skill_sha256": "3f97d2b2210b05c846b24e7bfb897c4a3f8501f241c8471af64fd960b846da19"
+  }
+}

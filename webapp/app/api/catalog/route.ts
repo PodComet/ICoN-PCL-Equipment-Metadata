@@ -9,6 +9,7 @@ import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equ
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
+import {isLocalAdmin} from '../../local-admin';
 import {loadPositionLibrary} from '../../position-store';
 import {LIFECYCLE_FIELDS} from '../../model-lifecycle';
 import {independentVariant} from '../../product-family-policy';
@@ -36,7 +37,7 @@ export async function GET() {
     const priced=withMsrpEstimates(rows.map(row=>row.record),seed.model_lifecycle,msrpPolicy);rows.forEach((row,i)=>row.record=priced[i]);
     const canAdmin=await isCatalogAdmin(user),assets=canAdmin?inventory:[];
     const positions=await loadPositionLibrary();
-    return json({rows:attachInventory(rows,assets),assets,positions:positions.library,positionRevision:positions.revision,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,reference_classes:literature.reference_classes,class_definitions:literature.class_definitions,reference_classification:literature.reference_classification,coverage:literature.coverage},canEdit:!!user,canAdmin,sharedRevision:shared.revision});
+    return json({rows:attachInventory(rows,assets),assets,positions:positions.library,positionRevision:positions.revision,categories:seed.categories,routes:seed.routes,steps:seed.steps,coverage:seed.coverage,manufacturers:seed.manufacturers,literature:{references:literature.references,reference_links:literature.reference_links,reference_files:literature.reference_files,reference_affiliations:literature.reference_affiliations,reference_classes:literature.reference_classes,class_definitions:literature.class_definitions,reference_classification:literature.reference_classification,coverage:literature.coverage},canEdit:!!user,canAdmin,localAdmin:isLocalAdmin(user,env),sharedRevision:shared.revision});
   } catch (error) {
     console.error("Catalog read failed", error);
     return json({error:"Saved catalog could not be loaded. Please retry."},500);

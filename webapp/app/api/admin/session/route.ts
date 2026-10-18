@@ -1,14 +1,16 @@
 import {env} from 'cloudflare:workers';
 import {getChatGPTUser} from '../../../chatgpt-auth';
 import {isCatalogAdmin} from '../../../admin-policy';
+import {isLocalAdmin} from '../../../local-admin';
 import {adminConfigured,adminCookie,adminRateKey,issueAdminSession,verifyPassword,type AdminSecrets} from '../../../admin-session';
 const json=(body:unknown,status=200,headers:Record<string,string>={})=>Response.json(body,{status,headers:{'Cache-Control':'no-store',...headers}});
 const sameOrigin=(request:Request)=>request.headers.get('origin')===new URL(request.url).origin;
-export async function GET(){const user=await getChatGPTUser();return json({signedIn:!!user,canAdmin:await isCatalogAdmin(user),configured:adminConfigured(env as AdminSecrets)});}
+export async function GET(){const user=await getChatGPTUser();return json({signedIn:!!user,canAdmin:await isCatalogAdmin(user),configured:adminConfigured(env as AdminSecrets),localAdmin:isLocalAdmin(user,env)});}
 export async function POST(request:Request){
  try{
   if(!sameOrigin(request))return json({error:'Same-origin requests required.'},403);
   const user=await getChatGPTUser();if(!user)return json({error:'Sign in before unlocking administration.'},401);
+  if(isLocalAdmin(user,env))return json({canAdmin:true,localAdmin:true});
   if(!adminConfigured(env as AdminSecrets)||!env.DB)return json({error:'Administration has not been configured on this host.'},503);
   if(Number(request.headers.get('content-length')||0)>2048)return json({error:'Request is too large.'},413);
   const text=await request.text();if(text.length>2048)return json({error:'Request is too large.'},413);
@@ -26,4 +28,4 @@ export async function POST(request:Request){
   return json({canAdmin:true},200,{'Set-Cookie':adminCookie(token,new URL(request.url).protocol==='https:')});
  }catch(e){console.error('Admin unlock failed');return json({error:'Administration could not be unlocked. Please retry.'},500);}
 }
-export async function DELETE(request:Request){if(!sameOrigin(request))return json({error:'Same-origin requests required.'},403);return json({canAdmin:false},200,{'Set-Cookie':adminCookie('',new URL(request.url).protocol==='https:')});}
+export async function DELETE(request:Request){if(!sameOrigin(request))return json({error:'Same-origin requests required.'},403);const user=await getChatGPTUser();if(isLocalAdmin(user,env))return json({canAdmin:true,localAdmin:true});return json({canAdmin:false},200,{'Set-Cookie':adminCookie('',new URL(request.url).protocol==='https:')});}

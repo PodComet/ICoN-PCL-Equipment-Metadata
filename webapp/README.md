@@ -26,6 +26,8 @@ Searchable research equipment catalog for ICoN-PCL, with Drexel University and P
 
 ## Local development
 
+The portable preview opens automatically as **admin** on loopback, preserving existing local plans. See [local administrator behavior and security-test mode](docs/local-admin.md). Production builds keep the hosted sign-in/password flow.
+
 Requires Node.js 22.13+ (24 recommended).
 
 ```sh

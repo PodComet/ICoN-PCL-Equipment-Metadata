@@ -25,6 +25,7 @@ from ontology_models import EquipmentIdentity, Requirements, schemas
 from ontology_units import check_registry, normalize_condition
 from process_science_tools import dataset
 from reference_classification import derive_classes
+from metadata_profile import add_standard_metadata
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/'
@@ -368,16 +369,19 @@ def artifacts(root):
         if review and review['model_a'] == candidate['model_a'] and review['model_b'] == candidate['model_b']:
             candidate.update(disposition=review['disposition'], review_basis=review['review_basis'], reviewed_date=review['reviewed_date'])
     graph, normalization = build_graph(root, science, records, categories, routes, steps, formulations, references, definitions)
+    metadata_alignment = add_standard_metadata(graph, root, node)
     violations = validate_graph(graph, root)
     # A sorted N-Triples document is also valid Turtle, with no generated blank IDs.
     turtle = '\n'.join(sorted(line for line in graph.serialize(format='nt').splitlines() if line.strip())) + '\n'
     jsonld = json_text(stable_jsonld(json.loads(graph.serialize(format='json-ld'))))
     inputs = sorted(['equipment.csv', 'categories.csv', 'supplemental_categories.csv', 'routes.csv', 'route_steps.csv', 'component_formulations.csv', 'references.csv', 'reference_links.csv', 'product_families.csv', 'model_identity_reviews.csv', 'condition_definitions.json', 'process_conditions.csv', 'process_condition_evidence.csv', 'process_property_anchors.csv', 'process_science_review_2026-10-17.json', 'ontology/shapes.ttl'])
+    inputs += ['metadata-profile.json', 'ontology_term_references.csv']
     hashes = {name: hashlib.sha256((root / 'catalog' / name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() for name in inputs}
     report = {
         'schema': 'icon-ontology-audit/v1', 'review_date': science['checked_date'],
         'scope': 'Committed public catalog snapshot; excludes live admin edits, private inventory and saved user plans.',
         'status': 'passed', 'shacl_conforms': True, 'shacl_violations': violations,
+        'metadata_alignment': metadata_alignment,
         'counts': {'equipment_records': len(records), 'categories': len(categories), 'm_categories': sum(c['category_id'].startswith('M') for c in categories), 'x_categories': sum(c['category_id'].startswith('X-') for c in categories), 'routes': len(routes),
                    'process_steps': len(steps), 'conditions': len(science['conditions']), 'source_evidence': len(science['evidence']),
                    'reported_properties': len(science['properties']), 'numeric_conditions': sum(r['canonical'] is not None for r in normalization),
@@ -399,6 +403,8 @@ def artifacts(root):
     outputs = {'ontology.ttl': turtle, 'ontology.jsonld': jsonld, 'audit.json': json_text(report),
                'schemas.json': json_text(schemas()), 'normalized-conditions.json': json_text(normalization),
                'shapes.ttl': (root / 'catalog/ontology/shapes.ttl').read_text(encoding='utf-8')}
+    outputs['metadata-profile.json'] = (root / 'catalog/metadata-profile.json').read_text(encoding='utf-8')
+    outputs['ontology-term-references.csv'] = (root / 'catalog/ontology_term_references.csv').read_text(encoding='utf-8')
     return outputs, report
 
 

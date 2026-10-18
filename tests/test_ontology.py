@@ -6,6 +6,8 @@ import pytest
 from pydantic import ValidationError
 from rdflib import Graph
 from rdflib.namespace import RDF
+from rdflib.namespace import RDFS, OWL, XSD
+from metadata_profile import QUDT, SCHEMA
 
 from ontology_models import ConditionRecord, EvidenceRecord
 from ontology_tools import VOCAB, artifacts, build, dependency_audit, model_review, node, validate_graph
@@ -42,6 +44,36 @@ def test_shacl_rejects_a_broken_property_evidence_link(export):
     graph.add((prop, VOCAB.supportedBy, node('evidence', 'MISSING')))
     with pytest.raises(ValueError, match='SHACL'):
         validate_graph(graph, ROOT)
+
+
+def test_standard_quantity_values_preserve_exactness_and_quantity_kind(export):
+    graph = Graph().parse(data=export[0]['ontology.ttl'], format='turtle')
+    quantities = list(graph.subjects(RDF.type, QUDT.QuantityValue))
+    assert len(quantities) == export[1]['metadata_alignment']['exact_normalized_quantities'] > 0
+    for source, quantity in graph.subject_objects(VOCAB.normalizedQuantity):
+        assert str(graph.value(source, VOCAB.operator)) == 'eq'
+        assert graph.value(quantity, QUDT.numericValue).datatype == XSD.decimal
+        assert graph.value(quantity, VOCAB.quantityKind) == graph.value(source, VOCAB.quantityKind)
+    for source in graph.subjects(RDF.type, VOCAB.OperatingCondition):
+        if str(graph.value(source, VOCAB.operator)) != 'eq':
+            assert not list(graph.objects(source, VOCAB.normalizedQuantity))
+    graph.remove((quantities[0], QUDT.unit, None))
+    with pytest.raises(ValueError, match='SHACL'):
+        validate_graph(graph, ROOT)
+
+
+def test_material_term_references_do_not_assert_ontology_equivalence(export):
+    graph = Graph().parse(data=export[0]['ontology.ttl'], format='turtle')
+    mappings = list(graph.subjects(RDF.type, VOCAB.OntologyTermReference))
+    assert len(mappings) == 8
+    assert len(list(graph.objects(node('route', 'N06'), RDFS.seeAlso))) == 2
+    for mapping in mappings:
+        subject = graph.value(mapping, VOCAB.classificationTarget)
+        term = graph.value(mapping, VOCAB.ontologyTerm)
+        assert (subject, RDFS.seeAlso, term) in graph
+        assert (subject, OWL.sameAs, term) not in graph
+    assert not list(graph.objects(node('equipment', 'REQ-EQ-001'), SCHEMA.manufacturer))
+    assert not list(graph.subjects(RDF.type, __import__('rdflib').URIRef('http://www.nanopub.org/nschema#Nanopublication')))
 
 
 def test_pint_offsets_rates_and_semantic_guardrails():

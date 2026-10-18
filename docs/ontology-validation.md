@@ -66,3 +66,5 @@ SELECT ?condition ?evidence WHERE {
 The Turtle and JSON-LD exports represent the same graph. Stable ordering and explicit resource IDs avoid generated blank-node identities in the data graph. `--check` compares both graph formats, normalized conditions, JSON schemas, shapes and audit output to the committed files. A build failure stops publication of new generated data.
 
 The original source PDFs and private asset identifiers remain local. Experimental validation of predicted properties remains future roadmap functionality.
+
+The [metadata standards profile](metadata-standards.md) documents additive DCTERMS, PROV, SKOS, Schema.org and QUDT mappings, scoped eNanoMapper/NPO references and the ISA exchange crosswalk. QUDT values retain exactness and local quantity-kind distinctions; SHACL rejects missing unit IRIs. The graph is not a signed nanopublication.

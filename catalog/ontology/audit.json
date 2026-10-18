@@ -15,7 +15,7 @@
     "model_name_review_pairs": 9,
     "numeric_conditions": 248,
     "process_steps": 249,
-    "rdf_triples": 41436,
+    "rdf_triples": 47844,
     "recognized_cross_category_contexts": 8,
     "reported_properties": 32,
     "routes": 54,
@@ -30,8 +30,10 @@
     "component_formulations.csv": "2f954410eaeae8e8e3e426c56868dfe5f690f21483bbc8c51e7fe1627d9bfdd3",
     "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
     "equipment.csv": "e0b497dfd6baa70dd5c425510eb6b5d93258367d0edb7bef685005d3e5412dc5",
+    "metadata-profile.json": "aae671cd6a7fd1b48bd9e0fbdc7435bd1ea405c54c2b6d3f3b2b59d0a39f43fc",
     "model_identity_reviews.csv": "10781315fac733ac4e93886c86e844c4efac60428d9f7296265c43bf299b0a4c",
-    "ontology/shapes.ttl": "0ae625328143bfa3770a192c2ab6c0bd7a7ceea9d8f5a96a55e23b41a2638394",
+    "ontology/shapes.ttl": "8fa9e9f67dc3e7ab892615158bc39baac1bdc41560b51837a9c75758987bc5b7",
+    "ontology_term_references.csv": "2ea9ecdaddead9205b89d8df31bcb0b30318c4d20dea7c13cf4822cb965037d7",
     "process_condition_evidence.csv": "a6e34ccdcee5a163b1ab3e84f8a42dcaec2d0c2ac1f0cb2f40789dabfa81e977",
     "process_conditions.csv": "80cb82b090b2641b3344b69dcc84cfdf4389f3ce7cb93a0a3bfdfae02e176907",
     "process_property_anchors.csv": "f593da35a2de9052d7b070d25a963edc828d19ca2791de78bc2749787cb4ca02",
@@ -57,6 +59,12 @@
     "Model-name similarity is not identity, interchangeability or successor evidence.",
     "Experimental property validation remains future roadmap functionality."
   ],
+  "metadata_alignment": {
+    "exact_normalized_quantities": 217,
+    "profile": "iconpcl-metadata-profile/v1",
+    "reviewed_material_term_references": 8,
+    "scope": "Additive catalog mappings; not ISA-JSON, a signed nanopublication, or formal community certification."
+  },
   "model_review_candidates": [
     {
       "disposition": "retain_separate_catalog_entries",

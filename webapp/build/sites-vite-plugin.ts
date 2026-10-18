@@ -4,6 +4,7 @@ import { access, cp, mkdir, rm } from "node:fs/promises";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import { resolve } from "node:path";
 import type { Plugin } from "vite";
+import {LOCAL_ADMIN_ID, LOCAL_ADMIN_EMAIL, LOCAL_ADMIN_NAME} from '../app/local-admin.ts';
 
 const localUserId = "local_seedy";
 const localEmail = "seedy@sites.test";
@@ -29,7 +30,7 @@ async function exists(path: string): Promise<boolean> {
   }
 }
 
-export function sites({ mockAuth = true } = {}): Plugin {
+export function sites({ mockAuth = true, autoAdmin = false } = {}): Plugin {
   let root = process.cwd();
   let command: "build" | "serve" = "build";
 
@@ -43,7 +44,7 @@ export function sites({ mockAuth = true } = {}): Plugin {
       if (!mockAuth) return;
       const secure = Boolean(server.config.server.https);
 
-      server.config.logger.info(`Sites local sign-in: ${localEmail}`);
+      server.config.logger.info(`Sites local sign-in: ${autoAdmin ? LOCAL_ADMIN_NAME + ' (automatic, loopback only)' : localEmail}`);
       server.middlewares.use((request, response, next) => {
         for (const name of Object.keys(request.headers)) {
           if (name.startsWith("oai-authenticated-user-")) {
@@ -105,13 +106,13 @@ export function sites({ mockAuth = true } = {}): Plugin {
         const signIn = url.pathname === "/signin-with-chatgpt";
         const signOut = url.pathname === "/signout-with-chatgpt";
         if (!signIn && !signOut) {
-          if (signInCookies.length === 1 && signInCookies[0] === "1") {
-            setHeader(request, "oai-authenticated-user-id", localUserId);
-            setHeader(request, "oai-authenticated-user-email", localEmail);
+          if (autoAdmin || (signInCookies.length === 1 && signInCookies[0] === "1")) {
+            setHeader(request, "oai-authenticated-user-id", autoAdmin ? LOCAL_ADMIN_ID : localUserId);
+            setHeader(request, "oai-authenticated-user-email", autoAdmin ? LOCAL_ADMIN_EMAIL : localEmail);
             setHeader(
               request,
               "oai-authenticated-user-full-name",
-              localFullName,
+              autoAdmin ? LOCAL_ADMIN_NAME : localFullName,
             );
             setHeader(
               request,

@@ -15,6 +15,18 @@ const space=record('space','LAB'),project=record('project','STUDY',space.record_
 const sample={...record('object','SAMPLE_1',collection.record_id),status:'completed'},step={...record('object','STEP_1',collection.record_id),type_code:'EXPERIMENTAL_STEP',status:'completed',relations:[{relation:'used',target_id:sample.record_id}]};
 const existing=[space,project,collection,sample,step],validate=(r,all=existing,previous)=>validateResearch(r,all,equipment,routes,previous);
 const saved=r=>({record:r,revision:1,created_at:'2026-10-17T00:00:00Z',updated_at:'2026-10-17T00:00:00Z',can_edit:true,space_id:space.record_id});
+
+test('RO-Crate unit fields use standard URL or prefixed UCUM codes and retain source units',async()=>{
+ const f=await instrumentFile('units.csv',bytes('mass [mg],flow [mL/min],unknown [furlongs]\n2,1,3'));
+ const graph=researchCrate(saved({...record('dataset','UNITS',sample.record_id),files:[f]}),[],'https://example.org')['@graph'];
+ const variables=graph.filter(n=>n['@type']==='PropertyValue');
+ assert.equal(variables[0].unitCode,'http://qudt.org/vocab/unit/MilliGM');
+ assert.equal(variables[1].unitCode,'UCUM:mL/min');
+ assert.equal(variables[2].unitCode,undefined);
+ assert.deepEqual(variables.map(v=>v.unitText),['mg','mL/min','furlongs']);
+ assert.ok(variables.every(v=>!('unitID' in v)));
+ assert.equal(variables[0]['icon:ucumCode'],'mg');
+});
 test('openBIS-style containers and canonical model/category links are validated',()=>{
  assert.equal(validate(project).container_id,space.record_id);assert.throws(()=>validate({...project,container_id:collection.record_id}),/compatible/);
  assert.throws(()=>validate({...record('dataset','BAD',space.record_id)}),/compatible/);
