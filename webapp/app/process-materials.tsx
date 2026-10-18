@@ -6,6 +6,8 @@ import {amountChoices,materialKey,relevantMaterials,replaceMaterial} from './mat
 import MaterialPhoto from './material-photo';
 import ComponentDetails,{ComponentPhoto} from './component-details';
 import {componentData} from './process-budget';
+import {METRIC_SCALES,metricAmount,changeMetricScale} from './metric-quantity-lib';
+import {componentQuantity} from './component-lib';
 import {componentFor,formulationFor,formulationPlan,unchangedFormulation} from './component-lib';
 
 export function StartingMaterials({plan,onEdit}:{plan:MaterialPlan;onEdit:()=>void}){
@@ -14,9 +16,13 @@ export function StartingMaterials({plan,onEdit}:{plan:MaterialPlan;onEdit:()=>vo
 }
 
 const CUSTOM_MATERIAL='__custom_material__';
-function AmountField({label,value,sourcedAmount,disabled=false,onChange}:{label:string;value:string;sourcedAmount?:string;material?:MaterialSuggestion;disabled?:boolean;onChange:(value:string)=>void}){
- const id=useId();
- return <label>Amount<input aria-label={label} type="text" value={value} maxLength={100} disabled={disabled} list={id} placeholder="Enter quantity + units or source amount" onChange={e=>onChange(e.target.value)}/><datalist id={id}>{sourcedAmount&&<option value={sourcedAmount} label="Reported amount · this formulation only"/>}</datalist></label>;
+function AmountField({label,value,sourcedAmount,sourceUnit,material,disabled=false,onChange}:{label:string;value:string;sourcedAmount?:string;sourceUnit?:string;material?:MaterialSuggestion;disabled?:boolean;onChange:(value:string)=>void}){
+ const id=useId(),[preferred,setPreferred]=useState('');
+ const parsed=metricAmount(value),source=sourceUnit?componentQuantity(1,sourceUnit):null;
+ const dimension=parsed?.quantity.dimension||source?.dimension;
+ const choices=dimension?METRIC_SCALES[dimension]:material?.role==='solvent'?METRIC_SCALES.volume:[...METRIC_SCALES.mass,...METRIC_SCALES.volume,...METRIC_SCALES.moles];
+ const unit=parsed?.unit||(choices.some(c=>c===preferred)?preferred:'source'),shown=parsed?.number||value;
+ return <div className="material-amount-field"><div className="material-amount-scale"><label>Amount<input aria-label={label} type="text" value={shown} maxLength={100} disabled={disabled} list={id} placeholder={unit==='source'?'Reported amount or quantity':'Quantity'} onChange={e=>{const text=e.target.value;onChange(unit!=='source'&&/^\d*(?:\.\d*)?(?:e[+-]?\d+)?$/i.test(text)&&text?text+' '+unit:text)}}/></label><label>Scale<select aria-label={'Scale for '+label.toLowerCase()} value={unit} disabled={disabled} onChange={e=>{const next=e.target.value;setPreferred(next);if(next==='source')return;const converted=changeMetricScale(value,next);onChange(converted||(/^\d+(?:\.\d*)?$/.test(value.trim())?value+' '+next:''))}}><option value="source">As reported / text</option>{choices.map(u=><option key={u} value={u}>{u}</option>)}</select></label></div><datalist id={id}>{sourcedAmount&&<option value={sourcedAmount} label="Reported amount · this formulation only"/>}</datalist>{sourcedAmount&&<small className="material-source-amount">Source amount: {sourcedAmount}</small>}</div>;
 }
 function RoleField({value,label,onChange}:{value:MaterialRole;label:string;onChange:(value:MaterialRole)=>void}){
  return <label className="material-role-field">Role<select aria-label={label} value={value} onChange={e=>onChange(e.target.value as MaterialRole)}>{Object.entries(MATERIAL_ROLES).map(([value,label])=><option value={value} key={value}>{label}</option>)}</select></label>;
@@ -41,7 +47,7 @@ export function MaterialsEditor({plan,data,onChange,onClose}:{plan:MaterialPlan;
    return <div className="material-selection-row" key={m.material_id}>
     <ComponentPhoto material={m} plan={plan}/>
     <div className="material-name-field">{manual?<><label>Material {index+1} · custom<input aria-label={'Material '+(index+1)} value={m.name} maxLength={180} placeholder="Enter material name" aria-invalid={!m.name.trim()} onChange={e=>{setCustomModes(v=>({...v,[m.material_id]:true}));updateMaterial(m.material_id,{name:e.target.value})}}/></label><div className="material-custom-meta"><RoleField label={'Role for material '+(index+1)} value={m.role} onChange={role=>updateMaterial(m.material_id,{role})}/><button type="button" className="material-mode-button" onClick={()=>setCustomModes(v=>({...v,[m.material_id]:false}))}>Use suggestions</button></div></>:<><label>Material {index+1}<select aria-label={'Material '+(index+1)} value={materialKey(m)} onChange={e=>{if(e.target.value===CUSTOM_MATERIAL){setCustomModes(v=>({...v,[m.material_id]:true}));return;}const next=suggestions.find(v=>materialKey(v)===e.target.value);if(next)onChange(replaceMaterial(plan,m.material_id,next));}}>{options(m,m.material_id)}</select></label></>}</div>
-    <AmountField label={'Amount for material '+(index+1)} value={m.amount} material={m} sourcedAmount={componentFor(m,plan,componentData)?.amount} onChange={amount=>onChange({...plan,inputs:plan.inputs.map(x=>x.material_id===m.material_id?{...x,amount}:x)})}/>
+    <AmountField label={'Amount for material '+(index+1)} value={m.amount} material={m} sourcedAmount={componentFor(m,plan,componentData)?.amount} sourceUnit={componentFor(m,plan,componentData)?.quantity_unit} onChange={amount=>onChange({...plan,inputs:plan.inputs.map(x=>x.material_id===m.material_id?{...x,amount}:x)})}/>
     <ComponentDetails material={m} plan={plan} onOffer={offer_id=>onChange({...plan,inputs:plan.inputs.map(x=>x.material_id===m.material_id?{...x,offer_id}:x)})}/>
     <button type="button" className="material-remove" aria-label={'Remove material '+(index+1)} onClick={()=>onChange({...plan,example_id:'',expected_output:'',inputs:plan.inputs.filter(x=>x.material_id!==m.material_id)})}><X size={17}/></button>
    </div>;

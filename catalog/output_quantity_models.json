@@ -1,0 +1,79 @@
+{
+  "schema": "output-quantity-models/v1",
+  "checked_date": "2026-10-17",
+  "policy": "Source identifies inputs. Mass-retention and carrier-volume calculations are curator-defined planning models, not reported experimental yields. User-entered recovery remains an assumption.",
+  "models": [
+    {
+      "model_id": "P03-QUANTITY-01",
+      "formulation_id": "P03-LITERATURE-EXAMPLE",
+      "route_id": "P03",
+      "dimension": "volume",
+      "label": "Nominal carrier-liquid volume",
+      "basis": "nominal_carrier_volume",
+      "terms": [
+        {
+          "line_id": "P03-LITERATURE-EXAMPLE-C02",
+          "factor": 1
+        }
+      ],
+      "scope": "Assumes the entered carrier liquid is retained. Actual recovered volume and silver nanoparticle mass are unreported; rinsing and target dimensions do not count as product volume.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12222828/",
+      "source_locator": "Experimental section > Materials and methods"
+    },
+    {
+      "model_id": "P07-QUANTITY-01",
+      "formulation_id": "P07-LITERATURE-EXAMPLE",
+      "route_id": "P07",
+      "dimension": "mass",
+      "label": "Graphite-derived product mass ceiling",
+      "basis": "theoretical_mass_ceiling",
+      "terms": [
+        {
+          "line_id": "P07-LITERATURE-EXAMPLE-C01",
+          "factor": 1
+        }
+      ],
+      "scope": "Input graphite mass only, at hypothetical full retention. This is an upper bound, not measured exfoliation yield; solvent and steel milling media are excluded.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5310818/",
+      "source_locator": "Experimental"
+    },
+    {
+      "model_id": "P17-QUANTITY-01",
+      "formulation_id": "P17-LITERATURE-20261017",
+      "route_id": "P17",
+      "dimension": "mass",
+      "label": "PLGA plus drug core-mass ceiling",
+      "basis": "theoretical_mass_ceiling",
+      "terms": [
+        {
+          "line_id": "P17-LITERATURE-20261017-C01",
+          "factor": 1
+        },
+        {
+          "line_id": "P17-LITERATURE-20261017-C03",
+          "factor": 1
+        }
+      ],
+      "scope": "Hypothetical complete PLGA and drug retention. Entrapment, particle recovery and retained PVA are unreported, so this is a selected core-solids ceiling, not measured total particle yield.",
+      "source_url": "https://doi.org/10.1038/s41598-024-82728-6",
+      "source_locator": "Methods for synthesis of PLGA MPs/NPs; PDF p4"
+    },
+    {
+      "model_id": "P30-QUANTITY-01",
+      "formulation_id": "P30-SOURCE-01",
+      "route_id": "P30",
+      "dimension": "mass",
+      "label": "Lignin-derived product mass ceiling",
+      "basis": "theoretical_mass_ceiling",
+      "terms": [
+        {
+          "line_id": "P30-SOURCE-01-C01",
+          "factor": 1
+        }
+      ],
+      "scope": "Input lignin mass at hypothetical full retention. Actual dialysis recovery is unreported; DMSO and dialysis water are excluded.",
+      "source_url": "https://doi.org/10.1186/s13068-017-0876-z",
+      "source_locator": "Experimental: Fabrication and characterization of lignin nanoparticles, PDF pp 8-9"
+    }
+  ]
+}

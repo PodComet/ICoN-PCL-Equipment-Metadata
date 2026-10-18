@@ -247,3 +247,15 @@ P42,P42-SOURCE-01,P42-SOURCE-01-C03,pmma-a4,PMMA-A 4 electron-beam resist,Dispen
 P42,P42-SOURCE-01,P42-SOURCE-01-C04,mibk-ipa13,"MIBK/isopropanol developer, 1:3",Bath volume unreported; MIBK:IPA 1:3,consumed,0,0,no_market_offer,
 P42,P42-SOURCE-01,P42-SOURCE-01-C05,isopropanol,Isopropanol,Development rinse and final wash volumes unreported,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/isopropyl-alcohol-99-8-acs-grade?selected=IPAA99-500ML
 P42,P42-SOURCE-01,P42-SOURCE-01-C06,acetone,Acetone,Lift-off bath volume unreported,consumed,1,1,compatible_pack_offer,https://www.laballey.com/products/acetone-acs-reagent-grade?selected=ACEA-500ML
+P44,P44-SOURCE-01,P44-SOURCE-01-C01,cesium-carbonate,Cesium carbonate,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C02,lead-bromide-and-or-lead-iodide,Lead bromide and/or lead iodide,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C03,1-octadecene,1-Octadecene,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C04,oleic-acid,Oleic acid,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P44,P44-SOURCE-01,P44-SOURCE-01-C05,oleylamine,Oleylamine,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/aldrich/o7805
+P44,P44-SOURCE-01,P44-SOURCE-01-C06,galden-fluorinated-carrier-fluid,Galden fluorinated carrier fluid,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P45,P45-SOURCE-01,P45-SOURCE-01-C01,pd-nanocube-seeds,Pd nanocube seeds,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P45,P45-SOURCE-01,P45-SOURCE-01-C02,oleylamine,Oleylamine,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.sigmaaldrich.com/US/en/product/aldrich/o7805
+P45,P45-SOURCE-01,P45-SOURCE-01-C03,tri-n-octylphosphine,Tri-n-octylphosphine,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P45,P45-SOURCE-01,P45-SOURCE-01-C04,nitrogen,Nitrogen,Batch amount not established in this curated route,consumed,1,0,reference_offer_only,https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/
+P45,P45-SOURCE-01,P45-SOURCE-01-C05,air,Air,Batch amount not established in this curated route,consumed,0,0,no_market_offer,
+P45,P45-SOURCE-01,P45-SOURCE-01-C06,ethanol-wash-solvent,Ethanol wash solvent,Batch amount not established in this curated route,consumed,0,0,no_market_offer,

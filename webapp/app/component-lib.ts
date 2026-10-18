@@ -4,7 +4,7 @@ import {usdConversion} from './currency-lib.ts';
 export type FormulationComponent={line_id:string;component_id:string;name:string;role:MaterialRole;source_role:string;amount:string;quantity_value:number|null;quantity_unit:string;concentration:string;scope:string;amount_status:string;cost_scope:string;eligible_offer_ids:string[];offer_match_notes:string};
 export type ComponentFormulation={formulation_id:string;route_id:string;label:string;output_label:string;batch_basis:string;source_url:string;source_title:string;source_locator:string;reference_ids:string[];scope:string;completeness:string;components:FormulationComponent[]};
 export type ComponentOffer={offer_id:string;component_id:string;name:string;seller:string;manufacturer:string;sku:string;grade:string;form:string;pack_quantity:number|null;pack_unit:string;price_value:number;currency:string;price_kind:string;source_url:string;checked_date:string;image_url:string;image_source_url:string;image_scope:string;condition:string;notes:string;cas_number?:string;molar_mass_g_mol?:number;molar_mass_source_url?:string};
-export type ComponentData={checked_date:string;formulations:ComponentFormulation[];offers:ComponentOffer[]};
+export type ComponentData={checked_date:string;formulations:ComponentFormulation[];offers:ComponentOffer[];output_quantity_models?:import('./output-quantity-lib.ts').OutputQuantityModel[]};
 const key=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
 export function formulationFor(plan:MaterialPlan,data:ComponentData){return data.formulations.find(f=>f.formulation_id===plan.formulation_id&&f.route_id===plan.route_id)||null;}
 export function componentFor(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){

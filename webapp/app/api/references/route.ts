@@ -9,6 +9,7 @@ export async function GET(request:Request){
   csl_json:{body:literature.exports.csl_json,type:'application/vnd.citationstyles.csl+json',name:'icon-pcl-references.csl.json'},
   csv:{body:csvText(literature.references),type:'text/csv',name:'references.csv'},
   links_csv:{body:csvText(literature.reference_links),type:'text/csv',name:'reference_links.csv'},
+  classes_csv:{body:csvText(literature.reference_classes),type:'text/csv',name:'reference_classes.csv'},
   affiliations_csv:{body:csvText(literature.reference_affiliations),type:'text/csv',name:'reference_affiliations.csv'},
  };
  if(format==='json'){const {exports,...data}=literature;return Response.json(data)}

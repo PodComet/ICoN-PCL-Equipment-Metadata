@@ -1,0 +1,982 @@
+{
+  "review_date": "2026-10-17",
+  "scope": "All existing 2020–2023 parent records at start, plus 12 unswept 2024–2026 bibliography parents. Cited works have no year cutoff.",
+  "summary": {
+    "parent_articles": 31,
+    "bibliography_entries_recovered": 1994,
+    "methods_reviewed_studies": 14,
+    "new_reference_records": 10,
+    "new_equipment_records": 17,
+    "new_process_routes": 2,
+    "unrecovered_numbered_positions": 4
+  },
+  "new_reference_ids": [
+    "REF-0267F5CC2B11",
+    "REF-21E3D2F579A3",
+    "REF-672B9D6A479F",
+    "REF-943617F9C471",
+    "REF-0049CBFB6C6F",
+    "REF-85D684544148",
+    "REF-83EDA9B2B291",
+    "REF-DAD1846E577E",
+    "REF-FA09A3F03F76",
+    "REF-BE5561C4E349"
+  ],
+  "new_equipment_ids": [
+    "SW17-M20-6B499CD8273B",
+    "SW17-M07-7ABF5626313E",
+    "SW17-M35-0B6C77913DB3",
+    "SW17-M62-E6D064E3E567",
+    "SW17-M51-3688D8C50C4C",
+    "SW17-M41-94A591E05DF8",
+    "LIT-M07-LIGNOS2020",
+    "LIT-M08-LIGNOS2020",
+    "LIT-M86-LIGNOS2020",
+    "SW17-M57-6B0FD590FB4E",
+    "SW17-M36-5A4504DC1F3D",
+    "SW17-M35-85457B31402C",
+    "SW17-M38-F5D572DB906E",
+    "SW17-M95-7E008A08DA9B",
+    "SW17-M56-04FA1C7045AE",
+    "SW17-M39-5824B81F3291",
+    "SW17-M56-D1F56E174B10"
+  ],
+  "new_route_ids": [
+    "P44",
+    "P45"
+  ],
+  "parents_2020_2021": [
+    {
+      "reference_id": "REF-1A623A02A7D2",
+      "doi": "10.1038/s41598-020-75967-w",
+      "title": "Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles",
+      "publication_year": "2020",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 66,
+      "expected_numbered_positions": 66,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7609603/fullTextXML",
+      "methods_reviewed_cited_papers": [],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-D2CE6F5AFB82",
+      "doi": "10.1021/acsomega.9b03820",
+      "title": "Electrospun Carbon Nanofibers as an Electrochemical Immunosensing Platform forVibrio choleraeToxin: Aging Effect of the Redox Probe",
+      "publication_year": "2020",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 46,
+      "expected_numbered_positions": 46,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7097905/fullTextXML",
+      "methods_reviewed_cited_papers": [
+        "10.1021/acsomega.9b02151"
+      ],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-881E66C7D754",
+      "doi": "10.3390/nano10101936",
+      "title": "Effect of the Albumin Corona on the Toxicity of Combined Graphene Oxide and Cadmium to Daphnia magna and Integration of the Datasets into the NanoCommons Knowledge Base",
+      "publication_year": "2020",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 81,
+      "expected_numbered_positions": 81,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7599915/fullTextXML",
+      "methods_reviewed_cited_papers": [
+        "10.1038/srep42258",
+        "10.3390/nano9020276"
+      ],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-C292BBE498C8",
+      "doi": "10.1038/s41467-020-19597-w",
+      "title": "On-the-fly closed-loop materials discovery via Bayesian active learning",
+      "publication_year": "2020",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 56,
+      "expected_numbered_positions": 56,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7686338/fullTextXML",
+      "methods_reviewed_cited_papers": [],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-FECC540EA90C",
+      "doi": "10.1039/d1nr03231c",
+      "title": "Machine learning and materials modelling interpretation of                     in vivo                     toxicological response to TiO                     2                     nanoparticles library (UV and non-UV exposure)",
+      "publication_year": "2021",
+      "bibliography_status": "partial_registry_bibliography",
+      "entries_recovered": 54,
+      "expected_numbered_positions": 58,
+      "unrecovered_citation_positions": [
+        23,
+        24,
+        52,
+        55
+      ],
+      "source_url": "https://api.crossref.org/works/10.1039/d1nr03231c",
+      "methods_reviewed_cited_papers": [],
+      "gap_notes": "Crossref references omit citation keys23,24,52,55. Publisher HTML/PDF access failed locally; do not claim a complete bibliography or infer these missing records.36of48DOI-only references received title enrichment from EuropePMC."
+    },
+    {
+      "reference_id": "REF-3FA6AA8B06E0",
+      "doi": "10.1038/s41524-021-00520-w",
+      "title": "Two-step machine learning enables optimized nanoparticle synthesis",
+      "publication_year": "2021",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 48,
+      "expected_numbered_positions": 48,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://api.crossref.org/works/10.1038/s41524-021-00520-w",
+      "methods_reviewed_cited_papers": [
+        "10.1038/s41467-020-16501-4"
+      ],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-6FAA7B96669B",
+      "doi": "10.1038/s41524-021-00629-y",
+      "title": "Advanced machine learning decision policies for diameter control of carbon nanotubes",
+      "publication_year": "2021",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 63,
+      "expected_numbered_positions": 63,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://api.crossref.org/works/10.1038/s41524-021-00629-y",
+      "methods_reviewed_cited_papers": [
+        "10.1038/s41598-020-64397-3",
+        "10.1126/sciadv.abb6010"
+      ],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    },
+    {
+      "reference_id": "REF-4488A4233A2A",
+      "doi": "10.3390/nano11112893",
+      "title": "APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules",
+      "publication_year": "2021",
+      "bibliography_status": "bibliography_inventory_recovered",
+      "entries_recovered": 75,
+      "expected_numbered_positions": 75,
+      "unrecovered_citation_positions": [],
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8620991/fullTextXML",
+      "methods_reviewed_cited_papers": [
+        "10.1039/d0ra04770h",
+        "10.3390/molecules26113451"
+      ],
+      "gap_notes": "Inventory of source bibliography complete; this does not mean full texts of all cited studies were reviewed."
+    }
+  ],
+  "parents_2022_2023": [
+    {
+      "parent_reference_id": "REF-36037737F346",
+      "parent_doi": "10.1038/s41467-022-29926-w",
+      "title": "Breaking adsorption-energy scaling limitations of electrocatalytic nitrate reduction on intermetallic CuPd nanocubes by machine-learned insights",
+      "year": "2022",
+      "inventory_count": 66,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "bibliography_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9054787/fullTextXML",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-A12730235B6E",
+      "parent_doi": "10.1039/d2nr03712b",
+      "title": "Seeking regularity from irregularity: unveiling the synthesis–nanomorphology relationships of heterogeneous nanomaterials using unsupervised machine learning",
+      "year": "2022",
+      "bibliography_source": "https://publish.illinois.edu/chenlab-matse/files/2022/10/d2nr03712b.pdf",
+      "inventory_count": 79,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-2B58D7070E0F",
+      "parent_doi": "10.1186/s12989-021-00442-x",
+      "title": "Digital research data: from analysis of existing standards to a scientific foundation for a modular metadata schema in nanosafety",
+      "year": "2022",
+      "bibliography_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8728981/fullTextXML",
+      "inventory_count": 84,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-9A8ACDF7DC3D",
+      "parent_doi": "10.1016/j.compscitech.2022.109363",
+      "title": "Wet electrospinning-aided self-assembly of multifunctional GO-CNT@PCL core-shell nanocomposites with spider leg bioinspired hierarchical architectures",
+      "year": "2022",
+      "bibliography_source": "https://api.crossref.org/works/10.1016/j.compscitech.2022.109363",
+      "inventory_count": 45,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-A18B8DB1ADFC",
+      "parent_doi": "10.48550/arxiv.2210.09783",
+      "title": "Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis",
+      "year": "2022",
+      "inventory_count": 35,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "bibliography_source": "https://arxiv.org/pdf/2210.09783",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-9843819D5591",
+      "parent_doi": "10.1063/5.0100657",
+      "title": "Substrate conformal imprint fabrication process of synthetic antiferromagnetic nanoplatelets",
+      "year": "2022",
+      "inventory_count": 29,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "bibliography_source": "https://api.crossref.org/works/10.1063/5.0100657",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-F47C1575F2CD",
+      "parent_doi": "10.1016/j.polymdegradstab.2023.110278",
+      "title": "Mechanical and sensing performance under hydrothermal ageing of wearable sensors made of polydimethylsiloxane with graphitic nanofillers",
+      "year": "2023",
+      "bibliography_source": "https://api.crossref.org/works/10.1016/j.polymdegradstab.2023.110278",
+      "inventory_count": 48,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-2AF830405DFB",
+      "parent_doi": "10.48550/arxiv.2303.10469",
+      "title": "Optimization of microfluidic synthesis of silver nanoparticles: a generic approach using machine learning",
+      "year": "2023",
+      "bibliography_source": "https://arxiv.org/pdf/2303.10469",
+      "inventory_count": 56,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-20918C55AB9B",
+      "parent_doi": "10.1021/acsami.2c22162",
+      "title": "Electrical Transport Mechanisms in Graphene Nanoplatelet Doped Polydimethylsiloxane and Application to Ultrasensitive Temperature Sensors",
+      "year": "2023",
+      "inventory_count": 67,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "bibliography_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10176477/fullTextXML",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-0D7D4A923858",
+      "parent_doi": "10.48550/arxiv.2309.00349",
+      "title": "Bespoke Nanoparticle Synthesis and Chemical Knowledge Discovery Via Autonomous Experimentations",
+      "year": "2023",
+      "bibliography_source": "https://arxiv.org/pdf/2309.00349",
+      "inventory_count": 66,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    },
+    {
+      "parent_reference_id": "REF-7F0A9F422735",
+      "parent_doi": "10.1038/s41597-023-02501-8",
+      "title": "Shared metadata for data-centric materials science",
+      "year": "2023",
+      "bibliography_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10502089/fullTextXML",
+      "inventory_count": 134,
+      "status": "complete_main_bibliography_inventory; title_or_citation_screening_only_except_selected_methods",
+      "notes": "Version-specific main reference list; supporting-information-only references not comprehensively inventoried. DOI/title missing in parsed PDF references remain available as full citation text; no identifier guessed."
+    }
+  ],
+  "recent_parent_scope": [
+    {
+      "reference_id": "REF-FE86B9BC9BE2",
+      "title": "Layered Potassium Titanium Niobate/Reduced Graphene Oxide Nanocomposite as a Potassium-Ion Battery Anode",
+      "publication_year": "2024",
+      "doi": "10.1007/s40820-023-01222-2",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 62,
+      "source_url": "https://api.crossref.org/works/10.1007/s40820-023-01222-2",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-64316ABBCDBF",
+      "title": "Flexible and Robust Functionalized Boron Nitride/Poly(p-Phenylene Benzobisoxazole) Nanocomposite Paper with High Thermal Conductivity and Outstanding Electrical Insulation",
+      "publication_year": "2024",
+      "doi": "10.1007/s40820-023-01257-5",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 68,
+      "source_url": "https://api.crossref.org/works/10.1007/s40820-023-01257-5",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-CB807EB452AB",
+      "title": "Electrospun polymeric nanohybrids with outstanding pollutants adsorption and electroactivity for water treatment and sensing devices",
+      "publication_year": "2024",
+      "doi": "10.1007/s42114-023-00827-w",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 64,
+      "source_url": "https://api.crossref.org/works/10.1007%2Fs42114-023-00827-w",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-AE397253458C",
+      "title": "Bespoke Metal Nanoparticle Synthesis at Room Temperature and Discovery of Chemical Knowledge on Nanoparticle Growth via Autonomous Experimentations",
+      "publication_year": "2024",
+      "doi": "10.1002/adfm.202312561",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 73,
+      "source_url": "https://api.crossref.org/works/10.1002/adfm.202312561",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-853696934496",
+      "title": "Transforming the Synthesis of Carbon Nanotubes with Machine Learning Models and Automation",
+      "publication_year": "2024",
+      "doi": "10.48550/arxiv.2404.01006",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 36,
+      "source_url": "https://arxiv.org/abs/2404.01006",
+      "bibliography_status": "retrieved_local_fulltext"
+    },
+    {
+      "reference_id": "REF-1110175424B9",
+      "title": "Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation",
+      "publication_year": "2024",
+      "doi": "10.1002/smtd.202301763",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 60,
+      "source_url": "https://api.crossref.org/works/10.1002%2Fsmtd.202301763",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-0A33E81203AA",
+      "title": "Machine learning-guided high throughput nanoparticle design",
+      "publication_year": "2024",
+      "doi": "10.1039/d4dd00104d",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 49,
+      "source_url": "https://api.crossref.org/works/10.1039%2Fd4dd00104d",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-1608A125B68E",
+      "title": "Evaluation of electrodeposition synthesis of gold nanodendrite on screen-printed carbon electrode for nonenzymatic ascorbic acid sensor",
+      "publication_year": "2024",
+      "doi": "10.1038/s41598-024-69970-8",
+      "parent_scope": "added_since_previous_sweeps",
+      "bibliography_entries": 94,
+      "source_url": "https://api.crossref.org/works/10.1038%2Fs41598-024-69970-8",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-EF3B4AF5F5B9",
+      "title": "A systematic review on the state-of-the-art and research gaps regarding inorganic and carbon-based multicomponent and high-aspect ratio nanomaterials",
+      "publication_year": "2024",
+      "doi": "10.1016/j.csbj.2024.10.020",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 168,
+      "source_url": "https://api.crossref.org/works/10.1016/j.csbj.2024.10.020",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-D0CCF2644737",
+      "title": "Machine learning integrated with in vitro experiments for study of drug release from PLGA nanoparticles",
+      "publication_year": "2025",
+      "doi": "10.1038/s41598-024-82728-6",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 39,
+      "source_url": "https://api.crossref.org/works/10.1038/s41598-024-82728-6",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-E2CE24FAF2D6",
+      "title": "High strength and ductility in a rare-earth free magnesium alloy processed by rotary swaging and flash annealing",
+      "publication_year": "2025",
+      "doi": "10.1038/s43246-025-00736-z",
+      "parent_scope": "previously_added_cited_study_now_bibliography_parent",
+      "bibliography_entries": 44,
+      "source_url": "https://api.crossref.org/works/10.1038%2Fs43246-025-00736-z",
+      "bibliography_status": "retrieved_registry"
+    },
+    {
+      "reference_id": "REF-ADA3D33C94DA",
+      "title": "Substrate-dependent thermal sensing using silver nanoparticles synthesized via laser ablation in solution",
+      "publication_year": "2025",
+      "doi": "10.1038/s41598-025-02431-y",
+      "parent_scope": "added_since_previous_sweeps",
+      "bibliography_entries": 39,
+      "source_url": "https://api.crossref.org/works/10.1038/s41598-025-02431-y",
+      "bibliography_status": "retrieved_registry"
+    }
+  ],
+  "studies": [
+    {
+      "reference": {
+        "reference_id": "REF-0267F5CC2B11",
+        "reference_type": "journal_article",
+        "title": "Myoglobin- and Hydroxyapatite-Doped Carbon Nanofiber-Modified Electrodes for Electrochemistry and Electrocatalysis",
+        "authors_json": "[{\"given\": \"Juan\", \"family\": \"Liu\"}, {\"given\": \"Wenju\", \"family\": \"Weng\"}, {\"given\": \"Hui\", \"family\": \"Xie\"}, {\"given\": \"Guiling\", \"family\": \"Luo\"}, {\"given\": \"Guangjiu\", \"family\": \"Li\"}, {\"given\": \"Wei\", \"family\": \"Sun\"}, {\"given\": \"Chengxiang\", \"family\": \"Ruan\"}, {\"given\": \"Xianghui\", \"family\": \"Wang\"}]",
+        "publication_year": "2019",
+        "publication_date": "2019-09-11",
+        "container_title": "ACS Omega",
+        "volume": "4",
+        "issue": "13",
+        "pages": "15653-15659",
+        "article_number": "",
+        "doi": "10.1021/acsomega.9b02151",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6761753/",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1021/acsomega.9b02151",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6761753/",
+      "locator": "Experimental Section 4.2 Instruments; 4.3 Synthesis of the HAp@CNF Nanocomposite; 4.4 electrode preparation",
+      "claim": "Electrospinning a hydroxyapatite/PAN precursor followed by nitrogen-atmosphere carbonization produces hydroxyapatite-containing carbon nanofibers. The BTF-1200C vacuum tube furnace is expressly named. Further preparation incorporates myoglobin and Nafion into an electrode coating. The electrospinner is not identified by make/model.",
+      "P": [
+        "P11",
+        "P08"
+      ],
+      "M": [
+        "M26",
+        "M20",
+        "M57",
+        "M38",
+        "M39",
+        "M40",
+        "M95",
+        "M36",
+        "M35"
+      ],
+      "N": [
+        "N07",
+        "N08",
+        "N10"
+      ],
+      "existing": [
+        {
+          "equipment_id": "MIT-M36-AC1DF8EBCAFC",
+          "model_name": "Thermo Scientific Nicolet6700",
+          "category_id": "M36",
+          "role": "FTIR characterization; not manufacturing actuator"
+        }
+      ],
+      "parent_ids": [
+        "REF-D2CE6F5AFB82"
+      ],
+      "output": [
+        "Hydroxyapatite/carbon nanofiber nanocomposite",
+        "Myoglobin/HAp-carbon-nanofiber modified electrode"
+      ],
+      "scope": "P11 is the broad thermal-conversion route. Do not label this as the same protocol as P20: HAp-loaded PAN carbonization differs from nanocarbon-loaded polymer-mat electrospinning. Hydroxyapatite is a phosphate; do not mislabel it as a metal oxide."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-21E3D2F579A3",
+        "reference_type": "journal_article",
+        "title": "A nanomaterials discovery robot for the Darwinian evolution of shape programmable gold nanoparticles",
+        "authors_json": "[{\"given\": \"Daniel\", \"family\": \"Salley\"}, {\"given\": \"Graham\", \"family\": \"Keenan\"}, {\"given\": \"Jonathan\", \"family\": \"Grizou\"}, {\"given\": \"Abhishek\", \"family\": \"Sharma\"}, {\"given\": \"Sergio\", \"family\": \"Martín\"}, {\"given\": \"Leroy\", \"family\": \"Cronin\"}]",
+        "publication_year": "2020",
+        "publication_date": "2020-06-02",
+        "container_title": "Nature Communications",
+        "volume": "11",
+        "issue": "1",
+        "pages": "",
+        "article_number": "2771",
+        "doi": "10.1038/s41467-020-16501-4",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265452/",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1038/s41467-020-16501-4",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265452/",
+      "locator": "Results > Platform (JATS Sec4 / main article Fig3); Introduction; Results > Workflow",
+      "claim": "An automated semibatch platform dispenses reagents with Tri-Continent C3000 syringe pumps and measures products with an Ocean Optics Flame spectrometer. A custom15-vial Geneva-wheel platform evolves gold nanospheres and nanorods, then uses optimized rods as seeds for octahedral gold nanoparticles. The exact Flame detector/grating configuration is unspecified.",
+      "P": [
+        "P09"
+      ],
+      "M": [
+        "M07",
+        "M35",
+        "M62",
+        "M86"
+      ],
+      "N": [
+        "N01"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-3FA6AA8B06E0"
+      ],
+      "output": [
+        "Gold nanospheres",
+        "Gold nanorods",
+        "Gold octahedral nanoparticles"
+      ],
+      "scope": "Source-specific configuration; no universal model capability or operating recipe asserted."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-672B9D6A479F",
+        "reference_type": "journal_article",
+        "title": "High-precision solid catalysts for investigation of carbon nanotube synthesis and structure",
+        "authors_json": "[{\"given\": \"Xiao\", \"family\": \"Zhang\"}, {\"given\": \"Brian\", \"family\": \"Graves\"}, {\"given\": \"Michael\", \"family\": \"De Volder\"}, {\"given\": \"Wenming\", \"family\": \"Yang\"}, {\"given\": \"Tyler\", \"family\": \"Johnson\"}, {\"given\": \"Bo\", \"family\": \"Wen\"}, {\"given\": \"Wei\", \"family\": \"Su\"}, {\"given\": \"Robert\", \"family\": \"Nishida\"}, {\"given\": \"Sishen\", \"family\": \"Xie\"}, {\"given\": \"Adam\", \"family\": \"Boies\"}]",
+        "publication_year": "2020",
+        "publication_date": "2020-09-30",
+        "container_title": "Science Advances",
+        "volume": "6",
+        "issue": "40",
+        "pages": "",
+        "article_number": "eabb6010",
+        "doi": "10.1126/sciadv.abb6010",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7527216/",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1126/sciadv.abb6010",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7527216/",
+      "locator": "Materials and Methods > NP synthesis, size selection, and collection; CNT growth on substrate and FCCVD growth; Aerosol characterization, AFM, HRTEM, ED, XRD, and Raman mapping (JATS sec11–sec14)",
+      "claim": "Atomized salt precursors become refractory-metal oxide nanoparticles, which are charged, mobility-selected and collected. TSI9302 atomizer,3077 charge neutralizer and3085 DMA are explicitly named. Reduction produces metal catalysts for substrate CVD or floating-catalyst CVD SWCNT growth. TSI3756 condensation particle counter measures aerosol concentrations. Unnamed furnace and collection assemblies must remain class-level.",
+      "P": [
+        "P12"
+      ],
+      "M": [
+        "M53",
+        "M76",
+        "M20",
+        "M77",
+        "M51",
+        "M79",
+        "M21",
+        "M78",
+        "M41",
+        "M39",
+        "M37",
+        "M40"
+      ],
+      "N": [
+        "N01",
+        "N02",
+        "N07"
+      ],
+      "existing": [
+        {
+          "equipment_id": "M53-01",
+          "category_id": "M53",
+          "model_name": "TSI Single-Jet Atomizer9302",
+          "role": "Atomizes metal-salt precursors"
+        },
+        {
+          "equipment_id": "GAP-20261016-M77-TSI-3077",
+          "category_id": "M77",
+          "model_name": "TSI3077",
+          "role": "Radioactive charge neutralizer before DMA"
+        },
+        {
+          "equipment_id": "GAP-20261016-M78-TSI-3756",
+          "category_id": "M78",
+          "model_name": "TSI3756",
+          "role": "Condensation particle counter in aerosol size analysis; characterization, not growth actuator"
+        }
+      ],
+      "parent_ids": [
+        "REF-6FAA7B96669B"
+      ],
+      "output": [
+        "Size-selected tungsten/molybdenum/rhenium oxide catalyst nanoparticles",
+        "Reduced refractory-metal catalyst nanoparticles",
+        "Single-walled carbon nanotubes"
+      ],
+      "scope": "Registry issue date is2020-10-02; electronic article/JATS date is2020-09-30. Existing P21 is laser cold-wall CVD; P26 specifically robot-assisted arrays. Neither should inherit this entire recipe as exact source support."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-943617F9C471",
+        "reference_type": "journal_article",
+        "title": "Functionalized Graphene Oxide with Chitosan for Protein Nanocarriers to Protect against Enzymatic Cleavage and Retain Collagenase Activity",
+        "authors_json": "[{\"given\": \"Fatemeh\", \"family\": \"Emadi\"}, {\"given\": \"Abbas\", \"family\": \"Amini\"}, {\"given\": \"Ahmad\", \"family\": \"Gholami\"}, {\"given\": \"Younes\", \"family\": \"Ghasemi\"}]",
+        "publication_year": "2017",
+        "publication_date": "2017-02-10",
+        "container_title": "Scientific Reports",
+        "volume": "7",
+        "issue": "1",
+        "pages": "",
+        "article_number": "42258",
+        "doi": "10.1038/srep42258",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5301474/",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1038/srep42258",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5301474/",
+      "locator": "Materials and Method; Results and Discussion > Characterizations of GO and GO-CS; Figs1,7–9",
+      "claim": "A modified Hummers oxidation prepares graphene oxide, followed by chitosan grafting, purification by membrane filtration/dialysis and protein loading. The study measures retention of protein integrity and collagenase activity under its own experimental conditions. A JPK NanoWizardII AFM is explicitly used for contact-mode characterization; manufacturing bath sonicator and centrifuge are unnamed.",
+      "P": [
+        "P34",
+        "P08"
+      ],
+      "M": [
+        "M02",
+        "M10",
+        "M13",
+        "M15",
+        "M66",
+        "M39",
+        "M41",
+        "M36",
+        "M40",
+        "M38",
+        "M35",
+        "M34"
+      ],
+      "N": [
+        "N07",
+        "N10"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-881E66C7D754"
+      ],
+      "output": [
+        "Chitosan-functionalized graphene-oxide protein nanocarrier",
+        "BSA-loaded graphene-oxide/chitosan nanocarrier",
+        "Collagenase-loaded graphene-oxide/chitosan nanocarrier"
+      ],
+      "scope": "The article measures therapeutic-protein behavior; these are literature observations, not predicted properties or clinically validated guarantees for arbitrary user configurations."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-0049CBFB6C6F",
+        "reference_type": "journal_article",
+        "title": "Tracking the Fluorescence Lifetimes of Cesium Lead Halide Perovskite Nanocrystals During Their Synthesis Using a Fully Automated Optofluidic Platform",
+        "authors_json": "[{\"given\": \"Ioannis\", \"family\": \"Lignos\"}, {\"given\": \"Richard M.\", \"family\": \"Maceiczyk\"}, {\"given\": \"Maksym V.\", \"family\": \"Kovalenko\"}, {\"given\": \"Stavros\", \"family\": \"Stavrakis\"}]",
+        "publication_year": "2020",
+        "publication_date": "2020-01-14",
+        "container_title": "Chemistry of Materials",
+        "volume": "32",
+        "issue": "1",
+        "pages": "27-37",
+        "article_number": "",
+        "doi": "10.1021/acs.chemmater.9b03438",
+        "url": "https://doi.org/10.1021/acs.chemmater.9b03438",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1021/acs.chemmater.9b03438",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by Lampe2022 preprint bibliography entry35. Main Experimental Section and platform automation reviewed. Issue2020-01-14; first online2019-12-09. Segmented-flow CsPbX3 synthesis is distinct from silver T-junction synthesis and perovskite antisolvent nanoplatelets. Exact neMESYS subtype not specified."
+      },
+      "source": "https://www.demellogroup.ethz.ch/_files/ugd/43643b_8e327a49836c4ac2b66b7ab7c001eb9a.pdf",
+      "locator": "Experimental Section / Preparation of Precursors, journalp29/PDFp3; Microfluidic Platform and Experimental Procedure, journalp29/PDFp3; In Situ PL Measurements / reactor automation, journalp30/PDFp4",
+      "claim": "A segmented-flow platform produces cesium lead halide nanocrystals while recording fluorescence. CETONI neMESYS syringe pumps feed precursor and carrier streams to a PEEK cross. Droplets travel through heated coiled tubing, then an optical flow cell. Custom LabVIEW software sequences conditions and acquires data.",
+      "P": [
+        "P44"
+      ],
+      "M": [
+        "M27",
+        "M07",
+        "M08",
+        "M86"
+      ],
+      "N": [
+        "N04"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-A18B8DB1ADFC"
+      ],
+      "output": [
+        "CsPbBr3, CsPbI3 and mixed-halide CsPb(Br/I)3 nanocrystal dispersions"
+      ],
+      "scope": "Precursor preparation and material handling are source-specific research descriptions, not a general SOP. Carrier phase and precursor solvents are distinct roles; no implicit recipe transfer to other P classes. Photon counters and spectrometers are inline characterization; do not present them as synthesis hardware. No maker star, photo, price or exact neMESYS subtype verified in this research task."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-85D684544148",
+        "reference_type": "journal_article",
+        "title": "Inflating hollow nanocrystals through a repeated Kirkendall cavitation process",
+        "authors_json": "[{\"given\": \"He\", \"family\": \"Tianou\"}, {\"given\": \"Weicong\", \"family\": \"Wang\"}, {\"given\": \"Xiaolong\", \"family\": \"Yang\"}, {\"given\": \"Zhenming\", \"family\": \"Cao\"}, {\"given\": \"Qin\", \"family\": \"Kuang\"}, {\"given\": \"Zhao\", \"family\": \"Wang\"}, {\"given\": \"Zhiwei\", \"family\": \"Shan\"}, {\"given\": \"Mingshang\", \"family\": \"Jin\"}, {\"given\": \"Yadong\", \"family\": \"Yin\"}]",
+        "publication_year": "2017",
+        "publication_date": "2017-11-02",
+        "container_title": "Nature Communications",
+        "volume": "8",
+        "issue": "1",
+        "pages": "",
+        "article_number": "1261",
+        "doi": "10.1038/s41467-017-01258-0",
+        "url": "https://doi.org/10.1038/s41467-017-01258-0",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_registry_checked",
+        "metadata_source_url": "https://api.crossref.org/works/10.1038/s41467-017-01258-0",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by Gao2022 reference39. Methods report repeated phosphorus insertion/extraction for hollow Pd nanocrystals. No manufacturing equipment maker/model named. Sonication modality unspecified, so no bath or probe-model identity inferred. Characterization and electrocatalysis tests remain separate from manufacture."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5665896/",
+      "locator": "Methods / Synthesis of Pd nanocubes; Methods / Synthesis of hollow Pd nanocrystals",
+      "claim": "Repeated phosphorus insertion and oxidative extraction converts Pd seed nanocrystals to hollow Pd nanoshells. The authors describe heated magnetic stirring, centrifugation/washing and unspecified sonication. Repeating the conversion enlarges voids and thins shells. Atmosphere and temperature alter the observed morphology; this is a reported study result, not an app prediction.",
+      "P": [
+        "P45"
+      ],
+      "M": [
+        "M02",
+        "M13"
+      ],
+      "N": [
+        "N01"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-36037737F346"
+      ],
+      "output": [
+        "Hollow monometallic Pd nanocrystals / nanoshells; successive H-Pd-1, H-Pd-2 and H-Pd-3 study samples"
+      ],
+      "scope": "No named manufacturing maker/model; do not create a commercial instrument identity. Sonication does not resolve probe versus bath; do not claim either exact model. Three-neck flask and nitrogen flow do not independently establish a Schlenk manifold. Named TEM, XRD, ICP-MS and electrochemical apparatus are characterization/catalytic testing, separate from manufacture. One published source used two atomistic and experimental analyses; not independent validation of app predictions."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-83EDA9B2B291",
+        "reference_type": "journal_article",
+        "title": "Aminosilane-Assisted Electrodeposition of Gold Nanodendrites and Their Catalytic Properties",
+        "authors_json": "[{\"given\": \"Nga Yu\", \"family\": \"Hau\"}, {\"given\": \"Peixian\", \"family\": \"Yang\"}, {\"given\": \"Chang\", \"family\": \"Liu\"}, {\"given\": \"Jian\", \"family\": \"Wang\"}, {\"given\": \"Po-Heng\", \"family\": \"Lee\"}, {\"given\": \"Shien-Ping\", \"family\": \"Feng\"}]",
+        "publication_year": "2017",
+        "publication_date": "2017-01-03",
+        "container_title": "Scientific Reports",
+        "volume": "7",
+        "issue": "",
+        "pages": "",
+        "article_number": "39839",
+        "doi": "10.1038/srep39839",
+        "url": "https://doi.org/10.1038/srep39839",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_repository_checked",
+        "metadata_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5206629/fullTextXML",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by REF-1608A125B68E, Reference 2. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5206629/",
+      "locator": "Methods / Fabrication of Au dendrites; Methods / Electrochemical and Material Characterisation",
+      "claim": "Gold nanodendrites electrodeposited on FTO; additive controls growth morphology.",
+      "P": [
+        "P05"
+      ],
+      "M": [
+        "M57",
+        "M10",
+        "M35",
+        "M36",
+        "M37",
+        "M38",
+        "M39",
+        "M95"
+      ],
+      "N": [
+        "N01"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-1608A125B68E"
+      ],
+      "output": [
+        "Gold nanodendrites electrodeposited on FTO; additive controls growth morphology."
+      ],
+      "scope": "Manufacturing and characterization roles remain as stated by the source. For Li2020, P08 supports the chemical reduction stage only; full continuous stretching route awaits a dedicated, verified stretching-equipment class."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-DAD1846E577E",
+        "reference_type": "journal_article",
+        "title": "Preparation of silver nanoparticles in virgin coconut oil using laser ablation",
+        "authors_json": "[{\"given\": \"Reza\", \"family\": \"Zamiri\"}, {\"given\": \"B Z\", \"family\": \"Azmi\"}, {\"given\": \"Amir Reza\", \"family\": \"Sadrolhosseini\"}, {\"given\": \"Hossein Abbastabar\", \"family\": \"Ahangar\"}, {\"given\": \"A W\", \"family\": \"Zaidan\"}, {\"given\": \"M A\", \"family\": \"Mahdi\"}]",
+        "publication_year": "2011",
+        "publication_date": "2011-01-07",
+        "container_title": "International Journal of Nanomedicine",
+        "volume": "6",
+        "issue": "",
+        "pages": "71-75",
+        "article_number": "",
+        "doi": "10.2147/ijn.s14005",
+        "url": "https://doi.org/10.2147/ijn.s14005",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_repository_checked",
+        "metadata_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3025586/fullTextXML",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by REF-ADA3D33C94DA, Reference 24. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3025586/",
+      "locator": "Experiment; Figure1; Experiment",
+      "claim": "Silver nanoparticles dispersed in virgin coconut oil.",
+      "P": [
+        "P03"
+      ],
+      "M": [
+        "M56",
+        "M80",
+        "M10",
+        "M02",
+        "M35",
+        "M39"
+      ],
+      "N": [
+        "N01"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-ADA3D33C94DA"
+      ],
+      "output": [
+        "Silver nanoparticles dispersed in virgin coconut oil."
+      ],
+      "scope": "Manufacturing and characterization roles remain as stated by the source. For Li2020, P08 supports the chemical reduction stage only; full continuous stretching route awaits a dedicated, verified stretching-equipment class."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-FA09A3F03F76",
+        "reference_type": "journal_article",
+        "title": "Ag-Decorated Si Microspheres Produced by Laser Ablation in Liquid: All-in-One Temperature-Feedback SERS-Based Platform for Nanosensing",
+        "authors_json": "[{\"given\": \"Stanislav\", \"family\": \"Gurbatov\"}, {\"given\": \"Vladislav\", \"family\": \"Puzikov\"}, {\"given\": \"Evgeny\", \"family\": \"Modin\"}, {\"given\": \"Alexander\", \"family\": \"Shevlyagin\"}, {\"given\": \"Andrey\", \"family\": \"Gerasimenko\"}, {\"given\": \"Eugeny\", \"family\": \"Mitsai\"}, {\"given\": \"Sergei A.\", \"family\": \"Kulinich\"}, {\"given\": \"Aleksandr\", \"family\": \"Kuchmizhak\"}]",
+        "publication_year": "2022",
+        "publication_date": "2022-11-15",
+        "container_title": "Materials",
+        "volume": "15",
+        "issue": "22",
+        "pages": "",
+        "article_number": "8091",
+        "doi": "10.3390/ma15228091",
+        "url": "https://doi.org/10.3390/ma15228091",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_repository_checked",
+        "metadata_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9697265/fullTextXML",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by REF-ADA3D33C94DA, Reference 14. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9697265/",
+      "locator": "2.1 PLAL Synthesis; 2.2 Characterization",
+      "claim": "Micrometer silicon cores decorated with nanoscale silver clusters.",
+      "P": [
+        "P03"
+      ],
+      "M": [
+        "M56",
+        "M80",
+        "M38",
+        "M39",
+        "M37",
+        "M40"
+      ],
+      "N": [
+        "N01",
+        "N10"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-ADA3D33C94DA"
+      ],
+      "output": [
+        "Micrometer silicon cores decorated with nanoscale silver clusters."
+      ],
+      "scope": "Manufacturing and characterization roles remain as stated by the source. For Li2020, P08 supports the chemical reduction stage only; full continuous stretching route awaits a dedicated, verified stretching-equipment class."
+    },
+    {
+      "reference": {
+        "reference_id": "REF-BE5561C4E349",
+        "reference_type": "journal_article",
+        "title": "Continuous crystalline graphene papers with gigapascal strength by intercalation modulated plasticization",
+        "authors_json": "[{\"given\": \"Peng\", \"family\": \"Li\"}, {\"given\": \"Mincheng\", \"family\": \"Yang\"}, {\"given\": \"Yingjun\", \"family\": \"Liu\"}, {\"given\": \"Huasong\", \"family\": \"Qin\"}, {\"given\": \"Jingran\", \"family\": \"Liu\"}, {\"given\": \"Zhen\", \"family\": \"Xu\"}, {\"given\": \"Yilun\", \"family\": \"Liu\"}, {\"given\": \"Fanxu\", \"family\": \"Meng\"}, {\"given\": \"Jiahao\", \"family\": \"Lin\"}, {\"given\": \"Fang\", \"family\": \"Wang\"}, {\"given\": \"Chao\", \"family\": \"Gao\"}]",
+        "publication_year": "2020",
+        "publication_date": "2020-05-27",
+        "container_title": "Nature Communications",
+        "volume": "11",
+        "issue": "1",
+        "pages": "",
+        "article_number": "2645",
+        "doi": "10.1038/s41467-020-16494-0",
+        "url": "https://doi.org/10.1038/s41467-020-16494-0",
+        "publication_status": "published",
+        "peer_review_status": "not_independently_checked",
+        "metadata_status": "full_text_and_repository_checked",
+        "metadata_source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7253461/fullTextXML",
+        "checked_date": "2026-10-17",
+        "topics": "nanomaterial_manufacturing;citation_sweep_2026_10_17",
+        "notes": "Cited by REF-64316ABBCDBF, Reference 3. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation."
+      },
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7253461/",
+      "locator": "Results / The continuous fabrication...; Methods / Fabrication of graphene papers; Figure1",
+      "claim": "Stretched reduced-graphene papers; optional graphene-paper/epoxy laminates.",
+      "P": [
+        "P08"
+      ],
+      "M": [
+        "M87",
+        "M85",
+        "M72"
+      ],
+      "N": [
+        "N07",
+        "N10"
+      ],
+      "existing": [],
+      "parent_ids": [
+        "REF-64316ABBCDBF"
+      ],
+      "output": [
+        "Stretched reduced-graphene papers; optional graphene-paper/epoxy laminates."
+      ],
+      "scope": "Manufacturing and characterization roles remain as stated by the source. For Li2020, P08 supports the chemical reduction stage only; full continuous stretching route awaits a dedicated, verified stretching-equipment class."
+    }
+  ],
+  "deferred_methods_studies": [
+    {
+      "doi": "10.1039/d0ra04770h",
+      "status": "methods_reviewed_deferred",
+      "reason": "Silica-on-gold self-assembly and CO2 sorption are relevant to P09/P08 and N03/N09; named manufacturing instruments absent in the main experimental section. Custom PASC planetary simulation chamber is a test environment, not an asserted manufacturing class. No new model import proposed."
+    },
+    {
+      "doi": "10.3390/nano9020276",
+      "status": "methods_reviewed_deferred",
+      "reason": "GO/BSA membrane synthesis and vacuum filtration are relevant. The paper associates JEM-2100F with Hitachi and Rigaku D/max-2500 with Bruker; these brand/model conflicts must not be imported unquestioned. Generic manufacture classes already covered."
+    },
+    {
+      "doi": "10.1038/s41598-020-64397-3",
+      "status": "methods_reviewed_deferred",
+      "reason": "Additional ARES closed-loop CVD evidence supports existing P21; no new manufacturer/model named in experimental setup. Same research apparatus lineage as existing Rao2021; avoid duplicate equipment card."
+    },
+    {
+      "doi": "10.3390/molecules26113451",
+      "status": "methods_reviewed_deferred",
+      "reason": "MWCNT/PANI carbonization, KOH activation and porous-carbon output are relevant to P11/P08 and N07/N10. Manufacturing oven, freeze dryer, furnace and filtering apparatus are unnamed. Existing classes cover the operations; no guessed models added."
+    }
+  ],
+  "proposed_processes_not_yet_in_planner": [
+    {
+      "reference_id": "REF-BE5561C4E349",
+      "name": "Intercalation-assisted stretching and reduction of graphene papers",
+      "reason": "Requires a verified continuous stretching-equipment class; roller stretching is not automatically a three-roll mill/calender. Casting/reduction and optional hot pressing are separately indexed."
+    }
+  ],
+  "limitations": [
+    "Most recovered citations received title/citation screening only, not full-text methods review.",
+    "Four Gomes2021 citation positions remain unrecovered. Eight recent-parent entries have incomplete readable metadata. SI-only bibliographies are not comprehensively inventoried.",
+    "New process input lists identify source materials; fixed dosages and commercial-grade matches remain explicit gaps.",
+    "Characterization equipment is distinguished in claim scopes; category relevance is not verified exact-model compatibility.",
+    "PDFs, raw full text, private inventory, credentials and saved workflows are excluded from public exports."
+  ]
+}

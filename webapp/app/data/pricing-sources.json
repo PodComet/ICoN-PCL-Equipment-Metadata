@@ -103,20 +103,20 @@
     "unreviewed_component_ids": 109
   },
   "coverage": {
-    "instrument_records": 1062,
+    "instrument_records": 1079,
     "instrument_statuses": {
       "estimate_only": 37,
       "explicit_msrp": 1,
       "manufacturer_price": 156,
       "new_seller_price": 62,
-      "no_purchase_price": 762,
+      "no_purchase_price": 779,
       "secondary_market_only": 44
     },
-    "component_occurrences": 248,
+    "component_occurrences": 260,
     "component_statuses": {
       "compatible_pack_offer": 72,
-      "no_market_offer": 108,
-      "reference_offer_only": 68
+      "no_market_offer": 117,
+      "reference_offer_only": 71
     },
     "component_pack_offers": 100
   }

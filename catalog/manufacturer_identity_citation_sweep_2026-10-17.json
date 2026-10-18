@@ -1,0 +1,149 @@
+{
+  "schema": "iconpcl-manufacturer-review/v1",
+  "checked_date": "2026-10-17",
+  "scope": "Bounded official corporate and brand identity review. Green-star recommendations concern manufacturer identity and research-instrument business, not exact-model compatibility, current availability or performance. No canonical files modified.",
+  "manufacturers": [
+    {
+      "catalog_name": "TriContinent",
+      "verified_name": "TriContinent Scientific",
+      "official_url": "https://www.tricontinent.com/en/about-us/",
+      "parent": "Ingersoll Rand",
+      "brand_status": "current_brand",
+      "safe_to_green_star": true,
+      "identity_status": "official_company_history_and_products_verified",
+      "claim": "Official company page describes precision syringe-pump production since 1975, a California base and current medical/life-science instrument business. Its footer and group navigation identify Ingersoll Rand.",
+      "source_locator": "About Us: company introduction; footer and group-brand links",
+      "additional_sources": [
+        "https://www.tricontinent.com/en/syringe-pumps-and-rotary-valves/c-series-syringe-pumps/"
+      ],
+      "notes": "Retain historical Tri-Continent spelling as an alias. Current identity is verified; no claim that every cited old pump is still available."
+    },
+    {
+      "catalog_name": "Ocean Optics",
+      "verified_name": "Ocean Optics",
+      "official_url": "https://www.oceanoptics.com/about/",
+      "parent": "Halma plc",
+      "brand_status": "current_brand_with_historical_rename",
+      "safe_to_green_star": true,
+      "identity_status": "official_company_and_brand_history_verified",
+      "claim": "Official history dates the company to 1989, Halma acquisition to 2004, the Ocean Insight rebranding to 2019 and restoration of the Ocean Optics spectrometer brand to 2023. Current company page identifies Halma ownership.",
+      "source_locator": "About; Our History > Milestones",
+      "additional_sources": [
+        "https://www.oceanoptics.com/about/our-history/"
+      ],
+      "notes": "Ocean Insight is a historically related parent/umbrella name, not evidence that Ocean Optics is defunct. Preserve paper-era Ocean Optics attribution for Flame."
+    },
+    {
+      "catalog_name": "CETONI",
+      "verified_name": "CETONI GmbH",
+      "official_url": "https://cetoni.com/en/company/",
+      "parent": null,
+      "parent_status": "not_asserted",
+      "brand_status": "current_company",
+      "safe_to_green_star": true,
+      "identity_status": "official_company_history_and_address_verified",
+      "claim": "Company page documents laboratory automation and microfluidics since 1991, ISO 9001 quality management and a Korbussen, Germany address.",
+      "source_locator": "Company > High-End Microfluidics & Laboratory Automation; Quality & Service; address footer",
+      "notes": "No parent organization inferred."
+    },
+    {
+      "catalog_name": "Quantel",
+      "verified_name": "Quantel / Lumibird",
+      "official_url": "https://www.lumibird.com/en/",
+      "parent": "Lumibird",
+      "brand_status": "established_brand_with_corporate_successor",
+      "safe_to_green_star": true,
+      "identity_status": "official_group_history_verified",
+      "claim": "Lumibird identifies Quantel among its photonics brands. Official group history documents Quantel's 1970 origin, the 2017 Quantel/Keopsys combination and the 2018 Lumibird name.",
+      "source_locator": "Lumibird company introduction; Universal Registration Document > Group History",
+      "additional_sources": [
+        "https://www.lumibird.com/wp-content/uploads/Lumibird_URD_EN.pdf"
+      ],
+      "notes": "Use Quantel as the historical laser make, with Lumibird as its corporate successor/group. Do not mark the brand defunct merely because the group name changed. Do not conflate scientific Quantel lasers with separate medical-division ownership transactions."
+    },
+    {
+      "catalog_name": "JPK Instruments",
+      "verified_name": "JPK Instruments AG / Bruker JPK BioAFM",
+      "official_url": "https://www.bruker.com/en/news-and-events/news/2018/bruker-announces-acquisition-of-jpk-instruments.html",
+      "parent": "Bruker Corporation",
+      "brand_status": "legacy_company_name_with_continuing_bruker_product_line",
+      "safe_to_green_star": true,
+      "identity_status": "official_acquisition_and_continuing_product_line_verified",
+      "claim": "Bruker announced acquisition of Berlin-based JPK Instruments AG on July 12, 2018. Bruker continues to document the JPK BioAFM/NanoWizard product line.",
+      "source_locator": "2018 acquisition announcement; current JPK BioAFM product listing",
+      "additional_sources": [
+        "https://www.bruker-nano.jp/jpk-products",
+        "https://ir.bruker.com/press-releases/press-release-details/2019/Bruker-Highlights-New-Systems-and-Applied-Market-Solutions-at-Pittcon/default.aspx"
+      ],
+      "notes": "Keep the source-era JPK Instruments attribution on NanoWizard II, with a Bruker successor note. Acquisition is not grounds for marking the research brand illegitimate or defunct. No specific NanoWizard II replacement claim verified here."
+    },
+    {
+      "catalog_name": "CH Instruments",
+      "verified_name": "CH Instruments, Inc.",
+      "official_url": "https://www.chinstruments.com/",
+      "parent": null,
+      "parent_status": "not_asserted",
+      "brand_status": "current_company",
+      "safe_to_green_star": true,
+      "identity_status": "official_company_history_and_current_products_verified",
+      "claim": "Official company site states establishment in 1994 and identifies a continuing range of electrochemical instrumentation for research and teaching.",
+      "source_locator": "Home > About Us; Product Overview",
+      "additional_sources": [
+        "https://www.chinstruments.com/chi1200.shtml",
+        "https://www.chinstr.com/"
+      ],
+      "notes": "Shanghai Chenhua's site describes itself as the authorized China distributor of the US CH Instruments brand. Do not silently merge the Shanghai distributor's legal identity into the US manufacturer. Exact article attribution can retain the reported supplier name alongside normalized make."
+    },
+    {
+      "catalog_name": "Anhui Best Equipment Technology",
+      "verified_name": null,
+      "official_url": null,
+      "candidate_official_url": "https://www.ahbeq.com/",
+      "parent": null,
+      "brand_status": "identity_unresolved",
+      "safe_to_green_star": false,
+      "identity_status": "article_reported_supplier_but_corporate_alias_unverified",
+      "claim": "Liu 2019 directly names Anhui Best Equipment Technology with BTF-1200C. Other primary literature points to ahbeq.com for an Anhui Best equipment supplier, but the website timed out in this pass and did not establish the precise Best/BEQ/Beiyike legal-name equivalence.",
+      "source_locator": "Liu 2019 Experimental Section 4.2; bounded official-web lookup",
+      "additional_sources": [
+        "https://pubs.acs.org/doi/full/10.1021/acsomega.9b02151"
+      ],
+      "notes": "Retain source-reported supplier identity and an unverified manufacturer star state. Do not guess BEQ or Beiyike normalization from translation similarity or distributor listings."
+    }
+  ],
+  "manual_url_checks": [
+    {
+      "model": "TriContinent C3000",
+      "supplied_url": "https://www.tricontinent.com/content/published/api/v1.1/assets/CONTAD3E94389C1F449C9AFAA5F146C2E6BB/native/c-series-product-manual.pdf?channelToken=25c4060f410b466095e77a0ad4ca9f98",
+      "http_status": 429,
+      "content_type": "text/html; charset=utf-8",
+      "status": "rate_limited_not_verified_download",
+      "notes": "Original manufacturer URL is search-indexed as the C-Series manual, but a direct request returned HTML and HTTP 429. This is not proof of a defunct URL. Prefer the successfully checked manufacturer CDN copy below.",
+      "working_equivalent": "https://azure-na-assets.contentstack.com/v3/assets/blt9a5043e55e849b62/bltb22c89fa9b9df047/6814876a059732bc6029593a/c-series-product-manual.pdf",
+      "equivalent_http_status": 200,
+      "equivalent_content_type": "application/pdf",
+      "equivalent_bytes": 7108409,
+      "equivalent_pages": 174,
+      "equivalent_pdf_header": "%PDF-",
+      "equivalent_scope": "TriContinent C-Series Product Manual, 8694-12 H. Printed page 7 explicitly lists C3000, C3000MP, C24000 and C24000MP. Exact pump valve/syringe configuration used in Salley 2020 is not resolved by this manual."
+    },
+    {
+      "model": "Ocean Optics Flame family",
+      "supplied_url": "https://www.oceanoptics.com/wp-content/uploads/2024/12/Flame-User-Manual.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "bytes": 1558056,
+      "pages": 130,
+      "pdf_header": "%PDF-",
+      "status": "working_pdf_confirmed",
+      "scope": "Flame family user guide. Keep the paper's detector/grating/slit configuration unspecified; family documentation does not identify that configuration."
+    }
+  ],
+  "summary": {
+    "reviewed": 7,
+    "safe_to_green_star": 6,
+    "identity_unresolved": 1,
+    "supplied_manuals_working_directly": 1,
+    "rate_limited_original_manuals_with_verified_equivalent": 1
+  }
+}

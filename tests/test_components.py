@@ -6,8 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_component_dataset_covers_existing_processes_with_scoped_sources():
     data=dataset(ROOT)
-    assert len(data['formulations'])==42
-    assert len({f['formulation_id'] for f in data['formulations']})==42
+    assert len(data['formulations'])==44
+    assert len({f['formulation_id'] for f in data['formulations']})==44
     assert all(f['source_url'].startswith('https://') and f['batch_basis'] for f in data['formulations'])
     assert next(f for f in data['formulations'] if f['route_id']=='P43')['components']==[]
 

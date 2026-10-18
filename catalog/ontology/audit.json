@@ -7,18 +7,18 @@
     "TF-IDF/cosine model-name review; no automatic merges or property-model training"
   ],
   "counts": {
-    "acyclic_source_sequences": 49,
+    "acyclic_source_sequences": 51,
     "categories": 103,
     "conditions": 289,
-    "equipment_records": 1062,
+    "equipment_records": 1079,
     "m_categories": 97,
     "model_name_review_pairs": 9,
     "numeric_conditions": 248,
-    "process_steps": 237,
-    "rdf_triples": 30111,
+    "process_steps": 249,
+    "rdf_triples": 41423,
     "recognized_cross_category_contexts": 8,
     "reported_properties": 32,
-    "routes": 52,
+    "routes": 54,
     "routes_without_source_sequence": 3,
     "source_evidence": 321,
     "unit_definitions_checked": 138,
@@ -26,20 +26,21 @@
     "x_categories": 6
   },
   "input_sha256_lf_normalized": {
-    "categories.csv": "d574603433499ac66258652c6ce4d8cc894d7c4eff60ac0ac2693fa484ccb9ef",
-    "component_formulations.csv": "4e76dc0c5b85b4bee1286703d39ad77b98ff3ae81821a46411ad8754c10c9fe6",
+    "categories.csv": "d24521a8d2ce570d8c689fb037fea4f565ef445bd9713a19d980f3bf062fb24f",
+    "component_formulations.csv": "2f954410eaeae8e8e3e426c56868dfe5f690f21483bbc8c51e7fe1627d9bfdd3",
     "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
-    "equipment.csv": "83b9e8a16ea755ca68eafa443af531dba204b7b2716881cfa3147f37cefd3aac",
+    "equipment.csv": "e0b497dfd6baa70dd5c425510eb6b5d93258367d0edb7bef685005d3e5412dc5",
     "model_identity_reviews.csv": "10781315fac733ac4e93886c86e844c4efac60428d9f7296265c43bf299b0a4c",
     "ontology/shapes.ttl": "0ae625328143bfa3770a192c2ab6c0bd7a7ceea9d8f5a96a55e23b41a2638394",
     "process_condition_evidence.csv": "a6e34ccdcee5a163b1ab3e84f8a42dcaec2d0c2ac1f0cb2f40789dabfa81e977",
     "process_conditions.csv": "80cb82b090b2641b3344b69dcc84cfdf4389f3ce7cb93a0a3bfdfae02e176907",
     "process_property_anchors.csv": "f593da35a2de9052d7b070d25a963edc828d19ca2791de78bc2749787cb4ca02",
     "process_science_review_2026-10-17.json": "18d33cf1e4573a5d32f972390af3c6281f17f00377644f20b68cb6659be06b75",
-    "product_families.csv": "3dc217c8b28af23a48dda15a861703c220d6b0ddf57c3ac204d4f4e79a5371d3",
-    "references.csv": "ca430db01a12bbb497d10a15eeedb0f83e3ab37368a1d1c0f7f163e317de8a8d",
-    "route_steps.csv": "15db3980838e230a813483020b72566dc039a75c53d080ccebf751afb5fe8fe1",
-    "routes.csv": "7381b45c1126b485e97934a7687f90f7949dfbcc7e2152cece816a48dde70d21",
+    "product_families.csv": "11cc349496fbbbae7ca6218cdfb72302a2e929560cb70c35a46550cd35a32d31",
+    "reference_links.csv": "c455658d038ec93e0c8b0daa7b667f05bbf867c38123908a5f39758d90b426d3",
+    "references.csv": "2fc0d2fb2dfdea423af5e93ddbba2d608c0ab2ea065f1de413d4dd2b33e21af7",
+    "route_steps.csv": "3870185245a6865c801c1e00aa76b0bc3b3c74ae6d8c529a90e5454da9d78261",
+    "routes.csv": "68c62c1ee024273f310decbcc4dbc97d00a4408206f5f166947e4bb3a1d157a2",
     "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6"
   },
   "libraries": {
@@ -137,6 +138,19 @@
     },
     {
       "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "EXT-M95-3B01A47DEF50",
+      "equipment_b": "EXT-M95-C282DC007BE1",
+      "manufacturer": "Physical Electronics",
+      "model_a": "VersaProbe III",
+      "model_b": "VersaProbe II",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "Roman numerals III and II distinguish the recorded generations. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
+      "reviewed_date": "2026-10-17",
+      "similarity": 0.907201,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
       "equipment_a": "M53-02",
       "equipment_b": "M53-06",
       "manufacturer": "Palas",
@@ -146,19 +160,6 @@
       "review_basis": "The E suffix distinguishes the catalog entries. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
       "similarity": 0.90641,
-      "status": "review_only_no_merge"
-    },
-    {
-      "disposition": "retain_separate_catalog_entries",
-      "equipment_a": "EXT-M95-3B01A47DEF50",
-      "equipment_b": "EXT-M95-C282DC007BE1",
-      "manufacturer": "Physical Electronics",
-      "model_a": "VersaProbe III",
-      "model_b": "VersaProbe II",
-      "reason": "similar_model_names_may_be_distinct_variants",
-      "review_basis": "Roman numerals III and II distinguish the recorded generations. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
-      "reviewed_date": "2026-10-17",
-      "similarity": 0.905919,
       "status": "review_only_no_merge"
     },
     {
@@ -1304,6 +1305,58 @@
       "route_id": "P43",
       "status": "acyclic_source_order",
       "step_count": 1
+    },
+    {
+      "edge_count": 4,
+      "levels": [
+        [
+          "P44:1"
+        ],
+        [
+          "P44:2"
+        ],
+        [
+          "P44:3"
+        ],
+        [
+          "P44:4"
+        ],
+        [
+          "P44:5"
+        ]
+      ],
+      "route_id": "P44",
+      "status": "acyclic_source_order",
+      "step_count": 5
+    },
+    {
+      "edge_count": 6,
+      "levels": [
+        [
+          "P45:1"
+        ],
+        [
+          "P45:2"
+        ],
+        [
+          "P45:3"
+        ],
+        [
+          "P45:4"
+        ],
+        [
+          "P45:5"
+        ],
+        [
+          "P45:6"
+        ],
+        [
+          "P45:7"
+        ]
+      ],
+      "route_id": "P45",
+      "status": "acyclic_source_order",
+      "step_count": 7
     }
   ],
   "status": "passed"

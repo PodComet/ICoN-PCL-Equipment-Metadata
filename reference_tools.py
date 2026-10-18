@@ -10,6 +10,7 @@ import sqlite3
 from datetime import date
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
+from reference_classification import derive_classes, CLASS_FIELDS
 
 ROOT = Path(__file__).resolve().parent
 REFERENCE_FIELDS = ['reference_id', 'reference_type', 'title', 'authors_json', 'publication_year', 'publication_date', 'container_title', 'volume', 'issue', 'pages', 'article_number', 'doi', 'url', 'publication_status', 'peer_review_status', 'metadata_status', 'metadata_source_url', 'checked_date', 'topics', 'notes']
@@ -199,7 +200,11 @@ def coverage(data):
 def build(root=ROOT, sqlite_path=None):
     root=Path(root);data=read_database(root);validate_database(data,root)
     data['references']=sort_references(data['references'])
+    data['reference_classes'], data['class_definitions'], data['reference_classification'] = derive_classes(root, data)
+    write_csv(root/'catalog/reference_classes.csv', data['reference_classes'], CLASS_FIELDS)
     data['coverage']=coverage(data);data['exports']=exports(data['references'])
+    data['coverage']['references_with_classes'] = sum(r['status']=='classified' for r in data['reference_classification'])
+    data['coverage']['general_background_references'] = sum(r['status']=='general_background' for r in data['reference_classification'])
     for key,suffix in [('bibtex','bib'),('ris','ris'),('csl_json','csl.json')]:
         (root/'catalog'/('bibliography.'+suffix)).write_text(data['exports'][key],encoding='utf-8')
     (root/'catalog/reference_coverage.json').write_text(json.dumps(data['coverage'],indent=2)+'\n',encoding='utf-8')

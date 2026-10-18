@@ -11,7 +11,7 @@ const route=id=>catalog.routes.find(r=>r.route_id===id),workflow=id=>createWorkf
 const formulation=id=>data.formulations.find(f=>f.route_id===id);
 
 test('every P-class has reviewed component coverage and P43 has no invented nanomaterial recipe',()=>{
- assert.equal(data.formulations.length,42);
+ assert.equal(data.formulations.length,44);
  assert.deepEqual(data.formulations.map(f=>f.route_id).sort(),catalog.routes.filter(r=>r.route_id.startsWith('P')).map(r=>r.route_id).sort());
  assert.equal(formulation('P43').completeness,'not_applicable');assert.equal(formulation('P43').components.length,0);
  for(const f of data.formulations){assert.ok(f.batch_basis&&f.source_url&&f.scope);const p=formulationPlan(f);assert.ok(p.inputs.length<=30);validateWorkflow(withMaterialPlan(workflow(f.route_id),p),catalog.routes,catalog.records);}

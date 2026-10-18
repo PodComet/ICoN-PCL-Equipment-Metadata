@@ -170,3 +170,5 @@
 .process-output-inputs {font-size:11px;text-align:left;letter-spacing:0}.process-output-inputs summary {cursor:pointer;font-weight:800}.process-output-inputs ul {padding-left:17px;margin:5px 0;overflow-wrap:anywhere}
 .process-flow-area .process-output a {font-size:11px;color:inherit;font-weight:800}
 @media(max-width:700px){.process-material-row,.process-material-add{grid-template-columns:1fr 1fr}.process-material-row>label:first-child,.process-material-add>label:first-child{grid-column:1/-1}}
+
+.process-flow-area .process-hierarchy-layout .process-output>.process-output-material{font-size:10px;font-weight:750;line-height:1.4;color:inherit}.process-flow-area .process-output>strong{line-height:1.35}

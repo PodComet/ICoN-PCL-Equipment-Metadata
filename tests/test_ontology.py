@@ -27,7 +27,7 @@ def test_full_public_graph_round_trips_with_evidence_and_distinct_quantity_kinds
     assert set(turtle) == set(jsonld)
     assert len(turtle) == report['counts']['rdf_triples']
     assert report['shacl_conforms'] and report['shacl_violations'] == 0
-    assert len(list(turtle.subjects(RDF.type, VOCAB.EquipmentModel))) == 1062
+    assert len(list(turtle.subjects(RDF.type, VOCAB.EquipmentModel))) == 1079
     assert len(list(turtle.subjects(RDF.type, VOCAB.SourceEvidence))) == 321
     for quantity in ['pressure_gauge', 'pressure_absolute', 'centrifuge_speed', 'rotation_speed']:
         assert (node('quantity-kind', quantity), RDF.type, VOCAB.QuantityKind) in turtle

@@ -18,6 +18,26 @@ N1  - Representative source formulation reviewed for P06. Reported amounts remai
 ER  -
 
 TY  - JOUR
+ID  - REF-DAD1846E577E
+AU  - Zamiri, Reza
+AU  - Azmi, B Z
+AU  - Sadrolhosseini, Amir Reza
+AU  - Ahangar, Hossein Abbastabar
+AU  - Zaidan, A W
+AU  - Mahdi, M A
+TI  - Preparation of silver nanoparticles in virgin coconut oil using laser ablation
+PY  - 2011
+JO  - International Journal of Nanomedicine
+VL  - 6
+SP  - 71
+EP  - 75
+DO  - 10.2147/ijn.s14005
+UR  - https://doi.org/10.2147/ijn.s14005
+Y2  - 2026-10-17
+N1  - Cited by REF-ADA3D33C94DA, Reference 24. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation.
+ER  -
+
+TY  - JOUR
 ID  - REF-69EEE9C7FC96
 AU  - Prasad, TNVKV
 AU  - Elumalai, EK
@@ -219,6 +239,25 @@ Y2  - 2026-10-15
 ER  -
 
 TY  - JOUR
+ID  - REF-83EDA9B2B291
+AU  - Hau, Nga Yu
+AU  - Yang, Peixian
+AU  - Liu, Chang
+AU  - Wang, Jian
+AU  - Lee, Po-Heng
+AU  - Feng, Shien-Ping
+TI  - Aminosilane-Assisted Electrodeposition of Gold Nanodendrites and Their Catalytic Properties
+PY  - 2017
+JO  - Scientific Reports
+VL  - 7
+SP  - 39839
+DO  - 10.1038/srep39839
+UR  - https://doi.org/10.1038/srep39839
+Y2  - 2026-10-17
+N1  - Cited by REF-1608A125B68E, Reference 2. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation.
+ER  -
+
+TY  - JOUR
 ID  - REF-D82B35D1EEF5
 AU  - Chandramohan, Abhishek
 AU  - Sibirev, Nikolai V.
@@ -236,6 +275,24 @@ DO  - 10.1038/srep40888
 UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/
 Y2  - 2026-10-17
 N1  - Representative source formulation reviewed for P09. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
+ID  - REF-943617F9C471
+AU  - Emadi, Fatemeh
+AU  - Amini, Abbas
+AU  - Gholami, Ahmad
+AU  - Ghasemi, Younes
+TI  - Functionalized Graphene Oxide with Chitosan for Protein Nanocarriers to Protect against Enzymatic Cleavage and Retain Collagenase Activity
+PY  - 2017
+JO  - Scientific Reports
+VL  - 7
+IS  - 1
+SP  - 42258
+DO  - 10.1038/srep42258
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5301474/
+Y2  - 2026-10-17
+N1  - Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level.
 ER  -
 
 TY  - JOUR
@@ -367,6 +424,29 @@ N1  - All-years cited-reference review. 10.1016/j.impact.2025.100602 → 10.1016
 ER  -
 
 TY  - JOUR
+ID  - REF-85D684544148
+AU  - Tianou, He
+AU  - Wang, Weicong
+AU  - Yang, Xiaolong
+AU  - Cao, Zhenming
+AU  - Kuang, Qin
+AU  - Wang, Zhao
+AU  - Shan, Zhiwei
+AU  - Jin, Mingshang
+AU  - Yin, Yadong
+TI  - Inflating hollow nanocrystals through a repeated Kirkendall cavitation process
+PY  - 2017
+JO  - Nature Communications
+VL  - 8
+IS  - 1
+SP  - 1261
+DO  - 10.1038/s41467-017-01258-0
+UR  - https://doi.org/10.1038/s41467-017-01258-0
+Y2  - 2026-10-17
+N1  - Cited by Gao2022 reference39. Methods report repeated phosphorus insertion/extraction for hollow Pd nanocrystals. No manufacturing equipment maker/model named. Sonication modality unspecified, so no bath or probe-model identity inferred. Characterization and electrocatalysis tests remain separate from manufacture.
+ER  -
+
+TY  - JOUR
 ID  - REF-20E3C9CDA0A8
 AU  - Ellis, Laura-Jayne A.
 AU  - Papadiamantis, Anastasios G.
@@ -482,6 +562,29 @@ N1  - All-years cited-reference review. 10.1016/j.impact.2025.100602 → 10.1016
 ER  -
 
 TY  - JOUR
+ID  - REF-0267F5CC2B11
+AU  - Liu, Juan
+AU  - Weng, Wenju
+AU  - Xie, Hui
+AU  - Luo, Guiling
+AU  - Li, Guangjiu
+AU  - Sun, Wei
+AU  - Ruan, Chengxiang
+AU  - Wang, Xianghui
+TI  - Myoglobin- and Hydroxyapatite-Doped Carbon Nanofiber-Modified Electrodes for Electrochemistry and Electrocatalysis
+PY  - 2019
+JO  - ACS Omega
+VL  - 4
+IS  - 13
+SP  - 15653
+EP  - 15659
+DO  - 10.1021/acsomega.9b02151
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC6761753/
+Y2  - 2026-10-17
+N1  - Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level.
+ER  -
+
+TY  - JOUR
 ID  - REF-1A623A02A7D2
 AU  - Pellegrino, Francesco
 AU  - Isopescu, Raluca
@@ -505,6 +608,25 @@ N1  - Breadth review 2026-10-16. 10.1007/s11051-025-06472-2, Original parent PDF
 ER  -
 
 TY  - JOUR
+ID  - REF-0049CBFB6C6F
+AU  - Lignos, Ioannis
+AU  - Maceiczyk, Richard M.
+AU  - Kovalenko, Maksym V.
+AU  - Stavrakis, Stavros
+TI  - Tracking the Fluorescence Lifetimes of Cesium Lead Halide Perovskite Nanocrystals During Their Synthesis Using a Fully Automated Optofluidic Platform
+PY  - 2020
+JO  - Chemistry of Materials
+VL  - 32
+IS  - 1
+SP  - 27
+EP  - 37
+DO  - 10.1021/acs.chemmater.9b03438
+UR  - https://doi.org/10.1021/acs.chemmater.9b03438
+Y2  - 2026-10-17
+N1  - Cited by Lampe2022 preprint bibliography entry35. Main Experimental Section and platform automation reviewed. Issue2020-01-14; first online2019-12-09. Segmented-flow CsPbX3 synthesis is distinct from silver T-junction synthesis and perovskite antisolvent nanoplatelets. Exact neMESYS subtype not specified.
+ER  -
+
+TY  - JOUR
 ID  - REF-D2CE6F5AFB82
 AU  - Ozoemena, Okoroike C.
 AU  - Maphumulo, Tobile
@@ -521,6 +643,51 @@ DO  - 10.1021/acsomega.9b03820
 UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7097905/
 Y2  - 2026-10-17
 N1  - Representative source formulation reviewed for P11. Reported amounts remain scoped to the cited batch. Missing quantities are explicit; this is not a general operating protocol.
+ER  -
+
+TY  - JOUR
+ID  - REF-BE5561C4E349
+AU  - Li, Peng
+AU  - Yang, Mincheng
+AU  - Liu, Yingjun
+AU  - Qin, Huasong
+AU  - Liu, Jingran
+AU  - Xu, Zhen
+AU  - Liu, Yilun
+AU  - Meng, Fanxu
+AU  - Lin, Jiahao
+AU  - Wang, Fang
+AU  - Gao, Chao
+TI  - Continuous crystalline graphene papers with gigapascal strength by intercalation modulated plasticization
+PY  - 2020
+JO  - Nature Communications
+VL  - 11
+IS  - 1
+SP  - 2645
+DO  - 10.1038/s41467-020-16494-0
+UR  - https://doi.org/10.1038/s41467-020-16494-0
+Y2  - 2026-10-17
+N1  - Cited by REF-64316ABBCDBF, Reference 3. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation.
+ER  -
+
+TY  - JOUR
+ID  - REF-21E3D2F579A3
+AU  - Salley, Daniel
+AU  - Keenan, Graham
+AU  - Grizou, Jonathan
+AU  - Sharma, Abhishek
+AU  - Martín, Sergio
+AU  - Cronin, Leroy
+TI  - A nanomaterials discovery robot for the Darwinian evolution of shape programmable gold nanoparticles
+PY  - 2020
+JO  - Nature Communications
+VL  - 11
+IS  - 1
+SP  - 2771
+DO  - 10.1038/s41467-020-16501-4
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7265452/
+Y2  - 2026-10-17
+N1  - Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level.
 ER  -
 
 TY  - JOUR
@@ -541,6 +708,30 @@ DO  - 10.3390/nano10101936
 UR  - https://doi.org/10.3390/nano10101936
 Y2  - 2026-10-16
 N1  - Breadth review 2026-10-16. 10.1016/j.impact.2025.100602, Bibliography Martinez etal2020, original parentPDF p19. Evidence scoped to published full-text JATS/XML, EuropePMC archive; PDF fetch unavailable. Modified Hummers process includes chemical hazards; catalog sequence is conceptual, not an SOP. 5430R is direct post-adsorption evidence only; not a manufacturing-modelvalidation. Christ SpeedDry mentioned for solid-state characterization preparation, not freeze-drying synthesis. Do not map it toM17. Source commercial characterizers (Multimode 8, Zetasizer Nano ZS, etc.) can support independently scopedanalysiscitations but are not fabricationequipment.
+ER  -
+
+TY  - JOUR
+ID  - REF-672B9D6A479F
+AU  - Zhang, Xiao
+AU  - Graves, Brian
+AU  - De Volder, Michael
+AU  - Yang, Wenming
+AU  - Johnson, Tyler
+AU  - Wen, Bo
+AU  - Su, Wei
+AU  - Nishida, Robert
+AU  - Xie, Sishen
+AU  - Boies, Adam
+TI  - High-precision solid catalysts for investigation of carbon nanotube synthesis and structure
+PY  - 2020
+JO  - Science Advances
+VL  - 6
+IS  - 40
+SP  - eabb6010
+DO  - 10.1126/sciadv.abb6010
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7527216/
+Y2  - 2026-10-17
+N1  - Cited-primary-study methods reviewed in2020–2021 parent bibliography sweep. Exact-model manufacturing and characterization roles are distinguished; unspecified hardware remains class-level.
 ER  -
 
 TY  - JOUR
@@ -790,6 +981,28 @@ DO  - 10.1063/5.0100657
 UR  - https://doi.org/10.1063/5.0100657
 Y2  - 2026-10-16
 N1  - Citation sweep 2026-10-16: discovered through 10.1021/acs.nanolett.4c01850, Supporting Information reference8 cites arXiv2206.15320v1 (same work later published). Full methods reviewed; evidence applies only to the stated apparatus and study configuration. Article 182407 follows the publisher PDF and registry; repository cover-sheet 182406 is erroneous. Parent supplement cites the earlier arXiv version 2206.15320.
+ER  -
+
+TY  - JOUR
+ID  - REF-FA09A3F03F76
+AU  - Gurbatov, Stanislav
+AU  - Puzikov, Vladislav
+AU  - Modin, Evgeny
+AU  - Shevlyagin, Alexander
+AU  - Gerasimenko, Andrey
+AU  - Mitsai, Eugeny
+AU  - Kulinich, Sergei A.
+AU  - Kuchmizhak, Aleksandr
+TI  - Ag-Decorated Si Microspheres Produced by Laser Ablation in Liquid: All-in-One Temperature-Feedback SERS-Based Platform for Nanosensing
+PY  - 2022
+JO  - Materials
+VL  - 15
+IS  - 22
+SP  - 8091
+DO  - 10.3390/ma15228091
+UR  - https://doi.org/10.3390/ma15228091
+Y2  - 2026-10-17
+N1  - Cited by REF-ADA3D33C94DA, Reference 14. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation.
 ER  -
 
 TY  - JOUR

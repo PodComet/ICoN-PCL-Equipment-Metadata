@@ -4,7 +4,7 @@ from catalog_tools import ROOT, load_csv
 
 def test_every_preexisting_process_stage_has_explicit_reviewed_requirements():
     steps=load_csv(ROOT/'catalog/route_steps.csv')
-    rows=[s for s in steps if s['route_id'].startswith('P') and s['route_id']!='P43' and not s.get('extension_id')]
+    rows=[s for s in steps if s['route_id'].startswith('P') and s['route_id'] not in {'P43','P44','P45'} and not s.get('extension_id')]
     assert len(rows)==172
     known={c['category_id'] for c in load_csv(ROOT/'catalog/categories.csv')}
     for s in rows:

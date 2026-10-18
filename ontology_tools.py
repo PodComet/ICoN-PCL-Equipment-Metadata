@@ -24,6 +24,7 @@ from sklearn.neighbors import NearestNeighbors
 from ontology_models import EquipmentIdentity, Requirements, schemas
 from ontology_units import check_registry, normalize_condition
 from process_science_tools import dataset
+from reference_classification import derive_classes
 
 ROOT = Path(__file__).resolve().parent
 BASE = 'https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/'
@@ -201,7 +202,7 @@ def build_graph(root, science, records, categories, routes, steps, formulations,
         if value is not None and value != '':
             graph.add((subject, VOCAB[predicate], Literal(value)))
 
-    for cls in ['EquipmentModel', 'EquipmentCategory', 'Manufacturer', 'Route', 'MaterialFamily', 'ManufacturingProcess', 'ProcessStep', 'Formulation', 'SourceEvidence', 'OperatingCondition', 'ReportedProperty', 'AcademicReference', 'RequirementBranch', 'EquipmentRequirement', 'QuantityKind']:
+    for cls in ['EquipmentModel', 'EquipmentCategory', 'Manufacturer', 'Route', 'MaterialFamily', 'ManufacturingProcess', 'ProcessStep', 'Formulation', 'SourceEvidence', 'OperatingCondition', 'ReportedProperty', 'AcademicReference', 'ArticleClassAssertion', 'ReferenceLink', 'RequirementBranch', 'EquipmentRequirement', 'QuantityKind']:
         graph.add((VOCAB[cls], RDF.type, OWL.Class))
     ontology = URIRef(BASE + 'ontology')
     graph.add((ontology, RDF.type, OWL.Ontology))
@@ -260,6 +261,27 @@ def build_graph(root, science, records, categories, routes, steps, formulations,
         field(subject, 'publicationYear', reference['publication_year'])
         if reference['doi']:
             graph.add((subject, DCTERMS.identifier, Literal('doi:' + reference['doi'])))
+    reference_links = read(root, 'reference_links')
+    for link in reference_links:
+        subject = entity('reference-link', link['link_id'], 'ReferenceLink', link['claim'])
+        graph.add((subject, DCTERMS.references, node('reference', link['reference_id'])))
+        field(subject, 'relation', link['relation'])
+        field(subject, 'reviewStatus', link['review_status'])
+        field(subject, 'sourceLocator', link['locator'])
+        field(subject, 'scope', link['scope'])
+    article_classes, _, _ = derive_classes(root, {'references': references, 'reference_links': reference_links})
+    for classification in article_classes:
+        identifier = ':'.join(classification[k] for k in ['reference_id', 'class_id', 'basis'])
+        subject = entity('article-class', identifier, 'ArticleClassAssertion', classification['class_name'])
+        graph.add((subject, DCTERMS.references, node('reference', classification['reference_id'])))
+        target_kind = 'category' if classification['class_type'] == 'M' else 'route'
+        graph.add((subject, VOCAB.classificationTarget, node(target_kind, classification['class_id'])))
+        field(subject, 'classificationBasis', classification['basis'])
+        field(subject, 'scope', classification['scope'])
+        for source in ids(classification['source_link_ids']):
+            graph.add((subject, PROV.wasDerivedFrom, node('reference-link', source)))
+        for via in ids(classification['via_class_ids']):
+            graph.add((subject, VOCAB.inferredViaProcess, node('route', via)))
     for formulation in formulations:
         subject = entity('formulation', formulation['formulation_id'], 'Formulation', formulation['label'])
         graph.add((subject, VOCAB.inRoute, node('route', formulation['route_id'])))
@@ -350,7 +372,7 @@ def artifacts(root):
     # A sorted N-Triples document is also valid Turtle, with no generated blank IDs.
     turtle = '\n'.join(sorted(line for line in graph.serialize(format='nt').splitlines() if line.strip())) + '\n'
     jsonld = json_text(stable_jsonld(json.loads(graph.serialize(format='json-ld'))))
-    inputs = sorted(['equipment.csv', 'categories.csv', 'supplemental_categories.csv', 'routes.csv', 'route_steps.csv', 'component_formulations.csv', 'references.csv', 'product_families.csv', 'model_identity_reviews.csv', 'condition_definitions.json', 'process_conditions.csv', 'process_condition_evidence.csv', 'process_property_anchors.csv', 'process_science_review_2026-10-17.json', 'ontology/shapes.ttl'])
+    inputs = sorted(['equipment.csv', 'categories.csv', 'supplemental_categories.csv', 'routes.csv', 'route_steps.csv', 'component_formulations.csv', 'references.csv', 'reference_links.csv', 'product_families.csv', 'model_identity_reviews.csv', 'condition_definitions.json', 'process_conditions.csv', 'process_condition_evidence.csv', 'process_property_anchors.csv', 'process_science_review_2026-10-17.json', 'ontology/shapes.ttl'])
     hashes = {name: hashlib.sha256((root / 'catalog' / name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() for name in inputs}
     report = {
         'schema': 'icon-ontology-audit/v1', 'review_date': science['checked_date'],

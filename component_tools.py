@@ -65,7 +65,15 @@ def dataset(root):
         formulation['components']=[{k:v for k,v in c.items() if k!='formulation_id'} for c in components if c['formulation_id']==formulation['formulation_id']]
         if not formulation['components'] and formulation['completeness']!='not_applicable':raise ValueError('Missing formulation inputs')
         if len(formulation['components'])>30:raise ValueError('Too many formulation inputs for saved plan')
-    return {'checked_date':max((o['checked_date'] for o in offers),default='2026-10-17'),'formulations':formulations,'offers':offers}
+    quantity_models=json.loads((Path(root)/'catalog/output_quantity_models.json').read_text(encoding='utf-8'))['models']
+    all_lines={c['line_id']:c for c in components}
+    for model in quantity_models:
+        if model['formulation_id'] not in ids or model['route_id'] not in routes or model['dimension'] not in {'mass','volume'}:raise ValueError('Invalid output quantity model')
+        if not model['terms'] or not model['scope'] or not model['source_locator']:raise ValueError('Quantity model needs scoped evidence')
+        url(model['source_url'])
+        for term in model['terms']:
+            if term['line_id'] not in all_lines or all_lines[term['line_id']]['formulation_id']!=model['formulation_id'] or not 0<float(term['factor'])<float('inf'):raise ValueError('Invalid output quantity term')
+    return {'checked_date':max((o['checked_date'] for o in offers),default='2026-10-17'),'formulations':formulations,'offers':offers,'output_quantity_models':quantity_models}
 
 def build(root):
     data=dataset(root)

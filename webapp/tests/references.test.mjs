@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {filterReferences,instrumentReferenceLinks,categoryEvidenceLinks,sortReferences,referenceCitation,metadataCheckLabel,authorsWithAffiliations} from '../app/references-lib.ts';
+import {articleClasses,referenceFacetOptions,filterReferences,instrumentReferenceLinks,categoryEvidenceLinks,sortReferences,referenceCitation,metadataCheckLabel,authorsWithAffiliations} from '../app/references-lib.ts';
 const data=JSON.parse(readFileSync(new URL('../app/data/references.json',import.meta.url),'utf8'));
 
 test('reference order is chronological, reversible and stable with undated records last',()=>{
@@ -75,8 +75,8 @@ test('checked category evidence is available separately without granting model s
  assert.deepEqual(categoryEvidenceLinks({...record,category_id:'M01'},links),[]);
 });
 test('expanded library stays academic-only and preserves scoped model evidence',()=>{
- assert.equal(data.references.filter(r=>!r.topics.includes('source_formulation')).length,53);assert.equal(data.reference_files.length,42);
- assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim'&&!l.link_id.startsWith('LINK-FORM-')&&!l.link_id.startsWith('LINK-MIT-RAMAN-')).length,149);
+ assert.equal(data.references.filter(r=>!r.topics.includes('source_formulation')&&!r.topics.includes('citation_sweep_2026_10_17')).length,53);assert.equal(data.reference_files.length,42);
+ assert.equal(data.reference_links.filter(l=>l.relation==='supports_claim'&&!l.link_id.startsWith('LINK-FORM-')&&!l.link_id.startsWith('LINK-MIT-RAMAN-')&&!l.link_id.startsWith('LINK-SW17-')).length,149);
  assert.ok(data.references.every(r=>['journal_article','conference_paper','preprint'].includes(r.reference_type)));
  assert.ok(data.references.every(r=>referenceCitation(r).includes(r.title)));
  assert.equal(JSON.parse(data.exports.csl_json).length,data.references.length);
@@ -84,3 +84,22 @@ test('expanded library stays academic-only and preserves scoped model evidence',
 });
 
 test('online full-text checks are not mislabeled as PDF checks',()=>{assert.equal(metadataCheckLabel('full_text_and_registry_checked'),'Full text + registry checked');assert.equal(metadataCheckLabel('unknown'),'Metadata needs review');});
+
+test('article class filters combine OR within each facet and AND across facets',()=>{
+ const sample={...data,references:[data.references[0],data.references[1],data.references[2]],reference_classes:[
+  {reference_id:data.references[0].reference_id,class_type:'P',class_id:'P01',class_name:'Route one',basis:'checked_claim'},
+  {reference_id:data.references[0].reference_id,class_type:'M',class_id:'M13',class_name:'Centrifuge',basis:'process_inferred'},
+  {reference_id:data.references[0].reference_id,class_type:'M',class_id:'M13',class_name:'Centrifuge',basis:'checked_claim'},
+  {reference_id:data.references[1].reference_id,class_type:'P',class_id:'P03',class_name:'Route three',basis:'background'},
+  {reference_id:data.references[1].reference_id,class_type:'N',class_id:'N01',class_name:'Metal nanoparticles',basis:'background'}],class_definitions:[
+  {class_type:'P',class_id:'P01',class_name:'Route one'},{class_type:'P',class_id:'P03',class_name:'Route three'},{class_type:'M',class_id:'M13',class_name:'Centrifuge'},{class_type:'M',class_id:'M99',class_name:'Empty'}]};
+ assert.equal(filterReferences(sample,'','','',{P:['P01','P03'],M:[],N:[]}).length,2);
+ assert.deepEqual(filterReferences(sample,'','','',{P:['P01','P03'],M:['M13'],N:[]}).map(r=>r.reference_id),[sample.references[0].reference_id]);
+ assert.equal(filterReferences(sample,'','','',{P:['P01'],M:['M13'],N:['N01']}).length,0);
+ const options=referenceFacetOptions(sample,'','','',{P:['P01'],M:['M99'],N:[]},'M');
+ assert.equal(options.find(c=>c.value==='M13').count,1,'Ignores current M choice and counts each article once');
+ assert.equal(options.find(c=>c.value==='M99').count,0);
+ assert.equal(articleClasses(sample,sample.references[0].reference_id).find(c=>c.class_id==='M13').basis,'checked_claim');
+ assert.equal(filterReferences(sample,'Centrifuge').length,1,'Class labels are searchable');
+ assert.equal(filterReferences({...sample,reference_classes:undefined},'','','',{P:['P01'],M:[],N:[]}).length,0);
+});

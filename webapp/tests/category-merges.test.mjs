@@ -100,7 +100,7 @@ test('M62 reuses all 13 robotics profiles, preserves provenance and keeps mobile
  const robots=rows.filter(r=>r.record.category_id==='M62'&&r.record.catalog_scope==='requested_supplement');
  assert.equal(robots.length,13);assert.equal(new Set(robots.map(r=>r.record.equipment_id)).size,13);
  assert.equal(rows.filter(r=>matches(r,'X-ROB','','','',false,false)).length,13);
- assert.equal(rows.filter(r=>matches(r,'M62','','','',false,false)).length,17);
+ assert.equal(rows.filter(r=>r.record.catalog_scope!=='citation_sweep_2026_10_17'&&matches(r,'M62','','','',false,false)).length,17);
  assert.ok(robots.every(r=>r.record.purdue_list==='true'&&r.record.legacy_category_ids==='X-ROB'));
  assert.ok(robots.filter(r=>r.record.equipment_id!=='REQ-EQ-020').every(r=>!r.record.related_material_ids&&!r.record.related_process_ids));
  const tracer=byId.get('REQ-EQ-043');

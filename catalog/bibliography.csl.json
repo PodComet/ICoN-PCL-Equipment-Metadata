@@ -38,6 +38,51 @@
     }
   },
   {
+    "id": "REF-DAD1846E577E",
+    "type": "article-journal",
+    "title": "Preparation of silver nanoparticles in virgin coconut oil using laser ablation",
+    "author": [
+      {
+        "given": "Reza",
+        "family": "Zamiri"
+      },
+      {
+        "given": "B Z",
+        "family": "Azmi"
+      },
+      {
+        "given": "Amir Reza",
+        "family": "Sadrolhosseini"
+      },
+      {
+        "given": "Hossein Abbastabar",
+        "family": "Ahangar"
+      },
+      {
+        "given": "A W",
+        "family": "Zaidan"
+      },
+      {
+        "given": "M A",
+        "family": "Mahdi"
+      }
+    ],
+    "container-title": "International Journal of Nanomedicine",
+    "volume": "6",
+    "page": "71-75",
+    "DOI": "10.2147/ijn.s14005",
+    "URL": "https://doi.org/10.2147/ijn.s14005",
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          7
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-69EEE9C7FC96",
     "type": "article-journal",
     "title": "Biofabrication of Ag nanoparticles using Moringa oleifera leaf extract and their antimicrobial activity",
@@ -486,6 +531,52 @@
     }
   },
   {
+    "id": "REF-83EDA9B2B291",
+    "type": "article-journal",
+    "title": "Aminosilane-Assisted Electrodeposition of Gold Nanodendrites and Their Catalytic Properties",
+    "author": [
+      {
+        "given": "Nga Yu",
+        "family": "Hau"
+      },
+      {
+        "given": "Peixian",
+        "family": "Yang"
+      },
+      {
+        "given": "Chang",
+        "family": "Liu"
+      },
+      {
+        "given": "Jian",
+        "family": "Wang"
+      },
+      {
+        "given": "Po-Heng",
+        "family": "Lee"
+      },
+      {
+        "given": "Shien-Ping",
+        "family": "Feng"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "7",
+    "article-number": "39839",
+    "DOI": "10.1038/srep39839",
+    "URL": "https://doi.org/10.1038/srep39839",
+    "page": "39839",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          3
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-D82B35D1EEF5",
     "type": "article-journal",
     "title": "Model for large-area monolayer coverage of polystyrene nanospheres by spin coating",
@@ -528,6 +619,45 @@
           2017,
           1,
           19
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-943617F9C471",
+    "type": "article-journal",
+    "title": "Functionalized Graphene Oxide with Chitosan for Protein Nanocarriers to Protect against Enzymatic Cleavage and Retain Collagenase Activity",
+    "author": [
+      {
+        "given": "Fatemeh",
+        "family": "Emadi"
+      },
+      {
+        "given": "Abbas",
+        "family": "Amini"
+      },
+      {
+        "given": "Ahmad",
+        "family": "Gholami"
+      },
+      {
+        "given": "Younes",
+        "family": "Ghasemi"
+      }
+    ],
+    "container-title": "Scientific Reports",
+    "volume": "7",
+    "issue": "1",
+    "article-number": "42258",
+    "DOI": "10.1038/srep42258",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5301474/",
+    "page": "42258",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          10
         ]
       ]
     }
@@ -831,6 +961,65 @@
     }
   },
   {
+    "id": "REF-85D684544148",
+    "type": "article-journal",
+    "title": "Inflating hollow nanocrystals through a repeated Kirkendall cavitation process",
+    "author": [
+      {
+        "given": "He",
+        "family": "Tianou"
+      },
+      {
+        "given": "Weicong",
+        "family": "Wang"
+      },
+      {
+        "given": "Xiaolong",
+        "family": "Yang"
+      },
+      {
+        "given": "Zhenming",
+        "family": "Cao"
+      },
+      {
+        "given": "Qin",
+        "family": "Kuang"
+      },
+      {
+        "given": "Zhao",
+        "family": "Wang"
+      },
+      {
+        "given": "Zhiwei",
+        "family": "Shan"
+      },
+      {
+        "given": "Mingshang",
+        "family": "Jin"
+      },
+      {
+        "given": "Yadong",
+        "family": "Yin"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "8",
+    "issue": "1",
+    "article-number": "1261",
+    "DOI": "10.1038/s41467-017-01258-0",
+    "URL": "https://doi.org/10.1038/s41467-017-01258-0",
+    "page": "1261",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          2
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-20E3C9CDA0A8",
     "type": "article-journal",
     "title": "Synthesis and characterization of Zr- and Hf-doped nano-TiO 2 as internal standards for analytical quantification of nanomaterials in complex matrices",
@@ -1103,6 +1292,60 @@
     }
   },
   {
+    "id": "REF-0267F5CC2B11",
+    "type": "article-journal",
+    "title": "Myoglobin- and Hydroxyapatite-Doped Carbon Nanofiber-Modified Electrodes for Electrochemistry and Electrocatalysis",
+    "author": [
+      {
+        "given": "Juan",
+        "family": "Liu"
+      },
+      {
+        "given": "Wenju",
+        "family": "Weng"
+      },
+      {
+        "given": "Hui",
+        "family": "Xie"
+      },
+      {
+        "given": "Guiling",
+        "family": "Luo"
+      },
+      {
+        "given": "Guangjiu",
+        "family": "Li"
+      },
+      {
+        "given": "Wei",
+        "family": "Sun"
+      },
+      {
+        "given": "Chengxiang",
+        "family": "Ruan"
+      },
+      {
+        "given": "Xianghui",
+        "family": "Wang"
+      }
+    ],
+    "container-title": "ACS Omega",
+    "volume": "4",
+    "issue": "13",
+    "page": "15653-15659",
+    "DOI": "10.1021/acsomega.9b02151",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6761753/",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          9,
+          11
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-1A623A02A7D2",
     "type": "article-journal",
     "title": "Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles",
@@ -1160,6 +1403,44 @@
     }
   },
   {
+    "id": "REF-0049CBFB6C6F",
+    "type": "article-journal",
+    "title": "Tracking the Fluorescence Lifetimes of Cesium Lead Halide Perovskite Nanocrystals During Their Synthesis Using a Fully Automated Optofluidic Platform",
+    "author": [
+      {
+        "given": "Ioannis",
+        "family": "Lignos"
+      },
+      {
+        "given": "Richard M.",
+        "family": "Maceiczyk"
+      },
+      {
+        "given": "Maksym V.",
+        "family": "Kovalenko"
+      },
+      {
+        "given": "Stavros",
+        "family": "Stavrakis"
+      }
+    ],
+    "container-title": "Chemistry of Materials",
+    "volume": "32",
+    "issue": "1",
+    "page": "27-37",
+    "DOI": "10.1021/acs.chemmater.9b03438",
+    "URL": "https://doi.org/10.1021/acs.chemmater.9b03438",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          14
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-D2CE6F5AFB82",
     "type": "article-journal",
     "title": "Electrospun Carbon Nanofibers as an Electrochemical Immunosensing Platform forVibrio choleraeToxin: Aging Effect of the Redox Probe",
@@ -1193,6 +1474,120 @@
           2020,
           3,
           12
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-BE5561C4E349",
+    "type": "article-journal",
+    "title": "Continuous crystalline graphene papers with gigapascal strength by intercalation modulated plasticization",
+    "author": [
+      {
+        "given": "Peng",
+        "family": "Li"
+      },
+      {
+        "given": "Mincheng",
+        "family": "Yang"
+      },
+      {
+        "given": "Yingjun",
+        "family": "Liu"
+      },
+      {
+        "given": "Huasong",
+        "family": "Qin"
+      },
+      {
+        "given": "Jingran",
+        "family": "Liu"
+      },
+      {
+        "given": "Zhen",
+        "family": "Xu"
+      },
+      {
+        "given": "Yilun",
+        "family": "Liu"
+      },
+      {
+        "given": "Fanxu",
+        "family": "Meng"
+      },
+      {
+        "given": "Jiahao",
+        "family": "Lin"
+      },
+      {
+        "given": "Fang",
+        "family": "Wang"
+      },
+      {
+        "given": "Chao",
+        "family": "Gao"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "11",
+    "issue": "1",
+    "article-number": "2645",
+    "DOI": "10.1038/s41467-020-16494-0",
+    "URL": "https://doi.org/10.1038/s41467-020-16494-0",
+    "page": "2645",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          5,
+          27
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-21E3D2F579A3",
+    "type": "article-journal",
+    "title": "A nanomaterials discovery robot for the Darwinian evolution of shape programmable gold nanoparticles",
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Salley"
+      },
+      {
+        "given": "Graham",
+        "family": "Keenan"
+      },
+      {
+        "given": "Jonathan",
+        "family": "Grizou"
+      },
+      {
+        "given": "Abhishek",
+        "family": "Sharma"
+      },
+      {
+        "given": "Sergio",
+        "family": "Martín"
+      },
+      {
+        "given": "Leroy",
+        "family": "Cronin"
+      }
+    ],
+    "container-title": "Nature Communications",
+    "volume": "11",
+    "issue": "1",
+    "article-number": "2771",
+    "DOI": "10.1038/s41467-020-16501-4",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7265452/",
+    "page": "2771",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          6,
+          2
         ]
       ]
     }
@@ -1240,6 +1635,69 @@
           2020,
           9,
           29
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-672B9D6A479F",
+    "type": "article-journal",
+    "title": "High-precision solid catalysts for investigation of carbon nanotube synthesis and structure",
+    "author": [
+      {
+        "given": "Xiao",
+        "family": "Zhang"
+      },
+      {
+        "given": "Brian",
+        "family": "Graves"
+      },
+      {
+        "given": "Michael",
+        "family": "De Volder"
+      },
+      {
+        "given": "Wenming",
+        "family": "Yang"
+      },
+      {
+        "given": "Tyler",
+        "family": "Johnson"
+      },
+      {
+        "given": "Bo",
+        "family": "Wen"
+      },
+      {
+        "given": "Wei",
+        "family": "Su"
+      },
+      {
+        "given": "Robert",
+        "family": "Nishida"
+      },
+      {
+        "given": "Sishen",
+        "family": "Xie"
+      },
+      {
+        "given": "Adam",
+        "family": "Boies"
+      }
+    ],
+    "container-title": "Science Advances",
+    "volume": "6",
+    "issue": "40",
+    "article-number": "eabb6010",
+    "DOI": "10.1126/sciadv.abb6010",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7527216/",
+    "page": "eabb6010",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          9,
+          30
         ]
       ]
     }
@@ -1871,6 +2329,61 @@
           2022,
           10,
           31
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-FA09A3F03F76",
+    "type": "article-journal",
+    "title": "Ag-Decorated Si Microspheres Produced by Laser Ablation in Liquid: All-in-One Temperature-Feedback SERS-Based Platform for Nanosensing",
+    "author": [
+      {
+        "given": "Stanislav",
+        "family": "Gurbatov"
+      },
+      {
+        "given": "Vladislav",
+        "family": "Puzikov"
+      },
+      {
+        "given": "Evgeny",
+        "family": "Modin"
+      },
+      {
+        "given": "Alexander",
+        "family": "Shevlyagin"
+      },
+      {
+        "given": "Andrey",
+        "family": "Gerasimenko"
+      },
+      {
+        "given": "Eugeny",
+        "family": "Mitsai"
+      },
+      {
+        "given": "Sergei A.",
+        "family": "Kulinich"
+      },
+      {
+        "given": "Aleksandr",
+        "family": "Kuchmizhak"
+      }
+    ],
+    "container-title": "Materials",
+    "volume": "15",
+    "issue": "22",
+    "article-number": "8091",
+    "DOI": "10.3390/ma15228091",
+    "URL": "https://doi.org/10.3390/ma15228091",
+    "page": "8091",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          11,
+          15
         ]
       ]
     }

@@ -4,7 +4,10 @@ export type AcademicReference=Record<string,string> & {reference_id:string;title
 export type ReferenceLink=Record<string,string> & {link_id:string;reference_id:string;target_type:string;target_id:string};
 export type ReferenceFile=Record<string,string> & {file_id:string;reference_id:string;source_filename:string};
 export type ReferenceAffiliation=Record<string,string> & {affiliation_id:string;reference_id:string;author_index:string;author_name:string;institution:string;source_url:string;source_kind:string};
-export type Literature={references:AcademicReference[];reference_links:ReferenceLink[];reference_files:ReferenceFile[];reference_affiliations?:ReferenceAffiliation[];coverage:Record<string,number|string>};
+export type ReferenceClass={reference_id:string;class_type:string;class_id:string;class_name:string;basis:string;via_class_ids:string;source_link_ids:string;scope:string};
+export type ClassDefinition={class_type:string;class_id:string;class_name:string};
+export type ReferenceFacets={P:string[];M:string[];N:string[]};
+export type Literature={references:AcademicReference[];reference_links:ReferenceLink[];reference_files:ReferenceFile[];reference_affiliations?:ReferenceAffiliation[];reference_classes?:ReferenceClass[];class_definitions?:ClassDefinition[];reference_classification?:{reference_id:string;status:string;note:string}[];coverage:Record<string,number|string>};
 export type Author={family?:string;given?:string;suffix?:string;literal?:string};
 export function referenceAuthors(r:AcademicReference):Author[]{try{return JSON.parse(r.authors_json)}catch{return []}}
 export function authorNames(r:AcademicReference){return referenceAuthors(r).map(a=>a.literal||[a.given,a.family,a.suffix].filter(Boolean).join(' '))}
@@ -22,10 +25,25 @@ export function referenceCitation(r:AcademicReference){
  const vol=r.volume+(r.issue?'('+r.issue+')':'');
  return [authorNames(r).join('; '),'('+(r.publication_year||'n.d.')+')',r.title,[r.container_title,vol,r.pages||r.article_number].filter(Boolean).join(', '),r.url].filter(Boolean).join('. ');
 }
-export function filterReferences(literature:Literature,query:string,topic='',kind=''){
+export function articleClasses(literature:Literature,referenceId:string){
+ const rank:Record<string,number>={checked_claim:0,equipment_class:1,background:2,process_inferred:3};
+ const grouped=new Map<string,ReferenceClass[]>();
+ for(const row of literature.reference_classes||[])if(row.reference_id===referenceId)grouped.set(row.class_id,[...(grouped.get(row.class_id)||[]),row]);
+ return [...grouped.values()].map(rows=>({...[...rows].sort((a,b)=>(rank[a.basis]??9)-(rank[b.basis]??9))[0],provenance:rows})).sort((a,b)=>a.class_id.localeCompare(b.class_id,undefined,{numeric:true}));
+}
+export function filterReferences(literature:Literature,query:string,topic='',kind='',facets:ReferenceFacets={P:[],M:[],N:[]}){
  const files=new Map<string,string[]>();for(const f of literature.reference_files)files.set(f.reference_id,[...(files.get(f.reference_id)||[]),f.source_filename]);
  const terms=query.toLocaleLowerCase().trim().split(/\s+/).filter(Boolean);
- return literature.references.filter(r=>(!topic||r.topics.split(';').includes(topic))&&(!kind||r.reference_type===kind)&&terms.every(term=>[r.title,authorNames(r).join(' '),authorsWithAffiliations(r,literature).flatMap(a=>a.affiliations.map(f=>f.institution)).join(' '),r.publication_year,r.container_title,r.doi,r.topics,r.notes,...(files.get(r.reference_id)||[])].join(' ').toLocaleLowerCase().includes(term)));
+ return literature.references.filter(r=>{
+  const classes=articleClasses(literature,r.reference_id);
+  return (['P','M','N'] as const).every(type=>!facets[type].length||classes.some(c=>c.class_type===type&&facets[type].includes(c.class_id)))&&(!topic||r.topics.split(';').includes(topic))&&(!kind||r.reference_type===kind)&&terms.every(term=>[r.title,authorNames(r).join(' '),authorsWithAffiliations(r,literature).flatMap(a=>a.affiliations.map(f=>f.institution)).join(' '),r.publication_year,r.container_title,r.doi,r.topics,r.notes,...classes.map(c=>c.class_id+' '+c.class_name),...(files.get(r.reference_id)||[])].join(' ').toLocaleLowerCase().includes(term));
+ });
+}
+/** Each facet counts articles after applying all OTHER filters; OR within, AND across facets. */
+export function referenceFacetOptions(literature:Literature,query:string,topic:string,kind:string,facets:ReferenceFacets,type:keyof ReferenceFacets){
+ const records=filterReferences(literature,query,topic,kind,{...facets,[type]:[]}),counts=new Map<string,number>();
+ for(const r of records)for(const c of articleClasses(literature,r.reference_id))if(c.class_type===type)counts.set(c.class_id,(counts.get(c.class_id)||0)+1);
+ return (literature.class_definitions||[]).filter(c=>c.class_type===type).map(c=>({value:c.class_id,label:c.class_id+' · '+c.class_name,count:counts.get(c.class_id)||0})).sort((a,b)=>a.value.localeCompare(b.value,undefined,{numeric:true}));
 }
 /** Background links never become exact-model support through a shared category/material. */
 export function instrumentReferenceLinks(record:Equipment,links:ReferenceLink[]){
