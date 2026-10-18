@@ -66,14 +66,18 @@ def test_material_quote_eligibility_does_not_convert_reference_packs_to_recipe_c
 
 def test_latest_review_and_public_evidence_are_reproducible_and_exclude_private_inventory():
     audit=review();source=json.loads((ROOT/'webapp/app/data/pricing-sources.json').read_text(encoding='utf-8'))
-    assert source['coverage']==audit['after_coverage']
+    # The archived broad sweep remains unchanged as later focused reviews add offers.
+    from collections import Counter
+    assert source['coverage']['instrument_statuses']==dict(Counter(r['status'] for r in read('instrument_price_coverage')))
     assert source['review_summary']==audit['summary']
     assert source['latest_review_path']=='catalog/price_review_2026-10-18.json'
     assert audit['before_coverage']['instrument_statuses']['no_purchase_price']==779
-    assert source['coverage']['instrument_statuses']['no_purchase_price']==746
-    assert source['coverage']['component_statuses']['no_market_offer']==88
+    assert audit['after_coverage']['instrument_statuses']['no_purchase_price']==746
+    assert audit['after_coverage']['component_statuses']['no_market_offer']==88
     claims=json.loads((ROOT/'catalog/purchase_price_evidence.json').read_text(encoding='utf-8'))['records']
-    assert len(claims)==75 and len({e['evidence_id'] for e in claims})==75
+    archived_ids={p['evidence_id'] for p in audit['instrument_prices']+audit['component_prices']}
+    assert len(archived_ids)==75 and archived_ids<={e['evidence_id'] for e in claims}
+    assert len({e['evidence_id'] for e in claims})==len(claims)
     register={e['evidence_id']:e for e in evidence_dataset(ROOT)['records']}
     assert all(e==register[e['evidence_id']] for e in claims)
     assert json.loads((ROOT/'webapp/app/data/purdue-inventory.json').read_text(encoding='utf-8'))==[]

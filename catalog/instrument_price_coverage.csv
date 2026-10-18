@@ -597,7 +597,7 @@ REQ-EQ-005,X-AM,Renishaw,Renishaw AM400,no_purchase_price,,,0,0,,,
 REQ-EQ-007,X-AM,Matsuura,Matsuura LUMEX Avance-25,no_purchase_price,,,0,0,,,
 REQ-EQ-008,X-AM,Matsuura,Matsuura LUMEX Avance-25 - Reactive,no_purchase_price,,,0,0,,,
 REQ-EQ-009,X-AM,FormAlloy,FormAlloy L2,no_purchase_price,,,0,0,,,
-REQ-EQ-010,X-MET,Keyence,Keyence VR-6000,no_purchase_price,,,0,0,,,
+REQ-EQ-010,X-MET,Keyence,Keyence VR-6000,secondary_market_only,,,1,0,,,https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/
 REQ-EQ-012,X-CS,BaltiCold,Balticold Spray LTD CSM 108.02,no_purchase_price,,,0,0,,,
 REQ-EQ-013,X-CNC,MAZAK,MAZAK VC-500A/5X,secondary_market_only,,,1,0,,,https://www.usedcncexchange.com/cnc/mazak-vc-500a-5x-5-axis/
 REQ-EQ-014,X-EDM,EDMMax,EDMMax 434W Fast Wire EDM,no_purchase_price,,,0,0,,,

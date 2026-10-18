@@ -4623,6 +4623,64 @@
         "conversion_date": "",
         "conversion_source_url": ""
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E5D472726906935A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "KEYENCE VR-6000 controller-only reference price",
+      "claim": "Government Scientific Source publishes USD 11,550 per VR-6000 measurement controller. This amount does not price a complete VR-6000-series profilometer.",
+      "scope": "CONTROLLER ONLY — not a complete optical profilometer. Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Government Scientific Source VR-6000 measurement controller",
+          "url": "https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/",
+          "locator": "Price $11,550.00/EA; Product Description; Specifications inventory number and part number",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "KEYENCE exact VR-6000 model specifications",
+          "url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/models/vr-6000/",
+          "locator": "Model; Type: Controller; Head: VR-6200, VR-6100",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "REQ-EQ-010",
+          "label": "Keyence VR-6000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "X-MET",
+          "label": "Optical surface metrology"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-KEYENCE261018-VR6000-CONTROLLER",
+          "label": "Controller-only reference; condition unspecified"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "REQ-EQ-010",
+        "manufacturer": "Keyence",
+        "model_name": "Keyence VR-6000",
+        "offer_id": "SELL-KEYENCE261018-VR6000-CONTROLLER",
+        "sku": "VR-6000",
+        "seller_inventory_number": "KYCVR6000EA",
+        "source_value": "11550",
+        "source_currency": "USD",
+        "usd_equivalent": "11550",
+        "condition": "unspecified",
+        "configuration": "controller_only",
+        "new_equipment_budget_eligible": false,
+        "complete_system_price": false
+      }
     }
   ]
 }

@@ -33653,6 +33653,61 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E712DB00AA797895",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "KEYENCE VR-6000 series photo reverified; catalog link located",
+      "claim": "The existing manufacturer-hosted VR-6000 series photograph is still available. The missing series catalog link was located, but the PDF download requires KEYENCE sign-in.",
+      "scope": "VR-6000 series optical profiler family photo; configuration may vary. The photo is an illustration of the family system, not a photograph of a Purdue asset or evidence of its installed head/configuration. No new photo coverage is claimed.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "KEYENCE VR-6000 series product page",
+          "url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+          "locator": "Series product photograph; View Catalog",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "KEYENCE VR-6000 catalog download",
+          "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US",
+          "locator": "AS_166657; 7 MB in directory; business-email/sign-in step required",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "REQ-EQ-010",
+          "label": "Keyence VR-6000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "X-MET",
+          "label": "Optical surface metrology"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "REQ-EQ-010",
+        "manufacturer": "Keyence",
+        "model_name": "Keyence VR-6000",
+        "image_url": "https://www.keyence.com/img/series/360/75383.png",
+        "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 360,
+          "height": 360,
+          "sha256": "ca3ee9628378e42a9401c143db5fbc590e74944858e2ff96d83cc0bb05ef5d7b"
+        },
+        "new_photo": false,
+        "catalog_pdf_reviewed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-E9E5142A8C72B349",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38306,6 +38361,64 @@
         "usd_equivalent": "15795",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E5D472726906935A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "KEYENCE VR-6000 controller-only reference price",
+      "claim": "Government Scientific Source publishes USD 11,550 per VR-6000 measurement controller. This amount does not price a complete VR-6000-series profilometer.",
+      "scope": "CONTROLLER ONLY — not a complete optical profilometer. Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Government Scientific Source VR-6000 measurement controller",
+          "url": "https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/",
+          "locator": "Price $11,550.00/EA; Product Description; Specifications inventory number and part number",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "KEYENCE exact VR-6000 model specifications",
+          "url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/models/vr-6000/",
+          "locator": "Model; Type: Controller; Head: VR-6200, VR-6100",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "REQ-EQ-010",
+          "label": "Keyence VR-6000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "X-MET",
+          "label": "Optical surface metrology"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-KEYENCE261018-VR6000-CONTROLLER",
+          "label": "Controller-only reference; condition unspecified"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "REQ-EQ-010",
+        "manufacturer": "Keyence",
+        "model_name": "Keyence VR-6000",
+        "offer_id": "SELL-KEYENCE261018-VR6000-CONTROLLER",
+        "sku": "VR-6000",
+        "seller_inventory_number": "KYCVR6000EA",
+        "source_value": "11550",
+        "source_currency": "USD",
+        "usd_equivalent": "11550",
+        "condition": "unspecified",
+        "configuration": "controller_only",
+        "new_equipment_budget_eligible": false,
+        "complete_system_price": false
       }
     },
     {

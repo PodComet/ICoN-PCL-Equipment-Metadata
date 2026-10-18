@@ -10166,5 +10166,44 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "REQ-EQ-010",
+    "manufacturer": "Keyence",
+    "model_name": "Keyence VR-6000",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "Keyence",
+          "model_name": "Keyence VR-6000",
+          "brochure_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "manufacturer": "Keyence",
+          "model_name": "Keyence VR-6000",
+          "brochure_url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US",
+          "product_page_scope": "VR-6000 series overview. Exact model VR-6000 is the controller; a complete system requires a VR-6100 or VR-6200 head and a verified PC/software/stage configuration. Image is a series illustration. Linked brochure requires KEYENCE sign-in; its PDF contents have not been reviewed."
+        }
+      },
+      {
+        "before": {
+          "manufacturer": "Keyence",
+          "model_name": "Keyence VR-6000",
+          "image_url": "https://www.keyence.com/img/series/360/75383.png",
+          "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+          "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+          "media_checked_date": "2026-10-13"
+        },
+        "after": {
+          "manufacturer": "Keyence",
+          "model_name": "Keyence VR-6000",
+          "image_url": "https://www.keyence.com/img/series/360/75383.png",
+          "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+          "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
   }
 ]

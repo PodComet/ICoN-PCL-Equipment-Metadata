@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-446 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+448 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -4968,6 +4968,20 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 **Related records:** `M12-08` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## IMG-EV-E712DB00AA797895
+
+The existing manufacturer-hosted VR-6000 series photograph is still available. The missing series catalog link was located, but the PDF download requires KEYENCE sign-in.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** VR-6000 series optical profiler family photo; configuration may vary. The photo is an illustration of the family system, not a photograph of a Purdue asset or evidence of its installed head/configuration. No new photo coverage is claimed.
+
+- Source: [KEYENCE VR-6000 series product page](https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/) — Series product photograph; View Catalog
+- Source: [KEYENCE VR-6000 catalog download](https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US) — AS_166657; 7 MB in directory; business-email/sign-in step required
+
+**Related records:** `REQ-EQ-010` (equipment), `X-MET` (equipment_class)
+
+
 ## IMG-EV-E9E5142A8C72B349
 
 The linked source presents an instrument photograph matched to Park Systems NX20 (exact model).
@@ -5947,6 +5961,20 @@ Spectrum Chemical publishes USD 15795 for Labconco Protector XStream, 6 ft (list
 - Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/) — PDF page 2; manufacturer 110610000; vendor 496-48505-EA; List Price
 
 **Related records:** `M29-06` (equipment), `M29` (equipment_class), `SELL-PRICE261018-93B72B4DA686105C` (seller_offer)
+
+
+## PRICE-EV-E5D472726906935A
+
+Government Scientific Source publishes USD 11,550 per VR-6000 measurement controller. This amount does not price a complete VR-6000-series profilometer.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** CONTROLLER ONLY — not a complete optical profilometer. Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.
+
+- Source: [Government Scientific Source VR-6000 measurement controller](https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/) — Price $11,550.00/EA; Product Description; Specifications inventory number and part number
+- Source: [KEYENCE exact VR-6000 model specifications](https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/models/vr-6000/) — Model; Type: Controller; Head: VR-6200, VR-6100
+
+**Related records:** `REQ-EQ-010` (equipment), `X-MET` (equipment_class), `SELL-KEYENCE261018-VR6000-CONTROLLER` (seller_offer)
 
 
 ## PRICE-EV-EB17CA6BEDB33514

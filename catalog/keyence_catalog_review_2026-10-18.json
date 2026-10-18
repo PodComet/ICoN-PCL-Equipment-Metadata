@@ -1,0 +1,384 @@
+{
+  "schema": "iconpcl-catalog-review/v1",
+  "checked_date": "2026-10-18",
+  "requested_catalog_url": "https://www.keyence.com/downloads/?mode=ca",
+  "scope": "Public catalog-index screening and exact existing-model enrichment. The directory displayed 286 English (US) results. Screened microscopy titles and relevant metrology pages; this is not a claim to have read all PDFs or all 286 catalogs. Full PDF contents were unavailable without sign-in.",
+  "summary": {
+    "existing_manufacturer_model_records": 1,
+    "exact_existing_model_matches": 1,
+    "seller_reference_prices_added": 1,
+    "manufacturer_prices_added": 0,
+    "full_system_prices_added": 0,
+    "new_photo_records": 0,
+    "existing_photos_reverified": 1,
+    "brochure_links_added": 1,
+    "new_price_evidence": 1,
+    "new_media_review_evidence": 1,
+    "new_equipment_models": 0
+  },
+  "instrument_prices": [
+    {
+      "equipment_id": "REQ-EQ-010",
+      "manufacturer": "Keyence",
+      "model_name": "Keyence VR-6000",
+      "seller_name": "Government Scientific Source",
+      "price_value": 11550.0,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "condition": "unspecified",
+      "sku": "VR-6000",
+      "seller_inventory_number": "KYCVR6000EA",
+      "quantity": "1 per EA",
+      "stock_status": "Call for Lead Time; stock not confirmed",
+      "source_url": "https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/",
+      "checked_date": "2026-10-18",
+      "locator": "Price $11,550.00/EA; Product Description; Specifications inventory number and part number",
+      "configuration": "VR-6000 measurement controller only",
+      "scope": "Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.",
+      "recommended_ingestion": "Optional secondary reference-only seller offer with condition unspecified; excluded from new-equipment process totals. Do not populate manufacturer price or MSRP fields.",
+      "identity_match": "Exact controller SKU; canonical notes already distinguish controller from complete system",
+      "offer_id": "SELL-KEYENCE261018-VR6000-CONTROLLER",
+      "evidence_id": "PRICE-EV-E5D472726906935A"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "REQ-EQ-010",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "Keyence",
+            "model_name": "Keyence VR-6000",
+            "brochure_url": "",
+            "product_page_scope": ""
+          },
+          "after": {
+            "manufacturer": "Keyence",
+            "model_name": "Keyence VR-6000",
+            "brochure_url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US",
+            "product_page_scope": "VR-6000 series overview. Exact model VR-6000 is the controller; a complete system requires a VR-6100 or VR-6200 head and a verified PC/software/stage configuration. Image is a series illustration. Linked brochure requires KEYENCE sign-in; its PDF contents have not been reviewed."
+          }
+        },
+        {
+          "before": {
+            "manufacturer": "Keyence",
+            "model_name": "Keyence VR-6000",
+            "image_url": "https://www.keyence.com/img/series/360/75383.png",
+            "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+            "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+            "media_checked_date": "2026-10-13"
+          },
+          "after": {
+            "manufacturer": "Keyence",
+            "model_name": "Keyence VR-6000",
+            "image_url": "https://www.keyence.com/img/series/360/75383.png",
+            "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+            "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+            "media_checked_date": "2026-10-18"
+          }
+        }
+      ]
+    }
+  ],
+  "media_review": {
+    "equipment_id": "REQ-EQ-010",
+    "evidence_id": "IMG-EV-E712DB00AA797895",
+    "image_url": "https://www.keyence.com/img/series/360/75383.png",
+    "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
+    "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
+    "verification": {
+      "status": 200,
+      "content_type": "image/png",
+      "width": 360,
+      "height": 360,
+      "sha256": "ca3ee9628378e42a9401c143db5fbc590e74944858e2ff96d83cc0bb05ef5d7b"
+    }
+  },
+  "catalog_index": {
+    "microscopy_titles_screened": [
+      {
+        "title": "BZ-XLC1 Confocal Laser Scanning Unit Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_167740&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X4000 Series 3D Optical Profiling Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_168019&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "BZ-X1000 Series All-in-One Fluorescence Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_162647&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX-X1 Series Digital Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_162341&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX-XF Series Digital Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_147371&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "BC-1000 Series High Accuracy Automated Colony Counter Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_137644&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "BZ-X Series All-in-One Fluorescence Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_143569&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "EA-300 Series Laser-based Elemental Analyzer Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_142121&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X3000 Series 3D Surface Profiler Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_143594&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX-7000 Series Digital Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_129709&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X Series 3D Laser Scanning Confocal Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_94110&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX-6000 Series Digital Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_91806&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX-950F Series Digital Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_93524&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VH-ZST Dual Objective Zoom Lens Leaflet",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_79450&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "BZ-H3XF Sectioning module Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_93511&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X250/X150/X120 3D Laser Scanning Confocal Microscope Digest version of catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_75657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "BZ-X Series Sectioning Module Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_157992&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "Microscope General Lens & Stand Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_144270&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VHX Series Digital Microscope ISO 16232 Contamination Analysis Leaflet",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_111916&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      }
+    ],
+    "catalog_pdf_reviewed": false,
+    "download_status": "requires_sign_in",
+    "matched_catalog": {
+      "title": "VR-6000 Series Wide-Area Optical Profiler Catalog",
+      "asset_id": "AS_166657",
+      "series_id": "",
+      "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US",
+      "reported_size": "7 MB"
+    },
+    "metrology_titles_screened": [
+      {
+        "title": "VK-X4000 Series 3D Optical Profiling Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_168019&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VL-800 Series 3D Scanner CMM Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_150917&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "WM-6000 series Wide Area CMM Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_162371&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VL-700 Series 3D Scanner CMM Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_133171&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "XM Series Handheld Probe Coordinate Measuring Machine Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_169684&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VR-6000 Series Wide-Area Optical Profiler Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X3000 Series 3D Surface Profiler Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_143594&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VL Series 3D Scanner CMM Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_109409&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VR Series Wide-Area 3D Measurement System Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_97186&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X Series 3D Laser Scanning Confocal Microscope Catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_94110&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VK-X250/X150/X120 3D Laser Scanning Confocal Microscope Digest version of catalog",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_75657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      },
+      {
+        "title": "VR Series Wide-Area 3D Measurement System Leaflet",
+        "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_86336&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US"
+      }
+    ],
+    "unique_screened_catalogs": 27,
+    "alternate_catalog_from_series_page": {
+      "asset_id": "AS_122444",
+      "url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_122444&dlSeriesId=WS_157128",
+      "reported_size": "6.97 MB",
+      "pdf_reviewed": false
+    }
+  },
+  "official_review": [
+    {
+      "source_url": "https://www.keyence.com/downloads/?mode=ca",
+      "kind": "catalog_directory",
+      "result": "Public catalog directory reviewed; results are dynamically populated. The VR-6000 catalog was followed from its official product page."
+    },
+    {
+      "source_url": "https://www.keyence.com/products/3d-measure/roughness-measure/vr-6000/",
+      "kind": "manufacturer_series_page",
+      "locator": "Overview; View Catalog; Price links",
+      "result": "Public product overview provides series photography and specifications, with no numeric purchase price."
+    },
+    {
+      "source_url": "https://www.keyence.com/products/3d-measure/roughness-measure/vr-6000/models/vr-6000/",
+      "kind": "manufacturer_model_page",
+      "locator": "Page title; Specifications: Model, Type, Head",
+      "result": "Exact VR-6000 model is a controller. The compatible heads are VR-6200 and VR-6100; complete-system configuration cannot be inferred from controller identity."
+    },
+    {
+      "source_url": "https://www.keyence.com/products/3d-measure/roughness-measure/vr-6000/get-pricing/",
+      "kind": "manufacturer_pricing_page",
+      "locator": "Price heading; local sales engineer pricing and business email/sign-in form",
+      "result": "RFQ; no public numeric MSRP or list price. No form was submitted."
+    },
+    {
+      "source_url": "https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US",
+      "kind": "manufacturer_catalog_download",
+      "locator": "VR-6000 Series Wide-Area Optical Profiler Catalog; 6.97 MB; register/sign-in prompt",
+      "result": "Catalog identity confirmed, but PDF contents were not accessible without registration. No account creation or access bypass attempted."
+    }
+  ],
+  "deferred_configurations": [
+    {
+      "manufacturer": "Keyence",
+      "model_name": "VR-6200 measurement-head system with VR-6000 controller",
+      "seller_name": "monodbioinc (eBay)",
+      "price_value": 45000.0,
+      "currency": "USD",
+      "price_kind": "asking_price",
+      "condition": "used",
+      "sku": "VR-6200; eBay item 398373875281",
+      "stock_status": "Active asking-price listing observed; no sold/ended marker",
+      "source_url": "https://www.ebay.com/itm/398373875281",
+      "description_source_url": "https://itm.ebaydesc.com/itmdesc/398373875281?category=40004&cspheader=1&descgauge=1&domain=ebay.com&excSoj=1&excTrk=1&ittenable=true&lang=en&lsite=0&oneClk=2&secureDesc=1&seller=monodbioinc&t=0&ver=1",
+      "checked_date": "2026-10-18",
+      "locator": "Item title; US $45,000 or Best Offer; Used condition; seller description configuration",
+      "configuration": "Seller lists VR-6200 head, VR-6000 controller, motorized stage, control PC, monitor, keyboard and mouse",
+      "scope": "Used complete-system asking price for specified VR-6200 configuration, not VR-6000 controller alone, not MSRP or official manufacturer price. Asking price may be negotiated; delivery/taxes excluded. Seller condition and configuration are unverified claims, no independent operational or calibration verification. Software license transfer not established.",
+      "recommended_ingestion": "Do not attach to exact controller record. Requires a separately curated VR-6200-system variant if later added."
+    },
+    {
+      "manufacturer": "Keyence",
+      "model_name": "VR-6100 system in VR-6000 series",
+      "seller_name": "jaba-1155 (eBay)",
+      "price_value": 34750.0,
+      "currency": "USD",
+      "price_kind": "asking_price",
+      "condition": "used",
+      "sku": "VR-6100; eBay item 168705857557",
+      "stock_status": "Active asking-price listing observed; no sold/ended marker",
+      "source_url": "https://www.ebay.com/itm/168705857557",
+      "description_source_url": "https://itm.ebaydesc.com/itmdesc/168705857557?category=185223&cspheader=1&descgauge=1&domain=ebay.com&excSoj=1&excTrk=1&ittenable=true&lang=en&lsite=0&oneClk=2&secureDesc=1&seller=jaba-1155&t=1790036280000&ver=1",
+      "checked_date": "2026-10-18",
+      "locator": "Item title; US $34,750 or Best Offer; Used condition; seller description Included section",
+      "configuration": "Seller lists VR-6100, controller, stage, power cord/cables, VR-6000-series application discs and license keys; no optional accessories",
+      "scope": "Used system asking price with VR-6100 head, not exact controller-only identity. Seller asserts inspection and optional warranty, neither independently confirmed. Seller's reference to approximately $50,000 new is unsupported historical context and must not populate official price or an estimate benchmark. Seller description stage automation conflicts with standard VR-6100 manual-XY specification; configuration needs verification before use.",
+      "recommended_ingestion": "Do not attach to exact controller record. Hold as configuration reference pending separately curated VR-6100 variant and configuration review."
+    }
+  ],
+  "rejected_decisions": [
+    {
+      "source_url": "https://plc-direct.com/products/vr-6000",
+      "seller_name": "PLC Direct",
+      "sku": "VR-6000-Sealed",
+      "price_value": 1688.28,
+      "currency": "USD",
+      "condition": "sealed surplus (seller label)",
+      "stock_status": "6 verified stock displayed; final price/availability subject to seller confirmation",
+      "locator": "Specifications Type Controller; Sealed Surplus SKU and price",
+      "decision": "Reject as complete-profiler purchase price. It is a surplus controller-only offer. Manufacturer date, head/stage/PC/software and warranty transfer are not established. A newer fetch showed a different never-used-surplus price than earlier indexed text, so do not rely on snippet price."
+    },
+    {
+      "source_url": "https://caeonline.com/buy/wafer-testing-and-metrology/keyence-vr-6000/293816371",
+      "seller_name": "CAE",
+      "sku": "293816371",
+      "price_value": null,
+      "currency": null,
+      "condition": "used",
+      "stock_status": "Individual listing exists, while model index says no offers; availability uncertain",
+      "locator": "Request Price button; description says rotary scanning 3D profilometer",
+      "decision": "No numeric public price. Do not infer or import one."
+    },
+    {
+      "source_url": "https://www.ebay.com/itm/306299431148",
+      "seller_name": "hun-968563 (eBay)",
+      "price_value": 49999.0,
+      "currency": "USD",
+      "condition": "used",
+      "stock_status": "Active asking-price listing observed",
+      "locator": "6200-series fully automated model title; US $49,999 or Best Offer",
+      "decision": "Not exact VR-6000 controller record; incomplete configuration evidence. Prefer better specified 398373875281 as related configuration reference, not a duplicate canonical offer."
+    },
+    {
+      "source_url": "https://testgageinsight.com/dimensional-measurement/how-much-does-keyence-cmm-cost",
+      "price_value": "247000-389000",
+      "currency": "USD",
+      "condition": "not established",
+      "stock_status": "Not a seller listing",
+      "decision": "Reject unsourced editorial range; no primary model-bound commercial offer or manufacturer amount."
+    },
+    {
+      "source_url": "https://www.volza.com/p/imaging-system-or-diagnostic-audiometer/hsn-code-8537/import-data/origin-japan/",
+      "decision": "Customs controller transaction values are not public current purchase offers or complete-system MSRP. Do not ingest."
+    },
+    {
+      "source_url": "https://huiji.zfcg.henan.gov.cn/cmsweb81e27e/nas/webfile2024/henan/rootfiles/2024/06/14/23a942a4c3f545f2b15af6069fb7d4ae.pdf",
+      "price_value": 827600,
+      "currency": "CNY",
+      "condition": "procurement context; configuration not independently reviewed",
+      "stock_status": "2024 procurement table, not current seller offer",
+      "decision": "Historical regional procurement price. Not a current catalog offer or US MSRP; do not import into active seller prices without dedicated historical-price semantics. PDF contents were not fully reviewed."
+    }
+  ],
+  "after_coverage": {
+    "instrument_records": 1079,
+    "instrument_statuses": {
+      "estimate_only": 29,
+      "explicit_msrp": 1,
+      "manufacturer_price": 161,
+      "new_seller_price": 91,
+      "no_purchase_price": 745,
+      "secondary_market_only": 52
+    },
+    "component_occurrences": 260,
+    "component_statuses": {
+      "compatible_pack_offer": 79,
+      "no_market_offer": 88,
+      "reference_offer_only": 93
+    },
+    "component_pack_offers": 157
+  }
+}

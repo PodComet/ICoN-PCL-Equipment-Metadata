@@ -24,6 +24,17 @@ test('only explicitly new equipment is eligible for new-equipment planning price
 test('seller source amounts retain currency and display their dated USD equivalent',()=>{
  const p=sellerPrice(record,true,[{...quote,currency:'EUR'}]);assert.notEqual(p.value,'$1,000');assert.equal(p.currency,'EUR');assert.equal(p.price_value,'1000');
 });
+
+test('VR-6000 controller reference cannot become the price of a complete new profilometer',()=>{
+ const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
+ const r=seed.records.find(r=>r.equipment_id==='REQ-EQ-010');
+ const reference=sellerOffers(r).find(o=>o.offer_id==='SELL-KEYENCE261018-VR6000-CONTROLLER');
+ assert.equal(reference.price_value,'11550');assert.equal(reference.currency,'USD');
+ assert.equal(reference.condition,'unspecified');assert.match(reference.scope,/CONTROLLER ONLY/);
+ assert.equal(sellerPrice(r),null);assert.notEqual(priceSnapshot(r).kind,'seller');
+ assert.equal(r.msrp_value,'');assert.equal(manufacturerPrice(r),null);
+ assert.match(r.brochure_url,/AS_166657/);assert.match(r.product_page_scope,/requires KEYENCE sign-in/);
+});
 test('published manufacturer/new seller prices precede estimates and snapshots use the same source',()=>{
  const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
  const offers=JSON.parse(readFileSync(new URL('../app/data/seller-offers.json',import.meta.url),'utf8')).offers;
