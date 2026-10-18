@@ -38,6 +38,9 @@ def dataset(root):
                         for rid in filter(None,model['related_process_ids'].split(';')):
                             if rid in routes:related.append({'record_type':'process','record_id':rid,'label':routes[rid]['route_name']+' — model planning association'})
             records.append(dict(schema='iconpcl-evidence-record/v1',evidence_id=e['id'],record_kind='source_claim',classification=e['classification'],title=e['claim'],claim=e['claim'],scope='Model-bound control documentation; not a validation of a user sequence.',recorded_at=e['source']['accessed'],sources=[{'title':e['source']['title'],'url':e['source']['url'] or '', 'locator':e['source']['section'],'checked_date':e['source']['accessed']}],related_records=related,source_evidence_ids=[],supersedes_id='',context={'subject':group['subject'],'verification':e['verification']}))
+    photo_register=root/'catalog/instrument_photo_evidence.json'
+    if photo_register.exists():
+        records.extend(json.loads(photo_register.read_text(encoding='utf-8'))['records'])
     records.sort(key=lambda r:r['evidence_id'])
     if len({r['evidence_id'] for r in records})!=len(records):raise ValueError('Evidence IDs must be unique across source registers')
     return {'schema':'iconpcl-evidence-register/v1','scope':'Public reviewed source claims. User plans are stored separately with account access controls.','records':records}

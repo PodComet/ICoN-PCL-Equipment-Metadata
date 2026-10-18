@@ -1,0 +1,2926 @@
+{
+  "schema": "iconpcl-instrument-photo-evidence/v1",
+  "records": [
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-0C6673C707158DC1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Bruker Dimension FastScan",
+      "claim": "The linked source presents an instrument photograph matched to Bruker Dimension FastScan (exact model).",
+      "scope": "NIST photograph of its Bruker Dimension FastScan AFM. Exact model; the facility installation and accessories shown are not an assertion about a user's configured unit. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Bruker instrument photograph / catalog entry",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-bruker-dimension-fastscan-atomic-force-microscope",
+          "locator": "Photograph of the Bruker Dimension FastScan Atomic Force Microscope.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M41-07",
+          "label": "Bruker Dimension FastScan"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M41-07",
+        "model_name": "Bruker Dimension FastScan",
+        "manufacturer": "Bruker",
+        "category_id": "M41",
+        "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2018/07/10/bruker_afm_1.jpg.webp?itok=HfOnEqGf",
+        "image_scope": "NIST photograph of its Bruker Dimension FastScan AFM. Exact model; the facility installation and accessories shown are not an assertion about a user's configured unit.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nist.gov/cnst/equipment",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "browser": {
+            "equipment_id": "M41-07",
+            "height": 360,
+            "loaded": true,
+            "width": 480,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-3E93B2A5BEFE24D0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Oxford Instruments FlexAL",
+      "claim": "The linked source presents an instrument photograph matched to Oxford Instruments FlexAL (exact model).",
+      "scope": "NIST photograph explicitly captioned Oxford FlexAL atomic layer deposition. Exact model, with facility-specific options and plumbing. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Oxford Instruments instrument photograph / catalog entry",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-atomic-layer-deposition",
+          "locator": "Oxford FlexAL atomic layer deposition",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M22-03",
+          "label": "Oxford Instruments FlexAL"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M22",
+          "label": "Atomic layer deposition system"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M22-03",
+        "model_name": "Oxford Instruments FlexAL",
+        "manufacturer": "Oxford Instruments",
+        "category_id": "M22",
+        "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2023/04/28/ald.png.webp?itok=kWcxaK9s",
+        "image_scope": "NIST photograph explicitly captioned Oxford FlexAL atomic layer deposition. Exact model, with facility-specific options and plumbing.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nist.gov/cnst/equipment",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "browser": {
+            "equipment_id": "M22-03",
+            "height": 480,
+            "loaded": true,
+            "width": 363,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-65342D80277EA172",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: ZEISS GeminiSEM 500",
+      "claim": "The linked source presents an instrument photograph matched to ZEISS GeminiSEM 500 (exact model).",
+      "scope": "NIST photograph of the Zeiss Gemini 500 field-emission SEM. Exact GeminiSEM 500 model; detector and laboratory configuration may vary. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "ZEISS instrument photograph / catalog entry",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-zeiss-gemini-500-field-emission-scanning-electron",
+          "locator": "Zeiss Gemini 500 Field Emission Scanning Electron Microscope",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-10",
+          "label": "ZEISS GeminiSEM 500"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-10",
+        "model_name": "ZEISS GeminiSEM 500",
+        "manufacturer": "ZEISS",
+        "category_id": "M38",
+        "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2020/09/14/gemini500.jpg.webp?itok=aKSCFAo9",
+        "image_scope": "NIST photograph of the Zeiss Gemini 500 field-emission SEM. Exact GeminiSEM 500 model; detector and laboratory configuration may vary.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nist.gov/cnst/equipment",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "browser": {
+            "equipment_id": "M38-10",
+            "height": 360,
+            "loaded": true,
+            "width": 480,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7B658FC23165D5B2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: SUSS MA/BA6 Gen4",
+      "claim": "The linked source presents an instrument photograph matched to SUSS MA/BA6 Gen4 (exact model).",
+      "scope": "NIST photograph of the Suss MicroTec MA/BA6 Gen4 mask aligner. Exact model generation; installation and options may vary. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "SUSS instrument photograph / catalog entry",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-suss-microtec-maba6-gen4-mask-aligner",
+          "locator": "Suss MicroTec MA/BA6 Gen4 Mask Aligner",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M58-01",
+          "label": "SUSS MA/BA6 Gen4"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M58",
+          "label": "UV mask aligner"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M58-01",
+        "model_name": "SUSS MA/BA6 Gen4",
+        "manufacturer": "SUSS",
+        "category_id": "M58",
+        "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2024/05/15/Suss%20MicroTec%20MA-BA6%20Gen4%20Mask%20Aligner.png.webp?itok=L1Xv_bTt",
+        "image_scope": "NIST photograph of the Suss MicroTec MA/BA6 Gen4 mask aligner. Exact model generation; installation and options may vary.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nist.gov/cnst/equipment",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "browser": {
+            "equipment_id": "M58-01",
+            "height": 480,
+            "loaded": true,
+            "width": 331,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2AF1C0CA8A8EDD27",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Oxford Instruments PlasmaPro 100 Cobra",
+      "claim": "The linked source presents an instrument photograph matched to Oxford Instruments PlasmaPro 100 Cobra (product family).",
+      "scope": "Representative PlasmaPro 100 Cobra family photograph: NIST's metal-etch ICP configuration. Gas chemistry, chamber options and installation are specific to the pictured facility; other Cobra configurations are not visually established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Oxford Instruments instrument photograph / catalog entry",
+          "url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-inductively-coupled-plasma-icp-metal-etcher-oxford",
+          "locator": "Oxford metal PlasmaPro 100 Cobra etcher",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M61-04",
+          "label": "Oxford Instruments PlasmaPro 100 Cobra"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M61",
+          "label": "Etching systems"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P14",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M61-04",
+        "model_name": "Oxford Instruments PlasmaPro 100 Cobra",
+        "manufacturer": "Oxford Instruments",
+        "category_id": "M61",
+        "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2025/05/13/Oxford-metal-PlasmaPro-100-Cobra-etcher.png.webp?itok=ToRCG13D",
+        "image_scope": "Representative PlasmaPro 100 Cobra family photograph: NIST's metal-etch ICP configuration. Gas chemistry, chamber options and installation are specific to the pictured facility; other Cobra configurations are not visually established.",
+        "match_scope": "product_family",
+        "catalog_discovery_url": "https://www.nist.gov/cnst/equipment",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "browser": {
+            "equipment_id": "M61-04",
+            "height": 480,
+            "loaded": true,
+            "width": 362,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E9E5142A8C72B349",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Park Systems NX20",
+      "claim": "The linked source presents an instrument photograph matched to Park Systems NX20 (exact model).",
+      "scope": "Supplier-submitted Park NX20 photograph in the Nanowerk catalog. Exact model, with illustrative enclosure/accessory configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Park Systems instrument photograph / catalog entry",
+          "url": "https://www.nanowerk.com/nanocatalog/microscopy-and-imaging/de5c8ad/park-nx20",
+          "locator": "Park NX20",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M41-09",
+          "label": "Park Systems NX20"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M41-09",
+        "model_name": "Park Systems NX20",
+        "manufacturer": "Park Systems",
+        "category_id": "M41",
+        "image_url": "https://www.nanowerk.com/nanocatalog/productimages/1440948281nx20_full.png",
+        "image_scope": "Supplier-submitted Park NX20 photograph in the Nanowerk catalog. Exact model, with illustrative enclosure/accessory configuration.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nanowerk.com/nanocatalog/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M41-09",
+            "height": 360,
+            "loaded": true,
+            "width": 408,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-3F7E04AD1D9FD374",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Nanosurf FlexAFM",
+      "claim": "The linked source presents an instrument photograph matched to Nanosurf FlexAFM (exact model).",
+      "scope": "Manufacturer FlexAFM product photograph, representative of the configurable FlexAFM system. Stage, controller, optical microscope and optional accessories depend on configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Nanosurf instrument photograph / catalog entry",
+          "url": "https://www.nanosurf.com/en/products/flexafm",
+          "locator": "Official model-page hero image with alt FlexAFM_lowkey.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M41-10",
+          "label": "Nanosurf FlexAFM"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M41-10",
+        "model_name": "Nanosurf FlexAFM",
+        "manufacturer": "Nanosurf",
+        "category_id": "M41",
+        "image_url": "https://www.nanosurf.com/hs-fs/hubfs/HD%20Assets/Products/FlexAFM_lowkey.jpg?width=690&height=453&name=FlexAFM_lowkey.jpg",
+        "image_scope": "Manufacturer FlexAFM product photograph, representative of the configurable FlexAFM system. Stage, controller, optical microscope and optional accessories depend on configuration.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.nanosurf.com/en/products",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M41-10",
+            "height": 453,
+            "loaded": true,
+            "width": 690,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-331296723ADB0192",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Bruker Dimension Icon",
+      "claim": "The linked source presents an instrument photograph matched to Bruker Dimension Icon (exact model).",
+      "scope": "Caltech MMRC photograph of its Bruker Dimension Icon. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Bruker instrument photograph / catalog entry",
+          "url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+          "locator": "Facility equipment page explicitly describes Bruker Dimension Icon and links this image (Dimension Icon).",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M41-02",
+          "label": "Bruker Dimension Icon"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M41-02",
+        "model_name": "Bruker Dimension Icon",
+        "manufacturer": "Bruker",
+        "category_id": "M41",
+        "image_url": "https://mmrc.caltech.edu/AFM%20Dimension%20Icon/Pictures%20Dimension%20Icon/Dimension%20Icon.jpg",
+        "image_scope": "Caltech MMRC photograph of its Bruker Dimension Icon. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M41-02",
+            "height": 480,
+            "loaded": true,
+            "width": 640,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F54CE8F9E5383DC1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Bruker MultiMode 8",
+      "claim": "The linked source presents an instrument photograph matched to Bruker MultiMode 8 (exact model).",
+      "scope": "Caltech MMRC photograph of its Bruker MultiMode 8. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Bruker instrument photograph / catalog entry",
+          "url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+          "locator": "Facility equipment page explicitly describes Bruker MultiMode 8 and links this image (MultiMode update ).",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M41-08",
+          "label": "Bruker MultiMode 8"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M41-08",
+        "model_name": "Bruker MultiMode 8",
+        "manufacturer": "Bruker",
+        "category_id": "M41",
+        "image_url": "https://mmrc.caltech.edu/AFM_STM/Pictures/MultiMode%20update.jpg",
+        "image_scope": "Caltech MMRC photograph of its Bruker MultiMode 8. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M41-08",
+            "height": 640,
+            "loaded": true,
+            "width": 478,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-13EB4BBCDBCA2BA9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Inovenso NE300",
+      "claim": "The linked source presents an instrument photograph matched to Inovenso NE300 (exact model existing category).",
+      "scope": "Exact NE300 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Inovenso instrument photograph / catalog entry",
+          "url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "locator": "Same exact manufacturer/model already has this sourced photo in category M26 (M26-01); reused across its electrospraying association.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M47-02",
+          "label": "Inovenso NE300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M47",
+          "label": "Electrospraying platform"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M47-02",
+        "model_name": "Inovenso NE300",
+        "manufacturer": "Inovenso",
+        "category_id": "M47",
+        "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE300-electrospinning-machine-1-1100x550-1.png",
+        "image_scope": "Exact NE300 instrument photograph, explicitly named in the manufacturer comparison page.",
+        "match_scope": "exact_model_existing_category",
+        "catalog_discovery_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M47-02",
+            "height": 935,
+            "loaded": true,
+            "width": 950,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-8D4548721A4A3AE8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Inovenso NE100",
+      "claim": "The linked source presents an instrument photograph matched to Inovenso NE100 (exact model existing category).",
+      "scope": "Exact NE100 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Inovenso instrument photograph / catalog entry",
+          "url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "locator": "Same exact manufacturer/model already has this sourced photo in category M26 (M26-07); reused across its electrospraying association.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M47-07",
+          "label": "Inovenso NE100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M47",
+          "label": "Electrospraying platform"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M47-07",
+        "model_name": "Inovenso NE100",
+        "manufacturer": "Inovenso",
+        "category_id": "M47",
+        "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE100-electrospinning-machine-1-1100x550-1.png",
+        "image_scope": "Exact NE100 instrument photograph, explicitly named in the manufacturer comparison page.",
+        "match_scope": "exact_model_existing_category",
+        "catalog_discovery_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M47-07",
+            "height": 935,
+            "loaded": true,
+            "width": 950,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-D912B534FE2EE90D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Inovenso NE200",
+      "claim": "The linked source presents an instrument photograph matched to Inovenso NE200 (exact model existing category).",
+      "scope": "Exact NE200 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Inovenso instrument photograph / catalog entry",
+          "url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "locator": "Same exact manufacturer/model already has this sourced photo in category M26 (M26-08); reused across its electrospraying association.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M47-08",
+          "label": "Inovenso NE200"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M47",
+          "label": "Electrospraying platform"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M47-08",
+        "model_name": "Inovenso NE200",
+        "manufacturer": "Inovenso",
+        "category_id": "M47",
+        "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE200-electrospinning-machine-2-1100x550-1.png",
+        "image_scope": "Exact NE200 instrument photograph, explicitly named in the manufacturer comparison page.",
+        "match_scope": "exact_model_existing_category",
+        "catalog_discovery_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M47-08",
+            "height": 935,
+            "loaded": true,
+            "width": 950,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-6E796BECF5D076F7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: RETSCH PM 100",
+      "claim": "The linked source presents an instrument photograph matched to RETSCH PM 100 (exact model).",
+      "scope": "Manufacturer photograph of RETSCH PM 100. Options and accessories may vary. Official PM100 model page main instrument image; page title and product introduction identify PM100. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "RETSCH instrument photograph / catalog entry",
+          "url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-100/",
+          "locator": "Official PM100 model page main instrument image; page title and product introduction identify PM100.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-04",
+          "label": "RETSCH PM 100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P41",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-04",
+        "model_name": "RETSCH PM 100",
+        "manufacturer": "RETSCH",
+        "category_id": "M12",
+        "image_url": "https://www.retsch.com/assets/images/g/main_pm100-5ccxg24k6x9t0y2.png",
+        "image_scope": "Manufacturer photograph of RETSCH PM 100. Options and accessories may vary. Official PM100 model page main instrument image; page title and product introduction identify PM100.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.retsch.com/products/milling/planetary-ball-mills/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "167976",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            470,
+            470
+          ],
+          "final_image_url": "https://www.retsch.com/assets/images/g/main_pm100-5ccxg24k6x9t0y2.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-04",
+            "height": 470,
+            "loaded": true,
+            "width": 470,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-58CF2AB92ADAC6CD",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: RETSCH PM 400",
+      "claim": "The linked source presents an instrument photograph matched to RETSCH PM 400 (exact model).",
+      "scope": "Manufacturer photograph of RETSCH PM 400. Options and accessories may vary. Official PM400 model page main instrument image; PM400 is the four-station floor model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "RETSCH instrument photograph / catalog entry",
+          "url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-400/",
+          "locator": "Official PM400 model page main instrument image; PM400 is the four-station floor model.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-06",
+          "label": "RETSCH PM 400"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-06",
+        "model_name": "RETSCH PM 400",
+        "manufacturer": "RETSCH",
+        "category_id": "M12",
+        "image_url": "https://www.retsch.com/assets/images/v/main_pm400-f6w3zmgqgwt7j6e.png",
+        "image_scope": "Manufacturer photograph of RETSCH PM 400. Options and accessories may vary. Official PM400 model page main instrument image; PM400 is the four-station floor model.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.retsch.com/products/milling/planetary-ball-mills/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "151606",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            470,
+            470
+          ],
+          "final_image_url": "https://www.retsch.com/assets/images/v/main_pm400-f6w3zmgqgwt7j6e.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-06",
+            "height": 470,
+            "loaded": true,
+            "width": 470,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-AFDB04AE87EE3FE5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: FRITSCH PULVERISETTE 5 classic line",
+      "claim": "The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 classic line (product family).",
+      "scope": "Family illustration: PULVERISETTE5/4 classic (4 working stations); canonical record does not specify station count. Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "FRITSCH instrument photograph / catalog entry",
+          "url": "https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-54-classic-line/",
+          "locator": "Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-07",
+          "label": "FRITSCH PULVERISETTE 5 classic line"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-07",
+        "model_name": "FRITSCH PULVERISETTE 5 classic line",
+        "manufacturer": "FRITSCH",
+        "category_id": "M12",
+        "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5_4-classic-line_d3882ff065.png",
+        "image_scope": "Family illustration: PULVERISETTE5/4 classic (4 working stations); canonical record does not specify station count. Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match.",
+        "match_scope": "product_family",
+        "catalog_discovery_url": "https://www.fritsch-international.com/sample-preparation/milling/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "110384",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            780,
+            435
+          ],
+          "final_image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5_4-classic-line_d3882ff065.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-07",
+            "height": 435,
+            "loaded": true,
+            "width": 780,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E2EF02317488BBC8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: FRITSCH PULVERISETTE 5 premium line",
+      "claim": "The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 premium line (exact model).",
+      "scope": "Manufacturer photograph of FRITSCH PULVERISETTE 5 premium line. Options and accessories may vary. Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "FRITSCH instrument photograph / catalog entry",
+          "url": "https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-5-premium-line/",
+          "locator": "Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-08",
+          "label": "FRITSCH PULVERISETTE 5 premium line"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-08",
+        "model_name": "FRITSCH PULVERISETTE 5 premium line",
+        "manufacturer": "FRITSCH",
+        "category_id": "M12",
+        "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5-premium-line-open_f737872991.png",
+        "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 5 premium line. Options and accessories may vary. Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.fritsch-international.com/sample-preparation/milling/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "145160",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            780,
+            435
+          ],
+          "final_image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5-premium-line-open_f737872991.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-08",
+            "height": 435,
+            "loaded": true,
+            "width": 780,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-27ED6F0A8123F315",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: FRITSCH PULVERISETTE 6 classic line",
+      "claim": "The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 6 classic line (exact model).",
+      "scope": "Manufacturer photograph of FRITSCH PULVERISETTE 6 classic line. Options and accessories may vary. Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "FRITSCH instrument photograph / catalog entry",
+          "url": "https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-6-classic-line/",
+          "locator": "Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-09",
+          "label": "FRITSCH PULVERISETTE 6 classic line"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-09",
+        "model_name": "FRITSCH PULVERISETTE 6 classic line",
+        "manufacturer": "FRITSCH",
+        "category_id": "M12",
+        "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-6-classic-line_74c05f04ae.png",
+        "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 6 classic line. Options and accessories may vary. Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.fritsch-international.com/sample-preparation/milling/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "87284",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            780,
+            435
+          ],
+          "final_image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-6-classic-line_74c05f04ae.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-09",
+            "height": 435,
+            "loaded": true,
+            "width": 780,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2C9C8805466496B6",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: FRITSCH PULVERISETTE 7 classic line",
+      "claim": "The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 7 classic line (exact model).",
+      "scope": "Manufacturer photograph of FRITSCH PULVERISETTE 7 classic line. Options and accessories may vary. Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "FRITSCH instrument photograph / catalog entry",
+          "url": "https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-7-classic-line/",
+          "locator": "Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M12-10",
+          "label": "FRITSCH PULVERISETTE 7 classic line"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M12-10",
+        "model_name": "FRITSCH PULVERISETTE 7 classic line",
+        "manufacturer": "FRITSCH",
+        "category_id": "M12",
+        "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-7-classic-line_64d9ca81bd.png",
+        "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 7 classic line. Options and accessories may vary. Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.fritsch-international.com/sample-preparation/milling/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "content_length": "79229",
+          "image_signature": "89504e470d0a1a0a",
+          "pixel_dimensions": [
+            780,
+            435
+          ],
+          "final_image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-7-classic-line_64d9ca81bd.png",
+          "method": "HTTP GET streaming first64bytes only; image bytes not saved",
+          "browser": {
+            "equipment_id": "M12-10",
+            "height": 435,
+            "loaded": true,
+            "width": 780,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B8D5B384F8830BBA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: JEOL JSM-IT200",
+      "claim": "The linked source presents an instrument photograph matched to JEOL JSM-IT200 (exact model).",
+      "scope": "Official manufacturer hero photo of JSM-IT200; no Purdue ownership assertion. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "JEOL instrument photograph / catalog entry",
+          "url": "https://www.jeol.com/products/scientific/sem/JSM-IT200.php",
+          "locator": "Manufacturer product page names JSM-IT200 and labels this image JSM-IT200 InTouchScope Scanning Electron Microscope. Page marks product discontinued.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-04",
+          "label": "JEOL JSM-IT200"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-04",
+        "model_name": "JEOL JSM-IT200",
+        "manufacturer": "JEOL",
+        "category_id": "M38",
+        "image_url": "https://www.jeol.com/products/assets/images/JSM-IT200_en.png",
+        "image_scope": "Official manufacturer hero photo of JSM-IT200; no Purdue ownership assertion.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.jeol.com/products/scientific/sem/JSM-IT200.php",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M38-04",
+            "height": 900,
+            "loaded": true,
+            "width": 900,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2BE437F4DB38BF85",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: JEOL JSM-IT510",
+      "claim": "The linked source presents an instrument photograph matched to JEOL JSM-IT510 (exact model).",
+      "scope": "Official manufacturer hero photo of JSM-IT510; no Purdue ownership assertion. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "JEOL instrument photograph / catalog entry",
+          "url": "https://www.jeol.com/products/scientific/sem/JSM-IT510.php",
+          "locator": "Manufacturer product page names JSM-IT510 and labels this image JSM-IT510 InTouchScope Scanning Electron Microscope.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-05",
+          "label": "JEOL JSM-IT510"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-05",
+        "model_name": "JEOL JSM-IT510",
+        "manufacturer": "JEOL",
+        "category_id": "M38",
+        "image_url": "https://www.jeol.com/products/assets/images/JSM-IT510_en.png",
+        "image_scope": "Official manufacturer hero photo of JSM-IT510; no Purdue ownership assertion.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.jeol.com/products/scientific/sem/JSM-IT510.php",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M38-05",
+            "height": 900,
+            "loaded": true,
+            "width": 900,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-36563110BA3E1FFA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: JEOL JSM-IT800",
+      "claim": "The linked source presents an instrument photograph matched to JEOL JSM-IT800 (product family).",
+      "scope": "Official JEOL JSM-IT800 family photo showing the HL version; lens/variant configuration may differ. Not a photo of a Purdue asset. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "JEOL instrument photograph / catalog entry",
+          "url": "https://www.jeol.com/products/scientific/sem/JSM-IT800.php",
+          "locator": "Manufacturer JSM-IT800 page lists HL, SHL, SHLs, i and is versions and uses this JSM-IT800HL image as its product hero. Page marks family discontinued.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-06",
+          "label": "JEOL JSM-IT800"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-06",
+        "model_name": "JEOL JSM-IT800",
+        "manufacturer": "JEOL",
+        "category_id": "M38",
+        "image_url": "https://www.jeol.com/products/assets/images/JSM-IT800HL_en.png",
+        "image_scope": "Official JEOL JSM-IT800 family photo showing the HL version; lens/variant configuration may differ. Not a photo of a Purdue asset.",
+        "match_scope": "product_family",
+        "catalog_discovery_url": "https://www.jeol.com/products/scientific/sem/JSM-IT800.php",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M38-06",
+            "height": 900,
+            "loaded": true,
+            "width": 900,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-77946113A2408233",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Hitachi SU3900",
+      "claim": "The linked source presents an instrument photograph matched to Hitachi SU3900 (exact model).",
+      "scope": "Millersville University facility photo of Hitachi SU3900; facility-specific accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Hitachi instrument photograph / catalog entry",
+          "url": "https://www.millersville.edu/emlab/equipment.php",
+          "locator": "Millersville equipment catalog identifies Hitachi SU3900 Scanning Electron Microscope and the image alt text uses that exact model name.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-07",
+          "label": "Hitachi SU3900"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-07",
+        "model_name": "Hitachi SU3900",
+        "manufacturer": "Hitachi",
+        "category_id": "M38",
+        "image_url": "https://www.millersville.edu/emlab/img/semimage_v1.jpg",
+        "image_scope": "Millersville University facility photo of Hitachi SU3900; facility-specific accessories may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.millersville.edu/emlab/equipment.php",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M38-07",
+            "height": 911,
+            "loaded": true,
+            "width": 1482,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F1F48A4C68A37F51",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Hitachi SU5000",
+      "claim": "The linked source presents an instrument photograph matched to Hitachi SU5000 (exact model).",
+      "scope": "Binghamton University photo of Hitachi SU5000 with variable-pressure configuration; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Hitachi instrument photograph / catalog entry",
+          "url": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/su5000.html",
+          "locator": "Facility instrument page title is Hitachi SU5000 VP and image alt text is Hitachi SU5000. Official Hitachi hero was also located but rejected due HTTP403.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-08",
+          "label": "Hitachi SU5000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-08",
+        "model_name": "Hitachi SU5000",
+        "manufacturer": "Hitachi",
+        "category_id": "M38",
+        "image_url": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/img/su5000_small.png",
+        "image_scope": "Binghamton University photo of Hitachi SU5000 with variable-pressure configuration; accessories may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/su5000.html",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M38-08",
+            "height": 400,
+            "loaded": true,
+            "width": 400,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A2F3EA2E51D9D099",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Apreo 2",
+      "claim": "The linked source presents an instrument photograph matched to Thermo Scientific Apreo 2 (exact model).",
+      "scope": "Official manufacturer Apreo 2 SEM product photo; detector/accessory configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Thermo Scientific instrument photograph / catalog entry",
+          "url": "https://www.thermofisher.com/order/catalog/product/APREOSEM",
+          "locator": "Thermo Fisher catalog product APREOSEM page title and text identify Apreo 2; this is its top product image, alt Apreo SEM.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-09",
+          "label": "Thermo Scientific Apreo 2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-09",
+        "model_name": "Thermo Scientific Apreo 2",
+        "manufacturer": "Thermo Scientific",
+        "category_id": "M38",
+        "image_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/apreo-sem/jcr:content/wellPageHeading/uipar/image_ca5f/foregroundimg.img.full.high.png/1674855055567.png",
+        "image_scope": "Official manufacturer Apreo 2 SEM product photo; detector/accessory configuration may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.thermofisher.com/order/catalog/product/APREOSEM",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M38-09",
+            "height": 500,
+            "loaded": true,
+            "width": 393,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B52E5E297A150495",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Talos L120C G2",
+      "claim": "The linked source presents an instrument photograph matched to Thermo Scientific Talos L120C G2 (exact model).",
+      "scope": "University of Florida ICBR Talos L120C G2 instrument photo; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Thermo Scientific instrument photograph / catalog entry",
+          "url": "https://biotech.ufl.edu/portfolio/talos-l120c-g2/",
+          "locator": "UF ICBR instrument catalog entry is headed Talos L120C G2; its attached post image is Talos-Web-Image.png.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M39-02",
+          "label": "Thermo Scientific Talos L120C G2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M39",
+          "label": "Transmission electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P03",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M39-02",
+        "model_name": "Thermo Scientific Talos L120C G2",
+        "manufacturer": "Thermo Scientific",
+        "category_id": "M39",
+        "image_url": "https://biotech.ufl.edu/wp-content/uploads/2023/12/Talos-Web-Image.png",
+        "image_scope": "University of Florida ICBR Talos L120C G2 instrument photo; accessories may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://biotech.ufl.edu/portfolio/talos-l120c-g2/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M39-02",
+            "height": 300,
+            "loaded": true,
+            "width": 300,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-0CB57A209F20501B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Hitachi HT7800",
+      "claim": "The linked source presents an instrument photograph matched to Hitachi HT7800 (exact model).",
+      "scope": "University of Iowa facility photo of Hitachi HT7800; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Hitachi instrument photograph / catalog entry",
+          "url": "https://cmrf.research.uiowa.edu/hitachi-ht7800",
+          "locator": "University of Iowa instrument catalog page and image alt text both identify Hitachi HT7800.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M39-03",
+          "label": "Hitachi HT7800"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M39",
+          "label": "Transmission electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P03",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M39-03",
+        "model_name": "Hitachi HT7800",
+        "manufacturer": "Hitachi",
+        "category_id": "M39",
+        "image_url": "https://cmrf.research.uiowa.edu/sites/cmrf.research.uiowa.edu/files/2024-11/7800small.jpg",
+        "image_scope": "University of Iowa facility photo of Hitachi HT7800; accessories may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://cmrf.research.uiowa.edu/hitachi-ht7800",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M39-03",
+            "height": 480,
+            "loaded": true,
+            "width": 270,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-72675B1162B898EE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Talos F200X G2",
+      "claim": "The linked source presents an instrument photograph matched to Thermo Scientific Talos F200X G2 (exact model).",
+      "scope": "University of Nebraska-Lincoln catalog illustration for Talos F200X G2; CFEG/detector configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Thermo Scientific instrument photograph / catalog entry",
+          "url": "https://enif.unl.edu/talos-f200x-g2/",
+          "locator": "UNL Electron Nanoscopy Instrumentation Facility page heading is Talos F200X G2 Scanning TEM; instrument image immediately follows the instrument description. Current page says Coming Soon, so photo does not establish an installed asset.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M39-07",
+          "label": "Thermo Scientific Talos F200X G2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M39",
+          "label": "Transmission electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P03",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M39-07",
+        "model_name": "Thermo Scientific Talos F200X G2",
+        "manufacturer": "Thermo Scientific",
+        "category_id": "M39",
+        "image_url": "https://enif.unl.edu/sites/unl.edu.research.nebraska-center-for-materials-and-nanoscience.electron-nanoscopy/files/styles/no_crop_720/public/media/image/E5E68E2A-5E5B-487B-96EC-48E89DD35A1B.jpeg?itok=S3Ip7WeY",
+        "image_scope": "University of Nebraska-Lincoln catalog illustration for Talos F200X G2; CFEG/detector configuration may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://enif.unl.edu/talos-f200x-g2/",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "browser": {
+            "equipment_id": "M39-07",
+            "height": 816,
+            "loaded": true,
+            "width": 720,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7F7D74E631124C20",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Spectra 300",
+      "claim": "The linked source presents an instrument photograph matched to Thermo Scientific Spectra 300 (exact model).",
+      "scope": "Official manufacturer Spectra 300 product photo; configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Thermo Scientific instrument photograph / catalog entry",
+          "url": "https://www.thermofisher.com/de/de/home/electron-microscopy/products/transmission-electron-microscopes/spectra/instruments/spectra-300-tem.html",
+          "locator": "Thermo Fisher Spectra 300 product page uses this instrument image as cmp-pageheadinghero__img, filename hero-banner-overlay-Spectra300-763x763.png.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M39-08",
+          "label": "Thermo Scientific Spectra 300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M39",
+          "label": "Transmission electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P03",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M39-08",
+        "model_name": "Thermo Scientific Spectra 300",
+        "manufacturer": "Thermo Scientific",
+        "category_id": "M39",
+        "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/spectra/hero-banner-overlay-Spectra300-763x763.png",
+        "image_scope": "Official manufacturer Spectra 300 product photo; configuration may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.thermofisher.com/de/de/home/electron-microscopy/products/transmission-electron-microscopes/spectra/instruments/spectra-300-tem.html",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M39-08",
+            "height": 763,
+            "loaded": true,
+            "width": 763,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-4AC93356D987AC4B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Hitachi HT7830",
+      "claim": "The linked source presents an instrument photograph matched to Hitachi HT7830 (exact model).",
+      "scope": "Clemson University facility illustration of Hitachi HT7830; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Hitachi instrument photograph / catalog entry",
+          "url": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/capabilities/tem.html",
+          "locator": "Clemson TEM equipment catalog section Variable Energy Transmission Electron Microscope HT7830 includes this instrument image with alt ht7830, separate from microscopy sample figures.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M39-09",
+          "label": "Hitachi HT7830"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M39",
+          "label": "Transmission electron microscope"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P01",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P03",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M39-09",
+        "model_name": "Hitachi HT7830",
+        "manufacturer": "Hitachi",
+        "category_id": "M39",
+        "image_url": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/images/electron-microscope-ht7830.png",
+        "image_scope": "Clemson University facility illustration of Hitachi HT7830; accessories may differ. Not a Purdue asset photo.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/capabilities/tem.html",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "browser": {
+            "equipment_id": "M39-09",
+            "height": 533,
+            "loaded": true,
+            "width": 800,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BEB4F7B38F4C3AA0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RCT basic",
+      "claim": "The linked source presents an instrument photograph matched to IKA RCT basic (product family).",
+      "scope": "IKA RCT basic manufacturer presentation on DirectIndustry. Illustrated 20 L / 310 C generation; current IKA price page resolves a newer 800 W generation, so this is a labeled RCT basic family representative rather than an exact current SKU or an institutional asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-648057.html",
+          "locator": "Product title RCT basic; description specifies 20 L, 310 C, glass surface and USB/RS232. Main product image explicitly linked by this page.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M02-01",
+          "label": "IKA RCT basic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M02",
+          "label": "Magnetic hotplate stirrer"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M02-01",
+        "model_name": "IKA RCT basic",
+        "manufacturer": "IKA",
+        "category_id": "M02",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-17687712.jpg",
+        "image_scope": "IKA RCT basic manufacturer presentation on DirectIndustry. Illustrated 20 L / 310 C generation; current IKA price page resolves a newer 800 W generation, so this is a labeled RCT basic family representative rather than an exact current SKU or an institutional asset photo.",
+        "match_scope": "product_family",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-648057.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 14380,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M02-01",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-0CA7E919E9882522",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RCT digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA RCT digital (exact model).",
+      "scope": "IKA Plate (RCT digital) main product photo in IKA's DirectIndustry manufacturer presentation. Named model; accessories, voltage and installed institutional configuration are not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-1841380.html",
+          "locator": "Product heading RCT digital; description explicitly calls it IKA Plate (RCT digital).",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M02-04",
+          "label": "IKA RCT digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M02",
+          "label": "Magnetic hotplate stirrer"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M02-04",
+        "model_name": "IKA RCT digital",
+        "manufacturer": "IKA",
+        "category_id": "M02",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-12052960.jpg",
+        "image_scope": "IKA Plate (RCT digital) main product photo in IKA's DirectIndustry manufacturer presentation. Named model; accessories, voltage and installed institutional configuration are not established.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-1841380.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 13110,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M02-04",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9833B6EA37967C38",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RET control-visc",
+      "claim": "The linked source presents an instrument photograph matched to IKA RET control-visc (exact model).",
+      "scope": "RET control-visc photo in IKA's DirectIndustry presentation. Catalog short title RET -visc; description and linked manufacturer brochure identify RET control-visc with integrated balance, TFT and stainless steel plate. Does not establish voltage or institutional asset identity. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-1617045.html",
+          "locator": "Description matches IKA official RET control-visc page: integrated balance, TFT, 340 C stainless steel composite plate, PT100, USB/RS232; page links THE VERSATILE MAGNETIC STIRRER | RET control-visc brochure.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M02-05",
+          "label": "IKA RET control-visc"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M02",
+          "label": "Magnetic hotplate stirrer"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P06",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P18",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M02-05",
+        "model_name": "IKA RET control-visc",
+        "manufacturer": "IKA",
+        "category_id": "M02",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-8488425.jpg",
+        "image_scope": "RET control-visc photo in IKA's DirectIndustry presentation. Catalog short title RET -visc; description and linked manufacturer brochure identify RET control-visc with integrated balance, TFT and stainless steel plate. Does not establish voltage or institutional asset identity.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-1617045.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 15328,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M02-05",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2F1A4044DA8D6EFC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA EUROSTAR 20 digital, 20105154",
+      "claim": "The linked source presents an instrument photograph matched to IKA EUROSTAR 20 digital, 20105154 (exact model).",
+      "scope": "EUROSTAR 20 digital new-generation photo, explicitly labeled EUROSTAR 20 digital by IKA supplier VERKON. Catalog lists 20 digital as order code 412 482 105 154 and new 25 L / 40 Ncm generation matching IKA 0020105154. No inference of an installed asset or other EUROSTAR generations. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.verkon.cz/michacka-hridelova-ika-serie-eurostar-new-digital/",
+          "locator": "Gallery image alt EUROSTAR 20 digital; page specifies EUROSTAR NEW digital, 25 L and 40 Ncm for 20 digital and order code ending 105154. Official IKA German page confirms new generation and SKU 0020105154.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M03-01",
+          "label": "IKA EUROSTAR 20 digital, 20105154"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M03",
+          "label": "Overhead stirrer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M03-01",
+        "model_name": "IKA EUROSTAR 20 digital, 20105154",
+        "manufacturer": "IKA",
+        "category_id": "M03",
+        "image_url": "https://www.verkon.cz/image/middle2-ww/verkon-michacka-hridelova-ika-serie-eurostar-new-digital-49890.jpg",
+        "image_scope": "EUROSTAR 20 digital new-generation photo, explicitly labeled EUROSTAR 20 digital by IKA supplier VERKON. Catalog lists 20 digital as order code 412 482 105 154 and new 25 L / 40 Ncm generation matching IKA 0020105154. No inference of an installed asset or other EUROSTAR generations.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.verkon.cz/michacka-hridelova-ika-serie-eurostar-new-digital/",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 26188,
+          "width": 760,
+          "height": 570,
+          "generic_python_urllib_check": {
+            "method": "HTTP GET and in-memory image decoding; no media saved",
+            "status": 200,
+            "content_type": "image/jpeg",
+            "bytes": 26188,
+            "format": "JPEG",
+            "width": 760,
+            "height": 570
+          },
+          "browser": {
+            "equipment_id": "M03-01",
+            "height": 570,
+            "loaded": true,
+            "width": 760,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9B88D99450A39D63",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA EUROSTAR 40 digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA EUROSTAR 40 digital (exact model).",
+      "scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 40 digital, older 25 L / 40 Ncm generation consistent with existing 2014-generation manual. Photo is for Japanese-market 100 V article; no inference of exact US voltage or institutional ownership. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.axel-gl.com/en/asone/d/1-9943-21/",
+          "locator": "Product title EUROSTAR 40 digital, order 1-9943-21, JAN4053411053833, 25 L / 40 Ncm. Image appears explicitly in product-variation row for this exact model.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M03-04",
+          "label": "IKA EUROSTAR 40 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M03",
+          "label": "Overhead stirrer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M03-04",
+        "model_name": "IKA EUROSTAR 40 digital",
+        "manufacturer": "IKA",
+        "category_id": "M03",
+        "image_url": "https://aimg.as-1.co.jp/t/1/9943/21/01994321.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+        "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 40 digital, older 25 L / 40 Ncm generation consistent with existing 2014-generation manual. Photo is for Japanese-market 100 V article; no inference of exact US voltage or institutional ownership.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.axel-gl.com/en/asone/d/1-9943-21/",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 3493,
+          "width": 180,
+          "height": 150,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M03-04",
+            "height": 150,
+            "loaded": true,
+            "width": 180,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-1A3D14ADE1C78B99",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA EUROSTAR 60 digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA EUROSTAR 60 digital (exact model).",
+      "scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 60 digital, older 40 L / 60 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; does not establish exact US electrical configuration or institutional ownership. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.axel-gl.com/en/asone/d/1-3150-31/",
+          "locator": "Product title EUROSTAR 60 digital, order 1-3150-31, JAN4053411053840, 40 L / 60 Ncm. Avoided DirectIndustry EUROSTAR 60 page because its title and control-variant description conflict.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M03-05",
+          "label": "IKA EUROSTAR 60 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M03",
+          "label": "Overhead stirrer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M03-05",
+        "model_name": "IKA EUROSTAR 60 digital",
+        "manufacturer": "IKA",
+        "category_id": "M03",
+        "image_url": "https://aimg.as-1.co.jp/t/1/3150/31/01315031s_EC.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+        "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 60 digital, older 40 L / 60 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; does not establish exact US electrical configuration or institutional ownership.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.axel-gl.com/en/asone/d/1-3150-31/",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 2747,
+          "width": 150,
+          "height": 150,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M03-05",
+            "height": 150,
+            "loaded": true,
+            "width": 150,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-3CB445D5F28DCC05",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA EUROSTAR 100 digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA EUROSTAR 100 digital (exact model).",
+      "scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 100 digital, older 100 L / 100 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; exact regional electrical configuration or institutional ownership is not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.axel-gl.com/en/asone/d/1-7326-25/",
+          "locator": "Product title EUROSTAR 100 digital, order 1-7326-25, JAN4053411053864, 100 L / 100 Ncm. Image explicitly linked from variation row for this model.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M03-06",
+          "label": "IKA EUROSTAR 100 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M03",
+          "label": "Overhead stirrer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M03-06",
+        "model_name": "IKA EUROSTAR 100 digital",
+        "manufacturer": "IKA",
+        "category_id": "M03",
+        "image_url": "https://aimg.as-1.co.jp/t/1/7326/25/01732625.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+        "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 100 digital, older 100 L / 100 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; exact regional electrical configuration or institutional ownership is not established.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.axel-gl.com/en/asone/d/1-7326-25/",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 4086,
+          "width": 150,
+          "height": 150,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M03-06",
+            "height": 150,
+            "loaded": true,
+            "width": 150,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-EC105A528E8CDE7F",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA T 18 digital Solution",
+      "claim": "The linked source presents an instrument photograph matched to IKA T 18 digital Solution (product family).",
+      "scope": "T 18 digital ULTRA-TURRAX drive photo in IKA's DirectIndustry presentation. Representative of the drive included in T 18 digital Solution; does not show or verify the Solution package stand, clamp or S18 dispersing tool. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-1154321.html",
+          "locator": "DirectIndustry exact drive title T18 digital ULTRA-TURRAX. Official IKA T18 digital Solution page lists that drive plus S18N-19G tool, R1826 stand and R182 clamp.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-01",
+          "label": "IKA T 18 digital Solution"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-01",
+        "model_name": "IKA T 18 digital Solution",
+        "manufacturer": "IKA",
+        "category_id": "M11",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-4285269.jpg",
+        "image_scope": "T 18 digital ULTRA-TURRAX drive photo in IKA's DirectIndustry presentation. Representative of the drive included in T 18 digital Solution; does not show or verify the Solution package stand, clamp or S18 dispersing tool.",
+        "match_scope": "product_family",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-1154321.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 6619,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M11-01",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C070476E5794B967",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA T 25 digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA T 25 digital (exact model).",
+      "scope": "T 25 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model, not easy-clean or control variant. Dispersing tools/accessories in image do not establish included delivery scope. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-2656727.html",
+          "locator": "Exact title T25 digital ULTRA-TURRAX; description matches official IKA 0003725001 drive page, 1-2000mL, 3000-25000rpm.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-04",
+          "label": "IKA T 25 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P29",
+          "label": "Catalog planning association; image is not evidence of process performance"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-04",
+        "model_name": "IKA T 25 digital",
+        "manufacturer": "IKA",
+        "category_id": "M11",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-19373170.jpg",
+        "image_scope": "T 25 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model, not easy-clean or control variant. Dispersing tools/accessories in image do not establish included delivery scope.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-2656727.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 7995,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M11-04",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C82F591B732054FC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA T 50 digital",
+      "claim": "The linked source presents an instrument photograph matched to IKA T 50 digital (exact model).",
+      "scope": "T 50 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model; fitted tool/accessories do not establish included delivery scope or institutional configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-1931024.html",
+          "locator": "Exact title T50 digital ULTRA-TURRAX; description matches official IKA 0003787001 page, 0.25-30L and600-10000rpm.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-05",
+          "label": "IKA T 50 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-05",
+        "model_name": "IKA T 50 digital",
+        "manufacturer": "IKA",
+        "category_id": "M11",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-12062820.jpg",
+        "image_scope": "T 50 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model; fitted tool/accessories do not establish included delivery scope or institutional configuration.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-1931024.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 6692,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M11-05",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-926EEBC21AAE8F60",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA ULTRA-TURRAX Tube Drive",
+      "claim": "The linked source presents an instrument photograph matched to IKA ULTRA-TURRAX Tube Drive (exact model).",
+      "scope": "ULTRA-TURRAX Tube Drive photo in IKA's DirectIndustry manufacturer presentation. Exact named drive; tubes/accessories and institutional configuration are not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "IKA instrument photograph / catalog entry",
+          "url": "https://www.directindustry.com/prod/ika/product-28268-2488782.html",
+          "locator": "Exact title ULTRA-TURRAX Tube Drive. Description matches official IKA 0003646000 generic Tube Drive product, sealable 2-15/15-50mL tubes and removal-hook delivery item.",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-09",
+          "label": "IKA ULTRA-TURRAX Tube Drive"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-09",
+        "model_name": "IKA ULTRA-TURRAX Tube Drive",
+        "manufacturer": "IKA",
+        "category_id": "M11",
+        "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-17688963.jpg",
+        "image_scope": "ULTRA-TURRAX Tube Drive photo in IKA's DirectIndustry manufacturer presentation. Exact named drive; tubes/accessories and institutional configuration are not established.",
+        "match_scope": "exact_model",
+        "catalog_discovery_url": "https://www.directindustry.com/prod/ika/product-28268-2488782.html",
+        "verification": {
+          "method": "HTTP GET via ordinary PowerShell web client, then in-memory image decode; no media file saved",
+          "status": 200,
+          "content_type": "image/jpeg",
+          "bytes": 14993,
+          "width": 500,
+          "height": 500,
+          "generic_python_urllib_check": {
+            "error": "HTTP Error 403: Forbidden"
+          },
+          "browser": {
+            "equipment_id": "M11-09",
+            "height": 500,
+            "loaded": true,
+            "width": 500,
+            "checked_date": "2026-10-18",
+            "method": "Browser image complete and natural dimensions; visually reviewed."
+          }
+        },
+        "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    }
+  ]
+}

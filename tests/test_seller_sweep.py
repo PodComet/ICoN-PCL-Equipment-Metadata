@@ -25,8 +25,12 @@ def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
     s=report['summary']
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     overrides={u['equipment_id']:u['after'] for u in media['equipment_updates']}
+    photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
+    for update in photos['records']:
+        overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+    later_photos=sum(not u['before']['image_url'] and bool(u['after']['image_url']) for u in photos['records'] if u['equipment_id'] in rows)
     assert len(rows)==s['models']==858
-    assert sum(bool(r['image_url']) for r in rows.values())==s['photos_after']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])+len(media['new_photo_records'])
+    assert sum(bool(r['image_url']) for r in rows.values())==s['photos_after']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])+len(media['new_photo_records'])+later_photos
     assert s['photos_after']==s['photos_before']+s['new_photos']
     assert len(report['photos'])==s['new_photos']
     assert len({r['equipment_id'] for r in report['reviewed']})==s['reviewed_models']

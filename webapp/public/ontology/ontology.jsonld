@@ -113522,9 +113522,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-17687712.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RCT-basic-25008259/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-17687712.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -113884,6 +113894,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-12052960.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-12052960.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
@@ -113979,9 +113999,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-8488425.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Magnetic-Stirrers-pg188/RET-control-visc-5020000/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-8488425.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -114582,9 +114612,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.verkon.cz/image/middle2-ww/verkon-michacka-hridelova-ika-serie-eurostar-new-digital-49890.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/de/Produkte-LabEq/Ruehrwerke-pg187/EUROSTAR-20-digital-20105154/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.verkon.cz/image/middle2-ww/verkon-michacka-hridelova-ika-serie-eurostar-new-digital-49890.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -114811,9 +114851,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/9943/21/01994321.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-40-digital-4444000/Technical-Data-cptd.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/9943/21/01994321.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -114884,9 +114934,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/3150/31/01315031s_EC.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Overhead-Stirrers-pg187/EUROSTAR-60-digital-4446000/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/3150/31/01315031s_EC.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -114955,6 +115015,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/7326/25/01732625.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://aimg.as-1.co.jp/t/1/7326/25/01732625.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -120858,9 +120928,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-4285269.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-4285269.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -121075,9 +121155,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-19373170.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/T-25-digital-ULTRA-TURRAX-3725000/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-19373170.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -121135,9 +121225,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-12062820.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-50-digital-ULTRA-TURRAX-3787000/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-12062820.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -121343,6 +121443,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-17688963.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-mg/28268-17688963.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -121723,6 +121833,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/retsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.retsch.com/assets/images/g/main_pm100-5ccxg24k6x9t0y2.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.retsch.com/assets/images/g/main_pm100-5ccxg24k6x9t0y2.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/retsch"
@@ -121873,6 +121993,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/retsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.retsch.com/assets/images/v/main_pm400-f6w3zmgqgwt7j6e.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.retsch.com/assets/images/v/main_pm400-f6w3zmgqgwt7j6e.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/retsch"
@@ -121927,6 +122057,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5_4-classic-line_d3882ff065.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5_4-classic-line_d3882ff065.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -121985,6 +122125,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5-premium-line-open_f737872991.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5-premium-line-open_f737872991.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
@@ -122041,6 +122191,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-6-classic-line_74c05f04ae.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-6-classic-line_74c05f04ae.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
@@ -122095,6 +122255,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fritsch"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-7-classic-line_64d9ca81bd.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-7-classic-line_64d9ca81bd.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -129423,6 +129593,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/oxfordinstruments"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2023/04/28/ald.png.webp?itok=kWcxaK9s"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2023/04/28/ald.png.webp?itok=kWcxaK9s"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -141615,6 +141795,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/jeol"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT200_en.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT200_en.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/jeol"
@@ -141690,6 +141880,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/jeol"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT510_en.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT510_en.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -141769,6 +141969,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/jeol"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT800HL_en.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.jeol.com/products/assets/images/JSM-IT800HL_en.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/jeol"
@@ -141844,6 +142054,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/hitachi"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.millersville.edu/emlab/img/semimage_v1.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.millersville.edu/emlab/img/semimage_v1.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -141923,6 +142143,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/hitachi"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/img/su5000_small.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/img/su5000_small.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/hitachi"
@@ -142000,6 +142230,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/apreo-sem/jcr:content/wellPageHeading/uipar/image_ca5f/foregroundimg.img.full.high.png/1674855055567.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/apreo-sem/jcr:content/wellPageHeading/uipar/image_ca5f/foregroundimg.img.full.high.png/1674855055567.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -142075,6 +142315,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/zeiss"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2020/09/14/gemini500.jpg.webp?itok=aKSCFAo9"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2020/09/14/gemini500.jpg.webp?itok=aKSCFAo9"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -142291,6 +142541,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://biotech.ufl.edu/wp-content/uploads/2023/12/Talos-Web-Image.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://biotech.ufl.edu/wp-content/uploads/2023/12/Talos-Web-Image.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -142381,6 +142641,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/hitachi"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cmrf.research.uiowa.edu/sites/cmrf.research.uiowa.edu/files/2024-11/7800small.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cmrf.research.uiowa.edu/sites/cmrf.research.uiowa.edu/files/2024-11/7800small.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -142841,6 +143111,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://enif.unl.edu/sites/unl.edu.research.nebraska-center-for-materials-and-nanoscience.electron-nanoscopy/files/styles/no_crop_720/public/media/image/E5E68E2A-5E5B-487B-96EC-48E89DD35A1B.jpeg?itok=S3Ip7WeY"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://enif.unl.edu/sites/unl.edu.research.nebraska-center-for-materials-and-nanoscience.electron-nanoscopy/files/styles/no_crop_720/public/media/image/E5E68E2A-5E5B-487B-96EC-48E89DD35A1B.jpeg?itok=S3Ip7WeY"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -142933,6 +143213,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/spectra/hero-banner-overlay-Spectra300-763x763.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/spectra/hero-banner-overlay-Spectra300-763x763.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -143023,6 +143313,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/hitachi"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/images/electron-microscope-ht7830.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/images/electron-microscope-ht7830.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -143841,6 +144141,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://mmrc.caltech.edu/AFM%20Dimension%20Icon/Pictures%20Dimension%20Icon/Dimension%20Icon.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://mmrc.caltech.edu/AFM%20Dimension%20Icon/Pictures%20Dimension%20Icon/Dimension%20Icon.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
@@ -144276,6 +144586,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2018/07/10/bruker_afm_1.jpg.webp?itok=HfOnEqGf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2018/07/10/bruker_afm_1.jpg.webp?itok=HfOnEqGf"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
@@ -144351,6 +144671,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://mmrc.caltech.edu/AFM_STM/Pictures/MultiMode%20update.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://mmrc.caltech.edu/AFM_STM/Pictures/MultiMode%20update.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -144430,6 +144760,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/parksystems"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nanowerk.com/nanocatalog/productimages/1440948281nx20_full.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nanowerk.com/nanocatalog/productimages/1440948281nx20_full.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/parksystems"
@@ -144505,6 +144845,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/nanosurf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nanosurf.com/hs-fs/hubfs/HD%20Assets/Products/FlexAFM_lowkey.jpg?width=690&height=453&name=FlexAFM_lowkey.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nanosurf.com/hs-fs/hubfs/HD%20Assets/Products/FlexAFM_lowkey.jpg?width=690&height=453&name=FlexAFM_lowkey.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -148203,6 +148553,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/inovenso"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE300-electrospinning-machine-1-1100x550-1.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE300-electrospinning-machine-1-1100x550-1.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/inovenso"
@@ -148458,6 +148818,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/inovenso"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE100-electrospinning-machine-1-1100x550-1.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE100-electrospinning-machine-1-1100x550-1.png"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/inovenso"
@@ -148503,6 +148873,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/inovenso"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE200-electrospinning-machine-2-1100x550-1.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.inovenso.com/wp-content/uploads/2018/06/NE200-electrospinning-machine-2-1100x550-1.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -153570,6 +153950,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/suss"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2024/05/15/Suss%20MicroTec%20MA-BA6%20Gen4%20Mask%20Aligner.png.webp?itok=L1Xv_bTt"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2024/05/15/Suss%20MicroTec%20MA-BA6%20Gen4%20Mask%20Aligner.png.webp?itok=L1Xv_bTt"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/suss"
@@ -155478,6 +155868,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/oxfordinstruments"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2025/05/13/Oxford-metal-PlasmaPro-100-Cobra-etcher.png.webp?itok=ToRCG13D"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2025/05/13/Oxford-metal-PlasmaPro-100-Cobra-etcher.png.webp?itok=ToRCG13D"
       }
     ],
     "https://schema.org/manufacturer": [

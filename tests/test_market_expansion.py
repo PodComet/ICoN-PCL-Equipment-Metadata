@@ -11,6 +11,9 @@ def later_updates():
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     for update in media['equipment_updates']:
         overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+    photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
+    for update in photos['records']:
+        overrides.setdefault(update['equipment_id'],{}).update(update['after'])
     return report,overrides
 
 
@@ -45,6 +48,8 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     for field in additions:
         additions[field]+=sum(not u['before'].get(field) and bool(u['after'].get(field)) for u in media['equipment_updates'])
+    photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
+    additions['image_url']+=sum(not u['before']['image_url'] and bool(u['after']['image_url']) for u in photos['records'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17'})
     assert report['after']['photos']==293
     assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17'})==293+additions['image_url']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])
     prices=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))

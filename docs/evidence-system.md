@@ -4,7 +4,7 @@ Open the app's **Evidence & sources** tab (`/#sources`) to find the **Evidence r
 
 ## Public source repository
 
-The public register starts with 331 existing records: 321 literature-scoped process/property claims and ten model-control claims or explicit modeling assumptions. The original classifications, locators and verification status remain intact. Process-associated M classes provide context, not evidence that a particular model was used.
+The public register includes the original 331 records: 321 literature-scoped process/property claims and ten model-control claims or explicit modeling assumptions. The original classifications, locators and verification status remain intact. Process-associated M classes provide context, not evidence that a particular model was used. The 18 October catalog sweep adds 40 separately labeled, curator-reviewed photo-match claims from `catalog/instrument_photo_evidence.json`; they retain image scope, exact source pages, check results and model/category links.
 
 - [Readable register](evidence-register.md)
 - [CSV](../catalog/evidence_registry.csv)

@@ -120,3 +120,7 @@ JASCO was confirmed by the project owner on 2026-10-16. Prefer [jascoinc.com](ht
 ## Seller prices and photo sweep, 2026-10-17
 
 The [dated review](../docs/seller-price-photo-sweep-2026-10-17.md) adds 43 photos and prices for 65 previously unpriced models. `seller_offers.csv` keeps seller names, exact model identities, price kinds, unit conditions, source currencies, dates and configuration scope separately from manufacturer MSRP. Commercial sources remain outside the academic-only reference library. Generate app supplier data and the USD comparison report with the existing build scripts. Supplier images remain externally linked and source-attributed.
+
+## Instrument photo sources
+
+The [18 October 2026 illustrated-catalog review](../docs/instrument-photo-catalog-sweep-2026-10-18.md) adds 40 sourced photos. `instrument_photo_evidence.json` feeds their immutable photo-match IDs and model/source context into the generated public Evidence register. `instrument_photo_review_2026-10-18.csv` and `.json` preserve the selected URLs, scope and availability checks.

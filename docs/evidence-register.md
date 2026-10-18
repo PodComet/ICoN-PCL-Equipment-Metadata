@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-331 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+371 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -4499,6 +4499,526 @@ Electron-beam accelerating voltage: 10 kV: 10 kV
 **Related records:** `PC-P42-AF10B309758872B5` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-AF10B309758872B5: Electron-beam accelerating voltage = 10 kV; operator eq; formulation P42-SOURCE-01; source step 2.
+
+## IMG-EV-0C6673C707158DC1
+
+The linked source presents an instrument photograph matched to Bruker Dimension FastScan (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** NIST photograph of its Bruker Dimension FastScan AFM. Exact model; the facility installation and accessories shown are not an assertion about a user's configured unit. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Bruker instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-bruker-dimension-fastscan-atomic-force-microscope) — Photograph of the Bruker Dimension FastScan Atomic Force Microscope.
+
+**Related records:** `M41-07` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-0CA7E919E9882522
+
+The linked source presents an instrument photograph matched to IKA RCT digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** IKA Plate (RCT digital) main product photo in IKA's DirectIndustry manufacturer presentation. Named model; accessories, voltage and installed institutional configuration are not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1841380.html) — Product heading RCT digital; description explicitly calls it IKA Plate (RCT digital).
+
+**Related records:** `M02-04` (equipment), `M02` (equipment_class), `P04` (process), `P05` (process), `P06` (process), `P08` (process), `P09` (process), `P10` (process), `P11` (process)
+
+
+## IMG-EV-0CB57A209F20501B
+
+The linked source presents an instrument photograph matched to Hitachi HT7800 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** University of Iowa facility photo of Hitachi HT7800; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Hitachi instrument photograph / catalog entry](https://cmrf.research.uiowa.edu/hitachi-ht7800) — University of Iowa instrument catalog page and image alt text both identify Hitachi HT7800.
+
+**Related records:** `M39-03` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-13EB4BBCDBCA2BA9
+
+The linked source presents an instrument photograph matched to Inovenso NE300 (exact model existing category).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Exact NE300 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Inovenso instrument photograph / catalog entry](https://www.inovenso.com/lab-scale-electrospinning-machine/) — Same exact manufacturer/model already has this sourced photo in category M26 (M26-01); reused across its electrospraying association.
+
+**Related records:** `M47-02` (equipment), `M47` (equipment_class)
+
+
+## IMG-EV-1A3D14ADE1C78B99
+
+The linked source presents an instrument photograph matched to IKA EUROSTAR 60 digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** AS ONE / AXEL GLOBAL seller photo of EUROSTAR 60 digital, older 40 L / 60 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; does not establish exact US electrical configuration or institutional ownership. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.axel-gl.com/en/asone/d/1-3150-31/) — Product title EUROSTAR 60 digital, order 1-3150-31, JAN4053411053840, 40 L / 60 Ncm. Avoided DirectIndustry EUROSTAR 60 page because its title and control-variant description conflict.
+
+**Related records:** `M03-05` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-27ED6F0A8123F315
+
+The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 6 classic line (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer photograph of FRITSCH PULVERISETTE 6 classic line. Options and accessories may vary. Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-6-classic-line/) — Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model.
+
+**Related records:** `M12-09` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-2AF1C0CA8A8EDD27
+
+The linked source presents an instrument photograph matched to Oxford Instruments PlasmaPro 100 Cobra (product family).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Representative PlasmaPro 100 Cobra family photograph: NIST's metal-etch ICP configuration. Gas chemistry, chamber options and installation are specific to the pictured facility; other Cobra configurations are not visually established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Oxford Instruments instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-inductively-coupled-plasma-icp-metal-etcher-oxford) — Oxford metal PlasmaPro 100 Cobra etcher
+
+**Related records:** `M61-04` (equipment), `M61` (equipment_class), `P06` (process), `P08` (process), `P14` (process)
+
+
+## IMG-EV-2BE437F4DB38BF85
+
+The linked source presents an instrument photograph matched to JEOL JSM-IT510 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Official manufacturer hero photo of JSM-IT510; no Purdue ownership assertion. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [JEOL instrument photograph / catalog entry](https://www.jeol.com/products/scientific/sem/JSM-IT510.php) — Manufacturer product page names JSM-IT510 and labels this image JSM-IT510 InTouchScope Scanning Electron Microscope.
+
+**Related records:** `M38-05` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-2C9C8805466496B6
+
+The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 7 classic line (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer photograph of FRITSCH PULVERISETTE 7 classic line. Options and accessories may vary. Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-7-classic-line/) — Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model.
+
+**Related records:** `M12-10` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-2F1A4044DA8D6EFC
+
+The linked source presents an instrument photograph matched to IKA EUROSTAR 20 digital, 20105154 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** EUROSTAR 20 digital new-generation photo, explicitly labeled EUROSTAR 20 digital by IKA supplier VERKON. Catalog lists 20 digital as order code 412 482 105 154 and new 25 L / 40 Ncm generation matching IKA 0020105154. No inference of an installed asset or other EUROSTAR generations. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.verkon.cz/michacka-hridelova-ika-serie-eurostar-new-digital/) — Gallery image alt EUROSTAR 20 digital; page specifies EUROSTAR NEW digital, 25 L and 40 Ncm for 20 digital and order code ending 105154. Official IKA German page confirms new generation and SKU 0020105154.
+
+**Related records:** `M03-01` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-331296723ADB0192
+
+The linked source presents an instrument photograph matched to Bruker Dimension Icon (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Caltech MMRC photograph of its Bruker Dimension Icon. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Bruker instrument photograph / catalog entry](https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html) — Facility equipment page explicitly describes Bruker Dimension Icon and links this image (Dimension Icon).
+
+**Related records:** `M41-02` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-36563110BA3E1FFA
+
+The linked source presents an instrument photograph matched to JEOL JSM-IT800 (product family).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Official JEOL JSM-IT800 family photo showing the HL version; lens/variant configuration may differ. Not a photo of a Purdue asset. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [JEOL instrument photograph / catalog entry](https://www.jeol.com/products/scientific/sem/JSM-IT800.php) — Manufacturer JSM-IT800 page lists HL, SHL, SHLs, i and is versions and uses this JSM-IT800HL image as its product hero. Page marks family discontinued.
+
+**Related records:** `M38-06` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-3CB445D5F28DCC05
+
+The linked source presents an instrument photograph matched to IKA EUROSTAR 100 digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** AS ONE / AXEL GLOBAL seller photo of EUROSTAR 100 digital, older 100 L / 100 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; exact regional electrical configuration or institutional ownership is not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.axel-gl.com/en/asone/d/1-7326-25/) — Product title EUROSTAR 100 digital, order 1-7326-25, JAN4053411053864, 100 L / 100 Ncm. Image explicitly linked from variation row for this model.
+
+**Related records:** `M03-06` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-3E93B2A5BEFE24D0
+
+The linked source presents an instrument photograph matched to Oxford Instruments FlexAL (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** NIST photograph explicitly captioned Oxford FlexAL atomic layer deposition. Exact model, with facility-specific options and plumbing. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Oxford Instruments instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-atomic-layer-deposition) — Oxford FlexAL atomic layer deposition
+
+**Related records:** `M22-03` (equipment), `M22` (equipment_class), `P06` (process)
+
+
+## IMG-EV-3F7E04AD1D9FD374
+
+The linked source presents an instrument photograph matched to Nanosurf FlexAFM (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer FlexAFM product photograph, representative of the configurable FlexAFM system. Stage, controller, optical microscope and optional accessories depend on configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Nanosurf instrument photograph / catalog entry](https://www.nanosurf.com/en/products/flexafm) — Official model-page hero image with alt FlexAFM_lowkey.
+
+**Related records:** `M41-10` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-4AC93356D987AC4B
+
+The linked source presents an instrument photograph matched to Hitachi HT7830 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Clemson University facility illustration of Hitachi HT7830; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Hitachi instrument photograph / catalog entry](https://www.clemson.edu/research/division-of-research/research-facilities/emf/capabilities/tem.html) — Clemson TEM equipment catalog section Variable Energy Transmission Electron Microscope HT7830 includes this instrument image with alt ht7830, separate from microscopy sample figures.
+
+**Related records:** `M39-09` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-58CF2AB92ADAC6CD
+
+The linked source presents an instrument photograph matched to RETSCH PM 400 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer photograph of RETSCH PM 400. Options and accessories may vary. Official PM400 model page main instrument image; PM400 is the four-station floor model. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [RETSCH instrument photograph / catalog entry](https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-400/) — Official PM400 model page main instrument image; PM400 is the four-station floor model.
+
+**Related records:** `M12-06` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-65342D80277EA172
+
+The linked source presents an instrument photograph matched to ZEISS GeminiSEM 500 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** NIST photograph of the Zeiss Gemini 500 field-emission SEM. Exact GeminiSEM 500 model; detector and laboratory configuration may vary. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [ZEISS instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-zeiss-gemini-500-field-emission-scanning-electron) — Zeiss Gemini 500 Field Emission Scanning Electron Microscope
+
+**Related records:** `M38-10` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-6E796BECF5D076F7
+
+The linked source presents an instrument photograph matched to RETSCH PM 100 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer photograph of RETSCH PM 100. Options and accessories may vary. Official PM100 model page main instrument image; page title and product introduction identify PM100. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [RETSCH instrument photograph / catalog entry](https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-100/) — Official PM100 model page main instrument image; page title and product introduction identify PM100.
+
+**Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process)
+
+
+## IMG-EV-72675B1162B898EE
+
+The linked source presents an instrument photograph matched to Thermo Scientific Talos F200X G2 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** University of Nebraska-Lincoln catalog illustration for Talos F200X G2; CFEG/detector configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Thermo Scientific instrument photograph / catalog entry](https://enif.unl.edu/talos-f200x-g2/) — UNL Electron Nanoscopy Instrumentation Facility page heading is Talos F200X G2 Scanning TEM; instrument image immediately follows the instrument description. Current page says Coming Soon, so photo does not establish an installed asset.
+
+**Related records:** `M39-07` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-77946113A2408233
+
+The linked source presents an instrument photograph matched to Hitachi SU3900 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Millersville University facility photo of Hitachi SU3900; facility-specific accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Hitachi instrument photograph / catalog entry](https://www.millersville.edu/emlab/equipment.php) — Millersville equipment catalog identifies Hitachi SU3900 Scanning Electron Microscope and the image alt text uses that exact model name.
+
+**Related records:** `M38-07` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-7B658FC23165D5B2
+
+The linked source presents an instrument photograph matched to SUSS MA/BA6 Gen4 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** NIST photograph of the Suss MicroTec MA/BA6 Gen4 mask aligner. Exact model generation; installation and options may vary. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [SUSS instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-suss-microtec-maba6-gen4-mask-aligner) — Suss MicroTec MA/BA6 Gen4 Mask Aligner
+
+**Related records:** `M58-01` (equipment), `M58` (equipment_class), `P06` (process)
+
+
+## IMG-EV-7F7D74E631124C20
+
+The linked source presents an instrument photograph matched to Thermo Scientific Spectra 300 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Official manufacturer Spectra 300 product photo; configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Thermo Scientific instrument photograph / catalog entry](https://www.thermofisher.com/de/de/home/electron-microscopy/products/transmission-electron-microscopes/spectra/instruments/spectra-300-tem.html) — Thermo Fisher Spectra 300 product page uses this instrument image as cmp-pageheadinghero__img, filename hero-banner-overlay-Spectra300-763x763.png.
+
+**Related records:** `M39-08` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-8D4548721A4A3AE8
+
+The linked source presents an instrument photograph matched to Inovenso NE100 (exact model existing category).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Exact NE100 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Inovenso instrument photograph / catalog entry](https://www.inovenso.com/lab-scale-electrospinning-machine/) — Same exact manufacturer/model already has this sourced photo in category M26 (M26-07); reused across its electrospraying association.
+
+**Related records:** `M47-07` (equipment), `M47` (equipment_class)
+
+
+## IMG-EV-926EEBC21AAE8F60
+
+The linked source presents an instrument photograph matched to IKA ULTRA-TURRAX Tube Drive (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** ULTRA-TURRAX Tube Drive photo in IKA's DirectIndustry manufacturer presentation. Exact named drive; tubes/accessories and institutional configuration are not established. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-2488782.html) — Exact title ULTRA-TURRAX Tube Drive. Description matches official IKA 0003646000 generic Tube Drive product, sealable 2-15/15-50mL tubes and removal-hook delivery item.
+
+**Related records:** `M11-09` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-9833B6EA37967C38
+
+The linked source presents an instrument photograph matched to IKA RET control-visc (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** RET control-visc photo in IKA's DirectIndustry presentation. Catalog short title RET -visc; description and linked manufacturer brochure identify RET control-visc with integrated balance, TFT and stainless steel plate. Does not establish voltage or institutional asset identity. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1617045.html) — Description matches IKA official RET control-visc page: integrated balance, TFT, 340 C stainless steel composite plate, PT100, USB/RS232; page links THE VERSATILE MAGNETIC STIRRER | RET control-visc brochure.
+
+**Related records:** `M02-05` (equipment), `M02` (equipment_class), `P04` (process), `P05` (process), `P06` (process), `P08` (process), `P09` (process), `P10` (process), `P11` (process), `P18` (process)
+
+
+## IMG-EV-9B88D99450A39D63
+
+The linked source presents an instrument photograph matched to IKA EUROSTAR 40 digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** AS ONE / AXEL GLOBAL seller photo of EUROSTAR 40 digital, older 25 L / 40 Ncm generation consistent with existing 2014-generation manual. Photo is for Japanese-market 100 V article; no inference of exact US voltage or institutional ownership. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.axel-gl.com/en/asone/d/1-9943-21/) — Product title EUROSTAR 40 digital, order 1-9943-21, JAN4053411053833, 25 L / 40 Ncm. Image appears explicitly in product-variation row for this exact model.
+
+**Related records:** `M03-04` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-A2F3EA2E51D9D099
+
+The linked source presents an instrument photograph matched to Thermo Scientific Apreo 2 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Official manufacturer Apreo 2 SEM product photo; detector/accessory configuration may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Thermo Scientific instrument photograph / catalog entry](https://www.thermofisher.com/order/catalog/product/APREOSEM) — Thermo Fisher catalog product APREOSEM page title and text identify Apreo 2; this is its top product image, alt Apreo SEM.
+
+**Related records:** `M38-09` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-AFDB04AE87EE3FE5
+
+The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 classic line (product family).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Family illustration: PULVERISETTE5/4 classic (4 working stations); canonical record does not specify station count. Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-54-classic-line/) — Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match.
+
+**Related records:** `M12-07` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-B52E5E297A150495
+
+The linked source presents an instrument photograph matched to Thermo Scientific Talos L120C G2 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** University of Florida ICBR Talos L120C G2 instrument photo; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Thermo Scientific instrument photograph / catalog entry](https://biotech.ufl.edu/portfolio/talos-l120c-g2/) — UF ICBR instrument catalog entry is headed Talos L120C G2; its attached post image is Talos-Web-Image.png.
+
+**Related records:** `M39-02` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-B8D5B384F8830BBA
+
+The linked source presents an instrument photograph matched to JEOL JSM-IT200 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Official manufacturer hero photo of JSM-IT200; no Purdue ownership assertion. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [JEOL instrument photograph / catalog entry](https://www.jeol.com/products/scientific/sem/JSM-IT200.php) — Manufacturer product page names JSM-IT200 and labels this image JSM-IT200 InTouchScope Scanning Electron Microscope. Page marks product discontinued.
+
+**Related records:** `M38-04` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-BEB4F7B38F4C3AA0
+
+The linked source presents an instrument photograph matched to IKA RCT basic (product family).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** IKA RCT basic manufacturer presentation on DirectIndustry. Illustrated 20 L / 310 C generation; current IKA price page resolves a newer 800 W generation, so this is a labeled RCT basic family representative rather than an exact current SKU or an institutional asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-648057.html) — Product title RCT basic; description specifies 20 L, 310 C, glass surface and USB/RS232. Main product image explicitly linked by this page.
+
+**Related records:** `M02-01` (equipment), `M02` (equipment_class), `P04` (process), `P05` (process), `P06` (process), `P08` (process), `P09` (process), `P10` (process), `P11` (process)
+
+
+## IMG-EV-C070476E5794B967
+
+The linked source presents an instrument photograph matched to IKA T 25 digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** T 25 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model, not easy-clean or control variant. Dispersing tools/accessories in image do not establish included delivery scope. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-2656727.html) — Exact title T25 digital ULTRA-TURRAX; description matches official IKA 0003725001 drive page, 1-2000mL, 3000-25000rpm.
+
+**Related records:** `M11-04` (equipment), `M11` (equipment_class), `P29` (process)
+
+
+## IMG-EV-C82F591B732054FC
+
+The linked source presents an instrument photograph matched to IKA T 50 digital (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** T 50 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model; fitted tool/accessories do not establish included delivery scope or institutional configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1931024.html) — Exact title T50 digital ULTRA-TURRAX; description matches official IKA 0003787001 page, 0.25-30L and600-10000rpm.
+
+**Related records:** `M11-05` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-D912B534FE2EE90D
+
+The linked source presents an instrument photograph matched to Inovenso NE200 (exact model existing category).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Exact NE200 instrument photograph, explicitly named in the manufacturer comparison page. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Inovenso instrument photograph / catalog entry](https://www.inovenso.com/lab-scale-electrospinning-machine/) — Same exact manufacturer/model already has this sourced photo in category M26 (M26-08); reused across its electrospraying association.
+
+**Related records:** `M47-08` (equipment), `M47` (equipment_class)
+
+
+## IMG-EV-E2EF02317488BBC8
+
+The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 premium line (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer photograph of FRITSCH PULVERISETTE 5 premium line. Options and accessories may vary. Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-5-premium-line/) — Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill.
+
+**Related records:** `M12-08` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-E9E5142A8C72B349
+
+The linked source presents an instrument photograph matched to Park Systems NX20 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Supplier-submitted Park NX20 photograph in the Nanowerk catalog. Exact model, with illustrative enclosure/accessory configuration. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Park Systems instrument photograph / catalog entry](https://www.nanowerk.com/nanocatalog/microscopy-and-imaging/de5c8ad/park-nx20) — Park NX20
+
+**Related records:** `M41-09` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-EC105A528E8CDE7F
+
+The linked source presents an instrument photograph matched to IKA T 18 digital Solution (product family).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** T 18 digital ULTRA-TURRAX drive photo in IKA's DirectIndustry presentation. Representative of the drive included in T 18 digital Solution; does not show or verify the Solution package stand, clamp or S18 dispersing tool. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1154321.html) — DirectIndustry exact drive title T18 digital ULTRA-TURRAX. Official IKA T18 digital Solution page lists that drive plus S18N-19G tool, R1826 stand and R182 clamp.
+
+**Related records:** `M11-01` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-F1F48A4C68A37F51
+
+The linked source presents an instrument photograph matched to Hitachi SU5000 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Binghamton University photo of Hitachi SU5000 with variable-pressure configuration; accessories may differ. Not a Purdue asset photo. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Hitachi instrument photograph / catalog entry](https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/su5000.html) — Facility instrument page title is Hitachi SU5000 VP and image alt text is Hitachi SU5000. Official Hitachi hero was also located but rejected due HTTP403.
+
+**Related records:** `M38-08` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-F54CE8F9E5383DC1
+
+The linked source presents an instrument photograph matched to Bruker MultiMode 8 (exact model).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-18
+
+**Scope:** Caltech MMRC photograph of its Bruker MultiMode 8. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation. Remote image reference; source rights are retained. The photograph does not establish an installed asset, delivered configuration, price, operating procedure or experimental validation.
+
+- Source: [Bruker instrument photograph / catalog entry](https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html) — Facility equipment page explicitly describes Bruker MultiMode 8 and links this image (MultiMode update ).
+
+**Related records:** `M41-08` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
 
 ## TC-M01
 

@@ -435,6 +435,24 @@
           "product_page_url": "https://www.ika.com/de/Produkte-LabEq/Ruehrwerke-pg187/EUROSTAR-20-digital-20105154/",
           "product_page_scope": "German-market exact SKU 0020105154; its regional price is converted to USD. US localization resolves a different SKU 0020132593. Manual generation remains unresolved."
         }
+      },
+      {
+        "before": {
+          "model_name": "IKA EUROSTAR 20 digital, 20105154",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA EUROSTAR 20 digital, 20105154",
+          "manufacturer": "IKA",
+          "image_url": "https://www.verkon.cz/image/middle2-ww/verkon-michacka-hridelova-ika-serie-eurostar-new-digital-49890.jpg",
+          "image_source_url": "https://www.verkon.cz/michacka-hridelova-ika-serie-eurostar-new-digital/",
+          "image_scope": "EUROSTAR 20 digital new-generation photo, explicitly labeled EUROSTAR 20 digital by IKA supplier VERKON. Catalog lists 20 digital as order code 412 482 105 154 and new 25 L / 40 Ncm generation matching IKA 0020105154. No inference of an installed asset or other EUROSTAR generations.",
+          "media_checked_date": "2026-10-18"
+        }
       }
     ],
     "manufacturer": "IKA",
@@ -5047,6 +5065,24 @@
         "after": {
           "association_basis": "inherited family-level curated route; model-specific suitability not established Additional P18 model-use evidence: 10.48550/arxiv.2309.00349 SI; no Purdue unit/configuration inference."
         }
+      },
+      {
+        "before": {
+          "model_name": "IKA RET control-visc",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA RET control-visc",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-8488425.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-1617045.html",
+          "image_scope": "RET control-visc photo in IKA's DirectIndustry presentation. Catalog short title RET -visc; description and linked manufacturer brochure identify RET control-visc with integrated balance, TFT and stainless steel plate. Does not establish voltage or institutional asset identity.",
+          "media_checked_date": "2026-10-18"
+        }
       }
     ]
   },
@@ -5615,6 +5651,24 @@
           "product_page_url": "https://www.ika.com/en/Products-LabEq/T-25-digital-ULTRA-TURRAX-3725000/",
           "product_page_scope": "US T 25 digital ULTRA-TURRAX SKU 0003725001, drive only; dispersing tool is explicitly not included."
         }
+      },
+      {
+        "before": {
+          "model_name": "IKA T 25 digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA T 25 digital",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-19373170.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-2656727.html",
+          "image_scope": "T 25 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model, not easy-clean or control variant. Dispersing tools/accessories in image do not establish included delivery scope.",
+          "media_checked_date": "2026-10-18"
+        }
       }
     ]
   },
@@ -5829,6 +5883,24 @@
         },
         "after": {
           "association_basis": "inherited family-level curated route; model-specific suitability not established 10.1016/j.wear.2019.202944: RETSCH PM100 mills graphite with Ti-6Al-4V powder before reactive SPS; nanocarbon coating evidence, not a claim that all final TiC grains are below 100 nm."
+        }
+      },
+      {
+        "before": {
+          "model_name": "RETSCH PM 100",
+          "manufacturer": "RETSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "RETSCH PM 100",
+          "manufacturer": "RETSCH",
+          "image_url": "https://www.retsch.com/assets/images/g/main_pm100-5ccxg24k6x9t0y2.png",
+          "image_source_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-100/",
+          "image_scope": "Manufacturer photograph of RETSCH PM 100. Options and accessories may vary. Official PM100 model page main instrument image; page title and product introduction identify PM100.",
+          "media_checked_date": "2026-10-18"
         }
       }
     ]
@@ -7429,6 +7501,24 @@
           "product_page_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/",
           "product_page_scope": "US T 18 digital Solution package SKU 0010015389 includes disperser, S 18 N-19 G tool, R 1826 stand and R 182 clamp; not the drive-only price."
         }
+      },
+      {
+        "before": {
+          "model_name": "IKA T 18 digital Solution",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA T 18 digital Solution",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-4285269.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-1154321.html",
+          "image_scope": "T 18 digital ULTRA-TURRAX drive photo in IKA's DirectIndustry presentation. Representative of the drive included in T 18 digital Solution; does not show or verify the Solution package stand, clamp or S18 dispersing tool.",
+          "media_checked_date": "2026-10-18"
+        }
       }
     ]
   },
@@ -7463,6 +7553,24 @@
         "after": {
           "product_page_url": "https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-50-digital-ULTRA-TURRAX-3787000/",
           "product_page_scope": "US T 50 digital ULTRA-TURRAX SKU 0003787001 promotional price, shown reduced from USD 4,931; dispersing tool not included."
+        }
+      },
+      {
+        "before": {
+          "model_name": "IKA T 50 digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA T 50 digital",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-12062820.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-1931024.html",
+          "image_scope": "T 50 digital ULTRA-TURRAX photo in IKA's DirectIndustry manufacturer presentation. Exact named model; fitted tool/accessories do not establish included delivery scope or institutional configuration.",
+          "media_checked_date": "2026-10-18"
         }
       }
     ]
@@ -9060,6 +9168,856 @@
         "after": {
           "manufacturer": "Elmarco",
           "documentation_url": "https://www.elmarco.com/product-lines/laboratory-equipment"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M41-07",
+    "model_name": "Bruker Dimension FastScan",
+    "manufacturer": "Bruker",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Bruker Dimension FastScan",
+          "manufacturer": "Bruker",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Bruker Dimension FastScan",
+          "manufacturer": "Bruker",
+          "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2018/07/10/bruker_afm_1.jpg.webp?itok=HfOnEqGf",
+          "image_source_url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-bruker-dimension-fastscan-atomic-force-microscope",
+          "image_scope": "NIST photograph of its Bruker Dimension FastScan AFM. Exact model; the facility installation and accessories shown are not an assertion about a user's configured unit.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M22-03",
+    "model_name": "Oxford Instruments FlexAL",
+    "manufacturer": "Oxford Instruments",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Oxford Instruments FlexAL",
+          "manufacturer": "Oxford Instruments",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Oxford Instruments FlexAL",
+          "manufacturer": "Oxford Instruments",
+          "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2023/04/28/ald.png.webp?itok=kWcxaK9s",
+          "image_source_url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-atomic-layer-deposition",
+          "image_scope": "NIST photograph explicitly captioned Oxford FlexAL atomic layer deposition. Exact model, with facility-specific options and plumbing.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-10",
+    "model_name": "ZEISS GeminiSEM 500",
+    "manufacturer": "ZEISS",
+    "groups": [
+      {
+        "before": {
+          "model_name": "ZEISS GeminiSEM 500",
+          "manufacturer": "ZEISS",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "ZEISS GeminiSEM 500",
+          "manufacturer": "ZEISS",
+          "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2020/09/14/gemini500.jpg.webp?itok=aKSCFAo9",
+          "image_source_url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-zeiss-gemini-500-field-emission-scanning-electron",
+          "image_scope": "NIST photograph of the Zeiss Gemini 500 field-emission SEM. Exact GeminiSEM 500 model; detector and laboratory configuration may vary.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M58-01",
+    "model_name": "SUSS MA/BA6 Gen4",
+    "manufacturer": "SUSS",
+    "groups": [
+      {
+        "before": {
+          "model_name": "SUSS MA/BA6 Gen4",
+          "manufacturer": "SUSS",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "SUSS MA/BA6 Gen4",
+          "manufacturer": "SUSS",
+          "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2024/05/15/Suss%20MicroTec%20MA-BA6%20Gen4%20Mask%20Aligner.png.webp?itok=L1Xv_bTt",
+          "image_source_url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-suss-microtec-maba6-gen4-mask-aligner",
+          "image_scope": "NIST photograph of the Suss MicroTec MA/BA6 Gen4 mask aligner. Exact model generation; installation and options may vary.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M61-04",
+    "model_name": "Oxford Instruments PlasmaPro 100 Cobra",
+    "manufacturer": "Oxford Instruments",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Oxford Instruments PlasmaPro 100 Cobra",
+          "manufacturer": "Oxford Instruments",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Oxford Instruments PlasmaPro 100 Cobra",
+          "manufacturer": "Oxford Instruments",
+          "image_url": "https://www.nist.gov/sites/default/files/styles/480_x_480_limit/public/images/2025/05/13/Oxford-metal-PlasmaPro-100-Cobra-etcher.png.webp?itok=ToRCG13D",
+          "image_source_url": "https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-inductively-coupled-plasma-icp-metal-etcher-oxford",
+          "image_scope": "Representative PlasmaPro 100 Cobra family photograph: NIST's metal-etch ICP configuration. Gas chemistry, chamber options and installation are specific to the pictured facility; other Cobra configurations are not visually established.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M41-09",
+    "model_name": "Park Systems NX20",
+    "manufacturer": "Park Systems",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Park Systems NX20",
+          "manufacturer": "Park Systems",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Park Systems NX20",
+          "manufacturer": "Park Systems",
+          "image_url": "https://www.nanowerk.com/nanocatalog/productimages/1440948281nx20_full.png",
+          "image_source_url": "https://www.nanowerk.com/nanocatalog/microscopy-and-imaging/de5c8ad/park-nx20",
+          "image_scope": "Supplier-submitted Park NX20 photograph in the Nanowerk catalog. Exact model, with illustrative enclosure/accessory configuration.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M41-10",
+    "model_name": "Nanosurf FlexAFM",
+    "manufacturer": "Nanosurf",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Nanosurf FlexAFM",
+          "manufacturer": "Nanosurf",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Nanosurf FlexAFM",
+          "manufacturer": "Nanosurf",
+          "image_url": "https://www.nanosurf.com/hs-fs/hubfs/HD%20Assets/Products/FlexAFM_lowkey.jpg?width=690&height=453&name=FlexAFM_lowkey.jpg",
+          "image_source_url": "https://www.nanosurf.com/en/products/flexafm",
+          "image_scope": "Manufacturer FlexAFM product photograph, representative of the configurable FlexAFM system. Stage, controller, optical microscope and optional accessories depend on configuration.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M41-02",
+    "model_name": "Bruker Dimension Icon",
+    "manufacturer": "Bruker",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Bruker Dimension Icon",
+          "manufacturer": "Bruker",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Bruker Dimension Icon",
+          "manufacturer": "Bruker",
+          "image_url": "https://mmrc.caltech.edu/AFM%20Dimension%20Icon/Pictures%20Dimension%20Icon/Dimension%20Icon.jpg",
+          "image_source_url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+          "image_scope": "Caltech MMRC photograph of its Bruker Dimension Icon. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M41-08",
+    "model_name": "Bruker MultiMode 8",
+    "manufacturer": "Bruker",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Bruker MultiMode 8",
+          "manufacturer": "Bruker",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Bruker MultiMode 8",
+          "manufacturer": "Bruker",
+          "image_url": "https://mmrc.caltech.edu/AFM_STM/Pictures/MultiMode%20update.jpg",
+          "image_source_url": "https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html",
+          "image_scope": "Caltech MMRC photograph of its Bruker MultiMode 8. Exact model identified on the facility page; local controllers, scanners and upgrades are specific to the pictured installation.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M47-02",
+    "model_name": "Inovenso NE300",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Inovenso NE300",
+          "manufacturer": "Inovenso",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Inovenso NE300",
+          "manufacturer": "Inovenso",
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE300-electrospinning-machine-1-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE300 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M47-07",
+    "model_name": "Inovenso NE100",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Inovenso NE100",
+          "manufacturer": "Inovenso",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Inovenso NE100",
+          "manufacturer": "Inovenso",
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE100-electrospinning-machine-1-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE100 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M47-08",
+    "model_name": "Inovenso NE200",
+    "manufacturer": "Inovenso",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Inovenso NE200",
+          "manufacturer": "Inovenso",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Inovenso NE200",
+          "manufacturer": "Inovenso",
+          "image_url": "https://www.inovenso.com/wp-content/uploads/2018/06/NE200-electrospinning-machine-2-1100x550-1.png",
+          "image_source_url": "https://www.inovenso.com/lab-scale-electrospinning-machine/",
+          "image_scope": "Exact NE200 instrument photograph, explicitly named in the manufacturer comparison page.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-06",
+    "model_name": "RETSCH PM 400",
+    "manufacturer": "RETSCH",
+    "groups": [
+      {
+        "before": {
+          "model_name": "RETSCH PM 400",
+          "manufacturer": "RETSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "RETSCH PM 400",
+          "manufacturer": "RETSCH",
+          "image_url": "https://www.retsch.com/assets/images/v/main_pm400-f6w3zmgqgwt7j6e.png",
+          "image_source_url": "https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-400/",
+          "image_scope": "Manufacturer photograph of RETSCH PM 400. Options and accessories may vary. Official PM400 model page main instrument image; PM400 is the four-station floor model.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-07",
+    "model_name": "FRITSCH PULVERISETTE 5 classic line",
+    "manufacturer": "FRITSCH",
+    "groups": [
+      {
+        "before": {
+          "model_name": "FRITSCH PULVERISETTE 5 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "FRITSCH PULVERISETTE 5 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5_4-classic-line_d3882ff065.png",
+          "image_source_url": "https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-54-classic-line/",
+          "image_scope": "Family illustration: PULVERISETTE5/4 classic (4 working stations); canonical record does not specify station count. Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-08",
+    "model_name": "FRITSCH PULVERISETTE 5 premium line",
+    "manufacturer": "FRITSCH",
+    "groups": [
+      {
+        "before": {
+          "model_name": "FRITSCH PULVERISETTE 5 premium line",
+          "manufacturer": "FRITSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "FRITSCH PULVERISETTE 5 premium line",
+          "manufacturer": "FRITSCH",
+          "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-5-premium-line-open_f737872991.png",
+          "image_source_url": "https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-5-premium-line/",
+          "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 5 premium line. Options and accessories may vary. Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-09",
+    "model_name": "FRITSCH PULVERISETTE 6 classic line",
+    "manufacturer": "FRITSCH",
+    "groups": [
+      {
+        "before": {
+          "model_name": "FRITSCH PULVERISETTE 6 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "FRITSCH PULVERISETTE 6 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-6-classic-line_74c05f04ae.png",
+          "image_source_url": "https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-6-classic-line/",
+          "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 6 classic line. Options and accessories may vary. Official PULVERISETTE6 classic model page first gallery image; title and single-station description match canonical model.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M12-10",
+    "model_name": "FRITSCH PULVERISETTE 7 classic line",
+    "manufacturer": "FRITSCH",
+    "groups": [
+      {
+        "before": {
+          "model_name": "FRITSCH PULVERISETTE 7 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "FRITSCH PULVERISETTE 7 classic line",
+          "manufacturer": "FRITSCH",
+          "image_url": "https://www.fritsch-international.com/fileadmin/_processed_/csm_P-7-classic-line_64d9ca81bd.png",
+          "image_source_url": "https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-7-classic-line/",
+          "image_scope": "Manufacturer photograph of FRITSCH PULVERISETTE 7 classic line. Options and accessories may vary. Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-04",
+    "model_name": "JEOL JSM-IT200",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "model_name": "JEOL JSM-IT200",
+          "manufacturer": "JEOL",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "JEOL JSM-IT200",
+          "manufacturer": "JEOL",
+          "image_url": "https://www.jeol.com/products/assets/images/JSM-IT200_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/sem/JSM-IT200.php",
+          "image_scope": "Official manufacturer hero photo of JSM-IT200; no Purdue ownership assertion.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-05",
+    "model_name": "JEOL JSM-IT510",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "model_name": "JEOL JSM-IT510",
+          "manufacturer": "JEOL",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "JEOL JSM-IT510",
+          "manufacturer": "JEOL",
+          "image_url": "https://www.jeol.com/products/assets/images/JSM-IT510_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/sem/JSM-IT510.php",
+          "image_scope": "Official manufacturer hero photo of JSM-IT510; no Purdue ownership assertion.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-06",
+    "model_name": "JEOL JSM-IT800",
+    "manufacturer": "JEOL",
+    "groups": [
+      {
+        "before": {
+          "model_name": "JEOL JSM-IT800",
+          "manufacturer": "JEOL",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "JEOL JSM-IT800",
+          "manufacturer": "JEOL",
+          "image_url": "https://www.jeol.com/products/assets/images/JSM-IT800HL_en.png",
+          "image_source_url": "https://www.jeol.com/products/scientific/sem/JSM-IT800.php",
+          "image_scope": "Official JEOL JSM-IT800 family photo showing the HL version; lens/variant configuration may differ. Not a photo of a Purdue asset.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-07",
+    "model_name": "Hitachi SU3900",
+    "manufacturer": "Hitachi",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Hitachi SU3900",
+          "manufacturer": "Hitachi",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Hitachi SU3900",
+          "manufacturer": "Hitachi",
+          "image_url": "https://www.millersville.edu/emlab/img/semimage_v1.jpg",
+          "image_source_url": "https://www.millersville.edu/emlab/equipment.php",
+          "image_scope": "Millersville University facility photo of Hitachi SU3900; facility-specific accessories may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-08",
+    "model_name": "Hitachi SU5000",
+    "manufacturer": "Hitachi",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Hitachi SU5000",
+          "manufacturer": "Hitachi",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Hitachi SU5000",
+          "manufacturer": "Hitachi",
+          "image_url": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/img/su5000_small.png",
+          "image_source_url": "https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/su5000.html",
+          "image_scope": "Binghamton University photo of Hitachi SU5000 with variable-pressure configuration; accessories may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-09",
+    "model_name": "Thermo Scientific Apreo 2",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Thermo Scientific Apreo 2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Thermo Scientific Apreo 2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/apreo-sem/jcr:content/wellPageHeading/uipar/image_ca5f/foregroundimg.img.full.high.png/1674855055567.png",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/APREOSEM",
+          "image_scope": "Official manufacturer Apreo 2 SEM product photo; detector/accessory configuration may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-02",
+    "model_name": "Thermo Scientific Talos L120C G2",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Thermo Scientific Talos L120C G2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Thermo Scientific Talos L120C G2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "https://biotech.ufl.edu/wp-content/uploads/2023/12/Talos-Web-Image.png",
+          "image_source_url": "https://biotech.ufl.edu/portfolio/talos-l120c-g2/",
+          "image_scope": "University of Florida ICBR Talos L120C G2 instrument photo; accessories may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-03",
+    "model_name": "Hitachi HT7800",
+    "manufacturer": "Hitachi",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Hitachi HT7800",
+          "manufacturer": "Hitachi",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Hitachi HT7800",
+          "manufacturer": "Hitachi",
+          "image_url": "https://cmrf.research.uiowa.edu/sites/cmrf.research.uiowa.edu/files/2024-11/7800small.jpg",
+          "image_source_url": "https://cmrf.research.uiowa.edu/hitachi-ht7800",
+          "image_scope": "University of Iowa facility photo of Hitachi HT7800; accessories may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-07",
+    "model_name": "Thermo Scientific Talos F200X G2",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Thermo Scientific Talos F200X G2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Thermo Scientific Talos F200X G2",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "https://enif.unl.edu/sites/unl.edu.research.nebraska-center-for-materials-and-nanoscience.electron-nanoscopy/files/styles/no_crop_720/public/media/image/E5E68E2A-5E5B-487B-96EC-48E89DD35A1B.jpeg?itok=S3Ip7WeY",
+          "image_source_url": "https://enif.unl.edu/talos-f200x-g2/",
+          "image_scope": "University of Nebraska-Lincoln catalog illustration for Talos F200X G2; CFEG/detector configuration may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-08",
+    "model_name": "Thermo Scientific Spectra 300",
+    "manufacturer": "Thermo Scientific",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Thermo Scientific Spectra 300",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Thermo Scientific Spectra 300",
+          "manufacturer": "Thermo Scientific",
+          "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/spectra/hero-banner-overlay-Spectra300-763x763.png",
+          "image_source_url": "https://www.thermofisher.com/de/de/home/electron-microscopy/products/transmission-electron-microscopes/spectra/instruments/spectra-300-tem.html",
+          "image_scope": "Official manufacturer Spectra 300 product photo; configuration may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M39-09",
+    "model_name": "Hitachi HT7830",
+    "manufacturer": "Hitachi",
+    "groups": [
+      {
+        "before": {
+          "model_name": "Hitachi HT7830",
+          "manufacturer": "Hitachi",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "Hitachi HT7830",
+          "manufacturer": "Hitachi",
+          "image_url": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/images/electron-microscope-ht7830.png",
+          "image_source_url": "https://www.clemson.edu/research/division-of-research/research-facilities/emf/capabilities/tem.html",
+          "image_scope": "Clemson University facility illustration of Hitachi HT7830; accessories may differ. Not a Purdue asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-01",
+    "model_name": "IKA RCT basic",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA RCT basic",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA RCT basic",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-17687712.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-648057.html",
+          "image_scope": "IKA RCT basic manufacturer presentation on DirectIndustry. Illustrated 20 L / 310 C generation; current IKA price page resolves a newer 800 W generation, so this is a labeled RCT basic family representative rather than an exact current SKU or an institutional asset photo.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M02-04",
+    "model_name": "IKA RCT digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA RCT digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA RCT digital",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-12052960.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-1841380.html",
+          "image_scope": "IKA Plate (RCT digital) main product photo in IKA's DirectIndustry manufacturer presentation. Named model; accessories, voltage and installed institutional configuration are not established.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M03-04",
+    "model_name": "IKA EUROSTAR 40 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA EUROSTAR 40 digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA EUROSTAR 40 digital",
+          "manufacturer": "IKA",
+          "image_url": "https://aimg.as-1.co.jp/t/1/9943/21/01994321.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+          "image_source_url": "https://www.axel-gl.com/en/asone/d/1-9943-21/",
+          "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 40 digital, older 25 L / 40 Ncm generation consistent with existing 2014-generation manual. Photo is for Japanese-market 100 V article; no inference of exact US voltage or institutional ownership.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M03-05",
+    "model_name": "IKA EUROSTAR 60 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA EUROSTAR 60 digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA EUROSTAR 60 digital",
+          "manufacturer": "IKA",
+          "image_url": "https://aimg.as-1.co.jp/t/1/3150/31/01315031s_EC.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+          "image_source_url": "https://www.axel-gl.com/en/asone/d/1-3150-31/",
+          "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 60 digital, older 40 L / 60 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; does not establish exact US electrical configuration or institutional ownership.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M03-06",
+    "model_name": "IKA EUROSTAR 100 digital",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA EUROSTAR 100 digital",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA EUROSTAR 100 digital",
+          "manufacturer": "IKA",
+          "image_url": "https://aimg.as-1.co.jp/t/1/7326/25/01732625.jpg?v=03790be0f2ba82c1280907a7033cf49dabaaa7c1",
+          "image_source_url": "https://www.axel-gl.com/en/asone/d/1-7326-25/",
+          "image_scope": "AS ONE / AXEL GLOBAL seller photo of EUROSTAR 100 digital, older 100 L / 100 Ncm generation consistent with existing 2014-generation manual. Japanese-market 100 V article; exact regional electrical configuration or institutional ownership is not established.",
+          "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M11-09",
+    "model_name": "IKA ULTRA-TURRAX Tube Drive",
+    "manufacturer": "IKA",
+    "groups": [
+      {
+        "before": {
+          "model_name": "IKA ULTRA-TURRAX Tube Drive",
+          "manufacturer": "IKA",
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "model_name": "IKA ULTRA-TURRAX Tube Drive",
+          "manufacturer": "IKA",
+          "image_url": "https://img.directindustry.com/images_di/photo-mg/28268-17688963.jpg",
+          "image_source_url": "https://www.directindustry.com/prod/ika/product-28268-2488782.html",
+          "image_scope": "ULTRA-TURRAX Tube Drive photo in IKA's DirectIndustry manufacturer presentation. Exact named drive; tubes/accessories and institutional configuration are not established.",
+          "media_checked_date": "2026-10-18"
         }
       }
     ]

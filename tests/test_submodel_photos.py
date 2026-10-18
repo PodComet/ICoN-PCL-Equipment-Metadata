@@ -18,6 +18,9 @@ def test_submodel_photo_review_matches_catalog_without_promoting_other_evidence(
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     for update in media['equipment_updates']:
         latest_by_id.setdefault(update['equipment_id'],{}).update(update['after'])
+    photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
+    for update in photos['records']:
+        latest_by_id.setdefault(update['equipment_id'],{}).update(update['after'])
     for review in report['records']:
         record = records[review['equipment_id']]
         assert review['model_name'] == record['model_name'] and review['manufacturer'] == record['manufacturer']
