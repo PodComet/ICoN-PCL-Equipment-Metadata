@@ -1,6 +1,6 @@
 # Evidence register and reproducible control sequences
 
-Open the app's **Evidence register** tab or `/#evidence`. Search by evidence ID, claim, model, P/M category, position, fiber, direction or related record. Filters distinguish source claims, instrument sequences, individual actions, workflow combinations and output/assessment snapshots. A record link uses `/#evidence/<evidence_id>`. Account access is still checked when opening a link.
+Open the app's **Evidence & sources** tab (`/#sources`) to find the **Evidence register** at the top. Existing `/#evidence` links still open the register within this tab. Search by evidence ID, claim, model, P/M category, position, fiber, direction or related record. Filters distinguish source claims, instrument sequences, individual actions, workflow combinations and output/assessment snapshots. A record link uses `/#evidence/<evidence_id>`. Account access is still checked when opening a link.
 
 ## Public source repository
 
