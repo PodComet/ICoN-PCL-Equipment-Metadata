@@ -16,7 +16,7 @@ Choose a slot to filter the instrument library. Drag a mini card (or its drag ha
 
 Assigning a model to a step, using **Add to slot**, drag and drop, **Use selected model**, or explicit unit reuse, fills vacant slots in the other steps that explicitly accept that model's canonical M class. Existing assignments are preserved. Unclassified slots, unrelated M classes and slots with only a shared historical X alias are not automatically filled. Vacant positions in the selected step keep their own selection.
 
-Each filled slot gets a unique instance ID and independent configuration, operation, signal and input/output namespaces. A `physical_unit_id` links sequential uses of the selected unit, so its price is counted once. If another stage needs two positions of the same class, automatic assignment plans distinct physical units within that stage and reuses them across subsequent stages. The notice reports the number of automatically filled slots and any additional units. Saved plans and JSON exports preserve these links. Replacing a model fills only slots that are vacant at that moment; it does not overwrite previous choices. Clearing equipment does not immediately repopulate it.
+Each filled slot gets a unique instance ID and independent configuration, operation, signal and input/output namespaces. A `physical_unit_id` links sequential uses of the selected unit, so its price is counted once. If another stage needs two positions of the same class, automatic assignment plans distinct physical units within that stage and reuses them across subsequent stages. The notice reports the number of automatically filled slots and any additional units. Changing an assigned quantity applies to every occurrence of that same physical unit, keeping repeated uses saveable and their budget consistent. Per-step configuration and operation remain independent. Saved plans and JSON exports preserve these links. Replacing a model fills only slots that are vacant at that moment; it does not overwrite previous choices. Clearing equipment does not immediately repopulate it.
 
 ## Identity and preservation
 
@@ -38,7 +38,7 @@ Totals are displayed per step and for the complete process. Mixed currencies are
 
 ## Persistence and export
 
-`/api/processes` stores plans in the existing D1 database, scoped to the authenticated account. Every successful save appends an immutable full revision in `process_workflow_versions`. Revision checks and an atomic D1 batch reject stale/concurrent saves without partial history. Runtime workflows, configurations and signals are not committed to the public Git repository.
+`/api/processes` stores plans in the existing D1 database, scoped to the authenticated account. Every successful save appends an immutable full revision in `process_workflow_versions`. Revision checks and an atomic D1 batch reject stale/concurrent saves without partial history. Runtime workflows, configurations and signals are not committed to the public Git repository. The save control shows new, unsaved, saving and saved-revision states beside the button. Clicking a clean saved plan confirms its saved revision without creating a duplicate revision.
 
 - `GET /api/processes`: account workflow summaries.
 - `GET /api/processes?id=<ID>`: current workflow and recent revision metadata.

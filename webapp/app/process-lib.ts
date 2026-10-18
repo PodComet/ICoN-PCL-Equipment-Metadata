@@ -163,6 +163,18 @@ export function instrumentFor(r:Equipment):ProcessInstrument{return {
  configuration:{},operating_parameters:{},operation_sequence:[],signals:{},inputs:{},outputs:{},extensions:{},price_snapshot:priceSnapshot(r),
 };}
 export function unitId(i:ProcessInstrument){return typeof i.extensions.physical_unit_id==='string'?i.extensions.physical_unit_id:i.instance_id;}
+/** Quantity belongs to the reused physical unit; configuration belongs to each occurrence. */
+export function updateInstrumentAssignment(workflow:ProcessWorkflow,slotId:string,next:ProcessInstrument):ProcessWorkflow{
+ const previous=workflow.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId)?.instrument;
+ if(!previous)throw new Error('Select an occupied instrument slot to edit.');
+ if(next.instance_id!==previous.instance_id||next.equipment_id!==previous.equipment_id||unitId(next)!==unitId(previous))throw new Error('Replace the instrument to change its identity.');
+ const unit=unitId(previous),quantityChanged=next.quantity!==previous.quantity;
+ return {...workflow,steps:workflow.steps.map(step=>({...step,slots:step.slots.map(slot=>{
+  if(slot.slot_id===slotId)return {...slot,instrument:next};
+  const instrument=slot.instrument;
+  return quantityChanged&&instrument&&unitId(instrument)===unit?{...slot,instrument:{...instrument,quantity:next.quantity}}:slot;
+ })}))};
+}
 export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotId:string):ProcessWorkflow{
  const slots=workflow.steps.flatMap(s=>s.slots),from=slots.find(s=>s.slot_id===fromSlotId),to=slots.find(s=>s.slot_id===slotId);
  if(!from?.instrument||!to||!slotAccepts(to,from.instrument.equipment_snapshot,workflow.steps))throw new Error('Choose an existing unit that matches this slot.');
