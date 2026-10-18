@@ -10,6 +10,22 @@ const q125=seed.records.find(r=>r.equipment_id==='M09-01');
 const update=updates.find(r=>r.equipment_id===q125.equipment_id);
 const old=()=>Object.assign({...q125},...update.groups.map(group=>group.before));
 
+test('18 October manufacturer prices reach untouched snapshots without overwriting renamed or locally quoted instruments',()=>{
+ const reviewed=updates.flatMap(u=>u.groups.filter(g=>g.after.manufacturer_price_checked_date==='2026-10-18').map(group=>({u,group})));
+ assert.equal(reviewed.length,5);
+ for(const {u,group} of reviewed){
+  const r=seed.records.find(r=>r.equipment_id===u.equipment_id),snapshot={...r,...group.before,notes:'Keep my experiment notes'};
+  const refreshed=refreshResearchEvidence(snapshot,updates);
+  assert.equal(refreshed.manufacturer_price_value,r.manufacturer_price_value);
+  assert.equal(refreshed.manufacturer_price_scope,r.manufacturer_price_scope);
+  assert.equal(refreshed.notes,snapshot.notes);
+  for(const patch of [{manufacturer_price_source_url:'https://example.org/local-quote'},{model_name:'Different instrument'},{manufacturer:'Different manufacturer'}]){
+   const edited={...snapshot,...patch};assert.equal(refreshResearchEvidence(edited,updates).manufacturer_price_value,snapshot.manufacturer_price_value);
+  }
+  assert.equal(refreshResearchEvidence(withSharedResearchOverrides(snapshot,['manufacturer_price_value']),updates).manufacturer_price_value,snapshot.manufacturer_price_value);
+ }
+});
+
 test('NS LAB identity correction never transfers Elma verification and preserves explicit edits',()=>{
  const current=seed.records.find(r=>r.equipment_id==='M26-02'),change=updates.find(u=>u.equipment_id===current.equipment_id);
  const prior=Object.assign({...current},...change.groups.map(group=>group.before),{notes:'My polymer formulation notes'});

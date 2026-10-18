@@ -1,0 +1,3682 @@
+{
+  "schema": "iconpcl-price-review/v2",
+  "checked_date": "2026-10-18",
+  "scope": "Bounded re-review of saved documentation, dated pricebooks and direct public supplier/model/pack pages. Not an exhaustive review of every possible vendor or every outbound link. Exact offered configurations remain separate from base models and manufacturer MSRP. Missing prices remain unknown.",
+  "summary": {
+    "instrument_prices_added": 41,
+    "instrument_price_observations": 42,
+    "manufacturer_prices_added": 5,
+    "seller_offers_added": 37,
+    "new_condition_instrument_prices": 34,
+    "secondary_or_unspecified_instrument_prices": 7,
+    "component_offer_rows_added": 36,
+    "unique_new_component_pack_quotes": 33,
+    "component_identities_with_new_quotes": 16,
+    "new_component_eligibility_links": 19,
+    "new_price_evidence_records": 75
+  },
+  "before_coverage": {
+    "instrument_statuses": {
+      "new_seller_price": 62,
+      "manufacturer_price": 156,
+      "no_purchase_price": 779,
+      "estimate_only": 37,
+      "secondary_market_only": 44,
+      "explicit_msrp": 1
+    },
+    "component_statuses": {
+      "reference_offer_only": 79,
+      "no_market_offer": 109,
+      "compatible_pack_offer": 72
+    }
+  },
+  "documentation_review": {
+    "text_scanned_entries": 221,
+    "unique_document_hashes": 206,
+    "by_type": {
+      ".md": 32,
+      ".pdf": 22,
+      ".xlsx": 7,
+      ".html": 4,
+      ".docx": 5,
+      ".txt": 151
+    },
+    "excluded_office_lockfiles": 2,
+    "method": "Read-only PDF/text, DOCX XML and XLSX shared/cell text scan; currency candidates reviewed for model/pack purchase relevance. Cached source text and public documentation included. Private file names, paths, source excerpts and inventory details excluded from this public report.",
+    "finding": "No newly usable published purchase quote established from the original local articles/manuals. Existing private spreadsheet range was not promoted to official list price. Academic forecasts, formula dollars and service fees excluded."
+  },
+  "instrument_prices": [
+    {
+      "equipment_id": "M19-10",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Thermolyne F48025",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Clarkson Laboratory & Supply",
+      "price_value": 7440,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "sku": "F48025-60",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "2026-01-01",
+      "source_title": "Thermo Scientific 2026 laboratory equipment price list",
+      "locator": "PDF page 541; F48025-60; Equipment; List Price",
+      "scope": "Thermolyne F48025 series, F48025-60, 120 V, single-setpoint, 350 cubic inch furnace. Different controller options are separate configurations. Distributor list price, not MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "F48025-60 | FURNACE 350CI SSP 120V | Equipment | $7,440.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-569DB67C27447B5A",
+      "currency_context": {
+        "source_value": "7440",
+        "source_currency": "USD",
+        "usd_equivalent": "7440",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-5E00693D020811EE"
+    },
+    {
+      "equipment_id": "M19-10",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Thermolyne F48025",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Clarkson Laboratory & Supply",
+      "price_value": 7470,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "sku": "F48025-60-80",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "2026-01-01",
+      "source_title": "Thermo Scientific 2026 laboratory equipment price list",
+      "locator": "PDF page 541; F48025-60-80; Equipment; List Price",
+      "scope": "Thermolyne F48025 series, F48025-60-80, 120 V, eight-segment controller. Configuration alternative to single-setpoint unit. Distributor list price, not MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "F48025-60-80 | FURNACE 350CI 8 SEG 120V | Equipment | $7,470.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-15BC51B8C9518EFD",
+      "currency_context": {
+        "source_value": "7470",
+        "source_currency": "USD",
+        "usd_equivalent": "7470",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-A41F348EEC58CE32"
+    },
+    {
+      "equipment_id": "M18-09",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Vacutherm VT 6060",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Clarkson Laboratory & Supply",
+      "price_value": 16400,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "sku": "51014540",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "2026-01-01",
+      "source_title": "Thermo Scientific 2026 laboratory equipment price list",
+      "locator": "PDF page 387; SKU 51014540; Equipment; List Price",
+      "scope": "Vacutherm VT 6060 M vacuum oven, 120 V 50/60 Hz. Oven only; no vacuum pump, installation or delivered cost assumed. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "51014540 | VT 6060 M VACUUM DRYING OVEN 120V 50/60 | Equipment | $16,400.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-BCE7A498615DDFEE",
+      "currency_context": {
+        "source_value": "16400",
+        "source_currency": "USD",
+        "usd_equivalent": "16400",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-755923C36188185D"
+    },
+    {
+      "equipment_id": "M46-03",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Barnstead GenPure xCAD Plus",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Clarkson Laboratory & Supply",
+      "price_value": 16300,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "sku": "50136151",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "2026-01-01",
+      "source_title": "Thermo Scientific 2026 laboratory equipment price list",
+      "locator": "PDF page 372; SKU 50136151; Equipment; List Price",
+      "scope": "Barnstead GenPure xCAD Plus UV/UF, bench-mounted dispenser configuration. Not interchangeable with UV-only, TOC or wall-mounted variants. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "50136151 | Barnstead GenPure xCAD Plus UV/UF, bench mounted dispenser | Equipment | $16,300.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-D7C5C9D02C65E4D9",
+      "currency_context": {
+        "source_value": "16300",
+        "source_currency": "USD",
+        "usd_equivalent": "16300",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-84FB22BDBAF4C27C"
+    },
+    {
+      "equipment_id": "M29-01",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco Protector XStream, 4 ft",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Spectrum Chemical",
+      "price_value": 12750,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/",
+      "sku": "110410000 / 496-48481-EA",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "",
+      "source_title": "Spectrum Chemical exact-configuration public price",
+      "locator": "PDF page 1; manufacturer 110410000; vendor 496-48481-EA; List Price",
+      "scope": "Protector XStream 4 ft, no service fixtures, 115 V 60 Hz hood superstructure. Remote blower, ductwork, work surface and base installation not included in this hood-only price. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "110410000 | Protector XStream 4 ft, no fixtures, 115V | $12,750.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-AD85A47865F2F894",
+      "currency_context": {
+        "source_value": "12750",
+        "source_currency": "USD",
+        "usd_equivalent": "12750",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-77B6D85004F94283"
+    },
+    {
+      "equipment_id": "M29-06",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco Protector XStream, 6 ft",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Spectrum Chemical",
+      "price_value": 15795,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/",
+      "sku": "110610000 / 496-48505-EA",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "",
+      "source_title": "Spectrum Chemical exact-configuration public price",
+      "locator": "PDF page 2; manufacturer 110610000; vendor 496-48505-EA; List Price",
+      "scope": "Protector XStream 6 ft, no service fixtures, 115 V 60 Hz hood superstructure. Remote blower, ductwork, work surface and supporting base are outside price. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "110610000 | Protector XStream 6 ft, no fixtures, 115V | $15,795.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-E4F74DB982825244",
+      "currency_context": {
+        "source_value": "15795",
+        "source_currency": "USD",
+        "usd_equivalent": "15795",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-93B72B4DA686105C"
+    },
+    {
+      "equipment_id": "M29-05",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco Protector Premier",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Spectrum Chemical",
+      "price_value": 12540,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313787/",
+      "sku": "100400002 / 496-48532-EA",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "",
+      "source_title": "Spectrum Chemical exact-configuration public price",
+      "locator": "PDF page 2; manufacturer 100400002; vendor 496-48532-EA; List Price",
+      "scope": "Protector Premier 4 ft, two service fixtures and electrical duplex, no blower, 115 V 60 Hz. Blower, ducting, base and work surface must be separately budgeted. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "100400002 | Protector Premier 4 ft, two fixtures, duplex, no blower, 115V | $12,540.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-A02556D9BACD635C",
+      "currency_context": {
+        "source_value": "12540",
+        "source_currency": "USD",
+        "usd_equivalent": "12540",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-BDB3C3ABAB43DAE8"
+    },
+    {
+      "equipment_id": "M29-04",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco Protector XL",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Spectrum Chemical",
+      "price_value": 10740,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346051/",
+      "sku": "196-00824-EA",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "",
+      "source_title": "Spectrum Chemical exact-configuration public price",
+      "locator": "PDF page 1; vendor 196-00824-EA; List Price",
+      "scope": "Protector XL benchtop 4 ft hood, 43.7 in exterior depth, 100-115 V 50/60 Hz, zero service fixtures and duplexes. Vendor SKU exact configuration; manufacturer part not displayed. Remote blower required, not included. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "196-00824-EA | Protector XL 4 ft, 43.7 in depth, 100-115V | $10,740.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-0D6C2B48448E350F",
+      "currency_context": {
+        "source_value": "10740",
+        "source_currency": "USD",
+        "usd_equivalent": "10740",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-0EA93B3CF86C5FCB"
+    },
+    {
+      "equipment_id": "M30-04",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco XPert Balance Enclosure",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Spectrum Chemical",
+      "price_value": 3765,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346268/",
+      "sku": "196-02035-EA",
+      "checked_date": "2026-10-18",
+      "pricing_year": 2026,
+      "effective_date": "",
+      "source_title": "Spectrum Chemical exact-configuration public price",
+      "locator": "PDF page 1; vendor 196-02035-EA; List Price",
+      "scope": "XPert Balance Enclosure, 2 ft wide, 22.8 in tall, 29 in deep. Vendor SKU configuration; manufacturer part not displayed. Remote blower or FilterMate exhauster and filters required separately; not a full installed containment system. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "196-02035-EA | 2 ft XPert Balance Enclosure, 22.8 in tall | $3,765.00",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-0A742D04FC5C22F9",
+      "currency_context": {
+        "source_value": "3765",
+        "source_currency": "USD",
+        "usd_equivalent": "3765",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-1394325D98454785"
+    },
+    {
+      "equipment_id": "M30-05",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco XPert Nano Enclosure",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "W.W. Grainger",
+      "price_value": 10383.07,
+      "currency": "USD",
+      "price_kind": "published_vendor_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.grainger.com/product/LABCONCO-Enclosure-XPert-Nano-5ULF5",
+      "sku": "3887220 / 5ULF5",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "W.W. Grainger exact-configuration public price",
+      "locator": "Mfr model 3887220; item 5ULF5; Web Price block",
+      "scope": "XPert Nano 2 ft enclosure, 100/115 V AC, blower and stainless steel work surface included; supporting stand required separately. Public US web price; special shipping extra. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "$10,383.07/ each | model 3887220",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-B93DB41ADC41EA75",
+      "currency_context": {
+        "source_value": "10383.07",
+        "source_currency": "USD",
+        "usd_equivalent": "10383.07",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-DDC99F916833B16F"
+    },
+    {
+      "equipment_id": "M30-01",
+      "manufacturer": "Labconco",
+      "model_name": "Labconco RXPert Balance System",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Terra Universal / Laboratory Equipment",
+      "price_value": 11547,
+      "currency": "USD",
+      "price_kind": "published_vendor_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.laboratory-equipment.com/rxpert-double-filtered-balance-systems-labconco.html",
+      "sku": "3971281 / 9082-31",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Terra Universal / Laboratory Equipment exact-configuration public price",
+      "locator": "Select Product table; manufacturer SKU 3971281; Terra 9082-31",
+      "scope": "RXPert double-filtered balance system, 24 in wide, 115 V, stainless steel work surface. Not a single-filtered or epoxy-surface configuration. Supporting base and site installation not assumed included. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "3971281 | 24 in | 304 stainless steel | 115 V | $11,547",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-8B3E4B11B657915C",
+      "currency_context": {
+        "source_value": "11547",
+        "source_currency": "USD",
+        "usd_equivalent": "11547",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-8DEE484FC2FA82AC"
+    },
+    {
+      "equipment_id": "M09-10",
+      "manufacturer": "Hielscher",
+      "model_name": "Hielscher UIP1000hdT",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Hielscher Ultrasonics",
+      "price_value": 17950,
+      "currency": "USD",
+      "price_kind": "published_manufacturer_price",
+      "origin": "manufacturer",
+      "condition": "new",
+      "condition_basis": "Official manufacturer North America new-equipment set offer with 12-month warranty; no used/reconditioned indication.",
+      "source_url": "https://www.hielscher.com/i1000_p.htm",
+      "sku": "UIP1000hdT Set",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Hielscher Ultrasonics exact-configuration public price",
+      "locator": "UIP1000hdT Set > For North America > price",
+      "scope": "Official North America special-price set, 115 V single phase 16 A 50-60 Hz. Includes UIP1000hdT, FC100L1-1S flow cell, BS4d22 and BS4d40 sonotrodes, RFLA100 flange, B4-1.8 booster, ST2 stand. Net price FOB Mt. Holly NJ; 100% prepayment. Not bare processor or MSRP/list-price benchmark. Official manufacturer North America new-equipment set offer with 12-month warranty; no used/reconditioned indication.",
+      "evidence_text": "price: USD 17,950.00 net",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-08AB07A1D9FB9C55",
+      "currency_context": {
+        "source_value": "17950",
+        "source_currency": "USD",
+        "usd_equivalent": "17950",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "equipment_id": "M50-10",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific LP Vortex Mixer",
+      "previous_coverage": "estimate_only",
+      "seller_name": "TEquipment",
+      "price_value": 532,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.tequipment.net/Thermo-Scientific/88880017TS/Vortex-Mixers/",
+      "sku": "88880017",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "TEquipment exact-configuration public price",
+      "locator": "Catalog 88880017 / model 88880017TS; List Price",
+      "scope": "Thermo Scientific LP Vortex Mixer, 100-240 V 50/60 Hz, USA plug. Seller explicitly displays List Price while inviting a quote for its best purchase price; not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "$532.00",
+      "availability": "seller_list_price_quote_requested_for_best_price",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-B99BC7B20BA87B84",
+      "currency_context": {
+        "source_value": "532",
+        "source_currency": "USD",
+        "usd_equivalent": "532",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-E6ECCBDDCB8E5930"
+    },
+    {
+      "equipment_id": "M14-08",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Sorvall WX 80+",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 102900,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000080/EA/",
+      "sku": "75000080",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title, displayed price per EA, Part Number 75000080",
+      "scope": "Sorvall WX 80+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "Sorvall WX 80+ | $102,900.00/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-2FB251A0B3604EE0",
+      "currency_context": {
+        "source_value": "102900",
+        "source_currency": "USD",
+        "usd_equivalent": "102900",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-FBD731380CF302A1"
+    },
+    {
+      "equipment_id": "M14-09",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Sorvall WX 90+",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 92857.14,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000090/EA/",
+      "sku": "75000090",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title, displayed price per EA, Part Number 75000090",
+      "scope": "Sorvall WX 90+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "Sorvall WX 90+ | $92,857.14/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-4EB1064A0D2DDE69",
+      "currency_context": {
+        "source_value": "92857.14",
+        "source_currency": "USD",
+        "usd_equivalent": "92857.14",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-9B3C05ED917A1C3C"
+    },
+    {
+      "equipment_id": "M14-02",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Sorvall WX 100+",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 104880.95,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000100/EA/",
+      "sku": "75000100",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title, displayed price per EA, Part Number 75000100",
+      "scope": "Sorvall WX 100+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "Sorvall WX 100+ | $104,880.95/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-27D2E47BDD363901",
+      "currency_context": {
+        "source_value": "104880.95",
+        "source_currency": "USD",
+        "usd_equivalent": "104880.95",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-493959558B1BBC99"
+    },
+    {
+      "equipment_id": "M35-03",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Evolution One",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 13372.14,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Fisher--Scientific/14385500/EA/",
+      "sku": "14385500",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title, displayed price per EA, Part Number 14385500",
+      "scope": "Thermo Scientific Evolution One UV/Vis spectrophotometer exact Fisher catalog configuration. No Pharma, Security/Validation or USP/EP bundle inferred. Detailed included-accessory bill of materials not published. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "Evolution One | $13,372.14/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-3F0E7D28D9FF002A",
+      "currency_context": {
+        "source_value": "13372.14",
+        "source_currency": "USD",
+        "usd_equivalent": "13372.14",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-FC6CA117FF586B42"
+    },
+    {
+      "equipment_id": "M35-08",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Evolution Pro",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 22734.38,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Fisher--Scientific/14385507/EA/",
+      "sku": "14385507",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title, displayed price per EA, Part Number 14385507",
+      "scope": "Thermo Scientific Evolution Pro UV/Vis spectrophotometer exact Fisher catalog configuration. No Pharma, Security/Validation or USP/EP bundle inferred. Detailed included-accessory bill of materials not published. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "Evolution Pro | $22,734.38/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-AE1DECF9F73B3AB8",
+      "currency_context": {
+        "source_value": "22734.38",
+        "source_currency": "USD",
+        "usd_equivalent": "22734.38",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-5079E25B21941DB3"
+    },
+    {
+      "equipment_id": "M36-02",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Nicolet iS20",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 40100,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Thermo--Nicolet/912A1032/EA/",
+      "sku": "912A1032",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "Product title and Part Number 912A1032; price per EA",
+      "scope": "Nicolet iS20 MID-IR DTGS configuration, exact catalog part. Not MCT configuration and not an ATR accessory. Public vendor list price; accessory/software inclusions beyond named configuration not assumed. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "NICOLET IS20 MID IR DTGS | $40,100.00/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "evidence_id": "PRICE-EV-C2F6E50DD997A441",
+      "currency_context": {
+        "source_value": "40100",
+        "source_currency": "USD",
+        "usd_equivalent": "40100",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-14BAF09F91A4BF53"
+    },
+    {
+      "equipment_id": "M36-06",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Nicolet iS50",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "Government Scientific Source",
+      "price_value": 54000,
+      "currency": "USD",
+      "price_kind": "published_vendor_list_price",
+      "origin": "seller",
+      "condition": "new",
+      "condition_basis": "Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "source_url": "https://www.govsci.com/product-detail/Thermo--Nicolet/912A0760/EA/",
+      "sku": "912A0760",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Government Scientific Source exact-configuration public price",
+      "locator": "FT-IR Spectrometers; product IS50 FIXED GOLD KBR BSPLTR; Part Number 912A0760",
+      "scope": "Nicolet iS50 fixed gold KBr beamsplitter spectrometer configuration, classified in FT-IR Spectrometers. Not standalone replacement beamsplitter or accessory SKU; detector/accessory inclusions beyond named configuration require quote confirmation. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.",
+      "evidence_text": "IS50 FIXED GOLD KBR BSPLTR | $54,000.00/EA",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "list_price",
+      "adopted_condition": "new",
+      "additional_source_url": "https://www.thermofisher.com/us/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-is50-ftir-spectrometer.html",
+      "evidence_id": "PRICE-EV-93320171D37A39F7",
+      "currency_context": {
+        "source_value": "54000",
+        "source_currency": "USD",
+        "usd_equivalent": "54000",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-36127ABB3FE1F3B2"
+    },
+    {
+      "equipment_id": "M13-02",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Sorvall ST 8R",
+      "previous_coverage": "no_purchase_price",
+      "seller_name": "GMI",
+      "price_value": 3495,
+      "currency": "USD",
+      "price_kind": "published_vendor_price",
+      "origin": "seller",
+      "condition": "refurbished",
+      "condition_basis": "Listing explicitly marks Condition Certified Pre-Owned and supplies 90-day warranty.",
+      "source_url": "https://www.gmi-inc.com/product/thermo-scientific-sorvall-st-8r-centrifuge/",
+      "sku": "SL-1202-0425",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "GMI exact-configuration public price",
+      "locator": "Price $3495 and Additional information > Certified Pre-Owned",
+      "scope": "Sorvall ST 8R certified pre-owned instrument, 90-day warranty. Rotor configuration unreported; secondary-market reference only, excluded from new-equipment totals. Listing explicitly marks Condition Certified Pre-Owned and supplies 90-day warranty.",
+      "evidence_text": "Sorvall ST 8R | $3,495.00 | Certified Pre-Owned",
+      "availability": "lead_time_or_stock_not_confirmed",
+      "adoption": "recommended",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "refurbished",
+      "evidence_id": "PRICE-EV-A8055CA200FAD729",
+      "currency_context": {
+        "source_value": "3495",
+        "source_currency": "USD",
+        "usd_equivalent": "3495",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-50A868DC6C3D52BB"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M05-09",
+      "manufacturer": "Parr",
+      "seller_name": "Thermal Scientific, Inc.",
+      "price_value": 964.29,
+      "source_url": "https://www.thermalscientific.com/acid-digestion-vessel-parr-4749-parr-4749/",
+      "scope": "One Parr 4749 23 mL PTFE-lined acid-digestion vessel. Wrench, holding fixture, and tumbling ring excluded; vessel only, not an oven or full heated reactor. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Product title, MPN 4749, Price Now block and Description; extracted lines 584-626.",
+      "source_proof": "MPN 4749; $964.29; Sales Unit EACH",
+      "source_evidence": "The seller's product page identifies the complete 4749 vessel, its 23 mL volume, and the purchase amount. Catalog offering; condition treated as new.",
+      "model_name": "Parr 4749",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-173AF3685B132EFE",
+      "currency_context": {
+        "source_value": "964.29",
+        "source_currency": "USD",
+        "usd_equivalent": "964.29",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-DA10E33390A1DEB5"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M05-05",
+      "manufacturer": "Parr",
+      "seller_name": "LabPlanet",
+      "price_value": 3939,
+      "source_url": "https://www.labplanet.com/parr-instrument-acid-digestion-bomb-ss-25ml-4746.html",
+      "scope": "One 4746 high-pressure acid-digestion vessel, seller SKU CX1-9OM-4746 / 25227-061. Seller calls it 25 mL; manufacturer's nominal sample vessel is 23 mL, so preserve that seller wording as an offer note rather than changing canonical capacity. Not a heater. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Title, Code, MPN and amount; extracted lines 60-83.",
+      "source_proof": "MPN: 4746; $3,939.00",
+      "source_evidence": "Direct model-number match on the seller's product page. The page is a normal catalog offer, not an accessory or auction.",
+      "model_name": "Parr 4746",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-C8AE0912AFE6D4A1",
+      "currency_context": {
+        "source_value": "3939",
+        "source_currency": "USD",
+        "usd_equivalent": "3939",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-4218332C824DCE78"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M05-07",
+      "manufacturer": "Parr",
+      "seller_name": "LabPlanet",
+      "price_value": 4709,
+      "source_url": "https://www.labplanet.com/parr-instrument-bomb-general-purpose-125ml-4748.html",
+      "scope": "One 4748 125 mL acid-digestion vessel with removable PTFE cup in stainless steel body. Seller SKU CX1-94E-4748 / 19420-164. Not a heated reactor package. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "MPN and price followed by Product Info; extracted lines 60-84.",
+      "source_proof": "MPN: 4748; $4,709.00",
+      "source_evidence": "Seller identifies 4748 and 125 mL capacity; ordinary new catalog item without an indicated used condition.",
+      "model_name": "Parr 4748",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-80E09377AF35C521",
+      "currency_context": {
+        "source_value": "4709",
+        "source_currency": "USD",
+        "usd_equivalent": "4709",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-BDD563E5DF577675"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "manufacturer_published_price",
+      "equipment_id": "M16-04",
+      "manufacturer": "BUCHI",
+      "seller_name": "BUCHI US Online Shop",
+      "price_value": 9901,
+      "source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html",
+      "scope": "SKU 11SR0802C202, R-80 complete system with safety-coated cold-trap condenser, SJ 24/40, manual lift, cordless bath, V-180 pump, I-180 vacuum controller and Woulff bottle, 100-120 V. This price is for this bundle, not all R-80 configurations.",
+      "locator": "Product heading, price, SKU, Details and Features; extracted lines 98-131.",
+      "source_proof": "$9,901.00; SKU 11SR0802C202",
+      "source_evidence": "Official US manufacturer shop publishes the amount and enumerates the included vacuum system and glass configuration.",
+      "model_name": "BUCHI Rotavapor R-80",
+      "origin": "manufacturer",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-5E253516ED63702E",
+      "currency_context": {
+        "source_value": "9901",
+        "source_currency": "USD",
+        "usd_equivalent": "9901",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "manufacturer_published_price",
+      "equipment_id": "M16-01",
+      "manufacturer": "BUCHI",
+      "seller_name": "BUCHI US Online Shop",
+      "price_value": 7161,
+      "source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html",
+      "scope": "SKU 11SR18012V002, R-180 with vertical-coil condenser, SJ 24/40 and electronic lift; vacuum pump and vacuum controller explicitly none. Slug/browser page title incorrectly says R-80, but on-page H1, SKU and feature description explicitly say R-180. Use on-page SKU identity.",
+      "locator": "On-page H1, amount, SKU and first Features bullet; extracted lines 98-132.",
+      "source_proof": "$7,161.00; 11SR18012V002; Vacuum Pump: none; Controller: none",
+      "source_evidence": "Official shop lists R-180 and the exact configuration. Link was followed from the official R-180 category page, which has the same amount.",
+      "model_name": "BUCHI Rotavapor R-180",
+      "origin": "manufacturer",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-0F2FC8BB5585E433",
+      "currency_context": {
+        "source_value": "7161",
+        "source_currency": "USD",
+        "usd_equivalent": "7161",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "manufacturer_published_price",
+      "equipment_id": "M16-06",
+      "manufacturer": "BUCHI",
+      "seller_name": "BUCHI US Online Shop",
+      "price_value": 9389,
+      "source_url": "https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html",
+      "scope": "SKU 11R300252V102; R-300 electronic-lift rotary evaporator with safety-coated vertical condenser, 24/40 joint, 5 L flask capacity, 100-120 V. No pump, chiller or I-300 controller is specified as included; these are not priced in this offer.",
+      "locator": "Heading, price/SKU, Description and Specifications; extracted lines 98-143.",
+      "source_proof": "$9,389.00; SKU 11R300252V102",
+      "source_evidence": "The manufacturer's US store publishes an exact configuration and voltage, rather than a family-wide estimate.",
+      "model_name": "BUCHI Rotavapor R-300",
+      "origin": "manufacturer",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-C7B83FB191C5914E",
+      "currency_context": {
+        "source_value": "9389",
+        "source_currency": "USD",
+        "usd_equivalent": "9389",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M12-04",
+      "manufacturer": "RETSCH",
+      "seller_name": "Certified Material Testing Products",
+      "price_value": 17791.58,
+      "source_url": "https://certifiedmtp.com/retsch-pm-100-planetary-ball-mill/",
+      "scope": "New PM 100, seller SKU V039.205400003 (manufacturer 20.540.0003; 120 V model). Mill base with one grinding station; grinding jars/media are a separate selection. Shipping/import duties calculated at checkout. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Product title, price, Condition New, SKU and shipping note; extracted lines 377-414.",
+      "source_proof": "Price $17,791.58; Condition: New; V039.205400003",
+      "source_evidence": "Direct seller page has an explicit unit amount and new condition for the existing PM 100 model. Manufacturer order data confirms grinding jars and balls are ordered separately.",
+      "additional_source_url": "https://www.retsch.com/files/452788/product-data-sheet-pm-100.pdf",
+      "model_name": "RETSCH PM 100",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-56D2F9D173E55C8F",
+      "currency_context": {
+        "source_value": "17791.58",
+        "source_currency": "USD",
+        "usd_equivalent": "17791.58",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-CF34A728624113D9"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "EUR",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M12-05",
+      "manufacturer": "RETSCH",
+      "seller_name": "Servilab",
+      "price_value": 12689,
+      "source_url": "https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r",
+      "scope": "One new PM 200 mill, article 206400001 / 20.640.0001, two grinding stations. French regional seller price before tax. Jars and grinding balls separate; non-US market benchmark to be converted to USD with existing audited FX convention. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Product table row reference 206400001 and detailed row; extracted lines 460-490.",
+      "source_proof": "206400001 PM200 12 689,00 €",
+      "source_evidence": "The row specifically pairs the PM 200 model and article with its unit purchase amount; it is not an accessory row.",
+      "additional_source_url": "https://www.retsch.com/files/452814/product-data-sheet-pm-200.pdf",
+      "model_name": "RETSCH PM 200",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-81D94C4F16D82B43",
+      "currency_context": {
+        "source_value": "12689",
+        "source_currency": "EUR",
+        "usd_equivalent": "14278.93",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-5B018E60EA239DAA"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "EUR",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M12-06",
+      "manufacturer": "RETSCH",
+      "seller_name": "Servilab",
+      "price_value": 23245,
+      "source_url": "https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r",
+      "scope": "One new PM 400 mill, article 205350001 / 20.535.0001, four stations, 220-230 V, 50/60 Hz, standard 1:-2 speed ratio. French regional seller price before tax; jars/media separate. Convert for display with regional-origin note. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Product table row reference 205350001 and detailed row; extracted lines 460-503.",
+      "source_proof": "205350001 PM400 23 245,00 €",
+      "source_evidence": "The seller's row supplies the exact standard PM 400 model, voltage and unit amount; the PM 400 MA variant has not been substituted.",
+      "additional_source_url": "https://www.retsch.com/files/452787/product-data-sheet-pm-400.pdf",
+      "model_name": "RETSCH PM 400",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-7DD0E3FCF3E713FE",
+      "currency_context": {
+        "source_value": "23245",
+        "source_currency": "EUR",
+        "usd_equivalent": "26157.60",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-60313290C69FDC0D"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M11-02",
+      "manufacturer": "Kinematica",
+      "seller_name": "Fisher Scientific US",
+      "price_value": 6290,
+      "source_url": "https://www.fishersci.com/shop/products/kinematica-polytron-pt-2500e-homogenizer/08451320",
+      "scope": "Catalog 08-451-320, supplier SKU 11090108, 115 V PT 2500E with support stand. Dispersing generators/shafts explicitly sold separately. Public US seller amount per each; account/contract amounts may differ. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Catalog/price block and Includes/Requires; extracted lines 22-78.",
+      "source_proof": "$6,290.00 / Each of 1; 11090108",
+      "source_evidence": "A base drive plus stand package is explicitly identified. Required dispersing generators are excluded, so retain the package scope with the price.",
+      "model_name": "Kinematica POLYTRON PT 2500 E",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-ADE4992A3D69A109",
+      "currency_context": {
+        "source_value": "6290",
+        "source_currency": "USD",
+        "usd_equivalent": "6290",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-8B1A6AB1DBF41EF8"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M11-06",
+      "manufacturer": "Kinematica",
+      "seller_name": "Fisher Scientific US",
+      "price_value": 6582.1,
+      "source_url": "https://www.fishersci.com/shop/products/kinematica-polytron-homogenizer-motors-2/08451730",
+      "scope": "Catalog 08-451-730, supplier SKU 11010123, PT 3100 D 100-120 V drive unit. Includes power cord, PC software and RS232/USB cable. ST-F10/600 stand explicitly excluded; no dispersing generator priced as included. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Selected voltage table, supplier SKU, price, Includes and stand note; extracted lines 37-100.",
+      "source_proof": "$6,582.10 / Each of 1; 11010123",
+      "source_evidence": "Exact selected drive-unit variant has a public purchase amount; distinct from more expensive stand bundles and from separate aggregates.",
+      "model_name": "Kinematica POLYTRON PT 3100 D",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-B781A831788822DB",
+      "currency_context": {
+        "source_value": "6582.1",
+        "source_currency": "USD",
+        "usd_equivalent": "6582.1",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-4C50DE899FB49300"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "seller_published_price",
+      "equipment_id": "M11-07",
+      "manufacturer": "Kinematica",
+      "seller_name": "Fisher Scientific US",
+      "price_value": 5224.05,
+      "source_url": "https://www.fishersci.com/shop/products/polytron-pt-10-35-gt-homogenizers/13874615",
+      "scope": "Catalog 13-874-615 / supplier 11010103, 110-120 V PT 10/35 GT homogenizer drive. Selected variant table says homogenizer only, whereas generic descriptive copy says stand included; use selected SKU table. Do not assume stand/vessel holder bundle (13-874-617) included. Generators explicitly separate. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.",
+      "locator": "Selected SKU/Includes table, supplier SKU, amount, Requires; extracted lines 22-96.",
+      "source_proof": "13-874-615; $5,224.05 / Each of 1",
+      "source_evidence": "A published US seller purchase amount for the exact model and voltage; selected-variant scope is preserved despite generic family-copy ambiguity.",
+      "model_name": "Kinematica POLYTRON PT 10-35 GT",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-512197F10710588E",
+      "currency_context": {
+        "source_value": "5224.05",
+        "source_currency": "USD",
+        "usd_equivalent": "5224.05",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-214FC2685070F401"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "new",
+      "budget_eligible_new_equipment": true,
+      "price_kind": "manufacturer_published_configurator_base",
+      "equipment_id": "EXP-20261016-M12-PQ-N4",
+      "manufacturer": "Across International",
+      "seller_name": "Across International",
+      "price_value": 5990,
+      "source_url": "https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills/4x1000ml-gear-drive-4-liter-planetary-ballmill.html",
+      "scope": "PQN4, 4 x 1000 mL gear-drive mill base. Official product page labels amount Estimated Price for options selected; therefore this is a published configurator base, not MSRP. Standard package contains mill, clamps, tools and cord, no jars/media. Excludes tax/shipping and optional vacuum equipment.",
+      "locator": "SKU, Estimated Price, tax/shipping line and Standard Packages; extracted lines 514-658.",
+      "source_proof": "PQN4; Estimated Price: $5,990.00; Excl. Tax & Shipping",
+      "source_evidence": "The manufacturer's public catalog has a real base purchase amount, but configurable options may change it. Preserve manufacturer's estimated/configuration wording.",
+      "model_name": "Across International PQ-N4",
+      "origin": "manufacturer",
+      "adopted_price_kind": "starting_price",
+      "adopted_condition": "new",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-3F9C062D752064FE",
+      "currency_context": {
+        "source_value": "5990",
+        "source_currency": "USD",
+        "usd_equivalent": "5990",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "EUR",
+      "condition": "refurbished",
+      "budget_eligible_new_equipment": false,
+      "price_kind": "seller_refurbished_asking_price",
+      "equipment_id": "M35-04",
+      "manufacturer": "Agilent",
+      "seller_name": "LabRulez",
+      "price_value": 8500,
+      "source_url": "https://labrulez.com/en-us/all/marketplace/1109",
+      "scope": "2016 G6860A Cary 60 UV-Vis instrument, refurbished, 3-month warranty. External computer and Cary WinUV software explicitly excluded. EUR 200 delivery additional, before VAT. Used/refurbished comparison only; do not feed into new capital price estimates.",
+      "locator": "Purchase price, condition/year/warranty and operational exclusion; extracted lines 47-108.",
+      "source_proof": "Purchase price 8,500 € without VAT; Refurbished",
+      "source_evidence": "LabRulez is the named seller. Exact model and part number are specified, with a current in-stock ask rather than a replacement accessory price.",
+      "model_name": "Agilent Cary 60",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "refurbished",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-FD1A7D32C38DF7CC",
+      "currency_context": {
+        "source_value": "8500",
+        "source_currency": "EUR",
+        "usd_equivalent": "9565.05",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-904B9C862253A520"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "used",
+      "budget_eligible_new_equipment": false,
+      "price_kind": "seller_used_asking_price",
+      "equipment_id": "M34-06",
+      "manufacturer": "Malvern",
+      "seller_name": "ONESTOP SCIENTIFIC (eBay)",
+      "price_value": 19999,
+      "source_url": "https://www.ebay.com/itm/398205216666",
+      "scope": "2019 Zetasizer Nano-ZS ZEN3600 with system software per title; used, seller claims functional. USD 750 freight additional. Asking amount or Best Offer, not a completed transaction. Unit-specific secondary-market comparison only.",
+      "locator": "Title, named seller, ask, condition, shipping and model/MPN; extracted lines 75-166.",
+      "source_proof": "US $19,999.00 or Best Offer; Used",
+      "source_evidence": "Seller listing is for the exact Nano ZS ZEN3600, distinct from ZS90 and Nano Z variants; published amount excludes freight.",
+      "model_name": "Malvern Zetasizer Nano ZS",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "used",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-10992A4B5245EDE0",
+      "currency_context": {
+        "source_value": "19999",
+        "source_currency": "USD",
+        "usd_equivalent": "19999",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-48E50855799E25D2"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "EUR",
+      "condition": "used",
+      "budget_eligible_new_equipment": false,
+      "price_kind": "seller_used_asking_price",
+      "equipment_id": "M06-08",
+      "manufacturer": "CEM",
+      "seller_name": "LabMakelaar Benelux B.V.",
+      "price_value": 12650,
+      "source_url": "https://www.labmakelaar.eu/shop/all/saleable/ovens-incubators-and-climate/microwave/cem-mars-6-microwave-destructor/",
+      "scope": "SKU EXT 29176, used 2017 MARS 6 at seller-stated 80% power capacity. Two 40-position carousels, 200 PTFE vessels, 345 caps and 516 screw lids included; one-month warranty. EUR amount excludes tax. Reduced-power used offer only, not new equipment benchmark.",
+      "locator": "SKU/price, description and specifications; extracted lines 105-144.",
+      "source_proof": "€ 12.650,00 excl. tax; SKU: EXT 29176",
+      "source_evidence": "Seller identifies an entire working MARS 6 system, its age, degradation and consumables bundle rather than a carousel/accessory alone.",
+      "model_name": "CEM MARS 6",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "used",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-3D9930A740D3A2D3",
+      "currency_context": {
+        "source_value": "12650",
+        "source_currency": "EUR",
+        "usd_equivalent": "14235.04",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-5B66E9D148470601"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "USD",
+      "condition": "used",
+      "budget_eligible_new_equipment": false,
+      "price_kind": "seller_used_asking_price",
+      "equipment_id": "M11-03",
+      "manufacturer": "Silverson",
+      "seller_name": "Novus Ferro Pte Ltd",
+      "price_value": 5699,
+      "source_url": "https://www.novusferro.com/shop/lab/shakers/silverson-l5m-a-high-shear-laboratory-mixer/",
+      "scope": "Used L5M-A, seller SKU 188016744406; seller website USD amount. Instrument and attachments as pictured only; verify work-head contents separately. Same seller's eBay listing has a different amount, so preserve channel-specific offer rather than merging prices.",
+      "locator": "Product heading, USD amount, stock and SKU/condition; extracted lines 39-51.",
+      "source_proof": "USD $5,699.00; Product Condition: Used",
+      "source_evidence": "Direct seller website publishes the model's used asking amount. Repeated stock count does not create additional model records.",
+      "model_name": "Silverson L5M-A",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "used",
+      "previous_coverage": "estimate_only",
+      "evidence_id": "PRICE-EV-8243D6A6A8413AE0",
+      "currency_context": {
+        "source_value": "5699",
+        "source_currency": "USD",
+        "usd_equivalent": "5699",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-9E334847400557FC"
+    },
+    {
+      "checked_date": "2026-10-18",
+      "verification_status": "verified_published_offer",
+      "verification_method": "direct_source_page_review",
+      "match_status": "exact_existing_model",
+      "currency": "EUR",
+      "condition": "used",
+      "budget_eligible_new_equipment": false,
+      "price_kind": "seller_used_asking_price",
+      "equipment_id": "SW17-M36-5A4504DC1F3D",
+      "manufacturer": "Bruker",
+      "seller_name": "Amikon GmbH",
+      "price_value": 8500,
+      "source_url": "https://www.amikon-shop.de/en/bruker-tensor-27-ft-ir-spectrometer/laboratikel/a-24509",
+      "scope": "Used Tensor 27 FT-IR spectrometer, item 24509, one piece. EUR price excludes VAT and shipping. Exact computer/software/accessory configuration not stated. Ignore unrelated INVENIO text in generic page description. Secondary-market offer only.",
+      "locator": "Product heading, item ID, condition, unit price and price footnote; extracted lines 19-35 and page footer.",
+      "source_proof": "Condition: Used; EUR 8,500.00; Item ID: 24509",
+      "source_evidence": "Direct seller page identifies an entire Tensor 27 spectrometer, not one of the numerous separately listed ATR accessories.",
+      "model_name": "Tensor 27",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "used",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-78E0A535BE0CC2B6",
+      "currency_context": {
+        "source_value": "8500",
+        "source_currency": "EUR",
+        "usd_equivalent": "9565.05",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-09395484AA15B317"
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-SPECAC-ATLAS-MANUAL-15T",
+      "manufacturer": "Specac",
+      "model_name": "Atlas Manual 15T",
+      "seller_name": "Fisher Scientific UK",
+      "price_value": 3751,
+      "currency": "GBP",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "source_url": "https://www.fishersci.co.uk/shop/products/atlas-manual-15t-hydraulic-press/12960880",
+      "checked_date": "2026-10-18",
+      "sku": "GS15011 / 12960880",
+      "locator": "Product selection, supplier GS15011, price per pack of 1",
+      "scope": "One Atlas Manual 15T press, supplier GS15011. UK public catalog price, converted to USD for comparison; taxes, freight, import duties, dies and heated platens excluded. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed.",
+      "additional_source_url": "https://specac.com/wp-content/uploads/2022/06/Manual-Hydraulic-Press-datasheet.pdf",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-B9D95D676D5DC0F1",
+      "currency_context": {
+        "source_value": "3751",
+        "source_currency": "GBP",
+        "usd_equivalent": "5002.07",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-21319F10851C63BD"
+    },
+    {
+      "equipment_id": "GAP-20261016-M72-SPECAC-ATLAS-MANUAL-25T",
+      "manufacturer": "Specac",
+      "model_name": "Atlas Manual 25T",
+      "seller_name": "Fisher Scientific UK",
+      "price_value": 4687.54,
+      "currency": "GBP",
+      "origin": "seller",
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "new",
+      "source_url": "https://www.fishersci.co.uk/shop/products/atlas-hydraulic-press-manual-25t/15260328",
+      "checked_date": "2026-10-18",
+      "sku": "GS25011 / 15260328",
+      "locator": "Product selection, supplier GS25011, price per pack of 1",
+      "scope": "One Atlas Manual 25T press, supplier GS25011. UK public catalog price, converted to USD for comparison; taxes, freight, import duties, dies and heated platens excluded. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed.",
+      "additional_source_url": "https://specac.com/wp-content/uploads/2022/06/Manual-Hydraulic-Press-datasheet.pdf",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-15220B58E1A87BE7",
+      "currency_context": {
+        "source_value": "4687.54",
+        "source_currency": "GBP",
+        "usd_equivalent": "6250.98",
+        "conversion_date": "2026-10-16",
+        "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      },
+      "offer_id": "SELL-PRICE261018-5C1C1434A1C061F3"
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-848",
+      "manufacturer": "Metrohm",
+      "model_name": "Metrohm 848 Titrino plus",
+      "seller_name": "HeartOfAutomation (eBay)",
+      "price_value": 7350,
+      "currency": "USD",
+      "origin": "seller",
+      "adopted_price_kind": "asking_price",
+      "adopted_condition": "unspecified",
+      "source_url": "https://www.ebay.com/itm/285216191442",
+      "checked_date": "2026-10-18",
+      "sku": "848 / eBay 285216191442",
+      "locator": "Listing title, price, seller, condition and seller notes",
+      "scope": "One Metrohm 848 Titrino plus. Seller calls condition new-open-box / new old stock; categorized as unspecified for new-equipment budgeting and excluded from its totals. Asking price or Best Offer; Dubai origin. Freight, import duties and taxes excluded. Accessories as photographed; calibration, package completeness and US warranty unverified.",
+      "previous_coverage": "no_purchase_price",
+      "evidence_id": "PRICE-EV-1C847D43EC949CB6",
+      "currency_context": {
+        "source_value": "7350",
+        "source_currency": "USD",
+        "usd_equivalent": "7350",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "offer_id": "SELL-PRICE261018-9200D1CACA0772E2"
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M09-10",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "Hielscher",
+            "model_name": "Hielscher UIP1000hdT",
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer": "Hielscher",
+            "model_name": "Hielscher UIP1000hdT",
+            "manufacturer_price_value": "17950",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://www.hielscher.com/i1000_p.htm",
+            "manufacturer_price_checked_date": "2026-10-18",
+            "manufacturer_price_scope": "Official North America special-price set, 115 V single phase 16 A 50-60 Hz. Includes UIP1000hdT, FC100L1-1S flow cell, BS4d22 and BS4d40 sonotrodes, RFLA100 flange, B4-1.8 booster, ST2 stand. Net price FOB Mt. Holly NJ; 100% prepayment. Not bare processor or MSRP/list-price benchmark. Official manufacturer North America new-equipment set offer with 12-month warranty; no used/reconditioned indication."
+          }
+        }
+      ],
+      "evidence_id": "PRICE-EV-08AB07A1D9FB9C55"
+    },
+    {
+      "equipment_id": "M16-04",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-80",
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-80",
+            "manufacturer_price_value": "9901",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html",
+            "manufacturer_price_checked_date": "2026-10-18",
+            "manufacturer_price_scope": "SKU 11SR0802C202, R-80 complete system with safety-coated cold-trap condenser, SJ 24/40, manual lift, cordless bath, V-180 pump, I-180 vacuum controller and Woulff bottle, 100-120 V. This price is for this bundle, not all R-80 configurations."
+          }
+        }
+      ],
+      "evidence_id": "PRICE-EV-5E253516ED63702E"
+    },
+    {
+      "equipment_id": "M16-01",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-180",
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-180",
+            "manufacturer_price_value": "7161",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html",
+            "manufacturer_price_checked_date": "2026-10-18",
+            "manufacturer_price_scope": "SKU 11SR18012V002, R-180 with vertical-coil condenser, SJ 24/40 and electronic lift; vacuum pump and vacuum controller explicitly none. Slug/browser page title incorrectly says R-80, but on-page H1, SKU and feature description explicitly say R-180. Use on-page SKU identity."
+          }
+        }
+      ],
+      "evidence_id": "PRICE-EV-0F2FC8BB5585E433"
+    },
+    {
+      "equipment_id": "M16-06",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-300",
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer": "BUCHI",
+            "model_name": "BUCHI Rotavapor R-300",
+            "manufacturer_price_value": "9389",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "published_price",
+            "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html",
+            "manufacturer_price_checked_date": "2026-10-18",
+            "manufacturer_price_scope": "SKU 11R300252V102; R-300 electronic-lift rotary evaporator with safety-coated vertical condenser, 24/40 joint, 5 L flask capacity, 100-120 V. No pump, chiller or I-300 controller is specified as included; these are not priced in this offer."
+          }
+        }
+      ],
+      "evidence_id": "PRICE-EV-C7B83FB191C5914E"
+    },
+    {
+      "equipment_id": "EXP-20261016-M12-PQ-N4",
+      "groups": [
+        {
+          "before": {
+            "manufacturer": "Across International",
+            "model_name": "Across International PQ-N4",
+            "manufacturer_price_value": "",
+            "manufacturer_price_currency": "",
+            "manufacturer_price_kind": "",
+            "manufacturer_price_source_url": "",
+            "manufacturer_price_checked_date": "",
+            "manufacturer_price_scope": ""
+          },
+          "after": {
+            "manufacturer": "Across International",
+            "model_name": "Across International PQ-N4",
+            "manufacturer_price_value": "5990",
+            "manufacturer_price_currency": "USD",
+            "manufacturer_price_kind": "starting_price",
+            "manufacturer_price_source_url": "https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills/4x1000ml-gear-drive-4-liter-planetary-ballmill.html",
+            "manufacturer_price_checked_date": "2026-10-18",
+            "manufacturer_price_scope": "PQN4, 4 x 1000 mL gear-drive mill base. Official product page labels amount Estimated Price for options selected; therefore this is a published configurator base, not MSRP. Standard package contains mill, clamps, tools and cord, no jars/media. Excludes tax/shipping and optional vacuum equipment."
+          }
+        }
+      ],
+      "evidence_id": "PRICE-EV-3F9C062D752064FE"
+    }
+  ],
+  "instrument_decisions": [
+    {
+      "equipment_id": "M03-02",
+      "manufacturer": "Heidolph",
+      "model_name": "Heidolph Hei-TORQUE Precision 100",
+      "previous_coverage": "estimate_only",
+      "seller_name": "Marshall Scientific",
+      "price_value": 1255,
+      "currency": "USD",
+      "price_kind": "published_vendor_price",
+      "origin": "seller",
+      "condition": "refurbished",
+      "condition_basis": "Listing explicitly says fully recertified and tested to manufacturer specifications.",
+      "source_url": "https://marshallscientific.com/products/heidolph-hei-torque-precision-100-overhead-stirrer",
+      "sku": "H-HTP100",
+      "checked_date": "2026-10-18",
+      "pricing_year": null,
+      "effective_date": "",
+      "source_title": "Marshall Scientific exact-configuration public price",
+      "locator": "Price with Selected Options; product H-HTP100; condition; stock count 0",
+      "scope": "Hei-TORQUE Precision 100 recertified drive with cord and manual. Stand, clamp and impeller required but excluded. Current page explicitly says out of stock. Historical reference only; do not treat as available quote or new-equipment total.",
+      "evidence_text": "$1,255.00 | Fully Recertified | Out of Stock",
+      "availability": "out_of_stock",
+      "adoption": "reference_only_unavailable",
+      "manufacturer_msrp_claim": false,
+      "estimate_benchmark_eligible": false,
+      "adopted_price_kind": "published_price",
+      "adopted_condition": "refurbished",
+      "decision": "not_adopted_unavailable"
+    },
+    {
+      "equipment_ids": [
+        "M02-10"
+      ],
+      "sources": [
+        "https://store.clarksonlab.com/vendors/vVels.pdf"
+      ],
+      "decision": "no_exact_price_adopted",
+      "reason": "AREC.X not present; AREC 7 Digital/Advance/Connect are distinct models and were not substituted."
+    },
+    {
+      "equipment_ids": [
+        "M11-10"
+      ],
+      "sources": [
+        "https://store.clarksonlab.com/vendors/vVels.pdf"
+      ],
+      "decision": "no_exact_price_adopted",
+      "reason": "OV 5 / OV5 absent; cannot import OHS overhead-stirrer price for rotor-stator model."
+    },
+    {
+      "equipment_ids": [
+        "EXT-M84-07AC89CB0B69",
+        "EXT-M84-31F698D2F753",
+        "EXT-M84-D5BA4C1D7090",
+        "EXT-M84-988C964A08CA",
+        "EXT-M84-238220EED490"
+      ],
+      "sources": [
+        "https://store.clarksonlab.com/Vendors/vNabi.pdf"
+      ],
+      "decision": "no_exact_price_adopted",
+      "reason": "No Q-series quench bath price rows located in 2026 Nabertherm list; furnace prices excluded."
+    },
+    {
+      "equipment_ids": [
+        "M03-07"
+      ],
+      "sources": [
+        "https://www.mnrequipment.com/shop/heidolph-overhead-stirrer-hei-torque-precision-200-13398?category=346"
+      ],
+      "decision": "deferred_ambiguous_condition_and_configuration",
+      "reason": "Page displays USD 3499 but no condition, and copy mixes Expert/Ultimate variants with Precision title. Not adopted."
+    },
+    {
+      "equipment_ids": [
+        "M03-02"
+      ],
+      "sources": [
+        "https://labproinc.com/products/heidolph-overhead-stirrer-hei-torque-precision-100-usb-rs232-interface-115v-036093090"
+      ],
+      "decision": "stale_snippet_rejected",
+      "reason": "Search showed $3494, but opened page exposes no live numeric price. Stale snippet not imported."
+    },
+    {
+      "equipment_ids": [
+        "M30-05",
+        "M30-01"
+      ],
+      "sources": [
+        "https://www.coleparmer.com/i/labconco-xpert-nano-3887360-enclosures-3-ft-wide-100-volt-60-hz-w-ionizer/3351222",
+        "https://www.coleparmer.com/p/labconco-rxpert-class-i-double-filtered-biological-safety-cabinets/67072"
+      ],
+      "decision": "region_and_stale_snippet_rejected",
+      "reason": "Search returned numeric USD, but live Nano page changed to GBP-region with Call For Price. Used verified Grainger and Terra alternatives."
+    },
+    {
+      "equipment_ids": [
+        "M36-07"
+      ],
+      "sources": [
+        "https://www.govsci.com/product-detail/Thermo--Nicolet/912A1139/EA/",
+        "https://www.govsci.com/product-detail/Thermo--Nicolet/912A0972/EA/"
+      ],
+      "decision": "different_submodel_not_adopted",
+      "reason": "Prices $18350 Summit X and $25579.49 Summit Pro are different submodels from baseline Summit; no price copied to older baseline."
+    },
+    {
+      "equipment_ids": [
+        "M09-03"
+      ],
+      "sources": [
+        "https://www.labx.com/item/30th/scp-243319-5578795"
+      ],
+      "decision": "unavailable_listing_not_adopted",
+      "reason": "Exact used UP400St kit $6500 remains readable, but page explicitly says This Listing Is No Longer Available; not a current purchase offer."
+    },
+    {
+      "equipment_ids": [
+        "M09-08",
+        "EXP-20261016-M09-UP100H",
+        "M09-09"
+      ],
+      "sources": [
+        "https://www.hielscher.com/up200st-powerful-ultrasonic-lab-homogenizer.htm",
+        "https://www.hielscher.com/100h_p.htm",
+        "https://www.hielscher.com/i500_p.htm"
+      ],
+      "decision": "no_numeric_usd_manufacturer_price",
+      "reason": "Official pages have request forms without a numeric USD price. EUR/CHF/JPY foreign dealer quotes not silently converted."
+    },
+    {
+      "equipment_ids": [
+        "M19-07",
+        "M19-08",
+        "M19-09"
+      ],
+      "sources": [
+        "https://www.komplett-konzept.com/en/carbolite-cwf-11/5-chamber-furnace-1100-c-muffle-furnace-ashing-furnace-5l_32779_35892",
+        "https://www.fishersci.co.uk/shop/products/cwf-12-13-1200-c-13-litre-chamber-furnace/15741697",
+        "https://assets.zoro.co.uk/Document/p/ZT2926170S/AAF1118_Furnace3216PI_0.pdf"
+      ],
+      "decision": "foreign_or_uncertain_offer_deferred",
+      "reason": "CWF11/5 available used in Germany with VAT/dynamic USD conversion; CWF12/13 has GBP4150 US-unqualified configuration; old Zoro GBP list date unclear. No USD US-new price adopted."
+    },
+    {
+      "equipment_ids": [
+        "M14-08",
+        "M14-09",
+        "M14-02"
+      ],
+      "sources": [
+        "https://www.gsaadvantage.gov/ref_text/GS24F1289C/0MQJRV.2T2DJG_GS-24F-1289C_GS24F1289C51.PDF"
+      ],
+      "decision": "old_and_different_generation_rejected",
+      "reason": "Actual effective date February 21 2014 and WX without plus. Not current-generation or 2026 prices despite recent search indexing."
+    },
+    {
+      "equipment_ids": [
+        "M36-06"
+      ],
+      "sources": [
+        "https://www.fishersci.com/shop/products/NC3911898/NC3911898"
+      ],
+      "decision": "software_accessory_price_rejected",
+      "reason": "OMNIC SPECTA NICOLET IS50 EDIT is software, not the instrument; $44086.50 not imported as spectrometer cost."
+    },
+    {
+      "equipment_ids": [
+        "M43-03",
+        "M43-04",
+        "M43-05",
+        "M43-06"
+      ],
+      "source_url": "https://labsup.net/collections/nanogenizer-nano-high-pressure-homogenizer-accessories/products/genizer-jacketed-liposome-extruders",
+      "decision": "reject_stale_unverified_prices",
+      "reason": "Search cache exposed USD 3754/5329/10789/19089 for four extruders, but opening the source returns HTTP 404. Alternate /products/ URL also 404 via live requests. Do not ingest cached amounts as verified current offers.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M43-03",
+        "M43-04",
+        "M43-05",
+        "M43-06",
+        "M43-07"
+      ],
+      "source_url": "https://www.genizer.com/jacketed-liposome-extruder_p0005.html",
+      "decision": "defer_configuration_price_verification",
+      "reason": "Official page publishes USD 4000 for the family, but catalog-number choices include multiple sizes. Raw public HTML attaches different adjustment prices to each choice and no selection is recorded initially. Do not assign generic USD 4000 to each model without verifying the selected configuration's resulting amount.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M05-09"
+      ],
+      "source_url": "https://www.fishersci.com/shop/products/acid-digestion-bomb-replacement-cups/0102321A",
+      "decision": "reject_accessory",
+      "reason": "USD 531.50 is replacement PTFE cup/cover A280AC for the 4749, not a complete Parr 4749 vessel.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M06-07"
+      ],
+      "source_url": "https://www.dotmed.com/listing/lab-general/cem/explorer-spd-plus-48-96-discover-sp-d-microwave-digester-system-909385/4948900",
+      "decision": "reject_different_model",
+      "reason": "USD 6499.99 used ask is Discover SP-D with Explorer SP-D Plus; canonical entry is Discover SP. Distinct digestion/synthesis variant, do not substitute.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M06-08"
+      ],
+      "source_url": "https://www.purplewave.com/auction/250624/item/EG8466/CEM-Mars_6_230/60-Electronics-Electronics-Oklahoma",
+      "decision": "reject_as_current_offer_historical_only",
+      "reason": "USD 632.50 is a completed June 24, 2025 auction contract price for a unit-specific MARS 6; no current purchase offer. Potential historical transaction evidence only, not used in this current sweep.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M12-04"
+      ],
+      "source_url": "https://www.ebay.com/itm/287431810457",
+      "decision": "reject_nonworking_for_pricing",
+      "reason": "USD 3599.99 listing explicitly marked For parts or not working. Not a serviceable instrument price benchmark.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M36-01"
+      ],
+      "source_url": "https://www.indexbox.io/search/ftir-spectrometers-price-evidence-northern-america-2026/",
+      "decision": "reject_untraceable_secondary_price_anchor",
+      "reason": "Claims an ALPHA II price anchor without a verifiable exact seller/manufacturer offer. Modeled market corridors are not published model purchase prices.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M34-06"
+      ],
+      "source_url": "https://www.ebay.com/itm/277299513839",
+      "decision": "reject_conflicting_model_identity",
+      "reason": "Title says Nano-ZS but model-specific metadata says ZS90 and unbranded/China, so USD 17500 is not accepted for the ZEN3600 Nano ZS.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M34-06"
+      ],
+      "source_url": "https://www.ebay.com/itm/257535068308",
+      "decision": "reject_as_current_offer_sold_best_offer",
+      "reason": "Sold listing displays USD 20500 and Best Offer accepted. Actual transaction amount is not established; current offer not available.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_ids": [
+        "M05-01"
+      ],
+      "source_url": "https://www.scribd.com/document/750494686/Reatores-e-Vasos-Parr-2011",
+      "decision": "reject_historical_third_party_price_list",
+      "reason": "2011 price list uploaded by third party is unsuitable as current purchasing evidence. Exact current 4744 offer in AUD found at John Morris, but prioritized verified USD offers during this bounded sweep.",
+      "checked_date": "2026-10-18"
+    },
+    {
+      "equipment_id": "M21-01",
+      "source_url": "https://mtixtl.com/products/otf-1200x-ii-pec4sl-ld",
+      "decision": "rfq_no_price",
+      "reason": "RFQ is displayed. The minimum order amount is not an instrument price."
+    },
+    {
+      "equipment_id": "EXT-M65-MTI-SP15AB",
+      "source_url": "https://mtixtl.com/products/SP-15AB",
+      "decision": "rfq_no_price",
+      "reason": "No numeric instrument purchase price; minimum-order amount excluded."
+    },
+    {
+      "equipment_id": "EXT-M65-MTI-IH1600",
+      "source_url": "https://mtixtl.com/products/mini-induction-heating-furnace-up-to-1600-c-100-g-imcs-1600",
+      "decision": "rfq_no_price",
+      "reason": "RFQ only; minimum order excluded."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-805",
+      "source_url": "https://industriallynx.com/metrohm-805-dosimat-6-3026-220-20ml-titrator-dosing-unit-for-titration/",
+      "decision": "accessory_mismatch",
+      "reason": "The 6.3026.220 exchange/dosing unit is not evidence for a complete 805 drive."
+    },
+    {
+      "equipment_id": "EXT-M63-METROHM-848",
+      "source_url": "https://s-a-le.nl/product/2425-used-metrohm-848-titrino-plus-system/",
+      "decision": "sold_out",
+      "reason": "EUR 3500 used listing is sold out, not adopted as a live offer."
+    }
+  ],
+  "component_prices": [
+    {
+      "proposal_id": "CMP-PROP-74ED3409EAF8",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-100ML",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 100,
+      "pack_unit": "mL",
+      "price_value": 64.4,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-E512EEE1B63DC923",
+      "evidence_id": "PRICE-EV-5EB73DBE70B23930",
+      "currency_context": {
+        "source_value": "64.4",
+        "source_currency": "USD",
+        "usd_equivalent": "64.4",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-591E3CEC2E1B",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-1L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 1000,
+      "pack_unit": "mL",
+      "price_value": 108,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-3A0284A298D648B4",
+      "evidence_id": "PRICE-EV-FA62B6FFE513114E",
+      "currency_context": {
+        "source_value": "108",
+        "source_currency": "USD",
+        "usd_equivalent": "108",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-0FBE41A59E5D",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-2L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 2000,
+      "pack_unit": "mL",
+      "price_value": 151,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-026FE16737949605",
+      "evidence_id": "PRICE-EV-C0522A57C55C9048",
+      "currency_context": {
+        "source_value": "151",
+        "source_currency": "USD",
+        "usd_equivalent": "151",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-F8EA91C97DEE",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-4L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 4000,
+      "pack_unit": "mL",
+      "price_value": 251,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-5E524081E35102EA",
+      "evidence_id": "PRICE-EV-4958825C26F16701",
+      "currency_context": {
+        "source_value": "251",
+        "source_currency": "USD",
+        "usd_equivalent": "251",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-779FFAF27E28",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-4X2L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 8000,
+      "pack_unit": "mL",
+      "price_value": 501,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-52F9E93E0ADC6513",
+      "evidence_id": "PRICE-EV-9107B2AC5C7A614D",
+      "currency_context": {
+        "source_value": "501",
+        "source_currency": "USD",
+        "usd_equivalent": "501",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-809E3CEFB3CA",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-4X4L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 16000,
+      "pack_unit": "mL",
+      "price_value": 829,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-0D7095F0E0E57617",
+      "evidence_id": "PRICE-EV-8295423E3995FDD8",
+      "currency_context": {
+        "source_value": "829",
+        "source_currency": "USD",
+        "usd_equivalent": "829",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-0C51D5CB6143",
+      "component_id": "acetone-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C06"
+      ],
+      "name": "Acetone, suitable for HPLC, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "270725-6X1L",
+      "grade": "HPLC, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "67-64-1",
+      "pack_quantity": 6000,
+      "pack_unit": "mL",
+      "price_value": 834,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 58.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/270725",
+      "adopted_offer_id": "PACK-PRICE261018-7B88D619597A7669",
+      "evidence_id": "PRICE-EV-448EBFA1FF85C62A",
+      "currency_context": {
+        "source_value": "834",
+        "source_currency": "USD",
+        "usd_equivalent": "834",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-280842C7B160",
+      "component_id": "toluene-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C07"
+      ],
+      "name": "Toluene HPLC Plus, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "650579-4L",
+      "grade": "HPLC Plus, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "108-88-3",
+      "pack_quantity": 4000,
+      "pack_unit": "mL",
+      "price_value": 265,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/650579",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same toluene identity and HPLC purity class as P23. Input use volume remains unreported.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 92.14,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/650579",
+      "adopted_offer_id": "PACK-PRICE261018-FB72C27340B7E438",
+      "evidence_id": "PRICE-EV-0C2BF1F2451F0E5B",
+      "currency_context": {
+        "source_value": "265",
+        "source_currency": "USD",
+        "usd_equivalent": "265",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-E2632DC0A006",
+      "component_id": "toluene-hplc",
+      "target_formulation_line_ids": [
+        "P23-LITERATURE-20261017-C07"
+      ],
+      "name": "Toluene HPLC Plus, ≥99.9%",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "650579-4X4L",
+      "grade": "HPLC Plus, ≥99.9%",
+      "form": "neat liquid",
+      "cas_number": "108-88-3",
+      "pack_quantity": 16000,
+      "pack_unit": "mL",
+      "price_value": 747,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/650579",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same toluene identity and HPLC purity class as P23. Input use volume remains unreported.",
+      "condition": "new",
+      "source_locator": "Select a Size table, SKU row; opened web",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 92.14,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/650579",
+      "adopted_offer_id": "PACK-PRICE261018-ED6EF7B269FD5C8D",
+      "evidence_id": "PRICE-EV-EB17CA6BEDB33514",
+      "currency_context": {
+        "source_value": "747",
+        "source_currency": "USD",
+        "usd_equivalent": "747",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-5A0268262F16",
+      "component_id": "hydrofluoric-acid-48pct",
+      "target_formulation_line_ids": [
+        "P13-LITERATURE-EXAMPLE-C02"
+      ],
+      "name": "Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "C4358-500ML",
+      "grade": "ACS; assay48.0–51.0%",
+      "form": "aqueous solution, nominal48% HF",
+      "cas_number": "7664-39-3",
+      "pack_quantity": 500,
+      "pack_unit": "mL",
+      "price_value": 163.76,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and Product Information assay",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "reference_component_ids": [
+        "hydrofluoric-acid"
+      ],
+      "adopted_offer_id": "PACK-PRICE261018-10C71722FEA815B4",
+      "evidence_id": "PRICE-EV-D107B52192BAB109",
+      "currency_context": {
+        "source_value": "163.76",
+        "source_currency": "USD",
+        "usd_equivalent": "163.76",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "reference_alias_offer_ids": [
+        "PACK-PRICE261018-E99F74CBD517C2D5"
+      ]
+    },
+    {
+      "proposal_id": "CMP-PROP-30D36AB7A150",
+      "component_id": "hydrofluoric-acid-48pct",
+      "target_formulation_line_ids": [
+        "P13-LITERATURE-EXAMPLE-C02"
+      ],
+      "name": "Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "C4358-4L",
+      "grade": "ACS; assay48.0–51.0%",
+      "form": "aqueous solution, nominal48% HF",
+      "cas_number": "7664-39-3",
+      "pack_quantity": 4000,
+      "pack_unit": "mL",
+      "price_value": 495.99,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and Product Information assay",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "reference_component_ids": [
+        "hydrofluoric-acid"
+      ],
+      "adopted_offer_id": "PACK-PRICE261018-14A207912560EFD9",
+      "evidence_id": "PRICE-EV-95974E6128E14048",
+      "currency_context": {
+        "source_value": "495.99",
+        "source_currency": "USD",
+        "usd_equivalent": "495.99",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "reference_alias_offer_ids": [
+        "PACK-PRICE261018-F8220382E808D775"
+      ]
+    },
+    {
+      "proposal_id": "CMP-PROP-0167B0A95BDE",
+      "component_id": "hydrofluoric-acid-48pct",
+      "target_formulation_line_ids": [
+        "P13-LITERATURE-EXAMPLE-C02"
+      ],
+      "name": "Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "C4358-4LCS",
+      "grade": "ACS; assay48.0–51.0%",
+      "form": "aqueous solution, nominal48% HF",
+      "cas_number": "7664-39-3",
+      "pack_quantity": 16000,
+      "pack_unit": "mL",
+      "price_value": 1632.85,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and Product Information assay",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "reference_component_ids": [
+        "hydrofluoric-acid"
+      ],
+      "adopted_offer_id": "PACK-PRICE261018-5E07D99CCE54CEEF",
+      "evidence_id": "PRICE-EV-F3DE3D0D205AA504",
+      "currency_context": {
+        "source_value": "1632.85",
+        "source_currency": "USD",
+        "usd_equivalent": "1632.85",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      },
+      "reference_alias_offer_ids": [
+        "PACK-PRICE261018-67710B0FC05085B2"
+      ]
+    },
+    {
+      "proposal_id": "CMP-PROP-6D46E58C8147",
+      "component_id": "benzidine",
+      "target_formulation_line_ids": [
+        "P31-SOURCE-01-C04"
+      ],
+      "name": "Benzidine, ≥98%",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "B108444-1g",
+      "grade": "≥98%",
+      "form": "solid free base",
+      "cas_number": "92-87-5",
+      "pack_quantity": 1,
+      "pack_unit": "g",
+      "price_value": 35.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost.",
+      "condition": "new",
+      "source_locator": "USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 184.24,
+      "molar_mass_source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "availability_note": "5g made to order8–12weeks; other packs listed US stock",
+      "adopted_offer_id": "PACK-PRICE261018-8048C8B6ABF9F90F",
+      "evidence_id": "PRICE-EV-8C17F20FEBC67D5E",
+      "currency_context": {
+        "source_value": "35.9",
+        "source_currency": "USD",
+        "usd_equivalent": "35.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-93C0F1A74528",
+      "component_id": "benzidine",
+      "target_formulation_line_ids": [
+        "P31-SOURCE-01-C04"
+      ],
+      "name": "Benzidine, ≥98%",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "B108444-5g",
+      "grade": "≥98%",
+      "form": "solid free base",
+      "cas_number": "92-87-5",
+      "pack_quantity": 5,
+      "pack_unit": "g",
+      "price_value": 117.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost.",
+      "condition": "new",
+      "source_locator": "USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 184.24,
+      "molar_mass_source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "availability_note": "5g made to order8–12weeks; other packs listed US stock",
+      "adopted_offer_id": "PACK-PRICE261018-D754149F4A10AF18",
+      "evidence_id": "PRICE-EV-DB341CEBDBDE0ACA",
+      "currency_context": {
+        "source_value": "117.9",
+        "source_currency": "USD",
+        "usd_equivalent": "117.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-ACD71BC96F80",
+      "component_id": "benzidine",
+      "target_formulation_line_ids": [
+        "P31-SOURCE-01-C04"
+      ],
+      "name": "Benzidine, ≥98%",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "B108444-100g",
+      "grade": "≥98%",
+      "form": "solid free base",
+      "cas_number": "92-87-5",
+      "pack_quantity": 100,
+      "pack_unit": "g",
+      "price_value": 839.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost.",
+      "condition": "new",
+      "source_locator": "USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "molar_mass_g_mol": 184.24,
+      "molar_mass_source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "availability_note": "5g made to order8–12weeks; other packs listed US stock",
+      "adopted_offer_id": "PACK-PRICE261018-34CF5891D5994989",
+      "evidence_id": "PRICE-EV-BB2845B765BE59F5",
+      "currency_context": {
+        "source_value": "839.9",
+        "source_currency": "USD",
+        "usd_equivalent": "839.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-FFEF61B30E38",
+      "component_id": "naoh-01m",
+      "target_formulation_line_ids": [
+        "P33-SOURCE-01-C05"
+      ],
+      "name": "Sodium hydroxide0.1N aqueous solution",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "SOHYSL01N-1L",
+      "grade": "Lab grade;0.1±0.0001N",
+      "form": "aqueous solution,0.1M NaOH",
+      "cas_number": "1310-73-2",
+      "pack_quantity": 1000,
+      "pack_unit": "mL",
+      "price_value": 74.8,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-1L",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and assay; source states4gNaOH/L DIwater",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-1DC271A9CDBFE247",
+      "evidence_id": "PRICE-EV-09505F94527BA081",
+      "currency_context": {
+        "source_value": "74.8",
+        "source_currency": "USD",
+        "usd_equivalent": "74.8",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-CABD154525A9",
+      "component_id": "naoh-01m",
+      "target_formulation_line_ids": [
+        "P33-SOURCE-01-C05"
+      ],
+      "name": "Sodium hydroxide0.1N aqueous solution",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "SOHYSL01N-4L",
+      "grade": "Lab grade;0.1±0.0001N",
+      "form": "aqueous solution,0.1M NaOH",
+      "cas_number": "1310-73-2",
+      "pack_quantity": 4000,
+      "pack_unit": "mL",
+      "price_value": 111.72,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-4L",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and assay; source states4gNaOH/L DIwater",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-3E6E89CBD4EC444A",
+      "evidence_id": "PRICE-EV-AA32CD0A1F8BFE49",
+      "currency_context": {
+        "source_value": "111.72",
+        "source_currency": "USD",
+        "usd_equivalent": "111.72",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-EBFF82F1BAA8",
+      "component_id": "naoh-01m",
+      "target_formulation_line_ids": [
+        "P33-SOURCE-01-C05"
+      ],
+      "name": "Sodium hydroxide0.1N aqueous solution",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "SOHYSL01N-20L",
+      "grade": "Lab grade;0.1±0.0001N",
+      "form": "aqueous solution,0.1M NaOH",
+      "cas_number": "1310-73-2",
+      "pack_quantity": 20000,
+      "pack_unit": "mL",
+      "price_value": 354.6,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-20L",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.",
+      "condition": "new",
+      "source_locator": "Size/SKU table and assay; source states4gNaOH/L DIwater",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-1EA46B0E6ED47F82",
+      "evidence_id": "PRICE-EV-42EA617F0053FC6F",
+      "currency_context": {
+        "source_value": "354.6",
+        "source_currency": "USD",
+        "usd_equivalent": "354.6",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-38CDCFF5C48E",
+      "component_id": "glass-slide-25x75mm",
+      "target_formulation_line_ids": [
+        "P27-LITERATURE-20261017-C10"
+      ],
+      "name": "Diamond white glass slide, plain,90°ground edge,25×75×1mm",
+      "seller": "Electron Microscopy Sciences",
+      "manufacturer": "Electron Microscopy Sciences",
+      "sku": "71883-01",
+      "grade": "optical white glass, precleaned",
+      "form": "plain glass microscope slide",
+      "cas_number": "",
+      "pack_quantity": 144,
+      "pack_unit": "piece",
+      "price_value": 29,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.emsdiasum.com/diamond-white-glass-microscope-slides",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.",
+      "condition": "new",
+      "source_locator": "Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-6332AA3A9C721382",
+      "evidence_id": "PRICE-EV-DC6FEBA98DB976FE",
+      "currency_context": {
+        "source_value": "29",
+        "source_currency": "USD",
+        "usd_equivalent": "29",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-1CF6DAC57AF7",
+      "component_id": "glass-slide-25x75mm",
+      "target_formulation_line_ids": [
+        "P27-LITERATURE-20261017-C10"
+      ],
+      "name": "Diamond white glass slide, plain,90°ground edge,25×75×1mm",
+      "seller": "Electron Microscopy Sciences",
+      "manufacturer": "Electron Microscopy Sciences",
+      "sku": "71883-02",
+      "grade": "optical white glass, precleaned",
+      "form": "plain glass microscope slide",
+      "cas_number": "",
+      "pack_quantity": 1440,
+      "pack_unit": "piece",
+      "price_value": 280,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.emsdiasum.com/diamond-white-glass-microscope-slides",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": true,
+      "eligibility_rationale": "25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.",
+      "condition": "new",
+      "source_locator": "Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-6B65845BD9D696AB",
+      "evidence_id": "PRICE-EV-3080BEB91E474A8D",
+      "currency_context": {
+        "source_value": "280",
+        "source_currency": "USD",
+        "usd_equivalent": "280",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-C14CBBA0EC09",
+      "component_id": "lead-bromide-and-or-lead-iodide",
+      "target_formulation_line_ids": [
+        "P44-SOURCE-01-C02"
+      ],
+      "name": "Lead bromide, PrimorTrace ≥99.99% metals basis",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "L407046-5g",
+      "grade": "≥99.99% metals basis",
+      "form": "PbBr2 solid",
+      "cas_number": "10031-22-8",
+      "pack_quantity": 5,
+      "pack_unit": "g",
+      "price_value": 37.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.",
+      "condition": "new",
+      "source_locator": "Grouped product items pack-price rows",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-7A87F0231747688D",
+      "evidence_id": "PRICE-EV-657C0EF8B6983FF2",
+      "currency_context": {
+        "source_value": "37.9",
+        "source_currency": "USD",
+        "usd_equivalent": "37.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-F371ADA5D15E",
+      "component_id": "lead-bromide-and-or-lead-iodide",
+      "target_formulation_line_ids": [
+        "P44-SOURCE-01-C02"
+      ],
+      "name": "Lead bromide, PrimorTrace ≥99.99% metals basis",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "L407046-25g",
+      "grade": "≥99.99% metals basis",
+      "form": "PbBr2 solid",
+      "cas_number": "10031-22-8",
+      "pack_quantity": 25,
+      "pack_unit": "g",
+      "price_value": 102.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.",
+      "condition": "new",
+      "source_locator": "Grouped product items pack-price rows",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-81658C11E32E2E31",
+      "evidence_id": "PRICE-EV-2FBAF9F7C460CFF0",
+      "currency_context": {
+        "source_value": "102.9",
+        "source_currency": "USD",
+        "usd_equivalent": "102.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-5F5C3BDCD4EE",
+      "component_id": "lead-bromide-and-or-lead-iodide",
+      "target_formulation_line_ids": [
+        "P44-SOURCE-01-C02"
+      ],
+      "name": "Lead bromide, PrimorTrace ≥99.99% metals basis",
+      "seller": "Aladdin Scientific",
+      "manufacturer": "Aladdin Scientific",
+      "sku": "L407046-100g",
+      "grade": "≥99.99% metals basis",
+      "form": "PbBr2 solid",
+      "cas_number": "10031-22-8",
+      "pack_quantity": 100,
+      "pack_unit": "g",
+      "price_value": 285.9,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.",
+      "condition": "new",
+      "source_locator": "Grouped product items pack-price rows",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "adopted_offer_id": "PACK-PRICE261018-1F00FB629FE1F1A7",
+      "evidence_id": "PRICE-EV-AEDAC830985AB3A3",
+      "currency_context": {
+        "source_value": "285.9",
+        "source_currency": "USD",
+        "usd_equivalent": "285.9",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-AE2CC1CCF796",
+      "component_id": "silica-substrate",
+      "target_formulation_line_ids": [
+        "P01-LITERATURE-EXAMPLE-C03"
+      ],
+      "name": "Fused silica substrate,1×1inch×1.0mm,both sides polished",
+      "seller": "MTI Corporation",
+      "manufacturer": "MTI Corporation",
+      "sku": "SOF252510S2",
+      "grade": "fused silica;polished as named",
+      "form": "fused silica solid substrate,25.4×25.4×1mm",
+      "cas_number": "",
+      "pack_quantity": 1,
+      "pack_unit": "piece",
+      "price_value": 65,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://mtixtl.com/products/fused-silica-substrate-1-x-1-x1-0-mm-2-sides-polished-sof252510s2",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies.",
+      "condition": "new",
+      "source_locator": "Price USD and SKU in opened product page",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "image_url": "https://mtixtl.com/cdn/shop/products/1.60.jpg?v=1709859170&width=1946",
+      "image_source_url": "https://mtixtl.com/products/fused-silica-substrate-1-x-1-x1-0-mm-2-sides-polished-sof252510s2",
+      "image_scope": "Manufacturer catalog product image; not the experimental substrate.",
+      "minimum_order_note": "Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total.",
+      "adopted_offer_id": "PACK-PRICE261018-71C19AFCD8450982",
+      "evidence_id": "PRICE-EV-A7792EDE42F80894",
+      "currency_context": {
+        "source_value": "65",
+        "source_currency": "USD",
+        "usd_equivalent": "65",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-F6BB900AA46B",
+      "component_id": "silica-substrate",
+      "target_formulation_line_ids": [
+        "P01-LITERATURE-EXAMPLE-C03"
+      ],
+      "name": "Fused silica JGS1 substrate,10×10×0.2mm,both sides optical polished",
+      "seller": "MTI Corporation",
+      "manufacturer": "MTI Corporation",
+      "sku": "SOF101002S2",
+      "grade": "fused silica;polished as named",
+      "form": "fused silica JGS1 solid substrate,10×10×0.2mm",
+      "cas_number": "",
+      "pack_quantity": 1,
+      "pack_unit": "piece",
+      "price_value": 59,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://mtixtl.com/products/fused-silica-glass-substrate-jgs1-10x10x0-2-mm-2-sides-optical-polished",
+      "source_scope": "Public US catalog pack offer; no negotiated account pricing accessed.",
+      "checked_date": "2026-10-18",
+      "eligible": false,
+      "eligibility_rationale": "P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies.",
+      "condition": "new",
+      "source_locator": "Price USD and SKU in opened product page",
+      "notes": "Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP.",
+      "image_url": "",
+      "image_source_url": "https://mtixtl.com/products/fused-silica-glass-substrate-jgs1-10x10x0-2-mm-2-sides-optical-polished",
+      "image_scope": "",
+      "minimum_order_note": "Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total.",
+      "adopted_offer_id": "PACK-PRICE261018-C60F0328D9D59A3C",
+      "evidence_id": "PRICE-EV-269CA637EF7B12E0",
+      "currency_context": {
+        "source_value": "59",
+        "source_currency": "USD",
+        "usd_equivalent": "59",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-C4C3F03D01FD",
+      "component_id": "magnesium-metal",
+      "target_formulation_line_ids": [
+        "P35-SOURCE-01-C01"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P35-SOURCE-01-C01",
+          "eligible": false,
+          "rationale": "P35 reports commercially pure magnesium for alloy melting but does not state feed form or impurity limits. This specific turnings pack is a reference, not a verified match to the experimental feed."
+        }
+      ],
+      "name": "Magnesium turnings, 5–25 mm, 99.95% trace metals basis",
+      "seller": "Krackeler Scientific",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "45-403148-50G",
+      "grade": "99.95% trace metals basis",
+      "form": "metal turnings,5–25mm",
+      "pack_quantity": 50,
+      "pack_unit": "g",
+      "price_value": 57.3,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.krackeler.com/catalog/sigma/ALDRICH/403148",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "7439-95-4",
+      "eligible": false,
+      "eligibility_rationale": "P35 reports commercially pure magnesium for alloy melting but does not state feed form or impurity limits. This specific turnings pack is a reference, not a verified match to the experimental feed.",
+      "condition": "new",
+      "source_locator": "Krackeler price table, 45-403148-50G row. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "molar_mass_g_mol": 24.31,
+      "molar_mass_source_url": "https://www.krackeler.com/catalog/sigma/ALDRICH/403148",
+      "source_warning": "Seller states public prices may be corrected during its annual updates.",
+      "image_candidate_url": "https://www.sigmaaldrich.com/assets/sigmaaldrich/product/images/261/269/5c4691c1-11c6-4c32-9391-87f4a61a5756/5c4691c1-11c6-4c32-9391-87f4a61a5756-medium.jpg",
+      "image_candidate_status": "Observed on the seller page for this SKU; image delivery could not be verified. Do not activate yet.",
+      "adopted_offer_id": "PACK-PRICE261018-445E811DB03B33FD",
+      "evidence_id": "PRICE-EV-E13D3317B2E11638",
+      "currency_context": {
+        "source_value": "57.3",
+        "source_currency": "USD",
+        "usd_equivalent": "57.3",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-8F37BA975CDC",
+      "component_id": "polyarginine",
+      "target_formulation_line_ids": [
+        "P33-SOURCE-01-C02"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P33-SOURCE-01-C02",
+          "eligible": false,
+          "rationale": "P33 source names polyarginine but omits molecular weight and counterion. This exact hydrochloride SKU is reference-only; do not automatically convert the source polyarginine mass to this salt."
+        }
+      ],
+      "name": "Poly-L-arginine hydrochloride, MW 5,000–15,000",
+      "seller": "Krackeler Scientific",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "45-P4663-100MG",
+      "grade": "MW5,000–15,000;≤3%ornithine residues",
+      "form": "powder, hydrochloride salt",
+      "pack_quantity": 100,
+      "pack_unit": "mg",
+      "price_value": 510,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.krackeler.com/catalog/sigma/SIGMA/P4663",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "26982-20-7",
+      "eligible": false,
+      "eligibility_rationale": "P33 source names polyarginine but omits molecular weight and counterion. This exact hydrochloride SKU is reference-only; do not automatically convert the source polyarginine mass to this salt.",
+      "condition": "new",
+      "source_locator": "Krackeler price table, 45-P4663-100MG row. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "source_warning": "Seller states public prices may be corrected during annual updates.",
+      "image_candidate_url": "https://www.sigmaaldrich.com/assets/sigmaaldrich/product/images/208/819/82dd5351-72ef-4b03-ab7d-32e39633814d/82dd5351-72ef-4b03-ab7d-32e39633814d-medium.jpg",
+      "image_candidate_status": "Observed on the seller page for this SKU; image delivery could not be verified. Do not activate yet.",
+      "adopted_offer_id": "PACK-PRICE261018-BD336143D0B19319",
+      "evidence_id": "PRICE-EV-E3F9E6F82EE16635",
+      "currency_context": {
+        "source_value": "510",
+        "source_currency": "USD",
+        "usd_equivalent": "510",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-59A503010D56",
+      "component_id": "pva-5wt-aqueous",
+      "target_formulation_line_ids": [
+        "P22-LITERATURE-20261017-C04"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P22-LITERATURE-20261017-C04",
+          "eligible": false,
+          "rationale": "This is the correct dry Mowiol 8-88 precursor identity for P22, but the source input is a 5 wt% aqueous solution. Retain as a dry-precursor reference. Never price selected mL of stock as grams of neat polymer. A sourced preparation and allocation record is needed."
+        }
+      ],
+      "name": "Mowiol 8-88 dry polymer, MW ~67,000",
+      "seller": "Krackeler Scientific",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "45-81383-250G",
+      "grade": "86.7–88.7mol% hydrolysis;MW~67,000",
+      "form": "dry crystals;not5wt%aqueous stock",
+      "pack_quantity": 250,
+      "pack_unit": "g",
+      "price_value": 79.1,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.krackeler.com/catalog/sigma/ALDRICH/81383",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "9002-89-5",
+      "eligible": false,
+      "eligibility_rationale": "This is the correct dry Mowiol 8-88 precursor identity for P22, but the source input is a 5 wt% aqueous solution. Retain as a dry-precursor reference. Never price selected mL of stock as grams of neat polymer. A sourced preparation and allocation record is needed.",
+      "condition": "new",
+      "source_locator": "Krackeler price table, 45-81383-250G row. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "source_warning": "Seller states public prices may be corrected during annual updates.",
+      "adopted_offer_id": "PACK-PRICE261018-5A53304C109B8C94",
+      "evidence_id": "PRICE-EV-A546B22832D7AAAF",
+      "currency_context": {
+        "source_value": "79.1",
+        "source_currency": "USD",
+        "usd_equivalent": "79.1",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-1A29BC7E0E97",
+      "component_id": "water-di",
+      "target_formulation_line_ids": [
+        "P29-SOURCE-01-C03",
+        "P32-SOURCE-01-C08"
+      ],
+      "eligible_formulation_line_ids": [
+        "P29-SOURCE-01-C03",
+        "P32-SOURCE-01-C08"
+      ],
+      "line_eligibility": [
+        {
+          "line_id": "P29-SOURCE-01-C03",
+          "eligible": true,
+          "rationale": "P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned."
+        },
+        {
+          "line_id": "P32-SOURCE-01-C08",
+          "eligible": true,
+          "rationale": "P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned."
+        }
+      ],
+      "name": "Deionized Water Lab Grade, Kosher",
+      "seller": "Lab Alley",
+      "manufacturer": "Lab Alley",
+      "sku": "WAD-1L",
+      "grade": "Lab grade; manufacturer describes ASTM D1193 Type IV",
+      "form": "deionized liquid water",
+      "pack_quantity": 1,
+      "pack_unit": "L",
+      "price_value": 55,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.laballey.com/products/deionized-water-lab-grade-kosher?selected=WAD-1L",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "7732-18-5",
+      "eligible": true,
+      "eligibility_rationale": "P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned.",
+      "condition": "new",
+      "source_locator": "Product table for WAD-1L; direct public HTML retrieval verified $55.00 USD and ProductGroup JSON-LD variant price 55 USD.",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "image_url": "https://www.laballey.com/media/catalog/product/w/a/water_deionized_wad_1_liter_2025_1.jpg?width=620&height=980&canvas=620,980&optimize=medium&bg-color=255,255,255&fit=bounds",
+      "image_source_url": "https://www.laballey.com/products/deionized-water-lab-grade-kosher?selected=WAD-1L",
+      "image_scope": "Supplier catalog packaging photograph for WAD-1L. Labels and containers may vary; not the experimental batch.",
+      "adopted_offer_id": "PACK-PRICE261018-9C1D7CDC0535E067",
+      "evidence_id": "PRICE-EV-165D2554C91BB444",
+      "currency_context": {
+        "source_value": "55",
+        "source_currency": "USD",
+        "usd_equivalent": "55",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-366A4FDFC892",
+      "component_id": "hcl",
+      "target_formulation_line_ids": [
+        "P31-SOURCE-01-C05"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P31-SOURCE-01-C05",
+          "eligible": false,
+          "rationale": "P31 does not state hydrochloric acid concentration or delivered volume. This nominal 37% pack is a reference; do not assume an unknown dilute reagent is concentrated acid."
+        }
+      ],
+      "name": "Hydrochloric acid, 37%, ACS reagent",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "258148-500ML",
+      "grade": "ACSreagent;36.5–38.0% assay",
+      "form": "aqueousHClsolution,nominal37%",
+      "pack_quantity": 500,
+      "pack_unit": "mL",
+      "price_value": 75.3,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/258148",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "7647-01-0",
+      "eligible": false,
+      "eligibility_rationale": "P31 does not state hydrochloric acid concentration or delivered volume. This nominal 37% pack is a reference; do not assume an unknown dilute reagent is concentrated acid.",
+      "condition": "new",
+      "source_locator": "Size/SKU table, 258148-500ML row. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "molar_mass_g_mol": 36.46,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/258148",
+      "adopted_offer_id": "PACK-PRICE261018-7FBA8AED43271B6A",
+      "evidence_id": "PRICE-EV-BAC29C323D37B70F",
+      "currency_context": {
+        "source_value": "75.3",
+        "source_currency": "USD",
+        "usd_equivalent": "75.3",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-350408859077",
+      "component_id": "sulfuric-acid",
+      "target_formulation_line_ids": [
+        "P05-LITERATURE-EXAMPLE-C03",
+        "P09-LITERATURE-EXAMPLE-C06",
+        "P34-SOURCE-01-C03"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P05-LITERATURE-EXAMPLE-C03",
+          "eligible": false,
+          "rationale": "P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution."
+        },
+        {
+          "line_id": "P09-LITERATURE-EXAMPLE-C06",
+          "eligible": false,
+          "rationale": "P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution."
+        },
+        {
+          "line_id": "P34-SOURCE-01-C03",
+          "eligible": false,
+          "rationale": "P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution."
+        }
+      ],
+      "name": "Sulfuric acid, 95.0–98.0%, ACS reagent",
+      "seller": "MilliporeSigma",
+      "manufacturer": "Sigma-Aldrich",
+      "sku": "258105-500ML",
+      "grade": "ACSreagent;95.0–98.0% assay",
+      "form": "concentrated aqueous sulfuric acid",
+      "pack_quantity": 500,
+      "pack_unit": "mL",
+      "price_value": 79.6,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/258105",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "7664-93-9",
+      "eligible": false,
+      "eligibility_rationale": "P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution.",
+      "condition": "new",
+      "source_locator": "Size/SKU table, 258105-500ML row. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "molar_mass_g_mol": 98.08,
+      "molar_mass_source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/258105",
+      "adopted_offer_id": "PACK-PRICE261018-530D221489F3BE03",
+      "evidence_id": "PRICE-EV-D938B3047A076A2B",
+      "currency_context": {
+        "source_value": "79.6",
+        "source_currency": "USD",
+        "usd_equivalent": "79.6",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-856845312536",
+      "component_id": "graphite-foil",
+      "target_formulation_line_ids": [
+        "P41-SOURCE-01-C03"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P41-SOURCE-01-C03",
+          "eligible": false,
+          "rationale": "P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets."
+        }
+      ],
+      "name": "Graphite foil, 0.5 mm, 99.8% metals basis, 15×250 cm",
+      "seller": "Government Scientific Source",
+      "manufacturer": "Thermo Scientific Chemicals (formerly Alfa Aesar)",
+      "sku": "042953-VU",
+      "grade": "99.8%metalsbasis",
+      "form": "graphitefoil,0.5mmthick,15×250cm",
+      "pack_quantity": 1,
+      "pack_unit": "piece",
+      "price_value": 293.33,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.govsci.com/product-detail/Alfa--Aesar/042953-VU/EA/",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "7782-42-5",
+      "eligible": false,
+      "eligibility_rationale": "P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets.",
+      "condition": "new",
+      "source_locator": "Seller price $293.33 USD/EA. Exact SKU dimensions corroborated by the linked Thermo Fisher product page. Opened sources  and .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "pack_dimensions": "15×250cm×0.5mm",
+      "pack_dimensions_source_url": "https://www.thermofisher.com/order/catalog/product/042953.VU",
+      "image_withheld_reason": "Catalog image resolved to a vendor logo or default placeholder rather than a material photograph.",
+      "adopted_offer_id": "PACK-PRICE261018-4EE0DA99DDE583A1",
+      "evidence_id": "PRICE-EV-DD7491F9B2D296F7",
+      "currency_context": {
+        "source_value": "293.33",
+        "source_currency": "USD",
+        "usd_equivalent": "293.33",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    },
+    {
+      "proposal_id": "CMP-PROP-4613B502CA9D",
+      "component_id": "silicon-wafer",
+      "target_formulation_line_ids": [
+        "P06-LITERATURE-EXAMPLE-C01",
+        "P09-LITERATURE-EXAMPLE-C04"
+      ],
+      "eligible_formulation_line_ids": [],
+      "line_eligibility": [
+        {
+          "line_id": "P06-LITERATURE-EXAMPLE-C01",
+          "eligible": false,
+          "rationale": "P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line."
+        },
+        {
+          "line_id": "P09-LITERATURE-EXAMPLE-C04",
+          "eligible": false,
+          "rationale": "P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line."
+        }
+      ],
+      "name": "Silicon wafer, P-type, 2 inch, one side polished",
+      "seller": "Electron Microscopy Sciences",
+      "manufacturer": "Electron Microscopy Sciences",
+      "sku": "71893-05",
+      "grade": "B-doped,P-type,<100>,resistance1–30Ohmsassourceprints",
+      "form": "uncoatedsiliconwafer,50mmdiameter,230–330µmthickness",
+      "pack_quantity": 1,
+      "pack_unit": "piece",
+      "price_value": 29,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.emsdiasum.com/silicon-wafers-type-p",
+      "source_scope": "Public US market pack price; no private account terms.",
+      "checked_date": "2026-10-18",
+      "cas_number": "",
+      "eligible": false,
+      "eligibility_rationale": "P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line.",
+      "condition": "new",
+      "source_locator": "71893-05 row and 2-inch specification column. Opened .",
+      "notes": "Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded.",
+      "image_withheld_reason": "Catalog image resolved to a vendor logo or default placeholder rather than a material photograph.",
+      "adopted_offer_id": "PACK-PRICE261018-1F5CCFFF7AC09905",
+      "evidence_id": "PRICE-EV-A0F87FCA9A491BF0",
+      "currency_context": {
+        "source_value": "29",
+        "source_currency": "USD",
+        "usd_equivalent": "29",
+        "conversion_date": "",
+        "conversion_source_url": ""
+      }
+    }
+  ],
+  "component_eligibility_updates": [
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-E512EEE1B63DC923",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-3A0284A298D648B4",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-026FE16737949605",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-5E524081E35102EA",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-52F9E93E0ADC6513",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\", \"PACK-PRICE261018-52F9E93E0ADC6513\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-0D7095F0E0E57617",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\", \"PACK-PRICE261018-52F9E93E0ADC6513\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\", \"PACK-PRICE261018-52F9E93E0ADC6513\", \"PACK-PRICE261018-0D7095F0E0E57617\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C06",
+      "offer_id": "PACK-PRICE261018-7B88D619597A7669",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\", \"PACK-PRICE261018-52F9E93E0ADC6513\", \"PACK-PRICE261018-0D7095F0E0E57617\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-E512EEE1B63DC923\", \"PACK-PRICE261018-3A0284A298D648B4\", \"PACK-PRICE261018-026FE16737949605\", \"PACK-PRICE261018-5E524081E35102EA\", \"PACK-PRICE261018-52F9E93E0ADC6513\", \"PACK-PRICE261018-0D7095F0E0E57617\", \"PACK-PRICE261018-7B88D619597A7669\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C07",
+      "offer_id": "PACK-PRICE261018-FB72C27340B7E438",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-FB72C27340B7E438\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same toluene identity and HPLC purity class as P23. Input use volume remains unreported."
+      }
+    },
+    {
+      "line_id": "P23-LITERATURE-20261017-C07",
+      "offer_id": "PACK-PRICE261018-ED6EF7B269FD5C8D",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-FB72C27340B7E438\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same toluene identity and HPLC purity class as P23. Input use volume remains unreported."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-FB72C27340B7E438\", \"PACK-PRICE261018-ED6EF7B269FD5C8D\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: Same toluene identity and HPLC purity class as P23. Input use volume remains unreported."
+      }
+    },
+    {
+      "line_id": "P31-SOURCE-01-C04",
+      "offer_id": "PACK-PRICE261018-8048C8B6ABF9F90F",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": ""
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-8048C8B6ABF9F90F\"]",
+        "offer_match_notes": "2026-10-18: Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost."
+      }
+    },
+    {
+      "line_id": "P31-SOURCE-01-C04",
+      "offer_id": "PACK-PRICE261018-D754149F4A10AF18",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-8048C8B6ABF9F90F\"]",
+        "offer_match_notes": "2026-10-18: Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-8048C8B6ABF9F90F\", \"PACK-PRICE261018-D754149F4A10AF18\"]",
+        "offer_match_notes": "2026-10-18: Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost."
+      }
+    },
+    {
+      "line_id": "P31-SOURCE-01-C04",
+      "offer_id": "PACK-PRICE261018-34CF5891D5994989",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-8048C8B6ABF9F90F\", \"PACK-PRICE261018-D754149F4A10AF18\"]",
+        "offer_match_notes": "2026-10-18: Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-8048C8B6ABF9F90F\", \"PACK-PRICE261018-D754149F4A10AF18\", \"PACK-PRICE261018-34CF5891D5994989\"]",
+        "offer_match_notes": "2026-10-18: Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost."
+      }
+    },
+    {
+      "line_id": "P33-SOURCE-01-C05",
+      "offer_id": "PACK-PRICE261018-1DC271A9CDBFE247",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": ""
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-1DC271A9CDBFE247\"]",
+        "offer_match_notes": "2026-10-18: Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution."
+      }
+    },
+    {
+      "line_id": "P33-SOURCE-01-C05",
+      "offer_id": "PACK-PRICE261018-3E6E89CBD4EC444A",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-1DC271A9CDBFE247\"]",
+        "offer_match_notes": "2026-10-18: Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-1DC271A9CDBFE247\", \"PACK-PRICE261018-3E6E89CBD4EC444A\"]",
+        "offer_match_notes": "2026-10-18: Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution."
+      }
+    },
+    {
+      "line_id": "P33-SOURCE-01-C05",
+      "offer_id": "PACK-PRICE261018-1EA46B0E6ED47F82",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-1DC271A9CDBFE247\", \"PACK-PRICE261018-3E6E89CBD4EC444A\"]",
+        "offer_match_notes": "2026-10-18: Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-1DC271A9CDBFE247\", \"PACK-PRICE261018-3E6E89CBD4EC444A\", \"PACK-PRICE261018-1EA46B0E6ED47F82\"]",
+        "offer_match_notes": "2026-10-18: Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution."
+      }
+    },
+    {
+      "line_id": "P27-LITERATURE-20261017-C10",
+      "offer_id": "PACK-PRICE261018-6332AA3A9C721382",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-6332AA3A9C721382\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed."
+      }
+    },
+    {
+      "line_id": "P27-LITERATURE-20261017-C10",
+      "offer_id": "PACK-PRICE261018-6B65845BD9D696AB",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-6332AA3A9C721382\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed."
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-6332AA3A9C721382\", \"PACK-PRICE261018-6B65845BD9D696AB\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed."
+      }
+    },
+    {
+      "line_id": "P29-SOURCE-01-C03",
+      "offer_id": "PACK-PRICE261018-9C1D7CDC0535E067",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": ""
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-9C1D7CDC0535E067\"]",
+        "offer_match_notes": "2026-10-18: P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned."
+      }
+    },
+    {
+      "line_id": "P32-SOURCE-01-C08",
+      "offer_id": "PACK-PRICE261018-9C1D7CDC0535E067",
+      "before": {
+        "eligible_offer_ids_json": "[]",
+        "offer_match_notes": ""
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-9C1D7CDC0535E067\"]",
+        "offer_match_notes": "2026-10-18: P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned."
+      }
+    }
+  ],
+  "component_decisions": [
+    {
+      "component_id": "pmma-495-a2",
+      "status": "reviewed_no_usable_price",
+      "source_url": "https://kayakuam.com/ancilliaries",
+      "reason": "PMMA495A2 identity found but no opened exact US pack price. KemLab HARP500 is an alternative formulation, not the same PMMA SKU."
+    },
+    {
+      "component_id": "pmma-950-a2",
+      "status": "reviewed_no_usable_price",
+      "reason": "Did not verify an exact public US pack quote in this bounded pass."
+    },
+    {
+      "component_id": "pmma-a4",
+      "status": "reviewed_ambiguous_identity",
+      "reason": "Source omits molecular weight; do not assign a950k product merely because it isA4."
+    },
+    {
+      "component_id": "mibk-ipa-1-3",
+      "also_component_ids": [
+        "mibk-ipa13"
+      ],
+      "status": "rejected_unverified_live_price",
+      "source_url": "https://www.fishersci.com/shop/products/mibk-ipa-1-3-dev-4l-poly/NC9056707",
+      "reason": "Search crawl displayed304.58USD4L, but opened page did not expose a price; not proposed. Elexan base price377.52 could not be bound to both exact ratio and volume."
+    },
+    {
+      "component_id": "pva-5wt-aqueous",
+      "status": "rejected_solution_substitution",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/aldrich/81383",
+      "reason": "Mowiol8-88 correctMw~67000 found as dry polymer; no verified price in openedUSmanufacturer page. Cenmed519USD1kg appeared in search only; opened source had no price. Never price5wt% prepared solution as neat dry polymer."
+    },
+    {
+      "component_id": "polyarginine",
+      "status": "reviewed_unpriced_ambiguous_grade",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigma/p4663",
+      "reason": "OpenedUSpage had no price. Paper omits molecular weight and counterion; hydrochloride5–15kSKU may be reference only even with price."
+    },
+    {
+      "component_id": "graphite-flakes7-10um",
+      "status": "reviewed_no_usable_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/043480.30",
+      "reason": "Exactmedian7–10µm99% identity verified; publicUSD price field isblank. Chemsavers opened page had no price; not proposed."
+    },
+    {
+      "component_id": "graphite-flakes",
+      "status": "rejected_identity_uncertain",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/aldrich/332461",
+      "reason": "OpenedSigmaflake offers125USD2.5kg and302.25USD12kg, but no explicit natural-origin assurance;Q&A mentions+100mesh. Withheld instead of silently selecting a morphology/origin."
+    },
+    {
+      "component_id": "pvdf-filter-0p2um",
+      "status": "rejected_unverified_live_price",
+      "source_url": "https://www.fishersci.com/shop/products/whatman-gd-x-pvdf-syringe-filters-2/0992728C",
+      "reason": "Search displayed1455USD150pack; opened source omitted price. GD/X integrated prefilter and25mmdiameter would also need recipe compatibility review."
+    },
+    {
+      "component_id": "titanium-isopropoxide-999",
+      "status": "reviewed_existing_reference",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/aldrich/377996",
+      "reason": "Existing37799699.999% quote already stored against5nidentity; do not duplicate as a new quote or silently treat higher trace-metal assay as source99.9% product."
+    },
+    {
+      "component_id": "xylene",
+      "status": "reviewed_no_exact_grade",
+      "reason": "No verifiedUSquote for source99.95% xylene;97%o-xylene is not an equivalent identity/purity."
+    },
+    {
+      "component_id": "silica-substrate",
+      "status": "photo_withheld",
+      "source_url": "https://mtixtl.com/products/fused-silica-glass-substrate-jgs1-10x10x0-2-mm-2-sides-optical-polished",
+      "reason": "Product image linked as thumb_al filename; withheld pending visual identity review."
+    },
+    {
+      "component_id": "toluene-hplc",
+      "status": "ambiguous_pack_price_withheld",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/sigald/650579",
+      "reason": "1Ltable showed118and123USD side-by-side, selected block123USDwebpromotion. Chose unambiguous4Land4×4Lpacks rather than infer which1Lprice applies."
+    },
+    {
+      "component_id": "benzidine",
+      "status": "unconfirmed_pack_withheld",
+      "source_url": "https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html",
+      "reason": "25g456.90USD appeared in search but disappeared from subsequent openedproducttable; not proposed."
+    },
+    {
+      "component_id": "plga-peg-nh2-cai189",
+      "status": "reviewed_no_exact_current_listing",
+      "source_url": "https://akinainc.com/polyscitech/products/polyvivo/index.php",
+      "reason": "Catalog opened, but CAI189 or AI189 could not be located. An analogous PLGA-PEG was not used as a replacement."
+    },
+    {
+      "component_id": "mmt-methyl-octadecyl-dihydroxyethyl-ammonium",
+      "status": "rejected_different_modifier",
+      "source_url": "https://www.sigmaaldrich.com/US/en/product/aldrich/682640",
+      "reason": "Candidate Nanomer I.34MN uses hydrogenated tallow ammonium. The formulation names methyl octadecyl dihydroxyethyl ammonium. No verified exact offer or price was found."
+    },
+    {
+      "component_id": "nanocyl-nc7000",
+      "status": "reviewed_no_public_us_offer",
+      "source_url": "https://www.birlacarbon.com/nanocyl-expertise-center/",
+      "reason": "The named brand remains present, but old research reports of EUR per kg are not current US seller pack offers."
+    },
+    {
+      "component_id": "aluminium-metal",
+      "status": "reviewed_no_usable_opened_quote",
+      "reason": "The candidate Sigma 266523 beads identity was found, but US manufacturer and Krackeler product endpoints were not accessible in this pass. No quote is proposed."
+    },
+    {
+      "component_id": "water-dd",
+      "status": "rejected_purification_mismatch",
+      "source_url": "https://waterlabpc.com/en/double-distilled-lab-use/",
+      "reason": "The product is called double-distilled, but its production description specifies reverse osmosis. No public US price was verified, and DI water was not substituted."
+    }
+  ],
+  "source_audit": {
+    "existing_docs_reviewed": [
+      "docs/PRICE_RESEARCH_2026.md",
+      "catalog/pricing_sources_2026.json",
+      "catalog/price_review_2026-10-17.json",
+      "catalog/instrument_price_coverage.csv",
+      "catalog/equipment.csv"
+    ],
+    "dated_pricebooks_live_reviewed": [
+      "https://store.clarksonlab.com/Vendors/vThe.pdf",
+      "https://store.clarksonlab.com/vendors/vVels.pdf",
+      "https://store.clarksonlab.com/Vendors/vNabi.pdf",
+      "https://store.clarksonlab.com/Vendors/vIka.pdf"
+    ],
+    "pdf_visual_verification": [
+      "thermo2026-p541.png",
+      "thermo2026-p387.png",
+      "thermo2026-p372.png"
+    ],
+    "pdf_limitations": "Spectrum web PDF text was verified live, but screenshot fetch timed out and direct PDF retrieval returned 403; no bypass attempted.",
+    "condition_policy": "New-catalog condition is stated as an inference where catalog offers do not explicitly label condition. Used/certified pre-owned are separately labeled. No account-specific pricing accessed.",
+    "publication_year_policy": "2026 date is explicit for Clarkson book. Spectrum dynamically generated sheets dated 2026 are observed catalog snapshots, not independently dated annual pricebooks. Undated retailer pages retain null pricing_year."
+  },
+  "currency_reference": {
+    "date": "2026-10-16",
+    "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html",
+    "use": "Display normalized to USD; native amounts retained. No duties, taxes, freight or payment fees included."
+  },
+  "after_coverage": {
+    "instrument_records": 1079,
+    "instrument_statuses": {
+      "estimate_only": 29,
+      "explicit_msrp": 1,
+      "manufacturer_price": 161,
+      "new_seller_price": 91,
+      "no_purchase_price": 746,
+      "secondary_market_only": 51
+    },
+    "component_occurrences": 260,
+    "component_statuses": {
+      "compatible_pack_offer": 79,
+      "no_market_offer": 88,
+      "reference_offer_only": 93
+    },
+    "component_pack_offers": 157
+  }
+}

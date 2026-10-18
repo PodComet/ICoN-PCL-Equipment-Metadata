@@ -10021,5 +10021,150 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M09-10",
+    "manufacturer": "Hielscher",
+    "model_name": "Hielscher UIP1000hdT",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "Hielscher",
+          "model_name": "Hielscher UIP1000hdT",
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer": "Hielscher",
+          "model_name": "Hielscher UIP1000hdT",
+          "manufacturer_price_value": "17950",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://www.hielscher.com/i1000_p.htm",
+          "manufacturer_price_checked_date": "2026-10-18",
+          "manufacturer_price_scope": "Official North America special-price set, 115 V single phase 16 A 50-60 Hz. Includes UIP1000hdT, FC100L1-1S flow cell, BS4d22 and BS4d40 sonotrodes, RFLA100 flange, B4-1.8 booster, ST2 stand. Net price FOB Mt. Holly NJ; 100% prepayment. Not bare processor or MSRP/list-price benchmark. Official manufacturer North America new-equipment set offer with 12-month warranty; no used/reconditioned indication."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M16-04",
+    "manufacturer": "BUCHI",
+    "model_name": "BUCHI Rotavapor R-80",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-80",
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-80",
+          "manufacturer_price_value": "9901",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html",
+          "manufacturer_price_checked_date": "2026-10-18",
+          "manufacturer_price_scope": "SKU 11SR0802C202, R-80 complete system with safety-coated cold-trap condenser, SJ 24/40, manual lift, cordless bath, V-180 pump, I-180 vacuum controller and Woulff bottle, 100-120 V. This price is for this bundle, not all R-80 configurations."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M16-01",
+    "manufacturer": "BUCHI",
+    "model_name": "BUCHI Rotavapor R-180",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-180",
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-180",
+          "manufacturer_price_value": "7161",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html",
+          "manufacturer_price_checked_date": "2026-10-18",
+          "manufacturer_price_scope": "SKU 11SR18012V002, R-180 with vertical-coil condenser, SJ 24/40 and electronic lift; vacuum pump and vacuum controller explicitly none. Slug/browser page title incorrectly says R-80, but on-page H1, SKU and feature description explicitly say R-180. Use on-page SKU identity."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M16-06",
+    "manufacturer": "BUCHI",
+    "model_name": "BUCHI Rotavapor R-300",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-300",
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer": "BUCHI",
+          "model_name": "BUCHI Rotavapor R-300",
+          "manufacturer_price_value": "9389",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "published_price",
+          "manufacturer_price_source_url": "https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html",
+          "manufacturer_price_checked_date": "2026-10-18",
+          "manufacturer_price_scope": "SKU 11R300252V102; R-300 electronic-lift rotary evaporator with safety-coated vertical condenser, 24/40 joint, 5 L flask capacity, 100-120 V. No pump, chiller or I-300 controller is specified as included; these are not priced in this offer."
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M12-PQ-N4",
+    "manufacturer": "Across International",
+    "model_name": "Across International PQ-N4",
+    "groups": [
+      {
+        "before": {
+          "manufacturer": "Across International",
+          "model_name": "Across International PQ-N4",
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": ""
+        },
+        "after": {
+          "manufacturer": "Across International",
+          "model_name": "Across International PQ-N4",
+          "manufacturer_price_value": "5990",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "starting_price",
+          "manufacturer_price_source_url": "https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills/4x1000ml-gear-drive-4-liter-planetary-ballmill.html",
+          "manufacturer_price_checked_date": "2026-10-18",
+          "manufacturer_price_scope": "PQN4, 4 x 1000 mL gear-drive mill base. Official product page labels amount Estimated Price for options selected; therefore this is a published configurator base, not MSRP. Standard package contains mill, clamps, tools and cord, no jars/media. Excludes tax/shipping and optional vacuum equipment."
+        }
+      }
+    ]
   }
 ]

@@ -14,6 +14,10 @@ def later_updates():
     photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
     for update in photos['records']:
         overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+    pricing=json.loads((ROOT/'catalog/price_review_2026-10-18.json').read_text(encoding='utf-8'))
+    for update in pricing['equipment_updates']:
+        for group in update['groups']:
+            overrides.setdefault(update['equipment_id'],{}).update(group['after'])
     return report,overrides
 
 
@@ -54,6 +58,8 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
     assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17'})==293+additions['image_url']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])
     prices=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))
     priced_later=sum(not g['before']['manufacturer_price_value'] and bool(g['after']['manufacturer_price_value']) for u in prices['equipment_updates'] for g in u['groups'])
+    latest=json.loads((ROOT/'catalog/price_review_2026-10-18.json').read_text(encoding='utf-8'))
+    priced_later+=sum(not g['before']['manufacturer_price_value'] and bool(g['after']['manufacturer_price_value']) for u in latest['equipment_updates'] for g in u['groups'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17'})
     assert sum(bool(r['manufacturer_price_value']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17'})==58+additions['manufacturer_price_value']+priced_later
     assert len(report['updates'])==33
     for update in report['updates']:
@@ -62,7 +68,9 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
         if r['category_id']=='M66' and r['catalog_scope']=='market_expansion':
             assert 'PACK OF' in r['manufacturer_price_scope'] or 'sales roll' in r['manufacturer_price_scope']
             assert r['msrp_value']=='' and r['record_kind']=='commercial_dialysis_component'
-    assert rows['EXP-20261016-M12-PQ-N4']['manufacturer_price_value']==''
+    assert rows['EXP-20261016-M12-PQ-N4']['manufacturer_price_value']=='5990'
+    assert rows['EXP-20261016-M12-PQ-N4']['manufacturer_price_kind']=='starting_price'
+    assert 'Estimated Price' in rows['EXP-20261016-M12-PQ-N4']['manufacturer_price_scope']
     assert 'P13' not in rows['EXP-20261016-M61-RIE-800IP-ALE']['related_process_ids'].split(';')
     assert 'P14' in rows['EXP-20261016-M61-RIE-800IP-ALE']['related_process_ids'].split(';')
 

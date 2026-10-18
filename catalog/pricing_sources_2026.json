@@ -1,7 +1,7 @@
 {
   "schema": "pricing-sources/v1",
-  "checked_date": "2026-10-17",
-  "scope": "Public purchase-price evidence. University supplier relationships establish procurement relevance, not endorsement of a particular SKU, price or scientific suitability. Account-specific institutional discounts are not public market prices.",
+  "checked_date": "2026-10-18",
+  "scope": "Public manufacturer and seller purchase-price observations, including labeled secondary-market references. USD display uses dated reference FX while retaining native amounts. Catalog new condition is an inference when not explicit; stock and lead time require confirmation. University supplier relationships are procurement context, not endorsement or SKU-purchase proof.",
   "sources": [
     {
       "id": "OHAUS-2026-CLARKSON",
@@ -68,6 +68,61 @@
       "kind": "manufacturer_pricebook_directory",
       "market": "Germany / EUR",
       "notes": "Official directory confirms a 2026 English price list. This directory alone supplies no exact numeric US-model price; no price is inferred from its title."
+    },
+    {
+      "id": "HIELSCHER-UIP1000HDT-PUBLIC",
+      "title": "Hielscher UIP1000hdT North America set",
+      "url": "https://www.hielscher.com/i1000_p.htm",
+      "publisher": "Hielscher Ultrasonics",
+      "source_year": "Undated web page",
+      "effective_date": "",
+      "kind": "manufacturer_published_offer",
+      "market": "US / USD",
+      "notes": "Observed 18 October 2026. Fixed special-price flow-cell set; not MSRP or an official list-price estimation benchmark."
+    },
+    {
+      "id": "GSS-PUBLIC-EQUIPMENT",
+      "title": "Government Scientific Source public instrument catalog",
+      "url": "https://www.govsci.com/product-detail/Thermo--Nicolet/912A0760/EA/",
+      "publisher": "Government Scientific Source",
+      "source_year": "Undated web page",
+      "effective_date": "",
+      "kind": "distributor_published_prices",
+      "market": "US / USD",
+      "notes": "Exact product/SKU pages observed 18 October 2026. Public distributor amounts; no private contract account. New-catalog condition inferred; lead time unconfirmed."
+    },
+    {
+      "id": "BUCHI-US-PUBLIC",
+      "title": "BUCHI US shop exact rotary evaporator configurations",
+      "url": "https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html",
+      "publisher": "BUCHI US",
+      "source_year": "Undated web page",
+      "effective_date": "",
+      "kind": "manufacturer_published_prices",
+      "market": "US / USD",
+      "notes": "Observed 18 October 2026. On-page H1 and SKU identify R-180 despite legacy R-80 URL slug. System bundles distinguished from evaporators without pump/controller."
+    },
+    {
+      "id": "SPECTRUM-PUBLIC-LABCONCO",
+      "title": "Spectrum Chemical Labconco configuration price sheets",
+      "url": "https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/",
+      "publisher": "Spectrum Chemical",
+      "source_year": "Observed 2026",
+      "effective_date": "",
+      "kind": "dynamic_distributor_price_sheet",
+      "market": "US / USD",
+      "notes": "Live generated PDF observed 18 October 2026; not established as a 2026 annual pricebook. Hood-only prices exclude site exhaust and installation."
+    },
+    {
+      "id": "MATERIAL-PACK-REVIEW-20261018",
+      "title": "Public material pack review and eligibility ledger",
+      "url": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/catalog/price_review_2026-10-18.json",
+      "publisher": "ICoN-PCL curation; Sigma-Aldrich, Lab Alley and other named sellers",
+      "source_year": "Observed 2026",
+      "effective_date": "",
+      "kind": "reviewed_public_pack_offers",
+      "market": "US / USD",
+      "notes": "Every entry links to exact product page, pack quantity, grade/form, date and recipe-line eligibility. Reference-only packs are not automatically costed."
     }
   ],
   "institutional_context": [
@@ -88,18 +143,17 @@
     }
   ],
   "review_summary": {
-    "instrument_prices_added": 59,
-    "manufacturer_prices_added": 11,
-    "seller_offers_added": 48,
-    "new_condition_instrument_prices": 51,
-    "secondary_or_unspecified_instrument_prices": 8,
-    "component_offer_rows_added": 58,
-    "unique_new_component_pack_quotes": 42,
-    "component_mappings": 16,
-    "new_component_eligibility_links": 21,
-    "unreviewed_instrument_records": 754,
-    "reviewed_instruments": 105,
-    "reviewed_component_ids": 79,
-    "unreviewed_component_ids": 109
-  }
+    "instrument_prices_added": 41,
+    "instrument_price_observations": 42,
+    "manufacturer_prices_added": 5,
+    "seller_offers_added": 37,
+    "new_condition_instrument_prices": 34,
+    "secondary_or_unspecified_instrument_prices": 7,
+    "component_offer_rows_added": 36,
+    "unique_new_component_pack_quotes": 33,
+    "component_identities_with_new_quotes": 16,
+    "new_component_eligibility_links": 19,
+    "new_price_evidence_records": 75
+  },
+  "latest_review_path": "catalog/price_review_2026-10-18.json"
 }

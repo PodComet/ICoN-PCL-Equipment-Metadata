@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-371 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+446 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -5018,6 +5018,987 @@ The linked source presents an instrument photograph matched to Bruker MultiMode 
 - Source: [Bruker instrument photograph / catalog entry](https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html) — Facility equipment page explicitly describes Bruker MultiMode 8 and links this image (MultiMode update ).
 
 **Related records:** `M41-08` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## PRICE-EV-08AB07A1D9FB9C55
+
+Hielscher Ultrasonics publishes USD 17950 for Hielscher UIP1000hdT (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Official North America special-price set, 115 V single phase 16 A 50-60 Hz. Includes UIP1000hdT, FC100L1-1S flow cell, BS4d22 and BS4d40 sonotrodes, RFLA100 flange, B4-1.8 booster, ST2 stand. Net price FOB Mt. Holly NJ; 100% prepayment. Not bare processor or MSRP/list-price benchmark. Official manufacturer North America new-equipment set offer with 12-month warranty; no used/reconditioned indication.
+
+- Source: [Hielscher Ultrasonics exact-configuration public price](https://www.hielscher.com/i1000_p.htm) — UIP1000hdT Set &gt; For North America &gt; price
+
+**Related records:** `M09-10` (equipment), `M09` (equipment_class), `P04` (process), `P08` (process), `P11` (process), `P12` (process)
+
+
+## PRICE-EV-09505F94527BA081
+
+Lab Alley publishes USD 74.8 for SKU SOHYSL01N-1L, 1000 mL of Sodium hydroxide0.1N aqueous solution.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-1L) — Size/SKU table and assay; source states4gNaOH/L DIwater
+
+**Related records:** `naoh-01m` (component), `PACK-PRICE261018-1DC271A9CDBFE247` (component_offer), `P33-SOURCE-01-C05` (formulation_component), `P33` (process)
+
+
+## PRICE-EV-0A742D04FC5C22F9
+
+Spectrum Chemical publishes USD 3765 for Labconco XPert Balance Enclosure (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** XPert Balance Enclosure, 2 ft wide, 22.8 in tall, 29 in deep. Vendor SKU configuration; manufacturer part not displayed. Remote blower or FilterMate exhauster and filters required separately; not a full installed containment system. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346268/) — PDF page 1; vendor 196-02035-EA; List Price
+
+**Related records:** `M30-04` (equipment), `M30` (equipment_class), `P07` (process), `P11` (process), `SELL-PRICE261018-1394325D98454785` (seller_offer)
+
+
+## PRICE-EV-0C2BF1F2451F0E5B
+
+MilliporeSigma publishes USD 265 for SKU 650579-4L, 4000 mL of Toluene HPLC Plus, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same toluene identity and HPLC purity class as P23. Input use volume remains unreported. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same toluene identity and HPLC purity class as P23. Input use volume remains unreported.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/650579) — Select a Size table, SKU row; opened web
+
+**Related records:** `toluene-hplc` (component), `PACK-PRICE261018-FB72C27340B7E438` (component_offer), `P23-LITERATURE-20261017-C07` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-0D6C2B48448E350F
+
+Spectrum Chemical publishes USD 10740 for Labconco Protector XL (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Protector XL benchtop 4 ft hood, 43.7 in exterior depth, 100-115 V 50/60 Hz, zero service fixtures and duplexes. Vendor SKU exact configuration; manufacturer part not displayed. Remote blower required, not included. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346051/) — PDF page 1; vendor 196-00824-EA; List Price
+
+**Related records:** `M29-04` (equipment), `M29` (equipment_class), `SELL-PRICE261018-0EA93B3CF86C5FCB` (seller_offer)
+
+
+## PRICE-EV-0F2FC8BB5585E433
+
+BUCHI US Online Shop publishes USD 7161 for BUCHI Rotavapor R-180 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** SKU 11SR18012V002, R-180 with vertical-coil condenser, SJ 24/40 and electronic lift; vacuum pump and vacuum controller explicitly none. Slug/browser page title incorrectly says R-80, but on-page H1, SKU and feature description explicitly say R-180. Use on-page SKU identity.
+
+- Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html) — On-page H1, amount, SKU and first Features bullet; extracted lines 98-132.
+
+**Related records:** `M16-01` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-10992A4B5245EDE0
+
+ONESTOP SCIENTIFIC (eBay) publishes USD 19999 for Malvern Zetasizer Nano ZS (asking_price; used).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** 2019 Zetasizer Nano-ZS ZEN3600 with system software per title; used, seller claims functional. USD 750 freight additional. Asking amount or Best Offer, not a completed transaction. Unit-specific secondary-market comparison only.
+
+- Source: [ONESTOP SCIENTIFIC (eBay) public price](https://www.ebay.com/itm/398205216666) — Title, named seller, ask, condition, shipping and model/MPN; extracted lines 75-166.
+
+**Related records:** `M34-06` (equipment), `M34` (equipment_class), `P04` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-48E50855799E25D2` (seller_offer)
+
+
+## PRICE-EV-15220B58E1A87BE7
+
+Fisher Scientific UK publishes GBP 4687.54 for Atlas Manual 25T (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One Atlas Manual 25T press, supplier GS25011. UK public catalog price, converted to USD for comparison; taxes, freight, import duties, dies and heated platens excluded. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed.
+
+- Source: [Fisher Scientific UK public price](https://www.fishersci.co.uk/shop/products/atlas-hydraulic-press-manual-25t/15260328) — Product selection, supplier GS25011, price per pack of 1
+- Source: [Exact model/SKU identity documentation](https://specac.com/wp-content/uploads/2022/06/Manual-Hydraulic-Press-datasheet.pdf) — Model or manufacturer part number
+
+**Related records:** `GAP-20261016-M72-SPECAC-ATLAS-MANUAL-25T` (equipment), `M72` (equipment_class), `P31` (process), `SELL-PRICE261018-5C1C1434A1C061F3` (seller_offer)
+
+
+## PRICE-EV-15BC51B8C9518EFD
+
+Clarkson Laboratory & Supply publishes USD 7470 for Thermo Scientific Thermolyne F48025 (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Thermolyne F48025 series, F48025-60-80, 120 V, eight-segment controller. Configuration alternative to single-setpoint unit. Distributor list price, not MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Thermo Scientific 2026 laboratory equipment price list](https://store.clarksonlab.com/Vendors/vThe.pdf) — PDF page 541; F48025-60-80; Equipment; List Price
+
+**Related records:** `M19-10` (equipment), `M19` (equipment_class), `P11` (process), `SELL-PRICE261018-A41F348EEC58CE32` (seller_offer)
+
+
+## PRICE-EV-165D2554C91BB444
+
+Lab Alley publishes USD 55 for SKU WAD-1L, 1 L of Deionized Water Lab Grade, Kosher.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/deionized-water-lab-grade-kosher?selected=WAD-1L) — Product table for WAD-1L; direct public HTML retrieval verified $55.00 USD and ProductGroup JSON-LD variant price 55 USD.
+
+**Related records:** `water-di` (component), `PACK-PRICE261018-9C1D7CDC0535E067` (component_offer), `P29-SOURCE-01-C03` (formulation_component), `P29` (process), `P32-SOURCE-01-C08` (formulation_component), `P32` (process)
+
+
+## PRICE-EV-173AF3685B132EFE
+
+Thermal Scientific, Inc. publishes USD 964.29 for Parr 4749 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One Parr 4749 23 mL PTFE-lined acid-digestion vessel. Wrench, holding fixture, and tumbling ring excluded; vessel only, not an oven or full heated reactor. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Thermal Scientific, Inc. public price](https://www.thermalscientific.com/acid-digestion-vessel-parr-4749-parr-4749/) — Product title, MPN 4749, Price Now block and Description; extracted lines 584-626.
+
+**Related records:** `M05-09` (equipment), `M05` (equipment_class), `SELL-PRICE261018-DA10E33390A1DEB5` (seller_offer)
+
+
+## PRICE-EV-1C847D43EC949CB6
+
+HeartOfAutomation (eBay) publishes USD 7350 for Metrohm 848 Titrino plus (asking_price; unspecified).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One Metrohm 848 Titrino plus. Seller calls condition new-open-box / new old stock; categorized as unspecified for new-equipment budgeting and excluded from its totals. Asking price or Best Offer; Dubai origin. Freight, import duties and taxes excluded. Accessories as photographed; calibration, package completeness and US warranty unverified.
+
+- Source: [HeartOfAutomation (eBay) public price](https://www.ebay.com/itm/285216191442) — Listing title, price, seller, condition and seller notes
+
+**Related records:** `EXT-M63-METROHM-848` (equipment), `M63` (equipment_class), `P33` (process), `SELL-PRICE261018-9200D1CACA0772E2` (seller_offer)
+
+
+## PRICE-EV-269CA637EF7B12E0
+
+MTI Corporation publishes USD 59 for SKU SOF101002S2, 1 piece of Fused silica JGS1 substrate,10×10×0.2mm,both sides optical polished.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total.
+
+- Source: [MTI Corporation product pack offer](https://mtixtl.com/products/fused-silica-glass-substrate-jgs1-10x10x0-2-mm-2-sides-optical-polished) — Price USD and SKU in opened product page
+
+**Related records:** `silica-substrate` (component), `PACK-PRICE261018-C60F0328D9D59A3C` (component_offer), `P01-LITERATURE-EXAMPLE-C03` (formulation_component), `P01` (process)
+
+
+## PRICE-EV-27D2E47BDD363901
+
+Government Scientific Source publishes USD 104880.95 for Thermo Scientific Sorvall WX 100+ (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Sorvall WX 100+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000100/EA/) — Product title, displayed price per EA, Part Number 75000100
+
+**Related records:** `M14-02` (equipment), `M14` (equipment_class), `SELL-PRICE261018-493959558B1BBC99` (seller_offer)
+
+
+## PRICE-EV-2FB251A0B3604EE0
+
+Government Scientific Source publishes USD 102900 for Thermo Scientific Sorvall WX 80+ (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Sorvall WX 80+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000080/EA/) — Product title, displayed price per EA, Part Number 75000080
+
+**Related records:** `M14-08` (equipment), `M14` (equipment_class), `SELL-PRICE261018-FBD731380CF302A1` (seller_offer)
+
+
+## PRICE-EV-2FBAF9F7C460CFF0
+
+Aladdin Scientific publishes USD 102.9 for SKU L407046-25g, 25 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html) — Grouped product items pack-price rows
+
+**Related records:** `lead-bromide-and-or-lead-iodide` (component), `PACK-PRICE261018-81658C11E32E2E31` (component_offer), `P44-SOURCE-01-C02` (formulation_component), `P44` (process)
+
+
+## PRICE-EV-3080BEB91E474A8D
+
+Electron Microscopy Sciences publishes USD 280 for SKU 71883-02, 1440 piece of Diamond white glass slide, plain,90°ground edge,25×75×1mm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
+
+- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
+
+**Related records:** `glass-slide-25x75mm` (component), `PACK-PRICE261018-6B65845BD9D696AB` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-3D9930A740D3A2D3
+
+LabMakelaar Benelux B.V. publishes EUR 12650 for CEM MARS 6 (asking_price; used).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** SKU EXT 29176, used 2017 MARS 6 at seller-stated 80% power capacity. Two 40-position carousels, 200 PTFE vessels, 345 caps and 516 screw lids included; one-month warranty. EUR amount excludes tax. Reduced-power used offer only, not new equipment benchmark.
+
+- Source: [LabMakelaar Benelux B.V. public price](https://www.labmakelaar.eu/shop/all/saleable/ovens-incubators-and-climate/microwave/cem-mars-6-microwave-destructor/) — SKU/price, description and specifications; extracted lines 105-144.
+
+**Related records:** `M06-08` (equipment), `M06` (equipment_class), `SELL-PRICE261018-5B66E9D148470601` (seller_offer)
+
+
+## PRICE-EV-3F0E7D28D9FF002A
+
+Government Scientific Source publishes USD 13372.14 for Thermo Scientific Evolution One (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Thermo Scientific Evolution One UV/Vis spectrophotometer exact Fisher catalog configuration. No Pharma, Security/Validation or USP/EP bundle inferred. Detailed included-accessory bill of materials not published. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Fisher--Scientific/14385500/EA/) — Product title, displayed price per EA, Part Number 14385500
+
+**Related records:** `M35-03` (equipment), `M35` (equipment_class), `P03` (process), `SELL-PRICE261018-FC6CA117FF586B42` (seller_offer)
+
+
+## PRICE-EV-3F9C062D752064FE
+
+Across International publishes USD 5990 for Across International PQ-N4 (starting_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** PQN4, 4 x 1000 mL gear-drive mill base. Official product page labels amount Estimated Price for options selected; therefore this is a published configurator base, not MSRP. Standard package contains mill, clamps, tools and cord, no jars/media. Excludes tax/shipping and optional vacuum equipment.
+
+- Source: [Across International public price](https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills/4x1000ml-gear-drive-4-liter-planetary-ballmill.html) — SKU, Estimated Price, tax/shipping line and Standard Packages; extracted lines 514-658.
+
+**Related records:** `EXP-20261016-M12-PQ-N4` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## PRICE-EV-42EA617F0053FC6F
+
+Lab Alley publishes USD 354.6 for SKU SOHYSL01N-20L, 20000 mL of Sodium hydroxide0.1N aqueous solution.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-20L) — Size/SKU table and assay; source states4gNaOH/L DIwater
+
+**Related records:** `naoh-01m` (component), `PACK-PRICE261018-1EA46B0E6ED47F82` (component_offer), `P33-SOURCE-01-C05` (formulation_component), `P33` (process)
+
+
+## PRICE-EV-448EBFA1FF85C62A
+
+MilliporeSigma publishes USD 834 for SKU 270725-6X1L, 6000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-7B88D619597A7669` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-4958825C26F16701
+
+MilliporeSigma publishes USD 251 for SKU 270725-4L, 4000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-5E524081E35102EA` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-4EB1064A0D2DDE69
+
+Government Scientific Source publishes USD 92857.14 for Thermo Scientific Sorvall WX 90+ (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Sorvall WX 90+ ultracentrifuge, exact supplier SKU. 208-240 V 50/60 Hz configuration is corroborated in Clarkson product table. Rotor, tubes and service extras not assumed included. Public distributor catalog price, not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000090/EA/) — Product title, displayed price per EA, Part Number 75000090
+
+**Related records:** `M14-09` (equipment), `M14` (equipment_class), `SELL-PRICE261018-9B3C05ED917A1C3C` (seller_offer)
+
+
+## PRICE-EV-512197F10710588E
+
+Fisher Scientific US publishes USD 5224.05 for Kinematica POLYTRON PT 10-35 GT (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Catalog 13-874-615 / supplier 11010103, 110-120 V PT 10/35 GT homogenizer drive. Selected variant table says homogenizer only, whereas generic descriptive copy says stand included; use selected SKU table. Do not assume stand/vessel holder bundle (13-874-617) included. Generators explicitly separate. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Fisher Scientific US public price](https://www.fishersci.com/shop/products/polytron-pt-10-35-gt-homogenizers/13874615) — Selected SKU/Includes table, supplier SKU, amount, Requires; extracted lines 22-96.
+
+**Related records:** `M11-07` (equipment), `M11` (equipment_class), `SELL-PRICE261018-214FC2685070F401` (seller_offer)
+
+
+## PRICE-EV-569DB67C27447B5A
+
+Clarkson Laboratory & Supply publishes USD 7440 for Thermo Scientific Thermolyne F48025 (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Thermolyne F48025 series, F48025-60, 120 V, single-setpoint, 350 cubic inch furnace. Different controller options are separate configurations. Distributor list price, not MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Thermo Scientific 2026 laboratory equipment price list](https://store.clarksonlab.com/Vendors/vThe.pdf) — PDF page 541; F48025-60; Equipment; List Price
+
+**Related records:** `M19-10` (equipment), `M19` (equipment_class), `P11` (process), `SELL-PRICE261018-5E00693D020811EE` (seller_offer)
+
+
+## PRICE-EV-56D2F9D173E55C8F
+
+Certified Material Testing Products publishes USD 17791.58 for RETSCH PM 100 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** New PM 100, seller SKU V039.205400003 (manufacturer 20.540.0003; 120 V model). Mill base with one grinding station; grinding jars/media are a separate selection. Shipping/import duties calculated at checkout. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Certified Material Testing Products public price](https://certifiedmtp.com/retsch-pm-100-planetary-ball-mill/) — Product title, price, Condition New, SKU and shipping note; extracted lines 377-414.
+- Source: [Exact model/SKU identity documentation](https://www.retsch.com/files/452788/product-data-sheet-pm-100.pdf) — Model or manufacturer part number
+
+**Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process), `SELL-PRICE261018-CF34A728624113D9` (seller_offer)
+
+
+## PRICE-EV-5E253516ED63702E
+
+BUCHI US Online Shop publishes USD 9901 for BUCHI Rotavapor R-80 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** SKU 11SR0802C202, R-80 complete system with safety-coated cold-trap condenser, SJ 24/40, manual lift, cordless bath, V-180 pump, I-180 vacuum controller and Woulff bottle, 100-120 V. This price is for this bundle, not all R-80 configurations.
+
+- Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html) — Product heading, price, SKU, Details and Features; extracted lines 98-131.
+
+**Related records:** `M16-04` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-5EB73DBE70B23930
+
+MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-E512EEE1B63DC923` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-657C0EF8B6983FF2
+
+Aladdin Scientific publishes USD 37.9 for SKU L407046-5g, 5 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html) — Grouped product items pack-price rows
+
+**Related records:** `lead-bromide-and-or-lead-iodide` (component), `PACK-PRICE261018-7A87F0231747688D` (component_offer), `P44-SOURCE-01-C02` (formulation_component), `P44` (process)
+
+
+## PRICE-EV-78E0A535BE0CC2B6
+
+Amikon GmbH publishes EUR 8500 for Tensor 27 (asking_price; used).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Used Tensor 27 FT-IR spectrometer, item 24509, one piece. EUR price excludes VAT and shipping. Exact computer/software/accessory configuration not stated. Ignore unrelated INVENIO text in generic page description. Secondary-market offer only.
+
+- Source: [Amikon GmbH public price](https://www.amikon-shop.de/en/bruker-tensor-27-ft-ir-spectrometer/laboratikel/a-24509) — Product heading, item ID, condition, unit price and price footnote; extracted lines 19-35 and page footer.
+
+**Related records:** `SW17-M36-5A4504DC1F3D` (equipment), `M36` (equipment_class), `P05` (process), `SELL-PRICE261018-09395484AA15B317` (seller_offer)
+
+
+## PRICE-EV-7DD0E3FCF3E713FE
+
+Servilab publishes EUR 23245 for RETSCH PM 400 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One new PM 400 mill, article 205350001 / 20.535.0001, four stations, 220-230 V, 50/60 Hz, standard 1:-2 speed ratio. French regional seller price before tax; jars/media separate. Convert for display with regional-origin note. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Servilab public price](https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r) — Product table row reference 205350001 and detailed row; extracted lines 460-503.
+- Source: [Exact model/SKU identity documentation](https://www.retsch.com/files/452787/product-data-sheet-pm-400.pdf) — Model or manufacturer part number
+
+**Related records:** `M12-06` (equipment), `M12` (equipment_class), `P07` (process), `SELL-PRICE261018-60313290C69FDC0D` (seller_offer)
+
+
+## PRICE-EV-80E09377AF35C521
+
+LabPlanet publishes USD 4709 for Parr 4748 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One 4748 125 mL acid-digestion vessel with removable PTFE cup in stainless steel body. Seller SKU CX1-94E-4748 / 19420-164. Not a heated reactor package. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [LabPlanet public price](https://www.labplanet.com/parr-instrument-bomb-general-purpose-125ml-4748.html) — MPN and price followed by Product Info; extracted lines 60-84.
+
+**Related records:** `M05-07` (equipment), `M05` (equipment_class), `SELL-PRICE261018-BDD563E5DF577675` (seller_offer)
+
+
+## PRICE-EV-81D94C4F16D82B43
+
+Servilab publishes EUR 12689 for RETSCH PM 200 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One new PM 200 mill, article 206400001 / 20.640.0001, two grinding stations. French regional seller price before tax. Jars and grinding balls separate; non-US market benchmark to be converted to USD with existing audited FX convention. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Servilab public price](https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r) — Product table row reference 206400001 and detailed row; extracted lines 460-490.
+- Source: [Exact model/SKU identity documentation](https://www.retsch.com/files/452814/product-data-sheet-pm-200.pdf) — Model or manufacturer part number
+
+**Related records:** `M12-05` (equipment), `M12` (equipment_class), `P07` (process), `SELL-PRICE261018-5B018E60EA239DAA` (seller_offer)
+
+
+## PRICE-EV-8243D6A6A8413AE0
+
+Novus Ferro Pte Ltd publishes USD 5699 for Silverson L5M-A (asking_price; used).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Used L5M-A, seller SKU 188016744406; seller website USD amount. Instrument and attachments as pictured only; verify work-head contents separately. Same seller's eBay listing has a different amount, so preserve channel-specific offer rather than merging prices.
+
+- Source: [Novus Ferro Pte Ltd public price](https://www.novusferro.com/shop/lab/shakers/silverson-l5m-a-high-shear-laboratory-mixer/) — Product heading, USD amount, stock and SKU/condition; extracted lines 39-51.
+
+**Related records:** `M11-03` (equipment), `M11` (equipment_class), `SELL-PRICE261018-9E334847400557FC` (seller_offer)
+
+
+## PRICE-EV-8295423E3995FDD8
+
+MilliporeSigma publishes USD 829 for SKU 270725-4X4L, 16000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-0D7095F0E0E57617` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-8B3E4B11B657915C
+
+Terra Universal / Laboratory Equipment publishes USD 11547 for Labconco RXPert Balance System (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** RXPert double-filtered balance system, 24 in wide, 115 V, stainless steel work surface. Not a single-filtered or epoxy-surface configuration. Supporting base and site installation not assumed included. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Terra Universal / Laboratory Equipment exact-configuration public price](https://www.laboratory-equipment.com/rxpert-double-filtered-balance-systems-labconco.html) — Select Product table; manufacturer SKU 3971281; Terra 9082-31
+
+**Related records:** `M30-01` (equipment), `M30` (equipment_class), `P07` (process), `P11` (process), `SELL-PRICE261018-8DEE484FC2FA82AC` (seller_offer)
+
+
+## PRICE-EV-8C17F20FEBC67D5E
+
+Aladdin Scientific publishes USD 35.9 for SKU B108444-1g, 1 g of Benzidine, ≥98%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
+
+**Related records:** `benzidine` (component), `PACK-PRICE261018-8048C8B6ABF9F90F` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-9107B2AC5C7A614D
+
+MilliporeSigma publishes USD 501 for SKU 270725-4X2L, 8000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-52F9E93E0ADC6513` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-93320171D37A39F7
+
+Government Scientific Source publishes USD 54000 for Thermo Scientific Nicolet iS50 (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Nicolet iS50 fixed gold KBr beamsplitter spectrometer configuration, classified in FT-IR Spectrometers. Not standalone replacement beamsplitter or accessory SKU; detector/accessory inclusions beyond named configuration require quote confirmation. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Nicolet/912A0760/EA/) — FT-IR Spectrometers; product IS50 FIXED GOLD KBR BSPLTR; Part Number 912A0760
+- Source: [Exact model/SKU identity documentation](https://www.thermofisher.com/us/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-is50-ftir-spectrometer.html) — Model or manufacturer part number
+
+**Related records:** `M36-06` (equipment), `M36` (equipment_class), `P04` (process), `P08` (process), `P10` (process), `P11` (process), `SELL-PRICE261018-36127ABB3FE1F3B2` (seller_offer)
+
+
+## PRICE-EV-95974E6128E14048
+
+Lab Alley publishes USD 495.99 for SKU C4358-4L, 4000 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Size/SKU table and Product Information assay
+
+**Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-14A207912560EFD9` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-F8220382E808D775` (component_offer)
+
+
+## PRICE-EV-A02556D9BACD635C
+
+Spectrum Chemical publishes USD 12540 for Labconco Protector Premier (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Protector Premier 4 ft, two service fixtures and electrical duplex, no blower, 115 V 60 Hz. Blower, ducting, base and work surface must be separately budgeted. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313787/) — PDF page 2; manufacturer 100400002; vendor 496-48532-EA; List Price
+
+**Related records:** `M29-05` (equipment), `M29` (equipment_class), `SELL-PRICE261018-BDB3C3ABAB43DAE8` (seller_offer)
+
+
+## PRICE-EV-A0F87FCA9A491BF0
+
+Electron Microscopy Sciences publishes USD 29 for SKU 71893-05, 1 piece of Silicon wafer, P-type, 2 inch, one side polished.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line.
+
+- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/silicon-wafers-type-p) — 71893-05 row and 2-inch specification column. Opened .
+
+**Related records:** `silicon-wafer` (component), `PACK-PRICE261018-1F5CCFFF7AC09905` (component_offer), `P06-LITERATURE-EXAMPLE-C01` (formulation_component), `P06` (process), `P09-LITERATURE-EXAMPLE-C04` (formulation_component), `P09` (process)
+
+
+## PRICE-EV-A546B22832D7AAAF
+
+Krackeler Scientific publishes USD 79.1 for SKU 45-81383-250G, 250 g of Mowiol 8-88 dry polymer, MW ~67,000.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** This is the correct dry Mowiol 8-88 precursor identity for P22, but the source input is a 5 wt% aqueous solution. Retain as a dry-precursor reference. Never price selected mL of stock as grams of neat polymer. A sourced preparation and allocation record is needed. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. This is the correct dry Mowiol 8-88 precursor identity for P22, but the source input is a 5 wt% aqueous solution. Retain as a dry-precursor reference. Never price selected mL of stock as grams of neat polymer. A sourced preparation and allocation record is needed.
+
+- Source: [Krackeler Scientific product pack offer](https://www.krackeler.com/catalog/sigma/ALDRICH/81383) — Krackeler price table, 45-81383-250G row. Opened .
+
+**Related records:** `pva-5wt-aqueous` (component), `PACK-PRICE261018-5A53304C109B8C94` (component_offer), `P22-LITERATURE-20261017-C04` (formulation_component), `P22` (process)
+
+
+## PRICE-EV-A7792EDE42F80894
+
+MTI Corporation publishes USD 65 for SKU SOF252510S2, 1 piece of Fused silica substrate,1×1inch×1.0mm,both sides polished.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total.
+
+- Source: [MTI Corporation product pack offer](https://mtixtl.com/products/fused-silica-substrate-1-x-1-x1-0-mm-2-sides-polished-sof252510s2) — Price USD and SKU in opened product page
+
+**Related records:** `silica-substrate` (component), `PACK-PRICE261018-71C19AFCD8450982` (component_offer), `P01-LITERATURE-EXAMPLE-C03` (formulation_component), `P01` (process)
+
+
+## PRICE-EV-A8055CA200FAD729
+
+GMI publishes USD 3495 for Thermo Scientific Sorvall ST 8R (published_price; refurbished).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Sorvall ST 8R certified pre-owned instrument, 90-day warranty. Rotor configuration unreported; secondary-market reference only, excluded from new-equipment totals. Listing explicitly marks Condition Certified Pre-Owned and supplies 90-day warranty.
+
+- Source: [GMI exact-configuration public price](https://www.gmi-inc.com/product/thermo-scientific-sorvall-st-8r-centrifuge/) — Price $3495 and Additional information &gt; Certified Pre-Owned
+
+**Related records:** `M13-02` (equipment), `M13` (equipment_class), `P03` (process), `P04` (process), `P07` (process), `P08` (process), `P10` (process), `SELL-PRICE261018-50A868DC6C3D52BB` (seller_offer)
+
+
+## PRICE-EV-AA32CD0A1F8BFE49
+
+Lab Alley publishes USD 111.72 for SKU SOHYSL01N-4L, 4000 mL of Sodium hydroxide0.1N aqueous solution.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-4L) — Size/SKU table and assay; source states4gNaOH/L DIwater
+
+**Related records:** `naoh-01m` (component), `PACK-PRICE261018-3E6E89CBD4EC444A` (component_offer), `P33-SOURCE-01-C05` (formulation_component), `P33` (process)
+
+
+## PRICE-EV-AD85A47865F2F894
+
+Spectrum Chemical publishes USD 12750 for Labconco Protector XStream, 4 ft (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Protector XStream 4 ft, no service fixtures, 115 V 60 Hz hood superstructure. Remote blower, ductwork, work surface and base installation not included in this hood-only price. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/) — PDF page 1; manufacturer 110410000; vendor 496-48481-EA; List Price
+
+**Related records:** `M29-01` (equipment), `M29` (equipment_class), `SELL-PRICE261018-77B6D85004F94283` (seller_offer)
+
+
+## PRICE-EV-ADE4992A3D69A109
+
+Fisher Scientific US publishes USD 6290 for Kinematica POLYTRON PT 2500 E (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Catalog 08-451-320, supplier SKU 11090108, 115 V PT 2500E with support stand. Dispersing generators/shafts explicitly sold separately. Public US seller amount per each; account/contract amounts may differ. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Fisher Scientific US public price](https://www.fishersci.com/shop/products/kinematica-polytron-pt-2500e-homogenizer/08451320) — Catalog/price block and Includes/Requires; extracted lines 22-78.
+
+**Related records:** `M11-02` (equipment), `M11` (equipment_class), `SELL-PRICE261018-8B1A6AB1DBF41EF8` (seller_offer)
+
+
+## PRICE-EV-AE1DECF9F73B3AB8
+
+Government Scientific Source publishes USD 22734.38 for Thermo Scientific Evolution Pro (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Thermo Scientific Evolution Pro UV/Vis spectrophotometer exact Fisher catalog configuration. No Pharma, Security/Validation or USP/EP bundle inferred. Detailed included-accessory bill of materials not published. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Fisher--Scientific/14385507/EA/) — Product title, displayed price per EA, Part Number 14385507
+
+**Related records:** `M35-08` (equipment), `M35` (equipment_class), `P03` (process), `SELL-PRICE261018-5079E25B21941DB3` (seller_offer)
+
+
+## PRICE-EV-AEDAC830985AB3A3
+
+Aladdin Scientific publishes USD 285.9 for SKU L407046-100g, 100 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference for the PbBr2 branch only: P44 identity permitsPbBr2and/orPbI2 but does not yet curate grade/branch/amount. Never treat thisPbBr2 quote asPbI2 or prepared ligand-stock solution.
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html) — Grouped product items pack-price rows
+
+**Related records:** `lead-bromide-and-or-lead-iodide` (component), `PACK-PRICE261018-1F00FB629FE1F1A7` (component_offer), `P44-SOURCE-01-C02` (formulation_component), `P44` (process)
+
+
+## PRICE-EV-B781A831788822DB
+
+Fisher Scientific US publishes USD 6582.1 for Kinematica POLYTRON PT 3100 D (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Catalog 08-451-730, supplier SKU 11010123, PT 3100 D 100-120 V drive unit. Includes power cord, PC software and RS232/USB cable. ST-F10/600 stand explicitly excluded; no dispersing generator priced as included. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [Fisher Scientific US public price](https://www.fishersci.com/shop/products/kinematica-polytron-homogenizer-motors-2/08451730) — Selected voltage table, supplier SKU, price, Includes and stand note; extracted lines 37-100.
+
+**Related records:** `M11-06` (equipment), `M11` (equipment_class), `SELL-PRICE261018-4C50DE899FB49300` (seller_offer)
+
+
+## PRICE-EV-B93DB41ADC41EA75
+
+W.W. Grainger publishes USD 10383.07 for Labconco XPert Nano Enclosure (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** XPert Nano 2 ft enclosure, 100/115 V AC, blower and stainless steel work surface included; supporting stand required separately. Public US web price; special shipping extra. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [W.W. Grainger exact-configuration public price](https://www.grainger.com/product/LABCONCO-Enclosure-XPert-Nano-5ULF5) — Mfr model 3887220; item 5ULF5; Web Price block
+
+**Related records:** `M30-05` (equipment), `M30` (equipment_class), `P07` (process), `P11` (process), `SELL-PRICE261018-DDC99F916833B16F` (seller_offer)
+
+
+## PRICE-EV-B99BC7B20BA87B84
+
+TEquipment publishes USD 532 for Thermo Scientific LP Vortex Mixer (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Thermo Scientific LP Vortex Mixer, 100-240 V 50/60 Hz, USA plug. Seller explicitly displays List Price while inviting a quote for its best purchase price; not manufacturer MSRP. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [TEquipment exact-configuration public price](https://www.tequipment.net/Thermo-Scientific/88880017TS/Vortex-Mixers/) — Catalog 88880017 / model 88880017TS; List Price
+
+**Related records:** `M50-10` (equipment), `M50` (equipment_class), `P04` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-E6ECCBDDCB8E5930` (seller_offer)
+
+
+## PRICE-EV-B9D95D676D5DC0F1
+
+Fisher Scientific UK publishes GBP 3751 for Atlas Manual 15T (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One Atlas Manual 15T press, supplier GS15011. UK public catalog price, converted to USD for comparison; taxes, freight, import duties, dies and heated platens excluded. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed.
+
+- Source: [Fisher Scientific UK public price](https://www.fishersci.co.uk/shop/products/atlas-manual-15t-hydraulic-press/12960880) — Product selection, supplier GS15011, price per pack of 1
+- Source: [Exact model/SKU identity documentation](https://specac.com/wp-content/uploads/2022/06/Manual-Hydraulic-Press-datasheet.pdf) — Model or manufacturer part number
+
+**Related records:** `GAP-20261016-M72-SPECAC-ATLAS-MANUAL-15T` (equipment), `M72` (equipment_class), `P31` (process), `SELL-PRICE261018-21319F10851C63BD` (seller_offer)
+
+
+## PRICE-EV-BAC29C323D37B70F
+
+MilliporeSigma publishes USD 75.3 for SKU 258148-500ML, 500 mL of Hydrochloric acid, 37%, ACS reagent.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 does not state hydrochloric acid concentration or delivered volume. This nominal 37% pack is a reference; do not assume an unknown dilute reagent is concentrated acid. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P31 does not state hydrochloric acid concentration or delivered volume. This nominal 37% pack is a reference; do not assume an unknown dilute reagent is concentrated acid.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/258148) — Size/SKU table, 258148-500ML row. Opened .
+
+**Related records:** `hcl` (component), `PACK-PRICE261018-7FBA8AED43271B6A` (component_offer), `P31-SOURCE-01-C05` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-BB2845B765BE59F5
+
+Aladdin Scientific publishes USD 839.9 for SKU B108444-100g, 100 g of Benzidine, ≥98%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
+
+**Related records:** `benzidine` (component), `PACK-PRICE261018-34CF5891D5994989` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-BCE7A498615DDFEE
+
+Clarkson Laboratory & Supply publishes USD 16400 for Thermo Scientific Vacutherm VT 6060 (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Vacutherm VT 6060 M vacuum oven, 120 V 50/60 Hz. Oven only; no vacuum pump, installation or delivered cost assumed. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Thermo Scientific 2026 laboratory equipment price list](https://store.clarksonlab.com/Vendors/vThe.pdf) — PDF page 387; SKU 51014540; Equipment; List Price
+
+**Related records:** `M18-09` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process), `SELL-PRICE261018-755923C36188185D` (seller_offer)
+
+
+## PRICE-EV-C0522A57C55C9048
+
+MilliporeSigma publishes USD 151 for SKU 270725-2L, 2000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-026FE16737949605` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-C2F6E50DD997A441
+
+Government Scientific Source publishes USD 40100 for Thermo Scientific Nicolet iS20 (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Nicolet iS20 MID-IR DTGS configuration, exact catalog part. Not MCT configuration and not an ATR accessory. Public vendor list price; accessory/software inclusions beyond named configuration not assumed. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Nicolet/912A1032/EA/) — Product title and Part Number 912A1032; price per EA
+
+**Related records:** `M36-02` (equipment), `M36` (equipment_class), `P04` (process), `P08` (process), `P10` (process), `P11` (process), `SELL-PRICE261018-14BAF09F91A4BF53` (seller_offer)
+
+
+## PRICE-EV-C7B83FB191C5914E
+
+BUCHI US Online Shop publishes USD 9389 for BUCHI Rotavapor R-300 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** SKU 11R300252V102; R-300 electronic-lift rotary evaporator with safety-coated vertical condenser, 24/40 joint, 5 L flask capacity, 100-120 V. No pump, chiller or I-300 controller is specified as included; these are not priced in this offer.
+
+- Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html) — Heading, price/SKU, Description and Specifications; extracted lines 98-143.
+
+**Related records:** `M16-06` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-C8AE0912AFE6D4A1
+
+LabPlanet publishes USD 3939 for Parr 4746 (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** One 4746 high-pressure acid-digestion vessel, seller SKU CX1-9OM-4746 / 25227-061. Seller calls it 25 mL; manufacturer's nominal sample vessel is 23 mL, so preserve that seller wording as an offer note rather than changing canonical capacity. Not a heater. Standard commercial catalog listing; new condition inferred, stock/lead time unconfirmed unless expressly stated by seller.
+
+- Source: [LabPlanet public price](https://www.labplanet.com/parr-instrument-acid-digestion-bomb-ss-25ml-4746.html) — Title, Code, MPN and amount; extracted lines 60-83.
+
+**Related records:** `M05-05` (equipment), `M05` (equipment_class), `SELL-PRICE261018-4218332C824DCE78` (seller_offer)
+
+
+## PRICE-EV-D107B52192BAB109
+
+Lab Alley publishes USD 163.76 for SKU C4358-500ML, 500 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML) — Size/SKU table and Product Information assay
+
+**Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-10C71722FEA815B4` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-E99F74CBD517C2D5` (component_offer)
+
+
+## PRICE-EV-D7C5C9D02C65E4D9
+
+Clarkson Laboratory & Supply publishes USD 16300 for Thermo Scientific Barnstead GenPure xCAD Plus (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Barnstead GenPure xCAD Plus UV/UF, bench-mounted dispenser configuration. Not interchangeable with UV-only, TOC or wall-mounted variants. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Thermo Scientific 2026 laboratory equipment price list](https://store.clarksonlab.com/Vendors/vThe.pdf) — PDF page 372; SKU 50136151; Equipment; List Price
+
+**Related records:** `M46-03` (equipment), `M46` (equipment_class), `P03` (process), `P05` (process), `P09` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-84FB22BDBAF4C27C` (seller_offer)
+
+
+## PRICE-EV-D938B3047A076A2B
+
+MilliporeSigma publishes USD 79.6 for SKU 258105-500ML, 500 mL of Sulfuric acid, 95.0–98.0%, ACS reagent.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P05 reports 0.5 M in the final mixed bath. P09 cleaning-stock and P34 initial-acid concentrations are unreported. This concentrated pack remains a reference for all three, not the price of a prepared 0.5 M solution.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/258105) — Size/SKU table, 258105-500ML row. Opened .
+
+**Related records:** `sulfuric-acid` (component), `PACK-PRICE261018-530D221489F3BE03` (component_offer), `P05-LITERATURE-EXAMPLE-C03` (formulation_component), `P05` (process), `P09-LITERATURE-EXAMPLE-C06` (formulation_component), `P09` (process), `P34-SOURCE-01-C03` (formulation_component), `P34` (process)
+
+
+## PRICE-EV-DB341CEBDBDE0ACA
+
+Aladdin Scientific publishes USD 117.9 for SKU B108444-5g, 5 g of Benzidine, ≥98%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+
+- Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
+
+**Related records:** `benzidine` (component), `PACK-PRICE261018-D754149F4A10AF18` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-DC6FEBA98DB976FE
+
+Electron Microscopy Sciences publishes USD 29 for SKU 71883-01, 144 piece of Diamond white glass slide, plain,90°ground edge,25×75×1mm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
+
+- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
+
+**Related records:** `glass-slide-25x75mm` (component), `PACK-PRICE261018-6332AA3A9C721382` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-DD7491F9B2D296F7
+
+Government Scientific Source publishes USD 293.33 for SKU 042953-VU, 1 piece of Graphite foil, 0.5 mm, 99.8% metals basis, 15×250 cm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets.
+
+- Source: [Government Scientific Source product pack offer](https://www.govsci.com/product-detail/Alfa--Aesar/042953-VU/EA/) — Seller price $293.33 USD/EA. Exact SKU dimensions corroborated by the linked Thermo Fisher product page. Opened sources  and .
+
+**Related records:** `graphite-foil` (component), `PACK-PRICE261018-4EE0DA99DDE583A1` (component_offer), `P41-SOURCE-01-C03` (formulation_component), `P41` (process)
+
+
+## PRICE-EV-E13D3317B2E11638
+
+Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium turnings, 5–25 mm, 99.95% trace metals basis.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P35 reports commercially pure magnesium for alloy melting but does not state feed form or impurity limits. This specific turnings pack is a reference, not a verified match to the experimental feed. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P35 reports commercially pure magnesium for alloy melting but does not state feed form or impurity limits. This specific turnings pack is a reference, not a verified match to the experimental feed.
+
+- Source: [Krackeler Scientific product pack offer](https://www.krackeler.com/catalog/sigma/ALDRICH/403148) — Krackeler price table, 45-403148-50G row. Opened .
+
+**Related records:** `magnesium-metal` (component), `PACK-PRICE261018-445E811DB03B33FD` (component_offer), `P35-SOURCE-01-C01` (formulation_component), `P35` (process)
+
+
+## PRICE-EV-E3F9E6F82EE16635
+
+Krackeler Scientific publishes USD 510 for SKU 45-P4663-100MG, 100 mg of Poly-L-arginine hydrochloride, MW 5,000–15,000.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P33 source names polyarginine but omits molecular weight and counterion. This exact hydrochloride SKU is reference-only; do not automatically convert the source polyarginine mass to this salt. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P33 source names polyarginine but omits molecular weight and counterion. This exact hydrochloride SKU is reference-only; do not automatically convert the source polyarginine mass to this salt.
+
+- Source: [Krackeler Scientific product pack offer](https://www.krackeler.com/catalog/sigma/SIGMA/P4663) — Krackeler price table, 45-P4663-100MG row. Opened .
+
+**Related records:** `polyarginine` (component), `PACK-PRICE261018-BD336143D0B19319` (component_offer), `P33-SOURCE-01-C02` (formulation_component), `P33` (process)
+
+
+## PRICE-EV-E4F74DB982825244
+
+Spectrum Chemical publishes USD 15795 for Labconco Protector XStream, 6 ft (list_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Protector XStream 6 ft, no service fixtures, 115 V 60 Hz hood superstructure. Remote blower, ductwork, work surface and supporting base are outside price. Standard supplier/distributor catalog offer for manufacturer equipment, with no used/refurbished marking; interpreted as new-catalog condition, not a guarantee of stock.
+
+- Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/) — PDF page 2; manufacturer 110610000; vendor 496-48505-EA; List Price
+
+**Related records:** `M29-06` (equipment), `M29` (equipment_class), `SELL-PRICE261018-93B72B4DA686105C` (seller_offer)
+
+
+## PRICE-EV-EB17CA6BEDB33514
+
+MilliporeSigma publishes USD 747 for SKU 650579-4X4L, 16000 mL of Toluene HPLC Plus, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same toluene identity and HPLC purity class as P23. Input use volume remains unreported. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same toluene identity and HPLC purity class as P23. Input use volume remains unreported.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/650579) — Select a Size table, SKU row; opened web
+
+**Related records:** `toluene-hplc` (component), `PACK-PRICE261018-ED6EF7B269FD5C8D` (component_offer), `P23-LITERATURE-20261017-C07` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-F3DE3D0D205AA504
+
+Lab Alley publishes USD 1632.85 for SKU C4358-4LCS, 16000 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+
+- Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Size/SKU table and Product Information assay
+
+**Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-5E07D99CCE54CEEF` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-67710B0FC05085B2` (component_offer)
+
+
+## PRICE-EV-FA62B6FFE513114E
+
+MilliporeSigma publishes USD 108 for SKU 270725-1L, 1000 mL of Acetone, suitable for HPLC, ≥99.9%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same acetone identity and HPLC purity class as P23. No absolute batch use is reported, so pack is eligible but automatic consumed cost stays unknown.
+
+- Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
+
+**Related records:** `acetone-hplc` (component), `PACK-PRICE261018-3A0284A298D648B4` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-FD1A7D32C38DF7CC
+
+LabRulez publishes EUR 8500 for Agilent Cary 60 (asking_price; refurbished).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** 2016 G6860A Cary 60 UV-Vis instrument, refurbished, 3-month warranty. External computer and Cary WinUV software explicitly excluded. EUR 200 delivery additional, before VAT. Used/refurbished comparison only; do not feed into new capital price estimates.
+
+- Source: [LabRulez public price](https://labrulez.com/en-us/all/marketplace/1109) — Purchase price, condition/year/warranty and operational exclusion; extracted lines 47-108.
+
+**Related records:** `M35-04` (equipment), `M35` (equipment_class), `P03` (process), `SELL-PRICE261018-904B9C862253A520` (seller_offer)
 
 
 ## TC-M01

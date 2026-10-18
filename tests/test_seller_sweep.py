@@ -28,6 +28,10 @@ def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
     photos=json.loads((ROOT/'catalog/instrument_photo_review_2026-10-18.json').read_text(encoding='utf-8'))
     for update in photos['records']:
         overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+    pricing=json.loads((ROOT/'catalog/price_review_2026-10-18.json').read_text(encoding='utf-8'))
+    for update in pricing['equipment_updates']:
+        for group in update['groups']:
+            overrides.setdefault(update['equipment_id'],{}).update(group['after'])
     later_photos=sum(not u['before']['image_url'] and bool(u['after']['image_url']) for u in photos['records'] if u['equipment_id'] in rows)
     assert len(rows)==s['models']==858
     assert sum(bool(r['image_url']) for r in rows.values())==s['photos_after']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])+len(media['new_photo_records'])+later_photos

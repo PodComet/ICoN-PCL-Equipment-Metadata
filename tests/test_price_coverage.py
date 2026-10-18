@@ -60,5 +60,5 @@ def test_generated_coverage_distinguishes_absent_prices_estimates_and_reference_
     for r in instruments:
         if r['status']=='no_purchase_price':assert not r['msrp_value'] and not r['manufacturer_price_value'] and not int(r['seller_offer_count']) and not r['estimate_low']
         if r['status']=='secondary_market_only':assert int(r['seller_offer_count']) and not int(r['new_seller_offer_count'])
-    assert {s['source_year'] for s in data['sources']}=={'2025','2026'}
+    assert {s['source_year'] for s in data['sources']}=={'2025','2026','Undated web page','Observed 2026'}
     assert all(s['notes'] and s['publisher'] for s in data['sources'])

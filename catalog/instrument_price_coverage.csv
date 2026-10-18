@@ -43,11 +43,11 @@ M05-01,M05,Parr,Parr 4744,no_purchase_price,,,0,0,,,
 M05-02,M05,Berghof,Berghof digestec DAB-2,no_purchase_price,,,0,0,,,
 M05-03,M05,Amar,Amar hydrothermal reactor family,no_purchase_price,,,0,0,,,
 M05-04,M05,Parr,Parr 4745,no_purchase_price,,,0,0,,,
-M05-05,M05,Parr,Parr 4746,no_purchase_price,,,0,0,,,
+M05-05,M05,Parr,Parr 4746,new_seller_price,,,1,1,,,https://www.labplanet.com/parr-instrument-acid-digestion-bomb-ss-25ml-4746.html
 M05-06,M05,Parr,Parr 4747,no_purchase_price,,,0,0,,,
-M05-07,M05,Parr,Parr 4748,no_purchase_price,,,0,0,,,
+M05-07,M05,Parr,Parr 4748,new_seller_price,,,1,1,,,https://www.labplanet.com/parr-instrument-bomb-general-purpose-125ml-4748.html
 M05-08,M05,Parr,Parr 4748A,no_purchase_price,,,0,0,,,
-M05-09,M05,Parr,Parr 4749,no_purchase_price,,,0,0,,,
+M05-09,M05,Parr,Parr 4749,new_seller_price,,,1,1,,,https://www.thermalscientific.com/acid-digestion-vessel-parr-4749-parr-4749/
 M05-10,M05,Parr,Parr 4749A,no_purchase_price,,,0,0,,,
 M06-01,M06,Anton Paar,Anton Paar Monowave 450,no_purchase_price,,,0,0,,,
 M06-02,M06,CEM,CEM Discover 2.0,no_purchase_price,,,0,0,,,
@@ -56,7 +56,7 @@ M06-04,M06,Anton Paar,Anton Paar Monowave 400,no_purchase_price,,,0,0,,,
 M06-05,M06,Anton Paar,Anton Paar Monowave 200,no_purchase_price,,,0,0,,,
 M06-06,M06,Anton Paar,Anton Paar Multiwave 5000,no_purchase_price,,,0,0,,,
 M06-07,M06,CEM,CEM Discover SP,no_purchase_price,,,0,0,,,
-M06-08,M06,CEM,CEM MARS 6,no_purchase_price,,,0,0,,,
+M06-08,M06,CEM,CEM MARS 6,secondary_market_only,,,1,0,,,https://www.labmakelaar.eu/shop/all/saleable/ovens-incubators-and-climate/microwave/cem-mars-6-microwave-destructor/
 M06-09,M06,Biotage,Biotage Initiator+,no_purchase_price,,,0,0,,,
 M06-10,M06,Milestone,Milestone synthWAVE,no_purchase_price,,,0,0,,,
 M07-01,M07,New Era,New Era NE-300 InfusionONE,manufacturer_price,,375,0,0,,,https://www.syringepump.com/NE-300.php
@@ -88,7 +88,7 @@ M09-06,M09,Sonics,Sonics VCX 130,manufacturer_price,,3765,0,0,,,https://sonics.c
 M09-07,M09,Sonics,Sonics VCX 500,manufacturer_price,,5305,0,0,,,https://sonics.com/product/vcx-500-110/
 M09-08,M09,Hielscher,Hielscher UP200St,no_purchase_price,,,0,0,,,
 M09-09,M09,Hielscher,Hielscher UIP500hdT,no_purchase_price,,,0,0,,,
-M09-10,M09,Hielscher,Hielscher UIP1000hdT,no_purchase_price,,,0,0,,,
+M09-10,M09,Hielscher,Hielscher UIP1000hdT,manufacturer_price,,17950,0,0,,,https://www.hielscher.com/i1000_p.htm
 M10-01,M10,Elma,Elma Elmasonic Select 30,manufacturer_price,,680,0,0,,,https://www.elma-ultrasonic.com/en/elmasonic-select?model=30
 M10-02,M10,Branson,Branson CPX2800,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/branson-cpx2800-digital-ultrasonic-cleaner
 M10-03,M10,Fisherbrand,Fisherbrand FB11201,no_purchase_price,,,0,0,,,
@@ -100,27 +100,27 @@ M10-08,M10,Branson,Branson CPX5800,new_seller_price,,,1,1,,,https://new.marshall
 M10-09,M10,Branson,Branson CPX8800,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/branson-cpx8800-digital-ultrasonic-cleaner
 M10-10,M10,Bandelin,Bandelin SONOREX RK 100 H,manufacturer_price,,907,0,0,,,https://bandelin.com/en/shop/sonorex-ultrasonic-baths/sonorex-super-rk-ultrasonic-baths/sonorex-super-rk-100-h-ultrasonic-bath-with-heater/
 M11-01,M11,IKA,IKA T 18 digital Solution,manufacturer_price,,2749,0,0,3298.8,9904,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-18-digital-Solution-9024700/
-M11-02,M11,Kinematica,Kinematica POLYTRON PT 2500 E,estimate_only,,,0,0,3298.8,9904,
-M11-03,M11,Silverson,Silverson L5M-A,estimate_only,,,0,0,3298.8,9904,
+M11-02,M11,Kinematica,Kinematica POLYTRON PT 2500 E,new_seller_price,,,1,1,3298.8,9904,https://www.fishersci.com/shop/products/kinematica-polytron-pt-2500e-homogenizer/08451320
+M11-03,M11,Silverson,Silverson L5M-A,secondary_market_only,,,1,0,3298.8,9904,https://www.novusferro.com/shop/lab/shakers/silverson-l5m-a-high-shear-laboratory-mixer/
 M11-04,M11,IKA,IKA T 25 digital,manufacturer_price,,3010,0,0,3298.8,9904,https://www.ika.com/en/Products-LabEq/T-25-digital-ULTRA-TURRAX-3725000/
 M11-05,M11,IKA,IKA T 50 digital,manufacturer_price,,3944.8,0,0,3298.8,9904,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-50-digital-ULTRA-TURRAX-3787000/
-M11-06,M11,Kinematica,Kinematica POLYTRON PT 3100 D,estimate_only,,,0,0,3298.8,9904,
-M11-07,M11,Kinematica,Kinematica POLYTRON PT 10-35 GT,estimate_only,,,0,0,3298.8,9904,
+M11-06,M11,Kinematica,Kinematica POLYTRON PT 3100 D,new_seller_price,,,1,1,3298.8,9904,https://www.fishersci.com/shop/products/kinematica-polytron-homogenizer-motors-2/08451730
+M11-07,M11,Kinematica,Kinematica POLYTRON PT 10-35 GT,new_seller_price,,,1,1,3298.8,9904,https://www.fishersci.com/shop/products/polytron-pt-10-35-gt-homogenizers/13874615
 M11-08,M11,Silverson,Silverson L4RT,estimate_only,,,0,0,3298.8,9904,
 M11-09,M11,IKA,IKA ULTRA-TURRAX Tube Drive,new_seller_price,,,1,1,3298.8,9904,https://new.marshallscientific.com/products/ika-ultra-turrax-tube-drive
 M11-10,M11,VELP,VELP OV 5,estimate_only,,,0,0,3298.8,9904,
 M12-01,M12,RETSCH,RETSCH PM 300,no_purchase_price,,,0,0,,,
 M12-02,M12,FRITSCH,FRITSCH PULVERISETTE 7 premium line,no_purchase_price,,,0,0,,,
 M12-03,M12,Across International,Across International PQ-N2,manufacturer_price,,5190,0,0,,,https://www.acrossinternational.com/4x500ml-gear-drive-2-liter-planetary-ball-mill.html
-M12-04,M12,RETSCH,RETSCH PM 100,no_purchase_price,,,0,0,,,
-M12-05,M12,RETSCH,RETSCH PM 200,no_purchase_price,,,0,0,,,
-M12-06,M12,RETSCH,RETSCH PM 400,no_purchase_price,,,0,0,,,
+M12-04,M12,RETSCH,RETSCH PM 100,new_seller_price,,,1,1,,,https://certifiedmtp.com/retsch-pm-100-planetary-ball-mill/
+M12-05,M12,RETSCH,RETSCH PM 200,new_seller_price,,,1,1,,,https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r
+M12-06,M12,RETSCH,RETSCH PM 400,new_seller_price,,,1,1,,,https://www.servilab.fr/catalogue/produits/broyeur-planetaire-a-billes-serie-pm-retsch-r
 M12-07,M12,FRITSCH,FRITSCH PULVERISETTE 5 classic line,no_purchase_price,,,0,0,,,
 M12-08,M12,FRITSCH,FRITSCH PULVERISETTE 5 premium line,no_purchase_price,,,0,0,,,
 M12-09,M12,FRITSCH,FRITSCH PULVERISETTE 6 classic line,no_purchase_price,,,0,0,,,
 M12-10,M12,FRITSCH,FRITSCH PULVERISETTE 7 classic line,no_purchase_price,,,0,0,,,
 M13-01,M13,Eppendorf,Eppendorf Centrifuge 5910 Ri,manufacturer_price,,20817.99,0,0,,,https://www.eppendorf.com/us-en/Products/Centrifugation/Multipurpose-Centrifuges/Centrifuge-5910Ri-p-PF-963296
-M13-02,M13,Thermo Scientific,Thermo Scientific Sorvall ST 8R,no_purchase_price,,,0,0,,,
+M13-02,M13,Thermo Scientific,Thermo Scientific Sorvall ST 8R,secondary_market_only,,,1,0,,,https://www.gmi-inc.com/product/thermo-scientific-sorvall-st-8r-centrifuge/
 M13-03,M13,Sigma,Sigma 3-18KS,secondary_market_only,,,1,0,,,https://www.bescientific.co.uk/sigma-3-18ks-centrifuge.html
 M13-04,M13,Eppendorf,Eppendorf Centrifuge 5804 R,secondary_market_only,,,1,0,,,https://www.krackeler.com/catalog/product/3181/Eppendorf-5804-and-5810-Multipurpose-Centrifuges
 M13-05,M13,Eppendorf,Eppendorf Centrifuge 5810 R,secondary_market_only,,,1,0,,,https://www.krackeler.com/catalog/product/3181/Eppendorf-5804-and-5810-Multipurpose-Centrifuges
@@ -130,14 +130,14 @@ M13-08,M13,Thermo Scientific,Thermo Scientific Sorvall ST 40R,secondary_market_o
 M13-09,M13,Sigma,Sigma 3-30KS,no_purchase_price,,,0,0,,,
 M13-10,M13,Hettich,Hettich ROTINA 380 R,no_purchase_price,,,0,0,,,
 M14-01,M14,Beckman Coulter,Beckman Coulter Optima XPN-100,no_purchase_price,,,0,0,,,
-M14-02,M14,Thermo Scientific,Thermo Scientific Sorvall WX 100+,no_purchase_price,,,0,0,,,
+M14-02,M14,Thermo Scientific,Thermo Scientific Sorvall WX 100+,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000100/EA/
 M14-03,M14,Himac,Himac CP100NX,no_purchase_price,,,0,0,,,
 M14-04,M14,Beckman Coulter,Beckman Coulter Optima XPN-80,no_purchase_price,,,0,0,,,
 M14-05,M14,Beckman Coulter,Beckman Coulter Optima XPN-90,no_purchase_price,,,0,0,,,
 M14-06,M14,Beckman Coulter,Beckman Coulter Optima MAX-XP,no_purchase_price,,,0,0,,,
 M14-07,M14,Beckman Coulter,Beckman Coulter Optima MAX-TL,secondary_market_only,,,1,0,,,https://www.koshin-chem.co.jp/catalog/products/centri-ult-optimamaxtl/
-M14-08,M14,Thermo Scientific,Thermo Scientific Sorvall WX 80+,no_purchase_price,,,0,0,,,
-M14-09,M14,Thermo Scientific,Thermo Scientific Sorvall WX 90+,no_purchase_price,,,0,0,,,
+M14-08,M14,Thermo Scientific,Thermo Scientific Sorvall WX 80+,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000080/EA/
+M14-09,M14,Thermo Scientific,Thermo Scientific Sorvall WX 90+,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000090/EA/
 M14-10,M14,Himac,Himac CP80NX,no_purchase_price,,,0,0,,,
 M15-01,M15,Sartorius,Sartorius Vivaflow SU,no_purchase_price,,,0,0,,,
 M15-02,M15,Repligen,Repligen KrosFlo KR2i,no_purchase_price,,,0,0,,,
@@ -149,12 +149,12 @@ M15-07,M15,Sartorius,Sartorius Sartoflow Advanced,no_purchase_price,,,0,0,,,
 M15-08,M15,Repligen,Repligen KrosFlo KR2i RPM,no_purchase_price,,,0,0,,,
 M15-09,M15,Repligen,Repligen KrosFlo KMPi,no_purchase_price,,,0,0,,,
 M15-10,M15,Cytiva,Cytiva AKTA flux s,no_purchase_price,,,0,0,,,
-M16-01,M16,BUCHI,BUCHI Rotavapor R-180,estimate_only,,,0,0,4746,12709.6,
+M16-01,M16,BUCHI,BUCHI Rotavapor R-180,manufacturer_price,,7161,0,0,4746,12709.6,https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html
 M16-02,M16,Heidolph,Heidolph Hei-VAP Core,new_seller_price,,,1,1,4746,12709.6,https://new.marshallscientific.com/products/heidolph-hei-vap-core-hl-g3-non-coated-hand-lift-w-g3-vertical-glassware
 M16-03,M16,IKA,IKA RV 10 digital,new_seller_price,,,1,1,4746,12709.6,https://new.marshallscientific.com/products/ika-rv-10-digital-v-rotary-evaporator
-M16-04,M16,BUCHI,BUCHI Rotavapor R-80,estimate_only,,,0,0,4746,12709.6,
+M16-04,M16,BUCHI,BUCHI Rotavapor R-80,manufacturer_price,,9901,0,0,4746,12709.6,https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html
 M16-05,M16,BUCHI,BUCHI Rotavapor R-100,estimate_only,,,0,0,4746,12709.6,
-M16-06,M16,BUCHI,BUCHI Rotavapor R-300,estimate_only,,,0,0,4746,12709.6,
+M16-06,M16,BUCHI,BUCHI Rotavapor R-300,manufacturer_price,,9389,0,0,4746,12709.6,https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html
 M16-07,M16,Heidolph,Heidolph Hei-VAP Expert,new_seller_price,,,1,1,4746,12709.6,https://new.marshallscientific.com/products/heidolph-hei-vap-expert-ml-g3-non-coated-motor-lift-w-g3-vertical-glassware
 M16-08,M16,Heidolph,Heidolph Hei-VAP Ultimate,new_seller_price,,,1,1,4746,12709.6,https://new.marshallscientific.com/products/heidolph-hei-vap-ultimate-ml-g3-non-coated-motor-lift-w-g3-vertical-glassware
 M16-09,M16,IKA,IKA RV 3,manufacturer_price,,3955,0,0,4746,12709.6,https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/
@@ -177,7 +177,7 @@ M18-05,M18,Memmert,Memmert VO101,secondary_market_only,,,1,0,,,https://www.labre
 M18-06,M18,BINDER,BINDER VD 23,secondary_market_only,,,1,0,,,https://www.labrepco.com/product/binder-series-vd-23-vacuum-drying-chambers-for-non-flammable-solvents/
 M18-07,M18,BINDER,BINDER VD 115,secondary_market_only,,,1,0,,,https://www.labrepco.com/product/binder-series-vd-115-vacuum-drying-chambers-for-non-flammable-solvents/
 M18-08,M18,BINDER,BINDER VDL 56,secondary_market_only,,,1,0,,,https://www.labrepco.com/product/binder-series-vdl-56-vacuum-drying-chambers-for-non-flammable-solvents/
-M18-09,M18,Thermo Scientific,Thermo Scientific Vacutherm VT 6060,no_purchase_price,,,0,0,,,
+M18-09,M18,Thermo Scientific,Thermo Scientific Vacutherm VT 6060,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vThe.pdf
 M18-10,M18,Yamato,Yamato DP63,new_seller_price,,,1,1,,,https://www.labcommerce.com/manufacturer_productdesc/catid/148/prodid/1645/
 M19-01,M19,Nabertherm,Nabertherm L 3/11,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
 M19-02,M19,Carbolite Gero,Carbolite Gero CWF 12/5,new_seller_price,,,1,1,,,https://certifiedmtp.com/carbolite-12-5-laboratory-chamber-furnace-5-liters/
@@ -188,7 +188,7 @@ M19-06,M19,Nabertherm,Nabertherm L 15/11,new_seller_price,,,1,1,,,https://store.
 M19-07,M19,Carbolite Gero,Carbolite Gero CWF 11/5,no_purchase_price,,,0,0,,,
 M19-08,M19,Carbolite Gero,Carbolite Gero CWF 13/5,no_purchase_price,,,0,0,,,
 M19-09,M19,Carbolite Gero,Carbolite Gero CWF 12/13,no_purchase_price,,,0,0,,,
-M19-10,M19,Thermo Scientific,Thermo Scientific Thermolyne F48025,no_purchase_price,,,0,0,,,
+M19-10,M19,Thermo Scientific,Thermo Scientific Thermolyne F48025,new_seller_price,,,2,2,,,https://store.clarksonlab.com/Vendors/vThe.pdf
 M20-01,M20,Carbolite Gero,Carbolite Gero TF1,no_purchase_price,,,0,0,,,
 M20-02,M20,Nabertherm,Nabertherm R 50/250/12,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
 M20-03,M20,MTI,MTI OTF-1200X,manufacturer_price,,5998,0,0,,,https://mtixtl.com/products/otf1200x
@@ -279,21 +279,21 @@ M28-07,M28,Inert,Inert PureLab HE 2GB,no_purchase_price,,,0,0,,,
 M28-08,M28,Vacuum Atmospheres,Vacuum Atmospheres NEXGEN,no_purchase_price,,,0,0,,,
 M28-09,M28,Jacomex,Jacomex GP Concept,no_purchase_price,,,0,0,,,
 M28-10,M28,LC Technology,LC Technology LC-1,no_purchase_price,,,0,0,,,
-M29-01,M29,Labconco,"Labconco Protector XStream, 4 ft",no_purchase_price,,,0,0,,,
+M29-01,M29,Labconco,"Labconco Protector XStream, 4 ft",new_seller_price,,,1,1,,,https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/
 M29-02,M29,Esco,Esco Frontier Acela,no_purchase_price,,,0,0,,,
 M29-03,M29,Waldner,Waldner Secuflow,no_purchase_price,,,0,0,,,
-M29-04,M29,Labconco,Labconco Protector XL,no_purchase_price,,,0,0,,,
-M29-05,M29,Labconco,Labconco Protector Premier,no_purchase_price,,,0,0,,,
-M29-06,M29,Labconco,"Labconco Protector XStream, 6 ft",no_purchase_price,,,0,0,,,
+M29-04,M29,Labconco,Labconco Protector XL,new_seller_price,,,1,1,,,https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346051/
+M29-05,M29,Labconco,Labconco Protector Premier,new_seller_price,,,1,1,,,https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313787/
+M29-06,M29,Labconco,"Labconco Protector XStream, 6 ft",new_seller_price,,,1,1,,,https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313788/
 M29-07,M29,Thermo Scientific,Thermo Scientific Hamilton SafeAire II,no_purchase_price,,,0,0,,,
 M29-08,M29,Esco,Esco Frontier Mono,no_purchase_price,,,0,0,,,
 M29-09,M29,Kewaunee,Kewaunee Supreme Air,no_purchase_price,,,0,0,,,
 M29-10,M29,Waldner,Waldner SCALA,no_purchase_price,,,0,0,,,
-M30-01,M30,Labconco,Labconco RXPert Balance System,no_purchase_price,,,0,0,,,
+M30-01,M30,Labconco,Labconco RXPert Balance System,new_seller_price,,,1,1,,,https://www.laboratory-equipment.com/rxpert-double-filtered-balance-systems-labconco.html
 M30-02,M30,Flow Sciences,Flow Sciences Vented Balance Safety Enclosure,no_purchase_price,,,0,0,,,
 M30-03,M30,Esco,Esco PowderMax,no_purchase_price,,,0,0,,,
-M30-04,M30,Labconco,Labconco XPert Balance Enclosure,no_purchase_price,,,0,0,,,
-M30-05,M30,Labconco,Labconco XPert Nano Enclosure,no_purchase_price,,,0,0,,,
+M30-04,M30,Labconco,Labconco XPert Balance Enclosure,new_seller_price,,,1,1,,,https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346268/
+M30-05,M30,Labconco,Labconco XPert Nano Enclosure,new_seller_price,,,1,1,,,https://www.grainger.com/product/LABCONCO-Enclosure-XPert-Nano-5ULF5
 M30-06,M30,Flow Sciences,Flow Sciences VBSE 18-inch configuration,no_purchase_price,,,0,0,,,
 M30-07,M30,Flow Sciences,Flow Sciences VBSE 24-inch configuration,no_purchase_price,,,0,0,,,
 M30-08,M30,Flow Sciences,Flow Sciences VBSE 36-inch configuration,no_purchase_price,,,0,0,,,
@@ -334,27 +334,27 @@ M34-02,M34,Anton Paar,Anton Paar Litesizer DLS 701,no_purchase_price,,,0,0,,,
 M34-03,M34,Brookhaven,Brookhaven NanoBrook Omni,no_purchase_price,,,0,0,,,
 M34-04,M34,Malvern,Malvern Zetasizer Pro,no_purchase_price,,,0,0,,,
 M34-05,M34,Malvern,Malvern Zetasizer Lab,no_purchase_price,,,0,0,,,
-M34-06,M34,Malvern,Malvern Zetasizer Nano ZS,no_purchase_price,,,0,0,,,
+M34-06,M34,Malvern,Malvern Zetasizer Nano ZS,secondary_market_only,,,1,0,,,https://www.ebay.com/itm/398205216666
 M34-07,M34,Anton Paar,Anton Paar Litesizer 500,no_purchase_price,,,0,0,,,
 M34-08,M34,Brookhaven,Brookhaven NanoBrook 90Plus PALS,no_purchase_price,,,0,0,,,
 M34-09,M34,Otsuka,Otsuka ELSZ-2000,no_purchase_price,,,0,0,,,
 M34-10,M34,HORIBA,HORIBA SZ-100,no_purchase_price,,,0,0,,,
 M35-01,M35,Agilent,Agilent Cary 3500 Multicell,no_purchase_price,,,0,0,,,
 M35-02,M35,Shimadzu,Shimadzu UV-1900i Plus,no_purchase_price,,,0,0,,,
-M35-03,M35,Thermo Scientific,Thermo Scientific Evolution One,no_purchase_price,,,0,0,,,
-M35-04,M35,Agilent,Agilent Cary 60,no_purchase_price,,,0,0,,,
+M35-03,M35,Thermo Scientific,Thermo Scientific Evolution One,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Fisher--Scientific/14385500/EA/
+M35-04,M35,Agilent,Agilent Cary 60,secondary_market_only,,,1,0,,,https://labrulez.com/en-us/all/marketplace/1109
 M35-05,M35,Agilent,Agilent Cary 100,no_purchase_price,,,0,0,,,
 M35-06,M35,Shimadzu,Shimadzu UV-2600i,no_purchase_price,,,0,0,,,
 M35-07,M35,Shimadzu,Shimadzu UV-2700i,no_purchase_price,,,0,0,,,
-M35-08,M35,Thermo Scientific,Thermo Scientific Evolution Pro,no_purchase_price,,,0,0,,,
+M35-08,M35,Thermo Scientific,Thermo Scientific Evolution Pro,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Fisher--Scientific/14385507/EA/
 M35-09,M35,PerkinElmer,PerkinElmer LAMBDA 365,no_purchase_price,,,0,0,,,
 M35-10,M35,JASCO,JASCO V-730,no_purchase_price,,,0,0,,,
 M36-01,M36,Bruker,Bruker ALPHA II,no_purchase_price,,,0,0,,,
-M36-02,M36,Thermo Scientific,Thermo Scientific Nicolet iS20,no_purchase_price,,,0,0,,,
+M36-02,M36,Thermo Scientific,Thermo Scientific Nicolet iS20,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Nicolet/912A1032/EA/
 M36-03,M36,PerkinElmer,PerkinElmer Spectrum Two,no_purchase_price,,,0,0,,,
 M36-04,M36,Bruker,Bruker INVENIO,no_purchase_price,,,0,0,,,
 M36-05,M36,Bruker,Bruker VERTEX 70v,no_purchase_price,,,0,0,,,
-M36-06,M36,Thermo Scientific,Thermo Scientific Nicolet iS50,no_purchase_price,,,0,0,,,
+M36-06,M36,Thermo Scientific,Thermo Scientific Nicolet iS50,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Nicolet/912A0760/EA/
 M36-07,M36,Thermo Scientific,Thermo Scientific Nicolet Summit,no_purchase_price,,,0,0,,,
 M36-08,M36,PerkinElmer,PerkinElmer Spectrum 3,no_purchase_price,,,0,0,,,
 M36-09,M36,Shimadzu,Shimadzu IRSpirit,no_purchase_price,,,0,0,,,
@@ -451,7 +451,7 @@ M45-09,M45,Applikon,Applikon ez-Control,no_purchase_price,,,0,0,,,
 M45-10,M45,Solaris Biotech,Solaris Biotech Jupiter,no_purchase_price,,,0,0,,,
 M46-01,M46,Merck,Merck Milli-Q IQ 7000,no_purchase_price,,,0,0,,,
 M46-02,M46,ELGA,ELGA PURELAB Quest,no_purchase_price,,,0,0,,,
-M46-03,M46,Thermo Scientific,Thermo Scientific Barnstead GenPure xCAD Plus,no_purchase_price,,,0,0,,,
+M46-03,M46,Thermo Scientific,Thermo Scientific Barnstead GenPure xCAD Plus,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vThe.pdf
 M46-04,M46,Merck,Merck Milli-Q IQ 7003,no_purchase_price,,,0,0,,,
 M46-05,M46,Merck,Merck Milli-Q IQ 7005,no_purchase_price,,,0,0,,,
 M46-06,M46,Merck,Merck Milli-Q IQ 7010,no_purchase_price,,,0,0,,,
@@ -498,7 +498,7 @@ M50-06,M50,IKA,IKA MS 3 basic,manufacturer_price,,904,1,0,987.6,7760,https://www
 M50-07,M50,IKA,IKA MS 3 digital,manufacturer_price,,1021,1,1,987.6,7760,https://www.ika.com/en/Products-LabEq/Shakers-pg179/MS-3-digital-3319000/;https://new.marshallscientific.com/products/ika-ms-3-digital-shaker
 M50-08,M50,VELP,VELP TX4,secondary_market_only,,,1,0,987.6,7760,https://www.nationalsupplynetwork.com/F202A0270-VELP-SCIENTIFIC-INC.aspx
 M50-09,M50,OHAUS,OHAUS VXMNAL,secondary_market_only,,,1,0,987.6,7760,https://www.nationalsupplynetwork.com/30392115-OHAUS-CORPORATION.aspx
-M50-10,M50,Thermo Scientific,Thermo Scientific LP Vortex Mixer,estimate_only,,,0,0,987.6,7760,
+M50-10,M50,Thermo Scientific,Thermo Scientific LP Vortex Mixer,new_seller_price,,,1,1,987.6,7760,https://www.tequipment.net/Thermo-Scientific/88880017TS/Vortex-Mixers/
 M51-01,M51,TSI,TSI Electrostatic Classifier 3082,no_purchase_price,,,0,0,,,
 M51-02,M51,Palas,Palas DEMC 1000,no_purchase_price,,,0,0,,,
 M51-03,M51,GRIMM,GRIMM SMPS+C with U-DMA,no_purchase_price,,,0,0,,,
@@ -679,7 +679,7 @@ EXP-20261016-M08-SUNBATHER,M08,Unchained Labs,Unchained Labs Sunbather,no_purcha
 EXP-20261016-M09-UP100H,M09,Hielscher,Hielscher UP100H,no_purchase_price,,,0,0,,,
 EXP-20261016-M10-SELECT-150,M10,Elma,Elma Elmasonic Select 150,manufacturer_price,,1930,0,0,,,https://www.elma-ultrasonic.com/en/elmasonic-select?model=150
 EXP-20261016-M11-T65-DIGITAL,M11,IKA,IKA T 65 digital ULTRA-TURRAX,manufacturer_price,,12380,0,0,3298.8,9904,https://www.ika.com/en/Products-LabEq/Dispersers-pg177/T-65-digital-ULTRA-TURRAX-4234500/
-EXP-20261016-M12-PQ-N4,M12,Across International,Across International PQ-N4,no_purchase_price,,,0,0,,,
+EXP-20261016-M12-PQ-N4,M12,Across International,Across International PQ-N4,manufacturer_price,,5990,0,0,,,https://www.acrossinternational.com/shop-product-by-categories/ball-mills/planetary-mills/4x1000ml-gear-drive-4-liter-planetary-ballmill.html
 EXP-20261016-M13-5425-R,M13,Eppendorf,Eppendorf Centrifuge 5425 R,manufacturer_price,,10434.09,0,0,,,https://www.eppendorf.com/us-en/Products/Centrifugation/Microcentrifuges/Centrifuge-5425-5425R-p-PF-934144
 EXP-20261016-M14-CS150NX,M14,Himac,Himac CS150NX,explicit_msrp,7590000,7590000,0,0,,,https://www.himac-science.jp/products/himac/ultra/cs150nx/cs150nx.html
 EXP-20261016-M15-FS15-RPM,M15,Repligen,Repligen KrosFlo FS-15 RPM,no_purchase_price,,,0,0,,,
@@ -731,7 +731,7 @@ EXP-20261016-M62-UR30,M62,Universal Robots,Universal Robots UR30,new_seller_pric
 EXT-M63-METROHM-ECO,M63,Metrohm,Metrohm Eco Titrator,new_seller_price,,,1,1,,,https://www.govsci.com/searching/supplier/Metrohm--USA/category/6/keyword/Metrohm--USA/
 EXT-M63-METROHM-916,M63,Metrohm,Metrohm 916 Ti-Touch with magnetic stirrer,no_purchase_price,,,0,0,,,
 EXT-M63-METROHM-OMNIS-ADVANCED,M63,Metrohm,Metrohm OMNIS Advanced Titrator with magnetic stirrer,no_purchase_price,,,0,0,,,
-EXT-M63-METROHM-848,M63,Metrohm,Metrohm 848 Titrino plus,no_purchase_price,,,0,0,,,
+EXT-M63-METROHM-848,M63,Metrohm,Metrohm 848 Titrino plus,secondary_market_only,,,1,0,,,https://www.ebay.com/itm/285216191442
 EXT-M63-METROHM-905,M63,Metrohm,Metrohm 905 Titrando,secondary_market_only,,,1,0,,,https://www.fishersci.com/shop/products/NC2196424/NC2196424
 EXT-M64-FENN-2F,M64,FENN,FENN 2F rotary swager,no_purchase_price,,,0,0,,,
 EXT-M64-FENN-4F,M64,FENN,FENN 4F rotary swager,no_purchase_price,,,0,0,,,
@@ -776,8 +776,8 @@ GAP-20261016-M71-BINDER-FD-115,M71,BINDER,FD 115,new_seller_price,,,1,1,3594,422
 GAP-20261016-M71-BINDER-FED-56,M71,BINDER,FED 56,new_seller_price,,,1,1,3594,4224,https://www.fishersci.com/shop/products/series-fed-avantgarde-line-drying-heating-chambers-3/08111428
 GAP-20261016-M72-CARVER-3851-MODEL-C,M72,Carver,3851 (Model C),new_seller_price,,,1,1,,,https://www.coleparmer.com/c/presses?source=disc
 GAP-20261016-M72-CARVER-4386-MODEL-CH,M72,Carver,4386 (Model CH),new_seller_price,,,1,1,,,https://preiser.com/products/model-ch-12-ton-standard-heated-bench-top-press-carver-4386
-GAP-20261016-M72-SPECAC-ATLAS-MANUAL-15T,M72,Specac,Atlas Manual 15T,no_purchase_price,,,0,0,,,
-GAP-20261016-M72-SPECAC-ATLAS-MANUAL-25T,M72,Specac,Atlas Manual 25T,no_purchase_price,,,0,0,,,
+GAP-20261016-M72-SPECAC-ATLAS-MANUAL-15T,M72,Specac,Atlas Manual 15T,new_seller_price,,,1,1,,,https://www.fishersci.co.uk/shop/products/atlas-manual-15t-hydraulic-press/12960880
+GAP-20261016-M72-SPECAC-ATLAS-MANUAL-25T,M72,Specac,Atlas Manual 25T,new_seller_price,,,1,1,,,https://www.fishersci.co.uk/shop/products/atlas-hydraulic-press-manual-25t/15260328
 GAP-20261016-M72-MTI-YLJ15-SHORT,M72,MTI,YLJ15 Short,manufacturer_price,,1698.00,0,0,,,https://mtixtl.com/products/ylj15
 GAP-20261016-M72-MTI-YLJ-24TS,M72,MTI,YLJ-24TS,manufacturer_price,,1796.00,0,0,,,https://mtixtl.com/products/ylj-24ts
 GAP-20261016-M72-MTI-YLJ-40,M72,MTI,YLJ-40,manufacturer_price,,2496.00,0,0,,,https://mtixtl.com/products/ylj-40
@@ -1071,7 +1071,7 @@ LIT-M07-LIGNOS2020,M07,CETONI,CETONI neMESYS syringe pumps (series unspecified; 
 LIT-M08-LIGNOS2020,M08,Research-built apparatus,Segmented-flow perovskite nanocrystal platform (Lignos2020),no_purchase_price,,,0,0,,,
 LIT-M86-LIGNOS2020,M86,Research-built apparatus,LabVIEW reactor control and optical-data acquisition (Lignos2020),no_purchase_price,,,0,0,,,
 SW17-M57-6B0FD590FB4E,M57,CH Instruments,CHI 660E,no_purchase_price,,,0,0,,,
-SW17-M36-5A4504DC1F3D,M36,Bruker,Tensor 27,no_purchase_price,,,0,0,,,
+SW17-M36-5A4504DC1F3D,M36,Bruker,Tensor 27,secondary_market_only,,,1,0,,,https://www.amikon-shop.de/en/bruker-tensor-27-ft-ir-spectrometer/laboratikel/a-24509
 SW17-M35-85457B31402C,M35,PerkinElmer,Lambda 35,no_purchase_price,,,0,0,,,
 SW17-M38-F5D572DB906E,M38,Hitachi,S-4800,no_purchase_price,,,0,0,,,
 SW17-M95-7E008A08DA9B,M95,Physical Electronics,5600,no_purchase_price,,,0,0,,,

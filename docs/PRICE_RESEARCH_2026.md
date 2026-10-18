@@ -1,5 +1,7 @@
 # Public purchase-price research, 17 October 2026
 
+This is the historical 17 October snapshot. See the [18 October follow-up](price-resweep-2026-10-18.md) for the latest research and current coverage; generated coverage CSVs always reflect the current canonical data.
+
 This pass added exact configuration prices to **59 previously unpriced model records**: 11 official manufacturer prices and 48 seller prices. Of these, 51 describe new equipment and eight are used, refurbished or condition-unconfirmed references. No MSRP was inferred from a seller price. The three Agilent IDP pump prices explicitly say **List Price** on the official US store; other official prices retain their published-price label.
 
 The material database gained **42 distinct source pack quotes** and reviewed reference mappings. There are now 100 offer rows, including aliases that expose the same pack against different formulation identities. Aliases are references unless that particular formulation line has a reviewed eligible-offer ID. Twenty-one additional eligibility links were accepted; this does not imply that every such row has an absolute consumed amount suitable for automatic costing.
