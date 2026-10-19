@@ -198,6 +198,13 @@
       "path": "catalog/evg_review_2026-10-18.json",
       "checked_date": "2026-10-18",
       "summary": "Reviewed seven existing entries and added ten named models as twelve configuration records, with scoped images and public brochures/flyers. Added M113-M115 and reviewed P06/P42 planning alternatives. No public numeric prices found; industrial resist processors remain separate from bench-spinner price anchors."
+    },
+    {
+      "id": "materials-weekly-2026-10-19",
+      "title": "Weekly material pack-price refresh and source gaps",
+      "checked_date": "2026-10-19",
+      "path": "catalog/material_price_refresh_2026-10-19.json",
+      "summary": "All198 offer records across131 source URLs attempted:140 prices reconfirmed,1 changed,57 previous dated quotes retained because source access or exact pack pricing could not be verified. HPL30-500ML increased from USD54.86 to USD55.00. No grade, form, SKU, pack amount, recipe eligibility or media substitutions."
     }
   ],
   "coverage": {

@@ -1,0 +1,13 @@
+# Weekly material and component price refresh — 19 October 2026
+
+All **198 existing pack-quote records across 131 source URLs** were attempted. **140 prices were reconfirmed, one changed, and 57 retained their previous dated quote** because access or exact price/pack scope could not be verified. This is a partial source-verification refresh, not a claim that all prices are current.
+
+The changed quote is Lab Alley **HPL30-500ML**, hydrogen peroxide 30% solution, lab grade, **500 mL: USD 54.86 → USD 55.00** (+USD 0.14, approximately 0.26%). The [exact SKU size row](https://www.laballey.com/products/hydrogen-peroxide-30-lab?selected=HPL30-500ML) supplies the one-time purchase price. Subscription and checkout promotion discounts were excluded. The prior price and checked date remain in the dated audit.
+
+Direct requests returned 83 successful pages, 25 HTTP403 responses and 23 transport failures. Nine blocked TCI product pages were also reviewed through the web source reader; all 18 existing TCI pack quotes matched their US product price tables. Fifty-five offers remain unverified because their source could not be accessed; two accessible pages need price/pack review. The Government Scientific graphite-foil page displays USD 293.33/EA but also “Quantity 15 per EA,” so the stored one-piece pack scope was not reconfirmed. The US Plastic MSL3X1 page exposed product/box identity but no unambiguous public numeric price in the retrieved response. Neither was assigned a fresh quote date.
+
+Every verified quote has a new price evidence ID in the public Evidence register. The [machine-readable audit](../catalog/material_price_refresh_2026-10-19.json) records all source attempts, response hashes when available, reasons for retention, and complete before/after quote metadata. Unavailable sources retain their price and original checked date. Source pages and PDFs are retained only outside the public repository; the audit contains URLs, hashes and scoped facts.
+
+All 198 source quotes are already **USD**; no conversion or FX update was needed. The existing dated currency policy remains in force. SKU, manufacturer, grade, form, pack quantity/unit, price kind, images and formulation eligibility were preserved. No offers, material identities or process recipes were added, and no published price was promoted to MSRP. There were no media changes.
+
+The reproducible app export is generated with `python scripts/build_app_data.py`. Offline checks validate the refresh ledger, unchanged identities, retained failed quotes, dated evidence and generated app data. The existing Site audience, private Purdue inventory and saved user plans are outside this public price refresh.
