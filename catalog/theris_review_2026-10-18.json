@@ -1,0 +1,582 @@
+{
+  "schema": "iconpcl-catalog-review/v1",
+  "checked_date": "2026-10-18",
+  "requested_catalog_url": "https://therisnano.com/products/",
+  "summary": {
+    "existing_records_enriched": 3,
+    "new_equipment_records": 8,
+    "new_family_cards": 6,
+    "new_m_classes": 5,
+    "new_equipment_records_with_images": 7,
+    "new_published_prices": 0,
+    "new_evidence_records": 17,
+    "manufacturer_keys_confirmed": 2
+  },
+  "manufacturer_updates": [
+    {
+      "manufacturer": "Theris",
+      "before": {
+        "manufacturer": "Theris",
+        "official_website_url": "https://therisnano.com/",
+        "brand_identity_status": "verified_manufacturer",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://therisnano.com/",
+        "verification_notes": "No independent research-use evidence confirmed in bounded audit; official/supplier page confirms instrument offering or research positioning only. Same supplier identity as Theris Nanotechnology; alias should be normalized. This is brand-level evidence; it does not verify every listed model, current availability, or common adoption.",
+        "review_date": "2026-10-13",
+        "verification_basis": "",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "manufacturer": "Theris",
+        "official_website_url": "https://therisnano.com/",
+        "brand_identity_status": "verified_manufacturer",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://therisnano.com/products/",
+        "verification_notes": "Project owner confirms Theris Nano as an established British manufacturer and requests a green star on 2026-10-18. Official product and About pages confirm Theris Nanotechnology Limited and a UK address. Theris and Theris Nanotechnology are retained legacy catalogue keys for the same supplier. This confirmation does not assert independent academic adoption or verify every model, generation, configuration or operating claim.",
+        "review_date": "2026-10-18",
+        "verification_basis": "user_confirmation",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "active",
+        "company_status_note": "UK-based instrumentation manufacturer; official contact address in Tavistock, Devon. The website describes founding-team experience, not a verified incorporation date.",
+        "company_status_source_url": "https://therisnano.com/about/"
+      }
+    },
+    {
+      "manufacturer": "Theris Nanotechnology",
+      "before": {
+        "manufacturer": "Theris Nanotechnology",
+        "official_website_url": "https://therisnano.com/",
+        "brand_identity_status": "verified_manufacturer",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://therisnano.com/",
+        "verification_notes": "No independent research-use evidence confirmed in bounded audit; official/supplier page confirms instrument offering or research positioning only. Same supplier identity as Theris; alias should be normalized. This is brand-level evidence; it does not verify every listed model, current availability, or common adoption.",
+        "review_date": "2026-10-13",
+        "verification_basis": "",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "",
+        "company_status_note": "",
+        "company_status_source_url": ""
+      },
+      "after": {
+        "manufacturer": "Theris Nanotechnology",
+        "official_website_url": "https://therisnano.com/",
+        "brand_identity_status": "verified_manufacturer",
+        "research_use_status": "research_supplier_claim_only",
+        "research_evidence_url": "https://therisnano.com/products/",
+        "verification_notes": "Project owner confirms Theris Nano as an established British manufacturer and requests a green star on 2026-10-18. Official product and About pages confirm Theris Nanotechnology Limited and a UK address. Theris and Theris Nanotechnology are retained legacy catalogue keys for the same supplier. This confirmation does not assert independent academic adoption or verify every model, generation, configuration or operating claim.",
+        "review_date": "2026-10-18",
+        "verification_basis": "user_confirmation",
+        "display_name": "",
+        "vendor_name": "",
+        "company_status": "active",
+        "company_status_note": "UK-based instrumentation manufacturer; official contact address in Tavistock, Devon. The website describes founding-team experience, not a verified incorporation date.",
+        "company_status_source_url": "https://therisnano.com/about/"
+      }
+    }
+  ],
+  "equipment_updates": [
+    {
+      "equipment_id": "M54-02",
+      "before": {
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established",
+        "review_date": "2026-10-13",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments.",
+        "technical_spec_url": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "related_process_types": "Vapor condensation / inert-gas aggregation",
+        "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution.",
+        "review_date": "2026-10-18",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments. 2026-10-18 official product review: matched product/specification/brochure links added. Public prices and operating manuals were not found. Supplier-reported gas-condensation nanoparticle generation; unrelated wet-chemical process phrases are not retained as model claims.",
+        "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+        "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 1-head source component, not a full deposition system.",
+        "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    },
+    {
+      "equipment_id": "M54-05",
+      "before": {
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established",
+        "review_date": "2026-10-13",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments.",
+        "technical_spec_url": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "related_process_types": "Vapor condensation / inert-gas aggregation",
+        "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution.",
+        "review_date": "2026-10-18",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments. 2026-10-18 official product review: matched product/specification/brochure links added. Public prices and operating manuals were not found. Supplier-reported gas-condensation nanoparticle generation; unrelated wet-chemical process phrases are not retained as model claims.",
+        "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+        "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 3-head source component, not a full deposition system.",
+        "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    },
+    {
+      "equipment_id": "M54-06",
+      "before": {
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+        "association_basis": "inherited family-level curated route; model-specific suitability not established",
+        "review_date": "2026-10-13",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments.",
+        "technical_spec_url": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "related_process_types": "Vapor condensation / inert-gas aggregation",
+        "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution.",
+        "review_date": "2026-10-18",
+        "notes": "Manufacturer brochure confirms S (one head), T (three head), V (five head) sources; brochure excluded from manuals. Comparison spans model families, configurations or components; not all are interchangeable turnkey instruments. 2026-10-18 official product review: matched product/specification/brochure links added. Public prices and operating manuals were not found. Supplier-reported gas-condensation nanoparticle generation; unrelated wet-chemical process phrases are not retained as model claims.",
+        "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+        "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 5-head source component, not a full deposition system.",
+        "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    }
+  ],
+  "new_equipment_ids": [
+    "THERIS-NANOSHELL",
+    "THERIS-MSF",
+    "THERIS-TAS30",
+    "THERIS-TAS60",
+    "THERIS-TAS-RFI",
+    "THERIS-SH300",
+    "THERIS-NC400",
+    "THERIS-SMPL-MH4I"
+  ],
+  "new_class_ids": [
+    "M109",
+    "M110",
+    "M111",
+    "M112",
+    "M116"
+  ],
+  "evidence_ids": [
+    "CAT-EV-6F87D09C0723B5F6",
+    "CAT-EV-3677A95B5D819DA4",
+    "CAT-EV-8818F8B7CF3EACB2",
+    "CAT-EV-FC3E53171C63C977",
+    "CAT-EV-27DE08E7767B8099",
+    "CAT-EV-C79E0D9E85A8F48F",
+    "CAT-EV-AC6FB1CF9461026A",
+    "CAT-EV-79EC69A4E50E5A55",
+    "CAT-EV-82B38E6C3FC5F08B",
+    "CAT-EV-0DDAB067E1BAAF8D",
+    "CAT-EV-AAF0839A71FB80EA",
+    "CAT-EV-9FE3BAFFE3F0333A",
+    "CAT-EV-7FAFF2F17D36A95E",
+    "CAT-EV-8EBF621A89D04559",
+    "CAT-EV-24FB304A3AD2F9B2",
+    "CAT-EV-34763F3E340679AE",
+    "CAT-EV-D062FB8D801C810F"
+  ],
+  "asset_review": {
+    "reviewed_on": "2026-10-18",
+    "scope": "Official pages linked from https://therisnano.com/products/, their image files, and the two linked brochures. Research only; no canonical repository changes or publication.",
+    "rights": "Official manufacturer-hosted assets. No reuse licence established. Downloaded originals are inspection copies in this review folder only; retain source attribution and link rather than redistributing by default.",
+    "sources": [
+      "https://therisnano.com/products/",
+      "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+      "https://therisnano.com/nanoshell-core-shell-coater/",
+      "https://therisnano.com/rf-atom-sources/",
+      "https://therisnano.com/tas-rf-ion-sources/",
+      "https://therisnano.com/custom-uhv-deposition-systems/",
+      "https://therisnano.com/custom-sample-stages/"
+    ],
+    "pricing": {
+      "amount": null,
+      "currency": null,
+      "status": "No public numeric price, starting price or range found in the seven reviewed official pages or two brochures.",
+      "display_recommendation": "Price not published â€” contact manufacturer",
+      "evidence": "Product sections offer Contact Us / Enquire Now. Quote-only is an inference from these CTAs, not an explicit published pricing policy."
+    },
+    "documents": [
+      {
+        "id": "nanostream_2025",
+        "url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf",
+        "title": "NanoStream Brochure 2025",
+        "pages": 6,
+        "scope": "NanoStreamS/T/V source family; MSF mass filter; NanoShell optional accessory; full system examples SH300 and NC400; also depicts third-party Korvus Technology HEXL.",
+        "model_evidence": "Page 3 names NanoStreamS (1 head), NanoStreamT (3 head), NanoStreamV (5 head). Page 4 names SH300 and NC400. Page 6 gives NanoStreamS/T/V and MSF specifications.",
+        "caveats": [
+          "The NanoShell section on page 4 directs readers to ask Theris for a dedicated NanoShell brochure; a dedicated file was not linked on the reviewed product page.",
+          "Do not ingest HEXL as a Theris model: the brochure labels it KORVUS TECHNOLOGY.",
+          "MSF mass-range exponent is corrupted on the webpage. Brochure page 6 shows 2â€“10^8 amu; do not copy webpage's apparent 10 amu."
+        ]
+      },
+      {
+        "id": "tas_atom_2023",
+        "url": "https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf",
+        "title": "TAS Brochure 2023 â€” TAS RF Atom Sources",
+        "pages": 4,
+        "scope": "TAS30 and TAS60 RF atom sources only.",
+        "model_evidence": "Page 2 labels TAS30 and TAS60 (30 mm and 60 mm exit apertures); page 4 specifications.",
+        "caveats": [
+          "RF ion page and Sample Stages page Download Brochure buttons also resolve to this atom-source document. Do not assign it as a matched ion or stage brochure."
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "nanostream",
+        "page": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+        "names": [
+          "NanoStreamS",
+          "NanoStreamT",
+          "NanoStreamV"
+        ],
+        "scope": "Nanoparticle-generation source components, one/three/five sputtering heads respectively; not whole turnkey deposition systems.",
+        "documents": [
+          "nanostream_2025"
+        ],
+        "images": [
+          "nanostream_source_render"
+        ],
+        "notes": [
+          "Existing catalogue already has three scoped S/T/V illustrations, per parent. Current official webpage image is an alternative, not evidence that those models lacked images.",
+          "The family image is placed beside the NanoStreamS section. It does not visibly establish separate T or V configurations."
+        ]
+      },
+      {
+        "id": "msf",
+        "page": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+        "names": [
+          "MSF Mass Filter"
+        ],
+        "scope": "In-line quadrupole mass-analysis/filter accessory for NanoStream sources.",
+        "documents": [
+          "nanostream_2025"
+        ],
+        "images": [
+          "msf_render"
+        ],
+        "notes": [
+          "Filename says MFS; official page and brochure call the product MSF. Preserve product spelling MSF."
+        ]
+      },
+      {
+        "id": "nanoshell",
+        "page": "https://therisnano.com/nanoshell-core-shell-coater/",
+        "names": [
+          "NanoShell"
+        ],
+        "scope": "Core-shell coating accessory/module between NanoStream source and deposition chamber; includes electronics/software but is not the whole nanoparticle generation/deposition system.",
+        "documents": [
+          "nanostream_2025"
+        ],
+        "images": [
+          "nanoshell_render",
+          "core_shell_concept",
+          "core_shell_variants"
+        ],
+        "notes": [
+          "Only NanoShell model name found; no numbered variants.",
+          "Webpage says two coating cathodes permit alloy or multilayer shells."
+        ]
+      },
+      {
+        "id": "rf_atom",
+        "page": "https://therisnano.com/rf-atom-sources/",
+        "names": [
+          "TAS30",
+          "TAS60"
+        ],
+        "scope": "UHV RF atom-source components for atomic species deposition/cleaning; not turnkey vacuum systems.",
+        "documents": [
+          "tas_atom_2023"
+        ],
+        "images": [
+          "tas30_render",
+          "tas60_render"
+        ],
+        "notes": [
+          "Atom-source page has a decorative purple-balls stock-style graphic, excluded from equipment image candidates."
+        ]
+      },
+      {
+        "id": "rf_ion",
+        "page": "https://therisnano.com/tas-rf-ion-sources/",
+        "names": [
+          "TAS RFI â€” Ion Source",
+          "TASRI Series"
+        ],
+        "scope": "Broad-beam UHV RF ion-source family; source component for processing/deposition, not whole turnkey vacuum system.",
+        "documents": [],
+        "images": [
+          "rf_ion_render",
+          "rf_ion_hardware_photo",
+          "rf_ion_plasma_photo"
+        ],
+        "notes": [
+          "The webpage uses both TAS RFI and TASRI Series; preserve as official names/aliases.",
+          "TAS30_RI appears only in image filename. Do not promote it to a separately confirmed named model from filename alone.",
+          "Linked Download Brochure is atom-only TAS-Brochure-2023.pdf; unmatched for ion sources."
+        ]
+      },
+      {
+        "id": "custom_uhv",
+        "page": "https://therisnano.com/custom-uhv-deposition-systems/",
+        "names": [
+          "Custom UHV Deposition Systems",
+          "SH300 System",
+          "NC400 System"
+        ],
+        "scope": "Full custom nanoparticle/PVD deposition systems.",
+        "documents": [
+          "nanostream_2025"
+        ],
+        "images": [
+          "sh300_photo",
+          "custom_uhv_render"
+        ],
+        "notes": [
+          "Page describes 200, 300 and 400 mm chamber options without assigning names in text. SH300 and NC400 are named in the linked brochure.",
+          "SH300 photograph's cabinet visibly reads SH300 Nanoparticle System.",
+          "Page's 400 mm system option mentions a 25-sample deposition stage; do not merge that automatically with Sample Stages page's 30-position SMPL MH4i."
+        ]
+      },
+      {
+        "id": "sample_stages",
+        "page": "https://therisnano.com/custom-sample-stages/",
+        "names": [
+          "SMPL range",
+          "SMPL MH4i"
+        ],
+        "scope": "UHV sample-stage components/accessories, not complete vacuum deposition systems.",
+        "documents": [],
+        "images": [
+          "smpl_photo"
+        ],
+        "notes": [
+          "Page explicitly names SMPL MH4i as a 30-position stage with heating up to 500 C, DC bias up to 4000 V, continuous or stepper-driven rotation.",
+          "Photograph sits at the SMPL family section and has no readable model label. Use as family photo; do not assert exact MH4i identity.",
+          "Download Brochure button resolves atom-only TAS-Brochure-2023.pdf; no matching stage brochure found."
+        ]
+      }
+    ],
+    "images": [
+      {
+        "id": "nanostream_source_render",
+        "url": "https://therisnano.com/wp-content/uploads/2023/03/NGS-model.57-scaled.jpg",
+        "size": [
+          2560,
+          1600
+        ],
+        "kind": "CAD/render",
+        "visual_description": "White-background cylindrical flanged nanoparticle source with rear assembly and upper port.",
+        "model_scope": "NanoStream source family, placed beside NanoStreamS section.",
+        "equipment_scope": "Source component",
+        "visually_inspected": true
+      },
+      {
+        "id": "msf_render",
+        "url": "https://therisnano.com/wp-content/uploads/2023/03/MFS-model.48-scaled.jpg",
+        "size": [
+          2560,
+          1600
+        ],
+        "kind": "CAD/render",
+        "visual_description": "White-background cylindrical in-vacuum mass-filter assembly with flange and connectors.",
+        "model_scope": "MSF Mass Filter, beside exact MSF section.",
+        "equipment_scope": "Accessory",
+        "visually_inspected": true
+      },
+      {
+        "id": "nanoshell_render",
+        "url": "https://therisnano.com/wp-content/uploads/2024/07/NanoShell-alone.187-scaled.jpg",
+        "size": [
+          2560,
+          1599
+        ],
+        "kind": "CAD/render",
+        "visual_description": "White-background angled coating-module assembly with mesh aperture and multiple flanges.",
+        "model_scope": "NanoShell",
+        "equipment_scope": "Core-shell coating accessory/module",
+        "visually_inspected": true
+      },
+      {
+        "id": "core_shell_concept",
+        "url": "https://therisnano.com/wp-content/uploads/2024/07/CS.180.jpg",
+        "size": [
+          1600,
+          999
+        ],
+        "kind": "Concept render",
+        "visual_description": "Cutaway metallic-looking core-shell sphere.",
+        "model_scope": "Nanoparticle structure concept; no equipment model",
+        "equipment_scope": "Not equipment imagery",
+        "visually_inspected": true
+      },
+      {
+        "id": "core_shell_variants",
+        "url": "https://therisnano.com/wp-content/uploads/2024/07/CS-labelled.jpg",
+        "displayed_url": "https://therisnano.com/wp-content/uploads/2024/07/CS-labelled-1024x436.jpg",
+        "size": [
+          1920,
+          818
+        ],
+        "kind": "Labelled concept diagram",
+        "visual_description": "Core-shell cutaway sphere labelled with shell/inner material variants.",
+        "model_scope": "NanoShell process output concept",
+        "equipment_scope": "Not equipment imagery",
+        "visually_inspected": true
+      },
+      {
+        "id": "tas30_render",
+        "url": "https://therisnano.com/wp-content/uploads/2023/12/TAS30.101.jpg",
+        "size": [
+          1920,
+          940
+        ],
+        "kind": "CAD/render",
+        "visual_description": "RF atom source with cylindrical body, raised circular shutter and electronics enclosure.",
+        "model_scope": "TAS30 per official filename and TAS30/TAS60 product context",
+        "equipment_scope": "Atom-source component",
+        "visually_inspected": true
+      },
+      {
+        "id": "tas60_render",
+        "url": "https://therisnano.com/wp-content/uploads/2023/12/TAS60.108.jpg",
+        "size": [
+          2560,
+          1253
+        ],
+        "kind": "CAD/render",
+        "visual_description": "RF atom source with larger circular front aperture/shutter and electronics enclosure.",
+        "model_scope": "TAS60 per official filename and TAS30/TAS60 product context",
+        "equipment_scope": "Atom-source component",
+        "visually_inspected": true
+      },
+      {
+        "id": "rf_ion_render",
+        "url": "https://therisnano.com/wp-content/uploads/2026/01/TAS30_RI_6.png",
+        "size": [
+          2795,
+          2160
+        ],
+        "kind": "CAD/render",
+        "visual_description": "Ion-source assembly with perforated dark front grid, raised shutter and electronics enclosure.",
+        "model_scope": "TAS RFI / TASRI source family. Filename alone does not verify model TAS30_RI.",
+        "equipment_scope": "Ion-source component",
+        "visually_inspected": true
+      },
+      {
+        "id": "rf_ion_hardware_photo",
+        "url": "https://therisnano.com/wp-content/uploads/2026/01/20250909_100450-scaled.jpg",
+        "size": [
+          2560,
+          1920
+        ],
+        "kind": "Photograph",
+        "visual_description": "Real exposed ion-source hardware close-up showing perforated grid and copper coil.",
+        "model_scope": "RF ion family; no readable exact model identifier",
+        "equipment_scope": "Source internals/detail; not complete packaged system",
+        "visually_inspected": true
+      },
+      {
+        "id": "rf_ion_plasma_photo",
+        "url": "https://therisnano.com/wp-content/uploads/2026/01/TASRI-2.jpg",
+        "size": [
+          682,
+          682
+        ],
+        "kind": "Photograph",
+        "visual_description": "Purple plasma glow and source grid seen through a vacuum viewport.",
+        "model_scope": "RF ion family; no readable exact model identifier",
+        "equipment_scope": "Operational process/source detail; not complete packaged system",
+        "visually_inspected": true
+      },
+      {
+        "id": "sh300_photo",
+        "url": "https://therisnano.com/wp-content/uploads/2026/07/sh300-scaled-e1785313108411.jpg",
+        "size": [
+          2458,
+          2044
+        ],
+        "kind": "Photograph",
+        "visual_description": "Complete laboratory nanoparticle vacuum system on wheeled frame with chambers, source, pumps and control cabinet.",
+        "model_scope": "SH300 Nanoparticle System; name visibly printed on lower-left cabinet",
+        "equipment_scope": "Full system example",
+        "visually_inspected": true,
+        "recommended": true
+      },
+      {
+        "id": "smpl_photo",
+        "url": "https://therisnano.com/wp-content/uploads/2026/02/MULTI_SMPL-1.jpg",
+        "size": [
+          1869,
+          1773
+        ],
+        "kind": "Photograph",
+        "visual_description": "Real cylindrical UHV sample-stage assembly, shutter/top disk, flange and copper gasket.",
+        "model_scope": "SMPL sample-stage family. Exact MH4i identity not established by image or caption.",
+        "equipment_scope": "Sample-stage component/accessory",
+        "visually_inspected": true,
+        "recommended": true
+      },
+      {
+        "id": "custom_uhv_render",
+        "url": "https://therisnano.com/wp-content/uploads/2023/12/NGS-on-sphere.97.jpg",
+        "size": [
+          2560,
+          1253
+        ],
+        "kind": "CAD/render",
+        "visual_description": "Nanoparticle source mounted on a spherical multiport chamber, with pump and flange assemblies.",
+        "model_scope": "Generic custom UHV system configuration, on Products landing page; no exact named model.",
+        "equipment_scope": "Partial system configuration, no control cabinet/frame shown",
+        "visually_inspected": true
+      }
+    ],
+    "findings": [
+      "Suitable true photographs are available for the SH300 full system, SMPL stage family, and RF-ion family details. NanoStream, NanoShell, MSF and TAS30/TAS60 webpage equipment assets are renders.",
+      "No public prices were found in the reviewed sources; leave numeric prices empty.",
+      "Ion and SMPL brochure links are mismatched atom brochures. NanoShell uses the general NanoStream brochure, not a dedicated NanoShell technical file.",
+      "Exact standalone NC400 image URL was not established in this bounded review; its name is verified in the linked brochure."
+    ]
+  },
+  "purdue_matches": [],
+  "limits": [
+    "No independent adoption prevalence or incorporation date inferred from the owner confirmation.",
+    "No numeric price or estimate anchor invented; the reviewed sources have no public numeric price.",
+    "Technical web pages and brochures are not operating manuals. RF-ion and stage brochure mislinks are excluded.",
+    "Accessories and neutral/ion species remain distinct from complete deposition systems. Existing process-step requirements are unchanged.",
+    "No exact NC400 image adopted. Other imagery retains render/detail/family scopes.",
+    "Korvus HEXL is not a Theris-manufactured model and is not imported as one."
+  ]
+}

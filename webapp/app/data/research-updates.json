@@ -3887,6 +3887,86 @@
           "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+          "product_page_scope": "Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+          "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
+          "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+          "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm. Same base platform as existing SmartNIL configuration. Official standard-page photograph shows an automated handling configuration; do not imply every option is included.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved",
+          "model_evidence_status": "candidate_needs_review",
+          "model_evidence_url": ""
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
       }
     ],
     "model_name": "EVG620 NT",
@@ -3907,6 +3987,86 @@
           "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
           "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+          "product_page_scope": "Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+          "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
+          "media_checked_date": "2026-10-15"
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+          "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template. Same platform family as standard EVG620 NT, not a separate independently photographed hardware model. Official NIL-page photograph is an open platform labelled EVG620; treat as manufacturer-selected EVG620 NT platform image, not direct visual proof of SmartNIL tooling.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/"
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
         }
       }
     ],
@@ -4482,6 +4642,60 @@
           "image_scope": "Theris NanoStreamS: manufacturer product illustration; flange, chamber integration and installed configuration may vary.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+          "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 1-head source component, not a full deposition system."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation",
+          "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
+        }
       }
     ],
     "model_name": "Theris Nanotechnology: Theris NanoStreamS",
@@ -4503,6 +4717,60 @@
           "image_scope": "Theris NanoStreamT: manufacturer sectional product illustration, not a photograph of an installed instrument.",
           "media_checked_date": "2026-10-15"
         }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+          "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 3-head source component, not a full deposition system."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation",
+          "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
+        }
       }
     ],
     "model_name": "Theris NanoStreamT",
@@ -4523,6 +4791,60 @@
           "image_source_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
           "image_scope": "Theris NanoStreamV: manufacturer product illustration; installed source/chamber integration may vary.",
           "media_checked_date": "2026-10-15"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/",
+          "product_page_scope": "NanoStream S/T/V manufacturer product page. This record is the 5-head source component, not a full deposition system."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation;Illustrative wet-chemical reduction;Precipitation or hydrothermal growth",
+          "association_basis": "inherited family-level curated route; model-specific suitability not established"
+        },
+        "after": {
+          "related_process_types": "Vapor condensation / inert-gas aggregation",
+          "association_basis": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
         }
       }
     ],
@@ -10202,6 +10524,657 @@
           "image_source_url": "https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/",
           "image_scope": "VR-6000 series optical profiler family photo; configuration may vary.",
           "media_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M58-07",
+    "model_name": "EVG610",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+          "product_page_scope": "Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg",
+          "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+          "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm. Official mask and NIL image URLs are byte-identical. Photograph is platform imagery, not proof of installed NIL tooling.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved",
+          "model_evidence_status": "candidate_needs_review",
+          "model_evidence_url": ""
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M58-08",
+    "model_name": "EVG6200",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "model_name": "EVG6200",
+          "product_family": "EVG6200",
+          "variant_label": "EVG6200"
+        },
+        "after": {
+          "model_name": "EVG6200 NT",
+          "product_family": "EVG6200 NT",
+          "variant_label": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+          "product_page_scope": "Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Configuration-specific capabilities, not an installed-system audit.",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+          "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Identity correction of unresolved original label EVG6200 to manufacturer-listed EVG6200 NT. No predecessor or successor relationship asserted. Official photo is visibly labelled EVG6200NT. Mask and NIL image URLs are byte-identical.",
+          "media_checked_date": "2026-10-18",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved",
+          "model_evidence_status": "candidate_needs_review",
+          "model_evidence_url": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+          "model_name": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": "",
+          "model_name": "EVG6200"
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18",
+          "model_name": "EVG6200 NT"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M60-07",
+    "model_name": "EVG520 HE",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "",
+          "product_page_scope": "Existing exact HE identity remains distributor-supported. Current official hot-embossing category lists EVG501, EVG510, EVG520 IS. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "not_verified"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M60-08",
+    "model_name": "EVG7200",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+          "product_page_scope": "Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+          "image_scope": "Manufacturer product image: Manufacturer product image for named model/configuration; see any size-configuration notes. Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication. Exact official product photograph visibly labels EVG7200. Keep EVG7200 LA panel-size configuration assets and technical limits separate. Shared EVG720/7200 flyer is valid for standard7200.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "confirmed",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M60-EVG7300",
+    "model_name": "EVG EVG7300",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "model_name": "EVG EVG7300",
+          "product_family": "EVG EVG7300",
+          "variant_label": "EVG7300"
+        },
+        "after": {
+          "model_name": "EVG7300",
+          "product_family": "EVG7300",
+          "variant_label": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "product_page_scope": "exact_model",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "product_page_scope": "Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Configuration-specific capabilities, not an installed-system audit.",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": "",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found_in_bounded_research",
+          "manual_match_status": "not_verified",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "image_scope": "Manufacturer product image: Manufacturer product image for named model/configuration; see any size-configuration notes. Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Exact existing official model page and model-specific photograph remain current. Remove duplicated brand prefix in display label if appropriate. Standalone system may also be integrated as module into HERCULES NIL; do not equate standalone and full track configurations.",
+          "media_checked_date": "2026-10-18",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "model_status": "verified_manufacturer_model",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "model_name": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "price_status": "quote_required_or_no_public_exact_price_verified",
+          "price_checked_date": "",
+          "model_name": "EVG EVG7300"
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18",
+          "model_name": "EVG7300"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M58-08",
+    "model_name": "EVG6200 NT",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "product_family": "EVG6200",
+          "variant_label": "EVG6200"
+        },
+        "after": {
+          "product_family": "EVG6200 NT",
+          "variant_label": "EVG6200 NT"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "",
+          "product_page_scope": ""
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+          "product_page_scope": "Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": ""
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": ""
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+          "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+          "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Identity correction of unresolved original label EVG6200 to manufacturer-listed EVG6200 NT. No predecessor or successor relationship asserted. Official photo is visibly labelled EVG6200NT. Mask and NIL image URLs are byte-identical.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "unresolved",
+          "model_evidence_status": "candidate_needs_review",
+          "model_evidence_url": ""
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt"
+        }
+      },
+      {
+        "before": {
+          "price_status": "not_researched",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M60-EVG7300",
+    "model_name": "EVG7300",
+    "manufacturer": "EVG",
+    "groups": [
+      {
+        "before": {
+          "product_family": "EVG EVG7300",
+          "variant_label": "EVG7300"
+        },
+        "after": {
+          "product_family": "EVG7300",
+          "variant_label": "EVG7300"
+        }
+      },
+      {
+        "before": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "product_page_scope": "exact_model"
+        },
+        "after": {
+          "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "product_page_scope": "Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Configuration-specific capabilities, not an installed-system audit."
+        }
+      },
+      {
+        "before": {
+          "technical_spec_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        },
+        "after": {
+          "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf"
+        }
+      },
+      {
+        "before": {
+          "brochure_url": ""
+        },
+        "after": {
+          "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+        }
+      },
+      {
+        "before": {
+          "documentation_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        },
+        "after": {
+          "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf"
+        }
+      },
+      {
+        "before": {
+          "manual_status": "not_found_in_bounded_research",
+          "manual_match_status": "not_verified"
+        },
+        "after": {
+          "manual_status": "no_public_operating_manual_found",
+          "manual_match_status": "manufacturer_specification"
+        }
+      },
+      {
+        "before": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "image_scope": "manufacturer_model_product_image",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+          "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+          "image_scope": "Manufacturer product image: Manufacturer product image for named model/configuration; see any size-configuration notes. Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Exact existing official model page and model-specific photograph remain current. Remove duplicated brand prefix in display label if appropriate. Standalone system may also be integrated as module into HERCULES NIL; do not equate standalone and full track configurations.",
+          "media_checked_date": "2026-10-18"
+        }
+      },
+      {
+        "before": {
+          "model_status": "verified_manufacturer_model",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        },
+        "after": {
+          "model_status": "manufacturer_documented",
+          "model_evidence_status": "documented",
+          "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        }
+      },
+      {
+        "before": {
+          "price_status": "quote_required_or_no_public_exact_price_verified",
+          "price_checked_date": ""
+        },
+        "after": {
+          "price_status": "no_public_price_found",
+          "price_checked_date": "2026-10-18"
         }
       }
     ]

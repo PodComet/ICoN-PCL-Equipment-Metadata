@@ -13,7 +13,7 @@ def test_functional_review_covers_all_stages_and_preserves_original_source_seque
         assert all(change['before'][k]==current[k] for k in ['equipment_sequence','source_pdf','source_page','step_label'])
     rinse=json.loads(steps['P05.4']['requirements_json'])
     assert rinse['required_branches']==[['M85']] and set(rinse['optional_category_ids'])=={'M46','M18'}
-    assert json.loads(steps['P06.3']['requirements_json'])['required_branches']==[['M85'],['M61']]
+    assert json.loads(steps['P06.3']['requirements_json'])['required_branches']==[['M85'],['M61'],['M115']]
     assert json.loads(steps['P06.4']['requirements_json'])['required_branches']==[['M61'],['M23','M85']]
     assert json.loads(steps['N06.5']['requirements_json'])['required_branches']==[[]]
     assert set(json.loads(steps['N06.5']['requirements_json'])['optional_category_ids'])=={'M82','M17'}

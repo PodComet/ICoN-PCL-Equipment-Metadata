@@ -14,10 +14,10 @@ const hydrate=(r,protectedFields=[])=>applyProductFamily(r,seed.product_families
 const plan=input=>buildPlan(csvUpdateText(input),seed.records,seed.categories,seed.routes,seed.manufacturers,seed.category_aliases);
 
 test('family presentation preserves all records and preserves the 535 dated cards alongside literature additions',()=>{
- const original=rows.filter(r=>!/^M8[2-8]$/.test(r.record.category_id)&&!['mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported'].includes(r.record.catalog_scope));
+ const original=rows.filter(r=>!/^M8[2-8]$/.test(r.record.category_id)&&!['mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'].includes(r.record.catalog_scope));
  assert.equal(original.length,858);assert.equal(new Set(rows.map(r=>r.record.equipment_id)).size,rows.length);
- assert.equal(groupRows(original).length,724);const originalFamilies=seed.product_families.filter(m=>original.some(r=>r.record.equipment_id===m.equipment_id));assert.equal(originalFamilies.length,102);
- assert.equal(new Set(originalFamilies.map(r=>r.product_family_id)).size,39);
+ assert.equal(groupRows(original).length,724);const originalFamilies=seed.product_families.filter(m=>original.some(r=>r.record.equipment_id===m.equipment_id));assert.equal(originalFamilies.length,103);
+ assert.equal(new Set(originalFamilies.map(r=>r.product_family_id)).size,40);
  assert.equal(rows.filter(row=>row.record.catalog_scope!=='mit_class_expansion'&&newerModel(row.record)).length,25);
  const ordered=photoFirstGroups(rows);assert.equal(ordered.flat().length,rows.length);
  const firstMissing=ordered.findIndex(group=>!group.some(row=>row.record.image_url));

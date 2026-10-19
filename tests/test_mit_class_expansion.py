@@ -23,7 +23,7 @@ def test_eleven_new_classes_have_distinct_models_and_evidence_without_fabricated
         assert not r['msrp_value'] and not r['source_pdf'] and not r['source_record_id']
         if r['image_url']:assert r['image_source_url'] and r['image_scope']
     assert all(not r['manufacturer_price_value'] for r in new if r['model_name']=='Photonic Professional GT2')
-    assert inspect_catalog()['active_m_categories']==106
+    assert inspect_catalog()['active_m_categories']==114
 
 def test_purdue_exact_identity_and_brand_evidence_are_reviewed():
     report=review();designated=[r for r in load_csv(ROOT/'catalog/equipment.csv') if r['purdue_list']=='true']

@@ -21,7 +21,7 @@ def test_seller_prices_do_not_become_msrp_or_official_list_benchmarks():
 def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
     report=json.loads((ROOT/'catalog/link_review_2026-10-17-sellers.json').read_text(encoding='utf-8'))
     new_ids={r['equipment_id'] for r in json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records']}
-    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv') if r['equipment_id'] not in new_ids and r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported'}}
+    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv') if r['equipment_id'] not in new_ids and r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'}}
     s=report['summary']
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     overrides={u['equipment_id']:u['after'] for u in media['equipment_updates']}
@@ -33,6 +33,10 @@ def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
         for group in update['groups']:
             overrides.setdefault(update['equipment_id'],{}).update(group['after'])
     later_photos=sum(not u['before']['image_url'] and bool(u['after']['image_url']) for u in photos['records'] if u['equipment_id'] in rows)
+    for filename in ['theris_review_2026-10-18.json','evg_review_2026-10-18.json']:
+        for update in json.loads((ROOT/'catalog'/filename).read_text(encoding='utf-8'))['equipment_updates']:
+            overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+            later_photos+=int(not update['before'].get('image_url') and bool(update['after'].get('image_url')) and update['equipment_id'] in rows)
     assert len(rows)==s['models']==858
     assert sum(bool(r['image_url']) for r in rows.values())==s['photos_after']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])+len(media['new_photo_records'])+later_photos
     assert s['photos_after']==s['photos_before']+s['new_photos']

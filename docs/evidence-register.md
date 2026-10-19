@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-522 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+568 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -14,7 +14,7 @@ UCLA describes Antimony source for MBE in its equipment/project context.
 
 **Scope:** Valved-cracker source; not a sputtering target. Charge form, flux and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `ucla-antimony-source` (component), `P47` (process)
 
@@ -27,7 +27,7 @@ UCLA describes Magnesium dopant source for MBE in its equipment/project context.
 
 **Scope:** Optional dopant cell; not interchangeable with bulk-metal turnings. Dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `ucla-magnesium-dopant` (component), `P46` (process)
 
@@ -40,9 +40,39 @@ UCLA lists an integrated GEN-930 configuration for III-arsenide/antimonide semic
 
 **Scope:** Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `P47` (process), `M100` (equipment_class)
+
+
+## CAT-EV-0DDAB067E1BAAF8D
+
+Theris identifies Theris MSF mass filter in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** In-line quadrupole mass-analysis/filter accessory for NanoStream sources. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. In-line quadrupole accessory for NanoStream beams; the manufacturer image filename MFS is not a second model. Webpage mass-limit exponent is corrupted; refer to NanoStream brochure pages 4 and 6 instead. No aerosol-mobility or general mass-spectrometer equivalence. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris MSF mass filter Â· official product review](https://therisnano.com/nanostream-nanoparticle-deposition-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris MSF mass filter Â· official product review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-MSF` (equipment), `M109` (equipment_class), `P01` (process)
+
+
+## CAT-EV-1312E157A1B1BCC2
+
+The reviewed source identifies EVG6200 NT.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm.
+
+- Source: [EVG6200 NT · model/document review](https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG6200 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG6200 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG6200 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M58-08` (equipment), `M58` (equipment_class)
 
 
 ## CAT-EV-1FF9CC29FA3EE573
@@ -53,14 +83,54 @@ UCLA describes Aluminium source for MBE in its equipment/project context.
 
 **Scope:** SUMO-cell source; different use/form from a bulk aluminium feedstock. Purity and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `ucla-aluminium-source` (component), `P46` (process), `P47` (process)
 
 
+## CAT-EV-24FB304A3AD2F9B2
+
+Theris identifies Theris NC400 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Full custom nanoparticle/PVD deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. Named under THERIS NANOTECHNOLOGY Full Deposition Systems in NanoStream brochure page 4. The webpage describes chamber size options without explicitly mapping each diameter to a model name. Custom host/source configuration must be reviewed. No exact-model NC400 standalone image established; image intentionally absent. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris NC400 Â· official product review](https://therisnano.com/custom-uhv-deposition-systems/) — Named product/technical description; brochure page references in context
+- Source: [Theris NC400 Â· official product review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-NC400` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-27AC513F294E626E
+
+EVG documents equipment in the Wafer resist coating and development systems capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Configured multifunction resist-processing stations/tracks combining coating, development and optionally bake/chill. Distinct from a bare benchtop spin coater and its price benchmarks. Exact modules, wafer geometry, resist and developer compatibility require review.
+
+- Source: [M115 / Wafer resist coating and development systems](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M115` (equipment_class)
+
+
+## CAT-EV-27DE08E7767B8099
+
+Theris documents hardware within the UHV substrate stages and manipulators capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Sample positioning, rotation, bias and thermal-environment accessories inside compatible UHV systems. Not a general robot, growth chamber, furnace or complete deposition system.
+
+- Source: [M112 / UHV substrate stages and manipulators](https://therisnano.com/custom-sample-stages/) — Named product/technical description; brochure page references in context
+
+**Related records:** `M112` (equipment_class)
+
+
 ## CAT-EV-29B68DD0DFCED188
 
-UCLA describes GaAs substrate — project-specific option in its equipment/project context.
+UCLA describes GaAs substrate â€” project-specific option in its equipment/project context.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
@@ -71,6 +141,47 @@ UCLA describes GaAs substrate — project-specific option in its equipment/proje
 **Related records:** `ucla-gaas-substrate` (component), `P47` (process)
 
 
+## CAT-EV-34763F3E340679AE
+
+Theris identifies Theris SMPL MH4i in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UHV sample-stage components/accessories, not complete vacuum deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. Product text explicitly identifies a 30-position stage, heating up to 500 degrees C and DC bias up to 4000 V. These are supplier hardware capabilities, not process settings or an extracted position/fiber/direction interface. Photo is generic SMPL-family hardware; exact MH4i identity is not established. Do not conflate this 30-position stage with the separate 25-sample option on the UHV systems page. Mismatched atom-source brochure excluded. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris SMPL MH4i Â· official product review](https://therisnano.com/custom-sample-stages/) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-SMPL-MH4I` (equipment), `M112` (equipment_class), `P01` (process), `P19` (process), `P38` (process), `P46` (process), `P47` (process)
+
+
+## CAT-EV-3677A95B5D819DA4
+
+Theris documents hardware within the Nanoparticle beam mass filters capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** In-line mass analysis and selection of nanoparticle beams in vacuum. Distinct from aerosol electrical-mobility classifiers, particle detectors and complete nanoparticle sources.
+
+- Source: [M109 / Nanoparticle beam mass filters](https://therisnano.com/nanostream-nanoparticle-deposition-sources/) — Named product/technical description; brochure page references in context
+
+**Related records:** `M109` (equipment_class)
+
+
+## CAT-EV-396A60AE90DAE681
+
+The reviewed source identifies EVG620 NT.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm.
+
+- Source: [EVG620 NT · model/document review](https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG620 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG620 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M58-02` (equipment), `M58` (equipment_class)
+
+
 ## CAT-EV-3D69239B49AA84DB
 
 UCLA names Janis Research ST-500 in its equipment description.
@@ -79,7 +190,7 @@ UCLA names Janis Research ST-500 in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Micro-PL page says open-cycle JANIS/Oxford without a model; only FTIR page explicitly links ST-500. Do not claim the micro-PL JANIS cryostat is ST-500.
 
-- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nmâ€“10 Âµm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
 - Source: [ST-500 Series microscopy cryostats](https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat) — Identifies Environment by Janis ST-500 optical microscopy/photoluminescence cryostat; current series includes ST-500, ST-500-C and ST-500-LGV. Do not assign current family options to the historical UCLA asset.
 - Source: [Lake Shore ST-500 Series Cryostats datasheet](https://www.lakeshore.com/docs/default-source/default-document-library/st-500-series505f048e-194a-4d5d-9826-593fb5b58529.pdf?sfvrsn=1d356fbe_23) — Four-page ST-500 family datasheet includes exact ST-500 and other variant columns; distinct variants and optional recirculating cryogen-free upgrades are not the same UCLA configuration.
 
@@ -92,13 +203,43 @@ UCLA names PicoQuant PicoHarp 300 in its equipment description.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
-**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA's visible–1650 nm TRPL range is a setup/detector claim, not intrinsic spectral responsivity of electronic timing module. Official documentation lifecycle note: {"status": "discontinued", "effective": "2024-09", "source_id": "PQ-PH300"}.
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA's visibleâ€“1650 nm TRPL range is a setup/detector claim, not intrinsic spectral responsivity of electronic timing module. Official documentation lifecycle note: {"status": "discontinued", "effective": "2024-09", "source_id": "PQ-PH300"}.
 
-- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50Ã—/100Ã— NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
 - Source: [PicoHarp 300 discontinued](https://www.picoquant.com/news/picoharp-300-discontinued/) — PicoQuant states PicoHarp 300 stopped new orders in September 2024; PicoHarp 330 is successor, not equivalent exact model.
 - Source: [PicoHarp 300 User's Manual and Technical Data](https://www.picoquant.com/dl_manuals/discontinued/PicoHarp300_Manual.pdf) — Official discontinued-product manual identifies PicoHarp 300 TCSPC/event timer, software version 3.0.0.3, October 2015; linked PDF indexed, live fetch returned internal error.
 
 **Related records:** `UCLA-PQ-PH300` (equipment), `M106` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-40052F641C4BF2FD
+
+The reviewed source identifies EVG610.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm.
+
+- Source: [EVG610 · model/document review](https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG610 · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG610 · model/document review](https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG610 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M58-07` (equipment), `M58` (equipment_class)
+
+
+## CAT-EV-47CF6F0D52550949
+
+The project owner confirms EVG as an established Austrian manufacturer; the official site documents an Austrian headquarters and a history beginning in 1980.
+
+**Classification:** project_owner_confirmation · **Checked:** 2026-10-18
+
+**Scope:** Owner-confirmed green-star basis; no independent academic adoption or universal model-compatibility claim.
+
+- Source: [EV Group (EVG) · owner-confirmed manufacturer](https://www.evgroup.com/company/about-evg) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EV Group (EVG) · owner-confirmed manufacturer](https://www.evgroup.com/imprint) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG` (manufacturer)
 
 
 ## CAT-EV-490FA9CCA56C89E5
@@ -109,14 +250,14 @@ PL and timing equipment are available as an optional characterization planning b
 
 **Scope:** Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.
 
-- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50Ã—/100Ã— NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
 
 **Related records:** `P23` (process)
 
 
 ## CAT-EV-4B36419FAFA34C2E
 
-UCLA describes GaSb substrate — project-specific option in its equipment/project context.
+UCLA describes GaSb substrate â€” project-specific option in its equipment/project context.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
@@ -127,6 +268,74 @@ UCLA describes GaSb substrate — project-specific option in its equipment/proje
 **Related records:** `ucla-gasb-substrate` (component), `P47` (process)
 
 
+## CAT-EV-4B5D71286A6B42DE
+
+The reviewed source identifies EVG620 NT SmartNIL configuration.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template.
+
+- Source: [EVG620 NT SmartNIL configuration · model/document review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG620 NT SmartNIL configuration · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M60-03` (equipment), `M60` (equipment_class)
+
+
+## CAT-EV-4C5D597B4A521F20
+
+EVG identifies HERCULES NIL 300 mm in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Fully integrated SmartNIL UV-NIL track family combining clean/coat/bake pre-processing, imprint, demolding and working-stamp fabrication.
+
+- Source: [HERCULES NIL 300 mm · official product review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [HERCULES NIL 300 mm · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [HERCULES NIL 300 mm · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-HERCULES_NIL-2` (equipment), `M60` (equipment_class), `P06` (process)
+
+
+## CAT-EV-4C7FD91D5AED2494
+
+EVG documents equipment in the Wafer overlay and film-thickness metrology systems capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Wafer process inspection, alignment/critical-dimension or film-thickness measurement, depending on configured model. Not AFM, a generic controller, or a claim that every model measures all quantities.
+
+- Source: [M114 / Wafer overlay and film-thickness metrology systems](https://www.evgroup.com/products/metrology/evg40-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M114` (equipment_class)
+
+
+## CAT-EV-5062095367D180F8
+
+Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P06 step 3 · curator equipment alternative](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P06` (process), `M115` (equipment_class)
+
+
+## CAT-EV-5222061C177D683B
+
+Alternative M10 cleaning plus a configured M115 coat/develop/bake track covers coating and bake. Single-chamber EVG101 is excluded from this combined bake branch; generic M24+M02 branch remains. Exact bake/chill modules and resist process must be configured.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P06 step 1 · curator equipment alternative](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P06` (process), `M115` (equipment_class)
+
+
 ## CAT-EV-5407B6251DC9E272
 
 UCLA names Lake Shore Cryotronics TTPX in its equipment description.
@@ -135,7 +344,7 @@ UCLA names Lake Shore Cryotronics TTPX in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA's integrated Agilent instruments are separate components, not included by default in every TTPX purchase.
 
-- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hzâ€“2 MHz), and fiber-coupled illumination.
 - Source: [TTPX cryogenic probe station](https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station) — Identifies TTPX as a continuous-flow cryogenic probe station with liquid helium/nitrogen cooling and configurable electrical/optical probing. Current generic product configuration is not proof UCLA has every option.
 - Source: [TTPX probe station specifications](https://www.lakeshore.com/products/categories/specification/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station) — Lists LHe/LN2 cooling and configuration-dependent temperature/sample/probe specifications. Use this source for capability; avoid copying present-day option values onto UCLA's 2022 setup.
 - Source: [Model TTPX Probe Station manual](https://www.lakeshore.com/docs/default-source/software/manuals/probe-station-manual/ttpx-manual.pdf) — Official model-specific manual URL indexed by manufacturer; PDF fetch exceeded 30 MB web-tool length limit. Manual contents were not used for operating claims.
@@ -143,15 +352,41 @@ UCLA names Lake Shore Cryotronics TTPX in its equipment description.
 **Related records:** `UCLA-LS-TTPX` (equipment), `M102` (equipment_class), `P46` (process), `P47` (process)
 
 
+## CAT-EV-54EA7F838C1B4F2F
+
+EVG documents equipment in the Maskless optical lithography systems capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Digital optical exposure without a photomask. Not a mask aligner, electron-beam writer or nanoimprint press. Micrometre lateral patterning capability does not establish nanoscale resolution.
+
+- Source: [M113 / Maskless optical lithography systems](https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M113` (equipment_class)
+
+
+## CAT-EV-5621A9021922C2AE
+
+M113 offers maskless optical exposure as a separate pattern-definition route. LITHOSCALE lateral feature capability is micrometre-scale; nanoscale pattern resolution is not asserted. Match resist, geometry, development and intended thin-film application.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P06 step 2 · curator equipment alternative](https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P06` (process), `M113` (equipment_class)
+
+
 ## CAT-EV-63C24191BF088AF6
 
-UCLA describes Liquid helium — optional characterization coolant in its equipment/project context.
+UCLA describes Liquid helium â€” optional characterization coolant in its equipment/project context.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
 **Scope:** Auxiliary optical/electrical cryogenic measurement coolant, not a growth precursor. Consumption unreported. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nmâ€“10 Âµm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
 
 **Related records:** `ucla-liquid-helium` (component), `P46` (process), `P47` (process)
 
@@ -164,7 +399,7 @@ UCLA names Princeton Instruments / Acton SP2500 in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Same named spectrograph appears in two UCLA setups; that does not establish serial-number identity or that there is only one physical unit.
 
-- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50Ã—/100Ã— NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
 - Source: [Acton Series SP-2500i Operating Instructions](https://ridl.cfd.rit.edu/products/manuals/Princeton%20Acton/SP-2500i.pdf) — RIT-hosted Princeton Instruments manual identifies Acton Series SP-2500i, rev 4.09.23, 500 mm triple-grating imaging monochromator/spectrograph. UCLA says SP2500 without i, so this is related-family documentation, not proven suffix equivalence.
 
 **Related records:** `UCLA-ACTON-SP2500` (equipment), `M101` (equipment_class), `P46` (process), `P47` (process)
@@ -178,14 +413,14 @@ PL and timing equipment are available as an optional characterization planning b
 
 **Scope:** Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.
 
-- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50Ã—/100Ã— NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
 
 **Related records:** `P44` (process)
 
 
 ## CAT-EV-6D2D6D9A9244B835
 
-UCLA describes Silicon substrate — project-specific option in its equipment/project context.
+UCLA describes Silicon substrate â€” project-specific option in its equipment/project context.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
@@ -196,6 +431,20 @@ UCLA describes Silicon substrate — project-specific option in its equipment/pr
 **Related records:** `ucla-silicon-substrate` (component), `P47` (process)
 
 
+## CAT-EV-6F87D09C0723B5F6
+
+The project owner confirms Theris Nano as a legitimate British manufacturer; its official site identifies Theris Nanotechnology Limited in Tavistock, Devon.
+
+**Classification:** project_owner_confirmation · **Checked:** 2026-10-18
+
+**Scope:** Owner confirmation establishes the green-star basis for both retained manufacturer keys. Independent research adoption and company founding date are not established by this claim.
+
+- Source: [Theris Nanotechnology Â· owner-confirmed manufacturer](https://therisnano.com/about/) — Named product/technical description; brochure page references in context
+- Source: [Theris Nanotechnology Â· owner-confirmed manufacturer](https://therisnano.com/products/) — Named product/technical description; brochure page references in context
+
+**Related records:** `Theris` (manufacturer), `Theris Nanotechnology` (manufacturer)
+
+
 ## CAT-EV-7708023A9F6FDCD2
 
 UCLA names Agilent 4156C in its equipment description.
@@ -204,11 +453,53 @@ UCLA names Agilent 4156C in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Retain Agilent in UCLA asset label; Keysight is documentation/support successor. Official documentation lifecycle note: {"status": "obsolete", "source_id": "KS-4156C", "scope": "official product page title"}.
 
-- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hzâ€“2 MHz), and fiber-coupled illumination.
 - Source: [4156C Precision Semiconductor Parameter Analyzer](https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html) — Official successor-support page title identifies 4156C and marks obsolete. UCLA calls its instrument Agilent; keep historical name and Keysight as support successor.
 - Source: [4155C/4156C Semiconductor Parameter Analyzer User's Guide, General Information](https://www.keysight.com/us/en/assets/9018-04951/user-manuals/9018-04951.pdf) — Official manual listing publication 04156-90000 (2009-07-01) explicitly includes both 4155C and 4156C; URL presents a gated landing page rather than an immediately retrievable PDF.
 
 **Related records:** `UCLA-AGILENT-4156C` (equipment), `M103` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-79EC69A4E50E5A55
+
+The manufacturer identifies this NanoStream variant as a 5-head nanoparticle generation source.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution. Existing scoped manufacturer illustration retained; no new price or operating manual asserted.
+
+- Source: [Theris NanoStreamV Â· product link review](https://therisnano.com/nanostream-nanoparticle-deposition-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris NanoStreamV Â· product link review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `M54-06` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-7B5E2CBCC8FE221F
+
+EVG identifies EVG120 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Fully automated modular resist processing up to 200 mm; spin/spray/develop plus bake/chill and robot handling.
+
+- Source: [EVG120 · official product review](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG120 · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG120 · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG120` (equipment), `M115` (equipment_class), `P06` (process), `P42` (process)
+
+
+## CAT-EV-7B6CDEBF6C557118
+
+Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P42 step 3 · curator equipment alternative](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P42` (process), `M115` (equipment_class)
 
 
 ## CAT-EV-7EAAB01468744367
@@ -219,12 +510,25 @@ UCLA names Stanford Research Systems SR830 in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified.  Official documentation lifecycle note: {"status": "discontinued", "source_id": "SRS-SR830"}.
 
-- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
-- Source: [SR830 — DSP lock-in amplifier](https://www.thinksrs.com/products/sr830.html) — Manufacturer identifies SR830, supplies exact-model photos, technical specifications, manual and datasheet, and marks it discontinued.
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 Âµm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [SR830 â€” DSP lock-in amplifier](https://www.thinksrs.com/products/sr830.html) — Manufacturer identifies SR830, supplies exact-model photos, technical specifications, manual and datasheet, and marks it discontinued.
 - Source: [DSP Lock-In Amplifier model SR830 manual](https://www.thinksrs.com/downloads/pdfs/manuals/SR830m.pdf) — Model-specific official operating/service manual URL is linked from the manufacturer product page.
 - Source: [SR830 DSP Lock-In Amplifiers datasheet](https://www.thinksrs.com/downloads/pdfs/catalog/SR830c.pdf) — Three-page manufacturer datasheet identifies Stanford Research Systems and SR830, and lists a US list price of $5,995 on PDF pages 1 and 2. Publication/price effective date is not established; manufacturer page now says discontinued.
 
 **Related records:** `UCLA-SRS-SR830` (equipment), `M105` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-7FAFF2F17D36A95E
+
+Theris identifies Theris TAS RFI / TASRI series in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Broad-beam UHV RF ion-source family; source component for processing/deposition, not whole turnkey vacuum system. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. The page uses both TAS RFI and TASRI Series; retained as aliases for one series-level entry, not two numbered models. Image shows exposed source internals at family scope. The page links an atom-source brochure, which is excluded as a mismatched ion document. P14 relevance is an ion-beam etching configuration, not equivalence to RIE or a complete etch system. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris TAS RFI / TASRI series Â· official product review](https://therisnano.com/tas-rf-ion-sources/) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-TAS-RFI` (equipment), `M111` (equipment_class), `P08` (process), `P14` (process)
 
 
 ## CAT-EV-8083C6D8A7F4B3CC
@@ -235,23 +539,37 @@ UCLA describes Beryllium dopant source for MBE in its equipment/project context.
 
 **Scope:** Optional dopant cell; dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `ucla-beryllium-dopant` (component), `P47` (process)
 
 
 ## CAT-EV-8269218E4B655DA7
 
-UCLA names Veeco GEN-930 — As/Sb-MBE configuration in its equipment description.
+UCLA names Veeco GEN-930 â€” As/Sb-MBE configuration in its equipment description.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
-**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)/(As, Sb)", "group_III_sources": \[{"element": "In", "type": "SUMO cell"}, {"element": "Ga", "type": "SUMO cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_sources": \[{"element": "As", "type": "valved cracker"}, {"element": "Sb", "type": "valved cracker"}\], "dopant_sources": \["Si", "Te", "Be"\], "wafer_holder_diameter_max": {"value": 3, "unit": "inch"}, "optical_pyrometer_range": {"lower": 440, "upper": 800, "unit": "°C", "scope": "measurement range, not process setpoint"}, "monitoring": \["200 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)/(As, Sb)", "group_III_sources": \[{"element": "In", "type": "SUMO cell"}, {"element": "Ga", "type": "SUMO cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_sources": \[{"element": "As", "type": "valved cracker"}, {"element": "Sb", "type": "valved cracker"}\], "dopant_sources": \["Si", "Te", "Be"\], "wafer_holder_diameter_max": {"value": 3, "unit": "inch"}, "optical_pyrometer_range": {"lower": 440, "upper": 800, "unit": "Â°C", "scope": "measurement range, not process setpoint"}, "monitoring": \["200 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 - Source: [Phosphorus Recovery System product specifications](https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf) — Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment.
 
 **Related records:** `UCLA-UCLA-GEN930-ASSB` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-82B38E6C3FC5F08B
+
+Theris identifies Theris NanoShell in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Core-shell coating accessory/module between NanoStream source and deposition chamber; includes electronics/software but is not the whole nanoparticle generation/deposition system. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. In-flight sputter-coating module requiring a compatible NanoStream source and deposition chamber. Two coating cathodes are described on the product page. It cannot replace a complete sputter coater or a NanoStream generator. General NanoStream brochure page 4 includes NanoShell; dedicated brochure is request-only in the reviewed source. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris NanoShell Â· official product review](https://therisnano.com/nanoshell-core-shell-coater/) — Named product/technical description; brochure page references in context
+- Source: [Theris NanoShell Â· official product review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-NANOSHELL` (equipment), `M116` (equipment_class), `P01` (process)
 
 
 ## CAT-EV-87F3BCD2E50B9FFD
@@ -262,11 +580,24 @@ UCLA names Agilent E4980A in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not replace with E4980AL or confuse the newer joint manual's variant specifications.
 
-- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hzâ€“2 MHz), and fiber-coupled illumination.
 - Source: [E4980A Precision LCR Meter, 20 Hz to 2 MHz](https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html) — Official product identity confirms E4980A LCR meter; UCLA historical branding is Agilent. No exact public current USD price verified.
 - Source: [E4980A Precision LCR Meter User's Guide](https://www.keysight.com/us/en/assets/9018-06156/user-manuals/9018-06156.pdf) — Official E4980A manual publication E4980-90000 dated 2006-03-01; URL presents a gated landing page. Distinguish E4980A-only guide from newer E4980A/AL joint guide.
 
 **Related records:** `UCLA-AGILENT-E4980A` (equipment), `M104` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-8818F8B7CF3EACB2
+
+Theris documents hardware within the RF atom sources for vacuum deposition capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Neutral atomic-species source components for configured vacuum deposition, including nitride MBE and nitride PLD. Not complete MBE/PLD systems and not ion-beam sources.
+
+- Source: [M110 / RF atom sources for vacuum deposition](https://therisnano.com/rf-atom-sources/) — Named product/technical description; brochure page references in context
+
+**Related records:** `M110` (equipment_class)
 
 
 ## CAT-EV-889AD6E9BF36ECC2
@@ -275,12 +606,56 @@ UCLA names Princeton Instruments / Acton SP2300 in its equipment description.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
-**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not silently append i or replace with current SpectraPro HRS-300. UCLA's 2.5 µm setup coverage depends on detectors/optics.
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not silently append i or replace with current SpectraPro HRS-300. UCLA's 2.5 Âµm setup coverage depends on detectors/optics.
 
-- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 Âµm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
 - Source: [Broadband Photoluminescence Material Spectroscopy](https://www.teledynevisionsolutions.com/en-hk/learn/learning-center/scientific-imaging/broadband-photoluminescence-material-spectroscopy/) — Teledyne identifies Princeton Instruments SP2300i spectrograph in another lab's setup. Confirms manufacturer family identity; does not establish UCLA's omitted i suffix, detectors or present availability.
 
 **Related records:** `UCLA-ACTON-SP2300` (equipment), `M101` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-88F4F22FF74F0AAE
+
+EVG identifies EVG150 200 mm in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Automated multifunction resist coat/develop processing with wet-process and bake/chill modules; distinct200mm and300mm configurations.
+
+- Source: [EVG150 200 mm · official product review](https://www.evgroup.com/products/lithography/resist-processing-systems/evg150) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG150 200 mm · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG150 200 mm · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG150-1` (equipment), `M115` (equipment_class), `P06` (process), `P42` (process)
+
+
+## CAT-EV-8EBF621A89D04559
+
+Theris identifies Theris SH300 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Full custom nanoparticle/PVD deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. Named under THERIS NANOTECHNOLOGY Full Deposition Systems in NanoStream brochure page 4. The webpage describes chamber size options without explicitly mapping each diameter to a model name. Custom host/source configuration must be reviewed. Exact SH300 label visible in manufacturer photograph. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris SH300 Â· official product review](https://therisnano.com/custom-uhv-deposition-systems/) — Named product/technical description; brochure page references in context
+- Source: [Theris SH300 Â· official product review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-SH300` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-91F7DBAD5F5372AB
+
+EVG identifies EVG150 300 mm in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Automated multifunction resist coat/develop processing with wet-process and bake/chill modules; distinct200mm and300mm configurations.
+
+- Source: [EVG150 300 mm · official product review](https://www.evgroup.com/products/lithography/resist-processing-systems/evg150) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG150 300 mm · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG150 300 mm · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG150-2` (equipment), `M115` (equipment_class), `P06` (process), `P42` (process)
 
 
 ## CAT-EV-9410F9A503949466
@@ -291,7 +666,7 @@ UCLA describes Silicon dopant source for MBE in its equipment/project context.
 
 **Scope:** Optional dopant cell; not a silicon wafer. Dose and source grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `ucla-silicon-dopant` (component), `P46` (process), `P47` (process)
 
@@ -304,9 +679,134 @@ UCLA lists an integrated GEN-930 configuration for (In, Ga, Al)-N semiconductor 
 
 **Scope:** Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `P46` (process), `M100` (equipment_class)
+
+
+## CAT-EV-9FE3BAFFE3F0333A
+
+Theris identifies Theris TAS60 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UHV RF atom-source components for atomic species deposition/cleaning; not turnkey vacuum systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. TAS atom brochure pages 2 and 4 identify the 60 mm aperture variant. Neutral-atom source for a compatible host, distinct from the ion-source series. P19 relevance is specifically an optional nitride-PLD configuration; not apparatus from the cited P19 experiment. P46 relevance does not establish a replacement for UCLA installed hardware. Manufacturer operating envelopes are not recipe setpoints. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris TAS60 Â· official product review](https://therisnano.com/rf-atom-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris TAS60 Â· official product review](https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-TAS60` (equipment), `M110` (equipment_class), `P19` (process), `P46` (process)
+
+
+## CAT-EV-A2B7C4E0203D39F1
+
+Optional M114 wafer overlay/CD or film-thickness inspection, model-dependent. EVG50 is thickness-focused; do not infer that it measures overlay or replaces mandatory SEM/AFM.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P06 step 5 · curator equipment alternative](https://www.evgroup.com/products/metrology/evg40-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P06` (process), `M114` (equipment_class)
+
+
+## CAT-EV-A3142456A25A138A
+
+EVG identifies EVG101 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Enclosed single-chamber advanced resist processor, manual wafer load/unload with automated configurable spin coat, OmniSpray coating or development, up to 300 mm.
+
+- Source: [EVG101 · official product review](https://www.evgroup.com/products/lithography/resist-processing-systems/evg101) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG101 · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG101 · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG101` (equipment), `M115` (equipment_class), `P06` (process), `P42` (process)
+
+
+## CAT-EV-A3309C648D901C17
+
+EVG identifies EVG50 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Standalone automated multilayer-thickness mapping, total-thickness-variation/resist-thickness measurement and bond-interface inspection.
+
+- Source: [EVG50 · official product review](https://www.evgroup.com/products/metrology/evg50) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG50 · official product review](https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG50` (equipment), `M114` (equipment_class), `P06` (process), `P42` (process)
+
+
+## CAT-EV-A4DA53D21F612724
+
+The reviewed source identifies EVG520 HE.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Legacy exact name remains distributor-supported; current official HE image/document not established.
+
+- Source: [EVG520 HE · model/document review](https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M60-07` (equipment), `M60` (equipment_class)
+
+
+## CAT-EV-AAF0839A71FB80EA
+
+Theris identifies Theris TAS30 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UHV RF atom-source components for atomic species deposition/cleaning; not turnkey vacuum systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps. TAS atom brochure pages 2 and 4 identify the 30 mm aperture variant. Neutral-atom source for a compatible host, distinct from the ion-source series. P19 relevance is specifically an optional nitride-PLD configuration; not apparatus from the cited P19 experiment. P46 relevance does not establish a replacement for UCLA installed hardware. Manufacturer operating envelopes are not recipe setpoints. Public purchase price and exact-model operating manual were not published in this bounded review. No documented successor relationship or newest-generation claim. No make/model match in the user-designated Purdue list; generic PVD wording is not asset identity.
+
+- Source: [Theris TAS30 Â· official product review](https://therisnano.com/rf-atom-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris TAS30 Â· official product review](https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `THERIS-TAS30` (equipment), `M110` (equipment_class), `P19` (process), `P46` (process)
+
+
+## CAT-EV-AC6FB1CF9461026A
+
+The manufacturer identifies this NanoStream variant as a 3-head nanoparticle generation source.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution. Existing scoped manufacturer illustration retained; no new price or operating manual asserted.
+
+- Source: [Theris NanoStreamT Â· product link review](https://therisnano.com/nanostream-nanoparticle-deposition-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris NanoStreamT Â· product link review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `M54-05` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-AD7C78E29145D05C
+
+EVG identifies EVG7200 LA in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Large-area SmartNIL UV-NIL,200mm diameter through Gen3 panels550×650mm; stated resolution40nm–10µm depends on template/process.
+
+- Source: [EVG7200 LA · official product review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7200 LA · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7200 LA · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG7200LA` (equipment), `M60` (equipment_class), `P06` (process)
+
+
+## CAT-EV-AE5887861A146441
+
+Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator functional planning rule derived from manufacturer capabilities; not a source-reported experimental recipe or model validation.
+
+- Source: [P42 step 1 · curator equipment alternative](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `P42` (process), `M115` (equipment_class)
 
 
 ## CAT-EV-AE955789385CBC50
@@ -317,7 +817,7 @@ UCLA names Thermo Scientific Nicolet 8700 in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not infer that current Nicolet iS50 specifications or images describe this legacy 8700. Official documentation lifecycle note: {"status": "retired_documentation_present", "source_id": "TF-8700-MAN"}.
 
-- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nmâ€“10 Âµm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
 - Source: [269-234600 Rev A Nicolet 8700 USB Version User Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Retired_Molecular_Spectroscopy_Products/Retired_Molecular_Spectroscopy_Products_Operator_Manuals/269-234600_-_Rev_A_-_Nicolet_8700_USB_Version_User_Guide) — Official retired-products guide for Nicolet 8700 USB; UCLA does not specify USB vs PCI hardware. Exact model, interface-variant match unverified. PDF attachment exists but signed storage redirect could not be read.
 
 **Related records:** `UCLA-TF-NICOLET8700` (equipment), `M36` (equipment_class), `P46` (process), `P47` (process)
@@ -331,38 +831,67 @@ UCLA names EG&G / Signal Recovery 7265 in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Brand lineage does not justify rewriting the UCLA-listed EG&G instrument as a newly supplied AMETEK unit. Official documentation lifecycle note: {"status": "legacy_product_listing", "source_id": "SR-7265"}.
 
-- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 Âµm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
 - Source: [7265 Dual Phase DSP Lock-in Amplifier](https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier) — Signal Recovery/AMETEK legacy page identifies 7265, model-specific image, 250 kHz dual-phase DSP function and links manual. Explains origin from Princeton Applied Research/EG&G; preserve UCLA's historical EG&G branding.
 - Source: [Model 7265 User Manual](https://www.ameteksi.com/-/media/ameteksi/download_links/documentations/7265/190284-a-mnl-c.pdf?revision=819bfbd0-51d7-4371-89ea-50f14b69ce5f) — Exact-model manual is linked from official product page. Opening redirects to an email-required download form; manual body was not read.
 
 **Related records:** `UCLA-EGG-7265` (equipment), `M105` (equipment_class), `P46` (process), `P47` (process)
 
 
+## CAT-EV-B6D9C23BB39DA626
+
+EVG identifies EVG40 NT in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Standalone automated lithography/bonding measurement system; critical dimensions, alignment verification and multilayer thickness.
+
+- Source: [EVG40 NT · official product review](https://www.evgroup.com/products/metrology/evg40-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG40 NT · official product review](https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG40NT` (equipment), `M114` (equipment_class), `P06` (process), `P42` (process)
+
+
 ## CAT-EV-B82FFF5F796E366F
 
-UCLA describes Liquid nitrogen — optional characterization coolant in its equipment/project context.
+UCLA describes Liquid nitrogen â€” optional characterization coolant in its equipment/project context.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
 **Scope:** Auxiliary cryogenic probe measurement coolant, not a growth precursor or universal MBE input. Consumption unreported. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hzâ€“2 MHz), and fiber-coupled illumination.
 
 **Related records:** `ucla-liquid-nitrogen` (component), `P46` (process), `P47` (process)
 
 
 ## CAT-EV-B84E8CDF166CE4CB
 
-UCLA names Veeco GEN-930 — N-MBE configuration in its equipment description.
+UCLA names Veeco GEN-930 â€” N-MBE configuration in its equipment description.
 
 **Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
 
-**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)-N", "group_III_sources": \[{"element": "In", "type": "effusion cell"}, {"element": "Ga", "type": "effusion cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_source": {"element": "N", "type": "RF plasma", "delivery": "automated N gas delivery"}, "dopant_sources": \["Si", "Mg"\], "wafer_diameter_max": {"value": 3, "unit": "inch"}, "substrate_heater_max": {"value": 1200, "unit": "°C", "scope": "hardware maximum, not process setpoint"}, "monitoring": \["100 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)-N", "group_III_sources": \[{"element": "In", "type": "effusion cell"}, {"element": "Ga", "type": "effusion cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_source": {"element": "N", "type": "RF plasma", "delivery": "automated N gas delivery"}, "dopant_sources": \["Si", "Mg"\], "wafer_diameter_max": {"value": 3, "unit": "inch"}, "substrate_heater_max": {"value": 1200, "unit": "Â°C", "scope": "hardware maximum, not process setpoint"}, "monitoring": \["100 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 - Source: [Phosphorus Recovery System product specifications](https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf) — Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment.
 
 **Related records:** `UCLA-UCLA-GEN930-N` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-BA7CBB947E8D949C
+
+EVG identifies EVG720 in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Full-field SmartNIL UV-NIL system, substrate sizes75–150mm; ≤40nm dependent on process/template.
+
+- Source: [EVG720 · official product review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG720 · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG720 · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG720` (equipment), `M60` (equipment_class), `P06` (process)
 
 
 ## CAT-EV-C0902EBD484AF1CD
@@ -373,11 +902,53 @@ UCLA names Thermo Scientific Nicolet Continuum in its equipment description.
 
 **Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA setup integration with 8700 is verified. Standalone component photo not found in bounded search; do not crop/repurpose generic setup image as an independently identified Continuum photo.
 
-- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nmâ€“10 Âµm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
 - Source: [269-239701 Rev A Nicolet Continuum User Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-239701_-_Rev_A_-_Nicolet_Continuum_User_Guide) — Official Nicolet Continuum guide states it covers use with a Nicolet Series spectrometer; supports treating microscope as coupled equipment, not a self-contained Nicolet 8700 replacement.
 - Source: [269-153102 Rev A Continuum Microscope Site and Safety Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-153102_-_Rev_A_-_Continuum_Microscope_Site_and_Safety_Guide) — Official site/safety manual for exact microscope family; it is not the user/operating guide.
 
 **Related records:** `UCLA-TF-CONTINUUM` (equipment), `M108` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-C6EFE4FEE398A296
+
+EVG identifies HERCULES NIL 200 mm in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Fully integrated SmartNIL UV-NIL track family combining clean/coat/bake pre-processing, imprint, demolding and working-stamp fabrication.
+
+- Source: [HERCULES NIL 200 mm · official product review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [HERCULES NIL 200 mm · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [HERCULES NIL 200 mm · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-HERCULES_NIL-1` (equipment), `M60` (equipment_class), `P06` (process)
+
+
+## CAT-EV-C79E0D9E85A8F48F
+
+The manufacturer identifies this NanoStream variant as a 1-head nanoparticle generation source.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution. Existing scoped manufacturer illustration retained; no new price or operating manual asserted.
+
+- Source: [Theris Nanotechnology: Theris NanoStreamS Â· product link review](https://therisnano.com/nanostream-nanoparticle-deposition-sources/) — Named product/technical description; brochure page references in context
+- Source: [Theris Nanotechnology: Theris NanoStreamS Â· product link review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
+
+**Related records:** `M54-02` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-D062FB8D801C810F
+
+Theris documents a module for coating nanoparticle cores in flight.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** In-flight shell-coating modules for previously generated nanoparticle beams. Requires a compatible source and host vacuum chamber; not a complete substrate sputter coater or nanoparticle generator.
+
+- Source: [NanoShell](https://therisnano.com/nanoshell-core-shell-coater/) — Core Shell Coater technical description
+
+**Related records:** `M116` (equipment_class)
 
 
 ## CAT-EV-D43C6B71BE4AAE84
@@ -388,7 +959,7 @@ UCLA describes Indium source for MBE in its equipment/project context.
 
 **Scope:** Cell source; purity, physical charge form and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `ucla-indium-source` (component), `P46` (process), `P47` (process)
 
@@ -401,7 +972,7 @@ UCLA describes Gallium source for MBE in its equipment/project context.
 
 **Scope:** Cell source; purity and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `ucla-gallium-source` (component), `P46` (process), `P47` (process)
 
@@ -419,6 +990,21 @@ UCLA lists a high-frequency electronic/optoelectronic probe setup; make/model is
 **Related records:** `UCLA-HF-PROBE-SETUP` (equipment)
 
 
+## CAT-EV-DEDAB6E4EB45EBAE
+
+EVG identifies EVG770 NT in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Step-and-repeat NIL for master fabrication/direct patterning; active imprint area30cm²; substrates through Gen2 370×470mm.
+
+- Source: [EVG770 NT · official product review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG770 NT · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG770 NT · official product review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-EVG770NT` (equipment), `M60` (equipment_class), `P06` (process)
+
+
 ## CAT-EV-E16AF67B6B7DEE44
 
 UCLA describes Nitrogen feed for RF-plasma MBE in its equipment/project context.
@@ -427,9 +1013,53 @@ UCLA describes Nitrogen feed for RF-plasma MBE in its equipment/project context.
 
 **Scope:** RF plasma gas feed; purity, flow and consumption unspecified. Not a liquid cryogen. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 Â°C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
 
 **Related records:** `ucla-nitrogen-plasma-feed` (component), `P46` (process)
+
+
+## CAT-EV-E98A0AE240848042
+
+The reviewed source identifies EVG7300.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking.
+
+- Source: [EVG7300 · model/document review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7300 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7300 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EXP-20261016-M60-EVG7300` (equipment), `M60` (equipment_class)
+
+
+## CAT-EV-E9DB650E72F4F048
+
+The reviewed source identifies EVG7200.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Matched manufacturer model/configuration documentation; no operating-manual verification or new price. Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication.
+
+- Source: [EVG7200 · model/document review](https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7200 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [EVG7200 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `M60-08` (equipment), `M60` (equipment_class)
+
+
+## CAT-EV-F0BC96C278C73EF8
+
+EVG identifies LITHOSCALE in its official product documentation.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Maskless optical exposure using MLE digital patterning and solid-state light source; wafers up to300mm; stated feature capability≤2µm.
+
+- Source: [LITHOSCALE · official product review](https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale) — Official model Features/Technical Data; configuration-specific flyer when linked
+- Source: [LITHOSCALE · official product review](https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
+
+**Related records:** `EVG261018-LITHOSCALE` (equipment), `M113` (equipment_class), `P06` (process)
 
 
 ## CAT-EV-FA0932082DDCD619
@@ -440,7 +1070,7 @@ UCLA describes Arsenic source for MBE in its equipment/project context.
 
 **Scope:** Valved-cracker source; charge form, species, flux and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `ucla-arsenic-source` (component), `P47` (process)
 
@@ -453,9 +1083,22 @@ UCLA describes Tellurium dopant source for MBE in its equipment/project context.
 
 **Scope:** Optional dopant source; not a sputtering target. Dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
 
-- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `ucla-tellurium-dopant` (component), `P47` (process)
+
+
+## CAT-EV-FC3E53171C63C977
+
+Theris documents hardware within the Broad-beam RF ion sources capability class.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Vacuum ion-source components for surface modification, ion-beam etching and assisted deposition. Not a complete RIE reactor, focused-ion-beam microscope or ion-implantation system.
+
+- Source: [M111 / Broad-beam RF ion sources](https://therisnano.com/tas-rf-ion-sources/) — Named product/technical description; brochure page references in context
+
+**Related records:** `M111` (equipment_class)
 
 
 ## EV-P01-25E85E64C6F720EF
@@ -468,7 +1111,7 @@ Sputtering-head to nozzle separation: 13 cm.: 13 cm
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-D44EE728A01351DC` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-D44EE728A01351DC` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-D44EE728A01351DC: Sputtering-head to nozzle separation = 13 cm; operator eq; formulation P01-LITERATURE-EXAMPLE; source step 2.
 
@@ -482,7 +1125,7 @@ Deposition campaign exposure times: 3000 s.: 3000 s
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-797725FBAD49E08B` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-797725FBAD49E08B` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-797725FBAD49E08B: Deposition campaign exposure times = 3000 s; operator lte; formulation P01-LITERATURE-EXAMPLE; source step 4.
 
@@ -496,7 +1139,7 @@ TEM lateral width: 10.6 nm
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Results, Figure 2
 
-**Related records:** `PA-P01-8F1C92964AA209EB` (property), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PA-P01-8F1C92964AA209EB` (property), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PA-P01-8F1C92964AA209EB: TEM lateral width = 10.6 nm; operator eq; formulation P01-LITERATURE-EXAMPLE; source step not specified.
 
@@ -510,7 +1153,7 @@ Condensation-chamber gas temperature: 22 degC.: 22 °C
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-7E8D8EF7A1CA8D05` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-7E8D8EF7A1CA8D05` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-7E8D8EF7A1CA8D05: Condensation-chamber gas temperature = 22 °C; operator eq; formulation P01-LITERATURE-EXAMPLE; source step 3.
 
@@ -524,7 +1167,7 @@ Representative TEM specimen deposition: 100 s.: 100 s
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Results, Figure 2
 
-**Related records:** `PC-P01-DFCD9F18C95633D2` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-DFCD9F18C95633D2` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-DFCD9F18C95633D2: Representative TEM specimen deposition = 100 s; operator eq; formulation P01-LITERATURE-EXAMPLE; source step 4.
 
@@ -538,7 +1181,7 @@ Argon in condensation chamber: 0.1 mbar.: 0.1 mbar
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-96767680EBB67325` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-96767680EBB67325` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-96767680EBB67325: Argon in condensation chamber = 0.1 mbar; operator eq; formulation P01-LITERATURE-EXAMPLE; source step 3.
 
@@ -552,7 +1195,7 @@ Magnetron sputtering power: 20 W.: 20 W
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-7CCF400A26B91FF6` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-7CCF400A26B91FF6` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-7CCF400A26B91FF6: Magnetron sputtering power = 20 W; operator eq; formulation P01-LITERATURE-EXAMPLE; source step 2.
 
@@ -566,7 +1209,7 @@ Condensation carrier/cooling gas: Argon: Argon
 
 - Source: [Fabrication of Silver Nanoparticles Using a Gas Phase Nanocluster Device and Preliminary Biological Uses](https://pmc.ncbi.nlm.nih.gov/articles/PMC6316590/) — Materials and Methods, Ag nanoparticle synthesis (section 2.2)
 
-**Related records:** `PC-P01-FB6371C99FAAA275` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
+**Related records:** `PC-P01-FB6371C99FAAA275` (condition), `P01` (process), `M28` (equipment_class), `M31` (equipment_class), `M32` (equipment_class), `M54` (equipment_class), `M37` (equipment_class), `M39` (equipment_class), `M41` (equipment_class), `M109` (equipment_class), `M112` (equipment_class), `M116` (equipment_class), `P01-LITERATURE-EXAMPLE` (formulation), `REF-9F2E07E43FA2` (academic_reference)
 
 - PC-P01-FB6371C99FAAA275: Condensation carrier/cooling gas = Argon; operator text; formulation P01-LITERATURE-EXAMPLE; source step 3.
 
@@ -832,7 +1475,7 @@ Bake duration after each of two PMMA coatings: 10 min.: 10 min
 
 - Source: [A Technique to Transfer Metallic Nanoscale Patterns to Small and Non-Planar Surfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC2658603/) — Methods, Fabrication of Metallic Features
 
-**Related records:** `PC-P06-B2014EB7F841D255` (condition), `P06` (process), `M02` (equipment_class), `M10` (equipment_class), `M22` (equipment_class), `M23` (equipment_class), `M24` (equipment_class), `M38` (equipment_class), `M41` (equipment_class), `M58` (equipment_class), `M59` (equipment_class), `M60` (equipment_class), `M61` (equipment_class), `M85` (equipment_class), `M89` (equipment_class), `M93` (equipment_class), `M96` (equipment_class), `P06-LITERATURE-EXAMPLE` (formulation), `REF-3BBCD9736CB4` (academic_reference)
+**Related records:** `PC-P06-B2014EB7F841D255` (condition), `P06` (process), `M02` (equipment_class), `M10` (equipment_class), `M22` (equipment_class), `M23` (equipment_class), `M24` (equipment_class), `M38` (equipment_class), `M41` (equipment_class), `M58` (equipment_class), `M59` (equipment_class), `M60` (equipment_class), `M61` (equipment_class), `M85` (equipment_class), `M89` (equipment_class), `M93` (equipment_class), `M96` (equipment_class), `M115` (equipment_class), `M113` (equipment_class), `M114` (equipment_class), `P06-LITERATURE-EXAMPLE` (formulation), `REF-3BBCD9736CB4` (academic_reference)
 
 - PC-P06-B2014EB7F841D255: Bake duration after each of two PMMA coatings = 10 min; operator eq; formulation P06-LITERATURE-EXAMPLE; source step 1.
 
@@ -846,7 +1489,7 @@ Bake after each PMMA layer: 150 degC.: 150 °C
 
 - Source: [A Technique to Transfer Metallic Nanoscale Patterns to Small and Non-Planar Surfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC2658603/) — Methods, Fabrication of Metallic Features
 
-**Related records:** `PC-P06-32DE7621F2771CF0` (condition), `P06` (process), `M02` (equipment_class), `M10` (equipment_class), `M22` (equipment_class), `M23` (equipment_class), `M24` (equipment_class), `M38` (equipment_class), `M41` (equipment_class), `M58` (equipment_class), `M59` (equipment_class), `M60` (equipment_class), `M61` (equipment_class), `M85` (equipment_class), `M89` (equipment_class), `M93` (equipment_class), `M96` (equipment_class), `P06-LITERATURE-EXAMPLE` (formulation), `REF-3BBCD9736CB4` (academic_reference)
+**Related records:** `PC-P06-32DE7621F2771CF0` (condition), `P06` (process), `M02` (equipment_class), `M10` (equipment_class), `M22` (equipment_class), `M23` (equipment_class), `M24` (equipment_class), `M38` (equipment_class), `M41` (equipment_class), `M58` (equipment_class), `M59` (equipment_class), `M60` (equipment_class), `M61` (equipment_class), `M85` (equipment_class), `M89` (equipment_class), `M93` (equipment_class), `M96` (equipment_class), `M115` (equipment_class), `M113` (equipment_class), `M114` (equipment_class), `P06-LITERATURE-EXAMPLE` (formulation), `REF-3BBCD9736CB4` (academic_reference)
 
 - PC-P06-32DE7621F2771CF0: Bake after each PMMA layer = 150 °C; operator eq; formulation P06-LITERATURE-EXAMPLE; source step 1.
 
@@ -986,7 +1629,7 @@ APTES grafting with stirring: 50 degC.: 50 °C
 
 - Source: [APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/) — Materials and Methods, 2.2 APTES functionalization of 50 nm SiO2 nanoparticles
 
-**Related records:** `PC-P08-F5B8FEFBAD300996` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
+**Related records:** `PC-P08-F5B8FEFBAD300996` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `M111` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
 
 - PC-P08-F5B8FEFBAD300996: APTES grafting with stirring = 50 °C; operator eq; formulation P08-LITERATURE-EXAMPLE; source step 2.
 
@@ -1000,7 +1643,7 @@ Recovered functionalized-particle mass: 600 mg
 
 - Source: [APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/) — Materials and Methods, 2.2
 
-**Related records:** `PA-P08-E6676B0CA92D045B` (property), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
+**Related records:** `PA-P08-E6676B0CA92D045B` (property), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `M111` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
 
 - PA-P08-E6676B0CA92D045B: Recovered functionalized-particle mass = 600 mg; operator eq; formulation P08-LITERATURE-EXAMPLE; source step not specified.
 
@@ -1014,7 +1657,7 @@ Isolation after grafting: 10500 x g.: 10500 ×g
 
 - Source: [APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/) — Materials and Methods, 2.2 APTES functionalization of 50 nm SiO2 nanoparticles
 
-**Related records:** `PC-P08-145917D9D113CBDB` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
+**Related records:** `PC-P08-145917D9D113CBDB` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `M111` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
 
 - PC-P08-145917D9D113CBDB: Isolation after grafting = 10500 ×g; operator eq; formulation P08-LITERATURE-EXAMPLE; source step 3.
 
@@ -1028,7 +1671,7 @@ Isolation centrifugation: 10 min.: 10 min
 
 - Source: [APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/) — Materials and Methods, 2.2 APTES functionalization of 50 nm SiO2 nanoparticles
 
-**Related records:** `PC-P08-893CC0613BEF0E96` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
+**Related records:** `PC-P08-893CC0613BEF0E96` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `M111` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
 
 - PC-P08-893CC0613BEF0E96: Isolation centrifugation = 10 min; operator eq; formulation P08-LITERATURE-EXAMPLE; source step 3.
 
@@ -1042,7 +1685,7 @@ APTES grafting dwell: 24 h.: 24 h
 
 - Source: [APTES-Based Silica Nanoparticles as a Potential Modifier for the Selective Sequestration of CO2 Gas Molecules](https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/) — Materials and Methods, 2.2 APTES functionalization of 50 nm SiO2 nanoparticles
 
-**Related records:** `PC-P08-7A60CDA1A93291F6` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
+**Related records:** `PC-P08-7A60CDA1A93291F6` (condition), `P08` (process), `M02` (equipment_class), `M04` (equipment_class), `M09` (equipment_class), `M10` (equipment_class), `M13` (equipment_class), `M15` (equipment_class), `M18` (equipment_class), `M34` (equipment_class), `M36` (equipment_class), `M39` (equipment_class), `M61` (equipment_class), `M95` (equipment_class), `M97` (equipment_class), `M111` (equipment_class), `P08-LITERATURE-EXAMPLE` (formulation), `REF-4488A4233A2A` (academic_reference)
 
 - PC-P08-7A60CDA1A93291F6: APTES grafting dwell = 24 h; operator eq; formulation P08-LITERATURE-EXAMPLE; source step 2.
 
@@ -1686,7 +2329,7 @@ Etching gas: Oxygen: Oxygen
 
 - Source: [Model for large-area monolayer coverage of polystyrene nanospheres by spin coating](https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/) — Nanosphere Lithography, short oxygen-plasma etch example
 
-**Related records:** `PC-P14-AD7997A7289FCD63` (condition), `P14` (process), `M61` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
+**Related records:** `PC-P14-AD7997A7289FCD63` (condition), `P14` (process), `M61` (equipment_class), `M111` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
 
 - PC-P14-AD7997A7289FCD63: Etching gas = Oxygen; operator text; formulation P14-LITERATURE-EXAMPLE; source step not specified.
 
@@ -1700,7 +2343,7 @@ Oxygen process-gas flow: 30 sccm.: 30 sccm
 
 - Source: [Model for large-area monolayer coverage of polystyrene nanospheres by spin coating](https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/) — Nanosphere Lithography, short oxygen-plasma etch example
 
-**Related records:** `PC-P14-20A0B103FF418D35` (condition), `P14` (process), `M61` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
+**Related records:** `PC-P14-20A0B103FF418D35` (condition), `P14` (process), `M61` (equipment_class), `M111` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
 
 - PC-P14-20A0B103FF418D35: Oxygen process-gas flow = 30 sccm; operator eq; formulation P14-LITERATURE-EXAMPLE; source step not specified.
 
@@ -1714,7 +2357,7 @@ Short oxygen-plasma etch: 10 s.: 10 s
 
 - Source: [Model for large-area monolayer coverage of polystyrene nanospheres by spin coating](https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/) — Nanosphere Lithography, short oxygen-plasma etch example
 
-**Related records:** `PC-P14-04D6E9EA65BF62DF` (condition), `P14` (process), `M61` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
+**Related records:** `PC-P14-04D6E9EA65BF62DF` (condition), `P14` (process), `M61` (equipment_class), `M111` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
 
 - PC-P14-04D6E9EA65BF62DF: Short oxygen-plasma etch = 10 s; operator eq; formulation P14-LITERATURE-EXAMPLE; source step not specified.
 
@@ -1728,7 +2371,7 @@ RIE electrical power: 80 W.: 80 W
 
 - Source: [Model for large-area monolayer coverage of polystyrene nanospheres by spin coating](https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/) — Nanosphere Lithography, short oxygen-plasma etch example
 
-**Related records:** `PC-P14-CC895AA7382C362F` (condition), `P14` (process), `M61` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
+**Related records:** `PC-P14-CC895AA7382C362F` (condition), `P14` (process), `M61` (equipment_class), `M111` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
 
 - PC-P14-CC895AA7382C362F: RIE electrical power = 80 W; operator eq; formulation P14-LITERATURE-EXAMPLE; source step not specified.
 
@@ -1742,7 +2385,7 @@ RIE process pressure: 61 mTorr.: 61 mTorr
 
 - Source: [Model for large-area monolayer coverage of polystyrene nanospheres by spin coating](https://pmc.ncbi.nlm.nih.gov/articles/PMC5244356/) — Nanosphere Lithography, short oxygen-plasma etch example
 
-**Related records:** `PC-P14-B3025809728D5E40` (condition), `P14` (process), `M61` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
+**Related records:** `PC-P14-B3025809728D5E40` (condition), `P14` (process), `M61` (equipment_class), `M111` (equipment_class), `P14-LITERATURE-EXAMPLE` (formulation), `REF-D82B35D1EEF5` (academic_reference)
 
 - PC-P14-B3025809728D5E40: RIE process pressure = 61 mTorr; operator eq; formulation P14-LITERATURE-EXAMPLE; source step not specified.
 
@@ -2176,7 +2819,7 @@ Se target to substrate: 10 cm.: 10 cm
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-E24D7AE03E00AD39` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-E24D7AE03E00AD39` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-E24D7AE03E00AD39: Se target to substrate = 10 cm; operator eq; formulation P19-LITERATURE-20261017; source step 3.
 
@@ -2190,7 +2833,7 @@ Argon background gas: 5 sccm.: 5 sccm
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-2A635B8DE6FEDCC3` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-2A635B8DE6FEDCC3` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-2A635B8DE6FEDCC3: Argon background gas = 5 sccm; operator eq; formulation P19-LITERATURE-20261017; source step 2.
 
@@ -2204,7 +2847,7 @@ Base vacuum before sample set: 5e-06 Torr.: 5e-06 Torr
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-C55E2E41E6A78FF8` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-C55E2E41E6A78FF8` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-C55E2E41E6A78FF8: Base vacuum before sample set = 5e-06 Torr; operator lt; formulation P19-LITERATURE-20261017; source step 2.
 
@@ -2218,7 +2861,7 @@ Sonicate in each of acetone, methanol, IPA: 5 min.: 5 min
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-5B38C0563B4D64A4` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-5B38C0563B4D64A4` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-5B38C0563B4D64A4: Sonicate in each of acetone, methanol, IPA = 5 min; operator eq; formulation P19-LITERATURE-20261017; source step 1.
 
@@ -2232,7 +2875,7 @@ Simultaneous target-ablation pulse rate: 2 Hz.: 2 Hz
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-1BE56B8DCD295A3E` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-1BE56B8DCD295A3E` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-1BE56B8DCD295A3E: Simultaneous target-ablation pulse rate = 2 Hz; operator eq; formulation P19-LITERATURE-20261017; source step 3.
 
@@ -2246,7 +2889,7 @@ KrF ablation pulse width: 25 ns.: 25 ns
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-03A27AE3E665FEA7` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-03A27AE3E665FEA7` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-03A27AE3E665FEA7: KrF ablation pulse width = 25 ns; operator eq; formulation P19-LITERATURE-20261017; source step 3.
 
@@ -2260,7 +2903,7 @@ KrF target-ablation laser: 248 nm.: 248 nm
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-F00726D38671232C` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-F00726D38671232C` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-F00726D38671232C: KrF target-ablation laser = 248 nm; operator eq; formulation P19-LITERATURE-20261017; source step 3.
 
@@ -2274,7 +2917,7 @@ Silver-paste substrate bake: 20 min.: 20 min
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-23E6866423BB134A` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-23E6866423BB134A` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-23E6866423BB134A: Silver-paste substrate bake = 20 min; operator eq; formulation P19-LITERATURE-20261017; source step 1.
 
@@ -2288,7 +2931,7 @@ WSe2 target to substrate: 5 cm.: 5 cm
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-B5028EB8C21869B0` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-B5028EB8C21869B0` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-B5028EB8C21869B0: WSe2 target to substrate = 5 cm; operator eq; formulation P19-LITERATURE-20261017; source step 3.
 
@@ -2302,7 +2945,7 @@ Silver-paste mounted substrate bake: 120 degC.: 120 °C
 
 - Source: [Autonomous Synthesis of Thin Film Materials with Pulsed Laser Deposition Enabled by In Situ Spectroscopy and Automation](https://doi.org/10.1002/smtd.202301763) — Methods, Substrate Preparation; Pulsed Laser Deposition and Plume Diagnostics, PDF p23
 
-**Related records:** `PC-P19-4212C1044ACA7267` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
+**Related records:** `PC-P19-4212C1044ACA7267` (condition), `P19` (process), `M09` (equipment_class), `M02` (equipment_class), `M10` (equipment_class), `M48` (equipment_class), `M110` (equipment_class), `M112` (equipment_class), `P19-LITERATURE-20261017` (formulation), `REF-1110175424B9` (academic_reference)
 
 - PC-P19-4212C1044ACA7267: Silver-paste mounted substrate bake = 120 °C; operator eq; formulation P19-LITERATURE-20261017; source step 1.
 
@@ -4514,7 +5157,7 @@ Optical-mapping film thickness: 20 nm
 
 - Source: [On-the-fly closed-loop materials discovery via Bayesian active learning](https://doi.org/10.1038/s41467-020-19597-w) — Methods M2a; PDF pp8–9
 
-**Related records:** `PC-P38-E7560313DE086E78` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
+**Related records:** `PC-P38-E7560313DE086E78` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `M112` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
 
 - PC-P38-E7560313DE086E78: Optical-mapping film thickness = 20 nm; operator eq; formulation P38-SOURCE-01; source step 1.
 
@@ -4528,7 +5171,7 @@ Anneal to crystalline state: 300 degC: 300 °C
 
 - Source: [On-the-fly closed-loop materials discovery via Bayesian active learning](https://doi.org/10.1038/s41467-020-19597-w) — Methods M2a; PDF pp8–9
 
-**Related records:** `PC-P38-010350921CA7C3CC` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
+**Related records:** `PC-P38-010350921CA7C3CC` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `M112` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
 
 - PC-P38-010350921CA7C3CC: Anneal to crystalline state = 300 °C; operator eq; formulation P38-SOURCE-01; source step 2.
 
@@ -4542,7 +5185,7 @@ Co-sputter Ge/Sb/Te composition spread: room temperature; numeric value not repo
 
 - Source: [On-the-fly closed-loop materials discovery via Bayesian active learning](https://doi.org/10.1038/s41467-020-19597-w) — Methods M2a; PDF pp8–9
 
-**Related records:** `PC-P38-54FFA975B7199EB6` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
+**Related records:** `PC-P38-54FFA975B7199EB6` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `M112` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
 
 - PC-P38-54FFA975B7199EB6: Co-sputter Ge/Sb/Te composition spread = room temperature; numeric value not reported; operator text; formulation P38-SOURCE-01; source step 1.
 
@@ -4556,7 +5199,7 @@ Anneal to crystalline state: 10 min: 10 min
 
 - Source: [On-the-fly closed-loop materials discovery via Bayesian active learning](https://doi.org/10.1038/s41467-020-19597-w) — Methods M2a; PDF pp8–9
 
-**Related records:** `PC-P38-35E3982FA3F94B90` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
+**Related records:** `PC-P38-35E3982FA3F94B90` (condition), `P38` (process), `M19` (equipment_class), `M20` (equipment_class), `M23` (equipment_class), `M59` (equipment_class), `M61` (equipment_class), `M71` (equipment_class), `M96` (equipment_class), `M112` (equipment_class), `P38-SOURCE-01` (formulation), `REF-C292BBE498C8` (academic_reference)
 
 - PC-P38-35E3982FA3F94B90: Anneal to crystalline state = 10 min; operator eq; formulation P38-SOURCE-01; source step 2.
 
@@ -4878,7 +5521,7 @@ Rinse developed pattern in IPA: 20 s: 20 s
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-638AA30DA08FA182` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-638AA30DA08FA182` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-638AA30DA08FA182: Rinse developed pattern in IPA = 20 s; operator eq; formulation P42-SOURCE-01; source step 3.
 
@@ -4892,7 +5535,7 @@ Gold nominal thickness: 40 nm
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-4EC3FCBE9F9275C0` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-4EC3FCBE9F9275C0` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-4EC3FCBE9F9275C0: Gold nominal thickness = 40 nm; operator eq; formulation P42-SOURCE-01; source step 4.
 
@@ -4906,7 +5549,7 @@ Develop in1:3 MIBK:IPA: 1 min: 1 min
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-A1BB781F604D5028` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-A1BB781F604D5028` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-A1BB781F604D5028: Develop in1:3 MIBK:IPA = 1 min; operator eq; formulation P42-SOURCE-01; source step 3.
 
@@ -4920,7 +5563,7 @@ Spin PMMA-A4 resist: 1 min: 1 min
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-3A7AADD076D23438` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-3A7AADD076D23438` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-3A7AADD076D23438: Spin PMMA-A4 resist = 1 min; operator eq; formulation P42-SOURCE-01; source step 1.
 
@@ -4934,7 +5577,7 @@ Spin PMMA-A4 resist: 7000 rpm: 7000 rpm
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-224261D8CAABB33C` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-224261D8CAABB33C` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-224261D8CAABB33C: Spin PMMA-A4 resist = 7000 rpm; operator eq; formulation P42-SOURCE-01; source step 1.
 
@@ -4948,7 +5591,7 @@ Electron-beam accelerating voltage: 10 kV: 10 kV
 
 - Source: [Plasmonic nanostructure design and characterization via Deep Learning](https://doi.org/10.1038/s41377-018-0060-7) — Materials and Methods: Preparation; PDF p7
 
-**Related records:** `PC-P42-AF10B309758872B5` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
+**Related records:** `PC-P42-AF10B309758872B5` (condition), `P42` (process), `M24` (equipment_class), `M59` (equipment_class), `M68` (equipment_class), `M85` (equipment_class), `M115` (equipment_class), `M114` (equipment_class), `P42-SOURCE-01` (formulation), `REF-C546FBEFD594` (academic_reference)
 
 - PC-P42-AF10B309758872B5: Electron-beam accelerating voltage = 10 kV; operator eq; formulation P42-SOURCE-01; source step 2.
 

@@ -556,7 +556,7 @@ M58-04,SUSS,SUSS MA6,p_M58-04,poly-fibers/v2,not_started,0,,,Empty model-bound t
 M58-05,SUSS,SUSS MJB4,p_M58-05,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
 M58-06,SUSS,SUSS MA8,p_M58-06,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
 M58-07,EVG,EVG610,p_M58-07,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
-M58-08,EVG,EVG6200,p_M58-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
+M58-08,EVG,EVG6200 NT,p_M58-08,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
 M58-09,OAI,OAI Model 200,p_M58-09,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
 M58-10,OAI,OAI Model 500,p_M58-10,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
 M59-01,RAITH,RAITH VOYAGER,p_M59-01,poly-fibers/v2,not_started,0,,,Empty model-bound template available in instrument card. Future population requires exact-model manual evidence.
@@ -725,7 +725,7 @@ EXP-20261016-M56-NL230,EKSPLA,EKSPLA NL230,p_EXP-20261016-M56-NL230,poly-fibers/
 EXP-20261016-M57-SP-150E,BioLogic,BioLogic SP-150e,p_EXP-20261016-M57-SP-150E,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
 EXP-20261016-M58-MA12-GEN3,SUSS,SUSS MA12 Gen3,p_EXP-20261016-M58-MA12-GEN3,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
 EXP-20261016-M59-JBX-A9,JEOL,JEOL JBX-A9,p_EXP-20261016-M59-JBX-A9,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
-EXP-20261016-M60-EVG7300,EVG,EVG EVG7300,p_EXP-20261016-M60-EVG7300,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
+EXP-20261016-M60-EVG7300,EVG,EVG7300,p_EXP-20261016-M60-EVG7300,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
 EXP-20261016-M61-RIE-800IP-ALE,Samco,Samco RIE-800iP-ALE,p_EXP-20261016-M61-RIE-800IP-ALE,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
 EXP-20261016-M62-UR30,Universal Robots,Universal Robots UR30,p_EXP-20261016-M62-UR30,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
 EXT-M63-METROHM-ECO,Metrohm,Metrohm Eco Titrator,p_EXT-M63-METROHM-ECO,poly-fibers/v2,not_started,0,,,Empty model-bound template. Exact-model operation positions/fibers and evidence remain a roadmap item.
@@ -1092,3 +1092,23 @@ UCLA-PQ-PH300,PicoQuant,PicoHarp 300,p_UCLA-PQ-PH300,poly-fibers/v2,not_started,
 UCLA-JANIS-ST500,Janis Research,ST-500,p_UCLA-JANIS-ST500,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
 UCLA-TF-CONTINUUM,Thermo Scientific,Nicolet Continuum,p_UCLA-TF-CONTINUUM,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
 UCLA-HF-PROBE-SETUP,Unspecified,UCLA high-frequency probe station — make/model unreported,p_UCLA-HF-PROBE-SETUP,poly-fibers/v2,not_started,0,,,UCLA does not report manufacturer or model. It lists <50 GHz and integrated I-V/C-V/photoresponse for the setup; no commercial model or fabrication origin is inferred.
+THERIS-NANOSHELL,Theris Nanotechnology,Theris NanoShell,p_THERIS-NANOSHELL,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-MSF,Theris Nanotechnology,Theris MSF mass filter,p_THERIS-MSF,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-TAS30,Theris Nanotechnology,Theris TAS30,p_THERIS-TAS30,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-TAS60,Theris Nanotechnology,Theris TAS60,p_THERIS-TAS60,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-TAS-RFI,Theris Nanotechnology,Theris TAS RFI / TASRI series,p_THERIS-TAS-RFI,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-SH300,Theris Nanotechnology,Theris SH300,p_THERIS-SH300,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-NC400,Theris Nanotechnology,Theris NC400,p_THERIS-NC400,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+THERIS-SMPL-MH4I,Theris Nanotechnology,Theris SMPL MH4i,p_THERIS-SMPL-MH4I,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG101,EVG,EVG101,p_EVG261018-EVG101,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG120,EVG,EVG120,p_EVG261018-EVG120,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG150-1,EVG,EVG150 200 mm,p_EVG261018-EVG150-1,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG150-2,EVG,EVG150 300 mm,p_EVG261018-EVG150-2,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG720,EVG,EVG720,p_EVG261018-EVG720,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG7200LA,EVG,EVG7200 LA,p_EVG261018-EVG7200LA,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-HERCULES_NIL-1,EVG,HERCULES NIL 200 mm,p_EVG261018-HERCULES_NIL-1,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-HERCULES_NIL-2,EVG,HERCULES NIL 300 mm,p_EVG261018-HERCULES_NIL-2,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG770NT,EVG,EVG770 NT,p_EVG261018-EVG770NT,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-LITHOSCALE,EVG,LITHOSCALE,p_EVG261018-LITHOSCALE,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG40NT,EVG,EVG40 NT,p_EVG261018-EVG40NT,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+EVG261018-EVG50,EVG,EVG50,p_EVG261018-EVG50,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."

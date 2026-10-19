@@ -1,0 +1,2571 @@
+{
+  "schema": "iconpcl-catalog-review/v1",
+  "checked_date": "2026-10-18",
+  "requested_catalog_url": "https://www.evgroup.com/products",
+  "summary": {
+    "existing_records_reviewed": 7,
+    "new_named_models": 10,
+    "new_equipment_variant_records": 12,
+    "new_m_classes": 3,
+    "new_records_with_images": 12,
+    "previously_missing_images_added": 3,
+    "new_numeric_prices": 0,
+    "new_evidence_records": 29,
+    "curator_step_alternatives_or_optional_extensions": 6
+  },
+  "manufacturer_update": {
+    "before": {
+      "manufacturer": "EVG",
+      "official_website_url": "https://www.evgroup.com/",
+      "brand_identity_status": "verified_manufacturer",
+      "research_use_status": "research_supplier_claim_only",
+      "research_evidence_url": "https://www.evgroup.com/",
+      "verification_notes": "Official website identifies this equipment company. Research applications appear on supplier website only; independent adoption not established in this audit. Common adoption is not claimed.",
+      "review_date": "2026-10-13",
+      "verification_basis": "",
+      "display_name": "",
+      "vendor_name": "",
+      "company_status": "",
+      "company_status_note": "",
+      "company_status_source_url": ""
+    },
+    "after": {
+      "manufacturer": "EVG",
+      "official_website_url": "https://www.evgroup.com/",
+      "brand_identity_status": "verified_manufacturer",
+      "research_use_status": "research_supplier_claim_only",
+      "research_evidence_url": "https://www.evgroup.com/products",
+      "verification_notes": "Project owner confirms EVG as an established Austrian company and requests a green star on 2026-10-18. Official About and Imprint identify EV Group Europe & Asia/Pacific GmbH in St. Florian am Inn, Austria, and a company history beginning in 1980. This is an owner-confirmed brand identity; independent adoption prevalence, every model configuration and process compatibility are not established by the star.",
+      "review_date": "2026-10-18",
+      "verification_basis": "user_confirmation",
+      "display_name": "EV Group (EVG)",
+      "vendor_name": "",
+      "company_status": "active",
+      "company_status_note": "Austrian-headquartered wafer-processing equipment company; official history reports founding in 1980.",
+      "company_status_source_url": "https://www.evgroup.com/company/about-evg"
+    }
+  },
+  "equipment_updates": [
+    {
+      "equipment_id": "M58-02",
+      "before": {
+        "variant_label": "EVG620 NT",
+        "model_status": "unresolved",
+        "model_evidence_url": "",
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+        "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
+        "technical_spec_url": "",
+        "media_checked_date": "2026-10-15",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "variant_label": "Mask alignment",
+        "model_status": "manufacturer_documented",
+        "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified. 2026-10-18 review: Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm. Same base platform as existing SmartNIL configuration. Official standard-page photograph shows an automated handling configuration; do not imply every option is included. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "manual_match_status": "manufacturer_specification",
+        "model_evidence_status": "documented",
+        "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg",
+        "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm. Same base platform as existing SmartNIL configuration. Official standard-page photograph shows an automated handling configuration; do not imply every option is included.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "product_page_scope": "Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+      }
+    },
+    {
+      "equipment_id": "M58-07",
+      "before": {
+        "model_status": "unresolved",
+        "model_evidence_url": "",
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "model_status": "manufacturer_documented",
+        "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified. 2026-10-18 review: Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm. Official mask and NIL image URLs are byte-identical. Photograph is platform imagery, not proof of installed NIL tooling. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "manual_match_status": "manufacturer_specification",
+        "model_evidence_status": "documented",
+        "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg",
+        "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+        "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm. Official mask and NIL image URLs are byte-identical. Photograph is platform imagery, not proof of installed NIL tooling.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+        "product_page_scope": "Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+      }
+    },
+    {
+      "equipment_id": "M58-08",
+      "before": {
+        "product_family": "EVG6200",
+        "model_name": "EVG6200",
+        "variant_label": "EVG6200",
+        "model_status": "unresolved",
+        "model_evidence_url": "",
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified.",
+        "manual_match_status": "not_verified",
+        "model_evidence_status": "candidate_needs_review",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "product_family": "EVG6200 NT",
+        "model_name": "EVG6200 NT",
+        "variant_label": "EVG6200 NT",
+        "model_status": "manufacturer_documented",
+        "model_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "Candidate remains unresolved in bounded audit; do not present as verified. 2026-10-18 review: Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Identity correction of unresolved original label EVG6200 to manufacturer-listed EVG6200 NT. No predecessor or successor relationship asserted. Official photo is visibly labelled EVG6200NT. Mask and NIL image URLs are byte-identical. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions. Original unresolved catalogue label EVG6200 retained as an alias here; corrected to the documented EVG6200 NT identity, not a predecessor/successor assertion.",
+        "manual_match_status": "manufacturer_specification",
+        "model_evidence_status": "documented",
+        "image_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+        "image_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+        "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Identity correction of unresolved original label EVG6200 to manufacturer-listed EVG6200 NT. No predecessor or successor relationship asserted. Official photo is visibly labelled EVG6200NT. Mask and NIL image URLs are byte-identical.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+        "product_page_scope": "Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf"
+      }
+    },
+    {
+      "equipment_id": "M60-03",
+      "before": {
+        "product_family_id": "PF-evg620ntsmartnilconfiguration",
+        "product_family": "EVG620 NT SmartNIL configuration",
+        "variant_label": "EVG620 NT SmartNIL configuration",
+        "model_status": "confirmed",
+        "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "Manufacturer product evidence; no operating manual located.",
+        "manual_match_status": "not_verified",
+        "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "image_scope": "EVG620 NT manufacturer platform photograph. SmartNIL and mask-alignment configurations/options are not independently pictured.",
+        "technical_spec_url": "",
+        "media_checked_date": "2026-10-15",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "product_family_id": "PF-evg620nt",
+        "product_family": "EVG620 NT",
+        "variant_label": "SmartNIL configuration",
+        "model_status": "manufacturer_documented",
+        "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "Manufacturer product evidence; no operating manual located. 2026-10-18 review: Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template. Same platform family as standard EVG620 NT, not a separate independently photographed hardware model. Official NIL-page photograph is an open platform labelled EVG620; treat as manufacturer-selected EVG620 NT platform image, not direct visual proof of SmartNIL tooling. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "manual_match_status": "manufacturer_specification",
+        "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "image_scope": "Manufacturer product image: Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes. Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template. Same platform family as standard EVG620 NT, not a separate independently photographed hardware model. Official NIL-page photograph is an open platform labelled EVG620; treat as manufacturer-selected EVG620 NT platform image, not direct visual proof of SmartNIL tooling.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "product_page_scope": "Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+      }
+    },
+    {
+      "equipment_id": "M60-07",
+      "before": {
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "EVG distributor confirms hot embossing and nanoimprint applications; product page is not manual.",
+        "technical_spec_url": "",
+        "product_page_scope": ""
+      },
+      "after": {
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "EVG distributor confirms hot embossing and nanoimprint applications; product page is not manual. 2026-10-18 review: Existing exact HE identity remains distributor-supported. Current official hot-embossing category lists EVG501, EVG510, EVG520 IS. No exact current manufacturer page or model-specific official HE image found in this bounded review. Official R&D brochure supports EVG520/500-series hot-embossing tooling at family/capability level, not exact HE name. Do not replace by EVG520 IS or reuse an IS photo as exact HE imagery. No explicit successor/discontinuation statement found. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "technical_spec_url": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE",
+        "product_page_scope": "Existing exact HE identity remains distributor-supported. Current official hot-embossing category lists EVG501, EVG510, EVG520 IS. Configuration-specific capabilities, not an installed-system audit."
+      }
+    },
+    {
+      "equipment_id": "M60-08",
+      "before": {
+        "variant_label": "EVG7200",
+        "model_status": "confirmed",
+        "model_evidence_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "manual_status": "not_found",
+        "documentation_url": "",
+        "price_status": "not_researched",
+        "price_checked_date": "",
+        "review_date": "2026-10-13",
+        "notes": "Manufacturer flyer confirms EVG7200 (separate from 7200 LA); flyer excluded from manuals.",
+        "manual_match_status": "not_verified",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "technical_spec_url": "",
+        "media_checked_date": "",
+        "product_page_url": "",
+        "product_page_scope": "",
+        "brochure_url": ""
+      },
+      "after": {
+        "variant_label": "Standard wafer configuration",
+        "model_status": "manufacturer_documented",
+        "model_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "Manufacturer flyer confirms EVG7200 (separate from 7200 LA); flyer excluded from manuals. 2026-10-18 review: Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication. Exact official product photograph visibly labels EVG7200. Keep EVG7200 LA panel-size configuration assets and technical limits separate. Shared EVG720/7200 flyer is valid for standard7200. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "manual_match_status": "manufacturer_specification",
+        "image_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg",
+        "image_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "image_scope": "Manufacturer product image: Manufacturer product image for named model/configuration; see any size-configuration notes. Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication. Exact official product photograph visibly labels EVG7200. Keep EVG7200 LA panel-size configuration assets and technical limits separate. Shared EVG720/7200 flyer is valid for standard7200.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "product_page_scope": "Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+      }
+    },
+    {
+      "equipment_id": "EXP-20261016-M60-EVG7300",
+      "before": {
+        "product_family": "EVG EVG7300",
+        "model_name": "EVG EVG7300",
+        "model_status": "verified_manufacturer_model",
+        "manual_status": "not_found_in_bounded_research",
+        "documentation_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+        "price_status": "quote_required_or_no_public_exact_price_verified",
+        "price_checked_date": "",
+        "review_date": "2026-10-16",
+        "notes": "UV nanoimprint SmartNIL platform, 150–300 mm wafer formats. Alignment and resolution depend on material/process and configuration.",
+        "manual_match_status": "not_verified",
+        "image_scope": "manufacturer_model_product_image",
+        "technical_spec_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+        "media_checked_date": "2026-10-16",
+        "product_page_scope": "exact_model",
+        "brochure_url": ""
+      },
+      "after": {
+        "product_family": "EVG7300",
+        "model_name": "EVG7300",
+        "model_status": "manufacturer_documented",
+        "manual_status": "no_public_operating_manual_found",
+        "documentation_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "price_status": "no_public_price_found",
+        "price_checked_date": "2026-10-18",
+        "review_date": "2026-10-18",
+        "notes": "UV nanoimprint SmartNIL platform, 150–300 mm wafer formats. Alignment and resolution depend on material/process and configuration. 2026-10-18 review: Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Exact existing official model page and model-specific photograph remain current. Remove duplicated brand prefix in display label if appropriate. Standalone system may also be integrated as module into HERCULES NIL; do not equate standalone and full track configurations. Numeric purchase price and exact operating manual were not established. Manufacturer capabilities and catalogue options are not validated recipe conditions.",
+        "manual_match_status": "manufacturer_specification",
+        "image_scope": "Manufacturer product image: Manufacturer product image for named model/configuration; see any size-configuration notes. Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Exact existing official model page and model-specific photograph remain current. Remove duplicated brand prefix in display label if appropriate. Standalone system may also be integrated as module into HERCULES NIL; do not equate standalone and full track configurations.",
+        "technical_spec_url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "media_checked_date": "2026-10-18",
+        "product_page_scope": "Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking. Configuration-specific capabilities, not an installed-system audit.",
+        "brochure_url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+      }
+    }
+  ],
+  "new_equipment_ids": [
+    "EVG261018-EVG101",
+    "EVG261018-EVG120",
+    "EVG261018-EVG150-1",
+    "EVG261018-EVG150-2",
+    "EVG261018-EVG720",
+    "EVG261018-EVG7200LA",
+    "EVG261018-HERCULES_NIL-1",
+    "EVG261018-HERCULES_NIL-2",
+    "EVG261018-EVG770NT",
+    "EVG261018-LITHOSCALE",
+    "EVG261018-EVG40NT",
+    "EVG261018-EVG50"
+  ],
+  "new_class_ids": [
+    "M113",
+    "M114",
+    "M115"
+  ],
+  "process_step_updates": [
+    {
+      "route_id": "P06",
+      "step_order": "1",
+      "before": {
+        "route_id": "P06",
+        "step_order": "1",
+        "step_label": "Prepare resist layer",
+        "equipment_sequence": "M10 clean --> optional M22 hard-mask deposition --> M24 resist coat --> M02 bake.",
+        "equipment_category_ids": "M02;M10;M22;M24",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M10\",\"M24\",\"M02\"]],\"optional_category_ids\":[\"M22\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Cleaning, coating and bake are specified; hard-mask deposition alone is optional.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "1",
+        "step_label": "Prepare resist layer",
+        "equipment_sequence": "M10 clean --> optional M22 hard-mask deposition --> M24 resist coat --> M02 bake.",
+        "equipment_category_ids": "M02;M10;M22;M24;M115",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\": [[\"M10\", \"M24\", \"M02\"], [\"M10\", \"M115\"]], \"optional_category_ids\": [\"M22\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Cleaning, coating and bake are specified; hard-mask deposition alone is optional. Curator extension 2026-10-18 (EVG official catalogue): Alternative M10 cleaning plus a configured M115 coat/develop/bake track covers coating and bake. Single-chamber EVG101 is excluded from this combined bake branch; generic M24+M02 branch remains. Exact bake/chill modules and resist process must be configured. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M115\": [\"resist_processing_track\"]}}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    },
+    {
+      "route_id": "P06",
+      "step_order": "2",
+      "before": {
+        "route_id": "P06",
+        "step_order": "2",
+        "step_label": "Define pattern: choose one",
+        "equipment_sequence": "Choose M58 mask exposure OR M59 e-beam writing OR M60 imprint.",
+        "equipment_category_ids": "M58;M59;M60;M89",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M58\"],[\"M59\"],[\"M60\"],[\"M89\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Choose exactly one pattern-definition route. The chosen route must be consistent with development and transfer stages. Alternative two-photon photopolymer branch in P06, not a drop-in replacement for the electron-beam/metal recipe. Compatible resist, development and geometry must be chosen; no automatic metal etch/transfer requirement.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "2",
+        "step_label": "Define pattern: choose one",
+        "equipment_sequence": "Choose M58 mask exposure OR M59 e-beam writing OR M60 imprint.",
+        "equipment_category_ids": "M58;M59;M60;M89;M113",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\": [[\"M58\"], [\"M59\"], [\"M60\"], [\"M89\"], [\"M113\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Choose exactly one pattern-definition route. The chosen route must be consistent with development and transfer stages. Alternative two-photon photopolymer branch in P06, not a drop-in replacement for the electron-beam/metal recipe. Compatible resist, development and geometry must be chosen; no automatic metal etch/transfer requirement. Curator extension 2026-10-18 (EVG official catalogue): M113 offers maskless optical exposure as a separate pattern-definition route. LITHOSCALE lateral feature capability is micrometre-scale; nanoscale pattern resolution is not asserted. Match resist, geometry, development and intended thin-film application. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    },
+    {
+      "route_id": "P06",
+      "step_order": "3",
+      "before": {
+        "route_id": "P06",
+        "step_order": "3",
+        "step_label": "Develop / clear layer",
+        "equipment_sequence": "Wet development, OR M61 residual-layer clearing for a suitable imprint process.",
+        "equipment_category_ids": "M85;M61",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M85\"],[\"M61\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"],\"M61\":[\"Dry plasma etching / plasma processing\",\"Dry plasma / atomic-layer etching\"]},\"when_selected\":[{\"category_id\":\"M89\",\"required_branches\":[[]],\"notes\":\"Two-photon branch: compatible photopolymer development/rinse/post-cure must be specified. The metal-pattern etch/transfer branch is not required for this planning alternative.\"}]}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "3",
+        "step_label": "Develop / clear layer",
+        "equipment_sequence": "Wet development, OR M61 residual-layer clearing for a suitable imprint process.",
+        "equipment_category_ids": "M85;M61;M115",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\": [[\"M85\"], [\"M61\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Curator functional review 2026-10-17. Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M85\": [\"wafer_wet_processing\"], \"M61\": [\"Dry plasma etching / plasma processing\", \"Dry plasma / atomic-layer etching\"], \"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}, \"when_selected\": [{\"category_id\": \"M89\", \"required_branches\": [[]], \"notes\": \"Two-photon branch: compatible photopolymer development/rinse/post-cure must be specified. The metal-pattern etch/transfer branch is not required for this planning alternative.\"}]}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    },
+    {
+      "route_id": "P06",
+      "step_order": "5",
+      "before": {
+        "route_id": "P06",
+        "step_order": "5",
+        "step_label": "Inspect / measure",
+        "equipment_sequence": "Parallel checks: M38 + M41.",
+        "equipment_category_ids": "M38;M41;M93;M96",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\":[[\"M38\",\"M41\"]],\"optional_category_ids\":[\"M93\",\"M96\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Optional contact profilometry of accessible films/steps; stylus force, film damage, roughness and substrate suitability require review. Not AFM or optical profilometry. Optional local surface elemental mapping for vacuum-compatible specimens; charging and beam damage must be checked. Not XPS or SEM-EDS.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P06",
+        "step_order": "5",
+        "step_label": "Inspect / measure",
+        "equipment_sequence": "Parallel checks: M38 + M41.",
+        "equipment_category_ids": "M38;M41;M93;M96;M114",
+        "source_pdf": "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf",
+        "source_page": "25",
+        "requirements_json": "{\"required_branches\": [[\"M38\", \"M41\"]], \"optional_category_ids\": [\"M93\", \"M96\", \"M114\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Optional contact profilometry of accessible films/steps; stylus force, film damage, roughness and substrate suitability require review. Not AFM or optical profilometry. Optional local surface elemental mapping for vacuum-compatible specimens; charging and beam damage must be checked. Not XPS or SEM-EDS. Curator extension 2026-10-18 (EVG official catalogue): Optional M114 wafer overlay/CD or film-thickness inspection, model-dependent. EVG50 is thickness-focused; do not infer that it measures overlay or replaces mandatory SEM/AFM. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    },
+    {
+      "route_id": "P42",
+      "step_order": "1",
+      "before": {
+        "route_id": "P42",
+        "step_order": "1",
+        "step_label": "Spin-coat resist on substrate",
+        "equipment_sequence": "Spin coater is reported without make/model.",
+        "equipment_category_ids": "M24",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\":[[\"M24\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.\"}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P42",
+        "step_order": "1",
+        "step_label": "Spin-coat resist on substrate",
+        "equipment_sequence": "Spin coater is reported without make/model.",
+        "equipment_category_ids": "M24;M115",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\": [[\"M24\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    },
+    {
+      "route_id": "P42",
+      "step_order": "3",
+      "before": {
+        "route_id": "P42",
+        "step_order": "3",
+        "step_label": "Develop and rinse substrate",
+        "equipment_sequence": "No separate instrument identity established.",
+        "equipment_category_ids": "M85",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\":[[\"M85\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments. Curator implementation 2026-10-17: M85 is a required fixture/vessel class. A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required. These model alternatives are not asserted to have been used by the article authors.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"]}}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      },
+      "after": {
+        "route_id": "P42",
+        "step_order": "3",
+        "step_label": "Develop and rinse substrate",
+        "equipment_sequence": "No separate instrument identity established.",
+        "equipment_category_ids": "M85;M115",
+        "source_pdf": "malkiel2018.pdf",
+        "source_page": "Materials and Methods > Preparation, PDF page7; Results/Figure2 for40nm nanostructure height",
+        "requirements_json": "{\"required_branches\": [[\"M85\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments. Curator implementation 2026-10-17: M85 is a required fixture/vessel class. A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required. These model alternatives are not asserted to have been used by the article authors. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M85\": [\"wafer_wet_processing\"], \"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}}",
+        "extension_id": "",
+        "anchor_step_order": "",
+        "before_step_order": ""
+      }
+    }
+  ],
+  "evidence_ids": [
+    "CAT-EV-47CF6F0D52550949",
+    "CAT-EV-54EA7F838C1B4F2F",
+    "CAT-EV-4C7FD91D5AED2494",
+    "CAT-EV-27AC513F294E626E",
+    "CAT-EV-396A60AE90DAE681",
+    "CAT-EV-40052F641C4BF2FD",
+    "CAT-EV-1312E157A1B1BCC2",
+    "CAT-EV-4B5D71286A6B42DE",
+    "CAT-EV-A4DA53D21F612724",
+    "CAT-EV-E9DB650E72F4F048",
+    "CAT-EV-E98A0AE240848042",
+    "CAT-EV-A3142456A25A138A",
+    "CAT-EV-7B5E2CBCC8FE221F",
+    "CAT-EV-88F4F22FF74F0AAE",
+    "CAT-EV-91F7DBAD5F5372AB",
+    "CAT-EV-BA7CBB947E8D949C",
+    "CAT-EV-AD7C78E29145D05C",
+    "CAT-EV-C6EFE4FEE398A296",
+    "CAT-EV-4C5D597B4A521F20",
+    "CAT-EV-DEDAB6E4EB45EBAE",
+    "CAT-EV-F0BC96C278C73EF8",
+    "CAT-EV-B6D9C23BB39DA626",
+    "CAT-EV-A3309C648D901C17",
+    "CAT-EV-5222061C177D683B",
+    "CAT-EV-5621A9021922C2AE",
+    "CAT-EV-5062095367D180F8",
+    "CAT-EV-A2B7C4E0203D39F1",
+    "CAT-EV-AE5887861A146441",
+    "CAT-EV-7B6CDEBF6C557118"
+  ],
+  "asset_review": {
+    "reviewed_on": "2026-10-18",
+    "scope": "Seven existing records and ten additional named models; EVG150 and HERCULES NIL have explicit size configurations. Official catalogue survey of lithography, NIL, bonding and metrology. No canonical edits or publication.",
+    "pricing": {
+      "amount": null,
+      "currency": null,
+      "status": "No model-specific list/starting/range prices found on reviewed manufacturer product pages. Contact-form CTAs shown; no price offers should be invented.",
+      "price_anchor_warning": "EVG101/120/150 industrial resist processors must not inherit benchtop spincoater price anchors."
+    },
+    "rights": "Manufacturer-hosted image assets; no redistribution licence established. Local originals kept for verification only. Public metadata includes URLs,dimensions and SHA-256.",
+    "records": [
+      {
+        "id": "existing_evg620nt_mask",
+        "name": "EVG620 NT",
+        "existing": true,
+        "method": "M58",
+        "page": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "summary": "Semi-automated/automated mask-aligner platform, standard lithography up to 150 mm.",
+        "notes": [
+          "Same base platform as existing SmartNIL configuration. Official standard-page photograph shows an automated handling configuration; do not imply every option is included."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg",
+            "alt": "EVG620NT",
+            "width": 860,
+            "height": 860,
+            "sha256": "900e5e1fe4450c742492a1f4f9b4f165a77b910ed646a3bdd2a44ff925e2ee9a"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+            "title": "EVG Mask Alignment Systems Brochure - 1.85 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+            "title": "EVG ® 620 NT / EVG ® 6200 NT Flyer - 0.84 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "photo_scope": "Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes."
+      },
+      {
+        "id": "existing_evg610",
+        "name": "EVG610",
+        "existing": true,
+        "method": "M58",
+        "page": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+        "also_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-610"
+        ],
+        "summary": "Mask alignment system for R&D, pieces up to 200 mm on mask-aligner page; soft UV-NIL configuration supports pieces to 150 mm.",
+        "notes": [
+          "Official mask and NIL image URLs are byte-identical. Photograph is platform imagery, not proof of installed NIL tooling."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg",
+            "alt": "EVG610",
+            "width": 860,
+            "height": 860,
+            "sha256": "c34c8ab01080a08d021bd519bcab1acc2a6092410c4f18feee12125e88931c42"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg610/product-610.jpg",
+            "alt": "EVG610",
+            "width": 860,
+            "height": 860,
+            "sha256": "c34c8ab01080a08d021bd519bcab1acc2a6092410c4f18feee12125e88931c42"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+            "title": "EVG Mask Alignment Systems Brochure - 1.85 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+            "title": "EVG ® 610 Flyer - 0.91 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+        "photo_scope": "Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes."
+      },
+      {
+        "id": "existing_evg6200",
+        "name": "EVG6200 NT",
+        "original_label": "EVG6200",
+        "existing": true,
+        "method": "M58",
+        "page": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+        "also_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-6200-nt"
+        ],
+        "summary": "Semi-automated/automated mask aligner up to 200 mm. NIL page separately states soft UV-NIL 75–200 mm and SmartNIL up to 150 mm.",
+        "notes": [
+          "Identity correction of unresolved original label EVG6200 to manufacturer-listed EVG6200 NT. No predecessor or successor relationship asserted.",
+          "Official photo is visibly labelled EVG6200NT. Mask and NIL image URLs are byte-identical."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+            "alt": "EVG6200NT",
+            "width": 860,
+            "height": 860,
+            "sha256": "43bf029973fa1e6f91454fbee6c28a926e9099fa67b0571f034aa1971f6f69c2"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg6200nt/product-6200nt.jpg",
+            "alt": "EVG6200NT",
+            "width": 860,
+            "height": 860,
+            "sha256": "43bf029973fa1e6f91454fbee6c28a926e9099fa67b0571f034aa1971f6f69c2"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+            "title": "EVG Mask Alignment Systems Brochure - 1.85 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+            "title": "EVG ® 620 NT / EVG ® 6200 NT Flyer - 0.84 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "photo_scope": "Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes."
+      },
+      {
+        "id": "existing_evg620nt_smartnil",
+        "name": "EVG620 NT SmartNIL configuration",
+        "existing": true,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "summary": "Universal mask alignment platform with soft UV-NIL up to 150 mm and SmartNIL up to 100 mm; ≤40 nm resolution depends on process/template.",
+        "notes": [
+          "Same platform family as standard EVG620 NT, not a separate independently photographed hardware model.",
+          "Official NIL-page photograph is an open platform labelled EVG620; treat as manufacturer-selected EVG620 NT platform image, not direct visual proof of SmartNIL tooling."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+            "alt": "EVG620NT",
+            "width": 860,
+            "height": 860,
+            "sha256": "3d1ecaf74df0b0b8eec7fba7d1dee798e86133c9d55e1ade00147237d4584ef5"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "photo_scope": "Model platform/configuration photo; installed NIL tooling cannot be verified visually. See configuration notes."
+      },
+      {
+        "id": "existing_evg520he",
+        "name": "EVG520 HE",
+        "existing": true,
+        "method": "M60",
+        "page": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE",
+        "manufacturer_family_page": "https://www.evgroup.com/products/nanoimprint-lithography/hot-embossing",
+        "summary": "Existing exact HE identity remains distributor-supported. Current official hot-embossing category lists EVG501, EVG510, EVG520 IS.",
+        "notes": [
+          "No exact current manufacturer page or model-specific official HE image found in this bounded review.",
+          "Official R&D brochure supports EVG520/500-series hot-embossing tooling at family/capability level, not exact HE name.",
+          "Do not replace by EVG520 IS or reuse an IS photo as exact HE imagery. No explicit successor/discontinuation statement found."
+        ],
+        "official_context_document": "https://www.evgroup.com/fileadmin/media/company/service/EVG_Solutions_for_R_D_Brochure.pdf",
+        "images": [],
+        "documents": [],
+        "technical_source": "No exact current manufacturer technical page matched; retain distributor/family evidence scope.",
+        "image": null,
+        "brochure": null,
+        "technical_document": null,
+        "photo_scope": "No exact manufacturer image matched."
+      },
+      {
+        "id": "existing_evg7200",
+        "name": "EVG7200",
+        "existing": true,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "summary": "Full-field SmartNIL UV nanoimprint system up to 200 mm; imprinting, UV curing, demolding and working-stamp fabrication.",
+        "notes": [
+          "Exact official product photograph visibly labels EVG7200.",
+          "Keep EVG7200 LA panel-size configuration assets and technical limits separate. Shared EVG720/7200 flyer is valid for standard7200."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg",
+            "alt": "EVG7200",
+            "width": 860,
+            "height": 860,
+            "sha256": "0f3040cd739a77f2a2c808a06fea35b5df0737cfb90923bd50b93a62eb74baea"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+            "title": "EVG ® 720 / EVG ® 7200 Flyer - 0.82 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "existing_evg7300",
+        "name": "EVG7300",
+        "original_label": "EVG EVG7300",
+        "existing": true,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+        "summary": "Multifunction UV-NIL system for 150–300 mm wafers supporting SmartNIL, lens molding and lens stacking.",
+        "notes": [
+          "Exact existing official model page and model-specific photograph remain current. Remove duplicated brand prefix in display label if appropriate.",
+          "Standalone system may also be integrated as module into HERCULES NIL; do not equate standalone and full track configurations."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+            "alt": "EVG® 7300 Multifunctional UV Nanoimprint Lithography System",
+            "width": 860,
+            "height": 860,
+            "sha256": "303d4b40056b824cf50e6bf22675f1f78c25f6fcf02ab05cebe2db309cad7b7b"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+            "title": "EVG ® 7300 Flyer - 1.2 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg101",
+        "name": "EVG101",
+        "existing": false,
+        "method": "M115",
+        "page": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101",
+        "summary": "Enclosed single-chamber advanced resist processor, manual wafer load/unload with automated configurable spin coat, OmniSpray coating or development, up to 300 mm.",
+        "notes": [
+          "A multifunction configured processor, not a simple benchtop spincoater. Avoid M24 bench-spinner price anchors.",
+          "Official photographed cabinet visibly says EVG101 OmniSpray; image scope is spray-coating configuration of the model platform."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/product-101.jpg",
+            "alt": "EVG101",
+            "width": 860,
+            "height": 860,
+            "sha256": "16fb2777eb8e1e5dcaeeefbff4f90c010a5022b9e3421295fe8d7ca4513ccfa3"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+            "title": "EVG 100 Series Brochure - 2.19 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf",
+            "title": "EVG ® 101 Flyer - 0.85 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/product-101.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg120",
+        "name": "EVG120",
+        "existing": false,
+        "method": "M115",
+        "page": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120",
+        "summary": "Fully automated modular resist processing up to 200 mm; spin/spray/develop plus bake/chill and robot handling.",
+        "notes": [
+          "Current page describes a next generation of same named EVG120; do not make separate successor record without explicit stable identity need.",
+          "Current exact Flyer filename includes26_01."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/product-120.jpg",
+            "alt": "EVG120",
+            "width": 860,
+            "height": 860,
+            "sha256": "2e6e8f7a04e13fb393f90fa0a0b104396d2f0c48bf7122a83112f2c15fd95714"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+            "title": "EVG 100 Series Brochure - 2.19 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf",
+            "title": "EVG ® 120 Flyer - 0.89 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/product-120.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg150",
+        "name": "EVG150",
+        "existing": false,
+        "method": "M115",
+        "page": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "summary": "Automated multifunction resist coat/develop processing with wet-process and bake/chill modules; distinct200mm and300mm configurations.",
+        "configurations": [
+          {
+            "name": "EVG150 200 mm",
+            "document_suffix": "EVG150_200mm_Flyer_23_01.pdf",
+            "page": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+            "image": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg",
+            "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf",
+            "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+            "photo_scope": "Official page image associated with this size configuration; do not reuse for other size configuration without family caption."
+          },
+          {
+            "name": "EVG150 300 mm",
+            "document_suffix": "EVG150_300mm_Flyer_19_01.pdf",
+            "page": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+            "image": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150-300.jpg",
+            "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf",
+            "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+            "photo_scope": "Official page image associated with this size configuration; do not reuse for other size configuration without family caption."
+          }
+        ],
+        "notes": [
+          "Separate configuration records in one documented EVG150 variant family are supported by explicit page sections and separate flyers. Preserve limits/module counts per configuration."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150-300.jpg",
+            "alt": "",
+            "width": 860,
+            "height": 860,
+            "sha256": "5a8f8ebd682638e618b3cf2000881133c48def5e87ef184d0d10b23eee88fe70"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg",
+            "alt": "EVG150",
+            "width": 860,
+            "height": 860,
+            "sha256": "4ba2caf7d1e4d4ef4e308e66dffb0aa76cd208b1fbc8de4861233f7830af41ce"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+            "title": "EVG 100 Series Brochure - 2.19 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf",
+            "title": "EVG ® 150 200mm Flyer - 0.66 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf",
+            "title": "EVG ® 150 300mm Flyer - 0.64 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg720",
+        "name": "EVG720",
+        "existing": false,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720",
+        "summary": "Full-field SmartNIL UV-NIL system, substrate sizes75–150mm; ≤40nm dependent on process/template.",
+        "notes": [
+          "Model-specific photo visibly says EVG720. Listed alongside7200 in shared flyer; do not merge exact models merely because shared document."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg720/product-720.jpg",
+            "alt": "EVG720",
+            "width": 860,
+            "height": 860,
+            "sha256": "040147866f31d878fbb7bd31f816e1f27732c9781295acb06bd24b1833a0b4dc"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+            "title": "EVG ® 720 / EVG ® 7200 Flyer - 0.82 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg720/product-720.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg7200la",
+        "name": "EVG7200 LA",
+        "existing": false,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la",
+        "summary": "Large-area SmartNIL UV-NIL,200mm diameter through Gen3 panels550×650mm; stated resolution40nm–10µm depends on template/process.",
+        "notes": [
+          "Official page calls it EVG7200 Large-Area system. It is a related large-area configuration within7200/SmartNIL line, not an inferred successor.",
+          "Exact webpage photograph is scope7200LA although visible cabinet marking reads EVG7200. Dedicated LA flyer exists."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/product-7200la.jpg",
+            "alt": "EVG7200LA",
+            "width": 860,
+            "height": 860,
+            "sha256": "02eb57f8792828f5627512a437a911e37181bb86721f1f97ad2d863a8755a4b2"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf",
+            "title": "EVG ® 7200 LA Flyer - 0.82 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/product-7200la.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_hercules_nil",
+        "name": "HERCULES NIL",
+        "existing": false,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "summary": "Fully integrated SmartNIL UV-NIL track family combining clean/coat/bake pre-processing, imprint, demolding and working-stamp fabrication.",
+        "configurations": [
+          {
+            "name": "HERCULES NIL 200 mm",
+            "document_suffix": "EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+            "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+            "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg",
+            "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+            "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "photo_scope": "Official page image associated with this size configuration; do not reuse for other size configuration without family caption."
+          },
+          {
+            "name": "HERCULES NIL 300 mm",
+            "document_suffix": "EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf",
+            "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+            "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil-2.jpg",
+            "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf",
+            "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "photo_scope": "Official page image associated with this size configuration; do not reuse for other size configuration without family caption."
+          }
+        ],
+        "notes": [
+          "Official page separately describes200mm and300mm configurations and provides separate flyers. Model-family photographs show complete track configurations, not individual imprint modules."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil-2.jpg",
+            "alt": "HERCULES NIL",
+            "width": 860,
+            "height": 860,
+            "sha256": "1537f6b75636d42c5910ef0b523f23808f8b7b4b390f347e4ca6e6ffef03112f"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg",
+            "alt": "HERCULES NIL",
+            "width": 860,
+            "height": 860,
+            "sha256": "a23ec8beee51959be02f69bf8536f98a85f717119ffcdcae9a83060dd72d0266"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+            "title": "EVG HERCULES ® NIL 200 mm Flyer - 0.74 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf",
+            "title": "EVG HERCULES ® NIL 300 mm Flyer - 0.8 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg770nt",
+        "name": "EVG770 NT",
+        "existing": false,
+        "method": "M60",
+        "page": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt",
+        "summary": "Step-and-repeat NIL for master fabrication/direct patterning; active imprint area30cm²; substrates through Gen2 370×470mm.",
+        "notes": [
+          "Manufacturer image path says evg770 but exact page identifies EVG770 NT; retain NT in verified model name.",
+          "LITHOSCALE flyer cross-link on page is related-tool material, not a model-matched770NT flyer."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/product-770.jpg",
+            "alt": "EVG770",
+            "width": 860,
+            "height": 860,
+            "sha256": "172952cb0f95bbd320a055e80d66805a781e2568adc0474b933525191dadbb27"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+            "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB"
+          },
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf",
+            "title": "EVG ® 770 NT Flyer - 0.93 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/product-770.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_lithoscale",
+        "name": "LITHOSCALE",
+        "existing": false,
+        "method": "M113",
+        "page": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale",
+        "summary": "Maskless optical exposure using MLE digital patterning and solid-state light source; wafers up to300mm; stated feature capability≤2µm.",
+        "notes": [
+          "Needs distinct maskless optical lithography class; not mask aligner/NIL hardware.",
+          "Photograph visibly labels LITHOSCALE. LITHOSCALE XT is an additional catalogued model but excluded from this bounded10-model enrichment."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/product-lithoscale.jpg",
+            "alt": "",
+            "width": 860,
+            "height": 860,
+            "sha256": "5a11aed3890968176ea2331c7407ade35c2174f3c600bf870da671d4d053a60c"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf",
+            "title": "LITHOSCALE ® Flyer - 2.18 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/product-lithoscale.jpg",
+        "brochure": null,
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg40nt",
+        "name": "EVG40 NT",
+        "existing": false,
+        "method": "M114",
+        "page": "https://www.evgroup.com/products/metrology/evg40-nt",
+        "summary": "Standalone automated lithography/bonding measurement system; critical dimensions, alignment verification and multilayer thickness.",
+        "notes": [
+          "Explicitly supports nanoimprint lithography metrology. Distinguish standalone40NT from AVM integrated module.",
+          "Not a generic software controller."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/metrology/evg40nt/product-40NT.jpg",
+            "alt": "EVG40NT",
+            "width": 860,
+            "height": 860,
+            "sha256": "c2ccf0624f6c8e202507b02f640df37dbd984d9e0014b2c924460514fa12f5bf"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+            "title": "EVG Solutions for Metrology Brochure - 2.49 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/metrology/evg40nt/product-40NT.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      },
+      {
+        "id": "new_evg50",
+        "name": "EVG50",
+        "existing": false,
+        "method": "M114",
+        "page": "https://www.evgroup.com/products/metrology/evg50",
+        "summary": "Standalone automated multilayer-thickness mapping, total-thickness-variation/resist-thickness measurement and bond-interface inspection.",
+        "notes": [
+          "Distinguish standalone50 from Inline Metrology Module integrated in high-volume systems.",
+          "Not specifically claimed to be a CD/overlay instrument; class should include film-thickness metrology."
+        ],
+        "images": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/metrology/evg50/product-50.jpg",
+            "alt": "EVG50",
+            "width": 860,
+            "height": 860,
+            "sha256": "d3ddef4ee7a8a467c29cef06d7a4cd2d374d6b829a4b1f9912a52c929c5184ed"
+          }
+        ],
+        "documents": [
+          {
+            "url": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+            "title": "EVG Solutions for Metrology Brochure - 2.49 MB"
+          }
+        ],
+        "technical_source": "Official product-page Features and Technical Data sections; linked flyers verified as public PDFs.",
+        "image": "https://www.evgroup.com/fileadmin/media/products/metrology/evg50/product-50.jpg",
+        "brochure": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "technical_document": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "photo_scope": "Manufacturer product image for named model/configuration; see any size-configuration notes."
+      }
+    ],
+    "survey_gaps": [
+      {
+        "category": "Bonding",
+        "source": "https://www.evgroup.com/products/bonding",
+        "named_examples": [
+          "EVG501",
+          "EVG510",
+          "EVG520 IS",
+          "ComBond",
+          "GEMINI"
+        ],
+        "decision": "Surveyed as distinct wafer-bonding catalogue gaps; not imported under mask-aligner or NIL classes.501/510/520IS appear in official hot-embossing category, but do not equate to legacy520HE exact configuration."
+      },
+      {
+        "category": "Maskless lithography",
+        "source": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems",
+        "named_examples": [
+          "LITHOSCALE XT"
+        ],
+        "decision": "Verified catalogue presence; outside bounded10 additions."
+      },
+      {
+        "category": "Metrology",
+        "source": "https://www.evgroup.com/products/metrology",
+        "named_examples": [
+          "EVG20",
+          "EVG40 NT2",
+          "EVG40 D2W"
+        ],
+        "decision": "Catalogue gaps retained for future scoped review; NT2/D2W not automatically equivalent to40NT."
+      },
+      {
+        "category": "Other coating/wet processing",
+        "source": "https://www.evgroup.com/products/lithography/resist-processing-systems",
+        "named_examples": [
+          "EVG105 Bake Module"
+        ],
+        "decision": "Standalone bake module outside chosen additions. No dedicated dip-coater or general wet-bench product established in this bounded catalogue review; do not infer M25/M85 capability from resist-developer modules."
+      }
+    ],
+    "identity_rules": [
+      "No model has been designated discontinued or succeeded based only on catalogue omission.",
+      "EVG6200→EVG6200NT is an evidence-backed correction of an unresolved original label, not a predecessor/successor claim.",
+      "EVG610/620NT/6200NT platform photos do not prove installed NIL tooling; keep configuration-qualified captions.",
+      "Standard7200 and7200LA assets are separately scoped; legacy520HE has no matched current official image."
+    ],
+    "images": [
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/product-lithoscale.jpg",
+        "alt": "",
+        "width": 860,
+        "height": 860,
+        "bytes": 135898,
+        "sha256": "5a11aed3890968176ea2331c7407ade35c2174f3c600bf870da671d4d053a60c",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg",
+        "alt": "EVG610",
+        "width": 860,
+        "height": 860,
+        "bytes": 89597,
+        "sha256": "c34c8ab01080a08d021bd519bcab1acc2a6092410c4f18feee12125e88931c42",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg",
+        "alt": "EVG6200NT",
+        "width": 860,
+        "height": 860,
+        "bytes": 45532,
+        "sha256": "43bf029973fa1e6f91454fbee6c28a926e9099fa67b0571f034aa1971f6f69c2",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg",
+        "alt": "EVG620NT",
+        "width": 860,
+        "height": 860,
+        "bytes": 81199,
+        "sha256": "900e5e1fe4450c742492a1f4f9b4f165a77b910ed646a3bdd2a44ff925e2ee9a",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/product-101.jpg",
+        "alt": "EVG101",
+        "width": 860,
+        "height": 860,
+        "bytes": 56173,
+        "sha256": "16fb2777eb8e1e5dcaeeefbff4f90c010a5022b9e3421295fe8d7ca4513ccfa3",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/product-120.jpg",
+        "alt": "EVG120",
+        "width": 860,
+        "height": 860,
+        "bytes": 92827,
+        "sha256": "2e6e8f7a04e13fb393f90fa0a0b104396d2f0c48bf7122a83112f2c15fd95714",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150-300.jpg",
+        "alt": "",
+        "width": 860,
+        "height": 860,
+        "bytes": 49667,
+        "sha256": "5a8f8ebd682638e618b3cf2000881133c48def5e87ef184d0d10b23eee88fe70",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg",
+        "alt": "EVG150",
+        "width": 860,
+        "height": 860,
+        "bytes": 95860,
+        "sha256": "4ba2caf7d1e4d4ef4e308e66dffb0aa76cd208b1fbc8de4861233f7830af41ce",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/metrology/evg40nt/product-40NT.jpg",
+        "alt": "EVG40NT",
+        "width": 860,
+        "height": 860,
+        "bytes": 54345,
+        "sha256": "c2ccf0624f6c8e202507b02f640df37dbd984d9e0014b2c924460514fa12f5bf",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/metrology/evg40-nt"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/metrology/evg50/product-50.jpg",
+        "alt": "EVG50",
+        "width": 860,
+        "height": 860,
+        "bytes": 44942,
+        "sha256": "d3ddef4ee7a8a467c29cef06d7a4cd2d374d6b829a4b1f9912a52c929c5184ed",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/metrology/evg50"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg610/product-610.jpg",
+        "alt": "EVG610",
+        "width": 860,
+        "height": 860,
+        "bytes": 89597,
+        "sha256": "c34c8ab01080a08d021bd519bcab1acc2a6092410c4f18feee12125e88931c42",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Byte-identical SHA-256 to inspected image_02.jpg/image_03.jpg respectively.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-610"
+        ],
+        "visually_inspected": false
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg6200nt/product-6200nt.jpg",
+        "alt": "EVG6200NT",
+        "width": 860,
+        "height": 860,
+        "bytes": 45532,
+        "sha256": "43bf029973fa1e6f91454fbee6c28a926e9099fa67b0571f034aa1971f6f69c2",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Byte-identical SHA-256 to inspected image_02.jpg/image_03.jpg respectively.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-6200-nt"
+        ],
+        "visually_inspected": false
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg",
+        "alt": "EVG620NT",
+        "width": 860,
+        "height": 860,
+        "bytes": 62088,
+        "sha256": "3d1ecaf74df0b0b8eec7fba7d1dee798e86133c9d55e1ade00147237d4584ef5",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg720/product-720.jpg",
+        "alt": "EVG720",
+        "width": 860,
+        "height": 860,
+        "bytes": 58676,
+        "sha256": "040147866f31d878fbb7bd31f816e1f27732c9781295acb06bd24b1833a0b4dc",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg",
+        "alt": "EVG7200",
+        "width": 860,
+        "height": 860,
+        "bytes": 47790,
+        "sha256": "0f3040cd739a77f2a2c808a06fea35b5df0737cfb90923bd50b93a62eb74baea",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/product-7200la.jpg",
+        "alt": "EVG7200LA",
+        "width": 860,
+        "height": 860,
+        "bytes": 37622,
+        "sha256": "02eb57f8792828f5627512a437a911e37181bb86721f1f97ad2d863a8755a4b2",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/product-7300.jpg",
+        "alt": "EVG® 7300 Multifunctional UV Nanoimprint Lithography System",
+        "width": 860,
+        "height": 860,
+        "bytes": 125661,
+        "sha256": "303d4b40056b824cf50e6bf22675f1f78c25f6fcf02ab05cebe2db309cad7b7b",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/product-770.jpg",
+        "alt": "EVG770",
+        "width": 860,
+        "height": 860,
+        "bytes": 26070,
+        "sha256": "172952cb0f95bbd320a055e80d66805a781e2568adc0474b933525191dadbb27",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil-2.jpg",
+        "alt": "HERCULES NIL",
+        "width": 860,
+        "height": 860,
+        "bytes": 63539,
+        "sha256": "1537f6b75636d42c5910ef0b523f23808f8b7b4b390f347e4ca6e6ffef03112f",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+        ],
+        "visually_inspected": true
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg",
+        "alt": "HERCULES NIL",
+        "width": 860,
+        "height": 860,
+        "bytes": 51374,
+        "sha256": "a23ec8beee51959be02f69bf8536f98a85f717119ffcdcae9a83060dd72d0266",
+        "download_status": 0,
+        "content_kind": "Manufacturer isolated product image with photographic appearance; no explicit creation-method declaration on page.",
+        "equipment_scope": "Full equipment platform or configured processing system, not accessory-only imagery.",
+        "verification": "Visually inspected with view_image.",
+        "source_pages": [
+          "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+        ],
+        "visually_inspected": true
+      }
+    ],
+    "documents": [
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf",
+        "title": "LITHOSCALE ® Flyer - 2.18 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+        "title": "EVG Mask Alignment Systems Brochure - 1.85 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+        "title": "EVG ® 610 Flyer - 0.91 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "title": "EVG ® 620 NT / EVG ® 6200 NT Flyer - 0.84 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+        "title": "EVG 100 Series Brochure - 2.19 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/EVG100_Series_Brochure.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf",
+        "title": "EVG ® 101 Flyer - 0.85 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf",
+        "title": "EVG ® 120 Flyer - 0.89 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf",
+        "title": "EVG ® 150 200mm Flyer - 0.66 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf",
+        "title": "EVG ® 150 300mm Flyer - 0.64 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "title": "EVG Solutions for Metrology Brochure - 2.49 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "title": "EVG Solutions for Nanoimprint Lithography Brochure - 1.81 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "title": "EVG ® 720 / EVG ® 7200 Flyer - 0.82 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf",
+        "title": "EVG ® 7200 LA Flyer - 0.82 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "title": "EVG ® 7300 Flyer - 1.2 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf",
+        "title": "EVG ® 770 NT Flyer - 0.93 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+        "title": "EVG HERCULES ® NIL 200 mm Flyer - 0.74 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      },
+      {
+        "url": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf",
+        "title": "EVG HERCULES ® NIL 300 mm Flyer - 0.8 MB",
+        "response": "200|application/pdf|https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf",
+        "exit": 0,
+        "access": "Direct public PDF; HTTP200 application/pdf verified; no request form/login encountered."
+      }
+    ],
+    "supplementary_official_document": {
+      "scope": "Manufacturer R&D brochure identifies EVG520/EVG500-family hot embossing capability; does not establish exact current520HE identity.",
+      "url": "https://www.evgroup.com/fileadmin/media/company/service/EVG_Solutions_for_R_D_Brochure.pdf"
+    },
+    "verification_summary": {
+      "priced_offers_found": 0,
+      "public_pdf_links": 17,
+      "unique_image_hashes": 18,
+      "image_urls": 20,
+      "additional_named_models": 10,
+      "existing_records": 7,
+      "canonical_repo_changes": 0,
+      "official_model_or_configuration_pages": 18
+    }
+  },
+  "purdue_matches": [],
+  "limits": [
+    "Owner-confirmed brand identity does not establish independent research adoption for every model.",
+    "No public numeric purchase prices found; no invented model prices or bench-spincoater benchmark applied to full resist processors.",
+    "No exact official EVG520 HE image/manual verified; retain distributor-supported identity. No EVG520 IS substitution inferred.",
+    "EVG6200 NT label correction is not a predecessor/successor relationship.",
+    "Wafer sizes, standard mask alignment, soft UV-NIL and SmartNIL capabilities remain configuration-specific.",
+    "Images/brochures are not operating manuals or proof of installed tooling.",
+    "Wafer bonding and further metrology/maskless models remain reported gaps outside this bounded import.",
+    "No experimental yields, properties, nanoscale resolution or positions/fibers/directions fabricated."
+  ],
+  "lifecycle_updates": [
+    {
+      "equipment_id": "M58-02",
+      "before": {
+        "equipment_id": "M58-02",
+        "model_name": "EVG620 NT",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-15",
+        "successor_relationship": "",
+        "review_notes": "The model was screened using an official-domain successor search and available existing source pages. No model-specific successor relationship was verified in this pass. Current and historical listings may both appear; this is not a certification of latest generation, availability or support.",
+        "review_method": "targeted_official_domain_search",
+        "review_query": "EVG EVG620 NT successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/;https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt;https://www.evgroup.com/fileadmin/media/products/EVG_Product_Range_Brochure_24_01.pdf",
+        "review_source_match": "model_text_match"
+      },
+      "after": {
+        "equipment_id": "M58-02",
+        "model_name": "EVG620 NT",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. No newest-model certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "EVG EVG620 NT successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf",
+        "review_source_match": "model_text_match"
+      }
+    },
+    {
+      "equipment_id": "M58-07",
+      "before": {
+        "equipment_id": "M58-07",
+        "model_name": "EVG610",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-15",
+        "successor_relationship": "",
+        "review_notes": "The model was screened using an official-domain successor search and available existing source pages. No model-specific successor relationship was verified in this pass. Current and historical listings may both appear; this is not a certification of latest generation, availability or support.",
+        "review_method": "targeted_official_domain_search",
+        "review_query": "EVG EVG610 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/mask-alignment-systems;https://www.evgroup.com/de/products/lithography/mask-alignment-systems/evg610/;https://www.evgroup.com/fileadmin/media/products/EVG_Product_Range_Brochure.pdf;https://www.evgroup.com/",
+        "review_source_match": "model_text_match"
+      },
+      "after": {
+        "equipment_id": "M58-07",
+        "model_name": "EVG610",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. No newest-model certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "EVG EVG610 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf;https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "review_source_match": "model_text_match"
+      }
+    },
+    {
+      "equipment_id": "M58-08",
+      "before": {
+        "equipment_id": "M58-08",
+        "model_name": "EVG6200",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/fileadmin/media/company/news/2026/2026_04_21_EVG_Cezamat/EVG_CEZAMAT_PressRelease_2026_04_21_EN.pdf",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-15",
+        "successor_relationship": "",
+        "review_notes": "The model was screened using an official-domain successor search and available existing source pages. No model-specific successor relationship was verified in this pass. Current and historical listings may both appear; this is not a certification of latest generation, availability or support.",
+        "review_method": "targeted_official_domain_search",
+        "review_query": "EVG EVG6200 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/fileadmin/media/company/news/2026/2026_04_21_EVG_Cezamat/EVG_CEZAMAT_PressRelease_2026_04_21_EN.pdf;https://www.evgroup.com/fileadmin/media/company/news/2026/2026_04_21_EVG_Cezamat/EVG_CEZAMAT_PressRelease_2026_04_21_DE.pdf;https://www.evgroup.com/zh/company/news/detail/cezamat-boosts-advanced-photonics-rd-with-state-of-the-art-uv-nanoimprint-system-from-ev-group",
+        "review_source_match": "model_text_match"
+      },
+      "after": {
+        "equipment_id": "M58-08",
+        "model_name": "EVG6200 NT",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. Corrected unresolved EVG6200 label to manufacturer-listed EVG6200 NT; this is not a generational successor.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "EVG EVG6200 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG_Mask_Aligner_Brochure_.pdf;https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf;https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "review_source_match": "model_text_match"
+      }
+    },
+    {
+      "equipment_id": "M60-03",
+      "before": {
+        "equipment_id": "M60-03",
+        "model_name": "EVG620 NT SmartNIL configuration",
+        "manufacturer": "EVG",
+        "lifecycle_status": "model_unresolved",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-15",
+        "successor_relationship": "",
+        "review_notes": "A targeted manufacturer/model successor search did not produce a usable exact-model primary-source match. The model or generation remains unresolved; no latest-model or current-availability claim is made.",
+        "review_method": "targeted_official_domain_search",
+        "review_query": "EVG EVG620 NT SmartNIL configuration successor replacement newer model discontinued current product",
+        "review_source_urls": "",
+        "review_source_match": "no_usable_model_source"
+      },
+      "after": {
+        "equipment_id": "M60-03",
+        "model_name": "EVG620 NT SmartNIL configuration",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. No newest-model certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "EVG EVG620 NT SmartNIL configuration successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt;https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf",
+        "review_source_match": "no_usable_model_source"
+      }
+    },
+    {
+      "equipment_id": "M60-08",
+      "before": {
+        "equipment_id": "M60-08",
+        "model_name": "EVG7200",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200/",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-15",
+        "successor_relationship": "",
+        "review_notes": "The model was screened using an official-domain successor search and available existing source pages. No model-specific successor relationship was verified in this pass. Current and historical listings may both appear; this is not a certification of latest generation, availability or support.",
+        "review_method": "targeted_official_domain_search",
+        "review_query": "EVG EVG7200 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200/;https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la/;https://www.evgroup.com/index.php?L=5&id=110",
+        "review_source_match": "model_text_match"
+      },
+      "after": {
+        "equipment_id": "M60-08",
+        "model_name": "EVG7200",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. No newest-model certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "EVG EVG7200 successor replacement newer model discontinued current product",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200;https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf;https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf",
+        "review_source_match": "model_text_match"
+      }
+    },
+    {
+      "equipment_id": "EXP-20261016-M60-EVG7300",
+      "before": {
+        "equipment_id": "EXP-20261016-M60-EVG7300",
+        "model_name": "EVG EVG7300",
+        "manufacturer": "EVG",
+        "lifecycle_status": "model_unresolved",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-16",
+        "successor_relationship": "",
+        "review_notes": "Manufacturer model identity checked for market breadth. Successor/current-generation research was not performed; no newest-model, current availability or support certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+        "review_source_match": "official_identity_source"
+      },
+      "after": {
+        "equipment_id": "EXP-20261016-M60-EVG7300",
+        "model_name": "EVG7300",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official product identity and configuration checked on 2026-10-18. No explicit replacement/discontinuation relationship established. No newest-model certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300;https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf;https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf",
+        "review_source_match": "official_identity_source"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG101",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG101",
+        "model_name": "EVG101",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG120",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG120",
+        "model_name": "EVG120",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG150-1",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG150-1",
+        "model_name": "EVG150 200 mm",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG150-2",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG150-2",
+        "model_name": "EVG150 300 mm",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG720",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG720",
+        "model_name": "EVG720",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG7200LA",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG7200LA",
+        "model_name": "EVG7200 LA",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-HERCULES_NIL-1",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-HERCULES_NIL-1",
+        "model_name": "HERCULES NIL 200 mm",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-HERCULES_NIL-2",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-HERCULES_NIL-2",
+        "model_name": "HERCULES NIL 300 mm",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG770NT",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG770NT",
+        "model_name": "EVG770 NT",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-LITHOSCALE",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-LITHOSCALE",
+        "model_name": "LITHOSCALE",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG40NT",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG40NT",
+        "model_name": "EVG40 NT",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/metrology/evg40-nt",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/metrology/evg40-nt",
+        "review_source_match": ""
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG50",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG50",
+        "model_name": "EVG50",
+        "manufacturer": "EVG",
+        "lifecycle_status": "no_successor_confirmed",
+        "successor_model_name": "",
+        "successor_product_url": "",
+        "successor_evidence_url": "https://www.evgroup.com/products/metrology/evg50",
+        "successor_scope": "",
+        "successor_checked_date": "2026-10-18",
+        "successor_relationship": "",
+        "review_notes": "Official model/configuration identity checked. No explicit predecessor or successor relationship established; no newest-generation certification.",
+        "review_method": "primary_source_identity_only",
+        "review_query": "",
+        "review_source_urls": "https://www.evgroup.com/products/metrology/evg50",
+        "review_source_match": ""
+      }
+    }
+  ],
+  "membership_updates": [
+    {
+      "equipment_id": "M58-02",
+      "before": {
+        "equipment_id": "M58-02",
+        "model_name": "EVG620 NT",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg620nt",
+        "product_family": "EVG620 NT",
+        "variant_label": "Mask alignment",
+        "model_variant_id": "M58-02",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "PF-evg620nt",
+        "previous_product_family": "EVG620 NT",
+        "previous_variant_label": "EVG620 NT",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "grouping_basis": "Manufacturer EVG620 NT platform with SmartNIL configuration. M58/M60 category assignments and related processes remain per configuration.",
+        "review_date": "2026-10-15"
+      },
+      "after": {
+        "equipment_id": "M58-02",
+        "model_name": "EVG620 NT",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg620nt",
+        "product_family": "EVG620 NT",
+        "variant_label": "Mask alignment",
+        "model_variant_id": "M58-02",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "PF-evg620nt",
+        "previous_product_family": "EVG620 NT",
+        "previous_variant_label": "EVG620 NT",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt",
+        "grouping_basis": "Documented configurations of the same base platform. Categories, size limits, modules and photo scope remain per variant; not an interchangeable turnkey configuration.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "M60-03",
+      "before": {
+        "equipment_id": "M60-03",
+        "model_name": "EVG620 NT SmartNIL configuration",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg620nt",
+        "product_family": "EVG620 NT",
+        "variant_label": "SmartNIL configuration",
+        "model_variant_id": "M60-03",
+        "variant_sort_order": "2",
+        "previous_product_family_id": "PF-evg620ntsmartnilconfiguration",
+        "previous_product_family": "EVG620 NT SmartNIL configuration",
+        "previous_variant_label": "EVG620 NT SmartNIL configuration",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt/",
+        "grouping_basis": "Manufacturer EVG620 NT platform with SmartNIL configuration. M58/M60 category assignments and related processes remain per configuration.",
+        "review_date": "2026-10-15"
+      },
+      "after": {
+        "equipment_id": "M60-03",
+        "model_name": "EVG620 NT SmartNIL configuration",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg620nt",
+        "product_family": "EVG620 NT",
+        "variant_label": "SmartNIL configuration",
+        "model_variant_id": "M60-03",
+        "variant_sort_order": "2",
+        "previous_product_family_id": "PF-evg620ntsmartnilconfiguration",
+        "previous_product_family": "EVG620 NT SmartNIL configuration",
+        "previous_variant_label": "EVG620 NT SmartNIL configuration",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt",
+        "grouping_basis": "Documented configurations of the same base platform. Categories, size limits, modules and photo scope remain per variant; not an interchangeable turnkey configuration.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "M60-08",
+      "before": null,
+      "after": {
+        "equipment_id": "M60-08",
+        "model_name": "EVG7200",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg7200",
+        "product_family": "EVG7200",
+        "variant_label": "Standard wafer configuration",
+        "model_variant_id": "M60-08",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200",
+        "grouping_basis": "Documented configurations of the same base platform. Categories, size limits, modules and photo scope remain per variant; not an interchangeable turnkey configuration.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG101",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG101",
+        "model_name": "EVG101",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG101",
+        "product_family": "EVG101",
+        "variant_label": "EVG101",
+        "model_variant_id": "EVG261018-EVG101",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG120",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG120",
+        "model_name": "EVG120",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG120",
+        "product_family": "EVG120",
+        "variant_label": "EVG120",
+        "model_variant_id": "EVG261018-EVG120",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG150-1",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG150-1",
+        "model_name": "EVG150 200 mm",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG150",
+        "product_family": "EVG150",
+        "variant_label": "EVG150 200 mm",
+        "model_variant_id": "EVG261018-EVG150-1",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG150-2",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG150-2",
+        "model_name": "EVG150 300 mm",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG150",
+        "product_family": "EVG150",
+        "variant_label": "EVG150 300 mm",
+        "model_variant_id": "EVG261018-EVG150-2",
+        "variant_sort_order": "2",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG720",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG720",
+        "model_name": "EVG720",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG720",
+        "product_family": "EVG720",
+        "variant_label": "EVG720",
+        "model_variant_id": "EVG261018-EVG720",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG7200LA",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG7200LA",
+        "model_name": "EVG7200 LA",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-evg7200",
+        "product_family": "EVG7200",
+        "variant_label": "LA · large-area configuration",
+        "model_variant_id": "EVG261018-EVG7200LA",
+        "variant_sort_order": "2",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-HERCULES_NIL-1",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-HERCULES_NIL-1",
+        "model_name": "HERCULES NIL 200 mm",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-HERCULES_NIL",
+        "product_family": "HERCULES NIL",
+        "variant_label": "HERCULES NIL 200 mm",
+        "model_variant_id": "EVG261018-HERCULES_NIL-1",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-HERCULES_NIL-2",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-HERCULES_NIL-2",
+        "model_name": "HERCULES NIL 300 mm",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-HERCULES_NIL",
+        "product_family": "HERCULES NIL",
+        "variant_label": "HERCULES NIL 300 mm",
+        "model_variant_id": "EVG261018-HERCULES_NIL-2",
+        "variant_sort_order": "2",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG770NT",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG770NT",
+        "model_name": "EVG770 NT",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG770NT",
+        "product_family": "EVG770 NT",
+        "variant_label": "EVG770 NT",
+        "model_variant_id": "EVG261018-EVG770NT",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-LITHOSCALE",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-LITHOSCALE",
+        "model_name": "LITHOSCALE",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-LITHOSCALE",
+        "product_family": "LITHOSCALE",
+        "variant_label": "LITHOSCALE",
+        "model_variant_id": "EVG261018-LITHOSCALE",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG40NT",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG40NT",
+        "model_name": "EVG40 NT",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG40NT",
+        "product_family": "EVG40 NT",
+        "variant_label": "EVG40 NT",
+        "model_variant_id": "EVG261018-EVG40NT",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/metrology/evg40-nt",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    },
+    {
+      "equipment_id": "EVG261018-EVG50",
+      "before": null,
+      "after": {
+        "equipment_id": "EVG261018-EVG50",
+        "model_name": "EVG50",
+        "manufacturer": "EVG",
+        "product_family_id": "PF-EVG261018-EVG50",
+        "product_family": "EVG50",
+        "variant_label": "EVG50",
+        "model_variant_id": "EVG261018-EVG50",
+        "variant_sort_order": "1",
+        "previous_product_family_id": "",
+        "previous_product_family": "",
+        "previous_variant_label": "",
+        "grouping_source_url": "https://www.evgroup.com/products/metrology/evg50",
+        "grouping_basis": "Officially documented model/size configurations. Configuration-specific image and technical document are kept with each chip; no successor relationship implied.",
+        "review_date": "2026-10-18"
+      }
+    }
+  ]
+}

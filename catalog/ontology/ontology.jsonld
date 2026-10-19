@@ -979,6 +979,52 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0267F5CC2B11%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-0267F5CC2B11:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-0267F5CC2B11"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-457845C68B11"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0267F5CC2B11%3AM13%3Aprocess_inferred",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -5365,6 +5411,98 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P19"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P19; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-1110175424B9%3AM110%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-1110175424B9:M110:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-1110175424B9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RF atom sources for vacuum deposition"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FCBFD2434D939E"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M110"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P19"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P19; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-1110175424B9%3AM112%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-1110175424B9:M112:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-1110175424B9"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UHV substrate stages and manipulators"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FCBFD2434D939E"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
@@ -10023,6 +10161,144 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-3BBCD9736CB4%3AM113%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-3BBCD9736CB4:M113:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-3BBCD9736CB4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Maskless optical lithography systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-038D86144EC5"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-3BBCD9736CB4%3AM114%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-3BBCD9736CB4:M114:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-3BBCD9736CB4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer overlay and film-thickness metrology systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-038D86144EC5"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-3BBCD9736CB4%3AM115%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-3BBCD9736CB4:M115:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-3BBCD9736CB4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer resist coating and development systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-038D86144EC5"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-3BBCD9736CB4%3AM22%3Aprocess_inferred",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -11189,6 +11465,52 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-4488A4233A2A%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-4488A4233A2A:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-4488A4233A2A"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-5E6ED8CFE2B4"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-4488A4233A2A%3AM13%3Aprocess_inferred",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -11681,6 +12003,144 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
       {
         "@value": "One literature-specific example for this broad process class; not a universal recipe. Source conditions, suitability and yield require scientific review."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-5C978B93F5DA%3AM109%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-5C978B93F5DA:M109:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-5C978B93F5DA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nanoparticle beam mass filters"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-7E9941BF084E4B"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M109"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-5C978B93F5DA%3AM112%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-5C978B93F5DA:M112:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-5C978B93F5DA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UHV substrate stages and manipulators"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-7E9941BF084E4B"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-5C978B93F5DA%3AM116%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-5C978B93F5DA:M116:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-5C978B93F5DA"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gas-phase nanoparticle core-shell coaters"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-7E9941BF084E4B"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M116"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
       }
     ]
   },
@@ -12480,6 +12940,52 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-64316ABBCDBF%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-64316ABBCDBF:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-64316ABBCDBF"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-091CDC5ED892DC"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
@@ -18217,6 +18723,52 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-881E66C7D754%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-881E66C7D754:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-881E66C7D754"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-B5C6D3C5F418B0"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-881E66C7D754%3AM13%3Achecked_claim",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -20353,6 +20905,52 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-943617F9C471%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-943617F9C471:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-943617F9C471"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-4EB3C8358B03"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-943617F9C471%3AM13%3Achecked_claim",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -21558,6 +22156,190 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9843819D5591%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9843819D5591:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9843819D5591"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-4714A8B0AEC085"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P14"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P14; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9843819D5591%3AM113%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9843819D5591:M113:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9843819D5591"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Maskless optical lithography systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EA661F24E728CC"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9843819D5591%3AM114%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9843819D5591:M114:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9843819D5591"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer overlay and film-thickness metrology systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EA661F24E728CC"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9843819D5591%3AM115%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9843819D5591:M115:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9843819D5591"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer resist coating and development systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EA661F24E728CC"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
@@ -24176,6 +24958,144 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9F2E07E43FA2%3AM109%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9F2E07E43FA2:M109:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9F2E07E43FA2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nanoparticle beam mass filters"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-C92B2FDAE785"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M109"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9F2E07E43FA2%3AM112%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9F2E07E43FA2:M112:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9F2E07E43FA2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UHV substrate stages and manipulators"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-C92B2FDAE785"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9F2E07E43FA2%3AM116%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-9F2E07E43FA2:M116:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-9F2E07E43FA2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gas-phase nanoparticle core-shell coaters"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-C92B2FDAE785"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M116"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P01; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-9F2E07E43FA2%3AM28%3Aprocess_inferred",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -24848,6 +25768,52 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A12730235B6E%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-A12730235B6E:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-A12730235B6E"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-6A7500F1FEAF2A"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
@@ -27224,6 +28190,52 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-BE5561C4E349%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-BE5561C4E349:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-BE5561C4E349"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-C4D39C20692F"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P08; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-BE5561C4E349%3AM13%3Aprocess_inferred",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -27962,6 +28974,190 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C292BBE498C8%3AM112%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C292BBE498C8:M112:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C292BBE498C8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UHV substrate stages and manipulators"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-4CF4F7F06B3530"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P38"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P38; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C292BBE498C8%3AM113%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C292BBE498C8:M113:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C292BBE498C8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Maskless optical lithography systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EE75E3FF1F345E"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C292BBE498C8%3AM114%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C292BBE498C8:M114:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C292BBE498C8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer overlay and film-thickness metrology systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EE75E3FF1F345E"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C292BBE498C8%3AM115%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C292BBE498C8:M115:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C292BBE498C8"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer resist coating and development systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-EE75E3FF1F345E"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
@@ -29070,6 +30266,156 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
       {
         "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C546FBEFD594%3AM113%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C546FBEFD594:M113:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C546FBEFD594"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Maskless optical lithography systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-BC07F8CB558F8A"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C546FBEFD594%3AM114%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C546FBEFD594:M114:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C546FBEFD594"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer overlay and film-thickness metrology systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-4F57F85CF10BD8"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-BC07F8CB558F8A"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model. Inferred from the current ontology for P42; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-C546FBEFD594%3AM115%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-C546FBEFD594:M115:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-C546FBEFD594"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer resist coating and development systems"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-4F57F85CF10BD8"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-BC07F8CB558F8A"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P06; not evidence that the paper used every listed class or an exact model. Inferred from the current ontology for P42; not evidence that the paper used every listed class or an exact model."
       }
     ]
   },
@@ -33443,6 +34789,52 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
       {
         "@value": "Inferred from the current ontology for P09; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-D82B35D1EEF5%3AM111%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-D82B35D1EEF5:M111:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-D82B35D1EEF5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-FORM-1F4894EDD363"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P14"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P14; not evidence that the paper used every listed class or an exact model."
       }
     ]
   },
@@ -41145,6 +42537,38 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A1%3Abranch%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:1:branch:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A1%3Abranch%3A2%3A1"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A1%3Abranch%3A2%3A2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A2%3Abranch%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
@@ -41249,6 +42673,32 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A2%3Abranch%3A5",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:2:branch:5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 5"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A2%3Abranch%3A5%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A3%3Abranch%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
@@ -41297,6 +42747,32 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M61"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A3%3Abranch%3A3",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:3:branch:3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A3%3Abranch%3A3%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ]
   },
@@ -46106,6 +47582,32 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A1%3Abranch%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P42:1:branch:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P42%3A1%3Abranch%3A2%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A2%3Abranch%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
@@ -46154,6 +47656,32 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M85"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A3%3Abranch%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P42:3:branch:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P42%3A3%3Abranch%3A2%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ]
   },
@@ -47260,6 +48788,28 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M109",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M109"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nanoparticle beam mass filters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M11",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
@@ -47273,6 +48823,160 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Rotor-stator homogenizer"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M110",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M110"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "RF atom sources for vacuum deposition"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M111"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Broad-beam RF ion sources"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M112"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UHV substrate stages and manipulators"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M113"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Maskless optical lithography systems"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M114"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer overlay and film-thickness metrology systems"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M115"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wafer resist coating and development systems"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M116",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M116"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Gas-phase nanoparticle core-shell coaters"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -78358,6 +80062,984 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG101",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG101"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/product-101.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/EVG101_Flyer_20_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg101/product-101.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg101"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG120",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG120"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG120"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/product-120.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/EVG120_Flyer_26_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg120/product-120.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg120"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG150-1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG150-1"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG150 200 mm"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_200mm_Flyer_23_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG150-2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG150-2"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG150 300 mm"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150-300.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/EVG150_300mm_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/resist_processing/evg150/product-150-300.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/resist-processing-systems/evg150"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG40NT",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG40NT"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG40 NT"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/evg40nt/product-40NT.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/metrology/evg40-nt"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/evg40nt/product-40NT.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/metrology/evg40-nt"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG50",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG50"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG50"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P42"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/evg50/product-50.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/metrology/evg50"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/EVG_Solutions_for_Metrology_Brochure.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/metrology/evg50/product-50.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/metrology/evg50"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG720",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG720"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG720"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg720/product-720.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg720/product-720.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-720"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG7200LA",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG7200LA"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG7200 LA"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/product-7200la.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/EVG7200_LA_SmartNIL_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200la/product-7200la.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200-la"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG770NT",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-EVG770NT"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EVG770 NT"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/product-770.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/EVG770_NT_Flyer.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg770/product-770.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg770-nt"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-HERCULES_NIL-1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-HERCULES_NIL-1"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "HERCULES NIL 200 mm"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_200_mm_Flyer_19_02.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-HERCULES_NIL-2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-HERCULES_NIL-2"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "HERCULES NIL 300 mm"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil-2.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/EVG_HERCULES_NIL_300_mm_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/hercules-nil/product-hercules-nil-2.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/hercules-nil"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-LITHOSCALE",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "EVG261018-LITHOSCALE"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "LITHOSCALE"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/product-lithoscale.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/EVG_LITHOSCALE_Flyer_21_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/lithoscale/evg_lithoscale/product-lithoscale.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/lithoscale-maskless-exposure-lithography-systems/lithoscale"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EXP-20261016-M01-EX224N-AD",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -83697,12 +86379,12 @@
     ],
     "http://purl.org/dc/terms/references": [
       {
-        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "EVG EVG7300"
+        "@value": "EVG7300"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
@@ -83725,7 +86407,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -83745,7 +86427,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
-        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7300"
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7300/EVG7300_22_02.pdf"
       }
     ],
     "https://schema.org/image": [
@@ -153069,6 +155751,11 @@
         "@value": "M54-02"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Theris Nanotechnology: Theris NanoStreamS"
@@ -153076,7 +155763,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "inherited family-level curated route; model-specific suitability not established"
+        "@value": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
@@ -153110,6 +155797,16 @@
         "@id": "https://therisnano.com/wp-content/uploads/2023/03/NGS-model.57-scaled.jpg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "https://schema.org/image": [
       {
         "@id": "https://therisnano.com/wp-content/uploads/2023/03/NGS-model.57-scaled.jpg"
@@ -153118,6 +155815,11 @@
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
       }
     ]
   },
@@ -153248,6 +155950,11 @@
         "@value": "M54-05"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Theris NanoStreamT"
@@ -153255,7 +155962,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "inherited family-level curated route; model-specific suitability not established"
+        "@value": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
@@ -153289,6 +155996,16 @@
         "@id": "https://therisnano.com/wp-content/uploads/2023/03/Section-2-NanoStreamT-section.88.jpg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "https://schema.org/image": [
       {
         "@id": "https://therisnano.com/wp-content/uploads/2023/03/Section-2-NanoStreamT-section.88.jpg"
@@ -153297,6 +156014,11 @@
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/theris"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
       }
     ]
   },
@@ -153311,6 +156033,11 @@
         "@value": "M54-06"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Theris NanoStreamV"
@@ -153318,7 +156045,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "inherited family-level curated route; model-specific suitability not established"
+        "@value": "Manufacturer documents terminated gas condensation using sputtering; P01 relevance is a curator class-level association, not a validated recipe or host-system substitution."
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
@@ -153352,6 +156079,16 @@
         "@id": "https://therisnano.com/wp-content/uploads/2024/10/NanoStreamV-scaled-e1728570037407.jpg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
     "https://schema.org/image": [
       {
         "@id": "https://therisnano.com/wp-content/uploads/2024/10/NanoStreamV-scaled-e1728570037407.jpg"
@@ -153360,6 +156097,11 @@
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/theris"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
       }
     ]
   },
@@ -154827,6 +157569,11 @@
         "@value": "M58-02"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "EVG620 NT"
@@ -154852,7 +157599,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -154862,17 +157609,32 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
       {
-        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg"
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
       }
     ],
     "https://schema.org/image": [
       {
-        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg"
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg620nt/product-620nt.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg620-nt"
       }
     ]
   },
@@ -155087,6 +157849,11 @@
         "@value": "M58-07"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "EVG610"
@@ -155112,7 +157879,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -155120,9 +157887,34 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/EVG610_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg610/product-610.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg610"
       }
     ]
   },
@@ -155137,9 +157929,14 @@
         "@value": "M58-08"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
-        "@value": "EVG6200"
+        "@value": "EVG6200 NT"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
@@ -155162,7 +157959,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -155170,9 +157967,34 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/EVG620_EVG6200_NT_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/lithography/mask_alignment/evg6200nt/product-6200nt.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/lithography/mask-alignment-systems/evg6200-nt"
       }
     ]
   },
@@ -155977,6 +158799,11 @@
         "@value": "M60-03"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "EVG620 NT SmartNIL configuration"
@@ -156002,7 +158829,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -156015,6 +158842,16 @@
         "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf"
+      }
+    ],
     "https://schema.org/image": [
       {
         "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg620nt/product-620nt.jpg"
@@ -156023,6 +158860,11 @@
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-620-nt"
       }
     ]
   },
@@ -156187,6 +159029,11 @@
         "@value": "M60-07"
       }
     ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE"
+      }
+    ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "EVG520 HE"
@@ -156220,6 +159067,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.ies.co.uk/equipment-partners/products/nanoimprint-lithography/EVG520-HE"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
@@ -156235,6 +159087,11 @@
     "http://purl.org/dc/terms/identifier": [
       {
         "@value": "M60-08"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -156262,7 +159119,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
       {
-        "@value": "not_verified"
+        "@value": "manufacturer_specification"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
@@ -156270,9 +159127,34 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/evg7200/product-7200.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/evg"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.evgroup.com/products/nanoimprint-lithography/uv-nil-smartnil/evg-7200"
       }
     ]
   },
@@ -163302,6 +166184,687 @@
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/physicalelectronics"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-MSF",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-MSF"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris MSF mass filter"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "In-line quadrupole mass-analysis/filter accessory for NanoStream sources. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M109"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/03/MFS-model.48-scaled.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/03/MFS-model.48-scaled.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/nanostream-nanoparticle-deposition-sources/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-NANOSHELL",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-NANOSHELL"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris NanoShell"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Core-shell coating accessory/module between NanoStream source and deposition chamber; includes electronics/software but is not the whole nanoparticle generation/deposition system. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M116"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2024/07/NanoShell-alone.187-scaled.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/nanoshell-core-shell-coater/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2024/07/NanoShell-alone.187-scaled.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/nanoshell-core-shell-coater/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-NC400",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-NC400"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris NC400"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Full custom nanoparticle/PVD deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M54"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/custom-uhv-deposition-systems/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/custom-uhv-deposition-systems/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-SH300",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-SH300"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris SH300"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Full custom nanoparticle/PVD deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M54"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/07/sh300-scaled-e1785313108411.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/custom-uhv-deposition-systems/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/07/sh300-scaled-e1785313108411.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/custom-uhv-deposition-systems/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-SMPL-MH4I",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-SMPL-MH4I"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/custom-sample-stages/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris SMPL MH4i"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "UHV sample-stage components/accessories, not complete vacuum deposition systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P19"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P38"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M112"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/02/MULTI_SMPL-1.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/custom-sample-stages/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/custom-sample-stages/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/02/MULTI_SMPL-1.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/custom-sample-stages/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-TAS-RFI",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-TAS-RFI"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/tas-rf-ion-sources/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris TAS RFI / TASRI series"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Broad-beam UHV RF ion-source family; source component for processing/deposition, not whole turnkey vacuum system. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P14"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M111"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/01/20250909_100450-scaled.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/tas-rf-ion-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/tas-rf-ion-sources/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2026/01/20250909_100450-scaled.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/tas-rf-ion-sources/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-TAS30",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-TAS30"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris TAS30"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "UHV RF atom-source components for atomic species deposition/cleaning; not turnkey vacuum systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P19"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M110"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS30.101.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/rf-atom-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS30.101.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/rf-atom-sources/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/THERIS-TAS60",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "THERIS-TAS60"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Theris TAS60"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "UHV RF atom-source components for atomic species deposition/cleaning; not turnkey vacuum systems. Manufacturer product claims only. P/N links express curator relevance, not source-article apparatus, measured performance, exact host compatibility or mandatory process steps."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P19"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M110"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS60.108.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://therisnano.com/rf-atom-sources/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS-Brochure-2023.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://therisnano.com/wp-content/uploads/2023/12/TAS60.108.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/therisnanotechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://therisnano.com/rf-atom-sources/"
       }
     ]
   },
@@ -208902,6 +212465,48 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A1%3Abranch%3A2%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:1:branch:2:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M10 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M10"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A1%3Abranch%3A2%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:1:branch:2:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M115 requirement 2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A2%3Abranch%3A1%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
@@ -208986,6 +212591,27 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A2%3Abranch%3A5%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:2:branch:5:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M113 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M113"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A3%3Abranch%3A1%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
@@ -209024,6 +212650,27 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M61"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P06%3A3%3Abranch%3A3%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P06:3:branch:3:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M115 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ]
   },
@@ -213144,6 +216791,27 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P42%3A1%3Abranch%3A2%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P42:1:branch:2:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M115 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P42%3A2%3Abranch%3A1%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
@@ -213182,6 +216850,27 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M85"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P42%3A3%3Abranch%3A2%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P42:3:branch:2:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M115 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M115"
       }
     ]
   },
@@ -213989,7 +217678,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "curated conceptual route in source PDF; not an operating procedure"
+        "@value": "curated conceptual route in source PDF; not an operating procedure Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -214101,7 +217790,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "curated conceptual route in source PDF; not an operating procedure"
+        "@value": "curated conceptual route in source PDF; not an operating procedure EVG 2026-10-18 links and explicitly noted step alternatives are curator functional associations, not source-apparatus or validated recipe claims."
       }
     ]
   },
@@ -214157,7 +217846,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "curated conceptual route in source PDF; not an operating procedure"
+        "@value": "curated conceptual route in source PDF; not an operating procedure Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -214325,7 +218014,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Project-owner category unification, 2026-10-14; process capability classification, not a source-PDF route or operating procedure"
+        "@value": "Project-owner category unification, 2026-10-14; process capability classification, not a source-PDF route or operating procedure Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -214465,7 +218154,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Literature-specific conceptual sequence from 10.1002/smtd.202301763. Unnamed devices remain class-level planning choices; source does not validate every candidate model."
+        "@value": "Literature-specific conceptual sequence from 10.1002/smtd.202301763. Unnamed devices remain class-level planning choices; source does not validate every candidate model. Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -214997,7 +218686,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Reviewed methods of 10.1038/s41467-020-19597-w. Reported 20 nm libraries and nanometre SbTe regions. CAMEO automates characterization selection, not synthesis; no autonomous sputtering claim."
+        "@value": "Reviewed methods of 10.1038/s41467-020-19597-w. Reported 20 nm libraries and nanometre SbTe regions. CAMEO automates characterization selection, not synthesis; no autonomous sputtering claim. Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -215109,7 +218798,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Reviewed methods of 10.1038/s41377-018-0060-7. Reported gold nanostructures are 40 nm thick. Electron-beam evaporation is distinct from sputtering and pulsed-laser deposition. Curator-added M82–M88 planning alternatives are distinguished from the article-reported apparatus; exact-model compatibility is not established."
+        "@value": "Reviewed methods of 10.1038/s41377-018-0060-7. Reported gold nanostructures are 40 nm thick. Electron-beam evaporation is distinct from sputtering and pulsed-laser deposition. Curator-added M82–M88 planning alternatives are distinguished from the article-reported apparatus; exact-model compatibility is not established. EVG 2026-10-18 links and explicitly noted step alternatives are curator functional associations, not source-apparatus or validated recipe claims."
       }
     ]
   },
@@ -215221,7 +218910,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints."
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -215249,7 +218938,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
-        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints."
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Theris 2026-10-18 catalogue links are curator capability/auxiliary associations; source step requirements and source-reported apparatus remain unchanged. Exact configuration and process suitability require review."
       }
     ]
   },
@@ -219024,17 +222713,20 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A1%3Abranch%3A1"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A1%3Abranch%3A2"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M10\",\"M24\",\"M02\"]],\"optional_category_ids\":[\"M22\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Cleaning, coating and bake are specified; hard-mask deposition alone is optional.\"}"
+        "@value": "{\"required_branches\": [[\"M10\", \"M24\", \"M02\"], [\"M10\", \"M115\"]], \"optional_category_ids\": [\"M22\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Cleaning, coating and bake are specified; hard-mask deposition alone is optional. Curator extension 2026-10-18 (EVG official catalogue): Alternative M10 cleaning plus a configured M115 coat/develop/bake track covers coating and bake. Single-chamber EVG101 is excluded from this combined bake branch; generic M24+M02 branch remains. Exact bake/chill modules and resist process must be configured. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M115\": [\"resist_processing_track\"]}}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": false
+        "@value": true
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
@@ -219081,11 +222773,14 @@
       },
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A2%3Abranch%3A4"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A2%3Abranch%3A5"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M58\"],[\"M59\"],[\"M60\"],[\"M89\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Choose exactly one pattern-definition route. The chosen route must be consistent with development and transfer stages. Alternative two-photon photopolymer branch in P06, not a drop-in replacement for the electron-beam/metal recipe. Compatible resist, development and geometry must be chosen; no automatic metal etch/transfer requirement.\"}"
+        "@value": "{\"required_branches\": [[\"M58\"], [\"M59\"], [\"M60\"], [\"M89\"], [\"M113\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Choose exactly one pattern-definition route. The chosen route must be consistent with development and transfer stages. Alternative two-photon photopolymer branch in P06, not a drop-in replacement for the electron-beam/metal recipe. Compatible resist, development and geometry must be chosen; no automatic metal etch/transfer requirement. Curator extension 2026-10-18 (EVG official catalogue): M113 offers maskless optical exposure as a separate pattern-definition route. LITHOSCALE lateral feature capability is micrometre-scale; nanoscale pattern resolution is not asserted. Match resist, geometry, development and intended thin-film application. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\"}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
@@ -219137,11 +222832,14 @@
       },
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A3%3Abranch%3A2"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P06%3A3%3Abranch%3A3"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M85\"],[\"M61\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Curator functional review 2026-10-17. Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"],\"M61\":[\"Dry plasma etching / plasma processing\",\"Dry plasma / atomic-layer etching\"]},\"when_selected\":[{\"category_id\":\"M89\",\"required_branches\":[[]],\"notes\":\"Two-photon branch: compatible photopolymer development/rinse/post-cure must be specified. The metal-pattern etch/transfer branch is not required for this planning alternative.\"}]}"
+        "@value": "{\"required_branches\": [[\"M85\"], [\"M61\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Curator functional review 2026-10-17. Choose M85 wet development OR M61 dry residual-layer clearing for a compatible imprint route. The wet branch now has its own class instead of an empty branch. Match developer chemistry and the preceding patterning route; wet benches and dry plasma tools are not interchangeable. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M85\": [\"wafer_wet_processing\"], \"M61\": [\"Dry plasma etching / plasma processing\", \"Dry plasma / atomic-layer etching\"], \"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}, \"when_selected\": [{\"category_id\": \"M89\", \"required_branches\": [[]], \"notes\": \"Two-photon branch: compatible photopolymer development/rinse/post-cure must be specified. The metal-pattern etch/transfer branch is not required for this planning alternative.\"}]}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
@@ -219245,6 +222943,9 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
       {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M114"
+      },
+      {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M93"
       },
       {
@@ -219258,7 +222959,7 @@
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M38\",\"M41\"]],\"optional_category_ids\":[\"M93\",\"M96\"],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Optional contact profilometry of accessible films/steps; stylus force, film damage, roughness and substrate suitability require review. Not AFM or optical profilometry. Optional local surface elemental mapping for vacuum-compatible specimens; charging and beam damage must be checked. Not XPS or SEM-EDS.\"}"
+        "@value": "{\"required_branches\": [[\"M38\", \"M41\"]], \"optional_category_ids\": [\"M93\", \"M96\", \"M114\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Optional contact profilometry of accessible films/steps; stylus force, film damage, roughness and substrate suitability require review. Not AFM or optical profilometry. Optional local surface elemental mapping for vacuum-compatible specimens; charging and beam damage must be checked. Not XPS or SEM-EDS. Curator extension 2026-10-18 (EVG official catalogue): Optional M114 wafer overlay/CD or film-thickness inspection, model-dependent. EVG50 is thickness-focused; do not infer that it measures overlay or replaces mandatory SEM/AFM. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\"}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
@@ -227508,17 +231209,20 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A1%3Abranch%3A1"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A1%3Abranch%3A2"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M24\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":false,\"notes\":\"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility.\"}"
+        "@value": "{\"required_branches\": [[\"M24\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Each listed category represents a required class in this stage; category placement is a planning check and does not establish model or process compatibility. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
       {
         "@type": "http://www.w3.org/2001/XMLSchema#boolean",
-        "@value": false
+        "@value": true
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
@@ -227609,11 +231313,14 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A3%3Abranch%3A1"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P42%3A3%3Abranch%3A2"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
       {
-        "@value": "{\"required_branches\":[[\"M85\"]],\"optional_category_ids\":[],\"unresolved_required_equipment\":false,\"readiness_review_required\":true,\"notes\":\"Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments. Curator implementation 2026-10-17: M85 is a required fixture/vessel class. A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required. These model alternatives are not asserted to have been used by the article authors.\",\"allowed_subtypes_by_category\":{\"M85\":[\"wafer_wet_processing\"]}}"
+        "@value": "{\"required_branches\": [[\"M85\"], [\"M115\"]], \"optional_category_ids\": [], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Development and rinse remain operations with no separate machine identity established; do not omit the operations or invent instruments. Curator implementation 2026-10-17: M85 is a required fixture/vessel class. A planning grouping; a wafer solvent bench does not automatically fit colloidal washing or gel solvent exchange. Separate subtypes and chemistry compatibility are required. These model alternatives are not asserted to have been used by the article authors. Curator extension 2026-10-18 (EVG official catalogue): Configured M115 resist processor is an alternative for this coating/development function, not solvent lift-off, cleaning or all wet chemistry. Verify the actual spin/developer module and chemistry; EVG101 OmniSpray photograph does not prove installed spin/developer tooling. These are planning alternatives, not apparatus reported by the cited source or validated model substitutions.\", \"allowed_subtypes_by_category\": {\"M85\": [\"wafer_wet_processing\"], \"M115\": [\"resist_processing_station\", \"resist_processing_track\"]}}"
       }
     ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [

@@ -9,11 +9,13 @@ def test_dated_lifecycle_review_matches_canonical_csv_and_generated_seed():
     reviews = load_csv(ROOT / 'catalog/model_lifecycle.csv')
     report = json.loads((ROOT / 'catalog/model_lifecycle_review_2026-10-15.json').read_text(encoding='utf-8'))
     seed = json.loads((ROOT / 'webapp/app/data/catalog.json').read_text(encoding='utf-8'))
-    dated=[r for r in reviews if r['equipment_id'] not in {v['equipment_id'] for v in records if v['catalog_scope']=='mit_class_expansion'} and r['review_method'] not in {'literature_methods_identity_check','official_module_identity_check','primary_source_identity_only'}]
+    dated=[r for r in reviews if r['equipment_id'] in {v['equipment_id'] for v in report['records']}]
     counts = validate_model_lifecycle(records, dated)
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     expected_counts=dict(report['status_counts'])
-    for update in media['lifecycle_updates']:
+    evg=json.loads((ROOT/'catalog/evg_review_2026-10-18.json').read_text(encoding='utf-8'))
+    current_updates=media['lifecycle_updates']+[u for u in evg['lifecycle_updates'] if u['before'] and u['equipment_id'] in {r['equipment_id'] for r in dated}]
+    for update in current_updates:
         expected_counts[update['before']['lifecycle_status']]-=1
         expected_counts[update['after']['lifecycle_status']]+=1
     assert counts == expected_counts
@@ -24,7 +26,7 @@ def test_dated_lifecycle_review_matches_canonical_csv_and_generated_seed():
     assert report['not_reviewed_records'] == 0
     historical=copy.deepcopy(report['records'])
     by_review_id={r['equipment_id']:r for r in historical}
-    for update in media['lifecycle_updates']:
+    for update in current_updates:
         by_review_id[update['equipment_id']].update(update['after'])
     assert historical == dated
     assert reviews == seed['model_lifecycle']
@@ -36,7 +38,7 @@ def test_dated_lifecycle_review_matches_canonical_csv_and_generated_seed():
 def test_unresolved_models_and_missing_sources_are_explicit_in_full_sweep():
     reviews = load_csv(ROOT / 'catalog/model_lifecycle.csv')
     unresolved = [r for r in reviews if r['lifecycle_status'] == 'model_unresolved' and r['review_method'] not in {'literature_methods_identity_check','official_module_identity_check','primary_source_identity_only'}]
-    assert len(unresolved) == 104
+    assert len(unresolved) == 103
     corrected=next(r for r in reviews if r['equipment_id']=='M26-02')
     assert corrected['manufacturer']=='Elmarco' and corrected['lifecycle_status']=='no_successor_confirmed'
     assert all(r['review_notes'] and r['review_method'] for r in unresolved)

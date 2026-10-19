@@ -14,7 +14,7 @@ The [metadata standards review](docs/metadata-standards.md) adds standard field 
 
 The **Research data / ELN** tab adds an openBIS-style Space / Project / Collection / Object / Data set workspace, instrument-export ingestion, private records and explicit sharing, revision history, qualified provenance and portable RO-Crate packages. See the [FAIR research-data guide](docs/FAIR_RESEARCH_DATA.md) and [machine-readable standards map](catalog/research_standards.json). This is a local ELN/LIMS foundation, not a connected openBIS server.
 
-**Current catalog snapshot (18 October 2026):** 1,093 equipment/model/category records, 935 equipment family cards, 106 active M classes plus six retained X classes, 46 P-class routes, 263 ordered steps and 76 academic references. The latest facility-derived routes are capability plans, not checked experimental recipes. Older dated review counts below describe their respective review snapshots.
+**Current catalog snapshot (18 October 2026):** 1,113 equipment/model/category records, 950 equipment family cards, 114 active M classes plus six retained X classes, 46 P-class routes, 263 ordered steps and 76 academic references. The latest facility-derived routes are capability plans, not checked experimental recipes. Older dated review counts below describe their respective review snapshots.
 
 The [functional process review](docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
 

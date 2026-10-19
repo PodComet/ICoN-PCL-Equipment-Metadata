@@ -32,7 +32,7 @@ def test_ucla_records_keep_inventory_prices_configuration_and_manual_scope_hones
 
 def test_all_adopted_claims_have_readable_public_evidence_without_local_paths():
     records=evidence_dataset(ROOT)['records']
-    assert len([r for r in records if r['classification']=='curator_reviewed_catalog'])==33
+    assert len([r for r in records if r['classification']=='curator_reviewed_catalog' and any(s['url'].startswith('https://inml.cnsi.ucla.edu/') for s in r['sources'])])==33
     prices=[r for r in records if any(q['record_id'].startswith('PACK-USNANO') for q in r['related_records'])]
     assert len(prices)==38 and all(r['context']['currency_basis'] for r in prices)
     assert not any('C:\\Users\\' in json.dumps(r) for r in prices)

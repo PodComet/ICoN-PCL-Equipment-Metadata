@@ -184,16 +184,30 @@
       "path": "catalog/ucla_inml_review_2026-10-18.json",
       "checked_date": "2026-10-18",
       "summary": "Added 14 equipment/configuration records, M100–M108, two capability-derived MBE routes P46/P47 and 15 source/substrate/cryogen contexts. Ten sourced equipment images; current prices and experimental recipes remain unreported."
+    },
+    {
+      "id": "theris261018",
+      "title": "Theris official catalogue and owner-confirmed manufacturer",
+      "path": "catalog/theris_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Enriched three existing NanoStream entries; added eight equipment/accessory records, seven scoped images and five distinct M classes. No public numeric prices found. Mislinked ion/stage brochures excluded."
+    },
+    {
+      "id": "evg261018",
+      "title": "EV Group product/configuration and manufacturer review",
+      "path": "catalog/evg_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Reviewed seven existing entries and added ten named models as twelve configuration records, with scoped images and public brochures/flyers. Added M113-M115 and reviewed P06/P42 planning alternatives. No public numeric prices found; industrial resist processors remain separate from bench-spinner price anchors."
     }
   ],
   "coverage": {
-    "instrument_records": 1093,
+    "instrument_records": 1113,
     "instrument_statuses": {
       "estimate_only": 29,
       "explicit_msrp": 1,
       "manufacturer_price": 161,
       "new_seller_price": 91,
-      "no_purchase_price": 759,
+      "no_purchase_price": 779,
       "secondary_market_only": 52
     },
     "component_occurrences": 260,

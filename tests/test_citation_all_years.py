@@ -53,7 +53,7 @@ def test_new_processes_keep_classified_and_unclassified_stages_explicit():
             if not stage['equipment_category_ids']:
                 assert not any(req['required_branches'])
         assert all(s['equipment_sequence'] and s['source_page'] for s in seq)
-    assert routes['P42']['equipment_category_ids']=='M24;M59;M68;M85'
+    assert routes['P42']['equipment_category_ids']=='M24;M59;M68;M85;M115;M114'
     assert routes['P41']['equipment_category_ids']=='M12;M69;M88;M94;M98;M99'
     assert set(routes['P37']['equipment_category_ids'].split(';'))=={'M67','M02','M31','M71','M87'}
     assert routes['P36']['equipment_category_ids']=='M53;M15'

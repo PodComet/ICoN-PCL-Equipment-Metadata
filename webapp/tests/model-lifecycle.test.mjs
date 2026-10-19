@@ -59,7 +59,7 @@ test('the full review has complete confirmed updates and never marks newer targe
 test('screening coverage remains distinct from a confirmed successor or latest-model certification',()=>{
  assert.equal(seed.model_lifecycle.length,seed.records.length);
  const unresolved=seed.records.filter(r=>r.lifecycle_status==='model_unresolved');
- assert.equal(unresolved.filter(r=>['core_example','requested_supplement'].includes(r.catalog_scope)).length,104);assert.ok(unresolved.every(r=>!newerModel(r)));
+ assert.equal(unresolved.filter(r=>['core_example','requested_supplement'].includes(r.catalog_scope)).length,103);assert.ok(unresolved.every(r=>!newerModel(r)));
  assert.equal(record('M26-02').manufacturer,'Elmarco');assert.equal(record('M26-02').lifecycle_status,'no_successor_confirmed');assert.equal(newerModel(record('M26-02')),null);
  assert.equal(newerModel(record('M57-05')).name,'Gamry Reference 3020');
  assert.equal(newerModel(record('M39-09')),null);

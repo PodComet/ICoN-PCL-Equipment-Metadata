@@ -53,7 +53,7 @@ def test_reference_packs_do_not_gain_consumption_eligibility_by_alias_or_name():
 def test_generated_coverage_distinguishes_absent_prices_estimates_and_reference_offers():
     data=json.loads((ROOT/'webapp/app/data/pricing-sources.json').read_text(encoding='utf-8'))
     instruments=read('instrument_price_coverage');components=read('component_price_coverage')
-    assert len(instruments)==data['coverage']['instrument_records']==1093
+    assert len(instruments)==data['coverage']['instrument_records']==1113
     assert len(components)==data['coverage']['component_occurrences']==260
     assert sum(data['coverage']['instrument_statuses'].values())==len(instruments)
     assert sum(data['coverage']['component_statuses'].values())==len(components)

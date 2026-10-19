@@ -29,7 +29,7 @@ def test_full_public_graph_round_trips_with_evidence_and_distinct_quantity_kinds
     assert set(turtle) == set(jsonld)
     assert len(turtle) == report['counts']['rdf_triples']
     assert report['shacl_conforms'] and report['shacl_violations'] == 0
-    assert len(list(turtle.subjects(RDF.type, VOCAB.EquipmentModel))) == 1093
+    assert len(list(turtle.subjects(RDF.type, VOCAB.EquipmentModel))) == 1113
     assert len(list(turtle.subjects(RDF.type, VOCAB.SourceEvidence))) == 321
     for quantity in ['pressure_gauge', 'pressure_absolute', 'centrifuge_speed', 'rotation_speed']:
         assert (node('quantity-kind', quantity), RDF.type, VOCAB.QuantityKind) in turtle
@@ -134,7 +134,7 @@ def test_all_artifacts_are_current_reproducible_and_inventory_free(export):
     for filename, content in files.items():
         assert (ROOT / 'catalog/ontology' / filename).read_text(encoding='utf-8') == content
         assert (ROOT / 'webapp/public/ontology' / filename).read_text(encoding='utf-8') == content
-    assert report['counts']['m_categories'] == 106
+    assert report['counts']['m_categories'] == 114
     assert report['counts']['x_categories'] == 6
     assert report['counts']['unit_definitions_checked'] == 138
     assert report['counts']['unreviewed_model_name_pairs'] == 0
