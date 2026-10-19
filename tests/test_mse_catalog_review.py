@@ -20,7 +20,8 @@ def test_only_missing_instrument_images_change_and_source_identity_stays_bound()
     with (ROOT / 'catalog/equipment.csv').open(encoding='utf-8-sig', newline='') as f:
         records = {r['equipment_id']: r for r in csv.DictReader(f)}
     assert audit['summary']['instrument_photos_added'] == 14
-    assert len(records) == 1113 and not audit['summary']['new_equipment_records']
+    # This dated review added no models; later catalogue expansions may do so.
+    assert len(records) >= 1113 and not audit['summary']['new_equipment_records']
     for photo in audit['instrument_images']:
         before, after = photo['before'], photo['after']
         assert not before['image_url'] and after['image_url'].startswith('https://')

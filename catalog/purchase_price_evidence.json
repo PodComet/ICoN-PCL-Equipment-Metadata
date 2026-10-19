@@ -18917,6 +18917,517 @@
           "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
         }
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E4A115FAA678F3F1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Potentiometric Titrator LMPT-303 supplier price",
+      "claim": "Labmate publishes USD 8812.5 per pack of 1 for Potentiometric Titrator LMPT-303.",
+      "scope": "Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-303, supplier SKU LMPT-303. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Potentiometric Titrator LMPT-303",
+          "url": "https://www.labmate.com/potentiometric-titrator/lmpt-303",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMPT-303",
+          "label": "Potentiometric Titrator LMPT-303"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M63",
+          "label": "Automatic titration and piston dosing systems"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P33",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMPT-303",
+        "evidence_id": "PRICE-EV-E4A115FAA678F3F1",
+        "supplier_sku": "LMPT-303",
+        "price_value": "8812.5",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/potentiometric-titrator/lmpt-303",
+        "checked_date": "2026-10-19",
+        "unit": "Pack of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-303, supplier SKU LMPT-303. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-946B861010CEF85B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Potentiometric Titrator LMPT-304 supplier price",
+      "claim": "Labmate publishes USD 13250.0 per pack of 1 for Potentiometric Titrator LMPT-304.",
+      "scope": "Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-304, supplier SKU LMPT-304. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Potentiometric Titrator LMPT-304",
+          "url": "https://www.labmate.com/potentiometric-titrator/lmpt-304",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMPT-304",
+          "label": "Potentiometric Titrator LMPT-304"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M63",
+          "label": "Automatic titration and piston dosing systems"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P33",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMPT-304",
+        "evidence_id": "PRICE-EV-946B861010CEF85B",
+        "supplier_sku": "LMPT-304",
+        "price_value": "13250.0",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/potentiometric-titrator/lmpt-304",
+        "checked_date": "2026-10-19",
+        "unit": "Pack of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-304, supplier SKU LMPT-304. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-BD6EBB7BC7A59E98",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Automatic Mortar And Pestle LMAMP-A100 supplier price",
+      "claim": "Labmate publishes USD 3700.0 per each of 1 for Automatic Mortar And Pestle LMAMP-A100.",
+      "scope": "Published supplier catalog price per each of 1 for Automatic Mortar And Pestle LMAMP-A100, supplier SKU LMAMP-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source table mortar caliber 120 nm is implausible for equipment size; unit withheld pending manufacturer clarification. No nanoparticle size claim adopted.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Automatic Mortar And Pestle LMAMP-A100",
+          "url": "https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMAMP-A100",
+          "label": "Automatic Mortar And Pestle LMAMP-A100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMAMP-A100",
+        "evidence_id": "PRICE-EV-BD6EBB7BC7A59E98",
+        "supplier_sku": "LMAMP-A100",
+        "price_value": "3700.0",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100",
+        "checked_date": "2026-10-19",
+        "unit": "Each of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per each of 1 for Automatic Mortar And Pestle LMAMP-A100, supplier SKU LMAMP-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source table mortar caliber 120 nm is implausible for equipment size; unit withheld pending manufacturer clarification. No nanoparticle size claim adopted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-141A3D0FA9417B41",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Hydrothermal Reactor LMHYR-A104 supplier price",
+      "claim": "Labmate publishes USD 1175.0 per each of 1 for Hydrothermal Reactor LMHYR-A104.",
+      "scope": "Published supplier catalog price per each of 1 for Hydrothermal Reactor LMHYR-A104, supplier SKU LMHYR-A104. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Separate maxima are source-rated limits; no safe simultaneous operating setpoint or validated chemistry inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Hydrothermal Reactor LMHYR-A104",
+          "url": "https://www.labmate.com/hydrothermal-reactor/lmhyr-a104",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMHYR-A104",
+          "label": "Hydrothermal Reactor LMHYR-A104"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M05",
+          "label": "Hydrothermal / solvothermal vessel"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P39",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMHYR-A104",
+        "evidence_id": "PRICE-EV-141A3D0FA9417B41",
+        "supplier_sku": "LMHYR-A104",
+        "price_value": "1175.0",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/hydrothermal-reactor/lmhyr-a104",
+        "checked_date": "2026-10-19",
+        "unit": "Each of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per each of 1 for Hydrothermal Reactor LMHYR-A104, supplier SKU LMHYR-A104. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Separate maxima are source-rated limits; no safe simultaneous operating setpoint or validated chemistry inferred."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-0229640A4DE588D9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Jacketed Glass Reactor LMJGR-A100 supplier price",
+      "claim": "Labmate publishes USD 3500.0 per each of 1 for Jacketed Glass Reactor LMJGR-A100.",
+      "scope": "Published supplier catalog price per each of 1 for Jacketed Glass Reactor LMJGR-A100, supplier SKU LMJGR-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Operating temperature range is manufacturer claim, not a recipe recommendation; circulation unit may be separate.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Jacketed Glass Reactor LMJGR-A100",
+          "url": "https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMJGR-A100",
+          "label": "Jacketed Glass Reactor LMJGR-A100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M04",
+          "label": "Jacketed stirred reactor"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMJGR-A100",
+        "evidence_id": "PRICE-EV-0229640A4DE588D9",
+        "supplier_sku": "LMJGR-A100",
+        "price_value": "3500.0",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100",
+        "checked_date": "2026-10-19",
+        "unit": "Each of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per each of 1 for Jacketed Glass Reactor LMJGR-A100, supplier SKU LMJGR-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Operating temperature range is manufacturer claim, not a recipe recommendation; circulation unit may be separate."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-06372C0601D52CE8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Ultrasonic Homogenizer LMUH-A102 supplier price",
+      "claim": "Labmate publishes USD 3462.5 per pack of 1 for Ultrasonic Homogenizer LMUH-A102.",
+      "scope": "Published supplier catalog price per pack of 1 for Ultrasonic Homogenizer LMUH-A102, supplier SKU LMUH-A102. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Displayed image includes processor, probe soundproof enclosure and display. Accessories/included package should be confirmed.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Ultrasonic Homogenizer LMUH-A102",
+          "url": "https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMUH-A102",
+          "label": "Ultrasonic Homogenizer LMUH-A102"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M09",
+          "label": "Probe ultrasonic processor"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P11",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P12",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMUH-A102",
+        "evidence_id": "PRICE-EV-06372C0601D52CE8",
+        "supplier_sku": "LMUH-A102",
+        "price_value": "3462.5",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102",
+        "checked_date": "2026-10-19",
+        "unit": "Pack of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per pack of 1 for Ultrasonic Homogenizer LMUH-A102, supplier SKU LMUH-A102. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Displayed image includes processor, probe soundproof enclosure and display. Accessories/included package should be confirmed."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-036F6A25B42B854C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Vacuum Oven LMVO-A501 supplier price",
+      "claim": "Labmate publishes USD 3087.5 per each of 1 for Vacuum Oven LMVO-A501.",
+      "scope": "Published supplier catalog price per each of 1 for Vacuum Oven LMVO-A501, supplier SKU LMVO-A501. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source vacuum pump pressure -0.095 Pa is inconsistent with typical gauge-pressure units; omitted. Verify pump bundle, inert gas connections and solvent suitability.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Vacuum Oven LMVO-A501",
+          "url": "https://www.labmate.com/vacuum-oven/lmvo-a501",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMVO-A501",
+          "label": "Vacuum Oven LMVO-A501"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M18",
+          "label": "Vacuum drying oven"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P08",
+          "label": "Curator functional planning association; not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMVO-A501",
+        "evidence_id": "PRICE-EV-036F6A25B42B854C",
+        "supplier_sku": "LMVO-A501",
+        "price_value": "3087.5",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/vacuum-oven/lmvo-a501",
+        "checked_date": "2026-10-19",
+        "unit": "Each of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per each of 1 for Vacuum Oven LMVO-A501, supplier SKU LMVO-A501. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source vacuum pump pressure -0.095 Pa is inconsistent with typical gauge-pressure units; omitted. Verify pump bundle, inert gas connections and solvent suitability."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-0C84F3074B305BE8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Planetary Ball Mill LMPBM-A100 supplier price",
+      "claim": "Labmate publishes USD 3512.5 per each of 1 for Planetary Ball Mill LMPBM-A100.",
+      "scope": "Published supplier catalog price per each of 1 for Planetary Ball Mill LMPBM-A100, supplier SKU A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Public URL and schema SKU use A100, while visible model is LMPBM-A100. Preserve both identities. Source voltage 220 V/50 Hz; US compatibility needs confirmation.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Planetary Ball Mill LMPBM-A100",
+          "url": "https://www.labmate.com/planetary-ball-mill/a100",
+          "locator": "Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Labmate currency policy",
+          "url": "https://www.labmate.com/privacy-policy",
+          "locator": "Payment: USD unless otherwise stated",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABMATE-LMPBM-A100",
+          "label": "Planetary Ball Mill LMPBM-A100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M12",
+          "label": "Planetary ball mill"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P07",
+          "label": "Curator functional planning association; not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABMATE-LMPBM-A100",
+        "evidence_id": "PRICE-EV-0C84F3074B305BE8",
+        "supplier_sku": "A100",
+        "price_value": "3512.5",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.labmate.com/planetary-ball-mill/a100",
+        "checked_date": "2026-10-19",
+        "unit": "Each of 1",
+        "currency_basis_url": "https://www.labmate.com/privacy-policy",
+        "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
+        "scope": "Published supplier catalog price per each of 1 for Planetary Ball Mill LMPBM-A100, supplier SKU A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Public URL and schema SKU use A100, while visible model is LMPBM-A100. Preserve both identities. Source voltage 220 V/50 Hz; US compatibility needs confirmation."
+      }
     }
   ]
 }

@@ -219,6 +219,13 @@
       "path": "catalog/thermo_catalog_review_2026-10-19.json",
       "checked_date": "2026-10-19",
       "summary": "12 missing instrument images (8 model-matched;4 explicitly representative family views),4 official USD list prices,2 separately retained online discounts,12 reference-only material pack quotes across7 existing component identities. One previously unpriced water system gains a sourced price. RFQ-only, legacy stubs, unsupported configurations and chemical structures withheld. One missing V22889 kit-packaging photograph added without changing its price or whole-kit allocation restrictions."
+    },
+    {
+      "id": "labmate261019",
+      "title": "Labmate catalogue alternatives and pricing review",
+      "path": "catalog/labmate_catalog_review_2026-10-19.json",
+      "checked_date": "2026-10-19",
+      "summary": "Eight own-brand models across seven existing M classes, with eight model photos, technical catalogue links and public USD prices. LMPT303/304 share one family card. No existing instrument data or ingredient offers changed. Inconsistent source units, mismatched slides and unrelated$30modal excluded; manufacturer green star pending independent research evidence."
     }
   ]
 }

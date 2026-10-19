@@ -80062,6 +80062,763 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMAMP-A100",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMAMP-A100"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/automatic-mortar-and-pestle/lmamp-a100"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Automatic Mortar And Pestle LMAMP-A100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Agate mortar grinder/pestle providing pressure/friction mixing and grinding; not a planetary ball mill. No guaranteed nano-size output inferred."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P32"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M81"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMAMP-A100/17696692511.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/automatic-mortar-and-pestle/lmamp-a100"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMAMP-A100/17696692511.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMHYR-A104",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMHYR-A104"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/hydrothermal-reactor/lmhyr-a104"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Hydrothermal Reactor LMHYR-A104"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 50 mL PTFE-lined stainless steel hydrothermal reaction vessel. Exact material, solvent and simultaneous pressure/temperature limits require recipe-specific review."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P15"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P31"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P32"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P39"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M05"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMHYR-A104/17543767091.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/hydrothermal-reactor/lmhyr-a104"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/hydrothermal-reactor/lmhyr-a104"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMHYR-A104/17543767091.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/hydrothermal-reactor/lmhyr-a104"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMJGR-A100",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMJGR-A100"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/jacketed-glass-reactor/lmjgr-a100"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Jacketed Glass Reactor LMJGR-A100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 0.5 L jacketed glass stirred reactor for temperature-controlled solution processing. External thermal circulation and exact wetted materials/configuration must be reviewed."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M04"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/lmjgr-a100-1.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/jacketed-glass-reactor/lmjgr-a100"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/lmjgr-a100-1.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMPBM-A100",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMPBM-A100"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/planetary-ball-mill/a100"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Planetary Ball Mill LMPBM-A100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Planetary ball mill LMPBM-A100 with 50–250 mL jars. High-energy milling capability is functional class association; exact jar/media/material compatibility and nanoscale output require verification."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P07"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M12"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/A100/17873146941.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/planetary-ball-mill/a100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/planetary-ball-mill/a100"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/A100/17873146941.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/planetary-ball-mill/a100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMPT-303",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMPT-303"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/potentiometric-titrator/lmpt-303"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Potentiometric Titrator LMPT-303"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Automatic potentiometric titration/dosing with 10/20 mL replaceable burettes. pH-stat suitability is curator planning only and requires confirmation of feedback-control mode, reagent compatibility and dosing guards."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P33"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M63"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMPT-303/17563777601.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/potentiometric-titrator/lmpt-303"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/potentiometric-titrator/lmpt-303"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMPT-303/17563777601.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/potentiometric-titrator/lmpt-303"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMPT-304",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMPT-304"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/potentiometric-titrator/lmpt-304"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Potentiometric Titrator LMPT-304"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Automatic potentiometric titration/dosing with touchscreen and 100 saved methods. Proposed alternative to the M63 dosing class, not demonstrated use in the P33 paper."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P33"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M63"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMPT-304/17563778351.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/potentiometric-titrator/lmpt-304"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/potentiometric-titrator/lmpt-304"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMPT-304/17563778351.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/potentiometric-titrator/lmpt-304"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMUH-A102",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMUH-A102"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/ultrasonic-homogenizer/lmuh-a102"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Ultrasonic Homogenizer LMUH-A102"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Probe ultrasonic processor for liquid particle dispersion. Vessel/probe/volume/cooling must match the selected sample."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P11"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P12"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M09"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMUH-A102/17525522171.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/ultrasonic-homogenizer/lmuh-a102"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMUH-A102/17525522171.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMVO-A501",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABMATE-LMVO-A501"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.labmate.com/catalog/vacuum-oven/lmvo-a501"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Vacuum Oven LMVO-A501"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 50 L vacuum drying oven; proposed drying-stage alternative subject to material volatility, gas and pump compatibility."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M18"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMVO-A501/LMVO-A501.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labmate.com/vacuum-oven/lmvo-a501"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.labmate.com/catalog/vacuum-oven/lmvo-a501"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.labmate.com/assets/products/LMVO-A501/LMVO-A501.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labmate.com/vacuum-oven/lmvo-a501"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG101",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -188928,6 +189685,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "LabJack"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/labmate",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "labmate"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Labmate"
       }
     ]
   },

@@ -1112,3 +1112,11 @@ EVG261018-EVG770NT,M60,EVG,EVG770 NT,no_purchase_price,,,0,0,,,
 EVG261018-LITHOSCALE,M113,EVG,LITHOSCALE,no_purchase_price,,,0,0,,,
 EVG261018-EVG40NT,M114,EVG,EVG40 NT,no_purchase_price,,,0,0,,,
 EVG261018-EVG50,M114,EVG,EVG50,no_purchase_price,,,0,0,,,
+CAT-LABMATE-LMPT-303,M63,Labmate,Potentiometric Titrator LMPT-303,manufacturer_price,,8812.5,0,0,,,https://www.labmate.com/potentiometric-titrator/lmpt-303
+CAT-LABMATE-LMPT-304,M63,Labmate,Potentiometric Titrator LMPT-304,manufacturer_price,,13250.0,0,0,,,https://www.labmate.com/potentiometric-titrator/lmpt-304
+CAT-LABMATE-LMAMP-A100,M81,Labmate,Automatic Mortar And Pestle LMAMP-A100,manufacturer_price,,3700.0,0,0,3033.6,6261.6,https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100
+CAT-LABMATE-LMHYR-A104,M05,Labmate,Hydrothermal Reactor LMHYR-A104,manufacturer_price,,1175.0,0,0,,,https://www.labmate.com/hydrothermal-reactor/lmhyr-a104
+CAT-LABMATE-LMJGR-A100,M04,Labmate,Jacketed Glass Reactor LMJGR-A100,manufacturer_price,,3500.0,0,0,12021.6,14760,https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100
+CAT-LABMATE-LMUH-A102,M09,Labmate,Ultrasonic Homogenizer LMUH-A102,manufacturer_price,,3462.5,0,0,,,https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102
+CAT-LABMATE-LMVO-A501,M18,Labmate,Vacuum Oven LMVO-A501,manufacturer_price,,3087.5,0,0,,,https://www.labmate.com/vacuum-oven/lmvo-a501
+CAT-LABMATE-LMPBM-A100,M12,Labmate,Planetary Ball Mill LMPBM-A100,manufacturer_price,,3512.5,0,0,,,https://www.labmate.com/planetary-ball-mill/a100

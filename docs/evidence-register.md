@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-768 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+793 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -43,6 +43,20 @@ UCLA lists an integrated GEN-930 configuration for III-arsenide/antimonide semic
 - Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440â€“800 Â°C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
 
 **Related records:** `P47` (process), `M100` (equipment_class)
+
+
+## CAT-EV-0C8D6ABABF016C3B
+
+Labmate lists Planetary Ball Mill LMPBM-A100 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Planetary ball mill LMPBM-A100 with 50–250 mL jars. High-energy milling capability is functional class association; exact jar/media/material compatibility and nanoscale output require verification.
+
+- Source: [Planetary Ball Mill LMPBM-A100](https://www.labmate.com/planetary-ball-mill/a100) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/planetary-ball-mill/a100) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMPBM-A100` (equipment), `M12` (equipment_class), `P07` (process)
 
 
 ## CAT-EV-0DDAB067E1BAAF8D
@@ -113,6 +127,20 @@ EVG documents equipment in the Wafer resist coating and development systems capa
 - Source: [M115 / Wafer resist coating and development systems](https://www.evgroup.com/products/lithography/resist-processing-systems/evg120) — Official model Features/Technical Data; configuration-specific flyer when linked
 
 **Related records:** `M115` (equipment_class)
+
+
+## CAT-EV-27CDD9AF5CEA1E5D
+
+Labmate lists Ultrasonic Homogenizer LMUH-A102 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Probe ultrasonic processor for liquid particle dispersion. Vessel/probe/volume/cooling must match the selected sample.
+
+- Source: [Ultrasonic Homogenizer LMUH-A102](https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/ultrasonic-homogenizer/lmuh-a102) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMUH-A102` (equipment), `M09` (equipment_class), `P04` (process), `P08` (process), `P11` (process), `P12` (process)
 
 
 ## CAT-EV-27DE08E7767B8099
@@ -212,6 +240,20 @@ UCLA names PicoQuant PicoHarp 300 in its equipment description.
 **Related records:** `UCLA-PQ-PH300` (equipment), `M106` (equipment_class), `P46` (process), `P47` (process)
 
 
+## CAT-EV-3FA250550C7BFC11
+
+Labmate lists Potentiometric Titrator LMPT-303 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Automatic potentiometric titration/dosing with 10/20 mL replaceable burettes. pH-stat suitability is curator planning only and requires confirmation of feedback-control mode, reagent compatibility and dosing guards.
+
+- Source: [Potentiometric Titrator LMPT-303](https://www.labmate.com/potentiometric-titrator/lmpt-303) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/potentiometric-titrator/lmpt-303) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMPT-303` (equipment), `M63` (equipment_class), `P33` (process)
+
+
 ## CAT-EV-40052F641C4BF2FD
 
 The reviewed source identifies EVG610.
@@ -226,6 +268,20 @@ The reviewed source identifies EVG610.
 - Source: [EVG610 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
 
 **Related records:** `M58-07` (equipment), `M58` (equipment_class)
+
+
+## CAT-EV-4110B8F2332C7F2E
+
+Labmate lists Potentiometric Titrator LMPT-304 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Automatic potentiometric titration/dosing with touchscreen and 100 saved methods. Proposed alternative to the M63 dosing class, not demonstrated use in the P33 paper.
+
+- Source: [Potentiometric Titrator LMPT-304](https://www.labmate.com/potentiometric-titrator/lmpt-304) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/potentiometric-titrator/lmpt-304) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMPT-304` (equipment), `M63` (equipment_class), `P33` (process)
 
 
 ## CAT-EV-47CF6F0D52550949
@@ -443,6 +499,19 @@ The project owner confirms Theris Nano as a legitimate British manufacturer; its
 - Source: [Theris Nanotechnology Â· owner-confirmed manufacturer](https://therisnano.com/products/) — Named product/technical description; brochure page references in context
 
 **Related records:** `Theris` (manufacturer), `Theris Nanotechnology` (manufacturer)
+
+
+## CAT-EV-72B2932B7F66F2B1
+
+Labmate maintains a public own-brand equipment catalogue and company contact pages.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Official source statements establish a commercial web presence. Incorporation history, manufacturing entity and common academic adoption remain independently unverified; no green star granted.
+
+- Source: [Labmate About](https://www.labmate.com/about-us) — Company self-description and commercial portfolio
+
+**Related records:** `Labmate` (manufacturer)
 
 
 ## CAT-EV-7708023A9F6FDCD2
@@ -879,6 +948,20 @@ UCLA names Veeco GEN-930 â€” N-MBE configuration in its equipment descripti
 **Related records:** `UCLA-UCLA-GEN930-N` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
 
 
+## CAT-EV-B9A3BDB39C1DBEF2
+
+Labmate lists Vacuum Oven LMVO-A501 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 50 L vacuum drying oven; proposed drying-stage alternative subject to material volatility, gas and pump compatibility.
+
+- Source: [Vacuum Oven LMVO-A501](https://www.labmate.com/vacuum-oven/lmvo-a501) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/vacuum-oven/lmvo-a501) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMVO-A501` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process)
+
+
 ## CAT-EV-BA7CBB947E8D949C
 
 EVG identifies EVG720 in its official product documentation.
@@ -909,6 +992,20 @@ UCLA names Thermo Scientific Nicolet Continuum in its equipment description.
 **Related records:** `UCLA-TF-CONTINUUM` (equipment), `M108` (equipment_class), `P46` (process), `P47` (process)
 
 
+## CAT-EV-C6279B480A8D2FE5
+
+Labmate lists Jacketed Glass Reactor LMJGR-A100 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 0.5 L jacketed glass stirred reactor for temperature-controlled solution processing. External thermal circulation and exact wetted materials/configuration must be reviewed.
+
+- Source: [Jacketed Glass Reactor LMJGR-A100](https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/jacketed-glass-reactor/lmjgr-a100) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMJGR-A100` (equipment), `M04` (equipment_class), `P04` (process), `P08` (process), `P10` (process)
+
+
 ## CAT-EV-C6EFE4FEE398A296
 
 EVG identifies HERCULES NIL 200 mm in its official product documentation.
@@ -936,6 +1033,20 @@ The manufacturer identifies this NanoStream variant as a 1-head nanoparticle gen
 - Source: [Theris Nanotechnology: Theris NanoStreamS Â· product link review](https://therisnano.com/wp-content/uploads/2025/10/NanoStream-Brochure-2025-1.pdf) — Named product/technical description; brochure page references in context
 
 **Related records:** `M54-02` (equipment), `M54` (equipment_class), `P01` (process)
+
+
+## CAT-EV-CE0C462C28F3FE2E
+
+Labmate lists Hydrothermal Reactor LMHYR-A104 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. 50 mL PTFE-lined stainless steel hydrothermal reaction vessel. Exact material, solvent and simultaneous pressure/temperature limits require recipe-specific review.
+
+- Source: [Hydrothermal Reactor LMHYR-A104](https://www.labmate.com/hydrothermal-reactor/lmhyr-a104) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/hydrothermal-reactor/lmhyr-a104) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMHYR-A104` (equipment), `M05` (equipment_class), `P15` (process), `P31` (process), `P32` (process), `P39` (process)
 
 
 ## CAT-EV-D062FB8D801C810F
@@ -1046,6 +1157,20 @@ The reviewed source identifies EVG7200.
 - Source: [EVG7200 · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/uv-nil/EVG720_EVG7200_Flyer_19_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
 
 **Related records:** `M60-08` (equipment), `M60` (equipment_class)
+
+
+## CAT-EV-EFA58A6A8B88BEA1
+
+Labmate lists Automatic Mortar And Pestle LMAMP-A100 and a model-specific technical catalogue.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Commercial model candidate from the supplier catalogue. Curator functional classification and existing category/process associations, not literature-validated model use. Agate mortar grinder/pestle providing pressure/friction mixing and grinding; not a planetary ball mill. No guaranteed nano-size output inferred.
+
+- Source: [Automatic Mortar And Pestle LMAMP-A100](https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100) — Selected model title, specifications and model pricing table
+- Source: [Model technical catalogue](https://www.labmate.com/catalog/automatic-mortar-and-pestle/lmamp-a100) — Exact model catalogue; not an operating manual
+
+**Related records:** `CAT-LABMATE-LMAMP-A100` (equipment), `M81` (equipment_class), `P32` (process)
 
 
 ## CAT-EV-F0BC96C278C73EF8
@@ -5634,6 +5759,19 @@ The linked source presents an instrument photograph matched to Hitachi HT7800 (e
 **Related records:** `M39-03` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
 
 
+## IMG-EV-11532F7CB5288FDE
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMUH-A102. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Ultrasonic Homogenizer LMUH-A102](https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMUH-A102` (equipment), `M09` (equipment_class), `P04` (process), `P08` (process), `P11` (process), `P12` (process)
+
+
 ## IMG-EV-13EB4BBCDBCA2BA9
 
 The linked source presents an instrument photograph matched to Inovenso NE300 (exact model existing category).
@@ -5658,6 +5796,19 @@ The linked source presents an instrument photograph matched to IKA EUROSTAR 60 d
 - Source: [IKA instrument photograph / catalog entry](https://www.axel-gl.com/en/asone/d/1-3150-31/) — Product title EUROSTAR 60 digital, order 1-3150-31, JAN4053411053840, 40 L / 60 Ncm. Avoided DirectIndustry EUROSTAR 60 page because its title and control-variant description conflict.
 
 **Related records:** `M03-05` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-1C86CFA22FDF28D0
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMHYR-A104. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Hydrothermal Reactor LMHYR-A104](https://www.labmate.com/hydrothermal-reactor/lmhyr-a104) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMHYR-A104` (equipment), `M05` (equipment_class), `P15` (process), `P31` (process), `P32` (process), `P39` (process)
 
 
 ## IMG-EV-1FC3BA7F3E99C1AB
@@ -5894,6 +6045,19 @@ The linked source presents an instrument photograph matched to Hitachi HT7830 (e
 **Related records:** `M39-09` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
 
 
+## IMG-EV-4C5D37E5EF73116E
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMVO-A501. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Vacuum Oven LMVO-A501](https://www.labmate.com/vacuum-oven/lmvo-a501) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMVO-A501` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process)
+
+
 ## IMG-EV-58CF2AB92ADAC6CD
 
 The linked source presents an instrument photograph matched to RETSCH PM 400 (exact model).
@@ -6022,6 +6186,19 @@ The linked source presents an instrument photograph matched to SUSS MA/BA6 Gen4 
 - Source: [SUSS instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-suss-microtec-maba6-gen4-mask-aligner) — Suss MicroTec MA/BA6 Gen4 Mask Aligner
 
 **Related records:** `M58-01` (equipment), `M58` (equipment_class), `P06` (process)
+
+
+## IMG-EV-7CF891F672CC2893
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMPBM-A100. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Planetary Ball Mill LMPBM-A100](https://www.labmate.com/planetary-ball-mill/a100) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMPBM-A100` (equipment), `M12` (equipment_class), `P07` (process)
 
 
 ## IMG-EV-7F7D74E631124C20
@@ -6336,6 +6513,19 @@ The linked source presents an instrument photograph matched to IKA T 50 digital 
 **Related records:** `M11-05` (equipment), `M11` (equipment_class)
 
 
+## IMG-EV-C981A57538A10798
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMJGR-A100. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Jacketed Glass Reactor LMJGR-A100](https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMJGR-A100` (equipment), `M04` (equipment_class), `P04` (process), `P08` (process), `P10` (process)
+
+
 ## IMG-EV-CBF6DB7A32CF11F7
 
 Thermo Fisher Scientific presents an Invitrogen V22889 kit photograph with packaging and three dye vials.
@@ -6347,6 +6537,19 @@ Thermo Fisher Scientific presents an Invitrogen V22889 kit photograph with packa
 - Source: [Vybrant Multicolor Cell-Labeling Kit V22889](https://www.thermofisher.com/order/catalog/product/V22889) — Selected exact V22889 catalog gallery; three-vial kit image visually checked
 
 **Related records:** `did-v22889` (component), `CMP-OFFER-A1D41E6D5819` (component_offer)
+
+
+## IMG-EV-D6243121F2F97D82
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMPT-304. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Potentiometric Titrator LMPT-304](https://www.labmate.com/potentiometric-titrator/lmpt-304) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMPT-304` (equipment), `M63` (equipment_class), `P33` (process)
 
 
 ## IMG-EV-D6D9DAAE9693B146
@@ -6373,6 +6576,32 @@ The linked source presents an instrument photograph matched to Inovenso NE200 (e
 - Source: [Inovenso instrument photograph / catalog entry](https://www.inovenso.com/lab-scale-electrospinning-machine/) — Same exact manufacturer/model already has this sourced photo in category M26 (M26-08); reused across its electrospraying association.
 
 **Related records:** `M47-08` (equipment), `M47` (equipment_class)
+
+
+## IMG-EV-DA17C7E8DBEAE3B4
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMAMP-A100. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Automatic Mortar And Pestle LMAMP-A100](https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMAMP-A100` (equipment), `M81` (equipment_class), `P32` (process)
+
+
+## IMG-EV-DC476BE7A5CD1944
+
+The Labmate selected-model page presents this model-specific product image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Supplier model-specific product photograph for LMPT-303. Reference view; delivered accessories, electrical configuration and installed ownership are not established. Source rights retained.
+
+- Source: [Potentiometric Titrator LMPT-303](https://www.labmate.com/potentiometric-titrator/lmpt-303) — Selected model gallery and Product image; visually reviewed
+
+**Related records:** `CAT-LABMATE-LMPT-303` (equipment), `M63` (equipment_class), `P33` (process)
 
 
 ## IMG-EV-E2EF02317488BBC8
@@ -6493,6 +6722,20 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 **Related records:** `CMP-OFFER-9AA8A445574A` (component_offer), `sylgard184-base` (component)
 
 
+## PRICE-EV-0229640A4DE588D9
+
+Labmate publishes USD 3500.0 per each of 1 for Jacketed Glass Reactor LMJGR-A100.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per each of 1 for Jacketed Glass Reactor LMJGR-A100, supplier SKU LMJGR-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Operating temperature range is manufacturer claim, not a recipe recommendation; circulation unit may be separate.
+
+- Source: [Jacketed Glass Reactor LMJGR-A100](https://www.labmate.com/jacketed-glass-reactor/lmjgr-a100) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMJGR-A100` (equipment), `M04` (equipment_class), `P04` (process), `P08` (process), `P10` (process)
+
+
 ## PRICE-EV-031280425C67B359
 
 Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 Ã— 25 mm).
@@ -6505,6 +6748,20 @@ Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1
 - Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-766F7C32BD1D4648` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-036F6A25B42B854C
+
+Labmate publishes USD 3087.5 per each of 1 for Vacuum Oven LMVO-A501.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per each of 1 for Vacuum Oven LMVO-A501, supplier SKU LMVO-A501. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source vacuum pump pressure -0.095 Pa is inconsistent with typical gauge-pressure units; omitted. Verify pump bundle, inert gas connections and solvent suitability.
+
+- Source: [Vacuum Oven LMVO-A501](https://www.labmate.com/vacuum-oven/lmvo-a501) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMVO-A501` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process)
 
 
 ## PRICE-EV-039AE6D2ABD11B30
@@ -6545,6 +6802,20 @@ US Research Nanomaterials, Inc. publishes USD 625.0 for US Nano US1149M Natural 
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Exact previously curated form/size option: 1kg-5um Natural Graphite (add $625). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-C46C8CC96DFBF770` (component_offer), `usnano-us1149m-natural-graphite5um` (component)
+
+
+## PRICE-EV-06372C0601D52CE8
+
+Labmate publishes USD 3462.5 per pack of 1 for Ultrasonic Homogenizer LMUH-A102.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per pack of 1 for Ultrasonic Homogenizer LMUH-A102, supplier SKU LMUH-A102. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Displayed image includes processor, probe soundproof enclosure and display. Accessories/included package should be confirmed.
+
+- Source: [Ultrasonic Homogenizer LMUH-A102](https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMUH-A102` (equipment), `M09` (equipment_class), `P04` (process), `P08` (process), `P11` (process), `P12` (process)
 
 
 ## PRICE-EV-06F4F59D0262D59E
@@ -6691,6 +6962,20 @@ MilliporeSigma publishes USD 265 for SKU 650579-4L, 4000 mL of Toluene HPLC Plus
 **Related records:** `toluene-hplc` (component), `PACK-PRICE261018-FB72C27340B7E438` (component_offer), `P23-LITERATURE-20261017-C07` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-0C84F3074B305BE8
+
+Labmate publishes USD 3512.5 per each of 1 for Planetary Ball Mill LMPBM-A100.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per each of 1 for Planetary Ball Mill LMPBM-A100, supplier SKU A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Public URL and schema SKU use A100, while visible model is LMPBM-A100. Preserve both identities. Source voltage 220 V/50 Hz; US compatibility needs confirmation.
+
+- Source: [Planetary Ball Mill LMPBM-A100](https://www.labmate.com/planetary-ball-mill/a100) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMPBM-A100` (equipment), `M12` (equipment_class), `P07` (process)
+
+
 ## PRICE-EV-0D2ECAAFABEA4968
 
 TCI America publishes USD 37 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-100G, pack 100 g (published_price; new).
@@ -6820,6 +7105,20 @@ US Research Nanomaterials publishes 75.0 dollars for 0.25 g of US Nano US4101 SW
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-1BE1F1989D0C7BF0` (component_offer), `P29` (process)
+
+
+## PRICE-EV-141A3D0FA9417B41
+
+Labmate publishes USD 1175.0 per each of 1 for Hydrothermal Reactor LMHYR-A104.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per each of 1 for Hydrothermal Reactor LMHYR-A104, supplier SKU LMHYR-A104. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Separate maxima are source-rated limits; no safe simultaneous operating setpoint or validated chemistry inferred.
+
+- Source: [Hydrothermal Reactor LMHYR-A104](https://www.labmate.com/hydrothermal-reactor/lmhyr-a104) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMHYR-A104` (equipment), `M05` (equipment_class), `P15` (process), `P31` (process), `P32` (process), `P39` (process)
 
 
 ## PRICE-EV-15220B58E1A87BE7
@@ -8614,6 +8913,20 @@ US Research Nanomaterials, Inc. publishes USD 39.0 for US Nano US4300 MWCNTs, dr
 **Related records:** `PACK-USNANO261018-8B14B431BDADCB90` (component_offer), `usnano-us4300-mwcnt-dry` (component)
 
 
+## PRICE-EV-946B861010CEF85B
+
+Labmate publishes USD 13250.0 per pack of 1 for Potentiometric Titrator LMPT-304.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-304, supplier SKU LMPT-304. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation.
+
+- Source: [Potentiometric Titrator LMPT-304](https://www.labmate.com/potentiometric-titrator/lmpt-304) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMPT-304` (equipment), `M63` (equipment_class), `P33` (process)
+
+
 ## PRICE-EV-947C294C04EACBC1
 
 Krackeler Scientific publishes USD 79.1 for Mowiol 8-88 dry polymer, MW ~67,000, SKU 45-81383-250G, pack 250 g (published_price; new).
@@ -9271,6 +9584,20 @@ Clarkson Laboratory & Supply publishes USD 16400 for Thermo Scientific Vacutherm
 **Related records:** `M18-09` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process), `SELL-PRICE261018-755923C36188185D` (seller_offer)
 
 
+## PRICE-EV-BD6EBB7BC7A59E98
+
+Labmate publishes USD 3700.0 per each of 1 for Automatic Mortar And Pestle LMAMP-A100.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per each of 1 for Automatic Mortar And Pestle LMAMP-A100, supplier SKU LMAMP-A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Source table mortar caliber 120 nm is implausible for equipment size; unit withheld pending manufacturer clarification. No nanoparticle size claim adopted.
+
+- Source: [Automatic Mortar And Pestle LMAMP-A100](https://www.labmate.com/automatic-mortar-and-pestle/lmamp-a100) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMAMP-A100` (equipment), `M81` (equipment_class), `P32` (process)
+
+
 ## PRICE-EV-BD93875613D89637
 
 Lab Alley publishes USD 58.88 for Tannic Acid Lab Grade, SKU C8121-100g, pack 100.0 g (published_price; new).
@@ -9912,6 +10239,20 @@ Chem-Impex publishes USD 131.3 for Boron nitride3–4µm powder, SKU 47145-100G,
 - Source: [Chem-Impex product price](https://www.chemimpex.com/products/47145) — 47145 product; 100G pack table; 3–4 micron powder; &gt;=99.9% trace metals basis.
 
 **Related records:** `CMP-OFFER-9CBA1A907C50` (component_offer), `boron-nitride` (component)
+
+
+## PRICE-EV-E4A115FAA678F3F1
+
+Labmate publishes USD 8812.5 per pack of 1 for Potentiometric Titrator LMPT-303.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Published supplier catalog price per pack of 1 for Potentiometric Titrator LMPT-303, supplier SKU LMPT-303. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Catalog states 220 V/50 Hz; US supply and regional configuration need supplier confirmation.
+
+- Source: [Potentiometric Titrator LMPT-303](https://www.labmate.com/potentiometric-titrator/lmpt-303) — Pricing table: exact model and pack row, Add to cart/Buy now; global accessory modal excluded
+- Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
+
+**Related records:** `CAT-LABMATE-LMPT-303` (equipment), `M63` (equipment_class), `P33` (process)
 
 
 ## PRICE-EV-E4F74DB982825244
