@@ -6,7 +6,7 @@ const data=JSON.parse(readFileSync(new URL('../app/data/components.json',import.
 const catalog=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url)));
 
 test('pack aliases preserve every sourced process and cannot merge grades or pack sizes',()=>{
- const offer={...data.offers[0],offer_id:'a',component_id:'a',seller:'Synthetic vendor',sku:'TEST-1',grade:'Grade A',pack_quantity:1,pack_unit:'g'};
+ const offer={...data.offers[0],offer_id:'a',component_id:'a',seller:'Synthetic vendor',sku:'TEST-1',grade:'Grade A',pack_quantity:1,pack_unit:'g',checked_date:'2026-10-17'};
  const data2={...data,offers:[offer,{...offer,offer_id:'b',component_id:'b',checked_date:'2026-10-18'},{...offer,offer_id:'c',component_id:'c',grade:'Grade B'},{...offer,offer_id:'d',component_id:'d',pack_quantity:2}],formulations:[{...data.formulations[0],route_id:'P01',components:[{...data.formulations[0].components[0],component_id:'a',eligible_offer_ids:[]}]},{...data.formulations[0],route_id:'P27',components:[{...data.formulations[0].components[0],component_id:'b',eligible_offer_ids:[]}]}]};
  const packs=marketPacks(data2,catalog.routes);assert.equal(packs.length,3);
  const merged=packs.find(p=>p.component_ids.includes('b'));assert.equal(merged.offer.offer_id,'b');assert.deepEqual(merged.processes.map(p=>p.route_id),['P01','P27']);
