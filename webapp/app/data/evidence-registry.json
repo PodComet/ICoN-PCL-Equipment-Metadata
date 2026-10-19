@@ -33995,6 +33995,80 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-031280425C67B359",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "United MSL3X1 72-slide pack · Fisher Scientific",
+      "claim": "Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).",
+      "scope": "Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Fisher Scientific MSL3X1 pack offer",
+          "url": "https://www.fishersci.com/shop/products/glass-microscope-slides-4/S139531",
+          "locator": "CatalogS139531 price and specifications table",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "United Scientific 2026 Laboratory Products catalog",
+          "url": "https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361",
+          "locator": "PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "glass-slide-25x75mm",
+          "label": "Plain glass chip substrate"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-UNITED261018-766F7C32BD1D4648",
+          "label": "Fisher Scientific / S139531"
+        },
+        {
+          "record_type": "formulation_component",
+          "record_id": "P27-LITERATURE-20261017-C10",
+          "label": "Compatible dimensions; reusable substrate"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P27",
+          "label": "Microfluidic nanoprecipitation of polymeric nanoparticles"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "component_id": "glass-slide-25x75mm",
+        "offer_id": "PACK-UNITED261018-766F7C32BD1D4648",
+        "manufacturer": "United Scientific",
+        "manufacturer_sku": "MSL3X1",
+        "seller": "Fisher Scientific",
+        "seller_sku": "S139531",
+        "source_value": "7.98",
+        "source_currency": "USD",
+        "usd_equivalent": "7.98",
+        "pack_quantity": 72,
+        "pack_unit": "piece",
+        "dimensions_mm": [
+          75,
+          25
+        ],
+        "thickness_mm_range": [
+          1.0,
+          1.2
+        ],
+        "eligible_line_ids": [
+          "P27-LITERATURE-20261017-C10"
+        ],
+        "cost_scope": "reusable",
+        "catalog_pdf_sha256": "d89e410e8efb7a46e825545f10089722af481c0bfda861ed83b9f51aede2f829"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-08AB07A1D9FB9C55",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -34677,6 +34751,80 @@
         "usd_equivalent": "964.29",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-1827BE5490B25E95",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "United MSL3X1 72-slide pack · U.S. Plastic Corp.",
+      "claim": "U.S. Plastic Corp. publishes USD 6.66 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).",
+      "scope": "Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "U.S. Plastic Corp. MSL3X1 pack offer",
+          "url": "https://www.usplastic.com/catalog/item.aspx?itemid=119090",
+          "locator": "Product overview, item information, price immediately under stock status; schema.org Offer microdata",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "United Scientific 2026 Laboratory Products catalog",
+          "url": "https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361",
+          "locator": "PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "glass-slide-25x75mm",
+          "label": "Plain glass chip substrate"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-UNITED261018-51C3288C6FF4F1D9",
+          "label": "U.S. Plastic Corp. / 76663"
+        },
+        {
+          "record_type": "formulation_component",
+          "record_id": "P27-LITERATURE-20261017-C10",
+          "label": "Compatible dimensions; reusable substrate"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P27",
+          "label": "Microfluidic nanoprecipitation of polymeric nanoparticles"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "component_id": "glass-slide-25x75mm",
+        "offer_id": "PACK-UNITED261018-51C3288C6FF4F1D9",
+        "manufacturer": "United Scientific",
+        "manufacturer_sku": "MSL3X1",
+        "seller": "U.S. Plastic Corp.",
+        "seller_sku": "76663",
+        "source_value": "6.66",
+        "source_currency": "USD",
+        "usd_equivalent": "6.66",
+        "pack_quantity": 72,
+        "pack_unit": "piece",
+        "dimensions_mm": [
+          75,
+          25
+        ],
+        "thickness_mm_range": [
+          1.0,
+          1.2
+        ],
+        "eligible_line_ids": [
+          "P27-LITERATURE-20261017-C10"
+        ],
+        "cost_scope": "reusable",
+        "catalog_pdf_sha256": "d89e410e8efb7a46e825545f10089722af481c0bfda861ed83b9f51aede2f829"
       }
     },
     {
@@ -38671,6 +38819,91 @@
         "usd_equivalent": "9565.05",
         "conversion_date": "2026-10-16",
         "conversion_source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-FD3BD61EFBD4EDCF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "United MSL3X1 72-slide pack · Nexera Scientific",
+      "claim": "Nexera Scientific publishes USD 7 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).",
+      "scope": "Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.",
+      "recorded_at": "2026-10-18",
+      "sources": [
+        {
+          "title": "Nexera Scientific MSL3X1 pack offer",
+          "url": "https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72",
+          "locator": "Product title/price/description and public product JSON variant44272398041224",
+          "checked_date": "2026-10-18"
+        },
+        {
+          "title": "United Scientific 2026 Laboratory Products catalog",
+          "url": "https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361",
+          "locator": "PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table",
+          "checked_date": "2026-10-18"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "glass-slide-25x75mm",
+          "label": "Plain glass chip substrate"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-UNITED261018-8FA896F5CDD1C69B",
+          "label": "Nexera Scientific / NUS-MSL3X1"
+        },
+        {
+          "record_type": "formulation_component",
+          "record_id": "P27-LITERATURE-20261017-C10",
+          "label": "Compatible dimensions; reusable substrate"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P27",
+          "label": "Microfluidic nanoprecipitation of polymeric nanoparticles"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "component_id": "glass-slide-25x75mm",
+        "offer_id": "PACK-UNITED261018-8FA896F5CDD1C69B",
+        "manufacturer": "United Scientific",
+        "manufacturer_sku": "MSL3X1",
+        "seller": "Nexera Scientific",
+        "seller_sku": "NUS-MSL3X1",
+        "source_value": "7",
+        "source_currency": "USD",
+        "usd_equivalent": "7",
+        "pack_quantity": 72,
+        "pack_unit": "piece",
+        "dimensions_mm": [
+          75,
+          25
+        ],
+        "thickness_mm_range": [
+          1.0,
+          1.2
+        ],
+        "eligible_line_ids": [
+          "P27-LITERATURE-20261017-C10"
+        ],
+        "cost_scope": "reusable",
+        "catalog_pdf_sha256": "d89e410e8efb7a46e825545f10089722af481c0bfda861ed83b9f51aede2f829",
+        "image_url": "https://cdn.shopify.com/s/files/1/0683/4965/7224/files/1-NUS-MSL3X1-main.jpg?v=1758173604",
+        "image_source_url": "https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72",
+        "image_scope": "Seller catalog photograph of the named United Scientific MSL3X1 plain glass microscope slides/pack. Product illustration, not an experimental or nanomaterial microscopy image. Packaging may vary.",
+        "image_verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "9be4948b97aca02dd04fc03a7d66a7016792c650b5ab64502111469c79ad88f1",
+          "verification": "HTTP response and visual comparison with manufacturer catalog page 361; label shows MSL3X1 and pack of 72."
+        }
       }
     },
     {

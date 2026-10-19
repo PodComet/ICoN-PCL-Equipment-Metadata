@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-448 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+451 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -5034,6 +5034,20 @@ The linked source presents an instrument photograph matched to Bruker MultiMode 
 **Related records:** `M41-08` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
 
 
+## PRICE-EV-031280425C67B359
+
+Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.
+
+- Source: [Fisher Scientific MSL3X1 pack offer](https://www.fishersci.com/shop/products/glass-microscope-slides-4/S139531) — CatalogS139531 price and specifications table
+- Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
+
+**Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-766F7C32BD1D4648` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
 ## PRICE-EV-08AB07A1D9FB9C55
 
 Hielscher Ultrasonics publishes USD 17950 for Hielscher UIP1000hdT (published_price; new).
@@ -5176,6 +5190,20 @@ Thermal Scientific, Inc. publishes USD 964.29 for Parr 4749 (published_price; ne
 - Source: [Thermal Scientific, Inc. public price](https://www.thermalscientific.com/acid-digestion-vessel-parr-4749-parr-4749/) — Product title, MPN 4749, Price Now block and Description; extracted lines 584-626.
 
 **Related records:** `M05-09` (equipment), `M05` (equipment_class), `SELL-PRICE261018-DA10E33390A1DEB5` (seller_offer)
+
+
+## PRICE-EV-1827BE5490B25E95
+
+U.S. Plastic Corp. publishes USD 6.66 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.
+
+- Source: [U.S. Plastic Corp. MSL3X1 pack offer](https://www.usplastic.com/catalog/item.aspx?itemid=119090) — Product overview, item information, price immediately under stock status; schema.org Offer microdata
+- Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
+
+**Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-51C3288C6FF4F1D9` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
 
 
 ## PRICE-EV-1C847D43EC949CB6
@@ -6027,6 +6055,20 @@ LabRulez publishes EUR 8500 for Agilent Cary 60 (asking_price; refurbished).
 - Source: [LabRulez public price](https://labrulez.com/en-us/all/marketplace/1109) — Purchase price, condition/year/warranty and operational exclusion; extracted lines 47-108.
 
 **Related records:** `M35-04` (equipment), `M35` (equipment_class), `P03` (process), `SELL-PRICE261018-904B9C862253A520` (seller_offer)
+
+
+## PRICE-EV-FD3BD61EFBD4EDCF
+
+Nexera Scientific publishes USD 7 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Exact named pack/identity match to P27 slide dimensions. Reusable chip substrate purchase reference; no automatic consumed-batch charge or instrument price. No equivalence to silica, sapphire, silicon, ITO or other coated substrates. Taxes and freight excluded.
+
+- Source: [Nexera Scientific MSL3X1 pack offer](https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72) — Product title/price/description and public product JSON variant44272398041224
+- Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
+
+**Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-8FA896F5CDD1C69B` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
 
 
 ## TC-M01

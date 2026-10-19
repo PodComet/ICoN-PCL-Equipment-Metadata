@@ -163,6 +163,13 @@
       "path": "catalog/keyence_catalog_review_2026-10-18.json",
       "checked_date": "2026-10-18",
       "summary": "Added one USD 11,550 controller-only seller reference and the VR-6000 brochure link; existing series photo reverified. No complete-system price or new photo. PDF download requires KEYENCE sign-in."
+    },
+    {
+      "id": "UNITED-20261018",
+      "title": "United Scientific catalog review",
+      "path": "catalog/united_catalog_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Screened both linked 2026 catalogs; added three USD dealer offers ($6.66, $7.00, $7.98) and one product photo for the MSL3X1 72-slide pack used as a P27 substrate. No exact existing instrument matches; catalogs omit retail prices."
     }
   ]
 }

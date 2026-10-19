@@ -10,6 +10,21 @@ const data=read('components'),catalog=read('catalog');
 const route=id=>catalog.routes.find(r=>r.route_id===id),workflow=id=>createWorkflow(route(id),catalog.steps);
 const formulation=id=>data.formulations.find(f=>f.route_id===id);
 
+test('United MSL3X1 dealer quotes remain selectable reusable-substrate acquisitions for P27',()=>{
+ const f=formulation('P27'),plan=formulationPlan(f),line=f.components.find(c=>c.line_id==='P27-LITERATURE-20261017-C10');
+ const material=plan.inputs.find(m=>m.component_line_id===line.line_id);
+ const offers=componentOffers(line,data).filter(o=>o.offer_id.startsWith('PACK-UNITED261018-'));
+ assert.equal(line.cost_scope,'reusable');assert.equal(offers.length,3);
+ assert.deepEqual(offers.map(o=>o.price_value).sort((a,b)=>a-b),[6.66,7,7.98]);
+ for(const offer of offers){
+  assert.equal(offer.sku,'MSL3X1');assert.equal(offer.pack_quantity,72);assert.equal(offer.pack_unit,'piece');assert.equal(offer.currency,'USD');
+  const cost=materialCost({...material,offer_id:offer.offer_id},plan,data);
+  assert.equal(cost.offer.offer_id,offer.offer_id);assert.equal(cost.cost_usd,null);
+ }
+ const photographed=offers.filter(o=>o.image_url);assert.equal(photographed.length,1);
+ assert.equal(photographed[0].seller,'Nexera Scientific');assert.ok(photographed[0].image_source_url.includes('nexerasci.com/products/'));
+});
+
 test('every P-class has reviewed component coverage and P43 has no invented nanomaterial recipe',()=>{
  assert.equal(data.formulations.length,44);
  assert.deepEqual(data.formulations.map(f=>f.route_id).sort(),catalog.routes.filter(r=>r.route_id.startsWith('P')).map(r=>r.route_id).sort());

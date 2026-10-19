@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [United Scientific catalog review](docs/united-catalog-review-2026-10-18.md) screens both 2026 catalogs (1,168 PDF pages) and adds three USD dealer offers and one verified photo for the MSL3X1 72-slide pack compatible with P27's reusable substrate. No exact existing instrument models matched; the manufacturer catalogs omit retail prices.
+
 The [KEYENCE catalog review](docs/keyence-catalog-review-2026-10-18.md) adds the missing VR-6000 brochure link and a USD 11,550 **controller-only** distributor reference. The existing series photo was reverified. No complete-system price, MSRP or new photo is claimed; the catalog PDF requires KEYENCE sign-in.
 
 The [18 October price review](docs/price-resweep-2026-10-18.md) adds 42 price observations for 41 existing instrument models and 33 distinct material pack quotes across 16 identities. Sources include manufacturer shops, distributor catalogs and labeled resale offers. Prices display in USD, retain native amounts and configuration/condition scope, and have searchable evidence IDs. Seven previously uncovered component occurrences gained compatible pack offers; reference-only grades and prepared-solution mismatches remain excluded from automatic costs.

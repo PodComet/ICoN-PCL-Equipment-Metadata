@@ -1,0 +1,199 @@
+{
+  "schema": "iconpcl-catalog-review/v1",
+  "checked_date": "2026-10-18",
+  "requested_catalog_url": "https://www.unitedsci.com/catalogs-brochures",
+  "scope": "Full-text screening of both linked 2026 PDFs for existing model names and relevant component identities; visual verification of the matching laboratory page and product image. This is not a manual technical validation of every catalog item.",
+  "summary": {
+    "pdf_catalogs_screened": 2,
+    "total_pdf_pages": 1168,
+    "exact_existing_instrument_matches": 0,
+    "instrument_prices_added": 0,
+    "instrument_photos_added": 0,
+    "new_instrument_models": 0,
+    "component_identities_enriched": 1,
+    "component_dealer_offers_added": 3,
+    "distinct_sku_pack_configurations": 1,
+    "distinct_component_photos_added": 1,
+    "new_price_evidence_records": 3,
+    "new_eligibility_links": 3
+  },
+  "catalogs": [
+    {
+      "name": "laboratory",
+      "pages": 586,
+      "sha256": "d89e410e8efb7a46e825545f10089722af481c0bfda861ed83b9f51aede2f829",
+      "model_name_text_hits": [],
+      "text_length": 492298,
+      "source_url": "https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf"
+    },
+    {
+      "name": "education",
+      "pages": 582,
+      "sha256": "d9cfeacd45c5d460448cb52b53331b3df1ce15bf19642c6faf8646bd518675ae",
+      "model_name_text_hits": [],
+      "text_length": 475066,
+      "source_url": "https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Education_digital.pdf"
+    }
+  ],
+  "manufacturer_pricing_policy": {
+    "source_url": "https://www.unitedsci.com/catalogs-brochures",
+    "finding": "The publisher states it sells through authorized dealers and that catalogs contain no retail prices. Dealer amounts remain separate from manufacturer MSRP."
+  },
+  "matched_catalog_page": {
+    "pdf": "Laboratory Products 2026",
+    "pdf_page": 361,
+    "printed_page": "361",
+    "manufacturer_sku": "MSL3X1",
+    "quantity_per_pack": 72,
+    "dimensions_mm": [
+      75,
+      25
+    ],
+    "thickness_mm_range": [
+      1.0,
+      1.2
+    ]
+  },
+  "component_prices": [
+    {
+      "component_id": "glass-slide-25x75mm",
+      "name": "United Scientific MSL3X1 plain glass microscope slides,75 x25 x1.0-1.2mm,72pack",
+      "manufacturer": "United Scientific",
+      "sku": "MSL3X1",
+      "seller": "U.S. Plastic Corp.",
+      "seller_sku": "76663",
+      "price_value": 6.66,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "condition": "new",
+      "pack_quantity": 72,
+      "pack_unit": "piece",
+      "source_url": "https://www.usplastic.com/catalog/item.aspx?itemid=119090",
+      "checked_date": "2026-10-18",
+      "availability": "In stock",
+      "verification": "Public page has unit price6.66 per72 and manufacturer partMSL3X1. HTML microdata explicitly declares priceCurrencyUSD and price6.66. Quantity discounts start at12packs and were not used.",
+      "source_locator": "Product overview, item information, price immediately under stock status; schema.org Offer microdata",
+      "eligible_line_ids": [
+        "P27-LITERATURE-20261017-C10"
+      ],
+      "notes": "US dealer published pack price, not an official manufacturer MSRP. Shipping and tax excluded; standard single-pack price rather than bulk discount. Reusable chip substrate acquisition price; not consumed-reagent cost.",
+      "adopted_offer_id": "PACK-UNITED261018-51C3288C6FF4F1D9",
+      "evidence_id": "PRICE-EV-1827BE5490B25E95",
+      "catalog_locator": "2026 laboratory catalog: PDF/printed page 361",
+      "cost_scope": "reusable"
+    },
+    {
+      "component_id": "glass-slide-25x75mm",
+      "name": "United Scientific MSL3X1 plain glass microscope slides,75 x25 x1.0-1.2mm,72pack",
+      "manufacturer": "United Scientific",
+      "sku": "MSL3X1",
+      "seller": "Nexera Scientific",
+      "seller_sku": "NUS-MSL3X1",
+      "price_value": 7,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "condition": "new",
+      "pack_quantity": 72,
+      "pack_unit": "piece",
+      "source_url": "https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72",
+      "checked_date": "2026-10-18",
+      "availability": "Public add-to-cart listing; stock count not independently established",
+      "verification": "Product page shows7.00, vendorUnitedScientific, SKU NUS-MSL3X1 and72slides. Its public .json representation independently declares price7.00 and price_currencyUSD for that variant.",
+      "source_locator": "Product title/price/description and public product JSON variant44272398041224",
+      "image_url": "https://cdn.shopify.com/s/files/1/0683/4965/7224/files/1-NUS-MSL3X1-main.jpg?v=1758173604",
+      "image_source_url": "https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72",
+      "image_scope": "Seller catalog photograph of the named United Scientific MSL3X1 plain glass microscope slides/pack. Product illustration, not an experimental or nanomaterial microscopy image. Packaging may vary.",
+      "image_verification": "Exact product page image link and public productJSON image1500x1500, imageID47836761161864. Remote image web-open failed; parent should visually inspect browser image before accepting.",
+      "eligible_line_ids": [
+        "P27-LITERATURE-20261017-C10"
+      ],
+      "notes": "US dealer published pack price, not an official manufacturer MSRP. Shipping and tax excluded. Reusable chip substrate acquisition price; not consumed-reagent cost.",
+      "adopted_offer_id": "PACK-UNITED261018-8FA896F5CDD1C69B",
+      "evidence_id": "PRICE-EV-FD3BD61EFBD4EDCF",
+      "catalog_locator": "2026 laboratory catalog: PDF/printed page 361",
+      "cost_scope": "reusable"
+    },
+    {
+      "component_id": "glass-slide-25x75mm",
+      "name": "United Scientific MSL3X1 plain glass microscope slides,75 x25 x1.0-1.2mm,72pack",
+      "manufacturer": "United Scientific",
+      "sku": "MSL3X1",
+      "seller": "Fisher Scientific",
+      "seller_sku": "S139531",
+      "price_value": 7.98,
+      "currency": "USD",
+      "price_kind": "published_price",
+      "condition": "new",
+      "pack_quantity": 72,
+      "pack_unit": "piece",
+      "source_url": "https://www.fishersci.com/shop/products/glass-microscope-slides-4/S139531",
+      "checked_date": "2026-10-18",
+      "availability": "Public catalog add-to-cart price; account/contract price may differ",
+      "verification": "Live US catalog page shows7.98 per72pack with supplierMSL3X1 and exact dimensions75 x25mm, non-frosted,1-1.2mm, groundedges. Account sign-in is required only to check personalized price.",
+      "source_locator": "CatalogS139531 price and specifications table",
+      "eligible_line_ids": [
+        "P27-LITERATURE-20261017-C10"
+      ],
+      "notes": "US dealer published pack price, not an official manufacturer MSRP. Account/contract pricing may differ. Shipping and tax excluded. Reusable chip substrate acquisition price; not consumed-reagent cost.",
+      "adopted_offer_id": "PACK-UNITED261018-766F7C32BD1D4648",
+      "evidence_id": "PRICE-EV-031280425C67B359",
+      "catalog_locator": "2026 laboratory catalog: PDF/printed page 361",
+      "cost_scope": "reusable"
+    }
+  ],
+  "component_eligibility_updates": [
+    {
+      "line_id": "P27-LITERATURE-20261017-C10",
+      "before": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-6332AA3A9C721382\", \"PACK-PRICE261018-6B65845BD9D696AB\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.",
+        "cost_scope": "reusable"
+      },
+      "after": {
+        "eligible_offer_ids_json": "[\"PACK-PRICE261018-6332AA3A9C721382\", \"PACK-PRICE261018-6B65845BD9D696AB\", \"PACK-UNITED261018-51C3288C6FF4F1D9\", \"PACK-UNITED261018-8FA896F5CDD1C69B\", \"PACK-UNITED261018-766F7C32BD1D4648\"]",
+        "offer_match_notes": "Match chemical form, hydration, purity, stock concentration and dimensions before cost proration. 2026-10-18: 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. United MSL3X1: manufacturer catalog page 361 confirms plain 75 × 25 × 1.0–1.2 mm glass, 72 per pack. Three dated dealer pack offers accepted for this line only; reusable-substrate allocation remains unresolved.",
+        "cost_scope": "reusable"
+      }
+    }
+  ],
+  "media_review": {
+    "source_url": "https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72",
+    "image_url": "https://cdn.shopify.com/s/files/1/0683/4965/7224/files/1-NUS-MSL3X1-main.jpg?v=1758173604",
+    "scope": "Seller catalog photograph of the named United Scientific MSL3X1 plain glass microscope slides/pack. Product illustration, not an experimental or nanomaterial microscopy image. Packaging may vary.",
+    "verification": {
+      "status": 200,
+      "content_type": "image/jpeg",
+      "width": 1500,
+      "height": 1500,
+      "sha256": "9be4948b97aca02dd04fc03a7d66a7016792c650b5ab64502111469c79ad88f1",
+      "verification": "HTTP response and visual comparison with manufacturer catalog page 361; label shows MSL3X1 and pack of 72."
+    }
+  },
+  "rejected_decisions": [
+    {
+      "subject": "United Scientific-branded balances, microscopes, centrifuges, stirrers and hotplates",
+      "reason": "Existing equipment catalog has no UnitedScientific manufacturer/model profiles. Similar function, model names or appearance does not establish identity with another manufacturer; no existing instrument photo or price can safely be filled from these pages. No new model profiles requested in bounded task."
+    },
+    {
+      "subject": "United Scientific plain microscope slides as silica/sapphire/silicon/ITO/coated-glass substrates",
+      "reason": "Plain sheet glass75x25mm does not establish fused silica, sapphire, doped silicon, thermal oxide or conductive coating identity. No aliases or costing eligibility assigned to these different substrate components."
+    },
+    {
+      "subject": "Generic filtration supplies as Whatman PVDF0.2um membrane or257mm particle filter",
+      "reason": "No exact United catalog match established for manufacturer, membrane chemistry, pore size and dimensional requirements of existing formulation lines."
+    },
+    {
+      "subject": "Search hits at unitedscientific.co.in",
+      "reason": "Different company/domain in India; not the user-specified unitedsci.com catalog manufacturer. Rejected instead of importing unrelated Millex/PVDF dealer products."
+    },
+    {
+      "subject": "Additional United MSL3X1 US dealer offers",
+      "reason": "Thomas Scientific exact72pack10.66 also verified, but bounded enrichment kept to three distinct dealer options. Capitol and MegaDepot search results exposed lower prices but direct live-page evidence was incomplete; not proposed. Rounded/frosted/concavity/plastic variants were not equated to the plain source slide."
+    }
+  ],
+  "verification_notes": [
+    "The U.S. Plastic URL returned 404 via one web-fetch service; direct public HTTP response returned 200 and its visible page/microdata confirm MSL3X1, USD 6.66 and 72 slides.",
+    "No manufacturer account, pricing inquiry or dealer registration was used.",
+    "Original PDF files and downloaded image verification copies are retained locally; the public repository contains source URLs, hashes, locators and metadata only."
+  ]
+}
