@@ -212,25 +212,32 @@
       "path": "catalog/mse_catalog_review_2026-10-19.json",
       "checked_date": "2026-10-19",
       "summary": "Screened51,618 indexed products for existing make/model overlaps. Added14 instrument images,2 exact-variant USD pump prices and12 available material pack quotes across7 component identities (5 previously unquoted), with3 scoped material-photo identities. AI-labelled pictures, quote-only prices, five unavailable material offers and uncertain model/grade matches were withheld. No recipe eligibility or manufacturer MSRP changes."
+    },
+    {
+      "id": "thermo261019",
+      "title": "Thermo Fisher US catalog photo and price review",
+      "path": "catalog/thermo_catalog_review_2026-10-19.json",
+      "checked_date": "2026-10-19",
+      "summary": "12 missing instrument images (8 model-matched;4 explicitly representative family views),4 official USD list prices,2 separately retained online discounts,12 reference-only material pack quotes across7 existing component identities. One previously unpriced water system gains a sourced price. RFQ-only, legacy stubs, unsupported configurations and chemical structures withheld. One missing V22889 kit-packaging photograph added without changing its price or whole-kit allocation restrictions."
     }
   ],
   "coverage": {
     "instrument_records": 1113,
     "instrument_statuses": {
-      "estimate_only": 27,
+      "estimate_only": 38,
       "explicit_msrp": 1,
-      "manufacturer_price": 161,
-      "new_seller_price": 93,
-      "no_purchase_price": 779,
+      "manufacturer_price": 165,
+      "new_seller_price": 90,
+      "no_purchase_price": 767,
       "secondary_market_only": 52
     },
     "component_occurrences": 260,
     "component_statuses": {
       "compatible_pack_offer": 81,
-      "no_market_offer": 86,
-      "reference_offer_only": 93
+      "no_market_offer": 85,
+      "reference_offer_only": 94
     },
-    "component_pack_offers": 210,
+    "component_pack_offers": 222,
     "market_material_options": 32,
     "market_options_with_pack_quotes": 17
   }

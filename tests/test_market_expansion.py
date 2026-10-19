@@ -23,6 +23,9 @@ def later_updates():
             overrides.setdefault(update['equipment_id'],{}).update(update['after'])
     for update in json.loads((ROOT/'catalog/mse_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))['instrument_images']:
         overrides.setdefault(update['equipment_id'],{}).update(update['after'])
+    thermo=json.loads((ROOT/'catalog/thermo_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
+    for update in thermo['instrument_images']+thermo['manufacturer_prices']:
+        overrides.setdefault(update['equipment_id'],{}).update(update['after'])
     return report,overrides
 
 
@@ -64,6 +67,9 @@ def test_prices_media_and_existing_updates_retain_scoped_evidence():
     for filename in ['theris_review_2026-10-18.json','evg_review_2026-10-18.json']:
         additions['image_url']+=sum(not u['before'].get('image_url') and bool(u['after'].get('image_url')) for u in json.loads((ROOT/'catalog'/filename).read_text(encoding='utf-8'))['equipment_updates'])
     additions['image_url']+=sum(not u['before']['image_url'] and bool(u['after']['image_url']) for u in json.loads((ROOT/'catalog/mse_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))['instrument_images'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'})
+    thermo=json.loads((ROOT/'catalog/thermo_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
+    for field in additions:
+        additions[field]+=sum(not u['before'].get(field) and bool(u['after'].get(field)) for u in thermo['instrument_images']+thermo['manufacturer_prices'] if rows[u['equipment_id']]['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'})
     assert report['after']['photos']==293
     assert sum(bool(r['image_url']) for r in rows.values() if r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'})==293+additions['image_url']+sum('photo' in e['changes'] for e in json.loads((ROOT/'catalog/mit_nano_review_2026-10-17.json').read_text(encoding='utf-8'))['enriched'])
     prices=json.loads((ROOT/'catalog/price_review_2026-10-17.json').read_text(encoding='utf-8'))

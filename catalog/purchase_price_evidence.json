@@ -17563,6 +17563,1360 @@
         "image_ingested": true,
         "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/SIO2_68bfe5f5-1411-4ca5-bb3e-36a2bafbcd8e.png?v=1724636992"
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E22D7C9EF9F2F9C0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Evolution One US list price",
+      "claim": "Thermo Fisher Scientific publishes USD 10200 list for Thermo Scientific Evolution One, SKU 840-341400.",
+      "scope": "Official US list price for one Evolution One UV-Vis spectrophotometer, SKU 840-341400, fixed 1 nm bandwidth, 100–240 V, 50/60 Hz. Excludes One Plus, Peltier and regulatory/security bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Evolution One US list price",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "locator": "Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M35-03",
+          "label": "Thermo Scientific Evolution One"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M35",
+          "label": "UV-visible spectrophotometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "price_value": "10200",
+        "currency": "USD",
+        "price_kind": "list_price",
+        "scope": "Base Evolution One UV-Vis spectrophotometer, fixed1nm bandwidth,100/240V50/60Hz, each. Excludes OnePlus and regulatory/security/Peltier bundles. Public manufacturer list=final USD10200, priceRuleTypeLIST, orderable, no account-specific override.",
+        "checked_date": "2026-10-19",
+        "condition": "new",
+        "unit": "Each",
+        "manufacturer": "Thermo Scientific",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+        "source_sku": "840-341400",
+        "source_kind": "manufacturer_product_page",
+        "official_list_price": "10200",
+        "current_online_price": "10200",
+        "current_online_price_kind": "list_price",
+        "price_rule_type": "LIST",
+        "price_access": "Orderable",
+        "region": "us",
+        "account_specific_override": false,
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "source_html_sha256": "822758062a0f174f775941485ed06c1c1ba97bf00b883a7e0539a917d77b16ae",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        },
+        "equipment_id": "M35-03",
+        "model_name": "Thermo Scientific Evolution One",
+        "evidence_id": "PRICE-EV-E22D7C9EF9F2F9C0",
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "10200",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Evolution One UV-Vis spectrophotometer, SKU 840-341400, fixed 1 nm bandwidth, 100–240 V, 50/60 Hz. Excludes One Plus, Peltier and regulatory/security bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        },
+        "previously_unpriced": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-9710C6BC24CDA872",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Evolution Pro US list price",
+      "claim": "Thermo Fisher Scientific publishes USD 16000 list for Thermo Scientific Evolution Pro, SKU 840-340200.",
+      "scope": "Official US list price for one Evolution Pro UV-Vis spectrophotometer, SKU 840-340200, 100–240 V, 50/60 Hz. Excludes pharma/security/validation/Peltier bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Evolution Pro US list price",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "locator": "Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M35-08",
+          "label": "Thermo Scientific Evolution Pro"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M35",
+          "label": "UV-visible spectrophotometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "price_value": "16000",
+        "currency": "USD",
+        "price_kind": "list_price",
+        "scope": "Base Evolution Pro UV-Vis spectrophotometer SKU840-340200,100/240V50/60Hz, each. Excludes pharma/security/validation/Peltier bundle SKUs. Public manufacturer list=final USD16000, priceRuleTypeLIST, orderable, no account-specific override.",
+        "checked_date": "2026-10-19",
+        "condition": "new",
+        "unit": "Each",
+        "manufacturer": "Thermo Scientific",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+        "source_sku": "840-340200",
+        "source_kind": "manufacturer_product_page",
+        "official_list_price": "16000",
+        "current_online_price": "16000",
+        "current_online_price_kind": "list_price",
+        "price_rule_type": "LIST",
+        "price_access": "Orderable",
+        "region": "us",
+        "account_specific_override": false,
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "source_html_sha256": "f0744e6bf5193765d5001497be854cd247426a6340f921eb64f3cc4e14096577",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        },
+        "equipment_id": "M35-08",
+        "model_name": "Thermo Scientific Evolution Pro",
+        "evidence_id": "PRICE-EV-9710C6BC24CDA872",
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "16000",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Evolution Pro UV-Vis spectrophotometer, SKU 840-340200, 100–240 V, 50/60 Hz. Excludes pharma/security/validation/Peltier bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        },
+        "previously_unpriced": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-DC77EE03312DE0AC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) US list price",
+      "claim": "Thermo Fisher Scientific publishes USD 17700 list for Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank), SKU 50157882.",
+      "scope": "Official US list price for one Smart2Pure Pro 16 UV/UF system with 30 L tank, SKU 50157882, 16 L/h. Separate online-exclusive price at review: USD 15,930. The 60 L tank and UV-only variants are excluded. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) US list price",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "locator": "Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+          "label": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "price_value": "17700",
+        "currency": "USD",
+        "price_kind": "list_price",
+        "scope": "Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted.",
+        "checked_date": "2026-10-19",
+        "condition": "new",
+        "unit": "Each",
+        "manufacturer": "Thermo Scientific",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "source_sku": "50157882",
+        "source_kind": "manufacturer_product_page",
+        "official_list_price": "17700",
+        "current_online_price": "15930",
+        "current_online_price_kind": "sale_price",
+        "price_rule_type": "ONLINE",
+        "price_access": "Orderable",
+        "region": "us",
+        "account_specific_override": false,
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "source_html_sha256": "00a7c73f12d6a9dcbc078f8aa405c59aebdaa8c66a37607806aa59dbc27ec90a",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        },
+        "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+        "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+        "evidence_id": "PRICE-EV-DC77EE03312DE0AC",
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "quote_required_or_no_public_exact_price_verified"
+        },
+        "after": {
+          "manufacturer_price_value": "17700",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Smart2Pure Pro 16 UV/UF system with 30 L tank, SKU 50157882, 16 L/h. Separate online-exclusive price at review: USD 15,930. The 60 L tank and UV-only variants are excluded. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        },
+        "previously_unpriced": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-86D472ECB5B04EA9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) online-exclusive offer",
+      "claim": "Thermo Fisher Scientific displays an online-exclusive USD 15930 price for SKU 50157882.",
+      "scope": "Manufacturer online-exclusive offer for exact SKU 50157882. Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) online-exclusive offer",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "locator": "Selected exact SKU, public Price (USD), Online exclusive label",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+          "label": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-THERMO261019-8E11345FB762EAC4",
+          "label": "50157882"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-THERMO261019-8E11345FB762EAC4",
+        "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+        "seller_name": "Thermo Fisher Scientific",
+        "price_value": "15930",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "condition": "new",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "checked_date": "2026-10-19",
+        "scope": "Manufacturer online-exclusive offer for exact SKU 50157882. Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+        "source_sku": "50157882",
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "source_html_sha256": "00a7c73f12d6a9dcbc078f8aa405c59aebdaa8c66a37607806aa59dbc27ec90a",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-7D0440F0E7FDB76A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Thermolyne FB1315M US list price",
+      "claim": "Thermo Fisher Scientific publishes USD 2090 list for Thermo Scientific Thermolyne FB1315M, SKU FB1315M.",
+      "scope": "Official US list price for one Thermolyne FB1315M 1.3 L benchtop muffle furnace, 120 V, CSA approved. Separate online-exclusive price at review: USD 1,881. Excludes accessories and other voltage variants. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Thermolyne FB1315M US list price",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "locator": "Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M19-03",
+          "label": "Thermo Scientific Thermolyne FB1315M"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M19",
+          "label": "Muffle furnace"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "price_value": "2090",
+        "currency": "USD",
+        "price_kind": "list_price",
+        "scope": "Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded.",
+        "checked_date": "2026-10-19",
+        "condition": "new",
+        "unit": "Each",
+        "manufacturer": "Thermo Scientific",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+        "source_sku": "FB1315M",
+        "source_kind": "manufacturer_product_page",
+        "official_list_price": "2090",
+        "current_online_price": "1881",
+        "current_online_price_kind": "sale_price",
+        "price_rule_type": "ONLINE",
+        "price_access": "Orderable",
+        "region": "us",
+        "account_specific_override": false,
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "source_html_sha256": "8b49d622ad3ce89b6b2508c8fd271847aa604014cd7884f95dfe56ff1f5b19c1",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        },
+        "equipment_id": "M19-03",
+        "model_name": "Thermo Scientific Thermolyne FB1315M",
+        "evidence_id": "PRICE-EV-7D0440F0E7FDB76A",
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "2090",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Thermolyne FB1315M 1.3 L benchtop muffle furnace, 120 V, CSA approved. Separate online-exclusive price at review: USD 1,881. Excludes accessories and other voltage variants. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        },
+        "previously_unpriced": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-1B80523E7E858808",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Thermo Scientific Thermolyne FB1315M online-exclusive offer",
+      "claim": "Thermo Fisher Scientific displays an online-exclusive USD 1881 price for SKU FB1315M.",
+      "scope": "Manufacturer online-exclusive offer for exact SKU FB1315M. Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Thermo Scientific Thermolyne FB1315M online-exclusive offer",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "locator": "Selected exact SKU, public Price (USD), Online exclusive label",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M19-03",
+          "label": "Thermo Scientific Thermolyne FB1315M"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M19",
+          "label": "Muffle furnace"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-THERMO261019-B467364CA1E43B25",
+          "label": "FB1315M"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-THERMO261019-B467364CA1E43B25",
+        "equipment_id": "M19-03",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Thermolyne FB1315M",
+        "seller_name": "Thermo Fisher Scientific",
+        "price_value": "1881",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "condition": "new",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+        "checked_date": "2026-10-19",
+        "scope": "Manufacturer online-exclusive offer for exact SKU FB1315M. Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+        "source_sku": "FB1315M",
+        "verification": {
+          "status": 200,
+          "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "source_html_sha256": "8b49d622ad3ce89b6b2508c8fd271847aa604014cd7884f95dfe56ff1f5b19c1",
+          "checked_date": "2026-10-19",
+          "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-90AF2ABB3E112585",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+      "claim": "Thermo Fisher Scientific displays USD 54.7 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.06, 5 g.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/035794.06",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "titanium-isopropoxide-999",
+          "label": "Titanium(IV) isopropoxide, 99.995% (metals basis)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-5E53FEE2F37437BA",
+          "label": "035794.06"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-5E53FEE2F37437BA",
+        "component_id": "titanium-isopropoxide-999",
+        "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "035794.06",
+        "grade": "99.995% (metals basis)",
+        "form": "neat liquid sold by mass",
+        "pack_quantity": "5",
+        "pack_unit": "g",
+        "price_value": "54.7",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/035794.06",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+        "cas_number": "546-68-9",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-90AF2ABB3E112585",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "dc0a89995a4bc8ad8e759be8b5d7ace94a587707ea16e009e5f53fcd69908eb1",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-5FA0E164CAC9C16E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+      "claim": "Thermo Fisher Scientific displays USD 196.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.14, 25 g.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/035794.14",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "titanium-isopropoxide-999",
+          "label": "Titanium(IV) isopropoxide, 99.995% (metals basis)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-F4360C850AF82B61",
+          "label": "035794.14"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-F4360C850AF82B61",
+        "component_id": "titanium-isopropoxide-999",
+        "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "035794.14",
+        "grade": "99.995% (metals basis)",
+        "form": "neat liquid sold by mass",
+        "pack_quantity": "25",
+        "pack_unit": "g",
+        "price_value": "196.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/035794.14",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+        "cas_number": "546-68-9",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-5FA0E164CAC9C16E",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "391a276d8d38202f2a657a6726f8b5734fad5263ae6ec01660f3aa3cdd14d6ff",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-1CC3A9B5A26E0877",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+      "claim": "Thermo Fisher Scientific displays USD 600.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.22, 100 g.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/035794.22",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "titanium-isopropoxide-999",
+          "label": "Titanium(IV) isopropoxide, 99.995% (metals basis)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-92877547811AD7C8",
+          "label": "035794.22"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-92877547811AD7C8",
+        "component_id": "titanium-isopropoxide-999",
+        "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "035794.22",
+        "grade": "99.995% (metals basis)",
+        "form": "neat liquid sold by mass",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "600.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/035794.22",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+        "cas_number": "546-68-9",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-1CC3A9B5A26E0877",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "5c50d6e9980d2aa981bc53244fdce2a6a64de47ac43ba03e9fe908121b39deab",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-1DA13D3B246EECE5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Dimethyl sulfoxide, HPLC Grade, 99.9+% pack price",
+      "claim": "Thermo Fisher Scientific displays USD 124.65 for Dimethyl sulfoxide, HPLC Grade, 99.9+%, SKU 022914.K2, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Dimethyl sulfoxide, HPLC Grade, 99.9+% pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/022914.K2",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "dmso",
+          "label": "Dimethyl sulfoxide, HPLC Grade, 99.9+%"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-D4CDB5CAC61BCEC8",
+          "label": "022914.K2"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-D4CDB5CAC61BCEC8",
+        "component_id": "dmso",
+        "name": "Dimethyl sulfoxide, HPLC Grade, 99.9+%",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "022914.K2",
+        "grade": "HPLC Grade, 99.9+%",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "124.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/022914.K2",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "67-68-5",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-1DA13D3B246EECE5",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "bad68c6fc630a79942638d0ebb7e3c3492dd596abf987910fc4b06b0fc358fb7",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-2215FFD2CB00F1E3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Acetonitrile, 99.8%, for HPLC pack price",
+      "claim": "Thermo Fisher Scientific displays USD 180.65 for Acetonitrile, 99.8%, for HPLC, SKU 268270010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Acetonitrile, 99.8%, for HPLC pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/268270010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "acetonitrile-99",
+          "label": "Acetonitrile, 99.8%, for HPLC"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-571F5F042354531C",
+          "label": "268270010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-571F5F042354531C",
+        "component_id": "acetonitrile-99",
+        "name": "Acetonitrile, 99.8%, for HPLC",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "268270010",
+        "grade": "99.8%, for HPLC",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "180.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/268270010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "75-05-8",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-2215FFD2CB00F1E3",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "7587d1e971be01ccf1b6a3a72fd10aaf9f64abb46afd0b0d75088fd0513c90a6",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-7AA2DFEA39D65FF4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph. pack price",
+      "claim": "Thermo Fisher Scientific displays USD 147.65 for Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph., SKU 268260010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph. pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/268260010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "acetonitrile-99",
+          "label": "Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph."
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-1481678FFDC5BE09",
+          "label": "268260010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-1481678FFDC5BE09",
+        "component_id": "acetonitrile-99",
+        "name": "Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph.",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "268260010",
+        "grade": "99.9%, for HPLC, far UV, conform Eur.Ph.",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "147.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/268260010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "75-05-8",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-7AA2DFEA39D65FF4",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "0cfaf7ebe5f33bc46fc63d45e06813a55c54adb3754dd43db098436007938125",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-57E18D04A607E716",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Methanol, 99.8%, for HPLC pack price",
+      "claim": "Thermo Fisher Scientific displays USD 66.7 for Methanol, 99.8%, for HPLC, SKU 268280010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Methanol, 99.8%, for HPLC pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/268280010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "methanol",
+          "label": "Methanol, 99.8%, for HPLC"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-BD27F86AFD06F121",
+          "label": "268280010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-BD27F86AFD06F121",
+        "component_id": "methanol",
+        "name": "Methanol, 99.8%, for HPLC",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "268280010",
+        "grade": "99.8%, for HPLC",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "66.7",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/268280010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "67-56-1",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-57E18D04A607E716",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "f67ea0717e60a547b09bc0ea1f1f2445c4bb19e630cb6741ea3232fd4bffb306",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-80B61DC213B7AF7E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Methanol, 99.9%, for HPLC gradient grade pack price",
+      "claim": "Thermo Fisher Scientific displays USD 74.65 for Methanol, 99.9%, for HPLC gradient grade, SKU 325740010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Methanol, 99.9%, for HPLC gradient grade pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/325740010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "methanol",
+          "label": "Methanol, 99.9%, for HPLC gradient grade"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-5D575E6CB4920B94",
+          "label": "325740010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-5D575E6CB4920B94",
+        "component_id": "methanol",
+        "name": "Methanol, 99.9%, for HPLC gradient grade",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "325740010",
+        "grade": "99.9%, for HPLC gradient grade",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "74.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/325740010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "67-56-1",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-80B61DC213B7AF7E",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "114bc714d77f4cdccc9d94ae4155225f7ed91f7fd400b9ac821cc561ff005843",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-C9C73AC336E73223",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Cyclohexane, 99.8%, for HPLC pack price",
+      "claim": "Thermo Fisher Scientific displays USD 119.0 for Cyclohexane, 99.8%, for HPLC, SKU 279590010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Cyclohexane, 99.8%, for HPLC pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/279590010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "cyclohexane",
+          "label": "Cyclohexane, 99.8%, for HPLC"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-CFE288233C025EC0",
+          "label": "279590010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-CFE288233C025EC0",
+        "component_id": "cyclohexane",
+        "name": "Cyclohexane, 99.8%, for HPLC",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "279590010",
+        "grade": "99.8%, for HPLC",
+        "form": "neat liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "119.0",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/279590010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+        "cas_number": "110-82-7",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-C9C73AC336E73223",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "f170eb75ffce9f709619bd4d32fd90f15a3b2015260656ca7a942eb01dea923a",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-2F8EADA18BFA8153",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Dichloromethane, 99.8%, for HPLC, stabilized with methanol pack price",
+      "claim": "Thermo Fisher Scientific displays USD 79.9 for Dichloromethane, 99.8%, for HPLC, stabilized with methanol, SKU 364230010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Dichloromethane, 99.8%, for HPLC, stabilized with methanol pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/364230010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "dichloromethane-99p8",
+          "label": "Dichloromethane, 99.8%, for HPLC, stabilized with methanol"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-27952901F73A0006",
+          "label": "364230010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-27952901F73A0006",
+        "component_id": "dichloromethane-99p8",
+        "name": "Dichloromethane, 99.8%, for HPLC, stabilized with methanol",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "364230010",
+        "grade": "99.8%, for HPLC, stabilized with methanol",
+        "form": "liquid stabilized with methanol",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "79.9",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/364230010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+        "cas_number": "75-09-2",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-2F8EADA18BFA8153",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "139d1371608eb4870862f863dd6447b9f17f9271d038ac09a18c4716489a18f7",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-CF51576076196CD5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Dichloromethane, 99.8%, for HPLC, stabilized with amylene pack price",
+      "claim": "Thermo Fisher Scientific displays USD 80.8 for Dichloromethane, 99.8%, for HPLC, stabilized with amylene, SKU 268330010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Dichloromethane, 99.8%, for HPLC, stabilized with amylene pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/268330010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "dichloromethane-99p8",
+          "label": "Dichloromethane, 99.8%, for HPLC, stabilized with amylene"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-58BBE327DB77583C",
+          "label": "268330010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-58BBE327DB77583C",
+        "component_id": "dichloromethane-99p8",
+        "name": "Dichloromethane, 99.8%, for HPLC, stabilized with amylene",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "268330010",
+        "grade": "99.8%, for HPLC, stabilized with amylene",
+        "form": "liquid stabilized with amylene",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "80.8",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/268330010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+        "cas_number": "75-09-2",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-CF51576076196CD5",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "4caec781ab4fd1596058658aca92bde74877a225b2d53cd6ed338701f5ce591f",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-834FC9C245227F0C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Water, for HPLC gradient grade pack price",
+      "claim": "Thermo Fisher Scientific displays USD 57.65 for Water, for HPLC gradient grade, SKU 268300010, 1 L.",
+      "scope": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. HPLC gradient-grade product is not documented here as 18.2 MOhm cm ultrapure, double-distilled or an on-site production cost.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Water, for HPLC gradient grade pack price",
+          "url": "https://www.thermofisher.com/order/catalog/product/268300010",
+          "locator": "US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "water",
+          "label": "Water, for HPLC gradient grade"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-THERMO261019-81BA828EC01AB307",
+          "label": "268300010"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-THERMO261019-81BA828EC01AB307",
+        "component_id": "water",
+        "name": "Water, for HPLC gradient grade",
+        "seller": "Thermo Fisher Scientific",
+        "manufacturer": "Thermo Scientific Chemicals",
+        "sku": "268300010",
+        "grade": "for HPLC gradient grade",
+        "form": "liquid",
+        "pack_quantity": "1",
+        "pack_unit": "L",
+        "price_value": "57.65",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/268300010",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. HPLC gradient-grade product is not documented here as 18.2 MOhm cm ultrapure, double-distilled or an on-site production cost.",
+        "cas_number": "7732-18-5",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "evidence_id": "PRICE-EV-834FC9C245227F0C",
+        "recipe_eligible": false,
+        "purchase_available": true,
+        "source_price_kind": "published_promotional_price",
+        "verification": {
+          "status": 200,
+          "checked_date": "2026-10-19",
+          "method": "direct HTTP GET and rendered HTML text review",
+          "sha256": "48946d78ae9f19d53d33c01c212240e4b8c675ec00e48e8e5954568b9f5bcbdd",
+          "content_type": "text/html",
+          "country": "United States",
+          "currency_label": "Price (USD)",
+          "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+          "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+        },
+        "image_review": {
+          "status": "withheld",
+          "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+        }
+      }
     }
   ]
 }

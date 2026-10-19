@@ -24,6 +24,9 @@ def test_submodel_photo_review_matches_catalog_without_promoting_other_evidence(
     for filename in ['theris_review_2026-10-18.json','evg_review_2026-10-18.json']:
         for update in json.loads((ROOT/'catalog'/filename).read_text(encoding='utf-8'))['equipment_updates']:
             latest_by_id.setdefault(update['equipment_id'],{}).update(update['after'])
+    for filename in ['mse_catalog_review_2026-10-19.json','thermo_catalog_review_2026-10-19.json']:
+        for update in json.loads((ROOT/'catalog'/filename).read_text(encoding='utf-8'))['instrument_images']:
+            latest_by_id.setdefault(update['equipment_id'],{}).update(update['after'])
     for review in report['records']:
         record = records[review['equipment_id']]
         assert review['model_name'] == record['model_name'] and review['manufacturer'] == record['manufacturer']

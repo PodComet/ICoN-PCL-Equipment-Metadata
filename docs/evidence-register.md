@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-737 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+768 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -5660,6 +5660,32 @@ The linked source presents an instrument photograph matched to IKA EUROSTAR 60 d
 **Related records:** `M03-05` (equipment), `M03` (equipment_class)
 
 
+## IMG-EV-1FC3BA7F3E99C1AB
+
+Manufacturer catalog presents this representative family image for Thermo Scientific Vacutherm VT 6025.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer uses this shared Vacutherm series catalog photograph on the exact 25 L, 120 V SKU51014551 page. The picture is a representative series configuration with open glass door and control tower; chamber size, heating/controller options and installed asset identity are not established by the photo. Not evidence of the installed 25 L configuration. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Vacutherm VT 6025](https://www.thermofisher.com/order/catalog/product/us/en/51014551) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M18-03` (equipment), `M18` (equipment_class)
+
+
+## IMG-EV-274363DC37DF0E72
+
+Manufacturer catalog presents this model-matched image for Niton XL5 Plus.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer image displayed on the Niton XL5 Plus catalog page, NITONXL5PLUS. Shared instrument-body photograph; installed application calibration packages and optional accessories are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Niton XL5 Plus](https://www.thermofisher.com/order/catalog/product/us/en/NITONXL5PLUS) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `EXT-M98-9E26C8607E9D` (equipment), `M98` (equipment_class)
+
+
 ## IMG-EV-27ED6F0A8123F315
 
 The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 6 classic line (exact model).
@@ -5751,6 +5777,19 @@ The linked source presents an instrument photograph matched to Bruker Dimension 
 **Related records:** `M41-02` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
 
 
+## IMG-EV-34B66F2450E387A7
+
+Manufacturer catalog presents this model-matched image for Thermo Scientific Axia ChemiSEM.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official Axia ChemiSEM product hero on manufacturer exact model page. Full SEM system illustration; optional accessories and specific installed system configuration not established. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Axia ChemiSEM](https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/axia-chemisem.html) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M38-02` (equipment), `M38` (equipment_class)
+
+
 ## IMG-EV-35A97C0DD831B71A
 
 MSE Supplies presents a model-matched product image for IKA A 11 basic.
@@ -5814,6 +5853,19 @@ The linked source presents an instrument photograph matched to Nanosurf FlexAFM 
 - Source: [Nanosurf instrument photograph / catalog entry](https://www.nanosurf.com/en/products/flexafm) — Official model-page hero image with alt FlexAFM_lowkey.
 
 **Related records:** `M41-10` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-44683CAB495357EC
+
+Manufacturer catalog presents this model-matched image for Thermo Scientific DXR3.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official DXR3 Raman Microscope photograph, showing microscope, monitor and keyboard, on exact manufacturer product page IQLAADGABFFAHCMAPB. This is the Raman microscope member, not DXR3xi/Flex/SmartRaman. Source has Raman Microscope identity and nanomaterials application; no laser selection or accessory package inferred. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific DXR3](https://www.thermofisher.com/order/catalog/product/us/en/IQLAADGABFFAHCMAPB) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M40-09` (equipment), `M40` (equipment_class)
 
 
 ## IMG-EV-452B7CC1BA9C952B
@@ -5985,6 +6037,19 @@ The linked source presents an instrument photograph matched to Thermo Scientific
 **Related records:** `M39-08` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
 
 
+## IMG-EV-832814D81F3C3C68
+
+Manufacturer catalog presents this model-matched image for ARL PERFORM'X.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer product gallery for ARL PERFORM'X sequential XRF spectrometer, catalog IQLAAHGABMFALXMAZE. Reference system photograph; options, installed setup and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: ARL PERFORM'X](https://www.thermofisher.com/order/catalog/product/us/en/IQLAAHGABMFALXMAZE) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `EXT-M98-8E4E40371455` (equipment), `M98` (equipment_class)
+
+
 ## IMG-EV-8D4548721A4A3AE8
 
 The linked source presents an instrument photograph matched to Inovenso NE100 (exact model existing category).
@@ -6009,6 +6074,19 @@ The linked source presents an instrument photograph matched to IKA ULTRA-TURRAX 
 - Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-2488782.html) — Exact title ULTRA-TURRAX Tube Drive. Description matches official IKA 0003646000 generic Tube Drive product, sealable 2-15/15-50mL tubes and removal-hook delivery item.
 
 **Related records:** `M11-09` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-92722FF68AD4D9BA
+
+Manufacturer catalog presents this representative family image for Thermo Scientific Barnstead GenPure xCAD Plus.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official Barnstead GenPure xCAD Plus family illustration showing main purifier and remote dispenser, from SKU50136172 UV/UF-TOC wall dispenser page. Existing family record does not fix UV/UF/TOC/dispenser variant; photo does not assign those options. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Barnstead GenPure xCAD Plus](https://www.thermofisher.com/order/catalog/product/us/en/50136172) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M46-03` (equipment), `M46` (equipment_class)
 
 
 ## IMG-EV-9833B6EA37967C38
@@ -6063,6 +6141,19 @@ MSE Supplies presents a model-matched product image for IKA IKA RV 10 digital.
 **Related records:** `M16-03` (equipment), `M16` (equipment_class), `P04` (process)
 
 
+## IMG-EV-A5501A78BEBD18EE
+
+Manufacturer catalog presents this model-matched image for Thermo Scientific Evolution One.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official Evolution One left-side product photograph on exact base SKU840-341400 page. Image visibly labels Evolution One; no Plus, Peltier or regulatory/security bundle is inferred. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Evolution One](https://www.thermofisher.com/order/catalog/product/us/en/840-341400) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M35-03` (equipment), `M35` (equipment_class)
+
+
 ## IMG-EV-A6E235894B0EB066
 
 MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 10-35 GT.
@@ -6074,6 +6165,32 @@ MSE Supplies presents a model-matched product image for Kinematica Kinematica PO
 - Source: [MSE Supplies Kinematica POLYTRON PT 10-35 GT](https://www.msesupplies.com/products/kinematica-polytron-pt-10-35-gt-powerful-stand-disperser-ecoline) — Model-specific product gallery; visually reviewed
 
 **Related records:** `M11-07` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-A7BC9BB9F7732422
+
+Manufacturer catalog presents this model-matched image for Thermo Scientific Evolution Pro.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official Evolution Pro right-side photograph on exact base SKU840-340200 page. Product front visibly identifies Evolution Pro; computer, bundled validation services and accessories are not inferred. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Evolution Pro](https://www.thermofisher.com/order/catalog/product/us/en/840-340200) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M35-08` (equipment), `M35` (equipment_class)
+
+
+## IMG-EV-A7BE4E1C6284940A
+
+Manufacturer catalog presents this representative family image for Thermo Scientific Nicolet Summit.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer Summit family illustration specifically depicts Summit PRO with adjustable touchscreen and ATR accessory, from SKU912A0972. Existing record is generic Nicolet Summit, so photo is a labeled representative PRO member, not proof that all Summit variants include touchscreen/ATR. No price/configuration applied to generic record. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Nicolet Summit](https://www.thermofisher.com/order/catalog/product/us/en/912A0972) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M36-07` (equipment), `M36` (equipment_class)
 
 
 ## IMG-EV-AFDB04AE87EE3FE5
@@ -6115,6 +6232,19 @@ MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry
 **Related records:** `GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
 
 
+## IMG-EV-B5D116B668CD9E40
+
+Manufacturer catalog presents this model-matched image for K-Alpha.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer model-page photograph labelled K-Alpha XPS System. Reference system view; optional modules, installed asset and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: K-Alpha](https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `EXT-M95-005B352847BB` (equipment), `M95` (equipment_class)
+
+
 ## IMG-EV-B8D5B384F8830BBA
 
 The linked source presents an instrument photograph matched to JEOL JSM-IT200 (exact model).
@@ -6141,6 +6271,19 @@ MSE Supplies presents a model-matched product image for IKA IKA RV 8.
 **Related records:** `M16-10` (equipment), `M16` (equipment_class), `P04` (process)
 
 
+## IMG-EV-BD43B46167C8D66A
+
+Manufacturer catalog presents this representative family image for Thermo Scientific Vacutherm VT 6060.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer shared Vacutherm series photograph on the 53 L, 120 V SKU51014540 page, independently corroborated VT6060M model mapping by official vacuum-ovens technical sheet. Representative series configuration, not an installed asset or confirmation of shelf/controller/voltage options. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Vacutherm VT 6060](https://www.thermofisher.com/order/catalog/product/us/en/51014540) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `M18-09` (equipment), `M18` (equipment_class)
+
+
 ## IMG-EV-BEB4F7B38F4C3AA0
 
 The linked source presents an instrument photograph matched to IKA RCT basic (product family).
@@ -6152,6 +6295,19 @@ The linked source presents an instrument photograph matched to IKA RCT basic (pr
 - Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-648057.html) — Product title RCT basic; description specifies 20 L, 310 C, glass surface and USB/RS232. Main product image explicitly linked by this page.
 
 **Related records:** `M02-01` (equipment), `M02` (equipment_class), `P04` (process), `P05` (process), `P06` (process), `P08` (process), `P09` (process), `P10` (process), `P11` (process)
+
+
+## IMG-EV-BFB87D039F5D25F3
+
+Manufacturer catalog presents this model-matched image for Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank).
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer catalog front-panel photograph on exact Smart2Pure Pro16 UV/UF and30L tank SKU50157882 page. Only front control/display is pictured; reservoir and UV/UF configuration are verified by product text, not image. No photo of an installed tank is claimed. Remote reference; source rights retained. No ownership or performance assertion.
+
+- Source: [Thermo Fisher Scientific: Photo match: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)](https://www.thermofisher.com/order/catalog/product/us/en/50157882) — Product gallery / labelled model-page image; manually reviewed
+
+**Related records:** `EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK` (equipment), `M46` (equipment_class)
 
 
 ## IMG-EV-C070476E5794B967
@@ -6178,6 +6334,19 @@ The linked source presents an instrument photograph matched to IKA T 50 digital 
 - Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1931024.html) — Exact title T50 digital ULTRA-TURRAX; description matches official IKA 0003787001 page, 0.25-30L and600-10000rpm.
 
 **Related records:** `M11-05` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-CBF6DB7A32CF11F7
+
+Thermo Fisher Scientific presents an Invitrogen V22889 kit photograph with packaging and three dye vials.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary. Remote reference; source rights retained. No price, formulation or output-property assertion.
+
+- Source: [Vybrant Multicolor Cell-Labeling Kit V22889](https://www.thermofisher.com/order/catalog/product/V22889) — Selected exact V22889 catalog gallery; three-vial kit image visually checked
+
+**Related records:** `did-v22889` (component), `CMP-OFFER-A1D41E6D5819` (component_offer)
 
 
 ## IMG-EV-D6D9DAAE9693B146
@@ -6746,6 +6915,19 @@ Kurt J. Lesker publishes USD 417 for Germanium sputtering target, 1 inch x 0.125
 **Related records:** `CMP-PRICE26-C4DB860B216C` (component_offer), `germanium-target` (component)
 
 
+## PRICE-EV-1B80523E7E858808
+
+Thermo Fisher Scientific displays an online-exclusive USD 1881 price for SKU FB1315M.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer online-exclusive offer for exact SKU FB1315M. Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Thermolyne FB1315M online-exclusive offer](https://www.thermofisher.com/order/catalog/product/us/en/FB1315M) — Selected exact SKU, public Price (USD), Online exclusive label
+
+**Related records:** `M19-03` (equipment), `M19` (equipment_class), `SELL-THERMO261019-B467364CA1E43B25` (seller_offer)
+
+
 ## PRICE-EV-1B9AD9837B0F31A8
 
 TCI publishes USD 17 for Tetraethyl orthosilicate &gt;98%, SKU T0100-25ML, pack 25 mL (published_price; new).
@@ -6770,6 +6952,32 @@ HeartOfAutomation (eBay) publishes USD 7350 for Metrohm 848 Titrino plus (asking
 - Source: [HeartOfAutomation (eBay) public price](https://www.ebay.com/itm/285216191442) — Listing title, price, seller, condition and seller notes
 
 **Related records:** `EXT-M63-METROHM-848` (equipment), `M63` (equipment_class), `P33` (process), `SELL-PRICE261018-9200D1CACA0772E2` (seller_offer)
+
+
+## PRICE-EV-1CC3A9B5A26E0877
+
+Thermo Fisher Scientific displays USD 600.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.22, 100 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.
+
+- Source: [Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price](https://www.thermofisher.com/order/catalog/product/035794.22) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `titanium-isopropoxide-999` (component), `PACK-THERMO261019-92877547811AD7C8` (component_offer)
+
+
+## PRICE-EV-1DA13D3B246EECE5
+
+Thermo Fisher Scientific displays USD 124.65 for Dimethyl sulfoxide, HPLC Grade, 99.9+%, SKU 022914.K2, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Dimethyl sulfoxide, HPLC Grade, 99.9+% pack price](https://www.thermofisher.com/order/catalog/product/022914.K2) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `dmso` (component), `PACK-THERMO261019-D4CDB5CAC61BCEC8` (component_offer)
 
 
 ## PRICE-EV-1E78CF8016F5580A
@@ -6848,6 +7056,19 @@ Lab Alley publishes USD 205.01 for Ethanol HPLC Grade 200 Proof (100%) Non-Denat
 - Source: [Lab Alley product price](https://www.laballey.com/products/ethanol-200-proof-100-non-denatured-pure-alcohol-hplc-grade?selected=EAPHPLC200-1GAL) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-C3F99D1BE487` (component_offer), `ethanol` (component)
+
+
+## PRICE-EV-2215FFD2CB00F1E3
+
+Thermo Fisher Scientific displays USD 180.65 for Acetonitrile, 99.8%, for HPLC, SKU 268270010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Acetonitrile, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/268270010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `acetonitrile-99` (component), `PACK-THERMO261019-571F5F042354531C` (component_offer)
 
 
 ## PRICE-EV-23C0438EE49030C9
@@ -7019,6 +7240,19 @@ US Research Nanomaterials publishes 55.0 dollars for 1.0 g of US Nano US4301 OH-
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us4301-mwcnt-oh` (component), `PACK-USNANO261018-1EA973EA09B1EA7E` (component_offer), `P29` (process), `P37` (process)
+
+
+## PRICE-EV-2F8EADA18BFA8153
+
+Thermo Fisher Scientific displays USD 79.9 for Dichloromethane, 99.8%, for HPLC, stabilized with methanol, SKU 364230010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.
+
+- Source: [Thermo Fisher Scientific: Dichloromethane, 99.8%, for HPLC, stabilized with methanol pack price](https://www.thermofisher.com/order/catalog/product/364230010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `dichloromethane-99p8` (component), `PACK-THERMO261019-27952901F73A0006` (component_offer)
 
 
 ## PRICE-EV-2FB251A0B3604EE0
@@ -7614,6 +7848,19 @@ Certified Material Testing Products publishes USD 17791.58 for RETSCH PM 100 (pu
 **Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process), `SELL-PRICE261018-CF34A728624113D9` (seller_offer)
 
 
+## PRICE-EV-57E18D04A607E716
+
+Thermo Fisher Scientific displays USD 66.7 for Methanol, 99.8%, for HPLC, SKU 268280010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Methanol, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/268280010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `methanol` (component), `PACK-THERMO261019-BD27F86AFD06F121` (component_offer)
+
+
 ## PRICE-EV-5969ACC81F433DC3
 
 US Research Nanomaterials, Inc. publishes USD 280.0 for US Nano US1073 graphene nanoplatelets, 95+%, SKU US1073, pack 25.0 g (published_price; new).
@@ -7717,6 +7964,19 @@ MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suita
 - Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
 
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-E512EEE1B63DC923` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-5FA0E164CAC9C16E
+
+Thermo Fisher Scientific displays USD 196.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.14, 25 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.
+
+- Source: [Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price](https://www.thermofisher.com/order/catalog/product/035794.14) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `titanium-isopropoxide-999` (component), `PACK-THERMO261019-F4360C850AF82B61` (component_offer)
 
 
 ## PRICE-EV-610865AE85BB500C
@@ -7983,6 +8243,32 @@ US Research Nanomaterials, Inc. publishes USD 168.0 for US Nano US1022 graphene 
 **Related records:** `PACK-USNANO261018-B15D37D9BAF12B0F` (component_offer), `usnano-us1022-go-dry` (component)
 
 
+## PRICE-EV-7AA2DFEA39D65FF4
+
+Thermo Fisher Scientific displays USD 147.65 for Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph., SKU 268260010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph. pack price](https://www.thermofisher.com/order/catalog/product/268260010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `acetonitrile-99` (component), `PACK-THERMO261019-1481678FFDC5BE09` (component_offer)
+
+
+## PRICE-EV-7D0440F0E7FDB76A
+
+Thermo Fisher Scientific publishes USD 2090 list for Thermo Scientific Thermolyne FB1315M, SKU FB1315M.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Official US list price for one Thermolyne FB1315M 1.3 L benchtop muffle furnace, 120 V, CSA approved. Separate online-exclusive price at review: USD 1,881. Excludes accessories and other voltage variants. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Thermolyne FB1315M US list price](https://www.thermofisher.com/order/catalog/product/us/en/FB1315M) — Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry
+
+**Related records:** `M19-03` (equipment), `M19` (equipment_class)
+
+
 ## PRICE-EV-7D61E44F4D119E90
 
 US Research Nanomaterials publishes 125.0 dollars for 0.5 g of US Nano US4101 SWCNTs, dry.
@@ -8036,6 +8322,19 @@ Kurt J. Lesker publishes USD 213 for Gold evaporation pellets, priced per gram, 
 - Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_evaporationmaterials_1.cfm?pgid=au1) — Exact catalog SKU row, including pack/physical specification; not adjacent SKU.
 
 **Related records:** `CMP-REF26-FE2F6B6A5296` (component_offer), `gold-target` (component)
+
+
+## PRICE-EV-80B61DC213B7AF7E
+
+Thermo Fisher Scientific displays USD 74.65 for Methanol, 99.9%, for HPLC gradient grade, SKU 325740010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Methanol, 99.9%, for HPLC gradient grade pack price](https://www.thermofisher.com/order/catalog/product/325740010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `methanol` (component), `PACK-THERMO261019-5D575E6CB4920B94` (component_offer)
 
 
 ## PRICE-EV-80E09377AF35C521
@@ -8104,6 +8403,19 @@ Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU S
 **Related records:** `CMP-REF26-EEB4FC15C3BD` (component_offer), `trisodium-citrate-dihydrate-1p91mm-aqueous` (component)
 
 
+## PRICE-EV-834FC9C245227F0C
+
+Thermo Fisher Scientific displays USD 57.65 for Water, for HPLC gradient grade, SKU 268300010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. HPLC gradient-grade product is not documented here as 18.2 MOhm cm ultrapure, double-distilled or an on-site production cost.
+
+- Source: [Thermo Fisher Scientific: Water, for HPLC gradient grade pack price](https://www.thermofisher.com/order/catalog/product/268300010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `water` (component), `PACK-THERMO261019-81BA828EC01AB307` (component_offer)
+
+
 ## PRICE-EV-848715FD93BD7599
 
 Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
@@ -8115,6 +8427,19 @@ Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU S
 - Source: [Lab Alley product price](https://www.laballey.com/products/sodium-citrate-dihydrate-usp-fcc-grade?selected=SOCTGU-12.5KG) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-REF26-8BFB50A5847E` (component_offer), `trisodium-citrate-dihydrate-20mm-aqueous` (component)
+
+
+## PRICE-EV-86D472ECB5B04EA9
+
+Thermo Fisher Scientific displays an online-exclusive USD 15930 price for SKU 50157882.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Manufacturer online-exclusive offer for exact SKU 50157882. Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) online-exclusive offer](https://www.thermofisher.com/order/catalog/product/us/en/50157882) — Selected exact SKU, public Price (USD), Online exclusive label
+
+**Related records:** `EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK` (equipment), `M46` (equipment_class), `SELL-THERMO261019-8E11345FB762EAC4` (seller_offer)
 
 
 ## PRICE-EV-86F6746B18754D58
@@ -8223,6 +8548,19 @@ US Research Nanomaterials publishes 498.0 dollars for 1 kg of US Nano US1153M Bo
 **Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-CBFD5F846198D7D0` (component_offer), `P31` (process)
 
 
+## PRICE-EV-90AF2ABB3E112585
+
+Thermo Fisher Scientific displays USD 54.7 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.06, 5 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.
+
+- Source: [Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price](https://www.thermofisher.com/order/catalog/product/035794.06) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `titanium-isopropoxide-999` (component), `PACK-THERMO261019-5E53FEE2F37437BA` (component_offer)
+
+
 ## PRICE-EV-9107B2AC5C7A614D
 
 MilliporeSigma publishes USD 501 for SKU 270725-4X2L, 8000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
@@ -8300,6 +8638,19 @@ Lab Alley publishes USD 495.99 for SKU C4358-4L, 4000 mL of Hydrofluoric Acid 48
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Size/SKU table and Product Information assay
 
 **Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-14A207912560EFD9` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-F8220382E808D775` (component_offer)
+
+
+## PRICE-EV-9710C6BC24CDA872
+
+Thermo Fisher Scientific publishes USD 16000 list for Thermo Scientific Evolution Pro, SKU 840-340200.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Official US list price for one Evolution Pro UV-Vis spectrophotometer, SKU 840-340200, 100–240 V, 50/60 Hz. Excludes pharma/security/validation/Peltier bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Evolution Pro US list price](https://www.thermofisher.com/order/catalog/product/us/en/840-340200) — Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry
+
+**Related records:** `M35-08` (equipment), `M35` (equipment_class)
 
 
 ## PRICE-EV-9730B3D2F95016E6
@@ -9117,6 +9468,19 @@ Akina / PolySciTech publishes USD 225 for PolySciTech AI078 PLGA-PEG-COOH20k:5k,
 **Related records:** `CMP-OFFER-2905C3AAD141` (component_offer), `plga-peg-cooh-ai078` (component)
 
 
+## PRICE-EV-C9C73AC336E73223
+
+Thermo Fisher Scientific displays USD 119.0 for Cyclohexane, 99.8%, for HPLC, SKU 279590010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.
+
+- Source: [Thermo Fisher Scientific: Cyclohexane, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/279590010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `cyclohexane` (component), `PACK-THERMO261019-CFE288233C025EC0` (component_offer)
+
+
 ## PRICE-EV-CA78FDA6810B3292
 
 TCI publishes USD 25 for 1-Hexanol &gt;98%, SKU H0130-25ML, pack 25 mL (published_price; new).
@@ -9155,6 +9519,19 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 - Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — DO-SYL184-11 tile; 1.1kg two-component kit; single-kit price.
 
 **Related records:** `CMP-REF26-AF8F7F25014A` (component_offer), `pdms-sylgard184-curing-agent` (component)
+
+
+## PRICE-EV-CF51576076196CD5
+
+Thermo Fisher Scientific displays USD 80.8 for Dichloromethane, 99.8%, for HPLC, stabilized with amylene, SKU 268330010, 1 L.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.
+
+- Source: [Thermo Fisher Scientific: Dichloromethane, 99.8%, for HPLC, stabilized with amylene pack price](https://www.thermofisher.com/order/catalog/product/268330010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
+
+**Related records:** `dichloromethane-99p8` (component), `PACK-THERMO261019-58BBE327DB77583C` (component_offer)
 
 
 ## PRICE-EV-CF62525623EF879A
@@ -9368,6 +9745,19 @@ Electron Microscopy Sciences publishes USD 29 for SKU 71883-01, 144 piece of Dia
 **Related records:** `glass-slide-25x75mm` (component), `PACK-PRICE261018-6332AA3A9C721382` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
 
 
+## PRICE-EV-DC77EE03312DE0AC
+
+Thermo Fisher Scientific publishes USD 17700 list for Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank), SKU 50157882.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Official US list price for one Smart2Pure Pro 16 UV/UF system with 30 L tank, SKU 50157882, 16 L/h. Separate online-exclusive price at review: USD 15,930. The 60 L tank and UV-only variants are excluded. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank) US list price](https://www.thermofisher.com/order/catalog/product/us/en/50157882) — Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry
+
+**Related records:** `EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK` (equipment), `M46` (equipment_class)
+
+
 ## PRICE-EV-DD7491F9B2D296F7
 
 Government Scientific Source publishes USD 293.33 for SKU 042953-VU, 1 piece of Graphite foil, 0.5 mm, 99.8% metals basis, 15Ã—250 cm.
@@ -9470,6 +9860,19 @@ Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium
 - Source: [Krackeler Scientific product pack offer](https://www.krackeler.com/catalog/sigma/ALDRICH/403148) — Krackeler price table, 45-403148-50G row. Opened .
 
 **Related records:** `magnesium-metal` (component), `PACK-PRICE261018-445E811DB03B33FD` (component_offer), `P35-SOURCE-01-C01` (formulation_component), `P35` (process)
+
+
+## PRICE-EV-E22D7C9EF9F2F9C0
+
+Thermo Fisher Scientific publishes USD 10200 list for Thermo Scientific Evolution One, SKU 840-341400.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Official US list price for one Evolution One UV-Vis spectrophotometer, SKU 840-341400, fixed 1 nm bandwidth, 100–240 V, 50/60 Hz. Excludes One Plus, Peltier and regulatory/security bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.
+
+- Source: [Thermo Fisher Scientific: Thermo Scientific Evolution One US list price](https://www.thermofisher.com/order/catalog/product/us/en/840-341400) — Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry
+
+**Related records:** `M35-03` (equipment), `M35` (equipment_class)
 
 
 ## PRICE-EV-E3A87EF046970B1C

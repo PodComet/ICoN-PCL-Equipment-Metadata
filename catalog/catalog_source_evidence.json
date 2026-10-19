@@ -6080,6 +6080,71 @@
         },
         "source_apparatus_claim": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CBF6DB7A32CF11F7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "V22889 manufacturer kit photograph",
+      "claim": "Thermo Fisher Scientific presents an Invitrogen V22889 kit photograph with packaging and three dye vials.",
+      "scope": "Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary. Remote reference; source rights retained. No price, formulation or output-property assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Vybrant Multicolor Cell-Labeling Kit V22889",
+          "url": "https://www.thermofisher.com/order/catalog/product/V22889",
+          "locator": "Selected exact V22889 catalog gallery; three-vial kit image visually checked",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "did-v22889",
+          "label": "Vybrant Multicolor Cell-Labeling Kit (DiO, DiI, DiD; 1mL each)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "CMP-OFFER-A1D41E6D5819",
+          "label": "V22889"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "CMP-OFFER-A1D41E6D5819",
+        "component_id": "did-v22889",
+        "sku": "V22889",
+        "name": "Vybrant Multicolor Cell-Labeling Kit (DiO, DiI, DiD; 1mL each)",
+        "source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LSG/product-images/Bender%20Bag%20with%201%20blue%20%201%20red%201%20yellow%20Vial.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+        "image_scope": "Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary.",
+        "checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c099f6931f0828cd980895b3c3372627dc67f3a9999d390176c8293f03f0d1e9",
+          "checked_date": "2026-10-19",
+          "visually_inspected": true,
+          "visual_description": "Silver Invitrogen Thermo Fisher pouch with three clear small vials with blue, red and yellow caps.",
+          "match_scope": "exact_catalog_kit",
+          "source_http_status": 200,
+          "source_sha256": "c58d00ed3e8a0589f277d9278451202b3622b7c97961b8dc7029e45131dfddff"
+        },
+        "evidence_id": "IMG-EV-CBF6DB7A32CF11F7",
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/LSG/product-images/Bender%20Bag%20with%201%20blue%20%201%20red%201%20yellow%20Vial.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+          "image_scope": "Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary."
+        }
+      }
     }
   ]
 }

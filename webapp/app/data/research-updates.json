@@ -11507,5 +11507,344 @@
         }
       }
     ]
+  },
+  {
+    "equipment_id": "M18-03",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Vacutherm VT 6025",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014551",
+          "image_scope": "Manufacturer uses this shared Vacutherm series catalog photograph on the exact 25 L, 120 V SKU51014551 page. The picture is a representative series configuration with open glass door and control tower; chamber size, heating/controller options and installed asset identity are not established by the photo. Not evidence of the installed 25 L configuration. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M18-09",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Vacutherm VT 6060",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014540",
+          "image_scope": "Manufacturer shared Vacutherm series photograph on the 53 L, 120 V SKU51014540 page, independently corroborated VT6060M model mapping by official vacuum-ovens technical sheet. Representative series configuration, not an installed asset or confirmation of shelf/controller/voltage options. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M35-03",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Evolution One",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-One-left.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "image_scope": "Official Evolution One left-side product photograph on exact base SKU840-341400 page. Image visibly labels Evolution One; no Plus, Peltier or regulatory/security bundle is inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "10200",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Evolution One UV-Vis spectrophotometer, SKU 840-341400, fixed 1 nm bandwidth, 100–240 V, 50/60 Hz. Excludes One Plus, Peltier and regulatory/security bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M35-08",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Evolution Pro",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-Pro-right.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "image_scope": "Official Evolution Pro right-side photograph on exact base SKU840-340200 page. Product front visibly identifies Evolution Pro; computer, bundled validation services and accessories are not inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "16000",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Evolution Pro UV-Vis spectrophotometer, SKU 840-340200, 100–240 V, 50/60 Hz. Excludes pharma/security/validation/Peltier bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M36-07",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Nicolet Summit",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/IQLAADGAAGFAQXMBKK-Summit-Pro-Touchscreen-ATR-Adjust.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/912A0972",
+          "image_scope": "Manufacturer Summit family illustration specifically depicts Summit PRO with adjustable touchscreen and ATR accessory, from SKU912A0972. Existing record is generic Nicolet Summit, so photo is a labeled representative PRO member, not proof that all Summit variants include touchscreen/ATR. No price/configuration applied to generic record. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M38-02",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Axia ChemiSEM",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/axia-chemisem/Axia-ChemiSEM-Product-Image-763x763.png",
+          "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/axia-chemisem.html",
+          "image_scope": "Official Axia ChemiSEM product hero on manufacturer exact model page. Full SEM system illustration; optional accessories and specific installed system configuration not established. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M40-09",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific DXR3",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/DXR-Raman-Microscope-wMonitor.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAADGABFFAHCMAPB",
+          "image_scope": "Official DXR3 Raman Microscope photograph, showing microscope, monitor and keyboard, on exact manufacturer product page IQLAADGABFFAHCMAPB. This is the Raman microscope member, not DXR3xi/Flex/SmartRaman. Source has Raman Microscope identity and nanomaterials application; no laser selection or accessory package inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M46-03",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Barnstead GenPure xCAD Plus",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": ""
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183678_p.eps-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50136172",
+          "image_scope": "Official Barnstead GenPure xCAD Plus family illustration showing main purifier and remote dispenser, from SKU50136172 UV/UF-TOC wall dispenser page. Existing family record does not fix UV/UF/TOC/dispenser variant; photo does not assign those options. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "",
+          "media_checked_date": "2026-10-16"
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/LPD/product-images/Smart2Pure-face.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "image_scope": "Manufacturer catalog front-panel photograph on exact Smart2Pure Pro16 UV/UF and30L tank SKU50157882 page. Only front control/display is pictured; reservoir and UV/UF configuration are verified by product text, not image. No photo of an installed tank is claimed. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      },
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "quote_required_or_no_public_exact_price_verified"
+        },
+        "after": {
+          "manufacturer_price_value": "17700",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Smart2Pure Pro 16 UV/UF system with 30 L tank, SKU 50157882, 16 L/h. Separate online-exclusive price at review: USD 15,930. The 60 L tank and UV-only variants are excluded. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M98-8E4E40371455",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "ARL PERFORM'X",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "Source image could not be verified as accessible in this review; see research audit.",
+          "media_checked_date": "2026-10-17"
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/F85779~p.eps-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAAHGABMFALXMAZE",
+          "image_scope": "Manufacturer product gallery for ARL PERFORM'X sequential XRF spectrometer, catalog IQLAAHGABMFALXMAZE. Reference system photograph; options, installed setup and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M98-9E26C8607E9D",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Niton XL5 Plus",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "",
+          "image_scope": "Source image could not be verified as accessible in this review; see research audit.",
+          "media_checked_date": "2026-10-17"
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/TFS-Assets/CAD/product-images/XL5-Left.jpg-650.jpg",
+          "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/NITONXL5PLUS",
+          "image_scope": "Manufacturer image displayed on the Niton XL5 Plus catalog page, NITONXL5PLUS. Shared instrument-body photograph; installed application calibration packages and optional accessories are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "EXT-M95-005B352847BB",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "K-Alpha",
+    "groups": [
+      {
+        "before": {
+          "image_url": "",
+          "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+          "image_scope": "No model-specific source photograph verified in this review.",
+          "media_checked_date": "2026-10-17"
+        },
+        "after": {
+          "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/xps-instruments/GlobalProductionWorkXPS-1809050-Resources-K-Alpha1B-1024x576.png",
+          "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+          "image_scope": "Manufacturer model-page photograph labelled K-Alpha XPS System. Reference system view; optional modules, installed asset and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+          "media_checked_date": "2026-10-19"
+        }
+      }
+    ]
+  },
+  {
+    "equipment_id": "M19-03",
+    "manufacturer": "Thermo Scientific",
+    "model_name": "Thermo Scientific Thermolyne FB1315M",
+    "groups": [
+      {
+        "before": {
+          "manufacturer_price_value": "",
+          "manufacturer_price_currency": "",
+          "manufacturer_price_kind": "",
+          "manufacturer_price_source_url": "",
+          "manufacturer_price_checked_date": "",
+          "manufacturer_price_scope": "",
+          "price_status": "not_researched"
+        },
+        "after": {
+          "manufacturer_price_value": "2090",
+          "manufacturer_price_currency": "USD",
+          "manufacturer_price_kind": "list_price",
+          "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+          "manufacturer_price_checked_date": "2026-10-19",
+          "manufacturer_price_scope": "Official US list price for one Thermolyne FB1315M 1.3 L benchtop muffle furnace, 120 V, CSA approved. Separate online-exclusive price at review: USD 1,881. Excludes accessories and other voltage variants. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+          "price_status": "manufacturer_published_price"
+        }
+      }
+    ]
   }
 ]

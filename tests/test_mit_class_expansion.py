@@ -18,7 +18,12 @@ def test_eleven_new_classes_have_distinct_models_and_evidence_without_fabricated
     assert sum(bool(r['image_url']) for r in new)==report['summary']['photos']==95
     assert sum(bool(r['manufacturer_price_value']) or r['equipment_id'] in offers for r in new)==report['summary']['published_prices']==9
     for r in new:
-        assert r==records[r['equipment_id']]
+        # Preserve this release snapshot while allowing later scoped photo fills.
+        later=json.loads((ROOT/'catalog/thermo_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
+        photo=next((p for p in later['instrument_images'] if p['equipment_id']==r['equipment_id']),None)
+        if photo:
+            assert all(r[k]==v for k,v in photo['before'].items())
+        assert {**r,**(photo['after'] if photo else {})}==records[r['equipment_id']]
         assert r['product_page_url'] and r['technical_spec_url'] and r['model_evidence_url']
         assert not r['msrp_value'] and not r['source_pdf'] and not r['source_record_id']
         if r['image_url']:assert r['image_source_url'] and r['image_scope']

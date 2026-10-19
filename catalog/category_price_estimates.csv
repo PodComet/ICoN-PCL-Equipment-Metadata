@@ -34,7 +34,7 @@ M15,Filtration systems,,,,No qualifying MSRP/list-price benchmark found for this
 M16,Rotary evaporator,4746,12709.6,USD,"Category M16: 1.2 × lowest benchmark USD 3955 (IKA RV 3) through 0.8 × highest benchmark USD 15887 (IKA RV 10 auto pro V). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/;https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/,2026-10-17
 M17,Freeze dryer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M18,Vacuum drying oven,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-M19,Muffle furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M19,Muffle furnace,,,USD,Category rule would yield USD 2508–1672 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.thermofisher.com/order/catalog/product/us/en/FB1315M,2026-10-17
 M20,Controlled-atmosphere tube furnace,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M21,Chemical vapor deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M22,Atomic layer deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
@@ -50,7 +50,7 @@ M31,Dry vacuum pump,4916.4,7536.8,USD,"Category M31: 1.2 × lowest benchmark USD
 M32,Gas mass-flow controller,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M33,Recirculating temperature-control unit,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M34,DLS / electrophoretic light-scattering analyzer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-M35,UV-visible spectrophotometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M35,UV-visible spectrophotometer,12240,12800,USD,"Category M35: 1.2 × lowest benchmark USD 10200 (Thermo Scientific Evolution One) through 0.8 × highest benchmark USD 16000 (Thermo Scientific Evolution Pro). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.thermofisher.com/order/catalog/product/us/en/840-341400;https://www.thermofisher.com/order/catalog/product/us/en/840-340200,2026-10-17
 M36,FTIR spectrometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M37,X-ray diffractometer,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M38,Scanning electron microscope,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
@@ -61,7 +61,7 @@ M42,Thermogravimetric analyzer,,,,No qualifying MSRP/list-price benchmark found 
 M43,Liposome membrane extruder,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M44,Langmuir-Blodgett trough,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M45,Bioreactor / fermenter,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-M46,Laboratory water purification system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M46,Laboratory water purification system,,,USD,Category rule would yield USD 21240–14160 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.thermofisher.com/order/catalog/product/us/en/50157882,2026-10-17
 M47,Electrospraying platform,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M48,Pulsed laser deposition system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M49,Nanofiltration test cell / system,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17

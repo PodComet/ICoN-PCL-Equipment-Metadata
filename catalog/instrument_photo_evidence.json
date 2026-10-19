@@ -3778,6 +3778,612 @@
         },
         "match_scope": "exact_model"
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-1FC3BA7F3E99C1AB",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Vacutherm VT 6025",
+      "claim": "Manufacturer catalog presents this representative family image for Thermo Scientific Vacutherm VT 6025.",
+      "scope": "Manufacturer uses this shared Vacutherm series catalog photograph on the exact 25 L, 120 V SKU51014551 page. The picture is a representative series configuration with open glass door and control tower; chamber size, heating/controller options and installed asset identity are not established by the photo. Not evidence of the installed 25 L configuration. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Vacutherm VT 6025",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/51014551",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M18-03",
+          "label": "Thermo Scientific Vacutherm VT 6025"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M18",
+          "label": "Vacuum drying oven"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M18-03",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Vacutherm VT 6025",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014551",
+        "image_scope": "Manufacturer uses this shared Vacutherm series catalog photograph on the exact 25 L, 120 V SKU51014551 page. The picture is a representative series configuration with open glass door and control tower; chamber size, heating/controller options and installed asset identity are not established by the photo. Not evidence of the installed 25 L configuration. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9a676c62e4eea86fc17c2ec74f53bd87628afd474bcc1b197b1a3fd8edf22c0e",
+          "width": 650,
+          "height": 595,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "product_family",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BD43B46167C8D66A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Vacutherm VT 6060",
+      "claim": "Manufacturer catalog presents this representative family image for Thermo Scientific Vacutherm VT 6060.",
+      "scope": "Manufacturer shared Vacutherm series photograph on the 53 L, 120 V SKU51014540 page, independently corroborated VT6060M model mapping by official vacuum-ovens technical sheet. Representative series configuration, not an installed asset or confirmation of shelf/controller/voltage options. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Vacutherm VT 6060",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/51014540",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M18-09",
+          "label": "Thermo Scientific Vacutherm VT 6060"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M18",
+          "label": "Vacuum drying oven"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M18-09",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Vacutherm VT 6060",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014540",
+        "image_scope": "Manufacturer shared Vacutherm series photograph on the 53 L, 120 V SKU51014540 page, independently corroborated VT6060M model mapping by official vacuum-ovens technical sheet. Representative series configuration, not an installed asset or confirmation of shelf/controller/voltage options. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "9a676c62e4eea86fc17c2ec74f53bd87628afd474bcc1b197b1a3fd8edf22c0e",
+          "width": 650,
+          "height": 595,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "product_family",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A5501A78BEBD18EE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Evolution One",
+      "claim": "Manufacturer catalog presents this model-matched image for Thermo Scientific Evolution One.",
+      "scope": "Official Evolution One left-side product photograph on exact base SKU840-341400 page. Image visibly labels Evolution One; no Plus, Peltier or regulatory/security bundle is inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Evolution One",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M35-03",
+          "label": "Thermo Scientific Evolution One"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M35",
+          "label": "UV-visible spectrophotometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M35-03",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Evolution One",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-One-left.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+        "image_scope": "Official Evolution One left-side product photograph on exact base SKU840-341400 page. Image visibly labels Evolution One; no Plus, Peltier or regulatory/security bundle is inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "48e0f1874b5970924182766e97cd560dfd6c512649139cd41ac736c3f1476f59",
+          "width": 650,
+          "height": 433,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A7BC9BB9F7732422",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Evolution Pro",
+      "claim": "Manufacturer catalog presents this model-matched image for Thermo Scientific Evolution Pro.",
+      "scope": "Official Evolution Pro right-side photograph on exact base SKU840-340200 page. Product front visibly identifies Evolution Pro; computer, bundled validation services and accessories are not inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Evolution Pro",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M35-08",
+          "label": "Thermo Scientific Evolution Pro"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M35",
+          "label": "UV-visible spectrophotometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M35-08",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Evolution Pro",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-Pro-right.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+        "image_scope": "Official Evolution Pro right-side photograph on exact base SKU840-340200 page. Product front visibly identifies Evolution Pro; computer, bundled validation services and accessories are not inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "e82e32047293c0e71ee18275ab9f47b3aa6ce0b7693fa82f8b985049feb449fc",
+          "width": 650,
+          "height": 433,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A7BE4E1C6284940A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Nicolet Summit",
+      "claim": "Manufacturer catalog presents this representative family image for Thermo Scientific Nicolet Summit.",
+      "scope": "Manufacturer Summit family illustration specifically depicts Summit PRO with adjustable touchscreen and ATR accessory, from SKU912A0972. Existing record is generic Nicolet Summit, so photo is a labeled representative PRO member, not proof that all Summit variants include touchscreen/ATR. No price/configuration applied to generic record. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Nicolet Summit",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/912A0972",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M36-07",
+          "label": "Thermo Scientific Nicolet Summit"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M36",
+          "label": "FTIR spectrometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M36-07",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Nicolet Summit",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/IQLAADGAAGFAQXMBKK-Summit-Pro-Touchscreen-ATR-Adjust.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/912A0972",
+        "image_scope": "Manufacturer Summit family illustration specifically depicts Summit PRO with adjustable touchscreen and ATR accessory, from SKU912A0972. Existing record is generic Nicolet Summit, so photo is a labeled representative PRO member, not proof that all Summit variants include touchscreen/ATR. No price/configuration applied to generic record. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "374703076964962aa6a5c1e34c0984e4b27c5c4db5820016b2a2e7441e3870de",
+          "width": 650,
+          "height": 516,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "product_family",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-34B66F2450E387A7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Axia ChemiSEM",
+      "claim": "Manufacturer catalog presents this model-matched image for Thermo Scientific Axia ChemiSEM.",
+      "scope": "Official Axia ChemiSEM product hero on manufacturer exact model page. Full SEM system illustration; optional accessories and specific installed system configuration not established. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Axia ChemiSEM",
+          "url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/axia-chemisem.html",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M38-02",
+          "label": "Thermo Scientific Axia ChemiSEM"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M38-02",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Axia ChemiSEM",
+        "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/axia-chemisem/Axia-ChemiSEM-Product-Image-763x763.png",
+        "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/axia-chemisem.html",
+        "image_scope": "Official Axia ChemiSEM product hero on manufacturer exact model page. Full SEM system illustration; optional accessories and specific installed system configuration not established. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "94ab926f97f2ac480b76a88a9e41d085340ff36bda29f0d065acfa2364f1bb20",
+          "width": 763,
+          "height": 763,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-44683CAB495357EC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific DXR3",
+      "claim": "Manufacturer catalog presents this model-matched image for Thermo Scientific DXR3.",
+      "scope": "Official DXR3 Raman Microscope photograph, showing microscope, monitor and keyboard, on exact manufacturer product page IQLAADGABFFAHCMAPB. This is the Raman microscope member, not DXR3xi/Flex/SmartRaman. Source has Raman Microscope identity and nanomaterials application; no laser selection or accessory package inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific DXR3",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAADGABFFAHCMAPB",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M40-09",
+          "label": "Thermo Scientific DXR3"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M40",
+          "label": "Raman microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M40-09",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific DXR3",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/DXR-Raman-Microscope-wMonitor.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAADGABFFAHCMAPB",
+        "image_scope": "Official DXR3 Raman Microscope photograph, showing microscope, monitor and keyboard, on exact manufacturer product page IQLAADGABFFAHCMAPB. This is the Raman microscope member, not DXR3xi/Flex/SmartRaman. Source has Raman Microscope identity and nanomaterials application; no laser selection or accessory package inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "768864b3a160c628e504770f202adf7723ce4ae31e5de14f304454b7763460d0",
+          "width": 650,
+          "height": 650,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-92722FF68AD4D9BA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Barnstead GenPure xCAD Plus",
+      "claim": "Manufacturer catalog presents this representative family image for Thermo Scientific Barnstead GenPure xCAD Plus.",
+      "scope": "Official Barnstead GenPure xCAD Plus family illustration showing main purifier and remote dispenser, from SKU50136172 UV/UF-TOC wall dispenser page. Existing family record does not fix UV/UF/TOC/dispenser variant; photo does not assign those options. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Barnstead GenPure xCAD Plus",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/50136172",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M46-03",
+          "label": "Thermo Scientific Barnstead GenPure xCAD Plus"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M46-03",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Barnstead GenPure xCAD Plus",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183678_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50136172",
+        "image_scope": "Official Barnstead GenPure xCAD Plus family illustration showing main purifier and remote dispenser, from SKU50136172 UV/UF-TOC wall dispenser page. Existing family record does not fix UV/UF/TOC/dispenser variant; photo does not assign those options. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "41de1db1f30adfaaf16b8ecae464b600b24048fd9d6b94db6751ac779570d910",
+          "width": 650,
+          "height": 544,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "product_family",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BFB87D039F5D25F3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+      "claim": "Manufacturer catalog presents this model-matched image for Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank).",
+      "scope": "Manufacturer catalog front-panel photograph on exact Smart2Pure Pro16 UV/UF and30L tank SKU50157882 page. Only front control/display is pictured; reservoir and UV/UF configuration are verified by product text, not image. No photo of an installed tank is claimed. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+          "label": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LPD/product-images/Smart2Pure-face.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "image_scope": "Manufacturer catalog front-panel photograph on exact Smart2Pure Pro16 UV/UF and30L tank SKU50157882 page. Only front control/display is pictured; reservoir and UV/UF configuration are verified by product text, not image. No photo of an installed tank is claimed. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "7a94768e4ebe7c84dc47201fc33c3e319c004395c7f908de12aa875596b8b6e0",
+          "width": 650,
+          "height": 650,
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-832814D81F3C3C68",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: ARL PERFORM'X",
+      "claim": "Manufacturer catalog presents this model-matched image for ARL PERFORM'X.",
+      "scope": "Manufacturer product gallery for ARL PERFORM'X sequential XRF spectrometer, catalog IQLAAHGABMFALXMAZE. Reference system photograph; options, installed setup and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: ARL PERFORM'X",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAAHGABMFALXMAZE",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M98-8E4E40371455",
+          "label": "ARL PERFORM'X"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M98",
+          "label": "X-ray fluorescence spectrometers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M98-8E4E40371455",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "ARL PERFORM'X",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/F85779~p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAAHGABMFALXMAZE",
+        "image_scope": "Manufacturer product gallery for ARL PERFORM'X sequential XRF spectrometer, catalog IQLAAHGABMFALXMAZE. Reference system photograph; options, installed setup and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f255536257951a8ca4c8313a50ef0c83b6f144fa5348dc92468d21614d3a106b",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-274363DC37DF0E72",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Niton XL5 Plus",
+      "claim": "Manufacturer catalog presents this model-matched image for Niton XL5 Plus.",
+      "scope": "Manufacturer image displayed on the Niton XL5 Plus catalog page, NITONXL5PLUS. Shared instrument-body photograph; installed application calibration packages and optional accessories are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: Niton XL5 Plus",
+          "url": "https://www.thermofisher.com/order/catalog/product/us/en/NITONXL5PLUS",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M98-9E26C8607E9D",
+          "label": "Niton XL5 Plus"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M98",
+          "label": "X-ray fluorescence spectrometers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M98-9E26C8607E9D",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Niton XL5 Plus",
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CAD/product-images/XL5-Left.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/NITONXL5PLUS",
+        "image_scope": "Manufacturer image displayed on the Niton XL5 Plus catalog page, NITONXL5PLUS. Shared instrument-body photograph; installed application calibration packages and optional accessories are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "706c189f90e73b168520e61db27ca4a55593453aed0cdd18e219b940e5ccb4b0",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B5D116B668CD9E40",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: K-Alpha",
+      "claim": "Manufacturer catalog presents this model-matched image for K-Alpha.",
+      "scope": "Manufacturer model-page photograph labelled K-Alpha XPS System. Reference system view; optional modules, installed asset and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Thermo Fisher Scientific: Photo match: K-Alpha",
+          "url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+          "locator": "Product gallery / labelled model-page image; manually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M95-005B352847BB",
+          "label": "K-Alpha"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M95",
+          "label": "X-ray photoelectron spectroscopy (XPS)"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M95-005B352847BB",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "K-Alpha",
+        "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/xps-instruments/GlobalProductionWorkXPS-1809050-Resources-K-Alpha1B-1024x576.png",
+        "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+        "image_scope": "Manufacturer model-page photograph labelled K-Alpha XPS System. Reference system view; optional modules, installed asset and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "2308a6c564fde0b3ea4848c4b6a7e13acdb2569fd18922beb14d864ed0e8cc68",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model",
+        "visually_inspected": true
+      }
     }
   ]
 }

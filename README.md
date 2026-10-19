@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [19 October Thermo Fisher catalog review](docs/thermo-catalog-review-2026-10-19.md) adds 12 scoped instrument images, four official US list prices, two separate online discounts, 12 reference-only material pack quotes and one kit photograph. Exact configurations, representative family views and price types remain explicit; no recipe eligibility or private inventory changes.
+
 The [US Nano and UCLA INML ingestion](docs/usnano-ucla-ingestion-2026-10-18.md) adds 38 supplier pack prices across 17 material grades/forms, 15 scoped UCLA source/substrate/cryogen options, 14 equipment/configuration records, nine M classes (M100–M108) and two capability-derived MBE routes (P46–P47). Commercial alternatives remain separate from article formulations; reference microscopy and installed-setup images retain their scope. New MBE slots enforce nitride versus arsenide/antimonide configuration.
 
 The [United Scientific catalog review](docs/united-catalog-review-2026-10-18.md) screens both 2026 catalogs (1,168 PDF pages) and adds three USD dealer offers and one verified photo for the MSL3X1 72-slide pack compatible with P27's reusable substrate. No exact existing instrument models matched; the manufacturer catalogs omit retail prices.

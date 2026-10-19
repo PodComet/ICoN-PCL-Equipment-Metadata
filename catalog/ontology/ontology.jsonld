@@ -85442,6 +85442,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LPD/product-images/Smart2Pure-face.jpg-650.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.thermofisher.com/order/catalog/product/cl/en/50157882"
@@ -85450,6 +85455,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://assets.thermofisher.com/TFS-Assets/LPD/Specification-Sheets/Smart2PurePro-ProdSpec-S-SMART2PUREPRO-E-EN.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LPD/product-images/Smart2Pure-face.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -101238,6 +101248,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/xps-instruments/GlobalProductionWorkXPS-1809050-Resources-K-Alpha1B-1024x576.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html"
@@ -101246,6 +101261,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://assets.thermofisher.com/TFS-Assets/MSD/brochures/BR52586-k-alpha-brochure.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/xps-instruments/GlobalProductionWorkXPS-1809050-Resources-K-Alpha1B-1024x576.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -104758,6 +104778,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/F85779~p.eps-650.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.thermofisher.com/order/catalog/product/IQLAAHGABMFALXMAZE"
@@ -104766,6 +104791,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://documents.thermofisher.com/TFS-Assets/MSD/brochures/XR-BR41270-arl-performx-spectrometer.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/F85779~p.eps-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -104834,6 +104864,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CAD/product-images/XL5-Left.jpg-650.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.thermofisher.com/order/catalog/product/NITONXL5PLUS"
@@ -104842,6 +104877,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://documents.thermofisher.com/TFS-Assets/CAD/Datasheets/niton-xl5-plus-spec-sheet.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CAD/product-images/XL5-Left.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -130390,6 +130430,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -130976,6 +131026,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -142708,6 +142768,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-One-left.jpg-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-One-left.jpg-650.jpg"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
@@ -143071,6 +143141,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-Pro-right.jpg-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-Pro-right.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -143900,6 +143980,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/IQLAADGAAGFAQXMBKK-Summit-Pro-Touchscreen-ATR-Adjust.jpg-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/IQLAADGAAGFAQXMBKK-Summit-Pro-Touchscreen-ATR-Adjust.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -145291,6 +145381,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/axia-chemisem/Axia-ChemiSEM-Product-Image-763x763.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/axia-chemisem/Axia-ChemiSEM-Product-Image-763x763.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -147607,6 +147707,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/DXR-Raman-Microscope-wMonitor.jpg-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/DXR-Raman-Microscope-wMonitor.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -151559,6 +151669,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183678_p.eps-650.jpg"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183678_p.eps-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [

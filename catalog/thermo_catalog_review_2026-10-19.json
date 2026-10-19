@@ -1,0 +1,1261 @@
+{
+  "schema": "iconpcl-thermo-catalog-review/v1",
+  "checked_date": "2026-10-19",
+  "source_url": "https://www.thermofisher.com/us/en/home/order.html",
+  "scope": "Focused gap review against existing ontology identities and the linked manufacturer US catalog. Not an exhaustive price or inventory audit of every Thermo Fisher product. Exact selected SKUs, regional prices and image scopes reviewed; missing or RFQ-only prices are not zero.",
+  "baseline_public_commit": "291b8b24b631c2fde90a62ad80ebd0ea2da8b134",
+  "summary": {
+    "instrument_photos_added": 12,
+    "exact_model_photos": 8,
+    "representative_family_photos": 4,
+    "official_instrument_list_prices_added": 4,
+    "separate_online_discount_quotes_added": 2,
+    "previously_unpriced_instruments_now_priced": 1,
+    "material_pack_quotes_added": 12,
+    "material_component_identities": 7,
+    "previously_unquoted_exact_component_ids": [
+      "titanium-isopropoxide-999"
+    ],
+    "material_photo_additions": 1,
+    "new_equipment_records": 0,
+    "new_recipe_eligibility_matches": 0,
+    "new_source_evidence_claims": 31
+  },
+  "discovery": {
+    "existing_thermo_and_applied_invitrogen_records": 63,
+    "instrument_page_screening": [
+      "evolution-one",
+      "evolution-pro",
+      "summit",
+      "vac6025",
+      "smart2pure",
+      "vortex",
+      "performx",
+      "niton",
+      "axia",
+      "kalpha",
+      "genpure",
+      "dxr3",
+      "vac6060",
+      "vortex-ts",
+      "furnace48025",
+      "fb1315m",
+      "st8r",
+      "wx100",
+      "wx80",
+      "wx90",
+      "simpliamp"
+    ],
+    "material_product_pages_screened": 34,
+    "landing_page_sha256": "10f0528134832a986b353c61c74ff7890fe4987c0b3c2ebdf3b05599aace1c1f",
+    "regions": "Explicit US-English product pages served USD. Search/browser geographic redirects were not used as US price evidence."
+  },
+  "instrument_images": [
+    {
+      "equipment_id": "M18-03",
+      "evidence_id": "IMG-EV-1FC3BA7F3E99C1AB",
+      "match_scope": "product_family",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014551",
+        "image_scope": "Manufacturer uses this shared Vacutherm series catalog photograph on the exact 25 L, 120 V SKU51014551 page. The picture is a representative series configuration with open glass door and control tower; chamber size, heating/controller options and installed asset identity are not established by the photo. Not evidence of the installed 25 L configuration. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "9a676c62e4eea86fc17c2ec74f53bd87628afd474bcc1b197b1a3fd8edf22c0e",
+        "width": 650,
+        "height": 595,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "189eff74ad32295c41c2496a8b29d3b824fe56daeadd66d9665a970ba7377ce9"
+    },
+    {
+      "equipment_id": "M18-09",
+      "evidence_id": "IMG-EV-BD43B46167C8D66A",
+      "match_scope": "product_family",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183956_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/51014540",
+        "image_scope": "Manufacturer shared Vacutherm series photograph on the 53 L, 120 V SKU51014540 page, independently corroborated VT6060M model mapping by official vacuum-ovens technical sheet. Representative series configuration, not an installed asset or confirmation of shelf/controller/voltage options. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "9a676c62e4eea86fc17c2ec74f53bd87628afd474bcc1b197b1a3fd8edf22c0e",
+        "width": 650,
+        "height": 595,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "bd7276fd49b71a14db0c46bfd7c04cd15bb97dbfedc63c06436515f2c58f9a46"
+    },
+    {
+      "equipment_id": "M35-03",
+      "evidence_id": "IMG-EV-A5501A78BEBD18EE",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-One-left.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+        "image_scope": "Official Evolution One left-side product photograph on exact base SKU840-341400 page. Image visibly labels Evolution One; no Plus, Peltier or regulatory/security bundle is inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "48e0f1874b5970924182766e97cd560dfd6c512649139cd41ac736c3f1476f59",
+        "width": 650,
+        "height": 433,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "822758062a0f174f775941485ed06c1c1ba97bf00b883a7e0539a917d77b16ae"
+    },
+    {
+      "equipment_id": "M35-08",
+      "evidence_id": "IMG-EV-A7BC9BB9F7732422",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/Evolution-Pro-right.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+        "image_scope": "Official Evolution Pro right-side photograph on exact base SKU840-340200 page. Product front visibly identifies Evolution Pro; computer, bundled validation services and accessories are not inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "e82e32047293c0e71ee18275ab9f47b3aa6ce0b7693fa82f8b985049feb449fc",
+        "width": 650,
+        "height": 433,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "f0744e6bf5193765d5001497be854cd247426a6340f921eb64f3cc4e14096577"
+    },
+    {
+      "equipment_id": "M36-07",
+      "evidence_id": "IMG-EV-A7BE4E1C6284940A",
+      "match_scope": "product_family",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/MSD/product-images/IQLAADGAAGFAQXMBKK-Summit-Pro-Touchscreen-ATR-Adjust.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/912A0972",
+        "image_scope": "Manufacturer Summit family illustration specifically depicts Summit PRO with adjustable touchscreen and ATR accessory, from SKU912A0972. Existing record is generic Nicolet Summit, so photo is a labeled representative PRO member, not proof that all Summit variants include touchscreen/ATR. No price/configuration applied to generic record. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "374703076964962aa6a5c1e34c0984e4b27c5c4db5820016b2a2e7441e3870de",
+        "width": 650,
+        "height": 516,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "90a541b06d074fae319cab4eee824a4467795579cb7744a40028f8793dd0af75"
+    },
+    {
+      "equipment_id": "M38-02",
+      "evidence_id": "IMG-EV-34B66F2450E387A7",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/axia-chemisem/Axia-ChemiSEM-Product-Image-763x763.png",
+        "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/scanning-electron-microscopes/axia-chemisem.html",
+        "image_scope": "Official Axia ChemiSEM product hero on manufacturer exact model page. Full SEM system illustration; optional accessories and specific installed system configuration not established. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/png",
+        "sha256": "94ab926f97f2ac480b76a88a9e41d085340ff36bda29f0d065acfa2364f1bb20",
+        "width": 763,
+        "height": 763,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "602923d85732b7c9d18b863da546c3553b97ada81de6a04178fa1bcd10971795"
+    },
+    {
+      "equipment_id": "M40-09",
+      "evidence_id": "IMG-EV-44683CAB495357EC",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/DXR-Raman-Microscope-wMonitor.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAADGABFFAHCMAPB",
+        "image_scope": "Official DXR3 Raman Microscope photograph, showing microscope, monitor and keyboard, on exact manufacturer product page IQLAADGABFFAHCMAPB. This is the Raman microscope member, not DXR3xi/Flex/SmartRaman. Source has Raman Microscope identity and nanomaterials application; no laser selection or accessory package inferred. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "768864b3a160c628e504770f202adf7723ce4ae31e5de14f304454b7763460d0",
+        "width": 650,
+        "height": 650,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "69f8a32a936c8f49328b5e2f150c706a65be426cc74beff813db3f2665333b22"
+    },
+    {
+      "equipment_id": "M46-03",
+      "evidence_id": "IMG-EV-92722FF68AD4D9BA",
+      "match_scope": "product_family",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LED/product-images/F183678_p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50136172",
+        "image_scope": "Official Barnstead GenPure xCAD Plus family illustration showing main purifier and remote dispenser, from SKU50136172 UV/UF-TOC wall dispenser page. Existing family record does not fix UV/UF/TOC/dispenser variant; photo does not assign those options. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "41de1db1f30adfaaf16b8ecae464b600b24048fd9d6b94db6751ac779570d910",
+        "width": 650,
+        "height": 544,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "840946026d821b339c0cf70dafe335afe2feb87f7850230cb3783b86d95d7264"
+    },
+    {
+      "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+      "evidence_id": "IMG-EV-BFB87D039F5D25F3",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "media_checked_date": "2026-10-16"
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LPD/product-images/Smart2Pure-face.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "image_scope": "Manufacturer catalog front-panel photograph on exact Smart2Pure Pro16 UV/UF and30L tank SKU50157882 page. Only front control/display is pictured; reservoir and UV/UF configuration are verified by product text, not image. No photo of an installed tank is claimed. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "7a94768e4ebe7c84dc47201fc33c3e319c004395c7f908de12aa875596b8b6e0",
+        "width": 650,
+        "height": 650,
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "00a7c73f12d6a9dcbc078f8aa405c59aebdaa8c66a37607806aa59dbc27ec90a"
+    },
+    {
+      "equipment_id": "EXT-M98-8E4E40371455",
+      "evidence_id": "IMG-EV-832814D81F3C3C68",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "Source image could not be verified as accessible in this review; see research audit.",
+        "media_checked_date": "2026-10-17"
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CMD/product-images/F85779~p.eps-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/IQLAAHGABMFALXMAZE",
+        "image_scope": "Manufacturer product gallery for ARL PERFORM'X sequential XRF spectrometer, catalog IQLAAHGABMFALXMAZE. Reference system photograph; options, installed setup and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "f255536257951a8ca4c8313a50ef0c83b6f144fa5348dc92468d21614d3a106b",
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "b0a1f014efe016eb7191d1aff676bd26e71e6838de82adf00ebfe35a43fafd4b"
+    },
+    {
+      "equipment_id": "EXT-M98-9E26C8607E9D",
+      "evidence_id": "IMG-EV-274363DC37DF0E72",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "Source image could not be verified as accessible in this review; see research audit.",
+        "media_checked_date": "2026-10-17"
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/CAD/product-images/XL5-Left.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/NITONXL5PLUS",
+        "image_scope": "Manufacturer image displayed on the Niton XL5 Plus catalog page, NITONXL5PLUS. Shared instrument-body photograph; installed application calibration packages and optional accessories are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "706c189f90e73b168520e61db27ca4a55593453aed0cdd18e219b940e5ccb4b0",
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "ff7aec11ae920a5ba34620c5b69c0a11f48da44779baca5e246f38aedc5ea8ee"
+    },
+    {
+      "equipment_id": "EXT-M95-005B352847BB",
+      "evidence_id": "IMG-EV-B5D116B668CD9E40",
+      "match_scope": "exact_model",
+      "before": {
+        "image_url": "",
+        "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+        "image_scope": "No model-specific source photograph verified in this review.",
+        "media_checked_date": "2026-10-17"
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/content/dam/tfsite/images/storefront/electron-microscopy/products/xps-instruments/GlobalProductionWorkXPS-1809050-Resources-K-Alpha1B-1024x576.png",
+        "image_source_url": "https://www.thermofisher.com/us/en/home/electron-microscopy/products/xps-instruments/instruments/k-alpha.html",
+        "image_scope": "Manufacturer model-page photograph labelled K-Alpha XPS System. Reference system view; optional modules, installed asset and delivered configuration are not established. Source rights retained. Remote reference; source rights retained. No ownership or performance assertion.",
+        "media_checked_date": "2026-10-19"
+      },
+      "verification": {
+        "status": 200,
+        "content_type": "image/png",
+        "sha256": "2308a6c564fde0b3ea4848c4b6a7e13acdb2569fd18922beb14d864ed0e8cc68",
+        "checked_date": "2026-10-19"
+      },
+      "source_page_sha256": "08a5c518280846872c4ec0f82cfb85761d12bb44e0925c45ee3293fec8acd240"
+    }
+  ],
+  "manufacturer_prices": [
+    {
+      "price_value": "10200",
+      "currency": "USD",
+      "price_kind": "list_price",
+      "scope": "Base Evolution One UV-Vis spectrophotometer, fixed1nm bandwidth,100/240V50/60Hz, each. Excludes OnePlus and regulatory/security/Peltier bundles. Public manufacturer list=final USD10200, priceRuleTypeLIST, orderable, no account-specific override.",
+      "checked_date": "2026-10-19",
+      "condition": "new",
+      "unit": "Each",
+      "manufacturer": "Thermo Scientific",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+      "source_sku": "840-341400",
+      "source_kind": "manufacturer_product_page",
+      "official_list_price": "10200",
+      "current_online_price": "10200",
+      "current_online_price_kind": "list_price",
+      "price_rule_type": "LIST",
+      "price_access": "Orderable",
+      "region": "us",
+      "account_specific_override": false,
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+        "source_html_sha256": "822758062a0f174f775941485ed06c1c1ba97bf00b883a7e0539a917d77b16ae",
+        "checked_date": "2026-10-19",
+        "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+      },
+      "equipment_id": "M35-03",
+      "model_name": "Thermo Scientific Evolution One",
+      "evidence_id": "PRICE-EV-E22D7C9EF9F2F9C0",
+      "before": {
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": "",
+        "price_status": "not_researched"
+      },
+      "after": {
+        "manufacturer_price_value": "10200",
+        "manufacturer_price_currency": "USD",
+        "manufacturer_price_kind": "list_price",
+        "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-341400",
+        "manufacturer_price_checked_date": "2026-10-19",
+        "manufacturer_price_scope": "Official US list price for one Evolution One UV-Vis spectrophotometer, SKU 840-341400, fixed 1 nm bandwidth, 100–240 V, 50/60 Hz. Excludes One Plus, Peltier and regulatory/security bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+        "price_status": "manufacturer_published_price"
+      },
+      "previously_unpriced": false
+    },
+    {
+      "price_value": "16000",
+      "currency": "USD",
+      "price_kind": "list_price",
+      "scope": "Base Evolution Pro UV-Vis spectrophotometer SKU840-340200,100/240V50/60Hz, each. Excludes pharma/security/validation/Peltier bundle SKUs. Public manufacturer list=final USD16000, priceRuleTypeLIST, orderable, no account-specific override.",
+      "checked_date": "2026-10-19",
+      "condition": "new",
+      "unit": "Each",
+      "manufacturer": "Thermo Scientific",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+      "source_sku": "840-340200",
+      "source_kind": "manufacturer_product_page",
+      "official_list_price": "16000",
+      "current_online_price": "16000",
+      "current_online_price_kind": "list_price",
+      "price_rule_type": "LIST",
+      "price_access": "Orderable",
+      "region": "us",
+      "account_specific_override": false,
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+        "source_html_sha256": "f0744e6bf5193765d5001497be854cd247426a6340f921eb64f3cc4e14096577",
+        "checked_date": "2026-10-19",
+        "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+      },
+      "equipment_id": "M35-08",
+      "model_name": "Thermo Scientific Evolution Pro",
+      "evidence_id": "PRICE-EV-9710C6BC24CDA872",
+      "before": {
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": "",
+        "price_status": "not_researched"
+      },
+      "after": {
+        "manufacturer_price_value": "16000",
+        "manufacturer_price_currency": "USD",
+        "manufacturer_price_kind": "list_price",
+        "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/840-340200",
+        "manufacturer_price_checked_date": "2026-10-19",
+        "manufacturer_price_scope": "Official US list price for one Evolution Pro UV-Vis spectrophotometer, SKU 840-340200, 100–240 V, 50/60 Hz. Excludes pharma/security/validation/Peltier bundles. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+        "price_status": "manufacturer_published_price"
+      },
+      "previously_unpriced": false
+    },
+    {
+      "price_value": "17700",
+      "currency": "USD",
+      "price_kind": "list_price",
+      "scope": "Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted.",
+      "checked_date": "2026-10-19",
+      "condition": "new",
+      "unit": "Each",
+      "manufacturer": "Thermo Scientific",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+      "source_sku": "50157882",
+      "source_kind": "manufacturer_product_page",
+      "official_list_price": "17700",
+      "current_online_price": "15930",
+      "current_online_price_kind": "sale_price",
+      "price_rule_type": "ONLINE",
+      "price_access": "Orderable",
+      "region": "us",
+      "account_specific_override": false,
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "source_html_sha256": "00a7c73f12d6a9dcbc078f8aa405c59aebdaa8c66a37607806aa59dbc27ec90a",
+        "checked_date": "2026-10-19",
+        "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+      },
+      "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+      "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+      "evidence_id": "PRICE-EV-DC77EE03312DE0AC",
+      "before": {
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": "",
+        "price_status": "quote_required_or_no_public_exact_price_verified"
+      },
+      "after": {
+        "manufacturer_price_value": "17700",
+        "manufacturer_price_currency": "USD",
+        "manufacturer_price_kind": "list_price",
+        "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+        "manufacturer_price_checked_date": "2026-10-19",
+        "manufacturer_price_scope": "Official US list price for one Smart2Pure Pro 16 UV/UF system with 30 L tank, SKU 50157882, 16 L/h. Separate online-exclusive price at review: USD 15,930. The 60 L tank and UV-only variants are excluded. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+        "price_status": "manufacturer_published_price"
+      },
+      "previously_unpriced": true
+    },
+    {
+      "price_value": "2090",
+      "currency": "USD",
+      "price_kind": "list_price",
+      "scope": "Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded.",
+      "checked_date": "2026-10-19",
+      "condition": "new",
+      "unit": "Each",
+      "manufacturer": "Thermo Scientific",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+      "source_sku": "FB1315M",
+      "source_kind": "manufacturer_product_page",
+      "official_list_price": "2090",
+      "current_online_price": "1881",
+      "current_online_price_kind": "sale_price",
+      "price_rule_type": "ONLINE",
+      "price_access": "Orderable",
+      "region": "us",
+      "account_specific_override": false,
+      "verification": {
+        "status": 200,
+        "final_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+        "source_html_sha256": "8b49d622ad3ce89b6b2508c8fd271847aa604014cd7884f95dfe56ff1f5b19c1",
+        "checked_date": "2026-10-19",
+        "method": "Unauthenticated GET of explicit US-English catalog URL; visible USD price text corroborated by Product JSON-LD and embedded matching SKU list/final price entries."
+      },
+      "equipment_id": "M19-03",
+      "model_name": "Thermo Scientific Thermolyne FB1315M",
+      "evidence_id": "PRICE-EV-7D0440F0E7FDB76A",
+      "before": {
+        "manufacturer_price_value": "",
+        "manufacturer_price_currency": "",
+        "manufacturer_price_kind": "",
+        "manufacturer_price_source_url": "",
+        "manufacturer_price_checked_date": "",
+        "manufacturer_price_scope": "",
+        "price_status": "not_researched"
+      },
+      "after": {
+        "manufacturer_price_value": "2090",
+        "manufacturer_price_currency": "USD",
+        "manufacturer_price_kind": "list_price",
+        "manufacturer_price_source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+        "manufacturer_price_checked_date": "2026-10-19",
+        "manufacturer_price_scope": "Official US list price for one Thermolyne FB1315M 1.3 L benchtop muffle furnace, 120 V, CSA approved. Separate online-exclusive price at review: USD 1,881. Excludes accessories and other voltage variants. List price is not explicit MSRP. Account/contract prices, stock, shipping and taxes may differ.",
+        "price_status": "manufacturer_published_price"
+      },
+      "previously_unpriced": false
+    }
+  ],
+  "online_offers": [
+    {
+      "offer_id": "SELL-THERMO261019-8E11345FB762EAC4",
+      "equipment_id": "EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank)",
+      "seller_name": "Thermo Fisher Scientific",
+      "price_value": "15930",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "condition": "new",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50157882",
+      "checked_date": "2026-10-19",
+      "scope": "Manufacturer online-exclusive offer for exact SKU 50157882. Exact Smart2PurePro16 UV/UF with30L tank bundle SKU50157882,16L/h, each. Official USD17700 list with separate USD15930 online-exclusive discount. Use17700 as list benchmark;15930 is dated online offer, not MSRP. No60L tank or UV-only variant substituted. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+      "evidence_id": "PRICE-EV-86D472ECB5B04EA9",
+      "source_sku": "50157882"
+    },
+    {
+      "offer_id": "SELL-THERMO261019-B467364CA1E43B25",
+      "equipment_id": "M19-03",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Thermo Scientific Thermolyne FB1315M",
+      "seller_name": "Thermo Fisher Scientific",
+      "price_value": "1881",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "condition": "new",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/FB1315M",
+      "checked_date": "2026-10-19",
+      "scope": "Manufacturer online-exclusive offer for exact SKU FB1315M. Thermolyne small benchtop muffle furnace FB1315M,1.3L,120V,CSA approved, each. Official USD2090 list, with separate USD1881 online-exclusive discount at check date. Use2090 as list benchmark;1881 is an online offer, not MSRP. Optional accessories and other voltage variants excluded. Current discounted offer is separate from the official list benchmark. Account prices, stock, shipping and taxes may differ.",
+      "evidence_id": "PRICE-EV-1B80523E7E858808",
+      "source_sku": "FB1315M"
+    }
+  ],
+  "component_offers": [
+    {
+      "offer_id": "PACK-THERMO261019-5E53FEE2F37437BA",
+      "component_id": "titanium-isopropoxide-999",
+      "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "035794.06",
+      "grade": "99.995% (metals basis)",
+      "form": "neat liquid sold by mass",
+      "pack_quantity": "5",
+      "pack_unit": "g",
+      "price_value": "54.7",
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/035794.06",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "cas_number": "546-68-9",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-90AF2ABB3E112585",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "dc0a89995a4bc8ad8e759be8b5d7ace94a587707ea16e009e5f53fcd69908eb1",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-F4360C850AF82B61",
+      "component_id": "titanium-isopropoxide-999",
+      "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "035794.14",
+      "grade": "99.995% (metals basis)",
+      "form": "neat liquid sold by mass",
+      "pack_quantity": "25",
+      "pack_unit": "g",
+      "price_value": "196.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/035794.14",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "cas_number": "546-68-9",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-5FA0E164CAC9C16E",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "391a276d8d38202f2a657a6726f8b5734fad5263ae6ec01660f3aa3cdd14d6ff",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-92877547811AD7C8",
+      "component_id": "titanium-isopropoxide-999",
+      "name": "Titanium(IV) isopropoxide, 99.995% (metals basis)",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "035794.22",
+      "grade": "99.995% (metals basis)",
+      "form": "neat liquid sold by mass",
+      "pack_quantity": "100",
+      "pack_unit": "g",
+      "price_value": "600.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/035794.22",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap.",
+      "cas_number": "546-68-9",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-1CC3A9B5A26E0877",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "5c50d6e9980d2aa981bc53244fdce2a6a64de47ac43ba03e9fe908121b39deab",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-D4CDB5CAC61BCEC8",
+      "component_id": "dmso",
+      "name": "Dimethyl sulfoxide, HPLC Grade, 99.9+%",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "022914.K2",
+      "grade": "HPLC Grade, 99.9+%",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "124.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/022914.K2",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "67-68-5",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-1DA13D3B246EECE5",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "bad68c6fc630a79942638d0ebb7e3c3492dd596abf987910fc4b06b0fc358fb7",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-571F5F042354531C",
+      "component_id": "acetonitrile-99",
+      "name": "Acetonitrile, 99.8%, for HPLC",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "268270010",
+      "grade": "99.8%, for HPLC",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "180.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/268270010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "75-05-8",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-2215FFD2CB00F1E3",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "7587d1e971be01ccf1b6a3a72fd10aaf9f64abb46afd0b0d75088fd0513c90a6",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-1481678FFDC5BE09",
+      "component_id": "acetonitrile-99",
+      "name": "Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph.",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "268260010",
+      "grade": "99.9%, for HPLC, far UV, conform Eur.Ph.",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "147.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/268260010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "75-05-8",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-7AA2DFEA39D65FF4",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "0cfaf7ebe5f33bc46fc63d45e06813a55c54adb3754dd43db098436007938125",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-BD27F86AFD06F121",
+      "component_id": "methanol",
+      "name": "Methanol, 99.8%, for HPLC",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "268280010",
+      "grade": "99.8%, for HPLC",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "66.7",
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/268280010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "67-56-1",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-57E18D04A607E716",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "f67ea0717e60a547b09bc0ea1f1f2445c4bb19e630cb6741ea3232fd4bffb306",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-5D575E6CB4920B94",
+      "component_id": "methanol",
+      "name": "Methanol, 99.9%, for HPLC gradient grade",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "325740010",
+      "grade": "99.9%, for HPLC gradient grade",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "74.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/325740010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "67-56-1",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-80B61DC213B7AF7E",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "114bc714d77f4cdccc9d94ae4155225f7ed91f7fd400b9ac821cc561ff005843",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-CFE288233C025EC0",
+      "component_id": "cyclohexane",
+      "name": "Cyclohexane, 99.8%, for HPLC",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "279590010",
+      "grade": "99.8%, for HPLC",
+      "form": "neat liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "119.0",
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/279590010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim.",
+      "cas_number": "110-82-7",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-C9C73AC336E73223",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "f170eb75ffce9f709619bd4d32fd90f15a3b2015260656ca7a942eb01dea923a",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-27952901F73A0006",
+      "component_id": "dichloromethane-99p8",
+      "name": "Dichloromethane, 99.8%, for HPLC, stabilized with methanol",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "364230010",
+      "grade": "99.8%, for HPLC, stabilized with methanol",
+      "form": "liquid stabilized with methanol",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "79.9",
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/364230010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+      "cas_number": "75-09-2",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-2F8EADA18BFA8153",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "139d1371608eb4870862f863dd6447b9f17f9271d038ac09a18c4716489a18f7",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-58BBE327DB77583C",
+      "component_id": "dichloromethane-99p8",
+      "name": "Dichloromethane, 99.8%, for HPLC, stabilized with amylene",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "268330010",
+      "grade": "99.8%, for HPLC, stabilized with amylene",
+      "form": "liquid stabilized with amylene",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "80.8",
+      "currency": "USD",
+      "price_kind": "published_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/268330010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged.",
+      "cas_number": "75-09-2",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-CF51576076196CD5",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "4caec781ab4fd1596058658aca92bde74877a225b2d53cd6ed338701f5ce591f",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    },
+    {
+      "offer_id": "PACK-THERMO261019-81BA828EC01AB307",
+      "component_id": "water",
+      "name": "Water, for HPLC gradient grade",
+      "seller": "Thermo Fisher Scientific",
+      "manufacturer": "Thermo Scientific Chemicals",
+      "sku": "268300010",
+      "grade": "for HPLC gradient grade",
+      "form": "liquid",
+      "pack_quantity": "1",
+      "pack_unit": "L",
+      "price_value": "57.65",
+      "currency": "USD",
+      "price_kind": "sale_price",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/268300010",
+      "checked_date": "2026-10-19",
+      "image_url": "",
+      "image_source_url": "",
+      "image_scope": "",
+      "condition": "new",
+      "notes": "Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. HPLC gradient-grade product is not documented here as 18.2 MOhm cm ultrapure, double-distilled or an on-site production cost.",
+      "cas_number": "7732-18-5",
+      "molar_mass_g_mol": "",
+      "molar_mass_source_url": "",
+      "evidence_id": "PRICE-EV-834FC9C245227F0C",
+      "recipe_eligible": false,
+      "purchase_available": true,
+      "source_price_kind": "published_promotional_price",
+      "verification": {
+        "status": 200,
+        "checked_date": "2026-10-19",
+        "method": "direct HTTP GET and rendered HTML text review",
+        "sha256": "48946d78ae9f19d53d33c01c212240e4b8c675ec00e48e8e5954568b9f5bcbdd",
+        "content_type": "text/html",
+        "country": "United States",
+        "currency_label": "Price (USD)",
+        "purchase_evidence": "Add to cart displayed in public page; no claim of physical stock or delivery date.",
+        "price_locator": "Selected catalog number, Price (USD), Quantity; not hidden price data"
+      },
+      "image_review": {
+        "status": "withheld",
+        "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
+      }
+    }
+  ],
+  "excluded_or_deferred": [
+    {
+      "equipment_id": "M19-10",
+      "model": "ThermolyneF48025",
+      "reason": "Current exact US SKU page has no product details or valid photo/price; F48025-60-80 is a separate controller SKU and not substituted. Official manuals confirm legacy F48025 identity."
+    },
+    {
+      "equipment_id": "M29-07",
+      "model": "Hamilton SafeAireII",
+      "reason": "No current direct Thermo catalog product photograph/current US price verified. Historic2009 Fisher institutional catalog quotes and third-party photos withheld; no common fume-hood substitute used."
+    },
+    {
+      "equipment_id": "M50-10",
+      "model": "LP VortexMixer",
+      "reason": "US direct88880017 and88880017TS pages are SKU-title stubs, with no image or current price. Official2017ELED PDF confirms photo and SKU but no stable current standalone manufacturer image discovered; no commodity vortex substitution."
+    },
+    {
+      "equipment_id": "M46-03",
+      "model": "GenPurexCADPlus",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/50136172",
+      "source_sku": "50136172",
+      "observed_usd_list": "17200",
+      "observed_usd_online": "15480",
+      "reason": "Specific UV/UF-TOC wall-dispenser SKU price withheld from generic family equipment record. Existing seller offer instead refers to UV/UF bench dispenser. Price could be used only after an exact variant record is created; image remains explicitly family representative."
+    },
+    {
+      "equipment_id": "M36-07",
+      "model": "NicoletSummit",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/us/en/912A0972",
+      "reason": "US selected PRO SKU912A0972 has RFQ only. No zero price; no inference of PRO price into generic family."
+    },
+    {
+      "equipment_id": "M18-03;M18-09",
+      "model": "VacuthermVT6025/6060",
+      "reason": "US exact SKU pages request quote. No price added; shared manufacturer family photo explicitly scoped."
+    },
+    {
+      "equipment_id": "M38-02;M40-09",
+      "model": "AxiaChemiSEM/DXR3",
+      "reason": "No published exact USD instrument price. Images only."
+    },
+    {
+      "equipment_id": "M13-02;M14-02;M14-08;M14-09;EXT-M70-APPLIED-A24811",
+      "model": "SorvallST8R,WX+series,SimpliAmp",
+      "reason": "Existing photos preserved. ST8R legacy75007203US page stub; WX80/90/100 andSimpliAmp directUS pages have RFQ/contact only. No zero-price quote adopted."
+    },
+    {
+      "scope": "Tool access",
+      "reason": "web.run open for explicitUS product URLs returns inaccessible, while ordinary unauthenticatedrequestsHTTP200 returns regionUS visible price text and matching embedded data. Research search fallback often auto-selects non-US region; all adopted prices sourced from explicitUS URLs andUSD suppliercountryus evidence."
+    },
+    {
+      "sku": "043480.30 /043480.A1",
+      "component_id": "graphite-flakes7-10um",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/043480.30",
+      "reason": "VisibleUS catalog price is dash/ContactUs. Fisher search result mentions$58.20 but opened page lacked price and directHTTP returned403; cached/index price not accepted."
+    },
+    {
+      "sku": "445720010 /445720025",
+      "component_id": "n-hexane-hplc97",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/445720010",
+      "reason": "VisibleUS97+%HPLC products display dash/ContactUs. The priced95%min product would not meet>97% source grade and is not substituted."
+    },
+    {
+      "sku": "044075.18",
+      "component_id": "silver-paste-unspecified",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/044075.18",
+      "reason": "US page visibly ContactUs/dash. Embedded JSON contains672USD but it is not publicly offered visible purchase price; deliberately withheld. Primarymedia is companylogo."
+    },
+    {
+      "sku": "302865000 /H325-500 /202465000",
+      "component_id": "hydrogen-peroxide",
+      "reason": "Firsttwo unavailable catalog placeholders; latter is35wt%stabilizedContactUs, distinct from30%source. Existing30%offers already present underaliases, no false newgap claimed."
+    },
+    {
+      "sku": "022902.K2",
+      "component_id": "xylene",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/022902.K2",
+      "reason": "Priced118USD/1Lo-xylene96%min isomer-specific product does not establish the source99.95%xylene requirement. Withheld rather than collapse isomer/purity."
+    },
+    {
+      "equipment_id": "UCLA-TF-CONTINUUM",
+      "reason": "Historical manufacturer brochure found, but no verified current standalone manufacturer image or current US quote adopted. PDF image binaries are not redistributed."
+    },
+    {
+      "equipment_id": "EXT-M95-005B352847BB;EXT-M98-8E4E40371455;EXT-M98-9E26C8607E9D",
+      "reason": "Model-matched official photos adopted. Contact/RFQ-only product pages do not establish a public USD price."
+    }
+  ],
+  "boundaries": {
+    "msrp_values_unchanged": true,
+    "existing_images_preserved": true,
+    "existing_quotes_preserved": true,
+    "formulation_eligibility_unchanged": true,
+    "purdue_designations_unchanged": true,
+    "private_inventory_seed_unchanged": true,
+    "raw_images_pdfs_and_supplier_pages_not_in_public_git": true,
+    "all_added_native_prices_usd": true,
+    "fx_update_required": false
+  },
+  "before_images": 706,
+  "after_images": 718,
+  "before_component_offers": 210,
+  "after_component_offers": 222,
+  "component_media_updates": [
+    {
+      "offer_id": "CMP-OFFER-A1D41E6D5819",
+      "component_id": "did-v22889",
+      "sku": "V22889",
+      "name": "Vybrant Multicolor Cell-Labeling Kit (DiO, DiI, DiD; 1mL each)",
+      "source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+      "image_url": "https://www.thermofisher.com/TFS-Assets/LSG/product-images/Bender%20Bag%20with%201%20blue%20%201%20red%201%20yellow%20Vial.jpg-650.jpg",
+      "image_source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+      "image_scope": "Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary.",
+      "checked_date": "2026-10-19",
+      "verification": {
+        "status": 200,
+        "content_type": "image/jpeg",
+        "sha256": "c099f6931f0828cd980895b3c3372627dc67f3a9999d390176c8293f03f0d1e9",
+        "checked_date": "2026-10-19",
+        "visually_inspected": true,
+        "visual_description": "Silver Invitrogen Thermo Fisher pouch with three clear small vials with blue, red and yellow caps.",
+        "match_scope": "exact_catalog_kit",
+        "source_http_status": 200,
+        "source_sha256": "c58d00ed3e8a0589f277d9278451202b3622b7c97961b8dc7029e45131dfddff"
+      },
+      "evidence_id": "IMG-EV-CBF6DB7A32CF11F7",
+      "before": {
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": ""
+      },
+      "after": {
+        "image_url": "https://www.thermofisher.com/TFS-Assets/LSG/product-images/Bender%20Bag%20with%201%20blue%20%201%20red%201%20yellow%20Vial.jpg-650.jpg",
+        "image_source_url": "https://www.thermofisher.com/order/catalog/product/V22889",
+        "image_scope": "Official manufacturer product-page photograph of the V22889 three-dye solution kit packaging and three vials. This is the whole DiO/DiI/DiD kit, not a photograph of neat DiD, an isolated1mL DiD purchase, or the final nanomaterial. Label/container appearance may vary."
+      }
+    }
+  ]
+}

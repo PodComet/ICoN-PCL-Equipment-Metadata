@@ -181,7 +181,7 @@ M18-09,M18,Thermo Scientific,Thermo Scientific Vacutherm VT 6060,new_seller_pric
 M18-10,M18,Yamato,Yamato DP63,new_seller_price,,,1,1,,,https://www.labcommerce.com/manufacturer_productdesc/catid/148/prodid/1645/
 M19-01,M19,Nabertherm,Nabertherm L 3/11,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
 M19-02,M19,Carbolite Gero,Carbolite Gero CWF 12/5,new_seller_price,,,1,1,,,https://certifiedmtp.com/carbolite-12-5-laboratory-chamber-furnace-5-liters/
-M19-03,M19,Thermo Scientific,Thermo Scientific Thermolyne FB1315M,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vThe.pdf
+M19-03,M19,Thermo Scientific,Thermo Scientific Thermolyne FB1315M,manufacturer_price,,2090,2,2,,,https://www.thermofisher.com/order/catalog/product/us/en/FB1315M;https://store.clarksonlab.com/Vendors/vThe.pdf
 M19-04,M19,Nabertherm,Nabertherm L 5/11,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
 M19-05,M19,Nabertherm,Nabertherm L 9/11,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
 M19-06,M19,Nabertherm,Nabertherm L 15/11,new_seller_price,,,1,1,,,https://store.clarksonlab.com/Vendors/vNabi.pdf
@@ -339,16 +339,16 @@ M34-07,M34,Anton Paar,Anton Paar Litesizer 500,no_purchase_price,,,0,0,,,
 M34-08,M34,Brookhaven,Brookhaven NanoBrook 90Plus PALS,no_purchase_price,,,0,0,,,
 M34-09,M34,Otsuka,Otsuka ELSZ-2000,no_purchase_price,,,0,0,,,
 M34-10,M34,HORIBA,HORIBA SZ-100,no_purchase_price,,,0,0,,,
-M35-01,M35,Agilent,Agilent Cary 3500 Multicell,no_purchase_price,,,0,0,,,
-M35-02,M35,Shimadzu,Shimadzu UV-1900i Plus,no_purchase_price,,,0,0,,,
-M35-03,M35,Thermo Scientific,Thermo Scientific Evolution One,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Fisher--Scientific/14385500/EA/
-M35-04,M35,Agilent,Agilent Cary 60,secondary_market_only,,,1,0,,,https://labrulez.com/en-us/all/marketplace/1109
-M35-05,M35,Agilent,Agilent Cary 100,no_purchase_price,,,0,0,,,
-M35-06,M35,Shimadzu,Shimadzu UV-2600i,no_purchase_price,,,0,0,,,
-M35-07,M35,Shimadzu,Shimadzu UV-2700i,no_purchase_price,,,0,0,,,
-M35-08,M35,Thermo Scientific,Thermo Scientific Evolution Pro,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Fisher--Scientific/14385507/EA/
-M35-09,M35,PerkinElmer,PerkinElmer LAMBDA 365,no_purchase_price,,,0,0,,,
-M35-10,M35,JASCO,JASCO V-730,no_purchase_price,,,0,0,,,
+M35-01,M35,Agilent,Agilent Cary 3500 Multicell,estimate_only,,,0,0,12240,12800,
+M35-02,M35,Shimadzu,Shimadzu UV-1900i Plus,estimate_only,,,0,0,12240,12800,
+M35-03,M35,Thermo Scientific,Thermo Scientific Evolution One,manufacturer_price,,10200,1,1,12240,12800,https://www.thermofisher.com/order/catalog/product/us/en/840-341400;https://www.govsci.com/product-detail/Fisher--Scientific/14385500/EA/
+M35-04,M35,Agilent,Agilent Cary 60,secondary_market_only,,,1,0,12240,12800,https://labrulez.com/en-us/all/marketplace/1109
+M35-05,M35,Agilent,Agilent Cary 100,estimate_only,,,0,0,12240,12800,
+M35-06,M35,Shimadzu,Shimadzu UV-2600i,estimate_only,,,0,0,12240,12800,
+M35-07,M35,Shimadzu,Shimadzu UV-2700i,estimate_only,,,0,0,12240,12800,
+M35-08,M35,Thermo Scientific,Thermo Scientific Evolution Pro,manufacturer_price,,16000,1,1,12240,12800,https://www.thermofisher.com/order/catalog/product/us/en/840-340200;https://www.govsci.com/product-detail/Fisher--Scientific/14385507/EA/
+M35-09,M35,PerkinElmer,PerkinElmer LAMBDA 365,estimate_only,,,0,0,12240,12800,
+M35-10,M35,JASCO,JASCO V-730,estimate_only,,,0,0,12240,12800,
 M36-01,M36,Bruker,Bruker ALPHA II,no_purchase_price,,,0,0,,,
 M36-02,M36,Thermo Scientific,Thermo Scientific Nicolet iS20,new_seller_price,,,1,1,,,https://www.govsci.com/product-detail/Thermo--Nicolet/912A1032/EA/
 M36-03,M36,PerkinElmer,PerkinElmer Spectrum Two,no_purchase_price,,,0,0,,,
@@ -702,7 +702,7 @@ EXP-20261016-M31-ACP-15-SD,M31,Pfeiffer,Pfeiffer ACP 15 SD,new_seller_price,,,1,
 EXP-20261016-M32-MCQ-20SLPM,M32,Alicat,Alicat MCQ-20SLPM,no_purchase_price,,,0,0,,,
 EXP-20261016-M33-DYNEO-DD-600F,M33,JULABO,JULABO DYNEO DD-600F,new_seller_price,,,1,1,,,https://new.marshallscientific.com/products/julabo-dyneo-dd-600f-refrigerated-circulator-115v-60hz-nrtl-certified
 EXP-20261016-M34-NANOTRAC-WAVE-II,M34,Microtrac,Microtrac NANOTRAC WAVE II,no_purchase_price,,,0,0,,,
-EXP-20261016-M35-V-750,M35,JASCO,JASCO V-750,no_purchase_price,,,0,0,,,
+EXP-20261016-M35-V-750,M35,JASCO,JASCO V-750,estimate_only,,,0,0,12240,12800,
 EXP-20261016-M36-FT-IR-4X,M36,JASCO,JASCO FT/IR-4X,no_purchase_price,,,0,0,,,
 EXP-20261016-M37-D6-PHASER,M37,Bruker,Bruker D6 PHASER,no_purchase_price,,,0,0,,,
 EXP-20261016-M38-JSM-IT710HR,M38,JEOL,JEOL JSM-IT710HR,no_purchase_price,,,0,0,,,
@@ -713,7 +713,7 @@ EXP-20261016-M42-DISCOVERY-SDT-650,M42,TA Instruments,TA Instruments Discovery S
 EXP-20261016-M43-LIPOSOFAST-BASIC,M43,Avestin,Avestin LiposoFast-Basic,no_purchase_price,,,0,0,,,
 EXP-20261016-M44-LBXD-MT,M44,Apex Instruments,Apex Instruments LBXD-MT,no_purchase_price,,,0,0,,,
 EXP-20261016-M45-AMBR-250-MODULAR,M45,Sartorius,Sartorius Ambr 250 Modular,no_purchase_price,,,0,0,,,
-EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK,M46,Thermo Scientific,Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank),no_purchase_price,,,0,0,,,
+EXP-20261016-M46-BARNSTEAD-SMART2PURE-PRO-16-UV-UF-30-L-TANK,M46,Thermo Scientific,Thermo Scientific Barnstead Smart2Pure Pro 16 UV/UF (30 L tank),manufacturer_price,,17700,1,1,,,https://www.thermofisher.com/order/catalog/product/us/en/50157882
 EXP-20261016-M47-PE-300,M47,Inovenso,Inovenso PE-300,no_purchase_price,,,0,0,,,
 EXP-20261016-M48-PLD-2000,M48,PVD Products,PVD Products PLD 2000,no_purchase_price,,,0,0,,,
 EXP-20261016-M49-CF090-316-SS,M49,Sterlitech,Sterlitech CF090 (316 SS),manufacturer_price,,3069.13,0,0,,,https://www.sterlitech.com/cf090-circular-cell-assembly-crossflow-316-ss
@@ -946,7 +946,7 @@ MIT-M38-DE0F8A3833E3,M38,ZEISS,ZEISS Sigma HD VP,no_purchase_price,,,0,0,,,
 MIT-M39-F89F847A8CA7,M39,Thermo Scientific,Thermo Scientific Themis Z G3,no_purchase_price,,,0,0,,,
 MIT-M39-B94DE9435CF9,M39,Thermo Scientific,Thermo Scientific Talos F200i,no_purchase_price,,,0,0,,,
 MIT-M38-C88DF3179A2F,M38,ZEISS,ZEISS MERLIN,no_purchase_price,,,0,0,,,
-MIT-M35-0093171348B8,M35,PerkinElmer,PerkinElmer LAMBDA 1050,no_purchase_price,,,0,0,,,
+MIT-M35-0093171348B8,M35,PerkinElmer,PerkinElmer LAMBDA 1050,estimate_only,,,0,0,12240,12800,
 MIT-M36-AC1DF8EBCAFC,M36,Thermo Scientific,Thermo Scientific Nicolet 6700,no_purchase_price,,,0,0,,,
 MIT-M40-A010885425DD,M40,WITec,WITec alpha300 apyron,no_purchase_price,,,0,0,,,
 MIT-M37-8C8A14C09F4B,M37,Bruker,Bruker D8 DISCOVER Plus,no_purchase_price,,,0,0,,,
@@ -1063,7 +1063,7 @@ EXT-M99-CBB2FB7AFBF3,M99,Bruker,SKYSCAN 2214 CMOS,no_purchase_price,,,0,0,,,
 EXT-M99-B100463FF732,M99,Rigaku,nano3DX,no_purchase_price,,,0,0,,,
 SW17-M20-6B499CD8273B,M20,Anhui Best Equipment Technology,BTF-1200C vacuum tube furnace,no_purchase_price,,,0,0,,,
 SW17-M07-7ABF5626313E,M07,TriContinent,C3000 syringe pump,no_purchase_price,,,0,0,,,
-SW17-M35-0B6C77913DB3,M35,Ocean Optics,Flame spectrometer (configuration unspecified),no_purchase_price,,,0,0,,,
+SW17-M35-0B6C77913DB3,M35,Ocean Optics,Flame spectrometer (configuration unspecified),estimate_only,,,0,0,12240,12800,
 SW17-M62-E6D064E3E567,M62,Research-built apparatus,Geneva-wheel nanomaterials discovery robot (Salley2020),no_purchase_price,,,0,0,,,
 SW17-M51-3688D8C50C4C,M51,TSI,Nano DMA3085 (legacy model),no_purchase_price,,,0,0,,,
 SW17-M41-94A591E05DF8,M41,JPK Instruments,NanoWizardII atomic force microscope,no_purchase_price,,,0,0,,,
@@ -1072,7 +1072,7 @@ LIT-M08-LIGNOS2020,M08,Research-built apparatus,Segmented-flow perovskite nanocr
 LIT-M86-LIGNOS2020,M86,Research-built apparatus,LabVIEW reactor control and optical-data acquisition (Lignos2020),no_purchase_price,,,0,0,,,
 SW17-M57-6B0FD590FB4E,M57,CH Instruments,CHI 660E,no_purchase_price,,,0,0,,,
 SW17-M36-5A4504DC1F3D,M36,Bruker,Tensor 27,secondary_market_only,,,1,0,,,https://www.amikon-shop.de/en/bruker-tensor-27-ft-ir-spectrometer/laboratikel/a-24509
-SW17-M35-85457B31402C,M35,PerkinElmer,Lambda 35,no_purchase_price,,,0,0,,,
+SW17-M35-85457B31402C,M35,PerkinElmer,Lambda 35,estimate_only,,,0,0,12240,12800,
 SW17-M38-F5D572DB906E,M38,Hitachi,S-4800,no_purchase_price,,,0,0,,,
 SW17-M95-7E008A08DA9B,M95,Physical Electronics,5600,no_purchase_price,,,0,0,,,
 SW17-M56-04FA1C7045AE,M56,Quantel,Brilliant B,no_purchase_price,,,0,0,,,
