@@ -1,0 +1,1416 @@
+{
+  "schema": "iconpcl-catalog-review/v1",
+  "checked_date": "2026-10-18",
+  "requested_catalog_url": "https://www.us-nano.com/",
+  "scope": "Focused curation of selected carbon, silica, graphite and boron-nitride product pages; not an exhaustive import of the supplier catalog. Pack options and surface treatments remain separate.",
+  "summary": {
+    "material_grade_form_identities_added": 17,
+    "pack_prices_added": 38,
+    "price_evidence_records_added": 38,
+    "priced_offers_with_verified_images": 31,
+    "instrument_prices_added": 0,
+    "instrument_models_added": 0,
+    "distinct_verified_image_urls": 11
+  },
+  "products": [
+    {
+      "research_id": "usnano-us1011-graphene-dry",
+      "component_id": "usnano-us1011-graphene-dry",
+      "name": "US Nano US1011 single-layer graphene, dry",
+      "sku": "US1011",
+      "grade": ">99.3%; 0.55–1.2 nm thick, 1–12 µm lateral size",
+      "form": "uncoated dry powder",
+      "routes": [
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $280)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 280.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/25852"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphene_new_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/25852",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-F21DD225199B00B7"
+      ]
+    },
+    {
+      "research_id": "usnano-us1022-go-dry",
+      "component_id": "usnano-us1022-go-dry",
+      "name": "US Nano US1022 graphene oxide, dry",
+      "sku": "US1022",
+      "grade": ">99.3%; 0.43–1.23 nm thick, 1.5–5.5 µm lateral size",
+      "form": "dry graphene oxide powder",
+      "routes": [
+        "P16",
+        "P20",
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Commercial GO option. Different manufacturer and dimensional range from study-synthesized Scaffaro GO. Not an eligible replacement for its literature lines or property/quantity models; collector solvent, dispersion and formulation need review.",
+      "packs": [
+        {
+          "pack_option_id": "31",
+          "visible_option_text": "0.5g (add $168)",
+          "pack_quantity": 0.5,
+          "pack_unit": "g",
+          "price_value": 168.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/25856"
+        },
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $288)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 288.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/25856"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphnen_oxide_2_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/25856",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-B15D37D9BAF12B0F",
+        "PACK-USNANO261018-4EDDC3D0513AAC87"
+      ]
+    },
+    {
+      "research_id": "usnano-us1059-gnp-dry",
+      "component_id": "usnano-us1059-gnp-dry",
+      "name": "US Nano US1059 graphene nanoplatelets, 99.5+%",
+      "sku": "US1059",
+      "grade": "99.5+%; 2–8 nm thickness, vendor reports 3–6 layers",
+      "form": "dry nanoplatelet powder",
+      "routes": [
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $129)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 129.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/3767"
+        },
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $268)",
+          "pack_quantity": 5.0,
+          "pack_unit": "g",
+          "price_value": 268.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/3767"
+        },
+        {
+          "pack_option_id": "5",
+          "visible_option_text": "25g (add $465)",
+          "pack_quantity": 25.0,
+          "pack_unit": "g",
+          "price_value": 465.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/3767"
+        }
+      ],
+      "image_url": "",
+      "source_url": "https://www.us-nano.com/inc/sdetail/3767",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-F47BFD0BD8BE2591",
+        "PACK-USNANO261018-BAC3543148C009D5",
+        "PACK-USNANO261018-4A26090A044DDD80"
+      ]
+    },
+    {
+      "research_id": "usnano-us1073-gnp-dry",
+      "component_id": "usnano-us1073-gnp-dry",
+      "name": "US Nano US1073 graphene nanoplatelets, 95+%",
+      "sku": "US1073",
+      "grade": "95+%; 2–8 nm thickness; 4–12 µm lateral size",
+      "form": "dry nanoplatelet powder",
+      "routes": [
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $85)",
+          "pack_quantity": 5.0,
+          "pack_unit": "g",
+          "price_value": 85.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/18480"
+        },
+        {
+          "pack_option_id": "5",
+          "visible_option_text": "25g (add $280)",
+          "pack_quantity": 25.0,
+          "pack_unit": "g",
+          "price_value": 280.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/18480"
+        },
+        {
+          "pack_option_id": "6",
+          "visible_option_text": "100g (add $680)",
+          "pack_quantity": 100.0,
+          "pack_unit": "g",
+          "price_value": 680.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/18480"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US1073_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/18480",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-E07DDAE1B2604C68",
+        "PACK-USNANO261018-2AB786A306A0A5B7",
+        "PACK-USNANO261018-2F942EB43109D629"
+      ]
+    },
+    {
+      "research_id": "usnano-us7905-graphene-water1pct",
+      "component_id": "usnano-us7905-graphene-water1pct",
+      "name": "US Nano US7905 graphene, 1 wt% aqueous dispersion",
+      "sku": "US7905",
+      "grade": "graphene >99.3%; dispersion 1 wt%",
+      "form": "aqueous dispersion with proprietary dispersant",
+      "routes": [
+        "P09",
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Priced volume is the complete 1 wt% dispersion, not dry graphene. Curated assembly/casting candidate; dispersant and polymer compatibility require review. No density or dry-mass conversion inferred.",
+      "packs": [
+        {
+          "pack_option_id": "8",
+          "visible_option_text": "30ml/30g (add $980)",
+          "pack_quantity": 30.0,
+          "pack_unit": "mL",
+          "price_value": 980.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/11386"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Single_-Layer_Graphene-new_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/11386",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-101A1F3126934CDF"
+      ]
+    },
+    {
+      "research_id": "usnano-us7906-go-water1pct",
+      "component_id": "usnano-us7906-go-water1pct",
+      "name": "US Nano US7906 graphene oxide, 1 wt% aqueous dispersion",
+      "sku": "US7906",
+      "grade": "GO >99.3%; 1.5–5.5 µm; 0.43–1.23 nm thick; dispersion 1 wt%",
+      "form": "aqueous dispersion",
+      "routes": [
+        "P09",
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Priced volume is complete 1 wt% aqueous dispersion, not dry GO or an ethanol collector solution. Curated assembly/casting candidate; no solvent substitution, density or dry-mass conversion inferred.",
+      "packs": [
+        {
+          "pack_option_id": "40",
+          "visible_option_text": "30g/30ml (add $980)",
+          "pack_quantity": 30.0,
+          "pack_unit": "mL",
+          "price_value": 980.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/3766"
+        },
+        {
+          "pack_option_id": "4308",
+          "visible_option_text": "100g/100ml (add $2800)",
+          "pack_quantity": 100.0,
+          "pack_unit": "mL",
+          "price_value": 2800.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/3766"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphene_Oxide_-USnano_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/3766",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-12D012C41B6E9844",
+        "PACK-USNANO261018-69EA3ED20CED60B1"
+      ]
+    },
+    {
+      "research_id": "usnano-us4300-mwcnt-dry",
+      "component_id": "usnano-us4300-mwcnt-dry",
+      "name": "US Nano US4300 MWCNTs, dry, OD <7 nm",
+      "sku": "US4300",
+      "grade": "CNT >95 wt%, carbon >97 wt%; OD <7 nm; length 10–30 µm",
+      "form": "unfunctionalized dry MWCNT powder",
+      "routes": [
+        "P29",
+        "P37"
+      ],
+      "role": "nanofiller",
+      "scope": "Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation.",
+      "packs": [
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $39)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 39.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/215"
+        },
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $65)",
+          "pack_quantity": 5.0,
+          "pack_unit": "g",
+          "price_value": 65.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/215"
+        },
+        {
+          "pack_option_id": "5",
+          "visible_option_text": "25g (add $108)",
+          "pack_quantity": 25.0,
+          "pack_unit": "g",
+          "price_value": 108.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/215"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/215",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-8B14B431BDADCB90",
+        "PACK-USNANO261018-07DD7FA3307A5A13",
+        "PACK-USNANO261018-0C365BC9DB5D25F0"
+      ]
+    },
+    {
+      "research_id": "usnano-us4301-mwcnt-oh",
+      "component_id": "usnano-us4301-mwcnt-oh",
+      "name": "US Nano US4301 OH-functionalized MWCNTs",
+      "sku": "US4301",
+      "grade": "CNT >95 wt%; OH 5.58 wt%; OD <7 nm; length 10–30 µm",
+      "form": "OH-functionalized dry MWCNT powder",
+      "routes": [
+        "P29",
+        "P37"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $55)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 55.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/216"
+        },
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $96)",
+          "pack_quantity": 5.0,
+          "pack_unit": "g",
+          "price_value": 96.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/216"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2_1__i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/216",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-1EA973EA09B1EA7E",
+        "PACK-USNANO261018-B16AFA8E9B12DE34"
+      ]
+    },
+    {
+      "research_id": "usnano-us4302-mwcnt-cooh",
+      "component_id": "usnano-us4302-mwcnt-cooh",
+      "name": "US Nano US4302 COOH-functionalized MWCNTs",
+      "sku": "US4302",
+      "grade": "CNT >95 wt%; COOH 3.86 wt%; OD <7 nm; length 10–30 µm",
+      "form": "COOH-functionalized dry MWCNT powder",
+      "routes": [
+        "P29",
+        "P37"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $55)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 55.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/217"
+        },
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $96)",
+          "pack_quantity": 5.0,
+          "pack_unit": "g",
+          "price_value": 96.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/217"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2_1__i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/217",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-B41F2B91F17720C1",
+        "PACK-USNANO261018-2648A6AE1D0426F5"
+      ]
+    },
+    {
+      "research_id": "usnano-us4101-swcnt-dry",
+      "component_id": "usnano-us4101-swcnt-dry",
+      "name": "US Nano US4101 SWCNTs, dry",
+      "sku": "US4101",
+      "grade": "SWCNT >95 wt%; OD 1–2 nm; length 15–50 µm",
+      "form": "uncoated dry SWCNT powder",
+      "routes": [
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output.",
+      "packs": [
+        {
+          "pack_option_id": "711",
+          "visible_option_text": "0.25g (add $75)",
+          "pack_quantity": 0.25,
+          "pack_unit": "g",
+          "price_value": 75.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/378"
+        },
+        {
+          "pack_option_id": "31",
+          "visible_option_text": "0.5g (add $125)",
+          "pack_quantity": 0.5,
+          "pack_unit": "g",
+          "price_value": 125.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/378"
+        },
+        {
+          "pack_option_id": "14",
+          "visible_option_text": "1g (add $208)",
+          "pack_quantity": 1.0,
+          "pack_unit": "g",
+          "price_value": 208.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/378"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4101TEM_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/378",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-1BE1F1989D0C7BF0",
+        "PACK-USNANO261018-2EAF8525ADDCF2B9",
+        "PACK-USNANO261018-155A730A97C2D28A"
+      ]
+    },
+    {
+      "research_id": "usnano-us4300-mwcnt-water3pct",
+      "component_id": "usnano-us4300-mwcnt-water3pct",
+      "name": "US Nano US4300 MWCNTs, 3 wt% aqueous dispersion",
+      "sku": "US4300",
+      "grade": "CNT >95 wt%; OD <7 nm; dispersion 3 wt%",
+      "form": "3 wt% aqueous dispersion",
+      "routes": [
+        "P09",
+        "P29"
+      ],
+      "role": "nanofiller",
+      "scope": "Distinct dispersion option from the same product selector. Volume is the whole dispersion; dry CNT mass is not inferred. No equivalence to dry Nanocyl NC7000 or solvent-based source formulations.",
+      "packs": [
+        {
+          "pack_option_id": "3542",
+          "visible_option_text": "30ml - 3wt% dispersed in Water (add $120)",
+          "pack_quantity": 30.0,
+          "pack_unit": "mL",
+          "price_value": 120.0,
+          "currency": "USD",
+          "source_url": "https://www.us-nano.com/inc/sdetail/215"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2.jpg",
+      "source_url": "https://www.us-nano.com/inc/sdetail/215",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-FDE54B12276B37EC"
+      ]
+    },
+    {
+      "research_id": "US1133M-SIO2-50NM",
+      "component_id": "usnano-us1133m-silica50nm",
+      "name": "US Nano US1133M Silicon dioxide / silica powder, 50 nm",
+      "sku": "US1133M",
+      "grade": "99+% SiO2; product COA says >99%; APS 50 nm",
+      "form": "dry powder; white; amorphous (30–400 nm range)",
+      "routes": [
+        "P08",
+        "P29"
+      ],
+      "role": "feedstock",
+      "scope": "Matches the canonical dry SiO2 nanoparticle identity and 50 nm size. Source paper used Nanocym 50 nm silica; this is another manufacturer. Treat as a specification-level candidate, with source performance, pore distribution and surface chemistry not guaranteed. Do not replace with pre-coated silica or a dispersion.",
+      "packs": [
+        {
+          "pack_option_id": "3766",
+          "visible_option_text": "100g-50nm (add $68)",
+          "price_value": 68.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/23095",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "3767",
+          "visible_option_text": "1kg-50nm (add $168)",
+          "price_value": 168.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/23095",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 1,
+          "pack_unit": "kg"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/f/TEM/SiO2-_50nm.jpg",
+      "image_scope": "Supplier link explicitly captioned 50nm TEM; exact size variant microscopy, not a bottle or macroscopic powder photograph.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/23095",
+      "eligible_source_lines": [
+        "P08-LITERATURE-EXAMPLE-C01"
+      ],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-687320652FDF65B1",
+        "PACK-USNANO261018-83E6AF378EA1FA01"
+      ]
+    },
+    {
+      "research_id": "US1153M-BN-5UM-T300NM",
+      "component_id": "usnano-us1153m-bn300nm",
+      "name": "US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm",
+      "sku": "US1153M",
+      "grade": "99.8% BN; hexagonal; Diameter 3–8 µm; nominal 5 µm; thickness 300nm",
+      "form": "dry platelet powder",
+      "routes": [
+        "P31"
+      ],
+      "role": "feedstock",
+      "scope": "P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost.",
+      "packs": [
+        {
+          "pack_option_id": "3964",
+          "visible_option_text": "100g--thickness-300nm (add $98)",
+          "price_value": 98.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "3965",
+          "visible_option_text": "500g--thickness-300nm (add $298)",
+          "price_value": 298.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 500,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "3966",
+          "visible_option_text": "1kg--thickness-300nm (add $498)",
+          "price_value": 498.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 1,
+          "pack_unit": "kg"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/BN-5um_i2.jpg",
+      "image_scope": "Supplier primary image on the exact US1153M page; shared between 80nm and 300nm thickness options, so cannot identify a single selected thickness.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-D31B1573BC074A20",
+        "PACK-USNANO261018-C09D5CC0166DE995",
+        "PACK-USNANO261018-CBFD5F846198D7D0"
+      ]
+    },
+    {
+      "research_id": "US1153M-BN-5UM-T80NM",
+      "component_id": "usnano-us1153m-bn80nm",
+      "name": "US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm",
+      "sku": "US1153M",
+      "grade": "99.8% BN; hexagonal; Diameter 3–8 µm; nominal 5 µm; thickness 80nm",
+      "form": "dry platelet powder",
+      "routes": [
+        "P31"
+      ],
+      "role": "feedstock",
+      "scope": "P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost.",
+      "packs": [
+        {
+          "pack_option_id": "3958",
+          "visible_option_text": "100g--thickness-80nm (add $98)",
+          "price_value": 98.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "3959",
+          "visible_option_text": "500g--thickness-80nm (add $298)",
+          "price_value": 298.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 500,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "3960",
+          "visible_option_text": "1kg--thickness-80nm (add $498)",
+          "price_value": 498.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 1,
+          "pack_unit": "kg"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/BN-5um_i2.jpg",
+      "image_scope": "Supplier primary image on the exact US1153M page; shared between 80nm and 300nm thickness options, so cannot identify a single selected thickness.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-BA2D965DBC48B0FA",
+        "PACK-USNANO261018-967C96B712E2350A",
+        "PACK-USNANO261018-E197D0C4D9C5C809"
+      ]
+    },
+    {
+      "research_id": "US1011M-BN-800NM",
+      "component_id": "usnano-us1011m-bn800nm",
+      "name": "US Nano US1011M Boron nitride powder, 800 nm",
+      "sku": "US1011M",
+      "grade": "99.8% BN; hexagonal; Diameter 800 nm; thickness 30 nm",
+      "form": "dry nanoscale platelet powder",
+      "routes": [
+        "P31"
+      ],
+      "role": "feedstock",
+      "scope": "P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder.",
+      "packs": [
+        {
+          "pack_option_id": "4",
+          "visible_option_text": "5g (add $39)",
+          "price_value": 39.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/742",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 5,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "5",
+          "visible_option_text": "25g (add $75)",
+          "price_value": 75.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/742",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 25,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "6",
+          "visible_option_text": "100g (add $166)",
+          "price_value": 166.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/742",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        }
+      ],
+      "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US1011M-New_TEM_i2.jpg",
+      "image_scope": "Supplier primary image filename US1011M-New_TEM indicates microscopy. Verify visually; no claim of a packaging photograph.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/742",
+      "eligible_source_lines": [],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-AA9AF659C773BD85",
+        "PACK-USNANO261018-943315CCE85B0886",
+        "PACK-USNANO261018-1B67FC7BE71ED0F3"
+      ]
+    },
+    {
+      "research_id": "US1149M-NATURAL-FLAKY-10UM",
+      "component_id": "usnano-us1149m-natural-graphite10um",
+      "name": "US Nano US1149M Natural graphite flaky powder, 10 µm",
+      "sku": "US1149M",
+      "grade": "99.5% carbon; ash <0.5%; moisture <0.3%; 10 µm size grade; size-linked TEM, full size distribution not specified",
+      "form": "dry natural graphite, flaky morphology",
+      "routes": [
+        "P07",
+        "P34",
+        "P41"
+      ],
+      "role": "feedstock",
+      "scope": "Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 10µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite <20µm. A 10µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the <20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. A nominal 10µm grade and 99.5% total carbon do not prove either the full 7–10µm range or the same purity basis.",
+      "packs": [
+        {
+          "pack_option_id": "538",
+          "visible_option_text": "100g-10um Natural Graphite (add $95)",
+          "price_value": 95.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "539",
+          "visible_option_text": "1kg-10um Natural Graphite (add $575)",
+          "price_value": 575.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 1,
+          "pack_unit": "kg"
+        }
+      ],
+      "image_url": "https://n.b5z.net/i/u/10091461/f/TEM/10um.jpg",
+      "image_scope": "Supplier TEM link beside the natural flaky 10µm price; size-specific microscopy, not packaging or visible bulk powder.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+      "eligible_source_lines": [
+        "P34-SOURCE-01-C01"
+      ],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-72006205FFA80127",
+        "PACK-USNANO261018-553291A7160C508E"
+      ]
+    },
+    {
+      "research_id": "US1149M-NATURAL-FLAKY-5UM",
+      "component_id": "usnano-us1149m-natural-graphite5um",
+      "name": "US Nano US1149M Natural graphite flaky powder, 5 µm",
+      "sku": "US1149M",
+      "grade": "99.5% carbon; ash <0.5%; moisture <0.3%; 5 µm size grade; size-linked TEM, full size distribution not specified",
+      "form": "dry natural graphite, flaky morphology",
+      "routes": [
+        "P07",
+        "P34",
+        "P41"
+      ],
+      "role": "feedstock",
+      "scope": "Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 5µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite <20µm. A 5µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the <20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. This is 5µm and the supplier purity is total carbon, so not the required source grade.",
+      "packs": [
+        {
+          "pack_option_id": "536",
+          "visible_option_text": "100g-5um Natural Graphite (add $108)",
+          "price_value": 108.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 100,
+          "pack_unit": "g"
+        },
+        {
+          "pack_option_id": "537",
+          "visible_option_text": "1kg-5um Natural Graphite (add $625)",
+          "price_value": 625.0,
+          "currency": "USD",
+          "price_kind": "published_price",
+          "price_evidence": "Price is shown in the product description and the matching public selector option; option amount is not an inferred unit price.",
+          "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+          "checked_date": "2026-10-18",
+          "pack_quantity": 1,
+          "pack_unit": "kg"
+        }
+      ],
+      "image_url": "https://n.b5z.net/i/u/10091461/f/TEM/5um.jpg",
+      "image_scope": "Supplier TEM link beside the natural flaky 5µm price; size-specific microscopy, not packaging or visible bulk powder.",
+      "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+      "eligible_source_lines": [
+        "P34-SOURCE-01-C01"
+      ],
+      "adopted_offer_ids": [
+        "PACK-USNANO261018-BBD48CC7A49AF3FD",
+        "PACK-USNANO261018-C46C8CC96DFBF770"
+      ]
+    }
+  ],
+  "equipment_review": {
+    "schema_version": 1,
+    "review_date": "2026-10-18",
+    "research_scope": "Bounded official-site review for equipment product links, exact model prices in USD, and instrument photos matching existing equipment.csv records.",
+    "seller": {
+      "name": "US Research Nanomaterials, Inc.",
+      "website": "https://www.us-nano.com/"
+    },
+    "canonical_catalog": {
+      "path": "outputs/equipment-comparison-public/catalog/equipment.csv",
+      "row_count": 1079,
+      "category_id_count": 103,
+      "sha256_at_read": "b3163439580a729b79f496b8683f21b9f6c0cc043190e0b3b8e59db730f92a3c",
+      "existing_direct_usnano_manufacturer_model_or_source_matches": 0,
+      "read_only": true
+    },
+    "result": {
+      "status": "no_equipment_matches_found_in_bounded_review",
+      "public_instrument_catalog": "not_found_in_reviewed_navigation_and_searches",
+      "exact_model_match_count": 0,
+      "equipment_price_count": 0,
+      "equipment_image_count": 0,
+      "conclusion": "The reviewed public catalog pages sell nanomaterials, dispersions and dispersants. Instrument terms appear in processing advice and material applications. No equipment product page identified an exact manufacturer/model matching an existing catalog record.",
+      "limitation": "This is a bounded negative finding from public navigation, representative product pages and targeted site searches; it is not proof that the company never sells or can source instruments.",
+      "recommended_catalog_action": "Do not add equipment product links, prices, SKUs or photographs from this review. Retain existing equipment data. Do not use material prices as instrument prices or method references as model verification."
+    },
+    "equipment_matches": [],
+    "equipment_price_observations": [],
+    "equipment_photo_observations": [],
+    "generic_equipment_mentions": [
+      {
+        "source_id": "S5",
+        "mention": "Generic ultrasonic dispersion and grinding dispersion equipment; centrifugation is also described.",
+        "potential_catalog_categories": [
+          {
+            "category_id": "M09",
+            "category_name": "Probe ultrasonic processor"
+          },
+          {
+            "category_id": "M10",
+            "category_name": "Ultrasonic bath"
+          },
+          {
+            "category_id": "M12",
+            "category_name": "Planetary ball mill"
+          },
+          {
+            "category_id": "M13",
+            "category_name": "General-purpose centrifuges"
+          }
+        ],
+        "match_status": "category_analogy_only_not_model_evidence",
+        "reason_rejected": "No instrument manufacturer, model, SKU, configuration, equipment sale price or corresponding instrument photo is identified. The linked products are dispersants and dispersions."
+      },
+      {
+        "source_id": "S6",
+        "mention": "Generic ultrasonic treatment, high shear mixing instrument and ball mill treatment for dispersion.",
+        "potential_catalog_categories": [
+          {
+            "category_id": "M09",
+            "category_name": "Probe ultrasonic processor"
+          },
+          {
+            "category_id": "M10",
+            "category_name": "Ultrasonic bath"
+          },
+          {
+            "category_id": "M11",
+            "category_name": "Rotor-stator homogenizer"
+          },
+          {
+            "category_id": "M12",
+            "category_name": "Planetary ball mill"
+          }
+        ],
+        "match_status": "category_analogy_only_not_model_evidence",
+        "reason_rejected": "Processing advice names equipment types without product identities or sale offers."
+      }
+    ],
+    "rejected_non_equipment_offers": [
+      {
+        "source_id": "S7",
+        "product_page_url": "https://www.us-nano.com/inc/sdetail/9379",
+        "product_name": "Carbon Nanotube Dispersant / CNTs Water Dispersant",
+        "stock_number": "US4498",
+        "item_type": "chemical_dispersant",
+        "example_displayed_price": {
+          "value": 65,
+          "currency": "USD",
+          "pack": "15 ml",
+          "raw_price_text": "$65/15ml",
+          "checked_date": "2026-10-18",
+          "currency_basis": "Dollar price on U.S. seller catalog; USD inferred from seller context."
+        },
+        "condition": "Catalog chemical product; instrument condition is not applicable.",
+        "reason_rejected": "The price buys a dispersant volume. The page's equipment paragraph is general application advice, not an ultrasonic processor, mill or centrifuge listing.",
+        "equipment_image_url": null,
+        "image_scope": "No image accepted as a matching instrument photograph."
+      },
+      {
+        "source_id": "S8",
+        "product_page_url": "https://www.us-nano.com/inc/sdetail/243",
+        "product_name": "Magnesium Oxide Nanopowder / Nanoparticles (MgO, 99+%, 40 nm)",
+        "stock_number": "US3300",
+        "item_type": "nanomaterial_powder",
+        "example_displayed_price": {
+          "value": 35,
+          "currency": "USD",
+          "pack": "25 g uncoated powder",
+          "raw_price_text": "$35/25g",
+          "checked_date": "2026-10-18",
+          "currency_basis": "Dollar price on U.S. seller catalog; USD inferred from seller context."
+        },
+        "condition": "Catalog nanomaterial; instrument condition is not applicable.",
+        "reason_rejected": "The price buys MgO powder. Mentions of insulating instruments and furnaces are material applications, not instrument sale offers.",
+        "equipment_image_url": null,
+        "image_scope": "No image accepted as a matching instrument photograph."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S1",
+        "url": "https://www.us-nano.com/",
+        "page_type": "official_homepage_and_navigation",
+        "checked_date": "2026-10-18",
+        "finding": "Navigation is headed Nanomaterials Catalog and links carbon materials, nanopowders, dispersions and micron powders. No instrument catalog section was found in the reviewed navigation."
+      },
+      {
+        "id": "S2",
+        "url": "https://www.us-nano.com/nanotubes_graphene",
+        "page_type": "official_material_catalog",
+        "checked_date": "2026-10-18",
+        "finding": "Lists nanotubes, carbon nanofibers, graphene, films, papers, dispersions and dispersants. No exact instrument model offer was found."
+      },
+      {
+        "id": "S3",
+        "url": "https://www.us-nano.com/nanopowders",
+        "page_type": "official_material_catalog",
+        "checked_date": "2026-10-18",
+        "finding": "Catalog is organized by elements/alloys, single-element oxides, multi-element oxides and compounds."
+      },
+      {
+        "id": "S4",
+        "url": "https://www.us-nano.com/micron_powders",
+        "page_type": "official_material_catalog",
+        "checked_date": "2026-10-18",
+        "finding": "Reviewed micron-powder catalog; no matching instrument offer found."
+      },
+      {
+        "id": "S5",
+        "url": "https://www.us-nano.com/how_to_disperse_cnts",
+        "page_type": "official_method_advice",
+        "checked_date": "2026-10-18",
+        "finding": "Describes ultrasonic processing, centrifugation and generic dispersion equipment. The purchasable referenced SKUs US4496/US4497/US4498 are dispersants."
+      },
+      {
+        "id": "S6",
+        "url": "https://www.us-nano.com/nanoparticles___nanopowders_dispersion_methods",
+        "page_type": "official_method_advice",
+        "checked_date": "2026-10-18",
+        "finding": "References ultrasound, high shear mixing and ball milling without manufacturer or exact model identification."
+      },
+      {
+        "id": "S7",
+        "url": "https://www.us-nano.com/inc/sdetail/9379",
+        "page_type": "official_dispersant_offer",
+        "checked_date": "2026-10-18",
+        "finding": "US4498 chemical dispersant sold by volume; rejected for equipment pricing."
+      },
+      {
+        "id": "S8",
+        "url": "https://www.us-nano.com/inc/sdetail/243",
+        "page_type": "official_nanopowder_offer",
+        "checked_date": "2026-10-18",
+        "finding": "US3300 MgO powder sold by mass; rejected for equipment pricing."
+      },
+      {
+        "id": "S9",
+        "url": "https://www.us-nano.com/inc/sdetail/48896",
+        "page_type": "official_dispersant_offer",
+        "checked_date": "2026-10-18",
+        "finding": "Homepage dispersion-method link resolves to Nanoparticles Surfactants / Nanopowder Dispersants, rather than an instrument catalog."
+      }
+    ],
+    "site_search_queries": [
+      "site:us-nano.com equipment instrument",
+      "site:us-nano.com ball mill",
+      "site:us-nano.com ultrasonic price",
+      "site:us-nano.com centrifuge",
+      "site:us-nano.com equipment -filetype:pdf -SDS -MSDS -safety -glasses -personal",
+      "site:us-nano.com instrument -filetype:pdf -SDS -MSDS -safety",
+      "site:us-nano.com centrifuge model",
+      "site:us-nano.com services characterization",
+      "site:us-nano.com (sonicator OR Qsonica OR Hielscher OR RETSCH OR Eppendorf)",
+      "site:us-nano.com characterization price",
+      "site:us-nano.com equipment for sale",
+      "site:us-nano.com instrument catalog"
+    ],
+    "mutation_scope": "Only this research JSON was created. No app, catalog or Git mutation was performed. No Sites tools or browser tab mutation was used."
+  },
+  "source_grade_caveats": [
+    {
+      "formulation_id": "P31-SOURCE-01",
+      "source_url": "https://mail.nmlett.org/index.php/nml/article/download/1522/2643",
+      "locator": "S1 Main Raw Materials, PDF page 1",
+      "paraphrase": "Source BN is 5–10µm lateral particle size and 100–500nm thickness, supplied by Zhejiang Yamei Nano Technology. No investigated US-Nano grade exactly matches both ranges.",
+      "other_reported_source_grades": {
+        "sodium_sulfate": "99%",
+        "trifluoroacetic_acid": "99%",
+        "methanesulfonic_acid": "99%",
+        "sodium_hydroxide": "97%",
+        "potassium_hydroxide": "97%",
+        "sodium_nitrite": "99%",
+        "iron_powder": "99.5%",
+        "benzidine": "98%",
+        "hydrochloric_acid": "37%",
+        "methanol": "99.85%"
+      },
+      "integration_note": "Reported for parent review; stricter original source grades may affect existing canonical matches. No catalog mutation made by this research task."
+    },
+    {
+      "formulation_id": "P08-LITERATURE-EXAMPLE",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8620991/",
+      "locator": "2.1 Materials; 2.2 functionalization",
+      "paraphrase": "Source silica is 50nm SiO2 nanoparticles from Nanocym, and source amount is 600mg. Candidate US1133M is a different supplier with same stated chemistry/size; morphology, pore structure and source outcomes require scientific review."
+    }
+  ],
+  "image_review": {
+    "schema_version": 1,
+    "checked_date": "2026-10-18",
+    "selected_page_ids": [
+      "25852",
+      "25856",
+      "18480",
+      "11386",
+      "3766",
+      "215",
+      "216",
+      "217",
+      "378"
+    ],
+    "unique_asset_count": 8,
+    "assets": [
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphene_new_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 335,
+        "height_px": 293,
+        "bytes": 9406,
+        "sha256": "e47e5752f90c20a4233f25e555580cdb9e41fe306e39ff4225bc153565e198c2",
+        "source_pages": [
+          {
+            "page_id": "25852",
+            "url": "https://www.us-nano.com/inc/sdetail/25852",
+            "title": "Research Grade Single Layer Graphene Nanopowder with High Purity 99.3%",
+            "page_http_status": 200,
+            "stock_number": "US1011"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "SEM-style micrograph",
+        "modality_basis": "visual inference; acquisition modality not explicitly labeled in the image",
+        "visual_description": "Grayscale wrinkled or folded graphene sheets, with a 5 um scale bar and Single Layer Graphene caption.",
+        "image_scope": "shared_graphene_material_family_microscopy",
+        "visual_reuse_group": "graphene_single_layer",
+        "recommended_caption": "Supplier microscopy of single-layer graphene; shared underlying micrograph across dry powder and water-dispersion pages.",
+        "limitations": "Not a powder or liquid photograph. Visually repeats the underlying micrograph used on page 11386; does not establish supplied pack, coating, concentration, liquid form or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier microscopy of single-layer graphene; shared underlying micrograph across dry powder and water-dispersion pages. Not a powder or liquid photograph. Visually repeats the underlying micrograph used on page 11386; does not establish supplied pack, coating, concentration, liquid form or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphnen_oxide_2_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 329,
+        "height_px": 278,
+        "bytes": 7080,
+        "sha256": "a7d7f93991253f8cde4a910ea7c5b9149e6e69955f1d13a639aa6907952f512a",
+        "source_pages": [
+          {
+            "page_id": "25856",
+            "url": "https://www.us-nano.com/inc/sdetail/25856",
+            "title": "Research Grade Single Layer Graphene Oxide Nanopowder with High Purity 99.3%",
+            "page_http_status": 200,
+            "stock_number": "US1022"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM-style micrograph",
+        "modality_basis": "visual inference; acquisition modality not explicitly labeled in the image",
+        "visual_description": "Grayscale translucent graphene-oxide sheet with folds, a 2 um scale bar and supplier watermark.",
+        "image_scope": "shared_graphene_oxide_material_family_microscopy",
+        "visual_reuse_group": "graphene_oxide_single_layer",
+        "recommended_caption": "Supplier microscopy of graphene oxide; shared underlying micrograph across dry powder and water-dispersion pages.",
+        "limitations": "Not a powder or dispersion-bottle photograph. Visually repeats the underlying micrograph used on page 3766; does not establish concentration, liquid form, pack or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier microscopy of graphene oxide; shared underlying micrograph across dry powder and water-dispersion pages. Not a powder or dispersion-bottle photograph. Visually repeats the underlying micrograph used on page 3766; does not establish concentration, liquid form, pack or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US1073_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 300,
+        "height_px": 324,
+        "bytes": 17655,
+        "sha256": "1b7b8a0ea3ec6065f179a1fc6883532b04b1c45abc18a4e7608afea25cb13aa3",
+        "source_pages": [
+          {
+            "page_id": "18480",
+            "url": "https://www.us-nano.com/inc/sdetail/18480",
+            "title": "Graphene Nanoplatelets / Graphene NanoPowder (95+%, Thickness 2-8nm, 3-6 layers)",
+            "page_http_status": 200,
+            "stock_number": "US1073"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM-style micrograph",
+        "modality_basis": "visual inference; acquisition modality not explicitly labeled in the image",
+        "visual_description": "Grayscale overlapping thin flakes or platelets; embedded Stock# US1073 and supplier text. No readable scale bar is visible.",
+        "image_scope": "exact_product_page_material_microscopy",
+        "visual_reuse_group": "graphene_nanoplatelets_US1073",
+        "recommended_caption": "Supplier microscopy shown on the US1073 graphene nanoplatelets product page.",
+        "limitations": "The embedded US1073 label supports page/SKU association, but this is not a bulk powder or pack photo. Image alone does not verify layer count, purity, supplied mass or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier microscopy shown on the US1073 graphene nanoplatelets product page. The embedded US1073 label supports page/SKU association, but this is not a bulk powder or pack photo. Image alone does not verify layer count, purity, supplied mass or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Single_-Layer_Graphene-new_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 300,
+        "height_px": 314,
+        "bytes": 14201,
+        "sha256": "3a8f9c42c8f87b9ba6da62341a184fd545688128d0c85b3664f028119a249395",
+        "source_pages": [
+          {
+            "page_id": "11386",
+            "url": "https://www.us-nano.com/inc/sdetail/11386",
+            "title": "Research Grade Single Layer Graphene Nanoparticles 1wt% Water Dispersion",
+            "page_http_status": 200,
+            "stock_number": "US7905"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "SEM-style micrograph",
+        "modality_basis": "visual inference; acquisition modality not explicitly labeled in the image",
+        "visual_description": "Grayscale folded graphene sheets with a 5 um scale bar and Single Layer Graphene caption.",
+        "image_scope": "shared_graphene_material_family_microscopy",
+        "visual_reuse_group": "graphene_single_layer",
+        "recommended_caption": "Supplier microscopy of single-layer graphene; shared underlying micrograph across dry powder and water-dispersion pages.",
+        "limitations": "Not a photograph of the 1wt% water dispersion. Visually repeats the underlying micrograph used on page 25852 with a different crop/size; does not establish concentration, liquid form, pack or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier microscopy of single-layer graphene; shared underlying micrograph across dry powder and water-dispersion pages. Not a photograph of the 1wt% water dispersion. Visually repeats the underlying micrograph used on page 25852 with a different crop/size; does not establish concentration, liquid form, pack or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Graphene_Oxide_-USnano_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 301,
+        "height_px": 254,
+        "bytes": 10467,
+        "sha256": "067dfdc58a5aa2a817f52b88a58dfebac8ccb48c4c061d984debf540391c6f25",
+        "source_pages": [
+          {
+            "page_id": "3766",
+            "url": "https://www.us-nano.com/inc/sdetail/3766",
+            "title": "Research Grade Single Layer Graphene Oxide Water Dispersion (Thickness 0.43 - 1.23 nm, Diameter 1.5 - 5.5 um, Dispersed in water with 1wt%)",
+            "page_http_status": 200,
+            "stock_number": "US7906"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM-style micrograph",
+        "modality_basis": "visual inference; acquisition modality not explicitly labeled in the image",
+        "visual_description": "Grayscale translucent sheet and folded edges with a 2 um scale bar and supplier watermark.",
+        "image_scope": "shared_graphene_oxide_material_family_microscopy",
+        "visual_reuse_group": "graphene_oxide_single_layer",
+        "recommended_caption": "Supplier microscopy of graphene oxide; shared underlying micrograph across dry powder and water-dispersion pages.",
+        "limitations": "Not a photograph of the 1wt% water dispersion. Visually repeats the underlying micrograph used on page 25856 with different sizing/crop; does not establish concentration, liquid form, pack or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier microscopy of graphene oxide; shared underlying micrograph across dry powder and water-dispersion pages. Not a photograph of the 1wt% water dispersion. Visually repeats the underlying micrograph used on page 25856 with different sizing/crop; does not establish concentration, liquid form, pack or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 360,
+        "height_px": 243,
+        "bytes": 18317,
+        "sha256": "5ef631575ddfe5977980e09465a232a31e8afe6941471d02b67682797dbf840f",
+        "source_pages": [
+          {
+            "page_id": "215",
+            "url": "https://www.us-nano.com/inc/sdetail/215",
+            "title": "MWCNTs (>95%, OD: <7nm)",
+            "page_http_status": 200,
+            "stock_number": "US4300"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM-style micrograph",
+        "modality_basis": "visual inference from transmitted tubular network and 100 nm scale",
+        "visual_description": "Grayscale network of tubular structures with a blue 100 nm scale and supplier URL.",
+        "image_scope": "shared_MWCNT_family_microscopy",
+        "visual_reuse_group": "MWCNT_under7nm",
+        "recommended_caption": "Supplier MWCNT microscopy, reused across pristine and functionalized product pages; functionalization is not established by the image.",
+        "limitations": "The image field visibly matches the primary image used on pages 216 and 217 despite a different filename and small rendering differences. Do not claim exact OH/COOH treatment, purity, diameter distribution, supplied pack, form or batch from the image.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier MWCNT microscopy, reused across pristine and functionalized product pages; functionalization is not established by the image. The image field visibly matches the primary image used on pages 216 and 217 despite a different filename and small rendering differences. Do not claim exact OH/COOH treatment, purity, diameter distribution, supplied pack, form or batch from the image.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2_1__i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 360,
+        "height_px": 243,
+        "bytes": 18300,
+        "sha256": "22075e5a57755db016529e56f44955c2e6639b08a4e04bc659cebf1e82777c49",
+        "source_pages": [
+          {
+            "page_id": "216",
+            "url": "https://www.us-nano.com/inc/sdetail/216",
+            "title": "OH Functionalized MWCNTs (>95%, OD: <7 nm) ",
+            "page_http_status": 200,
+            "stock_number": "US4301"
+          },
+          {
+            "page_id": "217",
+            "url": "https://www.us-nano.com/inc/sdetail/217",
+            "title": "COOH Functionalized MWCNTs (>95%, OD: <7 nm) ",
+            "page_http_status": 200,
+            "stock_number": "US4302"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM-style micrograph",
+        "modality_basis": "visual inference from transmitted tubular network and 100 nm scale",
+        "visual_description": "Grayscale network of tubular structures with a blue 100 nm scale and supplier URL.",
+        "image_scope": "shared_functionalized_MWCNT_family_microscopy",
+        "visual_reuse_group": "MWCNT_under7nm",
+        "recommended_caption": "Shared supplier microscopy for OH- and COOH-functionalized MWCNT pages; the image does not distinguish functionalization.",
+        "limitations": "Pages 216 (US4301, OH) and 217 (US4302, COOH) use exactly the same image URL and downloaded bytes. The visual field also matches page 215 pristine MWCNT microscopy. Do not call this an exact functionalization or pack photograph.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Shared supplier microscopy for OH- and COOH-functionalized MWCNT pages; the image does not distinguish functionalization. Pages 216 (US4301, OH) and 217 (US4302, COOH) use exactly the same image URL and downloaded bytes. The visual field also matches page 215 pristine MWCNT microscopy. Do not call this an exact functionalization or pack photograph.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4101TEM_i2.jpg",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width_px": 360,
+        "height_px": 249,
+        "bytes": 16199,
+        "sha256": "a9a4eb731828c10e4da0a287cf25ee9d1d764aa3d3c5454cde1f67baec4da8b8",
+        "source_pages": [
+          {
+            "page_id": "378",
+            "url": "https://www.us-nano.com/inc/sdetail/378",
+            "title": "Research Grade Super High Purity SWCNTs | Single Walled Carbon Nanotube | SWCNTs Purity >95%, Ignited Temperature > 610 Degree | High Temperature Resistance",
+            "page_http_status": 200,
+            "stock_number": "US4101"
+          }
+        ],
+        "visual_review_status": "inspected_with_view_image",
+        "content_class": "electron_microscopy",
+        "microscopy_modality": "TEM micrograph",
+        "modality_basis": "visual appearance and official image filename containing TEM",
+        "visual_description": "High-magnification grayscale bundles or parallel nanotube structures with a 10 nm scale bar and supplier watermark.",
+        "image_scope": "exact_product_page_material_microscopy",
+        "visual_reuse_group": "SWCNT_US4101",
+        "recommended_caption": "Supplier TEM microscopy shown on the US4101 SWCNT product page.",
+        "limitations": "The official filename identifies US4101 and TEM. The image is not a bulk powder, coating or dispersion photograph and does not establish supplied pack, liquid concentration, functionalization or batch.",
+        "product_or_powder_photo": false,
+        "diagram": false,
+        "source_binding": "Exact image URL listed in the saved official product-page snapshot; content scope qualified separately.",
+        "scope": "Supplier TEM microscopy shown on the US4101 SWCNT product page. The official filename identifies US4101 and TEM. The image is not a bulk powder, coating or dispersion photograph and does not establish supplied pack, liquid concentration, functionalization or batch.",
+        "visually_verified": true
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US1133M_i2.jpg",
+        "source_url": "https://www.us-nano.com/inc/sdetail/23095",
+        "scope": "Supplier electron micrograph on the shared US1133M silica powder page, with a visible 1um scale bar. Shared across size variants; not a macroscopic powder or packaging photograph. Visual appearance is TEM; exact acquisition modality is not labeled in the image.",
+        "visually_verified": true,
+        "classification": "electron_micrograph_TEM_appearance",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width": 300,
+        "height": 301,
+        "sha256": "4d12b75ddb38b80f20df827f81c97f1c0d3c30b40643490c018a21f891310c3c",
+        "visual_observation": "Grey transmitted-contrast image of dense particle agglomerates, blue 1um scale bar at lower left. This primary image does not establish the selected50nm variant."
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/BN-5um_i2.jpg",
+        "source_url": "https://www.us-nano.com/inc/sdetail/34301",
+        "scope": "Supplier electron micrograph of BN platelets from the US1153M5um page, visible5um scale bar. Shared between80nm and300nm thickness variants; not a macroscopic powder or packaging photograph. Visual appearance is SEM.",
+        "visually_verified": true,
+        "classification": "electron_micrograph_SEM_appearance",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width": 320,
+        "height": 262,
+        "sha256": "ce88912865fcfc1eeb9123787d4c10b3d2ba30a25c04455d3040d091fb17cbd5",
+        "visual_observation": "Grey topographic image of overlapping flake/platelet particles, with white5um scale bar near lower center."
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/Flaky_Graphite_i2.jpg",
+        "source_url": "https://www.us-nano.com/inc/sdetail/34299",
+        "scope": "Supplier electron micrograph of flake-shaped graphite on the mixed US1149M page. Image label reads Flaky Shape Graphite. Shared page image cannot establish5um versus10um; not a bulk powder or packaging photograph. Visual appearance is TEM.",
+        "visually_verified": true,
+        "classification": "electron_micrograph_TEM_appearance",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width": 310,
+        "height": 317,
+        "sha256": "bd180e4f3c52124d89af33efeda76377bade1fe25c666f9a5040db7d29271d8d",
+        "visual_observation": "High-contrast translucent and opaque overlapping flakes on bright background, labeled Flaky Shape Graphite; no scale bar visible."
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US1011M-New_TEM_i2.jpg",
+        "source_url": "https://www.us-nano.com/inc/sdetail/742",
+        "scope": "Supplier electron micrograph labeled US1011M and800nm scale bar, from exact800nmBN product page. This is microscopy, not a bulk powder or packaging photograph. Visual topographic appearance is SEM although supplier filename contains New_TEM; acquisition modality therefore remains uncertain.",
+        "visually_verified": true,
+        "classification": "electron_micrograph_SEM_appearance",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width": 340,
+        "height": 354,
+        "sha256": "b8b0cd80ad9a60bc2b9d53974ce3789a7de78271c0acf2dee913e1dc62b47a3b",
+        "visual_observation": "Grey three-dimensional platelet agglomerates with800nm scale bar and www.us-nano.com / US1011M labeling."
+      },
+      {
+        "image_url": "https://www.us-nano.com/i/u/10091461/f/TEM/SiO2-_50nm.jpg",
+        "source_url": "https://www.us-nano.com/inc/sdetail/23095",
+        "scope": "Supplier50nm silica TEM linked explicitly beside the50nm specification on US1133M page; visible50nm scale bar and vendor watermark. Exact-size microscopy, not a bulk powder or packaging photograph.",
+        "visually_verified": true,
+        "classification": "TEM_micrograph",
+        "http_status": 200,
+        "content_type": "image/jpeg",
+        "width": 800,
+        "height": 800,
+        "sha256": "55bd0c3175427e1da521546c59f1dd188477ebd91b7b8eece9578b4e73267b42",
+        "visual_observation": "Grey transmitted-contrast nanoscale particle aggregates with visible50nm bar at lower left and www.us-nano.com watermark."
+      }
+    ],
+    "summary": "Nine selected product pages provide eight unique image URLs. All eight returned HTTP 200 and were visually inspected. Every asset is microscopy, not powder/product packaging photography or a diagram. Downloads are unmodified.",
+    "usage": "Suitable as supplier material-morphology illustrations with the recorded captions and scope. Do not imply that microscopy shows the exact purchased pack, batch, surface chemistry, coating or dispersion form.",
+    "shared_image_evidence": [
+      {
+        "page_ids": [
+          "216",
+          "217"
+        ],
+        "kind": "identical_source_url_and_bytes",
+        "image_url": "https://www.us-nano.com/i/u/10091461/i/ec/US4300-1_1_H0V0_i2_1__i2.jpg",
+        "scope": "Shared functionalized MWCNT microscopy; no exact OH versus COOH claim. Visually repeats the pristine MWCNT page 215 field."
+      },
+      {
+        "page_ids": [
+          "25852",
+          "11386"
+        ],
+        "kind": "visual_reuse_different_urls_and_dimensions",
+        "scope": "Shared single-layer graphene microscopy; dry powder versus water dispersion is not shown."
+      },
+      {
+        "page_ids": [
+          "25856",
+          "3766"
+        ],
+        "kind": "visual_reuse_different_urls_and_dimensions",
+        "scope": "Shared graphene oxide microscopy; dry powder versus water dispersion is not shown."
+      }
+    ],
+    "mutation_scope": "Only original image downloads and this assets.json in the research output folder were written. No image editing, canonical catalog/app edits, Git mutation, Sites tools or user browser-tab mutation."
+  },
+  "currency_basis": "US supplier dollar catalog, FOB Houston; interpreted USD, retained explicitly in evidence. No MSRP claim.",
+  "limits": [
+    "Commercial alternatives do not inherit article apparatus/material use or validated yield/property claims.",
+    "No dry-mass/volume conversion for dispersions without sourced density and composition.",
+    "All prices exclude freight, tax and fees. Product dimensions and compositions are supplier assertions, not batch certificates."
+  ]
+}

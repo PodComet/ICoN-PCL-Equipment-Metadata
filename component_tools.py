@@ -9,6 +9,7 @@ from urllib.parse import urlsplit
 FORMULATION_FIELDS = ['formulation_id','route_id','label','output_label','batch_basis','source_url','source_title','source_locator','reference_ids_json','scope','completeness']
 COMPONENT_FIELDS = ['formulation_id','line_id','component_id','name','role','source_role','amount','quantity_value','quantity_unit','concentration','scope','amount_status','cost_scope','eligible_offer_ids_json','offer_match_notes']
 OFFER_FIELDS = ['offer_id','component_id','name','seller','manufacturer','sku','grade','form','pack_quantity','pack_unit','price_value','currency','price_kind','source_url','checked_date','image_url','image_source_url','image_scope','condition','notes','cas_number','molar_mass_g_mol','molar_mass_source_url']
+MARKET_FIELDS = ['market_component_id','component_id','name','role','route_ids','cost_scope','eligible_offer_ids_json','source_url','source_title','scope','checked_date']
 ROLES = {'feedstock','target','precursor','polymer','nanofiller','substrate','solvent','reagent','dopant','ligand','gas','sample'}
 
 def read(root, name, fields=None):
@@ -34,6 +35,7 @@ def dataset(root):
     formulations=read(root,'component_formulations',FORMULATION_FIELDS)
     components=read(root,'formulation_components',COMPONENT_FIELDS)
     offers=read(root,'component_offers',OFFER_FIELDS)
+    market_rows=read(root,'market_components',MARKET_FIELDS)
     ids={f['formulation_id'] for f in formulations}
     if len(ids)!=len(formulations):raise ValueError('Duplicate formulation ID')
     routes={r['route_id'] for r in read(root,'routes') if r['route_id'].startswith('P')}
@@ -63,7 +65,7 @@ def dataset(root):
         formulation['reference_ids']=json.loads(formulation.pop('reference_ids_json'))
         if any(r not in known_refs for r in formulation['reference_ids']):raise ValueError('Unknown formulation academic reference')
         formulation['components']=[{k:v for k,v in c.items() if k!='formulation_id'} for c in components if c['formulation_id']==formulation['formulation_id']]
-        if not formulation['components'] and formulation['completeness']!='not_applicable':raise ValueError('Missing formulation inputs')
+        if not formulation['components'] and formulation['completeness'] not in {'not_applicable','recipe_not_reported'}:raise ValueError('Missing formulation inputs')
         if len(formulation['components'])>30:raise ValueError('Too many formulation inputs for saved plan')
     quantity_models=json.loads((Path(root)/'catalog/output_quantity_models.json').read_text(encoding='utf-8'))['models']
     all_lines={c['line_id']:c for c in components}
@@ -73,7 +75,21 @@ def dataset(root):
         url(model['source_url'])
         for term in model['terms']:
             if term['line_id'] not in all_lines or all_lines[term['line_id']]['formulation_id']!=model['formulation_id'] or not 0<float(term['factor'])<float('inf'):raise ValueError('Invalid output quantity term')
-    return {'checked_date':max((o['checked_date'] for o in offers),default='2026-10-17'),'formulations':formulations,'offers':offers,'output_quantity_models':quantity_models}
+    market_components=[]
+    for row in market_rows:
+        line_id=row['market_component_id']
+        route_ids=row['route_ids'].split(';')
+        eligible=json.loads(row['eligible_offer_ids_json'])
+        if not line_id.startswith('MARKET-') or line_id in seen:raise ValueError('Invalid or duplicate market component ID')
+        seen.add(line_id)
+        if not row['component_id'] or not row['name'] or len(row['name'])>180 or not set(route_ids)<=routes:raise ValueError('Invalid market material identity or process')
+        if row['role'] not in ROLES or row['cost_scope'] not in {'consumed','reusable','reference'}:raise ValueError('Invalid market material role or cost scope')
+        if not isinstance(eligible,list) or any(oid not in offer_ids for oid in eligible):raise ValueError('Unknown market offer')
+        if any(o['component_id']!=row['component_id'] for o in offers if o['offer_id'] in eligible):raise ValueError('Market offer identity mismatch')
+        if not row['scope'] or not row['source_title']:raise ValueError('Market relevance requires source and scope')
+        url(row['source_url']);date.fromisoformat(row['checked_date'])
+        market_components.append({'line_id':line_id,'component_id':row['component_id'],'name':row['name'],'role':row['role'],'source_role':'Curated material option; not a literature formulation','amount':'','quantity_value':None,'quantity_unit':'','concentration':'','scope':row['scope'],'amount_status':'not_reported','cost_scope':row['cost_scope'],'eligible_offer_ids':eligible,'offer_match_notes':'Exact commercial identity only. Process relevance is a planning association, not validated substitution or a recommended dose.','route_ids':route_ids,'source_url':row['source_url'],'source_title':row['source_title'],'checked_date':row['checked_date']})
+    return {'checked_date':max((o['checked_date'] for o in offers),default='2026-10-17'),'formulations':formulations,'offers':offers,'market_components':market_components,'output_quantity_models':quantity_models}
 
 def build(root):
     data=dataset(root)

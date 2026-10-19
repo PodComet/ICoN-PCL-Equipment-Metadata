@@ -23,7 +23,7 @@ def test_eleven_new_classes_have_distinct_models_and_evidence_without_fabricated
         assert not r['msrp_value'] and not r['source_pdf'] and not r['source_record_id']
         if r['image_url']:assert r['image_source_url'] and r['image_scope']
     assert all(not r['manufacturer_price_value'] for r in new if r['model_name']=='Photonic Professional GT2')
-    assert inspect_catalog()['active_m_categories']==97
+    assert inspect_catalog()['active_m_categories']==106
 
 def test_purdue_exact_identity_and_brand_evidence_are_reviewed():
     report=review();designated=[r for r in load_csv(ROOT/'catalog/equipment.csv') if r['purdue_list']=='true']
@@ -46,7 +46,7 @@ def test_new_stages_are_optional_curator_extensions_and_existing_source_actions_
         if link['category_id']=='M89':assert ['M89'] in req['required_branches']
         else:assert link['category_id'] in req['optional_category_ids']
     assert json.loads(steps['P06.3']['requirements_json'])['when_selected'][0]['required_branches']==[[]]
-    assert len([s for s in steps.values() if not s['extension_id'] and s['route_id'] not in {'P44','P45'}])==227
+    assert len([s for s in steps.values() if not s['extension_id'] and s['route_id'] not in {'P44','P45','P46','P47'}])==227
 
 def test_successor_badges_have_complete_exact_model_relationships():
     report=review();ids={r['equipment_id'] for r in report['models']};reviews=[r for r in load_csv(ROOT/'catalog/model_lifecycle.csv') if r['equipment_id'] in ids]

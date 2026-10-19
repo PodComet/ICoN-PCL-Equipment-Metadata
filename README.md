@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [US Nano and UCLA INML ingestion](docs/usnano-ucla-ingestion-2026-10-18.md) adds 38 supplier pack prices across 17 material grades/forms, 15 scoped UCLA source/substrate/cryogen options, 14 equipment/configuration records, nine M classes (M100–M108) and two capability-derived MBE routes (P46–P47). Commercial alternatives remain separate from article formulations; reference microscopy and installed-setup images retain their scope. New MBE slots enforce nitride versus arsenide/antimonide configuration.
+
 The [United Scientific catalog review](docs/united-catalog-review-2026-10-18.md) screens both 2026 catalogs (1,168 PDF pages) and adds three USD dealer offers and one verified photo for the MSL3X1 72-slide pack compatible with P27's reusable substrate. No exact existing instrument models matched; the manufacturer catalogs omit retail prices.
 
 The [KEYENCE catalog review](docs/keyence-catalog-review-2026-10-18.md) adds the missing VR-6000 brochure link and a USD 11,550 **controller-only** distributor reference. The existing series photo was reverified. No complete-system price, MSRP or new photo is claimed; the catalog PDF requires KEYENCE sign-in.
@@ -12,7 +14,7 @@ The [metadata standards review](docs/metadata-standards.md) adds standard field 
 
 The **Research data / ELN** tab adds an openBIS-style Space / Project / Collection / Object / Data set workspace, instrument-export ingestion, private records and explicit sharing, revision history, qualified provenance and portable RO-Crate packages. See the [FAIR research-data guide](docs/FAIR_RESEARCH_DATA.md) and [machine-readable standards map](catalog/research_standards.json). This is a local ELN/LIMS foundation, not a connected openBIS server.
 
-**Current catalog snapshot (17 October 2026):** 1,079 model/category records, 922 equipment family cards, 97 active M classes plus six retained X classes, 44 P-class routes, 249 ordered steps and 76 academic references. Older dated review counts below describe their respective review snapshots.
+**Current catalog snapshot (18 October 2026):** 1,093 equipment/model/category records, 935 equipment family cards, 106 active M classes plus six retained X classes, 46 P-class routes, 263 ordered steps and 76 academic references. The latest facility-derived routes are capability plans, not checked experimental recipes. Older dated review counts below describe their respective review snapshots.
 
 The [functional process review](docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
 

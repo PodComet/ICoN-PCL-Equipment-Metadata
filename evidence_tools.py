@@ -38,7 +38,7 @@ def dataset(root):
                         for rid in filter(None,model['related_process_ids'].split(';')):
                             if rid in routes:related.append({'record_type':'process','record_id':rid,'label':routes[rid]['route_name']+' — model planning association'})
             records.append(dict(schema='iconpcl-evidence-record/v1',evidence_id=e['id'],record_kind='source_claim',classification=e['classification'],title=e['claim'],claim=e['claim'],scope='Model-bound control documentation; not a validation of a user sequence.',recorded_at=e['source']['accessed'],sources=[{'title':e['source']['title'],'url':e['source']['url'] or '', 'locator':e['source']['section'],'checked_date':e['source']['accessed']}],related_records=related,source_evidence_ids=[],supersedes_id='',context={'subject':group['subject'],'verification':e['verification']}))
-    for name in ['instrument_photo_evidence.json','purchase_price_evidence.json']:
+    for name in ['instrument_photo_evidence.json','purchase_price_evidence.json','catalog_source_evidence.json']:
         source_register=root/'catalog'/name
         if source_register.exists():
             records.extend(json.loads(source_register.read_text(encoding='utf-8'))['records'])

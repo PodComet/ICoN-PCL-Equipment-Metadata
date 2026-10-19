@@ -74,6 +74,18 @@ def main():
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     positions = json.loads((ROOT / "catalog/position_interfaces.json").read_text(encoding="utf-8"))
     (ROOT / "webapp/app/data/positions.json").write_text(json.dumps(positions, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    position_index = read_csv('equipment_position_lists')
+    position_fields = list(position_index[0])
+    by_equipment = {row['equipment_id']: row for row in position_index}
+    for record in data['records']:
+        if record['equipment_id'] not in by_equipment:
+            row = {field: '' for field in position_fields}
+            row.update(equipment_id=record['equipment_id'], manufacturer=record['manufacturer'], model_name=record['model_name'],
+                       interface_name='p_'+record['equipment_id'], schema='poly-fibers/v2', review_status='not_started',
+                       position_count='0', notes='Empty model-bound template; positions, fibers and directions require exact-model manual evidence.')
+            position_index.append(row)
+    with (ROOT/'catalog/equipment_position_lists.csv').open('w', encoding='utf-8', newline='') as handle:
+        writer=csv.DictWriter(handle,fieldnames=position_fields);writer.writeheader();writer.writerows(position_index)
     profiles = read_csv('process_material_profiles')
     examples = read_csv('process_material_examples')
     for row in profiles:

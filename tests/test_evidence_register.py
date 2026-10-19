@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_public_register_resolves_scientific_and_manual_claims_with_related_context():
     data=dataset(ROOT);records={r['evidence_id']:r for r in data['records']}
-    assert len([r for r in records.values() if r['classification'] not in {'curator_reviewed_media','curator_reviewed_price'}])==331
+    assert len([r for r in records.values() if r['classification'] not in {'curator_reviewed_media','curator_reviewed_price','curator_reviewed_catalog'}])==331
     r=records['EV-P27-F76AC76B7316008E']
     assert r['sources'][0]['locator']=='Materials and methods: Microfluidic-assisted nanoparticle formulation'
     assert any(x['record_type']=='process' and x['record_id']=='P27' for x in r['related_records'])

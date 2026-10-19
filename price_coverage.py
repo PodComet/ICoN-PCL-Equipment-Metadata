@@ -28,5 +28,7 @@ def build(root,records):
     write_csv(root/'catalog/component_price_coverage.csv',components,list(components[0]))
     sources=json.loads((root/'catalog/pricing_sources_2026.json').read_text(encoding='utf-8'))
     sources['coverage']={'instrument_records':len(instruments),'instrument_statuses':dict(sorted(Counter(r['status'] for r in instruments).items())),'component_occurrences':len(components),'component_statuses':dict(sorted(Counter(r['status'] for r in components).items())),'component_pack_offers':len(data['offers'])}
+    sources['coverage']['market_material_options']=len(data['market_components'])
+    sources['coverage']['market_options_with_pack_quotes']=sum(bool(c['eligible_offer_ids']) for c in data['market_components'])
     (root/'webapp/app/data/pricing-sources.json').write_text(json.dumps(sources,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     return sources['coverage']

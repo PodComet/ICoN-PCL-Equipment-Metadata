@@ -17,7 +17,7 @@ test('literature processes open with ordered source stages, eligible apparatus a
   const candidates=routeCandidates(seed.records,route,null);
   assert.ok(candidates.length);
   if(rid!=='P23')assert.ok(candidates.some(r=>r.catalog_scope==='literature_reported'));
-  else assert.ok(candidates.every(r=>['M13','M02','M03'].includes(r.category_id)));
+  else assert.ok(candidates.every(r=>['M13','M02','M03','M101','M105','M106','M107'].includes(r.category_id)));
  }
  const gripper=seed.records.find(r=>r.equipment_id==='LIT-M62-YOO2023-RG2');
  assert.equal(priceSnapshot(gripper).kind,'unpriced');

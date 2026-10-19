@@ -170,24 +170,40 @@
       "path": "catalog/united_catalog_review_2026-10-18.json",
       "checked_date": "2026-10-18",
       "summary": "Screened both linked 2026 catalogs; added three USD dealer offers ($6.66, $7.00, $7.98) and one product photo for the MSL3X1 72-slide pack used as a P27 substrate. No exact existing instrument matches; catalogs omit retail prices."
+    },
+    {
+      "id": "USNANO-20261018",
+      "title": "US Nano material catalog review",
+      "path": "catalog/usnano_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Added 38 USD pack quotes across 17 material grades/forms, with scoped supplier reference microscopy. Separate market options preserve article-specific formulations and do not infer experimental doses. No instrument catalog matches."
+    },
+    {
+      "id": "UCLA-INML-20261018",
+      "title": "UCLA INML equipment and material gaps",
+      "path": "catalog/ucla_inml_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Added 14 equipment/configuration records, M100–M108, two capability-derived MBE routes P46/P47 and 15 source/substrate/cryogen contexts. Ten sourced equipment images; current prices and experimental recipes remain unreported."
     }
   ],
   "coverage": {
-    "instrument_records": 1079,
+    "instrument_records": 1093,
     "instrument_statuses": {
       "estimate_only": 29,
       "explicit_msrp": 1,
       "manufacturer_price": 161,
       "new_seller_price": 91,
-      "no_purchase_price": 745,
+      "no_purchase_price": 759,
       "secondary_market_only": 52
     },
     "component_occurrences": 260,
     "component_statuses": {
-      "compatible_pack_offer": 79,
-      "no_market_offer": 88,
-      "reference_offer_only": 93
+      "compatible_pack_offer": 81,
+      "no_market_offer": 87,
+      "reference_offer_only": 92
     },
-    "component_pack_offers": 160
+    "component_pack_offers": 198,
+    "market_material_options": 32,
+    "market_options_with_pack_quotes": 17
   }
 }

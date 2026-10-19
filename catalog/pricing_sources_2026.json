@@ -170,6 +170,20 @@
       "path": "catalog/united_catalog_review_2026-10-18.json",
       "checked_date": "2026-10-18",
       "summary": "Screened both linked 2026 catalogs; added three USD dealer offers ($6.66, $7.00, $7.98) and one product photo for the MSL3X1 72-slide pack used as a P27 substrate. No exact existing instrument matches; catalogs omit retail prices."
+    },
+    {
+      "id": "USNANO-20261018",
+      "title": "US Nano material catalog review",
+      "path": "catalog/usnano_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Added 38 USD pack quotes across 17 material grades/forms, with scoped supplier reference microscopy. Separate market options preserve article-specific formulations and do not infer experimental doses. No instrument catalog matches."
+    },
+    {
+      "id": "UCLA-INML-20261018",
+      "title": "UCLA INML equipment and material gaps",
+      "path": "catalog/ucla_inml_review_2026-10-18.json",
+      "checked_date": "2026-10-18",
+      "summary": "Added 14 equipment/configuration records, M100–M108, two capability-derived MBE routes P46/P47 and 15 source/substrate/cryogen contexts. Ten sourced equipment images; current prices and experimental recipes remain unreported."
     }
   ]
 }

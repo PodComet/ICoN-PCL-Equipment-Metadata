@@ -2,7 +2,7 @@ import type {JsonValue,ProcessWorkflow} from './process-lib.ts';
 
 export const MATERIAL_ROLES={feedstock:'Feedstock',target:'Deposition / ablation target',precursor:'Precursor',polymer:'Polymer / matrix',nanofiller:'Nanofiller',substrate:'Substrate',solvent:'Solvent / liquid phase',reagent:'Reagent',dopant:'Dopant',ligand:'Ligand / surface modifier',gas:'Gas',sample:'Sample'} as const;
 export type MaterialRole=keyof typeof MATERIAL_ROLES;
-export type MaterialSuggestion={name:string;role:MaterialRole};
+export type MaterialSuggestion={name:string;role:MaterialRole;component_id?:string;component_line_id?:string;offer_id?:string};
 export type StartingMaterial=MaterialSuggestion & {material_id:string;amount:string;component_id?:string;component_line_id?:string;offer_id?:string};
 export type MaterialPlan={schema:'process-materials/v1';route_id:string;inputs:StartingMaterial[];expected_output:string;example_id:string;formulation_id?:string};
 export type MaterialProfile={route_id:string;naming_mode:string;suggestions:MaterialSuggestion[];basis:string};

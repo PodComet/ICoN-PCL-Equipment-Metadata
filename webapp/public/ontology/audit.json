@@ -7,18 +7,18 @@
     "TF-IDF/cosine model-name review; no automatic merges or property-model training"
   ],
   "counts": {
-    "acyclic_source_sequences": 51,
-    "categories": 103,
+    "acyclic_source_sequences": 53,
+    "categories": 112,
     "conditions": 289,
-    "equipment_records": 1079,
-    "m_categories": 97,
+    "equipment_records": 1093,
+    "m_categories": 106,
     "model_name_review_pairs": 9,
     "numeric_conditions": 248,
-    "process_steps": 249,
-    "rdf_triples": 47924,
+    "process_steps": 263,
+    "rdf_triples": 48587,
     "recognized_cross_category_contexts": 8,
     "reported_properties": 32,
-    "routes": 54,
+    "routes": 56,
     "routes_without_source_sequence": 3,
     "source_evidence": 321,
     "unit_definitions_checked": 138,
@@ -26,10 +26,10 @@
     "x_categories": 6
   },
   "input_sha256_lf_normalized": {
-    "categories.csv": "d24521a8d2ce570d8c689fb037fea4f565ef445bd9713a19d980f3bf062fb24f",
-    "component_formulations.csv": "2f954410eaeae8e8e3e426c56868dfe5f690f21483bbc8c51e7fe1627d9bfdd3",
+    "categories.csv": "cc9934bdaa6d0d7ed7cb69bd72a3bf9565a27e80aa4f4cc9747103aba7631800",
+    "component_formulations.csv": "9e75b80b5836fa153bf13cde6e277a539a5a0aa4744585349e61ecb802b0b9f0",
     "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
-    "equipment.csv": "4d99d2597cfd02a36772011f3c2f98d5304ef99c2784172147fb612e26a843f3",
+    "equipment.csv": "95ffc7bca92da04aa58fef91c21ab9fef426dbe4aac8a7df668e502a1dee65ba",
     "metadata-profile.json": "aae671cd6a7fd1b48bd9e0fbdc7435bd1ea405c54c2b6d3f3b2b59d0a39f43fc",
     "model_identity_reviews.csv": "10781315fac733ac4e93886c86e844c4efac60428d9f7296265c43bf299b0a4c",
     "ontology/shapes.ttl": "8fa9e9f67dc3e7ab892615158bc39baac1bdc41560b51837a9c75758987bc5b7",
@@ -38,11 +38,11 @@
     "process_conditions.csv": "80cb82b090b2641b3344b69dcc84cfdf4389f3ce7cb93a0a3bfdfae02e176907",
     "process_property_anchors.csv": "f593da35a2de9052d7b070d25a963edc828d19ca2791de78bc2749787cb4ca02",
     "process_science_review_2026-10-17.json": "18d33cf1e4573a5d32f972390af3c6281f17f00377644f20b68cb6659be06b75",
-    "product_families.csv": "11cc349496fbbbae7ca6218cdfb72302a2e929560cb70c35a46550cd35a32d31",
+    "product_families.csv": "8ce1a61c1134e74ad7a81b11afe5067ddc0e4e2a41b66f79056e4035fe5c991b",
     "reference_links.csv": "82720bcd8ac6a293aa2e52c3b453716658d9e2eecd2cc4a7d793c99fa7b85b0f",
     "references.csv": "a7ea8a084858a73a23faf3996da50cef3d7a686d0183f8440dec6420197f8f37",
-    "route_steps.csv": "3870185245a6865c801c1e00aa76b0bc3b3c74ae6d8c529a90e5454da9d78261",
-    "routes.csv": "68c62c1ee024273f310decbcc4dbc97d00a4408206f5f166947e4bb3a1d157a2",
+    "route_steps.csv": "038a9b527c008419f8ead51005cf6d80dadd7a90dfae2ebc8a3cf8890d9abcfe",
+    "routes.csv": "0b351205c7a3164124e29d06a311fde8b11e9210b935403776510437cd786e9e",
     "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6"
   },
   "libraries": {
@@ -871,7 +871,7 @@
       "step_count": 4
     },
     {
-      "edge_count": 3,
+      "edge_count": 4,
       "levels": [
         [
           "P23:1"
@@ -884,11 +884,14 @@
         ],
         [
           "P23:4"
+        ],
+        [
+          "P23:4.5"
         ]
       ],
       "route_id": "P23",
       "status": "acyclic_source_order",
-      "step_count": 4
+      "step_count": 5
     },
     {
       "edge_count": 3,
@@ -1315,7 +1318,7 @@
       "step_count": 1
     },
     {
-      "edge_count": 4,
+      "edge_count": 5,
       "levels": [
         [
           "P44:1"
@@ -1331,11 +1334,14 @@
         ],
         [
           "P44:5"
+        ],
+        [
+          "P44:5.5"
         ]
       ],
       "route_id": "P44",
       "status": "acyclic_source_order",
-      "step_count": 5
+      "step_count": 6
     },
     {
       "edge_count": 6,
@@ -1365,6 +1371,50 @@
       "route_id": "P45",
       "status": "acyclic_source_order",
       "step_count": 7
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P46:1"
+        ],
+        [
+          "P46:2"
+        ],
+        [
+          "P46:3"
+        ],
+        [
+          "P46:4",
+          "P46:5",
+          "P46:6"
+        ]
+      ],
+      "route_id": "P46",
+      "status": "acyclic_source_order",
+      "step_count": 6
+    },
+    {
+      "edge_count": 5,
+      "levels": [
+        [
+          "P47:1"
+        ],
+        [
+          "P47:2"
+        ],
+        [
+          "P47:3"
+        ],
+        [
+          "P47:4",
+          "P47:5",
+          "P47:6"
+        ]
+      ],
+      "route_id": "P47",
+      "status": "acyclic_source_order",
+      "step_count": 6
     }
   ],
   "status": "passed"

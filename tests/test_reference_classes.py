@@ -10,7 +10,7 @@ def test_classes_are_reproducible_and_every_article_has_an_explicit_status():
     assert len({(r['reference_id'], r['class_id'], r['basis']) for r in rows}) == len(rows)
     assert all(r['source_link_ids'] and r['scope'] for r in rows)
     assert {d['class_type'] for d in definitions} == {'P', 'M', 'N'}
-    assert len([d for d in definitions if d['class_type'] == 'M']) == 97
+    assert len([d for d in definitions if d['class_type'] == 'M']) == 106
 
 
 def test_process_inference_is_scoped_and_never_promotes_exact_model_evidence():

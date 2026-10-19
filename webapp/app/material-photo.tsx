@@ -13,6 +13,6 @@ export default function MaterialPhoto({name,image,compact=false,reference=false,
  const Frame=compact?'span':'figure';
  return <Frame className={'material-photo '+(compact?'compact':'')+(reference?' reference':'')}>
   {show?(compact&&linked?<a href={safeUrl(chosen.source_url)} target="_blank" rel="noopener noreferrer" aria-label={name+' photo · '+chosen.author+' · '+chosen.license}>{picture}</a>:picture):<span className="material-photo-empty"><FlaskConical size={compact?17:24}/>{!compact&&<span>Photo not yet sourced</span>}</span>}
-  {show&&!compact&&<figcaption>{reference?credit:<details><summary>Photo &amp; credits</summary>{credit}</details>}</figcaption>}
+  {show&&!compact&&chosen.kind==='supplier_microscopy'&&<small>Supplier reference microscopy</small>}{show&&!compact&&<figcaption>{reference?credit:<details><summary>Photo &amp; credits</summary>{credit}</details>}</figcaption>}
  </Frame>;
 }

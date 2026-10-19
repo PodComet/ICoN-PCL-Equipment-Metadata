@@ -4,11 +4,12 @@ import {usdConversion} from './currency-lib.ts';
 export type FormulationComponent={line_id:string;component_id:string;name:string;role:MaterialRole;source_role:string;amount:string;quantity_value:number|null;quantity_unit:string;concentration:string;scope:string;amount_status:string;cost_scope:string;eligible_offer_ids:string[];offer_match_notes:string};
 export type ComponentFormulation={formulation_id:string;route_id:string;label:string;output_label:string;batch_basis:string;source_url:string;source_title:string;source_locator:string;reference_ids:string[];scope:string;completeness:string;components:FormulationComponent[]};
 export type ComponentOffer={offer_id:string;component_id:string;name:string;seller:string;manufacturer:string;sku:string;grade:string;form:string;pack_quantity:number|null;pack_unit:string;price_value:number;currency:string;price_kind:string;source_url:string;checked_date:string;image_url:string;image_source_url:string;image_scope:string;condition:string;notes:string;cas_number?:string;molar_mass_g_mol?:number;molar_mass_source_url?:string};
-export type ComponentData={checked_date:string;formulations:ComponentFormulation[];offers:ComponentOffer[];output_quantity_models?:import('./output-quantity-lib.ts').OutputQuantityModel[]};
+export type MarketComponent=FormulationComponent & {route_ids:string[];source_url:string;source_title:string;checked_date:string};
+export type ComponentData={checked_date:string;formulations:ComponentFormulation[];offers:ComponentOffer[];market_components?:MarketComponent[];output_quantity_models?:import('./output-quantity-lib.ts').OutputQuantityModel[]};
 const key=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
 export function formulationFor(plan:MaterialPlan,data:ComponentData){return data.formulations.find(f=>f.formulation_id===plan.formulation_id&&f.route_id===plan.route_id)||null;}
 export function componentFor(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){
- const formulation=formulationFor(plan,data),component=formulation?.components.find(c=>c.line_id===material.component_line_id);
+ const formulation=formulationFor(plan,data),component=formulation?.components.find(c=>c.line_id===material.component_line_id)||(data.market_components||[]).find(c=>c.line_id===material.component_line_id&&c.route_ids.includes(plan.route_id));
  return component&&component.component_id===material.component_id&&key(component.name)===key(material.name)&&component.role===material.role?component:null;
 }
 export function componentOffers(component:FormulationComponent|null,data:ComponentData){
@@ -35,8 +36,8 @@ export function materialCost(material:StartingMaterial,plan:MaterialPlan,data:Co
  const component=componentFor(material,plan,data),f=formulationFor(plan,data);
  const referenceOffers=componentOffers(component,data);
  const selected=referenceOffers.find(o=>o.offer_id===material.offer_id),offer=selected||referenceOffers.find(o=>component?.eligible_offer_ids.includes(o.offer_id))||referenceOffers[0]||null;
- const unknown=(reason:string)=>({material_id:material.material_id,name:material.name,amount:material.amount,status:'unpriced' as const,reason,cost_usd:null as number|null,offer,formulation_id:f?.formulation_id||'',component_line_id:component?.line_id||''});
- if(!component)return unknown('Choose a sourced formulation to establish product identity; custom inputs have no verified price match.');
+ const unknown=(reason:string)=>({material_id:material.material_id,name:material.name,amount:material.amount,status:'unpriced' as const,reason,cost_usd:null as number|null,offer,formulation_id:component?.line_id.startsWith('MARKET-')?'':f?.formulation_id||'',component_line_id:component?.line_id||''});
+ if(!component)return unknown('Choose a sourced formulation or reviewed market material to establish product identity; custom inputs have no verified price match.');
  if(component.cost_scope!=='consumed')return unknown(component.cost_scope==='stock_preparation'?'Stock preparation is shown for context; charge only its allocated consumed portion.':component.cost_scope==='reusable'?'Reusable target, substrate or media: consumption is not established.':'Reference / alternative material; not automatically charged.');
  if(!offer)return unknown('No public market price sourced.');
  if(!component.eligible_offer_ids.includes(offer.offer_id))return unknown('Reference offer only: grade, form, concentration or dimensions need matching.');
@@ -49,7 +50,7 @@ export function materialCost(material:StartingMaterial,plan:MaterialPlan,data:Co
  if(amount.dimension==='moles'&&pack?.dimension==='mass'&&offer.molar_mass_g_mol&&offer.molar_mass_source_url)amount={value:amount.value*offer.molar_mass_g_mol,dimension:'mass'};
  if(!pack||pack.value<=0||amount.dimension!==pack.dimension)return unknown('Selected amount cannot be compared with the priced pack.');
  if(!quote)return unknown('USD conversion unavailable.');
- return {material_id:material.material_id,name:material.name,amount:material.amount,status:'priced' as const,reason:'Estimated consumption cost prorated from the dated pack price.',cost_usd:quote.value*amount.value/pack.value,offer,formulation_id:f?.formulation_id||'',component_line_id:component.line_id,quantity:amount,pack_quantity:pack,conversion:quote};
+ return {material_id:material.material_id,name:material.name,amount:material.amount,status:'priced' as const,reason:component.line_id.startsWith('MARKET-')?'User-entered consumption prorated from the exact market pack. Process suitability and dose are not experimentally validated.':'Estimated consumption cost prorated from the dated pack price.',cost_usd:quote.value*amount.value/pack.value,offer,formulation_id:component.line_id.startsWith('MARKET-')?'':f?.formulation_id||'',component_line_id:component.line_id,quantity:amount,pack_quantity:pack,conversion:quote};
 }
 export function materialsBudget(plan:MaterialPlan,data:ComponentData){
  const lines=plan.inputs.filter(m=>m.name.trim()).map(m=>materialCost(m,plan,data));

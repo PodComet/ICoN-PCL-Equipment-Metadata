@@ -18,5 +18,5 @@ export function amountChoices(material:MaterialSuggestion,current=''){
  return [{value:'',label:'Amount not specified'},...(current&&!values.includes(current)?[{value:current,label:current+' (saved)'}]:[]),...values.map(value=>({value,label:value}))];
 }
 export function replaceMaterial(plan:MaterialPlan,id:string,next:MaterialSuggestion):MaterialPlan{
- return {...plan,example_id:'',expected_output:'',inputs:plan.inputs.map(m=>m.material_id===id?{...m,...next,amount:''}:m)};
+ return {...plan,example_id:'',expected_output:'',inputs:plan.inputs.map(m=>m.material_id===id?{...m,component_id:undefined,component_line_id:undefined,offer_id:undefined,...next,amount:''}:m)};
 }

@@ -8,9 +8,9 @@ from catalog_tools import ROOT, inspect_catalog, load_csv, render_views
 def test_catalog_integrity_and_relationships():
     summary = inspect_catalog()
     assert summary["core_examples"] == 590
-    assert summary["active_m_categories"] == 97
+    assert summary["active_m_categories"] == 106
     assert summary["source_m_categories"] == 59
-    assert summary["project_m_categories"] == 38
+    assert summary["project_m_categories"] == 47
     assert summary["material_families"] == 10
     assert summary["requested_occurrences"] == 44
     assert summary["highlighted_equipment_records"] == 44

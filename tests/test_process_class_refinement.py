@@ -3,7 +3,7 @@ from catalog_tools import ROOT, load_csv
 
 def test_functional_review_covers_all_stages_and_preserves_original_source_sequences():
     report=json.loads((ROOT/'catalog/process_class_refinement_2026-10-17.json').read_text(encoding='utf-8'))
-    steps={s['route_id']+'.'+s['step_order']:s for s in load_csv(ROOT/'catalog/route_steps.csv') if not s.get('extension_id') and s['route_id'] not in {'P44','P45'}}
+    steps={s['route_id']+'.'+s['step_order']:s for s in load_csv(ROOT/'catalog/route_steps.csv') if not s.get('extension_id') and s['route_id'] not in {'P44','P45','P46','P47'}}
     assert set(report['audited_step_ids'])==set(steps) and len(steps)==227
     assert report['summary']['reviewed_capability_stages']==2
     assert len(report['changes'])==8

@@ -19,6 +19,14 @@ export function marketPacks(data:ComponentData,routes:Record<string,string>[]):M
    if(!process){process={route_id:f.route_id,route_name:routes.find(r=>r.route_id===f.route_id)?.route_name||f.route_id,sources:[]};processes.push(process);}
    process.sources.push({formulation_id:f.formulation_id,label:f.label,source_url:f.source_url,scope:f.scope,roles:[...new Set(components.map(c=>c.role))]});
   }
+  for(const material of data.market_components||[]){
+   if(!component_ids.includes(material.component_id)&&!material.eligible_offer_ids.some(id=>offerIds.has(id)))continue;
+   for(const route_id of material.route_ids){
+    let process=processes.find(p=>p.route_id===route_id);
+    if(!process){process={route_id,route_name:routes.find(r=>r.route_id===route_id)?.route_name||route_id,sources:[]};processes.push(process);}
+    process.sources.push({formulation_id:material.line_id,label:'Market option · '+material.name,source_url:material.source_url,scope:material.scope,roles:[material.role]});
+   }
+  }
   processes.sort((a,b)=>a.route_id.localeCompare(b.route_id,undefined,{numeric:true}));
   return {offer,component_ids,processes};
  }).sort((a,b)=>a.offer.name.localeCompare(b.offer.name));

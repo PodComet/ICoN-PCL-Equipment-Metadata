@@ -15,7 +15,7 @@ test('the full audit covers every source action and all machine slots have curre
  const known=new Set(seed.categories.map(c=>c.category_id));let slots=0,actions=[];
  for(const route of seed.routes.filter(r=>r.route_kind==='manufacturing_process')){
   const w=normalize(create(route.route_id));
-  for(const step of w.steps){if(!step.slots.length)actions.push(route.route_id+'.'+step.source_step_order);for(const slot of step.slots){if(!['P44','P45'].includes(route.route_id))slots++;assert.ok(slot.allowed_category_ids.length);assert.ok(slot.allowed_category_ids.every(id=>/^M\d{2,3}$/.test(id)&&known.has(id)));}}
+  for(const step of w.steps){if(!step.slots.length)actions.push(route.route_id+'.'+step.source_step_order);for(const slot of step.slots){if(!['P44','P45','P46','P47'].includes(route.route_id)&&!String(step.extensions.source_extension_id||'').startsWith('UCLA-'))slots++;assert.ok(slot.allowed_category_ids.length);assert.ok(slot.allowed_category_ids.every(id=>/^M\d{2,3}$/.test(id)&&known.has(id)));}}
  }
  assert.equal(slots,audit.summary.classified_equipment_slots);assert.deepEqual(actions.sort(),audit.steps.filter(s=>!s.implementation_status.startsWith('implemented_')||s.implementation_status==='implemented_subtype_gap').map(s=>s.step_id).sort());assert.equal(actions.length,audit.summary.action_steps_without_separate_class);
  assert.ok(audit.proposals.every(p=>known.has(p.proposed_id)&&p.status==='implemented'));

@@ -139,7 +139,12 @@ def source_sequences(routes, steps):
                 raise ValueError('Extension must follow its anchor')
             if step['before_step_order'] and Decimal(step['before_step_order']) <= Decimal(step['step_order']):
                 raise ValueError('Extension must precede its successor')
-        workflow_steps = [{'step_id': s['route_id'] + ':' + s['step_order']} for s in ordered]
+        workflow_steps = []
+        for index, step in enumerate(ordered):
+            declaration=json.loads(step['requirements_json'] or '{}').get('prerequisite_source_step_orders')
+            previous=declaration if declaration is not None else ([ordered[index-1]['step_order']] if index else [])
+            if any(order not in by_order for order in previous):raise ValueError('Unknown declared prerequisite in '+route['route_id'])
+            workflow_steps.append({'step_id':step['route_id']+':'+step['step_order'],'extensions':{'prerequisite_step_ids':[step['route_id']+':'+order for order in previous]}})
         graph, levels = dependency_audit(workflow_steps)
         summaries.append({'route_id': route['route_id'], 'step_count': len(ordered),
                           'status': 'acyclic_source_order' if ordered else 'no_source_sequence',
@@ -255,8 +260,11 @@ def build_graph(root, science, records, categories, routes, steps, formulations,
                 graph.add((subject, VOCAB.sourceCandidateCategory, node('category', category_id)))
     for route_id, sequence in grouped.items():
         sequence.sort(key=lambda s: Decimal(s['step_order']))
-        for before, after in zip(sequence, sequence[1:]):
-            graph.add((node('step', route_id + ':' + after['step_order']), VOCAB.sourceOrderPredecessor, node('step', route_id + ':' + before['step_order'])))
+        for index, after in enumerate(sequence):
+            declaration=json.loads(after['requirements_json'] or '{}').get('prerequisite_source_step_orders')
+            previous=declaration if declaration is not None else ([sequence[index-1]['step_order']] if index else [])
+            for before in previous:
+                graph.add((node('step', route_id + ':' + after['step_order']), VOCAB.sourceOrderPredecessor, node('step', route_id + ':' + before)))
     for reference in references:
         subject = entity('reference', reference['reference_id'], 'AcademicReference', reference['title'])
         field(subject, 'publicationYear', reference['publication_year'])

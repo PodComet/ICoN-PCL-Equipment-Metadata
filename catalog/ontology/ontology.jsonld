@@ -256,6 +256,190 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0049CBFB6C6F%3AM101%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-0049CBFB6C6F:M101:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-0049CBFB6C6F"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical grating spectrometers for photoluminescence"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-85F516488A64"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P44; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0049CBFB6C6F%3AM105%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-0049CBFB6C6F:M105:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-0049CBFB6C6F"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lock-in amplifiers"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-85F516488A64"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P44; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0049CBFB6C6F%3AM106%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-0049CBFB6C6F:M106:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-0049CBFB6C6F"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Time-correlated single-photon counting electronics"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-85F516488A64"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P44; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0049CBFB6C6F%3AM107%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-0049CBFB6C6F:M107:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-0049CBFB6C6F"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical microscopy and spectroscopy cryostats"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-SW17-85F516488A64"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P44; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-0049CBFB6C6F%3AM27%3Achecked_claim",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -25741,6 +25925,190 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A18B8DB1ADFC%3AM101%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-A18B8DB1ADFC:M101:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-A18B8DB1ADFC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical grating spectrometers for photoluminescence"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-D4D5665BB9E567"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P23; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A18B8DB1ADFC%3AM105%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-A18B8DB1ADFC:M105:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-A18B8DB1ADFC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lock-in amplifiers"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-D4D5665BB9E567"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P23; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A18B8DB1ADFC%3AM106%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-A18B8DB1ADFC:M106:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-A18B8DB1ADFC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Time-correlated single-photon counting electronics"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-D4D5665BB9E567"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P23; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A18B8DB1ADFC%3AM107%3Aprocess_inferred",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "REF-A18B8DB1ADFC:M107:process_inferred"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference/REF-A18B8DB1ADFC"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical microscopy and spectroscopy cryostats"
+      }
+    ],
+    "http://www.w3.org/ns/prov#wasDerivedFrom": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/reference-link/LINK-D4D5665BB9E567"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationBasis": [
+      {
+        "@value": "process_inferred"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#classificationTarget": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inferredViaProcess": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Inferred from the current ontology for P23; not evidence that the paper used every listed class or an exact model."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/article-class/REF-A18B8DB1ADFC%3AM13%3Achecked_claim",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ArticleClassAssertion"
@@ -43459,6 +43827,22 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P23%3A4.5%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P23:4.5:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P24%3A1%3Abranch%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
@@ -45982,6 +46366,22 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P44%3A5.5%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P44:5.5:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P45%3A1%3Abranch%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
@@ -46186,6 +46586,258 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M13"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A1%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:1:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A1%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A2%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:2:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A2%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A3%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:3:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A3%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A4%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:4:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A5%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:5:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A6%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:6:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A1%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:1:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A1%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A2%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:2:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A2%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A3%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:3:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#hasRequirement": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A3%3Abranch%3A1%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A4%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:4:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A5%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:5:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A6%3Abranch%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#RequirementBranch"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:6:branch:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Required alternative 1"
       }
     ]
   },
@@ -46401,6 +47053,204 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Ultrasonic bath"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M100"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Molecular-beam epitaxy systems"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M101"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical grating spectrometers for photoluminescence"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M102",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M102"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Semiconductor electrical and optoelectronic probe stations"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M103",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M103"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Semiconductor parameter analyzers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M104",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M104"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Precision LCR and impedance meters"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M105"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Lock-in amplifiers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M106"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Time-correlated single-photon counting electronics"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M107"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optical microscopy and spectroscopy cryostats"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M108",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M108"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Infrared microscopy accessories and stations"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#inScheme": [
@@ -162456,6 +163306,1130 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-ACTON-SP2300",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-ACTON-SP2300"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SP2300"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "not_verified"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/princetoninstrumentsacton"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/broadband-photo-characterization.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/broadband-photo-characterization.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/princetoninstrumentsacton"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-ACTON-SP2500",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-ACTON-SP2500"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://ridl.cfd.rit.edu/products/manuals/Princeton%20Acton/SP-2500i.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SP2500"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://ridl.cfd.rit.edu/products/manuals/Princeton%20Acton/SP-2500i.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "scope_or_generation_unresolved"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/princetoninstrumentsacton"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/micro-photo-spec.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/micro-photo-spec.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/princetoninstrumentsacton"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-AGILENT-4156C",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-AGILENT-4156C"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.keysight.com/us/en/assets/9018-04951/user-manuals/9018-04951.pdf"
+      },
+      {
+        "@id": "https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "4156C"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M103"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.keysight.com/us/en/assets/9018-04951/user-manuals/9018-04951.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/agilent"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/agilent"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-AGILENT-E4980A",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-AGILENT-E4980A"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.keysight.com/us/en/assets/9018-06156/user-manuals/9018-06156.pdf"
+      },
+      {
+        "@id": "https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "E4980A"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M104"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.keysight.com/us/en/assets/9018-06156/user-manuals/9018-06156.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/agilent"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/agilent"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-EGG-7265",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-EGG-7265"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "7265"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/eggsignalrecovery"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ameteksi.com/-/media/ameteksi/images/new-product-page-images/800px/7265_tilt-right_800px_600px.png?la=en&revision=65233db8-44f0-4402-a356-84d257fcf61a"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ameteksi.com/-/media/ameteksi/images/new-product-page-images/800px/7265_tilt-right_800px_600px.png?la=en&revision=65233db8-44f0-4402-a356-84d257fcf61a"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/eggsignalrecovery"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-HF-PROBE-SETUP",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-HF-PROBE-SETUP"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UCLA high-frequency probe station — make/model unreported"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "UCLA reports a probe setup; its manufacturer/model is not identified. Not proof of a research-built rather than commercial instrument."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M102"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "not_verified"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/unspecified"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-JANIS-ST500",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-JANIS-ST500"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "ST-500"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/janisresearch"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.lakeshore.com/images/default-source/3d-viewer-images/st-500.png?Status=Master&sfvrsn=ad2e5f47_1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.lakeshore.com/images/default-source/3d-viewer-images/st-500.png?Status=Master&sfvrsn=ad2e5f47_1"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/janisresearch"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-LS-TTPX",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-LS-TTPX"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.lakeshore.com/docs/default-source/software/manuals/probe-station-manual/ttpx-manual.pdf"
+      },
+      {
+        "@id": "https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "TTPX"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M102"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.lakeshore.com/docs/default-source/software/manuals/probe-station-manual/ttpx-manual.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/lakeshorecryotronics"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.lakeshore.com/images/default-source/about-us/ttpx_500.png?sfvrsn=7bb360d3_3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.lakeshore.com/images/default-source/about-us/ttpx_500.png?sfvrsn=7bb360d3_3"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/lakeshorecryotronics"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-PQ-PH300",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-PQ-PH300"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.picoquant.com/dl_manuals/discontinued/PicoHarp300_Manual.pdf"
+      },
+      {
+        "@id": "https://www.picoquant.com/news/picoharp-300-discontinued/"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "PicoHarp 300"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.picoquant.com/dl_manuals/discontinued/PicoHarp300_Manual.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/picoquant"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://14cac4c6.delivery.rocketcdn.me/wp-content/uploads/picoharp-300.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.picoquant.com/news/picoharp-300-discontinued/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.picoquant.com/news/picoharp-300-discontinued/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://14cac4c6.delivery.rocketcdn.me/wp-content/uploads/picoharp-300.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/picoquant"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.picoquant.com/news/picoharp-300-discontinued/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-SRS-SR830",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-SRS-SR830"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.thinksrs.com/downloads/pdfs/manuals/SR830m.pdf"
+      },
+      {
+        "@id": "https://www.thinksrs.com/products/sr830.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "SR830"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.thinksrs.com/downloads/pdfs/manuals/SR830m.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/stanfordresearchsystems"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.thinksrs.com/images/instr/sr810830/SR830_FP_Wide1.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.thinksrs.com/products/sr830.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.thinksrs.com/products/sr830.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.thinksrs.com/images/instr/sr810830/SR830_FP_Wide1.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/stanfordresearchsystems"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.thinksrs.com/products/sr830.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-TF-CONTINUUM",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-TF-CONTINUUM"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-239701_-_Rev_A_-_Nicolet_Continuum_User_Guide"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nicolet Continuum"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M108"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-239701_-_Rev_A_-_Nicolet_Continuum_User_Guide"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "document_link_not_fully_checked"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-TF-NICOLET8700",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-TF-NICOLET8700"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Retired_Molecular_Spectroscopy_Products/Retired_Molecular_Spectroscopy_Products_Operator_Manuals/269-234600_-_Rev_A_-_Nicolet_8700_USB_Version_User_Guide"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nicolet 8700"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M36"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Retired_Molecular_Spectroscopy_Products/Retired_Molecular_Spectroscopy_Products_Operator_Manuals/269-234600_-_Rev_A_-_Nicolet_8700_USB_Version_User_Guide"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "scope_or_generation_unresolved"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/thermo-fisher-ftir2.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/thermo-fisher-ftir2.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-UCLA-GEN930-ASSB",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-UCLA-GEN930-ASSB"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "GEN-930 — As/Sb-MBE configuration"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "not_verified"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/As-Sb-MBE-system.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/As-Sb-MBE-system.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/UCLA-UCLA-GEN930-N",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "UCLA-UCLA-GEN930-N"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "GEN-930 — N-MBE configuration"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution-named equipment/configuration; optional characterization relevance is curator planning inference. No experiment or process performance is asserted."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "not_verified"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/N-MBE-system.png"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/N-MBE-system.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/EV-P01-25E85E64C6F720EF",
     "@type": [
       "http://www.w3.org/ns/prov#Entity",
@@ -180717,6 +182691,78 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/formulation/P46-UCLA-CAPABILITY",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Formulation"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46-UCLA-CAPABILITY"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UCLA source inventory; experimental recipe not reported"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#batchBasis": [
+      {
+        "@value": "No source-specific batch, consumed quantities or validated nanoscale thickness reported."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#outputLabel": [
+      {
+        "@value": "(In, Ga, Al)-N semiconductor epitaxial layers"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Select individual source/dopant/substrate options below; the listed cells are not a simultaneous mixture recipe."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/formulation/P47-UCLA-CAPABILITY",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Formulation"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47-UCLA-CAPABILITY"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "UCLA source inventory; experimental recipe not reported"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#batchBasis": [
+      {
+        "@value": "No source-specific batch, consumed quantities or validated nanoscale thickness reported."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#outputLabel": [
+      {
+        "@value": "III-arsenide/antimonide semiconductor epitaxial structures"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#scope": [
+      {
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Select individual source/dopant/substrate options below; the listed cells are not a simultaneous mixture recipe."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/abb",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
@@ -181924,6 +183970,23 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/eggsignalrecovery",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "eggsignalrecovery"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "EG&G / Signal Recovery"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ekspla",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
@@ -182736,6 +184799,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Jacomex"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/janisresearch",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "janisresearch"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Janis Research"
       }
     ]
   },
@@ -184049,6 +186129,23 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/picoquant",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "picoquant"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "PicoQuant"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/picosun",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
@@ -184113,6 +186210,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "PolyScience"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/princetoninstrumentsacton",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "princetoninstrumentsacton"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Princeton Instruments / Acton"
       }
     ]
   },
@@ -184728,6 +186842,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "Standard Bots"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/stanfordresearchsystems",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "stanfordresearchsystems"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Stanford Research Systems"
       }
     ]
   },
@@ -211391,6 +213522,132 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A1%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:1:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A2%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:2:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P46%3A3%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:3:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A1%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:1:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A2%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:2:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/requirement/P47%3A3%3Abranch%3A1%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentRequirement"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:3:branch:1:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "M100 requirement 1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M100"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
@@ -212937,6 +215194,62 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
       {
         "@value": "Citation sweep 2026-10-17. Source-specific conceptual sequence; no generalized operating recipe or validated market-model substitution."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ManufacturingProcess",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Route"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Plasma-assisted molecular-beam epitaxy of III-nitride layers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/process-and-material-families"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ManufacturingProcess",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Route"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Molecular-beam epitaxy of III-arsenide/antimonide nanostructures"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/process-and-material-families"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints."
       }
     ]
   },
@@ -220735,6 +223048,73 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P23%3A4.5",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P23:4.5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional photoluminescence and lifetime characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P23"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P23%3A4.5%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M101\", \"M105\", \"M106\", \"M107\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 4.5
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P23%3A4"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P24%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
@@ -225674,6 +228054,73 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P44%3A5.5",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P44:5.5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional photoluminescence and lifetime characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P44"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P44%3A5.5%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M101\", \"M105\", \"M106\", \"M107\"], \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 5.5
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P44%3A5"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements."
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P45%3A1",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
@@ -226039,6 +228486,698 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
       {
         "@value": "Collect and wash hollow product; optionally repeat conversion"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Prepare and load a compatible substrate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A1%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"pa_nitride_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 1.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Grow the selected epitaxial layer structure"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A2%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"pa_nitride_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 2.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A3",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Complete growth, cool and recover substrate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A3%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"pa_nitride_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 3.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A4",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional optical and time-resolved characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A4%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M101\", \"M105\", \"M106\", \"M107\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 4.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A5",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional electrical/optoelectronic characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M102"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M103"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M104"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A5%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M102\", \"M103\", \"M104\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 5.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A6",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P46:6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional infrared spectroscopy and microscopy"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P46"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M108"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M36"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P46%3A6%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M36\", \"M108\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 6.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P46%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A1",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:1"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Prepare and load a compatible substrate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A1%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"arsenide_antimonide_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 1.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:2"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Grow the selected epitaxial layer structure"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A2%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"arsenide_antimonide_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 2.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A3",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:3"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Complete growth, cool and recover substrate"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A3%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[\"M100\"]], \"optional_category_ids\": [], \"allowed_subtypes_by_category\": {\"M100\": [\"arsenide_antimonide_mbe\"]}, \"unresolved_required_equipment\": false, \"readiness_review_required\": true, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Review substrate, source/plasma/cracker configuration and operating conditions before declaring the equipment plan reviewed.\"}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": true
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 3.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A4",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:4"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional optical and time-resolved characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M101"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M105"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M106"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M107"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A4%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M101\", \"M105\", \"M106\", \"M107\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 4.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A5",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:5"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional electrical/optoelectronic characterization"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M102"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M103"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M104"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A5%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M102\", \"M103\", \"M104\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 5.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A6",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#ProcessStep"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "P47:6"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optional infrared spectroscopy and microscopy"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inRoute": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#optionalCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M108"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M36"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiredAlternative": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/branch/P47%3A6%3Abranch%3A1"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requirementsJSON": [
+      {
+        "@value": "{\"required_branches\": [[]], \"optional_category_ids\": [\"M36\", \"M108\"], \"allowed_subtypes_by_category\": {}, \"unresolved_required_equipment\": false, \"readiness_review_required\": false, \"notes\": \"Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints. Optional measurement configuration; not required for growth completion. Spectrographs, timing electronics and FTIR microscopes need their compatible detectors/host/optics.\", \"prerequisite_source_step_orders\": [\"3\"]}"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#requiresConfigurationReview": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": false
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrder": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": 6.0
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceOrderPredecessor": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/step/P47%3A3"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#sourceSequence": [
+      {
+        "@value": "Curator conceptual sequence from facility capability; not a source operating procedure."
       }
     ]
   },

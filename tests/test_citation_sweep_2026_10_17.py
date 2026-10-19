@@ -25,7 +25,7 @@ def test_new_citation_records_have_scoped_claims_and_do_not_expose_inventory():
 def test_new_processes_have_dedicated_classes_and_source_scoped_inputs():
     data=dataset(ROOT);steps=load_csv(ROOT/'catalog/route_steps.csv')
     for rid,expected in [('P44',5),('P45',7)]:
-        sequence=[s for s in steps if s['route_id']==rid]
+        sequence=[s for s in steps if s['route_id']==rid and not s['extension_id']]
         assert len(sequence)==expected
         assert all(s['equipment_category_ids'] and json.loads(s['requirements_json'])['required_branches'] for s in sequence)
         formulation=next(f for f in data['formulations'] if f['route_id']==rid)

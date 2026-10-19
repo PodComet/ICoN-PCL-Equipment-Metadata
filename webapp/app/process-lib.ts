@@ -24,7 +24,7 @@ export const splitIds=(value:string|undefined)=>[...new Set((value||'').split(';
 export const newProcessId=(prefix:string)=>prefix+'-'+crypto.randomUUID();
 export function newSlot(allowed:string[]=[],label='Instrument slot'):ProcessSlot{return {slot_id:newProcessId('SLOT'),label,allowed_category_ids:[...allowed],instrument:null,extensions:{}};}
 export function newStep(allowed:string[]=[]):ProcessStep{return {step_id:newProcessId('STEP'),label:'New step',notes:'',source_step_order:'',source_sequence:'',slots:[newSlot(allowed)],extensions:{}};}
-export type StepRequirements={required_branches:string[][];optional_category_ids:string[];optional_branches?:string[][];allowed_subtypes_by_category?:Record<string,string[]>;when_selected?:{category_id:string;required_branches:string[][];notes:string}[];unresolved_required_equipment:boolean;readiness_review_required:boolean;notes:string};
+export type StepRequirements={required_branches:string[][];optional_category_ids:string[];optional_branches?:string[][];allowed_subtypes_by_category?:Record<string,string[]>;prerequisite_source_step_orders?:string[];when_selected?:{category_id:string;required_branches:string[][];notes:string}[];unresolved_required_equipment:boolean;readiness_review_required:boolean;notes:string};
 export function effectiveRequirements(workflow:ProcessWorkflow,requirements:StepRequirements):StepRequirements{
  const selected=new Set(workflow.steps.flatMap(s=>s.slots.flatMap(v=>v.instrument?[v.instrument.category_id]:[])));
  const override=requirements.when_selected?.find(v=>selected.has(v.category_id));
@@ -60,7 +60,14 @@ export function createWorkflow(route:Route,sourceSteps:Record<string,string>[]):
   slots:stepRequirements(s)?requirementSlots(stepRequirements(s)!):splitIds(s.equipment_category_ids).length?[newSlot(splitIds(s.equipment_category_ids))]:[],
   extensions:{...(stepRequirements(s)?{requirements:stepRequirements(s)! as unknown as JsonValue}:{}),...(s.extension_id?{source_extension_id:s.extension_id,source_document:s.source_pdf,source_locator:s.source_page}:{})} as Parameters,
  }));
- return withOutputEvidence({schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:steps.length?{}:{sequence_review_required:true}});
+ const explicitDependencies=steps.some(s=>(s.extensions.requirements as StepRequirements|undefined)?.prerequisite_source_step_orders!==undefined);
+ if(explicitDependencies)for(let i=0;i<steps.length;i++){
+  const declared=(steps[i].extensions.requirements as StepRequirements|undefined)?.prerequisite_source_step_orders;
+  const orders=declared??(i?[steps[i-1].source_step_order]:[]);
+  if(orders.some(order=>!steps.some(s=>s.source_step_order===order)))throw new Error('Unknown source-step prerequisite.');
+  steps[i].extensions.prerequisite_step_ids=orders.map(order=>steps.find(s=>s.source_step_order===order)!.step_id);
+ }
+ return withOutputEvidence({schema_version:1,workflow_id:'',route_id:route.route_id,route_name:route.route_name,name:route.route_name+' — equipment plan',notes:'',steps:steps.length?steps:[newStep(splitIds(route.equipment_category_ids))],extensions:explicitDependencies?{dependency_schema:'process-dependencies/v1'}:steps.length?{}:{sequence_review_required:true}});
 }
 export function expandWorkflowRequirements(workflow:ProcessWorkflow,sourceSteps:Record<string,string>[]):ProcessWorkflow{
  let expanded={...workflow,steps:workflow.steps.map(step=>{

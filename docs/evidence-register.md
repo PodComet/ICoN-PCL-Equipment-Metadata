@@ -2,9 +2,461 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-451 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+522 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
+
+## CAT-EV-03394BC33CAA8FCC
+
+UCLA describes Antimony source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Valved-cracker source; not a sputtering target. Charge form, flux and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `ucla-antimony-source` (component), `P47` (process)
+
+
+## CAT-EV-08FB154763744E11
+
+UCLA describes Magnesium dopant source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Optional dopant cell; not interchangeable with bulk-metal turnings. Dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `ucla-magnesium-dopant` (component), `P46` (process)
+
+
+## CAT-EV-099AEBBCC1F2017C
+
+UCLA lists an integrated GEN-930 configuration for III-arsenide/antimonide semiconductor epitaxial structures.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `P47` (process), `M100` (equipment_class)
+
+
+## CAT-EV-1FF9CC29FA3EE573
+
+UCLA describes Aluminium source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** SUMO-cell source; different use/form from a bulk aluminium feedstock. Purity and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `ucla-aluminium-source` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-29B68DD0DFCED188
+
+UCLA describes GaAs substrate — project-specific option in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Project context supports GaAs substrates, not a universal MBE substrate. Orientation, dimensions, doping and exact recipe unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [Dissimilar Nanomaterials Integration](https://inml.cnsi.ucla.edu/project/dissimilar-nanomaterials-integration/) — Discusses GaSb-on-GaAs through interfacial misfit growth and III-Sb superlattice infrared devices. GaAs/GaSb substrate mentions apply to this project, not all GEN-930 work.
+
+**Related records:** `ucla-gaas-substrate` (component), `P47` (process)
+
+
+## CAT-EV-3D69239B49AA84DB
+
+UCLA names Janis Research ST-500 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Micro-PL page says open-cycle JANIS/Oxford without a model; only FTIR page explicitly links ST-500. Do not claim the micro-PL JANIS cryostat is ST-500.
+
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [ST-500 Series microscopy cryostats](https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat) — Identifies Environment by Janis ST-500 optical microscopy/photoluminescence cryostat; current series includes ST-500, ST-500-C and ST-500-LGV. Do not assign current family options to the historical UCLA asset.
+- Source: [Lake Shore ST-500 Series Cryostats datasheet](https://www.lakeshore.com/docs/default-source/default-document-library/st-500-series505f048e-194a-4d5d-9826-593fb5b58529.pdf?sfvrsn=1d356fbe_23) — Four-page ST-500 family datasheet includes exact ST-500 and other variant columns; distinct variants and optional recirculating cryogen-free upgrades are not the same UCLA configuration.
+
+**Related records:** `UCLA-JANIS-ST500` (equipment), `M107` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-3DFC68D4C883FE87
+
+UCLA names PicoQuant PicoHarp 300 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA's visible–1650 nm TRPL range is a setup/detector claim, not intrinsic spectral responsivity of electronic timing module. Official documentation lifecycle note: {"status": "discontinued", "effective": "2024-09", "source_id": "PQ-PH300"}.
+
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [PicoHarp 300 discontinued](https://www.picoquant.com/news/picoharp-300-discontinued/) — PicoQuant states PicoHarp 300 stopped new orders in September 2024; PicoHarp 330 is successor, not equivalent exact model.
+- Source: [PicoHarp 300 User's Manual and Technical Data](https://www.picoquant.com/dl_manuals/discontinued/PicoHarp300_Manual.pdf) — Official discontinued-product manual identifies PicoHarp 300 TCSPC/event timer, software version 3.0.0.3, October 2015; linked PDF indexed, live fetch returned internal error.
+
+**Related records:** `UCLA-PQ-PH300` (equipment), `M106` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-490FA9CCA56C89E5
+
+PL and timing equipment are available as an optional characterization planning branch for P23.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.
+
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+
+**Related records:** `P23` (process)
+
+
+## CAT-EV-4B36419FAFA34C2E
+
+UCLA describes GaSb substrate — project-specific option in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Project compares GaSb and GaAs substrate technologies. Use only after structure/recipe review; no universal default or orientation inferred. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [Dissimilar Nanomaterials Integration](https://inml.cnsi.ucla.edu/project/dissimilar-nanomaterials-integration/) — Discusses GaSb-on-GaAs through interfacial misfit growth and III-Sb superlattice infrared devices. GaAs/GaSb substrate mentions apply to this project, not all GEN-930 work.
+
+**Related records:** `ucla-gasb-substrate` (component), `P47` (process)
+
+
+## CAT-EV-5407B6251DC9E272
+
+UCLA names Lake Shore Cryotronics TTPX in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA's integrated Agilent instruments are separate components, not included by default in every TTPX purchase.
+
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [TTPX cryogenic probe station](https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station) — Identifies TTPX as a continuous-flow cryogenic probe station with liquid helium/nitrogen cooling and configurable electrical/optical probing. Current generic product configuration is not proof UCLA has every option.
+- Source: [TTPX probe station specifications](https://www.lakeshore.com/products/categories/specification/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station) — Lists LHe/LN2 cooling and configuration-dependent temperature/sample/probe specifications. Use this source for capability; avoid copying present-day option values onto UCLA's 2022 setup.
+- Source: [Model TTPX Probe Station manual](https://www.lakeshore.com/docs/default-source/software/manuals/probe-station-manual/ttpx-manual.pdf) — Official model-specific manual URL indexed by manufacturer; PDF fetch exceeded 30 MB web-tool length limit. Manual contents were not used for operating claims.
+
+**Related records:** `UCLA-LS-TTPX` (equipment), `M102` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-63C24191BF088AF6
+
+UCLA describes Liquid helium — optional characterization coolant in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Auxiliary optical/electrical cryogenic measurement coolant, not a growth precursor. Consumption unreported. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+
+**Related records:** `ucla-liquid-helium` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-6A044305C4F12510
+
+UCLA names Princeton Instruments / Acton SP2500 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Same named spectrograph appears in two UCLA setups; that does not establish serial-number identity or that there is only one physical unit.
+
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+- Source: [Acton Series SP-2500i Operating Instructions](https://ridl.cfd.rit.edu/products/manuals/Princeton%20Acton/SP-2500i.pdf) — RIT-hosted Princeton Instruments manual identifies Acton Series SP-2500i, rev 4.09.23, 500 mm triple-grating imaging monochromator/spectrograph. UCLA says SP2500 without i, so this is related-family documentation, not proven suffix equivalence.
+
+**Related records:** `UCLA-ACTON-SP2500` (equipment), `M101` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-6C0829D93EFC4392
+
+PL and timing equipment are available as an optional characterization planning branch for P44.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Curator-added optional PL/photophysics exploration of a semiconductor nanocrystal product. UCLA documents measurement hardware, not its use in this cited experiment. Detector wavelength, excitation, sample geometry and timing compatibility require review; no change to synthesis requirements.
+
+- Source: [Micro-Photoluminescence Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/) — Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics.
+
+**Related records:** `P44` (process)
+
+
+## CAT-EV-6D2D6D9A9244B835
+
+UCLA describes Silicon substrate — project-specific option in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Project-specific substrate context only, not assignment to a particular GEN-930 or validated MBE recipe. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [Thermophotovoltaics](https://inml.cnsi.ucla.edu/project/thermophotovoltaics/) — Describes III-Sb thermophotovoltaic epi layers on GaAs and Si using interfacial misfit technology; project-specific material evidence, without methods or operating values.
+
+**Related records:** `ucla-silicon-substrate` (component), `P47` (process)
+
+
+## CAT-EV-7708023A9F6FDCD2
+
+UCLA names Agilent 4156C in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Retain Agilent in UCLA asset label; Keysight is documentation/support successor. Official documentation lifecycle note: {"status": "obsolete", "source_id": "KS-4156C", "scope": "official product page title"}.
+
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [4156C Precision Semiconductor Parameter Analyzer](https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html) — Official successor-support page title identifies 4156C and marks obsolete. UCLA calls its instrument Agilent; keep historical name and Keysight as support successor.
+- Source: [4155C/4156C Semiconductor Parameter Analyzer User's Guide, General Information](https://www.keysight.com/us/en/assets/9018-04951/user-manuals/9018-04951.pdf) — Official manual listing publication 04156-90000 (2009-07-01) explicitly includes both 4155C and 4156C; URL presents a gated landing page rather than an immediately retrievable PDF.
+
+**Related records:** `UCLA-AGILENT-4156C` (equipment), `M103` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-7EAAB01468744367
+
+UCLA names Stanford Research Systems SR830 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified.  Official documentation lifecycle note: {"status": "discontinued", "source_id": "SRS-SR830"}.
+
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [SR830 — DSP lock-in amplifier](https://www.thinksrs.com/products/sr830.html) — Manufacturer identifies SR830, supplies exact-model photos, technical specifications, manual and datasheet, and marks it discontinued.
+- Source: [DSP Lock-In Amplifier model SR830 manual](https://www.thinksrs.com/downloads/pdfs/manuals/SR830m.pdf) — Model-specific official operating/service manual URL is linked from the manufacturer product page.
+- Source: [SR830 DSP Lock-In Amplifiers datasheet](https://www.thinksrs.com/downloads/pdfs/catalog/SR830c.pdf) — Three-page manufacturer datasheet identifies Stanford Research Systems and SR830, and lists a US list price of $5,995 on PDF pages 1 and 2. Publication/price effective date is not established; manufacturer page now says discontinued.
+
+**Related records:** `UCLA-SRS-SR830` (equipment), `M105` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-8083C6D8A7F4B3CC
+
+UCLA describes Beryllium dopant source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Optional dopant cell; dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `ucla-beryllium-dopant` (component), `P47` (process)
+
+
+## CAT-EV-8269218E4B655DA7
+
+UCLA names Veeco GEN-930 — As/Sb-MBE configuration in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)/(As, Sb)", "group_III_sources": \[{"element": "In", "type": "SUMO cell"}, {"element": "Ga", "type": "SUMO cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_sources": \[{"element": "As", "type": "valved cracker"}, {"element": "Sb", "type": "valved cracker"}\], "dopant_sources": \["Si", "Te", "Be"\], "wafer_holder_diameter_max": {"value": 3, "unit": "inch"}, "optical_pyrometer_range": {"lower": 440, "upper": 800, "unit": "°C", "scope": "measurement range, not process setpoint"}, "monitoring": \["200 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+- Source: [Phosphorus Recovery System product specifications](https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf) — Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment.
+
+**Related records:** `UCLA-UCLA-GEN930-ASSB` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-87F3BCD2E50B9FFD
+
+UCLA names Agilent E4980A in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not replace with E4980AL or confuse the newer joint manual's variant specifications.
+
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+- Source: [E4980A Precision LCR Meter, 20 Hz to 2 MHz](https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html) — Official product identity confirms E4980A LCR meter; UCLA historical branding is Agilent. No exact public current USD price verified.
+- Source: [E4980A Precision LCR Meter User's Guide](https://www.keysight.com/us/en/assets/9018-06156/user-manuals/9018-06156.pdf) — Official E4980A manual publication E4980-90000 dated 2006-03-01; URL presents a gated landing page. Distinguish E4980A-only guide from newer E4980A/AL joint guide.
+
+**Related records:** `UCLA-AGILENT-E4980A` (equipment), `M104` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-889AD6E9BF36ECC2
+
+UCLA names Princeton Instruments / Acton SP2300 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not silently append i or replace with current SpectraPro HRS-300. UCLA's 2.5 µm setup coverage depends on detectors/optics.
+
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [Broadband Photoluminescence Material Spectroscopy](https://www.teledynevisionsolutions.com/en-hk/learn/learning-center/scientific-imaging/broadband-photoluminescence-material-spectroscopy/) — Teledyne identifies Princeton Instruments SP2300i spectrograph in another lab's setup. Confirms manufacturer family identity; does not establish UCLA's omitted i suffix, detectors or present availability.
+
+**Related records:** `UCLA-ACTON-SP2300` (equipment), `M101` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-9410F9A503949466
+
+UCLA describes Silicon dopant source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Optional dopant cell; not a silicon wafer. Dose and source grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `ucla-silicon-dopant` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-9B40E760C2C8120F
+
+UCLA lists an integrated GEN-930 configuration for (In, Ga, Al)-N semiconductor epitaxial layers.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Institution capability-derived planning route, not an extracted experimental recipe. Preparation, growth and recovery order is curator abstraction; optional characterization branches are inferred from companion facility capabilities. Nanostructure composition/dimensions, conditions, yield and properties require separate methods evidence. Hardware maxima are not setpoints.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `P46` (process), `M100` (equipment_class)
+
+
+## CAT-EV-AE955789385CBC50
+
+UCLA names Thermo Scientific Nicolet 8700 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Do not infer that current Nicolet iS50 specifications or images describe this legacy 8700. Official documentation lifecycle note: {"status": "retired_documentation_present", "source_id": "TF-8700-MAN"}.
+
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [269-234600 Rev A Nicolet 8700 USB Version User Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Retired_Molecular_Spectroscopy_Products/Retired_Molecular_Spectroscopy_Products_Operator_Manuals/269-234600_-_Rev_A_-_Nicolet_8700_USB_Version_User_Guide) — Official retired-products guide for Nicolet 8700 USB; UCLA does not specify USB vs PCI hardware. Exact model, interface-variant match unverified. PDF attachment exists but signed storage redirect could not be read.
+
+**Related records:** `UCLA-TF-NICOLET8700` (equipment), `M36` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-B68A429F0F82C2CA
+
+UCLA names EG&G / Signal Recovery 7265 in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. Brand lineage does not justify rewriting the UCLA-listed EG&G instrument as a newly supplied AMETEK unit. Official documentation lifecycle note: {"status": "legacy_product_listing", "source_id": "SR-7265"}.
+
+- Source: [Broad-band Photoluminescence Characterization](https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/) — Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins.
+- Source: [7265 Dual Phase DSP Lock-in Amplifier](https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier) — Signal Recovery/AMETEK legacy page identifies 7265, model-specific image, 250 kHz dual-phase DSP function and links manual. Explains origin from Princeton Applied Research/EG&G; preserve UCLA's historical EG&G branding.
+- Source: [Model 7265 User Manual](https://www.ameteksi.com/-/media/ameteksi/download_links/documentations/7265/190284-a-mnl-c.pdf?revision=819bfbd0-51d7-4371-89ea-50f14b69ce5f) — Exact-model manual is linked from official product page. Opening redirects to an email-required download form; manual body was not read.
+
+**Related records:** `UCLA-EGG-7265` (equipment), `M105` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-B82FFF5F796E366F
+
+UCLA describes Liquid nitrogen — optional characterization coolant in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Auxiliary cryogenic probe measurement coolant, not a growth precursor or universal MBE input. Consumption unreported. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [Cryogenic-Temperature Probe Station](https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/) — Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination.
+
+**Related records:** `ucla-liquid-nitrogen` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-B84E8CDF166CE4CB
+
+UCLA names Veeco GEN-930 — N-MBE configuration in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names. {"material_system": "(In, Ga, Al)-N", "group_III_sources": \[{"element": "In", "type": "effusion cell"}, {"element": "Ga", "type": "effusion cell"}, {"element": "Al", "type": "SUMO cell"}\], "group_V_source": {"element": "N", "type": "RF plasma", "delivery": "automated N gas delivery"}, "dopant_sources": \["Si", "Mg"\], "wafer_diameter_max": {"value": 3, "unit": "inch"}, "substrate_heater_max": {"value": 1200, "unit": "°C", "scope": "hardware maximum, not process setpoint"}, "monitoring": \["100 amu RGA", "RHEED", "KSA400"\], "control": "MOLLY"} Hardware capacities are not growth recipe setpoints.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+- Source: [Phosphorus Recovery System product specifications](https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf) — Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment.
+
+**Related records:** `UCLA-UCLA-GEN930-N` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-C0902EBD484AF1CD
+
+UCLA names Thermo Scientific Nicolet Continuum in its equipment description.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** UCLA equipment page dated 2022-01-19, reviewed 2026-10-18. Historical institutional listing; current availability and exact asset configuration are unverified. UCLA setup integration with 8700 is verified. Standalone component photo not found in bounded search; do not crop/repurpose generic setup image as an independently identified Continuum photo.
+
+- Source: [FTIR Spectroscopy](https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/) — Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration.
+- Source: [269-239701 Rev A Nicolet Continuum User Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-239701_-_Rev_A_-_Nicolet_Continuum_User_Guide) — Official Nicolet Continuum guide states it covers use with a Nicolet Series spectrometer; supports treating microscope as coupled equipment, not a self-contained Nicolet 8700 replacement.
+- Source: [269-153102 Rev A Continuum Microscope Site and Safety Guide](https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-153102_-_Rev_A_-_Continuum_Microscope_Site_and_Safety_Guide) — Official site/safety manual for exact microscope family; it is not the user/operating guide.
+
+**Related records:** `UCLA-TF-CONTINUUM` (equipment), `M108` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-D43C6B71BE4AAE84
+
+UCLA describes Indium source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Cell source; purity, physical charge form and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `ucla-indium-source` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-D647D6AADF495757
+
+UCLA describes Gallium source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Cell source; purity and quantity unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `ucla-gallium-source` (component), `P46` (process), `P47` (process)
+
+
+## CAT-EV-DEB4640B93C0C3F9
+
+UCLA lists a high-frequency electronic/optoelectronic probe setup; make/model is not given.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Generic apparatus bucket only; manufacturer unknown. UCLA reports &lt;50 GHz and integrated I-V/C-V/photoresponse. These are listed setup capabilities, not an identified standalone model.
+
+- Source: [High-frequency probe station](https://inml.cnsi.ucla.edu/2022/01/19/high-frequency-probe-station/) — Lists electronic/optoelectronic probing below 50 GHz, optical photoresponse access and integrated I-V/C-V measurements; no manufacturer or model identified.
+
+**Related records:** `UCLA-HF-PROBE-SETUP` (equipment)
+
+
+## CAT-EV-E16AF67B6B7DEE44
+
+UCLA describes Nitrogen feed for RF-plasma MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** RF plasma gas feed; purity, flow and consumption unspecified. Not a liquid cryogen. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [N-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/) — GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint.
+
+**Related records:** `ucla-nitrogen-plasma-feed` (component), `P46` (process)
+
+
+## CAT-EV-FA0932082DDCD619
+
+UCLA describes Arsenic source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Valved-cracker source; charge form, species, flux and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `ucla-arsenic-source` (component), `P47` (process)
+
+
+## CAT-EV-FB39AB55015C5047
+
+UCLA describes Tellurium dopant source for MBE in its equipment/project context.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-18
+
+**Scope:** Optional dopant source; not a sputtering target. Dose and grade unspecified. Capability/context entry; no supplier product, grade, purchasable pack price or recommended amount established.
+
+- Source: [As/Sb-MBE system](https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/) — GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe.
+
+**Related records:** `ucla-tellurium-dopant` (component), `P47` (process)
+
 
 ## EV-P01-25E85E64C6F720EF
 
@@ -2172,7 +2624,7 @@ Centrifuge collection: 3 min: 3 min
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-B946773ECE6273A0` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-B946773ECE6273A0` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-B946773ECE6273A0: Centrifuge collection = 3 min; operator eq; formulation P23-LITERATURE-20261017; source step 3.
 
@@ -2186,7 +2638,7 @@ Stir following acetone addition: 1 min: 1 min
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-811501D950635C98` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-811501D950635C98` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-811501D950635C98: Stir following acetone addition = 1 min; operator eq; formulation P23-LITERATURE-20261017; source step 2.
 
@@ -2200,7 +2652,7 @@ Delay before acetone addition: 10 s: 10 s
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-CD5BF423B3F68676` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-CD5BF423B3F68676` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-CD5BF423B3F68676: Delay before acetone addition = 10 s; operator eq; formulation P23-LITERATURE-20261017; source step 1.
 
@@ -2214,7 +2666,7 @@ Mix precursor under ambient laboratory conditions: room temperature; numeric val
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-79DBA714D63E7E3A` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-79DBA714D63E7E3A` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-79DBA714D63E7E3A: Mix precursor under ambient laboratory conditions = room temperature; numeric value not reported; operator text; formulation P23-LITERATURE-20261017; source step 1.
 
@@ -2228,7 +2680,7 @@ Synthesis atmosphere: ambient atmosphere: ambient atmosphere
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-4834AD5C0B886A1F` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-4834AD5C0B886A1F` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-4834AD5C0B886A1F: Synthesis atmosphere = ambient atmosphere; operator text; formulation P23-LITERATURE-20261017; source step 1.
 
@@ -2242,7 +2694,7 @@ Collect nanoplatelets: 4000 rpm: 4000 rpm
 
 - Source: [Machine-Learning-Optimized Perovskite Nanoplatelet Synthesis](https://arxiv.org/abs/2210.09783) — Experimental Section 4.1; PDF p9
 
-**Related records:** `PC-P23-A16C26A6DAD6E0E8` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
+**Related records:** `PC-P23-A16C26A6DAD6E0E8` (condition), `P23` (process), `M02` (equipment_class), `M03` (equipment_class), `M13` (equipment_class), `M101` (equipment_class), `M105` (equipment_class), `M106` (equipment_class), `M107` (equipment_class), `P23-LITERATURE-20261017` (formulation), `REF-A18B8DB1ADFC` (academic_reference)
 
 - PC-P23-A16C26A6DAD6E0E8: Collect nanoplatelets = 4000 rpm; operator eq; formulation P23-LITERATURE-20261017; source step 3.
 
@@ -5036,7 +5488,7 @@ The linked source presents an instrument photograph matched to Bruker MultiMode 
 
 ## PRICE-EV-031280425C67B359
 
-Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 Ã— 25 mm).
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5046,6 +5498,20 @@ Fisher Scientific publishes USD 7.98 for one pack of 72 United Scientific MSL3X1
 - Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-766F7C32BD1D4648` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-042EC2E09636D55F
+
+US Research Nanomaterials publishes 625.0 dollars for 1 kg of US Nano US1149M Natural graphite flaky powder, 5 µm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 5µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 5µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. This is 5µm and the supplier purity is total carbon, so not the required source grade. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1149M Natural graphite flaky powder, 5 µm](https://www.us-nano.com/inc/sdetail/34299) — Product description and Order selector option 537 (1kg-5um Natural Graphite (add $625))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1149m-natural-graphite5um` (component), `PACK-USNANO261018-C46C8CC96DFBF770` (component_offer), `P07` (process), `P34` (process), `P41` (process)
 
 
 ## PRICE-EV-08AB07A1D9FB9C55
@@ -5067,7 +5533,7 @@ Lab Alley publishes USD 74.8 for SKU SOHYSL01N-1L, 1000 mL of Sodium hydroxide0.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-1L) — Size/SKU table and assay; source states4gNaOH/L DIwater
 
@@ -5087,9 +5553,23 @@ Spectrum Chemical publishes USD 3765 for Labconco XPert Balance Enclosure (list_
 **Related records:** `M30-04` (equipment), `M30` (equipment_class), `P07` (process), `P11` (process), `SELL-PRICE261018-1394325D98454785` (seller_offer)
 
 
+## PRICE-EV-0AE079C38E4661D7
+
+US Research Nanomaterials publishes 298.0 dollars for 500 g of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3965 (500g--thickness-300nm (add $298))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-C09D5CC0166DE995` (component_offer), `P31` (process)
+
+
 ## PRICE-EV-0C2BF1F2451F0E5B
 
-MilliporeSigma publishes USD 265 for SKU 650579-4L, 4000 mL of Toluene HPLC Plus, ≥99.9%.
+MilliporeSigma publishes USD 265 for SKU 650579-4L, 4000 mL of Toluene HPLC Plus, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5137,6 +5617,20 @@ ONESTOP SCIENTIFIC (eBay) publishes USD 19999 for Malvern Zetasizer Nano ZS (ask
 - Source: [ONESTOP SCIENTIFIC (eBay) public price](https://www.ebay.com/itm/398205216666) — Title, named seller, ask, condition, shipping and model/MPN; extracted lines 75-166.
 
 **Related records:** `M34-06` (equipment), `M34` (equipment_class), `P04` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-48E50855799E25D2` (seller_offer)
+
+
+## PRICE-EV-1307FFFEF1AF435A
+
+US Research Nanomaterials publishes 75.0 dollars for 0.25 g of US Nano US4101 SWCNTs, dry.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4101 SWCNTs, dry](https://www.us-nano.com/inc/sdetail/378) — Product description and Order selector option 711 (0.25g (add $75))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-1BE1F1989D0C7BF0` (component_offer), `P29` (process)
 
 
 ## PRICE-EV-15220B58E1A87BE7
@@ -5194,7 +5688,7 @@ Thermal Scientific, Inc. publishes USD 964.29 for Parr 4749 (published_price; ne
 
 ## PRICE-EV-1827BE5490B25E95
 
-U.S. Plastic Corp. publishes USD 6.66 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+U.S. Plastic Corp. publishes USD 6.66 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 Ã— 25 mm).
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5219,9 +5713,23 @@ HeartOfAutomation (eBay) publishes USD 7350 for Metrohm 848 Titrino plus (asking
 **Related records:** `EXT-M63-METROHM-848` (equipment), `M63` (equipment_class), `P33` (process), `SELL-PRICE261018-9200D1CACA0772E2` (seller_offer)
 
 
+## PRICE-EV-243E855A92796266
+
+US Research Nanomaterials publishes 129.0 dollars for 1.0 g of US Nano US1059 graphene nanoplatelets, 99.5+%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1059 graphene nanoplatelets, 99.5+%](https://www.us-nano.com/inc/sdetail/3767) — Product description and Order selector option 14 (1g (add $129))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1059-gnp-dry` (component), `PACK-USNANO261018-F47BFD0BD8BE2591` (component_offer), `P29` (process)
+
+
 ## PRICE-EV-269CA637EF7B12E0
 
-MTI Corporation publishes USD 59 for SKU SOF101002S2, 1 piece of Fused silica JGS1 substrate,10×10×0.2mm,both sides optical polished.
+MTI Corporation publishes USD 59 for SKU SOF101002S2, 1 piece of Fused silica JGS1 substrate,10Ã—10Ã—0.2mm,both sides optical polished.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5245,6 +5753,20 @@ Government Scientific Source publishes USD 104880.95 for Thermo Scientific Sorva
 **Related records:** `M14-02` (equipment), `M14` (equipment_class), `SELL-PRICE261018-493959558B1BBC99` (seller_offer)
 
 
+## PRICE-EV-2F22F692AD270301
+
+US Research Nanomaterials publishes 55.0 dollars for 1.0 g of US Nano US4301 OH-functionalized MWCNTs.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4301 OH-functionalized MWCNTs](https://www.us-nano.com/inc/sdetail/216) — Product description and Order selector option 14 (1g (add $55))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4301-mwcnt-oh` (component), `PACK-USNANO261018-1EA973EA09B1EA7E` (component_offer), `P29` (process), `P37` (process)
+
+
 ## PRICE-EV-2FB251A0B3604EE0
 
 Government Scientific Source publishes USD 102900 for Thermo Scientific Sorvall WX 80+ (list_price; new).
@@ -5260,7 +5782,7 @@ Government Scientific Source publishes USD 102900 for Thermo Scientific Sorvall 
 
 ## PRICE-EV-2FBAF9F7C460CFF0
 
-Aladdin Scientific publishes USD 102.9 for SKU L407046-25g, 25 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+Aladdin Scientific publishes USD 102.9 for SKU L407046-25g, 25 g of Lead bromide, PrimorTrace â‰¥99.99% metals basis.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5273,15 +5795,43 @@ Aladdin Scientific publishes USD 102.9 for SKU L407046-25g, 25 g of Lead bromide
 
 ## PRICE-EV-3080BEB91E474A8D
 
-Electron Microscopy Sciences publishes USD 280 for SKU 71883-02, 1440 piece of Diamond white glass slide, plain,90°ground edge,25×75×1mm.
+Electron Microscopy Sciences publishes USD 280 for SKU 71883-02, 1440 piece of Diamond white glass slide, plain,90Â°ground edge,25Ã—75Ã—1mm.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
+**Scope:** 25Ã—75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25Ã—75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
 
-- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
+- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10Ã—144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-PRICE261018-6B65845BD9D696AB` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-30E12EAB1FBC0B0F
+
+US Research Nanomaterials publishes 108.0 dollars for 100 g of US Nano US1149M Natural graphite flaky powder, 5 µm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 5µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 5µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. This is 5µm and the supplier purity is total carbon, so not the required source grade. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1149M Natural graphite flaky powder, 5 µm](https://www.us-nano.com/inc/sdetail/34299) — Product description and Order selector option 536 (100g-5um Natural Graphite (add $108))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1149m-natural-graphite5um` (component), `PACK-USNANO261018-BBD48CC7A49AF3FD` (component_offer), `P07` (process), `P34` (process), `P41` (process)
+
+
+## PRICE-EV-3934D1B6A7B3972C
+
+US Research Nanomaterials publishes 120.0 dollars for 30.0 mL of US Nano US4300 MWCNTs, 3 wt% aqueous dispersion.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Distinct dispersion option from the same product selector. Volume is the whole dispersion; dry CNT mass is not inferred. No equivalence to dry Nanocyl NC7000 or solvent-based source formulations. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4300 MWCNTs, 3 wt% aqueous dispersion](https://www.us-nano.com/inc/sdetail/215) — Product description and Order selector option 3542 (30ml - 3wt% dispersed in Water (add $120))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4300-mwcnt-water3pct` (component), `PACK-USNANO261018-FDE54B12276B37EC` (component_offer), `P09` (process), `P29` (process)
 
 
 ## PRICE-EV-3D9930A740D3A2D3
@@ -5295,6 +5845,20 @@ LabMakelaar Benelux B.V. publishes EUR 12650 for CEM MARS 6 (asking_price; used)
 - Source: [LabMakelaar Benelux B.V. public price](https://www.labmakelaar.eu/shop/all/saleable/ovens-incubators-and-climate/microwave/cem-mars-6-microwave-destructor/) — SKU/price, description and specifications; extracted lines 105-144.
 
 **Related records:** `M06-08` (equipment), `M06` (equipment_class), `SELL-PRICE261018-5B66E9D148470601` (seller_offer)
+
+
+## PRICE-EV-3E3E58CAC0AD7861
+
+US Research Nanomaterials publishes 96.0 dollars for 5.0 g of US Nano US4301 OH-functionalized MWCNTs.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4301 OH-functionalized MWCNTs](https://www.us-nano.com/inc/sdetail/216) — Product description and Order selector option 4 (5g (add $96))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4301-mwcnt-oh` (component), `PACK-USNANO261018-B16AFA8E9B12DE34` (component_offer), `P29` (process), `P37` (process)
 
 
 ## PRICE-EV-3F0E7D28D9FF002A
@@ -5329,16 +5893,44 @@ Lab Alley publishes USD 354.6 for SKU SOHYSL01N-20L, 20000 mL of Sodium hydroxid
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-20L) — Size/SKU table and assay; source states4gNaOH/L DIwater
 
 **Related records:** `naoh-01m` (component), `PACK-PRICE261018-1EA46B0E6ED47F82` (component_offer), `P33-SOURCE-01-C05` (formulation_component), `P33` (process)
 
 
+## PRICE-EV-432F3F74B503F670
+
+US Research Nanomaterials publishes 39.0 dollars for 5 g of US Nano US1011M Boron nitride powder, 800 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1011M Boron nitride powder, 800 nm](https://www.us-nano.com/inc/sdetail/742) — Product description and Order selector option 4 (5g (add $39))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-AA9AF659C773BD85` (component_offer), `P31` (process)
+
+
+## PRICE-EV-43DC0272D5C21036
+
+US Research Nanomaterials publishes 108.0 dollars for 25.0 g of US Nano US4300 MWCNTs, dry, OD &lt;7 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4300 MWCNTs, dry, OD &lt;7 nm](https://www.us-nano.com/inc/sdetail/215) — Product description and Order selector option 5 (25g (add $108))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4300-mwcnt-dry` (component), `PACK-USNANO261018-0C365BC9DB5D25F0` (component_offer), `P29` (process), `P37` (process)
+
+
 ## PRICE-EV-448EBFA1FF85C62A
 
-MilliporeSigma publishes USD 834 for SKU 270725-6X1L, 6000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 834 for SKU 270725-6X1L, 6000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5351,7 +5943,7 @@ MilliporeSigma publishes USD 834 for SKU 270725-6X1L, 6000 mL of Acetone, suitab
 
 ## PRICE-EV-4958825C26F16701
 
-MilliporeSigma publishes USD 251 for SKU 270725-4L, 4000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 251 for SKU 270725-4L, 4000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5360,6 +5952,20 @@ MilliporeSigma publishes USD 251 for SKU 270725-4L, 4000 mL of Acetone, suitable
 - Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
 
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-5E524081E35102EA` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-498E73F4D66DFD17
+
+US Research Nanomaterials publishes 680.0 dollars for 100.0 g of US Nano US1073 graphene nanoplatelets, 95+%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1073 graphene nanoplatelets, 95+%](https://www.us-nano.com/inc/sdetail/18480) — Product description and Order selector option 6 (100g (add $680))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1073-gnp-dry` (component), `PACK-USNANO261018-2F942EB43109D629` (component_offer), `P29` (process)
 
 
 ## PRICE-EV-4EB1064A0D2DDE69
@@ -5373,6 +5979,20 @@ Government Scientific Source publishes USD 92857.14 for Thermo Scientific Sorval
 - Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000090/EA/) — Product title, displayed price per EA, Part Number 75000090
 
 **Related records:** `M14-09` (equipment), `M14` (equipment_class), `SELL-PRICE261018-9B3C05ED917A1C3C` (seller_offer)
+
+
+## PRICE-EV-50F7C39E4EF839C0
+
+US Research Nanomaterials publishes 55.0 dollars for 1.0 g of US Nano US4302 COOH-functionalized MWCNTs.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4302 COOH-functionalized MWCNTs](https://www.us-nano.com/inc/sdetail/217) — Product description and Order selector option 14 (1g (add $55))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4302-mwcnt-cooh` (component), `PACK-USNANO261018-B41F2B91F17720C1` (component_offer), `P29` (process), `P37` (process)
 
 
 ## PRICE-EV-512197F10710588E
@@ -5415,6 +6035,20 @@ Certified Material Testing Products publishes USD 17791.58 for RETSCH PM 100 (pu
 **Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process), `SELL-PRICE261018-CF34A728624113D9` (seller_offer)
 
 
+## PRICE-EV-5AAE9D2D580F1210
+
+US Research Nanomaterials publishes 2800.0 dollars for 100.0 mL of US Nano US7906 graphene oxide, 1 wt% aqueous dispersion.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Priced volume is complete 1 wt% aqueous dispersion, not dry GO or an ethanol collector solution. Curated assembly/casting candidate; no solvent substitution, density or dry-mass conversion inferred. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US7906 graphene oxide, 1 wt% aqueous dispersion](https://www.us-nano.com/inc/sdetail/3766) — Product description and Order selector option 4308 (100g/100ml (add $2800))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us7906-go-water1pct` (component), `PACK-USNANO261018-69EA3ED20CED60B1` (component_offer), `P09` (process), `P29` (process)
+
+
 ## PRICE-EV-5E253516ED63702E
 
 BUCHI US Online Shop publishes USD 9901 for BUCHI Rotavapor R-80 (published_price; new).
@@ -5430,7 +6064,7 @@ BUCHI US Online Shop publishes USD 9901 for BUCHI Rotavapor R-80 (published_pric
 
 ## PRICE-EV-5EB73DBE70B23930
 
-MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5441,9 +6075,23 @@ MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suita
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-E512EEE1B63DC923` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-6338062C6FCB57FD
+
+US Research Nanomaterials publishes 168.0 dollars for 1 kg of US Nano US1133M Silicon dioxide / silica powder, 50 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical dry SiO2 nanoparticle identity and 50 nm size. Source paper used Nanocym 50 nm silica; this is another manufacturer. Treat as a specification-level candidate, with source performance, pore distribution and surface chemistry not guaranteed. Do not replace with pre-coated silica or a dispersion. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1133M Silicon dioxide / silica powder, 50 nm](https://www.us-nano.com/inc/sdetail/23095) — Product description and Order selector option 3767 (1kg-50nm (add $168))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1133m-silica50nm` (component), `PACK-USNANO261018-83E6AF378EA1FA01` (component_offer), `P08` (process), `P29` (process)
+
+
 ## PRICE-EV-657C0EF8B6983FF2
 
-Aladdin Scientific publishes USD 37.9 for SKU L407046-5g, 5 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+Aladdin Scientific publishes USD 37.9 for SKU L407046-5g, 5 g of Lead bromide, PrimorTrace â‰¥99.99% metals basis.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5452,6 +6100,48 @@ Aladdin Scientific publishes USD 37.9 for SKU L407046-5g, 5 g of Lead bromide, P
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html) — Grouped product items pack-price rows
 
 **Related records:** `lead-bromide-and-or-lead-iodide` (component), `PACK-PRICE261018-7A87F0231747688D` (component_offer), `P44-SOURCE-01-C02` (formulation_component), `P44` (process)
+
+
+## PRICE-EV-67743A1662690469
+
+US Research Nanomaterials publishes 208.0 dollars for 1.0 g of US Nano US4101 SWCNTs, dry.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4101 SWCNTs, dry](https://www.us-nano.com/inc/sdetail/378) — Product description and Order selector option 14 (1g (add $208))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-155A730A97C2D28A` (component_offer), `P29` (process)
+
+
+## PRICE-EV-6B3EC2C223273AA7
+
+US Research Nanomaterials publishes 166.0 dollars for 100 g of US Nano US1011M Boron nitride powder, 800 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1011M Boron nitride powder, 800 nm](https://www.us-nano.com/inc/sdetail/742) — Product description and Order selector option 6 (100g (add $166))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-1B67FC7BE71ED0F3` (component_offer), `P31` (process)
+
+
+## PRICE-EV-708175F4FAE6888A
+
+US Research Nanomaterials publishes 98.0 dollars for 100 g of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3964 (100g--thickness-300nm (add $98))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-D31B1573BC074A20` (component_offer), `P31` (process)
 
 
 ## PRICE-EV-78E0A535BE0CC2B6
@@ -5465,6 +6155,34 @@ Amikon GmbH publishes EUR 8500 for Tensor 27 (asking_price; used).
 - Source: [Amikon GmbH public price](https://www.amikon-shop.de/en/bruker-tensor-27-ft-ir-spectrometer/laboratikel/a-24509) — Product heading, item ID, condition, unit price and price footnote; extracted lines 19-35 and page footer.
 
 **Related records:** `SW17-M36-5A4504DC1F3D` (equipment), `M36` (equipment_class), `P05` (process), `SELL-PRICE261018-09395484AA15B317` (seller_offer)
+
+
+## PRICE-EV-7D61E44F4D119E90
+
+US Research Nanomaterials publishes 125.0 dollars for 0.5 g of US Nano US4101 SWCNTs, dry.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4101 SWCNTs, dry](https://www.us-nano.com/inc/sdetail/378) — Product description and Order selector option 31 (0.5g (add $125))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-2EAF8525ADDCF2B9` (component_offer), `P29` (process)
+
+
+## PRICE-EV-7D6457C4803F9A6C
+
+US Research Nanomaterials publishes 39.0 dollars for 1.0 g of US Nano US4300 MWCNTs, dry, OD &lt;7 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4300 MWCNTs, dry, OD &lt;7 nm](https://www.us-nano.com/inc/sdetail/215) — Product description and Order selector option 14 (1g (add $39))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4300-mwcnt-dry` (component), `PACK-USNANO261018-8B14B431BDADCB90` (component_offer), `P29` (process), `P37` (process)
 
 
 ## PRICE-EV-7DD0E3FCF3E713FE
@@ -5523,7 +6241,7 @@ Novus Ferro Pte Ltd publishes USD 5699 for Silverson L5M-A (asking_price; used).
 
 ## PRICE-EV-8295423E3995FDD8
 
-MilliporeSigma publishes USD 829 for SKU 270725-4X4L, 16000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 829 for SKU 270725-4X4L, 16000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5549,20 +6267,48 @@ Terra Universal / Laboratory Equipment publishes USD 11547 for Labconco RXPert B
 
 ## PRICE-EV-8C17F20FEBC67D5E
 
-Aladdin Scientific publishes USD 35.9 for SKU B108444-1g, 1 g of Benzidine, ≥98%.
+Aladdin Scientific publishes USD 35.9 for SKU B108444-1g, 1 g of Benzidine, â‰¥98%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8â€“12weeks; other packs listed US stock
 
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
 
 **Related records:** `benzidine` (component), `PACK-PRICE261018-8048C8B6ABF9F90F` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
 
 
+## PRICE-EV-8E4CBE6BBE574928
+
+US Research Nanomaterials publishes 98.0 dollars for 100 g of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3958 (100g--thickness-80nm (add $98))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn80nm` (component), `PACK-USNANO261018-BA2D965DBC48B0FA` (component_offer), `P31` (process)
+
+
+## PRICE-EV-8FD18440A8797152
+
+US Research Nanomaterials publishes 498.0 dollars for 1 kg of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3966 (1kg--thickness-300nm (add $498))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-CBFD5F846198D7D0` (component_offer), `P31` (process)
+
+
 ## PRICE-EV-9107B2AC5C7A614D
 
-MilliporeSigma publishes USD 501 for SKU 270725-4X2L, 8000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 501 for SKU 270725-4X2L, 8000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5589,15 +6335,29 @@ Government Scientific Source publishes USD 54000 for Thermo Scientific Nicolet i
 
 ## PRICE-EV-95974E6128E14048
 
-Lab Alley publishes USD 495.99 for SKU C4358-4L, 4000 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+Lab Alley publishes USD 495.99 for SKU C4358-4L, 4000 mL of Hydrofluoric Acid 48% Solution (48â€“51%), ACS Reagent Grade.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+**Scope:** Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Size/SKU table and Product Information assay
 
 **Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-14A207912560EFD9` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-F8220382E808D775` (component_offer)
+
+
+## PRICE-EV-97327E511819AA3F
+
+US Research Nanomaterials publishes 498.0 dollars for 1 kg of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3960 (1kg--thickness-80nm (add $498))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn80nm` (component), `PACK-USNANO261018-E197D0C4D9C5C809` (component_offer), `P31` (process)
 
 
 ## PRICE-EV-A02556D9BACD635C
@@ -5619,11 +6379,25 @@ Electron Microscopy Sciences publishes USD 29 for SKU 71893-05, 1 piece of Silic
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 µm and 8–30 Ω·cm, while this supplier allows 230–330 µm and prints resistance as 1–30 Ohms without cm. No exact match is asserted for either line.
+**Scope:** P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 Âµm and 8â€“30 Î©Â·cm, while this supplier allows 230â€“330 Âµm and prints resistance as 1â€“30 Ohms without cm. No exact match is asserted for either line. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P06 requires a patterned substrate without a reported size; this is unpatterned stock. P09 specifies 300 Âµm and 8â€“30 Î©Â·cm, while this supplier allows 230â€“330 Âµm and prints resistance as 1â€“30 Ohms without cm. No exact match is asserted for either line.
 
 - Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/silicon-wafers-type-p) — 71893-05 row and 2-inch specification column. Opened .
 
 **Related records:** `silicon-wafer` (component), `PACK-PRICE261018-1F5CCFFF7AC09905` (component_offer), `P06-LITERATURE-EXAMPLE-C01` (formulation_component), `P06` (process), `P09-LITERATURE-EXAMPLE-C04` (formulation_component), `P09` (process)
+
+
+## PRICE-EV-A0FE96FFC716D2EF
+
+US Research Nanomaterials publishes 280.0 dollars for 1.0 g of US Nano US1011 single-layer graphene, dry.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1011 single-layer graphene, dry](https://www.us-nano.com/inc/sdetail/25852) — Product description and Order selector option 14 (1g (add $280))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1011-graphene-dry` (component), `PACK-USNANO261018-F21DD225199B00B7` (component_offer), `P29` (process)
 
 
 ## PRICE-EV-A546B22832D7AAAF
@@ -5641,7 +6415,7 @@ Krackeler Scientific publishes USD 79.1 for SKU 45-81383-250G, 250 g of Mowiol 8
 
 ## PRICE-EV-A7792EDE42F80894
 
-MTI Corporation publishes USD 65 for SKU SOF252510S2, 1 piece of Fused silica substrate,1×1inch×1.0mm,both sides polished.
+MTI Corporation publishes USD 65 for SKU SOF252510S2, 1 piece of Fused silica substrate,1Ã—1inchÃ—1.0mm,both sides polished.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5665,13 +6439,27 @@ GMI publishes USD 3495 for Thermo Scientific Sorvall ST 8R (published_price; ref
 **Related records:** `M13-02` (equipment), `M13` (equipment_class), `P03` (process), `P04` (process), `P07` (process), `P08` (process), `P10` (process), `SELL-PRICE261018-50A868DC6C3D52BB` (seller_offer)
 
 
+## PRICE-EV-A98D388258FAD29A
+
+US Research Nanomaterials publishes 68.0 dollars for 100 g of US Nano US1133M Silicon dioxide / silica powder, 50 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical dry SiO2 nanoparticle identity and 50 nm size. Source paper used Nanocym 50 nm silica; this is another manufacturer. Treat as a specification-level candidate, with source performance, pore distribution and surface chemistry not guaranteed. Do not replace with pre-coated silica or a dispersion. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1133M Silicon dioxide / silica powder, 50 nm](https://www.us-nano.com/inc/sdetail/23095) — Product description and Order selector option 3766 (100g-50nm (add $68))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1133m-silica50nm` (component), `PACK-USNANO261018-687320652FDF65B1` (component_offer), `P08` (process), `P29` (process)
+
+
 ## PRICE-EV-AA32CD0A1F8BFE49
 
 Lab Alley publishes USD 111.72 for SKU SOHYSL01N-4L, 4000 mL of Sodium hydroxide0.1N aqueous solution.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution.
+**Scope:** Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39â€™s0.0225M solution.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-4L) — Size/SKU table and assay; source states4gNaOH/L DIwater
 
@@ -5719,7 +6507,7 @@ Government Scientific Source publishes USD 22734.38 for Thermo Scientific Evolut
 
 ## PRICE-EV-AEDAC830985AB3A3
 
-Aladdin Scientific publishes USD 285.9 for SKU L407046-100g, 100 g of Lead bromide, PrimorTrace ≥99.99% metals basis.
+Aladdin Scientific publishes USD 285.9 for SKU L407046-100g, 100 g of Lead bromide, PrimorTrace â‰¥99.99% metals basis.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5728,6 +6516,20 @@ Aladdin Scientific publishes USD 285.9 for SKU L407046-100g, 100 g of Lead bromi
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/lead-bromide-aladdin-scientific-l407046.html) — Grouped product items pack-price rows
 
 **Related records:** `lead-bromide-and-or-lead-iodide` (component), `PACK-PRICE261018-1F00FB629FE1F1A7` (component_offer), `P44-SOURCE-01-C02` (formulation_component), `P44` (process)
+
+
+## PRICE-EV-B2ECF8D74E1A0CF2
+
+US Research Nanomaterials publishes 575.0 dollars for 1 kg of US Nano US1149M Natural graphite flaky powder, 10 µm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 10µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 10µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. A nominal 10µm grade and 99.5% total carbon do not prove either the full 7–10µm range or the same purity basis. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1149M Natural graphite flaky powder, 10 µm](https://www.us-nano.com/inc/sdetail/34299) — Product description and Order selector option 539 (1kg-10um Natural Graphite (add $575))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1149m-natural-graphite10um` (component), `PACK-USNANO261018-553291A7160C508E` (component_offer), `P07` (process), `P34` (process), `P41` (process)
 
 
 ## PRICE-EV-B781A831788822DB
@@ -5741,6 +6543,20 @@ Fisher Scientific US publishes USD 6582.1 for Kinematica POLYTRON PT 3100 D (pub
 - Source: [Fisher Scientific US public price](https://www.fishersci.com/shop/products/kinematica-polytron-homogenizer-motors-2/08451730) — Selected voltage table, supplier SKU, price, Includes and stand note; extracted lines 37-100.
 
 **Related records:** `M11-06` (equipment), `M11` (equipment_class), `SELL-PRICE261018-4C50DE899FB49300` (seller_offer)
+
+
+## PRICE-EV-B8815028A6683B9E
+
+US Research Nanomaterials publishes 75.0 dollars for 25 g of US Nano US1011M Boron nitride powder, 800 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1011M Boron nitride powder, 800 nm](https://www.us-nano.com/inc/sdetail/742) — Product description and Order selector option 5 (25g (add $75))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-943315CCE85B0886` (component_offer), `P31` (process)
 
 
 ## PRICE-EV-B93DB41ADC41EA75
@@ -5798,15 +6614,29 @@ MilliporeSigma publishes USD 75.3 for SKU 258148-500ML, 500 mL of Hydrochloric a
 
 ## PRICE-EV-BB2845B765BE59F5
 
-Aladdin Scientific publishes USD 839.9 for SKU B108444-100g, 100 g of Benzidine, ≥98%.
+Aladdin Scientific publishes USD 839.9 for SKU B108444-100g, 100 g of Benzidine, â‰¥98%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8â€“12weeks; other packs listed US stock
 
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
 
 **Related records:** `benzidine` (component), `PACK-PRICE261018-34CF5891D5994989` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-BC43BB8341E11B3C
+
+US Research Nanomaterials publishes 980.0 dollars for 30.0 mL of US Nano US7905 graphene, 1 wt% aqueous dispersion.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Priced volume is the complete 1 wt% dispersion, not dry graphene. Curated assembly/casting candidate; dispersant and polymer compatibility require review. No density or dry-mass conversion inferred. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US7905 graphene, 1 wt% aqueous dispersion](https://www.us-nano.com/inc/sdetail/11386) — Product description and Order selector option 8 (30ml/30g (add $980))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us7905-graphene-water1pct` (component), `PACK-USNANO261018-101A1F3126934CDF` (component_offer), `P09` (process), `P29` (process)
 
 
 ## PRICE-EV-BCE7A498615DDFEE
@@ -5824,7 +6654,7 @@ Clarkson Laboratory & Supply publishes USD 16400 for Thermo Scientific Vacutherm
 
 ## PRICE-EV-C0522A57C55C9048
 
-MilliporeSigma publishes USD 151 for SKU 270725-2L, 2000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 151 for SKU 270725-2L, 2000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5833,6 +6663,20 @@ MilliporeSigma publishes USD 151 for SKU 270725-2L, 2000 mL of Acetone, suitable
 - Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
 
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-026FE16737949605` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-C0E80E63C54C4094
+
+US Research Nanomaterials publishes 280.0 dollars for 25.0 g of US Nano US1073 graphene nanoplatelets, 95+%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1073 graphene nanoplatelets, 95+%](https://www.us-nano.com/inc/sdetail/18480) — Product description and Order selector option 5 (25g (add $280))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1073-gnp-dry` (component), `PACK-USNANO261018-2AB786A306A0A5B7` (component_offer), `P29` (process)
 
 
 ## PRICE-EV-C2F6E50DD997A441
@@ -5861,6 +6705,20 @@ BUCHI US Online Shop publishes USD 9389 for BUCHI Rotavapor R-300 (published_pri
 **Related records:** `M16-06` (equipment), `M16` (equipment_class), `P04` (process)
 
 
+## PRICE-EV-C8624D8FDDED372B
+
+US Research Nanomaterials publishes 65.0 dollars for 5.0 g of US Nano US4300 MWCNTs, dry, OD &lt;7 nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US4300 MWCNTs, dry, OD &lt;7 nm](https://www.us-nano.com/inc/sdetail/215) — Product description and Order selector option 4 (5g (add $65))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4300-mwcnt-dry` (component), `PACK-USNANO261018-07DD7FA3307A5A13` (component_offer), `P29` (process), `P37` (process)
+
+
 ## PRICE-EV-C8AE0912AFE6D4A1
 
 LabPlanet publishes USD 3939 for Parr 4746 (published_price; new).
@@ -5874,13 +6732,41 @@ LabPlanet publishes USD 3939 for Parr 4746 (published_price; new).
 **Related records:** `M05-05` (equipment), `M05` (equipment_class), `SELL-PRICE261018-4218332C824DCE78` (seller_offer)
 
 
-## PRICE-EV-D107B52192BAB109
+## PRICE-EV-CB3534B7520CE8E2
 
-Lab Alley publishes USD 163.76 for SKU C4358-500ML, 500 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+US Research Nanomaterials publishes 168.0 dollars for 0.5 g of US Nano US1022 graphene oxide, dry.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+**Scope:** Commercial GO option. Different manufacturer and dimensional range from study-synthesized Scaffaro GO. Not an eligible replacement for its literature lines or property/quantity models; collector solvent, dispersion and formulation need review. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1022 graphene oxide, dry](https://www.us-nano.com/inc/sdetail/25856) — Product description and Order selector option 31 (0.5g (add $168))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1022-go-dry` (component), `PACK-USNANO261018-B15D37D9BAF12B0F` (component_offer), `P16` (process), `P20` (process), `P29` (process)
+
+
+## PRICE-EV-D00411D48E1817AC
+
+US Research Nanomaterials publishes 85.0 dollars for 5.0 g of US Nano US1073 graphene nanoplatelets, 95+%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1073 graphene nanoplatelets, 95+%](https://www.us-nano.com/inc/sdetail/18480) — Product description and Order selector option 4 (5g (add $85))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1073-gnp-dry` (component), `PACK-USNANO261018-E07DDAE1B2604C68` (component_offer), `P29` (process)
+
+
+## PRICE-EV-D107B52192BAB109
+
+Lab Alley publishes USD 163.76 for SKU C4358-500ML, 500 mL of Hydrofluoric Acid 48% Solution (48â€“51%), ACS Reagent Grade.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML) — Size/SKU table and Product Information assay
 
@@ -5900,9 +6786,23 @@ Clarkson Laboratory & Supply publishes USD 16300 for Thermo Scientific Barnstead
 **Related records:** `M46-03` (equipment), `M46` (equipment_class), `P03` (process), `P05` (process), `P09` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-84FB22BDBAF4C27C` (seller_offer)
 
 
+## PRICE-EV-D90FB3CDF223E51B
+
+US Research Nanomaterials publishes 268.0 dollars for 5.0 g of US Nano US1059 graphene nanoplatelets, 99.5+%.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1059 graphene nanoplatelets, 99.5+%](https://www.us-nano.com/inc/sdetail/3767) — Product description and Order selector option 4 (5g (add $268))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1059-gnp-dry` (component), `PACK-USNANO261018-BAC3543148C009D5` (component_offer), `P29` (process)
+
+
 ## PRICE-EV-D938B3047A076A2B
 
-MilliporeSigma publishes USD 79.6 for SKU 258105-500ML, 500 mL of Sulfuric acid, 95.0–98.0%, ACS reagent.
+MilliporeSigma publishes USD 79.6 for SKU 258105-500ML, 500 mL of Sulfuric acid, 95.0â€“98.0%, ACS reagent.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5915,37 +6815,51 @@ MilliporeSigma publishes USD 79.6 for SKU 258105-500ML, 500 mL of Sulfuric acid,
 
 ## PRICE-EV-DB341CEBDBDE0ACA
 
-Aladdin Scientific publishes USD 117.9 for SKU B108444-5g, 5 g of Benzidine, ≥98%.
+Aladdin Scientific publishes USD 117.9 for SKU B108444-5g, 5 g of Benzidine, â‰¥98%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8–12weeks; other packs listed US stock
+**Scope:** Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Same free-base benzidine identity as P31; the source line does not specify a stricter grade. Its3.7g charge is a stock-preparation basis, not automatically an extra final-batch consumed cost. 5g made to order8â€“12weeks; other packs listed US stock
 
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
 
 **Related records:** `benzidine` (component), `PACK-PRICE261018-D754149F4A10AF18` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
 
 
-## PRICE-EV-DC6FEBA98DB976FE
+## PRICE-EV-DB5D29817021AE7C
 
-Electron Microscopy Sciences publishes USD 29 for SKU 71883-01, 144 piece of Diamond white glass slide, plain,90°ground edge,25×75×1mm.
+US Research Nanomaterials publishes 96.0 dollars for 5.0 g of US Nano US4302 COOH-functionalized MWCNTs.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25×75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
 
-- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10×144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
+- Source: [US Nano US4302 COOH-functionalized MWCNTs](https://www.us-nano.com/inc/sdetail/217) — Product description and Order selector option 4 (5g (add $96))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us4302-mwcnt-cooh` (component), `PACK-USNANO261018-2648A6AE1D0426F5` (component_offer), `P29` (process), `P37` (process)
+
+
+## PRICE-EV-DC6FEBA98DB976FE
+
+Electron Microscopy Sciences publishes USD 29 for SKU 71883-01, 144 piece of Diamond white glass slide, plain,90Â°ground edge,25Ã—75Ã—1mm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** 25Ã—75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. 25Ã—75mm slide dimensions match P27; source does not impose a specific glass composition or thickness. This is purchased substrate count, not a claim that one entire pack is consumed.
+
+- Source: [Electron Microscopy Sciences product pack offer](https://www.emsdiasum.com/diamond-white-glass-microscope-slides) — Product table; note144pack and10Ã—144pack are sale units;72/plastic box is inner packaging. Opened  and SKU detail
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-PRICE261018-6332AA3A9C721382` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
 
 
 ## PRICE-EV-DD7491F9B2D296F7
 
-Government Scientific Source publishes USD 293.33 for SKU 042953-VU, 1 piece of Graphite foil, 0.5 mm, 99.8% metals basis, 15×250 cm.
+Government Scientific Source publishes USD 293.33 for SKU 042953-VU, 1 piece of Graphite foil, 0.5 mm, 99.8% metals basis, 15Ã—250 cm.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15×250 cm. Do not misread the seller value 15 per EA as 15 sheets.
+**Scope:** P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15Ã—250 cm. Do not misread the seller value 15 per EA as 15 sheets. Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P41 does not state foil thickness, area or count. This is reference stock foil only. The manufacturer page for exact SKU 042953.VU establishes 15Ã—250 cm. Do not misread the seller value 15 per EA as 15 sheets.
 
 - Source: [Government Scientific Source product pack offer](https://www.govsci.com/product-detail/Alfa--Aesar/042953-VU/EA/) — Seller price $293.33 USD/EA. Exact SKU dimensions corroborated by the linked Thermo Fisher product page. Opened sources  and .
 
@@ -5954,7 +6868,7 @@ Government Scientific Source publishes USD 293.33 for SKU 042953-VU, 1 piece of 
 
 ## PRICE-EV-E13D3317B2E11638
 
-Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium turnings, 5–25 mm, 99.95% trace metals basis.
+Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium turnings, 5â€“25 mm, 99.95% trace metals basis.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5967,7 +6881,7 @@ Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium
 
 ## PRICE-EV-E3F9E6F82EE16635
 
-Krackeler Scientific publishes USD 510 for SKU 45-P4663-100MG, 100 mg of Poly-L-arginine hydrochloride, MW 5,000–15,000.
+Krackeler Scientific publishes USD 510 for SKU 45-P4663-100MG, 100 mg of Poly-L-arginine hydrochloride, MW 5,000â€“15,000.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -5997,7 +6911,7 @@ Government Scientific Source publishes USD 11,550 per VR-6000 measurement contro
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** CONTROLLER ONLY — not a complete optical profilometer. Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.
+**Scope:** CONTROLLER ONLY â€” not a complete optical profilometer. Published distributor price for exact VR-6000 controller only, not a complete optical profilometer. No VR-6100/VR-6200 head, stage, dedicated PC or software bundle is established by this offer. Condition is not stated, lead time requires confirmation, and taxes/freight are not established. Do not use as new complete-profiler budget or MSRP.
 
 - Source: [Government Scientific Source VR-6000 measurement controller](https://www.govsci.com/product-detail/Keyence--Corp/VR-6000/EA/) — Price $11,550.00/EA; Product Description; Specifications inventory number and part number
 - Source: [KEYENCE exact VR-6000 model specifications](https://www.keyence.com/products/3d-measure/3d-scanner/vr-6000/models/vr-6000/) — Model; Type: Controller; Head: VR-6200, VR-6100
@@ -6005,9 +6919,37 @@ Government Scientific Source publishes USD 11,550 per VR-6000 measurement contro
 **Related records:** `REQ-EQ-010` (equipment), `X-MET` (equipment_class), `SELL-KEYENCE261018-VR6000-CONTROLLER` (seller_offer)
 
 
+## PRICE-EV-E885D5D81E203EAA
+
+US Research Nanomaterials publishes 288.0 dollars for 1.0 g of US Nano US1022 graphene oxide, dry.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Commercial GO option. Different manufacturer and dimensional range from study-synthesized Scaffaro GO. Not an eligible replacement for its literature lines or property/quantity models; collector solvent, dispersion and formulation need review. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1022 graphene oxide, dry](https://www.us-nano.com/inc/sdetail/25856) — Product description and Order selector option 14 (1g (add $288))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1022-go-dry` (component), `PACK-USNANO261018-4EDDC3D0513AAC87` (component_offer), `P16` (process), `P20` (process), `P29` (process)
+
+
+## PRICE-EV-E9CEBFF45AF7B645
+
+US Research Nanomaterials publishes 298.0 dollars for 500 g of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm](https://www.us-nano.com/inc/sdetail/34301) — Product description and Order selector option 3959 (500g--thickness-80nm (add $298))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1153m-bn80nm` (component), `PACK-USNANO261018-967C96B712E2350A` (component_offer), `P31` (process)
+
+
 ## PRICE-EV-EB17CA6BEDB33514
 
-MilliporeSigma publishes USD 747 for SKU 650579-4X4L, 16000 mL of Toluene HPLC Plus, ≥99.9%.
+MilliporeSigma publishes USD 747 for SKU 650579-4X4L, 16000 mL of Toluene HPLC Plus, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -6018,22 +6960,50 @@ MilliporeSigma publishes USD 747 for SKU 650579-4X4L, 16000 mL of Toluene HPLC P
 **Related records:** `toluene-hplc` (component), `PACK-PRICE261018-ED6EF7B269FD5C8D` (component_offer), `P23-LITERATURE-20261017-C07` (formulation_component), `P23` (process)
 
 
-## PRICE-EV-F3DE3D0D205AA504
+## PRICE-EV-ED0BF83308FCAAEF
 
-Lab Alley publishes USD 1632.85 for SKU C4358-4LCS, 16000 mL of Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade.
+US Research Nanomaterials publishes 465.0 dollars for 25.0 g of US Nano US1059 graphene nanoplatelets, 99.5+%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
-**Scope:** Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
+**Scope:** Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1059 graphene nanoplatelets, 99.5+%](https://www.us-nano.com/inc/sdetail/3767) — Product description and Order selector option 5 (25g (add $465))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1059-gnp-dry` (component), `PACK-USNANO261018-4A26090A044DDD80` (component_offer), `P29` (process)
+
+
+## PRICE-EV-F3DE3D0D205AA504
+
+Lab Alley publishes USD 1632.85 for SKU C4358-4LCS, 16000 mL of Hydrofluoric Acid 48% Solution (48â€“51%), ACS Reagent Grade.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48â€“51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent.
 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Size/SKU table and Product Information assay
 
 **Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-5E07D99CCE54CEEF` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-67710B0FC05085B2` (component_offer)
 
 
+## PRICE-EV-F8B960C99595FFF4
+
+US Research Nanomaterials publishes 95.0 dollars for 100 g of US Nano US1149M Natural graphite flaky powder, 10 µm.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 10µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 10µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. A nominal 10µm grade and 99.5% total carbon do not prove either the full 7–10µm range or the same purity basis. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US1149M Natural graphite flaky powder, 10 µm](https://www.us-nano.com/inc/sdetail/34299) — Product description and Order selector option 538 (100g-10um Natural Graphite (add $95))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us1149m-natural-graphite10um` (component), `PACK-USNANO261018-72006205FFA80127` (component_offer), `P07` (process), `P34` (process), `P41` (process)
+
+
 ## PRICE-EV-FA62B6FFE513114E
 
-MilliporeSigma publishes USD 108 for SKU 270725-1L, 1000 mL of Acetone, suitable for HPLC, ≥99.9%.
+MilliporeSigma publishes USD 108 for SKU 270725-1L, 1000 mL of Acetone, suitable for HPLC, â‰¥99.9%.
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -6059,7 +7029,7 @@ LabRulez publishes EUR 8500 for Agilent Cary 60 (asking_price; refurbished).
 
 ## PRICE-EV-FD3BD61EFBD4EDCF
 
-Nexera Scientific publishes USD 7 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 × 25 mm).
+Nexera Scientific publishes USD 7 for one pack of 72 United Scientific MSL3X1 plain glass slides (75 Ã— 25 mm).
 
 **Classification:** curator_reviewed_price · **Checked:** 2026-10-18
 
@@ -6069,6 +7039,20 @@ Nexera Scientific publishes USD 7 for one pack of 72 United Scientific MSL3X1 pl
 - Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-8FA896F5CDD1C69B` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-FDA2B7842A716BD7
+
+US Research Nanomaterials publishes 980.0 dollars for 30.0 mL of US Nano US7906 graphene oxide, 1 wt% aqueous dispersion.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-18
+
+**Scope:** Priced volume is complete 1 wt% aqueous dispersion, not dry GO or an ethanol collector solution. Curated assembly/casting candidate; no solvent substitution, density or dry-mass conversion inferred. Product specifications are vendor claims. Price does not establish process performance, dosage or measured output.
+
+- Source: [US Nano US7906 graphene oxide, 1 wt% aqueous dispersion](https://www.us-nano.com/inc/sdetail/3766) — Product description and Order selector option 40 (30g/30ml (add $980))
+- Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
+
+**Related records:** `usnano-us7906-go-water1pct` (component), `PACK-USNANO261018-12D012C41B6E9844` (component_offer), `P09` (process), `P29` (process)
 
 
 ## TC-M01

@@ -105,6 +105,7 @@ class Requirements(Contract):
     optional_category_ids: list[Text]
     optional_branches: list[list[Text]] = Field(default_factory=list)
     allowed_subtypes_by_category: dict[str, list[Text]] = Field(default_factory=dict)
+    prerequisite_source_step_orders: list[Text] | None = None
     when_selected: list[dict] = Field(default_factory=list)
     unresolved_required_equipment: StrictBool
     readiness_review_required: StrictBool

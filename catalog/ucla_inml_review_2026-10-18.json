@@ -1,0 +1,1889 @@
+{
+  "schema_version": "ucla_inml_gap_research_1.0",
+  "review_date": "2026-10-18",
+  "requested_source": "https://inml.cnsi.ucla.edu/equipment/",
+  "scope": "Read-only source research; canonical catalog, app, Git and Sites not modified.",
+  "summary": {
+    "equipment_pages_reviewed": 8,
+    "named_model_families": 12,
+    "GEN930_institution_configurations": 2,
+    "model_absence_basis": "Parent preliminary normalized-model comparison found all 12 named families absent; this file does not repeat that canonical comparison.",
+    "verified_current_USD_prices": 0,
+    "verified_historical_or_undated_manufacturer_USD_prices": 1
+  },
+  "global_scope_rules": [
+    "UCLA source URLs dated 2022 are historical facility listings reviewed in 2026, not verified current availability, reserve eligibility or operational status.",
+    "Complete UCLA setups, component model families and manufacturer current generic products are separate scopes.",
+    "Photos of a whole UCLA setup cannot independently verify every included component or be labeled exact standalone component imagery.",
+    "Unmodeled NKT, Oxford, ARS, Princeton IR-CCD, RF source, laser, cryostat and objective entries remain apparatus descriptions; no invented model names.",
+    "No scientific article methods were reviewed in this bounded research. Publication titles remain discovery metadata only.",
+    "Do not load hardware capability maxima/ranges as process setpoints; no growth conditions, doping doses, yields or MSRP were inferred.",
+    "All names are proposed integration keys, not assigned canonical category, material, process or equipment IDs."
+  ],
+  "sources": [
+    {
+      "source_id": "UCLA-EQUIPMENT",
+      "title": "Equipment — Integrated NanoMaterials Laboratory",
+      "url": "https://inml.cnsi.ucla.edu/equipment/",
+      "source_kind": "institution_equipment_index",
+      "checked_date": "2026-10-18",
+      "claim_context": "Index links eight equipment setup pages; named models are drawn from those pages, not from assumptions about the index."
+    },
+    {
+      "source_id": "UCLA-HF",
+      "title": "High-frequency probe station",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/high-frequency-probe-station/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Lists electronic/optoelectronic probing below 50 GHz, optical photoresponse access and integrated I-V/C-V measurements; no manufacturer or model identified."
+    },
+    {
+      "source_id": "UCLA-TTPX",
+      "title": "Cryogenic-Temperature Probe Station",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-probe-station/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "Agilent 4156C precision semiconductor parameter analyzer",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Names Lake Shore TTPX with liquid nitrogen/liquid helium operation, I-V/C-V, Agilent 4156C, Agilent E4980A (20 Hz–2 MHz), and fiber-coupled illumination."
+    },
+    {
+      "source_id": "UCLA-BBPL",
+      "title": "Broad-band Photoluminescence Characterization",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/broad-band-photoluminescence-characterization/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "Acton SP2300 Spectrometer",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Room-temperature PL setup uses Acton SP2300, Si/InGaAs/extended-InGaAs detectors, visible-to-about-2.5 µm coverage, 200 mW 532 nm CW excitation, SR830 and EG&G 7265 lock-ins."
+    },
+    {
+      "source_id": "UCLA-MICROPL",
+      "title": "Micro-Photoluminescence Spectroscopy",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/micro-photoluminescence-spectroscopy/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "PicoHarp 300 TCSPC for time-resolved PL",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Single-nanostructure near-IR PL/TRPL setup lists Acton SP2500, Princeton Instrument spectral 2D IR-CCD, 532 nm CW and NKT tunable excitation, 50×/100× NIR objectives, open-cycle Janis/Oxford cryostats and PicoHarp 300. Its detector/excitation/system spectral ranges describe the configured setup, not the standalone spectrograph or TCSPC electronics."
+    },
+    {
+      "source_id": "UCLA-CRYOPL",
+      "title": "Cryogenic-Temperature Photoluminescence Spectroscopy",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/cryogenic-temperature-photoluminescence-spectroscopy/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "ARS closed-cycle cryostat (7K)",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Temperature-dependent PL setup lists 7–300 K operation, Acton SP2500 with triple gratings, 532 nm CW and NKT excitation, an ARS closed-cycle cryostat, and visible-to-1700 nm time-resolved PL. No ARS or NKT model number is supplied."
+    },
+    {
+      "source_id": "UCLA-FTIR",
+      "title": "FTIR Spectroscopy",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/ftir-spectroscopy/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "Thermo Scientific Nicolet 8700 FTIR",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "Configured Thermo Scientific Nicolet 8700 setup supports infrared PL/transmission/absorption/reflection, several detector materials spanning about 800 nm–10 µm, step-scan attachments, Janis ST-500 or Oxford liquid-helium cryostats, Nicolet Continuum microscopy and electrical I-V/C-V integration."
+    },
+    {
+      "source_id": "UCLA-NMBE",
+      "title": "N-MBE system",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/n-mbe-system/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "N plasma source with RF generator",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "GEN-930 configuration for (In, Ga, Al)-N epitaxy: In/Ga effusion and Al SUMO sources, RF nitrogen plasma, automated nitrogen delivery, substrate heater rated 1200 °C, Si/Mg dopant cells, wafer capacity up to 3 inches, MOLLY control, 100 amu RGA and RHEED/KSA400. The heater rating is equipment capability, not a growth setpoint."
+    },
+    {
+      "source_id": "UCLA-ASSBMBE",
+      "title": "As/Sb-MBE system",
+      "url": "https://inml.cnsi.ucla.edu/2022/01/19/as-sb-mbe-system/",
+      "source_kind": "institution_equipment_listing",
+      "checked_date": "2026-10-18",
+      "short_extract": "Si, Te and Be cells for doping",
+      "publication_date_basis": "2022-01-19 in canonical URL",
+      "claim_context": "GEN-930 configuration for (In, Ga, Al)/(As, Sb) epitaxy: In/Ga/Al SUMO sources, As/Sb valved crackers, Si/Te/Be dopant cells, up-to-3-inch holder, MOLLY, 200 amu RGA, optical pyrometer measuring 440–800 °C, RHEED/KSA400. Pyrometer range is measurement capability, not a growth recipe."
+    },
+    {
+      "source_id": "UCLA-PROJECTS",
+      "title": "Projects — INML",
+      "url": "https://inml.cnsi.ucla.edu/projects/",
+      "source_kind": "institution_project_index",
+      "checked_date": "2026-10-18",
+      "claim_context": "Lists research project themes; project descriptions establish contextual material relevance, not checked article methods."
+    },
+    {
+      "source_id": "UCLA-INTEGRATION",
+      "title": "Dissimilar Nanomaterials Integration",
+      "url": "https://inml.cnsi.ucla.edu/project/dissimilar-nanomaterials-integration/",
+      "source_kind": "institution_project_description",
+      "checked_date": "2026-10-18",
+      "claim_context": "Discusses GaSb-on-GaAs through interfacial misfit growth and III-Sb superlattice infrared devices. GaAs/GaSb substrate mentions apply to this project, not all GEN-930 work."
+    },
+    {
+      "source_id": "UCLA-TPV",
+      "title": "Thermophotovoltaics",
+      "url": "https://inml.cnsi.ucla.edu/project/thermophotovoltaics/",
+      "source_kind": "institution_project_description",
+      "checked_date": "2026-10-18",
+      "claim_context": "Describes III-Sb thermophotovoltaic epi layers on GaAs and Si using interfacial misfit technology; project-specific material evidence, without methods or operating values."
+    },
+    {
+      "source_id": "UCLA-QD",
+      "title": "High Efficiency Quantum Dot Solar Cells",
+      "url": "https://inml.cnsi.ucla.edu/project/high-efficiency-quantum-dot-solar-cells/",
+      "source_kind": "institution_project_description",
+      "checked_date": "2026-10-18",
+      "claim_context": "Proposes self-assembled III-(As,Sb) quantum dots in a p-i-n intrinsic region. Performance targets and theoretical predictions are not measured yield or conversion efficiency evidence."
+    },
+    {
+      "source_id": "UCLA-VECSEL",
+      "title": "Efficient and High Power MWIR VECSELs",
+      "url": "https://inml.cnsi.ucla.edu/projects/mwir-vecsels/",
+      "source_kind": "institution_project_description",
+      "checked_date": "2026-10-18",
+      "claim_context": "Describes GaInSb/AlGaSb type-I quantum-well active regions, AlGaAs/GaAs DBRs and monolithic growth on GaAs. It is project context, without verified article methods."
+    },
+    {
+      "source_id": "UCLA-IR",
+      "title": "III-V semiconductor IR detector",
+      "url": "https://inml.cnsi.ucla.edu/projects/ir-detector/",
+      "source_kind": "institution_project_description",
+      "checked_date": "2026-10-18",
+      "claim_context": "Page is under construction; title supports only topic discovery, no method or instrument-use claim."
+    },
+    {
+      "source_id": "LS-TTPX",
+      "title": "TTPX cryogenic probe station",
+      "url": "https://www.lakeshore.com/products/categories/overview/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station",
+      "source_kind": "manufacturer_product_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Identifies TTPX as a continuous-flow cryogenic probe station with liquid helium/nitrogen cooling and configurable electrical/optical probing. Current generic product configuration is not proof UCLA has every option."
+    },
+    {
+      "source_id": "LS-TTPX-SPEC",
+      "title": "TTPX probe station specifications",
+      "url": "https://www.lakeshore.com/products/categories/specification/material-characterization-products/cryogenic-probe-stations/model-ttpx-cryogenic-probe-station",
+      "source_kind": "manufacturer_technical_specification",
+      "checked_date": "2026-10-18",
+      "claim_context": "Lists LHe/LN2 cooling and configuration-dependent temperature/sample/probe specifications. Use this source for capability; avoid copying present-day option values onto UCLA's 2022 setup."
+    },
+    {
+      "source_id": "LS-TTPX-MAN",
+      "title": "Model TTPX Probe Station manual",
+      "url": "https://www.lakeshore.com/docs/default-source/software/manuals/probe-station-manual/ttpx-manual.pdf",
+      "source_kind": "manufacturer_manual",
+      "checked_date": "2026-10-18",
+      "access_status": "official_pdf_located_not_parsed_size_limit",
+      "claim_context": "Official model-specific manual URL indexed by manufacturer; PDF fetch exceeded 30 MB web-tool length limit. Manual contents were not used for operating claims."
+    },
+    {
+      "source_id": "LS-ST500",
+      "title": "ST-500 Series microscopy cryostats",
+      "url": "https://www.lakeshore.com/products/product-detail/janis/st-500-microscopy-cryostat",
+      "source_kind": "manufacturer_product_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Identifies Environment by Janis ST-500 optical microscopy/photoluminescence cryostat; current series includes ST-500, ST-500-C and ST-500-LGV. Do not assign current family options to the historical UCLA asset."
+    },
+    {
+      "source_id": "LS-ST500-DATA",
+      "title": "Lake Shore ST-500 Series Cryostats datasheet",
+      "url": "https://www.lakeshore.com/docs/default-source/default-document-library/st-500-series505f048e-194a-4d5d-9826-593fb5b58529.pdf?sfvrsn=1d356fbe_23",
+      "source_kind": "manufacturer_datasheet",
+      "checked_date": "2026-10-18",
+      "claim_context": "Four-page ST-500 family datasheet includes exact ST-500 and other variant columns; distinct variants and optional recirculating cryogen-free upgrades are not the same UCLA configuration."
+    },
+    {
+      "source_id": "SRS-SR830",
+      "title": "SR830 — DSP lock-in amplifier",
+      "url": "https://www.thinksrs.com/products/sr830.html",
+      "source_kind": "manufacturer_product_page",
+      "checked_date": "2026-10-18",
+      "short_extract": "This product is discontinued.",
+      "claim_context": "Manufacturer identifies SR830, supplies exact-model photos, technical specifications, manual and datasheet, and marks it discontinued."
+    },
+    {
+      "source_id": "SRS-SR830-MAN",
+      "title": "DSP Lock-In Amplifier model SR830 manual",
+      "url": "https://www.thinksrs.com/downloads/pdfs/manuals/SR830m.pdf",
+      "source_kind": "manufacturer_manual",
+      "checked_date": "2026-10-18",
+      "claim_context": "Model-specific official operating/service manual URL is linked from the manufacturer product page."
+    },
+    {
+      "source_id": "SRS-SR830-DATA",
+      "title": "SR830 DSP Lock-In Amplifiers datasheet",
+      "url": "https://www.thinksrs.com/downloads/pdfs/catalog/SR830c.pdf",
+      "source_kind": "manufacturer_datasheet",
+      "checked_date": "2026-10-18",
+      "short_extract": "SR830 ... $5995 (U.S. list)",
+      "price_temporal_scope": "historical_or_undated_official_list_not_current_offer",
+      "claim_context": "Three-page manufacturer datasheet identifies Stanford Research Systems and SR830, and lists a US list price of $5,995 on PDF pages 1 and 2. Publication/price effective date is not established; manufacturer page now says discontinued."
+    },
+    {
+      "source_id": "SR-7265",
+      "title": "7265 Dual Phase DSP Lock-in Amplifier",
+      "url": "https://www.ameteksi.com/support-center/legacy-products/signal-recovery-legacy/lock-in-amplifier-legacy/7265-dual-phase-lock-in-amplifier",
+      "source_kind": "manufacturer_legacy_product_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Signal Recovery/AMETEK legacy page identifies 7265, model-specific image, 250 kHz dual-phase DSP function and links manual. Explains origin from Princeton Applied Research/EG&G; preserve UCLA's historical EG&G branding."
+    },
+    {
+      "source_id": "SR-7265-MAN",
+      "title": "Model 7265 User Manual",
+      "url": "https://www.ameteksi.com/-/media/ameteksi/download_links/documentations/7265/190284-a-mnl-c.pdf?revision=819bfbd0-51d7-4371-89ea-50f14b69ce5f",
+      "source_kind": "manufacturer_manual_link",
+      "checked_date": "2026-10-18",
+      "access_status": "email_gated_official_manual_link",
+      "claim_context": "Exact-model manual is linked from official product page. Opening redirects to an email-required download form; manual body was not read."
+    },
+    {
+      "source_id": "PQ-PH300",
+      "title": "PicoHarp 300 discontinued",
+      "url": "https://www.picoquant.com/news/picoharp-300-discontinued/",
+      "source_kind": "manufacturer_lifecycle_page",
+      "checked_date": "2026-10-18",
+      "publication_date": "2024-09-01",
+      "short_extract": "discontinued as of September 2024",
+      "claim_context": "PicoQuant states PicoHarp 300 stopped new orders in September 2024; PicoHarp 330 is successor, not equivalent exact model."
+    },
+    {
+      "source_id": "PQ-PH300-MAN",
+      "title": "PicoHarp 300 User's Manual and Technical Data",
+      "url": "https://www.picoquant.com/dl_manuals/discontinued/PicoHarp300_Manual.pdf",
+      "source_kind": "manufacturer_manual",
+      "checked_date": "2026-10-18",
+      "access_status": "official_pdf_indexed_fetch_error",
+      "claim_context": "Official discontinued-product manual identifies PicoHarp 300 TCSPC/event timer, software version 3.0.0.3, October 2015; linked PDF indexed, live fetch returned internal error."
+    },
+    {
+      "source_id": "KS-4156C",
+      "title": "4156C Precision Semiconductor Parameter Analyzer",
+      "url": "https://www.keysight.com/us/en/product/4156C/precision-semiconductor-parameter-analyzer.html",
+      "source_kind": "manufacturer_legacy_product_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Official successor-support page title identifies 4156C and marks obsolete. UCLA calls its instrument Agilent; keep historical name and Keysight as support successor."
+    },
+    {
+      "source_id": "KS-4156C-MAN",
+      "title": "4155C/4156C Semiconductor Parameter Analyzer User's Guide, General Information",
+      "url": "https://www.keysight.com/us/en/assets/9018-04951/user-manuals/9018-04951.pdf",
+      "source_kind": "manufacturer_manual_landing_page",
+      "checked_date": "2026-10-18",
+      "access_status": "official_shared_model_manual_landing_page",
+      "claim_context": "Official manual listing publication 04156-90000 (2009-07-01) explicitly includes both 4155C and 4156C; URL presents a gated landing page rather than an immediately retrievable PDF."
+    },
+    {
+      "source_id": "KS-E4980A",
+      "title": "E4980A Precision LCR Meter, 20 Hz to 2 MHz",
+      "url": "https://www.keysight.com/us/en/product/E4980A/precision-lcr-meter-20-hz-to-2-mhz.html",
+      "source_kind": "manufacturer_product_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Official product identity confirms E4980A LCR meter; UCLA historical branding is Agilent. No exact public current USD price verified."
+    },
+    {
+      "source_id": "KS-E4980A-MAN",
+      "title": "E4980A Precision LCR Meter User's Guide",
+      "url": "https://www.keysight.com/us/en/assets/9018-06156/user-manuals/9018-06156.pdf",
+      "source_kind": "manufacturer_manual_landing_page",
+      "checked_date": "2026-10-18",
+      "access_status": "official_exact_model_manual_landing_page",
+      "claim_context": "Official E4980A manual publication E4980-90000 dated 2006-03-01; URL presents a gated landing page. Distinguish E4980A-only guide from newer E4980A/AL joint guide."
+    },
+    {
+      "source_id": "TF-8700-MAN",
+      "title": "269-234600 Rev A Nicolet 8700 USB Version User Guide",
+      "url": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Retired_Molecular_Spectroscopy_Products/Retired_Molecular_Spectroscopy_Products_Operator_Manuals/269-234600_-_Rev_A_-_Nicolet_8700_USB_Version_User_Guide",
+      "source_kind": "manufacturer_manual_landing_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Official retired-products guide for Nicolet 8700 USB; UCLA does not specify USB vs PCI hardware. Exact model, interface-variant match unverified. PDF attachment exists but signed storage redirect could not be read."
+    },
+    {
+      "source_id": "TF-CONT-MAN",
+      "title": "269-239701 Rev A Nicolet Continuum User Guide",
+      "url": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-239701_-_Rev_A_-_Nicolet_Continuum_User_Guide",
+      "source_kind": "manufacturer_manual_landing_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Official Nicolet Continuum guide states it covers use with a Nicolet Series spectrometer; supports treating microscope as coupled equipment, not a self-contained Nicolet 8700 replacement."
+    },
+    {
+      "source_id": "TF-CONT-SAFETY",
+      "title": "269-153102 Rev A Continuum Microscope Site and Safety Guide",
+      "url": "https://knowledge1.thermofisher.com/Molecular_Spectroscopy/Fourier_Transform_FT_Infrared_IR_and_Near_Infrared_NIR/Nicolet_Microscopes/Nicolet_Microscope_Operator_Manuals/269-153102_-_Rev_A_-_Continuum_Microscope_Site_and_Safety_Guide",
+      "source_kind": "manufacturer_manual_landing_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Official site/safety manual for exact microscope family; it is not the user/operating guide."
+    },
+    {
+      "source_id": "PI-SP2500I-MAN",
+      "title": "Acton Series SP-2500i Operating Instructions",
+      "url": "https://ridl.cfd.rit.edu/products/manuals/Princeton%20Acton/SP-2500i.pdf",
+      "source_kind": "manufacturer_authored_manual_institution_mirror",
+      "checked_date": "2026-10-18",
+      "host_status": "institutional_mirror",
+      "manual_match": "related_family_suffix_not_confirmed",
+      "claim_context": "RIT-hosted Princeton Instruments manual identifies Acton Series SP-2500i, rev 4.09.23, 500 mm triple-grating imaging monochromator/spectrograph. UCLA says SP2500 without i, so this is related-family documentation, not proven suffix equivalence."
+    },
+    {
+      "source_id": "PI-SP2300-OFFICIAL",
+      "title": "Broadband Photoluminescence Material Spectroscopy",
+      "url": "https://www.teledynevisionsolutions.com/en-hk/learn/learning-center/scientific-imaging/broadband-photoluminescence-material-spectroscopy/",
+      "source_kind": "manufacturer_application_page",
+      "checked_date": "2026-10-18",
+      "claim_context": "Teledyne identifies Princeton Instruments SP2300i spectrograph in another lab's setup. Confirms manufacturer family identity; does not establish UCLA's omitted i suffix, detectors or present availability."
+    },
+    {
+      "source_id": "VEECO-LEGACY",
+      "title": "Phosphorus Recovery System product specifications",
+      "url": "https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf",
+      "source_kind": "manufacturer_component_datasheet",
+      "checked_date": "2026-10-18",
+      "claim_context": "Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment."
+    }
+  ],
+  "category_recommendations": [
+    {
+      "key": "mbe",
+      "name": "Molecular beam epitaxy (MBE) system",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "VEECO-GEN930"
+      ],
+      "reason": "MBE molecular/atomic source growth is distinct from CVD, ALD, sputtering and generic evaporation."
+    },
+    {
+      "key": "pl",
+      "name": "Photoluminescence spectroscopy system",
+      "recommendation": "new_dedicated_setup_class",
+      "setups": [
+        "UCLA-BBPL",
+        "UCLA-MICROPL",
+        "UCLA-CRYOPL"
+      ],
+      "reason": "Configured measurement apparatus includes excitation, spectral selection, detector and collection optics; standalone Acton spectrographs are components."
+    },
+    {
+      "key": "grating_spectrograph",
+      "name": "Grating spectrometer / monochromator",
+      "recommendation": "new_dedicated_component_class_or_explicit_pl_subtype",
+      "models": [
+        "ACTON-SP2300",
+        "ACTON-SP2500"
+      ],
+      "reason": "A bare spectrograph is not a complete PL instrument; preserve that scope in whichever class is chosen."
+    },
+    {
+      "key": "probe_station",
+      "name": "Semiconductor probe station",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "LS-TTPX"
+      ],
+      "setups": [
+        "UCLA-HF",
+        "UCLA-TTPX"
+      ],
+      "reason": "Electrical/optoelectronic wafer or chip probing; not an ultrasonic probe or generic microscope."
+    },
+    {
+      "key": "semiconductor_parameter_analyzer",
+      "name": "Semiconductor parameter analyzer",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "AGILENT-4156C"
+      ],
+      "reason": "Precision device I-V characterization; do not substitute generic process control/data acquisition."
+    },
+    {
+      "key": "lcr_meter",
+      "name": "Precision LCR meter",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "AGILENT-E4980A"
+      ],
+      "reason": "Electrical impedance/capacitance measurement is a distinct instrument role."
+    },
+    {
+      "key": "lockin",
+      "name": "Lock-in amplifier",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "SRS-SR830",
+        "EGG-7265"
+      ],
+      "reason": "Phase-sensitive signal detection; explicitly not a process-controller classification."
+    },
+    {
+      "key": "optical_cryostat",
+      "name": "Optical / microscopy cryostat",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "JANIS-ST500"
+      ],
+      "reason": "Temperature-controlled sample environment for spectroscopy/microscopy; separate from liquid cryogen storage and probe station."
+    },
+    {
+      "key": "tcspc",
+      "name": "TCSPC / photon-timing electronics",
+      "recommendation": "new_dedicated_class",
+      "models": [
+        "PQ-PH300"
+      ],
+      "reason": "PicoHarp is timing electronics, with spectral response set by connected detectors and optics."
+    },
+    {
+      "key": "ftir",
+      "name": "FTIR spectrometer",
+      "recommendation": "reuse_existing_M36",
+      "models": [
+        "TF-NICOLET8700"
+      ],
+      "reason": "Existing M36 is a direct fit."
+    },
+    {
+      "key": "ftir_microscope",
+      "name": "FTIR microscope",
+      "recommendation": "new_component_class_or_explicit_M36_microscope_subtype",
+      "models": [
+        "TF-CONTINUUM"
+      ],
+      "reason": "Coupled microscope for spatially resolved FTIR; avoid representing it as a complete bench spectrometer."
+    }
+  ],
+  "named_models": [
+    {
+      "model_key": "VEECO-GEN930",
+      "manufacturer": "Veeco",
+      "model_name": "GEN-930",
+      "aliases": [
+        "GEN930",
+        "GEN 930"
+      ],
+      "record_kind": "model_family",
+      "category_key": "mbe",
+      "institution_source_ids": [
+        "UCLA-NMBE",
+        "UCLA-ASSBMBE"
+      ],
+      "variant_keys": [
+        "UCLA-GEN930-N",
+        "UCLA-GEN930-ASSB"
+      ],
+      "identity_status": "institution_exact_model_named",
+      "documents": [
+        {
+          "source_id": "VEECO-LEGACY",
+          "kind": "related_official_component_datasheet",
+          "scope": "GEN930 identity corroboration only; not system specifications or manual",
+          "status": "source_link_verified"
+        }
+      ],
+      "manual_status": "exact_system_manual_not_found_in_bounded_official_search",
+      "product_page_status": "exact_current_manufacturer_product_page_not_found",
+      "photos": [],
+      "notes": "One market model family, two institution configurations. Do not create N-MBE and As/Sb-MBE as unrelated Veeco model names.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "LS-TTPX",
+      "manufacturer": "Lake Shore Cryotronics",
+      "model_name": "TTPX",
+      "aliases": [
+        "Lakeshore TTPX"
+      ],
+      "record_kind": "named_model",
+      "category_key": "probe_station",
+      "institution_source_ids": [
+        "UCLA-TTPX"
+      ],
+      "identity_status": "institution_and_manufacturer_match",
+      "documents": [
+        {
+          "source_id": "LS-TTPX",
+          "kind": "product_page",
+          "scope": "exact model, configurable product",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "LS-TTPX-SPEC",
+          "kind": "technical_specification",
+          "scope": "current generic model/configurations",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "LS-TTPX-MAN",
+          "kind": "manual",
+          "scope": "exact model",
+          "status": "official_pdf_located_not_parsed_size_limit"
+        }
+      ],
+      "photos": [
+        {
+          "source_id": "LS-TTPX",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://www.lakeshore.com/images/default-source/about-us/ttpx_500.png?sfvrsn=7bb360d3_3",
+          "source_class": "standalone",
+          "visual_inspection_status": "visually_verified",
+          "classification": "manufacturer_configured_product_system_image",
+          "scope": "Manufacturer TTPX page image shows a probe station, controller, monitor, keyboard and mouse. It is a configured manufacturer product image, not proof of UCLA's installed options or asset.",
+          "adoption_recommendation": "use_for_TTPX_product_with_configured_system_scope",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 500,
+          "pixel_height": 250,
+          "sha256": "f73e2f3fcf72bafea7826eedbf5129a2906acd14dac811c37582f24069de2933"
+        }
+      ],
+      "notes": "UCLA's integrated Agilent instruments are separate components, not included by default in every TTPX purchase.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "ACTON-SP2300",
+      "manufacturer": "Princeton Instruments / Acton",
+      "manufacturer_display_as_listed": "Acton",
+      "model_name": "SP2300",
+      "aliases": [
+        "SP-2300"
+      ],
+      "record_kind": "named_model_as_listed_suffix_unspecified",
+      "category_key": "grating_spectrograph",
+      "institution_source_ids": [
+        "UCLA-BBPL"
+      ],
+      "identity_status": "exact_UCLA_name_verified_family_identity_corroborated",
+      "documents": [
+        {
+          "source_id": "PI-SP2300-OFFICIAL",
+          "kind": "manufacturer_application_page",
+          "scope": "Related SP2300i in another lab; not exact omitted-suffix manual",
+          "status": "source_link_verified"
+        }
+      ],
+      "manual_status": "official_exact_listed_SP2300_manual_not_found",
+      "photos": [],
+      "notes": "Do not silently append i or replace with current SpectraPro HRS-300. UCLA's 2.5 µm setup coverage depends on detectors/optics.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "ACTON-SP2500",
+      "manufacturer": "Princeton Instruments / Acton",
+      "manufacturer_display_as_listed": "Acton",
+      "model_name": "SP2500",
+      "aliases": [
+        "SP-2500"
+      ],
+      "record_kind": "named_model_as_listed_suffix_unspecified",
+      "category_key": "grating_spectrograph",
+      "institution_source_ids": [
+        "UCLA-MICROPL",
+        "UCLA-CRYOPL"
+      ],
+      "identity_status": "exact_UCLA_name_verified_family_identity_corroborated",
+      "documents": [
+        {
+          "source_id": "PI-SP2500I-MAN",
+          "kind": "manufacturer_authored_manual_institution_mirror",
+          "scope": "SP-2500i related family; suffix not established for UCLA",
+          "status": "source_link_verified"
+        }
+      ],
+      "manual_status": "related_family_manual_only",
+      "photos": [],
+      "notes": "Same named spectrograph appears in two UCLA setups; that does not establish serial-number identity or that there is only one physical unit.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "TF-NICOLET8700",
+      "manufacturer": "Thermo Fisher Scientific",
+      "manufacturer_display_as_listed": "Thermo Scientific",
+      "model_name": "Nicolet 8700",
+      "aliases": [
+        "Nicolet8700"
+      ],
+      "record_kind": "named_model",
+      "category_key": "ftir",
+      "institution_source_ids": [
+        "UCLA-FTIR"
+      ],
+      "identity_status": "institution_and_manufacturer_match",
+      "documents": [
+        {
+          "source_id": "TF-8700-MAN",
+          "kind": "manual_landing_page",
+          "scope": "Nicolet 8700 USB version; UCLA interface variant unspecified",
+          "status": "exact_model_variant_unconfirmed"
+        }
+      ],
+      "lifecycle": {
+        "status": "retired_documentation_present",
+        "source_id": "TF-8700-MAN"
+      },
+      "photos": [],
+      "notes": "Do not infer that current Nicolet iS50 specifications or images describe this legacy 8700.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "AGILENT-4156C",
+      "manufacturer": "Agilent Technologies",
+      "support_successor": "Keysight Technologies",
+      "model_name": "4156C",
+      "record_kind": "named_model",
+      "category_key": "semiconductor_parameter_analyzer",
+      "institution_source_ids": [
+        "UCLA-TTPX"
+      ],
+      "identity_status": "institution_exact_historical_brand_and_model",
+      "documents": [
+        {
+          "source_id": "KS-4156C",
+          "kind": "legacy_product_page",
+          "scope": "exact model support successor",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "KS-4156C-MAN",
+          "kind": "user_guide_landing_page",
+          "scope": "shared 4155C/4156C guide explicitly includes exact model",
+          "status": "official_shared_model_manual_landing_page"
+        }
+      ],
+      "lifecycle": {
+        "status": "obsolete",
+        "source_id": "KS-4156C",
+        "scope": "official product page title"
+      },
+      "photos": [],
+      "notes": "Retain Agilent in UCLA asset label; Keysight is documentation/support successor.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "AGILENT-E4980A",
+      "manufacturer": "Agilent Technologies",
+      "support_successor": "Keysight Technologies",
+      "model_name": "E4980A",
+      "record_kind": "named_model",
+      "category_key": "lcr_meter",
+      "institution_source_ids": [
+        "UCLA-TTPX"
+      ],
+      "identity_status": "institution_exact_historical_brand_and_model",
+      "documents": [
+        {
+          "source_id": "KS-E4980A",
+          "kind": "product_page",
+          "scope": "exact model support successor",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "KS-E4980A-MAN",
+          "kind": "user_guide_landing_page",
+          "scope": "E4980A-only guide",
+          "status": "official_exact_model_manual_landing_page"
+        }
+      ],
+      "photos": [],
+      "notes": "Do not replace with E4980AL or confuse the newer joint manual's variant specifications.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "SRS-SR830",
+      "manufacturer": "Stanford Research Systems",
+      "model_name": "SR830",
+      "record_kind": "named_model",
+      "category_key": "lockin",
+      "institution_source_ids": [
+        "UCLA-BBPL"
+      ],
+      "identity_status": "institution_and_manufacturer_match",
+      "documents": [
+        {
+          "source_id": "SRS-SR830",
+          "kind": "product_page",
+          "scope": "exact model",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "SRS-SR830-MAN",
+          "kind": "manual",
+          "scope": "exact model",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "SRS-SR830-DATA",
+          "kind": "datasheet",
+          "scope": "exact model",
+          "status": "source_link_verified"
+        }
+      ],
+      "lifecycle": {
+        "status": "discontinued",
+        "source_id": "SRS-SR830"
+      },
+      "photos": [
+        {
+          "source_id": "SRS-SR830",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://www.thinksrs.com/images/instr/sr810830/SR830_FP_Wide1.jpg",
+          "source_class": "standalone",
+          "visual_inspection_status": "visually_verified_exact_model_label",
+          "classification": "manufacturer_exact_model_product_photo",
+          "scope": "Standalone lock-in amplifier photo with Stanford Research Systems and Model SR830 DSP Lock-In Amplifier readable on front panel. Exact model product photo; not UCLA's individual unit.",
+          "adoption_recommendation": "use_for_SR830_exact_model",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 4674,
+          "pixel_height": 4062,
+          "sha256": "6bcd3e34d80c5ac55ccc57aa2c479d438524e924057a3c082553f6291ce4a1d3"
+        }
+      ],
+      "price": {
+        "value": 5995,
+        "currency": "USD",
+        "kind": "manufacturer_US_list_historical_or_undated",
+        "source_id": "SRS-SR830-DATA",
+        "source_locator": "PDF page 1 list-price line and PDF page 2 ordering information",
+        "status": "verified_official_historical_list",
+        "current_price_verified": false,
+        "price_effective_date": null,
+        "warning": "SR830 is discontinued; do not label this a current quote, availability or current MSRP."
+      }
+    },
+    {
+      "model_key": "EGG-7265",
+      "manufacturer": "EG&G / Signal Recovery",
+      "support_successor": "AMETEK Scientific Instruments — Signal Recovery",
+      "manufacturer_display_as_listed": "EG&G",
+      "model_name": "7265",
+      "record_kind": "named_model_legacy_brand",
+      "category_key": "lockin",
+      "institution_source_ids": [
+        "UCLA-BBPL"
+      ],
+      "identity_status": "UCLA_historical_brand_and_official_legacy_model_match",
+      "documents": [
+        {
+          "source_id": "SR-7265",
+          "kind": "legacy_product_and_specification_page",
+          "scope": "exact model current support brand",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "SR-7265-MAN",
+          "kind": "manual_link",
+          "scope": "exact model; content email gated",
+          "status": "email_gated_official_manual_link"
+        }
+      ],
+      "lifecycle": {
+        "status": "legacy_product_listing",
+        "source_id": "SR-7265"
+      },
+      "photos": [
+        {
+          "source_id": "SR-7265",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://www.ameteksi.com/-/media/ameteksi/images/new-product-page-images/800px/7265_tilt-right_800px_600px.png?la=en&revision=65233db8-44f0-4402-a356-84d257fcf61a",
+          "source_class": "standalone",
+          "visual_inspection_status": "visually_verified_exact_model_label",
+          "classification": "manufacturer_exact_model_product_photo_successor_brand",
+          "scope": "Standalone lock-in amplifier photo with SIGNAL RECOVERY and 7265 DSP LOCK-IN AMPLIFIER readable. Exact model under successor brand; do not claim it depicts UCLA's EG&G-labeled physical asset.",
+          "adoption_recommendation": "use_for_7265_exact_model_with_brand_scope",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "d27eb34273605dde62841fa1b2d7f170e71fc22737dfcb7ce816486b49be90e7"
+        }
+      ],
+      "notes": "Brand lineage does not justify rewriting the UCLA-listed EG&G instrument as a newly supplied AMETEK unit.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "PQ-PH300",
+      "manufacturer": "PicoQuant",
+      "model_name": "PicoHarp 300",
+      "record_kind": "named_model",
+      "category_key": "tcspc",
+      "institution_source_ids": [
+        "UCLA-MICROPL"
+      ],
+      "identity_status": "institution_and_manufacturer_match",
+      "documents": [
+        {
+          "source_id": "PQ-PH300",
+          "kind": "lifecycle_page",
+          "scope": "exact model",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "PQ-PH300-MAN",
+          "kind": "manual",
+          "scope": "exact model",
+          "status": "official_pdf_indexed_fetch_error"
+        }
+      ],
+      "lifecycle": {
+        "status": "discontinued",
+        "effective": "2024-09",
+        "source_id": "PQ-PH300"
+      },
+      "photos": [
+        {
+          "source_id": "PQ-PH300",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://14cac4c6.delivery.rocketcdn.me/wp-content/uploads/picoharp-300.jpg",
+          "source_class": "standalone",
+          "visual_inspection_status": "visually_verified_exact_model_label",
+          "classification": "manufacturer_exact_model_product_photo",
+          "scope": "PicoQuant PicoHarp 300 TCSPC Module and Picosecond Event Timer readable on the case. Exact model product photo; not UCLA's individual module.",
+          "adoption_recommendation": "use_for_PicoHarp300_exact_model",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 832,
+          "pixel_height": 555,
+          "sha256": "0442c4bf0db8b2cb49fea73958086c8ea56f43a5cd30c47a318df8899d3cf802"
+        }
+      ],
+      "notes": "UCLA's visible–1650 nm TRPL range is a setup/detector claim, not intrinsic spectral responsivity of electronic timing module.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "JANIS-ST500",
+      "manufacturer": "Janis Research",
+      "support_successor": "Lake Shore Cryotronics — Environment by Janis",
+      "model_name": "ST-500",
+      "record_kind": "named_model_legacy_brand",
+      "category_key": "optical_cryostat",
+      "institution_source_ids": [
+        "UCLA-FTIR"
+      ],
+      "identity_status": "institution_exact_name_and_manufacturer_family_corroborated",
+      "documents": [
+        {
+          "source_id": "LS-ST500",
+          "kind": "product_page",
+          "scope": "ST-500 Series with exact ST-500 row",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "LS-ST500-DATA",
+          "kind": "datasheet",
+          "scope": "ST-500 series; exact-model column distinguished",
+          "status": "source_link_verified"
+        }
+      ],
+      "manual_status": "exact_operating_manual_not_found_in_bounded_search",
+      "photos": [
+        {
+          "source_id": "LS-ST500",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://www.lakeshore.com/images/default-source/3d-viewer-images/st-500.png?Status=Master&sfvrsn=ad2e5f47_1",
+          "source_class": "standalone",
+          "visual_inspection_status": "visually_verified_model_from_manufacturer_page",
+          "classification": "manufacturer_product_image",
+          "scope": "Optical cryostat image with Lake Shore Cryotronics Environment by Janis branding. Manufacturer page labels this ST-500; model number is not readable on case. Current branded image may differ from UCLA's historical Janis unit.",
+          "adoption_recommendation": "use_for_ST500_model_with_current_brand_scope",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 493,
+          "sha256": "07a6ecdef8129f7107cda38df5ac839fac3b56d7f7098f8968575e8fa01eb29b"
+        }
+      ],
+      "notes": "Micro-PL page says open-cycle JANIS/Oxford without a model; only FTIR page explicitly links ST-500. Do not claim the micro-PL JANIS cryostat is ST-500.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    },
+    {
+      "model_key": "TF-CONTINUUM",
+      "manufacturer": "Thermo Fisher Scientific",
+      "manufacturer_display_as_listed": "Nicolet",
+      "model_name": "Nicolet Continuum",
+      "record_kind": "named_model",
+      "category_key": "ftir_microscope",
+      "institution_source_ids": [
+        "UCLA-FTIR"
+      ],
+      "identity_status": "institution_and_manufacturer_match",
+      "documents": [
+        {
+          "source_id": "TF-CONT-MAN",
+          "kind": "user_guide_landing_page",
+          "scope": "exact microscope",
+          "status": "source_link_verified"
+        },
+        {
+          "source_id": "TF-CONT-SAFETY",
+          "kind": "site_and_safety_guide",
+          "scope": "exact microscope",
+          "status": "source_link_verified"
+        }
+      ],
+      "photos": [],
+      "notes": "UCLA setup integration with 8700 is verified. Standalone component photo not found in bounded search; do not crop/repurpose generic setup image as an independently identified Continuum photo.",
+      "price": {
+        "value": null,
+        "currency": null,
+        "status": "no_exact_USD_price_verified_in_bounded_source_review",
+        "source_id": null
+      }
+    }
+  ],
+  "institution_setups": [
+    {
+      "setup_key": "UCLA-HF",
+      "name": "High-frequency probe station",
+      "category_key": "probe_station",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-HF",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-HF",
+          "status": "source_attribution_only_pixels_unavailable",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/high-freq-probe-station.png",
+          "source_class": "setup",
+          "visual_inspection_status": "not_inspected_download_blocked_403",
+          "classification": "source_page_photo_url_only",
+          "scope": "UCLA source-page image URL verified, but pixels could not be retrieved in three bounded attempts. Do not claim visual verification or exact model identification.",
+          "adoption_recommendation": "leave_blank_until_pixels_verified",
+          "download_status": "403_after_three_attempts",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "not_available"
+        }
+      ],
+      "model_keys": [],
+      "capability_evidence": {
+        "measurement": "Electronic/optoelectronic I-V, C-V, optical photoresponse",
+        "frequency": {
+          "operator": "lt",
+          "value": 50,
+          "unit": "GHz",
+          "scope": "UCLA setup capability"
+        }
+      },
+      "identity_gaps": "Unbranded/unmodeled setup. Do not create an invented market model or manufacturer."
+    },
+    {
+      "setup_key": "UCLA-TTPX",
+      "name": "Cryogenic-temperature probe station",
+      "category_key": "probe_station",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-TTPX",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-TTPX",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/cryo-prob-station.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_laboratory_station_photo",
+          "scope": "Close-up of a Lake Shore-branded cryogenic probe station with microscope and multiple probe manipulators. UCLA page identifies TTPX; the model text is not independently readable. Does not show or identify Agilent 4156C/E4980A.",
+          "adoption_recommendation": "use_for_UCLA_TTPX_setup_with_source_attribution",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "f5ca6640d346e1dc08d6e10fa5f069107a889c90c8740b25cdde9834ebb9c565"
+        }
+      ],
+      "model_keys": [
+        "LS-TTPX",
+        "AGILENT-4156C",
+        "AGILENT-E4980A"
+      ],
+      "capability_evidence": {
+        "cryogens": [
+          "liquid nitrogen",
+          "liquid helium"
+        ],
+        "measurements": [
+          "I-V",
+          "C-V",
+          "fiber-coupled laser photoresponse"
+        ],
+        "lcr_frequency": {
+          "lower": 20,
+          "upper": 2000000,
+          "unit": "Hz",
+          "scope": "UCLA-listed Agilent E4980A"
+        }
+      },
+      "unmodeled_components": [
+        "Fiber-coupled laser (manufacturer/model not named)"
+      ]
+    },
+    {
+      "setup_key": "UCLA-BBPL",
+      "name": "Broad-band photoluminescence characterization",
+      "category_key": "pl",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-BBPL",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-BBPL",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/broadband-photo-characterization.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_optical_bench_detail",
+          "scope": "Photo shows lenses, mirrors, optical mounts and partial Acton-branded housing at the left edge. No SP2300 model label is readable. Valid illustration of UCLA's listed broadband PL setup, not an exact standalone SP2300/SR830/7265 product image.",
+          "adoption_recommendation": "setup_illustration_only",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "75152671ab25608998b3c006b7829a85c235bbc40971e0823bc5f76eb2acd499"
+        }
+      ],
+      "model_keys": [
+        "ACTON-SP2300",
+        "SRS-SR830",
+        "EGG-7265"
+      ],
+      "capability_evidence": {
+        "temperature": "room temperature",
+        "detectors": [
+          "Si",
+          "InGaAs",
+          "extended-InGaAs"
+        ],
+        "spectral_range": {
+          "lower_text": "visible",
+          "upper": 2.5,
+          "unit": "µm",
+          "scope": "configured UCLA setup"
+        },
+        "excitation": {
+          "power": 200,
+          "power_unit": "mW",
+          "wavelength": 532,
+          "wavelength_unit": "nm",
+          "mode": "CW",
+          "scope": "listed optical source capability; not a recommended sample exposure"
+        }
+      }
+    },
+    {
+      "setup_key": "UCLA-MICROPL",
+      "name": "Micro-photoluminescence spectroscopy",
+      "category_key": "pl",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-MICROPL",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-MICROPL",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/micro-photo-spec.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_optical_bench_setup_photo",
+          "scope": "Photo shows a configured optical bench, monitor and Acton-labeled spectrograph at left. SP2500 exact model text and PicoHarp module are not independently identifiable. Valid UCLA micro-PL setup illustration, not isolated component proof.",
+          "adoption_recommendation": "setup_illustration_only",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "addb1876fe65f44c0703b65f8933fd67e510c48fda93c646ec24c3df79d5b843"
+        }
+      ],
+      "model_keys": [
+        "ACTON-SP2500",
+        "PQ-PH300"
+      ],
+      "capability_evidence": {
+        "measurements": [
+          "single-nanostructure PL",
+          "time-resolved PL"
+        ],
+        "pl_range_nm": [
+          750,
+          1600
+        ],
+        "ir_ccd_range_nm": [
+          750,
+          1700
+        ],
+        "trpl_range": {
+          "lower_text": "visible",
+          "upper": 1650,
+          "unit": "nm",
+          "scope": "detector/optics configured setup"
+        },
+        "listed_cryostat_temperatures_K": [
+          4,
+          77
+        ],
+        "tunable_excitation_nm": [
+          470,
+          2000
+        ],
+        "excitation_532nm": {
+          "power_mW": 200,
+          "mode": "CW"
+        }
+      },
+      "unmodeled_components": [
+        "Princeton Instrument spectral 2D IR-CCD (model not named)",
+        "NKT super-continuum laser (model not named)",
+        "JANIS and Oxford open-cycle cryostats (model not named)",
+        "50× and 100× Plan Apo NIR objectives (page does not name manufacturer)"
+      ]
+    },
+    {
+      "setup_key": "UCLA-CRYOPL",
+      "name": "Cryogenic-temperature photoluminescence spectroscopy",
+      "category_key": "pl",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-CRYOPL",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-CRYOPL",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/cryogenic-temp-phot-spec.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_optical_bench_detail",
+          "scope": "Close-up of green-illuminated optical path, cryogenic sample-area hardware and beam shielding. No SP2500 or ARS model name readable. This illustrates UCLA's temperature-dependent PL setup, not an isolated spectrograph or exact cryostat model.",
+          "adoption_recommendation": "setup_illustration_only",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "df6cba2a7d2568c3ade29f50b8328b531868d12405194b9b340bf96ebefff9b4"
+        }
+      ],
+      "model_keys": [
+        "ACTON-SP2500"
+      ],
+      "capability_evidence": {
+        "temperature_range_K": [
+          7,
+          300
+        ],
+        "trpl_range": {
+          "lower_text": "visible",
+          "upper": 1700,
+          "unit": "nm",
+          "scope": "configured UCLA setup"
+        },
+        "tunable_excitation_nm": [
+          470,
+          2000
+        ],
+        "excitation_532nm": {
+          "power_mW": 200,
+          "mode": "CW"
+        },
+        "cryostat": "ARS closed-cycle, 7 K listed"
+      },
+      "unmodeled_components": [
+        "ARS closed-cycle cryostat (model not named)",
+        "NKT super-continuum laser (model not named)"
+      ]
+    },
+    {
+      "setup_key": "UCLA-FTIR",
+      "name": "FTIR spectroscopy",
+      "category_key": "ftir",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-FTIR",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-FTIR",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/thermo-fisher-ftir2.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_supplied_stock_style_product_photo",
+          "scope": "Standalone Thermo bench spectrometer on white background, not a UCLA lab setup photo. Source page identifies Nicolet 8700, but exact model text is not readable in the image. No Continuum microscope, ST-500 or integrated electrical apparatus is shown.",
+          "adoption_recommendation": "use_as_source_attributed_Nicolet8700_product_illustration_with_no_asset_claim",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "793a588b051e314a27d01afef3663a9dd2568c2d93622c5cd5a19fda606c57a0"
+        }
+      ],
+      "model_keys": [
+        "TF-NICOLET8700",
+        "JANIS-ST500",
+        "TF-CONTINUUM"
+      ],
+      "capability_evidence": {
+        "measurements": [
+          "infrared PL",
+          "transmission",
+          "absorption",
+          "reflection",
+          "step-scan PL",
+          "microscopic mesa-size characterization",
+          "combined I-V/C-V"
+        ],
+        "detectors": [
+          "InGaAs",
+          "InSb",
+          "MCT"
+        ],
+        "spectral_range": {
+          "lower": 800,
+          "upper": 10000,
+          "unit": "nm",
+          "scope": "configured detector/optics setup; not generic 8700 default"
+        }
+      },
+      "unmodeled_components": [
+        "Oxford LHe cryostat (model not named)",
+        "Parameter analyzer and LCR meter (models not identified on FTIR page; do not automatically transfer the TTPX models)"
+      ],
+      "photo_fetch_status": "Original image retrieved on retry and visually verified as stock-style product photo, not installed UCLA setup."
+    },
+    {
+      "setup_key": "UCLA-NMBE",
+      "name": "N-MBE system",
+      "category_key": "mbe",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-NMBE",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-NMBE",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/N-MBE-system.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_laboratory_reactor_photo",
+          "scope": "Photograph of an MBE reactor chamber with multiple source ports, hoses and electrical connections; Veeco-branded cabinet visible behind. UCLA N-MBE page identifies GEN-930 nitrogen configuration. Exact model label and source cell contents cannot be read from pixels.",
+          "adoption_recommendation": "use_for_UCLA_GEN930_N_configuration",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "56141bea43d502b56238ef0b4461626613557aa297723472e28a23bc344bcc1f"
+        }
+      ],
+      "model_keys": [
+        "VEECO-GEN930"
+      ],
+      "capability_evidence": {
+        "material_system": "(In, Ga, Al)-N",
+        "group_III_sources": [
+          {
+            "element": "In",
+            "type": "effusion cell"
+          },
+          {
+            "element": "Ga",
+            "type": "effusion cell"
+          },
+          {
+            "element": "Al",
+            "type": "SUMO cell"
+          }
+        ],
+        "group_V_source": {
+          "element": "N",
+          "type": "RF plasma",
+          "delivery": "automated N gas delivery"
+        },
+        "dopant_sources": [
+          "Si",
+          "Mg"
+        ],
+        "wafer_diameter_max": {
+          "value": 3,
+          "unit": "inch"
+        },
+        "substrate_heater_max": {
+          "value": 1200,
+          "unit": "°C",
+          "scope": "hardware maximum, not process setpoint"
+        },
+        "monitoring": [
+          "100 amu RGA",
+          "RHEED",
+          "KSA400"
+        ],
+        "control": "MOLLY"
+      },
+      "configuration_key": "UCLA-GEN930-N"
+    },
+    {
+      "setup_key": "UCLA-ASSBMBE",
+      "name": "As/Sb-MBE system",
+      "category_key": "mbe",
+      "institution": "UCLA California NanoSystems Institute — Integrated NanoMaterials Laboratory",
+      "source_id": "UCLA-ASSBMBE",
+      "listing_temporal_scope": "2022-01-19 canonical source URL; reviewed 2026-10-18",
+      "current_access_status": "not_verified_current_availability",
+      "ownership_scope": "institution_lists_this_setup; no serial number or current operational-state check",
+      "photos": [
+        {
+          "source_id": "UCLA-ASSBMBE",
+          "status": "source_attribution_and_pixels_verified_scope_qualified",
+          "image_url": "https://inml.cnsi.ucla.edu/wp-content/uploads/sites/8/2022/01/As-Sb-MBE-system.png",
+          "source_class": "setup",
+          "visual_inspection_status": "visually_verified",
+          "classification": "institution_reactor_chamber_closeup",
+          "scope": "Close-up photograph of stainless MBE vacuum chamber, flanges, ports, feedthroughs and lines. UCLA As/Sb-MBE page identifies GEN-930 configuration. Model and source-cell chemistry are source-page claims, not visually readable features.",
+          "adoption_recommendation": "use_for_UCLA_GEN930_AsSb_configuration",
+          "download_status": "original_image_downloaded_unchanged",
+          "inspection_date": "2026-10-18",
+          "inspection_method": "view_image_of_original_downloaded_source",
+          "pixel_width": 800,
+          "pixel_height": 600,
+          "sha256": "f95662a46c4dc470b8ad0ec8e8c86dc1588e4daea90942129964078f3df39df0"
+        }
+      ],
+      "model_keys": [
+        "VEECO-GEN930"
+      ],
+      "capability_evidence": {
+        "material_system": "(In, Ga, Al)/(As, Sb)",
+        "group_III_sources": [
+          {
+            "element": "In",
+            "type": "SUMO cell"
+          },
+          {
+            "element": "Ga",
+            "type": "SUMO cell"
+          },
+          {
+            "element": "Al",
+            "type": "SUMO cell"
+          }
+        ],
+        "group_V_sources": [
+          {
+            "element": "As",
+            "type": "valved cracker"
+          },
+          {
+            "element": "Sb",
+            "type": "valved cracker"
+          }
+        ],
+        "dopant_sources": [
+          "Si",
+          "Te",
+          "Be"
+        ],
+        "wafer_holder_diameter_max": {
+          "value": 3,
+          "unit": "inch"
+        },
+        "optical_pyrometer_range": {
+          "lower": 440,
+          "upper": 800,
+          "unit": "°C",
+          "scope": "measurement range, not process setpoint"
+        },
+        "monitoring": [
+          "200 amu RGA",
+          "RHEED",
+          "KSA400"
+        ],
+        "control": "MOLLY"
+      },
+      "configuration_key": "UCLA-GEN930-ASSB"
+    }
+  ],
+  "material_process_records": [
+    {
+      "record_key": "UCLA-PA-NITRIDE-MBE",
+      "proposed_process_name": "Plasma-assisted molecular beam epitaxy of III-nitride semiconductor layers",
+      "record_kind": "conceptual_manufacturing_process_class",
+      "evidence_level": "institution_equipment_capability",
+      "source_ids": [
+        "UCLA-NMBE"
+      ],
+      "apparatus_configuration": "UCLA-GEN930-N",
+      "target_materials": [
+        {
+          "name": "(In, Ga, Al)-N semiconductor epitaxial layers",
+          "role": "output_material_system",
+          "scope": "source-defined material family, not every alloy composition validated"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "Indium (In)",
+          "role": "growth_source",
+          "state_detail": "source in effusion cell; purity and quantity unspecified"
+        },
+        {
+          "name": "Gallium (Ga)",
+          "role": "growth_source",
+          "state_detail": "source in effusion cell; purity and quantity unspecified"
+        },
+        {
+          "name": "Aluminum (Al)",
+          "role": "growth_source",
+          "state_detail": "source in SUMO cell; purity and quantity unspecified"
+        },
+        {
+          "name": "Nitrogen",
+          "role": "plasma_source_feed",
+          "state_detail": "N gas delivery plus RF plasma reported; flow and gas purity unspecified"
+        },
+        {
+          "name": "Silicon (Si)",
+          "role": "optional_dopant_source",
+          "state_detail": "cell reported; dose unspecified"
+        },
+        {
+          "name": "Magnesium (Mg)",
+          "role": "optional_dopant_source",
+          "state_detail": "cell reported; dose unspecified"
+        },
+        {
+          "name": "Semiconductor growth substrate",
+          "role": "substrate",
+          "state_detail": "chemistry and orientation not specified by N-MBE page"
+        }
+      ],
+      "planner_slots": [
+        {
+          "slot": "Epitaxial layer growth",
+          "requirement": "required",
+          "category_key": "mbe",
+          "model_key": "VEECO-GEN930",
+          "configuration_key": "UCLA-GEN930-N",
+          "basis": "source-listed integrated equipment; separate sources/heater/vacuum/controls are subsystem requirements, not extra complete-equipment purchases"
+        },
+        {
+          "slot": "Optical characterization",
+          "requirement": "optional",
+          "category_key": "pl",
+          "basis": "curator inference from companion facility equipment, not a stated mandatory step or verified exact experiment"
+        },
+        {
+          "slot": "Electrical / optoelectronic characterization",
+          "requirement": "optional",
+          "category_key": "probe_station",
+          "basis": "curator inference from companion facility equipment"
+        }
+      ],
+      "reported_process_conditions": [],
+      "unestablished": [
+        "substrate composition or orientation",
+        "source temperatures",
+        "growth temperature",
+        "pressure",
+        "beam fluxes or V/III ratio",
+        "doping dose",
+        "time",
+        "thickness",
+        "yield",
+        "post-growth recipe"
+      ],
+      "capability_not_recipe": [
+        "1200 °C substrate-heater maximum",
+        "3-inch wafer capacity"
+      ]
+    },
+    {
+      "record_key": "UCLA-ARSENIDE-ANTIMONIDE-MBE",
+      "proposed_process_name": "Molecular beam epitaxy of III-arsenide / antimonide semiconductor layers",
+      "record_kind": "conceptual_manufacturing_process_class",
+      "evidence_level": "institution_equipment_capability",
+      "source_ids": [
+        "UCLA-ASSBMBE"
+      ],
+      "apparatus_configuration": "UCLA-GEN930-ASSB",
+      "target_materials": [
+        {
+          "name": "(In, Ga, Al)/(As, Sb) semiconductor epitaxial layers",
+          "role": "output_material_system",
+          "scope": "source-defined family; alloy/heterostructure combinations need individual methods evidence"
+        }
+      ],
+      "inputs": [
+        {
+          "name": "Indium (In)",
+          "role": "growth_source",
+          "state_detail": "SUMO cell; purity/quantity unspecified"
+        },
+        {
+          "name": "Gallium (Ga)",
+          "role": "growth_source",
+          "state_detail": "SUMO cell; purity/quantity unspecified"
+        },
+        {
+          "name": "Aluminum (Al)",
+          "role": "growth_source",
+          "state_detail": "SUMO cell; purity/quantity unspecified"
+        },
+        {
+          "name": "Arsenic (As)",
+          "role": "group_V_source",
+          "state_detail": "valved cracker; flux and species not specified"
+        },
+        {
+          "name": "Antimony (Sb)",
+          "role": "group_V_source",
+          "state_detail": "valved cracker; flux and species not specified"
+        },
+        {
+          "name": "Silicon (Si)",
+          "role": "optional_dopant_source",
+          "state_detail": "cell reported; dose unspecified"
+        },
+        {
+          "name": "Tellurium (Te)",
+          "role": "optional_dopant_source",
+          "state_detail": "cell reported; dose unspecified"
+        },
+        {
+          "name": "Beryllium (Be)",
+          "role": "optional_dopant_source",
+          "state_detail": "cell reported; dose unspecified"
+        },
+        {
+          "name": "Semiconductor growth substrate",
+          "role": "substrate",
+          "state_detail": "MBE equipment page does not specify chemistry or orientation"
+        }
+      ],
+      "planner_slots": [
+        {
+          "slot": "Epitaxial layer growth",
+          "requirement": "required",
+          "category_key": "mbe",
+          "model_key": "VEECO-GEN930",
+          "configuration_key": "UCLA-GEN930-ASSB",
+          "basis": "source-listed integrated system; source cells/crackers and in situ monitoring remain included subsystem scope"
+        },
+        {
+          "slot": "Optical characterization",
+          "requirement": "optional",
+          "category_key": "pl",
+          "basis": "curator inference; not stated required and no exact experiment verified"
+        },
+        {
+          "slot": "Infrared characterization",
+          "requirement": "optional",
+          "category_key": "ftir",
+          "basis": "curator inference from listed facility capabilities"
+        },
+        {
+          "slot": "Electrical characterization",
+          "requirement": "optional",
+          "category_key": "probe_station",
+          "basis": "curator inference from listed facility capabilities"
+        }
+      ],
+      "reported_process_conditions": [],
+      "unestablished": [
+        "growth temperature",
+        "substrate orientation",
+        "source temperatures",
+        "pressure",
+        "flux/beam-equivalent pressure",
+        "doping dose",
+        "growth duration",
+        "thickness",
+        "yield"
+      ],
+      "capability_not_recipe": [
+        "440–800 °C optical pyrometer measurement range",
+        "3-inch wafer holder capacity"
+      ]
+    },
+    {
+      "record_key": "UCLA-PROJECT-SUBSTRATES",
+      "record_kind": "material_relevance_context",
+      "source_ids": [
+        "UCLA-INTEGRATION",
+        "UCLA-TPV",
+        "UCLA-VECSEL"
+      ],
+      "materials": [
+        {
+          "name": "Gallium arsenide (GaAs)",
+          "role": "project_specific_substrate",
+          "source_ids": [
+            "UCLA-INTEGRATION",
+            "UCLA-TPV",
+            "UCLA-VECSEL"
+          ]
+        },
+        {
+          "name": "Gallium antimonide (GaSb)",
+          "role": "project_specific_substrate_comparison_or_epilayer",
+          "source_ids": [
+            "UCLA-INTEGRATION",
+            "UCLA-VECSEL"
+          ]
+        },
+        {
+          "name": "Silicon (Si)",
+          "role": "project_specific_substrate",
+          "source_ids": [
+            "UCLA-TPV"
+          ]
+        },
+        {
+          "name": "GaInSb/AlGaSb quantum wells",
+          "role": "project_specific_active_layer",
+          "source_ids": [
+            "UCLA-VECSEL"
+          ]
+        },
+        {
+          "name": "AlGaAs/GaAs",
+          "role": "project_specific_DBR",
+          "source_ids": [
+            "UCLA-VECSEL"
+          ]
+        }
+      ],
+      "scope": "Project webpages establish named materials and layer/substrate roles. They do not identify which physical GEN-930 serial number was used, provide a checked scientific recipe, or support universal substrate defaults for either MBE process."
+    },
+    {
+      "record_key": "UCLA-CHARACTERIZATION-CRYOGENS",
+      "record_kind": "support_material_relevance",
+      "source_ids": [
+        "UCLA-TTPX",
+        "UCLA-FTIR",
+        "LS-ST500-DATA"
+      ],
+      "materials": [
+        {
+          "name": "Liquid nitrogen",
+          "role": "characterization_coolant",
+          "setup_keys": [
+            "UCLA-TTPX"
+          ],
+          "source_id": "UCLA-TTPX"
+        },
+        {
+          "name": "Liquid helium",
+          "role": "characterization_coolant",
+          "setup_keys": [
+            "UCLA-TTPX",
+            "UCLA-FTIR"
+          ],
+          "source_ids": [
+            "UCLA-TTPX",
+            "UCLA-FTIR"
+          ]
+        }
+      ],
+      "scope": "Cryogens are auxiliary measurement-cooling resources. They are not growth precursors or universal MBE recipe inputs. No quantity/consumption copied into a process recipe."
+    }
+  ],
+  "unresolved_items": [
+    "GEN-930 exact system manual and live exact manufacturer product page not found in bounded official search; UCLA exact system identity and configurations are supported.",
+    "UCLA SP2300/SP2500 omit suffix; SP-2300i/SP-2500i documentation is related family until suffix equivalence is independently established.",
+    "Exact standalone component photos were not found for SP2300, SP2500, Nicolet 8700, Agilent 4156C, Agilent E4980A or Nicolet Continuum in this bounded review.",
+    "7265 exact manual link is email gated; no form submitted.",
+    "Thermo guide landing pages are verified, but protected storage PDF redirects failed; USB vs PCI identity for UCLA's 8700 is unknown.",
+    "TTPX official manual exceeds web-tool size limit. Technical specification page is accessible.",
+    "No current public exact USD equipment price verified. SR830 $5,995 is an undated official historical list for a discontinued model."
+  ],
+  "photo_policy": {
+    "remote_sources_only": false,
+    "downloaded_images": true,
+    "reuse_rights": "No license/reuse permission inferred from public source access; retain attribution and source links.",
+    "exact_setup_image_dimensions": "800×600 per UCLA HTML img attributes for seven successful page HTML fetches; high-frequency image URL verified by source-page link.",
+    "local_originals_directory": "outputs/ucla-inml-review-2026-10-18/images",
+    "image_editing": "No source images modified; unchanged originals inspected with view_image."
+  },
+  "parent_integration_mapping": {
+    "status": "Parent-assigned integration mapping; canonical records not edited by research agent",
+    "categories": {
+      "lockin": "M105",
+      "optical_cryostat": "M107",
+      "ftir": "M36",
+      "pl": "M101",
+      "ftir_microscope": "M108",
+      "probe_station": "M102",
+      "lcr_meter": "M104",
+      "mbe": "M100",
+      "tcspc": "M106",
+      "semiconductor_parameter_analyzer": "M103",
+      "grating_spectrograph": "M101 (explicit component subtype; not a complete PL setup)"
+    },
+    "processes": {
+      "UCLA-PA-NITRIDE-MBE": "P46",
+      "UCLA-ARSENIDE-ANTIMONIDE-MBE": "P47"
+    }
+  },
+  "integration": {
+    "summary": {
+      "new_m_classes": 9,
+      "new_equipment_records": 14,
+      "named_model_families": 12,
+      "new_p_classes": 2,
+      "new_market_material_contexts": 15,
+      "current_equipment_prices_added": 0,
+      "equipment_records_with_images": 10,
+      "catalog_source_evidence_records": 33
+    },
+    "equipment_ids": [
+      "UCLA-UCLA-GEN930-N",
+      "UCLA-UCLA-GEN930-ASSB",
+      "UCLA-LS-TTPX",
+      "UCLA-ACTON-SP2300",
+      "UCLA-ACTON-SP2500",
+      "UCLA-TF-NICOLET8700",
+      "UCLA-AGILENT-4156C",
+      "UCLA-AGILENT-E4980A",
+      "UCLA-SRS-SR830",
+      "UCLA-EGG-7265",
+      "UCLA-PQ-PH300",
+      "UCLA-JANIS-ST500",
+      "UCLA-TF-CONTINUUM",
+      "UCLA-HF-PROBE-SETUP"
+    ],
+    "classes": {
+      "mbe": [
+        "M100",
+        "Molecular-beam epitaxy systems",
+        "Integrated MBE growth systems; source/cracker/plasma configurations must match the material system. Not CVD, ALD or sputtering."
+      ],
+      "grating_spectrograph": [
+        "M101",
+        "Optical grating spectrometers for photoluminescence",
+        "Spectrograph components used within PL benches. Excitation sources, detectors, collection optics and cryostats remain separate; a bare spectrograph is not a complete PL system."
+      ],
+      "probe_station": [
+        "M102",
+        "Semiconductor electrical and optoelectronic probe stations",
+        "Chip/wafer probe stations with configurable measurement instruments. Cryogenic and high-frequency setups remain distinct; station does not include every analyzer by default."
+      ],
+      "semiconductor_parameter_analyzer": [
+        "M103",
+        "Semiconductor parameter analyzers",
+        "I–V device characterization electronics. Not electrochemical potentiostats or mechanical test systems."
+      ],
+      "lcr_meter": [
+        "M104",
+        "Precision LCR and impedance meters",
+        "Electrical component/device capacitance, inductance and impedance measurement. Not optical spectroscopy or electrochemical-cell control."
+      ],
+      "lockin": [
+        "M105",
+        "Lock-in amplifiers",
+        "Phase-sensitive detection electronics used within a configured measurement chain. Not an autonomous PL spectrometer or process controller."
+      ],
+      "tcspc": [
+        "M106",
+        "Time-correlated single-photon counting electronics",
+        "Photon-event timing electronics; optical wavelength range depends on external detectors and optics. Not a stand-alone spectrometer or light source."
+      ],
+      "optical_cryostat": [
+        "M107",
+        "Optical microscopy and spectroscopy cryostats",
+        "Cryogenic sample environments for optical measurement, distinct from grid vitrification, freeze drying and growth furnaces."
+      ],
+      "ftir_microscope": [
+        "M108",
+        "Infrared microscopy accessories and stations",
+        "FTIR microscope/optical sampling hardware requiring a compatible spectrometer. Does not independently replace a complete FTIR spectrometer."
+      ],
+      "ftir": [
+        "M36",
+        "FTIR spectrometer",
+        "Existing class"
+      ]
+    },
+    "process_ids": [
+      "P46",
+      "P47"
+    ],
+    "purdue_matches": [],
+    "purdue_check": "All added named models and the unmodeled setup were compared with the user-designated Purdue list; no make/model matches. Purdue flags remain false.",
+    "limits": [
+      "No experimental recipe, price, dosage, nanoscale thickness, yield or property inferred from facility capability.",
+      "No position/fiber/direction interfaces invented; model-bound templates remain empty pending exact manual extraction.",
+      "Historical SR830 USD5995 list reference is retained in this report only, excluded from current purchase/estimate anchors.",
+      "Academic publication index remains discovery only; no articles treated as methods-checked in this facility pass."
+    ]
+  }
+}
