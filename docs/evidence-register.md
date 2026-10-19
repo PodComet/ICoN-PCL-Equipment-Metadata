@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-709 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+737 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -5673,6 +5673,19 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 **Related records:** `M12-09` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## IMG-EV-27F30AC0106041FA
+
+MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 3100 D.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies Kinematica POLYTRON PT 3100 D](https://www.msesupplies.com/products/kinematica-polytron-pt-3100-d-stand-disperser-high-end-line) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M11-06` (equipment), `M11` (equipment_class)
+
+
 ## IMG-EV-2AF1C0CA8A8EDD27
 
 The linked source presents an instrument photograph matched to Oxford Instruments PlasmaPro 100 Cobra (product family).
@@ -5738,6 +5751,19 @@ The linked source presents an instrument photograph matched to Bruker Dimension 
 **Related records:** `M41-02` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
 
 
+## IMG-EV-35A97C0DD831B71A
+
+MSE Supplies presents a model-matched product image for IKA A 11 basic.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies A 11 basic](https://www.msesupplies.com/products/ika-a-11-basic-analytical-mills-28000-rpm) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M81-IKA-A-11-BASIC` (equipment), `M81` (equipment_class), `P32` (process)
+
+
 ## IMG-EV-36563110BA3E1FFA
 
 The linked source presents an instrument photograph matched to JEOL JSM-IT800 (product family).
@@ -5790,6 +5816,19 @@ The linked source presents an instrument photograph matched to Nanosurf FlexAFM 
 **Related records:** `M41-10` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
 
 
+## IMG-EV-452B7CC1BA9C952B
+
+MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 2500 E.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies Kinematica POLYTRON PT 2500 E](https://www.msesupplies.com/products/kinematica-polytron-pt-2500-e-stand-dispersing-device-ecoline) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M11-02` (equipment), `M11` (equipment_class)
+
+
 ## IMG-EV-4AC93356D987AC4B
 
 The linked source presents an instrument photograph matched to Hitachi HT7830 (exact model).
@@ -5814,6 +5853,32 @@ The linked source presents an instrument photograph matched to RETSCH PM 400 (ex
 - Source: [RETSCH instrument photograph / catalog entry](https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-400/) — Official PM400 model page main instrument image; PM400 is the four-station floor model.
 
 **Related records:** `M12-06` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-5F6A88020C61051A
+
+MSE Supplies presents a model-matched product image for IKA A 10 basic.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies A 10 basic](https://www.msesupplies.com/products/ika-a-10-basic-mills-25000-rpm) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M81-IKA-A-10-BASIC` (equipment), `M81` (equipment_class), `P32` (process)
+
+
+## IMG-EV-632A6678AB211873
+
+MSE Supplies presents a model-matched product image for IKA M 20 Universal mill.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies M 20 Universal mill](https://www.msesupplies.com/products/ika-m-20-universal-mills-20000-rpm) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL` (equipment), `M81` (equipment_class), `P32` (process)
 
 
 ## IMG-EV-65342D80277EA172
@@ -5855,6 +5920,19 @@ The linked source presents an instrument photograph matched to Thermo Scientific
 **Related records:** `M39-07` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
 
 
+## IMG-EV-75C6C6066D341C4B
+
+MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry glass.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies OVEN 125 basic dry glass](https://www.msesupplies.com/products/ika-oven-125-basic-dry-glass-drying-ovens) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
+
+
 ## IMG-EV-77946113A2408233
 
 The linked source presents an instrument photograph matched to Hitachi SU3900 (exact model).
@@ -5866,6 +5944,19 @@ The linked source presents an instrument photograph matched to Hitachi SU3900 (e
 - Source: [Hitachi instrument photograph / catalog entry](https://www.millersville.edu/emlab/equipment.php) — Millersville equipment catalog identifies Hitachi SU3900 Scanning Electron Microscope and the image alt text uses that exact model name.
 
 **Related records:** `M38-07` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-793CD71E0FE2F9D9
+
+MSE Supplies presents a model-matched product image for JULABO JULABO MAGIO MS-600F.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies JULABO MAGIO MS-600F](https://www.msesupplies.com/products/julabo-magio-ms-600f-refrigerated-heating-circulators) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M33-06` (equipment), `M33` (equipment_class), `P04` (process), `P05` (process), `P09` (process), `P10` (process)
 
 
 ## IMG-EV-7B658FC23165D5B2
@@ -5959,6 +6050,32 @@ The linked source presents an instrument photograph matched to Thermo Scientific
 **Related records:** `M38-09` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
 
 
+## IMG-EV-A4982B07EAB8B96E
+
+MSE Supplies presents a model-matched product image for IKA IKA RV 10 digital.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies IKA RV 10 digital](https://www.msesupplies.com/products/ika-rv-10-digital-v-rotary-evaporators-280-rpm-180-c) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M16-03` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## IMG-EV-A6E235894B0EB066
+
+MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 10-35 GT.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies Kinematica POLYTRON PT 10-35 GT](https://www.msesupplies.com/products/kinematica-polytron-pt-10-35-gt-powerful-stand-disperser-ecoline) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M11-07` (equipment), `M11` (equipment_class)
+
+
 ## IMG-EV-AFDB04AE87EE3FE5
 
 The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 classic line (product family).
@@ -5985,6 +6102,19 @@ The linked source presents an instrument photograph matched to Thermo Scientific
 **Related records:** `M39-02` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
 
 
+## IMG-EV-B55EEBF332AB78EE
+
+MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry glass.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies OVEN 125 control dry glass](https://www.msesupplies.com/products/ika-oven-125-control-dry-glass-drying-ovens) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
+
+
 ## IMG-EV-B8D5B384F8830BBA
 
 The linked source presents an instrument photograph matched to JEOL JSM-IT200 (exact model).
@@ -5996,6 +6126,19 @@ The linked source presents an instrument photograph matched to JEOL JSM-IT200 (e
 - Source: [JEOL instrument photograph / catalog entry](https://www.jeol.com/products/scientific/sem/JSM-IT200.php) — Manufacturer product page names JSM-IT200 and labels this image JSM-IT200 InTouchScope Scanning Electron Microscope. Page marks product discontinued.
 
 **Related records:** `M38-04` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-BACE875E4A380B01
+
+MSE Supplies presents a model-matched product image for IKA IKA RV 8.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies IKA RV 8](https://www.msesupplies.com/products/ika-rv-8-v-rotary-evaporators-300-rpm-180-c) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M16-10` (equipment), `M16` (equipment_class), `P04` (process)
 
 
 ## IMG-EV-BEB4F7B38F4C3AA0
@@ -6035,6 +6178,19 @@ The linked source presents an instrument photograph matched to IKA T 50 digital 
 - Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-1931024.html) — Exact title T50 digital ULTRA-TURRAX; description matches official IKA 0003787001 page, 0.25-30L and600-10000rpm.
 
 **Related records:** `M11-05` (equipment), `M11` (equipment_class)
+
+
+## IMG-EV-D6D9DAAE9693B146
+
+MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies OVEN 125 control dry](https://www.msesupplies.com/products/ika-oven-125-control-drying-ovens) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
 
 
 ## IMG-EV-D912B534FE2EE90D
@@ -6077,6 +6233,19 @@ The existing manufacturer-hosted VR-6000 series photograph is still available. T
 **Related records:** `REQ-EQ-010` (equipment), `X-MET` (equipment_class)
 
 
+## IMG-EV-E9D6D690A2083BC6
+
+MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies OVEN 125 basic dry](https://www.msesupplies.com/products/ika-125-basic-drying-ovens-125-l) — Model-specific product gallery; visually reviewed
+
+**Related records:** `GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
+
+
 ## IMG-EV-E9E5142A8C72B349
 
 The linked source presents an instrument photograph matched to Park Systems NX20 (exact model).
@@ -6114,6 +6283,19 @@ The linked source presents an instrument photograph matched to Hitachi SU5000 (e
 - Source: [Hitachi instrument photograph / catalog entry](https://www.binghamton.edu/adl/facilities/mscf/electron-microscopy/su5000.html) — Facility instrument page title is Hitachi SU5000 VP and image alt text is Hitachi SU5000. Official Hitachi hero was also located but rejected due HTTP403.
 
 **Related records:** `M38-08` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-F39163343786E4E3
+
+MSE Supplies presents a model-matched product image for IKA IKA RV 3.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope. Remote source reference only; no image rights transfer or independent instrument-performance evidence.
+
+- Source: [MSE Supplies IKA RV 3](https://www.msesupplies.com/products/ika-rv-3-v-rotary-evaporators-300-rpm-99-c) — Model-specific product gallery; visually reviewed
+
+**Related records:** `M16-09` (equipment), `M16` (equipment_class), `P04` (process)
 
 
 ## IMG-EV-F54CE8F9E5383DC1
@@ -7050,6 +7232,19 @@ Across International publishes USD 5990 for Across International PQ-N4 (starting
 **Related records:** `EXP-20261016-M12-PQ-N4` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## PRICE-EV-407F4AFFB6BBE08A
+
+MSE Supplies publishes USD 8469.95 for Pfeiffer HiScroll 12, SKU 2000026578.1 (Automatic Gas Ballast / Yes).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** HiScroll12,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026578.1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026578.1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.
+
+- Source: [MSE Supplies Pfeiffer HiScroll 12](https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978) — Selected variant 40690681937978; SKU 2000026578.1; product/offer schema specifies USD and NewCondition
+
+**Related records:** `M31-03` (equipment), `M31` (equipment_class), `SELL-MSE261019-5080AD6889F90D74` (seller_offer)
+
+
 ## PRICE-EV-42A7D2F3B2A03983
 
 TCI America publishes USD 126 for Tri-n-octylphosphine (TOP), SKU T0503-100ML, pack 100 mL (published_price; new).
@@ -7234,6 +7429,19 @@ Chem-Impex publishes USD 25 for Iron(II) chloride tetrahydrate, SKU 35596-100G, 
 **Related records:** `CMP-OFFER-011E84A08120` (component_offer), `fecl2-4h2o` (component)
 
 
+## PRICE-EV-48CD93F529B505FC
+
+MSE Supplies publishes USD 78.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0781, pack 100 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167347770) — Exact selected variant 39417167347770, seller SKU TA0781; USD; available flag reviewed
+
+**Related records:** `aluminium-metal` (component), `PACK-MSE261019-132CC7816AA94435` (component_offer)
+
+
 ## PRICE-EV-4912FFEBA5188860
 
 Nexera Scientific publishes USD 7 for United Scientific MSL3X1 plain glass slides, 75 × 25 mm, pack of 72, SKU MSL3X1, pack 72 piece (published_price; new).
@@ -7311,6 +7519,19 @@ Government Scientific Source publishes USD 92857.14 for Thermo Scientific Sorval
 - Source: [Government Scientific Source exact-configuration public price](https://www.govsci.com/product-detail/Thermo--Laboratory--Equipment--Division/75000090/EA/) — Product title, displayed price per EA, Part Number 75000090
 
 **Related records:** `M14-09` (equipment), `M14` (equipment_class), `SELL-PRICE261018-9B3C05ED917A1C3C` (seller_offer)
+
+
+## PRICE-EV-4ED1BD489B77E857
+
+MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1716, pack 1 piece.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=40658437079098) — Exact selected variant 40658437079098, seller SKU SU1716; USD; available flag reviewed
+
+**Related records:** `ucla-gaas-substrate` (component), `PACK-MSE261019-C6C9A6EC423C3E5B` (component_offer)
 
 
 ## PRICE-EV-50F7C39E4EF839C0
@@ -7420,6 +7641,19 @@ US Research Nanomaterials publishes 2800.0 dollars for 100.0 mL of US Nano US790
 **Related records:** `usnano-us7906-go-water1pct` (component), `PACK-USNANO261018-69EA3ED20CED60B1` (component_offer), `P09` (process), `P29` (process)
 
 
+## PRICE-EV-5C18184726CEB468
+
+MSE Supplies publishes USD 292.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2421, pack 100 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials](https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247575610) — Exact selected variant 39470247575610, seller SKU TA2421; USD; available flag reviewed
+
+**Related records:** `ucla-indium-source` (component), `PACK-MSE261019-17C6628431448BC6` (component_offer)
+
+
 ## PRICE-EV-5C59F3B32B7D2352
 
 US Research Nanomaterials, Inc. publishes USD 96.0 for US Nano US4302 COOH-functionalized MWCNTs, SKU US4302, pack 5.0 g (published_price; new).
@@ -7457,6 +7691,19 @@ BUCHI US Online Shop publishes USD 9901 for BUCHI Rotavapor R-80 (published_pric
 - Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-rotavapor-r-80-system-with-cold-trap-condenser.html) — Product heading, price, SKU, Details and Features; extracted lines 98-131.
 
 **Related records:** `M16-04` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-5E93B58CC81F885D
+
+MSE Supplies publishes USD 139.95 for MSE PRO GaSb Gallium Antimonide Crystal Substrates, SKU WA0505, pack 1 piece.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO GaSb Gallium Antimonide Crystal Substrates](https://www.msesupplies.com/products/mse-pro-gasb-gallium-antimonide-crystal-substrates?variant=31869984505914) — Exact selected variant 31869984505914, seller SKU WA0505; USD; available flag reviewed
+
+**Related records:** `ucla-gasb-substrate` (component), `PACK-MSE261019-835C935BA2864AA4` (component_offer)
 
 
 ## PRICE-EV-5EB73DBE70B23930
@@ -7591,6 +7838,19 @@ US Research Nanomaterials, Inc. publishes USD 55.0 for US Nano US4302 COOH-funct
 **Related records:** `PACK-USNANO261018-B41F2B91F17720C1` (component_offer), `usnano-us4302-mwcnt-cooh` (component)
 
 
+## PRICE-EV-6A4BA5E1DE94E416
+
+MSE Supplies publishes USD 117.95 for MSE PRO 100g Flake graphite (800 mesh) for Battery Research, SKU BR0066461, pack 100 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Natural flake graphite identity matches broad P34 feedstock. MSE dimensions/grade are not source performance validation. Do not map to graphite-flakes7-10um: D50 is 10-13 um, outside its 7-10 um specification. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 100g Flake graphite (800 mesh) for Battery Research](https://www.msesupplies.com/products/mse-pro-100g-flake-graphite-800-mesh-for-battery-research?variant=41214987960378) — Exact selected variant 41214987960378, seller SKU BR0066461; USD; available flag reviewed
+
+**Related records:** `graphite-flakes` (component), `PACK-MSE261019-F3830E26FF4490B1` (component_offer)
+
+
 ## PRICE-EV-6B3EC2C223273AA7
 
 US Research Nanomaterials publishes 166.0 dollars for 100 g of US Nano US1011M Boron nitride powder, 800 nm.
@@ -7603,6 +7863,19 @@ US Research Nanomaterials publishes 166.0 dollars for 100 g of US Nano US1011M B
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-1B67FC7BE71ED0F3` (component_offer), `P31` (process)
+
+
+## PRICE-EV-6E830A1F91BBFFC4
+
+MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=39316291059770) — Exact selected variant 39316291059770, seller SKU SU1705; USD; available flag reviewed
+
+**Related records:** `ucla-gaas-substrate` (component), `PACK-MSE261019-DBDAB6C22A673F4F` (component_offer)
 
 
 ## PRICE-EV-708175F4FAE6888A
@@ -7855,6 +8128,19 @@ Lab Alley publishes USD 1632.85 for Hydrofluoric Acid 48% Solution (48–51%), A
 - Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `PACK-PRICE261018-5E07D99CCE54CEEF` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
+## PRICE-EV-89522C639B21DB91
+
+MSE Supplies publishes USD 51.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0780, pack 50 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167315002) — Exact selected variant 39417167315002, seller SKU TA0780; USD; available flag reviewed
+
+**Related records:** `aluminium-metal` (component), `PACK-MSE261019-C85B8A37313035DD` (component_offer)
 
 
 ## PRICE-EV-89884799F92A13F9
@@ -8449,6 +8735,19 @@ TCI America publishes USD 52 for Titanium(IV) butoxide (tetrabutyl orthotitanate
 **Related records:** `CMP-OFFER-0D0E9571EE6B` (component_offer), `titanium-tetrabutoxide` (component)
 
 
+## PRICE-EV-B6DF6E2CC39C7A74
+
+MSE Supplies publishes USD 123.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0020, pack 10 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal](https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591537722) — Exact selected variant 40553591537722, seller SKU CM0020; USD; available flag reviewed
+
+**Related records:** `ucla-gallium-source` (component), `PACK-MSE261019-1C754BDEDC855A77` (component_offer)
+
+
 ## PRICE-EV-B6DFD2399B77B1A7
 
 Lab Alley publishes USD 86.57 for Dichloromethane (Methylene Chloride) 99.5% ACS Reagent Grade, SKU DCMA-1L, pack 1 L (published_price; new).
@@ -8752,6 +9051,19 @@ Government Scientific Source publishes USD 40100 for Thermo Scientific Nicolet i
 **Related records:** `M36-02` (equipment), `M36` (equipment_class), `P04` (process), `P08` (process), `P10` (process), `P11` (process), `SELL-PRICE261018-14BAF09F91A4BF53` (seller_offer)
 
 
+## PRICE-EV-C53C9945D01A0047
+
+MSE Supplies publishes USD 9686.95 for Pfeiffer HiScroll 18, SKU 2000026597-1 (Automatic Gas Ballast / Yes).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** HiScroll18,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026597-1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026597-1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.
+
+- Source: [MSE Supplies Pfeiffer HiScroll 18](https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338) — Selected variant 40696650465338; SKU 2000026597-1; product/offer schema specifies USD and NewCondition
+
+**Related records:** `M31-10` (equipment), `M31` (equipment_class), `SELL-MSE261019-C3771A1CD6A9BE4D` (seller_offer)
+
+
 ## PRICE-EV-C7B83FB191C5914E
 
 BUCHI US Online Shop publishes USD 9389 for BUCHI Rotavapor R-300 (published_price; new).
@@ -8883,6 +9195,45 @@ Lab Alley publishes USD 163.76 for SKU C4358-500ML, 500 mL of Hydrofluoric Acid 
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML) — Size/SKU table and Product Information assay
 
 **Related records:** `hydrofluoric-acid-48pct` (component), `PACK-PRICE261018-10C71722FEA815B4` (component_offer), `P13-LITERATURE-EXAMPLE-C02` (formulation_component), `P13` (process), `PACK-PRICE261018-E99F74CBD517C2D5` (component_offer)
+
+
+## PRICE-EV-D16221620B2E22A8
+
+MSE Supplies publishes USD 112.95 for MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g, SKU PO0559, pack 500 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Chemical identity and nominal 50 nm size match existing component wording. Source-specific particle distribution, surface treatment, morphology and grade compatibility remain unverified. Seller bulk powder photograph does not validate nanometre morphology. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g](https://www.msesupplies.com/products/mse-pro-99-5-50nm-silicon-dioxide-sio-sub-2-sub-nanoparticles-500g?variant=40589478199354) — Exact selected variant 40589478199354, seller SKU PO0559; USD; available flag reviewed
+
+**Related records:** `silica-50nm` (component), `PACK-MSE261019-957264280E573629` (component_offer)
+
+
+## PRICE-EV-D3047E86A2A6A8B0
+
+MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0021, pack 50 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal](https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591570490) — Exact selected variant 40553591570490, seller SKU CM0021; USD; available flag reviewed
+
+**Related records:** `ucla-gallium-source` (component), `PACK-MSE261019-931F52C2853040C0` (component_offer)
+
+
+## PRICE-EV-D38A623A981228F4
+
+MSE Supplies publishes USD 709.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2422, pack 250 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials](https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247608378) — Exact selected variant 39470247608378, seller SKU TA2422; USD; available flag reviewed
+
+**Related records:** `ucla-indium-source` (component), `PACK-MSE261019-0ED673C6F864861F` (component_offer)
 
 
 ## PRICE-EV-D44688B16CAC4289
@@ -9409,6 +9760,19 @@ Lab Alley publishes USD 114.1 for Water, HPLC Grade, SKU WAHPLC-4L, pack 4.0 L (
 - Source: [Lab Alley product price](https://www.laballey.com/products/water-hplc-grade?selected=WAHPLC-4L) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-4D0A57C33697` (component_offer), `water` (component)
+
+
+## PRICE-EV-F7DBED671B65CCA5
+
+MSE Supplies publishes USD 89.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0785, pack 50 g.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.
+
+- Source: [MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167478842) — Exact selected variant 39417167478842, seller SKU TA0785; USD; available flag reviewed
+
+**Related records:** `aluminium-metal` (component), `PACK-MSE261019-88097B606D8776EA` (component_offer)
 
 
 ## PRICE-EV-F8B960C99595FFF4

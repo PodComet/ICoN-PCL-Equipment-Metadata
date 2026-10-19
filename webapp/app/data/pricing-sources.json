@@ -205,25 +205,32 @@
       "checked_date": "2026-10-19",
       "path": "catalog/material_price_refresh_2026-10-19.json",
       "summary": "All198 offer records across131 source URLs attempted:140 prices reconfirmed,1 changed,57 previous dated quotes retained because source access or exact pack pricing could not be verified. HPL30-500ML increased from USD54.86 to USD55.00. No grade, form, SKU, pack amount, recipe eligibility or media substitutions."
+    },
+    {
+      "id": "mse261019",
+      "title": "MSE Supplies model images and pack-price review",
+      "path": "catalog/mse_catalog_review_2026-10-19.json",
+      "checked_date": "2026-10-19",
+      "summary": "Screened51,618 indexed products for existing make/model overlaps. Added14 instrument images,2 exact-variant USD pump prices and12 available material pack quotes across7 component identities (5 previously unquoted), with3 scoped material-photo identities. AI-labelled pictures, quote-only prices, five unavailable material offers and uncertain model/grade matches were withheld. No recipe eligibility or manufacturer MSRP changes."
     }
   ],
   "coverage": {
     "instrument_records": 1113,
     "instrument_statuses": {
-      "estimate_only": 29,
+      "estimate_only": 27,
       "explicit_msrp": 1,
       "manufacturer_price": 161,
-      "new_seller_price": 91,
+      "new_seller_price": 93,
       "no_purchase_price": 779,
       "secondary_market_only": 52
     },
     "component_occurrences": 260,
     "component_statuses": {
       "compatible_pack_offer": 81,
-      "no_market_offer": 87,
-      "reference_offer_only": 92
+      "no_market_offer": 86,
+      "reference_offer_only": 93
     },
-    "component_pack_offers": 198,
+    "component_pack_offers": 210,
     "market_material_options": 32,
     "market_options_with_pack_quotes": 17
   }

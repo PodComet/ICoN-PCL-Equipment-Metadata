@@ -38046,6 +38046,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-27F30AC0106041FA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 3100 D",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 3100 D.",
+      "scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 3100 D",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-3100-d-stand-disperser-high-end-line",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-06",
+          "label": "Kinematica POLYTRON PT 3100 D"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-06",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 3100 D",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010120_1170256e-37e8-4ad4-8f6a-af4cb987a0f0.jpg?v=1750396756",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "11b1c61cf0dedf8ff9ab9b0b69791be8b5b95a6a02007099c20824e847eabb6f",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-2AF1C0CA8A8EDD27",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38402,6 +38450,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-35A97C0DD831B71A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: A 11 basic",
+      "claim": "MSE Supplies presents a model-matched product image for IKA A 11 basic.",
+      "scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies A 11 basic",
+          "url": "https://www.msesupplies.com/products/ika-a-11-basic-analytical-mills-28000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-A-11-BASIC",
+          "label": "A 11 basic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-A-11-BASIC",
+        "manufacturer": "IKA",
+        "model_name": "A 11 basic",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0002900022.jpg?v=1752256351",
+        "image_match_scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6d8b849dfa83f78365c18e6f734f20853c09ceb10f4aa12e85aa32a6e19243ac",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-36563110BA3E1FFA",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38674,6 +38775,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-452B7CC1BA9C952B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 2500 E",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 2500 E.",
+      "scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 2500 E",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-2500-e-stand-dispersing-device-ecoline",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-02",
+          "label": "Kinematica POLYTRON PT 2500 E"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-02",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 2500 E",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010055.jpg?v=1750243140",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5f62ba095aa6a5efa42bce09a6222dfa6d4aaf70ae1f168d21a372a60193719a",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-4AC93356D987AC4B",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38828,6 +38977,112 @@
           }
         },
         "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5F6A88020C61051A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: A 10 basic",
+      "claim": "MSE Supplies presents a model-matched product image for IKA A 10 basic.",
+      "scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies A 10 basic",
+          "url": "https://www.msesupplies.com/products/ika-a-10-basic-mills-25000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-A-10-BASIC",
+          "label": "A 10 basic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-A-10-BASIC",
+        "manufacturer": "IKA",
+        "model_name": "A 10 basic",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0004020700.jpg?v=1657206074",
+        "image_match_scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "46d3889e3c1a687a339933c92219b399067f4c351dc9a412b119c76c6901ed1e",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-632A6678AB211873",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: M 20 Universal mill",
+      "claim": "MSE Supplies presents a model-matched product image for IKA M 20 Universal mill.",
+      "scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies M 20 Universal mill",
+          "url": "https://www.msesupplies.com/products/ika-m-20-universal-mills-20000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL",
+          "label": "M 20 Universal mill"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL",
+        "manufacturer": "IKA",
+        "model_name": "M 20 Universal mill",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0001603600.jpg?v=1657212807",
+        "image_match_scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "671cd7aa8a6054f05706b3fe857eefcad69581143a81f536184975502bb535e8",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
       }
     },
     {
@@ -39070,6 +39325,74 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-75C6C6066D341C4B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 basic dry glass",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry glass.",
+      "scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 basic dry glass",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-basic-dry-glass-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS",
+          "label": "OVEN 125 basic dry glass"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 basic dry glass",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003514.jpg?v=1657258479",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c47c3d5b0e5427737dbb167190c5b978b06e9c33f3cd992dd7e4a21b3c81b33a",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-77946113A2408233",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39141,6 +39464,74 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-793CD71E0FE2F9D9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: JULABO MAGIO MS-600F",
+      "claim": "MSE Supplies presents a model-matched product image for JULABO JULABO MAGIO MS-600F.",
+      "scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies JULABO MAGIO MS-600F",
+          "url": "https://www.msesupplies.com/products/julabo-magio-ms-600f-refrigerated-heating-circulators",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M33-06",
+          "label": "JULABO MAGIO MS-600F"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M33",
+          "label": "Recirculating temperature-control unit"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M33-06",
+        "manufacturer": "JULABO",
+        "model_name": "JULABO MAGIO MS-600F",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/MS-600F.jpg?v=1708027655",
+        "image_match_scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "034d969b11c815d2f5673bdad9ef5f663f923ce141a9874c780d4140f09e5f48",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
       }
     },
     {
@@ -39651,6 +40042,107 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A4982B07EAB8B96E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 10 digital",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 10 digital.",
+      "scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 10 digital",
+          "url": "https://www.msesupplies.com/products/ika-rv-10-digital-v-rotary-evaporators-280-rpm-180-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-03",
+          "label": "IKA RV 10 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-03",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 10 digital",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010004799.jpg?v=1657734917",
+        "image_match_scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually.",
+        "review_date": "2026-10-19",
+        "image_scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f1dc39d4a3c6224fa04f4d4f182121670d214000591e757268c199fa8e8997cb",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A6E235894B0EB066",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 10-35 GT",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 10-35 GT.",
+      "scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 10-35 GT",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-10-35-gt-powerful-stand-disperser-ecoline",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-07",
+          "label": "Kinematica POLYTRON PT 10-35 GT"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-07",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 10-35 GT",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010104.jpg?v=1750247392",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f14890e418ae1db4bc88960a4bcda8c928271b0da61404d0d3352eee688af4ad",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-AFDB04AE87EE3FE5",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39809,6 +40301,74 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B55EEBF332AB78EE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 control dry glass",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry glass.",
+      "scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 control dry glass",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-control-dry-glass-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS",
+          "label": "OVEN 125 control dry glass"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 control dry glass",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003519.jpg?v=1752256376",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "73c105873943f53605b86404432d54072ac31a7f801dcf8450f2d16f754daf79",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-B8D5B384F8830BBA",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39880,6 +40440,59 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BACE875E4A380B01",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 8",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 8.",
+      "scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 8",
+          "url": "https://www.msesupplies.com/products/ika-rv-8-v-rotary-evaporators-300-rpm-180-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-10",
+          "label": "IKA RV 8"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-10",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 8",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003587.jpg?v=1752256488",
+        "image_match_scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "152adc912bab5ce18cc4fc606605decd986726d944c1e99b59a6a151c2a3861b",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
       }
     },
     {
@@ -40110,6 +40723,74 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-D6D9DAAE9693B146",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 control dry",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry.",
+      "scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 control dry",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-control-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY",
+          "label": "OVEN 125 control dry"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 control dry",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003517.jpg?v=1752256364",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f96141e02c7e4a566e57d462ce44c4e3c4a35f6aea0c027eed104eafd7492525",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-D912B534FE2EE90D",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -40284,6 +40965,74 @@
         },
         "new_photo": false,
         "catalog_pdf_reviewed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E9D6D690A2083BC6",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 basic dry",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry.",
+      "scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 basic dry",
+          "url": "https://www.msesupplies.com/products/ika-125-basic-drying-ovens-125-l",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY",
+          "label": "OVEN 125 basic dry"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 basic dry",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003512.jpg?v=1657257665",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "74b1e00328e8dd01e459e06f9fd67313374c93cc6afbf818b09f1942a820b59c",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
       }
     },
     {
@@ -40496,6 +41245,59 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F39163343786E4E3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 3",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 3.",
+      "scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 3",
+          "url": "https://www.msesupplies.com/products/ika-rv-3-v-rotary-evaporators-300-rpm-99-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-09",
+          "label": "IKA RV 3"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-09",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 3",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003502.jpg?v=1657734323",
+        "image_match_scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope.",
+        "review_date": "2026-10-19",
+        "image_scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ae2f89515ed2c1d4e4d689376684b9c64dee8c6b79bb7106987263282727e573",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
       }
     },
     {
@@ -45020,6 +45822,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-407F4AFFB6BBE08A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Pfeiffer HiScroll 12 seller price",
+      "claim": "MSE Supplies publishes USD 8469.95 for Pfeiffer HiScroll 12, SKU 2000026578.1 (Automatic Gas Ballast / Yes).",
+      "scope": "HiScroll12,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026578.1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026578.1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Pfeiffer HiScroll 12",
+          "url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978",
+          "locator": "Selected variant 40690681937978; SKU 2000026578.1; product/offer schema specifies USD and NewCondition",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M31-03",
+          "label": "Pfeiffer HiScroll 12"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M31",
+          "label": "Dry vacuum pump"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-MSE261019-5080AD6889F90D74",
+          "label": "2000026578.1"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-MSE261019-5080AD6889F90D74",
+        "equipment_id": "M31-03",
+        "manufacturer": "Pfeiffer",
+        "model_name": "Pfeiffer HiScroll 12",
+        "seller_name": "MSE Supplies",
+        "price_value": "8469.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978",
+        "checked_date": "2026-10-19",
+        "scope": "HiScroll12,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026578.1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026578.1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+        "seller_sku": "2000026578.1",
+        "variant_id": 40690681937978
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-42A7D2F3B2A03983",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -45924,6 +46779,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-48CD93F529B505FC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 78.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0781, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167347770",
+          "locator": "Exact selected variant 39417167347770, seller SKU TA0781; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-132CC7816AA94435",
+          "label": "TA0781"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-132CC7816AA94435",
+        "component_id": "aluminium-metal",
+        "sku": "TA0781",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "78.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167347770",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-4912FFEBA5188860",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -46315,6 +47223,59 @@
         "usd_equivalent": "92857.14",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-4ED1BD489B77E857",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaAs Gallium Arsenide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1716, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=40658437079098",
+          "locator": "Exact selected variant 40658437079098, seller SKU SU1716; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gaas-substrate",
+          "label": "MSE PRO GaAs Gallium Arsenide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-C6C9A6EC423C3E5B",
+          "label": "SU1716"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-C6C9A6EC423C3E5B",
+        "component_id": "ucla-gaas-substrate",
+        "sku": "SU1716",
+        "grade": "Undoped single crystal GaAs",
+        "form": "Single crystal substrate; selected orientation, dimensions and polish in variant",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "123.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40658437079098",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {
@@ -46897,6 +47858,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-5C18184726CEB468",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 292.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2421, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247575610",
+          "locator": "Exact selected variant 39470247575610, seller SKU TA2421; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-indium-source",
+          "label": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-17C6628431448BC6",
+          "label": "TA2421"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-17C6628431448BC6",
+        "component_id": "ucla-indium-source",
+        "sku": "TA2421",
+        "grade": "99.99% (4N)",
+        "form": "In metal pellets, 1/8 inch diameter x 1/8 inch length",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "292.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39470247575610",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-5C59F3B32B7D2352",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -47061,6 +48075,59 @@
         "usd_equivalent": "9901",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-5E93B58CC81F885D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaSb Gallium Antimonide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 139.95 for MSE PRO GaSb Gallium Antimonide Crystal Substrates, SKU WA0505, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaSb Gallium Antimonide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gasb-gallium-antimonide-crystal-substrates?variant=31869984505914",
+          "locator": "Exact selected variant 31869984505914, seller SKU WA0505; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gasb-substrate",
+          "label": "MSE PRO GaSb Gallium Antimonide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-835C935BA2864AA4",
+          "label": "WA0505"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-835C935BA2864AA4",
+        "component_id": "ucla-gasb-substrate",
+        "sku": "WA0505",
+        "grade": "Undoped (intrinsic p-type) single crystal GaSb",
+        "form": "Single crystal substrate, (100), 10 x 10 x 0.5 mm, DSP",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "139.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "31869984505914",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {
@@ -47737,6 +48804,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6A4BA5E1DE94E416",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 100g Flake graphite (800 mesh) for Battery Research material pack price",
+      "claim": "MSE Supplies publishes USD 117.95 for MSE PRO 100g Flake graphite (800 mesh) for Battery Research, SKU BR0066461, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Natural flake graphite identity matches broad P34 feedstock. MSE dimensions/grade are not source performance validation. Do not map to graphite-flakes7-10um: D50 is 10-13 um, outside its 7-10 um specification. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 100g Flake graphite (800 mesh) for Battery Research",
+          "url": "https://www.msesupplies.com/products/mse-pro-100g-flake-graphite-800-mesh-for-battery-research?variant=41214987960378",
+          "locator": "Exact selected variant 41214987960378, seller SKU BR0066461; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "graphite-flakes",
+          "label": "MSE PRO 100g Flake graphite (800 mesh) for Battery Research"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-F3830E26FF4490B1",
+          "label": "BR0066461"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-F3830E26FF4490B1",
+        "component_id": "graphite-flakes",
+        "sku": "BR0066461",
+        "grade": "Natural flake graphite; fixed carbon >=99.9%; D50 10-13 um; D90 <=30 um",
+        "form": "Natural flake graphite powder, 800 mesh",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "117.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "41214987960378",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/BR0066461.jpg?v=1771245113"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-6B3EC2C223273AA7",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -47819,6 +48939,59 @@
           "sha256": "b8b0cd80ad9a60bc2b9d53974ce3789a7de78271c0acf2dee913e1dc62b47a3b",
           "visual_observation": "Grey three-dimensional platelet agglomerates with800nm scale bar and www.us-nano.com / US1011M labeling."
         }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6E830A1F91BBFFC4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaAs Gallium Arsenide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=39316291059770",
+          "locator": "Exact selected variant 39316291059770, seller SKU SU1705; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gaas-substrate",
+          "label": "MSE PRO GaAs Gallium Arsenide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-DBDAB6C22A673F4F",
+          "label": "SU1705"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-DBDAB6C22A673F4F",
+        "component_id": "ucla-gaas-substrate",
+        "sku": "SU1705",
+        "grade": "Undoped single crystal GaAs",
+        "form": "Single crystal substrate; selected orientation, dimensions and polish in variant",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "72.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39316291059770",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {
@@ -49051,6 +50224,59 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.",
         "currency_basis": "Existing source-bound USD denomination retained; exact supplier SKU and pack row rechecked. No currency conversion or new currency inference."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-89522C639B21DB91",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 51.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0780, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167315002",
+          "locator": "Exact selected variant 39417167315002, seller SKU TA0780; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-C85B8A37313035DD",
+          "label": "TA0780"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-C85B8A37313035DD",
+        "component_id": "aluminium-metal",
+        "sku": "TA0780",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "51.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167315002",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {
@@ -51937,6 +53163,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B6DF6E2CC39C7A74",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.99% 4N Gallium (Ga) Metal material pack price",
+      "claim": "MSE Supplies publishes USD 123.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0020, pack 10 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591537722",
+          "locator": "Exact selected variant 40553591537722, seller SKU CM0020; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gallium-source",
+          "label": "MSE PRO 99.99% 4N Gallium (Ga) Metal"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-1C754BDEDC855A77",
+          "label": "CM0020"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-1C754BDEDC855A77",
+        "component_id": "ucla-gallium-source",
+        "sku": "CM0020",
+        "grade": "99.99% (4N)",
+        "form": "Ga metal, metallic liquid or solid depending on ambient temperature",
+        "pack_quantity": "10",
+        "pack_unit": "g",
+        "price_value": "123.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40553591537722",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/20240719141808.jpg?v=1721370025"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-B6DFD2399B77B1A7",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -53454,6 +54733,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-C53C9945D01A0047",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Pfeiffer HiScroll 18 seller price",
+      "claim": "MSE Supplies publishes USD 9686.95 for Pfeiffer HiScroll 18, SKU 2000026597-1 (Automatic Gas Ballast / Yes).",
+      "scope": "HiScroll18,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026597-1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026597-1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Pfeiffer HiScroll 18",
+          "url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338",
+          "locator": "Selected variant 40696650465338; SKU 2000026597-1; product/offer schema specifies USD and NewCondition",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M31-10",
+          "label": "Pfeiffer HiScroll 18"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M31",
+          "label": "Dry vacuum pump"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-MSE261019-C3771A1CD6A9BE4D",
+          "label": "2000026597-1"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-MSE261019-C3771A1CD6A9BE4D",
+        "equipment_id": "M31-10",
+        "manufacturer": "Pfeiffer",
+        "model_name": "Pfeiffer HiScroll 18",
+        "seller_name": "MSE Supplies",
+        "price_value": "9686.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338",
+        "checked_date": "2026-10-19",
+        "scope": "HiScroll18,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026597-1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026597-1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+        "seller_sku": "2000026597-1",
+        "variant_id": 40696650465338
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-C7B83FB191C5914E",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -54183,6 +55515,165 @@
         "usd_equivalent": "163.76",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D16221620B2E22A8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g material pack price",
+      "claim": "MSE Supplies publishes USD 112.95 for MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g, SKU PO0559, pack 500 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Chemical identity and nominal 50 nm size match existing component wording. Source-specific particle distribution, surface treatment, morphology and grade compatibility remain unverified. Seller bulk powder photograph does not validate nanometre morphology. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-5-50nm-silicon-dioxide-sio-sub-2-sub-nanoparticles-500g?variant=40589478199354",
+          "locator": "Exact selected variant 40589478199354, seller SKU PO0559; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "silica-50nm",
+          "label": "MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-957264280E573629",
+          "label": "PO0559"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-957264280E573629",
+        "component_id": "silica-50nm",
+        "sku": "PO0559",
+        "grade": "99.5%; nominal 50 nm SiO2; specific surface area 50 +/-30 m2/g; pH 7-8",
+        "form": "White SiO2 nanopowder",
+        "pack_quantity": "500",
+        "pack_unit": "g",
+        "price_value": "112.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40589478199354",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/SIO2_68bfe5f5-1411-4ca5-bb3e-36a2bafbcd8e.png?v=1724636992"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D3047E86A2A6A8B0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.99% 4N Gallium (Ga) Metal material pack price",
+      "claim": "MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0021, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591570490",
+          "locator": "Exact selected variant 40553591570490, seller SKU CM0021; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gallium-source",
+          "label": "MSE PRO 99.99% 4N Gallium (Ga) Metal"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-931F52C2853040C0",
+          "label": "CM0021"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-931F52C2853040C0",
+        "component_id": "ucla-gallium-source",
+        "sku": "CM0021",
+        "grade": "99.99% (4N)",
+        "form": "Ga metal, metallic liquid or solid depending on ambient temperature",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "506.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40553591570490",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/20240719141808.jpg?v=1721370025"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D38A623A981228F4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 709.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2422, pack 250 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247608378",
+          "locator": "Exact selected variant 39470247608378, seller SKU TA2422; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-indium-source",
+          "label": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-0ED673C6F864861F",
+          "label": "TA2422"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-0ED673C6F864861F",
+        "component_id": "ucla-indium-source",
+        "sku": "TA2422",
+        "grade": "99.99% (4N)",
+        "form": "In metal pellets, 1/8 inch diameter x 1/8 inch length",
+        "pack_quantity": "250",
+        "pack_unit": "g",
+        "price_value": "709.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39470247608378",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {
@@ -56757,6 +58248,59 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.",
         "currency_basis": "Existing source-bound USD denomination retained; exact supplier SKU and pack row rechecked. No currency conversion or new currency inference."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-F7DBED671B65CCA5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 89.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0785, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167478842",
+          "locator": "Exact selected variant 39417167478842, seller SKU TA0785; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-88097B606D8776EA",
+          "label": "TA0785"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-88097B606D8776EA",
+        "component_id": "aluminium-metal",
+        "sku": "TA0785",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "89.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167478842",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
       }
     },
     {

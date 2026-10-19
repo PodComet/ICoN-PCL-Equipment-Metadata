@@ -13,9 +13,13 @@ def test_new_classes_have_scoped_model_evidence_without_inheriting_purdue_owners
     counts=Counter(r['category_id'] for r in report['new_records'])
     assert set(counts)==set(classes) and all(1<=n<=10 for n in counts.values())
     assert counts['M80']==1  # Only one evidenced custom chamber; no invented market equivalents.
+    reviewed_photos={u['equipment_id']:u for u in json.loads((ROOT/'catalog/mse_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))['instrument_images']}
     for addition in report['new_records']:
         row=records[addition['equipment_id']]
-        assert all(row[k]==v for k,v in addition.items() if k!='sources')
+        update=reviewed_photos.get(addition['equipment_id'])
+        if update:
+            assert all(addition[k]==v for k,v in update['before'].items())
+        assert all(row[k]==(update['after'].get(k,v) if update else v) for k,v in addition.items() if k!='sources')
         assert row['product_page_url'] and row['model_evidence_url'] and addition['sources']
         assert row['catalog_scope']=='process_slot_gap_expansion'
         assert row['purdue_list']=='false'

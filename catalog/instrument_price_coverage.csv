@@ -301,14 +301,14 @@ M30-09,M30,Esco,Esco PowderMax 3-ft configuration,no_purchase_price,,,0,0,,,
 M30-10,M30,Esco,Esco PowderMax 4-ft configuration,no_purchase_price,,,0,0,,,
 M31-01,M31,Edwards,Edwards nXDS10i,manufacturer_price,,12009,0,0,4916.4,7536.8,https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS10i/p/A73601983
 M31-02,M31,Agilent,Agilent IDP-10,new_seller_price,,,1,1,4916.4,7536.8,https://www.duniway.com/part/ag-idp10
-M31-03,M31,Pfeiffer,Pfeiffer HiScroll 12,estimate_only,,,0,0,4916.4,7536.8,
+M31-03,M31,Pfeiffer,Pfeiffer HiScroll 12,new_seller_price,,,1,1,4916.4,7536.8,https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978
 M31-04,M31,Edwards,Edwards nXDS6i,manufacturer_price,,9603,0,0,4916.4,7536.8,https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS6i/p/A73501983
 M31-05,M31,Edwards,Edwards nXDS15i,manufacturer_price,,14411,0,0,4916.4,7536.8,https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS15i/p/A73701983
 M31-06,M31,Edwards,Edwards nXDS20i,manufacturer_price,,16221,0,0,4916.4,7536.8,https://us.my.edwardsvacuum.com/Catalog/Pumps/Dry-Scroll-Pumps/nXDSi-Scroll-Pumps/nXDS20i/p/A73801983
 M31-07,M31,Agilent,Agilent IDP-3,manufacturer_price,,4097,0,0,4916.4,7536.8,https://www.agilent.com/store/en_US/Prod-IDP3B01/IDP3B01
 M31-08,M31,Agilent,Agilent IDP-7,manufacturer_price,,6574,0,0,4916.4,7536.8,https://www.agilent.com/store/en_US/Prod-X3807-64000/X3807-64000
 M31-09,M31,Agilent,Agilent IDP-15,manufacturer_price,,9421,0,0,4916.4,7536.8,https://www.agilent.com/store/en_US/Prod-X3815-64000/X3815-64000
-M31-10,M31,Pfeiffer,Pfeiffer HiScroll 18,estimate_only,,,0,0,4916.4,7536.8,
+M31-10,M31,Pfeiffer,Pfeiffer HiScroll 18,new_seller_price,,,1,1,4916.4,7536.8,https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338
 M32-01,M32,Bronkhorst,Bronkhorst EL-FLOW Select F-200CV,no_purchase_price,,,0,0,,,
 M32-02,M32,Alicat,Alicat MC series,no_purchase_price,,,0,0,,,
 M32-03,M32,MKS,MKS GE50A,no_purchase_price,,,0,0,,,

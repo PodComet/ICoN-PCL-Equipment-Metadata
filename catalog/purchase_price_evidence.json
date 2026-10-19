@@ -16821,6 +16821,748 @@
         "identity_and_pack_scope": "Exact previously curated form/size option: 1kg-5um Natural Graphite (add $625). Product SKU and existing grade/form association retained; no substitution.",
         "currency_basis": "US supplier dollar catalog / FOB Houston; USD interpretation, not an explicit ISO code on each product page"
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-407F4AFFB6BBE08A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Pfeiffer HiScroll 12 seller price",
+      "claim": "MSE Supplies publishes USD 8469.95 for Pfeiffer HiScroll 12, SKU 2000026578.1 (Automatic Gas Ballast / Yes).",
+      "scope": "HiScroll12,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026578.1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026578.1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Pfeiffer HiScroll 12",
+          "url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978",
+          "locator": "Selected variant 40690681937978; SKU 2000026578.1; product/offer schema specifies USD and NewCondition",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M31-03",
+          "label": "Pfeiffer HiScroll 12"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M31",
+          "label": "Dry vacuum pump"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-MSE261019-5080AD6889F90D74",
+          "label": "2000026578.1"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-MSE261019-5080AD6889F90D74",
+        "equipment_id": "M31-03",
+        "manufacturer": "Pfeiffer",
+        "model_name": "Pfeiffer HiScroll 12",
+        "seller_name": "MSE Supplies",
+        "price_value": "8469.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978",
+        "checked_date": "2026-10-19",
+        "scope": "HiScroll12,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026578.1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026578.1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+        "seller_sku": "2000026578.1",
+        "variant_id": 40690681937978
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-C53C9945D01A0047",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Pfeiffer HiScroll 18 seller price",
+      "claim": "MSE Supplies publishes USD 9686.95 for Pfeiffer HiScroll 18, SKU 2000026597-1 (Automatic Gas Ballast / Yes).",
+      "scope": "HiScroll18,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026597-1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026597-1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Pfeiffer HiScroll 18",
+          "url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338",
+          "locator": "Selected variant 40696650465338; SKU 2000026597-1; product/offer schema specifies USD and NewCondition",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M31-10",
+          "label": "Pfeiffer HiScroll 18"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M31",
+          "label": "Dry vacuum pump"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-MSE261019-C3771A1CD6A9BE4D",
+          "label": "2000026597-1"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-MSE261019-C3771A1CD6A9BE4D",
+        "equipment_id": "M31-10",
+        "manufacturer": "Pfeiffer",
+        "model_name": "Pfeiffer HiScroll 18",
+        "seller_name": "MSE Supplies",
+        "price_value": "9686.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.msesupplies.com/products/pfeiffer-hiscroll-18-dry-scroll-pump?variant=40696650465338",
+        "checked_date": "2026-10-19",
+        "scope": "HiScroll18,Automatic Gas Ballast with integrated pressure sensor Yes, SKU2000026597-1,100-127/200-240V AC 50/60 Hz. Mains cable is explicitly a separately ordered accessory; fittings/display/interface extras not listed. Seller price,not MSRP; shipping/tax additional. 100-127/200-240V AC, 50/60 Hz; exact selected Automatic Gas Ballast/Yes integrated pressure sensor option, SKU2000026597-1. Product HTML offer schema explicitly itemCondition=https://schema.org/NewCondition. Condition is not otherwise separately described in visible prose. Seller offer, not manufacturer MSRP or an official list-price benchmark.",
+        "seller_sku": "2000026597-1",
+        "variant_id": 40696650465338
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-89522C639B21DB91",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 51.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0780, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167315002",
+          "locator": "Exact selected variant 39417167315002, seller SKU TA0780; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-C85B8A37313035DD",
+          "label": "TA0780"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-C85B8A37313035DD",
+        "component_id": "aluminium-metal",
+        "sku": "TA0780",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "51.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167315002",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-48CD93F529B505FC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 78.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0781, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167347770",
+          "locator": "Exact selected variant 39417167347770, seller SKU TA0781; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-132CC7816AA94435",
+          "label": "TA0781"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-132CC7816AA94435",
+        "component_id": "aluminium-metal",
+        "sku": "TA0781",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "78.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167347770",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-F7DBED671B65CCA5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 89.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0785, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167478842",
+          "locator": "Exact selected variant 39417167478842, seller SKU TA0785; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "aluminium-metal",
+          "label": "MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-88097B606D8776EA",
+          "label": "TA0785"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-88097B606D8776EA",
+        "component_id": "aluminium-metal",
+        "sku": "TA0785",
+        "grade": "99.999% (5N)",
+        "form": "Al metal pellets; exact dimensions in selected variant",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "89.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39417167478842",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-5C18184726CEB468",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 292.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2421, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247575610",
+          "locator": "Exact selected variant 39470247575610, seller SKU TA2421; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-indium-source",
+          "label": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-17C6628431448BC6",
+          "label": "TA2421"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-17C6628431448BC6",
+        "component_id": "ucla-indium-source",
+        "sku": "TA2421",
+        "grade": "99.99% (4N)",
+        "form": "In metal pellets, 1/8 inch diameter x 1/8 inch length",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "292.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39470247575610",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D38A623A981228F4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials material pack price",
+      "claim": "MSE Supplies publishes USD 709.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2422, pack 250 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials",
+          "url": "https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247608378",
+          "locator": "Exact selected variant 39470247608378, seller SKU TA2422; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-indium-source",
+          "label": "MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-0ED673C6F864861F",
+          "label": "TA2422"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-0ED673C6F864861F",
+        "component_id": "ucla-indium-source",
+        "sku": "TA2422",
+        "grade": "99.99% (4N)",
+        "form": "In metal pellets, 1/8 inch diameter x 1/8 inch length",
+        "pack_quantity": "250",
+        "pack_unit": "g",
+        "price_value": "709.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39470247608378",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B6DF6E2CC39C7A74",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.99% 4N Gallium (Ga) Metal material pack price",
+      "claim": "MSE Supplies publishes USD 123.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0020, pack 10 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591537722",
+          "locator": "Exact selected variant 40553591537722, seller SKU CM0020; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gallium-source",
+          "label": "MSE PRO 99.99% 4N Gallium (Ga) Metal"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-1C754BDEDC855A77",
+          "label": "CM0020"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-1C754BDEDC855A77",
+        "component_id": "ucla-gallium-source",
+        "sku": "CM0020",
+        "grade": "99.99% (4N)",
+        "form": "Ga metal, metallic liquid or solid depending on ambient temperature",
+        "pack_quantity": "10",
+        "pack_unit": "g",
+        "price_value": "123.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40553591537722",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/20240719141808.jpg?v=1721370025"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D3047E86A2A6A8B0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.99% 4N Gallium (Ga) Metal material pack price",
+      "claim": "MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0021, pack 50 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.99% 4N Gallium (Ga) Metal",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591570490",
+          "locator": "Exact selected variant 40553591570490, seller SKU CM0021; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gallium-source",
+          "label": "MSE PRO 99.99% 4N Gallium (Ga) Metal"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-931F52C2853040C0",
+          "label": "CM0021"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-931F52C2853040C0",
+        "component_id": "ucla-gallium-source",
+        "sku": "CM0021",
+        "grade": "99.99% (4N)",
+        "form": "Ga metal, metallic liquid or solid depending on ambient temperature",
+        "pack_quantity": "50",
+        "pack_unit": "g",
+        "price_value": "506.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40553591570490",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/20240719141808.jpg?v=1721370025"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6E830A1F91BBFFC4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaAs Gallium Arsenide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=39316291059770",
+          "locator": "Exact selected variant 39316291059770, seller SKU SU1705; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gaas-substrate",
+          "label": "MSE PRO GaAs Gallium Arsenide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-DBDAB6C22A673F4F",
+          "label": "SU1705"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-DBDAB6C22A673F4F",
+        "component_id": "ucla-gaas-substrate",
+        "sku": "SU1705",
+        "grade": "Undoped single crystal GaAs",
+        "form": "Single crystal substrate; selected orientation, dimensions and polish in variant",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "72.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "39316291059770",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-4ED1BD489B77E857",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaAs Gallium Arsenide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1716, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=40658437079098",
+          "locator": "Exact selected variant 40658437079098, seller SKU SU1716; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gaas-substrate",
+          "label": "MSE PRO GaAs Gallium Arsenide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-C6C9A6EC423C3E5B",
+          "label": "SU1716"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-C6C9A6EC423C3E5B",
+        "component_id": "ucla-gaas-substrate",
+        "sku": "SU1716",
+        "grade": "Undoped single crystal GaAs",
+        "form": "Single crystal substrate; selected orientation, dimensions and polish in variant",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "123.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40658437079098",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-5E93B58CC81F885D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO GaSb Gallium Antimonide Crystal Substrates material pack price",
+      "claim": "MSE Supplies publishes USD 139.95 for MSE PRO GaSb Gallium Antimonide Crystal Substrates, SKU WA0505, pack 1 piece.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO GaSb Gallium Antimonide Crystal Substrates",
+          "url": "https://www.msesupplies.com/products/mse-pro-gasb-gallium-antimonide-crystal-substrates?variant=31869984505914",
+          "locator": "Exact selected variant 31869984505914, seller SKU WA0505; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "ucla-gasb-substrate",
+          "label": "MSE PRO GaSb Gallium Antimonide Crystal Substrates"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-835C935BA2864AA4",
+          "label": "WA0505"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-835C935BA2864AA4",
+        "component_id": "ucla-gasb-substrate",
+        "sku": "WA0505",
+        "grade": "Undoped (intrinsic p-type) single crystal GaSb",
+        "form": "Single crystal substrate, (100), 10 x 10 x 0.5 mm, DSP",
+        "pack_quantity": "1",
+        "pack_unit": "piece",
+        "price_value": "139.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "31869984505914",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": false,
+        "image_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6A4BA5E1DE94E416",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 100g Flake graphite (800 mesh) for Battery Research material pack price",
+      "claim": "MSE Supplies publishes USD 117.95 for MSE PRO 100g Flake graphite (800 mesh) for Battery Research, SKU BR0066461, pack 100 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Natural flake graphite identity matches broad P34 feedstock. MSE dimensions/grade are not source performance validation. Do not map to graphite-flakes7-10um: D50 is 10-13 um, outside its 7-10 um specification. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 100g Flake graphite (800 mesh) for Battery Research",
+          "url": "https://www.msesupplies.com/products/mse-pro-100g-flake-graphite-800-mesh-for-battery-research?variant=41214987960378",
+          "locator": "Exact selected variant 41214987960378, seller SKU BR0066461; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "graphite-flakes",
+          "label": "MSE PRO 100g Flake graphite (800 mesh) for Battery Research"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-F3830E26FF4490B1",
+          "label": "BR0066461"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-F3830E26FF4490B1",
+        "component_id": "graphite-flakes",
+        "sku": "BR0066461",
+        "grade": "Natural flake graphite; fixed carbon >=99.9%; D50 10-13 um; D90 <=30 um",
+        "form": "Natural flake graphite powder, 800 mesh",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "117.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "41214987960378",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/BR0066461.jpg?v=1771245113"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-D16221620B2E22A8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g material pack price",
+      "claim": "MSE Supplies publishes USD 112.95 for MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g, SKU PO0559, pack 500 g.",
+      "scope": "MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Chemical identity and nominal 50 nm size match existing component wording. Source-specific particle distribution, surface treatment, morphology and grade compatibility remain unverified. Seller bulk powder photograph does not validate nanometre morphology. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g",
+          "url": "https://www.msesupplies.com/products/mse-pro-99-5-50nm-silicon-dioxide-sio-sub-2-sub-nanoparticles-500g?variant=40589478199354",
+          "locator": "Exact selected variant 40589478199354, seller SKU PO0559; USD; available flag reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "silica-50nm",
+          "label": "MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-MSE261019-957264280E573629",
+          "label": "PO0559"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-MSE261019-957264280E573629",
+        "component_id": "silica-50nm",
+        "sku": "PO0559",
+        "grade": "99.5%; nominal 50 nm SiO2; specific surface area 50 +/-30 m2/g; pH 7-8",
+        "form": "White SiO2 nanopowder",
+        "pack_quantity": "500",
+        "pack_unit": "g",
+        "price_value": "112.95",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "checked_date": "2026-10-19",
+        "seller_brand": "MSE PRO",
+        "manufacturer_status": "not_disclosed",
+        "variant_id": "40589478199354",
+        "purchase_available_at_review": true,
+        "recipe_eligible": false,
+        "currency_basis": "Exact USD seller variant; no conversion needed.",
+        "image_ingested": true,
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/SIO2_68bfe5f5-1411-4ca5-bb3e-36a2bafbcd8e.png?v=1724636992"
+      }
     }
   ]
 }

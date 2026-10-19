@@ -2976,6 +2976,808 @@
         "new_photo": false,
         "catalog_pdf_reviewed": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5F6A88020C61051A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: A 10 basic",
+      "claim": "MSE Supplies presents a model-matched product image for IKA A 10 basic.",
+      "scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies A 10 basic",
+          "url": "https://www.msesupplies.com/products/ika-a-10-basic-mills-25000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-A-10-BASIC",
+          "label": "A 10 basic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-A-10-BASIC",
+        "manufacturer": "IKA",
+        "model_name": "A 10 basic",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0004020700.jpg?v=1657206074",
+        "image_match_scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA A 10 basic on exact model page, US SKU 0025002269; 100-120 V, 50/60 Hz. Front view visibly labeled IKA A10 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "46d3889e3c1a687a339933c92219b399067f4c351dc9a412b119c76c6901ed1e",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-35A97C0DD831B71A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: A 11 basic",
+      "claim": "MSE Supplies presents a model-matched product image for IKA A 11 basic.",
+      "scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies A 11 basic",
+          "url": "https://www.msesupplies.com/products/ika-a-11-basic-analytical-mills-28000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-A-11-BASIC",
+          "label": "A 11 basic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-A-11-BASIC",
+        "manufacturer": "IKA",
+        "model_name": "A 11 basic",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0002900022.jpg?v=1752256351",
+        "image_match_scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA A 11 basic on exact model page, US SKU 0002900001; 100-115 V, 50/60 Hz. Front view visibly labeled IKA A11 basic. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "6d8b849dfa83f78365c18e6f734f20853c09ceb10f4aa12e85aa32a6e19243ac",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-632A6678AB211873",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: M 20 Universal mill",
+      "claim": "MSE Supplies presents a model-matched product image for IKA M 20 Universal mill.",
+      "scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies M 20 Universal mill",
+          "url": "https://www.msesupplies.com/products/ika-m-20-universal-mills-20000-rpm",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL",
+          "label": "M 20 Universal mill"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M81",
+          "label": "Laboratory mortar and grinding mills"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P32",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M81-IKA-M-20-UNIVERSAL-MILL",
+        "manufacturer": "IKA",
+        "model_name": "M 20 Universal mill",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0001603600.jpg?v=1657212807",
+        "image_match_scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA M 20 Universal mill on exact model page, US SKU 0001603603; 115 V, 50/60 Hz. Front view visibly labeled IKA M20. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "671cd7aa8a6054f05706b3fe857eefcad69581143a81f536184975502bb535e8",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E9D6D690A2083BC6",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 basic dry",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry.",
+      "scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 basic dry",
+          "url": "https://www.msesupplies.com/products/ika-125-basic-drying-ovens-125-l",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY",
+          "label": "OVEN 125 basic dry"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 basic dry",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003512.jpg?v=1657257665",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 basic dry on exact model page, US SKU 0020003216; 115 V, 50/60 Hz. Solid door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "74b1e00328e8dd01e459e06f9fd67313374c93cc6afbf818b09f1942a820b59c",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-75C6C6066D341C4B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 basic dry glass",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry glass.",
+      "scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 basic dry glass",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-basic-dry-glass-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS",
+          "label": "OVEN 125 basic dry glass"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 basic dry glass",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003514.jpg?v=1657258479",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 basic dry glass on exact model page, US SKU 0020003957; 115 V, 50/60 Hz. Glass door and blue basic control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "c47c3d5b0e5427737dbb167190c5b978b06e9c33f3cd992dd7e4a21b3c81b33a",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-D6D9DAAE9693B146",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 control dry",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry.",
+      "scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 control dry",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-control-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY",
+          "label": "OVEN 125 control dry"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 control dry",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003517.jpg?v=1752256364",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 control dry on exact model page, US SKU 0020003991; 115 V, 50/60 Hz. Solid door and black control panel are visible. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f96141e02c7e4a566e57d462ce44c4e3c4a35f6aea0c027eed104eafd7492525",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B55EEBF332AB78EE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: OVEN 125 control dry glass",
+      "claim": "MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry glass.",
+      "scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies OVEN 125 control dry glass",
+          "url": "https://www.msesupplies.com/products/ika-oven-125-control-dry-glass-drying-ovens",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS",
+          "label": "OVEN 125 control dry glass"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M71",
+          "label": "Laboratory drying and curing ovens"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P15",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P31",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P37",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P38",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "GAP-20261016-M71-IKA-OVEN-125-CONTROL-DRY-GLASS",
+        "manufacturer": "IKA",
+        "model_name": "OVEN 125 control dry glass",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003519.jpg?v=1752256376",
+        "image_match_scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller catalogue image of IKA OVEN 125 control dry glass on exact model page, US SKU 0020003997; 115 V, 50/60 Hz. Selected fourth gallery image shows glass door and black control panel; featured image shows interior only. Electrical variant is not visually distinguished; catalog illustration, not an installed-asset photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "73c105873943f53605b86404432d54072ac31a7f801dcf8450f2d16f754daf79",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-452B7CC1BA9C952B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 2500 E",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 2500 E.",
+      "scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 2500 E",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-2500-e-stand-dispersing-device-ecoline",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-02",
+          "label": "Kinematica POLYTRON PT 2500 E"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-02",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 2500 E",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010055.jpg?v=1750243140",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT2500E and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5f62ba095aa6a5efa42bce09a6222dfa6d4aaf70ae1f168d21a372a60193719a",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-27F30AC0106041FA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 3100 D",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 3100 D.",
+      "scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 3100 D",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-3100-d-stand-disperser-high-end-line",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-06",
+          "label": "Kinematica POLYTRON PT 3100 D"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-06",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 3100 D",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010120_1170256e-37e8-4ad4-8f6a-af4cb987a0f0.jpg?v=1750396756",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT3100D and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "11b1c61cf0dedf8ff9ab9b0b69791be8b5b95a6a02007099c20824e847eabb6f",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A6E235894B0EB066",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Kinematica POLYTRON PT 10-35 GT",
+      "claim": "MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 10-35 GT.",
+      "scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies Kinematica POLYTRON PT 10-35 GT",
+          "url": "https://www.msesupplies.com/products/kinematica-polytron-pt-10-35-gt-powerful-stand-disperser-ecoline",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M11-07",
+          "label": "Kinematica POLYTRON PT 10-35 GT"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M11",
+          "label": "Rotor-stator homogenizer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M11-07",
+        "manufacturer": "Kinematica",
+        "model_name": "Kinematica POLYTRON PT 10-35 GT",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010104.jpg?v=1750247392",
+        "image_match_scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photo visibly labeled POLYTRON PT10-35GT and showing the drive only. Shared photo across electrical options; plug/electrical variant is not evidenced by photo.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f14890e418ae1db4bc88960a4bcda8c928271b0da61404d0d3352eee688af4ad",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A4982B07EAB8B96E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 10 digital",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 10 digital.",
+      "scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 10 digital",
+          "url": "https://www.msesupplies.com/products/ika-rv-10-digital-v-rotary-evaporators-280-rpm-180-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-03",
+          "label": "IKA RV 10 digital"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-03",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 10 digital",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010004799.jpg?v=1657734917",
+        "image_match_scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually.",
+        "review_date": "2026-10-19",
+        "image_scope": "Exact seller RV10 digital V package photo showing RV10 digital drive, HB digital bath, vertical condenser and flasks. Model/configuration photo; electrical rating is sourced from specification, not inferred visually.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "f1dc39d4a3c6224fa04f4d4f182121670d214000591e757268c199fa8e8997cb",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F39163343786E4E3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 3",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 3.",
+      "scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 3",
+          "url": "https://www.msesupplies.com/products/ika-rv-3-v-rotary-evaporators-300-rpm-99-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-09",
+          "label": "IKA RV 3"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-09",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 3",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003502.jpg?v=1657734323",
+        "image_match_scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope.",
+        "review_date": "2026-10-19",
+        "image_scope": "Exact seller RV3 V photo with RV3 drive, HB eco bath, vertical condenser and flasks. This explicitly scoped V configuration matches the existing manufacturer-price scope.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "ae2f89515ed2c1d4e4d689376684b9c64dee8c6b79bb7106987263282727e573",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BACE875E4A380B01",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: IKA RV 8",
+      "claim": "MSE Supplies presents a model-matched product image for IKA IKA RV 8.",
+      "scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies IKA RV 8",
+          "url": "https://www.msesupplies.com/products/ika-rv-8-v-rotary-evaporators-300-rpm-180-c",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-10",
+          "label": "IKA RV 8"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-10",
+        "manufacturer": "IKA",
+        "model_name": "IKA RV 8",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003587.jpg?v=1752256488",
+        "image_match_scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller RV8 V photo shows RV8 drive, HB digital bath, vertical condenser and flasks. Same SKU0010003570 named in existing manufacturer-price scope. Photo is illustrative of assembly; seller delivery list is shorter.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "152adc912bab5ce18cc4fc606605decd986726d944c1e99b59a6a151c2a3861b",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-793CD71E0FE2F9D9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: JULABO MAGIO MS-600F",
+      "claim": "MSE Supplies presents a model-matched product image for JULABO JULABO MAGIO MS-600F.",
+      "scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained. Remote source reference only; no image rights transfer or independent instrument-performance evidence.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "MSE Supplies JULABO MAGIO MS-600F",
+          "url": "https://www.msesupplies.com/products/julabo-magio-ms-600f-refrigerated-heating-circulators",
+          "locator": "Model-specific product gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M33-06",
+          "label": "JULABO MAGIO MS-600F"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M33",
+          "label": "Recirculating temperature-control unit"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P04",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P05",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P09",
+          "label": "Catalog planning association, not observed use"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P10",
+          "label": "Catalog planning association, not observed use"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M33-06",
+        "manufacturer": "JULABO",
+        "model_name": "JULABO MAGIO MS-600F",
+        "image_url": "https://cdn.shopify.com/s/files/1/0722/7785/files/MS-600F.jpg?v=1708027655",
+        "image_match_scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained.",
+        "review_date": "2026-10-19",
+        "image_scope": "Seller photograph for JULABO MAGIO MS-600F; MS controller and 600F bath are depicted. Shared image across electrical configurations; photo does not establish supplied voltage, refrigerant or an installed asset. Source rights retained.",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "034d969b11c815d2f5673bdad9ef5f663f923ce141a9874c780d4140f09e5f48",
+          "checked_date": "2026-10-19"
+        },
+        "match_scope": "exact_model"
+      }
     }
   ]
 }

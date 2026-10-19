@@ -106351,6 +106351,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003512.jpg?v=1657257665"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-Drying-oven-20003215/"
@@ -106359,6 +106364,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-Drying-oven-20003215/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003512.jpg?v=1657257665"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -106442,6 +106452,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003514.jpg?v=1657258479"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-glass-Drying-oven-20003956/"
@@ -106450,6 +106465,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-basic-dry-glass-Drying-oven-20003956/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003514.jpg?v=1657258479"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -106533,6 +106553,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003517.jpg?v=1752256364"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-Drying-oven-20003990/"
@@ -106541,6 +106566,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-Drying-oven-20003990/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003517.jpg?v=1752256364"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -106624,6 +106654,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003519.jpg?v=1752256376"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-glass-Drying-oven-20003996/"
@@ -106632,6 +106667,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Tempering-Chambers-pg275/IKA-OVEN-125-control-dry-glass-Drying-oven-20003996/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0035003519.jpg?v=1752256376"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -113444,6 +113484,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0004020700.jpg?v=1657206074"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Mills-pg194/A-10-basic-4020700/"
@@ -113452,6 +113497,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Mills-pg194/A-10-basic-4020700/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0004020700.jpg?v=1657206074"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -113520,6 +113570,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0002900022.jpg?v=1752256351"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Mills-pg194/A-11-basic-Analytical-mill-2900000/"
@@ -113528,6 +113583,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Mills-pg194/A-11-basic-Analytical-mill-2900000/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0002900022.jpg?v=1752256351"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -113596,6 +113656,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0001603600.jpg?v=1657212807"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/M-20-Universal-mill-1603600/"
@@ -113604,6 +113669,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/M-20-Universal-mill-1603600/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0001603600.jpg?v=1657212807"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -124540,6 +124610,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/kinematica"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010055.jpg?v=1750243140"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010055.jpg?v=1750243140"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/kinematica"
@@ -124827,6 +124907,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/kinematica"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010120_1170256e-37e8-4ad4-8f6a-af4cb987a0f0.jpg?v=1750396756"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010120_1170256e-37e8-4ad4-8f6a-af4cb987a0f0.jpg?v=1750396756"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/kinematica"
@@ -124875,6 +124965,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/kinematica"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010104.jpg?v=1750247392"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/11010104.jpg?v=1750247392"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -128791,6 +128891,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010004799.jpg?v=1657734917"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010004799.jpg?v=1657734917"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
@@ -129183,9 +129293,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003502.jpg?v=1657734323"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003502.jpg?v=1657734323"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -129255,9 +129375,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/ika"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003587.jpg?v=1752256488"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-8-V-10003482/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/products/0010003587.jpg?v=1752256488"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -141047,9 +141177,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/julabo"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/MS-600F.jpg?v=1708027655"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://julabo.us/product/magio-ms-600f/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.shopify.com/s/files/1/0722/7785/files/MS-600F.jpg?v=1708027655"
       }
     ],
     "https://schema.org/manufacturer": [

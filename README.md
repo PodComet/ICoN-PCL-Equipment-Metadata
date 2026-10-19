@@ -8,6 +8,8 @@ The [KEYENCE catalog review](docs/keyence-catalog-review-2026-10-18.md) adds the
 
 The [18 October price review](docs/price-resweep-2026-10-18.md) adds 42 price observations for 41 existing instrument models and 33 distinct material pack quotes across 16 identities. Sources include manufacturer shops, distributor catalogs and labeled resale offers. Prices display in USD, retain native amounts and configuration/condition scope, and have searchable evidence IDs. Seven previously uncovered component occurrences gained compatible pack offers; reference-only grades and prepared-solution mismatches remain excluded from automatic costs.
 
+The [19 October MSE Supplies review](docs/mse-catalog-review-2026-10-19.md) fills 14 existing instrument images, adds two exact-configuration USD pump offers, and adds 12 available material pack quotes across seven existing identities. Five material identities gain their first sourced pack price; reference-only compatibility and AI-image exclusions remain explicit.
+
 The **Visuals** tab provides live process-context and process-chain graphs, following the process-centered patterns of Garcia Trelles et al. (2024). It reads current ontology data and saved revisions, preserves evidence and units, and offers SVG / JSON / RDF exports. See [dynamic visuals and scientific scope](docs/visuals.md).
 
 The [metadata standards review](docs/metadata-standards.md) adds standard field mappings, scoped eNanoMapper/NPO term references and QUDT quantity values to the public RDF graph, and corrects RO-Crate unit field names. The portable local preview opens automatically as **admin**; see [local administration](webapp/docs/local-admin.md). Hosted authentication remains enforced.
