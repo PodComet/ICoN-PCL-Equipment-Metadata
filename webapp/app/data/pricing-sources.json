@@ -226,17 +226,24 @@
       "path": "catalog/labmate_catalog_review_2026-10-19.json",
       "checked_date": "2026-10-19",
       "summary": "Eight own-brand models across seven existing M classes, with eight model photos, technical catalogue links and public USD prices. LMPT303/304 share one family card. No existing instrument data or ingredient offers changed. Inconsistent source units, mismatched slides and unrelated$30modal excluded; manufacturer green star pending independent research evidence."
+    },
+    {
+      "id": "labx261019",
+      "title": "LabX materials-science catalog discovery and condition-scoped pricing",
+      "path": "catalog/labx_catalog_review_2026-10-19.json",
+      "checked_date": "2026-10-19",
+      "summary": "Screened304application listings; added4legacy models,14instrument photos,5condition-scoped USD seller asking prices and2exact100gCaCO3pack quotes. Sold listings and shipping/accessory prices excluded. Reference-only market materials do not alter literature recipes or Purdue inventory."
     }
   ],
   "coverage": {
-    "instrument_records": 1121,
+    "instrument_records": 1125,
     "instrument_statuses": {
       "estimate_only": 38,
       "explicit_msrp": 1,
       "manufacturer_price": 173,
       "new_seller_price": 90,
-      "no_purchase_price": 767,
-      "secondary_market_only": 52
+      "no_purchase_price": 766,
+      "secondary_market_only": 57
     },
     "component_occurrences": 260,
     "component_statuses": {
@@ -244,8 +251,8 @@
       "no_market_offer": 85,
       "reference_offer_only": 94
     },
-    "component_pack_offers": 222,
-    "market_material_options": 32,
-    "market_options_with_pack_quotes": 17
+    "component_pack_offers": 224,
+    "market_material_options": 34,
+    "market_options_with_pack_quotes": 19
   }
 }

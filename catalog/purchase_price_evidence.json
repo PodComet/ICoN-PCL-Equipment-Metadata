@@ -19428,6 +19428,450 @@
         "availability_scope": "Selected model price table offers Add to cart and Buy now; stock quantity/lead time not asserted.",
         "scope": "Published supplier catalog price per each of 1 for Planetary Ball Mill LMPBM-A100, supplier SKU A100. USD follows the supplier's published payment policy. Not labeled MSRP or official list price. No stock or delivery guarantee; shipping, taxes and fees excluded. Public URL and schema SKU use A100, while visible model is LMPBM-A100. Preserve both identities. Source voltage 220 V/50 Hz; US compatibility needs confirmation."
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-3EB46D8C2C5A4E13",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Bruker D8 ADVANCE refurbished seller asking price",
+      "claim": "KS Analytical Systems lists USD 57000 for this configuration.",
+      "scope": "KS Analytical Systems LabX listing 4262755, refurbished Bruker D8 Advance Series 1 powder XRD system. USD 57,000 seller asking price for this Series 1 configuration, not a new D8 ADVANCE MSRP/list price; shipping, installation, taxes and exact software/accessory scope require seller confirmation. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "KS Analytical Systems via LabX",
+          "url": "https://www.labx.com/item/featured/4262755",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M37-08",
+          "label": "Bruker D8 ADVANCE"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-9894E403278E2C13",
+          "label": "4262755"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-9894E403278E2C13",
+        "equipment_id": "M37-08",
+        "manufacturer": "Bruker",
+        "model_name": "Bruker D8 ADVANCE",
+        "seller_name": "KS Analytical Systems via LabX",
+        "price_value": "57000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/featured/4262755",
+        "checked_date": "2026-10-19",
+        "scope": "KS Analytical Systems LabX listing 4262755, refurbished Bruker D8 Advance Series 1 powder XRD system. USD 57,000 seller asking price for this Series 1 configuration, not a new D8 ADVANCE MSRP/list price; shipping, installation, taxes and exact software/accessory scope require seller confirmation. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "4262755",
+        "listing_last_updated": "2026-08-14",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6648775D069BE5C9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "BUCHI Rotavapor R-215 used seller asking price",
+      "claim": "InnovtrendLab lists USD 3500 for this configuration.",
+      "scope": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-BUCHI-R215",
+          "label": "BUCHI Rotavapor R-215"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-4D05BB87A7B757AE",
+          "label": "DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-4D05BB87A7B757AE",
+        "equipment_id": "CAT-LABX-BUCHI-R215",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-215",
+        "seller_name": "InnovtrendLab via LabX",
+        "price_value": "3500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+        "checked_date": "2026-10-19",
+        "scope": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A3FBCB23EA0E53E2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Heidolph Hei-VAP Advantage used seller asking price",
+      "claim": "InnovtrendLab lists USD 2500 for this configuration.",
+      "scope": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "label": "Heidolph Hei-VAP Advantage"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-DF491DD15B2E5E02",
+          "label": "DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-DF491DD15B2E5E02",
+        "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+        "manufacturer": "Heidolph",
+        "model_name": "Heidolph Hei-VAP Advantage",
+        "seller_name": "InnovtrendLab via LabX",
+        "price_value": "2500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+        "checked_date": "2026-10-19",
+        "scope": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-0DEF540035448733",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Veeco CP-II refurbished seller asking price",
+      "claim": "EquipX lists USD 29500 for this configuration.",
+      "scope": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/featured/DIS-86979-491",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-VEECO-CPII",
+          "label": "Veeco CP-II"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-BD4D586683CC96A9",
+          "label": "DIS-86979-491"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-BD4D586683CC96A9",
+        "equipment_id": "CAT-LABX-VEECO-CPII",
+        "manufacturer": "Veeco",
+        "model_name": "Veeco CP-II",
+        "seller_name": "EquipX via LabX",
+        "price_value": "29500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/featured/DIS-86979-491",
+        "checked_date": "2026-10-19",
+        "scope": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-86979-491",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-434E2BEA5EEA48A7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Shimadzu EDX-800HS2 refurbished seller asking price",
+      "claim": "EquipX lists USD 26500 for this configuration.",
+      "scope": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "label": "Shimadzu EDX-800HS2"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-FE258D04BB35D9DF",
+          "label": "DIS-86979-3871"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-FE258D04BB35D9DF",
+        "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+        "manufacturer": "Shimadzu",
+        "model_name": "Shimadzu EDX-800HS2",
+        "seller_name": "EquipX via LabX",
+        "price_value": "26500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+        "checked_date": "2026-10-19",
+        "scope": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-86979-3871",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-8A5B2042540AA5FA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) pack price",
+      "claim": "Spectra Services lists USD 495 per 100 g for B2026208.",
+      "scope": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for PVC; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)",
+          "url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+          "locator": "Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "molecular-depot-b2026208-caco3-pvc-15-40nm",
+          "label": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-LABX261019-C3AF7558779903C9",
+          "label": "B2026208"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P29",
+          "label": "Curator market nanofiller association, not a literature formulation"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-LABX261019-C3AF7558779903C9",
+        "component_id": "molecular-depot-b2026208-caco3-pvc-15-40nm",
+        "name": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)",
+        "seller": "Spectra Services",
+        "manufacturer": "Molecular Depot",
+        "sku": "B2026208",
+        "grade": "Supplier describes biotechnology grade; numerical purity and surface-treatment chemistry not specified.",
+        "form": "surface-modified dry nanopowder; nominal particle size 15-40 nm",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "495",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated.",
+        "cas_number": "",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "verification": {
+          "http_status": 200,
+          "page_sha256": "d2a835ca1444c25b3bdd5916d34d88fca95f77fcf5756e633afa2e23fa9fae53",
+          "json_ld_offer": {
+            "@type": "Offer",
+            "url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+            "sku": "b2026208",
+            "name": "Molecular Depot Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) B2026208",
+            "seller": "Spectra Services",
+            "itemCondition": "http://schema.org/NewCondition",
+            "price": "495",
+            "availability": "http://schema.org/InStock",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2026-11-18"
+          },
+          "pack_locator": "Description: Catalog number / Amount / Supplied as",
+          "price_locator": "Our Price and Product.offers.price",
+          "name_locator": "Product title and SKU",
+          "new_condition_locator": "Product.offers.itemCondition=NewCondition"
+        },
+        "labx_discovery": {
+          "url": "https://www.labx.com/item/molecular-depot-calcium-carbonate-nanopowder-surface/41276-molecular-depot-b2026208",
+          "listing_text": "New\nMolecular Depot Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) B2026208\n$524.70 USD",
+          "price_value": 524.7,
+          "currency": "USD",
+          "scope": "LabX discovery-page quoted price, differs from direct seller; not used as current direct-seller quote without full listing review."
+        },
+        "recipe_eligible": false,
+        "withheld_media": {
+          "url": "https://spectraservices.com/mm5/graphics/00000001/49/molecular-depot-b2026208.jpg",
+          "reason": "Visual inspection shows a generic unlabeled Molecular Depot branded bottle. B2026207 and B2026208 bytes identical; cannot establish exact SKU, physical nanopowder or pack.",
+          "sha256": "3dab9656165e3d197d5fd6b0f9fd6724e0b226b3a7a07717a43c516eaf07848d",
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A496DAF43E59A5A0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) pack price",
+      "claim": "Spectra Services lists USD 495 per 100 g for B2026207.",
+      "scope": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for adhesives; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)",
+          "url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+          "locator": "Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "molecular-depot-b2026207-caco3-adhesives-15-40nm",
+          "label": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-LABX261019-E9B7FD82710396A1",
+          "label": "B2026207"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P29",
+          "label": "Curator market nanofiller association, not a literature formulation"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-LABX261019-E9B7FD82710396A1",
+        "component_id": "molecular-depot-b2026207-caco3-adhesives-15-40nm",
+        "name": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)",
+        "seller": "Spectra Services",
+        "manufacturer": "Molecular Depot",
+        "sku": "B2026207",
+        "grade": "Supplier describes biotechnology grade; numerical purity and surface-treatment chemistry not specified.",
+        "form": "surface-modified dry nanopowder; nominal particle size 15-40 nm",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "495",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated.",
+        "cas_number": "",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "verification": {
+          "http_status": 200,
+          "page_sha256": "418ab06d42c62324536313d2f407339787fef38add86a67907978e33b99c4809",
+          "json_ld_offer": {
+            "@type": "Offer",
+            "url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+            "sku": "b2026207",
+            "name": "Molecular Depot Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) B2026207",
+            "seller": "Spectra Services",
+            "itemCondition": "http://schema.org/NewCondition",
+            "price": "495",
+            "availability": "http://schema.org/InStock",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2026-11-18"
+          },
+          "pack_locator": "Description: Catalog number / Amount / Supplied as",
+          "price_locator": "Our Price and Product.offers.price",
+          "name_locator": "Product title and SKU",
+          "new_condition_locator": "Product.offers.itemCondition=NewCondition"
+        },
+        "labx_discovery": {
+          "url": "https://www.labx.com/item/molecular-depot-calcium-carbonate-nanopowder-surface/41276-molecular-depot-b2026207",
+          "listing_text": "New\nMolecular Depot Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) B2026207\n$524.70 USD",
+          "price_value": 524.7,
+          "currency": "USD",
+          "scope": "LabX discovery-page quoted price, differs from direct seller; not used as current direct-seller quote without full listing review."
+        },
+        "recipe_eligible": false,
+        "withheld_media": {
+          "url": "https://spectraservices.com/mm5/graphics/00000001/49/molecular-depot-b2026207.jpg",
+          "reason": "Visual inspection shows a generic unlabeled Molecular Depot branded bottle. B2026207 and B2026208 bytes identical; cannot establish exact SKU, physical nanopowder or pack.",
+          "sha256": "3dab9656165e3d197d5fd6b0f9fd6724e0b226b3a7a07717a43c516eaf07848d",
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
+      }
     }
   ]
 }

@@ -6721,6 +6721,270 @@
         },
         "green_star_granted": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-62910252F7CFFF73",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "BUCHI Rotavapor R-215 identity and documentation",
+      "claim": "BUCHI Rotavapor R-215 is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "BUCHI Rotavapor R-215",
+          "url": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "locator": "Official legacy service table, not a current R-215 sales page. Exact R-215 model confirmed as Rotavapor With Display, end of production 2015, replacing product R-300, planned end of service 31 December 2025. Do not describe service as currently guaranteed.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf",
+          "locator": "Original BUCHI-authored Rotavapor R-210 / R-215 Operation Manual, 093076 en, July 2015 Version F, 80 pages. Third-party mirror, not manufacturer-hosted. Exact family includes R-215 and B-491; options differ by configuration.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-BUCHI-R215",
+          "label": "BUCHI Rotavapor R-215"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-BUCHI-R215",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-215",
+        "configuration": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label.",
+        "manual_scope": "Original BUCHI-authored Rotavapor R-210 / R-215 Operation Manual, 093076 en, July 2015 Version F, 80 pages. Third-party mirror, not manufacturer-hosted. Exact family includes R-215 and B-491; options differ by configuration.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-BUCHI-R215",
+          "model_name": "BUCHI Rotavapor R-215",
+          "manufacturer": "BUCHI",
+          "lifecycle_status": "newer_model_confirmed",
+          "successor_model_name": "BUCHI Rotavapor R-300",
+          "successor_product_url": "https://www.buchi.com/en/products/instruments/rotavapor-r-300",
+          "successor_evidence_url": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "successor_scope": "BUCHI names R-300 as replacing R-215. This establishes the successor relationship, not current support for the legacy model; the service table carries a planned 31 December 2025 end-of-service date.",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "direct_successor",
+          "review_notes": "Official legacy service table, not a current R-215 sales page. Exact R-215 model confirmed as Rotavapor With Display, end of production 2015, replacing product R-300, planned end of service 31 December 2025. Do not describe service as currently guaranteed.",
+          "review_method": "manual_primary_source_relationship_check",
+          "review_query": "",
+          "review_source_urls": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "review_source_match": "explicit_relationship"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-180940D3979F1435",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Heidolph Hei-VAP Advantage identity and documentation",
+      "claim": "Heidolph Hei-VAP Advantage is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Heidolph Hei-VAP Advantage",
+          "url": "https://heidolph.com/emea/en/Service-Support/Downloads",
+          "locator": "Official downloads/archive page naming Hei-VAP Value / Value Digital / Advantage; not a current product sales page.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf",
+          "locator": "Manufacturer-hosted Operating Manual, version 1.2 January 2018, for Hei-VAP Value / Value Digital / Advantage. English and German combined 114-page PDF; exact model included, option-specific instructions apply only to relevant configuration.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "label": "Heidolph Hei-VAP Advantage"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+        "manufacturer": "Heidolph",
+        "model_name": "Heidolph Hei-VAP Advantage",
+        "configuration": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer.",
+        "manual_scope": "Manufacturer-hosted Operating Manual, version 1.2 January 2018, for Hei-VAP Value / Value Digital / Advantage. English and German combined 114-page PDF; exact model included, option-specific instructions apply only to relevant configuration.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "model_name": "Heidolph Hei-VAP Advantage",
+          "manufacturer": "Heidolph",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://heidolph.com/emea/en/Service-Support/Downloads",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-946D74A11429661D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Veeco CP-II identity and documentation",
+      "claim": "Veeco CP-II is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for AFM nanomaterial surface characterization. No exact-model route validation or manufacturer green-star update asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Veeco CP-II",
+          "url": "https://www.labx.com/item/featured/DIS-86979-491",
+          "locator": "Exact-model seller listing; current manufacturer page not found.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://lims.cfi.lu.lv/WebForms/Equipment/EquipmentView.aspx?toolId=48",
+          "locator": "University of Latvia Institute of Solid State Physics exact CP-II facility specification: 100x100x7.5 micrometer scanning, modes depend on fitted configuration. Institution's unit details are not transferred to seller unit.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Additional primary source",
+          "url": "https://www.tint.fs.uni-lj.si/en/equipment/surface_analysis/2015031210352570/atomic_force_microscope_afm__veeco/",
+          "locator": "University of Ljubljana Laboratory for tribology and interface nanotechnology primary exact-model CP-II equipment description confirms surface morphology/roughness role; not manufacturer documentation or evidence of seller unit condition.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-VEECO-CPII",
+          "label": "Veeco CP-II"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-VEECO-CPII",
+        "manufacturer": "Veeco",
+        "model_name": "Veeco CP-II",
+        "configuration": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations.",
+        "manual_scope": "No exact public manufacturer manual verified; use clearly labeled primary institutional technical specifications as fallback, not an operator manual.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-VEECO-CPII",
+          "model_name": "Veeco CP-II",
+          "manufacturer": "Veeco",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://www.labx.com/item/featured/DIS-86979-491",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-B93FA0874E56D151",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Shimadzu EDX-800HS2 identity and documentation",
+      "claim": "Shimadzu EDX-800HS2 is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for XRF elemental composition screening of sufficiently sized/calibrated specimens. No nanoparticle sizing, direct carbon detection, exact-model process use or manufacturer green-star change inferred. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Shimadzu EDX-800HS2",
+          "url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "locator": "Exact seller listing; no current manufacturer sales page for this legacy exact model verified.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://www.iac.saga-u.ac.jp/honjokiki/img/file57.pdf",
+          "locator": "Saga University primary equipment sheet, Japanese, one page, explicitly Rayny EDX-800HS2 by Shimadzu; qualitative/quantitative elemental XRF of solids/powders/liquids, Na–U specification. This is institution's unit, not a guarantee of seller configuration. Not nanoparticle size measurement.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Additional primary source",
+          "url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_document_file/ssi/brochures/15008/EDX_Supplies_Maintenance_Parts.pdf",
+          "locator": "Official legacy EDX family supplies and maintenance parts document explicitly includes 800HS, not exact HS2 operator manual. Do not transfer newer EDX-8000/8100 specifications.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "label": "Shimadzu EDX-800HS2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M98",
+          "label": "X-ray fluorescence spectrometers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+        "manufacturer": "Shimadzu",
+        "model_name": "Shimadzu EDX-800HS2",
+        "configuration": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established.",
+        "manual_scope": "No exact public manufacturer user manual verified. One-page Saga University equipment specification is fallback and must be labeled institutional technical specification, not manufacturer manual.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "model_name": "Shimadzu EDX-800HS2",
+          "manufacturer": "Shimadzu",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
+      }
     }
   ]
 }

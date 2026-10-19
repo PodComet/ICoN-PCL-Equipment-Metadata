@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-793 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+818 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -87,6 +87,20 @@ The reviewed source identifies EVG6200 NT.
 - Source: [EVG6200 NT · model/document review](https://www.evgroup.com/fileadmin/media/products/NIL/EVG_Solutions_for_Nanoimprint_Lithography_Brochure_01.pdf) — Official model Features/Technical Data; configuration-specific flyer when linked
 
 **Related records:** `M58-08` (equipment), `M58` (equipment_class)
+
+
+## CAT-EV-180940D3979F1435
+
+Heidolph Hei-VAP Advantage is a documented legacy commercial instrument.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.
+
+- Source: [Heidolph Hei-VAP Advantage](https://heidolph.com/emea/en/Service-Support/Downloads) — Official downloads/archive page naming Hei-VAP Value / Value Digital / Advantage; not a current product sales page.
+- Source: [Model documentation](https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf) — Manufacturer-hosted Operating Manual, version 1.2 January 2018, for Hei-VAP Value / Value Digital / Advantage. English and German combined 114-page PDF; exact model included, option-specific instructions apply only to relevant configuration.
+
+**Related records:** `CAT-LABX-HEIDOLPH-ADVANTAGE` (equipment), `M16` (equipment_class)
 
 
 ## CAT-EV-1FF9CC29FA3EE573
@@ -434,6 +448,20 @@ M113 offers maskless optical exposure as a separate pattern-definition route. LI
 **Related records:** `P06` (process), `M113` (equipment_class)
 
 
+## CAT-EV-62910252F7CFFF73
+
+BUCHI Rotavapor R-215 is a documented legacy commercial instrument.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.
+
+- Source: [BUCHI Rotavapor R-215](https://www.buchi.com/en/support/spare-parts-service-availability) — Official legacy service table, not a current R-215 sales page. Exact R-215 model confirmed as Rotavapor With Display, end of production 2015, replacing product R-300, planned end of service 31 December 2025. Do not describe service as currently guaranteed.
+- Source: [Model documentation](https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf) — Original BUCHI-authored Rotavapor R-210 / R-215 Operation Manual, 093076 en, July 2015 Version F, 80 pages. Third-party mirror, not manufacturer-hosted. Exact family includes R-215 and B-491; options differ by configuration.
+
+**Related records:** `CAT-LABX-BUCHI-R215` (equipment), `M16` (equipment_class)
+
+
 ## CAT-EV-63C24191BF088AF6
 
 UCLA describes Liquid helium â€” optional characterization coolant in its equipment/project context.
@@ -740,6 +768,21 @@ UCLA describes Silicon dopant source for MBE in its equipment/project context.
 **Related records:** `ucla-silicon-dopant` (component), `P46` (process), `P47` (process)
 
 
+## CAT-EV-946D74A11429661D
+
+Veeco CP-II is a documented legacy commercial instrument.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Curator functional class association for AFM nanomaterial surface characterization. No exact-model route validation or manufacturer green-star update asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.
+
+- Source: [Veeco CP-II](https://www.labx.com/item/featured/DIS-86979-491) — Exact-model seller listing; current manufacturer page not found.
+- Source: [Model documentation](https://lims.cfi.lu.lv/WebForms/Equipment/EquipmentView.aspx?toolId=48) — University of Latvia Institute of Solid State Physics exact CP-II facility specification: 100x100x7.5 micrometer scanning, modes depend on fitted configuration. Institution's unit details are not transferred to seller unit.
+- Source: [Additional primary source](https://www.tint.fs.uni-lj.si/en/equipment/surface_analysis/2015031210352570/atomic_force_microscope_afm__veeco/) — University of Ljubljana Laboratory for tribology and interface nanotechnology primary exact-model CP-II equipment description confirms surface morphology/roughness role; not manufacturer documentation or evidence of seller unit condition.
+
+**Related records:** `CAT-LABX-VEECO-CPII` (equipment), `M41` (equipment_class)
+
+
 ## CAT-EV-9B40E760C2C8120F
 
 UCLA lists an integrated GEN-930 configuration for (In, Ga, Al)-N semiconductor epitaxial layers.
@@ -946,6 +989,21 @@ UCLA names Veeco GEN-930 â€” N-MBE configuration in its equipment descripti
 - Source: [Phosphorus Recovery System product specifications](https://www.veeco.com/wp-content/uploads/2020/04/514fba46a7da5e111bcb1e5f982d572a.pdf) — Manufacturer document names GEN930 as a Veeco trademark. It concerns a phosphorus recovery accessory, not a GEN-930 system manual, and is not evidence UCLA has phosphorus equipment.
 
 **Related records:** `UCLA-UCLA-GEN930-N` (equipment), `M100` (equipment_class), `P46` (process), `P47` (process)
+
+
+## CAT-EV-B93FA0874E56D151
+
+Shimadzu EDX-800HS2 is a documented legacy commercial instrument.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-10-19
+
+**Scope:** Curator functional class association for XRF elemental composition screening of sufficiently sized/calibrated specimens. No nanoparticle sizing, direct carbon detection, exact-model process use or manufacturer green-star change inferred. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.
+
+- Source: [Shimadzu EDX-800HS2](https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871) — Exact seller listing; no current manufacturer sales page for this legacy exact model verified.
+- Source: [Model documentation](https://www.iac.saga-u.ac.jp/honjokiki/img/file57.pdf) — Saga University primary equipment sheet, Japanese, one page, explicitly Rayny EDX-800HS2 by Shimadzu; qualitative/quantitative elemental XRF of solids/powders/liquids, Na–U specification. This is institution's unit, not a guarantee of seller configuration. Not nanoparticle size measurement.
+- Source: [Additional primary source](https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_document_file/ssi/brochures/15008/EDX_Supplies_Maintenance_Parts.pdf) — Official legacy EDX family supplies and maintenance parts document explicitly includes 800HS, not exact HS2 operator manual. Do not transfer newer EDX-8000/8100 specifications.
+
+**Related records:** `CAT-LABX-SHIMADZU-EDX800HS2` (equipment), `M98` (equipment_class)
 
 
 ## CAT-EV-B9A3BDB39C1DBEF2
@@ -5720,6 +5778,19 @@ Electron-beam accelerating voltage: 10 kV: 10 kV
 
 - PC-P42-AF10B309758872B5: Electron-beam accelerating voltage = 10 kV; operator eq; formulation P42-SOURCE-01; source step 2.
 
+## IMG-EV-00E5D3EB5B557429
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of used SP Scientific VirTis BenchTop Pro freeze dryer with manifold. BenchTop Pro family example; exact temperature, chamber, vacuum pump and accessory configurations not generalized. Listing describes refurbished while structured condition says used. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [American Instrument Exchange via LabX](https://www.labx.com/item/sp-scientific-virtis-benchtop-pro-freeze-dryer/DIS-40039-SKU2233NF-DRY) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M17-10` (equipment), `M17` (equipment_class)
+
+
 ## IMG-EV-0C6673C707158DC1
 
 The linked source presents an instrument photograph matched to Bruker Dimension FastScan (exact model).
@@ -5757,6 +5828,19 @@ The linked source presents an instrument photograph matched to Hitachi HT7800 (e
 - Source: [Hitachi instrument photograph / catalog entry](https://cmrf.research.uiowa.edu/hitachi-ht7800) — University of Iowa instrument catalog page and image alt text both identify Hitachi HT7800.
 
 **Related records:** `M39-03` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-105A4AC8435F4799
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of a refurbished Bruker D8 Advance Series 1 powder XRD system. Series 1 example within the broader D8 ADVANCE record; not a photograph of every current D8 configuration. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [KS Analytical Systems via LabX](https://www.labx.com/item/featured/4262755) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M37-08` (equipment), `M37` (equipment_class)
 
 
 ## IMG-EV-11532F7CB5288FDE
@@ -5824,6 +5908,32 @@ Manufacturer catalog presents this representative family image for Thermo Scient
 **Related records:** `M18-03` (equipment), `M18` (equipment_class)
 
 
+## IMG-EV-24417BACAD9194D5
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of used Milli-Q IQ7005 water purification system. Title/model identify IQ7005; listing's manufacturer field Other is not used to alter canonical Merck identity. Accessories/consumables in photo not assumed included for all examples. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [Richmond Scientific via LabX](https://www.labx.com/item/featured/180715-5650563) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M46-05` (equipment), `M46` (equipment_class)
+
+
+## IMG-EV-2484CAB43C8DB45A
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photo for exact Hei-VAP Advantage listing with Heidolph-branded evaporator, bath, glassware and pump. Used configuration; manual-lift/voltage/package options not inferred. Not evidence of Purdue property. Source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [InnovtrendLab via LabX](https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b) — Model title and listing gallery; visually reviewed
+
+**Related records:** `CAT-LABX-HEIDOLPH-ADVANTAGE` (equipment), `M16` (equipment_class)
+
+
 ## IMG-EV-274363DC37DF0E72
 
 Manufacturer catalog presents this model-matched image for Niton XL5 Plus.
@@ -5863,6 +5973,19 @@ MSE Supplies presents a model-matched product image for Kinematica Kinematica PO
 **Related records:** `M11-06` (equipment), `M11` (equipment_class)
 
 
+## IMG-EV-2A61D13E97466171
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph on EDX-800HS2 listing; front logo/label says Rayny EDX-800HS. Use as EDX-800HS family illustration, with HS2 suffix not independently established from photo. Watermark/source rights retained; remote link only. Not Purdue property. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [EquipX via LabX](https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871) — Model title and listing gallery; visually reviewed
+
+**Related records:** `CAT-LABX-SHIMADZU-EDX800HS2` (equipment), `M98` (equipment_class)
+
+
 ## IMG-EV-2AF1C0CA8A8EDD27
 
 The linked source presents an instrument photograph matched to Oxford Instruments PlasmaPro 100 Cobra (product family).
@@ -5889,6 +6012,19 @@ The linked source presents an instrument photograph matched to JEOL JSM-IT510 (e
 **Related records:** `M38-05` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
 
 
+## IMG-EV-2C4208915419D57E
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of a used Bruker D2 Phaser; historical listing no longer available. Reference image only; installation, software and accessory details are not generalized. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [KS Analytical Systems via LabX](https://www.labx.com/item/bruker-d2-phaser/scp-68848-5375348) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M37-03` (equipment), `M37` (equipment_class)
+
+
 ## IMG-EV-2C9C8805466496B6
 
 The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 7 classic line (exact model).
@@ -5900,6 +6036,19 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 - Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-7-classic-line/) — Official PULVERISETTE7 classic model page first gallery image; title and two-station micro-mill description match canonical model.
 
 **Related records:** `M12-10` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-2E1739326AB82CCF
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of used Milli-Q IQ7000 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [Surplus Solutions, LLC via LabX](https://www.labx.com/item/featured/DIS-50372-383942) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M46-01` (equipment), `M46` (equipment_class)
 
 
 ## IMG-EV-2F1A4044DA8D6EFC
@@ -5915,6 +6064,19 @@ The linked source presents an instrument photograph matched to IKA EUROSTAR 20 d
 **Related records:** `M03-01` (equipment), `M03` (equipment_class)
 
 
+## IMG-EV-31C2193C44CD8109
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of a used Malvern Zetasizer Nano ZS; historical listing no longer available. Reference image only, not a current offer or demonstration of included accessories. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [Richmond Scientific via LabX](https://www.labx.com/item/malvern-zetasizer-nano-zs/180715-5321884) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M34-06` (equipment), `M34` (equipment_class)
+
+
 ## IMG-EV-331296723ADB0192
 
 The linked source presents an instrument photograph matched to Bruker Dimension Icon (exact model).
@@ -5926,6 +6088,19 @@ The linked source presents an instrument photograph matched to Bruker Dimension 
 - Source: [Bruker instrument photograph / catalog entry](https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html) — Facility equipment page explicitly describes Bruker Dimension Icon and links this image (Dimension Icon).
 
 **Related records:** `M41-02` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-34963576829F7F1A
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Exact-model seller photograph of R-215 with pump, B-491 bath and glassware. Used configuration, not Purdue property. Watermark/source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [InnovtrendLab via LabX](https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c) — Model title and listing gallery; visually reviewed
+
+**Related records:** `CAT-LABX-BUCHI-R215` (equipment), `M16` (equipment_class)
 
 
 ## IMG-EV-34B66F2450E387A7
@@ -6004,6 +6179,19 @@ The linked source presents an instrument photograph matched to Nanosurf FlexAFM 
 - Source: [Nanosurf instrument photograph / catalog entry](https://www.nanosurf.com/en/products/flexafm) — Official model-page hero image with alt FlexAFM_lowkey.
 
 **Related records:** `M41-10` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-41A5C639C1927990
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Historical seller photograph of BUCHI R-300 with B-305 bath and coil condenser; listing is no longer available. Reference image only, not a current purchase offer. Retained USD2250 price is excluded. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [V4Scientific via LabX](https://www.labx.com/item/buchi-r-300-rotary-evaporator-rotavapor-and-buchi-b-305/scp-84211-5553371) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M16-06` (equipment), `M16` (equipment_class)
 
 
 ## IMG-EV-44683CAB495357EC
@@ -6110,6 +6298,19 @@ The linked source presents an instrument photograph matched to ZEISS GeminiSEM 5
 **Related records:** `M38-10` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
 
 
+## IMG-EV-6BF423C5EAA695FF
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** EquipX photograph from CP-II listing showing AFM, controller/computer and cables. Not Purdue property. Source watermark retained; remote link only. Exact fitted modes/accessories not established by photograph. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [EquipX via LabX](https://www.labx.com/item/featured/DIS-86979-491) — Model title and listing gallery; visually reviewed
+
+**Related records:** `CAT-LABX-VEECO-CPII` (equipment), `M41` (equipment_class)
+
+
 ## IMG-EV-6E796BECF5D076F7
 
 The linked source presents an instrument photograph matched to RETSCH PM 100 (exact model).
@@ -6186,6 +6387,19 @@ The linked source presents an instrument photograph matched to SUSS MA/BA6 Gen4 
 - Source: [SUSS instrument photograph / catalog entry](https://www.nist.gov/laboratories/tools-instruments/nanofab-tool-suss-microtec-maba6-gen4-mask-aligner) — Suss MicroTec MA/BA6 Gen4 Mask Aligner
 
 **Related records:** `M58-01` (equipment), `M58` (equipment_class), `P06` (process)
+
+
+## IMG-EV-7BD764395E27536D
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of used Milli-Q IQ7015 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [Surplus Solutions, LLC via LabX](https://www.labx.com/item/featured/DIS-50372-371544) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M46-07` (equipment), `M46` (equipment_class)
 
 
 ## IMG-EV-7CF891F672CC2893
@@ -6709,6 +6923,32 @@ The linked source presents an instrument photograph matched to Bruker MultiMode 
 **Related records:** `M41-08` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
 
 
+## IMG-EV-F79C967631EBDEFB
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of a used BUCHI R-100 system with bath, interface, pump and glassware. Reference configuration; not every accessory is implied for all R-100 models. Quote only; no price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [American Instrument Exchange via LabX](https://www.labx.com/item/buchi-r-100-rotary-evaporator-system/DIS-40039-SKU2080SEVAP) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M16-05` (equipment), `M16` (equipment_class)
+
+
+## IMG-EV-FE25180C77C6C300
+
+The reviewed listing presents this instrument photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-10-19
+
+**Scope:** Seller photograph of the used PolyScience AD07R-20-A12E refrigerated circulator configuration; A12E example within the AD07R-20 model record. Listing title identifies the configuration even though the structured model field is Not Specified. Source rights retained; remote source reference only. No installed Purdue asset is inferred.
+
+- Source: [American Instrument Exchange via LabX](https://www.labx.com/item/polyscience-ad07r-20-a12e/DIS-40039-SKU1495MMCIRC) — Model title and listing gallery; visually reviewed
+
+**Related records:** `M33-10` (equipment), `M33` (equipment_class)
+
+
 ## PRICE-EV-0087E107E940F4D3
 
 Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
@@ -7000,6 +7240,19 @@ Spectrum Chemical publishes USD 10740 for Labconco Protector XL (list_price; new
 - Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/346051/) — PDF page 1; vendor 196-00824-EA; List Price
 
 **Related records:** `M29-04` (equipment), `M29` (equipment_class), `SELL-PRICE261018-0EA93B3CF86C5FCB` (seller_offer)
+
+
+## PRICE-EV-0DEF540035448733
+
+EquipX lists USD 29500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.
+
+- Source: [EquipX via LabX](https://www.labx.com/item/featured/DIS-86979-491) — Exact listing price, condition, seller and availability; shipping cost excluded
+
+**Related records:** `CAT-LABX-VEECO-CPII` (equipment), `SELL-LABX261019-BD4D586683CC96A9` (seller_offer)
 
 
 ## PRICE-EV-0F2FC8BB5585E433
@@ -7713,6 +7966,19 @@ US Research Nanomaterials publishes 96.0 dollars for 5.0 g of US Nano US4301 OH-
 **Related records:** `usnano-us4301-mwcnt-oh` (component), `PACK-USNANO261018-B16AFA8E9B12DE34` (component_offer), `P29` (process), `P37` (process)
 
 
+## PRICE-EV-3EB46D8C2C5A4E13
+
+KS Analytical Systems lists USD 57000 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** KS Analytical Systems LabX listing 4262755, refurbished Bruker D8 Advance Series 1 powder XRD system. USD 57,000 seller asking price for this Series 1 configuration, not a new D8 ADVANCE MSRP/list price; shipping, installation, taxes and exact software/accessory scope require seller confirmation. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.
+
+- Source: [KS Analytical Systems via LabX](https://www.labx.com/item/featured/4262755) — Exact listing price, condition, seller and availability; shipping cost excluded
+
+**Related records:** `M37-08` (equipment), `SELL-LABX261019-9894E403278E2C13` (seller_offer)
+
+
 ## PRICE-EV-3EE7FEF8936CF9D2
 
 US Research Nanomaterials, Inc. publishes USD 75.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 0.25 g (published_price; new).
@@ -7842,6 +8108,19 @@ US Research Nanomaterials publishes 39.0 dollars for 5 g of US Nano US1011M Boro
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-AA9AF659C773BD85` (component_offer), `P31` (process)
+
+
+## PRICE-EV-434E2BEA5EEA48A7
+
+EquipX lists USD 26500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.
+
+- Source: [EquipX via LabX](https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871) — Exact listing price, condition, seller and availability; shipping cost excluded
+
+**Related records:** `CAT-LABX-SHIMADZU-EDX800HS2` (equipment), `SELL-LABX261019-FE258D04BB35D9DF` (seller_offer)
 
 
 ## PRICE-EV-43DC0272D5C21036
@@ -8331,6 +8610,19 @@ US Research Nanomaterials, Inc. publishes USD 75.0 for US Nano US1011M Boron nit
 **Related records:** `PACK-USNANO261018-943315CCE85B0886` (component_offer), `usnano-us1011m-bn800nm` (component)
 
 
+## PRICE-EV-6648775D069BE5C9
+
+InnovtrendLab lists USD 3500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.
+
+- Source: [InnovtrendLab via LabX](https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c) — Exact listing price, condition, seller and availability; shipping cost excluded
+
+**Related records:** `CAT-LABX-BUCHI-R215` (equipment), `SELL-LABX261019-4D05BB87A7B757AE` (seller_offer)
+
+
 ## PRICE-EV-67743A1662690469
 
 US Research Nanomaterials publishes 208.0 dollars for 1.0 g of US Nano US4101 SWCNTs, dry.
@@ -8780,6 +9072,19 @@ US Research Nanomaterials, Inc. publishes USD 108.0 for US Nano US1149M Natural 
 **Related records:** `PACK-USNANO261018-BBD48CC7A49AF3FD` (component_offer), `usnano-us1149m-natural-graphite5um` (component)
 
 
+## PRICE-EV-8A5B2042540AA5FA
+
+Spectra Services lists USD 495 per 100 g for B2026208.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for PVC; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.
+
+- Source: [Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)](https://spectraservices.com/product/molecular-depot-b2026208.html) — Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data
+
+**Related records:** `molecular-depot-b2026208-caco3-pvc-15-40nm` (component), `PACK-LABX261019-C3AF7558779903C9` (component_offer), `P29` (process)
+
+
 ## PRICE-EV-8B3E4B11B657915C
 
 Terra Universal / Laboratory Equipment publishes USD 11547 for Labconco RXPert Balance System (published_price; new).
@@ -9124,6 +9429,19 @@ TCI America publishes USD 49 for Titanium(IV) isopropoxide (tetraisopropyl ortho
 **Related records:** `CMP-OFFER-5B65A560B1DD` (component_offer), `titanium-isopropoxide` (component)
 
 
+## PRICE-EV-A3FBCB23EA0E53E2
+
+InnovtrendLab lists USD 2500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.
+
+- Source: [InnovtrendLab via LabX](https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b) — Exact listing price, condition, seller and availability; shipping cost excluded
+
+**Related records:** `CAT-LABX-HEIDOLPH-ADVANTAGE` (equipment), `SELL-LABX261019-DF491DD15B2E5E02` (seller_offer)
+
+
 ## PRICE-EV-A46EEA34D115A7D2
 
 Capitol Scientific publishes USD 328.75 for Polyacrylonitrile average Mw150000, SKU 181315-100G, pack 100 g (published_price; new).
@@ -9135,6 +9453,19 @@ Capitol Scientific publishes USD 328.75 for Polyacrylonitrile average Mw150000, 
 - Source: [Capitol Scientific product price](https://www.capitolscientific.com/Sigma-Aldrich-181315-100G-Polyacrylonitrile-average-Mw-150-000-Typical-100g) — 181315-100G; 100 g; Your Price, not the separately displayed332 MSRP.
 
 **Related records:** `CMP-OFFER-DEF95CF4E228` (component_offer), `pan-polymer` (component)
+
+
+## PRICE-EV-A496DAF43E59A5A0
+
+Spectra Services lists USD 495 per 100 g for B2026207.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-19
+
+**Scope:** Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for adhesives; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.
+
+- Source: [Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)](https://spectraservices.com/product/molecular-depot-b2026207.html) — Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data
+
+**Related records:** `molecular-depot-b2026207-caco3-adhesives-15-40nm` (component), `PACK-LABX261019-E9B7FD82710396A1` (component_offer), `P29` (process)
 
 
 ## PRICE-EV-A546B22832D7AAAF

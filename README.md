@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [19 October LabX review](docs/labx-catalog-review-2026-10-19.md) screens 304 application listings and adds four legacy models, 14 instrument photos, five used/refurbished seller asking prices and two 100 g nanopowder pack quotes. Sold listings, shipping prices and uncertain matches are excluded. Seller prices remain separate from MSRP; Purdue inventory and literature recipes are preserved.
+
 The [19 October Labmate review](docs/labmate-catalog-review-2026-10-19.md) adds eight own-brand market models across seven existing M classes, with eight photos, technical catalog links and published USD prices. Two titrator variants share a card. No existing instrument rows or ingredient offers change; the supplier's green star remains pending independent research-use verification.
 
 The [19 October Thermo Fisher catalog review](docs/thermo-catalog-review-2026-10-19.md) adds 12 scoped instrument images, four official US list prices, two separate online discounts, 12 reference-only material pack quotes and one kit photograph. Exact configurations, representative family views and price types remain explicit; no recipe eligibility or private inventory changes.

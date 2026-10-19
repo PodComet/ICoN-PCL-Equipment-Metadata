@@ -7,7 +7,18 @@ from purdue_review import matches_purdue
 from price_policy import benchmark
 ROOT=Path(__file__).resolve().parents[1]
 def read(name):
-    with (ROOT/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+    with (ROOT/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
+    # Reconstruct this historical checkpoint by undoing the later, audited LabX additions.
+    later=json.loads((ROOT/'catalog/labx_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
+    if name=='equipment':
+        ids={r['equipment_id'] for r in later['new_records']}
+        before={r['equipment_id']:r['before'] for r in later['equipment_updates']}
+        rows=[before.get(r['equipment_id'],r) for r in rows if r['equipment_id'] not in ids]
+    if name in {'component_offers','market_components'}:
+        key='offer_id' if name=='component_offers' else 'market_component_id'
+        ids={r[key] for r in later['component_offers' if name=='component_offers' else 'new_market_components']}
+        rows=[r for r in rows if r[key] not in ids]
+    return rows
 def review():return json.loads((ROOT/'catalog/labmate_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
 def digest(rows):return hashlib.sha256(json.dumps(rows,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 

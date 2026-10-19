@@ -1120,3 +1120,7 @@ CAT-LABMATE-LMJGR-A100,Labmate,Jacketed Glass Reactor LMJGR-A100,p_CAT-LABMATE-L
 CAT-LABMATE-LMUH-A102,Labmate,Ultrasonic Homogenizer LMUH-A102,p_CAT-LABMATE-LMUH-A102,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
 CAT-LABMATE-LMVO-A501,Labmate,Vacuum Oven LMVO-A501,p_CAT-LABMATE-LMVO-A501,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
 CAT-LABMATE-LMPBM-A100,Labmate,Planetary Ball Mill LMPBM-A100,p_CAT-LABMATE-LMPBM-A100,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+CAT-LABX-BUCHI-R215,BUCHI,BUCHI Rotavapor R-215,p_CAT-LABX-BUCHI-R215,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+CAT-LABX-HEIDOLPH-ADVANTAGE,Heidolph,Heidolph Hei-VAP Advantage,p_CAT-LABX-HEIDOLPH-ADVANTAGE,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+CAT-LABX-VEECO-CPII,Veeco,Veeco CP-II,p_CAT-LABX-VEECO-CPII,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."
+CAT-LABX-SHIMADZU-EDX800HS2,Shimadzu,Shimadzu EDX-800HS2,p_CAT-LABX-SHIMADZU-EDX800HS2,poly-fibers/v2,not_started,0,,,"Empty model-bound template; positions, fibers and directions require exact-model manual evidence."

@@ -10,14 +10,14 @@
     "adopted_date": "2026-10-16"
   },
   "status_counts": {
-    "no_benchmarks": 928,
-    "calculated": 122,
+    "no_benchmarks": 930,
+    "calculated": 124,
     "inverted_range": 70,
     "explicit_msrp": 1
   },
   "method_counts": {
-    "": 999,
-    "category_120_80": 122
+    "": 1001,
+    "category_120_80": 124
   },
   "records": [
     {
@@ -19069,6 +19069,74 @@
       "estimated_msrp_high": "",
       "estimate_currency": "",
       "estimate_subject": "planetary_ball_mill",
+      "estimate_method": "",
+      "estimate_status": "no_benchmarks",
+      "estimate_basis": "No qualifying MSRP/list-price benchmark found for this category or a documented older model.",
+      "estimate_confidence": "not_estimated",
+      "estimate_benchmark_ids": "",
+      "estimate_source_urls": "",
+      "estimate_checked_date": "2026-10-17"
+    },
+    {
+      "equipment_id": "CAT-LABX-BUCHI-R215",
+      "model_name": "BUCHI Rotavapor R-215",
+      "manufacturer": "BUCHI",
+      "category_id": "M16",
+      "estimated_msrp_low": "4746",
+      "estimated_msrp_high": "12709.6",
+      "estimate_currency": "USD",
+      "estimate_subject": "rotary_evaporator",
+      "estimate_method": "category_120_80",
+      "estimate_status": "calculated",
+      "estimate_basis": "Category M16: 1.2 × lowest benchmark USD 3955 (IKA RV 3) through 0.8 × highest benchmark USD 15887 (IKA RV 10 auto pro V). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",
+      "estimate_confidence": "formula_based",
+      "estimate_benchmark_ids": "M16-09;EXP-20261016-M16-RV10-AUTO-PRO-V",
+      "estimate_source_urls": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/;https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/",
+      "estimate_checked_date": "2026-10-17"
+    },
+    {
+      "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+      "model_name": "Heidolph Hei-VAP Advantage",
+      "manufacturer": "Heidolph",
+      "category_id": "M16",
+      "estimated_msrp_low": "4746",
+      "estimated_msrp_high": "12709.6",
+      "estimate_currency": "USD",
+      "estimate_subject": "rotary_evaporator",
+      "estimate_method": "category_120_80",
+      "estimate_status": "calculated",
+      "estimate_basis": "Category M16: 1.2 × lowest benchmark USD 3955 (IKA RV 3) through 0.8 × highest benchmark USD 15887 (IKA RV 10 auto pro V). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",
+      "estimate_confidence": "formula_based",
+      "estimate_benchmark_ids": "M16-09;EXP-20261016-M16-RV10-AUTO-PRO-V",
+      "estimate_source_urls": "https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/;https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/",
+      "estimate_checked_date": "2026-10-17"
+    },
+    {
+      "equipment_id": "CAT-LABX-VEECO-CPII",
+      "model_name": "Veeco CP-II",
+      "manufacturer": "Veeco",
+      "category_id": "M41",
+      "estimated_msrp_low": "",
+      "estimated_msrp_high": "",
+      "estimate_currency": "",
+      "estimate_subject": "atomic_force_microscope",
+      "estimate_method": "",
+      "estimate_status": "no_benchmarks",
+      "estimate_basis": "No qualifying MSRP/list-price benchmark found for this category or a documented older model.",
+      "estimate_confidence": "not_estimated",
+      "estimate_benchmark_ids": "",
+      "estimate_source_urls": "",
+      "estimate_checked_date": "2026-10-17"
+    },
+    {
+      "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+      "model_name": "Shimadzu EDX-800HS2",
+      "manufacturer": "Shimadzu",
+      "category_id": "M98",
+      "estimated_msrp_low": "",
+      "estimated_msrp_high": "",
+      "estimate_currency": "",
+      "estimate_subject": "energy_dispersive_xrf",
       "estimate_method": "",
       "estimate_status": "no_benchmarks",
       "estimate_basis": "No qualifying MSRP/list-price benchmark found for this category or a documented older model.",

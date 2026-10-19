@@ -366,7 +366,7 @@ M37-04,M37,Rigaku,Rigaku SmartLab,no_purchase_price,,,0,0,,,
 M37-05,M37,Rigaku,Rigaku SmartLab SE,no_purchase_price,,,0,0,,,
 M37-06,M37,Malvern Panalytical,Malvern Panalytical Empyrean,no_purchase_price,,,0,0,,,
 M37-07,M37,Malvern Panalytical,Malvern Panalytical X'Pert PRO,no_purchase_price,,,0,0,,,
-M37-08,M37,Bruker,Bruker D8 ADVANCE,no_purchase_price,,,0,0,,,
+M37-08,M37,Bruker,Bruker D8 ADVANCE,secondary_market_only,,,1,0,,,https://www.labx.com/item/featured/4262755
 M37-09,M37,Proto,Proto AXRD,no_purchase_price,,,0,0,,,
 M37-10,M37,Proto,Proto iXRD Mini,no_purchase_price,,,0,0,,,
 M38-01,M38,JEOL,JEOL JSM-IT210,no_purchase_price,,,0,0,,,
@@ -1120,3 +1120,7 @@ CAT-LABMATE-LMJGR-A100,M04,Labmate,Jacketed Glass Reactor LMJGR-A100,manufacture
 CAT-LABMATE-LMUH-A102,M09,Labmate,Ultrasonic Homogenizer LMUH-A102,manufacturer_price,,3462.5,0,0,,,https://www.labmate.com/ultrasonic-homogenizer/lmuh-a102
 CAT-LABMATE-LMVO-A501,M18,Labmate,Vacuum Oven LMVO-A501,manufacturer_price,,3087.5,0,0,,,https://www.labmate.com/vacuum-oven/lmvo-a501
 CAT-LABMATE-LMPBM-A100,M12,Labmate,Planetary Ball Mill LMPBM-A100,manufacturer_price,,3512.5,0,0,,,https://www.labmate.com/planetary-ball-mill/a100
+CAT-LABX-BUCHI-R215,M16,BUCHI,BUCHI Rotavapor R-215,secondary_market_only,,,1,0,4746,12709.6,https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c
+CAT-LABX-HEIDOLPH-ADVANTAGE,M16,Heidolph,Heidolph Hei-VAP Advantage,secondary_market_only,,,1,0,4746,12709.6,https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b
+CAT-LABX-VEECO-CPII,M41,Veeco,Veeco CP-II,secondary_market_only,,,1,0,,,https://www.labx.com/item/featured/DIS-86979-491
+CAT-LABX-SHIMADZU-EDX800HS2,M98,Shimadzu,Shimadzu EDX-800HS2,secondary_market_only,,,1,0,,,https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871

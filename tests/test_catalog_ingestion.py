@@ -10,7 +10,8 @@ def read(name):
 def test_vendor_pack_grades_and_source_substitutions_remain_scoped():
     data=dataset(ROOT);offers=[o for o in data['offers'] if o['offer_id'].startswith('PACK-USNANO261018-')]
     assert len(offers)==38 and len({o['component_id'] for o in offers})==17
-    assert len(data['market_components'])==32
+    # Preserve the release's 32 market references alongside later catalog additions.
+    assert len([c for c in data['market_components'] if not c['line_id'].startswith('MARKET-LABX-')])==32
     assert all(o['currency']=='USD' and o['sku'] and o['source_url'] and o['price_value']>0 for o in offers)
     assert all('FOB Houston' in o['notes'] and 'MSRP' in o['notes'] for o in offers)
     source_lines=[c for f in data['formulations'] for c in f['components']]

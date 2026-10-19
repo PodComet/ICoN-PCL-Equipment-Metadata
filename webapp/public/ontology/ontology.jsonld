@@ -80819,6 +80819,393 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABX-BUCHI-R215",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABX-BUCHI-R215"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "BUCHI Rotavapor R-215"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M16"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "verified_operating_manual"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/buchi"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4980083/3df0fdb6-3d50-4c2b-b29a-0552a2c1ce65.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.buchi.com/en/support/spare-parts-service-availability"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4980083/3df0fdb6-3d50-4c2b-b29a-0552a2c1ce65.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/buchi"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.buchi.com/en/support/spare-parts-service-availability"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABX-HEIDOLPH-ADVANTAGE",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABX-HEIDOLPH-ADVANTAGE"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Heidolph Hei-VAP Advantage"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M16"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "verified_operating_manual"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/heidolph"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4980052/84f5e06b-5093-4776-87c0-3fa2de90a447.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://heidolph.com/emea/en/Service-Support/Downloads"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4980052/84f5e06b-5093-4776-87c0-3fa2de90a447.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/heidolph"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://heidolph.com/emea/en/Service-Support/Downloads"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABX-SHIMADZU-EDX800HS2",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABX-SHIMADZU-EDX800HS2"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.iac.saga-u.ac.jp/honjokiki/img/file57.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Shimadzu EDX-800HS2"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curator functional class association for XRF elemental composition screening of sufficiently sized/calibrated specimens. No nanoparticle sizing, direct carbon detection, exact-model process use or manufacturer green-star change inferred. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P35"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P41"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M98"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "institutional_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4745614/d368ffeb-7451-487c-b501-605e1072961a.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.iac.saga-u.ac.jp/honjokiki/img/file57.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4745614/d368ffeb-7451-487c-b501-605e1072961a.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABX-VEECO-CPII",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-LABX-VEECO-CPII"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://lims.cfi.lu.lv/WebForms/Equipment/EquipmentView.aspx?toolId=48"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Veeco CP-II"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curator functional class association for AFM nanomaterial surface characterization. No exact-model route validation or manufacturer green-star update asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M41"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "institutional_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4744358/110e2a1a-c197-437a-b093-39678da71ca9.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.labx.com/item/featured/DIS-86979-491"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://lims.cfi.lu.lv/WebForms/Equipment/EquipmentView.aspx?toolId=48"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/4744358/110e2a1a-c197-437a-b093-39678da71ca9.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/veeco"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.labx.com/item/featured/DIS-86979-491"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG101",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -129822,6 +130209,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/buchi"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5751412/7d382fac-2d34-4c06-a5ba-14c62ef562ea.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5751412/7d382fac-2d34-4c06-a5ba-14c62ef562ea.webp"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/buchi"
@@ -129882,6 +130279,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/buchi"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5553371/SCP-cf820784-9f7f-488e-a407-72e0020d426d.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5553371/SCP-cf820784-9f7f-488e-a407-72e0020d426d.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -130868,6 +131275,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/spvirtis"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5798714/42ed3c29-aff0-4eee-ba15-9e33c9065a93.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5798714/42ed3c29-aff0-4eee-ba15-9e33c9065a93.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -142342,6 +142759,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/polyscience"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5751140/98a9a162-2abb-4493-9571-955dac59f227.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5751140/98a9a162-2abb-4493-9571-955dac59f227.webp"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/polyscience"
@@ -142944,6 +143371,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/malvern"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5321884/1754060963142.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5321884/1754060963142.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -145307,6 +145744,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5375348/SCP-089aa475-cb8b-4779-b3cf-5a63f5b546a9.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5375348/SCP-089aa475-cb8b-4779-b3cf-5a63f5b546a9.webp"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
@@ -145750,6 +146197,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/71546/image_0.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/71546/image_0.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -152220,6 +152677,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/merck"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5153430/7944a49c-74de-4ccf-a78b-1721612622ef.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5153430/7944a49c-74de-4ccf-a78b-1721612622ef.webp"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/merck"
@@ -152598,6 +153065,16 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/merck"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5650563/1772812281255.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5650563/1772812281255.webp"
+      }
+    ],
     "https://schema.org/manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/merck"
@@ -152756,6 +153233,16 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
       {
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/merck"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5159474/8bd24508-6dee-477e-b183-41c19eebb677.webp"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.labx.com/v2/images/catalog/product/5159474/8bd24508-6dee-477e-b183-41c19eebb677.webp"
       }
     ],
     "https://schema.org/manufacturer": [

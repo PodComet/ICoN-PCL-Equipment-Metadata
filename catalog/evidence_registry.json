@@ -428,6 +428,69 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-180940D3979F1435",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Heidolph Hei-VAP Advantage identity and documentation",
+      "claim": "Heidolph Hei-VAP Advantage is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Heidolph Hei-VAP Advantage",
+          "url": "https://heidolph.com/emea/en/Service-Support/Downloads",
+          "locator": "Official downloads/archive page naming Hei-VAP Value / Value Digital / Advantage; not a current product sales page.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://heidolph.com/Documents/Operation%20manuals/rotary%20evaporator/Operation-Manual-Rotary%20Evaporator-Hei-VAP-Value-Advantage.pdf",
+          "locator": "Manufacturer-hosted Operating Manual, version 1.2 January 2018, for Hei-VAP Value / Value Digital / Advantage. English and German combined 114-page PDF; exact model included, option-specific instructions apply only to relevant configuration.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "label": "Heidolph Hei-VAP Advantage"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+        "manufacturer": "Heidolph",
+        "model_name": "Heidolph Hei-VAP Advantage",
+        "configuration": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer.",
+        "manual_scope": "Manufacturer-hosted Operating Manual, version 1.2 January 2018, for Hei-VAP Value / Value Digital / Advantage. English and German combined 114-page PDF; exact model included, option-specific instructions apply only to relevant configuration.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "model_name": "Heidolph Hei-VAP Advantage",
+          "manufacturer": "Heidolph",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://heidolph.com/emea/en/Service-Support/Downloads",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "CAT-EV-1FF9CC29FA3EE573",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_catalog",
@@ -2220,6 +2283,69 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-62910252F7CFFF73",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "BUCHI Rotavapor R-215 identity and documentation",
+      "claim": "BUCHI Rotavapor R-215 is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for rotary evaporation. No exact-model literature manufacturing validation asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "BUCHI Rotavapor R-215",
+          "url": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "locator": "Official legacy service table, not a current R-215 sales page. Exact R-215 model confirmed as Rotavapor With Display, end of production 2015, replacing product R-300, planned end of service 31 December 2025. Do not describe service as currently guaranteed.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://manuals.plus/m/01d899659850b32d376e17a977bb10e52b6d92485a7f2c2bee0dbc842bde0812.pdf",
+          "locator": "Original BUCHI-authored Rotavapor R-210 / R-215 Operation Manual, 093076 en, July 2015 Version F, 80 pages. Third-party mirror, not manufacturer-hosted. Exact family includes R-215 and B-491; options differ by configuration.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-BUCHI-R215",
+          "label": "BUCHI Rotavapor R-215"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-BUCHI-R215",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-215",
+        "configuration": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label.",
+        "manual_scope": "Original BUCHI-authored Rotavapor R-210 / R-215 Operation Manual, 093076 en, July 2015 Version F, 80 pages. Third-party mirror, not manufacturer-hosted. Exact family includes R-215 and B-491; options differ by configuration.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-BUCHI-R215",
+          "model_name": "BUCHI Rotavapor R-215",
+          "manufacturer": "BUCHI",
+          "lifecycle_status": "newer_model_confirmed",
+          "successor_model_name": "BUCHI Rotavapor R-300",
+          "successor_product_url": "https://www.buchi.com/en/products/instruments/rotavapor-r-300",
+          "successor_evidence_url": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "successor_scope": "BUCHI names R-300 as replacing R-215. This establishes the successor relationship, not current support for the legacy model; the service table carries a planned 31 December 2025 end-of-service date.",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "direct_successor",
+          "review_notes": "Official legacy service table, not a current R-215 sales page. Exact R-215 model confirmed as Rotavapor With Display, end of production 2015, replacing product R-300, planned end of service 31 December 2025. Do not describe service as currently guaranteed.",
+          "review_method": "manual_primary_source_relationship_check",
+          "review_query": "",
+          "review_source_urls": "https://www.buchi.com/en/support/spare-parts-service-availability",
+          "review_source_match": "explicit_relationship"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "CAT-EV-63C24191BF088AF6",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_catalog",
@@ -4008,6 +4134,75 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-946D74A11429661D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Veeco CP-II identity and documentation",
+      "claim": "Veeco CP-II is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for AFM nanomaterial surface characterization. No exact-model route validation or manufacturer green-star update asserted. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Veeco CP-II",
+          "url": "https://www.labx.com/item/featured/DIS-86979-491",
+          "locator": "Exact-model seller listing; current manufacturer page not found.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://lims.cfi.lu.lv/WebForms/Equipment/EquipmentView.aspx?toolId=48",
+          "locator": "University of Latvia Institute of Solid State Physics exact CP-II facility specification: 100x100x7.5 micrometer scanning, modes depend on fitted configuration. Institution's unit details are not transferred to seller unit.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Additional primary source",
+          "url": "https://www.tint.fs.uni-lj.si/en/equipment/surface_analysis/2015031210352570/atomic_force_microscope_afm__veeco/",
+          "locator": "University of Ljubljana Laboratory for tribology and interface nanotechnology primary exact-model CP-II equipment description confirms surface morphology/roughness role; not manufacturer documentation or evidence of seller unit condition.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-VEECO-CPII",
+          "label": "Veeco CP-II"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-VEECO-CPII",
+        "manufacturer": "Veeco",
+        "model_name": "Veeco CP-II",
+        "configuration": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations.",
+        "manual_scope": "No exact public manufacturer manual verified; use clearly labeled primary institutional technical specifications as fallback, not an operator manual.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-VEECO-CPII",
+          "model_name": "Veeco CP-II",
+          "manufacturer": "Veeco",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://www.labx.com/item/featured/DIS-86979-491",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "CAT-EV-9B40E760C2C8120F",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_catalog",
@@ -5311,6 +5506,75 @@
           "sha256": "56141bea43d502b56238ef0b4461626613557aa297723472e28a23bc344bcc1f"
         },
         "price_imported": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-B93FA0874E56D151",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "Shimadzu EDX-800HS2 identity and documentation",
+      "claim": "Shimadzu EDX-800HS2 is a documented legacy commercial instrument.",
+      "scope": "Curator functional class association for XRF elemental composition screening of sufficiently sized/calibrated specimens. No nanoparticle sizing, direct carbon detection, exact-model process use or manufacturer green-star change inferred. Class-level P/N associations are curator planning suggestions, not evidence of this model being used in a cited recipe. Actual capabilities, specimen preparation and configuration must be checked.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Shimadzu EDX-800HS2",
+          "url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "locator": "Exact seller listing; no current manufacturer sales page for this legacy exact model verified.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Model documentation",
+          "url": "https://www.iac.saga-u.ac.jp/honjokiki/img/file57.pdf",
+          "locator": "Saga University primary equipment sheet, Japanese, one page, explicitly Rayny EDX-800HS2 by Shimadzu; qualitative/quantitative elemental XRF of solids/powders/liquids, Na–U specification. This is institution's unit, not a guarantee of seller configuration. Not nanoparticle size measurement.",
+          "checked_date": "2026-10-19"
+        },
+        {
+          "title": "Additional primary source",
+          "url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_document_file/ssi/brochures/15008/EDX_Supplies_Maintenance_Parts.pdf",
+          "locator": "Official legacy EDX family supplies and maintenance parts document explicitly includes 800HS, not exact HS2 operator manual. Do not transfer newer EDX-8000/8100 specifications.",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "label": "Shimadzu EDX-800HS2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M98",
+          "label": "X-ray fluorescence spectrometers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+        "manufacturer": "Shimadzu",
+        "model_name": "Shimadzu EDX-800HS2",
+        "configuration": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established.",
+        "manual_scope": "No exact public manufacturer user manual verified. One-page Saga University equipment specification is fallback and must be labeled institutional technical specification, not manufacturer manual.",
+        "lifecycle": {
+          "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "model_name": "Shimadzu EDX-800HS2",
+          "manufacturer": "Shimadzu",
+          "lifecycle_status": "model_unresolved",
+          "successor_model_name": "",
+          "successor_product_url": "",
+          "successor_evidence_url": "",
+          "successor_scope": "",
+          "successor_checked_date": "2026-10-19",
+          "successor_relationship": "",
+          "review_notes": "Legacy commercial model identity only. Current generation and support not established.",
+          "review_method": "primary_source_identity_only",
+          "review_query": "",
+          "review_source_urls": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "review_source_match": "exact_model_documentation"
+        },
+        "green_star_changed": false
       }
     },
     {
@@ -38175,6 +38439,59 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-00E5D3EB5B557429",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: SP VirTis BenchTop Pro",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of used SP Scientific VirTis BenchTop Pro freeze dryer with manifold. BenchTop Pro family example; exact temperature, chamber, vacuum pump and accessory configurations not generalized. Listing describes refurbished while structured condition says used. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "American Instrument Exchange via LabX",
+          "url": "https://www.labx.com/item/sp-scientific-virtis-benchtop-pro-freeze-dryer/DIS-40039-SKU2233NF-DRY",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M17-10",
+          "label": "SP VirTis BenchTop Pro"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M17",
+          "label": "Freeze dryer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M17-10",
+        "manufacturer": "SP VirTis",
+        "model_name": "SP VirTis BenchTop Pro",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5798714/42ed3c29-aff0-4eee-ba15-9e33c9065a93.webp",
+        "image_scope": "Seller photograph of used SP Scientific VirTis BenchTop Pro freeze dryer with manifold. BenchTop Pro family example; exact temperature, chamber, vacuum pump and accessory configurations not generalized. Listing describes refurbished while structured condition says used. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "bytes": 11702,
+          "sha256": "25ec544c3c9af931e914253b2586c741be9dcd7ec1af370a594074221f188686",
+          "dimensions": [
+            500,
+            500
+          ]
+        },
+        "listing_availability": "active_no_unavailable_banner",
+        "condition": "used",
+        "seller": "American Instrument Exchange"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-0C6673C707158DC1",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38433,6 +38750,60 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-105A4AC8435F4799",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Bruker D8 ADVANCE",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of a refurbished Bruker D8 Advance Series 1 powder XRD system. Series 1 example within the broader D8 ADVANCE record; not a photograph of every current D8 configuration. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "KS Analytical Systems via LabX",
+          "url": "https://www.labx.com/item/featured/4262755",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M37-08",
+          "label": "Bruker D8 ADVANCE"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M37",
+          "label": "X-ray diffractometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M37-08",
+        "manufacturer": "Bruker",
+        "model_name": "Bruker D8 ADVANCE",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/71546/image_0.webp",
+        "image_scope": "Seller photograph of a refurbished Bruker D8 Advance Series 1 powder XRD system. Series 1 example within the broader D8 ADVANCE record; not a photograph of every current D8 configuration. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "product_family",
+        "verification": {
+          "equipment_id": "M37-08",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/71546/image_0.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "11ec72df23975ee620ab67f952b91826b494512e8bce9708f79e3ca9d456f060",
+          "dimensions": [
+            3024,
+            4032
+          ]
+        },
+        "listing_availability": "active_no_unavailable_banner",
+        "condition": "refurbished",
+        "seller": "KS Analytical Systems"
       }
     },
     {
@@ -38739,6 +39110,111 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-24417BACAD9194D5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Merck Milli-Q IQ 7005",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of used Milli-Q IQ7005 water purification system. Title/model identify IQ7005; listing's manufacturer field Other is not used to alter canonical Merck identity. Accessories/consumables in photo not assumed included for all examples. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Richmond Scientific via LabX",
+          "url": "https://www.labx.com/item/featured/180715-5650563",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M46-05",
+          "label": "Merck Milli-Q IQ 7005"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M46-05",
+        "manufacturer": "Merck",
+        "model_name": "Merck Milli-Q IQ 7005",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5650563/1772812281255.webp",
+        "image_scope": "Seller photograph of used Milli-Q IQ7005 water purification system. Title/model identify IQ7005; listing's manufacturer field Other is not used to alter canonical Merck identity. Accessories/consumables in photo not assumed included for all examples. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "equipment_id": "M46-05",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5650563/1772812281255.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "f658fe331b3c1f5d9f9ba50515037bcc075f7df266e51f906e96c0fa8a33ec19",
+          "dimensions": [
+            1536,
+            1152
+          ]
+        },
+        "listing_availability": "active_no_unavailable_banner",
+        "condition": "used",
+        "seller": "Richmond Scientific"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2484CAB43C8DB45A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Heidolph Hei-VAP Advantage",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photo for exact Hei-VAP Advantage listing with Heidolph-branded evaporator, bath, glassware and pump. Used configuration; manual-lift/voltage/package options not inferred. Not evidence of Purdue property. Source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "label": "Heidolph Hei-VAP Advantage"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+        "manufacturer": "Heidolph",
+        "model_name": "Heidolph Hei-VAP Advantage",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/4980052/84f5e06b-5093-4776-87c0-3fa2de90a447.webp",
+        "image_scope": "Seller photo for exact Hei-VAP Advantage listing with Heidolph-branded evaporator, bath, glassware and pump. Used configuration; manual-lift/voltage/package options not inferred. Not evidence of Purdue property. Source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1275,
+          "height": 1920,
+          "sha256": "309429057d8f64381ec2a428e527f251ae572c3a7f8521dc724caa2eefce875b",
+          "visually_reviewed": true
+        },
+        "listing_availability": "active_browser_verified",
+        "condition": "used",
+        "seller": "InnovtrendLab"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-274363DC37DF0E72",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38904,6 +39380,57 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2A61D13E97466171",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Shimadzu EDX-800HS2",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph on EDX-800HS2 listing; front logo/label says Rayny EDX-800HS. Use as EDX-800HS family illustration, with HS2 suffix not independently established from photo. Watermark/source rights retained; remote link only. Not Purdue property. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "label": "Shimadzu EDX-800HS2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M98",
+          "label": "X-ray fluorescence spectrometers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+        "manufacturer": "Shimadzu",
+        "model_name": "Shimadzu EDX-800HS2",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/4745614/d368ffeb-7451-487c-b501-605e1072961a.webp",
+        "image_scope": "Seller photograph on EDX-800HS2 listing; front logo/label says Rayny EDX-800HS. Use as EDX-800HS family illustration, with HS2 suffix not independently established from photo. Watermark/source rights retained; remote link only. Not Purdue property. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 994,
+          "height": 900,
+          "sha256": "04c6e14f3a6f5cdb80ad40f1cb3b6db22673dee9b1770f1b8f3852543f010ade",
+          "visually_reviewed": true
+        },
+        "listing_availability": "active_browser_verified",
+        "condition": "refurbished",
+        "seller": "EquipX"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-2AF1C0CA8A8EDD27",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39049,6 +39576,60 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2C4208915419D57E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Bruker D2 PHASER",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of a used Bruker D2 Phaser; historical listing no longer available. Reference image only; installation, software and accessory details are not generalized. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "KS Analytical Systems via LabX",
+          "url": "https://www.labx.com/item/bruker-d2-phaser/scp-68848-5375348",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M37-03",
+          "label": "Bruker D2 PHASER"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M37",
+          "label": "X-ray diffractometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M37-03",
+        "manufacturer": "Bruker",
+        "model_name": "Bruker D2 PHASER",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5375348/SCP-089aa475-cb8b-4779-b3cf-5a63f5b546a9.webp",
+        "image_scope": "Seller photograph of a used Bruker D2 Phaser; historical listing no longer available. Reference image only; installation, software and accessory details are not generalized. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "equipment_id": "M37-03",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5375348/SCP-089aa475-cb8b-4779-b3cf-5a63f5b546a9.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "176038939e83b7817ff97cd3b8f9c2a5225ddfe568c54475cabb9ea48db59bc6",
+          "dimensions": [
+            1768,
+            2692
+          ]
+        },
+        "listing_availability": "no_longer_available",
+        "condition": "used",
+        "seller": "KS Analytical Systems"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-2C9C8805466496B6",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39117,6 +39698,60 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2E1739326AB82CCF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Merck Milli-Q IQ 7000",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of used Milli-Q IQ7000 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Surplus Solutions, LLC via LabX",
+          "url": "https://www.labx.com/item/featured/DIS-50372-383942",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M46-01",
+          "label": "Merck Milli-Q IQ 7000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M46-01",
+        "manufacturer": "Merck",
+        "model_name": "Merck Milli-Q IQ 7000",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5153430/7944a49c-74de-4ccf-a78b-1721612622ef.webp",
+        "image_scope": "Seller photograph of used Milli-Q IQ7000 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "equipment_id": "M46-01",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5153430/7944a49c-74de-4ccf-a78b-1721612622ef.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "d137e632be19ee111d5534116b5e053116d92e4ebf1fbdc452f25dd1926ef799",
+          "dimensions": [
+            1000,
+            750
+          ]
+        },
+        "listing_availability": "no_longer_available",
+        "condition": "used",
+        "seller": "Surplus Solutions, LLC"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-2F1A4044DA8D6EFC",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39181,6 +39816,60 @@
           }
         },
         "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-31C2193C44CD8109",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Malvern Zetasizer Nano ZS",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of a used Malvern Zetasizer Nano ZS; historical listing no longer available. Reference image only, not a current offer or demonstration of included accessories. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Richmond Scientific via LabX",
+          "url": "https://www.labx.com/item/malvern-zetasizer-nano-zs/180715-5321884",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M34-06",
+          "label": "Malvern Zetasizer Nano ZS"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M34-06",
+        "manufacturer": "Malvern",
+        "model_name": "Malvern Zetasizer Nano ZS",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5321884/1754060963142.webp",
+        "image_scope": "Seller photograph of a used Malvern Zetasizer Nano ZS; historical listing no longer available. Reference image only, not a current offer or demonstration of included accessories. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "equipment_id": "M34-06",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5321884/1754060963142.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "8187bfe7590694b2ac32a828818fd2150486407376df9f5afba31fc58d704bee",
+          "dimensions": [
+            1536,
+            1152
+          ]
+        },
+        "listing_availability": "no_longer_available",
+        "condition": "used",
+        "seller": "Richmond Scientific"
       }
     },
     {
@@ -39256,6 +39945,57 @@
           }
         },
         "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-34963576829F7F1A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: BUCHI Rotavapor R-215",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Exact-model seller photograph of R-215 with pump, B-491 bath and glassware. Used configuration, not Purdue property. Watermark/source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-BUCHI-R215",
+          "label": "BUCHI Rotavapor R-215"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-BUCHI-R215",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-215",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/4980083/3df0fdb6-3d50-4c2b-b29a-0552a2c1ce65.webp",
+        "image_scope": "Exact-model seller photograph of R-215 with pump, B-491 bath and glassware. Used configuration, not Purdue property. Watermark/source rights retained; remote link only. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1275,
+          "height": 1920,
+          "sha256": "e12170ff68afa16118277547b1738bdfbbc66acf453ea03d26cc7aaa0ecace7a",
+          "visually_reviewed": true
+        },
+        "listing_availability": "active_browser_verified",
+        "condition": "used",
+        "seller": "InnovtrendLab"
       }
     },
     {
@@ -39632,6 +40372,59 @@
           }
         },
         "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-41A5C639C1927990",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: BUCHI Rotavapor R-300",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Historical seller photograph of BUCHI R-300 with B-305 bath and coil condenser; listing is no longer available. Reference image only, not a current purchase offer. Retained USD2250 price is excluded. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "V4Scientific via LabX",
+          "url": "https://www.labx.com/item/buchi-r-300-rotary-evaporator-rotavapor-and-buchi-b-305/scp-84211-5553371",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-06",
+          "label": "BUCHI Rotavapor R-300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-06",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-300",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5553371/SCP-cf820784-9f7f-488e-a407-72e0020d426d.webp",
+        "image_scope": "Historical seller photograph of BUCHI R-300 with B-305 bath and coil condenser; listing is no longer available. Reference image only, not a current purchase offer. Retained USD2250 price is excluded. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "fbf00cc4f61817a1f061d2d11f1048f3678109d021530c208c83e4c16891963b",
+          "bytes": 4247972,
+          "dimensions": [
+            3648,
+            2736
+          ]
+        },
+        "listing_availability": "no_longer_available",
+        "condition": "used",
+        "seller": "V4Scientific"
       }
     },
     {
@@ -40141,6 +40934,57 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-6BF423C5EAA695FF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Veeco CP-II",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "EquipX photograph from CP-II listing showing AFM, controller/computer and cables. Not Purdue property. Source watermark retained; remote link only. Exact fitted modes/accessories not established by photograph. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/featured/DIS-86979-491",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-VEECO-CPII",
+          "label": "Veeco CP-II"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M41",
+          "label": "Atomic force microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-LABX-VEECO-CPII",
+        "manufacturer": "Veeco",
+        "model_name": "Veeco CP-II",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/4744358/110e2a1a-c197-437a-b093-39678da71ca9.webp",
+        "image_scope": "EquipX photograph from CP-II listing showing AFM, controller/computer and cables. Not Purdue property. Source watermark retained; remote link only. Exact fitted modes/accessories not established by photograph. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1200,
+          "height": 870,
+          "sha256": "cf512de669777dec5389e49add2f945b320894ba1f0e853d9026302540653f47",
+          "visually_reviewed": true
+        },
+        "listing_availability": "active_browser_verified",
+        "condition": "refurbished",
+        "seller": "EquipX"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-6E796BECF5D076F7",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -40571,6 +41415,60 @@
           }
         },
         "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7BD764395E27536D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: Merck Milli-Q IQ 7015",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of used Milli-Q IQ7015 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Surplus Solutions, LLC via LabX",
+          "url": "https://www.labx.com/item/featured/DIS-50372-371544",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M46-07",
+          "label": "Merck Milli-Q IQ 7015"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M46",
+          "label": "Laboratory water purification system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M46-07",
+        "manufacturer": "Merck",
+        "model_name": "Merck Milli-Q IQ 7015",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5159474/8bd24508-6dee-477e-b183-41c19eebb677.webp",
+        "image_scope": "Seller photograph of used Milli-Q IQ7015 system from a historical listing no longer available. Reference image only; no current price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "equipment_id": "M46-07",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5159474/8bd24508-6dee-477e-b183-41c19eebb677.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "25713b80e4f0724b0ab63af04e1b72a25600bf1421ac55d9519172a142ebbb62",
+          "dimensions": [
+            750,
+            999
+          ]
+        },
+        "listing_availability": "no_longer_available",
+        "condition": "used",
+        "seller": "Surplus Solutions, LLC"
       }
     },
     {
@@ -43095,6 +43993,113 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F79C967631EBDEFB",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: BUCHI Rotavapor R-100",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of a used BUCHI R-100 system with bath, interface, pump and glassware. Reference configuration; not every accessory is implied for all R-100 models. Quote only; no price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "American Instrument Exchange via LabX",
+          "url": "https://www.labx.com/item/buchi-r-100-rotary-evaporator-system/DIS-40039-SKU2080SEVAP",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M16-05",
+          "label": "BUCHI Rotavapor R-100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M16",
+          "label": "Rotary evaporator"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M16-05",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-100",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5751412/7d382fac-2d34-4c06-a5ba-14c62ef562ea.webp",
+        "image_scope": "Seller photograph of a used BUCHI R-100 system with bath, interface, pump and glassware. Reference configuration; not every accessory is implied for all R-100 models. Quote only; no price inferred. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "bytes": 18916,
+          "sha256": "7e8d574f421671ab55b76f222ecf99acf70cd68df9727adcbbb678e5e0c01d20",
+          "dimensions": [
+            493,
+            500
+          ]
+        },
+        "listing_availability": "active_browser_verified",
+        "condition": "used",
+        "seller": "American Instrument Exchange"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-FE25180C77C6C300",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match: PolyScience AD07R-20",
+      "claim": "The reviewed listing presents this instrument photograph.",
+      "scope": "Seller photograph of the used PolyScience AD07R-20-A12E refrigerated circulator configuration; A12E example within the AD07R-20 model record. Listing title identifies the configuration even though the structured model field is Not Specified. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "American Instrument Exchange via LabX",
+          "url": "https://www.labx.com/item/polyscience-ad07r-20-a12e/DIS-40039-SKU1495MMCIRC",
+          "locator": "Model title and listing gallery; visually reviewed",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M33-10",
+          "label": "PolyScience AD07R-20"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M33",
+          "label": "Recirculating temperature-control unit"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "M33-10",
+        "manufacturer": "PolyScience",
+        "model_name": "PolyScience AD07R-20",
+        "image_url": "https://cdn.labx.com/v2/images/catalog/product/5751140/98a9a162-2abb-4493-9571-955dac59f227.webp",
+        "image_scope": "Seller photograph of the used PolyScience AD07R-20-A12E refrigerated circulator configuration; A12E example within the AD07R-20 model record. Listing title identifies the configuration even though the structured model field is Not Specified. Source rights retained; remote source reference only. No installed Purdue asset is inferred.",
+        "match_scope": "product_family",
+        "verification": {
+          "equipment_id": "M33-10",
+          "image_url": "https://cdn.labx.com/v2/images/catalog/product/5751140/98a9a162-2abb-4493-9571-955dac59f227.webp",
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "59376cba253667ae35a490fa965f73885a2c84162cf56224edcaccb3b6a1dcb4",
+          "dimensions": [
+            500,
+            500
+          ]
+        },
+        "listing_availability": "active_no_unavailable_banner",
+        "condition": "used",
+        "seller": "American Instrument Exchange"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-0087E107E940F4D3",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -44494,6 +45499,56 @@
         "usd_equivalent": "10740",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-0DEF540035448733",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Veeco CP-II refurbished seller asking price",
+      "claim": "EquipX lists USD 29500 for this configuration.",
+      "scope": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/featured/DIS-86979-491",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-VEECO-CPII",
+          "label": "Veeco CP-II"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-BD4D586683CC96A9",
+          "label": "DIS-86979-491"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-BD4D586683CC96A9",
+        "equipment_id": "CAT-LABX-VEECO-CPII",
+        "manufacturer": "Veeco",
+        "model_name": "Veeco CP-II",
+        "seller_name": "EquipX via LabX",
+        "price_value": "29500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/featured/DIS-86979-491",
+        "checked_date": "2026-10-19",
+        "scope": "Refurbished CP-II AFM system as shown by seller; no specific electrical, magnetic or thermal accessories included merely because supported on some CP-II configurations. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-86979-491",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
       }
     },
     {
@@ -48018,6 +49073,56 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-3EB46D8C2C5A4E13",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Bruker D8 ADVANCE refurbished seller asking price",
+      "claim": "KS Analytical Systems lists USD 57000 for this configuration.",
+      "scope": "KS Analytical Systems LabX listing 4262755, refurbished Bruker D8 Advance Series 1 powder XRD system. USD 57,000 seller asking price for this Series 1 configuration, not a new D8 ADVANCE MSRP/list price; shipping, installation, taxes and exact software/accessory scope require seller confirmation. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "KS Analytical Systems via LabX",
+          "url": "https://www.labx.com/item/featured/4262755",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "M37-08",
+          "label": "Bruker D8 ADVANCE"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-9894E403278E2C13",
+          "label": "4262755"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-9894E403278E2C13",
+        "equipment_id": "M37-08",
+        "manufacturer": "Bruker",
+        "model_name": "Bruker D8 ADVANCE",
+        "seller_name": "KS Analytical Systems via LabX",
+        "price_value": "57000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/featured/4262755",
+        "checked_date": "2026-10-19",
+        "scope": "KS Analytical Systems LabX listing 4262755, refurbished Bruker D8 Advance Series 1 powder XRD system. USD 57,000 seller asking price for this Series 1 configuration, not a new D8 ADVANCE MSRP/list price; shipping, installation, taxes and exact software/accessory scope require seller confirmation. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "4262755",
+        "listing_last_updated": "2026-08-14",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-3EE7FEF8936CF9D2",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -48616,6 +49721,56 @@
           "sha256": "b8b0cd80ad9a60bc2b9d53974ce3789a7de78271c0acf2dee913e1dc62b47a3b",
           "visual_observation": "Grey three-dimensional platelet agglomerates with800nm scale bar and www.us-nano.com / US1011M labeling."
         }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-434E2BEA5EEA48A7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Shimadzu EDX-800HS2 refurbished seller asking price",
+      "claim": "EquipX lists USD 26500 for this configuration.",
+      "scope": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "EquipX via LabX",
+          "url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+          "label": "Shimadzu EDX-800HS2"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-FE258D04BB35D9DF",
+          "label": "DIS-86979-3871"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-FE258D04BB35D9DF",
+        "equipment_id": "CAT-LABX-SHIMADZU-EDX800HS2",
+        "manufacturer": "Shimadzu",
+        "model_name": "Shimadzu EDX-800HS2",
+        "seller_name": "EquipX via LabX",
+        "price_value": "26500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://www.labx.com/item/shimadzu-edx-800hs2-energy-dispersive-x-ray-3871/DIS-86979-3871",
+        "checked_date": "2026-10-19",
+        "scope": "Refurbished energy-dispersive X-ray fluorescence system. Exact LabX title identifies EDX-800HS2, while main photo front label reads EDX-800HS; retain family-level photo scope instead of asserting HS2 label visibility. Installed atmosphere/turret/options not established. Seller asking price for the stated refurbished configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-86979-3871",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
       }
     },
     {
@@ -51040,6 +52195,56 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6648775D069BE5C9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "BUCHI Rotavapor R-215 used seller asking price",
+      "claim": "InnovtrendLab lists USD 3500 for this configuration.",
+      "scope": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-BUCHI-R215",
+          "label": "BUCHI Rotavapor R-215"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-4D05BB87A7B757AE",
+          "label": "DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-4D05BB87A7B757AE",
+        "equipment_id": "CAT-LABX-BUCHI-R215",
+        "manufacturer": "BUCHI",
+        "model_name": "BUCHI Rotavapor R-215",
+        "seller_name": "InnovtrendLab via LabX",
+        "price_value": "3500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.labx.com/item/buchi-rotavapor-evaporator-r215-with-vacuum-pump-water-bath/DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+        "checked_date": "2026-10-19",
+        "scope": "Used Rotavapor R-215 with vacuum pump, B-491 water/oil heating bath and glassware; no recirculating chiller included in this listing title. Photograph clearly shows R-215 label. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-37051-3bc5e03afe31367a8e6ee2b5ff959a7c",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-67743A1662690469",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -53280,6 +54485,103 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-8A5B2042540AA5FA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) pack price",
+      "claim": "Spectra Services lists USD 495 per 100 g for B2026208.",
+      "scope": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for PVC; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)",
+          "url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+          "locator": "Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "molecular-depot-b2026208-caco3-pvc-15-40nm",
+          "label": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-LABX261019-C3AF7558779903C9",
+          "label": "B2026208"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P29",
+          "label": "Curator market nanofiller association, not a literature formulation"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-LABX261019-C3AF7558779903C9",
+        "component_id": "molecular-depot-b2026208-caco3-pvc-15-40nm",
+        "name": "Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm)",
+        "seller": "Spectra Services",
+        "manufacturer": "Molecular Depot",
+        "sku": "B2026208",
+        "grade": "Supplier describes biotechnology grade; numerical purity and surface-treatment chemistry not specified.",
+        "form": "surface-modified dry nanopowder; nominal particle size 15-40 nm",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "495",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated.",
+        "cas_number": "",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "verification": {
+          "http_status": 200,
+          "page_sha256": "d2a835ca1444c25b3bdd5916d34d88fca95f77fcf5756e633afa2e23fa9fae53",
+          "json_ld_offer": {
+            "@type": "Offer",
+            "url": "https://spectraservices.com/product/molecular-depot-b2026208.html",
+            "sku": "b2026208",
+            "name": "Molecular Depot Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) B2026208",
+            "seller": "Spectra Services",
+            "itemCondition": "http://schema.org/NewCondition",
+            "price": "495",
+            "availability": "http://schema.org/InStock",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2026-11-18"
+          },
+          "pack_locator": "Description: Catalog number / Amount / Supplied as",
+          "price_locator": "Our Price and Product.offers.price",
+          "name_locator": "Product title and SKU",
+          "new_condition_locator": "Product.offers.itemCondition=NewCondition"
+        },
+        "labx_discovery": {
+          "url": "https://www.labx.com/item/molecular-depot-calcium-carbonate-nanopowder-surface/41276-molecular-depot-b2026208",
+          "listing_text": "New\nMolecular Depot Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm) B2026208\n$524.70 USD",
+          "price_value": 524.7,
+          "currency": "USD",
+          "scope": "LabX discovery-page quoted price, differs from direct seller; not used as current direct-seller quote without full listing review."
+        },
+        "recipe_eligible": false,
+        "withheld_media": {
+          "url": "https://spectraservices.com/mm5/graphics/00000001/49/molecular-depot-b2026208.jpg",
+          "reason": "Visual inspection shows a generic unlabeled Molecular Depot branded bottle. B2026207 and B2026208 bytes identical; cannot establish exact SKU, physical nanopowder or pack.",
+          "sha256": "3dab9656165e3d197d5fd6b0f9fd6724e0b226b3a7a07717a43c516eaf07848d",
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-8B3E4B11B657915C",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -55013,6 +56315,56 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A3FBCB23EA0E53E2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Heidolph Hei-VAP Advantage used seller asking price",
+      "claim": "InnovtrendLab lists USD 2500 for this configuration.",
+      "scope": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "InnovtrendLab via LabX",
+          "url": "https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+          "locator": "Exact listing price, condition, seller and availability; shipping cost excluded",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+          "label": "Heidolph Hei-VAP Advantage"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LABX261019-DF491DD15B2E5E02",
+          "label": "DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LABX261019-DF491DD15B2E5E02",
+        "equipment_id": "CAT-LABX-HEIDOLPH-ADVANTAGE",
+        "manufacturer": "Heidolph",
+        "model_name": "Heidolph Hei-VAP Advantage",
+        "seller_name": "InnovtrendLab via LabX",
+        "price_value": "2500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+        "checked_date": "2026-10-19",
+        "scope": "Used Hei-VAP Advantage with Heidolph vacuum pump, heating bath and glassware; this $2500 listing does not include the VWR chiller in a separate $3500 listing. Seller manufacturer field incorrectly says GE; official archived manufacturer manual plus visible Heidolph-branded instrument establish manufacturer. Seller asking price for the stated used configuration, not new-equipment MSRP or manufacturer list price. Availability and delivered options require seller confirmation; shipping, installation, tax and fees excluded.",
+        "listing_sku": "DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b",
+        "listing_last_updated": "2026-10-13",
+        "availability_checked": "active_no_unavailable_banner",
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-A46EEA34D115A7D2",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -55067,6 +56419,103 @@
         "verification_method": "live_http_curator_review",
         "identity_and_pack_scope": "181315-100G; 100 g; Your Price, not the separately displayed332 MSRP.",
         "currency_basis": "Existing source-bound USD denomination retained; exact supplier SKU and pack row rechecked. No currency conversion or new currency inference."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A496DAF43E59A5A0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) pack price",
+      "claim": "Spectra Services lists USD 495 per 100 g for B2026207.",
+      "scope": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Exact named commercial 15-40 nm surface-modified CaCO3 powder for adhesives; supplier purity and surface-treatment chemistry not specified. Broad candidate nanofiller for P29 polymer-composite-film planning only; exact polymer, solvent, loading and formulation compatibility need review. No automatic eligibility for existing literature recipe or output/property model.",
+      "recorded_at": "2026-10-19",
+      "sources": [
+        {
+          "title": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)",
+          "url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+          "locator": "Exact SKU, Amount100g, supplied as Powder, Our Price and USD/NewCondition/InStock offer data",
+          "checked_date": "2026-10-19"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "component",
+          "record_id": "molecular-depot-b2026207-caco3-adhesives-15-40nm",
+          "label": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)"
+        },
+        {
+          "record_type": "component_offer",
+          "record_id": "PACK-LABX261019-E9B7FD82710396A1",
+          "label": "B2026207"
+        },
+        {
+          "record_type": "process",
+          "record_id": "P29",
+          "label": "Curator market nanofiller association, not a literature formulation"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PACK-LABX261019-E9B7FD82710396A1",
+        "component_id": "molecular-depot-b2026207-caco3-adhesives-15-40nm",
+        "name": "Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm)",
+        "seller": "Spectra Services",
+        "manufacturer": "Molecular Depot",
+        "sku": "B2026207",
+        "grade": "Supplier describes biotechnology grade; numerical purity and surface-treatment chemistry not specified.",
+        "form": "surface-modified dry nanopowder; nominal particle size 15-40 nm",
+        "pack_quantity": "100",
+        "pack_unit": "g",
+        "price_value": "495",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "source_url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+        "checked_date": "2026-10-19",
+        "image_url": "",
+        "image_source_url": "",
+        "image_scope": "",
+        "condition": "new",
+        "notes": "Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated.",
+        "cas_number": "",
+        "molar_mass_g_mol": "",
+        "molar_mass_source_url": "",
+        "verification": {
+          "http_status": 200,
+          "page_sha256": "418ab06d42c62324536313d2f407339787fef38add86a67907978e33b99c4809",
+          "json_ld_offer": {
+            "@type": "Offer",
+            "url": "https://spectraservices.com/product/molecular-depot-b2026207.html",
+            "sku": "b2026207",
+            "name": "Molecular Depot Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) B2026207",
+            "seller": "Spectra Services",
+            "itemCondition": "http://schema.org/NewCondition",
+            "price": "495",
+            "availability": "http://schema.org/InStock",
+            "priceCurrency": "USD",
+            "priceValidUntil": "2026-11-18"
+          },
+          "pack_locator": "Description: Catalog number / Amount / Supplied as",
+          "price_locator": "Our Price and Product.offers.price",
+          "name_locator": "Product title and SKU",
+          "new_condition_locator": "Product.offers.itemCondition=NewCondition"
+        },
+        "labx_discovery": {
+          "url": "https://www.labx.com/item/molecular-depot-calcium-carbonate-nanopowder-surface/41276-molecular-depot-b2026207",
+          "listing_text": "New\nMolecular Depot Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm) B2026207\n$524.70 USD",
+          "price_value": 524.7,
+          "currency": "USD",
+          "scope": "LabX discovery-page quoted price, differs from direct seller; not used as current direct-seller quote without full listing review."
+        },
+        "recipe_eligible": false,
+        "withheld_media": {
+          "url": "https://spectraservices.com/mm5/graphics/00000001/49/molecular-depot-b2026207.jpg",
+          "reason": "Visual inspection shows a generic unlabeled Molecular Depot branded bottle. B2026207 and B2026208 bytes identical; cannot establish exact SKU, physical nanopowder or pack.",
+          "sha256": "3dab9656165e3d197d5fd6b0f9fd6724e0b226b3a7a07717a43c516eaf07848d",
+          "http_status": 200,
+          "content_type": "image/jpeg"
+        }
       }
     },
     {
