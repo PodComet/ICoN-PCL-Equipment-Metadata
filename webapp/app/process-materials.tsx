@@ -11,8 +11,8 @@ import {componentQuantity} from './component-lib';
 import {componentFor,formulationFor,formulationPlan,unchangedFormulation} from './component-lib';
 
 export function StartingMaterials({plan,onEdit}:{plan:MaterialPlan;onEdit:()=>void}){
- const item=(m:MaterialPlan['inputs'][number])=><li key={m.material_id}><ComponentPhoto material={m} plan={plan} compact/><div><strong>{m.name||'Choose a material'}</strong>{m.amount&&<small>{m.amount}</small>}</div></li>;
- return <div className="process-start-materials"><span>START · {plan.route_id}</span><h3><FlaskConical size={17}/>Input materials</h3>{plan.inputs.length?<><ul>{plan.inputs.slice(0,4).map(item)}</ul>{plan.inputs.length>4&&<details><summary>{plan.inputs.length-4} more materials</summary><ul>{plan.inputs.slice(4).map(item)}</ul></details>}</>:<p>No starting materials selected.</p>}<button type="button" className="secondary-button" onClick={onEdit}>{plan.inputs.length?'Edit materials':'Choose materials'}</button><small>Starting inputs for step 1</small></div>;
+ const item=(m:MaterialPlan['inputs'][number])=><li key={m.material_id}><ComponentPhoto material={m} plan={plan} compact/><div><strong title={m.name}>{m.name||'Choose a material'}</strong>{m.amount&&<small title={m.amount}>{m.amount}</small>}</div></li>;
+ return <div className="process-start-materials"><span>START · {plan.route_id}</span><h3><FlaskConical size={17}/>Input materials</h3>{plan.inputs.length?<ul aria-label="Selected input materials">{plan.inputs.map(item)}</ul>:<p>No starting materials selected.</p>}<button type="button" className="secondary-button" onClick={onEdit}>{plan.inputs.length?'Edit materials':'Choose materials'}</button><small>Starting inputs for step 1</small></div>;
 }
 
 const CUSTOM_MATERIAL='__custom_material__';

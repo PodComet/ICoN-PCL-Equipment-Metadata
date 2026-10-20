@@ -1,0 +1,101 @@
+/* Larger media inside the reserved stage geometry; selecting or loading an image
+   must not resize the process board or move the equipment tray. */
+.process-chart-fitted .process-hierarchy .process-slot-category {
+  height:60px;min-height:60px;
+}
+.process-chart-fitted .process-hierarchy .process-slot-header {
+  height:6px;min-height:6px;
+}
+.process-chart-fitted .process-hierarchy .process-assigned-mini {
+  display:grid;grid-template-rows:90px minmax(0,1fr);gap:4px;
+  height:132px;min-height:132px;
+}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo {
+  box-sizing:border-box;width:100%;height:90px;margin:0;
+}
+.process-chart-fitted .process-hierarchy .process-step .process-instrument-photo>img {
+  box-sizing:border-box;width:100%!important;height:90px!important;
+  object-fit:contain;padding:3px;border:1px solid #d7bd7f;border-radius:6px;background:#fff;
+}
+.process-chart-fitted .process-hierarchy .process-step .process-no-photo {
+  box-sizing:border-box;width:100%;height:90px;margin:0;
+}
+.process-chart-fitted .process-hierarchy .process-step .process-mini-top {
+  min-width:0;overflow:hidden;
+}
+.process-chart-fitted .process-hierarchy .process-step .process-model-link {
+  font-size:12px!important;line-height:1.3;
+}
+.process-chart-expanded .process-hierarchy .process-step .process-instrument-photo>img {
+  height:200px!important;
+}
+
+/* The library retains its fixed card and tray heights. */
+.process-equipment-library .process-library-card {
+  grid-template-columns:88px minmax(0,1fr);
+  grid-template-rows:52px 90px minmax(46px,1fr) 32px;
+}
+.process-equipment-library .process-library-card>:is(.process-instrument-photo,.process-no-photo) {
+  width:88px;height:88px;min-height:88px;
+}
+.process-equipment-library .process-library-card .process-instrument-photo>img {
+  box-sizing:border-box;width:88px!important;height:88px!important;padding:3px;background:#fff;
+}
+
+/* Input names and amounts stay beside their photographs. The list scrolls inside
+   its fixed node while the material picker remains visible below it. */
+.process-start-materials {display:flex;flex-direction:column}
+.process-start-materials>:is(span,h3,button,small) {flex-shrink:0}
+.process-start-materials h3 {margin:5px 0}
+.process-start-materials ul {
+  flex:1;min-height:0;overflow-y:auto;overflow-x:hidden;
+  scrollbar-width:thin;margin:5px 0;padding-right:3px;align-content:start;
+}
+.process-start-materials li {min-height:64px;gap:8px;align-items:center}
+.process-start-materials .material-photo.compact {
+  flex:0 0 64px;width:64px;min-width:64px;height:64px;
+}
+.process-start-materials .material-photo.compact :is(img,.material-photo-empty) {
+  box-sizing:border-box;width:64px;height:64px;object-fit:contain;
+}
+.process-start-materials li strong {font-size:13px;line-height:1.35}
+.process-start-materials li small {font-size:12px;font-weight:850;color:#ffe09a;margin-top:3px}
+.process-start-materials li :is(strong,small) {
+  display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;
+}
+.process-start-materials>p {flex:1}
+.process-start-materials>button {margin:5px 0}
+
+/* Separate capital equipment, the selected material amounts, and their sum. */
+.process-overview {flex-wrap:wrap;align-items:center}
+.process-overview>.process-combined-budget {
+  display:block;flex:1 1 640px;min-width:0;max-width:100%;
+}
+.process-cost-summary {
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0 0 5px;
+}
+.process-cost-item {
+  min-width:0;padding:7px 9px;border:1px solid #b3c8ba;border-top:3px solid #28644e;
+  border-radius:7px;background:#f8fcf8;color:#133d30;
+}
+.process-cost-item dt {font-size:12px;font-weight:850;line-height:1.3;min-height:23px}
+.process-cost-item dd {
+  display:flex;flex-wrap:wrap;align-content:center;align-items:baseline;gap:0 4px;
+  min-height:42px;margin:2px 0;font-size:clamp(16px,1.5vw,21px);font-weight:900;
+  line-height:1.2;font-variant-numeric:tabular-nums;
+}
+.process-cost-item dd>span {white-space:nowrap;max-width:100%;overflow-wrap:anywhere}
+.process-cost-item>small {display:block;font-size:10px;font-weight:700;line-height:1.3}
+.process-cost-item.component-cost {background:#fff9e9;border-color:#d7c17d;border-top-color:#a37820;color:#523a0b}
+.process-cost-item.combined-cost {background:#13233e;border-color:#13233e;border-top-color:#e7bd60;color:#ffe3a1}
+.processes-page .process-cost-item.combined-cost :is(dt,dd,dd>span,small) {color:#ffe3a1!important}
+.process-overview>.process-combined-budget>small {display:block;font-size:11px;line-height:1.4;font-weight:700}
+.process-overview>.process-combined-budget>details {margin-top:3px}
+.process-overview .process-progress {flex:1 1 260px;min-width:0}
+@media(max-width:650px) {
+  .process-cost-summary {gap:5px}
+  .process-cost-item {padding:6px}
+  .process-cost-item dt {font-size:11px;min-height:29px}
+  .process-cost-item dd {font-size:14px;min-height:38px}
+  .process-cost-item>small {font-size:9px}
+}
