@@ -1,14 +1,14 @@
 import {env} from 'cloudflare:workers';
-import {getChatGPTUser} from '../../../chatgpt-auth';
+import {getCurrentUser} from '../../../current-user';
 import {isCatalogAdmin} from '../../../admin-policy';
 import {loadPositionLibrary} from '../../../position-store';
 import {loadSharedCatalog} from '../../../catalog-store';
 import {buildPositionPlan} from '../../../position-csv';
 const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
-export async function GET(){const user=await getChatGPTUser();if(!await isCatalogAdmin(user))return json({error:'Unlock administration first.'},user?403:401);try{return json(await loadPositionLibrary());}catch{return json({error:'Position profiles could not be loaded.'},500);}}
+export async function GET(){const user=await getCurrentUser();if(!await isCatalogAdmin(user))return json({error:'Unlock administration first.'},user?403:401);try{return json(await loadPositionLibrary());}catch{return json({error:'Position profiles could not be loaded.'},500);}}
 export async function POST(request:Request){
  try{
-  const user=await getChatGPTUser();if(!await isCatalogAdmin(user))return json({error:'Unlock administration first.'},user?403:401);
+  const user=await getCurrentUser();if(!await isCatalogAdmin(user))return json({error:'Unlock administration first.'},user?403:401);
   if(request.headers.get('origin')!==new URL(request.url).origin)return json({error:'Same-origin requests required.'},403);
   if(Number(request.headers.get('content-length')||0)>3_100_000)return json({error:'Use a file under 3 MB.'},413);
   const text=await request.text();if(text.length>3_100_000)return json({error:'Use a file under 3 MB.'},413);

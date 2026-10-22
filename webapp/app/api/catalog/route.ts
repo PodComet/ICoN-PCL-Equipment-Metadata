@@ -4,7 +4,7 @@ import seed from "../../data/catalog.json";
 import literature from "../../data/references.json";
 import inventory from "../../data/purdue-inventory.json";
 import {attachInventory} from "../../inventory-lib";
-import { getChatGPTUser } from "../../chatgpt-auth";
+import { getCurrentUser } from "../../current-user";
 import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equipment } from "../../catalog-lib";
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
@@ -23,7 +23,7 @@ function db() {if (!env.DB) throw new Error("Catalog storage is unavailable"); r
 
 export async function GET() {
   try {
-    const user = await getChatGPTUser();
+    const user = await getCurrentUser();
     const shared=await loadSharedCatalog();
     const byId=new Map(shared.records.map(r=>[r.equipment_id,r]));
     const rows = shared.records.map(record => ({record, revision:0, updated_at:""}));
@@ -48,7 +48,7 @@ export async function GET() {
 
 export async function PUT(request: Request) {
   try {
-    const user = await getChatGPTUser();
+    const user = await getCurrentUser();
     if (!user) return json({error:"Sign in to edit your catalog."},401);
     const origin = request.headers.get("origin");
     if (!origin || origin !== new URL(request.url).origin) return json({error:"Same-origin requests required."},403);

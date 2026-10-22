@@ -1,11 +1,11 @@
 import {env} from 'cloudflare:workers';
-import {getChatGPTUser} from '../../../chatgpt-auth';
+import {getCurrentUser} from '../../../current-user';
 import {canReadResearch,researchFailure,researchJson as json,researchRow,researchRows,savedResearch} from '../../../research-store';
 import {crateFilePath,researchCrate,dataCiteDraft,researchExport} from '../../../research-export-lib';
 import {researchZip} from '../../../research-zip-lib';
 import {digestBytes} from '../../../instrument-ingest-lib';
 export async function GET(request:Request){try{
- const user=await getChatGPTUser();if(!user)return json({error:'Sign in to export research packages.'},401);const row=await researchRow(new URL(request.url).searchParams.get('id')||'');
+ const user=await getCurrentUser();if(!user)return json({error:'Sign in to export research packages.'},401);const row=await researchRow(new URL(request.url).searchParams.get('id')||'');
  if(!row||!await canReadResearch(row,user))return json({error:'Record not found or not shared.'},404);
  const saved=savedResearch(row,user);if(saved.record.status==='withdrawn'&&saved.record.files.length)return json({error:'Data were withdrawn. Download the metadata-only export instead.'},410);
  const all=(await researchRows(user)).map(r=>savedResearch(r,user)),origin=new URL(request.url).origin,encode=(x:unknown)=>new TextEncoder().encode(JSON.stringify(x,null,2));

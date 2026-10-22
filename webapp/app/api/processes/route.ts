@@ -1,6 +1,6 @@
 import {env} from 'cloudflare:workers';
 import seed from '../../data/catalog.json';
-import {getChatGPTUser} from '../../chatgpt-auth';
+import {getCurrentUser} from '../../current-user';
 import {loadSharedCatalog,personalRecord} from '../../catalog-store';
 import {newProcessId,validateWorkflow,type ProcessWorkflow} from '../../process-lib';
 import {normalizeWorkflowClasses} from '../../process-classification-lib';
@@ -22,7 +22,7 @@ type Stored={workflow_id:string;payload:string;revision:number;created_at:string
 const saved=(r:Stored)=>({workflow:JSON.parse(r.payload),revision:r.revision,created_at:r.created_at,updated_at:r.updated_at});
 export async function GET(request:Request){
  try{
-  const user=await getChatGPTUser();if(!user)return json({error:'Sign in to load saved workflows.'},401);
+  const user=await getCurrentUser();if(!user)return json({error:'Sign in to load saved workflows.'},401);
   const params=new URL(request.url).searchParams,id=params.get('id'),revision=params.get('revision');
   if(id){
    const row=await env.DB!.prepare('SELECT workflow_id,payload,revision,created_at,updated_at FROM process_workflows WHERE workflow_id=? AND user_id=?').bind(id,user.userId).first<Stored>();
@@ -42,7 +42,7 @@ export async function GET(request:Request){
 }
 export async function PUT(request:Request){
  try{
-  const user=await getChatGPTUser();if(!user)return json({error:'Sign in to save workflows.'},401);
+  const user=await getCurrentUser();if(!user)return json({error:'Sign in to save workflows.'},401);
   if(request.headers.get('origin')!==new URL(request.url).origin)return json({error:'Same-origin requests required.'},403);
   if(Number(request.headers.get('content-length')||0)>2_000_000)return json({error:'Workflow exceeds 2 MB.'},413);
   const text=await request.text();if(text.length>2_000_000)return json({error:'Workflow exceeds 2 MB.'},413);

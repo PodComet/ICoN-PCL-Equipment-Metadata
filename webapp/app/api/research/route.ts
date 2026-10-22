@@ -1,12 +1,12 @@
 import {env} from 'cloudflare:workers';
-import {getChatGPTUser} from '../../chatgpt-auth';
+import {getCurrentUser} from '../../current-user';
 import seed from '../../data/catalog.json';
 import {loadSharedCatalog} from '../../catalog-store';
 import {newResearchId,rootSpace,validateResearch} from '../../research-lib';
 import {advanceResearchFence,boundedResearchBody,canReadResearch,researchFailure,researchFence,researchFenceChanged,researchJson as json,researchRow,researchRows,sameResearchOrigin,savedResearch} from '../../research-store';
 import {researchExport,researchCrate,dataCiteDraft} from '../../research-export-lib';
 export async function GET(request:Request){try{
- const user=await getChatGPTUser();if(!user)return json({error:'Sign in to access research records.'},401);
+ const user=await getCurrentUser();if(!user)return json({error:'Sign in to access research records.'},401);
  const p=new URL(request.url).searchParams,id=p.get('id');
  if(!id){const rows=await researchRows(user);return json({records:rows.map(r=>savedResearch(r,user)),capacity:500});}
  const row=await researchRow(id);if(!row||!await canReadResearch(row,user))return json({error:'Record not found or not shared with your account.'},404);
@@ -21,7 +21,7 @@ export async function GET(request:Request){try{
  return json({...saved,history});
 }catch(e){return researchFailure(e)}}
 export async function PUT(request:Request){try{
- const user=await getChatGPTUser();if(!user)return json({error:'Sign in to save research records.'},401);if(!sameResearchOrigin(request))return json({error:'Same-origin requests required.'},403);
+ const user=await getCurrentUser();if(!user)return json({error:'Sign in to save research records.'},401);if(!sameResearchOrigin(request))return json({error:'Same-origin requests required.'},403);
  let raw:string;try{raw=new TextDecoder().decode(await boundedResearchBody(request,100000))}catch{return json({error:'Record exceeds 100 KB.'},413)}let input:any;try{input=JSON.parse(raw)}catch{return json({error:'Invalid JSON.'},400)}
  if(!input||!Number.isSafeInteger(input.expected_revision)||input.expected_revision<0||!input.record||typeof input.record.record_id!=='string')return json({error:'Invalid record and revision.'},400);
  const previous=input.record.record_id?await researchRow(input.record.record_id):null;

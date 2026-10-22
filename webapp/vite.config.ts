@@ -71,6 +71,8 @@ export default defineConfig(async ({ command }) => {
         inspectorPort: false,
         config: {
           ...localBindingConfig,
+          // Protect bundled data, templates and downloads as well as API routes.
+          assets: {run_worker_first: true, binding: 'ASSETS'},
           ...(autoAdmin ? {vars: {SITES_LOCAL_ADMIN: 'enabled'}} : {}),
           ...(command === "serve"
             ? {

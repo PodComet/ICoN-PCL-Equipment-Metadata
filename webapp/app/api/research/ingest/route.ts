@@ -1,5 +1,5 @@
 import {env} from 'cloudflare:workers';
-import {getChatGPTUser} from '../../../chatgpt-auth';
+import {getCurrentUser} from '../../../current-user';
 import seed from '../../../data/catalog.json';
 import {loadSharedCatalog} from '../../../catalog-store';
 import {newResearchId,rootSpace,validateResearch} from '../../../research-lib';
@@ -8,7 +8,7 @@ import {advanceResearchFence,boundedResearchBody,researchFailure,researchFence,r
 export async function POST(request:Request){
  let objectKey='';let committed=false;
  try{
-  const user=await getChatGPTUser();if(!user)return json({error:'Sign in to ingest instrument files.'},401);if(!sameResearchOrigin(request))return json({error:'Same-origin requests required.'},403);
+  const user=await getCurrentUser();if(!user)return json({error:'Sign in to ingest instrument files.'},401);if(!sameResearchOrigin(request))return json({error:'Same-origin requests required.'},403);
   let form:FormData;try{const body=await boundedResearchBody(request,INGEST_LIMIT+120000);form=await new Request(request.url,{method:'POST',headers:{'Content-Type':request.headers.get('content-type')||''},body:body as BodyInit}).formData();}catch(e){return json({error:e instanceof Error?e.message:'Invalid file upload.'},400)}
   const raw=form.get('record'),file=form.get('file'),key=form.get('ingest_key');if(typeof raw!=='string'||raw.length>100000||!(file instanceof File)||typeof key!=='string'||!/^\w{8}-\w{4}-4\w{3}-[89ab]\w{3}-\w{12}$/i.test(key))return json({error:'Provide record metadata, one instrument file and a client ingestion UUID.'},400);
   let input;let manifest;let bytes:Uint8Array;try{input=JSON.parse(raw);bytes=new Uint8Array(await file.arrayBuffer());manifest=await instrumentFile(file.name,bytes);if(input.record_id||input.kind!=='dataset'||!Array.isArray(input.files)||input.files.length)throw new Error('Ingestion creates a new Data set with a server-owned file manifest.');}catch(e){return json({error:e instanceof Error?e.message:'Invalid instrument input.'},400)}

@@ -1,14 +1,14 @@
 import {env} from 'cloudflare:workers';
 import publicSeed from '../../data/evidence-registry.json';
 import catalog from '../../data/catalog.json';
-import {getChatGPTUser} from '../../chatgpt-auth';
+import {getCurrentUser} from '../../current-user';
 import {loadPositionLibrary} from '../../position-store';
 import {evidenceMatches,evidenceDigest,type EvidenceRecord} from '../../evidence-lib';
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{'Cache-Control':'private, no-store'}});
 const escapeLike=(s:string)=>s.replace(/[\\%_]/g,c=>'\\'+c);
 export async function GET(request:Request){
  try{
-  const user=await getChatGPTUser(),params=new URL(request.url).searchParams,id=params.get('id')||'';
+  const user=await getCurrentUser(),params=new URL(request.url).searchParams,id=params.get('id')||'';
   const sources=structuredClone(publicSeed.records) as EvidenceRecord[],known=new Set(sources.map(r=>r.evidence_id));
   const {library}=await loadPositionLibrary();
   for(const group of library.evidence)for(const entry of group.entries){
