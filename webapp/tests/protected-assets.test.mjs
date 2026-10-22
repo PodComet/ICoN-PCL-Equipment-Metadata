@@ -3,7 +3,6 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
-import {gunzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 import {protectStaticAssets} from '../scripts/protect-static-assets.mjs';
 
@@ -25,8 +24,8 @@ test('production packaging removes edge copies and the original Worker must auth
   assert.equal(worker.marker,'retained');
   assert.equal((await worker.default.fetch(new Request('https://example.test/ontology/data.jsonld'),{},{})).status,401);
   const response=await worker.default.fetch(new Request('https://example.test/ontology/data.jsonld',{headers:{authorization:'test'}}),{},{});
-  assert.equal(response.status,200);assert.equal(response.headers.get('Content-Encoding'),'gzip');
-  assert.deepEqual(gunzipSync(Buffer.from(await response.arrayBuffer())),data);
+  assert.equal(response.status,200);assert.equal(response.headers.get('Content-Encoding'),null);
+  assert.deepEqual(Buffer.from(await response.arrayBuffer()),data);
  }finally{
   const resolved=path.resolve(root);assert.ok(resolved.startsWith(base+path.sep)&&path.basename(resolved).startsWith('protected-assets-test-'));
   await fs.rm(resolved,{recursive:true,force:true});

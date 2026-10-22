@@ -39,8 +39,11 @@ export default {...worker,fetch(request,env,ctx){
   const req=input instanceof Request?input:new Request(input,init);
   const item=assets[new URL(req.url).pathname];
   if(!item)return original?original.fetch(req):new Response('Not found',{status:404});
-  const body=req.method==='HEAD'?null:Uint8Array.from(atob(item[1]),c=>c.charCodeAt(0));
-  return new Response(body,{headers:{'Content-Type':item[0],'Content-Encoding':'gzip','Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});
+  const compressed=Uint8Array.from(atob(item[1]),c=>c.charCodeAt(0));
+  // Serve decoded bytes. The hosting proxy applies transport compression; an
+  // explicit gzip header here would cause its automatic encoding to run twice.
+  const body=req.method==='HEAD'?null:new Blob([compressed]).stream().pipeThrough(new DecompressionStream('gzip'));
+  return new Response(body,{headers:{'Content-Type':item[0],'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff'}});
  }};
  // The application's existing gate runs before its ASSETS fetch. Nothing here
  // grants access; keeping protected files out of the edge asset store prevents
