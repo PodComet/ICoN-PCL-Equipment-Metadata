@@ -5,9 +5,12 @@ from pathlib import Path
 from evidence_tools import dataset as evidence_dataset
 from purdue_review import matches_purdue
 from price_policy import benchmark
+from price_history import quotes_at_checkpoint
 ROOT=Path(__file__).resolve().parents[1]
 def read(name):
     with (ROOT/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
+    if name=='component_offers':
+        rows=quotes_at_checkpoint(ROOT,rows,'2026-10-19')
     # Reconstruct this historical checkpoint by undoing the later, audited LabX additions.
     later=json.loads((ROOT/'catalog/labx_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
     if name=='equipment':

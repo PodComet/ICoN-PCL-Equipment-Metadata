@@ -233,6 +233,13 @@
       "path": "catalog/labx_catalog_review_2026-10-19.json",
       "checked_date": "2026-10-19",
       "summary": "Screened304application listings; added4legacy models,14instrument photos,5condition-scoped USD seller asking prices and2exact100gCaCO3pack quotes. Sold listings and shipping/accessory prices excluded. Reference-only market materials do not alter literature recipes or Purdue inventory."
+    },
+    {
+      "id": "materials-weekly-2026-10-26",
+      "title": "Weekly material pack-price refresh and source gaps",
+      "checked_date": "2026-10-26",
+      "path": "catalog/material_price_refresh_2026-10-26.json",
+      "summary": "All 224 existing offers across 157 source URLs attempted: 163 prices reconfirmed, 0 changed, 61 prior dated quotes retained. Exact identities and media unchanged."
     }
   ]
 }

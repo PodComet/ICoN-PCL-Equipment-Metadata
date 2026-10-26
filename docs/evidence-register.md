@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-818 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+981 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -6949,6 +6949,19 @@ The reviewed listing presents this instrument photograph.
 **Related records:** `M33-10` (equipment), `M33` (equipment_class)
 
 
+## PRICE-EV-0004D012C741ECB9
+
+MSE Supplies publishes USD 51.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0780, pack 50 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167315002) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-C85B8A37313035DD` (component_offer), `aluminium-metal` (component)
+
+
 ## PRICE-EV-0087E107E940F4D3
 
 Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
@@ -6960,6 +6973,19 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 - Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — DO-SYL184-11 tile; 1.1kg two-component kit; single-kit price.
 
 **Related records:** `CMP-OFFER-9AA8A445574A` (component_offer), `sylgard184-base` (component)
+
+
+## PRICE-EV-01EBEF1B2646529E
+
+Krackeler Scientific publishes USD 286 for Reduced graphene oxide commercial chemically reduced powder, SKU 45-777684-250MG, pack 0.25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Reference-only: commercial nitrogen-containing chemically reduced GO is not automatically equivalent to the source-produced hydrogen-reduced GO. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/777684) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-672C72CA4328` (component_offer), `rgo` (component)
 
 
 ## PRICE-EV-0229640A4DE588D9
@@ -6974,6 +7000,19 @@ Labmate publishes USD 3500.0 per each of 1 for Jacketed Glass Reactor LMJGR-A100
 - Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
 
 **Related records:** `CAT-LABMATE-LMJGR-A100` (equipment), `M04` (equipment_class), `P04` (process), `P08` (process), `P10` (process)
+
+
+## PRICE-EV-0303151605107849
+
+Cal Gas Direct publishes USD 64 for Calgaz5%H2 balanceN2 calibration gas34L cylinder, SKU 34LS-H2N-5%, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Correct5%H2/N2 composition, but packaged calibration gas and cylinder hardware. Reference-only for unreported forming-gas use; gas-flow conditions,duration and equivalent cylinder supply not modeled. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Cal Gas Direct product price](https://www.calgasdirect.com/gasco-hydrogen-calibration-gas-5-h2-balance-nitrogen-in-a-34-liter-steel-disposable-cylinder-connection-type-cga-600/) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-8CD9EEC9911C` (component_offer), `hydrogen5-nitrogen` (component)
 
 
 ## PRICE-EV-031280425C67B359
@@ -7017,6 +7056,19 @@ Lab Alley publishes USD 58.88 for Tannic Acid Lab Grade, SKU C8121-100g, pack 10
 **Related records:** `CMP-REF26-F6C44C20BFB1` (component_offer), `tannic-acid-0p123mm-aqueous` (component)
 
 
+## PRICE-EV-041B92371BC85235
+
+US Research Nanomaterials, Inc. publishes USD 55.0 for US Nano US4302 COOH-functionalized MWCNTs, SKU US4302, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $55). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/217) — Matching displayed price/pack and exact named form/size selector: 1g (add $55). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-B41F2B91F17720C1` (component_offer), `usnano-us4302-mwcnt-cooh` (component)
+
+
 ## PRICE-EV-042EC2E09636D55F
 
 US Research Nanomaterials publishes 625.0 dollars for 1 kg of US Nano US1149M Natural graphite flaky powder, 5 µm.
@@ -7042,6 +7094,19 @@ US Research Nanomaterials, Inc. publishes USD 625.0 for US Nano US1149M Natural 
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Exact previously curated form/size option: 1kg-5um Natural Graphite (add $625). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-C46C8CC96DFBF770` (component_offer), `usnano-us1149m-natural-graphite5um` (component)
+
+
+## PRICE-EV-06140DDBA62F93A2
+
+MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0021, pack 50 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591570490) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-931F52C2853040C0` (component_offer), `ucla-gallium-source` (component)
 
 
 ## PRICE-EV-06372C0601D52CE8
@@ -7175,6 +7240,19 @@ Lab Alley publishes USD 354.6 for Sodium hydroxide0.1N aqueous solution, SKU SOH
 **Related records:** `PACK-PRICE261018-1EA46B0E6ED47F82` (component_offer), `naoh-01m` (component)
 
 
+## PRICE-EV-0ABEBA4FE453E30E
+
+Lab Alley publishes USD 495.99 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-4L, pack 4000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Reference identity alias only; no recipe-line eligibility. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-F8220382E808D775` (component_offer), `hydrofluoric-acid` (component)
+
+
 ## PRICE-EV-0AE079C38E4661D7
 
 US Research Nanomaterials publishes 298.0 dollars for 500 g of US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm.
@@ -7187,6 +7265,19 @@ US Research Nanomaterials publishes 298.0 dollars for 500 g of US Nano US1153M B
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-C09D5CC0166DE995` (component_offer), `P31` (process)
+
+
+## PRICE-EV-0BD5BCFA9F7D0199
+
+US Research Nanomaterials, Inc. publishes USD 120.0 for US Nano US4300 MWCNTs, 3 wt% aqueous dispersion, SKU US4300, pack 30.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3542: 30ml - 3wt% dispersed in Water (add $120). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Distinct dispersion option from the same product selector. Volume is the whole dispersion; dry CNT mass is not inferred. No equivalence to dry Nanocyl NC7000 or solvent-based source formulations. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/215) — Matching displayed price/pack and exact named form/size selector: 30ml - 3wt% dispersed in Water (add $120). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-FDE54B12276B37EC` (component_offer), `usnano-us4300-mwcnt-water3pct` (component)
 
 
 ## PRICE-EV-0C2BF1F2451F0E5B
@@ -7216,6 +7307,19 @@ Labmate publishes USD 3512.5 per each of 1 for Planetary Ball Mill LMPBM-A100.
 **Related records:** `CAT-LABMATE-LMPBM-A100` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## PRICE-EV-0D0DE6BBAB983D46
+
+Cal Gas Direct publishes USD 175 for Calgaz nitrogen99.999%58L cylinder, SKU 58L-114, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Reference pack price includes calibration-gas cylinder. Source nitrogen consumption unreported; do not price flow sccm as consumed gas volume or entire cylinder. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Cal Gas Direct product price](https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-9B1390CD1711` (component_offer), `nitrogen-gas` (component)
+
+
 ## PRICE-EV-0D2ECAAFABEA4968
 
 TCI America publishes USD 37 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-100G, pack 100 g (published_price; new).
@@ -7242,6 +7346,19 @@ Spectrum Chemical publishes USD 10740 for Labconco Protector XL (list_price; new
 **Related records:** `M29-04` (equipment), `M29` (equipment_class), `SELL-PRICE261018-0EA93B3CF86C5FCB` (seller_offer)
 
 
+## PRICE-EV-0D88DD09B4A5CD8D
+
+Kurt J. Lesker publishes USD 410 for Silver sputtering target, 1 inch x 0.125 inch, SKU EJTAGXX401A2, pack 1 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Target/gun dimensions are not specified for the source process. This is not the 30 mm x 2 mm target in P03 and is not evaporation feedstock. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_sputtertargets_1.cfm?pgid=ag1) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-FA61BF42A043` (component_offer), `silver-target` (component)
+
+
 ## PRICE-EV-0DEF540035448733
 
 EquipX lists USD 29500 for this configuration.
@@ -7266,6 +7383,19 @@ BUCHI US Online Shop publishes USD 7161 for BUCHI Rotavapor R-180 (published_pri
 - Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-rotavapor-r-80-with-vertical-condenser-4.html) — On-page H1, amount, SKU and first Features bullet; extracted lines 98-132.
 
 **Related records:** `M16-01` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-0F5C6805C2C0ED9F
+
+US Research Nanomaterials, Inc. publishes USD 465.0 for US Nano US1059 graphene nanoplatelets, 99.5+%, SKU US1059, pack 25.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 5: 25g (add $465). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/3767) — Matching displayed price/pack and exact named form/size selector: 25g (add $465). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-4A26090A044DDD80` (component_offer), `usnano-us1059-gnp-dry` (component)
 
 
 ## PRICE-EV-0FE43C10A50BF4A8
@@ -7360,6 +7490,32 @@ US Research Nanomaterials publishes 75.0 dollars for 0.25 g of US Nano US4101 SW
 **Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-1BE1F1989D0C7BF0` (component_offer), `P29` (process)
 
 
+## PRICE-EV-133C9EFEF9B3238A
+
+Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Two-part kit includes base and curing agent. Do not apply the complete-kit price to both component lines. Buy once and allocate combined-kit consumption. Pack total 1.1 kg; source base:hardener mass ratio 10:1. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — Exact DO-SYL184-11, 1.1 kg two-part kit, single-kit price.
+
+**Related records:** `CMP-OFFER-9AA8A445574A` (component_offer), `sylgard184-base` (component)
+
+
+## PRICE-EV-13B69B81A8F7C64C
+
+Lab Alley publishes USD 58.88 for Tannic Acid Lab Grade, SKU C8121-100g, pack 100.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-8225CEB56150. Existing dry tannic acid pack is a reference only for prepared0.123mM aqueous feed; do not cost mL as grams. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/tannic-acid-lab?selected=C8121-100g) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-F6C44C20BFB1` (component_offer), `tannic-acid-0p123mm-aqueous` (component)
+
+
 ## PRICE-EV-141A3D0FA9417B41
 
 Labmate publishes USD 1175.0 per each of 1 for Hydrothermal Reactor LMHYR-A104.
@@ -7372,6 +7528,19 @@ Labmate publishes USD 1175.0 per each of 1 for Hydrothermal Reactor LMHYR-A104.
 - Source: [Labmate currency policy](https://www.labmate.com/privacy-policy) — Payment: USD unless otherwise stated
 
 **Related records:** `CAT-LABMATE-LMHYR-A104` (equipment), `M05` (equipment_class), `P15` (process), `P31` (process), `P32` (process), `P39` (process)
+
+
+## PRICE-EV-14540EB40F0274D0
+
+US Research Nanomaterials, Inc. publishes USD 498.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm, SKU US1153M, pack 1 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3960: 1kg--thickness-80nm (add $498). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 1kg--thickness-80nm (add $498). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-E197D0C4D9C5C809` (component_offer), `usnano-us1153m-bn80nm` (component)
 
 
 ## PRICE-EV-15220B58E1A87BE7
@@ -7401,6 +7570,32 @@ Clarkson Laboratory & Supply publishes USD 7470 for Thermo Scientific Thermolyne
 **Related records:** `M19-10` (equipment), `M19` (equipment_class), `P11` (process), `SELL-PRICE261018-A41F348EEC58CE32` (seller_offer)
 
 
+## PRICE-EV-15DB6C6FB7753184
+
+Precision Micro-Optics publishes USD 46 for A-plane sapphire substrate, 10 x 10 x 0.5 mm, SKU PWSP-3B4511, pack 1 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Source substrate lateral dimensions and product-specific certification of miscut/roughness are not established. Reference price pending review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Precision Micro-Optics product price](https://www.pmoptics.com/sapphires_wafers.html) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-EB7EBAB5565D` (component_offer), `a-plane-sapphire-substrate` (component)
+
+
+## PRICE-EV-164ADF838AAF95ED
+
+Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-0B40EB3AE1D3. Correct raw citrate dihydrate identity, but existing USP/FCC dry pack is not prepared aqueous stock. Stock dilution and research-grade acceptance need explicit review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-citrate-dihydrate-usp-fcc-grade?selected=SOCTGU-12.5KG) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-8BFB50A5847E` (component_offer), `trisodium-citrate-dihydrate-20mm-aqueous` (component)
+
+
 ## PRICE-EV-165D2554C91BB444
 
 Lab Alley publishes USD 55 for SKU WAD-1L, 1 L of Deionized Water Lab Grade, Kosher.
@@ -7412,6 +7607,19 @@ Lab Alley publishes USD 55 for SKU WAD-1L, 1 L of Deionized Water Lab Grade, Kos
 - Source: [Lab Alley product pack offer](https://www.laballey.com/products/deionized-water-lab-grade-kosher?selected=WAD-1L) — Product table for WAD-1L; direct public HTML retrieval verified $55.00 USD and ProductGroup JSON-LD variant price 55 USD.
 
 **Related records:** `water-di` (component), `PACK-PRICE261018-9C1D7CDC0535E067` (component_offer), `P29-SOURCE-01-C03` (formulation_component), `P29` (process), `P32-SOURCE-01-C08` (formulation_component), `P32` (process)
+
+
+## PRICE-EV-16DC831D7BB901B8
+
+Lab Alley publishes USD 71.95 for Benzyl Alcohol NF/FCC Grade, SKU BZALCF-500ML, pack 500.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/benzyl-alcohol?selected=BZALCF-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-E66BE085EF07` (component_offer), `benzyl-alcohol` (component)
 
 
 ## PRICE-EV-173AF3685B132EFE
@@ -7452,6 +7660,32 @@ U.S. Plastic Corp. publishes USD 6.66 for one pack of 72 United Scientific MSL3X
 - Source: [United Scientific 2026 Laboratory Products catalog](https://www.unitedsci.com/media/wysiwyg/pdfs/United_Scientific_2026_Laboratory_digital.pdf#page=361) — PDF page 361 / printed page 361; MSL3X1, dimensions, thickness and 72-pack table
 
 **Related records:** `glass-slide-25x75mm` (component), `PACK-UNITED261018-51C3288C6FF4F1D9` (component_offer), `P27-LITERATURE-20261017-C10` (formulation_component), `P27` (process)
+
+
+## PRICE-EV-185E8E7760751272
+
+Krackeler Scientific publishes USD 510 for Poly-L-arginine hydrochloride, MW 5,000–15,000, SKU 45-P4663-100MG, pack 100 mg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P33 source names polyarginine but omits molecular weight and counterion. This exact hydrochloride SKU is reference-only; do not automatically convert the source polyarginine mass to this salt. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/SIGMA/P4663) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `PACK-PRICE261018-BD336143D0B19319` (component_offer), `polyarginine` (component)
+
+
+## PRICE-EV-18A57F8D5F9E7F6E
+
+US Research Nanomaterials, Inc. publishes USD 980.0 for US Nano US7905 graphene, 1 wt% aqueous dispersion, SKU US7905, pack 30.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 8: 30ml/30g (add $980). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Priced volume is the complete 1 wt% dispersion, not dry graphene. Curated assembly/casting candidate; dispersant and polymer compatibility require review. No density or dry-mass conversion inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/11386) — Matching displayed price/pack and exact named form/size selector: 30ml/30g (add $980). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-101A1F3126934CDF` (component_offer), `usnano-us7905-graphene-water1pct` (component)
 
 
 ## PRICE-EV-1B2CD2DADFE76FF3
@@ -7519,6 +7753,19 @@ Thermo Fisher Scientific displays USD 600.65 for Titanium(IV) isopropoxide, 99.9
 **Related records:** `titanium-isopropoxide-999` (component), `PACK-THERMO261019-92877547811AD7C8` (component_offer)
 
 
+## PRICE-EV-1D1A72CCE152525F
+
+US Research Nanomaterials, Inc. publishes USD 625.0 for US Nano US1149M Natural graphite flaky powder, 5 µm, SKU US1149M, pack 1 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 537: 1kg-5um Natural Graphite (add $625). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 5µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 5µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. This is 5µm and the supplier purity is total carbon, so not the required source grade. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Matching displayed price/pack and exact named form/size selector: 1kg-5um Natural Graphite (add $625). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-C46C8CC96DFBF770` (component_offer), `usnano-us1149m-natural-graphite5um` (component)
+
+
 ## PRICE-EV-1DA13D3B246EECE5
 
 Thermo Fisher Scientific displays USD 124.65 for Dimethyl sulfoxide, HPLC Grade, 99.9+%, SKU 022914.K2, 1 L.
@@ -7532,6 +7779,32 @@ Thermo Fisher Scientific displays USD 124.65 for Dimethyl sulfoxide, HPLC Grade,
 **Related records:** `dmso` (component), `PACK-THERMO261019-D4CDB5CAC61BCEC8` (component_offer)
 
 
+## PRICE-EV-1DB5531D035B4477
+
+Lab Alley publishes USD 68.25 for Hydrogen peroxide 30% aqueous, SKU HPA30-500mL, pack 500 mL (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Matches 30% source stock concentration. Distinct from the 0.5% peroxide wash mixture. Market-reference alias of CMP-OFFER-CB22309D4AA2. 30% stock is a reference precursor only; not the source0.375wt%prepared solution. Dilution mass/density and production losses are not modeled. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrogen-peroxide-30-acs) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-BC834290ABBD` (component_offer), `hydrogen-peroxide-0p375wt-aqueous` (component)
+
+
+## PRICE-EV-1DD914B103B625F8
+
+Lab Alley publishes USD 67.18 for Sodium sulfate anhydrous, SKU SOSUATGL-1LB, pack 453.59237 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Original pack 1lb, converted using exact avoirdupois mass. Source hydrate/purity unspecified; confirm anhydrous identity. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-sulfate-anhydrous-lab-grade) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-52FB822C389A` (component_offer), `sodium-sulfate` (component)
+
+
 ## PRICE-EV-1E78CF8016F5580A
 
 Lab Alley publishes USD 57.12 for Hydrogen Peroxide 30% Solution, Lab Grade, SKU HPL30-1L, pack 1.0 L (published_price; new).
@@ -7543,6 +7816,19 @@ Lab Alley publishes USD 57.12 for Hydrogen Peroxide 30% Solution, Lab Grade, SKU
 - Source: [Lab Alley product price](https://www.laballey.com/products/hydrogen-peroxide-30-lab?selected=HPL30-1L) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-8C309A4299B8` (component_offer), `hydrogen-peroxide-30pct` (component)
+
+
+## PRICE-EV-1EED7F09975D8259
+
+Lab Alley publishes USD 72.19 for N,N-Dimethylformamide 99.8% ACS/AR grade, SKU DMFA-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/dimethylformamide-dmf-acs-grade?selected=DMFA-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-24E79C3A8D73` (component_offer), `dmf` (component)
 
 
 ## PRICE-EV-1FA2F9E554FE81FA
@@ -7571,6 +7857,19 @@ US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron ni
 **Related records:** `PACK-USNANO261018-C09D5CC0166DE995` (component_offer), `usnano-us1153m-bn300nm` (component)
 
 
+## PRICE-EV-1FCDB87F0E54F409
+
+Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SKU SINIGA-5G, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-F78928D93AE5. Existing anhydrous AgNO3 crystal price is a raw-reagent market reference. Prepared stock concentration and aliquot are not a gram dose; no automatic cost equivalence. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-E41F54976ED6` (component_offer), `silver-nitrate-1mm` (component)
+
+
 ## PRICE-EV-1FE38685B686C0DF
 
 US Research Nanomaterials, Inc. publishes USD 68.0 for US Nano US1133M Silicon dioxide / silica powder, 50 nm, SKU US1133M, pack 100 g (published_price; new).
@@ -7597,6 +7896,32 @@ US Research Nanomaterials, Inc. publishes USD 120.0 for US Nano US4300 MWCNTs, 3
 **Related records:** `PACK-USNANO261018-FDE54B12276B37EC` (component_offer), `usnano-us4300-mwcnt-water3pct` (component)
 
 
+## PRICE-EV-2107BC780AC743F5
+
+Thermo Fisher Scientific publishes USD 74.65 for Methanol, 99.9%, for HPLC gradient grade, SKU 325740010, pack 1 L (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/325740010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-5D575E6CB4920B94` (component_offer), `methanol` (component)
+
+
+## PRICE-EV-21AE7B8F9F37816F
+
+Krackeler Scientific publishes USD 60.1 for PVA Mw89,000–98,000,99+%hydrolyzed dry polymer, SKU 45-341584-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Correct parent polymer; reference-only for3%aqueous stock. No automatic cost of50mL solution against a gram pack without explicit stock-preparation mass. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/341584) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-E91078A2155B` (component_offer), `pva-3percent-mw89000-98000-aqueous` (component)
+
+
 ## PRICE-EV-21D7017C50D729D9
 
 Lab Alley publishes USD 205.01 for Ethanol HPLC Grade 200 Proof (100%) Non-Denatured Pure Alcohol, SKU EAPHPLC200-1GAL, pack 3785.411784 mL (published_price; new).
@@ -7621,6 +7946,19 @@ Thermo Fisher Scientific displays USD 180.65 for Acetonitrile, 99.8%, for HPLC, 
 - Source: [Thermo Fisher Scientific: Acetonitrile, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/268270010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `acetonitrile-99` (component), `PACK-THERMO261019-571F5F042354531C` (component_offer)
+
+
+## PRICE-EV-22804760AE618E2E
+
+TCI America publishes USD 20 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/B0742) — TCI US product B0742; current 25G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-FBDF2833EDFC` (component_offer), `titanium-tetrabutoxide` (component)
 
 
 ## PRICE-EV-23C0438EE49030C9
@@ -7660,6 +7998,19 @@ nanoComposix publishes USD 230 for Silica nanospheres50nm,10mg/mL in water, SKU 
 - Source: [nanoComposix product price](https://nanocomposix.com/products/50-nm-silica-nanospheres) — SISN50-25M; silanol silica; 10mg/mL; 25mL water; displayed default variant.
 
 **Related records:** `CMP-OFFER-F43D08580865` (component_offer), `silica-50nm` (component)
+
+
+## PRICE-EV-2424B2CA225D2B23
+
+US Research Nanomaterials, Inc. publishes USD 108.0 for US Nano US1149M Natural graphite flaky powder, 5 µm, SKU US1149M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 536: 100g-5um Natural Graphite (add $108). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 5µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 5µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. This is 5µm and the supplier purity is total carbon, so not the required source grade. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Matching displayed price/pack and exact named form/size selector: 100g-5um Natural Graphite (add $108). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-BBD48CC7A49AF3FD` (component_offer), `usnano-us1149m-natural-graphite5um` (component)
 
 
 ## PRICE-EV-243E855A92796266
@@ -7715,6 +8066,32 @@ MTI Corporation publishes USD 59 for SKU SOF101002S2, 1 piece of Fused silica JG
 **Related records:** `silica-substrate` (component), `PACK-PRICE261018-C60F0328D9D59A3C` (component_offer), `P01-LITERATURE-EXAMPLE-C03` (formulation_component), `P01` (process)
 
 
+## PRICE-EV-26E2F9FEA52E69CA
+
+MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1716, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=40658437079098) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-C6C9A6EC423C3E5B` (component_offer), `ucla-gaas-substrate` (component)
+
+
+## PRICE-EV-26EE5BB20CEC080A
+
+MSE Supplies publishes USD 89.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0785, pack 50 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167478842) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-88097B606D8776EA` (component_offer), `aluminium-metal` (component)
+
+
 ## PRICE-EV-27D2E47BDD363901
 
 Government Scientific Source publishes USD 104880.95 for Thermo Scientific Sorvall WX 100+ (list_price; new).
@@ -7728,6 +8105,19 @@ Government Scientific Source publishes USD 104880.95 for Thermo Scientific Sorva
 **Related records:** `M14-02` (equipment), `M14` (equipment_class), `SELL-PRICE261018-493959558B1BBC99` (seller_offer)
 
 
+## PRICE-EV-286DD445F5CD7756
+
+Lab Alley publishes USD 74.8 for Sodium hydroxide0.1N aqueous solution, SKU SOHYSL01N-1L, pack 1000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-1L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-1DC271A9CDBFE247` (component_offer), `naoh-01m` (component)
+
+
 ## PRICE-EV-2947F02FF6A99502
 
 US Research Nanomaterials, Inc. publishes USD 575.0 for US Nano US1149M Natural graphite flaky powder, 10 µm, SKU US1149M, pack 1 kg (published_price; new).
@@ -7739,6 +8129,32 @@ US Research Nanomaterials, Inc. publishes USD 575.0 for US Nano US1149M Natural 
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Exact previously curated form/size option: 1kg-10um Natural Graphite (add $575). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-553291A7160C508E` (component_offer), `usnano-us1149m-natural-graphite10um` (component)
+
+
+## PRICE-EV-2B86508D962C196C
+
+Thermo Fisher Scientific publishes USD 119.0 for Cyclohexane, 99.8%, for HPLC, SKU 279590010, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/279590010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-CFE288233C025EC0` (component_offer), `cyclohexane` (component)
+
+
+## PRICE-EV-2BD1F315346DB32C
+
+US Research Nanomaterials, Inc. publishes USD 208.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $208). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/378) — Matching displayed price/pack and exact named form/size selector: 1g (add $208). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-155A730A97C2D28A` (component_offer), `usnano-us4101-swcnt-dry` (component)
 
 
 ## PRICE-EV-2D293804DECE598D
@@ -7912,6 +8328,19 @@ Krackeler Scientific publishes USD 286 for Reduced graphene oxide commercial che
 **Related records:** `CMP-OFFER-672C72CA4328` (component_offer), `rgo` (component)
 
 
+## PRICE-EV-3831758BF3C4A87D
+
+Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-0B40EB3AE1D3. Correct raw citrate dihydrate identity, but existing USP/FCC dry pack is not prepared aqueous stock. Stock dilution and research-grade acceptance need explicit review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-citrate-dihydrate-usp-fcc-grade?selected=SOCTGU-12.5KG) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-EEB4FC15C3BD` (component_offer), `trisodium-citrate-dihydrate-1p91mm-aqueous` (component)
+
+
 ## PRICE-EV-3934D1B6A7B3972C
 
 US Research Nanomaterials publishes 120.0 dollars for 30.0 mL of US Nano US4300 MWCNTs, 3 wt% aqueous dispersion.
@@ -7924,6 +8353,19 @@ US Research Nanomaterials publishes 120.0 dollars for 30.0 mL of US Nano US4300 
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us4300-mwcnt-water3pct` (component), `PACK-USNANO261018-FDE54B12276B37EC` (component_offer), `P09` (process), `P29` (process)
+
+
+## PRICE-EV-3A72188D0AAF52B2
+
+US Research Nanomaterials, Inc. publishes USD 575.0 for US Nano US1149M Natural graphite flaky powder, 10 µm, SKU US1149M, pack 1 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 539: 1kg-10um Natural Graphite (add $575). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 10µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 10µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. A nominal 10µm grade and 99.5% total carbon do not prove either the full 7–10µm range or the same purity basis. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Matching displayed price/pack and exact named form/size selector: 1kg-10um Natural Graphite (add $575). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-553291A7160C508E` (component_offer), `usnano-us1149m-natural-graphite10um` (component)
 
 
 ## PRICE-EV-3D48D98353FDCC5B
@@ -8031,6 +8473,32 @@ Across International publishes USD 5990 for Across International PQ-N4 (starting
 **Related records:** `EXP-20261016-M12-PQ-N4` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## PRICE-EV-3FE571DADC10A281
+
+US Research Nanomaterials, Inc. publishes USD 39.0 for US Nano US4300 MWCNTs, dry, OD &lt;7 nm, SKU US4300, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $39). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/215) — Matching displayed price/pack and exact named form/size selector: 1g (add $39). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-8B14B431BDADCB90` (component_offer), `usnano-us4300-mwcnt-dry` (component)
+
+
+## PRICE-EV-3FF6D2D3A8AD2074
+
+Lab Alley publishes USD 65.42 for Acetone 99.5%, ACS Grade, SKU ACEA-500ML, pack 500.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/acetone-acs-reagent-grade?selected=ACEA-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-07C5FF9167CB` (component_offer), `acetone` (component)
+
+
 ## PRICE-EV-407F4AFFB6BBE08A
 
 MSE Supplies publishes USD 8469.95 for Pfeiffer HiScroll 12, SKU 2000026578.1 (Automatic Gas Ballast / Yes).
@@ -8042,6 +8510,32 @@ MSE Supplies publishes USD 8469.95 for Pfeiffer HiScroll 12, SKU 2000026578.1 (A
 - Source: [MSE Supplies Pfeiffer HiScroll 12](https://www.msesupplies.com/products/pfeiffer-hiscroll-12-dry-scroll-pump?variant=40690681937978) — Selected variant 40690681937978; SKU 2000026578.1; product/offer schema specifies USD and NewCondition
 
 **Related records:** `M31-03` (equipment), `M31` (equipment_class), `SELL-MSE261019-5080AD6889F90D74` (seller_offer)
+
+
+## PRICE-EV-40D955E859F9D8E3
+
+Precision Micro-Optics publishes USD 62 for Silicon/silicon dioxide wafer, 3 inch, 2 micrometre oxide, SKU PSSS-32O1122, pack 1 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Reported diameter and oxide thickness match P38; dopant, crystal orientation and double-sided oxide are not established by the source formulation. Reference price pending configuration review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Precision Micro-Optics product price](https://www.pmoptics.com/Silicon_Silicon%20Dioxide%20wafer.html) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-F1CFB14BF84C` (component_offer), `si-sio2-3in-2um` (component)
+
+
+## PRICE-EV-41DAD52A191FFDE8
+
+Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SKU SINIGA-5G, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-F78928D93AE5` (component_offer), `silver-nitrate` (component)
 
 
 ## PRICE-EV-42A7D2F3B2A03983
@@ -8202,6 +8696,19 @@ Krackeler Scientific publishes USD 194 for Silicone oil viscosity10cSt, SKU 45-3
 **Related records:** `CMP-OFFER-C47965151E2E` (component_offer), `silicone-oil-mekki` (component)
 
 
+## PRICE-EV-472BC5BAB9F58A2D
+
+US Research Nanomaterials, Inc. publishes USD 65.0 for US Nano US4300 MWCNTs, dry, OD &lt;7 nm, SKU US4300, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $65). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/215) — Matching displayed price/pack and exact named form/size selector: 5g (add $65). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-07DD7FA3307A5A13` (component_offer), `usnano-us4300-mwcnt-dry` (component)
+
+
 ## PRICE-EV-476EAA3D3FD94CED
 
 TCI America publishes USD 162 for Cesium carbonate, SKU C2160-100G, pack 100 g (published_price; new).
@@ -8213,6 +8720,19 @@ TCI America publishes USD 162 for Cesium carbonate, SKU C2160-100G, pack 100 g (
 - Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/C2160) — TCI US productC2160, purity/physical-state fields and 100G row of Unit Price table.
 
 **Related records:** `CMP-OFFER-4950424F4BE3` (component_offer), `cesium-carbonate` (component)
+
+
+## PRICE-EV-479CED78EB417333
+
+US Research Nanomaterials, Inc. publishes USD 288.0 for US Nano US1022 graphene oxide, dry, SKU US1022, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $288). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Commercial GO option. Different manufacturer and dimensional range from study-synthesized Scaffaro GO. Not an eligible replacement for its literature lines or property/quantity models; collector solvent, dispersion and formulation need review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/25856) — Matching displayed price/pack and exact named form/size selector: 1g (add $288). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-4EDDC3D0513AAC87` (component_offer), `usnano-us1022-go-dry` (component)
 
 
 ## PRICE-EV-47E23C3C66D86C96
@@ -8307,6 +8827,45 @@ Lab Alley publishes USD 71.95 for Benzyl Alcohol NF/FCC Grade, SKU BZALCF-500ML,
 **Related records:** `CMP-OFFER-E66BE085EF07` (component_offer), `benzyl-alcohol` (component)
 
 
+## PRICE-EV-4C6A11ED96DF9E1C
+
+Chem-Impex publishes USD 131.3 for Boron nitride3–4µm powder, SKU 47145-100G, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Correct boron nitride powder chemical identity. Source particle size/grade unspecified; reference-only pending morphology review, rather than substituting nanopowder or paste. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Chem-Impex product price](https://www.chemimpex.com/products/47145) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-9CBA1A907C50` (component_offer), `boron-nitride` (component)
+
+
+## PRICE-EV-4D04ED1D92FF945C
+
+TCI America publishes USD 329 for 1,2-Tetradecanediol, SKU T1353-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact chemical identity; technical90%grade needs source-purity review before automatic reaction costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T1353) — TCI US product T1353; current 25G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-5B145BA1AA9B` (component_offer), `tetradecanediol` (component)
+
+
+## PRICE-EV-4D7F4F965293A75A
+
+Kurt J. Lesker publishes USD 316 for Antimony sputtering target, 1 inch x 0.125 inch, SKU EJTSBXX501A2, pack 1 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Source target dimensions are not specified. Seller notes possible surface imperfections; exact gun fit requires review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_sputtertargets_1.cfm?pgid=sb1) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-1C8B0A24D54D` (component_offer), `antimony-target` (component)
+
+
 ## PRICE-EV-4DA0042A1C579148
 
 US Research Nanomaterials, Inc. publishes USD 96.0 for US Nano US4301 OH-functionalized MWCNTs, SKU US4301, pack 5.0 g (published_price; new).
@@ -8333,6 +8892,19 @@ Government Scientific Source publishes USD 92857.14 for Thermo Scientific Sorval
 **Related records:** `M14-09` (equipment), `M14` (equipment_class), `SELL-PRICE261018-9B3C05ED917A1C3C` (seller_offer)
 
 
+## PRICE-EV-4ED18AF64B5C2322
+
+nanoComposix publishes USD 230 for Silica nanospheres50nm,10mg/mL in water, SKU SISN50-25M, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Reference-only: exact50nm material class but commercial aqueous dispersion is not600mg dry silica charge. Do not price600mg as600mL or assume solvent-removal equivalence. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [nanoComposix product price](https://nanocomposix.com/products/50-nm-silica-nanospheres) — SISN50-25M, silanol silica 50 nm, 10 mg/mL, 25 mL water; exact displayed SKU and selected option.
+
+**Related records:** `CMP-OFFER-F43D08580865` (component_offer), `silica-50nm` (component)
+
+
 ## PRICE-EV-4ED1BD489B77E857
 
 MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1716, pack 1 piece.
@@ -8344,6 +8916,32 @@ MSE Supplies publishes USD 123.95 for MSE PRO GaAs Gallium Arsenide Crystal Subs
 - Source: [MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=40658437079098) — Exact selected variant 40658437079098, seller SKU SU1716; USD; available flag reviewed
 
 **Related records:** `ucla-gaas-substrate` (component), `PACK-MSE261019-C6C9A6EC423C3E5B` (component_offer)
+
+
+## PRICE-EV-4F878A3504CF133E
+
+US Research Nanomaterials, Inc. publishes USD 98.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm, SKU US1153M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3958: 100g--thickness-80nm (add $98). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 100g--thickness-80nm (add $98). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-BA2D965DBC48B0FA` (component_offer), `usnano-us1153m-bn80nm` (component)
+
+
+## PRICE-EV-507889312D4DA0EF
+
+Lab Alley publishes USD 55 for Deionized Water Lab Grade, Kosher, SKU WAD-1L, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P29 and P32 source rows request deionized water without a stricter resistivity or sterility requirement. This product is explicitly DI water. The total used volumes remain unreported, so no automatic full-pack consumption cost is assigned. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/deionized-water-lab-grade-kosher?selected=WAD-1L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-9C1D7CDC0535E067` (component_offer), `water-di` (component)
 
 
 ## PRICE-EV-50F7C39E4EF839C0
@@ -8373,6 +8971,32 @@ Fisher Scientific US publishes USD 5224.05 for Kinematica POLYTRON PT 10-35 GT (
 **Related records:** `M11-07` (equipment), `M11` (equipment_class), `SELL-PRICE261018-214FC2685070F401` (seller_offer)
 
 
+## PRICE-EV-51E29353C6058317
+
+Lab Alley publishes USD 114.1 for Water, HPLC Grade, SKU WAHPLC-4L, pack 4.0 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/water-hplc-grade?selected=WAHPLC-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-4D0A57C33697` (component_offer), `water` (component)
+
+
+## PRICE-EV-526625D8F7F5F158
+
+TCI America publishes USD 45 for Tri-n-octylphosphine (TOP), SKU T0503-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0503) — TCI US product T0503; current 25ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-6A83A449DE60` (component_offer), `tri-n-octylphosphine` (component)
+
+
 ## PRICE-EV-549AD9869DA1291A
 
 Lab Alley publishes USD 72.19 for N,N-Dimethylformamide 99.8% ACS/AR grade, SKU DMFA-500ML, pack 500 mL (published_price; new).
@@ -8384,6 +9008,19 @@ Lab Alley publishes USD 72.19 for N,N-Dimethylformamide 99.8% ACS/AR grade, SKU 
 - Source: [Lab Alley product price](https://www.laballey.com/products/dimethylformamide-dmf-acs-grade?selected=DMFA-500ML) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-24E79C3A8D73` (component_offer), `dmf` (component)
+
+
+## PRICE-EV-54DDD49B9815714E
+
+Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Two-part kit includes base and curing agent. Do not apply the complete-kit price to both component lines. Buy once and allocate combined-kit consumption. Pack total 1.1 kg; source base:hardener mass ratio 10:1. Market-reference alias of CMP-OFFER-9AA8A445574A. Existing1,100g SYLGARD184 offer is a two-part kit. Separate base/curing rows must not each use1,100g as their own pack or charge a kit twice; explicit kit allocation is required. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — Exact DO-SYL184-11, 1.1 kg two-part kit, single-kit price.
+
+**Related records:** `CMP-REF26-5DCB8D47D750` (component_offer), `pdms-sylgard184-base` (component)
 
 
 ## PRICE-EV-569DB67C27447B5A
@@ -8426,6 +9063,19 @@ Certified Material Testing Products publishes USD 17791.58 for RETSCH PM 100 (pu
 **Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process), `SELL-PRICE261018-CF34A728624113D9` (seller_offer)
 
 
+## PRICE-EV-57E076DC891DFD7D
+
+US Research Nanomaterials, Inc. publishes USD 68.0 for US Nano US1133M Silicon dioxide / silica powder, 50 nm, SKU US1133M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3766: 100g-50nm (add $68). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical dry SiO2 nanoparticle identity and 50 nm size. Source paper used Nanocym 50 nm silica; this is another manufacturer. Treat as a specification-level candidate, with source performance, pore distribution and surface chemistry not guaranteed. Do not replace with pre-coated silica or a dispersion. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/23095) — Matching displayed price/pack and exact named form/size selector: 100g-50nm (add $68). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-687320652FDF65B1` (component_offer), `usnano-us1133m-silica50nm` (component)
+
+
 ## PRICE-EV-57E18D04A607E716
 
 Thermo Fisher Scientific displays USD 66.7 for Methanol, 99.8%, for HPLC, SKU 268280010, 1 L.
@@ -8437,6 +9087,19 @@ Thermo Fisher Scientific displays USD 66.7 for Methanol, 99.8%, for HPLC, SKU 26
 - Source: [Thermo Fisher Scientific: Methanol, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/268280010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `methanol` (component), `PACK-THERMO261019-BD27F86AFD06F121` (component_offer)
+
+
+## PRICE-EV-595C3FD277E3428A
+
+Spectra Services publishes USD 495 for Calcium Carbonate Nanopowder, Surface Modified for Adhesives (15-40 nm), SKU B2026207, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Spectra Services product price](https://spectraservices.com/product/molecular-depot-b2026207.html) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-LABX261019-E9B7FD82710396A1` (component_offer), `molecular-depot-b2026207-caco3-adhesives-15-40nm` (component)
 
 
 ## PRICE-EV-5969ACC81F433DC3
@@ -8466,6 +9129,32 @@ US Research Nanomaterials publishes 2800.0 dollars for 100.0 mL of US Nano US790
 **Related records:** `usnano-us7906-go-water1pct` (component), `PACK-USNANO261018-69EA3ED20CED60B1` (component_offer), `P09` (process), `P29` (process)
 
 
+## PRICE-EV-5B3E3460B5B0FBEB
+
+Krackeler Scientific publishes USD 79.1 for Mowiol 8-88 dry polymer, MW ~67,000, SKU 45-81383-250G, pack 250 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. This is the correct dry Mowiol 8-88 precursor identity for P22, but the source input is a 5 wt% aqueous solution. Retain as a dry-precursor reference. Never price selected mL of stock as grams of neat polymer. A sourced preparation and allocation record is needed. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/81383) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `PACK-PRICE261018-5A53304C109B8C94` (component_offer), `pva-5wt-aqueous` (component)
+
+
+## PRICE-EV-5B8EF3C6ABE53134
+
+Lab Alley publishes USD 1632.85 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-4LCS, pack 16000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-5E07D99CCE54CEEF` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
 ## PRICE-EV-5C18184726CEB468
 
 MSE Supplies publishes USD 292.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2421, pack 100 g.
@@ -8490,6 +9179,58 @@ US Research Nanomaterials, Inc. publishes USD 96.0 for US Nano US4302 COOH-funct
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/217) — Exact previously curated form/size option: 5g (add $96). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-2648A6AE1D0426F5` (component_offer), `usnano-us4302-mwcnt-cooh` (component)
+
+
+## PRICE-EV-5C5F02F5D2ED8435
+
+Krackeler Scientific publishes USD 57.3 for Magnesium turnings, 5–25 mm, 99.95% trace metals basis, SKU 45-403148-50G, pack 50 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Published seller/manufacturer offer, not inferred MSRP. Shipping, tax, hazmat and handling excluded. P35 reports commercially pure magnesium for alloy melting but does not state feed form or impurity limits. This specific turnings pack is a reference, not a verified match to the experimental feed. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/403148) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `PACK-PRICE261018-445E811DB03B33FD` (component_offer), `magnesium-metal` (component)
+
+
+## PRICE-EV-5CDE6793BFE744D8
+
+Lab Alley publishes USD 163.76 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-10C71722FEA815B4` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
+## PRICE-EV-5CF5C79DB89A74F4
+
+US Research Nanomaterials, Inc. publishes USD 268.0 for US Nano US1059 graphene nanoplatelets, 99.5+%, SKU US1059, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $268). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/3767) — Matching displayed price/pack and exact named form/size selector: 5g (add $268). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-BAC3543148C009D5` (component_offer), `usnano-us1059-gnp-dry` (component)
+
+
+## PRICE-EV-5D047914EB82FC91
+
+Chem-Impex publishes USD 25 for Iron(II) chloride tetrahydrate, SKU 35596-100G, pack 100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact tetrahydrate. Delivered iron-stock total is unknown, so batch consumption cannot be priced until a dose is supplied. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Chem-Impex product price](https://www.chemimpex.com/products/35596) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-011E84A08120` (component_offer), `fecl2-4h2o` (component)
 
 
 ## PRICE-EV-5D9C2CBA5BD50612
@@ -8544,6 +9285,45 @@ MilliporeSigma publishes USD 64.4 for SKU 270725-100ML, 100 mL of Acetone, suita
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-E512EEE1B63DC923` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-5ECFA5D1BEC7C8E3
+
+Chem-Impex publishes USD 18.53 for Zinc acetate dihydrate, SKU 33359-100G, pack 100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact chemical hydrate. P 40 source specifies 99%; offered 98-101% titration range requires grade review for that formulation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Chem-Impex product price](https://www.chemimpex.com/products/33359) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-769D4DDEDF31` (component_offer), `zinc-acetate-dihydrate` (component)
+
+
+## PRICE-EV-5F3D78DD708C1DE8
+
+Lab Alley publishes USD 66.23 for Dichloromethane (Methylene Chloride), Lab Grade, SKU DCML-1L, pack 1.0 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/dichloromethane-methylene-chloride-lab?selected=DCML-1L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-E1B872BB9C49` (component_offer), `dichloromethane` (component)
+
+
+## PRICE-EV-5F8AD5B9102EDB09
+
+TCI America publishes USD 52 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-500G, pack 500 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/B0742) — TCI US product B0742; current 500G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-0D0E9571EE6B` (component_offer), `titanium-tetrabutoxide` (component)
+
+
 ## PRICE-EV-5FA0E164CAC9C16E
 
 Thermo Fisher Scientific displays USD 196.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.14, 25 g.
@@ -8555,6 +9335,19 @@ Thermo Fisher Scientific displays USD 196.65 for Titanium(IV) isopropoxide, 99.9
 - Source: [Thermo Fisher Scientific: Titanium(IV) isopropoxide, 99.995% (metals basis) pack price](https://www.thermofisher.com/order/catalog/product/035794.14) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `titanium-isopropoxide-999` (component), `PACK-THERMO261019-F4360C850AF82B61` (component_offer)
+
+
+## PRICE-EV-60708EE98057231F
+
+TCI publishes USD 17 for Tetraethyl orthosilicate &gt;98%, SKU T0100-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI product price](https://www.tcichemicals.com/US/en/p/T0100) — TCI US product T0100; current 25ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-5DD7349FA6C7` (component_offer), `teos` (component)
 
 
 ## PRICE-EV-610865AE85BB500C
@@ -8570,6 +9363,19 @@ US Research Nanomaterials, Inc. publishes USD 129.0 for US Nano US1059 graphene 
 **Related records:** `PACK-USNANO261018-F47BFD0BD8BE2591` (component_offer), `usnano-us1059-gnp-dry` (component)
 
 
+## PRICE-EV-61BAEA6FAE7538AE
+
+Lab Alley publishes USD 57.12 for Hydrogen Peroxide 30% Solution, Lab Grade, SKU HPL30-1L, pack 1.0 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrogen-peroxide-30-lab?selected=HPL30-1L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-8C309A4299B8` (component_offer), `hydrogen-peroxide-30pct` (component)
+
+
 ## PRICE-EV-6338062C6FCB57FD
 
 US Research Nanomaterials publishes 168.0 dollars for 1 kg of US Nano US1133M Silicon dioxide / silica powder, 50 nm.
@@ -8582,6 +9388,32 @@ US Research Nanomaterials publishes 168.0 dollars for 1 kg of US Nano US1133M Si
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1133m-silica50nm` (component), `PACK-USNANO261018-83E6AF378EA1FA01` (component_offer), `P08` (process), `P29` (process)
+
+
+## PRICE-EV-647B8F3DC7DE455B
+
+US Research Nanomaterials, Inc. publishes USD 55.0 for US Nano US4301 OH-functionalized MWCNTs, SKU US4301, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $55). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/216) — Matching displayed price/pack and exact named form/size selector: 1g (add $55). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-1EA973EA09B1EA7E` (component_offer), `usnano-us4301-mwcnt-oh` (component)
+
+
+## PRICE-EV-656D7EBDDDD1F18D
+
+US Research Nanomaterials, Inc. publishes USD 96.0 for US Nano US4301 OH-functionalized MWCNTs, SKU US4301, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $96). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/216) — Matching displayed price/pack and exact named form/size selector: 5g (add $96). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-B16AFA8E9B12DE34` (component_offer), `usnano-us4301-mwcnt-oh` (component)
 
 
 ## PRICE-EV-657C0EF8B6983FF2
@@ -8623,6 +9455,32 @@ InnovtrendLab lists USD 3500 for this configuration.
 **Related records:** `CAT-LABX-BUCHI-R215` (equipment), `SELL-LABX261019-4D05BB87A7B757AE` (seller_offer)
 
 
+## PRICE-EV-66DF3703EA6EC50F
+
+Krackeler Scientific publishes USD 105 for Resomer RG752H PLGA75:25 Mw4,000–15,000, SKU 45-719919-1G, pack 1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact stated PLGA copolymer ratio and molecular-weight range. Offer identifies acid end group; source formulation end-group detail should be retained if provided. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/719919) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-8972C5560750` (component_offer), `plga-75-25-mw4000-15000` (component)
+
+
+## PRICE-EV-6717307397DA8510
+
+MTI Corporation publishes USD 59 for Fused silica JGS1 substrate,10×10×0.2mm,both sides optical polished, SKU SOF101002S2, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MTI Corporation product price](https://mtixtl.com/products/fused-silica-glass-substrate-jgs1-10x10x0-2-mm-2-sides-optical-polished) — SOF101002S2, JGS1 fused silica 10 x 10 x 0.2 mm, two sides optical polished; both displayed regular/sale single-piece prices are USD59.
+
+**Related records:** `PACK-PRICE261018-C60F0328D9D59A3C` (component_offer), `silica-substrate` (component)
+
+
 ## PRICE-EV-67743A1662690469
 
 US Research Nanomaterials publishes 208.0 dollars for 1.0 g of US Nano US4101 SWCNTs, dry.
@@ -8637,6 +9495,19 @@ US Research Nanomaterials publishes 208.0 dollars for 1.0 g of US Nano US4101 SW
 **Related records:** `usnano-us4101-swcnt-dry` (component), `PACK-USNANO261018-155A730A97C2D28A` (component_offer), `P29` (process)
 
 
+## PRICE-EV-67EB9911FD6FFB4E
+
+Thermo Fisher Scientific publishes USD 80.8 for Dichloromethane, 99.8%, for HPLC, stabilized with amylene, SKU 268330010, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/268330010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-58BBE327DB77583C` (component_offer), `dichloromethane-99p8` (component)
+
+
 ## PRICE-EV-6834212BB5DFA72D
 
 Santa Cruz Biotechnology publishes USD 188 for Titanium(IV) isopropoxide, SKU sc-253704A, pack 2 kg (published_price; new).
@@ -8648,6 +9519,19 @@ Santa Cruz Biotechnology publishes USD 188 for Titanium(IV) isopropoxide, SKU sc
 - Source: [Santa Cruz Biotechnology product price](https://www.scbt.com/p/titanium-iv-isopropoxide-546-68-9) — SCBT sc-253704A exact product table row; 2kg.
 
 **Related records:** `CMP-OFFER-078D401A03EE` (component_offer), `titanium-isopropoxide` (component)
+
+
+## PRICE-EV-685EB22B4766B53A
+
+Lab Alley publishes USD 191.72 for Acetonitrile 99.9% HPLC Grade, SKU CANHPLC-4L, pack 4 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Generic neat chemical market quote with adequate purity; source does not claim to use Lab Alley. Price excludes shipping,tax,hazmat. DCM HPLC page title says99%, but assay table specifies Min99.9%. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/acetonitrile-hplc-grade?selected=CANHPLC-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-E59819EED161` (component_offer), `acetonitrile-99` (component)
 
 
 ## PRICE-EV-68D4BD6CAF1734EB
@@ -8689,6 +9573,32 @@ US Research Nanomaterials, Inc. publishes USD 55.0 for US Nano US4302 COOH-funct
 **Related records:** `PACK-USNANO261018-B41F2B91F17720C1` (component_offer), `usnano-us4302-mwcnt-cooh` (component)
 
 
+## PRICE-EV-69B11BE836B88090
+
+Lab Alley publishes USD 1632.85 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-4LCS, pack 16000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Reference identity alias only; no recipe-line eligibility. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-67710B0FC05085B2` (component_offer), `hydrofluoric-acid` (component)
+
+
+## PRICE-EV-6A2A3D2FFF55EA28
+
+Lab Alley publishes USD 79.26 for Potassium hydroxide pellets, SKU POHPM-100G, pack 100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source purity unspecified. Offered pellets have minimum 85% assay; review purity before using pure-KOH stoichiometry. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/potassium-hydroxide-pellet-acs) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-C6638EB9EA55` (component_offer), `koh-solid` (component)
+
+
 ## PRICE-EV-6A4BA5E1DE94E416
 
 MSE Supplies publishes USD 117.95 for MSE PRO 100g Flake graphite (800 mesh) for Battery Research, SKU BR0066461, pack 100 g.
@@ -8716,6 +9626,19 @@ US Research Nanomaterials publishes 166.0 dollars for 100 g of US Nano US1011M B
 **Related records:** `usnano-us1011m-bn800nm` (component), `PACK-USNANO261018-1B67FC7BE71ED0F3` (component_offer), `P31` (process)
 
 
+## PRICE-EV-6CFE1AE90ACF892B
+
+Akina / PolySciTech publishes USD 225 for PolySciTech AI078 PLGA-PEG-COOH20k:5k, SKU AI078 / AI78, pack 0.1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact named source polymer; catalog display omits leading zero. Price is100mg dry polymer; prepared15mg/mL stock is not automatically priced by solution volume. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Akina / PolySciTech product price](https://akinainc.com/polyscitech/products/polyvivo/index.php?highlight=AI078) — AI078/AI78 product row: PLGA-PEG-COOH Mw 20000:5000 Da, LA:GA 50:50; single 100 mg tier, not bulk discounts.
+
+**Related records:** `CMP-OFFER-2905C3AAD141` (component_offer), `plga-peg-cooh-ai078` (component)
+
+
 ## PRICE-EV-6E830A1F91BBFFC4
 
 MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece.
@@ -8727,6 +9650,19 @@ MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Subst
 - Source: [MSE Supplies MSE PRO GaAs Gallium Arsenide Crystal Substrates](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=39316291059770) — Exact selected variant 39316291059770, seller SKU SU1705; USD; available flag reviewed
 
 **Related records:** `ucla-gaas-substrate` (component), `PACK-MSE261019-DBDAB6C22A673F4F` (component_offer)
+
+
+## PRICE-EV-6EB0DC980CE59F00
+
+Lab Alley publishes USD 187.67 for n-Hexane, HPLC Grade, SKU HXHPLC-4L, pack 4.0 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Generic solvent identity match for planning; not proof that this supplier was used in the cited experiment. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/n-hexane-hplc-grade?selected=HXHPLC-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-8685382BA9AE` (component_offer), `hexane` (component)
 
 
 ## PRICE-EV-708175F4FAE6888A
@@ -8743,6 +9679,45 @@ US Research Nanomaterials publishes 98.0 dollars for 100 g of US Nano US1153M Bo
 **Related records:** `usnano-us1153m-bn300nm` (component), `PACK-USNANO261018-D31B1573BC074A20` (component_offer), `P31` (process)
 
 
+## PRICE-EV-7095B430F302691F
+
+Lab Alley publishes USD 205.01 for Ethanol HPLC Grade 200 Proof (100%) Non-Denatured Pure Alcohol, SKU EAPHPLC200-1GAL, pack 3785.411784 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Supplier image filename conflicts with named SKU; photo withheld. Pack is one US gallon (3,785.411784 mL). Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/ethanol-200-proof-100-non-denatured-pure-alcohol-hplc-grade?selected=EAPHPLC200-1GAL) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-C3F99D1BE487` (component_offer), `ethanol` (component)
+
+
+## PRICE-EV-70AD3CD54B34295D
+
+Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Two-part kit includes base and curing agent. Do not apply the complete-kit price to both component lines. Buy once and allocate combined-kit consumption. Pack total 1.1 kg; source base:hardener mass ratio 10:1. Market-reference alias of CMP-OFFER-9AA8A445574A. Existing1,100g SYLGARD184 offer is a two-part kit. Separate base/curing rows must not each use1,100g as their own pack or charge a kit twice; explicit kit allocation is required. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — Exact DO-SYL184-11, 1.1 kg two-part kit, single-kit price.
+
+**Related records:** `CMP-REF26-AF8F7F25014A` (component_offer), `pdms-sylgard184-curing-agent` (component)
+
+
+## PRICE-EV-70F6887B727E3AA0
+
+Lab Alley publishes USD 495.99 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-4L, pack 4000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-14A207912560EFD9` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
 ## PRICE-EV-7490B8F8FE5156CE
 
 Akina / PolySciTech publishes USD 20 for PolySciTech AP082 PLGA50:50 acid endcap, SKU AP082 / AP82, pack 1 g (published_price; new).
@@ -8756,6 +9731,19 @@ Akina / PolySciTech publishes USD 20 for PolySciTech AP082 PLGA50:50 acid endcap
 **Related records:** `CMP-OFFER-44DC33C3C8C3` (component_offer), `plga-ap082` (component)
 
 
+## PRICE-EV-74E89B4C11499499
+
+Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SKU SINIGA-5G, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-F78928D93AE5. Existing anhydrous AgNO3 crystal price is a raw-reagent market reference. Prepared stock concentration and aliquot are not a gram dose; no automatic cost equivalence. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-E112C0661BD2` (component_offer), `silver-nitrate-1p25mm-aqueous` (component)
+
+
 ## PRICE-EV-766F1FAF5C78B8E4
 
 US Research Nanomaterials, Inc. publishes USD 98.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm, SKU US1153M, pack 100 g (published_price; new).
@@ -8767,6 +9755,32 @@ US Research Nanomaterials, Inc. publishes USD 98.0 for US Nano US1153M Boron nit
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Exact previously curated form/size option: 100g--thickness-300nm (add $98). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-D31B1573BC074A20` (component_offer), `usnano-us1153m-bn300nm` (component)
+
+
+## PRICE-EV-767BC3DC4EDE5F0E
+
+Ted Pella publishes USD 82.2 for Lacey carbon support film, 300 mesh copper grids, pack of 25, SKU 01895, pack 25 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Alternative characterization substrate. Source mesh and consumed grid count are not specified; pack price is reference only. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Ted Pella product price](https://www.tedpella.com/Support_Films_html/Support_Films_and_Substrates_Overview.aspx) — Exact 01895 table row; Lacey Carbon 300 mesh copper, pkg/25; excludes 01895-F pkg/50 and other grid metals.
+
+**Related records:** `CMP-PRICE26-3150F1124C39` (component_offer), `lacey-carbon-grid` (component)
+
+
+## PRICE-EV-7689713BA9139C07
+
+Lab Alley publishes USD 49.48 for Ammonium hydroxide 27–30%, SKU C1561-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. P04 did not report stock concentration; 27–30% is a market reference, not verified recipe stock. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/ammonium-hydroxide-lab) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-0B39DDBC561F` (component_offer), `ammonium-hydroxide` (component)
 
 
 ## PRICE-EV-76BD7EBF1BBA00B0
@@ -8795,6 +9809,32 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 **Related records:** `CMP-REF26-E55C9BC2273E` (component_offer), `sylgard184-curing` (component)
 
 
+## PRICE-EV-778E990C5ACAF8DE
+
+Krackeler Scientific publishes USD 194 for Silicone oil viscosity10cSt, SKU 45-378321-250ML, pack 250 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Reference-only viscosity-matched PDMS oil. Not verified to be the source MegaChem PMX-200 branded formulation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/378321) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-C47965151E2E` (component_offer), `silicone-oil-mekki` (component)
+
+
+## PRICE-EV-77E63EA2F69B6528
+
+TCI America publishes USD 49 for Titanium(IV) isopropoxide (tetraisopropyl orthotitanate), SKU T0133-500G, pack 500 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0133) — TCI US product T0133; current 500G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-5B65A560B1DD` (component_offer), `titanium-isopropoxide` (component)
+
+
 ## PRICE-EV-78E0A535BE0CC2B6
 
 Amikon GmbH publishes EUR 8500 for Tensor 27 (asking_price; used).
@@ -8821,6 +9861,19 @@ Lab Alley publishes USD 68.41 for Sulfuric acid 96% ACS (95–98%), SKU SUAA96-5
 **Related records:** `CMP-OFFER-DDC5E9901817` (component_offer), `sulfuric-acid-95-97pct` (component)
 
 
+## PRICE-EV-793FCB2D2AD3429D
+
+Thermo Fisher Scientific publishes USD 196.65 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.14, pack 25 g (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/035794.14) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-F4360C850AF82B61` (component_offer), `titanium-isopropoxide-999` (component)
+
+
 ## PRICE-EV-7A63E42FEC5EC8B1
 
 US Research Nanomaterials, Inc. publishes USD 168.0 for US Nano US1022 graphene oxide, dry, SKU US1022, pack 0.5 g (published_price; new).
@@ -8845,6 +9898,32 @@ Thermo Fisher Scientific displays USD 147.65 for Acetonitrile, 99.9%, for HPLC, 
 - Source: [Thermo Fisher Scientific: Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph. pack price](https://www.thermofisher.com/order/catalog/product/268260010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `acetonitrile-99` (component), `PACK-THERMO261019-1481678FFDC5BE09` (component_offer)
+
+
+## PRICE-EV-7B07582D69E10217
+
+US Research Nanomaterials, Inc. publishes USD 980.0 for US Nano US7906 graphene oxide, 1 wt% aqueous dispersion, SKU US7906, pack 30.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 40: 30g/30ml (add $980). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Priced volume is complete 1 wt% aqueous dispersion, not dry GO or an ethanol collector solution. Curated assembly/casting candidate; no solvent substitution, density or dry-mass conversion inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/3766) — Matching displayed price/pack and exact named form/size selector: 30g/30ml (add $980). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-12D012C41B6E9844` (component_offer), `usnano-us7906-go-water1pct` (component)
+
+
+## PRICE-EV-7B2FF1B9673C2C7B
+
+Krackeler Scientific publishes USD 24.5 for Cesium carbonate ReagentPlus99%, SKU 45-441902-5G, pack 5 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact99% cesium carbonate raw precursor. No amount invented for the source cesium-oleate stock preparation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/441902) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-854E7B8897A2` (component_offer), `cesium-carbonate-99` (component)
 
 
 ## PRICE-EV-7D0440F0E7FDB76A
@@ -8902,6 +9981,19 @@ Servilab publishes EUR 23245 for RETSCH PM 400 (published_price; new).
 **Related records:** `M12-06` (equipment), `M12` (equipment_class), `P07` (process), `SELL-PRICE261018-60313290C69FDC0D` (seller_offer)
 
 
+## PRICE-EV-7E66EA431A58EC4F
+
+TCI America publishes USD 375 for Tri-n-octylphosphine (TOP), SKU T0503-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0503) — TCI US product T0503; current 500ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-42BC28B003DE` (component_offer), `tri-n-octylphosphine` (component)
+
+
 ## PRICE-EV-7FD714E48CCEB0E5
 
 Kurt J. Lesker publishes USD 213 for Gold evaporation pellets, priced per gram, SKU EVMAUXX40G, pack 1 g (published_price; new).
@@ -8913,6 +10005,19 @@ Kurt J. Lesker publishes USD 213 for Gold evaporation pellets, priced per gram, 
 - Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_evaporationmaterials_1.cfm?pgid=au1) — Exact catalog SKU row, including pack/physical specification; not adjacent SKU.
 
 **Related records:** `CMP-REF26-FE2F6B6A5296` (component_offer), `gold-target` (component)
+
+
+## PRICE-EV-80991C60144675C9
+
+Thermo Fisher Scientific publishes USD 124.65 for Dimethyl sulfoxide, HPLC Grade, 99.9+%, SKU 022914.K2, pack 1 L (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/022914.K2) — US product table: exact 022914.K2, DMSO HPLC grade 99.9+%, 1 L; USD124.65 online special offer through 2026-12-28, excluding separate USD146 regular price.
+
+**Related records:** `PACK-THERMO261019-D4CDB5CAC61BCEC8` (component_offer), `dmso` (component)
 
 
 ## PRICE-EV-80B61DC213B7AF7E
@@ -8981,6 +10086,19 @@ MilliporeSigma publishes USD 829 for SKU 270725-4X4L, 16000 mL of Acetone, suita
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-0D7095F0E0E57617` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-82A6013C73351F4C
+
+US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm, SKU US1153M, pack 500 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3965: 500g--thickness-300nm (add $298). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 500g--thickness-300nm (add $298). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-C09D5CC0166DE995` (component_offer), `usnano-us1153m-bn300nm` (component)
+
+
 ## PRICE-EV-82D1E323C8AF4E0E
 
 Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
@@ -9020,6 +10138,32 @@ Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU S
 **Related records:** `CMP-REF26-8BFB50A5847E` (component_offer), `trisodium-citrate-dihydrate-20mm-aqueous` (component)
 
 
+## PRICE-EV-84A56E01A3245D1F
+
+MSE Supplies publishes USD 292.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2421, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247575610) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-17C6628431448BC6` (component_offer), `ucla-indium-source` (component)
+
+
+## PRICE-EV-853C23C6D988C1D2
+
+MSE Supplies publishes USD 112.95 for MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Nanoparticles, 500g, SKU PO0559, pack 500 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Chemical identity and nominal 50 nm size match existing component wording. Source-specific particle distribution, surface treatment, morphology and grade compatibility remain unverified. Seller bulk powder photograph does not validate nanometre morphology. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-99-5-50nm-silicon-dioxide-sio-sub-2-sub-nanoparticles-500g?variant=40589478199354) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-957264280E573629` (component_offer), `silica-50nm` (component)
+
+
 ## PRICE-EV-86D472ECB5B04EA9
 
 Thermo Fisher Scientific displays an online-exclusive USD 15930 price for SKU 50157882.
@@ -9044,6 +10188,19 @@ Lab Alley publishes USD 1632.85 for Hydrofluoric Acid 48% Solution (48–51%), A
 - Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4LCS) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `PACK-PRICE261018-5E07D99CCE54CEEF` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
+## PRICE-EV-880DD0EB9C5345CE
+
+TCI America publishes USD 174 for Oleic acid, SKU O0180-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/O0180) — TCI US product O0180; current 25ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-5E47559FD18F` (component_offer), `oleic-acid` (component)
 
 
 ## PRICE-EV-89522C639B21DB91
@@ -9098,6 +10255,19 @@ Terra Universal / Laboratory Equipment publishes USD 11547 for Labconco RXPert B
 **Related records:** `M30-01` (equipment), `M30` (equipment_class), `P07` (process), `P11` (process), `SELL-PRICE261018-8DEE484FC2FA82AC` (seller_offer)
 
 
+## PRICE-EV-8B7A9B6318C4FC78
+
+Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SKU SINIGA-5G, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-F78928D93AE5. Existing anhydrous AgNO3 crystal price is a raw-reagent market reference. Prepared stock concentration and aliquot are not a gram dose; no automatic cost equivalence. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-F823AD9D321F` (component_offer), `silver-nitrate-0p92mm-aqueous` (component)
+
+
 ## PRICE-EV-8C17F20FEBC67D5E
 
 Aladdin Scientific publishes USD 35.9 for SKU B108444-1g, 1 g of Benzidine, â‰¥98%.
@@ -9109,6 +10279,32 @@ Aladdin Scientific publishes USD 35.9 for SKU B108444-1g, 1 g of Benzidine, â�
 - Source: [Aladdin Scientific product pack offer](https://www.aladdinsci.com/us_en/benzidine-aladdin-scientific-b108444.html) — USA pack table;1g sale35.90,5g made-to-order117.90,100g839.90
 
 **Related records:** `benzidine` (component), `PACK-PRICE261018-8048C8B6ABF9F90F` (component_offer), `P31-SOURCE-01-C04` (formulation_component), `P31` (process)
+
+
+## PRICE-EV-8CD42AA2E11EF1AC
+
+Kurt J. Lesker publishes USD 213 for Gold evaporation pellets, priced per gram, SKU EVMAUXX40G, pack 1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Public budgetary price is per gram, not per pellet. Source consumed mass and feedstock purity are not reported; no dose cost inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_evaporationmaterials_1.cfm?pgid=au1) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-F120DEAFD978` (component_offer), `gold-evaporation` (component)
+
+
+## PRICE-EV-8CE67AD6ECB55906
+
+MSE Supplies publishes USD 123.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0020, pack 10 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental Ga identity only; 4N commercial metal does not establish MBE source-grade suitability, charge form, flux or recipe eligibility. Seller photo is a representative metal sample, not MBE charge validation. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591537722) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-1C754BDEDC855A77` (component_offer), `ucla-gallium-source` (component)
 
 
 ## PRICE-EV-8E4CBE6BBE574928
@@ -9178,6 +10374,19 @@ MilliporeSigma publishes USD 501 for SKU 270725-4X2L, 8000 mL of Acetone, suitab
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-52F9E93E0ADC6513` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-91804883204EC20C
+
+Thermo Fisher Scientific publishes USD 180.65 for Acetonitrile, 99.8%, for HPLC, SKU 268270010, pack 1 L (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/268270010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-571F5F042354531C` (component_offer), `acetonitrile-99` (component)
+
+
 ## PRICE-EV-9311FBEF3EA86BD9
 
 US Research Nanomaterials, Inc. publishes USD 125.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 0.5 g (published_price; new).
@@ -9203,6 +10412,32 @@ Government Scientific Source publishes USD 54000 for Thermo Scientific Nicolet i
 - Source: [Exact model/SKU identity documentation](https://www.thermofisher.com/us/en/home/industrial/spectroscopy-elemental-isotope-analysis/molecular-spectroscopy/fourier-transform-infrared-spectroscopy/instruments/nicolet-is50-ftir-spectrometer.html) — Model or manufacturer part number
 
 **Related records:** `M36-06` (equipment), `M36` (equipment_class), `P04` (process), `P08` (process), `P10` (process), `P11` (process), `SELL-PRICE261018-36127ABB3FE1F3B2` (seller_offer)
+
+
+## PRICE-EV-935A02C2D7F17E2A
+
+TCI America publishes USD 126 for Tri-n-octylphosphine (TOP), SKU T0503-100ML, pack 100 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0503) — TCI US product T0503; current 100ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-56B2CF631F82` (component_offer), `tri-n-octylphosphine` (component)
+
+
+## PRICE-EV-93CDF8C93CAB63B2
+
+MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected undoped orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-gaas-gallium-arsenide-crystal-substrates?variant=39316291059770) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-DBDAB6C22A673F4F` (component_offer), `ucla-gaas-substrate` (component)
 
 
 ## PRICE-EV-941B0E358ABAA5B0
@@ -9298,6 +10533,19 @@ US Research Nanomaterials publishes 498.0 dollars for 1 kg of US Nano US1153M Bo
 **Related records:** `usnano-us1153m-bn80nm` (component), `PACK-USNANO261018-E197D0C4D9C5C809` (component_offer), `P31` (process)
 
 
+## PRICE-EV-97AAEAD4ADD6CC7E
+
+Lab Alley publishes USD 57.08 for Cyclohexane 99% lab grade, SKU CYXL-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/cyclohexane-lab-grade) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-2A9BACFBCC03` (component_offer), `cyclohexane` (component)
+
+
 ## PRICE-EV-980BE4FDCF87A927
 
 Krackeler Scientific publishes USD 60.1 for PVA Mw89,000–98,000,99+%hydrolyzed dry polymer, SKU 45-341584-25G, pack 25 g (published_price; new).
@@ -9309,6 +10557,32 @@ Krackeler Scientific publishes USD 60.1 for PVA Mw89,000–98,000,99+%hydrolyzed
 - Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/341584) — Exact catalog SKU row, including pack/physical specification; not adjacent SKU.
 
 **Related records:** `CMP-OFFER-E91078A2155B` (component_offer), `pva-3percent-mw89000-98000-aqueous` (component)
+
+
+## PRICE-EV-987CE4183A22F19A
+
+US Research Nanomaterials, Inc. publishes USD 95.0 for US Nano US1149M Natural graphite flaky powder, 10 µm, SKU US1149M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 538: 100g-10um Natural Graphite (add $95). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical natural graphite flakes identity. Canonical line does not specify a stricter purity or particle-size bound; retain selected 10µm grade explicitly. This is a specification-level alternative to historical article material, not a claim that oxidation yield is unchanged. P07 requests graphite &lt;20µm. A 10µm nominal/APS grade without a guaranteed maximum or sieving result does not prove the &lt;20µm upper bound; retain reference only pending particle-size distribution confirmation. P41 requests 7–10µm flakes at 99% metals basis. A nominal 10µm grade and 99.5% total carbon do not prove either the full 7–10µm range or the same purity basis. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Matching displayed price/pack and exact named form/size selector: 100g-10um Natural Graphite (add $95). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-72006205FFA80127` (component_offer), `usnano-us1149m-natural-graphite10um` (component)
+
+
+## PRICE-EV-99521E079478F195
+
+Lab Alley publishes USD 55.00 for Hydrogen peroxide 30% lab grade, SKU HPL30-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrogen-peroxide-30-lab?selected=HPL30-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-173F4CAD05F9` (component_offer), `hydrogen-peroxide-30pct` (component)
 
 
 ## PRICE-EV-9A18C24177E03C57
@@ -9337,6 +10611,19 @@ Lab Alley publishes USD 73.26 for Acetic Acid Glacial 99% ACS Grade, SKU AAA99-5
 **Related records:** `CMP-OFFER-9FC68B120733` (component_offer), `acetic-acid` (component)
 
 
+## PRICE-EV-9AA9401D3BB7F8AB
+
+US Research Nanomaterials, Inc. publishes USD 108.0 for US Nano US4300 MWCNTs, dry, OD &lt;7 nm, SKU US4300, pack 25.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 5: 25g (add $108). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Market nanofiller option for composite casting or dispersion. Not Nanocyl NC7000; no inherited eligibility, loading or property claim for the P37 source formulation. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/215) — Matching displayed price/pack and exact named form/size selector: 25g (add $108). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-0C365BC9DB5D25F0` (component_offer), `usnano-us4300-mwcnt-dry` (component)
+
+
 ## PRICE-EV-9ADF42F47ED2DB48
 
 Ted Pella publishes USD 82.2 for Lacey carbon support film, 300 mesh copper grids, pack of 25, SKU 01895, pack 25 each (published_price; new).
@@ -9363,6 +10650,19 @@ TCI America publishes USD 20 for Titanium(IV) butoxide (tetrabutyl orthotitanate
 **Related records:** `CMP-OFFER-FBDF2833EDFC` (component_offer), `titanium-tetrabutoxide` (component)
 
 
+## PRICE-EV-9C60570055A58914
+
+Lab Alley publishes USD 354.6 for Sodium hydroxide0.1N aqueous solution, SKU SOHYSL01N-20L, pack 20000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-20L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-1EA46B0E6ED47F82` (component_offer), `naoh-01m` (component)
+
+
 ## PRICE-EV-9D9E05F287F26C68
 
 Lab Alley publishes USD 83.08 for Methanol 99.8% HPLC Grade, SKU MAHPLC-1GAL, pack 3785.411784 mL (published_price; new).
@@ -9376,6 +10676,32 @@ Lab Alley publishes USD 83.08 for Methanol 99.8% HPLC Grade, SKU MAHPLC-1GAL, pa
 **Related records:** `CMP-OFFER-2E9EF3115D79` (component_offer), `methanol` (component)
 
 
+## PRICE-EV-9E52A553BA27FBE3
+
+US Research Nanomaterials, Inc. publishes USD 98.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm, SKU US1153M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3964: 100g--thickness-300nm (add $98). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 100g--thickness-300nm (add $98). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-D31B1573BC074A20` (component_offer), `usnano-us1153m-bn300nm` (component)
+
+
+## PRICE-EV-9F7386A5866A12A2
+
+US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm, SKU US1153M, pack 500 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3959: 500g--thickness-80nm (add $298). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 80nm thickness is below the source range and the diameter range also differs. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 500g--thickness-80nm (add $298). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-967C96B712E2350A` (component_offer), `usnano-us1153m-bn80nm` (component)
+
+
 ## PRICE-EV-A02556D9BACD635C
 
 Spectrum Chemical publishes USD 12540 for Labconco Protector Premier (list_price; new).
@@ -9387,6 +10713,19 @@ Spectrum Chemical publishes USD 12540 for Labconco Protector Premier (list_price
 - Source: [Spectrum Chemical exact-configuration public price](https://www.spectrumchemical.com/pdfdetails/pdf/index/productSku/313787/) — PDF page 2; manufacturer 100400002; vendor 496-48532-EA; List Price
 
 **Related records:** `M29-05` (equipment), `M29` (equipment_class), `SELL-PRICE261018-BDB3C3ABAB43DAE8` (seller_offer)
+
+
+## PRICE-EV-A0AB2905ED16B214
+
+Lab Alley publishes USD 68.25 for Hydrogen peroxide 30% aqueous, SKU HPA30-500mL, pack 500 mL (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Matches 30% source stock concentration. Distinct from the 0.5% peroxide wash mixture. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrogen-peroxide-30-acs) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-CB22309D4AA2` (component_offer), `hydrogen-peroxide-30pct` (component)
 
 
 ## PRICE-EV-A0F87FCA9A491BF0
@@ -9416,6 +10755,32 @@ US Research Nanomaterials publishes 280.0 dollars for 1.0 g of US Nano US1011 si
 **Related records:** `usnano-us1011-graphene-dry` (component), `PACK-USNANO261018-F21DD225199B00B7` (component_offer), `P29` (process)
 
 
+## PRICE-EV-A12D6DFDCBA33E50
+
+TCI America publishes USD 67 for Cesium carbonate, SKU C2160-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/C2160) — TCI US product C2160; current 25G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-508AE84A561F` (component_offer), `cesium-carbonate` (component)
+
+
+## PRICE-EV-A16ACB0FDAB946BB
+
+US Research Nanomaterials, Inc. publishes USD 96.0 for US Nano US4302 COOH-functionalized MWCNTs, SKU US4302, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $96). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/217) — Matching displayed price/pack and exact named form/size selector: 5g (add $96). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-2648A6AE1D0426F5` (component_offer), `usnano-us4302-mwcnt-cooh` (component)
+
+
 ## PRICE-EV-A1EE0359B16B5255
 
 TCI America publishes USD 49 for Titanium(IV) isopropoxide (tetraisopropyl orthotitanate), SKU T0133-500G, pack 500 g (published_price; new).
@@ -9427,6 +10792,32 @@ TCI America publishes USD 49 for Titanium(IV) isopropoxide (tetraisopropyl ortho
 - Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0133) — TCI US productT0133, purity/physical-state fields and 500G row of Unit Price table.
 
 **Related records:** `CMP-OFFER-5B65A560B1DD` (component_offer), `titanium-isopropoxide` (component)
+
+
+## PRICE-EV-A25CF1CE49EDE69D
+
+Ibis Scientific publishes USD 62.3 for Sodium hydroxide pellets, SKU LC239001, pack 500 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source solid grade unspecified. Pellet pack must not price a 0.1M or 0.0225M aqueous stock as an equal volume of pure reagent. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Ibis Scientific product price](https://www.ibisscientific.com/sodium-hydroxide-acs-pellets-500g/) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-F1DEB5545495` (component_offer), `naoh-solid` (component)
+
+
+## PRICE-EV-A3DAA79FDBEBF1E6
+
+Capitol Scientific publishes USD 328.75 for Polyacrylonitrile average Mw150000, SKU 181315-100G, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Capitol Scientific product price](https://www.capitolscientific.com/Sigma-Aldrich-181315-100G-Polyacrylonitrile-average-Mw-150-000-Typical-100g) — 181315-100G, PAN average Mw 150000, 100 g; current Your Price row, excluding the separate 332 MSRP.
+
+**Related records:** `CMP-OFFER-DEF95CF4E228` (component_offer), `pan-polymer` (component)
 
 
 ## PRICE-EV-A3FBCB23EA0E53E2
@@ -9507,6 +10898,32 @@ Cal Gas Direct publishes USD 175 for Calgaz nitrogen99.999%58L cylinder, SKU 58L
 **Related records:** `CMP-OFFER-FD667E14A049` (component_offer), `nitrogen` (component)
 
 
+## PRICE-EV-A66438874AF879E4
+
+TCI America publishes USD 17 for 1-Octadecene, SKU O0008-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/O0008) — TCI US product O0008; current 25ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-C71FFFD9E025` (component_offer), `1-octadecene` (component)
+
+
+## PRICE-EV-A6BE30FF0403922D
+
+US Research Nanomaterials, Inc. publishes USD 75.0 for US Nano US1011M Boron nitride powder, 800 nm, SKU US1011M, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 5: 25g (add $75). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/742) — Matching displayed price/pack and exact named form/size selector: 25g (add $75). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-943315CCE85B0886` (component_offer), `usnano-us1011m-bn800nm` (component)
+
+
 ## PRICE-EV-A7792EDE42F80894
 
 MTI Corporation publishes USD 65 for SKU SOF252510S2, 1 piece of Fused silica substrate,1Ã—1inchÃ—1.0mm,both sides polished.
@@ -9531,6 +10948,32 @@ GMI publishes USD 3495 for Thermo Scientific Sorvall ST 8R (published_price; ref
 - Source: [GMI exact-configuration public price](https://www.gmi-inc.com/product/thermo-scientific-sorvall-st-8r-centrifuge/) — Price $3495 and Additional information &gt; Certified Pre-Owned
 
 **Related records:** `M13-02` (equipment), `M13` (equipment_class), `P03` (process), `P04` (process), `P07` (process), `P08` (process), `P10` (process), `SELL-PRICE261018-50A868DC6C3D52BB` (seller_offer)
+
+
+## PRICE-EV-A86470247756C19E
+
+US Research Nanomaterials, Inc. publishes USD 75.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 0.25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 711: 0.25g (add $75). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/378) — Matching displayed price/pack and exact named form/size selector: 0.25g (add $75). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-1BE1F1989D0C7BF0` (component_offer), `usnano-us4101-swcnt-dry` (component)
+
+
+## PRICE-EV-A88216FC9AF954EA
+
+US Research Nanomaterials, Inc. publishes USD 280.0 for US Nano US1011 single-layer graphene, dry, SKU US1011, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $280). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/25852) — Matching displayed price/pack and exact named form/size selector: 1g (add $280). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-F21DD225199B00B7` (component_offer), `usnano-us1011-graphene-dry` (component)
 
 
 ## PRICE-EV-A98D388258FAD29A
@@ -9560,6 +11003,19 @@ Lab Alley publishes USD 111.72 for SKU SOHYSL01N-4L, 4000 mL of Sodium hydroxide
 **Related records:** `naoh-01m` (component), `PACK-PRICE261018-3E6E89CBD4EC444A` (component_offer), `P33-SOURCE-01-C05` (formulation_component), `P33` (process)
 
 
+## PRICE-EV-AABC3F748812F4DA
+
+Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Two-part kit includes base and curing agent. Do not apply the complete-kit price to both component lines. Buy once and allocate combined-kit consumption. Pack total 1.1 kg; source base:hardener mass ratio 10:1. Market-reference alias of CMP-OFFER-9AA8A445574A. Existing1,100g SYLGARD184 offer is a two-part kit. Separate base/curing rows must not each use1,100g as their own pack or charge a kit twice; explicit kit allocation is required. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — Exact DO-SYL184-11, 1.1 kg two-part kit, single-kit price.
+
+**Related records:** `CMP-REF26-E55C9BC2273E` (component_offer), `sylgard184-curing` (component)
+
+
 ## PRICE-EV-AC02F4CBC6CEA440
 
 TCI America publishes USD 67 for Cesium carbonate, SKU C2160-25G, pack 25 g (published_price; new).
@@ -9571,6 +11027,19 @@ TCI America publishes USD 67 for Cesium carbonate, SKU C2160-25G, pack 25 g (pub
 - Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/C2160) — TCI US productC2160, purity/physical-state fields and 25G row of Unit Price table.
 
 **Related records:** `CMP-OFFER-508AE84A561F` (component_offer), `cesium-carbonate` (component)
+
+
+## PRICE-EV-ACEBD7688E75F0D1
+
+TCI America publishes USD 48 for Oleic acid, SKU O0180-5ML, pack 5 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/O0180) — TCI US product O0180; current 5ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-6188DCA62F2E` (component_offer), `oleic-acid` (component)
 
 
 ## PRICE-EV-AD85A47865F2F894
@@ -9612,6 +11081,32 @@ Government Scientific Source publishes USD 22734.38 for Thermo Scientific Evolut
 **Related records:** `M35-08` (equipment), `M35` (equipment_class), `P03` (process), `SELL-PRICE261018-5079E25B21941DB3` (seller_offer)
 
 
+## PRICE-EV-AE7D5D495AFBFACD
+
+Ossila publishes USD 240 for ITO glass module substrates, 75 x 25 mm, pack of 20, SKU S251-20, pack 20 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Exact module-pattern pack, not all ITO glass. Source substrate dimensions and pattern are not reported; compatibility must be reviewed. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Ossila product price](https://www.ossila.com/products/pv-and-oled-scale-up-substrates?variant=19179739185248) — Selected variant 19179739185248, product code S251-20, pixelated ITO substrates 75 x 25 mm, pack 20, displayed USD price.
+
+**Related records:** `CMP-PRICE26-1A428E59F02C` (component_offer), `ito-glass` (component)
+
+
+## PRICE-EV-AE7DB79833113F21
+
+TCI publishes USD 28 for 3-Aminopropyltriethoxysilane, SKU A0439-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI product price](https://www.tcichemicals.com/US/en/p/A0439) — TCI US product A0439; current 25G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-3B92709D7570` (component_offer), `aptes` (component)
+
+
 ## PRICE-EV-AEDAC830985AB3A3
 
 Aladdin Scientific publishes USD 285.9 for SKU L407046-100g, 100 g of Lead bromide, PrimorTrace â‰¥99.99% metals basis.
@@ -9651,6 +11146,45 @@ MTI Corporation publishes USD 59 for Fused silica JGS1 substrate,10×10×0.2mm,b
 **Related records:** `PACK-PRICE261018-C60F0328D9D59A3C` (component_offer), `silica-substrate` (component)
 
 
+## PRICE-EV-B155F4EDDB02A26A
+
+TCI America publishes USD 48 for 1-Octadecene, SKU O0008-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/O0008) — TCI US product O0008; current 500ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-55BA3CFDBC6D` (component_offer), `1-octadecene` (component)
+
+
+## PRICE-EV-B1CA0BCD80A32D57
+
+US Research Nanomaterials, Inc. publishes USD 680.0 for US Nano US1073 graphene nanoplatelets, 95+%, SKU US1073, pack 100.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 6: 100g (add $680). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/18480) — Matching displayed price/pack and exact named form/size selector: 100g (add $680). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-2F942EB43109D629` (component_offer), `usnano-us1073-gnp-dry` (component)
+
+
+## PRICE-EV-B270581539FD35D1
+
+MTI Corporation publishes USD 65 for Fused silica substrate,1×1inch×1.0mm,both sides polished, SKU SOF252510S2, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. P01 substrate area, thickness and surface preparation are absent. Offer is a dimension-bound reference, not asserted to reproduce the article substrate. MTI crystal minimum order100USD applies. Product page states100USD minimum for crystals; quoted unit price is not standalone checkout total. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MTI Corporation product price](https://mtixtl.com/products/fused-silica-substrate-1-x-1-x1-0-mm-2-sides-polished-sof252510s2) — SOF252510S2, fused silica 1 x 1 inch x 1.0 mm, two sides polished; both displayed regular/sale single-piece prices are USD65. Minimum order is separate.
+
+**Related records:** `PACK-PRICE261018-71C19AFCD8450982` (component_offer), `silica-substrate` (component)
+
+
 ## PRICE-EV-B2ECF8D74E1A0CF2
 
 US Research Nanomaterials publishes 575.0 dollars for 1 kg of US Nano US1149M Natural graphite flaky powder, 10 µm.
@@ -9663,6 +11197,19 @@ US Research Nanomaterials publishes 575.0 dollars for 1 kg of US Nano US1149M Na
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1149m-natural-graphite10um` (component), `PACK-USNANO261018-553291A7160C508E` (component_offer), `P07` (process), `P34` (process), `P41` (process)
+
+
+## PRICE-EV-B3F014B7C493653E
+
+Lab Alley publishes USD 1857.88 for Sodium Hydroxide 5N Solution, SKU SOHYSL5N-55GAL, pack 208197.64812 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-hydroxide-5n-solution?selected=SOHYSL5N-55GAL) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-2BBA897DF594` (component_offer), `sodium-hydroxide-5m-aqueous` (component)
 
 
 ## PRICE-EV-B465CCD774AC143F
@@ -9728,6 +11275,19 @@ TCI America publishes USD 52 for Titanium(IV) butoxide (tetrabutyl orthotitanate
 - Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/B0742) — TCI US productB0742, purity/physical-state fields and 500G row of Unit Price table.
 
 **Related records:** `CMP-OFFER-0D0E9571EE6B` (component_offer), `titanium-tetrabutoxide` (component)
+
+
+## PRICE-EV-B6D2908F92F3A8A3
+
+US Research Nanomaterials, Inc. publishes USD 280.0 for US Nano US1073 graphene nanoplatelets, 95+%, SKU US1073, pack 25.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 5: 25g (add $280). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/18480) — Matching displayed price/pack and exact named form/size selector: 25g (add $280). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-2AB786A306A0A5B7` (component_offer), `usnano-us1073-gnp-dry` (component)
 
 
 ## PRICE-EV-B6DF6E2CC39C7A74
@@ -9902,6 +11462,32 @@ Lab Alley publishes USD 159.54 for Dichloromethane, 99%, HPLC Grade, SKU DCMHPLC
 **Related records:** `CMP-OFFER-F0934A6C72F8` (component_offer), `dichloromethane-99p8` (component)
 
 
+## PRICE-EV-BC73F3D6AA1EF821
+
+US Research Nanomaterials, Inc. publishes USD 125.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 0.5 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 31: 0.5g (add $125). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/378) — Matching displayed price/pack and exact named form/size selector: 0.5g (add $125). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-2EAF8525ADDCF2B9` (component_offer), `usnano-us4101-swcnt-dry` (component)
+
+
+## PRICE-EV-BCE398375231E542
+
+Thermo Fisher Scientific publishes USD 66.7 for Methanol, 99.8%, for HPLC, SKU 268280010, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/268280010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-BD27F86AFD06F121` (component_offer), `methanol` (component)
+
+
 ## PRICE-EV-BCE7A498615DDFEE
 
 Clarkson Laboratory & Supply publishes USD 16400 for Thermo Scientific Vacutherm VT 6060 (list_price; new).
@@ -9913,6 +11499,19 @@ Clarkson Laboratory & Supply publishes USD 16400 for Thermo Scientific Vacutherm
 - Source: [Thermo Scientific 2026 laboratory equipment price list](https://store.clarksonlab.com/Vendors/vThe.pdf) — PDF page 387; SKU 51014540; Equipment; List Price
 
 **Related records:** `M18-09` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process), `SELL-PRICE261018-755923C36188185D` (seller_offer)
+
+
+## PRICE-EV-BD52E57233A5E0CE
+
+Lab Alley publishes USD 163.76 for Hydrofluoric Acid 48% Solution (48–51%), ACS Reagent Grade, SKU C4358-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Reference pack: article names48% stock; supplier specification allows48–51%, requiring lot assay/concentration review before preparing the source4.8M etchant. Source dispense volume is absent. Reference identity alias only; no recipe-line eligibility. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-E99F74CBD517C2D5` (component_offer), `hydrofluoric-acid` (component)
 
 
 ## PRICE-EV-BD6EBB7BC7A59E98
@@ -10034,6 +11633,19 @@ US Research Nanomaterials, Inc. publishes USD 95.0 for US Nano US1149M Natural g
 **Related records:** `PACK-USNANO261018-72006205FFA80127` (component_offer), `usnano-us1149m-natural-graphite10um` (component)
 
 
+## PRICE-EV-C1A19A3D11D0C149
+
+Lab Alley publishes USD 72.86 for Dimethyl sulfoxide 99.5%, ACS, SKU DMSOA-500ML, pack 500 mL (vendor_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source grade unspecified. Commercial ACS solvent candidate; this does not identify the supplier used by the article. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/dimethyl-sulfoxide-99-5-acs-grade) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-E9B4D63C76E6` (component_offer), `dmso` (component)
+
+
 ## PRICE-EV-C2329FCDB627DFE9
 
 Cal Gas Direct publishes USD 175 for Calgaz nitrogen99.999%58L cylinder, SKU 58L-114, pack 1 piece (published_price; new).
@@ -10045,6 +11657,19 @@ Cal Gas Direct publishes USD 175 for Calgaz nitrogen99.999%58L cylinder, SKU 58L
 - Source: [Cal Gas Direct product price](https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/) — Same58L-114 physical pack; reference alias preserved separately.
 
 **Related records:** `CMP-OFFER-9B1390CD1711` (component_offer), `nitrogen-gas` (component)
+
+
+## PRICE-EV-C2EA555B2099155B
+
+Lab Alley publishes USD 159.54 for Dichloromethane, 99%, HPLC Grade, SKU DCMHPLC-4L, pack 4 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Generic neat chemical market quote with adequate purity; source does not claim to use Lab Alley. Price excludes shipping,tax,hazmat. DCM HPLC page title says99%, but assay table specifies Min99.9%. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/dichloromethane-methylene-chloride-hplc?selected=DCMHPLC-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-F0934A6C72F8` (component_offer), `dichloromethane-99p8` (component)
 
 
 ## PRICE-EV-C2F6E50DD997A441
@@ -10060,6 +11685,19 @@ Government Scientific Source publishes USD 40100 for Thermo Scientific Nicolet i
 **Related records:** `M36-02` (equipment), `M36` (equipment_class), `P04` (process), `P08` (process), `P10` (process), `P11` (process), `SELL-PRICE261018-14BAF09F91A4BF53` (seller_offer)
 
 
+## PRICE-EV-C308F4C229937EF3
+
+US Research Nanomaterials, Inc. publishes USD 129.0 for US Nano US1059 graphene nanoplatelets, 99.5+%, SKU US1059, pack 1.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 14: 1g (add $129). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/3767) — Matching displayed price/pack and exact named form/size selector: 1g (add $129). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-F47BFD0BD8BE2591` (component_offer), `usnano-us1059-gnp-dry` (component)
+
+
 ## PRICE-EV-C53C9945D01A0047
 
 MSE Supplies publishes USD 9686.95 for Pfeiffer HiScroll 18, SKU 2000026597-1 (Automatic Gas Ballast / Yes).
@@ -10073,6 +11711,32 @@ MSE Supplies publishes USD 9686.95 for Pfeiffer HiScroll 18, SKU 2000026597-1 (A
 **Related records:** `M31-10` (equipment), `M31` (equipment_class), `SELL-MSE261019-C3771A1CD6A9BE4D` (seller_offer)
 
 
+## PRICE-EV-C725A667C75B5CB9
+
+Thermo Fisher Scientific publishes USD 147.65 for Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph., SKU 268260010, pack 1 L (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/268260010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-1481678FFDC5BE09` (component_offer), `acetonitrile-99` (component)
+
+
+## PRICE-EV-C7B5E4F463619A01
+
+US Research Nanomaterials, Inc. publishes USD 166.0 for US Nano US1011M Boron nitride powder, 800 nm, SKU US1011M, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 6: 100g (add $166). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/742) — Matching displayed price/pack and exact named form/size selector: 100g (add $166). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-1B67FC7BE71ED0F3` (component_offer), `usnano-us1011m-bn800nm` (component)
+
+
 ## PRICE-EV-C7B83FB191C5914E
 
 BUCHI US Online Shop publishes USD 9389 for BUCHI Rotavapor R-300 (published_price; new).
@@ -10084,6 +11748,19 @@ BUCHI US Online Shop publishes USD 9389 for BUCHI Rotavapor R-300 (published_pri
 - Source: [BUCHI US Online Shop public price](https://shopus.buchi.com/buchi-r-300-rotavapor-electronic-lift-vertical-1.html) — Heading, price/SKU, Description and Specifications; extracted lines 98-143.
 
 **Related records:** `M16-06` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## PRICE-EV-C834048952EB999E
+
+Thermo Fisher Scientific publishes USD 79.9 for Dichloromethane, 99.8%, for HPLC, stabilized with methanol, SKU 364230010, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. Two stabilizer variants are separate catalog SKUs and must not be silently interchanged. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/364230010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-27952901F73A0006` (component_offer), `dichloromethane-99p8` (component)
 
 
 ## PRICE-EV-C8624D8FDDED372B
@@ -10113,6 +11790,19 @@ LabPlanet publishes USD 3939 for Parr 4746 (published_price; new).
 **Related records:** `M05-05` (equipment), `M05` (equipment_class), `SELL-PRICE261018-4218332C824DCE78` (seller_offer)
 
 
+## PRICE-EV-C9585C303B8F42F6
+
+US Research Nanomaterials, Inc. publishes USD 168.0 for US Nano US1133M Silicon dioxide / silica powder, 50 nm, SKU US1133M, pack 1 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3767: 1kg-50nm (add $168). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Matches the canonical dry SiO2 nanoparticle identity and 50 nm size. Source paper used Nanocym 50 nm silica; this is another manufacturer. Treat as a specification-level candidate, with source performance, pore distribution and surface chemistry not guaranteed. Do not replace with pre-coated silica or a dispersion. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/23095) — Matching displayed price/pack and exact named form/size selector: 1kg-50nm (add $168). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-83E6AF378EA1FA01` (component_offer), `usnano-us1133m-silica50nm` (component)
+
+
 ## PRICE-EV-C971FE67414935E7
 
 Akina / PolySciTech publishes USD 225 for PolySciTech AI078 PLGA-PEG-COOH20k:5k, SKU AI078 / AI78, pack 0.1 g (published_price; new).
@@ -10137,6 +11827,19 @@ Thermo Fisher Scientific displays USD 119.0 for Cyclohexane, 99.8%, for HPLC, SK
 - Source: [Thermo Fisher Scientific: Cyclohexane, 99.8%, for HPLC pack price](https://www.thermofisher.com/order/catalog/product/279590010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `cyclohexane` (component), `PACK-THERMO261019-CFE288233C025EC0` (component_offer)
+
+
+## PRICE-EV-CA610E2B60B95147
+
+MSE Supplies publishes USD 709.95 for MSE PRO 4N (99.99%) Indium (In) Pellets Evaporation Materials, SKU TA2422, pack 250 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Elemental evaporation pellets; source MBE entry does not specify required purity or charge form. Thermal-evaporation marketing is not MBE suitability evidence. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-4n-99-99-indium-in-pellets-evaporation-materials?variant=39470247608378) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-0ED673C6F864861F` (component_offer), `ucla-indium-source` (component)
 
 
 ## PRICE-EV-CA78FDA6810B3292
@@ -10166,6 +11869,19 @@ US Research Nanomaterials publishes 168.0 dollars for 0.5 g of US Nano US1022 gr
 **Related records:** `usnano-us1022-go-dry` (component), `PACK-USNANO261018-B15D37D9BAF12B0F` (component_offer), `P16` (process), `P20` (process), `P29` (process)
 
 
+## PRICE-EV-CBB967C97B7ABF54
+
+Krackeler Scientific publishes USD 60.1 for PVA Mw89,000–98,000,99+%hydrolyzed dry polymer, SKU 45-341584-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Correct parent dry polymer; reference-only for9%aqueous stock. Prepared75µL stock is not75µL dry PVA; preparation amount/basis must be explicit before costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/341584) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-0A9C069275F3` (component_offer), `pva-9percent-mw89000-98000-aqueous` (component)
+
+
 ## PRICE-EV-CC7A8B4B77212EDD
 
 Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU DO-SYL184-11, pack 1100 g (vendor_price; new).
@@ -10177,6 +11893,32 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 - Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — DO-SYL184-11 tile; 1.1kg two-component kit; single-kit price.
 
 **Related records:** `CMP-REF26-AF8F7F25014A` (component_offer), `pdms-sylgard184-curing-agent` (component)
+
+
+## PRICE-EV-CEC1F53E12162C00
+
+Lab Alley publishes USD 111.72 for Sodium hydroxide0.1N aqueous solution, SKU SOHYSL01N-4L, pack 4000 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Shipping, taxes, hazmat and handling excluded; a dated public offer, not inferred MSRP. Exact0.1M aqueous NaOH titrant concentration for P33. Total delivered amount is not reported and remains uncosted. Not eligible for P39’s0.0225M solution. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-hydroxide-0-1n-solution?selected=SOHYSL01N-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `PACK-PRICE261018-3E6E89CBD4EC444A` (component_offer), `naoh-01m` (component)
+
+
+## PRICE-EV-CEE2143F112CC16F
+
+US Research Nanomaterials, Inc. publishes USD 168.0 for US Nano US1022 graphene oxide, dry, SKU US1022, pack 0.5 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 31: 0.5g (add $168). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Commercial GO option. Different manufacturer and dimensional range from study-synthesized Scaffaro GO. Not an eligible replacement for its literature lines or property/quantity models; collector solvent, dispersion and formulation need review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/25856) — Matching displayed price/pack and exact named form/size selector: 0.5g (add $168). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-B15D37D9BAF12B0F` (component_offer), `usnano-us1022-go-dry` (component)
 
 
 ## PRICE-EV-CF51576076196CD5
@@ -10245,6 +11987,19 @@ MSE Supplies publishes USD 112.95 for MSE PRO 99.5% 50nm Silicon Dioxide SiO2 Na
 **Related records:** `silica-50nm` (component), `PACK-MSE261019-957264280E573629` (component_offer)
 
 
+## PRICE-EV-D1EC593B75D5099F
+
+Lab Alley publishes USD 86.57 for Dichloromethane (Methylene Chloride) 99.5% ACS Reagent Grade, SKU DCMA-1L, pack 1 L (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Generic neat chemical market quote with adequate purity; source does not claim to use Lab Alley. Price excludes shipping,tax,hazmat. DCM HPLC page title says99%, but assay table specifies Min99.9%. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/dichloromethane-methylene-chloride-acs?selected=DCMA-1L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-88B61B2A2708` (component_offer), `dichloromethane` (component)
+
+
 ## PRICE-EV-D3047E86A2A6A8B0
 
 MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU CM0021, pack 50 g.
@@ -10284,6 +12039,32 @@ Lab Alley publishes USD 72.86 for Dimethyl sulfoxide 99.5%, ACS, SKU DMSOA-500ML
 **Related records:** `CMP-OFFER-E9B4D63C76E6` (component_offer), `dmso` (component)
 
 
+## PRICE-EV-D449CD0596358637
+
+Thermo Fisher Scientific publishes USD 57.65 for Water, for HPLC gradient grade, SKU 268300010, pack 1 L (sale_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Online-exclusive special offer displayed, ends 28-Dec-2026. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. HPLC gradient-grade product is not documented here as 18.2 MOhm cm ultrapure, double-distilled or an on-site production cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/268300010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-81BA828EC01AB307` (component_offer), `water` (component)
+
+
+## PRICE-EV-D454B2DB7BAFEAC1
+
+US Research Nanomaterials, Inc. publishes USD 39.0 for US Nano US1011M Boron nitride powder, 800 nm, SKU US1011M, pack 5 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $39). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 source BN is 5–10µm lateral size and 100–500nm thickness. This is 800nm diameter and 30nm thickness, a different grade. Keep only as a reference nanopowder; do not substitute for source micropowder. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/742) — Matching displayed price/pack and exact named form/size selector: 5g (add $39). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-AA9AF659C773BD85` (component_offer), `usnano-us1011m-bn800nm` (component)
+
+
 ## PRICE-EV-D5CCA13E35BF03A8
 
 Lab Alley publishes USD 187.67 for n-Hexane, HPLC Grade, SKU HXHPLC-4L, pack 4.0 L (published_price; new).
@@ -10295,6 +12076,32 @@ Lab Alley publishes USD 187.67 for n-Hexane, HPLC Grade, SKU HXHPLC-4L, pack 4.0
 - Source: [Lab Alley product price](https://www.laballey.com/products/n-hexane-hplc-grade?selected=HXHPLC-4L) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-8685382BA9AE` (component_offer), `hexane` (component)
+
+
+## PRICE-EV-D5EF4336031B403F
+
+Thermo Fisher Scientific publishes USD 54.7 for Titanium(IV) isopropoxide, 99.995% (metals basis), SKU 035794.06, pack 5 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US catalog pack quote, not explicit MSRP. Account/contract pricing may differ. Excludes shipping, taxes, hazmat and handling. Exact chemical identity as a reference market offer. Grade, stabilizer, concentration, supplier and purity must be reviewed against source formulation; no automatic recipe eligibility, dosage, yield or output claim. The existing source component names 99.9% titanium isopropoxide; this offered grade is 99.995% (metals basis), a higher-purity market alternative. It is below the distinct 99.999% source identity and must not be assigned to that identity. Existing generic titanium-isopropoxide offers mean this does not close a wholly new chemical-identity price gap. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/035794.06) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-THERMO261019-5E53FEE2F37437BA` (component_offer), `titanium-isopropoxide-999` (component)
+
+
+## PRICE-EV-D730874A5FAD12F3
+
+MSE Supplies publishes USD 78.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0781, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Pure Al identity matches bulk alloying input; source has no physical form or grade. Evaporation pellets are a reference commercial form, not verified P35 recipe input. Alternate context ucla-aluminium-source requires SUMO-cell/MBE source charge review. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-5n-99-999-aluminum-al-pellets-evaporation-materials?variant=39417167347770) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-132CC7816AA94435` (component_offer), `aluminium-metal` (component)
 
 
 ## PRICE-EV-D7C5C9D02C65E4D9
@@ -10350,6 +12157,19 @@ MilliporeSigma publishes USD 79.6 for SKU 258105-500ML, 500 mL of Sulfuric acid,
 **Related records:** `sulfuric-acid` (component), `PACK-PRICE261018-530D221489F3BE03` (component_offer), `P05-LITERATURE-EXAMPLE-C03` (formulation_component), `P05` (process), `P09-LITERATURE-EXAMPLE-C06` (formulation_component), `P09` (process), `P34-SOURCE-01-C03` (formulation_component), `P34` (process)
 
 
+## PRICE-EV-D9DA59C79BAD1A59
+
+TCI America publishes USD 37 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-100G, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/B0742) — TCI US product B0742; current 100G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-293BA4C13719` (component_offer), `titanium-tetrabutoxide` (component)
+
+
 ## PRICE-EV-DA3A8BA2A92E5B5A
 
 MTI Corporation publishes USD 65 for Fused silica substrate,1×1inch×1.0mm,both sides polished, SKU SOF252510S2, pack 1 piece (published_price; new).
@@ -10361,6 +12181,19 @@ MTI Corporation publishes USD 65 for Fused silica substrate,1×1inch×1.0mm,both
 - Source: [MTI Corporation product price](https://mtixtl.com/products/fused-silica-substrate-1-x-1-x1-0-mm-2-sides-polished-sof252510s2) — SOF252510S2; 1x1inch x1mm; two sides polished; USD65 each, minimum-order rules separate.
 
 **Related records:** `PACK-PRICE261018-71C19AFCD8450982` (component_offer), `silica-substrate` (component)
+
+
+## PRICE-EV-DA4A0D8CAA9B4937
+
+Kurt J. Lesker publishes USD 213 for Gold evaporation pellets, priced per gram, SKU EVMAUXX40G, pack 1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Public budgetary price is per gram, not per pellet. Source consumed mass and feedstock purity are not reported; no dose cost inferred. Market-reference alias of CMP-PRICE26-F120DEAFD978. P06 gold evaporation feedstock: grade/consumed mass unreported. Reference only; do not use a target identity as proof of pellet compatibility. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_evaporationmaterials_1.cfm?pgid=au1) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-REF26-FE2F6B6A5296` (component_offer), `gold-target` (component)
 
 
 ## PRICE-EV-DB341CEBDBDE0ACA
@@ -10388,6 +12221,32 @@ US Research Nanomaterials publishes 96.0 dollars for 5.0 g of US Nano US4302 COO
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us4302-mwcnt-cooh` (component), `PACK-USNANO261018-2648A6AE1D0426F5` (component_offer), `P29` (process), `P37` (process)
+
+
+## PRICE-EV-DB6F077749D9D5D9
+
+Lab Alley publishes USD 58.88 for Tannic Acid Lab Grade, SKU C8121-100g, pack 100.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/tannic-acid-lab?selected=C8121-100g) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-8225CEB56150` (component_offer), `tannic-acid` (component)
+
+
+## PRICE-EV-DC322A688E1CC628
+
+US Research Nanomaterials, Inc. publishes USD 2800.0 for US Nano US7906 graphene oxide, 1 wt% aqueous dispersion, SKU US7906, pack 100.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4308: 100g/100ml (add $2800). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Priced volume is complete 1 wt% aqueous dispersion, not dry GO or an ethanol collector solution. Curated assembly/casting candidate; no solvent substitution, density or dry-mass conversion inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/3766) — US7906 1 wt% graphene-oxide water dispersion; exact 100g/100ml selector has data-addonprice 2800. The same product pricing function initializes its base price to numeric zero; no density conversion is inferred.
+
+**Related records:** `PACK-USNANO261018-69EA3ED20CED60B1` (component_offer), `usnano-us7906-go-water1pct` (component)
 
 
 ## PRICE-EV-DC6FEBA98DB976FE
@@ -10520,6 +12379,19 @@ Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium
 **Related records:** `magnesium-metal` (component), `PACK-PRICE261018-445E811DB03B33FD` (component_offer), `P35-SOURCE-01-C01` (formulation_component), `P35` (process)
 
 
+## PRICE-EV-E197A459426B6601
+
+Lab Alley publishes USD 66.96 for Isopropyl Alcohol 99.8% ACS Grade, SKU IPAA99-500ML, pack 500.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/isopropyl-alcohol-99-8-acs-grade?selected=IPAA99-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-214100742A90` (component_offer), `isopropanol` (component)
+
+
 ## PRICE-EV-E22D7C9EF9F2F9C0
 
 Thermo Fisher Scientific publishes USD 10200 list for Thermo Scientific Evolution One, SKU 840-341400.
@@ -10531,6 +12403,32 @@ Thermo Fisher Scientific publishes USD 10200 list for Thermo Scientific Evolutio
 - Source: [Thermo Fisher Scientific: Thermo Scientific Evolution One US list price](https://www.thermofisher.com/order/catalog/product/us/en/840-341400) — Explicit US catalog, selected SKU, visible Price (USD) and corresponding list-price entry
 
 **Related records:** `M35-03` (equipment), `M35` (equipment_class)
+
+
+## PRICE-EV-E27A5C95FAF9E1BF
+
+Lab Alley publishes USD 73.26 for Acetic Acid Glacial 99% ACS Grade, SKU AAA99-500ML, pack 500.0 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Generic solvent identity match for planning; not proof that this supplier was used in the cited experiment. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/acetic-acid-glacial-acs-grade?selected=AAA99-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-9FC68B120733` (component_offer), `acetic-acid` (component)
+
+
+## PRICE-EV-E349FEC677961658
+
+Akina / PolySciTech publishes USD 220 for PolySciTech AK102 mPEG-PLGA5k:30k50:50, SKU AK102, pack 1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact composition row and manufacturer publication-link catNum=AK102 confirm SKU. Raw polymer price; no per-mL stock price inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Akina / PolySciTech product price](https://akinainc.com/polyscitech/products/polyvivo/index.php?highlight=AK102) — AK102 product row: mPEG-PLGA Mw 5000:30000 Da, LA:GA 50:50; single-gram tier, not bulk discounts.
+
+**Related records:** `CMP-OFFER-C9C56F399D7C` (component_offer), `plga-peg-ak102` (component)
 
 
 ## PRICE-EV-E3A87EF046970B1C
@@ -10639,6 +12537,32 @@ Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SK
 **Related records:** `CMP-REF26-E41F54976ED6` (component_offer), `silver-nitrate-1mm` (component)
 
 
+## PRICE-EV-E703CF48A840E108
+
+Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-0B40EB3AE1D3. Correct raw citrate dihydrate identity, but existing USP/FCC dry pack is not prepared aqueous stock. Stock dilution and research-grade acceptance need explicit review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-citrate-dihydrate-usp-fcc-grade?selected=SOCTGU-12.5KG) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-7D4D74DEAA7D` (component_offer), `trisodium-citrate-dihydrate-15mm-aqueous` (component)
+
+
+## PRICE-EV-E73FA01922FBBE32
+
+Akina / PolySciTech publishes USD 20 for PolySciTech AP082 PLGA50:50 acid endcap, SKU AP082 / AP82, pack 1 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact source polymer AP082 (catalog display AP82), with copolymer ratio,Mn and acid endcap matching independent source metadata. Price is raw dry polymer, not15mg/mL stock. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Akina / PolySciTech product price](https://akinainc.com/polyscitech/products/polyvivo/index.php?highlight=AP082) — AP082/AP82 product row: PLGA 50:50 acid endcap, Mn 25000–35000 Da; 20 USD per gram.
+
+**Related records:** `CMP-OFFER-44DC33C3C8C3` (component_offer), `plga-ap082` (component)
+
+
 ## PRICE-EV-E885D5D81E203EAA
 
 US Research Nanomaterials publishes 288.0 dollars for 1.0 g of US Nano US1022 graphene oxide, dry.
@@ -10691,6 +12615,19 @@ US Research Nanomaterials publishes 298.0 dollars for 500 g of US Nano US1153M B
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us1153m-bn80nm` (component), `PACK-USNANO261018-967C96B712E2350A` (component_offer), `P31` (process)
+
+
+## PRICE-EV-EAA78F740C731D18
+
+Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SKU SINIGA-5G, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Market-reference alias of CMP-OFFER-F78928D93AE5. Existing anhydrous AgNO3 crystal price is a raw-reagent market reference. Prepared stock concentration and aliquot are not a gram dose; no automatic cost equivalence. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-REF26-33ABBEDF617A` (component_offer), `silver-nitrate-6mm-aqueous` (component)
 
 
 ## PRICE-EV-EB17CA6BEDB33514
@@ -10746,6 +12683,45 @@ US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron ni
 **Related records:** `PACK-USNANO261018-967C96B712E2350A` (component_offer), `usnano-us1153m-bn80nm` (component)
 
 
+## PRICE-EV-ED6171F2354F3418
+
+TCI America publishes USD 17 for Titanium(IV) isopropoxide (tetraisopropyl orthotitanate), SKU T0133-25G, pack 25 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/T0133) — TCI US product T0133; current 25G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-7C1CAA1B3A92` (component_offer), `titanium-isopropoxide` (component)
+
+
+## PRICE-EV-EDF72B3EE9791459
+
+Kurt J. Lesker publishes USD 417 for Germanium sputtering target, 1 inch x 0.125 inch, SKU EJTGEXX501A2, pack 1 each (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US pack price observed 2026-10-17; price effective/publication year unstated. Shipping, tax and fees excluded. Source target diameter, thickness and resistivity are not specified. Gun fit and electrical grade require review. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Kurt J. Lesker product price](https://www.lesker.com/newweb/deposition_materials/depositionmaterials_sputtertargets_1.cfm?pgid=ge1) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-PRICE26-C4DB860B216C` (component_offer), `germanium-target` (component)
+
+
+## PRICE-EV-EE4ADE4917A85F32
+
+US Research Nanomaterials, Inc. publishes USD 498.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 300nm, SKU US1153M, pack 1 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 3966: 1kg--thickness-300nm (add $498). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. P31 Supporting Information S1 specifies source BN 5–10 µm and 100–500 nm thickness. 300nm thickness overlaps but 3–8µm diameter is not the same range. Useful market alternative only; no automatic eligibility or source-batch cost. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 1kg--thickness-300nm (add $498). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-CBFD5F846198D7D0` (component_offer), `usnano-us1153m-bn300nm` (component)
+
+
 ## PRICE-EV-EE9B214F8AC32619
 
 TCI America publishes USD 174 for Oleic acid, SKU O0180-25ML, pack 25 mL (published_price; new).
@@ -10757,6 +12733,45 @@ TCI America publishes USD 174 for Oleic acid, SKU O0180-25ML, pack 25 mL (publis
 - Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/O0180) — TCI US productO0180, purity/physical-state fields and 25ML row of Unit Price table.
 
 **Related records:** `CMP-OFFER-5E47559FD18F` (component_offer), `oleic-acid` (component)
+
+
+## PRICE-EV-EEC7C0C14D4D8922
+
+US Research Nanomaterials, Inc. publishes USD 85.0 for US Nano US1073 graphene nanoplatelets, 95+%, SKU US1073, pack 5.0 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact selector option 4: 5g (add $85). Published supplier catalog price, not explicit MSRP. USD interpreted from US supplier dollar pricing/FOB Houston; taxes, freight and fees excluded. Ordinary new catalog stock inferred. Curated market alternative for a nanofiller role. Vendor identity does not establish compatibility with a cited formulation, dose, morphology or process output. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/18480) — Matching displayed price/pack and exact named form/size selector: 5g (add $85). Existing material identity retained; no inferred density or pack conversion.
+
+**Related records:** `PACK-USNANO261018-E07DDAE1B2604C68` (component_offer), `usnano-us1073-gnp-dry` (component)
+
+
+## PRICE-EV-EF21CC9B549E1B8D
+
+MSE Supplies publishes USD 139.95 for MSE PRO GaSb Gallium Antimonide Crystal Substrates, SKU WA0505, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; MSE PRO is the seller brand; the actual manufacturing entity is not identified. Current public Shopify selected variant establishes seller SKU, pack, numeric USD price and availability; product description establishes the listed identity/grade/form. Price excludes shipping, tax, duties and handling. Purchase availability follows Shopify and does not assert immediate physical stock. Project context only. Selected orientation/dimensions/polish are commercial choices; project source does not establish an exact substrate recipe. Reference price only; not approved for automatic formulation costs. No quantity/yield or recipe substitution is inferred. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-gasb-gallium-antimonide-crystal-substrates?variant=31869984505914) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-MSE261019-835C935BA2864AA4` (component_offer), `ucla-gasb-substrate` (component)
+
+
+## PRICE-EV-EF37A9179B03DA04
+
+Nexera Scientific publishes USD 7 for United Scientific MSL3X1 plain glass slides, 75 × 25 mm, pack of 72, SKU MSL3X1, pack 72 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US dealer published pack price, not an official manufacturer MSRP. Shipping and tax excluded. Reusable chip substrate acquisition price; not consumed-reagent cost. Manufacturer part MSL3X1; seller item NUS-MSL3X1. P27 calls for one plain glass slide25 x75mm per bonded chip. Source line imposes no named manufacturer, optical grade, glass composition or thickness. This part meets the reported dimensions. The substrate remains reusable; count/pack acquisition is not batch consumption, and chemical/thermal compatibility with a particular experiment still requires user review. Manufacturer 2026 laboratory catalog, PDF/printed page 361. Ordinary new catalog stock; condition inferred from normal commercial listing, not independently inspected. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Nexera Scientific product price](https://nexerasci.com/products/glass-microscope-slides-plain-pre-cleaned-ground-edges-75-x-25mm-1-0-1-2mm-thick-box-of-72) — Manufacturer MSL3X1, seller NUS-MSL3X1; plain pre-cleaned ground-edge slides 75 x 25 mm, box 72; current single-box price, not signup discount.
+
+**Related records:** `PACK-UNITED261018-8FA896F5CDD1C69B` (component_offer), `glass-slide-25x75mm` (component)
 
 
 ## PRICE-EV-EF4E40B2D37CF88A
@@ -10811,6 +12826,19 @@ Thermo Scientific Chemicals publishes USD 34.65 for 3-Mercaptopropyltrimethoxysi
 **Related records:** `CMP-OFFER-07668F29DFA0` (component_offer), `mptms` (component)
 
 
+## PRICE-EV-F54D473FC10A8D6C
+
+TCI America publishes USD 162 for Cesium carbonate, SKU C2160-100G, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Public US supplier pack price checked 2026-10-18; shipping, tax and handling excluded unless stated. Reference offer: process relevance is established by the separately cited formulation, not by this sales page. Exact grade, concentration and amount require review before substitution or automatic costing. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI America product price](https://www.tcichemicals.com/US/en/p/C2160) — TCI US product C2160; current 100G Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-4950424F4BE3` (component_offer), `cesium-carbonate` (component)
+
+
 ## PRICE-EV-F5BB8DA5903E70C6
 
 Lab Alley publishes USD 65.42 for Acetone 99.5%, ACS Grade, SKU ACEA-500ML, pack 500.0 mL (published_price; new).
@@ -10835,6 +12863,45 @@ Lab Alley publishes USD 114.1 for Water, HPLC Grade, SKU WAHPLC-4L, pack 4.0 L (
 - Source: [Lab Alley product price](https://www.laballey.com/products/water-hplc-grade?selected=WAHPLC-4L) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-4D0A57C33697` (component_offer), `water` (component)
+
+
+## PRICE-EV-F72C97242B608957
+
+Spectra Services publishes USD 495 for Calcium Carbonate Nanopowder, Surface Modified for Plastic, PVC (15-40 nm), SKU B2026208, pack 100 g (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Exact SKU and 100g pack from seller description; JSON-LD confirms USD495, NewCondition and InStock. Price excludes delivery/tax/fees. Broad market-reference candidate only; no known literature formulation is costed automatically. Generic unlabeled bottle graphic withheld. Seller boilerplate references and performance assertions not incorporated. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Spectra Services product price](https://spectraservices.com/product/molecular-depot-b2026208.html) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `PACK-LABX261019-C3AF7558779903C9` (component_offer), `molecular-depot-b2026208-caco3-pvc-15-40nm` (component)
+
+
+## PRICE-EV-F74B5A7E99779566
+
+Krackeler Scientific publishes USD 182 for Silver10nm0.02mg/mL in aqueous citrate buffer, SKU 45-730785-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Exact nanoparticle diameter,stock concentration,aqueous citrate stabilization and manufacturer. Source total delivered volume remains unreported. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Krackeler Scientific product price](https://www.krackeler.com/catalog/sigma/ALDRICH/730785) — Exact catalog SKU row and its existing pack specification, not an adjacent SKU.
+
+**Related records:** `CMP-OFFER-DA28ACE13B34` (component_offer), `silver-seeds-0p02mgml-aqueous` (component)
+
+
+## PRICE-EV-F797AC7DE8098E82
+
+Lab Alley publishes USD 68.41 for Sulfuric acid 96% ACS (95–98%), SKU SUAA96-500ML, pack 500 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sulfuric-acid-acs-grade?selected=SUAA96-500ML) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-DDC5E9901817` (component_offer), `sulfuric-acid-95-97pct` (component)
 
 
 ## PRICE-EV-F7DBED671B65CCA5
@@ -10890,6 +12957,32 @@ MilliporeSigma publishes USD 108 for SKU 270725-1L, 1000 mL of Acetone, suitable
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-3A0284A298D648B4` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-FA9645CA40ADE5A5
+
+Cal Gas Direct publishes USD 175 for Calgaz nitrogen99.999%58L cylinder, SKU 58L-114, pack 1 piece (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; US online pack price observed October 17, 2026; publication/effective date unstated. Excludes delivery, taxes and hazmat fees. Reference pack price includes calibration-gas cylinder. Source nitrogen consumption unreported; do not price flow sccm as consumed gas volume or entire cylinder. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Cal Gas Direct product price](https://www.calgasdirect.com/gasco-58l-114-nitrogen-pure-gas-99-999-in-58-liter-aluminum-cylinder-c-10/) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
+
+**Related records:** `CMP-OFFER-FD667E14A049` (component_offer), `nitrogen` (component)
+
+
+## PRICE-EV-FB92D94DD04AE890
+
+Lab Alley publishes USD 83.08 for Methanol 99.8% HPLC Grade, SKU MAHPLC-1GAL, pack 3785.411784 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Pack is one US gallon (3,785.411784 mL). Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/methanol-hplc-grade?selected=MAHPLC-1GAL) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-2E9EF3115D79` (component_offer), `methanol` (component)
+
+
 ## PRICE-EV-FC8AFAB3E0D4C059
 
 Krackeler Scientific publishes USD 24.5 for Cesium carbonate ReagentPlus99%, SKU 45-441902-5G, pack 5 g (published_price; new).
@@ -10942,6 +13035,32 @@ US Research Nanomaterials publishes 980.0 dollars for 30.0 mL of US Nano US7906 
 - Source: [US Nano sales terms](https://www.us-nano.com/payments___terms) — Section 2: listed prices FOB Houston
 
 **Related records:** `usnano-us7906-go-water1pct` (component), `PACK-USNANO261018-12D012C41B6E9844` (component_offer), `P09` (process), `P29` (process)
+
+
+## PRICE-EV-FE9F2B7047D42278
+
+Lab Alley publishes USD 417.43 for Sodium Citrate Dihydrate USP/FCC Grade, SKU SOCTGU-12.5KG, pack 12.5 kg (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Price excludes shipping, hazmat fees, and taxes. Source-specific grade and stock-solution concentration still require matching; do not substitute on name alone. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [Lab Alley product price](https://www.laballey.com/products/sodium-citrate-dihydrate-usp-fcc-grade?selected=SOCTGU-12.5KG) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
+
+**Related records:** `CMP-OFFER-0B40EB3AE1D3` (component_offer), `sodium-citrate-dihydrate` (component)
+
+
+## PRICE-EV-FEEE4B80BCFA95A8
+
+TCI publishes USD 25 for 1-Hexanol &gt;98%, SKU H0130-25ML, pack 25 mL (published_price; new).
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-10-26
+
+**Scope:** Source-bound pack observation; Source-specific grade and concentration require matching. Excludes shipping, tax and hazmat charges. Grade, form, price kind and recipe eligibility are unchanged. Accessed source observations do not guarantee availability, tax, shipping, delivered cost or recipe compatibility.
+
+- Source: [TCI product price](https://www.tcichemicals.com/US/en/p/H0130) — TCI US product H0130; current 25ML Unit Price row, with product-number, purity and physical-state fields checked on 2026-10-26.
+
+**Related records:** `CMP-OFFER-07283E6289ED` (component_offer), `1-hexanol` (component)
 
 
 ## PRICE-EV-FFA3216BC1B39744
