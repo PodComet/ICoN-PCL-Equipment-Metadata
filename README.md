@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The Processes chart now shows [equipment handoff alignment](docs/process-io-alignment.md): green checks identify matching recorded outputs and inputs, and green outlines identify fully covered equipment chains. Branches, missing data, configured ports and exact model identities remain explicit.
+
 Instrument cards now show **Input**, **Output** and **Measuring units**, populated from the latest EquipmentIO spreadsheet's columns C–E. All 44 existing Purdue records and 1,115 catalog records have exact model matches; gaps and source qualifications remain explicit. See [the import method, source-row provenance and refresh instructions](docs/equipment-io.md).
 
 The [19 October LabX review](docs/labx-catalog-review-2026-10-19.md) screens 304 application listings and adds four legacy models, 14 instrument photos, five used/refurbished seller asking prices and two 100 g nanopowder pack quotes. Sold listings, shipping prices and uncertain matches are excluded. Seller prices remain separate from MSRP; Purdue inventory and literature recipes are preserved.

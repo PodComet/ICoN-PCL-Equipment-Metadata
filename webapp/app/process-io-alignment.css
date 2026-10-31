@@ -1,0 +1,10 @@
+.process-io-connections{position:absolute;top:0;left:0;overflow:visible;pointer-events:none;z-index:3}
+.process-io-connections .process-io-check{pointer-events:all;cursor:help}
+.process-io-check:focus{outline:none}
+.process-io-check:focus circle{stroke:white;stroke-width:3}
+.process-io-summary{height:24px;min-height:24px;max-height:24px;overflow:auto;margin:3px 0 0;display:flex;align-items:center;gap:6px;font-size:12px;font-weight:750;line-height:1.5;color:#2e4438}
+.process-io-summary svg{flex-shrink:0}
+.process-io-summary.aligned{color:#08783c}
+.processes-page.process-io-aligned .process-flow-area .process-hierarchy .process-step:has(.occupied),
+.processes-page.process-io-aligned .process-flow-area .process-hierarchy .process-slot.occupied{border-color:#43df88;outline:2px solid #43df88;outline-offset:1px;box-shadow:0 0 9px #43df8833}
+.process-io-legend{font-size:12px;color:#273e31;margin:7px 0 3px;line-height:1.5}
