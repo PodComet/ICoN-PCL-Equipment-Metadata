@@ -15,6 +15,12 @@ manual/document and specification/reference. Source qualification text is retain
 an automatic extraction, a family-level reference or an unresolved input state is
 not upgraded to a verified model specification.
 
+The card text omits `Source:` / `Sources:` citation footnotes to local PDFs, which
+visitors cannot access. The underlying dataset retains those references. Reachable
+web URLs, including public PDF URLs, remain clickable and open in a new tab or
+window. The H/I document links behave the same way. Removing a source line does
+not remove any subsequent equipment controls or qualification notes.
+
 ## Current import
 
 The 30 October 2026 import uses `EquipmentIO_manuals2_updated_2026-10-30.xlsx`.

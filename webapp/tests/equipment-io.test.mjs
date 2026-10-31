@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {applyEquipmentIO} from '../app/equipment-io.ts';
+import {applyEquipmentIO,equipmentIOText,equipmentIOFragments} from '../app/equipment-io.ts';
 
 const library=JSON.parse(fs.readFileSync(new URL('../app/data/equipment-io.json',import.meta.url),'utf8'));
 const seed=JSON.parse(fs.readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
@@ -41,4 +41,32 @@ test('all imported identities exist in the catalog and all three boxes have sour
  assert.equal(library.records.length,1115);
  assert.equal(new Set(library.records.map(r=>r.equipment_id)).size,1115);
  for(const r of library.records){assert.ok(ids.has(r.equipment_id));assert.match(r.equipment_io_source_sha256,/^[a-f0-9]{64}$/);for(const field of ['inputs_and_states','outputs_and_states','units_of_measure'])assert.equal(typeof r[field],'string');}
+});
+
+test('display removes local PDF footnotes without discarding subsequent controls or qualifiers',()=>{
+ const value='Family reference only.\nSources: H PDF pp. 2, 40.\nAdditional documented controls: lid locking.\nSource: Manuals/local.pdf, PDF p. 16.';
+ const result=equipmentIOText(value);
+ assert.doesNotMatch(result,/Sources?:|local\.pdf|PDF pp?\./);
+ assert.match(result,/Family reference only/);assert.match(result,/Additional documented controls: lid locking/);
+ const core=library.records.find(r=>r.model_name==='Standard Bots Core');
+ assert.doesNotMatch(equipmentIOText(core.inputs_and_states),/Manuals2\/|\.pdf/i);
+ assert.match(core.inputs_and_states,/\.pdf/,'Raw provenance remains unchanged');
+});
+
+test('reachable references, including web PDFs, remain linkable and sentence punctuation stays outside links',()=>{
+ const value='Not installed-unit verification.\nSource: https://example.org/manual.pdf\nMore: https://example.org/spec (https://example.org/document).';
+ const text=equipmentIOText(value),parts=equipmentIOFragments(text);
+ assert.deepEqual(parts.filter(p=>p.url).map(p=>p.url),['https://example.org/manual.pdf','https://example.org/spec','https://example.org/document']);
+ assert.equal(parts.map(p=>p.text).join(''),text);
+ assert.equal(equipmentIOFragments('Materials: solid → liquid.').some(p=>p.url),false);
+});
+
+test('all current displayed fields omit inaccessible PDF source notes and retain substantive states',()=>{
+ for(const r of library.records)for(const field of ['inputs_and_states','outputs_and_states','units_of_measure']){
+  const text=equipmentIOText(r[field]);
+  assert.doesNotMatch(text,/^\s*Sources?\s*:|Manuals2?\/|\.pdf\b/im,r.equipment_id+' '+field);
+  if(r[field].includes('Additional documented controls'))assert.match(text,/Additional documented controls/);
+ }
+ const labjack=library.records.find(r=>r.equipment_id==='EXT-M86-62BA2209CDF0');
+ assert.equal(equipmentIOFragments(equipmentIOText(labjack.inputs_and_states)).filter(p=>p.url).length,2);
 });
