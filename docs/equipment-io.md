@@ -23,6 +23,13 @@ not remove any subsequent equipment controls or qualification notes.
 
 ## Current import
 
+The targeted 31 October correction for **KD Scientific Legato 210** (`M07-08`)
+replaces Legato 200 infuse-only wording with the manufacturer's 210 infuse/withdraw
+interface. Its source is row 543 of `EquipmentIO_legato210_updated_2026-10-31.xlsx`.
+The 210P-only multi-program and analog-option features are excluded. Other models
+are unchanged. The [correction record](../catalog/equipment_io_legato210_review_2026-10-31.json)
+retains the source hashes, manual pages and before/after values.
+
 The 30 October 2026 import uses `EquipmentIO_manuals2_updated_2026-10-30.xlsx`.
 All 44 existing Purdue-marked catalog records matched. In total, 1,115 of the
 1,125 catalog records match 1,107 spreadsheet rows. A model in multiple categories

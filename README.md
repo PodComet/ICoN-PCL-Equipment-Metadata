@@ -1,6 +1,6 @@
 # ICoN-PCL Equipment Metadata
 
-The Processes chart now shows [equipment handoff alignment](docs/process-io-alignment.md): green checks identify matching recorded outputs and inputs, and green outlines identify fully covered equipment chains. Branches, missing data, configured ports and exact model identities remain explicit.
+The Processes chart now shows [equipment handoff alignment](docs/process-io-alignment.md): green checks identify matching recorded outputs and inputs, and green outlines follow a fully green set of step-to-step checks. Branches, missing data, configured ports and exact model identities remain explicit.
 
 Instrument cards now show **Input**, **Output** and **Measuring units**, populated from the latest EquipmentIO spreadsheet's columns C–E. All 44 existing Purdue records and 1,115 catalog records have exact model matches; gaps and source qualifications remain explicit. See [the import method, source-row provenance and refresh instructions](docs/equipment-io.md).
 

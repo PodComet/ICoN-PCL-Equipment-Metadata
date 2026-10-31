@@ -5,10 +5,11 @@ of machines in its dependent stages. A green circle with a white check appears
 between matching equipment boxes. Hover or focus the check to read the model names,
 the matched output/input wording and the matching basis.
 
-When the declared equipment requirements are filled, every prerequisite connection
-has a match, and every participating machine has its required incoming/outgoing
-handoff covered, all occupied equipment slots and their stage boxes receive green
-outlines. Clearing or replacing an instrument, editing configured ports or changing
+When every prerequisite connection has at least one matching output/input pair,
+all step boxes and occupied equipment slots receive green outlines. The frames
+follow the same step-to-step checks shown in the chart, including P18. Supporting
+instruments and equipment-completion status do not add a hidden frame condition.
+Clearing or replacing an instrument, editing configured ports or changing
 dependencies recalculates the indicators immediately. Independent peer stages are
 not linked merely because they appear next to one another. Multiple instruments
 in the same stage are not assigned an invented internal order.
@@ -31,9 +32,10 @@ in the same stage are not assigned an invented internal order.
    cannot create a match.
 
 Each handoff needs at least one matching output/input, rather than every port.
-For stages with several instruments, a single match cannot turn unrelated
-instruments green: each participating machine must have its neighboring handoffs
-covered. One positive branch cannot hide an unmatched prerequisite branch.
+For stages with several instruments, one matching pair covers that step-to-step
+connection. The stage frame summarizes those connections, rather than requiring
+an additional match for every supporting instrument. One positive branch cannot
+hide an unmatched prerequisite branch. Equipment completeness remains separate.
 
 These indicators describe correspondence in recorded interfaces. Broad words such
 as “sample” retain that broad scope. A green description check does not establish

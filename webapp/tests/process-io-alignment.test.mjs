@@ -1,6 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {assignInstrument,newStep} from '../app/process-lib.ts';
+import {assignInstrument,newStep,createWorkflow,slotAccepts} from '../app/process-lib.ts';
+import {readFileSync} from 'node:fs';
 import {matchInstrumentIO,processIOAlignment} from '../app/process-io-alignment.ts';
 
 const record=(id,input,output)=>({equipment_id:id,manufacturer:'Test',model_name:id,category_id:'M02',inputs_and_states:input,outputs_and_states:output});
@@ -70,9 +71,25 @@ test('parallel peers have no invented handoff; every prerequisite branch must al
  w.steps[0].extensions.prerequisite_step_ids=[w.steps[2].step_id];assert.equal(processIOAlignment(w).allAligned,false,'Cycles cannot complete');
 });
 
-test('one matched instrument cannot turn an unrelated machine in the same stage green',()=>{
+test('all green stage checks produce green frames even when supporting machines have no separate match',()=>{
  const w=plan([record('source','','Liquid flow'),record('target','Liquid feed','')]);
  const extra=newStep(['M02']).slots[0];w.steps[0].slots.push(extra);
  const updated=assignInstrument(w,extra.slot_id,record('unrelated','','Image data'));
- const result=processIOAlignment(updated);assert.equal(result.matched.length,1);assert.equal(result.allAligned,false);
+ const result=processIOAlignment(updated);assert.equal(result.matched.length,1);assert.equal(result.unmatchedStages,0);assert.equal(result.allAligned,true);
+ updated.steps[0].slots[1].instrument=null;
+ const incomplete=processIOAlignment(updated);assert.equal(incomplete.equipmentComplete,false);assert.equal(incomplete.allAligned,true,'Equipment coverage does not hide a fully green set of handoff checks');
+});
+
+test('P18 frames follow all green stage connections, including a stage with an unmatched supporting instrument',()=>{
+ const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
+ const route=seed.routes.find(r=>r.route_id==='P18');let w=createWorkflow(route,seed.steps);
+ // Synthetic shared feeds isolate the frame condition from model-data coverage.
+ for(const step of w.steps)for(const slot of step.slots){
+  const r=seed.records.find(r=>slotAccepts(slot,r,w.steps));assert.ok(r);
+  w=assignInstrument(w,slot.slot_id,{...r,inputs_and_states:'Liquid sample',outputs_and_states:'Liquid sample'});
+ }
+ const extra=newStep(['M02']).slots[0];w.steps[0].slots.push(extra);
+ w=assignInstrument(w,extra.slot_id,record('supporting instrument','','Image data'));
+ const result=processIOAlignment(w,[],seed.steps);
+ assert.equal(result.unmatchedStages,0);assert.ok(result.stageConnections>0);assert.equal(result.allAligned,true);
 });

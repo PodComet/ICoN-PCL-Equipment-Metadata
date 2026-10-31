@@ -1,0 +1,71 @@
+{
+  "review_date": "2026-10-31",
+  "equipment_id": "M07-08",
+  "model_name": "KD Scientific Legato 210",
+  "correction": "The spreadsheet row for Legato 210 contained Legato 200 infuse-only descriptions. Corrected using the manufacturer series manual, whose model table expressly identifies Legato 210 (788210) as infuse/withdraw. Advanced 210P features and the analog option for 788212/788272 are excluded.",
+  "manual": "KDS Legato 200 Series_5617-002REV2.0.pdf",
+  "manual_sha256": "79e870c84df4b8c12afaed9eae8e6923bfd6bd5e7e075da0539cb6745262b832",
+  "manual_pages": [
+    6,
+    8,
+    11,
+    17,
+    18,
+    19,
+    62,
+    63,
+    64,
+    65,
+    79,
+    89
+  ],
+  "original_workbook": "EquipmentIO_manuals2_updated_2026-10-30.xlsx",
+  "original_workbook_sha256": "629e030c1471596127ebc01ee5cb79e9c3f0838e204ab8e160fd64dbb12f02a3",
+  "corrected_workbook": "EquipmentIO_legato210_updated_2026-10-31.xlsx",
+  "corrected_workbook_sha256": "5f2878fdbc726d3a97658357bae394ecc6448ec04290daa8da0d532858469ae8",
+  "changed_cells": [
+    "C543",
+    "D543",
+    "E543"
+  ],
+  "catalog_before": {
+    "equipment_id": "M07-08",
+    "manufacturer": "KD Scientific",
+    "model_name": "KD Scientific Legato 210",
+    "inputs_and_states": "Not established — No source URL is supplied in column H or I for this model. Checked 2026-10-21.",
+    "outputs_and_states": "Not established — No source URL is supplied in column H or I for this model. Checked 2026-10-21.",
+    "units_of_measure": "Not established — No source URL is supplied in column H or I for this model. Checked 2026-10-21.",
+    "equipment_io_source_workbook": "EquipmentIO_manuals2_updated_2026-10-30.xlsx",
+    "equipment_io_source_sha256": "c22c4681926fb5b28876a7db7c55d9e527e4ad9fada4ab8774b9aa2b9538bcab",
+    "equipment_io_source_sheet": "Sheet1",
+    "equipment_io_source_row": "543",
+    "equipment_io_source_model": "KD Scientific Legato 210",
+    "equipment_io_manual_url": "",
+    "equipment_io_spec_url": "",
+    "equipment_io_imported_date": "2026-10-30"
+  },
+  "catalog_after": {
+    "equipment_id": "M07-08",
+    "manufacturer": "KD Scientific",
+    "model_name": "KD Scientific Legato 210",
+    "inputs_and_states": "Liquid in one or two syringes; syringe type, inside diameter and volume; infusion/withdrawal rate; target volume. Legato 210 (788210) supports infuse only, withdraw only, infuse/withdraw, withdraw/infuse and continuous modes, and stores one program. Target time is available in infusion-only or withdrawal-only mode. Supply: 100–240 VAC, 50–60 Hz. USB/RS-232 ASCII commands control run/stop and infusion/withdrawal settings. Family 15-pin I/O: direction input rising edge = infuse, falling edge = refill; footswitch can toggle run/stop or start/stop on configured edges; trigger input is TTL high/low. Listed input thresholds: HIGH ≥2 V, LOW ≤0.4 V. Multi-program/advanced 210P features and the 0–10 V analog-input option listed only for 788212/788272 are not assigned to the standard 210. Installed controller/firmware applicability must be checked.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89. Model scope: Legato 210 (788210).",
+    "outputs_and_states": "Infused or withdrawn liquid, according to the selected Legato 210 mode; infused/withdrawn volume, elapsed time and current-rate responses. Serial STATUS reports rate, time, volume, infusion/withdrawal direction with idle/running state, limit switch, stall, trigger state and target reached. Family TTL outputs: direction HIGH = refill, LOW = infuse; sync rising edge = start infuse, falling edge = start refill; run output active LOW = running. Trigger outputs 1/2 can be set HIGH/LOW by serial command and default LOW. Listed output levels: HIGH ≥3.8 V, LOW ≤0.4 V, source/sink current ≤6 mA. Event-program behavior remains configuration-specific. Simultaneous push/pull capability of the 270 and advanced multi-program features of the 210P are not assumed.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89. Model scope: Legato 210 (788210).",
+    "units_of_measure": "Flow-rate command units: pL, nL, µL or mL per second, minute or hour (syringe-dependent limits). Syringe/target and infused/withdrawn volume: µL or mL; syringe diameter: mm. Time: s and h:m:s. Raw serial STATUS: fL/s (rate), ms (time), fL (volume), plus dimensionless state flags. Electrical supply/I/O ratings: V/VAC, Hz, W, µA and mA; TTL HIGH/LOW and direction/run/target flags are dimensionless. Scope: Legato 210 using the documented 200-series interface, not the 210P/270P analog option.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89. Model scope: Legato 210 (788210).",
+    "equipment_io_source_workbook": "EquipmentIO_legato210_updated_2026-10-31.xlsx",
+    "equipment_io_source_sha256": "5f2878fdbc726d3a97658357bae394ecc6448ec04290daa8da0d532858469ae8",
+    "equipment_io_source_sheet": "Sheet1",
+    "equipment_io_source_row": "543",
+    "equipment_io_source_model": "KD Scientific Legato 210",
+    "equipment_io_manual_url": "",
+    "equipment_io_spec_url": "",
+    "equipment_io_imported_date": "2026-10-31"
+  },
+  "spreadsheet_before": {
+    "C543": "Liquid in one or two syringes, selected syringe type/diameter, infusion rate and target volume or time. Legato 200 is INFUSE ONLY; do not assign Legato 210 withdrawal or 210P/270P programming features. Supply: 100–240 VAC, 50–60 Hz. USB/RS-232 and a 15-pin I/O/TTL connector are documented for the family; the external footswitch can toggle run/stop or follow rising/falling edges. The 0–10 V speed-control input is a factory option.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89.",
+    "D543": "Infused liquid; pump/run indication, programmed trigger outputs where supported, completion and stall/power-failure messages. Family TTL outputs are Boolean high/low; only functions enabled by the installed Legato 200 configuration apply. No withdrawal stream is produced by this infuse-only model.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89.",
+    "E543": "pL/min, µL/min, mL/min and mL/h (flow selections/range); µL and mL (syringe/target volume); mm (syringe diameter); s/min/h (time); V, Hz and W (supply/optional control); TTL high/low (dimensionless). Flow limits depend on syringe size.\nSource: Manuals/KDS Legato 200 Series_5617-002REV2.0.pdf, PDF pp. 6, 8, 11, 17–19, 62–65, 79, 89."
+  },
+  "source_workbook_unchanged": true,
+  "other_catalog_records_unchanged": true,
+  "review_id": "EQIO-KDS-LEGATO210-20261031"
+}

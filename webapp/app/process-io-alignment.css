@@ -6,6 +6,6 @@
 .process-io-summary svg{flex-shrink:0}
 .process-io-summary.aligned{color:#08783c}
 .process-overview .process-progress>p.process-io-summary{grid-column:1/-1;grid-row:3;margin-top:3px}
-.processes-page.process-io-aligned .process-flow-area .process-hierarchy .process-step:has(.occupied),
+.processes-page.process-io-aligned .process-flow-area .process-hierarchy .process-step,
 .processes-page.process-io-aligned .process-flow-area .process-hierarchy .process-slot.occupied{border-color:#43df88;outline:2px solid #43df88;outline-offset:1px;box-shadow:0 0 9px #43df8833}
 .process-io-legend{font-size:12px;color:#273e31;margin:7px 0 3px;line-height:1.5}

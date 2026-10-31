@@ -101,8 +101,6 @@ export function matchInstrumentIO(from:ProcessInstrument,to:ProcessInstrument,cu
 export function processIOAlignment(workflow:ProcessWorkflow,records:Equipment[]=[],sourceSteps:Record<string,string>[]=[]):ProcessIOAlignment{
  const graph=processDependencyGraph(workflow),byId=new Map(records.map(r=>[r.equipment_id,r]));
  const connections:InstrumentConnection[]=[],stagePairs:{from:string;to:string}[]=[];
- const slotStages=new Map<string,string>();
- for(const step of workflow.steps)for(const slot of step.slots)slotStages.set(slot.slot_id,step.step_id);
  for(const target of workflow.steps)for(const parentId of graph.dependencies.get(target.step_id)||[]){
   stagePairs.push({from:parentId,to:target.step_id});
   const parent=workflow.steps.find(s=>s.step_id===parentId);if(!parent)continue;
@@ -113,13 +111,9 @@ export function processIOAlignment(workflow:ProcessWorkflow,records:Equipment[]=
  }
  const matched=connections.filter(c=>c.match),unmatchedStages=stagePairs.filter(p=>!matched.some(c=>c.fromStep===p.from&&c.toStep===p.to)).length;
  const equipmentComplete=workflowReadiness(workflow,sourceSteps).complete;
- // Every occupied machine must participate in its incoming/outgoing handoffs;
- // one compatible pair cannot turn unrelated machines or branches green.
- const covered=workflow.steps.flatMap(s=>s.slots).filter(s=>s.instrument).every(slot=>{
-  const stepId=slotStages.get(slot.slot_id)!,incoming=stagePairs.some(p=>p.to===stepId),outgoing=stagePairs.some(p=>p.from===stepId);
-  return (incoming||outgoing)&&(!incoming||matched.some(c=>c.toSlot===slot.slot_id))&&(!outgoing||matched.some(c=>c.fromSlot===slot.slot_id));
- });
- return {connections,matched,stageConnections:stagePairs.length,unmatchedStages,equipmentComplete,allAligned:equipmentComplete&&!graph.errors.length&&stagePairs.length>0&&!unmatchedStages&&covered};
+ // The frame follows the visible stage-to-stage checks exactly. Ancillary
+ // machines and equipment completeness are separate from handoff alignment.
+ return {connections,matched,stageConnections:stagePairs.length,unmatchedStages,equipmentComplete,allAligned:!graph.errors.length&&stagePairs.length>0&&!unmatchedStages};
 }
 
 export function connectionLabel(connection:InstrumentConnection){
