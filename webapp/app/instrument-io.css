@@ -1,0 +1,22 @@
+/* Model-specific spreadsheet facts, alongside the individual instrument title. */
+dialog.detail-modal{width:min(1380px,96vw);max-width:calc(100vw - 28px)}
+.instrument-detail-overview{display:grid;grid-template-columns:minmax(230px,.9fr) minmax(0,2fr);gap:24px;align-items:start;margin-bottom:22px;padding-top:12px}
+.instrument-detail-identity{min-width:0;padding-top:4px}
+.instrument-detail-identity .detail-title{align-items:flex-start;flex-wrap:wrap}
+.instrument-detail-identity .detail-title h2{overflow-wrap:anywhere}
+.instrument-detail-identity .detail-sub{margin-top:14px;margin-bottom:12px}
+.instrument-io{min-width:0}
+.instrument-io-boxes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
+.instrument-io-box{min-width:0;border:1px solid #cbd7ce;border-radius:9px;background:#fff;overflow:hidden;text-align:left}
+.instrument-io-box h4{display:flex;align-items:center;min-height:43px;margin:0;padding:10px 12px;border-bottom:1px solid #cbd7ce;background:#e7eee8;color:#102f27;font-size:14px;font-weight:800;line-height:1.35}
+.instrument-io-value{height:190px;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding:12px;color:#172b23;font-size:13px;line-height:1.55;white-space:pre-wrap;overflow-wrap:anywhere;font-weight:500;cursor:text}
+.instrument-io-source{display:flex;flex-wrap:wrap;gap:5px 14px;margin:9px 0 0;color:#273b31;font-size:11px;line-height:1.5;font-weight:600;overflow-wrap:anywhere}
+.instrument-io-source>span{flex-basis:100%}
+.instrument-io-source a{font-size:11px;font-weight:700}
+.instrument-io-compact{margin:12px 0 16px}
+.instrument-io-compact .instrument-io-boxes{gap:5px}
+.instrument-io-compact .instrument-io-box{border-radius:6px}
+.instrument-io-compact .instrument-io-box h4{min-height:44px;padding:7px 8px;font-size:12px}
+.instrument-io-compact .instrument-io-value{height:98px;padding:8px;font-size:12px;line-height:1.45}
+@media(max-width:1100px){.instrument-detail-overview{grid-template-columns:1fr;gap:14px}.instrument-detail-identity .detail-title{padding-right:24px}.instrument-io-value{height:175px}}
+@media(max-width:650px){.instrument-detail-overview{padding-top:5px}.instrument-detail-overview>.instrument-io .instrument-io-boxes{grid-template-columns:1fr}.instrument-detail-overview>.instrument-io .instrument-io-value{height:140px}.instrument-io-source{font-size:11px}}

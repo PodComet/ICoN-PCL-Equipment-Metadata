@@ -109,6 +109,7 @@ export async function PUT(request: Request) {
       record.manual_status=record.manual_url?"user_entered_unverified":"not_found";
       record.manual_match_status="not_verified";
     }
+    record=audited(record,Object.keys(fields));
     record=withMsrpEstimates([...shared.records.filter(r=>r.equipment_id!==record.equipment_id),record],seed.model_lifecycle,msrpPolicy).at(-1)!;
     try{if(Object.hasOwn(fields,SEQUENCE_FIELD))validateSequenceTemplate(record)}catch(e){return json({error:e instanceof Error?e.message:"Invalid instrument sequence."},400)}
     const now=new Date().toISOString(),revision=input.expected_revision+1;

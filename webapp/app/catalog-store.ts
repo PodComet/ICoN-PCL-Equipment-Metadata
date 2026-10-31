@@ -11,9 +11,11 @@ import {applyModelLifecycle} from './model-lifecycle';
 import {applyProductFamily} from './product-family-policy';
 import {withMsrpEstimates} from './msrp-policy';
 import msrpPolicy from './data/msrp-policy.json';
+import equipmentIO from './data/equipment-io.json';
+import {applyEquipmentIO} from './equipment-io';
 
 export const seedById=new Map((seed.records as Equipment[]).map(r=>[r.equipment_id,r]));
-export const audited=(r:Equipment,protectedFields:string[]=[])=>applyProductFamily(applyModelLifecycle(applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers),seed.model_lifecycle),seed.product_families,protectedFields);
+export const audited=(r:Equipment,protectedFields:string[]=[])=>applyEquipmentIO(applyProductFamily(applyModelLifecycle(applyManufacturerAudit(repairRetiredLinks(canonicalizeEquipment(refreshResearchEvidence(r,researchUpdates,protectedFields),seedById,seed.categories,seed.category_aliases),linkReplacements),seed.manufacturers),seed.model_lifecycle),seed.product_families,protectedFields),equipmentIO);
 export async function loadSharedCatalog(){
  const results=await env.DB!.batch([
   env.DB!.prepare("SELECT revision FROM catalog_meta WHERE id='shared'"),

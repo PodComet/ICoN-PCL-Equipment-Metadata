@@ -1,0 +1,93 @@
+{
+  "source_workbook": "EquipmentIO_manuals2_updated_2026-10-30.xlsx",
+  "source_sha256": "c22c4681926fb5b28876a7db7c55d9e527e4ad9fada4ab8774b9aa2b9538bcab",
+  "imported_date": "2026-10-30",
+  "source_rows": 1110,
+  "matched_source_rows": 1107,
+  "catalog_records": 1125,
+  "matched_catalog_records": 1115,
+  "purdue_records": 44,
+  "matched_purdue_records": 44,
+  "field_nonempty_counts": {
+    "inputs_and_states": 1115,
+    "outputs_and_states": 1115,
+    "units_of_measure": 1115
+  },
+  "unmatched_catalog_records": [
+    {
+      "equipment_id": "M24-03",
+      "manufacturer": "SPS",
+      "model_name": "SPS: POLOS SPIN200x Advanced",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "M47-03",
+      "manufacturer": "Spraybase",
+      "model_name": "Spraybase Electrospraying Platform",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "M56-08",
+      "manufacturer": "Spectra-Physics",
+      "model_name": "Spectra-Physics Quanta-Ray INDI",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "M58-04",
+      "manufacturer": "SUSS",
+      "model_name": "SUSS MA6",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "LIT-M61-LI2022",
+      "manufacturer": "Unspecified",
+      "model_name": "Argon ion-beam milling apparatus (Li 2022; model unreported)",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "LIT-M64-FAN2025",
+      "manufacturer": "Unspecified",
+      "model_name": "Four-die rotary swaging machine (Fan 2025; model unreported)",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "LIT-M15-GOMES2021",
+      "manufacturer": "Unspecified",
+      "model_name": "Flame-aerosol glass collection filter assembly (Gomes 2021)",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "LIT-M68-VST",
+      "manufacturer": "VST (as reported)",
+      "model_name": "Electron-beam evaporator (Malkiel 2018; model unreported)",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "EXT-M70-OPENTRONS-GEN1",
+      "manufacturer": "Opentrons",
+      "model_name": "Opentrons Thermocycler Module GEN1",
+      "purdue_list": "false"
+    },
+    {
+      "equipment_id": "UCLA-HF-PROBE-SETUP",
+      "manufacturer": "Unspecified",
+      "model_name": "UCLA high-frequency probe station — make/model unreported",
+      "purdue_list": "false"
+    }
+  ],
+  "unmatched_source_rows": [
+    {
+      "row": 46,
+      "model": "Universal Robots UR10"
+    },
+    {
+      "row": 932,
+      "model": "Spectra-Physics Quanta-Ray Nd"
+    },
+    {
+      "row": 935,
+      "model": "Spraybase Electrospraying & Electrospraying Platform"
+    }
+  ],
+  "matching_policy": "Exact normalized manufacturer/model display identity only. No positional, fuzzy, family or cross-generation matching. Source text and qualification notes retained verbatim. Original workbook, inventory identifiers and source documents are not redistributed."
+}

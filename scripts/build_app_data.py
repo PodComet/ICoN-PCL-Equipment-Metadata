@@ -74,6 +74,9 @@ def main():
     output.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     positions = json.loads((ROOT / "catalog/position_interfaces.json").read_text(encoding="utf-8"))
     (ROOT / "webapp/app/data/positions.json").write_text(json.dumps(positions, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    io_records = read_csv('equipment_io')
+    source = {key: io_records[0].get('equipment_io_' + key, '') for key in ['source_workbook', 'source_sha256', 'imported_date']} if io_records else {}
+    (ROOT / 'webapp/app/data/equipment-io.json').write_text(json.dumps({'schema': 'iconpcl-equipment-io/v1', 'records': io_records, 'source': source}, ensure_ascii=False, separators=(',', ':')) + '\n', encoding='utf-8')
     position_index = read_csv('equipment_position_lists')
     position_fields = list(position_index[0])
     by_equipment = {row['equipment_id']: row for row in position_index}
