@@ -8,15 +8,30 @@ export type MarketComponent=FormulationComponent & {route_ids:string[];source_ur
 export type ComponentData={checked_date:string;formulations:ComponentFormulation[];offers:ComponentOffer[];market_components?:MarketComponent[];output_quantity_models?:import('./output-quantity-lib.ts').OutputQuantityModel[]};
 const key=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
 export function formulationFor(plan:MaterialPlan,data:ComponentData){return data.formulations.find(f=>f.formulation_id===plan.formulation_id&&f.route_id===plan.route_id)||null;}
+export function componentSource(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){
+ // Older individually selected recipe ingredients stored line_id instead of component_line_id.
+ // Resolve that explicit reference only; names alone cannot establish grade or product identity.
+ const legacyLine=(material as StartingMaterial & {line_id?:unknown}).line_id;
+ const lineId=material.component_line_id||(typeof legacyLine==='string'?legacyLine:'');
+ if(!lineId)return null;
+ const formulationMatches=data.formulations.filter(f=>f.route_id===plan.route_id).flatMap(formulation=>formulation.components.filter(c=>c.line_id===lineId).map(component=>({component,formulation})));
+ const marketMatches=(data.market_components||[]).filter(c=>c.line_id===lineId&&c.route_ids.includes(plan.route_id)).map(component=>({component,formulation:null}));
+ const matches=[...formulationMatches,...marketMatches];
+ if(matches.length!==1)return null;
+ const match=matches[0],component=match.component;
+ return component.component_id===material.component_id&&key(component.name)===key(material.name)&&component.role===material.role?match:null;
+}
 export function componentFor(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){
- const formulation=formulationFor(plan,data),component=formulation?.components.find(c=>c.line_id===material.component_line_id)||(data.market_components||[]).find(c=>c.line_id===material.component_line_id&&c.route_ids.includes(plan.route_id));
- return component&&component.component_id===material.component_id&&key(component.name)===key(material.name)&&component.role===material.role?component:null;
+ return componentSource(material,plan,data)?.component||null;
+}
+export function componentSuggestion(component:FormulationComponent){
+ return {name:component.name,role:component.role,component_id:component.component_id,component_line_id:component.line_id,offer_id:component.eligible_offer_ids[0]||''};
 }
 export function componentOffers(component:FormulationComponent|null,data:ComponentData){
  return component?data.offers.filter(o=>o.component_id===component.component_id||component.eligible_offer_ids.includes(o.offer_id)):[];
 }
 export function formulationPlan(formulation:ComponentFormulation):MaterialPlan{
- return {schema:'process-materials/v1',route_id:formulation.route_id,formulation_id:formulation.formulation_id,example_id:'',expected_output:formulation.output_label,inputs:formulation.components.map(c=>({...newStartingMaterial({name:c.name,role:c.role},c.amount),component_id:c.component_id,component_line_id:c.line_id,offer_id:c.eligible_offer_ids[0]||''}))};
+ return {schema:'process-materials/v1',route_id:formulation.route_id,formulation_id:formulation.formulation_id,example_id:'',expected_output:formulation.output_label,inputs:formulation.components.map(c=>newStartingMaterial(componentSuggestion(c),c.amount))};
 }
 export function unchangedFormulation(plan:MaterialPlan,data:ComponentData){
  const f=formulationFor(plan,data);if(!f||f.output_label!==plan.expected_output||f.components.length!==plan.inputs.length)return null;
@@ -33,7 +48,7 @@ export function parseComponentAmount(amount:string):Quantity|null{
  return match?componentQuantity(Number(match[1]),match[2]):null;
 }
 export function materialCost(material:StartingMaterial,plan:MaterialPlan,data:ComponentData){
- const component=componentFor(material,plan,data),f=formulationFor(plan,data);
+ const source=componentSource(material,plan,data),component=source?.component||null,f=source?.formulation;
  const referenceOffers=componentOffers(component,data);
  const selected=referenceOffers.find(o=>o.offer_id===material.offer_id),offer=selected||referenceOffers.find(o=>component?.eligible_offer_ids.includes(o.offer_id))||referenceOffers[0]||null;
  const unknown=(reason:string)=>({material_id:material.material_id,name:material.name,amount:material.amount,status:'unpriced' as const,reason,cost_usd:null as number|null,offer,formulation_id:component?.line_id.startsWith('MARKET-')?'':f?.formulation_id||'',component_line_id:component?.line_id||''});

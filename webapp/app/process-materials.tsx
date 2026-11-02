@@ -8,7 +8,7 @@ import ComponentDetails,{ComponentPhoto} from './component-details';
 import {componentData} from './process-budget';
 import {METRIC_SCALES,metricAmount,changeMetricScale} from './metric-quantity-lib';
 import {componentQuantity} from './component-lib';
-import {componentFor,formulationFor,formulationPlan,unchangedFormulation} from './component-lib';
+import {componentFor,componentSuggestion,formulationFor,formulationPlan,unchangedFormulation} from './component-lib';
 
 export function StartingMaterials({plan,onEdit}:{plan:MaterialPlan;onEdit:()=>void}){
  const item=(m:MaterialPlan['inputs'][number])=><li key={m.material_id}><ComponentPhoto material={m} plan={plan} compact/><div><strong title={m.name}>{m.name||'Choose a material'}</strong>{m.amount&&<small title={m.amount}>{m.amount}</small>}</div></li>;
@@ -31,8 +31,8 @@ export function MaterialsEditor({plan,data,onChange,onClose}:{plan:MaterialPlan;
  const [formulationChoice,setFormulationChoice]=useState('');
  const formulations=componentData.formulations.filter(f=>f.route_id===plan.route_id),activeFormulation=formulations.find(f=>f.formulation_id===formulationChoice)||formulationFor(plan,componentData)||formulations[0];
  const [choice,setChoice]=useState(''),[amount,setAmount]=useState(''),[customName,setCustomName]=useState(''),[customRole,setCustomRole]=useState<MaterialRole>('feedstock'),[customModes,setCustomModes]=useState<Record<string,boolean>>({});
- const marketSuggestions=(componentData.market_components||[]).filter(c=>c.route_ids.includes(plan.route_id)).map(c=>({name:c.name,role:c.role,component_id:c.component_id,component_line_id:c.line_id,offer_id:c.eligible_offer_ids[0]||''}));
- const suggestions=[...new Map([...relevantMaterials(data,plan.route_id),...formulations.flatMap(f=>f.components),...marketSuggestions].map(m=>[materialKey(m),m])).values()],custom=choice===CUSTOM_MATERIAL,selected:MaterialSuggestion|undefined=custom?{name:customName.trim(),role:customRole}:suggestions.find(m=>materialKey(m)===choice),full=plan.inputs.length>=30;
+ const marketSuggestions=(componentData.market_components||[]).filter(c=>c.route_ids.includes(plan.route_id)).map(componentSuggestion);
+ const suggestions=[...new Map([...relevantMaterials(data,plan.route_id),...formulations.flatMap(f=>f.components.map(componentSuggestion)),...marketSuggestions].map(m=>[materialKey(m),m])).values()],custom=choice===CUSTOM_MATERIAL,selected:MaterialSuggestion|undefined=custom?{name:customName.trim(),role:customRole}:suggestions.find(m=>materialKey(m)===choice),full=plan.inputs.length>=30;
  const used=(suggestion:MaterialSuggestion,except='')=>plan.inputs.some(m=>m.material_id!==except&&materialKey(m)===materialKey(suggestion));
  function options(current?:MaterialSuggestion,id=''){
   const known=current&&suggestions.some(m=>materialKey(m)===materialKey(current));

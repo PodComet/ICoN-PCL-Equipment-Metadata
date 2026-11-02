@@ -1,14 +1,45 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {componentQuantity,parseComponentAmount,formulationPlan,materialCost,materialsBudget,unchangedFormulation,componentOffers} from '../app/component-lib.ts';
-import {overallProcessBudget} from '../app/process-budget-lib.ts';
-import {materialPlanFor,withMaterialPlan} from '../app/process-materials-lib.ts';
+import {componentQuantity,parseComponentAmount,formulationPlan,materialCost,materialsBudget,unchangedFormulation,componentOffers,componentSuggestion} from '../app/component-lib.ts';
+import {overallProcessBudget,processMoney} from '../app/process-budget-lib.ts';
+import {materialPlanFor,withMaterialPlan,emptyMaterialPlan,newStartingMaterial} from '../app/process-materials-lib.ts';
 import {assignInstrument,createWorkflow,validateWorkflow,workflowBudget} from '../app/process-lib.ts';
 const read=name=>JSON.parse(readFileSync(new URL('../app/data/'+name+'.json',import.meta.url)));
 const data=read('components'),catalog=read('catalog');
 const route=id=>catalog.routes.find(r=>r.route_id===id),workflow=id=>createWorkflow(route(id),catalog.steps);
 const formulation=id=>data.formulations.find(f=>f.route_id===id);
+
+test('individually added recipe materials retain exact quote and source links without loading a whole formulation',()=>{
+ const f=formulation('P30'),c=f.components.find(c=>c.name==='Dimethyl sulfoxide');
+ const p={...emptyMaterialPlan('P30'),inputs:[newStartingMaterial(componentSuggestion(c),'100 mL')]};
+ const cost=materialCost(p.inputs[0],p,data);
+ assert.equal(cost.status,'priced');assert.ok(Math.abs(cost.cost_usd-14.572)<1e-8);
+ assert.equal(cost.formulation_id,f.formulation_id);assert.equal(cost.component_line_id,c.line_id);
+ assert.equal(cost.offer.offer_id,c.eligible_offer_ids[0]);assert.ok(cost.offer.source_url);
+ const saved=validateWorkflow(JSON.parse(JSON.stringify(withMaterialPlan(workflow('P30'),p))),catalog.routes,catalog.records);
+ assert.equal(materialsBudget(materialPlanFor(saved),data).consumed_subtotal_usd,cost.cost_usd);
+ assert.equal(overallProcessBudget(saved.steps,materialPlanFor(saved),data).total_low_usd,cost.cost_usd);
+});
+
+test('older individually selected recipe rows recover explicit line references without matching custom or cross-process names',()=>{
+ const c=formulation('P30').components.find(c=>c.name==='Dimethyl sulfoxide');
+ const p={...emptyMaterialPlan('P30'),inputs:[newStartingMaterial(c,'100 mL')]},m=p.inputs[0];
+ assert.equal(m.component_line_id,undefined);assert.equal(m.line_id,c.line_id);
+ assert.equal(materialCost(m,p,data).status,'priced');
+ for(const changed of [{...m,name:'Other solvent'},{...m,role:'feedstock'},{...m,component_id:'other'},{...m,component_line_id:'unknown'},{...m,line_id:undefined}])assert.equal(materialCost(changed,p,data).cost_usd,null);
+ assert.equal(materialCost(m,{...p,route_id:'P27'},data).cost_usd,null);
+ assert.equal(materialCost(newStartingMaterial({name:c.name,role:c.role},'100 mL'),p,data).cost_usd,null);
+});
+
+test('nonzero sub-cent material consumption is visible while unknown amounts remain excluded from the subtotal',()=>{
+ assert.equal(processMoney(0),'$0.00');assert.equal(processMoney(.004),'< $0.01');assert.equal(processMoney(.01),'$0.01');
+ const c=formulation('P30').components.find(c=>c.name==='Dimethyl sulfoxide');
+ const p={...emptyMaterialPlan('P30'),inputs:[newStartingMaterial(componentSuggestion(c),'1 µL'),newStartingMaterial({name:'Custom unpriced input',role:'reagent'},'1 g')]};
+ const budget=materialsBudget(p,data);assert.equal(budget.priced,1);assert.equal(budget.unpriced,1);
+ assert.ok(budget.consumed_subtotal_usd>0&&budget.consumed_subtotal_usd<.01);
+ assert.equal(processMoney(budget.consumed_subtotal_usd),'< $0.01');
+});
 
 test('United MSL3X1 dealer quotes remain selectable reusable-substrate acquisitions for P27',()=>{
  const f=formulation('P27'),plan=formulationPlan(f),line=f.components.find(c=>c.line_id==='P27-LITERATURE-20261017-C10');

@@ -2,7 +2,7 @@ import {workflowBudget,type ProcessStep} from './process-lib.ts';
 import {materialsBudget,type ComponentData} from './component-lib.ts';
 import {usdConversion} from './currency-lib.ts';
 import type {MaterialPlan} from './process-materials-lib.ts';
-export const processMoney=(value:number)=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(value);
+export const processMoney=(value:number)=>value>0&&value<.01?'< $0.01':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(value);
 export function overallProcessBudget(steps:ProcessStep[],plan:MaterialPlan,data:ComponentData){
  const equipment=workflowBudget(steps),materials=materialsBudget(plan,data);
  let low=0,high=0,conversionMissing=0;
