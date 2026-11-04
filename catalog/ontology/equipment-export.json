@@ -1,0 +1,56 @@
+{
+  "schema": "iconpcl-equipment-rdf-export/v1",
+  "snapshot_date": "2026-11-04",
+  "equipment_records": 1125,
+  "equipment_with_io": 1115,
+  "equipment_without_io": [
+    "EXT-M70-OPENTRONS-GEN1",
+    "LIT-M15-GOMES2021",
+    "LIT-M61-LI2022",
+    "LIT-M64-FAN2025",
+    "LIT-M68-VST",
+    "M24-03",
+    "M47-03",
+    "M56-08",
+    "M58-04",
+    "UCLA-HF-PROBE-SETUP"
+  ],
+  "rdf_triples": 100679,
+  "scope": "One resource per catalog equipment ID, representing a model or category-context record, not a count of physical assets. Variants and repeated model contexts are retained. Catalog process/material associations do not establish exact-model suitability. Input/output and unit descriptions preserve source text; they are not parsed into an executable control interface. Prices are dated source quotes or explicitly labeled estimates, not live offers. No private inventory, serial numbers, saved workflows or source document files are included.",
+  "price_quotes": 331,
+  "price_estimates": 124,
+  "direct_equipment_evidence_records": 219,
+  "input_hash_policy": "SHA-256 after CRLF to LF normalization; original source-document hashes remain as recorded.",
+  "input_sha256": {
+    "equipment.csv": "1e115ef33dd2632c3c060544e98d20fd5e5a5b0b7d7e3071bedda1f779444819",
+    "equipment_io.csv": "7cdf80c3a731860ed8e1b14bd9d3bdd4171887f364cf632af3fc77d57c9582aa",
+    "categories.csv": "b6428e2ccf1c0acb42b1ac54b9a65c9821fe7f40fb8323403b201e380cc15db1",
+    "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6",
+    "routes.csv": "ccc9ded2ec968df8584dd14585f7a15fdadce89764cd8d4ccd117687d4aba5c7",
+    "manufacturers.csv": "a9613f4cf5aec9bfdb041d8ee3790172472c2bd322af9fe09527d8aae58dbc26",
+    "product_families.csv": "01ecd49190c312b68261ff69651168f6f385838e07b9e6bb21224c007d85c3b3",
+    "model_lifecycle.csv": "e237000c3148d6681520ad4bf242d1d49a339a03586cc847e745283302ccb46f",
+    "equipment_msrp_estimates.csv": "a1bb3a724d5e8464aa8f8581ca7f3db86b1c06fd8dd7961c05740ccb0a0904ce",
+    "seller_offers.csv": "b0d9d4c03234e0a456e97948ec7897804bdb287e80729f5f24c6b3c87cb3634b",
+    "evidence_registry.csv": "4e253394ba8b8fbec5820a5318d8f3975e9d1b712f7207e847c378730a6834a8",
+    "currency_reference_rates.json": "14029720f175255c0ed3f9c192fe133a9bf9a5f90c251f2d17018a818484c442"
+  },
+  "files": {
+    "equipment.ttl": {
+      "bytes": 9367478,
+      "sha256": "88052a31dcef6ba007a2d057fec960e46a110e68f258dcb1b8189fd3fa73dce7",
+      "format": "turtle"
+    },
+    "equipment.rdf": {
+      "bytes": 11930469,
+      "sha256": "1ca30c713ab36089958a8c799379295a21e806f133bcca8da93e37f041285110",
+      "format": "xml"
+    }
+  },
+  "validation": {
+    "turtle_round_trip": true,
+    "rdf_xml_round_trip": true,
+    "equivalent_graphs": true,
+    "exact_model_io_matching": true
+  }
+}
