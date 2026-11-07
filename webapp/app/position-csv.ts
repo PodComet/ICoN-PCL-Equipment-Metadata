@@ -1,7 +1,8 @@
+import {operationEvidenceIds,type OperationDefinition} from './operation-lib.ts';
 import {parseCSV} from './csv-updates.ts';
 import {csvText,safeUrl,type Equipment} from './catalog-lib.ts';
 import {validatePositionInterface,type PositionLibrary,type PositionProfile,type PositionEvidence,type Fiber} from './position-lib.ts';
-export const POSITION_COLUMNS=['equipment_id','manufacturer','model_name','interface_name','interface_description','interface_evidence_ids','position','position_description','fiber_id','fiber_label','fiber_description','fiber_evidence_ids','direction','direction_description','direction_evidence_id','direction_source_url','direction_source_title','direction_source_section','effect_summary','effect_evidence_id','effect_source_url','effect_source_title','effect_source_section','accessed'];
+export const POSITION_COLUMNS=['equipment_id','manufacturer','model_name','interface_name','interface_description','interface_evidence_ids','position','position_description','fiber_id','fiber_label','fiber_description','fiber_evidence_ids','direction','direction_description','direction_evidence_id','direction_source_url','direction_source_title','direction_source_section','effect_summary','effect_evidence_id','effect_source_url','effect_source_title','effect_source_section','accessed','operation_json'];
 export type PositionChange={equipment_id:string;before:PositionProfile|null;after:PositionProfile;evidence:PositionEvidence[]};
 export type PositionPlan={changes:PositionChange[];errors:{line:number;message:string}[];rowCount:number};
 const key=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
@@ -12,7 +13,7 @@ export function positionExport(library:PositionLibrary){
   const common={equipment_id:p.equipment_id,manufacturer:p.manufacturer,model_name:p.model_name,interface_name:p.interface.name,interface_description:p.interface.description,interface_evidence_ids:p.interface.evidence_ids.join(';'),position:f.position,position_description:f.position_description||'',fiber_id:f.fiber_id||f.position,fiber_label:f.fiber_label||'Fiber 1',fiber_description:f.description,fiber_evidence_ids:f.evidence_ids.join(';')};
   return (f.directions.length?f.directions:[{direction:'',description:'',evidence_ids:[]}]).map(d=>{
    const e=evidence.get(d.evidence_ids[0]),effect='effect_evidence_ids' in d?evidence.get(d.effect_evidence_ids?.[0]||''):undefined;
-   return {...common,direction:d.direction,direction_description:d.description,direction_evidence_id:d.evidence_ids.join(';'),direction_source_url:e?.source.url||'',direction_source_title:e?.source.title||'',direction_source_section:e?.source.section||'',effect_summary:'effect_summary' in d?d.effect_summary||'':'',effect_evidence_id:'effect_evidence_ids' in d?(d.effect_evidence_ids||[]).join(';'):'',effect_source_url:effect?.source.url||'',effect_source_title:effect?.source.title||'',effect_source_section:effect?.source.section||'',accessed:e?.source.accessed||effect?.source.accessed||''};
+   return {...common,direction:d.direction,direction_description:d.description,direction_evidence_id:d.evidence_ids.join(';'),direction_source_url:e?.source.url||'',direction_source_title:e?.source.title||'',direction_source_section:e?.source.section||'',effect_summary:'effect_summary' in d?d.effect_summary||'':'',effect_evidence_id:'effect_evidence_ids' in d?(d.effect_evidence_ids||[]).join(';'):'',effect_source_url:effect?.source.url||'',effect_source_title:effect?.source.title||'',effect_source_section:effect?.source.section||'',accessed:e?.source.accessed||effect?.source.accessed||'',operation_json:'operation' in d&&d.operation?JSON.stringify(d.operation):''};
   });
  })));
 }
@@ -27,7 +28,7 @@ export function buildPositionPlan(text:string,records:Equipment[],library:Positi
  rows.forEach((cells,index)=>{const line=index+2;result.rowCount++;
   try{
    if(cells.length!==headers.length)throw new Error('Column count differs from the template. Quote commas and line breaks.');
-   const r=Object.fromEntries(headers.map((h,i)=>[h,cells[i].trim()]));if(Object.values(r).some(v=>v.length>6000))throw new Error('A cell exceeds 6,000 characters.');
+   const r=Object.fromEntries(headers.map((h,i)=>[h,cells[i].trim()]));if(Object.entries(r).some(([k,v])=>v.length>(k==='operation_json'?30000:6000)))throw new Error('A cell exceeds its limit (30,000 for operation_json; 6,000 otherwise).');
    const model=byId.get(r.equipment_id);if(!model||key(model.manufacturer)!==key(r.manufacturer)||key(model.model_name)!==key(r.model_name))throw new Error('Equipment ID, manufacturer and model must match one shared catalog record.');
    if(!r.position||r.position.length>200||!r.fiber_id||r.fiber_id.length>200||!r.fiber_description)throw new Error('Each row needs a position, fiber ID and fiber description.');
    let p=profiles.get(r.equipment_id);if(!p){p={equipment_id:model.equipment_id,manufacturer:model.manufacturer,model_name:model.model_name,status:'uploaded_needs_review',interface:{schema:'poly-fibers/v2',name:r.interface_name||'uploaded_'+model.equipment_id,description:r.interface_description||'Administrator-uploaded model interface. Source and output-effect claims need review for the intended process.',evidence_ids:(r.interface_evidence_ids||'').split(';').map(x=>x.trim()).filter(Boolean),fibers:[]}};profiles.set(r.equipment_id,p);}
@@ -44,14 +45,14 @@ export function buildPositionPlan(text:string,records:Equipment[],library:Positi
     entries.set(id,{id,classification:'user_supplied_claim',claim,source:{kind:'uploaded_documentation',title:r[prefix+'_source_title'],section:r[prefix+'_source_section'],url,accessed:r.accessed},verification:{status:'unverified',method:'administrator_csv_upload'}});return id;});
    };
    if(!r.effect_summary&&(r.effect_evidence_id||r.effect_source_url||r.effect_source_title||r.effect_source_section))throw new Error('Effect sources require an effect summary.');
-   if(r.direction){if(!r.direction_description)throw new Error('A direction needs a description.');if(fiber.directions.some(d=>d.direction===r.direction))throw new Error('Duplicate direction in this fiber.');const direction={direction:r.direction,description:r.direction_description,evidence_ids:addEvidence('direction',r.direction_description),...(r.effect_summary?{effect_summary:r.effect_summary,effect_evidence_ids:addEvidence('effect',r.effect_summary)}:{})};fiber.directions.push(direction);}
-   else if(r.effect_summary||r.direction_description||r.direction_evidence_id)throw new Error('An effect or direction description needs a direction ID.');
+   if(r.direction){if(!r.direction_description)throw new Error('A direction needs a description.');if(fiber.directions.some(d=>d.direction===r.direction))throw new Error('Duplicate direction in this fiber.');const operation:OperationDefinition|undefined=r.operation_json?JSON.parse(r.operation_json):undefined;if(r.operation_json&&(!operation||typeof operation!=='object'))throw new Error('operation_json must contain an instrument-operation/v1 object.');const direction={...(operation?{operation}:{}),direction:r.direction,description:r.direction_description,evidence_ids:addEvidence('direction',r.direction_description),...(r.effect_summary?{effect_summary:r.effect_summary,effect_evidence_ids:addEvidence('effect',r.effect_summary)}:{})};fiber.directions.push(direction);}
+   else if(r.effect_summary||r.direction_description||r.direction_evidence_id||r.operation_json)throw new Error('An effect or direction description needs a direction ID.');
   }catch(e){result.errors.push({line,message:(e as Error).message});}
  });
  const evidence:PositionEvidence[]=[{schema:'poly-evidence/v1',namespace:'uploaded',subject:{scope:'Administrator uploaded claims'},entries:[...entries.values()]}];
  for(const p of profiles.values())try{
   validatePositionInterface(p.interface,evidence);
-  const ids=new Set([...p.interface.evidence_ids,...p.interface.fibers.flatMap(f=>[...f.evidence_ids,...f.directions.flatMap(d=>[...d.evidence_ids,...(d.effect_evidence_ids||[])])])]);
+  const ids=new Set([...p.interface.evidence_ids,...p.interface.fibers.flatMap(f=>[...f.evidence_ids,...f.directions.flatMap(d=>[...d.evidence_ids,...(d.effect_evidence_ids||[]),...operationEvidenceIds(d.operation)])])]);
   result.changes.push({equipment_id:p.equipment_id,before:library.profiles.find(old=>old.equipment_id===p.equipment_id)||null,after:p,evidence:[{...evidence[0],entries:[...entries.values()].filter(e=>ids.has(e.id))}]});
  }catch(e){result.errors.push({line:1,message:p.equipment_id+': '+(e as Error).message});}
  if(profiles.size>100)result.errors.push({line:1,message:'Use at most 100 model profiles per import.'});

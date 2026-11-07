@@ -50,3 +50,7 @@ Public source claims live in Git and the deployed read-only source snapshot. Use
 ## Verification
 
 Tests cover frozen manual context, ordered/repeated actions, new IDs at every save, previous-version links, per-occurrence identity, empty-sequence clearing, content fingerprints, readable exports and CSV formula protection. The loopback integration fixture `webapp/tests/integration/evidence_preview.py` additionally checks save/reopen, exact old revisions, concurrent rollback, template save, ignored forged IDs and cross-account lookup/search isolation. Synthetic test records remain local and are not public seed data.
+
+## Structured action interface extension (7 November 2026)
+
+Directions can carry optional `instrument-operation/v1` definitions, preserving the existing hierarchy. New saved action evidence freezes the definition (including parameter units and bounds, conditions, signals, transitions and command references), chosen `parameter_values`, validation messages and supporting source claims. Sequences include a planning assessment; workflow combinations include the process coordination assessment. Earlier records remain unchanged. See [the action interface guide](instrument-action-interfaces.md).

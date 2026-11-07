@@ -36,9 +36,9 @@ def test_position_roadmap_is_model_bound_and_never_fabricates_operating_states()
     assert profile['equipment_id']=='EXT-M70-OPENTRONS-GEN2'
     assert interface['schema']=='poly-fibers/v2' and len(interface['fibers'])==2
     entries=library['evidence'][0]['entries'];known={e['id'] for e in entries}
-    assert len(entries)==len(known)==10
-    assert sum(e['classification']=='manufacturer_fact' and e['verification']['status']=='verified' for e in entries)==8
-    assert sum(e['classification']=='model_assumption' and e['verification']['status']=='draft' for e in entries)==2
+    assert len(entries)==len(known)==12
+    assert sum(e['classification']=='manufacturer_fact' and e['verification']['status']=='verified' for e in entries)==9
+    assert sum(e['classification']=='model_assumption' and e['verification']['status']=='draft' for e in entries)==3
     for fiber in interface['fibers']:
         assert set(fiber['evidence_ids'])<=known
         for direction in fiber['directions']:

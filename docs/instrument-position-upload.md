@@ -30,6 +30,7 @@ An import replaces the complete Position List of every included model. Omitted m
 | `effect_summary` | Optional declared effect of that action on the output material. Describe the conditions and limits. A hardware command does not establish a nanomaterial property by itself. |
 | `effect_evidence_id` | Optional source ID(s) supporting the effect, separately from the command documentation. |
 | `effect_source_url`, `effect_source_title`, `effect_source_section` | Required for a new effect-evidence ID. |
+| `operation_json` | Optional model-bound `instrument-operation/v1` definition; parameters, units/bounds/options, preconditions, completion signals, resulting positions and command references. See [action interface guide](instrument-action-interfaces.md). |
 | `accessed` | `YYYY-MM-DD`, required for newly introduced source evidence. |
 
 For several existing evidence IDs in one field, the source columns describe the first ID; the other IDs resolve to their existing register entries. An ID cannot be reassigned to a different source. Use a new versioned ID for changed evidence. **Archive JSON with evidence** preserves the complete register; CSV is the editing format. Uploaded claims are labeled unverified and do not automatically become manufacturer-verified facts.
@@ -38,7 +39,7 @@ For several existing evidence IDs in one field, the source columns describe the 
 
 1. Assign instruments to the process slots.
 2. Open the final **Expected output / Equipment plan complete** card.
-3. For each occurrence, select a **POSITION**, then a **FIBER**, then toggle its available **DIRECTIONS**. Multiple directions are a set of proposed actions, not an executable order. Operating sequence remains a separate configuration field.
+3. For each occurrence, add ordered actions and select a **POSITION**, then a **FIBER**, then a **DIRECTION** for each action. Enter any documented typed settings. Repeated actions keep independent values. Legacy unordered choices remain preserved for review.
 4. The row shows the declared effect and effect sources. Missing effect data is shown as not documented. Resetting the row removes its choices and displayed effects. Changing position or fiber clears incompatible directions.
 5. Save the workflow. JSON exports preserve each occurrence's choices and the output export includes its selected effects and supporting evidence.
 

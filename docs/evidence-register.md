@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-981 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+983 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -13193,6 +13193,19 @@ An idle white indicator does not establish that the module has cooled.
 **Related records:** `EXT-M70-OPENTRONS-GEN2` (equipment), `M70` (equipment_class), `P43` (process)
 
 
+## TC-M09
+
+Lid target temperature is an integer from 37 to 110 degrees Celsius. set_lid_temperature is blocking and returns when the target is reached; cooling is passive.
+
+**Classification:** manufacturer_fact · **Checked:** 2026-11-07
+
+**Scope:** Model-bound control documentation; not a validation of a user sequence.
+
+- Source: [Python API: Thermocycler](https://docs.opentrons.com/python-api/modules/thermocycler/#lid-control) — Lid control
+
+**Related records:** `EXT-M70-OPENTRONS-GEN2` (equipment), `M70` (equipment_class), `P43` (process)
+
+
 ## TC-P01
 
 Two lid positions are a local planning abstraction. Intermediate and unknown readings, operational guards, recipes, temperatures, timing, concurrency and error recovery remain outside this draft.
@@ -13215,5 +13228,18 @@ This draft lists selected interface directions per position. It neither exhausti
 **Scope:** Model-bound control documentation; not a validation of a user sequence.
 
 - Source: [Ontology Position List draft]() — Direction admission scope
+
+**Related records:** `EXT-M70-OPENTRONS-GEN2` (equipment), `M70` (equipment_class), `P43` (process)
+
+
+## TC-P03
+
+The interface retains two reported lid modes for planning. Close/open directions map successful observed lid positions to those modes. The selected lid-temperature action is placed in the closed-lid mode as a local planning choice, not a manufacturer restriction. Starting conditions and completion checks are declarations; no sensor checks or execution occur here.
+
+**Classification:** model_assumption · **Checked:** 2026-11-07
+
+**Scope:** Model-bound control documentation; not a validation of a user sequence.
+
+- Source: [Model-bound action interface extension]() — Thermocycler planning crosswalk v1
 
 **Related records:** `EXT-M70-OPENTRONS-GEN2` (equipment), `M70` (equipment_class), `P43` (process)

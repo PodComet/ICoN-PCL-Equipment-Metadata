@@ -1,0 +1,52 @@
+{
+  "schema": "instrument-operation/v1",
+  "evidence_ids": [
+    "TC-P03"
+  ],
+  "parameters": [
+    {
+      "id": "temperature",
+      "label": "Lid target temperature",
+      "type": "integer",
+      "required": true,
+      "unit": "Cel",
+      "minimum": 37,
+      "maximum": 110,
+      "evidence_ids": [
+        "TC-M09"
+      ]
+    }
+  ],
+  "preconditions": [
+    {
+      "id": "lid_mode",
+      "description": "Confirm the reported closed-lid planning mode and review the intended sample protocol.",
+      "evidence_ids": [
+        "TC-P03"
+      ]
+    }
+  ],
+  "completion_signals": [
+    {
+      "id": "target_reached",
+      "description": "Blocking set_lid_temperature returns after the lid reaches the selected target.",
+      "evidence_ids": [
+        "TC-M09"
+      ]
+    }
+  ],
+  "binding": {
+    "kind": "python_api",
+    "target": "opentrons.protocol_api.ThermocyclerContext",
+    "command": "set_lid_temperature",
+    "evidence_ids": [
+      "TC-M09"
+    ]
+  },
+  "transition": {
+    "on_success": "lid_closed",
+    "evidence_ids": [
+      "TC-P03"
+    ]
+  }
+}

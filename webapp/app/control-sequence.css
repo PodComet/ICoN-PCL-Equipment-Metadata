@@ -3,3 +3,21 @@
 .control-action-extra{margin-top:10px}.control-action-extra summary,.control-action-effect summary{cursor:pointer;font-size:12px;font-weight:750;padding:4px 0}.control-action-effect{padding:5px 10px}.control-action-extra[open] .control-action-notes{margin-top:5px}
 
 .control-action>header{padding:0;min-height:0;height:auto;position:static;background:transparent;border:0;box-shadow:none}.control-action-effect summary{list-style-position:inside}.control-action-fields{margin-bottom:4px}
+
+/* Model-bound action definitions and process coordination remain in normal flow. */
+.operation-parameters,.operation-author fieldset{min-width:0;border:1px solid #abc0c6;border-radius:8px;padding:12px;margin:12px 0;background:#f5f8fa;color:#132a3a}
+.operation-parameters{display:flex;flex-wrap:wrap;gap:12px;align-items:start}
+.operation-parameters legend,.operation-author legend{font-weight:800;color:#16394a}
+.operation-parameters label,.operation-author label{display:flex;flex-direction:column;gap:5px;font-weight:700;min-width:0}
+.operation-parameters label{flex:1 1 180px;max-width:340px}
+.operation-parameters input,.operation-parameters select,.operation-author input,.operation-author select,.operation-author textarea{width:100%;min-width:0;max-width:100%;box-sizing:border-box;color:#111;background:white;padding:8px;border:1px solid #8eaaaf;border-radius:5px;font:inherit}
+.operation-parameters small{flex-basis:100%;font-weight:600}
+.operation-details{border-left:3px solid #c8a04a;padding:10px 14px;margin:10px 0;color:#142e3c;overflow-wrap:anywhere;background:#f5f8fa}
+.operation-details h5,.operation-author h5{font-size:1rem;font-weight:800;margin:8px 0}
+.operation-details dl>div{margin:8px 0}.operation-details dt{font-weight:800}.operation-details dd{margin-left:0}
+.operation-evidence{display:flex;gap:8px;flex-wrap:wrap}.operation-evidence a{color:#12634e;text-decoration:underline}
+.operation-admin,.process-coordination{border:1px solid #9eb5bc;border-radius:8px;padding:14px;margin:15px 0;background:#f5f8fa;color:#112d3a;overflow-wrap:anywhere}
+.operation-admin summary,.process-coordination summary{font-weight:800;cursor:pointer}
+.operation-author-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:12px}
+.operation-author section{margin:14px 0}.operation-admin>label{display:flex;flex-direction:column;gap:6px;margin:12px 0}
+.process-coordination article{border-left:3px solid #a2591e;padding:10px 14px;margin:8px 0}.process-coordination button{white-space:normal;text-align:left}

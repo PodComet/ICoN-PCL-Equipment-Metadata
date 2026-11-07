@@ -5,13 +5,17 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_public_register_resolves_scientific_and_manual_claims_with_related_context():
     data=dataset(ROOT);records={r['evidence_id']:r for r in data['records']}
-    assert len([r for r in records.values() if r['classification'] not in {'curator_reviewed_media','curator_reviewed_price','curator_reviewed_catalog','project_owner_confirmation'}])==331
+    assert len([r for r in records.values() if r['classification'] not in {'curator_reviewed_media','curator_reviewed_price','curator_reviewed_catalog','project_owner_confirmation'}])==333
     r=records['EV-P27-F76AC76B7316008E']
     assert r['sources'][0]['locator']=='Materials and methods: Microfluidic-assisted nanoparticle formulation'
     assert any(x['record_type']=='process' and x['record_id']=='P27' for x in r['related_records'])
     assert r['context']['source_contexts'][0]['value']=='10'
     assert r['context']['source_contexts'][0]['unit']=='mg/mL'
     assert records['TC-M02']['context']['verification']['status']=='verified'
+    assert records['TC-M09']['context']['verification']['status']=='verified'
+    assert records['TC-P03']['classification']=='model_assumption'
+    for eid in ['TC-M09','TC-P03']:
+        assert any(x['record_type']=='equipment' and x['record_id']=='EXT-M70-OPENTRONS-GEN2' for x in records[eid]['related_records'])
     assert all(r['sources'] and r['scope'] and r['record_kind']=='source_claim' for r in records.values())
 
 def test_generated_readable_register_is_reproducible_and_has_no_private_planning_records():

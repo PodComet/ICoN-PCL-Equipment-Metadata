@@ -73809,6 +73809,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "TC-M09",
+      "record_kind": "source_claim",
+      "classification": "manufacturer_fact",
+      "title": "Lid target temperature is an integer from 37 to 110 degrees Celsius. set_lid_temperature is blocking and returns when the target is reached; cooling is passive.",
+      "claim": "Lid target temperature is an integer from 37 to 110 degrees Celsius. set_lid_temperature is blocking and returns when the target is reached; cooling is passive.",
+      "scope": "Model-bound control documentation; not a validation of a user sequence.",
+      "recorded_at": "2026-11-07",
+      "sources": [
+        {
+          "title": "Python API: Thermocycler",
+          "url": "https://docs.opentrons.com/python-api/modules/thermocycler/#lid-control",
+          "locator": "Lid control",
+          "checked_date": "2026-11-07"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M70-OPENTRONS-GEN2",
+          "label": "Opentrons Opentrons Thermocycler Module GEN2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M70",
+          "label": ""
+        },
+        {
+          "record_type": "process",
+          "record_id": "P43",
+          "label": "Programmable thermocycling — control-interface example — model planning association"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "subject": {
+          "manufacturer": "Opentrons Labworks Inc.",
+          "equipment": "Thermocycler Module GEN2",
+          "model": "TCG2"
+        },
+        "verification": {
+          "status": "verified",
+          "method": "manual_review"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "TC-P01",
       "record_kind": "source_claim",
       "classification": "model_assumption",
@@ -73870,6 +73918,54 @@
           "url": "",
           "locator": "Direction admission scope",
           "checked_date": "2026-10-16"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M70-OPENTRONS-GEN2",
+          "label": "Opentrons Opentrons Thermocycler Module GEN2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M70",
+          "label": ""
+        },
+        {
+          "record_type": "process",
+          "record_id": "P43",
+          "label": "Programmable thermocycling — control-interface example — model planning association"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "subject": {
+          "manufacturer": "Opentrons Labworks Inc.",
+          "equipment": "Thermocycler Module GEN2",
+          "model": "TCG2"
+        },
+        "verification": {
+          "status": "draft",
+          "method": "authored_draft"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "TC-P03",
+      "record_kind": "source_claim",
+      "classification": "model_assumption",
+      "title": "The interface retains two reported lid modes for planning. Close/open directions map successful observed lid positions to those modes. The selected lid-temperature action is placed in the closed-lid mode as a local planning choice, not a manufacturer restriction. Starting conditions and completion checks are declarations; no sensor checks or execution occur here.",
+      "claim": "The interface retains two reported lid modes for planning. Close/open directions map successful observed lid positions to those modes. The selected lid-temperature action is placed in the closed-lid mode as a local planning choice, not a manufacturer restriction. Starting conditions and completion checks are declarations; no sensor checks or execution occur here.",
+      "scope": "Model-bound control documentation; not a validation of a user sequence.",
+      "recorded_at": "2026-11-07",
+      "sources": [
+        {
+          "title": "Model-bound action interface extension",
+          "url": "",
+          "locator": "Thermocycler planning crosswalk v1",
+          "checked_date": "2026-11-07"
         }
       ],
       "related_records": [

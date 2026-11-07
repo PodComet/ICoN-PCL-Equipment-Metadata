@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [model-bound action interface](docs/instrument-action-interfaces.md) extends Position → Fiber → Direction with typed settings, units, evidence-linked starting conditions and completion signals, declared state changes and command references. Processes retain dependency and shared-equipment coordination. Saved evidence freezes definitions and selected values; existing profiles and saved plans remain readable.
+
 The Processes chart now shows [equipment handoff alignment](docs/process-io-alignment.md): green checks identify matching recorded outputs and inputs, and green outlines follow a fully green set of step-to-step checks. Branches, missing data, configured ports and exact model identities remain explicit.
 
 Instrument cards now show **Input**, **Output** and **Measuring units**, populated from the latest EquipmentIO spreadsheet's columns C–E. All 44 existing Purdue records and 1,115 catalog records have exact model matches; gaps and source qualifications remain explicit. See [the import method, source-row provenance and refresh instructions](docs/equipment-io.md).

@@ -1,4 +1,6 @@
 'use client';
+import {OperationDetails} from './operation-details';
+import {operationEvidenceIds} from './operation-lib';
 import {useId,useState} from 'react';
 import {Download,GitBranch} from 'lucide-react';
 import libraryData from './data/positions.json';
@@ -8,7 +10,7 @@ const library=libraryData as PositionLibrary;
 export default function PositionList({record,expanded=false,id,library=libraryData as PositionLibrary}:{record:Equipment;expanded?:boolean;id?:string;library?:PositionLibrary}){
  const p=positionProfile(record,library),groups=positionGroups(p.interface),[selected,setSelected]=useState('');
  const current=groups.find(group=>group.position===selected)||groups[0];
- const evidenceIds=new Set([...p.interface.evidence_ids,...p.interface.fibers.flatMap(f=>[...f.evidence_ids,...f.directions.flatMap(d=>d.evidence_ids)])]);
+ const evidenceIds=new Set([...p.interface.evidence_ids,...p.interface.fibers.flatMap(f=>[...f.evidence_ids,...f.directions.flatMap(d=>[...d.evidence_ids,...(d.effect_evidence_ids||[]),...operationEvidenceIds(d.operation)])])]);
  const evidence=library.evidence.flatMap(e=>e.entries).filter(e=>evidenceIds.has(e.id));
  const instanceId=useId(),idPrefix=(id||'position-'+record.equipment_id+'-'+instanceId).replace(/[^a-zA-Z0-9_-]/g,'_');
  function download(value:unknown,name:string){const url=URL.createObjectURL(new Blob([JSON.stringify(value,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name.replace(/[^a-zA-Z0-9_-]/g,'_')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
@@ -25,7 +27,7 @@ export default function PositionList({record,expanded=false,id,library=libraryDa
      <header><span>FIBER</span><h5>{label}</h5>{fiber.fiber_id&&<code>{fiber.fiber_id}</code>}</header>
      <p>{fiber.description}</p><div className="position-evidence-links"><strong>Fiber evidence:</strong> {cited(fiber.evidence_ids)}</div>
      <h6>DIRECTIONS <span>{fiber.directions.length}</span></h6>
-     {fiber.directions.length?<ul className="position-directions">{fiber.directions.map(d=><li key={d.direction}><strong>{d.direction}</strong><p>{d.description}</p><div className="position-evidence-links"><strong>Direction evidence:</strong> {cited(d.evidence_ids)}</div></li>)}</ul>:<p className="position-pending">No directions curated for this fiber yet.</p>}
+     {fiber.directions.length?<ul className="position-directions">{fiber.directions.map(d=><li key={d.direction}><strong>{d.direction}</strong><p>{d.description}</p>{d.operation&&<OperationDetails operation={d.operation} library={library}/>}<div className="position-evidence-links"><strong>Direction evidence:</strong> {cited(d.evidence_ids)}</div></li>)}</ul>:<p className="position-pending">No directions curated for this fiber yet.</p>}
      <button type="button" onClick={()=>download(separateFiber(p.interface,current.position,fiberId),p.interface.name+'-'+current.position+'-'+fiberId)}><Download size={13}/>Export this fiber</button>
     </article>)}</div>
     {current.fibers.length>1&&<button type="button" onClick={()=>download(separateFiber(p.interface,current.position),p.interface.name+'-'+current.position)}><Download size={13}/>Export all fibers in this position</button>}

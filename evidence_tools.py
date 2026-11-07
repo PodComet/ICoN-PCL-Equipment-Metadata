@@ -7,6 +7,14 @@ def read(root,name):
     with (root/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as stream:
         return list(csv.DictReader(stream))
 
+def operation_evidence_ids(direction):
+    op=direction.get('operation') or {}
+    ids=list(op.get('evidence_ids',[]))
+    for key in ('parameters','preconditions','completion_signals'):
+        for item in op.get(key,[]):ids.extend(item.get('evidence_ids',[]))
+    for key in ('transition','binding'):ids.extend((op.get(key) or {}).get('evidence_ids',[]))
+    return ids
+
 def dataset(root):
     root=Path(root)
     conditions=read(root,'process_conditions');properties=read(root,'process_property_anchors')
@@ -29,7 +37,7 @@ def dataset(root):
         for e in group['entries']:
             related=[]
             for profile in positions['profiles']:
-                used=e['id'] in profile['interface']['evidence_ids'] or any(e['id'] in f['evidence_ids'] or any(e['id'] in d['evidence_ids']+(d.get('effect_evidence_ids') or []) for d in f['directions']) for f in profile['interface']['fibers'])
+                used=e['id'] in profile['interface']['evidence_ids'] or any(e['id'] in f['evidence_ids'] or any(e['id'] in d['evidence_ids']+(d.get('effect_evidence_ids') or [])+operation_evidence_ids(d) for d in f['directions']) for f in profile['interface']['fibers'])
                 if used:
                     related.append({'record_type':'equipment','record_id':profile['equipment_id'],'label':profile['manufacturer']+' '+profile['model_name']})
                     if profile['equipment_id'] in equipment:
