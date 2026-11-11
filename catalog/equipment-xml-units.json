@@ -1,0 +1,319 @@
+{
+  "vocabulary_iri": "http://qudt.org/3.5.3/vocab/unit",
+  "checked_date": "2026-11-11",
+  "scope": "Reviewed unit symbol mappings from reported measuring-unit fields. AC/DC context remains in the original wording.",
+  "symbols": {
+    "V": {
+      "unit": "V",
+      "symbol": "V"
+    },
+    "VAC": {
+      "unit": "V",
+      "symbol": "V"
+    },
+    "V AC": {
+      "unit": "V",
+      "symbol": "V"
+    },
+    "V DC": {
+      "unit": "V",
+      "symbol": "V"
+    },
+    "kV": {
+      "unit": "KiloV",
+      "symbol": "kV"
+    },
+    "mV": {
+      "unit": "MilliV",
+      "symbol": "mV"
+    },
+    "Hz": {
+      "unit": "HZ",
+      "symbol": "Hz"
+    },
+    "kHz": {
+      "unit": "KiloHZ",
+      "symbol": "kHz"
+    },
+    "MHz": {
+      "unit": "MegaHZ",
+      "symbol": "MHz"
+    },
+    "GHz": {
+      "unit": "GigaHZ",
+      "symbol": "GHz"
+    },
+    "A": {
+      "unit": "A",
+      "symbol": "A"
+    },
+    "mA": {
+      "unit": "MilliA",
+      "symbol": "mA"
+    },
+    "µA": {
+      "unit": "MicroA",
+      "symbol": "μA"
+    },
+    "μA": {
+      "unit": "MicroA",
+      "symbol": "μA"
+    },
+    "W": {
+      "unit": "W",
+      "symbol": "W"
+    },
+    "kW": {
+      "unit": "KiloW",
+      "symbol": "kW"
+    },
+    "mW": {
+      "unit": "MilliW",
+      "symbol": "mW"
+    },
+    "°C": {
+      "unit": "DEG_C",
+      "symbol": "°C"
+    },
+    "°F": {
+      "unit": "DEG_F",
+      "symbol": "°F"
+    },
+    "K": {
+      "unit": "K",
+      "symbol": "K"
+    },
+    "m": {
+      "unit": "M",
+      "symbol": "m"
+    },
+    "cm": {
+      "unit": "CentiM",
+      "symbol": "cm"
+    },
+    "mm": {
+      "unit": "MilliM",
+      "symbol": "mm"
+    },
+    "µm": {
+      "unit": "MicroM",
+      "symbol": "μm"
+    },
+    "μm": {
+      "unit": "MicroM",
+      "symbol": "μm"
+    },
+    "nm": {
+      "unit": "NanoM",
+      "symbol": "nm"
+    },
+    "Å": {
+      "unit": "ANGSTROM",
+      "symbol": "Å"
+    },
+    "L": {
+      "unit": "L",
+      "symbol": "L"
+    },
+    "mL": {
+      "unit": "MilliL",
+      "symbol": "mL"
+    },
+    "µL": {
+      "unit": "MicroL",
+      "symbol": "μL"
+    },
+    "μL": {
+      "unit": "MicroL",
+      "symbol": "μL"
+    },
+    "nL": {
+      "unit": "NanoL",
+      "symbol": "nL"
+    },
+    "pL": {
+      "unit": "PicoL",
+      "symbol": "pL"
+    },
+    "fL": {
+      "unit": "FemtoL",
+      "symbol": "fL"
+    },
+    "kg": {
+      "unit": "KiloGM",
+      "symbol": "kg"
+    },
+    "g": {
+      "unit": "GM",
+      "symbol": "g"
+    },
+    "mg": {
+      "unit": "MilliGM",
+      "symbol": "mg"
+    },
+    "µg": {
+      "unit": "MicroGM",
+      "symbol": "μg"
+    },
+    "μg": {
+      "unit": "MicroGM",
+      "symbol": "μg"
+    },
+    "s": {
+      "unit": "SEC",
+      "symbol": "s"
+    },
+    "ms": {
+      "unit": "MilliSEC",
+      "symbol": "ms"
+    },
+    "µs": {
+      "unit": "MicroSEC",
+      "symbol": "μs"
+    },
+    "μs": {
+      "unit": "MicroSEC",
+      "symbol": "μs"
+    },
+    "min": {
+      "unit": "MIN",
+      "symbol": "min"
+    },
+    "h": {
+      "unit": "HR",
+      "symbol": "h"
+    },
+    "rpm": {
+      "unit": "REV-PER-MIN",
+      "symbol": "rev/min"
+    },
+    "%": {
+      "unit": "PERCENT",
+      "symbol": "%"
+    },
+    "Pa": {
+      "unit": "PA",
+      "symbol": "Pa"
+    },
+    "kPa": {
+      "unit": "KiloPA",
+      "symbol": "kPa"
+    },
+    "MPa": {
+      "unit": "MegaPA",
+      "symbol": "MPa"
+    },
+    "bar": {
+      "unit": "BAR",
+      "symbol": "bar"
+    },
+    "mbar": {
+      "unit": "MilliBAR",
+      "symbol": "mbar"
+    },
+    "psi": {
+      "unit": "PSI",
+      "symbol": "psi"
+    },
+    "Torr": {
+      "unit": "TORR",
+      "symbol": "Torr"
+    },
+    "L/min": {
+      "unit": "L-PER-MIN",
+      "symbol": "L/min"
+    },
+    "L/h": {
+      "unit": "L-PER-HR",
+      "symbol": "L/h"
+    },
+    "mL/min": {
+      "unit": "MilliL-PER-MIN",
+      "symbol": "mL/min"
+    },
+    "mL/h": {
+      "unit": "MilliL-PER-HR",
+      "symbol": "mL/h"
+    },
+    "mL/hr": {
+      "unit": "MilliL-PER-HR",
+      "symbol": "mL/h"
+    },
+    "mL/s": {
+      "unit": "MilliL-PER-SEC",
+      "symbol": "mL/s"
+    },
+    "N": {
+      "unit": "N",
+      "symbol": "N"
+    },
+    "kN": {
+      "unit": "KiloN",
+      "symbol": "kN"
+    },
+    "J": {
+      "unit": "J",
+      "symbol": "J"
+    },
+    "mJ": {
+      "unit": "MilliJ",
+      "symbol": "mJ"
+    },
+    "kJ": {
+      "unit": "KiloJ",
+      "symbol": "kJ"
+    },
+    "Ω": {
+      "unit": "OHM",
+      "symbol": "Ω"
+    },
+    "nmol": {
+      "unit": "NanoMOL",
+      "symbol": "nmol"
+    },
+    "mmol": {
+      "unit": "MilliMOL",
+      "symbol": "mmol"
+    },
+    "mol": {
+      "unit": "MOL",
+      "symbol": "mol"
+    },
+    "mPa·s": {
+      "unit": "MilliPA-SEC",
+      "symbol": "mPa·s"
+    },
+    "Pa·s": {
+      "unit": "PA-SEC",
+      "symbol": "Pa·s"
+    },
+    "cP": {
+      "unit": "CentiPOISE",
+      "symbol": "cP"
+    },
+    "m/s": {
+      "unit": "M-PER-SEC",
+      "symbol": "m/s"
+    },
+    "mm/s": {
+      "unit": "MilliM-PER-SEC",
+      "symbol": "mm/s"
+    },
+    "mm/min": {
+      "unit": "MilliM-PER-MIN",
+      "symbol": "mm/min"
+    },
+    "eV": {
+      "unit": "EV",
+      "symbol": "eV"
+    },
+    "keV": {
+      "unit": "KiloEV",
+      "symbol": "keV"
+    },
+    "dB": {
+      "unit": "DeciB",
+      "symbol": "dB"
+    }
+  }
+}

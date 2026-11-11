@@ -40,17 +40,10 @@
       "bytes": 9367478,
       "sha256": "88052a31dcef6ba007a2d057fec960e46a110e68f258dcb1b8189fd3fa73dce7",
       "format": "turtle"
-    },
-    "equipment.rdf": {
-      "bytes": 11930469,
-      "sha256": "1ca30c713ab36089958a8c799379295a21e806f133bcca8da93e37f041285110",
-      "format": "xml"
     }
   },
   "validation": {
     "turtle_round_trip": true,
-    "rdf_xml_round_trip": true,
-    "equivalent_graphs": true,
     "exact_model_io_matching": true
   }
 }

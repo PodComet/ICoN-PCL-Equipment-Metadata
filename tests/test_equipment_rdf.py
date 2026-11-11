@@ -1,9 +1,12 @@
 """Checks for the portable, equipment-only RDF export."""
 import csv
 from decimal import Decimal
+import hashlib
 import importlib.util
+import json
 from pathlib import Path
 import shutil
+from xml.etree import ElementTree as ET
 
 import pytest
 from rdflib import Graph, URIRef
@@ -108,3 +111,40 @@ def test_added_private_columns_are_not_exported_and_changed_models_cannot_inheri
         writer.writerows(io_rows)
     with pytest.raises(ValueError, match='Exact-model mismatch'):
         exporter.build_graph(tmp_path, '2026-11-04')
+
+
+def test_nested_rdf_xml_has_one_machine_description_and_preserves_scoped_sources():
+    output = ROOT / 'catalog/ontology'
+    content = (output / 'equipment.rdf').read_bytes()
+    manifest = json.loads((output / 'equipment-xml-export.json').read_text(encoding='utf-8'))
+    assert hashlib.sha256(content).hexdigest() == manifest['rdf_xml']['sha256']
+    document = ET.fromstring(content)
+    rdf = '{' + str(RDF) + '}'
+    descriptions = document.findall('.//' + rdf + 'Description')
+    identifiers = [element.attrib[rdf + 'about'] for element in descriptions]
+    equipment = exporter.read_csv(ROOT, 'equipment.csv')
+    assert set(identifiers) == {str(exporter.node('equipment', row['equipment_id'])) for row in equipment}
+    assert len(identifiers) == len(equipment)
+    assert len(set(element.attrib[rdf + 'about'] for element in document.iter() if rdf + 'about' in element.attrib)) == sum(
+        rdf + 'about' in element.attrib for element in document.iter()
+    )
+    machine = next(e for e in descriptions if e.attrib[rdf + 'about'].endswith('/M07-08'))
+    assert len(machine.findall(f'{{{SCHEMA}}}name')) == 1
+    assert not machine.findall(f'{{{SCHEMA}}}additionalProperty')
+    for prop in ('identity', 'inputOutputProfile', 'associations', 'pricing', 'review'):
+        assert len(machine.find(f'{{{ICON}}}{prop}')) == 1
+    io = machine.find(f'{{{ICON}}}inputOutputProfile')[0]
+    assert io.find(f'{{{exporter.PROV}}}wasDerivedFrom').attrib[rdf + 'resource'].split('#')[0].endswith('/equipment_io.csv')
+    source = next(row for row in exporter.read_csv(ROOT, 'equipment_io.csv') if row['equipment_id'] == 'M07-08')
+    assert io.findtext(f'{{{ICON}}}inputDescription') == source['inputs_and_states']
+    assert io.findtext(f'{{{ICON}}}measuringUnitsDescription') == source['units_of_measure']
+    assert 'http://qudt.org/vocab/unit/MilliL' in {
+        e.attrib[rdf + 'resource'] for e in io.findall(f'{{{ICON}}}reportedUnit')
+    }
+    associations = machine.find(f'{{{ICON}}}associations')[0]
+    assert len(associations.findall(f'{{{ICON}}}catalogMaterial')) == 7
+    assert len(associations.findall(f'{{{ICON}}}catalogProcess')) == 1
+    graph = Graph().parse(data=content, format='xml')
+    assert len(graph) == manifest['rdf_triples']
+    assert len(set(graph.subjects(RDF.type, ICON.PriceQuote))) == manifest['price_quotes']
+    assert len(set(graph.subjects(RDF.type, ICON.PriceEstimate))) == manifest['price_estimates']

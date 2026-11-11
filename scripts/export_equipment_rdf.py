@@ -1,4 +1,4 @@
-"""Export the public equipment catalog, with model-bound I/O, as standalone RDF.
+"""Export the public equipment catalog, with model-bound I/O, as RDF/Turtle.
 
 Only the explicit public input files and fields below are read. No inventory,
 live service, user plans, credentials or source documents are opened.
@@ -383,14 +383,15 @@ def export(root=ROOT, snapshot_date='2026-11-04', output_dir=None):
     graph, report = build_graph(root, snapshot_date)
     output = Path(output_dir) if output_dir else Path(root) / 'catalog/ontology'
     output.mkdir(parents=True, exist_ok=True)
-    for filename, fmt in [('equipment.ttl', 'turtle'), ('equipment.rdf', 'xml')]:
-        content = graph.serialize(format=fmt, encoding='utf-8')
-        parsed = Graph().parse(data=content, format=fmt)
-        if not isomorphic(graph, parsed):
-            raise ValueError('RDF round-trip validation failed')
-        (output / filename).write_bytes(content)
-        report.setdefault('files', {})[filename] = {'bytes': len(content), 'sha256': hashlib.sha256(content).hexdigest(), 'format': fmt}
-    report['validation'] = {'turtle_round_trip': True, 'rdf_xml_round_trip': True, 'equivalent_graphs': True, 'exact_model_io_matching': True}
+    content = graph.serialize(format='turtle', encoding='utf-8')
+    parsed = Graph().parse(data=content, format='turtle')
+    if not isomorphic(graph, parsed):
+        raise ValueError('RDF round-trip validation failed')
+    (output / 'equipment.ttl').write_bytes(content)
+    report['files'] = {
+        'equipment.ttl': {'bytes': len(content), 'sha256': hashlib.sha256(content).hexdigest(), 'format': 'turtle'},
+    }
+    report['validation'] = {'turtle_round_trip': True, 'exact_model_io_matching': True}
     (output / 'equipment-export.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     return report
 

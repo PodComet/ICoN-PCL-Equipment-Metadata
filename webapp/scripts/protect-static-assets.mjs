@@ -4,7 +4,7 @@ import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
 
 const branding=new Set(['/favicon.svg','/assets/icon-pcl-logo.jpg','/assets/purdue-university.svg','/assets/drexel-university.svg']);
-const mime={'.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.jsonld':'application/ld+json','.ttl':'text/turtle; charset=utf-8','.csv':'text/csv; charset=utf-8','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
+const mime={'.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json','.jsonld':'application/ld+json','.ttl':'text/turtle; charset=utf-8','.rdf':'application/rdf+xml; charset=utf-8','.csv':'text/csv; charset=utf-8','.xlsx':'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2'};
 
 export async function protectStaticAssets(root=process.cwd()){
  const client=path.resolve(root,'dist/client'),server=path.resolve(root,'dist/server');
