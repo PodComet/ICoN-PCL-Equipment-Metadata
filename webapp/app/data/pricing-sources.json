@@ -247,10 +247,10 @@
     "instrument_statuses": {
       "estimate_only": 38,
       "explicit_msrp": 1,
-      "manufacturer_price": 173,
+      "manufacturer_price": 186,
       "new_seller_price": 90,
-      "no_purchase_price": 1024,
-      "secondary_market_only": 57
+      "no_purchase_price": 1004,
+      "secondary_market_only": 64
     },
     "component_occurrences": 260,
     "component_statuses": {

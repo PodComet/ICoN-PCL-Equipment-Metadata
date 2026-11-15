@@ -2,6 +2,8 @@
 
 The [academic workflows expansion](docs/academic-workflows.md) adds P72–P89 for microstructure characterization, mechanical testing, thermal analysis, ceramics, battery research, and thin-film deposition. The [equipment review](catalog/academic_workflow_review_2026-11-15.json) links specifications, manuals, and documented Purdue installations.
 
+The [photo and price review](catalog/academic_equipment_media_price_review_2026-11-15.json) covers all 71 additions. It records exact-model and family photographs separately and preserves the currency, condition, and configuration of each published price alongside its USD equivalent.
+
 The [Purdue MMRL metals expansion](docs/mmrl-metals.md) adds 24 process workflows (P48–P71), 22 equipment classes (M117–M138) and five alloy families (N11–N15). Equipment cards include model-scoped input, output, unit and source information. The [source review](catalog/mmrl_metals_review_2026-11-15.json) records the public MMRL installations, candidate selection and remaining coverage gaps.
 
 The [model-bound action interface](docs/instrument-action-interfaces.md) extends Position → Fiber → Direction with typed settings, units, evidence-linked starting conditions and completion signals, declared state changes and command references. Processes retain dependency and shared-equipment coordination. Saved evidence freezes definitions and selected values; existing profiles and saved plans remain readable.

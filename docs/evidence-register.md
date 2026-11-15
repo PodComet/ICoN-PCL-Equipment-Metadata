@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-983 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+1071 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -5791,6 +5791,58 @@ The reviewed listing presents this instrument photograph.
 **Related records:** `M17-10` (equipment), `M17` (equipment_class)
 
 
+## IMG-EV-02535DB33340B042
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron 68TM tabletop family. Force rating shown is unconfirmed.
+
+- Source: [Photo match for Instron 68TM-50](https://www.directindustry.com/prod/instron/product-18463-2365300.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-03` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-0613A90935FB40B1
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.
+
+- Source: [Photo match for Shimadzu Servopulser EHF-EV051k2](https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-08` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-06A88EC77AE374C7
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.
+
+- Source: [Photo match for NETZSCH DSC 300 Caliris Select](https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-06` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-0A255F118F4774F0
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer DSC-60 Plus series product photograph.
+
+- Source: [Photo match for Shimadzu DSC-60 Plus](https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-09` (equipment), `M141` (equipment_class)
+
+
 ## IMG-EV-0C6673C707158DC1
 
 The linked source presents an instrument photograph matched to Bruker Dimension FastScan (exact model).
@@ -5869,6 +5921,19 @@ The linked source presents an instrument photograph matched to Inovenso NE300 (e
 **Related records:** `M47-02` (equipment), `M47` (equipment_class)
 
 
+## IMG-EV-164DBADA33A5457D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public Purdue Chawla Research Group photo of its Landmark 500 kN installation.
+
+- Source: [Photo match for MTS Landmark 500 kN (Purdue configuration)](https://engineering.purdue.edu/ChawlaResGroup/research/facilities) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-01` (equipment), `M140` (equipment_class)
+
+
 ## IMG-EV-1A3D14ADE1C78B99
 
 The linked source presents an instrument photograph matched to IKA EUROSTAR 60 digital (exact model).
@@ -5908,6 +5973,45 @@ Manufacturer catalog presents this representative family image for Thermo Scient
 **Related records:** `M18-03` (equipment), `M18` (equipment_class)
 
 
+## IMG-EV-20216D8945418D0D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Maccor Series 4400 product photo.
+
+- Source: [Photo match for Maccor Series 4400](https://www.maccor.com/desktop-battery-testers.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-09` (equipment), `M143` (equipment_class)
+
+
+## IMG-EV-20CCF28D151DED14
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-H200A.
+
+- Source: [Photo match for MTI MSK-AFA-H200A](https://mtixtl.com/products/msk-afa-h200a) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-06` (equipment), `M142` (equipment_class)
+
+
+## IMG-EV-231F661DDE3AE9C8
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Seller photograph for the Discovery DSC 2500 configuration offered.
+
+- Source: [Photo match for TA Instruments Discovery DSC 2500](https://www.exapro.com/ta-instruments-2500-p260707045/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-04` (equipment), `M141` (equipment_class)
+
+
 ## IMG-EV-24417BACAD9194D5
 
 The reviewed listing presents this instrument photograph.
@@ -5932,6 +6036,19 @@ The reviewed listing presents this instrument photograph.
 - Source: [InnovtrendLab via LabX](https://www.labx.com/item/heidolph-hei-vap-advantage-evaporator-including-heidolph/DIS-37051-6ab45c4f35ecf4fc07739aceb2ce229b) — Model title and listing gallery; visually reviewed
 
 **Related records:** `CAT-LABX-HEIDOLPH-ADVANTAGE` (equipment), `M16` (equipment_class)
+
+
+## IMG-EV-262285E1577DAF56
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-II-VC.
+
+- Source: [Photo match for MTI MSK-AFA-II-VC](https://mtixtl.com/products/msk-afa-ii-vc) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-03` (equipment), `M142` (equipment_class)
 
 
 ## IMG-EV-274363DC37DF0E72
@@ -6038,6 +6155,32 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 **Related records:** `M12-10` (equipment), `M12` (equipment_class), `P07` (process)
 
 
+## IMG-EV-2D77ED39A5CF58CD
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Fisher Scientific product photograph for the METTLER TOLEDO DSC 5+.
+
+- Source: [Photo match for METTLER TOLEDO DSC 5+](https://www.fishersci.ca/shop/products/dsc-5-differential-scanning-calorimeter/01338205) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-08` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-2E077C44D366415B
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** TOB New Energy product photograph for TOB-MSK-110.
+
+- Source: [Photo match for TOB New Energy TOB-MSK-110](https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-04` (equipment), `M144` (equipment_class)
+
+
 ## IMG-EV-2E1739326AB82CCF
 
 The reviewed listing presents this instrument photograph.
@@ -6077,6 +6220,19 @@ The reviewed listing presents this instrument photograph.
 **Related records:** `M34-06` (equipment), `M34` (equipment_class)
 
 
+## IMG-EV-32F767BB3CDD2E0F
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** FENN's case-study photograph of its Model 081 machine at the University of Manchester.
+
+- Source: [Photo match for FENN Model 081 Laboratory Reversing Mill](https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M145-02` (equipment), `M145` (equipment_class)
+
+
 ## IMG-EV-331296723ADB0192
 
 The linked source presents an instrument photograph matched to Bruker Dimension Icon (exact model).
@@ -6088,6 +6244,19 @@ The linked source presents an instrument photograph matched to Bruker Dimension 
 - Source: [Bruker instrument photograph / catalog entry](https://mmrc.caltech.edu/AFM_STM/BBEditPreviewTemp.html) — Facility equipment page explicitly describes Bruker Dimension Icon and links this image (Dimension Icon).
 
 **Related records:** `M41-02` (equipment), `M41` (equipment_class), `P01` (process), `P05` (process), `P06` (process), `P09` (process)
+
+
+## IMG-EV-3399E7D751CC1371
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** NTNU laboratory photograph of the Bruker D8 Focus. This unit is at NTNU.
+
+- Source: [Photo match for Bruker D8 FOCUS](https://www.ntnu.edu/ima/powder-diffraction-lab) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M37-01` (equipment), `M37` (equipment_class)
 
 
 ## IMG-EV-34963576829F7F1A
@@ -6140,6 +6309,32 @@ The linked source presents an instrument photograph matched to JEOL JSM-IT800 (p
 - Source: [JEOL instrument photograph / catalog entry](https://www.jeol.com/products/scientific/sem/JSM-IT800.php) — Manufacturer JSM-IT800 page lists HL, SHL, SHLs, i and is versions and uses this JSM-IT800HL image as its product hero. Page marks family discontinued.
 
 **Related records:** `M38-06` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-36589DF9873080F7
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.
+
+- Source: [Photo match for Instron 68FM-100](https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-04` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-3B3CA5F7FAAE1FF7
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.
+
+- Source: [Photo match for BioLogic BCS-810](https://www.instrument.com.cn/show/C262941.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-05` (equipment), `M143` (equipment_class)
 
 
 ## IMG-EV-3CB445D5F28DCC05
@@ -6246,6 +6441,58 @@ The Labmate selected-model page presents this model-specific product image.
 **Related records:** `CAT-LABMATE-LMVO-A501` (equipment), `M18` (equipment_class), `P05` (process), `P07` (process), `P08` (process), `P09` (process)
 
 
+## IMG-EV-4D63386AE8B42EC2
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public Purdue ViPER photo of the facility's 64-channel Arbin cycler.
+
+- Source: [Photo match for Arbin 64-channel battery cycler (ViPER configuration)](https://engineering.purdue.edu/ViPER/lab.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-02` (equipment), `M143` (equipment_class)
+
+
+## IMG-EV-4DC0F72A158384E2
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron 68TM tabletop family. Force rating shown is unconfirmed.
+
+- Source: [Photo match for Instron 68TM-10](https://www.directindustry.com/prod/instron/product-18463-2365300.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-02` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-56F957F973DAFDFC
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Durston product photograph for DRM F150RE, SKU 1032.
+
+- Source: [Photo match for Durston DRM F150RE](https://durston.com/product/drm-f150re/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M145-06` (equipment), `M145` (equipment_class)
+
+
+## IMG-EV-576EDADB250C780C
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.
+
+- Source: [Photo match for Shimadzu Servopulser EHF-EV200k1](https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-10` (equipment), `M140` (equipment_class)
+
+
 ## IMG-EV-58CF2AB92ADAC6CD
 
 The linked source presents an instrument photograph matched to RETSCH PM 400 (exact model).
@@ -6257,6 +6504,71 @@ The linked source presents an instrument photograph matched to RETSCH PM 400 (ex
 - Source: [RETSCH instrument photograph / catalog entry](https://www.retsch.com/products/milling/ball-mills/planetary-ball-mill-pm-400/) — Official PM400 model page main instrument image; PM400 is the four-station floor model.
 
 **Related records:** `M12-06` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-59C2030D695FA179
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu photograph of the DSC-60A Plus with built-in autosampler.
+
+- Source: [Photo match for Shimadzu DSC-60A Plus](https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-10` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-5AEE00560A6A0E35
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** TOB New Energy product photograph for TOB-DF-160.
+
+- Source: [Photo match for TOB New Energy TOB-DF-160](https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-05` (equipment), `M144` (equipment_class)
+
+
+## IMG-EV-5D8000BA70B5BF70
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Arbin product image of the LBT21084 benchtop unit.
+
+- Source: [Photo match for Arbin LBT21084](https://www.arbin.com/battery-research/lbt-benchtop.html/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-03` (equipment), `M143` (equipment_class)
+
+
+## IMG-EV-5E2E3923BF23C4FA
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Element Machinery product photograph illustrating its 2 High rolling mill line.
+
+- Source: [Photo match for Element Machinery 2 High Rolling Mill](https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M145-07` (equipment), `M145` (equipment_class)
+
+
+## IMG-EV-5E9E759828E4120D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-II-VC-FH.
+
+- Source: [Photo match for MTI MSK-AFA-II-VC-FH](https://mtixtl.com/products/msk-afa-ii-vc-fh) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-04` (equipment), `M142` (equipment_class)
 
 
 ## IMG-EV-5F6A88020C61051A
@@ -6298,6 +6610,32 @@ The linked source presents an instrument photograph matched to ZEISS GeminiSEM 5
 **Related records:** `M38-10` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
 
 
+## IMG-EV-658D8C71F0A1405B
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron catalog photo from the ElectroPuls E3000 page for the Linear-Torsion version.
+
+- Source: [Photo match for Instron ElectroPuls E3000 Linear-Torsion](https://www.directindustry.com/prod/instron/product-18463-1662832.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-05` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-6721E4652A85C1CD
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu photograph of the AGX-V2 series.
+
+- Source: [Photo match for Shimadzu Autograph AGX-V2 Series](https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-06` (equipment), `M139` (equipment_class)
+
+
 ## IMG-EV-6BF423C5EAA695FF
 
 The reviewed listing presents this instrument photograph.
@@ -6324,6 +6662,32 @@ The linked source presents an instrument photograph matched to RETSCH PM 100 (ex
 **Related records:** `M12-04` (equipment), `M12` (equipment_class), `P07` (process), `P41` (process)
 
 
+## IMG-EV-6FA753B489AFEC6E
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Durston product photograph for DRM F130R, SKU 1026.
+
+- Source: [Photo match for Durston DRM F130R](https://durston.com/product/drm-f130r/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M145-05` (equipment), `M145` (equipment_class)
+
+
+## IMG-EV-70007D13D3997A06
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Model-matched Q2000 seller photograph of a different unit. The listing is sold out and provides media only.
+
+- Source: [Photo match for TA Instruments Q2000 DSC](https://spwindustrial.com/ta-instruments-dsc-q2000-differential-scanning-calorimeter/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-01` (equipment), `M141` (equipment_class)
+
+
 ## IMG-EV-72675B1162B898EE
 
 The linked source presents an instrument photograph matched to Thermo Scientific Talos F200X G2 (exact model).
@@ -6335,6 +6699,45 @@ The linked source presents an instrument photograph matched to Thermo Scientific
 - Source: [Thermo Scientific instrument photograph / catalog entry](https://enif.unl.edu/talos-f200x-g2/) — UNL Electron Nanoscopy Instrumentation Facility page heading is Talos F200X G2 Scanning TEM; instrument image immediately follows the instrument description. Current page says Coming Soon, so photo does not establish an installed asset.
 
 **Related records:** `M39-07` (equipment), `M39` (equipment_class), `P01` (process), `P03` (process), `P07` (process), `P08` (process), `P09` (process), `P10` (process), `P12` (process)
+
+
+## IMG-EV-72EB7543EA59DBAC
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Questpair photograph for Discovery DSC25.
+
+- Source: [Photo match for TA Instruments Discovery DSC 25](https://questpair.com/calorimeters/ta-instruments/discovery-dsc25/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-02` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-7511D0EEC98A4181
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** University of Southampton photo showing its ElectroPuls equipment, including the E10000. The photo covers the family of configurations.
+
+- Source: [Photo match for Instron ElectroPuls E10000](https://www.southampton.ac.uk/engineering/research/facilities/360/tsrl_360.page) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-06` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-756126D114E45DAA
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** ICI's photograph of its used Cambridge NanoTech Fiji F200. Seller unit at a different location than the Purdue installation.
+
+- Source: [Photo match for Cambridge NanoTech Fiji 200 ALD](https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M22-03` (equipment), `M22` (equipment_class)
 
 
 ## IMG-EV-75C6C6066D341C4B
@@ -6350,6 +6753,19 @@ MSE Supplies presents a model-matched product image for IKA OVEN 125 basic dry g
 **Related records:** `GAP-20261016-M71-IKA-OVEN-125-BASIC-DRY-GLASS` (equipment), `M71` (equipment_class), `P15` (process), `P31` (process), `P37` (process), `P38` (process)
 
 
+## IMG-EV-778D51BF74F983EC
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-HDS-150.
+
+- Source: [Photo match for MTI MSK-AFA-HDS-150](https://mtixtl.com/products/msk-afa-hds-150) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-05` (equipment), `M142` (equipment_class)
+
+
 ## IMG-EV-77946113A2408233
 
 The linked source presents an instrument photograph matched to Hitachi SU3900 (exact model).
@@ -6361,6 +6777,19 @@ The linked source presents an instrument photograph matched to Hitachi SU3900 (e
 - Source: [Hitachi instrument photograph / catalog entry](https://www.millersville.edu/emlab/equipment.php) — Millersville equipment catalog identifies Hitachi SU3900 Scanning Electron Microscope and the image alt text uses that exact model name.
 
 **Related records:** `M38-07` (equipment), `M38` (equipment_class), `P05` (process), `P06` (process), `P07` (process), `P11` (process)
+
+
+## IMG-EV-78326ECBB96708E2
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-EC150.
+
+- Source: [Photo match for MTI MSK-AFA-EC150](https://mtixtl.com/products/msk-afa-ec150) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-08` (equipment), `M142` (equipment_class)
 
 
 ## IMG-EV-793CD71E0FE2F9D9
@@ -6389,6 +6818,19 @@ The linked source presents an instrument photograph matched to SUSS MA/BA6 Gen4 
 **Related records:** `M58-01` (equipment), `M58` (equipment_class), `P06` (process)
 
 
+## IMG-EV-7B83703EDEDA5BA1
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Landt Instruments photograph of CT3002A, from a page that also covers CT3002AU.
+
+- Source: [Photo match for Landt Instruments CT3002A](https://landtinst.com/battery-test-system-ct3002a/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-10` (equipment), `M143` (equipment_class)
+
+
 ## IMG-EV-7BD764395E27536D
 
 The reviewed listing presents this instrument photograph.
@@ -6413,6 +6855,19 @@ The Labmate selected-model page presents this model-specific product image.
 - Source: [Planetary Ball Mill LMPBM-A100](https://www.labmate.com/planetary-ball-mill/a100) — Selected model gallery and Product image; visually reviewed
 
 **Related records:** `CAT-LABMATE-LMPBM-A100` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-7D6B64B6B6990F1D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public Purdue Electron Microscopy facility photograph of its Quanta 650 FEG.
+
+- Source: [Photo match for FEI Quanta 650 FEG](https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M38-06` (equipment), `M38` (equipment_class)
 
 
 ## IMG-EV-7F7D74E631124C20
@@ -6441,6 +6896,45 @@ Manufacturer catalog presents this model-matched image for ARL PERFORM'X.
 **Related records:** `EXT-M98-8E4E40371455` (equipment), `M98` (equipment_class)
 
 
+## IMG-EV-832E540233D000C7
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Maccor Series 4000 product photo. Channel and rack configuration varies.
+
+- Source: [Photo match for Maccor Series 4000](https://www.maccor.com/cell-battery-module-test-systems.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-07` (equipment), `M143` (equipment_class)
+
+
+## IMG-EV-8A08D3EC50CBBE8C
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** ZwickRoell ProLine universal testing machine. Fixtures and force configuration may vary.
+
+- Source: [Photo match for ZwickRoell ProLine](https://www.zwickroell.com/de/produkte/statische-material-pruefmaschinen/universalpruefmaschinen-fuer-statische-anwendungen/proline/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-07` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-8D3EA2E93E610ACA
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Phenom Pro photo used to illustrate the Phenom Desktop SEM family. The Purdue MSE installation does not have a documented submodel.
+
+- Source: [Photo match for Thermo Scientific Phenom Desktop SEM (Purdue MSE configuration)](https://sfr.ca/pages/phenom_desktop_sem) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M38-01` (equipment), `M38` (equipment_class)
+
+
 ## IMG-EV-8D4548721A4A3AE8
 
 The linked source presents an instrument photograph matched to Inovenso NE100 (exact model existing category).
@@ -6452,6 +6946,45 @@ The linked source presents an instrument photograph matched to Inovenso NE100 (e
 - Source: [Inovenso instrument photograph / catalog entry](https://www.inovenso.com/lab-scale-electrospinning-machine/) — Same exact manufacturer/model already has this sourced photo in category M26 (M26-07); reused across its electrospraying association.
 
 **Related records:** `M47-07` (equipment), `M47` (equipment_class)
+
+
+## IMG-EV-90B0EB48066AD544
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.
+
+- Source: [Photo match for NETZSCH DSC 300 Caliris Supreme](https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-07` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-912EC047B8628EEB
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-III. Heating options vary.
+
+- Source: [Photo match for MTI MSK-AFA-III](https://mtixtl.com/products/msk-afa-iii) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-02` (equipment), `M142` (equipment_class)
+
+
+## IMG-EV-91E895F600FD5952
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Iowa State laboratory photograph of the TA Instruments Q50 TGA. This unit is at Iowa State.
+
+- Source: [Photo match for TA Instruments Q50 TGA](https://www.mse.iastate.edu/research/research-and-teaching-laboratories/lab-equipment/thermal-analysis-equipment/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M42-01` (equipment), `M42` (equipment_class)
 
 
 ## IMG-EV-926EEBC21AAE8F60
@@ -6480,6 +7013,32 @@ Manufacturer catalog presents this representative family image for Thermo Scient
 **Related records:** `M46-03` (equipment), `M46` (equipment_class)
 
 
+## IMG-EV-9312160743E5185D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** MTI product photograph for MSK-PN110-S.
+
+- Source: [Photo match for MTI MSK-PN110-S](https://mtixtl.com/products/msk-pn110-s) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-06` (equipment), `M144` (equipment_class)
+
+
+## IMG-EV-9497E3AD80424C67
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** BT-2000 photograph displayed beside the Purdue Zhu Lab description of its two installed BT-2000 systems.
+
+- Source: [Photo match for Arbin BT-2000](https://engineering.purdue.edu/lzhu/facilities.htm) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-01` (equipment), `M143` (equipment_class)
+
+
 ## IMG-EV-9833B6EA37967C38
 
 The linked source presents an instrument photograph matched to IKA RET control-visc (exact model).
@@ -6493,6 +7052,32 @@ The linked source presents an instrument photograph matched to IKA RET control-v
 **Related records:** `M02-05` (equipment), `M02` (equipment_class), `P04` (process), `P05` (process), `P06` (process), `P08` (process), `P09` (process), `P10` (process), `P11` (process), `P18` (process)
 
 
+## IMG-EV-98BBFF6720F5184C
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Unicam product photo for Discovery DSC 250 with its cooling accessory.
+
+- Source: [Photo match for TA Instruments Discovery DSC 250](https://unicam.hu/termekeink/termoanalitika/dsc/dsc-250/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-03` (equipment), `M141` (equipment_class)
+
+
+## IMG-EV-9A0BC9A0631BC3D1
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** MTI's regional storefront photograph of the 110-A single-channel automatic assembly system.
+
+- Source: [Photo match for MTI MSK-110-A](https://mti-indonesia.com/products/msk-110-a) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-03` (equipment), `M144` (equipment_class)
+
+
 ## IMG-EV-9B88D99450A39D63
 
 The linked source presents an instrument photograph matched to IKA EUROSTAR 40 digital (exact model).
@@ -6504,6 +7089,32 @@ The linked source presents an instrument photograph matched to IKA EUROSTAR 40 d
 - Source: [IKA instrument photograph / catalog entry](https://www.axel-gl.com/en/asone/d/1-9943-21/) — Product title EUROSTAR 40 digital, order 1-9943-21, JAN4053411053833, 25 L / 40 Ncm. Image appears explicitly in product-variation row for this exact model.
 
 **Related records:** `M03-04` (equipment), `M03` (equipment_class)
+
+
+## IMG-EV-9D9CC26966EDF697
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Florida Tech laboratory photograph of its ElectroPuls E3000.
+
+- Source: [Photo match for Instron ElectroPuls E3000](https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-04` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-9DD001B0ADF6A12B
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** AllroundLine family illustrated by the seller's Z005 TN, 5 kN configuration.
+
+- Source: [Photo match for ZwickRoell AllroundLine](https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-10` (equipment), `M139` (equipment_class)
 
 
 ## IMG-EV-A2F3EA2E51D9D099
@@ -6545,6 +7156,19 @@ Manufacturer catalog presents this model-matched image for Thermo Scientific Evo
 **Related records:** `M35-03` (equipment), `M35` (equipment_class)
 
 
+## IMG-EV-A5E513BE53A35585
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Elcometer USA product photo for the 4340 applicator.
+
+- Source: [Photo match for Elcometer 4340 Motorised Film Applicator](https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-09` (equipment), `M142` (equipment_class)
+
+
 ## IMG-EV-A6E235894B0EB066
 
 MSE Supplies presents a model-matched product image for Kinematica Kinematica POLYTRON PT 10-35 GT.
@@ -6584,6 +7208,32 @@ Manufacturer catalog presents this representative family image for Thermo Scient
 **Related records:** `M36-07` (equipment), `M36` (equipment_class)
 
 
+## IMG-EV-A7D492FBF5AAA525
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public National Yang Ming Chiao Tung University photo for its E10000 Linear-Torsion.
+
+- Source: [Photo match for Instron ElectroPuls E10000 Linear-Torsion](https://www.nycu.edu.tw/ord/en/app/machine/view?id=2042&module=machine&serno=6d828d02-1e3a-4dc0-bbe4-2e62a837a6a9) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-07` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-A98A5A782239BB94
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** NETZSCH product photo of DSC 300 Caliris Classic.
+
+- Source: [Photo match for NETZSCH DSC 300 Caliris Classic](https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta/dsc-300-caliris-classic) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M141-05` (equipment), `M141` (equipment_class)
+
+
 ## IMG-EV-AFDB04AE87EE3FE5
 
 The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 classic line (product family).
@@ -6595,6 +7245,32 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 - Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/milling/planetary-mills/details/product/pulverisette-54-classic-line/) — Canonical PULVERISETTE5 classic line does not specify two or four stations. Photo is the official PULVERISETTE5/4 classic line with four stations, a representative variant of that family; not claimed as an exact station-count match.
 
 **Related records:** `M12-07` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-B1AF71BE300B19EE
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Exacolor photograph of the BYK byko-drive XL V vacuum plate configuration.
+
+- Source: [Photo match for BYK Instruments byko-drive XL V](https://www.exacolor.mx/products/byko-drive-xl-v-con-placa-de-vacio) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-10` (equipment), `M142` (equipment_class)
+
+
+## IMG-EV-B4889232070B672D
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Exact MSK-110 product photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.
+
+- Source: [Photo match for MTI MSK-110](https://engineering.purdue.edu/lzhu/facilities.htm) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-01` (equipment), `M144` (equipment_class)
 
 
 ## IMG-EV-B52E5E297A150495
@@ -6662,6 +7338,19 @@ MSE Supplies presents a model-matched product image for IKA IKA RV 8.
 **Related records:** `M16-10` (equipment), `M16` (equipment_class), `P04` (process)
 
 
+## IMG-EV-BB47249C7F949A11
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** MTI product photograph of MSK-160E.
+
+- Source: [Photo match for MTI MSK-160E](https://mtixtl.com/products/msk-160e) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M144-02` (equipment), `M144` (equipment_class)
+
+
 ## IMG-EV-BD43B46167C8D66A
 
 Manufacturer catalog presents this representative family image for Thermo Scientific Vacutherm VT 6060.
@@ -6712,6 +7401,58 @@ The linked source presents an instrument photograph matched to IKA T 25 digital 
 - Source: [IKA instrument photograph / catalog entry](https://www.directindustry.com/prod/ika/product-28268-2656727.html) — Exact title T25 digital ULTRA-TURRAX; description matches official IKA 0003725001 drive page, 1-2000mL, 3000-25000rpm.
 
 **Related records:** `M11-04` (equipment), `M11` (equipment_class), `P29` (process)
+
+
+## IMG-EV-C15848FEB92D4859
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Exact model photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.
+
+- Source: [Photo match for MTI MSK-HPR-MR100A](https://engineering.purdue.edu/lzhu/facilities.htm) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M67-01` (equipment), `M67` (equipment_class)
+
+
+## IMG-EV-C364425A672C0C1E
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Henry Royce Institute photograph of the Royce-configured FENN reversing hot rolling mill.
+
+- Source: [Photo match for FENN Reversing Hot Rolling Mill (Royce configuration)](https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M145-03` (equipment), `M145` (equipment_class)
+
+
+## IMG-EV-C44F8BA739C8D728
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu photograph of the AGS-X series.
+
+- Source: [Photo match for Shimadzu Autograph AGS-X Series](https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-09` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-C687C10EE915D336
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.
+
+- Source: [Photo match for BioLogic BCS-815](https://www.instrument.com.cn/show/C262941.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-06` (equipment), `M143` (equipment_class)
 
 
 ## IMG-EV-C82F591B732054FC
@@ -6766,6 +7507,19 @@ The Labmate selected-model page presents this model-specific product image.
 **Related records:** `CAT-LABMATE-LMPT-304` (equipment), `M63` (equipment_class), `P33` (process)
 
 
+## IMG-EV-D6637B02AEF7DE30
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Guangxi Medical University laboratory photo. The instrument label identifies the E1000.
+
+- Source: [Photo match for Instron ElectroPuls E1000](https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-03` (equipment), `M140` (equipment_class)
+
+
 ## IMG-EV-D6D9DAAE9693B146
 
 MSE Supplies presents a model-matched product image for IKA OVEN 125 control dry.
@@ -6818,6 +7572,19 @@ The Labmate selected-model page presents this model-specific product image.
 **Related records:** `CAT-LABMATE-LMPT-303` (equipment), `M63` (equipment_class), `P33` (process)
 
 
+## IMG-EV-E22B24AD7D3BB4D5
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron 6800 single-column frame. Force rating shown is unconfirmed.
+
+- Source: [Photo match for Instron 68SC-5](https://instron-romania.com/seria-6800/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-01` (equipment), `M139` (equipment_class)
+
+
 ## IMG-EV-E2EF02317488BBC8
 
 The linked source presents an instrument photograph matched to FRITSCH PULVERISETTE 5 premium line (exact model).
@@ -6829,6 +7596,19 @@ The linked source presents an instrument photograph matched to FRITSCH PULVERISE
 - Source: [FRITSCH instrument photograph / catalog entry](https://www.fritsch-international.com/sample-preparation/overview/details/product/pulverisette-5-premium-line/) — Official PULVERISETTE5 premium model page first gallery image; page title identifies 5 premium and gallery shows the opened mill.
 
 **Related records:** `M12-08` (equipment), `M12` (equipment_class), `P07` (process)
+
+
+## IMG-EV-E523AFDA62904915
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.
+
+- Source: [Photo match for Shimadzu Servopulser EHF-EV101k1](https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-09` (equipment), `M140` (equipment_class)
 
 
 ## IMG-EV-E712DB00AA797895
@@ -6843,6 +7623,19 @@ The existing manufacturer-hosted VR-6000 series photograph is still available. T
 - Source: [KEYENCE VR-6000 catalog download](https://www.keyence.com/download/download/confirmation/?dlAssetId=AS_166657&dlSeriesId=&dlModelId=&dlLangId=&dlLangType=en-US) — AS_166657; 7 MB in directory; business-email/sign-in step required
 
 **Related records:** `REQ-EQ-010` (equipment), `X-MET` (equipment_class)
+
+
+## IMG-EV-E8184D442412BF31
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public Purdue ViPER photograph of its automatic film coater.
+
+- Source: [Photo match for MTI Automatic Film Coater (ViPER configuration)](https://engineering.purdue.edu/ViPER/lab.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-01` (equipment), `M142` (equipment_class)
 
 
 ## IMG-EV-E9D6D690A2083BC6
@@ -6884,6 +7677,19 @@ The linked source presents an instrument photograph matched to IKA T 18 digital 
 **Related records:** `M11-01` (equipment), `M11` (equipment_class)
 
 
+## IMG-EV-EC65EE3786F4CAF4
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Maccor Series 4300 product photo.
+
+- Source: [Photo match for Maccor Series 4300](https://www.maccor.com/desktop-battery-testers.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-08` (equipment), `M143` (equipment_class)
+
+
 ## IMG-EV-F1F48A4C68A37F51
 
 The linked source presents an instrument photograph matched to Hitachi SU5000 (exact model).
@@ -6908,6 +7714,19 @@ MSE Supplies presents a model-matched product image for IKA IKA RV 3.
 - Source: [MSE Supplies IKA RV 3](https://www.msesupplies.com/products/ika-rv-3-v-rotary-evaporators-300-rpm-99-c) — Model-specific product gallery; visually reviewed
 
 **Related records:** `M16-09` (equipment), `M16` (equipment_class), `P04` (process)
+
+
+## IMG-EV-F4C7674EA93D335B
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer photograph of MSK-AFA-L1000. Heating options vary.
+
+- Source: [Photo match for MTI MSK-AFA-L1000](https://mtixtl.com/products/msk-afa-l1000) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M142-07` (equipment), `M142` (equipment_class)
 
 
 ## IMG-EV-F54CE8F9E5383DC1
@@ -6936,6 +7755,45 @@ The reviewed listing presents this instrument photograph.
 **Related records:** `M16-05` (equipment), `M16` (equipment_class)
 
 
+## IMG-EV-F8F0A04787E6CBB9
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Public Purdue Chawla Research Group photo of its Acumen 3 kN installation.
+
+- Source: [Photo match for MTS Acumen 3 kN](https://engineering.purdue.edu/ChawlaResGroup/research/facilities) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M140-02` (equipment), `M140` (equipment_class)
+
+
+## IMG-EV-F92B60B505CB47EB
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Manufacturer exhibitor listing photograph for the MTS Criterion Series 40.
+
+- Source: [Photo match for MTS Criterion Series 40](https://www.chinaplasonline.com/eMarketplace/productinfo/eng?ActionLink=true&compid=1023865&seqid=10105) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-08` (equipment), `M139` (equipment_class)
+
+
+## IMG-EV-F9EBCE0F6BD09F1E
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.
+
+- Source: [Photo match for Instron 68FM-300](https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M139-05` (equipment), `M139` (equipment_class)
+
+
 ## IMG-EV-FE25180C77C6C300
 
 The reviewed listing presents this instrument photograph.
@@ -6947,6 +7805,19 @@ The reviewed listing presents this instrument photograph.
 - Source: [American Instrument Exchange via LabX](https://www.labx.com/item/polyscience-ad07r-20-a12e/DIS-40039-SKU1495MMCIRC) — Model title and listing gallery; visually reviewed
 
 **Related records:** `M33-10` (equipment), `M33` (equipment_class)
+
+
+## IMG-EV-FF42662CB55022C2
+
+The linked source presents this equipment photograph.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-15
+
+**Scope:** The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.
+
+- Source: [Photo match for BioLogic BCS-805](https://www.instrument.com.cn/show/C262941.html) — Product, lab equipment entry or seller photograph
+
+**Related records:** `ACAD-M143-04` (equipment), `M143` (equipment_class)
 
 
 ## PRICE-EV-0004D012C741ECB9
@@ -6973,6 +7844,19 @@ Darwin Microfluidics publishes USD 329.6 for SYLGARD 184 two-part PDMS kit, SKU 
 - Source: [Darwin Microfluidics product price](https://us.darwin-microfluidics.com/products/sylgard-184-pdms-elsatomer) — DO-SYL184-11 tile; 1.1kg two-component kit; single-kit price.
 
 **Related records:** `CMP-OFFER-9AA8A445574A` (component_offer), `sylgard184-base` (component)
+
+
+## PRICE-EV-01D81D0B4F698B84
+
+ICI Equipment publishes USD 137500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.
+
+- Source: [Fiji 200 ALD asking price](https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M22-03` (equipment), `M22` (equipment_class), `SELL-ACAD261115-E1C941922B449472` (seller_offer)
 
 
 ## PRICE-EV-01EBEF1B2646529E
@@ -7107,6 +7991,19 @@ MSE Supplies publishes USD 506.95 for MSE PRO 99.99% 4N Gallium (Ga) Metal, SKU 
 - Source: [MSE Supplies product price](https://www.msesupplies.com/products/mse-pro-99-99-4n-gallium-ga-metal?variant=40553591570490) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
 
 **Related records:** `PACK-MSE261019-931F52C2853040C0` (component_offer), `ucla-gallium-source` (component)
+
+
+## PRICE-EV-062B7136C68CF447
+
+MTI publishes USD 4298 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Vacuum-chuck sheet film coater with 250 mm doctor blade.
+
+- Source: [MSK-AFA-II-VC published price](https://mtixtl.com/products/msk-afa-ii-vc) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-03` (equipment), `M142` (equipment_class)
 
 
 ## PRICE-EV-06372C0601D52CE8
@@ -8144,6 +9041,19 @@ Thermo Fisher Scientific publishes USD 119.0 for Cyclohexane, 99.8%, for HPLC, S
 **Related records:** `PACK-THERMO261019-CFE288233C025EC0` (component_offer), `cyclohexane` (component)
 
 
+## PRICE-EV-2BB039AF2645C1D3
+
+MTI publishes USD 3998 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** No Heating base configuration. The manufacturer also publishes heated configurations.
+
+- Source: [MSK-AFA-III starting price](https://mtixtl.com/products/msk-afa-iii) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-02` (equipment), `M142` (equipment_class)
+
+
 ## PRICE-EV-2BD1F315346DB32C
 
 US Research Nanomaterials, Inc. publishes USD 208.0 for US Nano US4101 SWCNTs, dry, SKU US4101, pack 1.0 g (published_price; new).
@@ -8366,6 +9276,19 @@ US Research Nanomaterials, Inc. publishes USD 575.0 for US Nano US1149M Natural 
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34299) — Matching displayed price/pack and exact named form/size selector: 1kg-10um Natural Graphite (add $575). Existing material identity retained; no inferred density or pack conversion.
 
 **Related records:** `PACK-USNANO261018-553291A7160C508E` (component_offer), `usnano-us1149m-natural-graphite10um` (component)
+
+
+## PRICE-EV-3C043E5AB29EAC12
+
+MTI publishes USD 3598 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** MSK-160E electric crimper package with 100 pairs of coin-cell cases.
+
+- Source: [MSK-160E published price](https://mtixtl.com/products/msk-160e) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M144-02` (equipment), `M144` (equipment_class)
 
 
 ## PRICE-EV-3D48D98353FDCC5B
@@ -8798,6 +9721,32 @@ MilliporeSigma publishes USD 251 for SKU 270725-4L, 4000 mL of Acetone, suitable
 - Source: [MilliporeSigma product pack offer](https://www.sigmaaldrich.com/US/en/product/sigald/270725) — Select a Size table, SKU row; opened web
 
 **Related records:** `acetone-hplc` (component), `PACK-PRICE261018-5E524081E35102EA` (component_offer), `P23-LITERATURE-20261017-C06` (formulation_component), `P23` (process)
+
+
+## PRICE-EV-4958EC72C68B9826
+
+Amikon publishes EUR 32500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.
+
+- Source: [AllroundLine asking price](https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M139-10` (equipment), `M139` (equipment_class), `SELL-ACAD261115-41E4A94B0FE3E5F4` (seller_offer)
+
+
+## PRICE-EV-49697D1CAB3341C8
+
+MTI publishes USD 12995 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985.
+
+- Source: [MSK-AFA-L1000 starting price](https://mtixtl.com/products/msk-afa-l1000) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-07` (equipment), `M142` (equipment_class)
 
 
 ## PRICE-EV-498E73F4D66DFD17
@@ -9639,6 +10588,19 @@ Akina / PolySciTech publishes USD 225 for PolySciTech AI078 PLGA-PEG-COOH20k:5k,
 **Related records:** `CMP-OFFER-2905C3AAD141` (component_offer), `plga-peg-cooh-ai078` (component)
 
 
+## PRICE-EV-6DE4AB430E4E3ECF
+
+MTI publishes USD 26998 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price.
+
+- Source: [MSK-AFA-EC150 published price](https://mtixtl.com/products/msk-afa-ec150) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-08` (equipment), `M142` (equipment_class)
+
+
 ## PRICE-EV-6E830A1F91BBFFC4
 
 MSE Supplies publishes USD 72.95 for MSE PRO GaAs Gallium Arsenide Crystal Substrates, SKU SU1705, pack 1 piece.
@@ -9716,6 +10678,19 @@ Lab Alley publishes USD 495.99 for Hydrofluoric Acid 48% Solution (48–51%), AC
 - Source: [Lab Alley product price](https://www.laballey.com/products/hydrofluoric-acid-48-reagent?selected=C4358-4L) — Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.
 
 **Related records:** `PACK-PRICE261018-14A207912560EFD9` (component_offer), `hydrofluoric-acid-48pct` (component)
+
+
+## PRICE-EV-71213A626FAC5416
+
+MTI publishes USD 2980 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Fast pneumatic crimper, listed by MTI as MSKPN110S.
+
+- Source: [MSK-PN110-S published price](https://mtixtl.com/products/msk-pn110-s) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M144-06` (equipment), `M144` (equipment_class)
 
 
 ## PRICE-EV-7490B8F8FE5156CE
@@ -9898,6 +10873,19 @@ Thermo Fisher Scientific displays USD 147.65 for Acetonitrile, 99.9%, for HPLC, 
 - Source: [Thermo Fisher Scientific: Acetonitrile, 99.9%, for HPLC, far UV, conform Eur.Ph. pack price](https://www.thermofisher.com/order/catalog/product/268260010) — US product page: selected SKU, Quantity, Price (USD), Add to cart. Promotion terms retained in notes.
 
 **Related records:** `acetonitrile-99` (component), `PACK-THERMO261019-1481678FFDC5BE09` (component_offer)
+
+
+## PRICE-EV-7AEC352DC908E875
+
+MTI publishes USD 2359 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model.
+
+- Source: [MSK-110 published price](https://mtixtl.com/products/msk-110) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M144-01` (equipment), `M144` (equipment_class)
 
 
 ## PRICE-EV-7B07582D69E10217
@@ -10453,6 +11441,19 @@ US Research Nanomaterials, Inc. publishes USD 39.0 for US Nano US4300 MWCNTs, dr
 **Related records:** `PACK-USNANO261018-8B14B431BDADCB90` (component_offer), `usnano-us4300-mwcnt-dry` (component)
 
 
+## PRICE-EV-943AE4DC4A615A12
+
+Elcometer publishes USD 7249 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate.
+
+- Source: [4340 Motorised Film Applicator published price](https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-09` (equipment), `M142` (equipment_class)
+
+
 ## PRICE-EV-946B861010CEF85B
 
 Labmate publishes USD 13250.0 per pack of 1 for Potentiometric Titrator LMPT-304.
@@ -10689,6 +11690,19 @@ US Research Nanomaterials, Inc. publishes USD 98.0 for US Nano US1153M Boron nit
 **Related records:** `PACK-USNANO261018-D31B1573BC074A20` (component_offer), `usnano-us1153m-bn300nm` (component)
 
 
+## PRICE-EV-9F29E10FFCEBE17D
+
+Durston publishes USD 1629.25 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges.
+
+- Source: [DRM F130R published price](https://durston.com/product/drm-f130r/) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M145-05` (equipment), `M145` (equipment_class)
+
+
 ## PRICE-EV-9F7386A5866A12A2
 
 US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron nitride powder, nominal 5 µm diameter, thickness 80nm, SKU US1153M, pack 500 g (published_price; new).
@@ -10700,6 +11714,19 @@ US Research Nanomaterials, Inc. publishes USD 298.0 for US Nano US1153M Boron ni
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/34301) — Matching displayed price/pack and exact named form/size selector: 500g--thickness-80nm (add $298). Existing material identity retained; no inferred density or pack conversion.
 
 **Related records:** `PACK-USNANO261018-967C96B712E2350A` (component_offer), `usnano-us1153m-bn80nm` (component)
+
+
+## PRICE-EV-A01C502CC6D1EE1E
+
+Profcontrol publishes EUR 18445 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.
+
+- Source: [Discovery DSC 25 asking price](https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M141-02` (equipment), `M141` (equipment_class), `SELL-ACAD261115-47BCCB693ABF9120` (seller_offer)
 
 
 ## PRICE-EV-A02556D9BACD635C
@@ -10805,6 +11832,19 @@ Ibis Scientific publishes USD 62.3 for Sodium hydroxide pellets, SKU LC239001, p
 - Source: [Ibis Scientific product price](https://www.ibisscientific.com/sodium-hydroxide-acs-pellets-500g/) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
 
 **Related records:** `CMP-OFFER-F1DEB5545495` (component_offer), `naoh-solid` (component)
+
+
+## PRICE-EV-A2D69CCF9CFA6CB4
+
+buyhitek via eBay publishes USD 25000 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.
+
+- Source: [ElectroPuls E3000 asking price](https://www.ebay.com/itm/277675173502) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M140-04` (equipment), `M140` (equipment_class), `SELL-ACAD261115-49C8198E1739410D` (seller_offer)
 
 
 ## PRICE-EV-A3DAA79FDBEBF1E6
@@ -11264,6 +12304,19 @@ TCI America publishes USD 48 for 1-Octadecene, SKU O0008-500ML, pack 500 mL (pub
 **Related records:** `CMP-OFFER-55BA3CFDBC6D` (component_offer), `1-octadecene` (component)
 
 
+## PRICE-EV-B5773DA18FF55424
+
+Durston publishes USD 2368.73 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges.
+
+- Source: [DRM F150RE published price](https://durston.com/product/drm-f150re/) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M145-06` (equipment), `M145` (equipment_class)
+
+
 ## PRICE-EV-B5E1F3A059DFDC43
 
 TCI America publishes USD 52 for Titanium(IV) butoxide (tetrabutyl orthotitanate), SKU B0742-500G, pack 500 g (published_price; new).
@@ -11369,6 +12422,19 @@ TEquipment publishes USD 532 for Thermo Scientific LP Vortex Mixer (list_price; 
 **Related records:** `M50-10` (equipment), `M50` (equipment_class), `P04` (process), `P10` (process), `P12` (process), `SELL-PRICE261018-E6ECCBDDCB8E5930` (seller_offer)
 
 
+## PRICE-EV-B9C0F083939E5872
+
+MTI publishes USD 10985 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price.
+
+- Source: [MSK-AFA-H200A published price](https://mtixtl.com/products/msk-afa-h200a) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-06` (equipment), `M142` (equipment_class)
+
+
 ## PRICE-EV-B9D95D676D5DC0F1
 
 Fisher Scientific UK publishes GBP 3751 for Atlas Manual 15T (published_price; new).
@@ -11433,6 +12499,19 @@ Lab Alley publishes USD 112.36 for Silver Nitrate Crystals ACS Reagent Grade, SK
 - Source: [Lab Alley product price](https://www.laballey.com/products/silver-nitrate-crystal-anhydrous-acs?selected=SINIGA-5G) — Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.
 
 **Related records:** `CMP-OFFER-F78928D93AE5` (component_offer), `silver-nitrate` (component)
+
+
+## PRICE-EV-BC140376EE68DC41
+
+WireJewelry publishes USD 1423 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.
+
+- Source: [DRM F130R sale price](https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M145-05` (equipment), `M145` (equipment_class), `SELL-ACAD261115-679F80BA52FB5B1D` (seller_offer)
 
 
 ## PRICE-EV-BC43BB8341E11B3C
@@ -11761,6 +12840,19 @@ Thermo Fisher Scientific publishes USD 79.9 for Dichloromethane, 99.8%, for HPLC
 - Source: [Thermo Fisher Scientific product price](https://www.thermofisher.com/order/catalog/product/364230010) — Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.
 
 **Related records:** `PACK-THERMO261019-27952901F73A0006` (component_offer), `dichloromethane-99p8` (component)
+
+
+## PRICE-EV-C85854AC4D19442E
+
+MTI publishes USD 7695 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price.
+
+- Source: [MSK-AFA-II-VC-FH published price](https://mtixtl.com/products/msk-afa-ii-vc-fh) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-04` (equipment), `M142` (equipment_class)
 
 
 ## PRICE-EV-C8624D8FDDED372B
@@ -12236,6 +13328,19 @@ Lab Alley publishes USD 58.88 for Tannic Acid Lab Grade, SKU C8121-100g, pack 10
 **Related records:** `CMP-OFFER-8225CEB56150` (component_offer), `tannic-acid` (component)
 
 
+## PRICE-EV-DBF5D9EA67E78AF8
+
+YellowChoo via eBay publishes USD 4299.99 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.
+
+- Source: [Series 4000 asking price](https://www.ebay.com/itm/188103355473) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M143-07` (equipment), `M143` (equipment_class), `SELL-ACAD261115-1926E92F3EDECAC4` (seller_offer)
+
+
 ## PRICE-EV-DC322A688E1CC628
 
 US Research Nanomaterials, Inc. publishes USD 2800.0 for US Nano US7906 graphene oxide, 1 wt% aqueous dispersion, SKU US7906, pack 100.0 mL (published_price; new).
@@ -12377,6 +13482,19 @@ Krackeler Scientific publishes USD 57.3 for SKU 45-403148-50G, 50 g of Magnesium
 - Source: [Krackeler Scientific product pack offer](https://www.krackeler.com/catalog/sigma/ALDRICH/403148) — Krackeler price table, 45-403148-50G row. Opened .
 
 **Related records:** `magnesium-metal` (component), `PACK-PRICE261018-445E811DB03B33FD` (component_offer), `P35-SOURCE-01-C01` (formulation_component), `P35` (process)
+
+
+## PRICE-EV-E141601754B54EEE
+
+MTI publishes USD 15998 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Hybrid film coater with slot die and doctor blade as specified on the manufacturer page.
+
+- Source: [MSK-AFA-HDS-150 published price](https://mtixtl.com/products/msk-afa-hds-150) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M142-05` (equipment), `M142` (equipment_class)
 
 
 ## PRICE-EV-E197A459426B6601
@@ -12643,6 +13761,19 @@ MilliporeSigma publishes USD 747 for SKU 650579-4X4L, 16000 mL of Toluene HPLC P
 **Related records:** `toluene-hplc` (component), `PACK-PRICE261018-ED6EF7B269FD5C8D` (component_offer), `P23-LITERATURE-20261017-C07` (formulation_component), `P23` (process)
 
 
+## PRICE-EV-EC80E5F8A1833421
+
+Bidservice publishes USD 12000 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.
+
+- Source: [BT-2000 asking price](https://bidservice.com/products/used-arbin-instruments-bt-2000) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M143-01` (equipment), `M143` (equipment_class), `SELL-ACAD261115-2FB18047801D8EFE` (seller_offer)
+
+
 ## PRICE-EV-EC9C74AE7DE83E9A
 
 Krackeler Scientific publishes USD 105 for Resomer RG752H PLGA75:25 Mw4,000–15,000, SKU 45-719919-1G, pack 1 g (published_price; new).
@@ -12798,6 +13929,19 @@ US Research Nanomaterials, Inc. publishes USD 108.0 for US Nano US4300 MWCNTs, d
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/215) — Exact previously curated form/size option: 25g (add $108). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-0C365BC9DB5D25F0` (component_offer), `usnano-us4300-mwcnt-dry` (component)
+
+
+## PRICE-EV-F2D54A6AD42263C2
+
+Exapro publishes EUR 35500 for this configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-15
+
+**Scope:** Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.
+
+- Source: [Discovery DSC 2500 asking price](https://www.exapro.com/ta-instruments-2500-p260707045/) — Model or configuration, published price and offer basis
+
+**Related records:** `ACAD-M141-04` (equipment), `M141` (equipment_class), `SELL-ACAD261115-A9D4F43CCE772185` (seller_offer)
 
 
 ## PRICE-EV-F3DE3D0D205AA504

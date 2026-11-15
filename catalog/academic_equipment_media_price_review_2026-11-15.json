@@ -1,0 +1,2020 @@
+{
+  "schema": "iconpcl-academic-equipment-media-price-review/v1",
+  "checked_date": "2026-11-15",
+  "scope": "71 academic workflow equipment records with Purdue-documented installations reviewed first",
+  "exchange_rate_reference": {
+    "date": "2026-10-16",
+    "source_url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+  },
+  "method": [
+    "Compare institution, manufacturer and established seller pages with the catalog model or documented installation.",
+    "Keep public Purdue facility references distinct from institutional inventory. Remote photo references retain source attribution.",
+    "Label shared model family photos and configured seller offers. A seller price reflects the specified condition, not MSRP.",
+    "Retain the source currency and amount. Convert public display values to USD using the catalog's dated exchange rates.",
+    "Exclude access fees, auction bids, accessories, sold-out and model-mismatched offers from new catalog purchase price evidence."
+  ],
+  "summary": {
+    "all": {
+      "records_reviewed": 71,
+      "records_with_photo": 67,
+      "exact_model_photos": 44,
+      "records_with_price": 20,
+      "published_manufacturer_prices": 13,
+      "seller_offers": 8
+    },
+    "purdue_documented": {
+      "records_reviewed": 16,
+      "records_with_photo": 13,
+      "exact_model_photos": 12,
+      "records_with_price": 3,
+      "published_manufacturer_prices": 1,
+      "seller_offers": 2
+    }
+  },
+  "records": [
+    {
+      "equipment_id": "ACAD-M140-01",
+      "manufacturer": "MTS",
+      "model_name": "Landmark 500 kN (Purdue configuration)",
+      "category_id": "M140",
+      "purdue_installation_source": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/ChawlaResGroup/research/facilities"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+          "observation": "Public facility identifies the 500 kN configuration. No comparable priced 500 kN installation was verified."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-landmark2/Landmark_landscape.jpg",
+        "source_url": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+        "match_scope": "exact_model",
+        "scope": "Public Purdue Chawla Research Group photo of its Landmark 500 kN installation.",
+        "evidence_id": "IMG-EV-164DBADA33A5457D"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-02",
+      "manufacturer": "MTS",
+      "model_name": "Acumen 3 kN",
+      "category_id": "M140",
+      "purdue_installation_source": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/ChawlaResGroup/research/facilities"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.mts.com/en/products/materials/dynamic-materials-test-systems/acumen-electrodynamic",
+          "observation": "The manufacturer describes the configurable Acumen series without a posted purchase price for the 3 kN setup."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-acumen/Acumen_landscape.jpg",
+        "source_url": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+        "match_scope": "exact_model",
+        "scope": "Public Purdue Chawla Research Group photo of its Acumen 3 kN installation.",
+        "evidence_id": "IMG-EV-F8F0A04787E6CBB9"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-01",
+      "manufacturer": "TA Instruments",
+      "model_name": "Q2000 DSC",
+      "category_id": "M141",
+      "purdue_installation_source": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials/Q2000DSC",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials/Q2000DSC"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://spwindustrial.com/ta-instruments-dsc-q2000-differential-scanning-calorimeter/",
+          "observation": "Seller page shows USD 16,560 with Sold Out and Not Available notices. Kept as image evidence only."
+        },
+        {
+          "field": "price",
+          "url": "https://www.machinio.com/listings/117739214-ta-instruments-dsc-q2000-differential-scanning-calorimeter-in-frederick-md",
+          "observation": "USD 17,495 was surfaced in the index. The corresponding result is explicitly unavailable."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://cdn11.bigcommerce.com/s-46jufh/images/stencil/500x659/products/1040307/987674/s-l1600__77625.1612333728.jpg?c=2",
+        "source_url": "https://spwindustrial.com/ta-instruments-dsc-q2000-differential-scanning-calorimeter/",
+        "match_scope": "exact_model",
+        "scope": "Model-matched Q2000 seller photograph of a different unit. The listing is sold out and provides media only.",
+        "evidence_id": "IMG-EV-70007D13D3997A06"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M142-01",
+      "manufacturer": "MTI",
+      "model_name": "Automatic Film Coater (ViPER configuration)",
+      "category_id": "M142",
+      "purdue_installation_source": "https://engineering.purdue.edu/ViPER/lab.html",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/ViPER/lab.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://engineering.purdue.edu/ViPER/lab.html",
+          "observation": "ViPER names the coater without a product SKU. Prices from other MTI configurations were not transferred."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/ViPER/pics/facilities/MTIafc.jpg",
+        "source_url": "https://engineering.purdue.edu/ViPER/lab.html",
+        "match_scope": "exact_model",
+        "scope": "Public Purdue ViPER photograph of its automatic film coater.",
+        "evidence_id": "IMG-EV-E8184D442412BF31"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-01",
+      "manufacturer": "Arbin",
+      "model_name": "BT-2000",
+      "category_id": "M143",
+      "purdue_installation_source": "https://engineering.purdue.edu/lzhu/facilities.htm",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/lzhu/facilities.htm"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/arbin2.jpg",
+        "source_url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+        "match_scope": "exact_model",
+        "scope": "BT-2000 photograph displayed beside the Purdue Zhu Lab description of its two installed BT-2000 systems.",
+        "evidence_id": "IMG-EV-9497E3AD80424C67"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "12000.00",
+          "evidence_id": "PRICE-EV-EC80E5F8A1833421",
+          "equipment_id": "ACAD-M143-01",
+          "manufacturer": "Arbin",
+          "model_name": "BT-2000",
+          "seller_name": "Bidservice",
+          "price_value": "12000",
+          "currency": "USD",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://bidservice.com/products/used-arbin-instruments-bt-2000",
+          "checked_date": "2026-11-15",
+          "scope": "Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.",
+          "offer_id": "SELL-ACAD261115-2FB18047801D8EFE"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M143-02",
+      "manufacturer": "Arbin",
+      "model_name": "64-channel battery cycler (ViPER configuration)",
+      "category_id": "M143",
+      "purdue_installation_source": "https://engineering.purdue.edu/ViPER/lab.html",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/ViPER/lab.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://engineering.purdue.edu/ViPER/lab.html",
+          "observation": "Facility page describes 64 channels without an exact Arbin model and performance configuration. No comparable seller price verified."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/ViPER/pics/facilities/Arbin64.jpg",
+        "source_url": "https://engineering.purdue.edu/ViPER/lab.html",
+        "match_scope": "exact_model",
+        "scope": "Public Purdue ViPER photo of the facility's 64-channel Arbin cycler.",
+        "evidence_id": "IMG-EV-4D63386AE8B42EC2"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M144-01",
+      "manufacturer": "MTI",
+      "model_name": "MSK-110",
+      "category_id": "M144",
+      "purdue_installation_source": "https://engineering.purdue.edu/lzhu/facilities.htm",
+      "catalog_documentation": [
+        "https://mtixtl.com/products/MSK-110",
+        "https://engineering.purdue.edu/lzhu/facilities.htm"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/crimping.jpg",
+        "source_url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+        "match_scope": "exact_model",
+        "scope": "Exact MSK-110 product photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+        "evidence_id": "IMG-EV-B4889232070B672D"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "2359.00",
+          "evidence_id": "PRICE-EV-7AEC352DC908E875",
+          "equipment_id": "ACAD-M144-01",
+          "manufacturer": "MTI",
+          "model_name": "MSK-110",
+          "seller_name": "MTI",
+          "price_value": "2359",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-110",
+          "checked_date": "2026-11-15",
+          "scope": "New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M145-01",
+      "manufacturer": "Manufacturer unspecified",
+      "model_name": "Cold rolling mill (Purdue MSE configuration)",
+      "category_id": "M145",
+      "purdue_installation_source": "https://engineering.purdue.edu/MSE/research/facilities/ProcessingFacilities/ColdRolling",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/MSE/research/facilities/ProcessingFacilities/ColdRolling"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "both",
+          "url": "https://engineering.purdue.edu/MSE/research/facilities/ProcessingFacilities/ColdRolling",
+          "observation": "Public page identifies the equipment generically as a rolling mill without a model, photograph, or purchase price."
+        }
+      ],
+      "photo": {
+        "status": "no_matching_public_image_verified"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M22-03",
+      "manufacturer": "Cambridge NanoTech",
+      "model_name": "Fiji 200 ALD",
+      "category_id": "M22",
+      "purdue_installation_source": "https://birck.research.purdue.edu/getting-started-at-birck/rates/",
+      "catalog_documentation": [
+        "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6230794/Cambridge%2BNanotech%2BFiji%2BALD",
+        "https://birck.research.purdue.edu/getting-started-at-birck/rates/"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://birck.research.purdue.edu/getting-started-at-birck/rates/",
+          "observation": "Purdue facility rates are instrument access charges. The price recorded comes from a used F200 configuration advertised by ICI."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://static1.squarespace.com/static/57b89099f7e0ab151e4aeed0/57b89994d482e9b69b7f66f8/5d5330da0cc4f6000166dbaa/1565733122417/20161010_115955_001.jpg?format=1500w",
+        "source_url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+        "match_scope": "exact_model",
+        "scope": "ICI's photograph of its used Cambridge NanoTech Fiji F200. Seller unit at a different location than the Purdue installation.",
+        "evidence_id": "IMG-EV-756126D114E45DAA"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "137500.00",
+          "evidence_id": "PRICE-EV-01D81D0B4F698B84",
+          "equipment_id": "ACAD-M22-03",
+          "manufacturer": "Cambridge NanoTech",
+          "model_name": "Fiji 200 ALD",
+          "seller_name": "ICI Equipment",
+          "price_value": "137500",
+          "currency": "USD",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+          "checked_date": "2026-11-15",
+          "scope": "Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.",
+          "offer_id": "SELL-ACAD261115-E1C941922B449472"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M23-03",
+      "manufacturer": "PVD Products",
+      "model_name": "Nitride magnetron sputter system (Birck configuration)",
+      "category_id": "M23",
+      "purdue_installation_source": "https://birck.research.purdue.edu/getting-started-at-birck/rates/",
+      "catalog_documentation": [
+        "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6229972",
+        "https://birck.research.purdue.edu/getting-started-at-birck/rates/"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "both",
+          "url": "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6229972",
+          "observation": "Birck lists configuration and manufacturer. No publicly retrievable model-matched photo or applicable purchase offer was verified."
+        }
+      ],
+      "photo": {
+        "status": "no_matching_public_image_verified"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M23-04",
+      "manufacturer": "Manufacturer unspecified",
+      "model_name": "Four-target magnetic-source sputter system (Birck configuration)",
+      "category_id": "M23",
+      "purdue_installation_source": "https://birck.research.purdue.edu/getting-started-at-birck/rates/",
+      "catalog_documentation": [
+        "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6229032",
+        "https://birck.research.purdue.edu/getting-started-at-birck/rates/"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "both",
+          "url": "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6229032",
+          "observation": "The four-target installation is individually documented. No publicly retrievable model-matched photo or applicable purchase offer was verified."
+        }
+      ],
+      "photo": {
+        "status": "no_matching_public_image_verified"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M37-01",
+      "manufacturer": "Bruker",
+      "model_name": "D8 FOCUS",
+      "category_id": "M37",
+      "purdue_installation_source": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/XRayDiffraction",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/XRayDiffraction"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://caeonline.com/buy/x-ray/bruker-d8-focus/293742363",
+          "observation": "A model-matched listing was found without a verified current public asking price."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ntnu.edu/documents/140124/1274271064/D8-Focus.jpg/e875487c-0d6a-d152-1435-48c2081b9a8d?imagePreview=1&t=1681903307933",
+        "source_url": "https://www.ntnu.edu/ima/powder-diffraction-lab",
+        "match_scope": "exact_model",
+        "scope": "NTNU laboratory photograph of the Bruker D8 Focus. This unit is at NTNU.",
+        "evidence_id": "IMG-EV-3399E7D751CC1371"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M38-01",
+      "manufacturer": "Thermo Scientific",
+      "model_name": "Phenom Desktop SEM (Purdue MSE configuration)",
+      "category_id": "M38",
+      "purdue_installation_source": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/ElectronMicroscopy/PhenomDesktopSEM",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/ElectronMicroscopy/PhenomDesktopSEM"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://sfr.ca/cdn/shop/files/phenom_pro_1600x.png?v=1752241657",
+        "source_url": "https://sfr.ca/pages/phenom_desktop_sem",
+        "match_scope": "product_family",
+        "scope": "Phenom Pro photo used to illustrate the Phenom Desktop SEM family. The Purdue MSE installation does not have a documented submodel.",
+        "evidence_id": "IMG-EV-8D3EA2E93E610ACA"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M38-06",
+      "manufacturer": "FEI",
+      "model_name": "Quanta 650 FEG",
+      "category_id": "M38",
+      "purdue_installation_source": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html",
+      "catalog_documentation": [
+        "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://caeonline.com/buy/philips-fei/quanta-650-feg",
+          "observation": "No active model-matched asking price verified for a configured Quanta 650 FEG. Variant, detectors and supporting systems affect comparability."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/_media/quanta-650-arms-b218.png",
+        "source_url": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html",
+        "match_scope": "exact_model",
+        "scope": "Public Purdue Electron Microscopy facility photograph of its Quanta 650 FEG.",
+        "evidence_id": "IMG-EV-7D6B64B6B6990F1D"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M42-01",
+      "manufacturer": "TA Instruments",
+      "model_name": "Q50 TGA",
+      "category_id": "M42",
+      "purdue_installation_source": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.dotmed.com/listing/lab-analyzer/ta-instruments/tga-q50-thermogravimetric-analyser/4830881",
+          "observation": "The USD 2,000 listing is explicitly parts or repair. It was excluded as a whole-instrument purchase price."
+        },
+        {
+          "field": "price",
+          "url": "https://www.ebay.com/itm/188334616581",
+          "observation": "The model-matched used listing has already sold. Displayed amount is an asking price and a Best Offer was accepted."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.mse.iastate.edu/files/2024/11/ThermalAdvantageTGAQ50_MSE.png",
+        "source_url": "https://www.mse.iastate.edu/research/research-and-teaching-laboratories/lab-equipment/thermal-analysis-equipment/",
+        "match_scope": "exact_model",
+        "scope": "Iowa State laboratory photograph of the TA Instruments Q50 TGA. This unit is at Iowa State.",
+        "evidence_id": "IMG-EV-91E895F600FD5952"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M67-01",
+      "manufacturer": "MTI",
+      "model_name": "MSK-HPR-MR100A",
+      "category_id": "M67",
+      "purdue_installation_source": "https://engineering.purdue.edu/lzhu/facilities.htm",
+      "catalog_documentation": [
+        "https://engineering.purdue.edu/lzhu/facilities.htm"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.lab-furnace.com/cutting/cutterbar/201408259.html",
+          "observation": "The listing uses both HRP and HPR for the same press. It provides no public purchase price."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/rolling%20press.jpg",
+        "source_url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+        "match_scope": "exact_model",
+        "scope": "Exact model photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+        "evidence_id": "IMG-EV-C15848FEB92D4859"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-01",
+      "manufacturer": "Instron",
+      "model_name": "68SC-5",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://instron-romania.com/wp-content/uploads/2020/02/6800-series-single-column-universal-testing-system-with-screw-side-action-grips.jpg",
+        "source_url": "https://instron-romania.com/seria-6800/",
+        "match_scope": "product_family",
+        "scope": "Instron 6800 single-column frame. Force rating shown is unconfirmed.",
+        "evidence_id": "IMG-EV-E22B24AD7D3BB4D5"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-02",
+      "manufacturer": "Instron",
+      "model_name": "68TM-10",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg",
+        "source_url": "https://www.directindustry.com/prod/instron/product-18463-2365300.html",
+        "match_scope": "product_family",
+        "scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+        "evidence_id": "IMG-EV-4DC0F72A158384E2"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-03",
+      "manufacturer": "Instron",
+      "model_name": "68TM-50",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg",
+        "source_url": "https://www.directindustry.com/prod/instron/product-18463-2365300.html",
+        "match_scope": "product_family",
+        "scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+        "evidence_id": "IMG-EV-02535DB33340B042"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-04",
+      "manufacturer": "Instron",
+      "model_name": "68FM-100",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp",
+        "source_url": "https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/",
+        "match_scope": "product_family",
+        "scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+        "evidence_id": "IMG-EV-36589DF9873080F7"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-05",
+      "manufacturer": "Instron",
+      "model_name": "68FM-300",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp",
+        "source_url": "https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/",
+        "match_scope": "product_family",
+        "scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+        "evidence_id": "IMG-EV-F9EBCE0F6BD09F1E"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-06",
+      "manufacturer": "Shimadzu",
+      "model_name": "Autograph AGX-V2 Series",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Images/Testing/agx-v2/agx-v2-main-2024.png",
+        "source_url": "https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html",
+        "match_scope": "product_family",
+        "scope": "Shimadzu photograph of the AGX-V2 series.",
+        "evidence_id": "IMG-EV-6721E4652A85C1CD"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-07",
+      "manufacturer": "ZwickRoell",
+      "model_name": "ProLine",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/proline/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.zwickroell.com/zrmedia/_processed_/4/5/csm_CTA271663_TVM1629546_c6544e9b26.png",
+        "source_url": "https://www.zwickroell.com/de/produkte/statische-material-pruefmaschinen/universalpruefmaschinen-fuer-statische-anwendungen/proline/",
+        "match_scope": "product_family",
+        "scope": "ZwickRoell ProLine universal testing machine. Fixtures and force configuration may vary.",
+        "evidence_id": "IMG-EV-8A08D3EC50CBBE8C"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-08",
+      "manufacturer": "MTS",
+      "model_name": "Criterion Series 40",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.mts.com/en/products/materials/static-materials-test-systems/criterion-electromechanical"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://cdn.adsalecdn.com/EMP/Backend/Upload/Image/show_preview_1023865_10105_1.jpg",
+        "source_url": "https://www.chinaplasonline.com/eMarketplace/productinfo/eng?ActionLink=true&compid=1023865&seqid=10105",
+        "match_scope": "product_family",
+        "scope": "Manufacturer exhibitor listing photograph for the MTS Criterion Series 40.",
+        "evidence_id": "IMG-EV-F92B60B505CB47EB"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-09",
+      "manufacturer": "Shimadzu",
+      "model_name": "Autograph AGS-X Series",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.shimadzu.com.au/sites/shimadzu.com.au/files/pim/pim_product_basic/6911/qn50420000006az5_0.jpg",
+        "source_url": "https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html",
+        "match_scope": "product_family",
+        "scope": "Shimadzu photograph of the AGS-X series.",
+        "evidence_id": "IMG-EV-C44F8BA739C8D728"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M139-10",
+      "manufacturer": "ZwickRoell",
+      "model_name": "AllroundLine",
+      "category_id": "M139",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/allroundline/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://cdn02.plentyone.com/7ukspn3affoc/item/images/25486/full/DSC05656.jpg",
+        "source_url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+        "match_scope": "product_family",
+        "scope": "AllroundLine family illustrated by the seller's Z005 TN, 5 kN configuration.",
+        "evidence_id": "IMG-EV-9DD001B0ADF6A12B"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "36572.25",
+          "evidence_id": "PRICE-EV-4958EC72C68B9826",
+          "equipment_id": "ACAD-M139-10",
+          "manufacturer": "ZwickRoell",
+          "model_name": "AllroundLine",
+          "seller_name": "Amikon",
+          "price_value": "32500",
+          "currency": "EUR",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+          "checked_date": "2026-11-15",
+          "scope": "Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.",
+          "offer_id": "SELL-ACAD261115-41E4A94B0FE3E5F4",
+          "exchange_rate_reference_date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M140-03",
+      "manufacturer": "Instron",
+      "model_name": "ElectroPuls E1000",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/W020211114766550981667.jpg",
+        "source_url": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/",
+        "match_scope": "exact_model",
+        "scope": "Guangxi Medical University laboratory photo. The instrument label identifies the E1000.",
+        "evidence_id": "IMG-EV-D6637B02AEF7DE30"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-04",
+      "manufacturer": "Instron",
+      "model_name": "ElectroPuls E3000",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/Instron-ElectroPulse-E3000--mechanical-testing-system.jpg",
+        "source_url": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/",
+        "match_scope": "exact_model",
+        "scope": "Florida Tech laboratory photograph of its ElectroPuls E3000.",
+        "evidence_id": "IMG-EV-9D9CC26966EDF697"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "25000.00",
+          "evidence_id": "PRICE-EV-A2D69CCF9CFA6CB4",
+          "equipment_id": "ACAD-M140-04",
+          "manufacturer": "Instron",
+          "model_name": "ElectroPuls E3000",
+          "seller_name": "buyhitek via eBay",
+          "price_value": "25000",
+          "currency": "USD",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://www.ebay.com/itm/277675173502",
+          "checked_date": "2026-11-15",
+          "scope": "Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.",
+          "offer_id": "SELL-ACAD261115-49C8198E1739410D"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M140-05",
+      "manufacturer": "Instron",
+      "model_name": "ElectroPuls E3000 Linear-Torsion",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-8920713.jpg",
+        "source_url": "https://www.directindustry.com/prod/instron/product-18463-1662832.html",
+        "match_scope": "exact_model",
+        "scope": "Instron catalog photo from the ElectroPuls E3000 page for the Linear-Torsion version.",
+        "evidence_id": "IMG-EV-658D8C71F0A1405B"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-06",
+      "manufacturer": "Instron",
+      "model_name": "ElectroPuls E10000",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://cdn.southampton.ac.uk/assets/imported/transforms/site/slideshow/Media_Img/C2E9ED0C0AA049E5B9AE602904AF1530/Instron-Electropuls-and-Electropuls-E10000.jpg_SIA_JPG_fit_to_width_XL.jpg",
+        "source_url": "https://www.southampton.ac.uk/engineering/research/facilities/360/tsrl_360.page",
+        "match_scope": "product_family",
+        "scope": "University of Southampton photo showing its ElectroPuls equipment, including the E10000. The photo covers the family of configurations.",
+        "evidence_id": "IMG-EV-7511D0EEC98A4181"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-07",
+      "manufacturer": "Instron",
+      "model_name": "ElectroPuls E10000 Linear-Torsion",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.nycu.edu.tw/userfiles/ordch/images/20231017105845166.png",
+        "source_url": "https://www.nycu.edu.tw/ord/en/app/machine/view?id=2042&module=machine&serno=6d828d02-1e3a-4dc0-bbe4-2e62a837a6a9",
+        "match_scope": "exact_model",
+        "scope": "Public National Yang Ming Chiao Tung University photo for its E10000 Linear-Torsion.",
+        "evidence_id": "IMG-EV-A7D492FBF5AAA525"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-08",
+      "manufacturer": "Shimadzu",
+      "model_name": "Servopulser EHF-EV051k2",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "source_url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+        "match_scope": "product_family",
+        "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "evidence_id": "IMG-EV-0613A90935FB40B1"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-09",
+      "manufacturer": "Shimadzu",
+      "model_name": "Servopulser EHF-EV101k1",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "source_url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+        "match_scope": "product_family",
+        "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "evidence_id": "IMG-EV-E523AFDA62904915"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M140-10",
+      "manufacturer": "Shimadzu",
+      "model_name": "Servopulser EHF-EV200k1",
+      "category_id": "M140",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "source_url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+        "match_scope": "product_family",
+        "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "evidence_id": "IMG-EV-576EDADB250C780C"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-02",
+      "manufacturer": "TA Instruments",
+      "model_name": "Discovery DSC 25",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.tainstruments.com/dsc-25/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://media.questpair.com/images/marketplace/65/65cb059c98830576d5b99b68becb8feeebf21a2b4f0005b7de10e846f9766a36.jpg",
+        "source_url": "https://questpair.com/calorimeters/ta-instruments/discovery-dsc25/",
+        "match_scope": "exact_model",
+        "scope": "Questpair photograph for Discovery DSC25.",
+        "evidence_id": "IMG-EV-72EB7543EA59DBAC"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "20756.16",
+          "evidence_id": "PRICE-EV-A01C502CC6D1EE1E",
+          "equipment_id": "ACAD-M141-02",
+          "manufacturer": "TA Instruments",
+          "model_name": "Discovery DSC 25",
+          "seller_name": "Profcontrol",
+          "price_value": "18445",
+          "currency": "EUR",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1",
+          "checked_date": "2026-11-15",
+          "scope": "Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.",
+          "offer_id": "SELL-ACAD261115-47BCCB693ABF9120",
+          "exchange_rate_reference_date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M141-03",
+      "manufacturer": "TA Instruments",
+      "model_name": "Discovery DSC 250",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.tainstruments.com/dsc-250/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://unicam.hu/files/dsc-250/06-dsc250-pca.jpg",
+        "source_url": "https://unicam.hu/termekeink/termoanalitika/dsc/dsc-250/",
+        "match_scope": "exact_model",
+        "scope": "Unicam product photo for Discovery DSC 250 with its cooling accessory.",
+        "evidence_id": "IMG-EV-98BBFF6720F5184C"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-04",
+      "manufacturer": "TA Instruments",
+      "model_name": "Discovery DSC 2500",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.tainstruments.com/dsc-2500/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://media.exapro.com/product/2026/07/P260707045/b3f5cf8744474089b010eb9124a55a2c/462x340/b3f5cf8744474089b010eb9124a55a2c_462x340.jpg",
+        "source_url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+        "match_scope": "exact_model",
+        "scope": "Seller photograph for the Discovery DSC 2500 configuration offered.",
+        "evidence_id": "IMG-EV-231F661DDE3AE9C8"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "39948.15",
+          "evidence_id": "PRICE-EV-F2D54A6AD42263C2",
+          "equipment_id": "ACAD-M141-04",
+          "manufacturer": "TA Instruments",
+          "model_name": "Discovery DSC 2500",
+          "seller_name": "Exapro",
+          "price_value": "35500",
+          "currency": "EUR",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+          "checked_date": "2026-11-15",
+          "scope": "Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.",
+          "offer_id": "SELL-ACAD261115-A9D4F43CCE772185",
+          "exchange_rate_reference_date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M141-05",
+      "manufacturer": "NETZSCH",
+      "model_name": "DSC 300 Caliris Classic",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/b/c/1/2/bc122958f351fe82fd08562286e624348394c095/DSC_300_Caliris_Classic_title-999x562-999x562.png",
+        "source_url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta/dsc-300-caliris-classic",
+        "match_scope": "exact_model",
+        "scope": "NETZSCH product photo of DSC 300 Caliris Classic.",
+        "evidence_id": "IMG-EV-A98A5A782239BB94"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-06",
+      "manufacturer": "NETZSCH",
+      "model_name": "DSC 300 Caliris Select",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png",
+        "source_url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta",
+        "match_scope": "product_family",
+        "scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+        "evidence_id": "IMG-EV-06A88EC77AE374C7"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-07",
+      "manufacturer": "NETZSCH",
+      "model_name": "DSC 300 Caliris Supreme",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png",
+        "source_url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta",
+        "match_scope": "product_family",
+        "scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+        "evidence_id": "IMG-EV-90B0EB48066AD544"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-08",
+      "manufacturer": "METTLER TOLEDO",
+      "model_name": "DSC 5+",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.mt.com/nz/en/home/library/product-brochures/lab-analytical-instruments/dsc-5-plus.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.fishersci.com/shop/products/dsc-5-differential-scanning-calorimeter-2/01338205",
+          "observation": "Fisher product URL did not return a usable public price to the review."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://assets.fishersci.com/TFS-Assets/CCG/Mettler-Toledo/product-images/DSC5-Manual-new.jpg-650.jpg",
+        "source_url": "https://www.fishersci.ca/shop/products/dsc-5-differential-scanning-calorimeter/01338205",
+        "match_scope": "exact_model",
+        "scope": "Fisher Scientific product photograph for the METTLER TOLEDO DSC 5+.",
+        "evidence_id": "IMG-EV-2D77ED39A5CF58CD"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-09",
+      "manufacturer": "Shimadzu",
+      "model_name": "DSC-60 Plus",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://online.ogs.ny.gov/purchase/spg/pdfdocs/3870022962PL_Shimadzu.pdf",
+          "observation": "A dated contract list was found. No current general-market price was verified for the catalog configuration."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/d7/ckeditor/an/thermal/n9j25k000002ayc3-img/n9j25k000002ayd9.jpg",
+        "source_url": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html",
+        "match_scope": "product_family",
+        "scope": "Manufacturer DSC-60 Plus series product photograph.",
+        "evidence_id": "IMG-EV-0A255F118F4774F0"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M141-10",
+      "manufacturer": "Shimadzu",
+      "model_name": "DSC-60A Plus",
+      "category_id": "M141",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://online.ogs.ny.gov/purchase/spg/pdfdocs/3870022962PL_Shimadzu.pdf",
+          "observation": "A dated contract list was found. No current general-market price was verified for the catalog configuration."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Thermal_Analysis/DSC-60_Plus_Series/DSC-60Plus_f06.png",
+        "source_url": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html",
+        "match_scope": "exact_model",
+        "scope": "Shimadzu photograph of the DSC-60A Plus with built-in autosampler.",
+        "evidence_id": "IMG-EV-59C2030D695FA179"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M142-02",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-III",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/products/msk-afa-iii"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIUL.1.1_3370dfa5-2ebf-4e42-88e7-5d882903d199.jpg?v=1792015070",
+        "source_url": "https://mtixtl.com/products/msk-afa-iii",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-III. Heating options vary.",
+        "evidence_id": "IMG-EV-912EC047B8628EEB"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "3998.00",
+          "evidence_id": "PRICE-EV-2BB039AF2645C1D3",
+          "equipment_id": "ACAD-M142-02",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-III",
+          "seller_name": "MTI",
+          "price_value": "3998",
+          "currency": "USD",
+          "price_kind": "starting_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-iii",
+          "checked_date": "2026-11-15",
+          "scope": "No Heating base configuration. The manufacturer also publishes heated configurations."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-03",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-II-VC",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIIVCMET.1_7df20c14-8af6-4d69-9564-ed1f9e657d35.jpg?v=1711682702",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-II-VC.",
+        "evidence_id": "IMG-EV-262285E1577DAF56"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "4298.00",
+          "evidence_id": "PRICE-EV-062B7136C68CF447",
+          "equipment_id": "ACAD-M142-03",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-II-VC",
+          "seller_name": "MTI",
+          "price_value": "4298",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-ii-vc",
+          "checked_date": "2026-11-15",
+          "scope": "Vacuum-chuck sheet film coater with 250 mm doctor blade."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-04",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-II-VC-FH",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-II-VC-FH_Open_1fb98f13-6d88-4a46-a198-2dfbc6b7e358.jpg?v=1711682704",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-II-VC-FH.",
+        "evidence_id": "IMG-EV-5E9E759828E4120D"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "7695.00",
+          "evidence_id": "PRICE-EV-C85854AC4D19442E",
+          "equipment_id": "ACAD-M142-04",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-II-VC-FH",
+          "seller_name": "MTI",
+          "price_value": "7695",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+          "checked_date": "2026-11-15",
+          "scope": "Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-05",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-HDS-150",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIII-HDS150.png?v=1791589059",
+        "source_url": "https://mtixtl.com/products/msk-afa-hds-150",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-HDS-150.",
+        "evidence_id": "IMG-EV-778D51BF74F983EC"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "15998.00",
+          "evidence_id": "PRICE-EV-E141601754B54EEE",
+          "equipment_id": "ACAD-M142-05",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-HDS-150",
+          "seller_name": "MTI",
+          "price_value": "15998",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-hds-150",
+          "checked_date": "2026-11-15",
+          "scope": "Hybrid film coater with slot die and doctor blade as specified on the manufacturer page."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-06",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-H200A",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAH200A_open_d8ea1b35-87c3-4359-888f-cc0baf202633.jpg?v=1711402721",
+        "source_url": "https://mtixtl.com/products/msk-afa-h200a",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-H200A.",
+        "evidence_id": "IMG-EV-20CCF28D151DED14"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "10985.00",
+          "evidence_id": "PRICE-EV-B9C0F083939E5872",
+          "equipment_id": "ACAD-M142-06",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-H200A",
+          "seller_name": "MTI",
+          "price_value": "10985",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-h200a",
+          "checked_date": "2026-11-15",
+          "scope": "Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-07",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-L1000",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-L1000_Main1.1_e2ce1702-eccf-4add-9c2e-cda0c4dcd113.jpg?v=1711682919",
+        "source_url": "https://mtixtl.com/products/msk-afa-l1000",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-L1000. Heating options vary.",
+        "evidence_id": "IMG-EV-F4C7674EA93D335B"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "12995.00",
+          "evidence_id": "PRICE-EV-49697D1CAB3341C8",
+          "equipment_id": "ACAD-M142-07",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-L1000",
+          "seller_name": "MTI",
+          "price_value": "12995",
+          "currency": "USD",
+          "price_kind": "starting_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-l1000",
+          "checked_date": "2026-11-15",
+          "scope": "Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-08",
+      "manufacturer": "MTI",
+      "model_name": "MSK-AFA-EC150",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/battery-coaters"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-EC150-a_581a052c-b141-4f2a-9446-068bd4556878.jpg?v=1711402699",
+        "source_url": "https://mtixtl.com/products/msk-afa-ec150",
+        "match_scope": "exact_model",
+        "scope": "Manufacturer photograph of MSK-AFA-EC150.",
+        "evidence_id": "IMG-EV-78326ECBB96708E2"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "26998.00",
+          "evidence_id": "PRICE-EV-6DE4AB430E4E3ECF",
+          "equipment_id": "ACAD-M142-08",
+          "manufacturer": "MTI",
+          "model_name": "MSK-AFA-EC150",
+          "seller_name": "MTI",
+          "price_value": "26998",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-afa-ec150",
+          "checked_date": "2026-11-15",
+          "scope": "Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-09",
+      "manufacturer": "Elcometer",
+      "model_name": "4340 Motorised Film Applicator",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://downloads.elcometer.com/PDFs/InstructionManuals/English/4340.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.elcometerusa.com/4340_1_lg.jpg",
+        "source_url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+        "match_scope": "exact_model",
+        "scope": "Elcometer USA product photo for the 4340 applicator.",
+        "evidence_id": "IMG-EV-A5E513BE53A35585"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "7249.00",
+          "evidence_id": "PRICE-EV-943AE4DC4A615A12",
+          "equipment_id": "ACAD-M142-09",
+          "manufacturer": "Elcometer",
+          "model_name": "4340 Motorised Film Applicator",
+          "seller_name": "Elcometer",
+          "price_value": "7249",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+          "checked_date": "2026-11-15",
+          "scope": "Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M142-10",
+      "manufacturer": "BYK Instruments",
+      "model_name": "byko-drive XL V",
+      "category_id": "M142",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.byk-instruments.com/product/bykodrive-xl-v/01t5I0000023DJ9QAM"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.exacolor.mx/products/byko-drive-xl-v-con-placa-de-vacio",
+          "observation": "The source displays USD 9,080 and an out-of-stock notice. Kept as image evidence only."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://www.exacolor.mx/cdn/shop/products/Byko-Drive-XL-_V_-con-placa-de-vacio.png?v=1666903382",
+        "source_url": "https://www.exacolor.mx/products/byko-drive-xl-v-con-placa-de-vacio",
+        "match_scope": "exact_model",
+        "scope": "Exacolor photograph of the BYK byko-drive XL V vacuum plate configuration.",
+        "evidence_id": "IMG-EV-B1AF71BE300B19EE"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-03",
+      "manufacturer": "Arbin",
+      "model_name": "LBT21084",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.arbin.com/wp-content/uploads/2026/08/arbin-brochure_lbt-benchtop.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.arbin.com/wp-content/uploads/2025/05/LBT-Left-min.png",
+        "source_url": "https://www.arbin.com/battery-research/lbt-benchtop.html/",
+        "match_scope": "exact_model",
+        "scope": "Arbin product image of the LBT21084 benchtop unit.",
+        "evidence_id": "IMG-EV-5D8000BA70B5BF70"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-04",
+      "manufacturer": "BioLogic",
+      "model_name": "BCS-805",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "source_url": "https://www.instrument.com.cn/show/C262941.html",
+        "match_scope": "product_family",
+        "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "evidence_id": "IMG-EV-FF42662CB55022C2"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-05",
+      "manufacturer": "BioLogic",
+      "model_name": "BCS-810",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "source_url": "https://www.instrument.com.cn/show/C262941.html",
+        "match_scope": "product_family",
+        "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "evidence_id": "IMG-EV-3B3CA5F7FAAE1FF7"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-06",
+      "manufacturer": "BioLogic",
+      "model_name": "BCS-815",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "source_url": "https://www.instrument.com.cn/show/C262941.html",
+        "match_scope": "product_family",
+        "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "evidence_id": "IMG-EV-C687C10EE915D336"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-07",
+      "manufacturer": "Maccor",
+      "model_name": "Series 4000",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.maccor.com/cell-battery-module-test-systems.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.maccor.com/images/battery-testers/S4000.png",
+        "source_url": "https://www.maccor.com/cell-battery-module-test-systems.html",
+        "match_scope": "product_family",
+        "scope": "Maccor Series 4000 product photo. Channel and rack configuration varies.",
+        "evidence_id": "IMG-EV-832E540233D000C7"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "4299.99",
+          "evidence_id": "PRICE-EV-DBF5D9EA67E78AF8",
+          "equipment_id": "ACAD-M143-07",
+          "manufacturer": "Maccor",
+          "model_name": "Series 4000",
+          "seller_name": "YellowChoo via eBay",
+          "price_value": "4299.99",
+          "currency": "USD",
+          "price_kind": "asking_price",
+          "condition": "used",
+          "source_url": "https://www.ebay.com/itm/188103355473",
+          "checked_date": "2026-11-15",
+          "scope": "Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.",
+          "offer_id": "SELL-ACAD261115-1926E92F3EDECAC4"
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M143-08",
+      "manufacturer": "Maccor",
+      "model_name": "Series 4300",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.maccor.com/desktop-battery-testers.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.maccor.com/images/4300.png",
+        "source_url": "https://www.maccor.com/desktop-battery-testers.html",
+        "match_scope": "exact_model",
+        "scope": "Maccor Series 4300 product photo.",
+        "evidence_id": "IMG-EV-EC65EE3786F4CAF4"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-09",
+      "manufacturer": "Maccor",
+      "model_name": "Series 4400",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.maccor.com/desktop-battery-testers.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.maccor.com/images/4400.png",
+        "source_url": "https://www.maccor.com/desktop-battery-testers.html",
+        "match_scope": "exact_model",
+        "scope": "Maccor Series 4400 product photo.",
+        "evidence_id": "IMG-EV-20216D8945418D0D"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M143-10",
+      "manufacturer": "Landt Instruments",
+      "model_name": "CT3002A",
+      "category_id": "M143",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://landtinst.com/battery-test-system-ct3002a/"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://beyond-battery.com/products/land-battery-testing-system-ct3002au-6v-1ma-10ma-8ch-unit",
+          "observation": "Priced listing is for CT3002AU. Catalog equipment is CT3002A."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://landtinst.com/wp-content/uploads/CT3002A.jpg-1024x451.webp",
+        "source_url": "https://landtinst.com/battery-test-system-ct3002a/",
+        "match_scope": "exact_model",
+        "scope": "Landt Instruments photograph of CT3002A, from a page that also covers CT3002AU.",
+        "evidence_id": "IMG-EV-7B83703EDEDA5BA1"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M144-02",
+      "manufacturer": "MTI",
+      "model_name": "MSK-160E",
+      "category_id": "M144",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/products/msk-160e"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/16E.png?v=1787433872",
+        "source_url": "https://mtixtl.com/products/msk-160e",
+        "match_scope": "exact_model",
+        "scope": "MTI product photograph of MSK-160E.",
+        "evidence_id": "IMG-EV-BB47249C7F949A11"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "3598.00",
+          "evidence_id": "PRICE-EV-3C043E5AB29EAC12",
+          "equipment_id": "ACAD-M144-02",
+          "manufacturer": "MTI",
+          "model_name": "MSK-160E",
+          "seller_name": "MTI",
+          "price_value": "3598",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-160e",
+          "checked_date": "2026-11-15",
+          "scope": "MSK-160E electric crimper package with 100 pairs of coin-cell cases."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M144-03",
+      "manufacturer": "MTI",
+      "model_name": "MSK-110-A",
+      "category_id": "M144",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/products/msk-110-a"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://mti-indonesia.com/products/msk-110-a",
+          "observation": "The regional product page confirms identity and photo. RM0.00 is a placeholder and provides no purchase price."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mti-indonesia.com/cdn/shop/files/MSK-110-A-main1_4963a989-cf43-431e-b683-4f9f47a706f1.jpg?v=1764851762",
+        "source_url": "https://mti-indonesia.com/products/msk-110-a",
+        "match_scope": "exact_model",
+        "scope": "MTI's regional storefront photograph of the 110-A single-channel automatic assembly system.",
+        "evidence_id": "IMG-EV-9A0BC9A0631BC3D1"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M144-04",
+      "manufacturer": "TOB New Energy",
+      "model_name": "TOB-MSK-110",
+      "category_id": "M144",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.tobmachine.com/uploadfile/202404/17/370389733eae5ff8622993b1f867094f.jpg",
+        "source_url": "https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html",
+        "match_scope": "exact_model",
+        "scope": "TOB New Energy product photograph for TOB-MSK-110.",
+        "evidence_id": "IMG-EV-2E077C44D366415B"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M144-05",
+      "manufacturer": "TOB New Energy",
+      "model_name": "TOB-DF-160",
+      "category_id": "M144",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.tobmachine.com/uploadfile/202611/09/91723413acb5167b3b5dbb76d1876c5e.jpg",
+        "source_url": "https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html",
+        "match_scope": "exact_model",
+        "scope": "TOB New Energy product photograph for TOB-DF-160.",
+        "evidence_id": "IMG-EV-5AEE00560A6A0E35"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M144-06",
+      "manufacturer": "MTI",
+      "model_name": "MSK-PN110-S",
+      "category_id": "M144",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://mtixtl.com/collections/coin-cell-crimper"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKPN110SMain.3_2c199168-33d3-46a1-8ae0-468ebeb47cfc.jpg?v=1711682314",
+        "source_url": "https://mtixtl.com/products/msk-pn110-s",
+        "match_scope": "exact_model",
+        "scope": "MTI product photograph for MSK-PN110-S.",
+        "evidence_id": "IMG-EV-9312160743E5185D"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "2980.00",
+          "evidence_id": "PRICE-EV-71213A626FAC5416",
+          "equipment_id": "ACAD-M144-06",
+          "manufacturer": "MTI",
+          "model_name": "MSK-PN110-S",
+          "seller_name": "MTI",
+          "price_value": "2980",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://mtixtl.com/products/msk-pn110-s",
+          "checked_date": "2026-11-15",
+          "scope": "Fast pneumatic crimper, listed by MTI as MSKPN110S."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M145-02",
+      "manufacturer": "FENN",
+      "model_name": "Model 081 Laboratory Reversing Mill",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.machinio.com/listings/109782437-fenn-081-in-pawtucket-ri",
+          "observation": "The refurbished FENN 081 seller listing asks users to contact the seller for price."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.fenn-torin.com/hs-fs/hubfs/Imported_Blog_Media/IMG_5551-154x300-2.jpg?width=154&height=300&name=IMG_5551-154x300-2.jpg",
+        "source_url": "https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high",
+        "match_scope": "exact_model",
+        "scope": "FENN's case-study photograph of its Model 081 machine at the University of Manchester.",
+        "evidence_id": "IMG-EV-32F767BB3CDD2E0F"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M145-03",
+      "manufacturer": "FENN",
+      "model_name": "Reversing Hot Rolling Mill (Royce configuration)",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://www.royce.ac.uk/wp-content/uploads/2023/10/fenn-rhrm-870x570.jpg",
+        "source_url": "https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/",
+        "match_scope": "exact_model",
+        "scope": "Henry Royce Institute photograph of the Royce-configured FENN reversing hot rolling mill.",
+        "evidence_id": "IMG-EV-C364425A672C0C1E"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M145-04",
+      "manufacturer": "International Rolling Mills",
+      "model_name": "IRM 2050",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://acrc.manufacturing.uci.edu/facilities/osu-lightweight-materials-and-manufacturing-research-laboratory/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "no_matching_public_image_verified"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    },
+    {
+      "equipment_id": "ACAD-M145-05",
+      "manufacturer": "Durston",
+      "model_name": "DRM F130R",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://durston.com/wp-content/uploads/2020/05/Rolling-Mill-Instructions-New.pdf"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://pmcsupplies.com/products/flat-durston-rolling-mill-f130-r",
+          "observation": "US seller displayed a price with an out-of-stock notice. The separate WireJewelry offer provides the published offer used here."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://durston.com/wp-content/uploads/2018/05/1026-F130R-FRONT-510x612.jpg",
+        "source_url": "https://durston.com/product/drm-f130r/",
+        "match_scope": "exact_model",
+        "scope": "Durston product photograph for DRM F130R, SKU 1026.",
+        "evidence_id": "IMG-EV-6FA753B489AFEC6E"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "seller",
+          "price_usd": "1423.00",
+          "evidence_id": "PRICE-EV-BC140376EE68DC41",
+          "equipment_id": "ACAD-M145-05",
+          "manufacturer": "Durston",
+          "model_name": "DRM F130R",
+          "seller_name": "WireJewelry",
+          "price_value": "1423",
+          "currency": "USD",
+          "price_kind": "sale_price",
+          "condition": "new",
+          "source_url": "https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html",
+          "checked_date": "2026-11-15",
+          "scope": "Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.",
+          "offer_id": "SELL-ACAD261115-679F80BA52FB5B1D"
+        },
+        {
+          "kind": "manufacturer",
+          "price_usd": "1629.25",
+          "evidence_id": "PRICE-EV-9F29E10FFCEBE17D",
+          "equipment_id": "ACAD-M145-05",
+          "manufacturer": "Durston",
+          "model_name": "DRM F130R",
+          "seller_name": "Durston",
+          "price_value": "1629.25",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://durston.com/product/drm-f130r/",
+          "checked_date": "2026-11-15",
+          "scope": "Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M145-06",
+      "manufacturer": "Durston",
+      "model_name": "DRM F150RE",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://durston.com/wp-content/uploads/2020/05/Rolling-Mill-Instructions-New.pdf"
+      ],
+      "specific_source_checks": [
+        {
+          "field": "price",
+          "url": "https://www.ottofrei.com/products/durston-drm-f150re-flat-rolling-mill-150mm",
+          "observation": "The seller displays USD 2,241 and a back-in-stock notice. Excluded as unavailable."
+        }
+      ],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://durston.com/wp-content/uploads/2020/04/1032-DRM-F150RE-510x612.jpg",
+        "source_url": "https://durston.com/product/drm-f150re/",
+        "match_scope": "exact_model",
+        "scope": "Durston product photograph for DRM F150RE, SKU 1032.",
+        "evidence_id": "IMG-EV-56F957F973DAFDFC"
+      },
+      "price_status": "public_purchase_price_verified",
+      "prices": [
+        {
+          "kind": "manufacturer",
+          "price_usd": "2368.73",
+          "evidence_id": "PRICE-EV-B5773DA18FF55424",
+          "equipment_id": "ACAD-M145-06",
+          "manufacturer": "Durston",
+          "model_name": "DRM F150RE",
+          "seller_name": "Durston",
+          "price_value": "2368.73",
+          "currency": "USD",
+          "price_kind": "published_price",
+          "condition": "new",
+          "source_url": "https://durston.com/product/drm-f150re/",
+          "checked_date": "2026-11-15",
+          "scope": "Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges."
+        }
+      ]
+    },
+    {
+      "equipment_id": "ACAD-M145-07",
+      "manufacturer": "Element Machinery",
+      "model_name": "2 High Rolling Mill",
+      "category_id": "M145",
+      "purdue_installation_source": null,
+      "catalog_documentation": [
+        "https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/"
+      ],
+      "specific_source_checks": [],
+      "photo": {
+        "status": "verified",
+        "image_url": "https://elementmachinery.com/wp-content/uploads/2022/10/2-high-rolling-mill-2.jpeg",
+        "source_url": "https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/",
+        "match_scope": "product_family",
+        "scope": "Element Machinery product photograph illustrating its 2 High rolling mill line.",
+        "evidence_id": "IMG-EV-5E2E3923BF23C4FA"
+      },
+      "price_status": "no_usable_public_purchase_price_verified",
+      "prices": []
+    }
+  ]
+}

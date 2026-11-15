@@ -14,7 +14,11 @@ def read(name):
         return before_metals(name)
     with (ROOT/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:
         rows=list(csv.DictReader(f))
-    return quotes_at_checkpoint(ROOT,rows,'2026-10-19') if name=='component_offers' else rows
+    if name=='component_offers':
+        return quotes_at_checkpoint(ROOT,rows,'2026-10-19')
+    if name=='seller_offers':
+        return [r for r in rows if r['checked_date'] <= '2026-10-19']
+    return rows
 def review(): return json.loads((ROOT/'catalog/labx_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
 def digest(v): return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()
 

@@ -38492,6 +38492,198 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-02535DB33340B042",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron 68TM-50",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron 68TM-50",
+          "url": "https://www.directindustry.com/prod/instron/product-18463-2365300.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-03",
+          "label": "68TM-50"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-03",
+        "manufacturer": "Instron",
+        "model_name": "68TM-50",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg",
+        "image_scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 859,
+          "height": 859,
+          "sha256": "6016854096e0c8fbc6c7af58dfc824057aee7aa1375fbc06da7ab9c7de0688a7",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-0613A90935FB40B1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu Servopulser EHF-EV051k2",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu Servopulser EHF-EV051k2",
+          "url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-08",
+          "label": "Servopulser EHF-EV051k2"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-08",
+        "manufacturer": "Shimadzu",
+        "model_name": "Servopulser EHF-EV051k2",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "image_scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 430,
+          "height": 350,
+          "sha256": "ebb3024de59efde20e0328570a90b960e901f519a0c022df2e3b76ab28f29f99",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-06A88EC77AE374C7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for NETZSCH DSC 300 Caliris Select",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for NETZSCH DSC 300 Caliris Select",
+          "url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-06",
+          "label": "DSC 300 Caliris Select"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-06",
+        "manufacturer": "NETZSCH",
+        "model_name": "DSC 300 Caliris Select",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png",
+        "image_scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1650,
+          "height": 824,
+          "sha256": "bd0472bb18525e28c7ac61466028abbd4cf76476ef3561b525aaff653c88a574",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-0A255F118F4774F0",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu DSC-60 Plus",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer DSC-60 Plus series product photograph.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu DSC-60 Plus",
+          "url": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-09",
+          "label": "DSC-60 Plus"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-09",
+        "manufacturer": "Shimadzu",
+        "model_name": "DSC-60 Plus",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/d7/ckeditor/an/thermal/n9j25k000002ayc3-img/n9j25k000002ayd9.jpg",
+        "image_scope": "Manufacturer DSC-60 Plus series product photograph.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 400,
+          "height": 200,
+          "sha256": "555502a83111a977d88e20140b61b8c1f3ff5c45fc818255860b1cf94fd8c00b",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-0C6673C707158DC1",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -38930,6 +39122,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-164DBADA33A5457D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTS Landmark 500 kN (Purdue configuration)",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public Purdue Chawla Research Group photo of its Landmark 500 kN installation.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTS Landmark 500 kN (Purdue configuration)",
+          "url": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-01",
+          "label": "Landmark 500 kN (Purdue configuration)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-01",
+        "manufacturer": "MTS",
+        "model_name": "Landmark 500 kN (Purdue configuration)",
+        "image_url": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-landmark2/Landmark_landscape.jpg",
+        "image_scope": "Public Purdue Chawla Research Group photo of its Landmark 500 kN installation.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 4032,
+          "height": 3024,
+          "sha256": "a3e54188f54d6718a3ca10aba05d4ab67eff5da8ffd07ac50a55c91f50944fd5",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-1A3D14ADE1C78B99",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39110,6 +39350,150 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-20216D8945418D0D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Maccor Series 4400",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Maccor Series 4400 product photo.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Maccor Series 4400",
+          "url": "https://www.maccor.com/desktop-battery-testers.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-09",
+          "label": "Series 4400"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-09",
+        "manufacturer": "Maccor",
+        "model_name": "Series 4400",
+        "image_url": "https://www.maccor.com/images/4400.png",
+        "image_scope": "Maccor Series 4400 product photo.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 791,
+          "height": 600,
+          "sha256": "7ffd0ccce8f88e5356275acd1af3b310a5d5d33dc590fb976c65291ff2bbad04",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-20CCF28D151DED14",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-H200A",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-H200A.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-H200A",
+          "url": "https://mtixtl.com/products/msk-afa-h200a",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-06",
+          "label": "MSK-AFA-H200A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-H200A",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAH200A_open_d8ea1b35-87c3-4359-888f-cc0baf202633.jpg?v=1711402721",
+        "image_scope": "Manufacturer photograph of MSK-AFA-H200A.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "878eedeb6f58305beba7afa349c56ba8b65e89a58392d15f690b2d67c396cf2c",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-231F661DDE3AE9C8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TA Instruments Discovery DSC 2500",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Seller photograph for the Discovery DSC 2500 configuration offered.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TA Instruments Discovery DSC 2500",
+          "url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-04",
+          "label": "Discovery DSC 2500"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-04",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 2500",
+        "image_url": "https://media.exapro.com/product/2026/07/P260707045/b3f5cf8744474089b010eb9124a55a2c/462x340/b3f5cf8744474089b010eb9124a55a2c_462x340.jpg",
+        "image_scope": "Seller photograph for the Discovery DSC 2500 configuration offered.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 462,
+          "height": 340,
+          "sha256": "416d33d0ed0cebef8c47ff4267d9cfc7ab673ddcfb6e49dd73fe7b021b26fc76",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-24417BACAD9194D5",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39211,6 +39595,54 @@
         "listing_availability": "active_browser_verified",
         "condition": "used",
         "seller": "InnovtrendLab"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-262285E1577DAF56",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-II-VC",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-II-VC.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-II-VC",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-03",
+          "label": "MSK-AFA-II-VC"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-03",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIIVCMET.1_7df20c14-8af6-4d69-9564-ed1f9e657d35.jpg?v=1711682702",
+        "image_scope": "Manufacturer photograph of MSK-AFA-II-VC.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "843508da0783a2e0e48e5c250da86ceaa00ea6712f9f068fe8a5ee3292cf64bf",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -39698,6 +40130,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2D77ED39A5CF58CD",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for METTLER TOLEDO DSC 5+",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Fisher Scientific product photograph for the METTLER TOLEDO DSC 5+.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for METTLER TOLEDO DSC 5+",
+          "url": "https://www.fishersci.ca/shop/products/dsc-5-differential-scanning-calorimeter/01338205",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-08",
+          "label": "DSC 5+"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-08",
+        "manufacturer": "METTLER TOLEDO",
+        "model_name": "DSC 5+",
+        "image_url": "https://assets.fishersci.com/TFS-Assets/CCG/Mettler-Toledo/product-images/DSC5-Manual-new.jpg-650.jpg",
+        "image_scope": "Fisher Scientific product photograph for the METTLER TOLEDO DSC 5+.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 650,
+          "height": 488,
+          "sha256": "842c2ab7d2662fd64ef273ce46c98c7bf522df73e53d9f9b946f1c7d2197bf4b",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-2E077C44D366415B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TOB New Energy TOB-MSK-110",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "TOB New Energy product photograph for TOB-MSK-110.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TOB New Energy TOB-MSK-110",
+          "url": "https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-04",
+          "label": "TOB-MSK-110"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-04",
+        "manufacturer": "TOB New Energy",
+        "model_name": "TOB-MSK-110",
+        "image_url": "https://www.tobmachine.com/uploadfile/202404/17/370389733eae5ff8622993b1f867094f.jpg",
+        "image_scope": "TOB New Energy product photograph for TOB-MSK-110.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "2dce9705fc118d1e397fd140b59b3391818c26cb2a2808a3538d5d9ce9b14a93",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-2E1739326AB82CCF",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39874,6 +40402,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-32F767BB3CDD2E0F",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for FENN Model 081 Laboratory Reversing Mill",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "FENN's case-study photograph of its Model 081 machine at the University of Manchester.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for FENN Model 081 Laboratory Reversing Mill",
+          "url": "https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-02",
+          "label": "Model 081 Laboratory Reversing Mill"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M145-02",
+        "manufacturer": "FENN",
+        "model_name": "Model 081 Laboratory Reversing Mill",
+        "image_url": "https://www.fenn-torin.com/hs-fs/hubfs/Imported_Blog_Media/IMG_5551-154x300-2.jpg?width=154&height=300&name=IMG_5551-154x300-2.jpg",
+        "image_scope": "FENN's case-study photograph of its Model 081 machine at the University of Manchester.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 154,
+          "height": 300,
+          "sha256": "51d7b7576c778e640aef6851642ec6585bb28a498a3f80ea7664b659c106134a",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-331296723ADB0192",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -39945,6 +40521,54 @@
           }
         },
         "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-3399E7D751CC1371",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Bruker D8 FOCUS",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "NTNU laboratory photograph of the Bruker D8 Focus. This unit is at NTNU.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Bruker D8 FOCUS",
+          "url": "https://www.ntnu.edu/ima/powder-diffraction-lab",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M37-01",
+          "label": "D8 FOCUS"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M37",
+          "label": "X-ray diffractometer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M37-01",
+        "manufacturer": "Bruker",
+        "model_name": "D8 FOCUS",
+        "image_url": "https://www.ntnu.edu/documents/140124/1274271064/D8-Focus.jpg/e875487c-0d6a-d152-1435-48c2081b9a8d?imagePreview=1&t=1681903307933",
+        "image_scope": "NTNU laboratory photograph of the Bruker D8 Focus. This unit is at NTNU.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 800,
+          "height": 520,
+          "sha256": "b5c1144671db2718c271f41e37155679ccd64f582981a2cfbf573952db69903d",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -40175,6 +40799,102 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-36589DF9873080F7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron 68FM-100",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron 68FM-100",
+          "url": "https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-04",
+          "label": "68FM-100"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-04",
+        "manufacturer": "Instron",
+        "model_name": "68FM-100",
+        "image_url": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp",
+        "image_scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "17f126b26d6999e9ae113b866e0fb5fa2ad1a30ae87d04ba4740a5b743b33d2a",
+          "source_content_type": "image/webp"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-3B3CA5F7FAAE1FF7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for BioLogic BCS-810",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for BioLogic BCS-810",
+          "url": "https://www.instrument.com.cn/show/C262941.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-05",
+          "label": "BCS-810"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-05",
+        "manufacturer": "BioLogic",
+        "model_name": "BCS-810",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "image_scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 400,
+          "height": 400,
+          "sha256": "3dff4935d3c016fe7c305bbbdf4e76b637a59a502de54036aa60158c97609b56",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -40685,6 +41405,198 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-4D63386AE8B42EC2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Arbin 64-channel battery cycler (ViPER configuration)",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public Purdue ViPER photo of the facility's 64-channel Arbin cycler.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Arbin 64-channel battery cycler (ViPER configuration)",
+          "url": "https://engineering.purdue.edu/ViPER/lab.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-02",
+          "label": "64-channel battery cycler (ViPER configuration)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-02",
+        "manufacturer": "Arbin",
+        "model_name": "64-channel battery cycler (ViPER configuration)",
+        "image_url": "https://engineering.purdue.edu/ViPER/pics/facilities/Arbin64.jpg",
+        "image_scope": "Public Purdue ViPER photo of the facility's 64-channel Arbin cycler.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 3000,
+          "height": 4000,
+          "sha256": "ab292f73a26bcff2b19c35bc57fd01d13f79e233a0eef4f0a86a1d3c5bf2374c",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-4DC0F72A158384E2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron 68TM-10",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron 68TM-10",
+          "url": "https://www.directindustry.com/prod/instron/product-18463-2365300.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-02",
+          "label": "68TM-10"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-02",
+        "manufacturer": "Instron",
+        "model_name": "68TM-10",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg",
+        "image_scope": "Instron 68TM tabletop family. Force rating shown is unconfirmed.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 859,
+          "height": 859,
+          "sha256": "6016854096e0c8fbc6c7af58dfc824057aee7aa1375fbc06da7ab9c7de0688a7",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-56F957F973DAFDFC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Durston DRM F150RE",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Durston product photograph for DRM F150RE, SKU 1032.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Durston DRM F150RE",
+          "url": "https://durston.com/product/drm-f150re/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-06",
+          "label": "DRM F150RE"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M145-06",
+        "manufacturer": "Durston",
+        "model_name": "DRM F150RE",
+        "image_url": "https://durston.com/wp-content/uploads/2020/04/1032-DRM-F150RE-510x612.jpg",
+        "image_scope": "Durston product photograph for DRM F150RE, SKU 1032.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 510,
+          "height": 612,
+          "sha256": "6c468e90e46696d17c8835e778b39c301541e5b655a26e8e5bc398a5701c7c95",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-576EDADB250C780C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu Servopulser EHF-EV200k1",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu Servopulser EHF-EV200k1",
+          "url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-10",
+          "label": "Servopulser EHF-EV200k1"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-10",
+        "manufacturer": "Shimadzu",
+        "model_name": "Servopulser EHF-EV200k1",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "image_scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 430,
+          "height": 350,
+          "sha256": "ebb3024de59efde20e0328570a90b960e901f519a0c022df2e3b76ab28f29f99",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-58CF2AB92ADAC6CD",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -40749,6 +41661,246 @@
           }
         },
         "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-59C2030D695FA179",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu DSC-60A Plus",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu photograph of the DSC-60A Plus with built-in autosampler.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu DSC-60A Plus",
+          "url": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/index.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-10",
+          "label": "DSC-60A Plus"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-10",
+        "manufacturer": "Shimadzu",
+        "model_name": "DSC-60A Plus",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Thermal_Analysis/DSC-60_Plus_Series/DSC-60Plus_f06.png",
+        "image_scope": "Shimadzu photograph of the DSC-60A Plus with built-in autosampler.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 780,
+          "height": 560,
+          "sha256": "db4d4a42cfa58d7da505310a07f0732e50fa1971bc60516ad7aa4d167a79ad9b",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5AEE00560A6A0E35",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TOB New Energy TOB-DF-160",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "TOB New Energy product photograph for TOB-DF-160.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TOB New Energy TOB-DF-160",
+          "url": "https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-05",
+          "label": "TOB-DF-160"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-05",
+        "manufacturer": "TOB New Energy",
+        "model_name": "TOB-DF-160",
+        "image_url": "https://www.tobmachine.com/uploadfile/202611/09/91723413acb5167b3b5dbb76d1876c5e.jpg",
+        "image_scope": "TOB New Energy product photograph for TOB-DF-160.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "285fd7f20ddb8910c30c2a371fecb68baceb1b1d99b335727cd114b98cfffd57",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5D8000BA70B5BF70",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Arbin LBT21084",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Arbin product image of the LBT21084 benchtop unit.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Arbin LBT21084",
+          "url": "https://www.arbin.com/battery-research/lbt-benchtop.html/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-03",
+          "label": "LBT21084"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-03",
+        "manufacturer": "Arbin",
+        "model_name": "LBT21084",
+        "image_url": "https://www.arbin.com/wp-content/uploads/2025/05/LBT-Left-min.png",
+        "image_scope": "Arbin product image of the LBT21084 benchtop unit.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "bc3ecba495c87517452287a401d12e688aba427390c11d92e31b64a5f5193269",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5E2E3923BF23C4FA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Element Machinery 2 High Rolling Mill",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Element Machinery product photograph illustrating its 2 High rolling mill line.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Element Machinery 2 High Rolling Mill",
+          "url": "https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-07",
+          "label": "2 High Rolling Mill"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M145-07",
+        "manufacturer": "Element Machinery",
+        "model_name": "2 High Rolling Mill",
+        "image_url": "https://elementmachinery.com/wp-content/uploads/2022/10/2-high-rolling-mill-2.jpeg",
+        "image_scope": "Element Machinery product photograph illustrating its 2 High rolling mill line.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 402,
+          "height": 149,
+          "sha256": "be6a686269bbd8d8bb83f409217ecb235fef0b686d702f1f3f21f7ca2afda194",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-5E9E759828E4120D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-II-VC-FH",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-II-VC-FH.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-II-VC-FH",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-04",
+          "label": "MSK-AFA-II-VC-FH"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-04",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC-FH",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-II-VC-FH_Open_1fb98f13-6d88-4a46-a198-2dfbc6b7e358.jpg?v=1711682704",
+        "image_scope": "Manufacturer photograph of MSK-AFA-II-VC-FH.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 2400,
+          "height": 1600,
+          "sha256": "26863aaa24a300f0c655624e0476d2f656745956d9734ff2ba2e8a65720417f9",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -40934,6 +42086,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-658D8C71F0A1405B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron ElectroPuls E3000 Linear-Torsion",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron catalog photo from the ElectroPuls E3000 page for the Linear-Torsion version.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron ElectroPuls E3000 Linear-Torsion",
+          "url": "https://www.directindustry.com/prod/instron/product-18463-1662832.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-05",
+          "label": "ElectroPuls E3000 Linear-Torsion"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-05",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E3000 Linear-Torsion",
+        "image_url": "https://img.directindustry.com/images_di/photo-g/18463-8920713.jpg",
+        "image_scope": "Instron catalog photo from the ElectroPuls E3000 page for the Linear-Torsion version.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1500,
+          "height": 1500,
+          "sha256": "668fe38ab56d7b9e46446085787e69bcb2ca13f377f193b8ee2c7cfc17ad3a9c",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-6721E4652A85C1CD",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu Autograph AGX-V2 Series",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu photograph of the AGX-V2 series.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu Autograph AGX-V2 Series",
+          "url": "https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-06",
+          "label": "Autograph AGX-V2 Series"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-06",
+        "manufacturer": "Shimadzu",
+        "model_name": "Autograph AGX-V2 Series",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Images/Testing/agx-v2/agx-v2-main-2024.png",
+        "image_scope": "Shimadzu photograph of the AGX-V2 series.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 225,
+          "height": 358,
+          "sha256": "5241405e9271123d2c3121b1307101118dbad82d72b937d64a199af5d35b0a13",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-6BF423C5EAA695FF",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41058,6 +42306,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-6FA753B489AFEC6E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Durston DRM F130R",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Durston product photograph for DRM F130R, SKU 1026.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Durston DRM F130R",
+          "url": "https://durston.com/product/drm-f130r/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-05",
+          "label": "DRM F130R"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M145-05",
+        "manufacturer": "Durston",
+        "model_name": "DRM F130R",
+        "image_url": "https://durston.com/wp-content/uploads/2018/05/1026-F130R-FRONT-510x612.jpg",
+        "image_scope": "Durston product photograph for DRM F130R, SKU 1026.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 510,
+          "height": 612,
+          "sha256": "e273d6016c4b89407b3166ab4dc95ae1d6abd9bc4903e4f7df054e766d9d90c0",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-70007D13D3997A06",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TA Instruments Q2000 DSC",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Model-matched Q2000 seller photograph of a different unit. The listing is sold out and provides media only.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TA Instruments Q2000 DSC",
+          "url": "https://spwindustrial.com/ta-instruments-dsc-q2000-differential-scanning-calorimeter/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-01",
+          "label": "Q2000 DSC"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-01",
+        "manufacturer": "TA Instruments",
+        "model_name": "Q2000 DSC",
+        "image_url": "https://cdn11.bigcommerce.com/s-46jufh/images/stencil/500x659/products/1040307/987674/s-l1600__77625.1612333728.jpg?c=2",
+        "image_scope": "Model-matched Q2000 seller photograph of a different unit. The listing is sold out and provides media only.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 500,
+          "height": 375,
+          "sha256": "53ccfdcdb1e1c3fa471603920c02180b8b1485e36984a3528594f52eb23b3ac9",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-72675B1162B898EE",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41148,6 +42492,150 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-72EB7543EA59DBAC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TA Instruments Discovery DSC 25",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Questpair photograph for Discovery DSC25.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TA Instruments Discovery DSC 25",
+          "url": "https://questpair.com/calorimeters/ta-instruments/discovery-dsc25/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-02",
+          "label": "Discovery DSC 25"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-02",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 25",
+        "image_url": "https://media.questpair.com/images/marketplace/65/65cb059c98830576d5b99b68becb8feeebf21a2b4f0005b7de10e846f9766a36.jpg",
+        "image_scope": "Questpair photograph for Discovery DSC25.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "b9612a4ae7c501f292187db73263ec0a4d34ec7bc0cfb6cb1500687d5da6b188",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7511D0EEC98A4181",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron ElectroPuls E10000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "University of Southampton photo showing its ElectroPuls equipment, including the E10000. The photo covers the family of configurations.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron ElectroPuls E10000",
+          "url": "https://www.southampton.ac.uk/engineering/research/facilities/360/tsrl_360.page",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-06",
+          "label": "ElectroPuls E10000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-06",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E10000",
+        "image_url": "https://cdn.southampton.ac.uk/assets/imported/transforms/site/slideshow/Media_Img/C2E9ED0C0AA049E5B9AE602904AF1530/Instron-Electropuls-and-Electropuls-E10000.jpg_SIA_JPG_fit_to_width_XL.jpg",
+        "image_scope": "University of Southampton photo showing its ElectroPuls equipment, including the E10000. The photo covers the family of configurations.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 980,
+          "height": 606,
+          "sha256": "a5eb943bc51717792a34bb6dcf90fa7813c8ade3a36c683d971dd093e6149d9d",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-756126D114E45DAA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Cambridge NanoTech Fiji 200 ALD",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "ICI's photograph of its used Cambridge NanoTech Fiji F200. Seller unit at a different location than the Purdue installation.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Cambridge NanoTech Fiji 200 ALD",
+          "url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M22-03",
+          "label": "Fiji 200 ALD"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M22",
+          "label": "Atomic layer deposition system"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M22-03",
+        "manufacturer": "Cambridge NanoTech",
+        "model_name": "Fiji 200 ALD",
+        "image_url": "http://static1.squarespace.com/static/57b89099f7e0ab151e4aeed0/57b89994d482e9b69b7f66f8/5d5330da0cc4f6000166dbaa/1565733122417/20161010_115955_001.jpg?format=1500w",
+        "image_scope": "ICI's photograph of its used Cambridge NanoTech Fiji F200. Seller unit at a different location than the Purdue installation.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1500,
+          "height": 2666,
+          "sha256": "6e5e418e4dc1c81fd2088f8ed4d448f87d96de73ee9eecb6231b5c867f17a4aa",
+          "source_content_type": "image/webp"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-75C6C6066D341C4B",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41212,6 +42700,54 @@
           "checked_date": "2026-10-19"
         },
         "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-778D51BF74F983EC",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-HDS-150",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-HDS-150.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-HDS-150",
+          "url": "https://mtixtl.com/products/msk-afa-hds-150",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-05",
+          "label": "MSK-AFA-HDS-150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-05",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-HDS-150",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIII-HDS150.png?v=1791589059",
+        "image_scope": "Manufacturer photograph of MSK-AFA-HDS-150.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1536,
+          "height": 1024,
+          "sha256": "2e7ebf24897dfb787452dde686cb3dccfac6945ab8471e2e7a85ebafde30017d",
+          "source_content_type": "image/png"
+        }
       }
     },
     {
@@ -41287,6 +42823,54 @@
           }
         },
         "rights_note": "External source photograph; rights remain with source. Link reference only; no downloaded media."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-78326ECBB96708E2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-EC150",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-EC150.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-EC150",
+          "url": "https://mtixtl.com/products/msk-afa-ec150",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-08",
+          "label": "MSK-AFA-EC150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-08",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-EC150",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-EC150-a_581a052c-b141-4f2a-9446-068bd4556878.jpg?v=1711402699",
+        "image_scope": "Manufacturer photograph of MSK-AFA-EC150.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 927,
+          "height": 617,
+          "sha256": "c250bd6e9029296bd075949d3b35eeefe594c24d22e238462b8ff32e8cd2a7f4",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -41419,6 +43003,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7B83703EDEDA5BA1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Landt Instruments CT3002A",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Landt Instruments photograph of CT3002A, from a page that also covers CT3002AU.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Landt Instruments CT3002A",
+          "url": "https://landtinst.com/battery-test-system-ct3002a/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-10",
+          "label": "CT3002A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-10",
+        "manufacturer": "Landt Instruments",
+        "model_name": "CT3002A",
+        "image_url": "https://landtinst.com/wp-content/uploads/CT3002A.jpg-1024x451.webp",
+        "image_scope": "Landt Instruments photograph of CT3002A, from a page that also covers CT3002AU.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1024,
+          "height": 451,
+          "sha256": "6dd5e66008f9f2a8526cce1e5179c2fccedb83fd15f0ec4e00502af20c7a3c3e",
+          "source_content_type": "image/webp"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-7BD764395E27536D",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41521,6 +43153,54 @@
           "visual_review": "Matched product type and selected model source; alpha transparency composited for QA only. Original image unchanged."
         },
         "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-7D6B64B6B6990F1D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for FEI Quanta 650 FEG",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public Purdue Electron Microscopy facility photograph of its Quanta 650 FEG.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for FEI Quanta 650 FEG",
+          "url": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M38-06",
+          "label": "Quanta 650 FEG"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M38-06",
+        "manufacturer": "FEI",
+        "model_name": "Quanta 650 FEG",
+        "image_url": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/_media/quanta-650-arms-b218.png",
+        "image_scope": "Public Purdue Electron Microscopy facility photograph of its Quanta 650 FEG.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1663,
+          "height": 1247,
+          "sha256": "f522bac470cd13ca2aadc62531ea7c0ce9a2a33ca74339dc0d2e578475c2b935",
+          "source_content_type": "image/png"
+        }
       }
     },
     {
@@ -41664,6 +43344,150 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-832E540233D000C7",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Maccor Series 4000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Maccor Series 4000 product photo. Channel and rack configuration varies.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Maccor Series 4000",
+          "url": "https://www.maccor.com/cell-battery-module-test-systems.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-07",
+          "label": "Series 4000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-07",
+        "manufacturer": "Maccor",
+        "model_name": "Series 4000",
+        "image_url": "https://www.maccor.com/images/battery-testers/S4000.png",
+        "image_scope": "Maccor Series 4000 product photo. Channel and rack configuration varies.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 327,
+          "height": 1135,
+          "sha256": "563f36a7b61296b0108a5dab8401b948e35274a334f6f6d5a48f8e19e3165d99",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-8A08D3EC50CBBE8C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for ZwickRoell ProLine",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "ZwickRoell ProLine universal testing machine. Fixtures and force configuration may vary.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for ZwickRoell ProLine",
+          "url": "https://www.zwickroell.com/de/produkte/statische-material-pruefmaschinen/universalpruefmaschinen-fuer-statische-anwendungen/proline/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-07",
+          "label": "ProLine"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-07",
+        "manufacturer": "ZwickRoell",
+        "model_name": "ProLine",
+        "image_url": "https://www.zwickroell.com/zrmedia/_processed_/4/5/csm_CTA271663_TVM1629546_c6544e9b26.png",
+        "image_scope": "ZwickRoell ProLine universal testing machine. Fixtures and force configuration may vary.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 243,
+          "height": 194,
+          "sha256": "a99058dd0162f0b9c5bc41743d20cb4b0abb79de6fc4b8e530ac4d597e3e1cf2",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-8D3EA2E93E610ACA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Thermo Scientific Phenom Desktop SEM (Purdue MSE configuration)",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Phenom Pro photo used to illustrate the Phenom Desktop SEM family. The Purdue MSE installation does not have a documented submodel.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Thermo Scientific Phenom Desktop SEM (Purdue MSE configuration)",
+          "url": "https://sfr.ca/pages/phenom_desktop_sem",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M38-01",
+          "label": "Phenom Desktop SEM (Purdue MSE configuration)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M38",
+          "label": "Scanning electron microscope"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M38-01",
+        "manufacturer": "Thermo Scientific",
+        "model_name": "Phenom Desktop SEM (Purdue MSE configuration)",
+        "image_url": "https://sfr.ca/cdn/shop/files/phenom_pro_1600x.png?v=1752241657",
+        "image_scope": "Phenom Pro photo used to illustrate the Phenom Desktop SEM family. The Purdue MSE installation does not have a documented submodel.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1600,
+          "height": 1600,
+          "sha256": "3dd788b85166e40923a3593068ce39524ef7da50b4d447e307decfc7a9c23e9e",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-8D4548721A4A3AE8",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41715,6 +43539,150 @@
           }
         },
         "rights_note": "Remote image reference with source attribution; no open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-90B0EB48066AD544",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for NETZSCH DSC 300 Caliris Supreme",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for NETZSCH DSC 300 Caliris Supreme",
+          "url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-07",
+          "label": "DSC 300 Caliris Supreme"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-07",
+        "manufacturer": "NETZSCH",
+        "model_name": "DSC 300 Caliris Supreme",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png",
+        "image_scope": "NETZSCH DSC 300 Caliris family image. Variant and furnace module may differ.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1650,
+          "height": 824,
+          "sha256": "bd0472bb18525e28c7ac61466028abbd4cf76476ef3561b525aaff653c88a574",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-912EC047B8628EEB",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-III",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-III. Heating options vary.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-III",
+          "url": "https://mtixtl.com/products/msk-afa-iii",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-02",
+          "label": "MSK-AFA-III"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-III",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKAFAIUL.1.1_3370dfa5-2ebf-4e42-88e7-5d882903d199.jpg?v=1792015070",
+        "image_scope": "Manufacturer photograph of MSK-AFA-III. Heating options vary.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 763,
+          "height": 508,
+          "sha256": "adf497c1b78630b848b51d635f54bc84ee41c5ca2a62bdaf1a862c7dfc3fdfdb",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-91E895F600FD5952",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TA Instruments Q50 TGA",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Iowa State laboratory photograph of the TA Instruments Q50 TGA. This unit is at Iowa State.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TA Instruments Q50 TGA",
+          "url": "https://www.mse.iastate.edu/research/research-and-teaching-laboratories/lab-equipment/thermal-analysis-equipment/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M42-01",
+          "label": "Q50 TGA"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M42",
+          "label": "Thermogravimetric analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M42-01",
+        "manufacturer": "TA Instruments",
+        "model_name": "Q50 TGA",
+        "image_url": "https://www.mse.iastate.edu/files/2024/11/ThermalAdvantageTGAQ50_MSE.png",
+        "image_scope": "Iowa State laboratory photograph of the TA Instruments Q50 TGA. This unit is at Iowa State.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 400,
+          "height": 535,
+          "sha256": "d46e5a11cd2b21061601b617fbca2390f22981d390c0557b13a28fae789e6e0c",
+          "source_content_type": "image/png"
+        }
       }
     },
     {
@@ -41832,6 +43800,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9312160743E5185D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-PN110-S",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "MTI product photograph for MSK-PN110-S.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-PN110-S",
+          "url": "https://mtixtl.com/products/msk-pn110-s",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-06",
+          "label": "MSK-PN110-S"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-PN110-S",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSKPN110SMain.3_2c199168-33d3-46a1-8ae0-468ebeb47cfc.jpg?v=1711682314",
+        "image_scope": "MTI product photograph for MSK-PN110-S.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "b23341d1e69b32e839c925465158c7c4691d4c6348b6fb61e2b4cd82176a03e5",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9497E3AD80424C67",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Arbin BT-2000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "BT-2000 photograph displayed beside the Purdue Zhu Lab description of its two installed BT-2000 systems.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Arbin BT-2000",
+          "url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-01",
+          "label": "BT-2000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-01",
+        "manufacturer": "Arbin",
+        "model_name": "BT-2000",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/arbin2.jpg",
+        "image_scope": "BT-2000 photograph displayed beside the Purdue Zhu Lab description of its two installed BT-2000 systems.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 3212,
+          "height": 2955,
+          "sha256": "51b3db8e4d4b4272f83b194cd65c67d03357daef155c5bb294b38d6c83d5f715",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-9833B6EA37967C38",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41934,6 +43998,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-98BBFF6720F5184C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for TA Instruments Discovery DSC 250",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Unicam product photo for Discovery DSC 250 with its cooling accessory.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for TA Instruments Discovery DSC 250",
+          "url": "https://unicam.hu/termekeink/termoanalitika/dsc/dsc-250/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-03",
+          "label": "Discovery DSC 250"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-03",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 250",
+        "image_url": "https://unicam.hu/files/dsc-250/06-dsc250-pca.jpg",
+        "image_scope": "Unicam product photo for Discovery DSC 250 with its cooling accessory.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1232,
+          "height": 770,
+          "sha256": "09bbecf708df87720902b9e99febf8b5a3310ed22a92b4dbd74cb5a79448877a",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9A0BC9A0631BC3D1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-110-A",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "MTI's regional storefront photograph of the 110-A single-channel automatic assembly system.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-110-A",
+          "url": "https://mti-indonesia.com/products/msk-110-a",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-03",
+          "label": "MSK-110-A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-03",
+        "manufacturer": "MTI",
+        "model_name": "MSK-110-A",
+        "image_url": "http://mti-indonesia.com/cdn/shop/files/MSK-110-A-main1_4963a989-cf43-431e-b683-4f9f47a706f1.jpg?v=1764851762",
+        "image_scope": "MTI's regional storefront photograph of the 110-A single-channel automatic assembly system.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "6ee2886326dbbfea9b6399146f448f26fc8125976fdcf8e46700f397fbb07c32",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-9B88D99450A39D63",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -41992,6 +44152,102 @@
           }
         },
         "rights_note": "External source photo; remote reference only. No open redistribution licence asserted."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9D9CC26966EDF697",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron ElectroPuls E3000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Florida Tech laboratory photograph of its ElectroPuls E3000.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron ElectroPuls E3000",
+          "url": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-04",
+          "label": "ElectroPuls E3000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-04",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E3000",
+        "image_url": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/Instron-ElectroPulse-E3000--mechanical-testing-system.jpg",
+        "image_scope": "Florida Tech laboratory photograph of its ElectroPuls E3000.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 440,
+          "height": 648,
+          "sha256": "1dbac4664ec423db94ba94e94418a3076f189e42069502e734f22f63d3b26213",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-9DD001B0ADF6A12B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for ZwickRoell AllroundLine",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "AllroundLine family illustrated by the seller's Z005 TN, 5 kN configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for ZwickRoell AllroundLine",
+          "url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-10",
+          "label": "AllroundLine"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-10",
+        "manufacturer": "ZwickRoell",
+        "model_name": "AllroundLine",
+        "image_url": "https://cdn02.plentyone.com/7ukspn3affoc/item/images/25486/full/DSC05656.jpg",
+        "image_scope": "AllroundLine family illustrated by the seller's Z005 TN, 5 kN configuration.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1600,
+          "height": 1067,
+          "sha256": "4f879b1a596673d7794c1d98451258d3b76c7257eac4d23a6d55ff05e7f6e028",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -42175,6 +44431,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A5E513BE53A35585",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Elcometer 4340 Motorised Film Applicator",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Elcometer USA product photo for the 4340 applicator.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Elcometer 4340 Motorised Film Applicator",
+          "url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-09",
+          "label": "4340 Motorised Film Applicator"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-09",
+        "manufacturer": "Elcometer",
+        "model_name": "4340 Motorised Film Applicator",
+        "image_url": "https://www.elcometerusa.com/4340_1_lg.jpg",
+        "image_scope": "Elcometer USA product photo for the 4340 applicator.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 500,
+          "height": 500,
+          "sha256": "9c5e346c3243b0806b3de5d1d8face8520d7181add4f9a3185e8f21b03f4592e",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-A6E235894B0EB066",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -42325,6 +44629,102 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A7D492FBF5AAA525",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron ElectroPuls E10000 Linear-Torsion",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public National Yang Ming Chiao Tung University photo for its E10000 Linear-Torsion.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron ElectroPuls E10000 Linear-Torsion",
+          "url": "https://www.nycu.edu.tw/ord/en/app/machine/view?id=2042&module=machine&serno=6d828d02-1e3a-4dc0-bbe4-2e62a837a6a9",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-07",
+          "label": "ElectroPuls E10000 Linear-Torsion"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-07",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E10000 Linear-Torsion",
+        "image_url": "https://www.nycu.edu.tw/userfiles/ordch/images/20231017105845166.png",
+        "image_scope": "Public National Yang Ming Chiao Tung University photo for its E10000 Linear-Torsion.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 449,
+          "height": 865,
+          "sha256": "0158b59c9db63981336361ed72f0bdb31a0dd783bfe1beb2995e6e9f9b0af495",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-A98A5A782239BB94",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for NETZSCH DSC 300 Caliris Classic",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "NETZSCH product photo of DSC 300 Caliris Classic.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for NETZSCH DSC 300 Caliris Classic",
+          "url": "https://analyzing-testing.netzsch.com/en/products/differential-scanning-calorimeter-dsc-differential-thermal-analyzer-dta/dsc-300-caliris-classic",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-05",
+          "label": "DSC 300 Caliris Classic"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M141-05",
+        "manufacturer": "NETZSCH",
+        "model_name": "DSC 300 Caliris Classic",
+        "image_url": "https://analyzing-testing.netzsch.com/_Resources/Persistent/b/c/1/2/bc122958f351fe82fd08562286e624348394c095/DSC_300_Caliris_Classic_title-999x562-999x562.png",
+        "image_scope": "NETZSCH product photo of DSC 300 Caliris Classic.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 999,
+          "height": 562,
+          "sha256": "9b8fb24d7bf5c94f05b983402b8e423a73feec0580f89687db9e2ecddd9ff03c",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-AFDB04AE87EE3FE5",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -42389,6 +44789,102 @@
           }
         },
         "rights_note": "Manufacturer-hosted image; remote image link with source attribution. No assertion of open redistribution license."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B1AF71BE300B19EE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for BYK Instruments byko-drive XL V",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Exacolor photograph of the BYK byko-drive XL V vacuum plate configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for BYK Instruments byko-drive XL V",
+          "url": "https://www.exacolor.mx/products/byko-drive-xl-v-con-placa-de-vacio",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-10",
+          "label": "byko-drive XL V"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-10",
+        "manufacturer": "BYK Instruments",
+        "model_name": "byko-drive XL V",
+        "image_url": "http://www.exacolor.mx/cdn/shop/products/Byko-Drive-XL-_V_-con-placa-de-vacio.png?v=1666903382",
+        "image_scope": "Exacolor photograph of the BYK byko-drive XL V vacuum plate configuration.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1024,
+          "height": 1024,
+          "sha256": "50e4bf8dfa6fc3cad882a01251da19331977dbaf475662e7a7d33162c66db68b",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-B4889232070B672D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-110",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Exact MSK-110 product photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-110",
+          "url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-01",
+          "label": "MSK-110"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-01",
+        "manufacturer": "MTI",
+        "model_name": "MSK-110",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/crimping.jpg",
+        "image_scope": "Exact MSK-110 product photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "10129e7fa412e76b3b078d40e6c894a6c814baa3b1d038feca2f7fa4622daece",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -42728,6 +45224,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-BB47249C7F949A11",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-160E",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "MTI product photograph of MSK-160E.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-160E",
+          "url": "https://mtixtl.com/products/msk-160e",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-02",
+          "label": "MSK-160E"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M144-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-160E",
+        "image_url": "http://mtixtl.com/cdn/shop/files/16E.png?v=1787433872",
+        "image_scope": "MTI product photograph of MSK-160E.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 823,
+          "height": 549,
+          "sha256": "7621db41db6e0972fa9a7be9aa349e091d4a2b582028f799e04a29f1fde69088",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-BD43B46167C8D66A",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -42994,6 +45538,198 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C15848FEB92D4859",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-HPR-MR100A",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Exact model photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-HPR-MR100A",
+          "url": "https://engineering.purdue.edu/lzhu/facilities.htm",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M67-01",
+          "label": "MSK-HPR-MR100A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M67",
+          "label": "Three-roll mills and calenders"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M67-01",
+        "manufacturer": "MTI",
+        "model_name": "MSK-HPR-MR100A",
+        "image_url": "https://engineering.purdue.edu/lzhu/_images/rolling%20press.jpg",
+        "image_scope": "Exact model photo presented by Purdue Zhu Lab. The pictured unit is not independently identified as the installed unit.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 400,
+          "height": 268,
+          "sha256": "d9b0004abcf839da4fd5397a4f5ff650d03cfe3a70ad94b02e4d5029ed121b3a",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C364425A672C0C1E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for FENN Reversing Hot Rolling Mill (Royce configuration)",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Henry Royce Institute photograph of the Royce-configured FENN reversing hot rolling mill.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for FENN Reversing Hot Rolling Mill (Royce configuration)",
+          "url": "https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-03",
+          "label": "Reversing Hot Rolling Mill (Royce configuration)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M145-03",
+        "manufacturer": "FENN",
+        "model_name": "Reversing Hot Rolling Mill (Royce configuration)",
+        "image_url": "https://www.royce.ac.uk/wp-content/uploads/2023/10/fenn-rhrm-870x570.jpg",
+        "image_scope": "Henry Royce Institute photograph of the Royce-configured FENN reversing hot rolling mill.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 870,
+          "height": 570,
+          "sha256": "d5cc10aac5b42c52b4b919f0f47d21499889b38d34c10b6af2cf32151d7c5fdc",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C44F8BA739C8D728",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu Autograph AGS-X Series",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu photograph of the AGS-X series.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu Autograph AGS-X Series",
+          "url": "https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-09",
+          "label": "Autograph AGS-X Series"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-09",
+        "manufacturer": "Shimadzu",
+        "model_name": "Autograph AGS-X Series",
+        "image_url": "https://www.shimadzu.com.au/sites/shimadzu.com.au/files/pim/pim_product_basic/6911/qn50420000006az5_0.jpg",
+        "image_scope": "Shimadzu photograph of the AGS-X series.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 780,
+          "height": 390,
+          "sha256": "9fa37ac36e5cc01888b38daef4e2eaac9bc543373bbc460bef4bf108d88acf64",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-C687C10EE915D336",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for BioLogic BCS-815",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for BioLogic BCS-815",
+          "url": "https://www.instrument.com.cn/show/C262941.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-06",
+          "label": "BCS-815"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-06",
+        "manufacturer": "BioLogic",
+        "model_name": "BCS-815",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "image_scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 400,
+          "height": 400,
+          "sha256": "3dff4935d3c016fe7c305bbbdf4e76b637a59a502de54036aa60158c97609b56",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-C82F591B732054FC",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -43235,6 +45971,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-D6637B02AEF7DE30",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron ElectroPuls E1000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Guangxi Medical University laboratory photo. The instrument label identifies the E1000.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron ElectroPuls E1000",
+          "url": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-03",
+          "label": "ElectroPuls E1000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-03",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E1000",
+        "image_url": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/W020211114766550981667.jpg",
+        "image_scope": "Guangxi Medical University laboratory photo. The instrument label identifies the E1000.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 3968,
+          "height": 2976,
+          "sha256": "6901acb1fd07a3feef91725ae387fc538ad69047975e9e64761e247e93d62394",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-D6D9DAAE9693B146",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -43462,6 +46246,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E22B24AD7D3BB4D5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron 68SC-5",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron 6800 single-column frame. Force rating shown is unconfirmed.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron 68SC-5",
+          "url": "https://instron-romania.com/seria-6800/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-01",
+          "label": "68SC-5"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-01",
+        "manufacturer": "Instron",
+        "model_name": "68SC-5",
+        "image_url": "https://instron-romania.com/wp-content/uploads/2020/02/6800-series-single-column-universal-testing-system-with-screw-side-action-grips.jpg",
+        "image_scope": "Instron 6800 single-column frame. Force rating shown is unconfirmed.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 425,
+          "height": 600,
+          "sha256": "fab4c7c8a6d5fed74a62b2a2675efc31d8cb1e7dd73ba8a251c33266c5550d24",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-E2EF02317488BBC8",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -43530,6 +46362,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E523AFDA62904915",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Shimadzu Servopulser EHF-EV101k1",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Shimadzu Servopulser EHF-EV101k1",
+          "url": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-09",
+          "label": "Servopulser EHF-EV101k1"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-09",
+        "manufacturer": "Shimadzu",
+        "model_name": "Servopulser EHF-EV101k1",
+        "image_url": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg",
+        "image_scope": "Shimadzu EHF-E series photo. Force rating and fixtures in this photo may differ.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 430,
+          "height": 350,
+          "sha256": "ebb3024de59efde20e0328570a90b960e901f519a0c022df2e3b76ab28f29f99",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-E712DB00AA797895",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -43581,6 +46461,54 @@
         },
         "new_photo": false,
         "catalog_pdf_reviewed": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-E8184D442412BF31",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI Automatic Film Coater (ViPER configuration)",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public Purdue ViPER photograph of its automatic film coater.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI Automatic Film Coater (ViPER configuration)",
+          "url": "https://engineering.purdue.edu/ViPER/lab.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-01",
+          "label": "Automatic Film Coater (ViPER configuration)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-01",
+        "manufacturer": "MTI",
+        "model_name": "Automatic Film Coater (ViPER configuration)",
+        "image_url": "https://engineering.purdue.edu/ViPER/pics/facilities/MTIafc.jpg",
+        "image_scope": "Public Purdue ViPER photograph of its automatic film coater.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 3712,
+          "height": 2992,
+          "sha256": "8013ce6539ce7a8904247f92f98e3db8f105f4d802fe966f43b860610959dbc0",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -43790,6 +46718,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-EC65EE3786F4CAF4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Maccor Series 4300",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Maccor Series 4300 product photo.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Maccor Series 4300",
+          "url": "https://www.maccor.com/desktop-battery-testers.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-08",
+          "label": "Series 4300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-08",
+        "manufacturer": "Maccor",
+        "model_name": "Series 4300",
+        "image_url": "https://www.maccor.com/images/4300.png",
+        "image_scope": "Maccor Series 4300 product photo.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 563,
+          "height": 1200,
+          "sha256": "3675beea008acd1b3e0f177e479e3ecb42a14043263c0cbd5560076dd02c55d0",
+          "source_content_type": "image/png"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-F1F48A4C68A37F51",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -43914,6 +46890,54 @@
           "checked_date": "2026-10-19"
         },
         "match_scope": "exact_model"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F4C7674EA93D335B",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTI MSK-AFA-L1000",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer photograph of MSK-AFA-L1000. Heating options vary.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTI MSK-AFA-L1000",
+          "url": "https://mtixtl.com/products/msk-afa-l1000",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-07",
+          "label": "MSK-AFA-L1000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M142-07",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-L1000",
+        "image_url": "http://mtixtl.com/cdn/shop/files/MSK-AFA-L1000_Main1.1_e2ce1702-eccf-4add-9c2e-cda0c4dcd113.jpg?v=1711682919",
+        "image_scope": "Manufacturer photograph of MSK-AFA-L1000. Heating options vary.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 667,
+          "sha256": "a0575520bece345cea0a9d1d03d4ea8277a5b3a4b45242948e2736161b500f49",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -44046,6 +47070,150 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F8F0A04787E6CBB9",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTS Acumen 3 kN",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Public Purdue Chawla Research Group photo of its Acumen 3 kN installation.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTS Acumen 3 kN",
+          "url": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-02",
+          "label": "Acumen 3 kN"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M140-02",
+        "manufacturer": "MTS",
+        "model_name": "Acumen 3 kN",
+        "image_url": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-acumen/Acumen_landscape.jpg",
+        "image_scope": "Public Purdue Chawla Research Group photo of its Acumen 3 kN installation.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 4032,
+          "height": 3024,
+          "sha256": "38447095af02152562411018aabeed9214cb980b81c3944fd4ef8e46a376d525",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F92B60B505CB47EB",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for MTS Criterion Series 40",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Manufacturer exhibitor listing photograph for the MTS Criterion Series 40.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for MTS Criterion Series 40",
+          "url": "https://www.chinaplasonline.com/eMarketplace/productinfo/eng?ActionLink=true&compid=1023865&seqid=10105",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-08",
+          "label": "Criterion Series 40"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-08",
+        "manufacturer": "MTS",
+        "model_name": "Criterion Series 40",
+        "image_url": "https://cdn.adsalecdn.com/EMP/Backend/Upload/Image/show_preview_1023865_10105_1.jpg",
+        "image_scope": "Manufacturer exhibitor listing photograph for the MTS Criterion Series 40.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 2961,
+          "height": 1542,
+          "sha256": "47cf6130ef7f4f38590c1024ebd347ce5152ccacc726b91ae1fcbbd946ae5e88",
+          "source_content_type": "image/jpeg"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-F9EBCE0F6BD09F1E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Instron 68FM-300",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for Instron 68FM-300",
+          "url": "https://www.instrumenthive.com/products/instron-6800-series-floor-model-universal-testing-system/",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-05",
+          "label": "68FM-300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M139-05",
+        "manufacturer": "Instron",
+        "model_name": "68FM-300",
+        "image_url": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp",
+        "image_scope": "Instron 6800 floor-frame family. Force rating and fixtures shown are unconfirmed.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "17f126b26d6999e9ae113b866e0fb5fa2ad1a30ae87d04ba4740a5b743b33d2a",
+          "source_content_type": "image/webp"
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "IMG-EV-FE25180C77C6C300",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_media",
@@ -44096,6 +47264,54 @@
         "listing_availability": "active_no_unavailable_banner",
         "condition": "used",
         "seller": "American Instrument Exchange"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-FF42662CB55022C2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for BioLogic BCS-805",
+      "claim": "The linked source presents this equipment photograph.",
+      "scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Photo match for BioLogic BCS-805",
+          "url": "https://www.instrument.com.cn/show/C262941.html",
+          "locator": "Product, lab equipment entry or seller photograph",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-04",
+          "label": "BCS-805"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "ACAD-M143-04",
+        "manufacturer": "BioLogic",
+        "model_name": "BCS-805",
+        "image_url": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg",
+        "image_scope": "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 400,
+          "height": 400,
+          "sha256": "3dff4935d3c016fe7c305bbbdf4e76b637a59a502de54036aa60158c97609b56",
+          "source_content_type": "image/jpeg"
+        }
       }
     },
     {
@@ -44212,6 +47428,60 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "DO-SYL184-11 tile; 1.1kg two-component kit; single-kit price.",
         "currency_basis": "Existing source-bound USD denomination retained; exact supplier SKU and pack row rechecked. No currency conversion or new currency inference."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-01D81D0B4F698B84",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Fiji 200 ALD asking price",
+      "claim": "ICI Equipment publishes USD 137500 for this configuration.",
+      "scope": "Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Fiji 200 ALD asking price",
+          "url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M22-03",
+          "label": "Fiji 200 ALD"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M22",
+          "label": "Atomic layer deposition system"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-E1C941922B449472",
+          "label": "ICI Equipment"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "137500.00",
+        "evidence_id": "PRICE-EV-01D81D0B4F698B84",
+        "equipment_id": "ACAD-M22-03",
+        "manufacturer": "Cambridge NanoTech",
+        "model_name": "Fiji 200 ALD",
+        "seller_name": "ICI Equipment",
+        "price_value": "137500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+        "checked_date": "2026-11-15",
+        "scope": "Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.",
+        "offer_id": "SELL-ACAD261115-E1C941922B449472"
       }
     },
     {
@@ -44859,6 +48129,54 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-062B7136C68CF447",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-II-VC published price",
+      "claim": "MTI publishes USD 4298 for this configuration.",
+      "scope": "Vacuum-chuck sheet film coater with 250 mm doctor blade.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-II-VC published price",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-03",
+          "label": "MSK-AFA-II-VC"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "4298.00",
+        "evidence_id": "PRICE-EV-062B7136C68CF447",
+        "equipment_id": "ACAD-M142-03",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC",
+        "seller_name": "MTI",
+        "price_value": "4298",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc",
+        "checked_date": "2026-11-15",
+        "scope": "Vacuum-chuck sheet film coater with 250 mm doctor blade."
       }
     },
     {
@@ -49671,6 +52989,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-2BB039AF2645C1D3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-III starting price",
+      "claim": "MTI publishes USD 3998 for this configuration.",
+      "scope": "No Heating base configuration. The manufacturer also publishes heated configurations.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-III starting price",
+          "url": "https://mtixtl.com/products/msk-afa-iii",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-02",
+          "label": "MSK-AFA-III"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "3998.00",
+        "evidence_id": "PRICE-EV-2BB039AF2645C1D3",
+        "equipment_id": "ACAD-M142-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-III",
+        "seller_name": "MTI",
+        "price_value": "3998",
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-iii",
+        "checked_date": "2026-11-15",
+        "scope": "No Heating base configuration. The manufacturer also publishes heated configurations."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-2BD1F315346DB32C",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -50814,6 +54180,54 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Matching displayed price/pack and exact named form/size selector: 1kg-10um Natural Graphite (add $575). Existing material identity retained; no inferred density or pack conversion.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-3C043E5AB29EAC12",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-160E published price",
+      "claim": "MTI publishes USD 3598 for this configuration.",
+      "scope": "MSK-160E electric crimper package with 100 pairs of coin-cell cases.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-160E published price",
+          "url": "https://mtixtl.com/products/msk-160e",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-02",
+          "label": "MSK-160E"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "3598.00",
+        "evidence_id": "PRICE-EV-3C043E5AB29EAC12",
+        "equipment_id": "ACAD-M144-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-160E",
+        "seller_name": "MTI",
+        "price_value": "3598",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-160e",
+        "checked_date": "2026-11-15",
+        "scope": "MSK-160E electric crimper package with 100 pairs of coin-cell cases."
       }
     },
     {
@@ -52846,6 +56260,109 @@
         "usd_equivalent": "251",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-4958EC72C68B9826",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "AllroundLine asking price",
+      "claim": "Amikon publishes EUR 32500 for this configuration.",
+      "scope": "Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "AllroundLine asking price",
+          "url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-10",
+          "label": "AllroundLine"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-41E4A94B0FE3E5F4",
+          "label": "Amikon"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "36572.25",
+        "evidence_id": "PRICE-EV-4958EC72C68B9826",
+        "equipment_id": "ACAD-M139-10",
+        "manufacturer": "ZwickRoell",
+        "model_name": "AllroundLine",
+        "seller_name": "Amikon",
+        "price_value": "32500",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+        "checked_date": "2026-11-15",
+        "scope": "Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.",
+        "offer_id": "SELL-ACAD261115-41E4A94B0FE3E5F4",
+        "exchange_rate_reference_date": "2026-10-16"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-49697D1CAB3341C8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-L1000 starting price",
+      "claim": "MTI publishes USD 12995 for this configuration.",
+      "scope": "Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-L1000 starting price",
+          "url": "https://mtixtl.com/products/msk-afa-l1000",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-07",
+          "label": "MSK-AFA-L1000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "12995.00",
+        "evidence_id": "PRICE-EV-49697D1CAB3341C8",
+        "equipment_id": "ACAD-M142-07",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-L1000",
+        "seller_name": "MTI",
+        "price_value": "12995",
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-l1000",
+        "checked_date": "2026-11-15",
+        "scope": "Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985."
       }
     },
     {
@@ -56839,6 +60356,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6DE4AB430E4E3ECF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-EC150 published price",
+      "claim": "MTI publishes USD 26998 for this configuration.",
+      "scope": "Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-EC150 published price",
+          "url": "https://mtixtl.com/products/msk-afa-ec150",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-08",
+          "label": "MSK-AFA-EC150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "26998.00",
+        "evidence_id": "PRICE-EV-6DE4AB430E4E3ECF",
+        "equipment_id": "ACAD-M142-08",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-EC150",
+        "seller_name": "MTI",
+        "price_value": "26998",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ec150",
+        "checked_date": "2026-11-15",
+        "scope": "Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-6E830A1F91BBFFC4",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -57206,6 +60771,54 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Exact SKU size-option row; one-time purchase price, excluding subscription and checkout discounts.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-71213A626FAC5416",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-PN110-S published price",
+      "claim": "MTI publishes USD 2980 for this configuration.",
+      "scope": "Fast pneumatic crimper, listed by MTI as MSKPN110S.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-PN110-S published price",
+          "url": "https://mtixtl.com/products/msk-pn110-s",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-06",
+          "label": "MSK-PN110-S"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2980.00",
+        "evidence_id": "PRICE-EV-71213A626FAC5416",
+        "equipment_id": "ACAD-M144-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-PN110-S",
+        "seller_name": "MTI",
+        "price_value": "2980",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-pn110-s",
+        "checked_date": "2026-11-15",
+        "scope": "Fast pneumatic crimper, listed by MTI as MSKPN110S."
       }
     },
     {
@@ -58035,6 +61648,54 @@
           "status": "withheld",
           "reason": "Manufacturer presents chemical structure illustration, not a material photograph or pack-specific photo."
         }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-7AEC352DC908E875",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-110 published price",
+      "claim": "MTI publishes USD 2359 for this configuration.",
+      "scope": "New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-110 published price",
+          "url": "https://mtixtl.com/products/msk-110",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-01",
+          "label": "MSK-110"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2359.00",
+        "evidence_id": "PRICE-EV-7AEC352DC908E875",
+        "equipment_id": "ACAD-M144-01",
+        "manufacturer": "MTI",
+        "model_name": "MSK-110",
+        "seller_name": "MTI",
+        "price_value": "2359",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-110",
+        "checked_date": "2026-11-15",
+        "scope": "New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model."
       }
     },
     {
@@ -60782,6 +64443,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-943AE4DC4A615A12",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "4340 Motorised Film Applicator published price",
+      "claim": "Elcometer publishes USD 7249 for this configuration.",
+      "scope": "Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "4340 Motorised Film Applicator published price",
+          "url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-09",
+          "label": "4340 Motorised Film Applicator"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "7249.00",
+        "evidence_id": "PRICE-EV-943AE4DC4A615A12",
+        "equipment_id": "ACAD-M142-09",
+        "manufacturer": "Elcometer",
+        "model_name": "4340 Motorised Film Applicator",
+        "seller_name": "Elcometer",
+        "price_value": "7249",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+        "checked_date": "2026-11-15",
+        "scope": "Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-946B861010CEF85B",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -61885,6 +65594,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-9F29E10FFCEBE17D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F130R published price",
+      "claim": "Durston publishes USD 1629.25 for this configuration.",
+      "scope": "Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F130R published price",
+          "url": "https://durston.com/product/drm-f130r/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-05",
+          "label": "DRM F130R"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "1629.25",
+        "evidence_id": "PRICE-EV-9F29E10FFCEBE17D",
+        "equipment_id": "ACAD-M145-05",
+        "manufacturer": "Durston",
+        "model_name": "DRM F130R",
+        "seller_name": "Durston",
+        "price_value": "1629.25",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://durston.com/product/drm-f130r/",
+        "checked_date": "2026-11-15",
+        "scope": "Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-9F7386A5866A12A2",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -61939,6 +65696,61 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Matching displayed price/pack and exact named form/size selector: 500g--thickness-80nm (add $298). Existing material identity retained; no inferred density or pack conversion.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A01C502CC6D1EE1E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Discovery DSC 25 asking price",
+      "claim": "Profcontrol publishes EUR 18445 for this configuration.",
+      "scope": "Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Discovery DSC 25 asking price",
+          "url": "https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-02",
+          "label": "Discovery DSC 25"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-47BCCB693ABF9120",
+          "label": "Profcontrol"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "20756.16",
+        "evidence_id": "PRICE-EV-A01C502CC6D1EE1E",
+        "equipment_id": "ACAD-M141-02",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 25",
+        "seller_name": "Profcontrol",
+        "price_value": "18445",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1",
+        "checked_date": "2026-11-15",
+        "scope": "Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.",
+        "offer_id": "SELL-ACAD261115-47BCCB693ABF9120",
+        "exchange_rate_reference_date": "2026-10-16"
       }
     },
     {
@@ -62459,6 +66271,60 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A2D69CCF9CFA6CB4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "ElectroPuls E3000 asking price",
+      "claim": "buyhitek via eBay publishes USD 25000 for this configuration.",
+      "scope": "Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "ElectroPuls E3000 asking price",
+          "url": "https://www.ebay.com/itm/277675173502",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-04",
+          "label": "ElectroPuls E3000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-49C8198E1739410D",
+          "label": "buyhitek via eBay"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "25000.00",
+        "evidence_id": "PRICE-EV-A2D69CCF9CFA6CB4",
+        "equipment_id": "ACAD-M140-04",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E3000",
+        "seller_name": "buyhitek via eBay",
+        "price_value": "25000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.ebay.com/itm/277675173502",
+        "checked_date": "2026-11-15",
+        "scope": "Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.",
+        "offer_id": "SELL-ACAD261115-49C8198E1739410D"
       }
     },
     {
@@ -64611,6 +68477,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B5773DA18FF55424",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F150RE published price",
+      "claim": "Durston publishes USD 2368.73 for this configuration.",
+      "scope": "Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F150RE published price",
+          "url": "https://durston.com/product/drm-f150re/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-06",
+          "label": "DRM F150RE"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2368.73",
+        "evidence_id": "PRICE-EV-B5773DA18FF55424",
+        "equipment_id": "ACAD-M145-06",
+        "manufacturer": "Durston",
+        "model_name": "DRM F150RE",
+        "seller_name": "Durston",
+        "price_value": "2368.73",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://durston.com/product/drm-f150re/",
+        "checked_date": "2026-11-15",
+        "scope": "Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-B5E1F3A059DFDC43",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -65105,6 +69019,54 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B9C0F083939E5872",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-H200A published price",
+      "claim": "MTI publishes USD 10985 for this configuration.",
+      "scope": "Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-H200A published price",
+          "url": "https://mtixtl.com/products/msk-afa-h200a",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-06",
+          "label": "MSK-AFA-H200A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "10985.00",
+        "evidence_id": "PRICE-EV-B9C0F083939E5872",
+        "equipment_id": "ACAD-M142-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-H200A",
+        "seller_name": "MTI",
+        "price_value": "10985",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-h200a",
+        "checked_date": "2026-11-15",
+        "scope": "Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-B9D95D676D5DC0F1",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -65406,6 +69368,60 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Exact SKU size-option row; one-time purchase price; not subscription saving or page minimum.",
         "currency_basis": "Existing source-bound USD denomination retained; exact supplier SKU and pack row rechecked. No currency conversion or new currency inference."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-BC140376EE68DC41",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F130R sale price",
+      "claim": "WireJewelry publishes USD 1423 for this configuration.",
+      "scope": "Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F130R sale price",
+          "url": "https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-05",
+          "label": "DRM F130R"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-679F80BA52FB5B1D",
+          "label": "WireJewelry"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "1423.00",
+        "evidence_id": "PRICE-EV-BC140376EE68DC41",
+        "equipment_id": "ACAD-M145-05",
+        "manufacturer": "Durston",
+        "model_name": "DRM F130R",
+        "seller_name": "WireJewelry",
+        "price_value": "1423",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "condition": "new",
+        "source_url": "https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html",
+        "checked_date": "2026-11-15",
+        "scope": "Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.",
+        "offer_id": "SELL-ACAD261115-679F80BA52FB5B1D"
       }
     },
     {
@@ -66977,6 +70993,54 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-C85854AC4D19442E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-II-VC-FH published price",
+      "claim": "MTI publishes USD 7695 for this configuration.",
+      "scope": "Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-II-VC-FH published price",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-04",
+          "label": "MSK-AFA-II-VC-FH"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "7695.00",
+        "evidence_id": "PRICE-EV-C85854AC4D19442E",
+        "equipment_id": "ACAD-M142-04",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC-FH",
+        "seller_name": "MTI",
+        "price_value": "7695",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+        "checked_date": "2026-11-15",
+        "scope": "Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price."
       }
     },
     {
@@ -69375,6 +73439,60 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-DBF5D9EA67E78AF8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Series 4000 asking price",
+      "claim": "YellowChoo via eBay publishes USD 4299.99 for this configuration.",
+      "scope": "Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Series 4000 asking price",
+          "url": "https://www.ebay.com/itm/188103355473",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-07",
+          "label": "Series 4000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-1926E92F3EDECAC4",
+          "label": "YellowChoo via eBay"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "4299.99",
+        "evidence_id": "PRICE-EV-DBF5D9EA67E78AF8",
+        "equipment_id": "ACAD-M143-07",
+        "manufacturer": "Maccor",
+        "model_name": "Series 4000",
+        "seller_name": "YellowChoo via eBay",
+        "price_value": "4299.99",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.ebay.com/itm/188103355473",
+        "checked_date": "2026-11-15",
+        "scope": "Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.",
+        "offer_id": "SELL-ACAD261115-1926E92F3EDECAC4"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-DC322A688E1CC628",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -70046,6 +74164,54 @@
         "usd_equivalent": "57.3",
         "conversion_date": "",
         "conversion_source_url": ""
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E141601754B54EEE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-HDS-150 published price",
+      "claim": "MTI publishes USD 15998 for this configuration.",
+      "scope": "Hybrid film coater with slot die and doctor blade as specified on the manufacturer page.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-HDS-150 published price",
+          "url": "https://mtixtl.com/products/msk-afa-hds-150",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-05",
+          "label": "MSK-AFA-HDS-150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "15998.00",
+        "evidence_id": "PRICE-EV-E141601754B54EEE",
+        "equipment_id": "ACAD-M142-05",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-HDS-150",
+        "seller_name": "MTI",
+        "price_value": "15998",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-hds-150",
+        "checked_date": "2026-11-15",
+        "scope": "Hybrid film coater with slot die and doctor blade as specified on the manufacturer page."
       }
     },
     {
@@ -71321,6 +75487,60 @@
     },
     {
       "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-EC80E5F8A1833421",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "BT-2000 asking price",
+      "claim": "Bidservice publishes USD 12000 for this configuration.",
+      "scope": "Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "BT-2000 asking price",
+          "url": "https://bidservice.com/products/used-arbin-instruments-bt-2000",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-01",
+          "label": "BT-2000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-2FB18047801D8EFE",
+          "label": "Bidservice"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "12000.00",
+        "evidence_id": "PRICE-EV-EC80E5F8A1833421",
+        "equipment_id": "ACAD-M143-01",
+        "manufacturer": "Arbin",
+        "model_name": "BT-2000",
+        "seller_name": "Bidservice",
+        "price_value": "12000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://bidservice.com/products/used-arbin-instruments-bt-2000",
+        "checked_date": "2026-11-15",
+        "scope": "Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.",
+        "offer_id": "SELL-ACAD261115-2FB18047801D8EFE"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
       "evidence_id": "PRICE-EV-EC9C74AE7DE83E9A",
       "record_kind": "source_claim",
       "classification": "curator_reviewed_price",
@@ -72029,6 +76249,61 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Exact previously curated form/size option: 25g (add $108). Product SKU and existing grade/form association retained; no substitution.",
         "currency_basis": "US supplier dollar catalog / FOB Houston; USD interpretation, not an explicit ISO code on each product page"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-F2D54A6AD42263C2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Discovery DSC 2500 asking price",
+      "claim": "Exapro publishes EUR 35500 for this configuration.",
+      "scope": "Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Discovery DSC 2500 asking price",
+          "url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-04",
+          "label": "Discovery DSC 2500"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-A9D4F43CCE772185",
+          "label": "Exapro"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "39948.15",
+        "evidence_id": "PRICE-EV-F2D54A6AD42263C2",
+        "equipment_id": "ACAD-M141-04",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 2500",
+        "seller_name": "Exapro",
+        "price_value": "35500",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+        "checked_date": "2026-11-15",
+        "scope": "Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.",
+        "offer_id": "SELL-ACAD261115-A9D4F43CCE772185",
+        "exchange_rate_reference_date": "2026-10-16"
       }
     },
     {

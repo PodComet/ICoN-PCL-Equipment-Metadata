@@ -1,6 +1,6 @@
 {
   "schema": "iconpcl-price-evidence/v1",
-  "checked_date": "2026-10-26",
+  "checked_date": "2026-11-15",
   "records": [
     {
       "schema": "iconpcl-evidence-record/v1",
@@ -29325,6 +29325,1065 @@
         "verification_method": "live_http_product_page",
         "identity_and_pack_scope": "Product/offer structured data explicitly naming the exact SKU and USD price; existing SKU pack identity retained.",
         "currency_basis": "Exact source SKU/pack price denominated in USD. Existing USD denomination reconfirmed without currency conversion; dated FX reference policy unchanged."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-EC80E5F8A1833421",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "BT-2000 asking price",
+      "claim": "Bidservice publishes USD 12000 for this configuration.",
+      "scope": "Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "BT-2000 asking price",
+          "url": "https://bidservice.com/products/used-arbin-instruments-bt-2000",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-01",
+          "label": "BT-2000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-2FB18047801D8EFE",
+          "label": "Bidservice"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "12000.00",
+        "evidence_id": "PRICE-EV-EC80E5F8A1833421",
+        "equipment_id": "ACAD-M143-01",
+        "manufacturer": "Arbin",
+        "model_name": "BT-2000",
+        "seller_name": "Bidservice",
+        "price_value": "12000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://bidservice.com/products/used-arbin-instruments-bt-2000",
+        "checked_date": "2026-11-15",
+        "scope": "Bidservice used BT-2000, stock reference 60807. Rack and channel configuration of this listing may differ from the Purdue unit.",
+        "offer_id": "SELL-ACAD261115-2FB18047801D8EFE"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-7AEC352DC908E875",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-110 published price",
+      "claim": "MTI publishes USD 2359 for this configuration.",
+      "scope": "New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-110 published price",
+          "url": "https://mtixtl.com/products/msk-110",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-01",
+          "label": "MSK-110"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2359.00",
+        "evidence_id": "PRICE-EV-7AEC352DC908E875",
+        "equipment_id": "ACAD-M144-01",
+        "manufacturer": "MTI",
+        "model_name": "MSK-110",
+        "seller_name": "MTI",
+        "price_value": "2359",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-110",
+        "checked_date": "2026-11-15",
+        "scope": "New MTI MSK-110 package with 100 CR2032 cases. The site price is a market observation for the Purdue-listed model."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-01D81D0B4F698B84",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Fiji 200 ALD asking price",
+      "claim": "ICI Equipment publishes USD 137500 for this configuration.",
+      "scope": "Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Fiji 200 ALD asking price",
+          "url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M22-03",
+          "label": "Fiji 200 ALD"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M22",
+          "label": "Atomic layer deposition system"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-E1C941922B449472",
+          "label": "ICI Equipment"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "137500.00",
+        "evidence_id": "PRICE-EV-01D81D0B4F698B84",
+        "equipment_id": "ACAD-M22-03",
+        "manufacturer": "Cambridge NanoTech",
+        "model_name": "Fiji 200 ALD",
+        "seller_name": "ICI Equipment",
+        "price_value": "137500",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc",
+        "checked_date": "2026-11-15",
+        "scope": "Used 2010 Cambridge NanoTech Fiji F200 with load lock. Seller specifies as-is, where-is. Price is for the seller's configuration.",
+        "offer_id": "SELL-ACAD261115-E1C941922B449472"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-4958EC72C68B9826",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "AllroundLine asking price",
+      "claim": "Amikon publishes EUR 32500 for this configuration.",
+      "scope": "Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "AllroundLine asking price",
+          "url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M139-10",
+          "label": "AllroundLine"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M139",
+          "label": "Universal load frames for static mechanical testing"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-41E4A94B0FE3E5F4",
+          "label": "Amikon"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "36572.25",
+        "evidence_id": "PRICE-EV-4958EC72C68B9826",
+        "equipment_id": "ACAD-M139-10",
+        "manufacturer": "ZwickRoell",
+        "model_name": "AllroundLine",
+        "seller_name": "Amikon",
+        "price_value": "32500",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.amikon-shop.de/zwick-roell-z005-tn-allroundline-table-top-bt2-fa005tn-a50-002-auto-injektor-zubehoer/materialpruefmaschinen/a-25486",
+        "checked_date": "2026-11-15",
+        "scope": "Used 5 kN Z005 TN AllroundLine tabletop configuration BT2-FA005TN.A50.002. Includes an automatic injector and accessories. The asking price applies to this configuration.",
+        "offer_id": "SELL-ACAD261115-41E4A94B0FE3E5F4",
+        "exchange_rate_reference_date": "2026-10-16"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A2D69CCF9CFA6CB4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "ElectroPuls E3000 asking price",
+      "claim": "buyhitek via eBay publishes USD 25000 for this configuration.",
+      "scope": "Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "ElectroPuls E3000 asking price",
+          "url": "https://www.ebay.com/itm/277675173502",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M140-04",
+          "label": "ElectroPuls E3000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M140",
+          "label": "Dynamic and fatigue mechanical test systems"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-49C8198E1739410D",
+          "label": "buyhitek via eBay"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "25000.00",
+        "evidence_id": "PRICE-EV-A2D69CCF9CFA6CB4",
+        "equipment_id": "ACAD-M140-04",
+        "manufacturer": "Instron",
+        "model_name": "ElectroPuls E3000",
+        "seller_name": "buyhitek via eBay",
+        "price_value": "25000",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.ebay.com/itm/277675173502",
+        "checked_date": "2026-11-15",
+        "scope": "Used E3000 A1748-2000 with the elements pictured by the seller. Confirm controller, fixtures and software with the seller. Shipping is listed separately.",
+        "offer_id": "SELL-ACAD261115-49C8198E1739410D"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-A01C502CC6D1EE1E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Discovery DSC 25 asking price",
+      "claim": "Profcontrol publishes EUR 18445 for this configuration.",
+      "scope": "Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Discovery DSC 25 asking price",
+          "url": "https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-02",
+          "label": "Discovery DSC 25"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-47BCCB693ABF9120",
+          "label": "Profcontrol"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "20756.16",
+        "evidence_id": "PRICE-EV-A01C502CC6D1EE1E",
+        "equipment_id": "ACAD-M141-02",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 25",
+        "seller_name": "Profcontrol",
+        "price_value": "18445",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://profcontrol.de/TA-Instruments-Waters-Discovery-DSC25-Differential-Scanning-Calorimeter-System_1",
+        "checked_date": "2026-11-15",
+        "scope": "Seller item 10628. Discovery DSC25 system with the components pictured and listed. The listing states that freight is separate.",
+        "offer_id": "SELL-ACAD261115-47BCCB693ABF9120",
+        "exchange_rate_reference_date": "2026-10-16"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-F2D54A6AD42263C2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Discovery DSC 2500 asking price",
+      "claim": "Exapro publishes EUR 35500 for this configuration.",
+      "scope": "Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Discovery DSC 2500 asking price",
+          "url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M141-04",
+          "label": "Discovery DSC 2500"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M141",
+          "label": "Differential scanning calorimeters"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-A9D4F43CCE772185",
+          "label": "Exapro"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "39948.15",
+        "evidence_id": "PRICE-EV-F2D54A6AD42263C2",
+        "equipment_id": "ACAD-M141-04",
+        "manufacturer": "TA Instruments",
+        "model_name": "Discovery DSC 2500",
+        "seller_name": "Exapro",
+        "price_value": "35500",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.exapro.com/ta-instruments-2500-p260707045/",
+        "checked_date": "2026-11-15",
+        "scope": "Seller's Discovery DSC 2500 listing. Source asking price is denominated in EUR.",
+        "offer_id": "SELL-ACAD261115-A9D4F43CCE772185",
+        "exchange_rate_reference_date": "2026-10-16"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-2BB039AF2645C1D3",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-III starting price",
+      "claim": "MTI publishes USD 3998 for this configuration.",
+      "scope": "No Heating base configuration. The manufacturer also publishes heated configurations.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-III starting price",
+          "url": "https://mtixtl.com/products/msk-afa-iii",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-02",
+          "label": "MSK-AFA-III"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "3998.00",
+        "evidence_id": "PRICE-EV-2BB039AF2645C1D3",
+        "equipment_id": "ACAD-M142-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-III",
+        "seller_name": "MTI",
+        "price_value": "3998",
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-iii",
+        "checked_date": "2026-11-15",
+        "scope": "No Heating base configuration. The manufacturer also publishes heated configurations."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-062B7136C68CF447",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-II-VC published price",
+      "claim": "MTI publishes USD 4298 for this configuration.",
+      "scope": "Vacuum-chuck sheet film coater with 250 mm doctor blade.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-II-VC published price",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-03",
+          "label": "MSK-AFA-II-VC"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "4298.00",
+        "evidence_id": "PRICE-EV-062B7136C68CF447",
+        "equipment_id": "ACAD-M142-03",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC",
+        "seller_name": "MTI",
+        "price_value": "4298",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc",
+        "checked_date": "2026-11-15",
+        "scope": "Vacuum-chuck sheet film coater with 250 mm doctor blade."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-C85854AC4D19442E",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-II-VC-FH published price",
+      "claim": "MTI publishes USD 7695 for this configuration.",
+      "scope": "Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-II-VC-FH published price",
+          "url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-04",
+          "label": "MSK-AFA-II-VC-FH"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "7695.00",
+        "evidence_id": "PRICE-EV-C85854AC4D19442E",
+        "equipment_id": "ACAD-M142-04",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-II-VC-FH",
+        "seller_name": "MTI",
+        "price_value": "7695",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ii-vc-fh",
+        "checked_date": "2026-11-15",
+        "scope": "Heated vacuum-bed assembly. The 110 V and 208–240 V options carry the same posted price."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-E141601754B54EEE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-HDS-150 published price",
+      "claim": "MTI publishes USD 15998 for this configuration.",
+      "scope": "Hybrid film coater with slot die and doctor blade as specified on the manufacturer page.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-HDS-150 published price",
+          "url": "https://mtixtl.com/products/msk-afa-hds-150",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-05",
+          "label": "MSK-AFA-HDS-150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "15998.00",
+        "evidence_id": "PRICE-EV-E141601754B54EEE",
+        "equipment_id": "ACAD-M142-05",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-HDS-150",
+        "seller_name": "MTI",
+        "price_value": "15998",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-hds-150",
+        "checked_date": "2026-11-15",
+        "scope": "Hybrid film coater with slot die and doctor blade as specified on the manufacturer page."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B9C0F083939E5872",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-H200A published price",
+      "claim": "MTI publishes USD 10985 for this configuration.",
+      "scope": "Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-H200A published price",
+          "url": "https://mtixtl.com/products/msk-afa-h200a",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-06",
+          "label": "MSK-AFA-H200A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "10985.00",
+        "evidence_id": "PRICE-EV-B9C0F083939E5872",
+        "equipment_id": "ACAD-M142-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-H200A",
+        "seller_name": "MTI",
+        "price_value": "10985",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-h200a",
+        "checked_date": "2026-11-15",
+        "scope": "Heated vacuum-bed tape-casting coater. The 110 V and 220 V options carry the same posted price."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-49697D1CAB3341C8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-L1000 starting price",
+      "claim": "MTI publishes USD 12995 for this configuration.",
+      "scope": "Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-L1000 starting price",
+          "url": "https://mtixtl.com/products/msk-afa-l1000",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-07",
+          "label": "MSK-AFA-L1000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "12995.00",
+        "evidence_id": "PRICE-EV-49697D1CAB3341C8",
+        "equipment_id": "ACAD-M142-07",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-L1000",
+        "seller_name": "MTI",
+        "price_value": "12995",
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-l1000",
+        "checked_date": "2026-11-15",
+        "scope": "Standard bottom heating. The top-and-bottom heating configuration is listed at USD 19,985."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-6DE4AB430E4E3ECF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-AFA-EC150 published price",
+      "claim": "MTI publishes USD 26998 for this configuration.",
+      "scope": "Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-AFA-EC150 published price",
+          "url": "https://mtixtl.com/products/msk-afa-ec150",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-08",
+          "label": "MSK-AFA-EC150"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "26998.00",
+        "evidence_id": "PRICE-EV-6DE4AB430E4E3ECF",
+        "equipment_id": "ACAD-M142-08",
+        "manufacturer": "MTI",
+        "model_name": "MSK-AFA-EC150",
+        "seller_name": "MTI",
+        "price_value": "26998",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-afa-ec150",
+        "checked_date": "2026-11-15",
+        "scope": "Standard 150 mm doctor-blade configuration. Optional coating heads are outside this price."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-943AE4DC4A615A12",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "4340 Motorised Film Applicator published price",
+      "claim": "Elcometer publishes USD 7249 for this configuration.",
+      "scope": "Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "4340 Motorised Film Applicator published price",
+          "url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M142-09",
+          "label": "4340 Motorised Film Applicator"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M142",
+          "label": "Controlled wet-film applicators and tape casters"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "7249.00",
+        "evidence_id": "PRICE-EV-943AE4DC4A615A12",
+        "equipment_id": "ACAD-M142-09",
+        "manufacturer": "Elcometer",
+        "model_name": "4340 Motorised Film Applicator",
+        "seller_name": "Elcometer",
+        "price_value": "7249",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.elcometerusa.com/Elcometer-4340-Motorized-Automatic-Film-Applicator-K4340M10-_2.html",
+        "checked_date": "2026-11-15",
+        "scope": "Elcometer USA SKU K4340M10-A for the automatic film applicator. Optional vacuum pump and accessories are separate."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-DBF5D9EA67E78AF8",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Series 4000 asking price",
+      "claim": "YellowChoo via eBay publishes USD 4299.99 for this configuration.",
+      "scope": "Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "Series 4000 asking price",
+          "url": "https://www.ebay.com/itm/188103355473",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M143-07",
+          "label": "Series 4000"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M143",
+          "label": "Battery cell cyclers"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-1926E92F3EDECAC4",
+          "label": "YellowChoo via eBay"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "4299.99",
+        "evidence_id": "PRICE-EV-DBF5D9EA67E78AF8",
+        "equipment_id": "ACAD-M143-07",
+        "manufacturer": "Maccor",
+        "model_name": "Series 4000",
+        "seller_name": "YellowChoo via eBay",
+        "price_value": "4299.99",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://www.ebay.com/itm/188103355473",
+        "checked_date": "2026-11-15",
+        "scope": "Used Maccor Series 4000 with 48 channels, eBay fixed asking price with Best Offer. Freight is separate.",
+        "offer_id": "SELL-ACAD261115-1926E92F3EDECAC4"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-3C043E5AB29EAC12",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-160E published price",
+      "claim": "MTI publishes USD 3598 for this configuration.",
+      "scope": "MSK-160E electric crimper package with 100 pairs of coin-cell cases.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-160E published price",
+          "url": "https://mtixtl.com/products/msk-160e",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-02",
+          "label": "MSK-160E"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "3598.00",
+        "evidence_id": "PRICE-EV-3C043E5AB29EAC12",
+        "equipment_id": "ACAD-M144-02",
+        "manufacturer": "MTI",
+        "model_name": "MSK-160E",
+        "seller_name": "MTI",
+        "price_value": "3598",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-160e",
+        "checked_date": "2026-11-15",
+        "scope": "MSK-160E electric crimper package with 100 pairs of coin-cell cases."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-71213A626FAC5416",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "MSK-PN110-S published price",
+      "claim": "MTI publishes USD 2980 for this configuration.",
+      "scope": "Fast pneumatic crimper, listed by MTI as MSKPN110S.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "MSK-PN110-S published price",
+          "url": "https://mtixtl.com/products/msk-pn110-s",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M144-06",
+          "label": "MSK-PN110-S"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M144",
+          "label": "Research coin-cell crimpers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2980.00",
+        "evidence_id": "PRICE-EV-71213A626FAC5416",
+        "equipment_id": "ACAD-M144-06",
+        "manufacturer": "MTI",
+        "model_name": "MSK-PN110-S",
+        "seller_name": "MTI",
+        "price_value": "2980",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://mtixtl.com/products/msk-pn110-s",
+        "checked_date": "2026-11-15",
+        "scope": "Fast pneumatic crimper, listed by MTI as MSKPN110S."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-BC140376EE68DC41",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F130R sale price",
+      "claim": "WireJewelry publishes USD 1423 for this configuration.",
+      "scope": "Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F130R sale price",
+          "url": "https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-05",
+          "label": "DRM F130R"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-ACAD261115-679F80BA52FB5B1D",
+          "label": "WireJewelry"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "seller",
+        "price_usd": "1423.00",
+        "evidence_id": "PRICE-EV-BC140376EE68DC41",
+        "equipment_id": "ACAD-M145-05",
+        "manufacturer": "Durston",
+        "model_name": "DRM F130R",
+        "seller_name": "WireJewelry",
+        "price_value": "1423",
+        "currency": "USD",
+        "price_kind": "sale_price",
+        "condition": "new",
+        "source_url": "https://www.wirejewelry.com/durston-rolling-mills-and-forming-tools-1.html",
+        "checked_date": "2026-11-15",
+        "scope": "Published Today's Price for Durston DRM flat 130 mm mill with gearbox, SKU DUR-1026. The page displays an Add to Bag action.",
+        "offer_id": "SELL-ACAD261115-679F80BA52FB5B1D"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-9F29E10FFCEBE17D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F130R published price",
+      "claim": "Durston publishes USD 1629.25 for this configuration.",
+      "scope": "Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F130R published price",
+          "url": "https://durston.com/product/drm-f130r/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-05",
+          "label": "DRM F130R"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "1629.25",
+        "evidence_id": "PRICE-EV-9F29E10FFCEBE17D",
+        "equipment_id": "ACAD-M145-05",
+        "manufacturer": "Durston",
+        "model_name": "DRM F130R",
+        "seller_name": "Durston",
+        "price_value": "1629.25",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://durston.com/product/drm-f130r/",
+        "checked_date": "2026-11-15",
+        "scope": "Durston direct USD storefront for DRM F130R, SKU 1026. Excludes VAT and any freight or import charges."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-B5773DA18FF55424",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "DRM F150RE published price",
+      "claim": "Durston publishes USD 2368.73 for this configuration.",
+      "scope": "Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges.",
+      "recorded_at": "2026-11-15",
+      "sources": [
+        {
+          "title": "DRM F150RE published price",
+          "url": "https://durston.com/product/drm-f150re/",
+          "locator": "Model or configuration, published price and offer basis",
+          "checked_date": "2026-11-15"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "ACAD-M145-06",
+          "label": "DRM F150RE"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M145",
+          "label": "Research-scale metal rolling mills"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "kind": "manufacturer",
+        "price_usd": "2368.73",
+        "evidence_id": "PRICE-EV-B5773DA18FF55424",
+        "equipment_id": "ACAD-M145-06",
+        "manufacturer": "Durston",
+        "model_name": "DRM F150RE",
+        "seller_name": "Durston",
+        "price_value": "2368.73",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://durston.com/product/drm-f150re/",
+        "checked_date": "2026-11-15",
+        "scope": "Durston direct USD storefront for DRM F150RE, SKU 1032. Excludes VAT and any freight or import charges."
       }
     }
   ]

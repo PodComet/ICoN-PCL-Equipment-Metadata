@@ -5,11 +5,11 @@
   "equipment_with_io": 1373,
   "equipment_with_qudt_units": 764,
   "qudt_units_used": 53,
-  "price_quotes": 331,
+  "price_quotes": 352,
   "price_estimates": 124,
-  "rdf_triples": 108404,
+  "rdf_triples": 110319,
   "input_sha256": {
-    "equipment.csv": "414bccc6dbc545ef51ce11f38c71ea2ef4b0445ebb7edfcf4233fd5ed2234732",
+    "equipment.csv": "7d8668e2eb0646f392ff45ec53890e61bc400af77991e8cc55424856ff7fdc8e",
     "equipment_io.csv": "fb2900da09425c3ed0fcb3d8e56e2279f0548536e0164f7edc61299e7e10fea1",
     "categories.csv": "9091b08f30a6ab1d65c0c16907ea4ee94f6020ce905ff6256ebb583e916baa17",
     "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6",
@@ -18,14 +18,14 @@
     "product_families.csv": "01ecd49190c312b68261ff69651168f6f385838e07b9e6bb21224c007d85c3b3",
     "model_lifecycle.csv": "e237000c3148d6681520ad4bf242d1d49a339a03586cc847e745283302ccb46f",
     "equipment_msrp_estimates.csv": "a30ba390457ced90ef066939b9c46c4d01eb8d2ffc10c2987f939f71942f17da",
-    "seller_offers.csv": "b0d9d4c03234e0a456e97948ec7897804bdb287e80729f5f24c6b3c87cb3634b",
-    "evidence_registry.csv": "d365a571859aa2a279077fb47e844b339a0226f1b873725f06389645d0ff6744",
+    "seller_offers.csv": "4b489eee83e4e3b901e762ce486978c197889f90bd2cf286c80d0e5148e3fb5e",
+    "evidence_registry.csv": "e384f8475b6d2c80e91853cad1f899804daa119035ee2826870dad642e0c148a",
     "currency_reference_rates.json": "14029720f175255c0ed3f9c192fe133a9bf9a5f90c251f2d17018a818484c442",
     "ontology/ontology-term-references.csv": "2ea9ecdaddead9205b89d8df31bcb0b30318c4d20dea7c13cf4822cb965037d7",
     "equipment-xml-units.json": "f1437c6bb83cb644350c6eb01c7b90fe9156ccbe88108d90197b601a06c20ce4"
   },
   "rdf_xml": {
-    "bytes": 12957919,
-    "sha256": "cad19137c8b27139d070bf11a867bcfb63d317ecd5f50938c0a6a16437a348cd"
+    "bytes": 13158253,
+    "sha256": "262f1154f9a8bde31f209da9d169079f4aab5a6d18cf13861ce9ad4055853d8e"
   }
 }

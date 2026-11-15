@@ -83689,9 +83689,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://instron-romania.com/wp-content/uploads/2020/02/6800-series-single-column-universal-testing-system-with-screw-side-action-grips.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://instron-romania.com/wp-content/uploads/2020/02/6800-series-single-column-universal-testing-system-with-screw-side-action-grips.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -83776,9 +83786,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -83863,9 +83883,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-16368095.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -83950,9 +83980,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84037,9 +84077,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/06/6800-Series-Universal-Testing-Systems.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.instrumenthive.com/raw_images/IH-014035-1.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84124,6 +84174,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Images/Testing/agx-v2/agx-v2-main-2024.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html"
@@ -84132,6 +84187,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/uni-ttm/autograph-precision-universal-tester/index.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Images/Testing/agx-v2/agx-v2-main-2024.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84221,6 +84281,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/zwickroell"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.zwickroell.com/zrmedia/_processed_/4/5/csm_CTA271663_TVM1629546_c6544e9b26.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/proline/"
@@ -84229,6 +84294,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/proline/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.zwickroell.com/zrmedia/_processed_/4/5/csm_CTA271663_TVM1629546_c6544e9b26.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84318,6 +84388,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mts"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.adsalecdn.com/EMP/Backend/Upload/Image/show_preview_1023865_10105_1.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.mts.com/en/products/materials/static-materials-test-systems/criterion-electromechanical"
@@ -84326,6 +84401,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.mts.com/en/products/materials/static-materials-test-systems/criterion-electromechanical"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.adsalecdn.com/EMP/Backend/Upload/Image/show_preview_1023865_10105_1.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84415,6 +84495,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.shimadzu.com.au/sites/shimadzu.com.au/files/pim/pim_product_basic/6911/qn50420000006az5_0.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html"
@@ -84423,6 +84508,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.shimadzu.com.au/products/materials-testing/uni-ttm/autograph-ags-x-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.shimadzu.com.au/sites/shimadzu.com.au/files/pim/pim_product_basic/6911/qn50420000006az5_0.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84512,6 +84602,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/zwickroell"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn02.plentyone.com/7ukspn3affoc/item/images/25486/full/DSC05656.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/allroundline/"
@@ -84520,6 +84615,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.zwickroell.com/products/static-materials-testing-machines/universal-testing-machines-for-static-applications/allroundline/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn02.plentyone.com/7ukspn3affoc/item/images/25486/full/DSC05656.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84609,9 +84709,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mts"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-landmark2/Landmark_landscape.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-landmark2/Landmark_landscape.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84693,9 +84803,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mts"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-acumen/Acumen_landscape.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/facilities"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/ChawlaResGroup/research/carousel/mts-acumen/Acumen_landscape.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84777,9 +84897,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/W020211114766550981667.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://dmxtcx.gxmu.edu.cn/kxyj_3543/xswyh/W020211114766550981667.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84861,9 +84991,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/Instron-ElectroPulse-E3000--mechanical-testing-system.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fit.edu/biomedical-engineering-and-science/equipment--facilities/Instron-ElectroPulse-E3000--mechanical-testing-system.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -84945,9 +85085,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-8920713.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img.directindustry.com/images_di/photo-g/18463-8920713.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85029,9 +85179,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn.southampton.ac.uk/assets/imported/transforms/site/slideshow/Media_Img/C2E9ED0C0AA049E5B9AE602904AF1530/Instron-Electropuls-and-Electropuls-E10000.jpg_SIA_JPG_fit_to_width_XL.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn.southampton.ac.uk/assets/imported/transforms/site/slideshow/Media_Img/C2E9ED0C0AA049E5B9AE602904AF1530/Instron-Electropuls-and-Electropuls-E10000.jpg_SIA_JPG_fit_to_width_XL.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85113,9 +85273,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/instron"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.nycu.edu.tw/userfiles/ordch/images/20231017105845166.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.instron.com/wp-content/uploads/2024/07/electropuls-all-electric-dynamic-test-instruments.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.nycu.edu.tw/userfiles/ordch/images/20231017105845166.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85197,6 +85367,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
@@ -85205,6 +85380,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85291,6 +85471,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
@@ -85299,6 +85484,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85385,6 +85575,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
@@ -85393,6 +85588,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/materials-testing/fatigue-testing-impact-testing/ehf-e-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/pim/pim_product_basic/4386/qn50420000006c0n.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85482,9 +85682,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tainstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://cdn11.bigcommerce.com/s-46jufh/images/stencil/500x659/products/1040307/987674/s-l1600__77625.1612333728.jpg?c=2"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials/Q2000DSC"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://cdn11.bigcommerce.com/s-46jufh/images/stencil/500x659/products/1040307/987674/s-l1600__77625.1612333728.jpg?c=2"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85569,6 +85779,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tainstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://media.questpair.com/images/marketplace/65/65cb059c98830576d5b99b68becb8feeebf21a2b4f0005b7de10e846f9766a36.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.tainstruments.com/dsc-25/"
@@ -85577,6 +85792,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.tainstruments.com/dsc-25/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://media.questpair.com/images/marketplace/65/65cb059c98830576d5b99b68becb8feeebf21a2b4f0005b7de10e846f9766a36.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85666,6 +85886,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tainstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://unicam.hu/files/dsc-250/06-dsc250-pca.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.tainstruments.com/dsc-250/"
@@ -85674,6 +85899,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.tainstruments.com/dsc-250/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://unicam.hu/files/dsc-250/06-dsc250-pca.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85763,6 +85993,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tainstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://media.exapro.com/product/2026/07/P260707045/b3f5cf8744474089b010eb9124a55a2c/462x340/b3f5cf8744474089b010eb9124a55a2c_462x340.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.tainstruments.com/dsc-2500/"
@@ -85771,6 +86006,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.tainstruments.com/dsc-2500/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://media.exapro.com/product/2026/07/P260707045/b3f5cf8744474089b010eb9124a55a2c/462x340/b3f5cf8744474089b010eb9124a55a2c_462x340.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85860,9 +86100,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/netzsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/b/c/1/2/bc122958f351fe82fd08562286e624348394c095/DSC_300_Caliris_Classic_title-999x562-999x562.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/b/c/1/2/bc122958f351fe82fd08562286e624348394c095/DSC_300_Caliris_Classic_title-999x562-999x562.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -85947,9 +86197,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/netzsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86034,9 +86294,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/netzsch"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/e/8/d/c/e8dc5f71e944f27de3127b203ae95e6c08bed5a8/DSC_300_Caliris_Series_en_web.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://analyzing-testing.netzsch.com/_Resources/Persistent/7/3/c/2/73c20f687c5de3d55b3556a95ccf6211be4fbd41/DSC_300_Caliris_PPT-klein-1920x959-1650x824.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86121,6 +86391,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mettlertoledo"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://assets.fishersci.com/TFS-Assets/CCG/Mettler-Toledo/product-images/DSC5-Manual-new.jpg-650.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.mt.com/nz/en/home/library/product-brochures/lab-analytical-instruments/dsc-5-plus.html"
@@ -86129,6 +86404,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.mt.com/nz/en/home/library/product-brochures/lab-analytical-instruments/dsc-5-plus.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://assets.fishersci.com/TFS-Assets/CCG/Mettler-Toledo/product-images/DSC5-Manual-new.jpg-650.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86218,6 +86498,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/d7/ckeditor/an/thermal/n9j25k000002ayc3-img/n9j25k000002ayd9.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
@@ -86226,6 +86511,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/d7/ckeditor/an/thermal/n9j25k000002ayc3-img/n9j25k000002ayd9.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86315,6 +86605,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/shimadzu"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Thermal_Analysis/DSC-60_Plus_Series/DSC-60Plus_f06.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
@@ -86323,6 +86618,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.ssi.shimadzu.com/products/thermal-analysis/differential-scanning-calorimeters/dsc-60-plus-series/spec.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ssi.shimadzu.com/sites/ssi.shimadzu.com/files/products/Thermal_Analysis/DSC-60_Plus_Series/DSC-60Plus_f06.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86385,9 +86685,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/ViPER/pics/facilities/MTIafc.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/ViPER/lab.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/ViPER/pics/facilities/MTIafc.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86454,6 +86764,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIUL.1.1_3370dfa5-2ebf-4e42-88e7-5d882903d199.jpg?v=1792015070"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/products/msk-afa-iii"
@@ -86462,6 +86777,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/products/msk-afa-iii"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIUL.1.1_3370dfa5-2ebf-4e42-88e7-5d882903d199.jpg?v=1792015070"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86524,6 +86844,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIIVCMET.1_7df20c14-8af6-4d69-9564-ed1f9e657d35.jpg?v=1711682702"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86532,6 +86857,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIIVCMET.1_7df20c14-8af6-4d69-9564-ed1f9e657d35.jpg?v=1711682702"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86594,6 +86924,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-II-VC-FH_Open_1fb98f13-6d88-4a46-a198-2dfbc6b7e358.jpg?v=1711682704"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86602,6 +86937,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-II-VC-FH_Open_1fb98f13-6d88-4a46-a198-2dfbc6b7e358.jpg?v=1711682704"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86664,6 +87004,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIII-HDS150.png?v=1791589059"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86672,6 +87017,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAIII-HDS150.png?v=1791589059"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86743,6 +87093,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAH200A_open_d8ea1b35-87c3-4359-888f-cc0baf202633.jpg?v=1711402721"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86751,6 +87106,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKAFAH200A_open_d8ea1b35-87c3-4359-888f-cc0baf202633.jpg?v=1711402721"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86822,6 +87182,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-L1000_Main1.1_e2ce1702-eccf-4add-9c2e-cda0c4dcd113.jpg?v=1711682919"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86830,6 +87195,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-L1000_Main1.1_e2ce1702-eccf-4add-9c2e-cda0c4dcd113.jpg?v=1711682919"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86901,6 +87271,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-EC150-a_581a052c-b141-4f2a-9446-068bd4556878.jpg?v=1711402699"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
@@ -86909,6 +87284,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/battery-coaters"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSK-AFA-EC150-a_581a052c-b141-4f2a-9446-068bd4556878.jpg?v=1711402699"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -86985,9 +87365,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/elcometer"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.elcometerusa.com/4340_1_lg.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://downloads.elcometer.com/PDFs/InstructionManuals/English/4340.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.elcometerusa.com/4340_1_lg.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87054,6 +87444,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bykinstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://www.exacolor.mx/cdn/shop/products/Byko-Drive-XL-_V_-con-placa-de-vacio.png?v=1666903382"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.byk-instruments.com/product/bykodrive-xl-v/01t5I0000023DJ9QAM"
@@ -87062,6 +87457,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.byk-instruments.com/product/bykodrive-xl-v/01t5I0000023DJ9QAM"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://www.exacolor.mx/cdn/shop/products/Byko-Drive-XL-_V_-con-placa-de-vacio.png?v=1666903382"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87124,9 +87524,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/arbin"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/arbin2.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/lzhu/facilities.htm"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/arbin2.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87184,9 +87594,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/arbin"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/ViPER/pics/facilities/Arbin64.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/ViPER/lab.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/ViPER/pics/facilities/Arbin64.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87244,9 +87664,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/arbin"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.arbin.com/wp-content/uploads/2025/05/LBT-Left-min.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.arbin.com/wp-content/uploads/2026/08/arbin-brochure_lbt-benchtop.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.arbin.com/wp-content/uploads/2025/05/LBT-Left-min.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87304,9 +87734,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/biologic"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87364,9 +87804,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/biologic"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87424,9 +87874,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/biologic"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://biologic.net/wp-content/uploads/2021/03/High-throughput-battery-tester-BCS-800-series.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://img1.17img.cn/17img/images/202209/uepic/ecee4f37-473e-4664-b96f-28cf8930f77d.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87484,6 +87944,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/maccor"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.maccor.com/images/battery-testers/S4000.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.maccor.com/cell-battery-module-test-systems.html"
@@ -87492,6 +87957,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.maccor.com/cell-battery-module-test-systems.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.maccor.com/images/battery-testers/S4000.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87554,6 +88024,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/maccor"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.maccor.com/images/4300.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.maccor.com/desktop-battery-testers.html"
@@ -87562,6 +88037,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.maccor.com/desktop-battery-testers.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.maccor.com/images/4300.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87624,6 +88104,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/maccor"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.maccor.com/images/4400.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.maccor.com/desktop-battery-testers.html"
@@ -87632,6 +88117,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.maccor.com/desktop-battery-testers.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.maccor.com/images/4400.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87694,6 +88184,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/landtinstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://landtinst.com/wp-content/uploads/CT3002A.jpg-1024x451.webp"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://landtinst.com/battery-test-system-ct3002a/"
@@ -87702,6 +88197,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://landtinst.com/battery-test-system-ct3002a/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://landtinst.com/wp-content/uploads/CT3002A.jpg-1024x451.webp"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87764,6 +88264,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/crimping.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/products/MSK-110"
@@ -87772,6 +88277,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/products/MSK-110"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/crimping.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87834,6 +88344,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/16E.png?v=1787433872"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/products/msk-160e"
@@ -87842,6 +88357,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/products/msk-160e"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/16E.png?v=1787433872"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87904,6 +88424,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mti-indonesia.com/cdn/shop/files/MSK-110-A-main1_4963a989-cf43-431e-b683-4f9f47a706f1.jpg?v=1764851762"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/products/msk-110-a"
@@ -87912,6 +88437,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/products/msk-110-a"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mti-indonesia.com/cdn/shop/files/MSK-110-A-main1_4963a989-cf43-431e-b683-4f9f47a706f1.jpg?v=1764851762"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -87974,6 +88504,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tobnewenergy"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.tobmachine.com/uploadfile/202404/17/370389733eae5ff8622993b1f867094f.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html"
@@ -87982,6 +88517,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.tobmachine.com/hydraulic-manual-coin-cell-crimper_p823.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.tobmachine.com/uploadfile/202404/17/370389733eae5ff8622993b1f867094f.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88044,6 +88584,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tobnewenergy"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.tobmachine.com/uploadfile/202611/09/91723413acb5167b3b5dbb76d1876c5e.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html"
@@ -88052,6 +88597,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.tobmachine.com/electric-coin-cell-crimping-machine_p790.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.tobmachine.com/uploadfile/202611/09/91723413acb5167b3b5dbb76d1876c5e.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88114,6 +88664,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKPN110SMain.3_2c199168-33d3-46a1-8ae0-468ebeb47cfc.jpg?v=1711682314"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://mtixtl.com/collections/coin-cell-crimper"
@@ -88122,6 +88677,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://mtixtl.com/collections/coin-cell-crimper"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://mtixtl.com/cdn/shop/files/MSKPN110SMain.3_2c199168-33d3-46a1-8ae0-468ebeb47cfc.jpg?v=1711682314"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88268,6 +88828,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fenn"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.fenn-torin.com/hs-fs/hubfs/Imported_Blog_Media/IMG_5551-154x300-2.jpg?width=154&height=300&name=IMG_5551-154x300-2.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high"
@@ -88276,6 +88841,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.fenn-torin.com/case-studies/081-2high-laboratory-rolling-mill-with-conversion-to-4high"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.fenn-torin.com/hs-fs/hubfs/Imported_Blog_Media/IMG_5551-154x300-2.jpg?width=154&height=300&name=IMG_5551-154x300-2.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88350,6 +88920,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fenn"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.royce.ac.uk/wp-content/uploads/2023/10/fenn-rhrm-870x570.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/"
@@ -88358,6 +88933,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://www.royce.ac.uk/equipment-and-facilities/reversing-hot-rolling-mill/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.royce.ac.uk/wp-content/uploads/2023/10/fenn-rhrm-870x570.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88519,9 +89099,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/durston"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://durston.com/wp-content/uploads/2018/05/1026-F130R-FRONT-510x612.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://durston.com/wp-content/uploads/2020/05/Rolling-Mill-Instructions-New.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://durston.com/wp-content/uploads/2018/05/1026-F130R-FRONT-510x612.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88596,9 +89186,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/durston"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://durston.com/wp-content/uploads/2020/04/1032-DRM-F150RE-510x612.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://durston.com/wp-content/uploads/2020/05/Rolling-Mill-Instructions-New.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://durston.com/wp-content/uploads/2020/04/1032-DRM-F150RE-510x612.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88668,6 +89268,11 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/elementmachinery"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://elementmachinery.com/wp-content/uploads/2022/10/2-high-rolling-mill-2.jpeg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
       {
         "@id": "https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/"
@@ -88676,6 +89281,11 @@
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://elementmachinery.com/products/metal-processing/rolling-mill/2-high-rolling-mill/"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://elementmachinery.com/wp-content/uploads/2022/10/2-high-rolling-mill-2.jpeg"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88744,9 +89354,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/cambridgenanotech"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "http://static1.squarespace.com/static/57b89099f7e0ab151e4aeed0/57b89994d482e9b69b7f66f8/5d5330da0cc4f6000166dbaa/1565733122417/20161010_115955_001.jpg?format=1500w"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://purdue.atlassian.net/wiki/spaces/BNCWiki/pages/6230794/Cambridge%2BNanotech%2BFiji%2BALD"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "http://static1.squarespace.com/static/57b89099f7e0ab151e4aeed0/57b89994d482e9b69b7f66f8/5d5330da0cc4f6000166dbaa/1565733122417/20161010_115955_001.jpg?format=1500w"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -88969,9 +89589,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/bruker"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.ntnu.edu/documents/140124/1274271064/D8-Focus.jpg/e875487c-0d6a-d152-1435-48c2081b9a8d?imagePreview=1&t=1681903307933"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/XRayDiffraction"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.ntnu.edu/documents/140124/1274271064/D8-Focus.jpg/e875487c-0d6a-d152-1435-48c2081b9a8d?imagePreview=1&t=1681903307933"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -89056,9 +89686,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/thermoscientific"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://sfr.ca/cdn/shop/files/phenom_pro_1600x.png?v=1752241657"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/ElectronMicroscopy/PhenomDesktopSEM"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://sfr.ca/cdn/shop/files/phenom_pro_1600x.png?v=1752241657"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -89146,9 +89786,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/fei"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/_media/quanta-650-arms-b218.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/microscopy-equipment.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://ag.purdue.edu/department/arge/facilities-and-research/microscopy/_media/quanta-650-arms-b218.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -89230,9 +89880,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/tainstruments"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.mse.iastate.edu/files/2024/11/ThermalAdvantageTGAQ50_MSE.png"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/MSE/research/facilities/CharacterizationFacilities/SoftMaterials"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.mse.iastate.edu/files/2024/11/ThermalAdvantageTGAQ50_MSE.png"
       }
     ],
     "https://schema.org/manufacturer": [
@@ -89290,9 +89950,19 @@
         "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/mti"
       }
     ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/rolling%20press.jpg"
+      }
+    ],
     "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
       {
         "@id": "https://engineering.purdue.edu/lzhu/facilities.htm"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://engineering.purdue.edu/lzhu/_images/rolling%20press.jpg"
       }
     ],
     "https://schema.org/manufacturer": [
