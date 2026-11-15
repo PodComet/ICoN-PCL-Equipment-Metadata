@@ -2,6 +2,7 @@ import json
 from catalog_tools import ROOT, load_csv
 from market_tools import seller_offers
 from price_policy import benchmark
+from conftest import before_metals
 
 def test_seller_offers_reproduce_the_app_and_keep_exact_model_identity():
     offers=seller_offers(ROOT)
@@ -21,7 +22,7 @@ def test_seller_prices_do_not_become_msrp_or_official_list_benchmarks():
 def test_sweep_reconciles_counts_and_preserves_inventory_and_manual_status():
     report=json.loads((ROOT/'catalog/link_review_2026-10-17-sellers.json').read_text(encoding='utf-8'))
     new_ids={r['equipment_id'] for r in json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records']}
-    rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv') if r['equipment_id'] not in new_ids and r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'}}
+    rows={r['equipment_id']:r for r in before_metals('equipment') if r['equipment_id'] not in new_ids and r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'}}
     s=report['summary']
     media=json.loads((ROOT/'catalog/manufacturer_media_review_2026-10-17.json').read_text(encoding='utf-8'))
     overrides={u['equipment_id']:u['after'] for u in media['equipment_updates']}

@@ -45,4 +45,5 @@ def test_photo_evidence_keeps_model_identity_scope_and_source_with_current_media
         assert context['verification']['status']==200
         assert context['verification']['content_type'].startswith('image/')
         assert context['match_scope'] in {'exact_model','product_family','exact_model_existing_category'}
-        assert any(r['record_id']==model['category_id'] for r in evidence['related_records'])
+        category_history = {model['category_id'], *model['legacy_category_ids'].split(';')}
+        assert any(r['record_id'] in category_history for r in evidence['related_records'])

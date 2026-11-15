@@ -7,31 +7,31 @@
     "TF-IDF/cosine model-name review; no automatic merges or property-model training"
   ],
   "counts": {
-    "acyclic_source_sequences": 53,
-    "categories": 120,
+    "acyclic_source_sequences": 77,
+    "categories": 142,
     "conditions": 289,
-    "equipment_records": 1125,
-    "m_categories": 114,
-    "model_name_review_pairs": 10,
+    "equipment_records": 1312,
+    "m_categories": 136,
+    "model_name_review_pairs": 12,
     "numeric_conditions": 248,
-    "process_steps": 263,
-    "rdf_triples": 49699,
+    "process_steps": 337,
+    "rdf_triples": 55352,
     "recognized_cross_category_contexts": 8,
     "reported_properties": 32,
-    "routes": 56,
-    "routes_without_source_sequence": 3,
+    "routes": 85,
+    "routes_without_source_sequence": 8,
     "source_evidence": 321,
     "unit_definitions_checked": 138,
     "unreviewed_model_name_pairs": 0,
     "x_categories": 6
   },
   "input_sha256_lf_normalized": {
-    "categories.csv": "b6428e2ccf1c0acb42b1ac54b9a65c9821fe7f40fb8323403b201e380cc15db1",
-    "component_formulations.csv": "9e75b80b5836fa153bf13cde6e277a539a5a0aa4744585349e61ecb802b0b9f0",
+    "categories.csv": "b0b2081c0c8f3f628ae6006c91f95d61445dd676adf8490d5280e20def0b7ef8",
+    "component_formulations.csv": "7073c895f1c022ca91ac576ce3da97fe6ac2032426b397b6d4f3dccc1263ab04",
     "condition_definitions.json": "54d64cfaf72bc591eef2cee9b7c8f41d2f9bc9fd3d7d29aa0ce80f4e0871c1d3",
-    "equipment.csv": "1e115ef33dd2632c3c060544e98d20fd5e5a5b0b7d7e3071bedda1f779444819",
+    "equipment.csv": "b1c46bf557a378b39fbad9d8ae3e16f2a659d17c9935542f14e211a804be1d25",
     "metadata-profile.json": "aae671cd6a7fd1b48bd9e0fbdc7435bd1ea405c54c2b6d3f3b2b59d0a39f43fc",
-    "model_identity_reviews.csv": "9d8e06c8d6aae0ed2f216fa2bba7b9c53a12aa641063d444ece0fa2a02dee23c",
+    "model_identity_reviews.csv": "5746580fb76d5c06b41997a982a01ff73cfda880f1698c3993ba23e8cb2a4a6e",
     "ontology/shapes.ttl": "8fa9e9f67dc3e7ab892615158bc39baac1bdc41560b51837a9c75758987bc5b7",
     "ontology_term_references.csv": "2ea9ecdaddead9205b89d8df31bcb0b30318c4d20dea7c13cf4822cb965037d7",
     "process_condition_evidence.csv": "a6e34ccdcee5a163b1ab3e84f8a42dcaec2d0c2ac1f0cb2f40789dabfa81e977",
@@ -41,14 +41,14 @@
     "product_families.csv": "01ecd49190c312b68261ff69651168f6f385838e07b9e6bb21224c007d85c3b3",
     "reference_links.csv": "82720bcd8ac6a293aa2e52c3b453716658d9e2eecd2cc4a7d793c99fa7b85b0f",
     "references.csv": "a7ea8a084858a73a23faf3996da50cef3d7a686d0183f8440dec6420197f8f37",
-    "route_steps.csv": "a95ea4c2e414ffff35862b1376befd1f9c6a6d840f5fe1318f22e8943171171e",
-    "routes.csv": "ccc9ded2ec968df8584dd14585f7a15fdadce89764cd8d4ccd117687d4aba5c7",
+    "route_steps.csv": "9b59b322c0ce1dec117690e391db8f833a27a81edf43ee836592c0faee921d93",
+    "routes.csv": "a44f0b1c2fee13b586ae1852dc3f5029472eb15d1d6844c9ead6551e80d6a68c",
     "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6"
   },
   "libraries": {
     "networkx": "3.6.1",
     "pint": "0.25.3",
-    "pydantic": "2.12.5",
+    "pydantic": "2.14.1",
     "pyshacl": "0.40.1",
     "rdflib": "7.6.0",
     "scikit-learn": "1.8.0"
@@ -76,7 +76,7 @@
       "reason": "similar_model_names_may_be_distinct_variants",
       "review_basis": "PULVERISETTE model numbers 7 and 5 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
-      "similarity": 0.950471,
+      "similarity": 0.948788,
       "status": "review_only_no_merge"
     },
     {
@@ -102,7 +102,33 @@
       "reason": "similar_model_names_may_be_distinct_variants",
       "review_basis": "PULVERISETTE model numbers 5 and 7 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
-      "similarity": 0.943919,
+      "similarity": 0.942741,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "MET-M129-08",
+      "equipment_b": "MET-M129-09",
+      "manufacturer": "Stresstech",
+      "model_a": "Xstress DR45",
+      "model_b": "Xstress DR45 S",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "Stresstech documents the DR45 and DR45 S as separate measuring systems.",
+      "reviewed_date": "2026-11-15",
+      "similarity": 0.93706,
+      "status": "review_only_no_merge"
+    },
+    {
+      "disposition": "retain_separate_catalog_entries",
+      "equipment_a": "MET-M120-07",
+      "equipment_b": "MET-M120-08",
+      "manufacturer": "BCN3D",
+      "model_a": "Epsilon W50 with Metal Pack",
+      "model_b": "Epsilon W50 SC with Metal Pack",
+      "reason": "similar_model_names_may_be_distinct_variants",
+      "review_basis": "BCN3D distinguishes the Smart Cabinet configuration. Both variants share the W50 family card.",
+      "reviewed_date": "2026-11-15",
+      "similarity": 0.936136,
       "status": "review_only_no_merge"
     },
     {
@@ -115,7 +141,7 @@
       "reason": "similar_model_names_may_be_distinct_variants",
       "review_basis": "PULVERISETTE model numbers 5 and 6 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
-      "similarity": 0.932197,
+      "similarity": 0.93208,
       "status": "review_only_no_merge"
     },
     {
@@ -128,7 +154,7 @@
       "reason": "similar_model_names_may_be_distinct_variants",
       "review_basis": "PULVERISETTE model numbers 6 and 7 differ. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
-      "similarity": 0.932197,
+      "similarity": 0.93208,
       "status": "review_only_no_merge"
     },
     {
@@ -141,7 +167,7 @@
       "reason": "similar_model_names_may_be_distinct_variants",
       "review_basis": "The SE model suffix distinguishes the catalog entries. Review of existing catalog labels only; no interchangeability, newest-model or technical-equivalence claim.",
       "reviewed_date": "2026-10-17",
-      "similarity": 0.926018,
+      "similarity": 0.929636,
       "status": "review_only_no_merge"
     },
     {
@@ -441,6 +467,41 @@
       "edge_count": 0,
       "levels": [],
       "route_id": "N10",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N11",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N12",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N13",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N14",
+      "status": "no_source_sequence",
+      "step_count": 0
+    },
+    {
+      "edge_count": 0,
+      "levels": [],
+      "route_id": "N15",
       "status": "no_source_sequence",
       "step_count": 0
     },
@@ -1428,6 +1489,420 @@
       "route_id": "P47",
       "status": "acyclic_source_order",
       "step_count": 6
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P48:1"
+        ],
+        [
+          "P48:2"
+        ],
+        [
+          "P48:3"
+        ]
+      ],
+      "route_id": "P48",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P49:1"
+        ],
+        [
+          "P49:2"
+        ],
+        [
+          "P49:3"
+        ]
+      ],
+      "route_id": "P49",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P50:1"
+        ],
+        [
+          "P50:2"
+        ],
+        [
+          "P50:3"
+        ]
+      ],
+      "route_id": "P50",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P51:1"
+        ],
+        [
+          "P51:2"
+        ],
+        [
+          "P51:3"
+        ],
+        [
+          "P51:4"
+        ]
+      ],
+      "route_id": "P51",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P52:1"
+        ],
+        [
+          "P52:2"
+        ],
+        [
+          "P52:3"
+        ]
+      ],
+      "route_id": "P52",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P53:1"
+        ],
+        [
+          "P53:2"
+        ],
+        [
+          "P53:3"
+        ]
+      ],
+      "route_id": "P53",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P54:1"
+        ],
+        [
+          "P54:2"
+        ],
+        [
+          "P54:3"
+        ]
+      ],
+      "route_id": "P54",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P55:1"
+        ],
+        [
+          "P55:2"
+        ],
+        [
+          "P55:3"
+        ]
+      ],
+      "route_id": "P55",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P56:1"
+        ],
+        [
+          "P56:2"
+        ],
+        [
+          "P56:3"
+        ]
+      ],
+      "route_id": "P56",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P57:1"
+        ],
+        [
+          "P57:2"
+        ],
+        [
+          "P57:3"
+        ]
+      ],
+      "route_id": "P57",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P58:1"
+        ],
+        [
+          "P58:2"
+        ],
+        [
+          "P58:3"
+        ]
+      ],
+      "route_id": "P58",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P59:1"
+        ],
+        [
+          "P59:2"
+        ],
+        [
+          "P59:3"
+        ]
+      ],
+      "route_id": "P59",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P60:1"
+        ],
+        [
+          "P60:2"
+        ],
+        [
+          "P60:3"
+        ]
+      ],
+      "route_id": "P60",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P61:1"
+        ],
+        [
+          "P61:2"
+        ],
+        [
+          "P61:3"
+        ]
+      ],
+      "route_id": "P61",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P62:1"
+        ],
+        [
+          "P62:2"
+        ],
+        [
+          "P62:3"
+        ]
+      ],
+      "route_id": "P62",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P63:1"
+        ],
+        [
+          "P63:2"
+        ],
+        [
+          "P63:3"
+        ]
+      ],
+      "route_id": "P63",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P64:1"
+        ],
+        [
+          "P64:2"
+        ],
+        [
+          "P64:3"
+        ]
+      ],
+      "route_id": "P64",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P65:1"
+        ],
+        [
+          "P65:2"
+        ],
+        [
+          "P65:3"
+        ]
+      ],
+      "route_id": "P65",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P66:1"
+        ],
+        [
+          "P66:2"
+        ],
+        [
+          "P66:3"
+        ]
+      ],
+      "route_id": "P66",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P67:1"
+        ],
+        [
+          "P67:2"
+        ],
+        [
+          "P67:3"
+        ]
+      ],
+      "route_id": "P67",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P68:1"
+        ],
+        [
+          "P68:2"
+        ],
+        [
+          "P68:3"
+        ]
+      ],
+      "route_id": "P68",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P69:1"
+        ],
+        [
+          "P69:2"
+        ],
+        [
+          "P69:3"
+        ]
+      ],
+      "route_id": "P69",
+      "status": "acyclic_source_order",
+      "step_count": 3
+    },
+    {
+      "edge_count": 3,
+      "levels": [
+        [
+          "P70:1"
+        ],
+        [
+          "P70:2"
+        ],
+        [
+          "P70:3"
+        ],
+        [
+          "P70:4"
+        ]
+      ],
+      "route_id": "P70",
+      "status": "acyclic_source_order",
+      "step_count": 4
+    },
+    {
+      "edge_count": 2,
+      "levels": [
+        [
+          "P71:1"
+        ],
+        [
+          "P71:2"
+        ],
+        [
+          "P71:3"
+        ]
+      ],
+      "route_id": "P71",
+      "status": "acyclic_source_order",
+      "step_count": 3
     }
   ],
   "status": "passed"

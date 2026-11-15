@@ -58,7 +58,9 @@ test('the full review has complete confirmed updates and never marks newer targe
 });
 
 test('screening coverage remains distinct from a confirmed successor or latest-model certification',()=>{
- assert.equal(seed.model_lifecycle.length,seed.records.length);
+ const screened=seed.records.filter(r=>r.catalog_scope!=='mmrl_metals_expansion');
+ assert.equal(seed.model_lifecycle.length,screened.length);
+ assert.ok(seed.records.filter(r=>r.catalog_scope==='mmrl_metals_expansion').every(r=>!newerModel(r)));
  const unresolved=seed.records.filter(r=>r.lifecycle_status==='model_unresolved');
  assert.equal(unresolved.filter(r=>['core_example','requested_supplement'].includes(r.catalog_scope)).length,103);assert.ok(unresolved.every(r=>!newerModel(r)));
  assert.equal(record('M26-02').manufacturer,'Elmarco');assert.equal(record('M26-02').lifecycle_status,'no_successor_confirmed');assert.equal(newerModel(record('M26-02')),null);

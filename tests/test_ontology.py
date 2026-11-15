@@ -137,11 +137,11 @@ def test_all_artifacts_are_current_reproducible_and_inventory_free(export):
     for filename, content in files.items():
         assert (ROOT / 'catalog/ontology' / filename).read_text(encoding='utf-8') == content
         assert (ROOT / 'webapp/public/ontology' / filename).read_text(encoding='utf-8') == content
-    assert report['counts']['m_categories'] == 114
+    assert report['counts']['m_categories'] == 136
     assert report['counts']['x_categories'] == 6
     assert report['counts']['unit_definitions_checked'] == 138
     assert report['counts']['unreviewed_model_name_pairs'] == 0
-    assert {s['route_id'] for s in report['source_sequences'] if not s['step_count']} == {'N10', 'P13', 'P14'}
+    assert {s['route_id'] for s in report['source_sequences'] if not s['step_count']} == {'N10', 'N11', 'N12', 'N13', 'N14', 'N15', 'P13', 'P14'}
     # Public export code reads a fixed list of canonical tables, not runtime assets.
     graph = Graph().parse(data=files['ontology.ttl'], format='turtle')
     assert not any('serial' in str(predicate).lower() for _, predicate, _ in graph)

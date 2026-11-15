@@ -27,8 +27,30 @@ M113,Maskless optical lithography systems,,,,No qualifying MSRP/list-price bench
 M114,Wafer overlay and film-thickness metrology systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M115,Wafer resist coating and development systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M116,Gas-phase nanoparticle core-shell coaters,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M117,Metal laser powder bed fusion systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M118,Hybrid metal powder bed fusion and milling systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M119,Laser directed energy deposition systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M12,Planetary ball mill,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M120,Bound metal material extrusion printers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M121,Metal cold spray deposition systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M122,Friction stir welding systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M123,Wire electrical discharge machining systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M124,Five-axis CNC machining centers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M125,Three-axis CNC vertical machining centers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M126,Metallographic grinders and polishers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M127,Vacuum metal heat-treatment furnaces,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M128,Controlled shot peening systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M129,X-ray diffraction residual stress analyzers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M13,General-purpose centrifuges,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M130,Noncontact optical surface profilometers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M131,Immersion ultrasonic inspection systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M132,Metal powder bulk-property analyzers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M133,Dynamic particle imaging analyzers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M134,Metal powder sieving systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M135,High-energy and vibratory powder mills,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M136,Low-pressure plasma cleaners for metal surfaces,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M137,Bound metal debinding stations,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+M138,Bound metal sintering furnaces,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M14,Ultracentrifuge,,,JPY,Category rule would yield JPY 9108000–6072000 (lower exceeds upper). No interval is published; add a qualifying older-model price or a valid category spread.,not_estimated,https://www.himac-science.jp/products/himac/ultra/cs150nx/cs150nx.html,2026-10-17
 M15,Filtration systems,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M16,Rotary evaporator,4746,12709.6,USD,"Category M16: 1.2 × lowest benchmark USD 3955 (IKA RV 3) through 0.8 × highest benchmark USD 15887 (IKA RV 10 auto pro V). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-3-V-10003324/;https://www.ika.com/en/Products-LabEq/Rotary-Evaporators-pg35/RV-10-auto-pro-V-10004815/,2026-10-17
@@ -113,9 +135,6 @@ M96,Auger electron spectroscopy systems,,,,No qualifying MSRP/list-price benchma
 M97,Quartz crystal microbalance with dissipation monitoring,3118.44,4678.96,USD,"Category M97: 1.2 × lowest benchmark USD 2598.7 (openQCM Q-1) through 0.8 × highest benchmark USD 5848.7 (openQCM NEXT). Source labels remain MSRP or manufacturer list price; this result is an estimate, not an explicit model MSRP.",formula_based,https://store.openqcm.com/openqcm-q-1-with-dissipation-module/?setCurrencyId=2;https://store.openqcm.com/openqcm-next/?setCurrencyId=2,2026-10-17
 M98,X-ray fluorescence spectrometers,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 M99,X-ray microscopy and tomography,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-X-AM,Metal additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-X-CNC,CNC machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
+X-AM,Hybrid additive manufacturing,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-CS,Cold spray deposition,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-X-EDM,Electrical discharge machining,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
-X-MET,Optical surface metrology,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17
 X-TEST,Mechanical characterization,,,,No qualifying MSRP/list-price benchmark found for this category or a documented older model.,not_estimated,,2026-10-17

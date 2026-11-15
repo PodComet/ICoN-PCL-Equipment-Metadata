@@ -11,7 +11,7 @@ const base=seed.records.find(r=>r.equipment_id==='REQ-EQ-013');
 const brochure=rules[0].replacement_url;
 
 test('old saved Mazak links repair after prior evidence updates without changing machine identity',()=>{
- const saved={...base,product_page_url:rules[0].old_url,model_evidence_url:rules[0].old_url,technical_spec_url:'',brochure_url:'',notes:'My machining notes'};
+ const saved={...base,category_id:'X-CNC',product_page_url:rules[0].old_url,model_evidence_url:rules[0].old_url,technical_spec_url:'',brochure_url:'',notes:'My machining notes'};
  const refreshed=repairRetiredLinks(refreshResearchEvidence(saved,research),rules);
  assert.equal(refreshed.product_page_url,brochure);assert.equal(refreshed.brochure_url,brochure);
  assert.equal(refreshed.technical_spec_url,'');assert.equal(documentationLink(refreshed).label,'Brochure');

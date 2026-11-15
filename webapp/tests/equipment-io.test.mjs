@@ -38,9 +38,14 @@ test('plus-suffixed models remain distinct and uncertainty is preserved verbatim
 
 test('all imported identities exist in the catalog and all three boxes have source text',()=>{
  const ids=new Set(seed.records.map(r=>r.equipment_id));
- assert.equal(library.records.length,1115);
- assert.equal(new Set(library.records.map(r=>r.equipment_id)).size,1115);
- for(const r of library.records){assert.ok(ids.has(r.equipment_id));assert.match(r.equipment_io_source_sha256,/^[a-f0-9]{64}$/);for(const field of ['inputs_and_states','outputs_and_states','units_of_measure'])assert.equal(typeof r[field],'string');}
+ assert.equal(library.records.filter(r=>r.equipment_io_source_workbook).length,1115);
+ assert.equal(new Set(library.records.map(r=>r.equipment_id)).size,library.records.length);
+ for(const r of library.records){
+  assert.ok(ids.has(r.equipment_id));
+  if(r.equipment_io_source_workbook)assert.match(r.equipment_io_source_sha256,/^[a-f0-9]{64}$/);
+  else assert.match(r.equipment_io_spec_url,/^https:\/\//);
+  for(const field of ['inputs_and_states','outputs_and_states','units_of_measure'])assert.equal(typeof r[field],'string');
+ }
 });
 
 test('display removes local PDF footnotes without discarding subsequent controls or qualifiers',()=>{

@@ -6,9 +6,12 @@ from evidence_tools import dataset as evidence_dataset
 from purdue_review import matches_purdue
 from price_policy import benchmark
 from price_history import quotes_at_checkpoint
+from conftest import before_metals
 ROOT=Path(__file__).resolve().parents[1]
 def read(name):
     with (ROOT/'catalog'/f'{name}.csv').open(encoding='utf-8-sig',newline='') as f:rows=list(csv.DictReader(f))
+    if name in {'equipment','manufacturers'}:
+        rows=before_metals(name)
     if name=='component_offers':
         rows=quotes_at_checkpoint(ROOT,rows,'2026-10-19')
     # Reconstruct this historical checkpoint by undoing the later, audited LabX additions.

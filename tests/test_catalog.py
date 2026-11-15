@@ -3,15 +3,16 @@ import json
 from pathlib import Path
 
 from catalog_tools import ROOT, inspect_catalog, load_csv, render_views
+from conftest import before_metals
 
 
 def test_catalog_integrity_and_relationships():
     summary = inspect_catalog()
     assert summary["core_examples"] == 590
-    assert summary["active_m_categories"] == 114
+    assert summary["active_m_categories"] == 136
     assert summary["source_m_categories"] == 59
-    assert summary["project_m_categories"] == 55
-    assert summary["material_families"] == 10
+    assert summary["project_m_categories"] == 77
+    assert summary["material_families"] == 15
     assert summary["requested_occurrences"] == 44
     assert summary["highlighted_equipment_records"] == 44
 
@@ -76,7 +77,7 @@ def test_generated_views_are_reproducible(tmp_path):
 
 def test_manufacturer_link_review_matches_canonical_data_and_keeps_msrp_distinct():
     ledger = json.loads((ROOT / 'catalog/deep_link_review_2026-10-14.json').read_text(encoding='utf-8'))
-    records = {r['equipment_id']: r for r in load_csv(ROOT / 'catalog/equipment.csv')}
+    records = {r['equipment_id']: r for r in before_metals('equipment')}
     review = load_csv(ROOT / 'catalog/deep_link_review_2026-10-14.csv')
     assert len(review) == ledger['summary']['reviewed_records']
     superseding = {}
@@ -99,7 +100,7 @@ def test_manufacturer_link_review_matches_canonical_data_and_keeps_msrp_distinct
 
 def test_active_mazak_links_use_current_us_site_and_keep_review_history():
     ledger = json.loads((ROOT / 'catalog/link_review_2026-10-15.json').read_text(encoding='utf-8'))
-    records = {r['equipment_id']: r for r in load_csv(ROOT / 'catalog/equipment.csv')}
+    records = {r['equipment_id']: r for r in before_metals('equipment')}
     for update in ledger['equipment_updates']:
         assert all(records[update['equipment_id']][key] == value for key, value in update['after'].items())
     for name in ['equipment.csv', 'manufacturers.csv', 'category_price_estimates.csv']:

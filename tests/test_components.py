@@ -1,14 +1,15 @@
 import copy
 from datetime import date
 import pytest
-from component_tools import dataset
+from component_tools import dataset, read
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 
 def test_component_dataset_covers_existing_processes_with_scoped_sources():
     data=dataset(ROOT)
-    assert len(data['formulations'])==46
-    assert len({f['formulation_id'] for f in data['formulations']})==46
+    expected={r['route_id'] for r in read(ROOT,'routes') if r['route_kind']=='manufacturing_process'}
+    assert {f['route_id'] for f in data['formulations']}==expected
+    assert len({f['formulation_id'] for f in data['formulations']})==len(expected)
     assert all(f['source_url'].startswith('https://') and f['batch_basis'] for f in data['formulations'])
     assert next(f for f in data['formulations'] if f['route_id']=='P43')['components']==[]
 

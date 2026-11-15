@@ -14,6 +14,19 @@ export function resolveCategoryId(id:string,aliases:CategoryAlias[],existingCate
 /** Apply approved classification changes after stored shared or personal overlays. */
 export function canonicalizeEquipment(record:Equipment,canonical:Map<string,Equipment>,categories:Record<string,string>[],aliases:CategoryAlias[]):Equipment{
  const base=canonical.get(record.equipment_id),old=record.category_id;
+ // The Purdue metals review reclassifies individual identities within broad X classes.
+ if(base?.access_evidence_url?.startsWith('https://engineering.purdue.edu/MMRL/equipment/')&&
+    record.manufacturer===base.manufacturer&&record.model_name===base.model_name&&
+    (old===base.category_id||tokens(base.legacy_category_ids).includes(old))){
+  return {...record,category_id:base.category_id,category_name:base.category_name,
+   legacy_category_ids:joined(record.legacy_category_ids,base.legacy_category_ids),
+   equipment_subtype:old===base.category_id?(record.equipment_subtype||base.equipment_subtype):base.equipment_subtype,
+   access_evidence_url:base.access_evidence_url,ownership_status:base.ownership_status,
+   related_process_ids:joined(record.related_process_ids,base.related_process_ids),
+   related_process_types:joined(record.related_process_types,base.related_process_types),
+   related_material_ids:joined(record.related_material_ids,base.related_material_ids),
+   related_material_types:joined(record.related_material_types,base.related_material_types)};
+ }
  const categoryId=resolveCategoryId(old,aliases,base?.category_id)||old;
  const targets=new Set(aliases.flatMap(a=>tokens(a.canonical_category_ids)));
  if(!targets.has(categoryId))return record;

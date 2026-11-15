@@ -36,7 +36,7 @@ def test_market_expansion_adds_evidenced_alternatives_to_all_existing_m_classes(
     report=json.loads((ROOT/'catalog/market_expansion_2026-10-16.json').read_text(encoding='utf-8'))
     rows={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
     assert len(report['new_records'])==96 and len(report['category_counts'])==68
-    assert report['before']['records']==669 and report['after']['records']==sum(r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog'} for r in rows.values())==765
+    assert report['before']['records']==669 and report['after']['records']==sum(r['catalog_scope'] not in {'process_slot_gap_expansion','class_implementation_expansion','mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog','mmrl_metals_expansion'} for r in rows.values())==765
     assert all(r['added']>=1 and r['after']>=5 for r in report['category_counts'])
     _, overrides=later_updates()
     for addition in report['new_records']:
@@ -98,7 +98,7 @@ def test_starting_material_examples_are_derived_from_existing_academic_reference
     profiles=load_csv(ROOT/'catalog/process_material_profiles.csv')
     examples=load_csv(ROOT/'catalog/process_material_examples.csv')
     seed=json.loads((ROOT/'webapp/app/data/process-materials.json').read_text(encoding='utf-8'))
-    assert len([r for r in profiles if r['route_id'] not in {'P44','P45','P46','P47'}])==42 and len(examples)==4
+    assert len([r for r in profiles if int(r['route_id'][1:])<44])==42 and len(examples)==4
     refs={r['reference_id'] for r in load_csv(ROOT/'catalog/references.csv')}
     for source,built in zip(examples,seed['examples']):
         assert set(source['reference_ids'].split(';'))<=refs
