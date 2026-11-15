@@ -1,15 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation,verifiedManufacturer,applyManufacturerAudit,filterRows,filterCounts,rangeSelection} from '../app/catalog-lib.ts';
+import {csvText,groupRows,matches,safeUrl,VERIFIED,documentationLink,pricePresentation,verifiedManufacturer,applyManufacturerAudit,filterRows,filterCounts,rangeSelection,purdueInstallationSource} from '../app/catalog-lib.ts';
 
 const seed=JSON.parse(readFileSync(new URL('../app/data/catalog.json',import.meta.url),'utf8'));
 const rows=seed.records.map(record=>({record,revision:0}));
 
-test('Purdue filter contains exactly the requested distinct records',()=>{
+test('Purdue filter includes the project list and documented installations',()=>{
+ const audit=JSON.parse(readFileSync(new URL('../../catalog/mmrl_metals_review_2026-11-15.json',import.meta.url),'utf8'));
+ const requested=rows.filter(r=>r.record.purdue_list==='true').map(r=>r.record.equipment_id);
+ const installed=audit.records.filter(r=>r.installation_url);
  const result=rows.filter(r=>matches(r,'','','','',false,true));
- assert.equal(result.length,44);
+ assert.equal(requested.length,44);
+ assert.equal(installed.filter(r=>!r.existing_record).length,16);
+ assert.deepEqual(new Set(result.map(r=>r.record.equipment_id)),new Set([...requested,...installed.map(r=>r.equipment_id)]));
+ for(const r of installed)assert.equal(purdueInstallationSource(result.find(row=>row.record.equipment_id===r.equipment_id).record),r.installation_url);
  assert.equal(result.filter(r=>r.record.model_name==='Renishaw AM400').length,1);
+ assert.ok(!result.some(r=>r.record.model_name==='Sinter-2'));
+ const metalX=result.find(r=>r.record.model_name==='Metal X');
+ assert.equal(purdueInstallationSource({...metalX.record,access_evidence_url:'https://example.org/purdue.edu/equipment'}),'');
+ assert.equal(purdueInstallationSource({...metalX.record,ownership_status:'not_independently_verified'}),'');
+ assert.deepEqual(filterRows(rows,{query:'TecScan',category:['M131'],material:[],process:[],manufacturer:[],manualOnly:false,requestedOnly:true}).map(r=>r.record.model_name),['TS-2000']);
 });
 test('material/process/name filters compose without searching checksum noise',()=>{
  const result=rows.filter(r=>matches(r,'Genizer','M43','N06','',false,false));

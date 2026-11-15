@@ -9,6 +9,16 @@ export function safeUrl(url: string | undefined) {
   try { const parsed = new URL(url); return ["https:", "http:"].includes(parsed.protocol) ? parsed.href : ""; }
   catch { return ""; }
 }
+export function purdueInstallationSource(record: Equipment) {
+  if (record.institution_label !== "Purdue University" || record.ownership_status !== "documented_institution_installation") return "";
+  const url = safeUrl(record.access_evidence_url);
+  if (!url) return "";
+  const { hostname, protocol } = new URL(url);
+  return protocol === "https:" && (hostname === "purdue.edu" || hostname.endsWith(".purdue.edu")) ? url : "";
+}
+export function isPurdueEquipment(record: Equipment) {
+  return record.purdue_list === "true" || Boolean(purdueInstallationSource(record));
+}
 export function csvText(records: Record<string,string>[]) {
   const fields = [...new Set(records.flatMap(Object.keys))];
   function cell(value: unknown) {
@@ -25,7 +35,7 @@ export function matches(row: CatalogRow, query: string, category: string|string[
     (!picked(material).length || picked(material).some(id=>r.related_material_ids?.split(";").includes(id))) &&
     (!picked(process).length || picked(process).some(id=>r.related_process_ids?.split(";").includes(id))) &&
     (!manualOnly || r.manual_match_status === VERIFIED) &&
-    (!requestedOnly || r.purdue_list === "true") &&
+    (!requestedOnly || isPurdueEquipment(r)) &&
     query.toLowerCase().split(/\s+/).every(word => [r.model_name,r.manufacturer,r.manufacturer_display_name,r.manufacturer_vendor_name,r.manufacturer_vendor_name?.replace(/\s/g,''),r.product_family,r.variant_label,r.category_id,r.category_name,r.legacy_category_ids,r.equipment_subtype,r.source_record_id,r.related_material_types,r.related_process_types,r.capacity_ml,r.notes,r.purdue_instrument_ids,r.purdue_serial_or_other_ids].join(" ").toLowerCase().includes(word));
 }
 export function groupRows(rows: CatalogRow[]) {
