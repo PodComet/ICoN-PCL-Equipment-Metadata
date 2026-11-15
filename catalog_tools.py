@@ -8,6 +8,11 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parent
+CAPABILITY_SOURCES = {
+    "UCLA INML public capability description",
+    "Purdue MMRL and manufacturer public capability sources",
+    "Academic materials research facility and manufacturer documentation",
+}
 
 
 def load_csv(path):
@@ -201,8 +206,8 @@ def inspect_catalog(root=ROOT):
         "source_pdf_model_records": len(source_models), "material_families": sum(r["route_kind"] == "material_family" for r in routes),
         "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
         "source_routes": 20, "curated_process_capabilities": sum(r["route_kind"] == "manufacturing_process" and not r["source_pdf"] for r in routes),
-        "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf", "Opentrons Thermocycler Python API", "UCLA INML public capability description", "Purdue MMRL and manufacturer public capability sources"} for r in routes),
-        "institution_capability_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] in {"UCLA INML public capability description", "Purdue MMRL and manufacturer public capability sources"} for r in routes),
+        "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf", "Opentrons Thermocycler Python API", *CAPABILITY_SOURCES} for r in routes),
+        "institution_capability_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] in CAPABILITY_SOURCES for r in routes),
         "control_interface_examples": sum(r["source_pdf"] == "Opentrons Thermocycler Python API" for r in routes),
         "literature_equipment_records": sum(r["catalog_scope"] == "literature_reported" for r in equipment), "retired_x_categories": len(aliases),
         "ordered_route_steps": len(steps),

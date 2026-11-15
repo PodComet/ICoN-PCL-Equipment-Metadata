@@ -1,4 +1,5 @@
 equipment_a,equipment_b,model_a,model_b,disposition,review_basis,reviewed_date
+ACAD-M140-03,ACAD-M140-06,ElectroPuls E1000,ElectroPuls E10000,retain_separate_catalog_entries,Instron documents 1 kN and 10 kN dynamic frames as separate models in the ElectroPuls technical brochure.,2026-11-15
 MET-M120-07,MET-M120-08,Epsilon W50 with Metal Pack,Epsilon W50 SC with Metal Pack,retain_separate_catalog_entries,BCN3D distinguishes the Smart Cabinet configuration. Both variants share the W50 family card.,2026-11-15
 MET-M129-08,MET-M129-09,Xstress DR45,Xstress DR45 S,retain_separate_catalog_entries,Stresstech documents the DR45 and DR45 S as separate measuring systems.,2026-11-15
 CAT-LABMATE-LMPT-303,CAT-LABMATE-LMPT-304,Potentiometric Titrator LMPT-303,Potentiometric Titrator LMPT-304,retain_separate_catalog_entries,"Distinct supplier model identifiers, model pages, photos and published prices. Presented as separate sub-model chips in one LMPT family card. No interchangeability or successor relationship is inferred.",2026-10-19

@@ -1,4 +1,4 @@
-import type {Equipment} from './catalog-lib.ts';
+import {purdueInstallationSource,type Equipment} from './catalog-lib.ts';
 
 export type CategoryAlias={legacy_category_id:string;canonical_category_ids:string;[key:string]:string};
 const tokens=(value:string|undefined)=>(value||'').split(';').filter(Boolean);
@@ -14,9 +14,22 @@ export function resolveCategoryId(id:string,aliases:CategoryAlias[],existingCate
 /** Apply approved classification changes after stored shared or personal overlays. */
 export function canonicalizeEquipment(record:Equipment,canonical:Map<string,Equipment>,categories:Record<string,string>[],aliases:CategoryAlias[]):Equipment{
  const base=canonical.get(record.equipment_id),old=record.category_id;
+ const exactModel=base&&record.manufacturer===base.manufacturer&&record.model_name===base.model_name;
+ // Reused instruments gain the reviewed workflow capabilities even when a prior catalog edit is stored.
+ if(exactModel&&old===base.category_id&&tokens(base.related_process_ids).some(id=>/^P(7[2-9]|8[0-9])$/.test(id))){
+  const installation=purdueInstallationSource(base);
+  return {...record,
+   equipment_subtype:joined(record.equipment_subtype,base.equipment_subtype),
+   related_process_ids:joined(record.related_process_ids,base.related_process_ids),
+   related_process_types:joined(record.related_process_types,base.related_process_types),
+   related_material_ids:joined(record.related_material_ids,base.related_material_ids),
+   related_material_types:joined(record.related_material_types,base.related_material_types),
+   ...(installation?{institution_label:base.institution_label,institution_basis:base.institution_basis,ownership_status:base.ownership_status,access_evidence_url:installation}:{}),
+  };
+ }
  // The Purdue metals review reclassifies individual identities within broad X classes.
  if(base?.access_evidence_url?.startsWith('https://engineering.purdue.edu/MMRL/equipment/')&&
-    record.manufacturer===base.manufacturer&&record.model_name===base.model_name&&
+    exactModel&&
     (old===base.category_id||tokens(base.legacy_category_ids).includes(old))){
   return {...record,category_id:base.category_id,category_name:base.category_name,
    legacy_category_ids:joined(record.legacy_category_ids,base.legacy_category_ids),

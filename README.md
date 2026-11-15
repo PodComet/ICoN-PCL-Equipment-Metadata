@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [academic workflows expansion](docs/academic-workflows.md) adds P72–P89 for microstructure characterization, mechanical testing, thermal analysis, ceramics, battery research, and thin-film deposition. The [equipment review](catalog/academic_workflow_review_2026-11-15.json) links specifications, manuals, and documented Purdue installations.
+
 The [Purdue MMRL metals expansion](docs/mmrl-metals.md) adds 24 process workflows (P48–P71), 22 equipment classes (M117–M138) and five alloy families (N11–N15). Equipment cards include model-scoped input, output, unit and source information. The [source review](catalog/mmrl_metals_review_2026-11-15.json) records the public MMRL installations, candidate selection and remaining coverage gaps.
 
 The [model-bound action interface](docs/instrument-action-interfaces.md) extends Position → Fiber → Direction with typed settings, units, evidence-linked starting conditions and completion signals, declared state changes and command references. Processes retain dependency and shared-equipment coordination. Saved evidence freezes definitions and selected values; existing profiles and saved plans remain readable.
@@ -42,7 +44,7 @@ The [operating conditions and evidence guide](docs/process-conditions-and-eviden
 
 ## Equipment database
 
-The equipment RDF exports contain **1,312 catalog equipment/model records**. The [nested RDF/XML profile](catalog/ontology/equipment.rdf) gives each equipment ID one description with model-bound subrecords and explicit field provenance. The [RDF/Turtle snapshot](catalog/ontology/equipment.ttl) provides the earlier equipment profile. The [export guide](docs/equipment-rdf.md) documents both formats and their source mappings.
+The equipment RDF exports contain **1,383 catalog equipment/model records**. The [nested RDF/XML profile](catalog/ontology/equipment.rdf) gives each equipment ID one description with model-bound subrecords and explicit field provenance. The [RDF/Turtle snapshot](catalog/ontology/equipment.ttl) provides the earlier equipment profile. The [export guide](docs/equipment-rdf.md) documents both formats and their source mappings.
 
 The [CSV catalog](catalog/equipment.csv) contains **590 research examples across 59 source M categories**, plus 42 supplemental records covering the requested equipment. There are 86 active M categories: the 59 source classes, M62 robotics, seven literature-derived classes for titration/dosing, swaging, induction heating, dialysis, three-roll milling, electron-beam evaporation and spark-plasma sintering, plus M70 programmable thermocyclers, eleven process-gap classes M71–M81, and seven implemented planning classes M82–M88. All 44 requested occurrences are retained, including the repeated AM400 entry. See the [bolded requested-equipment view](docs/requested-equipment.md), [database guide](catalog/README.md), and [evidence coverage](catalog/coverage.json).
 

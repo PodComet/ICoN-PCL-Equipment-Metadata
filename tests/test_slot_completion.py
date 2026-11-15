@@ -3,13 +3,14 @@ from collections import Counter
 from catalog_tools import ROOT, load_csv
 from price_policy import with_msrp_estimates
 from purdue_review import matches_purdue
+from conftest import before_metals
 
 
 def test_new_classes_have_scoped_model_evidence_without_inheriting_purdue_ownership():
     report=json.loads((ROOT/'catalog/process_slot_completion_2026-10-16.json').read_text(encoding='utf-8'))
-    records={r['equipment_id']:r for r in load_csv(ROOT/'catalog/equipment.csv')}
+    records={r['equipment_id']:r for r in before_metals('equipment')}
     classes={c['category_id']:c for c in report['new_categories']}
-    assert len(classes)==11 and len(report['new_records'])==93 and sum(r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog','mmrl_metals_expansion'} for r in records.values())==858+len(json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records'])
+    assert len(classes)==11 and len(report['new_records'])==93 and sum(r['catalog_scope'] not in {'mit_nano_expansion','mit_class_expansion','citation_sweep_2026_10_17','institution_reported','manufacturer_catalog','mmrl_metals_expansion','academic_workflow_expansion'} for r in records.values())==858+len(json.loads((ROOT/'catalog/class_implementation_2026-10-17.json').read_text(encoding='utf-8'))['new_records'])
     counts=Counter(r['category_id'] for r in report['new_records'])
     assert set(counts)==set(classes) and all(1<=n<=10 for n in counts.values())
     assert counts['M80']==1  # Only one evidenced custom chamber; no invented market equivalents.

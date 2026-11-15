@@ -34,7 +34,7 @@ export function withMaterialPlan(workflow:ProcessWorkflow,plan:MaterialPlan):Pro
 export function newStartingMaterial(suggestion:MaterialSuggestion,amount=''):StartingMaterial{return {...suggestion,material_id:'MAT-'+crypto.randomUUID(),amount};}
 export function planFromExample(example:MaterialExample):MaterialPlan{return {schema:'process-materials/v1',route_id:example.route_id,inputs:example.inputs.map(i=>newStartingMaterial(i)),expected_output:example.output_label,example_id:example.example_id};}
 const normalized=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
-const metalOutputPrefixes: Record<string,string> = {
+const workflowOutputPrefixes: Record<string,string> = {
  'metals-build':'Laser-fused part from ',
  'metals-hybrid':'Laser-fused and milled part from ',
  'metals-deposition':'Metal deposit from ',
@@ -53,7 +53,26 @@ const metalOutputPrefixes: Record<string,string> = {
  'metals-sieve':'Sieved fractions from ',
  'metals-mill':'Milled powder or alloy blend from ',
  'metals-clean':'Plasma-treated surface of ',
+ 'academic-sem':'Micrographs and elemental maps for ',
+ 'academic-ebsd':'Grain orientation and texture maps for ',
+ 'academic-tension':'Tensile stress–strain data for ',
+ 'academic-compression':'Compressive stress–strain data for ',
+ 'academic-fatigue':'Fatigue response and life data for ',
+ 'academic-fracture':'Fracture test results for ',
+ 'academic-xrd':'Powder diffraction and phase analysis of ',
+ 'academic-cast':'Cast and homogenized alloy from ',
+ 'academic-roll':'Rolled stock from ',
+ 'academic-dsc':'Heat-flow and thermal transition data for ',
+ 'academic-tga':'Mass-change and thermal stability data for ',
+ 'academic-ceramic':'Sintered ceramic specimen from ',
+ 'academic-tape':'Sintered ceramic tape from ',
+ 'academic-electrode':'Coated electrode sheet from ',
+ 'academic-coin':'Sealed research coin cell from ',
+ 'academic-cycle':'Cell cycling and performance data for ',
+ 'academic-ald':'Atomic-layer-deposited film from ',
+ 'academic-sputter':'Magnetron-sputtered film from ',
 };
+const substrateOutputModes=new Set(['metals-deposition','academic-electrode','academic-ald','academic-sputter']);
 export function matchedMaterialExample(plan:MaterialPlan,examples:MaterialExample[]){
  const example=examples.find(e=>e.example_id===plan.example_id&&e.route_id===plan.route_id);
  if(!example||normalized(example.output_label)!==normalized(plan.expected_output)||example.inputs.length!==plan.inputs.length)return null;
@@ -70,10 +89,10 @@ export function materialOutput(plan:MaterialPlan,profiles:MaterialProfile[],exam
  const shortened=(items:string[])=>{const text=items.slice(0,3).join(' + ')+(items.length>3?' + '+(items.length-3)+' more':'');return text.length>140?text.slice(0,137)+'…':text;};
  const feed=shortened(primary.length?primary:plan.inputs.filter(m=>m.role!=='substrate'&&m.role!=='gas').map(m=>m.name))||'unspecified feedstock';
  const substrate=shortened(names(['substrate']));
- const metalPrefix=metalOutputPrefixes[mode];
- if(metalPrefix&& (primary.length||substrate)){
+ const workflowPrefix=workflowOutputPrefixes[mode];
+ if(workflowPrefix&&(primary.length||substrate)){
   const subject=primary.length?shortened(primary):substrate;
-  const label=metalPrefix+subject+(mode==='metals-deposition'&&primary.length&&substrate?' on '+substrate:'');
+  const label=workflowPrefix+subject+(substrateOutputModes.has(mode)&&primary.length&&substrate?' on '+substrate:'');
   return {label,basis:'input_based' as const,detail:'Planning target from the selected material and process. Record the actual result after the run.',example:null};
  }
  const forms:Record<string,string>={particles:'Particle product from ',assembled:'Self-assembled product from ',fibers:'Fiber target from ',composite:'Composite target from ',milled:'Milled product from ',thermal:'Thermally processed product from ',growth:'Growth product from ',aerosol:'Aerosol target from ',functionalized:'Surface-modified target from ',exfoliated:'Exfoliated product from ',cycled:'Temperature-cycled '};
