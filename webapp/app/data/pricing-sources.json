@@ -243,14 +243,14 @@
     }
   ],
   "coverage": {
-    "instrument_records": 1383,
+    "instrument_records": 1384,
     "instrument_statuses": {
       "estimate_only": 38,
       "explicit_msrp": 1,
       "manufacturer_price": 186,
       "new_seller_price": 90,
       "no_purchase_price": 1004,
-      "secondary_market_only": 64
+      "secondary_market_only": 65
     },
     "component_occurrences": 260,
     "component_statuses": {

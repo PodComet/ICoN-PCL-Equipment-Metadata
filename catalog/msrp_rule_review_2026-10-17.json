@@ -10,13 +10,13 @@
     "adopted_date": "2026-10-16"
   },
   "status_counts": {
-    "no_benchmarks": 1188,
+    "no_benchmarks": 1189,
     "calculated": 124,
     "inverted_range": 70,
     "explicit_msrp": 1
   },
   "method_counts": {
-    "": 1259,
+    "": 1260,
     "category_120_80": 124
   },
   "records": [
@@ -23523,6 +23523,23 @@
       "estimated_msrp_high": "",
       "estimate_currency": "",
       "estimate_subject": "reactor_ald",
+      "estimate_method": "",
+      "estimate_status": "no_benchmarks",
+      "estimate_basis": "No qualifying MSRP/list-price benchmark found for this category or a documented older model.",
+      "estimate_confidence": "not_estimated",
+      "estimate_benchmark_ids": "",
+      "estimate_source_urls": "",
+      "estimate_checked_date": "2026-10-17"
+    },
+    {
+      "equipment_id": "CAT-WYATT-DYNAPRO-III",
+      "model_name": "DynaPro Plate Reader III",
+      "manufacturer": "Wyatt Technology",
+      "category_id": "M34",
+      "estimated_msrp_low": "",
+      "estimated_msrp_high": "",
+      "estimate_currency": "",
+      "estimate_subject": "plate_based_dls_sls",
       "estimate_method": "",
       "estimate_status": "no_benchmarks",
       "estimate_basis": "No qualifying MSRP/list-price benchmark found for this category or a documented older model.",

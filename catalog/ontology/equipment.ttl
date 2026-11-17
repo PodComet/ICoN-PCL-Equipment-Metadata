@@ -4294,6 +4294,81 @@
     schema:name "Veeco CP-II" ;
     schema:url <https://www.labx.com/item/featured/DIS-86979-491> .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-DYNAPRO-III> a icon:EquipmentModel,
+        schema:ProductModel ;
+    rdfs:label "DynaPro Plate Reader III" ;
+    dct:identifier "CAT-WYATT-DYNAPRO-III" ;
+    dct:isPartOf <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/dataset/equipment> ;
+    dct:references <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf>,
+        <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    prov:wasDerivedFrom <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment.csv> ;
+    icon:associationBasis "Capability association for DLS characterization of compatible liquid dispersions, including final samples from these routes. The sample, solvent and plate must support the documented optical method." ;
+    icon:brochure <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    icon:catalogAssociation <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27> ;
+    icon:catalogScope "manufacturer_catalog" ;
+    icon:documentation <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf> ;
+    icon:equipmentSubtype "plate_based_dls_sls" ;
+    icon:imageScope "American Laboratory Trading photograph of the exact DynaPro Plate Reader III. The label is visible. Linked source media retains supplier rights and branding." ;
+    icon:imageSource <https://americanlaboratorytrading.com/lab-equipment-products/wyatt-technology-dynapro-plate-reader-iii-20301/> ;
+    icon:inCategory <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34> ;
+    icon:inProductFamily <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/product-family/PF-wyatt-dynapro-plate-reader-iii> ;
+    icon:inputOutputProfile <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/CAT-WYATT-DYNAPRO-III> ;
+    icon:inputOutputStatus "exact_model_source_row" ;
+    icon:lifecycleStatus "newer_model_confirmed" ;
+    icon:manual <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf> ;
+    icon:manualMatchStatus "verified_operating_manual" ;
+    icon:manualScope "Model-specific Harvard CMI DLS getting-started operating guide, 8 pages, reviewed for plate handling, acquisition, analysis and shutdown. Laboratory procedures and recommended settings apply to the documented setup." ;
+    icon:manualStatus "located" ;
+    icon:manufacturer <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology> ;
+    icon:mediaCheckedDate "2026-11-17" ;
+    icon:modelEvidenceStatus "documented_commercial_model" ;
+    icon:modelEvidenceURL <https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii> ;
+    icon:modelStatus "documented" ;
+    icon:modelVariantID "CAT-WYATT-DYNAPRO-III" ;
+    icon:notes "DLS and SLS microplate analyzer for liquid dispersions. Capacity is 96, 384 or 1536 wells. The 4 µL minimum is a sample-dependent 1536-well specification. DLS reports hydrodynamic radius. SLS mass interpretation requires appropriate calibration and concentration data. Supplier offers describe used configurations with different software versions. A newer DynaPro Plate Reader 4 generation is listed by Wyatt." ;
+    icon:photo <https://d2b3o1qijggx1c.cloudfront.net/full-version-images/IMG_E8734.jpg> ;
+    icon:priceQuote <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/price-quote/SELL-WYATT261117-WPR3-01>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/price-quote/SELL-WYATT261117-WPR3-02> ;
+    icon:priceStatus "seller_price_available" ;
+    icon:productPage <https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html> ;
+    icon:productPageScope "Current DynaPro plate-reader family page. Exact III-generation specifications are in the linked W3400C brochure." ;
+    icon:recordKind "commercial_model" ;
+    icon:relatedMaterialTypes "Metal nanoparticles;Metal-oxide nanoparticles;Silica nanoparticles;Semiconductor nanocrystals;Polymeric nanoparticles;Lipid nanoparticles and liposomes;Carbon nanomaterials" ;
+    icon:relatedProcessTypes "Microemulsion / reverse-micelle synthesis;Surface modification and functionalization;Nanoscale self-assembly;Biological / biosystem-assisted synthesis;Microfluidic nanoprecipitation of polymeric nanoparticles" ;
+    icon:reviewDate "2026-11-17" ;
+    icon:successorCheckedDate "2026-11-17" ;
+    icon:successorEvidenceUrl <https://www.wyatt.com/support/firmware-updates.html> ;
+    icon:successorModelName "DynaPro Plate Reader 4" ;
+    icon:successorProductUrl <https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html> ;
+    icon:successorRelationship "newer_generation" ;
+    icon:successorScope "The official firmware table lists Plate Reader III under Previous Instrument Models and Plate Reader 4 under Current Instrument Models." ;
+    icon:supportedBy <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/CAT-EV-WYATT-DYNAPROIII-20261117>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/IMG-EV-WYATT-DYNAPROIII-20261117>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/PRICE-EV-SELL-WYATT261117-WPR3-01>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/PRICE-EV-SELL-WYATT261117-WPR3-02> ;
+    icon:technicalSpecification <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    icon:variantLabel "DynaPro Plate Reader III" ;
+    schema:additionalProperty <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Ainputs_and_states>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Aoutputs_and_states>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Aunits_of_measure> ;
+    schema:category <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34> ;
+    schema:image <https://d2b3o1qijggx1c.cloudfront.net/full-version-images/IMG_E8734.jpg> ;
+    schema:manufacturer <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology> ;
+    schema:model "DynaPro Plate Reader III" ;
+    schema:name "DynaPro Plate Reader III" ;
+    schema:url <https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html> .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG101> a icon:EquipmentModel,
         schema:ProductModel ;
     rdfs:label "EVG101" ;
@@ -69102,6 +69177,24 @@ Sources: I product/specification text.""" .
     schema:value """µm (size/displacement); mm (travel/size)
 Source: I, document text.""" .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Ainputs_and_states> a schema:PropertyValue ;
+    prov:wasDerivedFrom <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/CAT-WYATT-DYNAPRO-III> ;
+    schema:name "Input and input states" ;
+    schema:propertyID "inputs_and_states" ;
+    schema:value "Liquid nanoparticle or macromolecule dispersions in a supported optical-bottom 96-, 384- or 1536-well plate. Select wells, plate type, replicates, acquisition duration, laser attenuation and temperature method in DYNAMICS. Supply solvent properties and concentration/calibration data for the chosen analysis. Electrical power and an Ethernet-connected computer support acquisition. A dry nitrogen purge supports low-temperature operation." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Aoutputs_and_states> a schema:PropertyValue ;
+    prov:wasDerivedFrom <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/CAT-WYATT-DYNAPRO-III> ;
+    schema:name "Output and output states" ;
+    schema:propertyID "outputs_and_states" ;
+    schema:value "Scattered-light correlation and size-distribution data with hydrodynamic radius and polydispersity. SLS analysis can report molar mass with suitable concentration and calibration data. Records include temperature, well images and exported results. The sample remains in the plate after optical measurement." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/CAT-WYATT-DYNAPRO-III%3Aunits_of_measure> a schema:PropertyValue ;
+    prov:wasDerivedFrom <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/CAT-WYATT-DYNAPRO-III> ;
+    schema:name "Measuring units" ;
+    schema:propertyID "units_of_measure" ;
+    schema:value "nm (hydrodynamic radius, 0.5–1,000 nm), Da or kDa (SLS molar mass, 1–1,000 kDa), °C (temperature, 4–85 °C under the specified conditions), s (acquisition time), µL (sample volume), mg/mL or µg/mL (sample concentration), % (laser power and relative size distributions)." .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-property/EVG261018-EVG101%3Ainputs_and_states> a schema:PropertyValue ;
     prov:wasDerivedFrom <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/EVG261018-EVG101> ;
     schema:name "Input and input states" ;
@@ -97058,6 +97151,36 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:checkedDate "2026-10-18" ;
     icon:sourceLocator "Official model Features/Technical Data; configuration-specific flyer when linked" .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A1> a prov:Entity ;
+    dct:title "Wyatt W3400C brochure, institution-hosted" ;
+    prov:hadPrimarySource <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Specifications, PDF p. 8" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A2> a prov:Entity ;
+    dct:title "Harvard CMI DLS getting-started guide" ;
+    prov:hadPrimarySource <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Instrument overview and sample preparation, pp. 1–2. Acquisition and analysis, pp. 3–6" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A3> a prov:Entity ;
+    dct:title "Harvard CMI SLS getting-started guide" ;
+    prov:hadPrimarySource <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20SLS%20Getting%20Started%20Guide.pdf> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "SLS calibration and concentration requirements" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A4> a prov:Entity ;
+    dct:title "SLAC equipment directory" ;
+    prov:hadPrimarySource <https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Exact model listing" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A5> a prov:Entity ;
+    dct:title "Wyatt firmware table" ;
+    prov:hadPrimarySource <https://www.wyatt.com/support/firmware-updates.html> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Current and previous instrument models" .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/IMG-EV-00E5D3EB5B557429%3A1> a prov:Entity ;
     dct:title "American Instrument Exchange via LabX" ;
     prov:hadPrimarySource <https://www.labx.com/item/sp-scientific-virtis-benchtop-pro-freeze-dryer/DIS-40039-SKU2233NF-DRY> ;
@@ -98000,6 +98123,12 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:checkedDate "2026-11-15" ;
     icon:sourceLocator "Product, lab equipment entry or seller photograph" .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/IMG-EV-WYATT-DYNAPROIII-20261117%3A1> a prov:Entity ;
+    dct:title "American Laboratory Trading product gallery" ;
+    prov:hadPrimarySource <https://americanlaboratorytrading.com/lab-equipment-products/wyatt-technology-dynapro-plate-reader-iii-20301/> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Image IMG_E8734.jpg and model label" .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/PRICE-EV-01D81D0B4F698B84%3A1> a prov:Entity ;
     dct:title "Fiji 200 ALD asking price" ;
     prov:hadPrimarySource <https://www.iciequipment.com/buy/c2l721ofqzs8t86mftplib4anv7gcc> ;
@@ -98599,6 +98728,18 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     prov:hadPrimarySource <https://labrulez.com/en-us/all/marketplace/1109> ;
     icon:checkedDate "2026-10-18" ;
     icon:sourceLocator "Purchase price, condition/year/warranty and operational exclusion; extracted lines 47-108." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/PRICE-EV-SELL-WYATT261117-WPR3-01%3A1> a prov:Entity ;
+    dct:title "PNW Scientific exact product offer" ;
+    prov:hadPrimarySource <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-4> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Product description and USD InStock structured offer" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/PRICE-EV-SELL-WYATT261117-WPR3-02%3A1> a prov:Entity ;
+    dct:title "PNW Scientific exact product offer" ;
+    prov:hadPrimarySource <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-02> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:sourceLocator "Product description and USD InStock structured offer" .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/TC-M01%3A1> a prov:Entity ;
     dct:title "Thermocycler Module: Product Specifications" ;
@@ -99444,6 +99585,25 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:claim "EVG identifies LITHOSCALE in its official product documentation." ;
     icon:classification "curator_reviewed_catalog" ;
     icon:scope "Manufacturer-named model/configuration; P06/P42 links are curator functional planning associations. No claim of use in the cited article, validated material properties, recipe compatibility or installed options. Maskless optical exposure using MLE digital patterning and solid-state light source; wafers up to300mm; stated feature capability≤2µm." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/CAT-EV-WYATT-DYNAPROIII-20261117> a prov:Entity,
+        icon:SourceEvidence ;
+    rdfs:label "Model-specific brochure and operating guides describe microplate DLS/SLS analysis, hydrodynamic radius 0.5–1,000 nm and the stated temperature and mass ranges." ;
+    dct:identifier "CAT-EV-WYATT-DYNAPROIII-20261117" ;
+    dct:source <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A1>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A2>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A3>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A4>,
+        <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/CAT-EV-WYATT-DYNAPROIII-20261117%3A5> ;
+    prov:wasDerivedFrom <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf>,
+        <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20SLS%20Getting%20Started%20Guide.pdf>,
+        <https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii>,
+        <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv>,
+        <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf>,
+        <https://www.wyatt.com/support/firmware-updates.html> ;
+    icon:claim "Model-specific brochure and operating guides describe microplate DLS/SLS analysis, hydrodynamic radius 0.5–1,000 nm and the stated temperature and mass ranges." ;
+    icon:classification "curator_reviewed_catalog" ;
+    icon:scope "Published model capabilities and institution-authored operating guidance. Settings and optical suitability remain sample dependent." .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/IMG-EV-00E5D3EB5B557429> a prov:Entity,
         icon:SourceEvidence ;
@@ -101163,6 +101323,17 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:classification "curator_reviewed_media" ;
     icon:scope "The BioLogic BCS-8XX photo shows the BCS-805, BCS-810 and BCS-815 side by side." .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/IMG-EV-WYATT-DYNAPROIII-20261117> a prov:Entity,
+        icon:SourceEvidence ;
+    rdfs:label "The source gallery photograph shows the Plate Reader III model label." ;
+    dct:identifier "IMG-EV-WYATT-DYNAPROIII-20261117" ;
+    dct:source <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/IMG-EV-WYATT-DYNAPROIII-20261117%3A1> ;
+    prov:wasDerivedFrom <https://americanlaboratorytrading.com/lab-equipment-products/wyatt-technology-dynapro-plate-reader-iii-20301/>,
+        <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv> ;
+    icon:claim "The source gallery photograph shows the Plate Reader III model label." ;
+    icon:classification "curator_reviewed_media" ;
+    icon:scope "American Laboratory Trading photograph of the exact DynaPro Plate Reader III. The label is visible. Linked source media retains supplier rights and branding." .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/PRICE-EV-01D81D0B4F698B84> a prov:Entity,
         icon:SourceEvidence ;
     rdfs:label "ICI Equipment publishes USD 137500 for this configuration." ;
@@ -102127,6 +102298,28 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:claim "LabRulez publishes EUR 8500 for Agilent Cary 60 (asking_price; refurbished)." ;
     icon:classification "curator_reviewed_price" ;
     icon:scope "2016 G6860A Cary 60 UV-Vis instrument, refurbished, 3-month warranty. External computer and Cary WinUV software explicitly excluded. EUR 200 delivery additional, before VAT. Used/refurbished comparison only; do not feed into new capital price estimates." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/PRICE-EV-SELL-WYATT261117-WPR3-01> a prov:Entity,
+        icon:SourceEvidence ;
+    rdfs:label "PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 42000." ;
+    dct:identifier "PRICE-EV-SELL-WYATT261117-WPR3-01" ;
+    dct:source <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/PRICE-EV-SELL-WYATT261117-WPR3-01%3A1> ;
+    prov:wasDerivedFrom <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-4>,
+        <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv> ;
+    icon:claim "PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 42000." ;
+    icon:classification "curator_reviewed_price" ;
+    icon:scope "Used WPR3-01 configuration, seller SKU WPR3-01-U-492, with laptop and activated DYNAMICS 7.8.1.3, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/PRICE-EV-SELL-WYATT261117-WPR3-02> a prov:Entity,
+        icon:SourceEvidence ;
+    rdfs:label "PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 49000." ;
+    dct:identifier "PRICE-EV-SELL-WYATT261117-WPR3-02" ;
+    dct:source <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence-source/PRICE-EV-SELL-WYATT261117-WPR3-02%3A1> ;
+    prov:wasDerivedFrom <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-02>,
+        <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv> ;
+    icon:claim "PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 49000." ;
+    icon:classification "curator_reviewed_price" ;
+    icon:scope "Used WPR3-02 configuration, seller SKU WPR3-02-U-983, with laptop and activated DYNAMICS 8.0.0.89, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation." .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/evidence/TC-M01> a prov:Entity,
         icon:SourceEvidence ;
@@ -109061,6 +109254,36 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     schema:price 1881.00 ;
     schema:priceCurrency "USD" .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/price-quote/SELL-WYATT261117-WPR3-01> a icon:PriceQuote,
+        schema:PriceSpecification ;
+    rdfs:label "asking_price" ;
+    dct:description "Used WPR3-01 configuration, seller SKU WPR3-01-U-492, with laptop and activated DYNAMICS 7.8.1.3, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation." ;
+    dct:identifier "SELL-WYATT261117-WPR3-01" ;
+    prov:wasDerivedFrom <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-4> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:condition "used" ;
+    icon:originalCurrency "USD" ;
+    icon:originalPrice 42000.0 ;
+    icon:priceKind "asking_price" ;
+    icon:sellerName "PNW Scientific" ;
+    schema:price 42000.00 ;
+    schema:priceCurrency "USD" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/price-quote/SELL-WYATT261117-WPR3-02> a icon:PriceQuote,
+        schema:PriceSpecification ;
+    rdfs:label "asking_price" ;
+    dct:description "Used WPR3-02 configuration, seller SKU WPR3-02-U-983, with laptop and activated DYNAMICS 8.0.0.89, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation." ;
+    dct:identifier "SELL-WYATT261117-WPR3-02" ;
+    prov:wasDerivedFrom <https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-02> ;
+    icon:checkedDate "2026-11-17" ;
+    icon:condition "used" ;
+    icon:originalCurrency "USD" ;
+    icon:originalPrice 49000.0 ;
+    icon:priceKind "asking_price" ;
+    icon:sellerName "PNW Scientific" ;
+    schema:price 49000.00 ;
+    schema:priceCurrency "USD" .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/price-quote/SELLER-002E0A00A56B> a icon:PriceQuote,
         schema:PriceSpecification ;
     rdfs:label "published_price" ;
@@ -110330,6 +110553,12 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     prov:wasDerivedFrom <https://pmc.ncbi.nlm.nih.gov/articles/PMC5206629/> ;
     icon:groupingBasis "One source-bound model or explicitly unspecified series; no distinct submodels collapsed." .
 
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/product-family/PF-wyatt-dynapro-plate-reader-iii> a icon:ProductFamily ;
+    rdfs:label "Wyatt Technology DynaPro Plate Reader III" ;
+    dct:identifier "PF-wyatt-dynapro-plate-reader-iii" ;
+    prov:wasDerivedFrom <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    icon:groupingBasis "One exact III-generation model profile. Seller hardware revisions and software versions are specified on their individual offers." .
+
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P13> a skos:Concept,
         icon:ManufacturingProcess,
         icon:Route ;
@@ -110374,17 +110603,17 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
 
 <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/currency_reference_rates.json> icon:sha256LFNormalized "14029720f175255c0ed3f9c192fe133a9bf9a5f90c251f2d17018a818484c442" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment_msrp_estimates.csv> icon:sha256LFNormalized "a30ba390457ced90ef066939b9c46c4d01eb8d2ffc10c2987f939f71942f17da" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment_msrp_estimates.csv> icon:sha256LFNormalized "1ccbd88902f6b3b436dc4758a53f4a3fa1211c9df36f2bb32d566fb46666ba8e" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/manufacturers.csv> icon:sha256LFNormalized "6b071e100dca4afe32abe65044423c40b52715d1f9b94dd5fb30d27774db9f65" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/manufacturers.csv> icon:sha256LFNormalized "151e484b480bd41d459230773e00cb8c27a88e891b4b6941cf3371fb11baa272" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/model_lifecycle.csv> icon:sha256LFNormalized "e237000c3148d6681520ad4bf242d1d49a339a03586cc847e745283302ccb46f" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/model_lifecycle.csv> icon:sha256LFNormalized "197a8fa550e312aaf94a3f460f1d9792869639e111b44f8a512801774ca0fabe" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/product_families.csv> icon:sha256LFNormalized "01ecd49190c312b68261ff69651168f6f385838e07b9e6bb21224c007d85c3b3" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/product_families.csv> icon:sha256LFNormalized "59cc5758220edb50b01c0c12101c9966cc72dfe3bcbc39ec97ca487372a92395" .
 
 <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/routes.csv> icon:sha256LFNormalized "0c8eb08b0077ed15576dba39b0bf6b74c67009ac580e2d68edbfa3932d958b46" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/seller_offers.csv> icon:sha256LFNormalized "4b489eee83e4e3b901e762ce486978c197889f90bd2cf286c80d0e5148e3fb5e" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/seller_offers.csv> icon:sha256LFNormalized "2955f87095825584ce24b01e08b5d03cdcf3fcd939e512cdae58cc8484ebe049" .
 
 <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/supplemental_categories.csv> icon:sha256LFNormalized "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6" .
 
@@ -111623,6 +111852,18 @@ Source: Manuals/158600 Nicolet 8700 USB Users Guide.pdf, PDF pp. 15, 21, 65, 72.
     icon:reviewDate "2026-10-16" ;
     icon:verificationBasis "reported_in_primary_literature" ;
     icon:verificationNotes "Manufacturer string reported by the cited primary methods; official brand identity/current web presence not independently verified in this academic pass." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology> a icon:Manufacturer,
+        schema:Organization ;
+    rdfs:label "Wyatt Technology" ;
+    dct:identifier "wyatttechnology" ;
+    icon:brandIdentityStatus "verified_manufacturer" ;
+    icon:researchEvidenceURL <https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii> ;
+    icon:researchUseStatus "documented_research_use" ;
+    icon:reviewDate "2026-11-17" ;
+    icon:verificationBasis "manufacturer_and_institutional_documentation" ;
+    icon:verificationNotes "Official Waters | Wyatt support documents identify the company and model. SLAC and Harvard CMI independently document research use of this exact model." ;
+    schema:url <https://www.wyatt.com/> .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/yamato> a icon:Manufacturer,
         schema:Organization ;
@@ -113013,6 +113254,18 @@ Sources: I product/specification text.""" ;
     icon:sourceRow "1078" ;
     icon:sourceSha256 "c22c4681926fb5b28876a7db7c55d9e527e4ad9fada4ab8774b9aa2b9538bcab" ;
     icon:sourceSheet "Sheet1" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/CAT-WYATT-DYNAPRO-III> a icon:InputOutputProfile ;
+    rdfs:label "DynaPro Plate Reader III — input/output metadata" ;
+    dct:identifier "CAT-WYATT-DYNAPRO-III" ;
+    dct:references <https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf>,
+        <https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf> ;
+    prov:wasDerivedFrom <https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment_io.csv> ;
+    icon:importedDate "2026-11-17" ;
+    icon:inputDescription "Liquid nanoparticle or macromolecule dispersions in a supported optical-bottom 96-, 384- or 1536-well plate. Select wells, plate type, replicates, acquisition duration, laser attenuation and temperature method in DYNAMICS. Supply solvent properties and concentration/calibration data for the chosen analysis. Electrical power and an Ethernet-connected computer support acquisition. A dry nitrogen purge supports low-temperature operation." ;
+    icon:measuringUnitsDescription "nm (hydrodynamic radius, 0.5–1,000 nm), Da or kDa (SLS molar mass, 1–1,000 kDa), °C (temperature, 4–85 °C under the specified conditions), s (acquisition time), µL (sample volume), mg/mL or µg/mL (sample concentration), % (laser power and relative size distributions)." ;
+    icon:outputDescription "Scattered-light correlation and size-distribution data with hydrodynamic radius and polydispersity. SLS analysis can report molar mass with suitable concentration and calibration data. Records include temperature, well images and exported results. The sample remains in the plate after optical measurement." ;
+    icon:sourceModel "DynaPro Plate Reader III" .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment-io/EVG261018-EVG101> a icon:InputOutputProfile ;
     rdfs:label "EVG101 — input/output metadata" ;
@@ -137061,14 +137314,6 @@ Sources: H product/specification text.""" ;
     icon:verificationNotes "Columbia Nano Initiative lists SUSS MA6 mask aligner and operating procedure. Official manufacturer/brand product web presence checked through retrieved page or published official documentation. This is brand-level evidence; it does not verify every listed model, current availability, or common adoption." ;
     schema:url <https://www.suss.com/en> .
 
-<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27> a skos:Concept,
-        icon:ManufacturingProcess,
-        icon:Route ;
-    rdfs:label "Microfluidic nanoprecipitation of polymeric nanoparticles" ;
-    dct:identifier "P27" ;
-    skos:notation "P27" ;
-    icon:associationBasis "Reviewed methods of 10.1039/d4dd00104d. Conceptual sequence only; unnamed equipment stays class-level. Exact named hardware claims use the inspected version; unreported stirrer and sonicator types are not guessed. Curator-added M82–M88 planning alternatives are distinguished from the article-reported apparatus; exact-model compatibility is not established." .
-
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P51> a skos:Concept,
         icon:ManufacturingProcess,
         icon:Route ;
@@ -137076,6 +137321,14 @@ Sources: H product/specification text.""" ;
     dct:identifier "P51" ;
     skos:notation "P51" ;
     icon:associationBasis "Conceptual route based on the published capability. Expected output or record: Sintered metal part. Source-linked planning association. Check the exact alloy, configuration, work envelope and quality requirements for each job." .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27> a skos:Concept,
+        icon:ManufacturingProcess,
+        icon:Route ;
+    rdfs:label "Microfluidic nanoprecipitation of polymeric nanoparticles" ;
+    dct:identifier "P27" ;
+    skos:notation "P27" ;
+    icon:associationBasis "Reviewed methods of 10.1039/d4dd00104d. Conceptual sequence only; unnamed equipment stays class-level. Exact named hardware claims use the inspected version; unreported stirrer and sonicator types are not guessed. Curator-added M82–M88 planning alternatives are distinguished from the article-reported apparatus; exact-model compatibility is not established." .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P47> a skos:Concept,
         icon:ManufacturingProcess,
@@ -137844,12 +138097,6 @@ icon:MaterialFamily a owl:Class ;
     dct:identifier "M33" ;
     skos:notation "M33" .
 
-<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34> a skos:Concept,
-        icon:EquipmentCategory ;
-    rdfs:label "DLS / electrophoretic light-scattering analyzer" ;
-    dct:identifier "M34" ;
-    skos:notation "M34" .
-
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M43> a skos:Concept,
         icon:EquipmentCategory ;
     rdfs:label "Liposome membrane extruder" ;
@@ -137991,6 +138238,12 @@ icon:MaterialFamily a owl:Class ;
     rdfs:label "Inert-atmosphere glovebox" ;
     dct:identifier "M28" ;
     skos:notation "M28" .
+
+<https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34> a skos:Concept,
+        icon:EquipmentCategory ;
+    rdfs:label "DLS / electrophoretic light-scattering analyzer" ;
+    dct:identifier "M34" ;
+    skos:notation "M34" .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M40> a skos:Concept,
         icon:EquipmentCategory ;
@@ -138664,7 +138917,7 @@ icon:EquipmentCategory a owl:Class ;
 icon:SourceEvidence a owl:Class ;
     rdfs:label "Source Evidence" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv> icon:sha256LFNormalized "e384f8475b6d2c80e91853cad1f899804daa119035ee2826870dad642e0c148a" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/evidence_registry.csv> icon:sha256LFNormalized "9b52c5db22a18ac28934c4d0d6645b2f1832152911862efcc23e2f6172239cb6" .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N08> a skos:Concept,
         icon:MaterialFamily,
@@ -138739,14 +138992,14 @@ icon:PriceQuote a owl:Class ;
 icon:InputOutputProfile a owl:Class ;
     rdfs:label "Input Output Profile" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment_io.csv> icon:sha256LFNormalized "fb2900da09425c3ed0fcb3d8e56e2279f0548536e0164f7edc61299e7e10fea1" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment_io.csv> icon:sha256LFNormalized "717f57106e21df477a3952e48b30af4916571e6884f0e8defa5dd5cf66d291b8" .
 
 <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/dataset/equipment> a dcat:Dataset ;
     rdfs:label "ICoN-PCL Nanomaterial Equipment Ontology — equipment records" ;
     dct:conformsTo <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/blob/main/catalog/metadata-profile.json> ;
     dct:description "One resource per catalog equipment ID, representing a model or category-context record, not a count of physical assets. Variants and repeated model contexts are retained. Catalog process/material associations do not establish exact-model suitability. Input/output and unit descriptions preserve source text; they are not parsed into an executable control interface. Prices are dated source quotes or explicitly labeled estimates, not live offers. No private inventory, serial numbers, saved workflows or source document files are included." ;
     dct:identifier "equipment" ;
-    dct:issued "2026-11-15"^^xsd:date ;
+    dct:issued "2026-11-17"^^xsd:date ;
     dct:rights "Code license is in the repository LICENSE. Linked third-party manuals, photographs and source material retain their own rights; this export does not relicense them." ;
     dcat:distribution <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/distribution/equipment.rdf>,
         <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/distribution/equipment.ttl> ;
@@ -138766,5 +139019,5 @@ icon:InputOutputProfile a owl:Class ;
 icon:EquipmentModel a owl:Class ;
     rdfs:label "Equipment Model" .
 
-<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment.csv> icon:sha256LFNormalized "7d8668e2eb0646f392ff45ec53890e61bc400af77991e8cc55424856ff7fdc8e" .
+<https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/equipment.csv> icon:sha256LFNormalized "2d054d78c36a22ba80ab99103385a528dd7529e45513c5f657602d6a567e0c5b" .
 

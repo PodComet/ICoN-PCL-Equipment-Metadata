@@ -6985,6 +6985,70 @@
         },
         "green_star_changed": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "CAT-EV-WYATT-DYNAPROIII-20261117",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_catalog",
+      "title": "DynaPro Plate Reader III specifications and operating interface",
+      "claim": "Model-specific brochure and operating guides describe microplate DLS/SLS analysis, hydrodynamic radius 0.5–1,000 nm and the stated temperature and mass ranges.",
+      "scope": "Published model capabilities and institution-authored operating guidance. Settings and optical suitability remain sample dependent.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "title": "Wyatt W3400C brochure, institution-hosted",
+          "url": "https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf",
+          "locator": "Specifications, PDF p. 8",
+          "checked_date": "2026-11-17"
+        },
+        {
+          "title": "Harvard CMI DLS getting-started guide",
+          "url": "https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf",
+          "locator": "Instrument overview and sample preparation, pp. 1–2. Acquisition and analysis, pp. 3–6",
+          "checked_date": "2026-11-17"
+        },
+        {
+          "title": "Harvard CMI SLS getting-started guide",
+          "url": "https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20SLS%20Getting%20Started%20Guide.pdf",
+          "locator": "SLS calibration and concentration requirements",
+          "checked_date": "2026-11-17"
+        },
+        {
+          "title": "SLAC equipment directory",
+          "url": "https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii",
+          "locator": "Exact model listing",
+          "checked_date": "2026-11-17"
+        },
+        {
+          "title": "Wyatt firmware table",
+          "url": "https://www.wyatt.com/support/firmware-updates.html",
+          "locator": "Current and previous instrument models",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-DYNAPRO-III",
+          "label": "Wyatt Technology DynaPro Plate Reader III"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-DYNAPRO-III",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro Plate Reader III",
+        "inputs_and_states": "Liquid nanoparticle or macromolecule dispersions in a supported optical-bottom 96-, 384- or 1536-well plate. Select wells, plate type, replicates, acquisition duration, laser attenuation and temperature method in DYNAMICS. Supply solvent properties and concentration/calibration data for the chosen analysis. Electrical power and an Ethernet-connected computer support acquisition. A dry nitrogen purge supports low-temperature operation.",
+        "outputs_and_states": "Scattered-light correlation and size-distribution data with hydrodynamic radius and polydispersity. SLS analysis can report molar mass with suitable concentration and calibration data. Records include temperature, well images and exported results. The sample remains in the plate after optical measurement.",
+        "units_of_measure": "nm (hydrodynamic radius, 0.5–1,000 nm), Da or kDa (SLS molar mass, 1–1,000 kDa), °C (temperature, 4–85 °C under the specified conditions), s (acquisition time), µL (sample volume), mg/mL or µg/mL (sample concentration), % (laser power and relative size distributions)."
+      }
     }
   ]
 }

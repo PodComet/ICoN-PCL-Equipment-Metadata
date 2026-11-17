@@ -18,6 +18,10 @@ def read(name):
         return quotes_at_checkpoint(ROOT,rows,'2026-10-19')
     if name=='seller_offers':
         return [r for r in rows if r['checked_date'] <= '2026-10-19']
+    if name=='product_families':
+        return [r for r in rows if r['review_date'] <= '2026-10-19']
+    if name=='model_lifecycle':
+        return [r for r in rows if r['successor_checked_date'] <= '2026-10-19']
     return rows
 def review(): return json.loads((ROOT/'catalog/labx_catalog_review_2026-10-19.json').read_text(encoding='utf-8'))
 def digest(v): return hashlib.sha256(json.dumps(v,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()

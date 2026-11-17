@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-1071 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+1075 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -1282,6 +1282,23 @@ Theris documents hardware within the Broad-beam RF ion sources capability class.
 - Source: [M111 / Broad-beam RF ion sources](https://therisnano.com/tas-rf-ion-sources/) — Named product/technical description; brochure page references in context
 
 **Related records:** `M111` (equipment_class)
+
+
+## CAT-EV-WYATT-DYNAPROIII-20261117
+
+Model-specific brochure and operating guides describe microplate DLS/SLS analysis, hydrodynamic radius 0.5–1,000 nm and the stated temperature and mass ranges.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Published model capabilities and institution-authored operating guidance. Settings and optical suitability remain sample dependent.
+
+- Source: [Wyatt W3400C brochure, institution-hosted](https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf) — Specifications, PDF p. 8
+- Source: [Harvard CMI DLS getting-started guide](https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf) — Instrument overview and sample preparation, pp. 1–2. Acquisition and analysis, pp. 3–6
+- Source: [Harvard CMI SLS getting-started guide](https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20SLS%20Getting%20Started%20Guide.pdf) — SLS calibration and concentration requirements
+- Source: [SLAC equipment directory](https://lcls.slac.stanford.edu/equipment/wyatt-technology-dynapror-plate-reader-iii) — Exact model listing
+- Source: [Wyatt firmware table](https://www.wyatt.com/support/firmware-updates.html) — Current and previous instrument models
+
+**Related records:** `CAT-WYATT-DYNAPRO-III` (equipment), `M34` (equipment_class)
 
 
 ## EV-P01-25E85E64C6F720EF
@@ -7820,6 +7837,19 @@ The linked source presents this equipment photograph.
 **Related records:** `ACAD-M143-04` (equipment), `M143` (equipment_class)
 
 
+## IMG-EV-WYATT-DYNAPROIII-20261117
+
+The source gallery photograph shows the Plate Reader III model label.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** American Laboratory Trading photograph of the exact DynaPro Plate Reader III. The label is visible. Linked source media retains supplier rights and branding.
+
+- Source: [American Laboratory Trading product gallery](https://americanlaboratorytrading.com/lab-equipment-products/wyatt-technology-dynapro-plate-reader-iii-20301/) — Image IMG_E8734.jpg and model label
+
+**Related records:** `CAT-WYATT-DYNAPRO-III` (equipment), `M34` (equipment_class)
+
+
 ## PRICE-EV-0004D012C741ECB9
 
 MSE Supplies publishes USD 51.95 for MSE PRO 5N (99.999%) Aluminum (Al) Pellets Evaporation Materials, SKU TA0780, pack 50 g (published_price; new).
@@ -14231,6 +14261,32 @@ US Research Nanomaterials, Inc. publishes USD 980.0 for US Nano US7905 graphene,
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/11386) — Exact previously curated form/size option: 30ml/30g (add $980). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-101A1F3126934CDF` (component_offer), `usnano-us7905-graphene-water1pct` (component)
+
+
+## PRICE-EV-SELL-WYATT261117-WPR3-01
+
+PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 42000.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Used WPR3-01 configuration, seller SKU WPR3-01-U-492, with laptop and activated DYNAMICS 7.8.1.3, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation.
+
+- Source: [PNW Scientific exact product offer](https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-4) — Product description and USD InStock structured offer
+
+**Related records:** `CAT-WYATT-DYNAPRO-III` (equipment), `M34` (equipment_class), `SELL-WYATT261117-WPR3-01` (seller_offer)
+
+
+## PRICE-EV-SELL-WYATT261117-WPR3-02
+
+PNW Scientific advertises a used DynaPro Plate Reader III configuration at USD 49000.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Used WPR3-02 configuration, seller SKU WPR3-02-U-983, with laptop and activated DYNAMICS 8.0.0.89, specified plate inserts and purge connector. The seller excludes the security option. Price covers the listed package. Freight, tax, installation, and any software transfer or service arrangements require confirmation.
+
+- Source: [PNW Scientific exact product offer](https://pnwscientific.com/products/wyatt-dls-dynamic-light-scattering-dynapro-platereader-iii-wpr3-02) — Product description and USD InStock structured offer
+
+**Related records:** `CAT-WYATT-DYNAPRO-III` (equipment), `M34` (equipment_class), `SELL-WYATT261117-WPR3-02` (seller_offer)
 
 
 ## TC-M01

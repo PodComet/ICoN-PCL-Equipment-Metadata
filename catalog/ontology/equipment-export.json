@@ -1,8 +1,8 @@
 {
   "schema": "iconpcl-equipment-rdf-export/v1",
-  "snapshot_date": "2026-11-15",
-  "equipment_records": 1383,
-  "equipment_with_io": 1373,
+  "snapshot_date": "2026-11-17",
+  "equipment_records": 1384,
+  "equipment_with_io": 1374,
   "equipment_without_io": [
     "EXT-M70-OPENTRONS-GEN1",
     "LIT-M15-GOMES2021",
@@ -15,30 +15,30 @@
     "M58-04",
     "UCLA-HF-PROBE-SETUP"
   ],
-  "rdf_triples": 121938,
+  "rdf_triples": 122170,
   "scope": "One resource per catalog equipment ID, representing a model or category-context record, not a count of physical assets. Variants and repeated model contexts are retained. Catalog process/material associations do not establish exact-model suitability. Input/output and unit descriptions preserve source text; they are not parsed into an executable control interface. Prices are dated source quotes or explicitly labeled estimates, not live offers. No private inventory, serial numbers, saved workflows or source document files are included.",
-  "price_quotes": 352,
+  "price_quotes": 354,
   "price_estimates": 124,
-  "direct_equipment_evidence_records": 309,
+  "direct_equipment_evidence_records": 313,
   "input_hash_policy": "SHA-256 after CRLF to LF normalization; original source-document hashes remain as recorded.",
   "input_sha256": {
-    "equipment.csv": "7d8668e2eb0646f392ff45ec53890e61bc400af77991e8cc55424856ff7fdc8e",
-    "equipment_io.csv": "fb2900da09425c3ed0fcb3d8e56e2279f0548536e0164f7edc61299e7e10fea1",
+    "equipment.csv": "2d054d78c36a22ba80ab99103385a528dd7529e45513c5f657602d6a567e0c5b",
+    "equipment_io.csv": "717f57106e21df477a3952e48b30af4916571e6884f0e8defa5dd5cf66d291b8",
     "categories.csv": "9091b08f30a6ab1d65c0c16907ea4ee94f6020ce905ff6256ebb583e916baa17",
     "supplemental_categories.csv": "af3923577c6f9628ebfb8647cae259011d50b12b622a43c8b7b90ec6dbd449c6",
     "routes.csv": "0c8eb08b0077ed15576dba39b0bf6b74c67009ac580e2d68edbfa3932d958b46",
-    "manufacturers.csv": "6b071e100dca4afe32abe65044423c40b52715d1f9b94dd5fb30d27774db9f65",
-    "product_families.csv": "01ecd49190c312b68261ff69651168f6f385838e07b9e6bb21224c007d85c3b3",
-    "model_lifecycle.csv": "e237000c3148d6681520ad4bf242d1d49a339a03586cc847e745283302ccb46f",
-    "equipment_msrp_estimates.csv": "a30ba390457ced90ef066939b9c46c4d01eb8d2ffc10c2987f939f71942f17da",
-    "seller_offers.csv": "4b489eee83e4e3b901e762ce486978c197889f90bd2cf286c80d0e5148e3fb5e",
-    "evidence_registry.csv": "e384f8475b6d2c80e91853cad1f899804daa119035ee2826870dad642e0c148a",
+    "manufacturers.csv": "151e484b480bd41d459230773e00cb8c27a88e891b4b6941cf3371fb11baa272",
+    "product_families.csv": "59cc5758220edb50b01c0c12101c9966cc72dfe3bcbc39ec97ca487372a92395",
+    "model_lifecycle.csv": "197a8fa550e312aaf94a3f460f1d9792869639e111b44f8a512801774ca0fabe",
+    "equipment_msrp_estimates.csv": "1ccbd88902f6b3b436dc4758a53f4a3fa1211c9df36f2bb32d566fb46666ba8e",
+    "seller_offers.csv": "2955f87095825584ce24b01e08b5d03cdcf3fcd939e512cdae58cc8484ebe049",
+    "evidence_registry.csv": "9b52c5db22a18ac28934c4d0d6645b2f1832152911862efcc23e2f6172239cb6",
     "currency_reference_rates.json": "14029720f175255c0ed3f9c192fe133a9bf9a5f90c251f2d17018a818484c442"
   },
   "files": {
     "equipment.ttl": {
-      "bytes": 11272678,
-      "sha256": "911c362965f12719096d6ec1275af15ca9cb89d7f990f34f39a700945484162b",
+      "bytes": 11296197,
+      "sha256": "383ffbc577fccfaf9488addbae5518542ec97b4bbeb6362134dce548d8e49761",
       "format": "turtle"
     }
   },

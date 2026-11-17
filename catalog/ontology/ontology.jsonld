@@ -91116,6 +91116,124 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-DYNAPRO-III",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-DYNAPRO-III"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf"
+      },
+      {
+        "@id": "https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DynaPro Plate Reader III"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Capability association for DLS characterization of compatible liquid dispersions, including final samples from these routes. The sample, solvent and plate must support the documented optical method."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://cmi.hms.harvard.edu/sites/g/files/omnuum4016/files/2025-03/CMI%20Dynapro%20DLS%20Getting%20Started%20Guide.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "verified_operating_manual"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://d2b3o1qijggx1c.cloudfront.net/full-version-images/IMG_E8734.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.mdc-berlin.de/system/files/document/dynapro-plate-reader-iii.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://d2b3o1qijggx1c.cloudfront.net/full-version-images/IMG_E8734.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/EVG261018-EVG101",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -221384,6 +221502,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "World Precision Instruments"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "wyatttechnology"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Wyatt Technology"
       }
     ]
   },

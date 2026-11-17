@@ -8812,6 +8812,54 @@
           "source_content_type": "image/jpeg"
         }
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-WYATT-DYNAPROIII-20261117",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Photo match for Wyatt Technology DynaPro Plate Reader III",
+      "claim": "The source gallery photograph shows the Plate Reader III model label.",
+      "scope": "American Laboratory Trading photograph of the exact DynaPro Plate Reader III. The label is visible. Linked source media retains supplier rights and branding.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "title": "American Laboratory Trading product gallery",
+          "url": "https://americanlaboratorytrading.com/lab-equipment-products/wyatt-technology-dynapro-plate-reader-iii-20301/",
+          "locator": "Image IMG_E8734.jpg and model label",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-DYNAPRO-III",
+          "label": "Wyatt Technology DynaPro Plate Reader III"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-DYNAPRO-III",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro Plate Reader III",
+        "image_url": "https://d2b3o1qijggx1c.cloudfront.net/full-version-images/IMG_E8734.jpg",
+        "image_scope": "American Laboratory Trading photograph of the exact DynaPro Plate Reader III. The label is visible. Linked source media retains supplier rights and branding.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "4dd940a6e17580a0e9f9c8ce5f3ee7b152a1bb4a06ecc5922b7f9442f10949c0",
+          "visually_reviewed": true
+        }
+      }
     }
   ]
 }
