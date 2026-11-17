@@ -8860,6 +8860,534 @@
           "visually_reviewed": true
         }
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-PR4",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology DynaPro Plate Reader 4 photograph",
+      "claim": "Manufacturer illustration of the current Plate Reader 4 on its product page.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-DYNAPRO-4",
+          "label": "Wyatt Technology DynaPro Plate Reader 4"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-DYNAPRO-4",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro Plate Reader 4",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2025/08/PR4-Hero-1000.webp",
+        "image_scope": "Manufacturer illustration of the current Plate Reader 4 on its product page.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/webp",
+          "sha256": "a1303e65739b43c4d09707994ee6d32f2d4ad3382f0dcf26bc02f9ceb15de7a8",
+          "width": 1000,
+          "height": 1000,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-NANOSTAR2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology DynaPro NanoStar II photograph",
+      "claim": "Manufacturer NanoStar illustration linked from the current product family pages. Exterior image is shared across the NanoStar family and does not establish a seller configuration.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-NANOSTAR-II",
+          "label": "Wyatt Technology DynaPro NanoStar II"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-NANOSTAR-II",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro NanoStar II",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2021/10/NanoStar-Hero-Display-800px.jpg",
+        "image_scope": "Manufacturer NanoStar illustration linked from the current product family pages. Exterior image is shared across the NanoStar family and does not establish a seller configuration.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "44c7b59ea838313628fca835c2e494f8ef8cb404ef7bc8b30049ebdeec52f9c6",
+          "width": 800,
+          "height": 800,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-ZETASTAR",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology DynaPro ZetaStar photograph",
+      "claim": "Manufacturer product photograph of DynaPro ZetaStar on the exact model page.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/zetastar.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-ZETASTAR",
+          "label": "Wyatt Technology DynaPro ZetaStar"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-ZETASTAR",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro ZetaStar",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2023/09/DynaPro-ZetaStar-Hero-View.jpg",
+        "image_scope": "Manufacturer product photograph of DynaPro ZetaStar on the exact model page.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "de44b7baf2393f7c3e385508df79e18d18569c6fb59361eae6be88c3f5eaaef6",
+          "width": 1500,
+          "height": 1544,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-STUNNERAF",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Unchained Labs Stunner AF photograph",
+      "claim": "Manufacturer Stunner exterior photograph on the Stunner AF page. Shared Stunner-family exterior, with fluorescence capability established by the AF specifications.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.unchainedlabs.com/stunneraf/",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-UNCHAINED-STUNNER-AF",
+          "label": "Unchained Labs Stunner AF"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-UNCHAINED-STUNNER-AF",
+        "manufacturer": "Unchained Labs",
+        "model_name": "Stunner AF",
+        "image_url": "https://www.unchainedlabs.com/wp-content/uploads/2021/12/Stunner-Front-cc-2x.png",
+        "image_scope": "Manufacturer Stunner exterior photograph on the Stunner AF page. Shared Stunner-family exterior, with fluorescence capability established by the AF specifications.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "37ed283e6694dafaaf85f2b19a1a7fc5371b5276b2711704e6a6b001bc752aee",
+          "width": 740,
+          "height": 612,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-BI200SM",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Brookhaven BI-200SM photograph",
+      "claim": "Manufacturer photograph of the BI-200SM goniometer. The modular laser/correlator configuration is not fully represented by this image.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.brookhaveninstruments.com/products/bi-200sm-research-goniometer/",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-BROOKHAVEN-BI200SM",
+          "label": "Brookhaven BI-200SM"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-BROOKHAVEN-BI200SM",
+        "manufacturer": "Brookhaven",
+        "model_name": "BI-200SM",
+        "image_url": "https://www.brookhaveninstruments.com/wp-content/uploads/2019/11/200SM-300x300.png",
+        "image_scope": "Manufacturer photograph of the BI-200SM goniometer. The modular laser/correlator configuration is not fully represented by this image.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "f1a6b58cde7924d4fe2489f0572012635b67ee4c0f2c7084caf7ff56ceed235c",
+          "width": 300,
+          "height": 300,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-DAWN",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology DAWN (NEON) photograph",
+      "claim": "Manufacturer DAWN NEON-generation photograph. The record does not describe a legacy DAWN HELEOS II unit.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-DAWN-NEON",
+          "label": "Wyatt Technology DAWN (NEON)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M146",
+          "label": "Multi-angle static light-scattering detectors"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-DAWN-NEON",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DAWN (NEON)",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2019/10/DAWN-Hero-Neon-9-19.jpg",
+        "image_scope": "Manufacturer DAWN NEON-generation photograph. The record does not describe a legacy DAWN HELEOS II unit.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "5c505705919a12b52f4deb276309578a2cd94388959fb88fa810ef9bab3b7fac",
+          "width": 1500,
+          "height": 1125,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-PN3621",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Postnova Analytics PN3621 MALS photograph",
+      "claim": "Manufacturer PN3621 MALS detector photograph, model identifier visible.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.postnova.com/product/modules/pn3000-detectors/10-pn3621-mals-detector.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-POSTNOVA-PN3621",
+          "label": "Postnova Analytics PN3621 MALS"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M146",
+          "label": "Multi-angle static light-scattering detectors"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-POSTNOVA-PN3621",
+        "manufacturer": "Postnova Analytics",
+        "model_name": "PN3621 MALS",
+        "image_url": "https://www.postnova.com/media/djcatalog2/images/item/0/pn3621-mals-detector_l.png",
+        "image_scope": "Manufacturer PN3621 MALS detector photograph, model identifier visible.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "e3976e47aedb16e2c540c2a216ee61e2d58de463e461f7eebe602f12507873f0",
+          "width": 300,
+          "height": 212,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-ECLIPSE",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology Eclipse (NEON) photograph",
+      "claim": "Manufacturer current Eclipse NEON-generation photograph. A legacy alt-text label on the website says DualTec, while the photographed control panel and current product specifications identify the current Eclipse family.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-ECLIPSE-NEON",
+          "label": "Wyatt Technology Eclipse (NEON)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M147",
+          "label": "Field-flow fractionation systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-ECLIPSE-NEON",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "Eclipse (NEON)",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2020/10/Eclipse-Hero.jpg",
+        "image_scope": "Manufacturer current Eclipse NEON-generation photograph. A legacy alt-text label on the website says DualTec, while the photographed control panel and current product specifications identify the current Eclipse family.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "3627d918d9544a4e6f856eb110fa7dea1f69946ba70ec76e2fa30ea0102d719d",
+          "width": 1500,
+          "height": 1131,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-AF2000",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Postnova Analytics AF2000 MultiFlow photograph",
+      "claim": "Manufacturer AF2000 AT system illustration used for the AF2000 MultiFlow family. AT/MT configuration and included detector modules must be checked for each offer.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.postnova.com/product/systems/af2000-multiflow-fff.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-POSTNOVA-AF2000",
+          "label": "Postnova Analytics AF2000 MultiFlow"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M147",
+          "label": "Field-flow fractionation systems"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-POSTNOVA-AF2000",
+        "manufacturer": "Postnova Analytics",
+        "model_name": "AF2000 MultiFlow",
+        "image_url": "https://www.postnova.com/media/djcatalog2/images/item/0/af2000-multiflow-fff_l.png",
+        "image_scope": "Manufacturer AF2000 AT system illustration used for the AF2000 MultiFlow family. AT/MT configuration and included detector modules must be checked for each offer.",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "sha256": "df8966d24cddd6cd41605e89aa67b0c119d20a30cece550c1eeb6fe89dfe9ca4",
+          "width": 300,
+          "height": 300,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-OPTILAB",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Wyatt Technology Optilab (NEON) photograph",
+      "claim": "Manufacturer Optilab NEON-generation photograph. This record does not assign Optilab T-rEX installation evidence to the NEON model.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-OPTILAB-NEON",
+          "label": "Wyatt Technology Optilab (NEON)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M148",
+          "label": "Differential refractive-index detectors"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-WYATT-OPTILAB-NEON",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "Optilab (NEON)",
+        "image_url": "https://www.wyatt.com/wp-content/uploads/2019/10/Optilab-Hero-Neon9-20-19.jpg",
+        "image_scope": "Manufacturer Optilab NEON-generation photograph. This record does not assign Optilab T-rEX installation evidence to the NEON model.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "449d1eee91125452010d9caa2bec175323c6b18eb1cbe405a1f13feb4c96c4eb",
+          "width": 1500,
+          "height": 1125,
+          "visually_reviewed": true
+        }
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-LS261117-NANOSIGHTPRO",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Malvern Panalytical NanoSight Pro photograph",
+      "claim": "Manufacturer photograph of NanoSight Pro with its model name visible.",
+      "scope": "Source-linked manufacturer media. Supplier rights and attribution remain with the source.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.malvernpanalytical.com/en/products/product-range/nanosight-range/nanosight-pro",
+          "title": "Manufacturer product photograph",
+          "locator": "Product illustration or photograph gallery",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-MALVERN-NANOSIGHT-PRO",
+          "label": "Malvern Panalytical NanoSight Pro"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M149",
+          "label": "Nanoparticle tracking analyzers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "CAT-MALVERN-NANOSIGHT-PRO",
+        "manufacturer": "Malvern Panalytical",
+        "model_name": "NanoSight Pro",
+        "image_url": "https://dam.malvernpanalytical.com/b5ba65f4-ea0b-4ff6-9e29-b01b011adb3c/PN13720_NanoSightPro_Planar0017%20copy_Original%20file.jpg?quality=90",
+        "image_scope": "Manufacturer photograph of NanoSight Pro with its model name visible.",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "sha256": "2ba898477de14a85c79ec25021ef78ba657a76fba9bda0555885773113c48401",
+          "width": 6000,
+          "height": 4000,
+          "visually_reviewed": true
+        }
+      }
     }
   ]
 }

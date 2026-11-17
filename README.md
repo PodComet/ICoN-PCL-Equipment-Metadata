@@ -1,5 +1,7 @@
 # ICoN-PCL Equipment Metadata
 
+The [17 November light-scattering review](catalog/light_scattering_review_2026-11-17.json) adds eleven instrument profiles with manufacturer specifications, photographs and model-specific inputs, outputs and units. M146–M149 distinguish MALS detectors, field-flow fractionation, differential refractometry and nanoparticle tracking. The catalog now holds 1,395 equipment records across 147 active M classes. Two current seller quotes and one explicitly dated historical purchase price are recorded in USD or with a dated USD conversion. Eight models require quotes because qualifying exact-model prices and estimation benchmarks were not verified. No additional exact-model Purdue installation was confirmed.
+
 The [academic workflows expansion](docs/academic-workflows.md) adds P72–P89 for microstructure characterization, mechanical testing, thermal analysis, ceramics, battery research, and thin-film deposition. The [equipment review](catalog/academic_workflow_review_2026-11-15.json) links specifications, manuals, and documented Purdue installations.
 
 The [photo and price review](catalog/academic_equipment_media_price_review_2026-11-15.json) covers all 71 additions. It records exact-model and family photographs separately and preserves the currency, condition, and configuration of each published price alongside its USD equivalent.
@@ -34,7 +36,7 @@ The [metadata standards review](docs/metadata-standards.md) adds standard field 
 
 The **Research data / ELN** tab adds an openBIS-style Space / Project / Collection / Object / Data set workspace, instrument-export ingestion, private records and explicit sharing, revision history, qualified provenance and portable RO-Crate packages. See the [FAIR research-data guide](docs/FAIR_RESEARCH_DATA.md) and [machine-readable standards map](catalog/research_standards.json). This is a local ELN/LIMS foundation, not a connected openBIS server.
 
-**Current catalog snapshot (18 October 2026):** 1,113 equipment/model/category records, 950 equipment family cards, 114 active M classes plus six retained X classes, 46 P-class routes, 263 ordered steps and 76 academic references. The latest facility-derived routes are capability plans, not checked experimental recipes. Older dated review counts below describe their respective review snapshots.
+**Historical catalog snapshot (18 October 2026):** 1,113 equipment/model/category records, 950 equipment family cards, 114 active M classes plus six retained X classes, 46 P-class routes, 263 ordered steps and 76 academic references. The latest facility-derived routes are capability plans, not checked experimental recipes. Older dated review counts below describe their respective review snapshots.
 
 The [functional process review](docs/process-class-refinement-2026-10-17.md) replaces the rinse-fixture role with M85, distinguishes wet/deposition branches and casting fixtures, and retains pumps, mixers and ovens for their separate functions. Solvent lift-off is restricted to documented solvent-processing stations.
 

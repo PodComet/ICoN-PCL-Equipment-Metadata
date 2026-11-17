@@ -52604,6 +52604,94 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M146",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M146"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Multi-angle static light-scattering detectors"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M147",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M147"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Field-flow fractionation systems"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M148",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M148"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Differential refractive-index detectors"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M149",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept",
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentCategory"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "M149"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Nanoparticle tracking analyzers"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/scheme/equipment-categories"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M15",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept",
@@ -89972,6 +90060,124 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-BROOKHAVEN-BI200SM",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-BROOKHAVEN-BI200SM"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2022/12/200SM.pdf"
+      },
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2023/08/BI-200SM-Manual-V.-2.0.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "BI-200SM"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manual": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2023/08/BI-200SM-Manual-V.-2.0.pdf"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/brookhaven"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2019/11/200SM-300x300.png"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/products/bi-200sm-research-goniometer/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2022/12/200SM.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/wp-content/uploads/2019/11/200SM-300x300.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/brookhaven"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.brookhaveninstruments.com/products/bi-200sm-research-goniometer/"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-LABMATE-LMAMP-A100",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -91116,6 +91322,639 @@
     ]
   },
   {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-MALVERN-NANOSIGHT-PRO",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-MALVERN-NANOSIGHT-PRO"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.malvernpanalytical.com/en/assets/malvern_panalytical_nanosight_pro_brochure_pn250624-102_pn14701_tcm50-100095.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "NanoSight Pro"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M149"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/malvernpanalytical"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://dam.malvernpanalytical.com/b5ba65f4-ea0b-4ff6-9e29-b01b011adb3c/PN13720_NanoSightPro_Planar0017%20copy_Original%20file.jpg?quality=90"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.malvernpanalytical.com/en/products/product-range/nanosight-range/nanosight-pro"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.malvernpanalytical.com/en/assets/malvern_panalytical_nanosight_pro_brochure_pn250624-102_pn14701_tcm50-100095.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://dam.malvernpanalytical.com/b5ba65f4-ea0b-4ff6-9e29-b01b011adb3c/PN13720_NanoSightPro_Planar0017%20copy_Original%20file.jpg?quality=90"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/malvernpanalytical"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.malvernpanalytical.com/en/products/product-range/nanosight-range/nanosight-pro"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-POSTNOVA-AF2000",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-POSTNOVA-AF2000"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=95"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "AF2000 MultiFlow"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M147"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/postnovaanalytics"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.postnova.com/media/djcatalog2/images/item/0/af2000-multiflow-fff_l.png"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.postnova.com/product/systems/af2000-multiflow-fff.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=95"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.postnova.com/media/djcatalog2/images/item/0/af2000-multiflow-fff_l.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/postnovaanalytics"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.postnova.com/product/systems/af2000-multiflow-fff.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-POSTNOVA-PN3621",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-POSTNOVA-PN3621"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=68"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "PN3621 MALS"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M146"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/postnovaanalytics"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.postnova.com/media/djcatalog2/images/item/0/pn3621-mals-detector_l.png"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.postnova.com/product/modules/pn3000-detectors/10-pn3621-mals-detector.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=68"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.postnova.com/media/djcatalog2/images/item/0/pn3621-mals-detector_l.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/postnovaanalytics"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.postnova.com/product/modules/pn3000-detectors/10-pn3621-mals-detector.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-UNCHAINED-STUNNER-AF",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-UNCHAINED-STUNNER-AF"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.unchainedlabs.com/wp-content/uploads/2026/07/Stunner_Brochure_LNP-characterization_RevE.pdf"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Stunner AF"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/unchainedlabs"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.unchainedlabs.com/wp-content/uploads/2021/12/Stunner-Front-cc-2x.png"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.unchainedlabs.com/stunneraf/"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.unchainedlabs.com/wp-content/uploads/2026/07/Stunner_Brochure_LNP-characterization_RevE.pdf"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.unchainedlabs.com/wp-content/uploads/2021/12/Stunner-Front-cc-2x.png"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/unchainedlabs"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.unchainedlabs.com/stunneraf/"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-DAWN-NEON",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-DAWN-NEON"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DAWN (NEON)"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M146"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2019/10/DAWN-Hero-Neon-9-19.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2019/10/DAWN-Hero-Neon-9-19.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-DYNAPRO-4",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-DYNAPRO-4"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DynaPro Plate Reader 4"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2025/08/PR4-Hero-1000.webp"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2025/08/PR4-Hero-1000.webp"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ]
+  },
+  {
     "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-DYNAPRO-III",
     "@type": [
       "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
@@ -91230,6 +92069,446 @@
     "https://schema.org/url": [
       {
         "@id": "https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-ECLIPSE-NEON",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-ECLIPSE-NEON"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Eclipse (NEON)"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M147"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2020/10/Eclipse-Hero.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2020/10/Eclipse-Hero.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-NANOSTAR-II",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-NANOSTAR-II"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-nanostar-dynamic-light-scattering-detector.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DynaPro NanoStar II"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2021/10/NanoStar-Hero-Display-800px.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-nanostar-dynamic-light-scattering-detector.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-nanostar-dynamic-light-scattering-detector.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2021/10/NanoStar-Hero-Display-800px.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/dynapro-nanostar-dynamic-light-scattering-detector.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-OPTILAB-NEON",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-OPTILAB-NEON"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Optilab (NEON)"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M148"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2019/10/Optilab-Hero-Neon9-20-19.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2019/10/Optilab-Hero-Neon9-20-19.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/equipment/CAT-WYATT-ZETASTAR",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#EquipmentModel",
+      "https://schema.org/ProductModel"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "CAT-WYATT-ZETASTAR"
+      }
+    ],
+    "http://purl.org/dc/terms/references": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/zetastar.html"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "DynaPro ZetaStar"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#associationBasis": [
+      {
+        "@value": "Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model."
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#catalogAssociation": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N01"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N02"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N03"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N05"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N06"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/N07"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P04"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P08"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P09"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P10"
+      },
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/route/P27"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#inCategory": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/category/M34"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manualMatchStatus": [
+      {
+        "@value": "manufacturer_specification"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#photo": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2023/09/DynaPro-ZetaStar-Hero-View.jpg"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#productPage": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/zetastar.html"
+      }
+    ],
+    "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#technicalSpecification": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/zetastar.html"
+      }
+    ],
+    "https://schema.org/image": [
+      {
+        "@id": "https://www.wyatt.com/wp-content/uploads/2023/09/DynaPro-ZetaStar-Hero-View.jpg"
+      }
+    ],
+    "https://schema.org/manufacturer": [
+      {
+        "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/wyatttechnology"
+      }
+    ],
+    "https://schema.org/url": [
+      {
+        "@id": "https://www.wyatt.com/products/instruments/zetastar.html"
       }
     ]
   },
@@ -219967,6 +221246,23 @@
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@value": "PolyScience"
+      }
+    ]
+  },
+  {
+    "@id": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/id/manufacturer/postnovaanalytics",
+    "@type": [
+      "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#Manufacturer",
+      "https://schema.org/Organization"
+    ],
+    "http://purl.org/dc/terms/identifier": [
+      {
+        "@value": "postnovaanalytics"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "Postnova Analytics"
       }
     ]
   },

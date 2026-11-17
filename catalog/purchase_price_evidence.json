@@ -30491,6 +30491,171 @@
         "availability_checked": "active_no_unavailable_banner",
         "benchmark_eligible": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-SELL-LS261117-NANOSTAR2",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Wyatt Technology DynaPro NanoStar II sourced price",
+      "claim": "Published USD 17300 for the described configuration.",
+      "scope": "Refurbished NanoStar II with DYNAMICS Touch and MicroCuvette kits, seller SKU BNX-PC-0008. The product page and structured offer show USD 17,300 and InStock. Exact unit condition, configuration, software transfer, freight and service terms require confirmation.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://bionexscientific.com/particle-characterization/wyatt-wyatt-dynapro-nanostar-ii-dls-sls-particle-size-analyzer-with-dynamics-tou/",
+          "title": "Supplier listing or dated purchase-order record",
+          "locator": "Named model, price, condition and configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-WYATT-NANOSTAR-II",
+          "label": "Wyatt Technology DynaPro NanoStar II"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M34",
+          "label": "DLS / electrophoretic light-scattering analyzer"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LS261117-NANOSTAR2",
+          "label": "BioNex Scientific LLC"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LS261117-NANOSTAR2",
+        "equipment_id": "CAT-WYATT-NANOSTAR-II",
+        "manufacturer": "Wyatt Technology",
+        "model_name": "DynaPro NanoStar II",
+        "seller_name": "BioNex Scientific LLC",
+        "price_value": "17300",
+        "currency": "USD",
+        "price_kind": "asking_price",
+        "condition": "refurbished",
+        "source_url": "https://bionexscientific.com/particle-characterization/wyatt-wyatt-dynapro-nanostar-ii-dls-sls-particle-size-analyzer-with-dynamics-tou/",
+        "checked_date": "2026-11-17",
+        "scope": "Refurbished NanoStar II with DYNAMICS Touch and MicroCuvette kits, seller SKU BNX-PC-0008. The product page and structured offer show USD 17,300 and InStock. Exact unit condition, configuration, software transfer, freight and service terms require confirmation.",
+        "price_usd": 17300.0,
+        "conversion_date": "",
+        "historical_purchase": false,
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-SELL-LS261117-AF2000",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Postnova Analytics AF2000 MultiFlow sourced price",
+      "claim": "Published EUR 20825 for the described configuration.",
+      "scope": "Used AF2000 Flow FFF system, seller SKU 9997, listed as tested and immediately available. EUR 20,825 is the seller displayed final price, plus freight. Any included tax has not been deducted. AT/MT generation, included detector modules, installation and software licensing must be confirmed with the seller. Family-level configuration offer.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://profcontrol.de/Postnova-AF2000-Flow-FFF-Asymmetric-Flow-Field-Flow-Fractionation_1",
+          "title": "Supplier listing or dated purchase-order record",
+          "locator": "Named model, price, condition and configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-POSTNOVA-AF2000",
+          "label": "Postnova Analytics AF2000 MultiFlow"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M147",
+          "label": "Field-flow fractionation systems"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "SELL-LS261117-AF2000",
+          "label": "Profcontrol GmbH"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "SELL-LS261117-AF2000",
+        "equipment_id": "CAT-POSTNOVA-AF2000",
+        "manufacturer": "Postnova Analytics",
+        "model_name": "AF2000 MultiFlow",
+        "seller_name": "Profcontrol GmbH",
+        "price_value": "20825",
+        "currency": "EUR",
+        "price_kind": "asking_price",
+        "condition": "used",
+        "source_url": "https://profcontrol.de/Postnova-AF2000-Flow-FFF-Asymmetric-Flow-Field-Flow-Fractionation_1",
+        "checked_date": "2026-11-17",
+        "scope": "Used AF2000 Flow FFF system, seller SKU 9997, listed as tested and immediately available. EUR 20,825 is the seller displayed final price, plus freight. Any included tax has not been deducted. AT/MT generation, included detector modules, installation and software licensing must be confirmed with the seller. Family-level configuration offer.",
+        "price_usd": 23434.37,
+        "conversion_date": "2026-10-16",
+        "historical_purchase": false,
+        "benchmark_eligible": false
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-PRICE-LS261117-NANOSIGHT-HIST",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Malvern Panalytical NanoSight Pro sourced price",
+      "claim": "Published USD 76750 for the described configuration.",
+      "scope": "Historical purchase price, not a current offer or MSRP. Texas A&M Corpus Christi order AB0975570 dated 2024-11-15, revision 2 dated 2025-01-21, line 1: new NanoSight Pro, 532 nm module, computer/software and stated installation/application support. USD 76,750 after a USD 34,690 discount from an original quoted USD 111,440. Separate USD 1,250 freight and USD 2,617.10 installation line are excluded from this unit price. Current pricing requires a new quotation.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.tamucc.edu/finance-and-administration/financial-services/purchasing/sb20-assets/fy25/ab0975570-r2.pdf",
+          "title": "Supplier listing or dated purchase-order record",
+          "locator": "Named model, price, condition and configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "CAT-MALVERN-NANOSIGHT-PRO",
+          "label": "Malvern Panalytical NanoSight Pro"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M149",
+          "label": "Nanoparticle tracking analyzers"
+        },
+        {
+          "record_type": "seller_offer",
+          "record_id": "PRICE-LS261117-NANOSIGHT-HIST",
+          "label": "Malvern Panalytical (historical purchase)"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "offer_id": "PRICE-LS261117-NANOSIGHT-HIST",
+        "equipment_id": "CAT-MALVERN-NANOSIGHT-PRO",
+        "manufacturer": "Malvern Panalytical",
+        "model_name": "NanoSight Pro",
+        "seller_name": "Malvern Panalytical (historical purchase)",
+        "price_value": "76750",
+        "currency": "USD",
+        "price_kind": "published_price",
+        "condition": "new",
+        "source_url": "https://www.tamucc.edu/finance-and-administration/financial-services/purchasing/sb20-assets/fy25/ab0975570-r2.pdf",
+        "checked_date": "2026-11-17",
+        "scope": "Historical purchase price, not a current offer or MSRP. Texas A&M Corpus Christi order AB0975570 dated 2024-11-15, revision 2 dated 2025-01-21, line 1: new NanoSight Pro, 532 nm module, computer/software and stated installation/application support. USD 76,750 after a USD 34,690 discount from an original quoted USD 111,440. Separate USD 1,250 freight and USD 2,617.10 installation line are excluded from this unit price. Current pricing requires a new quotation.",
+        "price_usd": 76750.0,
+        "conversion_date": "",
+        "historical_purchase": true,
+        "benchmark_eligible": false
+      }
     }
   ]
 }

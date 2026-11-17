@@ -137,7 +137,7 @@ def test_all_artifacts_are_current_reproducible_and_inventory_free(export):
     for filename, content in files.items():
         assert (ROOT / 'catalog/ontology' / filename).read_text(encoding='utf-8') == content
         assert (ROOT / 'webapp/public/ontology' / filename).read_text(encoding='utf-8') == content
-    assert report['counts']['m_categories'] == 143
+    assert report['counts']['m_categories'] == 147
     assert report['counts']['x_categories'] == 6
     assert report['counts']['unit_definitions_checked'] == 138
     assert report['counts']['unreviewed_model_name_pairs'] == 0

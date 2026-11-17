@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-1075 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+1100 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -1282,6 +1282,152 @@ Theris documents hardware within the Broad-beam RF ion sources capability class.
 - Source: [M111 / Broad-beam RF ion sources](https://therisnano.com/tas-rf-ion-sources/) — Named product/technical description; brochure page references in context
 
 **Related records:** `M111` (equipment_class)
+
+
+## CAT-EV-LS261117-AF2000
+
+AF2000 family, AT ambient-temperature configuration documented here. Channel volume 0.5–2.5 mL, injection 1–1000 µL with larger-volume options. Size-fractionated eluate for configured UV, RI, light-scattering or other detectors, plus membrane permeate/waste. Flow-method and retention records. NovaFFF analysis can derive size using FFF theory/calibration when the required data are supplied. Absolute optical mass/size outputs require configured detectors.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Postnova Analytics AF2000 MultiFlow specifications](https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=95) — AF2000 MultiFlow AT brochure Rev 2025-1, specifications on p. 1. MT brochure is linked separately and its temperature range is not assigned to AT.
+- Source: [Additional manufacturer configuration/control documentation](https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=96) — AF2000 MultiFlow AT brochure Rev 2025-1, specifications on p. 1. MT brochure is linked separately and its temperature range is not assigned to AT.
+
+**Related records:** `CAT-POSTNOVA-AF2000` (equipment), `M147` (equipment_class)
+
+
+## CAT-EV-LS261117-BI200SM
+
+Single sample cell. Documented angular range 8–155° with 25 mm cells or 15–155° with 12 mm cells. Small-volume cell options are available. Dynamic light-scattering correlation functions, diffusion/particle-size analysis and size distributions. Static light-scattering intensity versus angle/concentration supports molecular weight, radius of gyration and virial analysis with appropriate calibration. Sample remains in the cell. Available analyses depend on the correlator/software configuration.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Brookhaven BI-200SM specifications](https://www.brookhaveninstruments.com/wp-content/uploads/2022/12/200SM.pdf) — Four-page BI-200SM brochure, pp. 1–4, including correlator, cell/angle options and DLS/SLS outputs. Linked operating manual is image-based.
+
+**Related records:** `CAT-BROOKHAVEN-BI200SM` (equipment), `M34` (equipment_class)
+
+
+## CAT-EV-LS261117-DAWN
+
+18-angle MALS flow detector. Optional WyattQELS module or fiber-coupled NanoStar provides DLS. Angular scattering intensities and derived molar mass and radius of gyration under the selected model. Analog signals, acquisition triggers, alarms and Ethernet results. Liquid eluate exits the flow cell. Hydrodynamic radius is available only with the optional DLS hardware.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology DAWN (NEON) specifications](https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html) — Current DAWN specifications, detector/laser/temperature options and electronics. HPLC Connection Guide TN3601 Rev E, rear-panel diagrams.
+- Source: [Additional manufacturer configuration/control documentation](https://wyattfiles.s3.us-west-2.amazonaws.com/tech-notes/TN3601E-Waters-HPLC-Connection-Guide-for-Wyatt-Instrumentation.pdf) — Current DAWN specifications, detector/laser/temperature options and electronics. HPLC Connection Guide TN3601 Rev E, rear-panel diagrams.
+
+**Related records:** `CAT-WYATT-DAWN-NEON` (equipment), `M146` (equipment_class)
+
+
+## CAT-EV-LS261117-ECLIPSE
+
+AF4 flow controller with a selected membrane separation channel. Channel pressure limit 30 bar, ambient-to-50 °C temperature regulation. Size-fractionated liquid eluate delivered to downstream detectors or the fraction-collection port, plus membrane permeate/waste. Flow, pressure and sequence records, Alarm Out and auxiliary signal acquisition. Particle mass/size measurements require the appropriate downstream detector and analysis.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology Eclipse (NEON) specifications](https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html) — Current Eclipse specification table, flow control, channel, membrane and optional mobility-module sections.
+
+**Related records:** `CAT-WYATT-ECLIPSE-NEON` (equipment), `M147` (equipment_class)
+
+
+## CAT-EV-LS261117-NANOSIGHTPRO
+
+Minimum sample 250 µL. Syringe-driven nanoparticle tracking analysis with an installed wavelength-specific laser module. Videos and individual particle tracks, number-based hydrodynamic-diameter distributions and particle concentration. Fluorescence-resolved subpopulations require the installed fluorescence configuration. Acquisition/analysis reports and liquid effluent from the cell. No zeta-potential output is assigned.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Malvern Panalytical NanoSight Pro specifications](https://www.malvernpanalytical.com/en/assets/malvern_panalytical_nanosight_pro_brochure_pn250624-102_pn14701_tcm50-100095.pdf) — NanoSight Pro brochure PN250624-102, specification table. Detection limits depend on particle scattering/fluorescence and sample properties.
+
+**Related records:** `CAT-MALVERN-NANOSIGHT-PRO` (equipment), `M149` (equipment_class)
+
+
+## CAT-EV-LS261117-NANOSTAR2
+
+Single cuvette. Minimum 2 µL in a supported quartz cuvette or 4 µL in the specified disposable cuvette. DLS hydrodynamic-radius distributions and polydispersity. SLS molar mass, size-dependent particle concentration and turbidity under the documented analysis conditions. Correlation functions and temperature-dependent measurements. Sample remains in the cuvette.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology DynaPro NanoStar II specifications](https://www.wyatt.com/products/instruments/dynapro-nanostar-dynamic-light-scattering-detector.html) — Current NanoStar II model description, sample-cell options and specifications table.
+
+**Related records:** `CAT-WYATT-NANOSTAR-II` (equipment), `M34` (equipment_class)
+
+
+## CAT-EV-LS261117-OPTILAB
+
+Differential/absolute refractive-index flow detector. Inlet tubing plus flow-cell fill volume 51.4 µL. Differential and absolute refractive-index signals. Concentration or dn/dc results require the corresponding supplied constants/known concentrations. Liquid eluate, digital data, selectable analog signal and Auto Inject/Alarm/Recycle outputs. Vapor/leak fault monitoring.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology Optilab (NEON) specifications](https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html) — Current Optilab specifications. Standard and high-concentration variants have separate ranges. HPLC Connection Guide TN3601 Rev E identifies rear-panel signals.
+- Source: [Additional manufacturer configuration/control documentation](https://wyattfiles.s3.us-west-2.amazonaws.com/tech-notes/TN3601E-Waters-HPLC-Connection-Guide-for-Wyatt-Instrumentation.pdf) — Current Optilab specifications. Standard and high-concentration variants have separate ranges. HPLC Connection Guide TN3601 Rev E identifies rear-panel signals.
+
+**Related records:** `CAT-WYATT-OPTILAB-NEON` (equipment), `M148` (equipment_class)
+
+
+## CAT-EV-LS261117-PN3621
+
+21-angle MALS detector with 63 µL flow cell. Working angles 7–164°. 21-angle light-scattering intensities, molar mass and radius of gyration using the selected analysis and concentration data. Detector signals, Error/Injection Ready outputs and Ethernet records. Eluate exits the vertical flow cell. Vapor and leak sensors monitor faults.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Postnova Analytics PN3621 MALS specifications](https://www.postnova.com/component/djcatalog2/?format=raw&task=download&fid=68) — PN3621 MALS Detector brochure Rev 2025-1, specifications and ordering information, pp. 1–2.
+
+**Related records:** `CAT-POSTNOVA-PN3621` (equipment), `M146` (equipment_class)
+
+
+## CAT-EV-LS261117-PR4
+
+96, 384 or 1536 wells. Sample-dependent minimum volume 4 µL in the specified plate format. DLS correlation data, hydrodynamic-radius distributions and polydispersity. SLS molar mass and particle-concentration analysis require suitable sample and concentration/calibration information. Well images, temperature records and exported results. The liquid sample remains in the plate.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology DynaPro Plate Reader 4 specifications](https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html) — Instrument specifications table and footnotes. Minimum sample volume and detection sensitivity are sample dependent.
+
+**Related records:** `CAT-WYATT-DYNAPRO-4` (equipment), `M34` (equipment_class)
+
+
+## CAT-EV-LS261117-STUNNERAF
+
+96-position Stunner plate, recommended 2 µL per well. Full LNP characterization supports up to 44 samples plus assay standards/controls. Hydrodynamic diameter, polydispersity and aggregate peaks. UV/Vis payload concentration, particle concentration from the configured light-scattering analysis and fluorescence-based free-RNA data. Encapsulation efficiency is calculated using the validated assay and controls. Exported spectra and sample results.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Unchained Labs Stunner AF specifications](https://www.unchainedlabs.com/wp-content/uploads/2026/07/Stunner_Brochure_LNP-characterization_RevE.pdf) — Stunner LNP-characterization brochure Rev E, 2026. Assay descriptions and final-page instrument and plate specifications.
+
+**Related records:** `CAT-UNCHAINED-STUNNER-AF` (equipment), `M34` (equipment_class)
+
+
+## CAT-EV-LS261117-ZETASTAR
+
+Single cuvette or flow cell. Cell and operating temperature depend on DLS/SLS versus ELS mode. DLS hydrodynamic-radius distributions and polydispersity. SLS molar mass, turbidity and size-dependent particle concentration. ELS electrophoretic mobility and derived zeta potential with conductivity. Optical signals and acquisition records. Sample remains in the cell or leaves through the flow outlet.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated analytical capability association for compatible liquid products or process samples. These instruments support fractionation or characterization after the listed manufacturing routes. Sample chemistry, solvent compatibility, optical response and the configured detectors must be checked. This association does not assert that a source publication used every model.
+
+- Source: [Wyatt Technology DynaPro ZetaStar specifications](https://www.wyatt.com/products/instruments/zetastar.html) — DLS, SLS and ELS specification tables, wetted materials and auxiliary I/O.
+
+**Related records:** `CAT-WYATT-ZETASTAR` (equipment), `M34` (equipment_class)
 
 
 ## CAT-EV-WYATT-DYNAPROIII-20261117
@@ -7837,6 +7983,149 @@ The linked source presents this equipment photograph.
 **Related records:** `ACAD-M143-04` (equipment), `M143` (equipment_class)
 
 
+## IMG-EV-LS261117-AF2000
+
+Manufacturer AF2000 AT system illustration used for the AF2000 MultiFlow family. AT/MT configuration and included detector modules must be checked for each offer.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.postnova.com/product/systems/af2000-multiflow-fff.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-POSTNOVA-AF2000` (equipment), `M147` (equipment_class)
+
+
+## IMG-EV-LS261117-BI200SM
+
+Manufacturer photograph of the BI-200SM goniometer. The modular laser/correlator configuration is not fully represented by this image.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.brookhaveninstruments.com/products/bi-200sm-research-goniometer/) — Product illustration or photograph gallery
+
+**Related records:** `CAT-BROOKHAVEN-BI200SM` (equipment), `M34` (equipment_class)
+
+
+## IMG-EV-LS261117-DAWN
+
+Manufacturer DAWN NEON-generation photograph. The record does not describe a legacy DAWN HELEOS II unit.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/dawn-multi-angle-light-scattering-detector.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-DAWN-NEON` (equipment), `M146` (equipment_class)
+
+
+## IMG-EV-LS261117-ECLIPSE
+
+Manufacturer current Eclipse NEON-generation photograph. A legacy alt-text label on the website says DualTec, while the photographed control panel and current product specifications identify the current Eclipse family.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/eclipse-field-flow-fractionation-system.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-ECLIPSE-NEON` (equipment), `M147` (equipment_class)
+
+
+## IMG-EV-LS261117-NANOSIGHTPRO
+
+Manufacturer photograph of NanoSight Pro with its model name visible.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.malvernpanalytical.com/en/products/product-range/nanosight-range/nanosight-pro) — Product illustration or photograph gallery
+
+**Related records:** `CAT-MALVERN-NANOSIGHT-PRO` (equipment), `M149` (equipment_class)
+
+
+## IMG-EV-LS261117-NANOSTAR2
+
+Manufacturer NanoStar illustration linked from the current product family pages. Exterior image is shared across the NanoStar family and does not establish a seller configuration.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-NANOSTAR-II` (equipment), `M34` (equipment_class)
+
+
+## IMG-EV-LS261117-OPTILAB
+
+Manufacturer Optilab NEON-generation photograph. This record does not assign Optilab T-rEX installation evidence to the NEON model.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/optilab-refractive-index-detector.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-OPTILAB-NEON` (equipment), `M148` (equipment_class)
+
+
+## IMG-EV-LS261117-PN3621
+
+Manufacturer PN3621 MALS detector photograph, model identifier visible.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.postnova.com/product/modules/pn3000-detectors/10-pn3621-mals-detector.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-POSTNOVA-PN3621` (equipment), `M146` (equipment_class)
+
+
+## IMG-EV-LS261117-PR4
+
+Manufacturer illustration of the current Plate Reader 4 on its product page.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/dynapro-dynamic-light-scattering-plate-reader.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-DYNAPRO-4` (equipment), `M34` (equipment_class)
+
+
+## IMG-EV-LS261117-STUNNERAF
+
+Manufacturer Stunner exterior photograph on the Stunner AF page. Shared Stunner-family exterior, with fluorescence capability established by the AF specifications.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.unchainedlabs.com/stunneraf/) — Product illustration or photograph gallery
+
+**Related records:** `CAT-UNCHAINED-STUNNER-AF` (equipment), `M34` (equipment_class)
+
+
+## IMG-EV-LS261117-ZETASTAR
+
+Manufacturer product photograph of DynaPro ZetaStar on the exact model page.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Source-linked manufacturer media. Supplier rights and attribution remain with the source.
+
+- Source: [Manufacturer product photograph](https://www.wyatt.com/products/instruments/zetastar.html) — Product illustration or photograph gallery
+
+**Related records:** `CAT-WYATT-ZETASTAR` (equipment), `M34` (equipment_class)
+
+
 ## IMG-EV-WYATT-DYNAPROIII-20261117
 
 The source gallery photograph shows the Plate Reader III model label.
@@ -14261,6 +14550,45 @@ US Research Nanomaterials, Inc. publishes USD 980.0 for US Nano US7905 graphene,
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/11386) — Exact previously curated form/size option: 30ml/30g (add $980). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-101A1F3126934CDF` (component_offer), `usnano-us7905-graphene-water1pct` (component)
+
+
+## PRICE-EV-PRICE-LS261117-NANOSIGHT-HIST
+
+Published USD 76750 for the described configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Historical purchase price, not a current offer or MSRP. Texas A&M Corpus Christi order AB0975570 dated 2024-11-15, revision 2 dated 2025-01-21, line 1: new NanoSight Pro, 532 nm module, computer/software and stated installation/application support. USD 76,750 after a USD 34,690 discount from an original quoted USD 111,440. Separate USD 1,250 freight and USD 2,617.10 installation line are excluded from this unit price. Current pricing requires a new quotation.
+
+- Source: [Supplier listing or dated purchase-order record](https://www.tamucc.edu/finance-and-administration/financial-services/purchasing/sb20-assets/fy25/ab0975570-r2.pdf) — Named model, price, condition and configuration
+
+**Related records:** `CAT-MALVERN-NANOSIGHT-PRO` (equipment), `M149` (equipment_class), `PRICE-LS261117-NANOSIGHT-HIST` (seller_offer)
+
+
+## PRICE-EV-SELL-LS261117-AF2000
+
+Published EUR 20825 for the described configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Used AF2000 Flow FFF system, seller SKU 9997, listed as tested and immediately available. EUR 20,825 is the seller displayed final price, plus freight. Any included tax has not been deducted. AT/MT generation, included detector modules, installation and software licensing must be confirmed with the seller. Family-level configuration offer.
+
+- Source: [Supplier listing or dated purchase-order record](https://profcontrol.de/Postnova-AF2000-Flow-FFF-Asymmetric-Flow-Field-Flow-Fractionation_1) — Named model, price, condition and configuration
+
+**Related records:** `CAT-POSTNOVA-AF2000` (equipment), `M147` (equipment_class), `SELL-LS261117-AF2000` (seller_offer)
+
+
+## PRICE-EV-SELL-LS261117-NANOSTAR2
+
+Published USD 17300 for the described configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Refurbished NanoStar II with DYNAMICS Touch and MicroCuvette kits, seller SKU BNX-PC-0008. The product page and structured offer show USD 17,300 and InStock. Exact unit condition, configuration, software transfer, freight and service terms require confirmation.
+
+- Source: [Supplier listing or dated purchase-order record](https://bionexscientific.com/particle-characterization/wyatt-wyatt-dynapro-nanostar-ii-dls-sls-particle-size-analyzer-with-dynamics-tou/) — Named model, price, condition and configuration
+
+**Related records:** `CAT-WYATT-NANOSTAR-II` (equipment), `M34` (equipment_class), `SELL-LS261117-NANOSTAR2` (seller_offer)
 
 
 ## PRICE-EV-SELL-WYATT261117-WPR3-01
