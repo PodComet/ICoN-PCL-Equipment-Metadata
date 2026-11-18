@@ -1,0 +1,355 @@
+{
+  "profile": "iconpcl-machine-recipe-run/v1",
+  "scope": "Illustrative planned example. Purdue documents the AM400 make/model. UUIDs, recipe, feedstock batches, quantities and intended specimens here are demonstration records; no actual unit registration, run, manufactured result or autonomous readiness is claimed.",
+  "machines": [
+    {
+      "machine_token": "urn:uuid:7e588b4a-6217-5820-973d-f03dc2ce53ec",
+      "catalog_equipment_id": "REQ-EQ-005",
+      "label": "Renishaw AM400 — illustrative unit identity",
+      "registration_status": "illustrative_identity",
+      "registry_uri": null,
+      "controller": null,
+      "driver": null,
+      "interfaces": [],
+      "evidence_ids": [
+        "PURDUE-AM400"
+      ]
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_token": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861",
+      "manifest_uri": "annular-coupon.recipe.json",
+      "hash_profile": "sha256-exact-manifest-bytes/v1"
+    }
+  ],
+  "runs": [
+    {
+      "run_token": "urn:uuid:ff936b00-9f47-574c-a573-ddde25f88a6a",
+      "recipe_token": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861",
+      "label": "Illustrative manufacturing run 1",
+      "scope": "illustrative_planned",
+      "status": "planned",
+      "machine_bindings": [
+        {
+          "machine_role": "lpbf_printer",
+          "machine_token": "urn:uuid:7e588b4a-6217-5820-973d-f03dc2ce53ec",
+          "configuration": []
+        }
+      ],
+      "material_bindings": [
+        {
+          "input_role": "feedstock",
+          "material_id": "DEMO-SS316L-POWDER",
+          "batch_id": "DEMO-316L-A",
+          "quantity": {
+            "value": 500,
+            "unit_uri": "http://qudt.org/vocab/unit/GM",
+            "unit_text": "g"
+          },
+          "binding_status": "illustrative_planned",
+          "properties": []
+        }
+      ],
+      "utility_bindings": [],
+      "data_bindings": [],
+      "parameter_bindings": [],
+      "instruction_executions": [
+        {
+          "execution_id": "DEMO-R1-S1-A",
+          "step_id": "S1",
+          "sequence_id": "S1-A",
+          "action_ids": [
+            "S1-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R1-S2-A",
+          "step_id": "S2",
+          "sequence_id": "S2-A",
+          "action_ids": [
+            "S2-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R1-S2-B",
+          "step_id": "S2",
+          "sequence_id": "S2-B",
+          "action_ids": [
+            "S2-B-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R1-S3-A",
+          "step_id": "S3",
+          "sequence_id": "S3-A",
+          "action_ids": [
+            "S3-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R1-S4-A",
+          "step_id": "S4",
+          "sequence_id": "S4-A",
+          "action_ids": [
+            "S4-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        }
+      ],
+      "execution_readiness": {
+        "status": "blocked",
+        "missing_requirements": [
+          "Physical-unit registration, controller endpoint and driver artifact",
+          "Manufacturer-supported operation definitions and completion/error signals",
+          "Qualified build/toolpath artifact and complete material-specific settings",
+          "Verified feedstock/gas loading, calibration and interlock/resource checks",
+          "Approved recovery/inspection procedure and dimensional tolerances"
+        ]
+      },
+      "expected_specimens": [
+        {
+          "specimen_id": "DEMO-COUPON-001",
+          "output_role": "annular_coupon",
+          "geometry_ref": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861#/geometry",
+          "measurements": []
+        }
+      ],
+      "generated_specimens": [],
+      "artifacts": [],
+      "deviations": []
+    },
+    {
+      "run_token": "urn:uuid:6632da51-d6ba-5ac1-b049-4f55d363dee7",
+      "recipe_token": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861",
+      "label": "Illustrative manufacturing run 2",
+      "scope": "illustrative_planned",
+      "status": "planned",
+      "machine_bindings": [
+        {
+          "machine_role": "lpbf_printer",
+          "machine_token": "urn:uuid:7e588b4a-6217-5820-973d-f03dc2ce53ec",
+          "configuration": []
+        }
+      ],
+      "material_bindings": [
+        {
+          "input_role": "feedstock",
+          "material_id": "DEMO-SS316L-POWDER",
+          "batch_id": "DEMO-316L-A",
+          "quantity": {
+            "value": 500,
+            "unit_uri": "http://qudt.org/vocab/unit/GM",
+            "unit_text": "g"
+          },
+          "binding_status": "illustrative_planned",
+          "properties": []
+        }
+      ],
+      "utility_bindings": [],
+      "data_bindings": [],
+      "parameter_bindings": [],
+      "instruction_executions": [
+        {
+          "execution_id": "DEMO-R2-S1-A",
+          "step_id": "S1",
+          "sequence_id": "S1-A",
+          "action_ids": [
+            "S1-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R2-S2-A",
+          "step_id": "S2",
+          "sequence_id": "S2-A",
+          "action_ids": [
+            "S2-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R2-S2-B",
+          "step_id": "S2",
+          "sequence_id": "S2-B",
+          "action_ids": [
+            "S2-B-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R2-S3-A",
+          "step_id": "S3",
+          "sequence_id": "S3-A",
+          "action_ids": [
+            "S3-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R2-S4-A",
+          "step_id": "S4",
+          "sequence_id": "S4-A",
+          "action_ids": [
+            "S4-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        }
+      ],
+      "execution_readiness": {
+        "status": "blocked",
+        "missing_requirements": [
+          "Physical-unit registration, controller endpoint and driver artifact",
+          "Manufacturer-supported operation definitions and completion/error signals",
+          "Qualified build/toolpath artifact and complete material-specific settings",
+          "Verified feedstock/gas loading, calibration and interlock/resource checks",
+          "Approved recovery/inspection procedure and dimensional tolerances"
+        ]
+      },
+      "expected_specimens": [
+        {
+          "specimen_id": "DEMO-COUPON-002",
+          "output_role": "annular_coupon",
+          "geometry_ref": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861#/geometry",
+          "measurements": []
+        }
+      ],
+      "generated_specimens": [],
+      "artifacts": [],
+      "deviations": []
+    },
+    {
+      "run_token": "urn:uuid:94c898bf-5d0e-5341-bf9d-e84dde86afb5",
+      "recipe_token": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861",
+      "label": "Illustrative manufacturing run 3",
+      "scope": "illustrative_planned",
+      "status": "planned",
+      "machine_bindings": [
+        {
+          "machine_role": "lpbf_printer",
+          "machine_token": "urn:uuid:7e588b4a-6217-5820-973d-f03dc2ce53ec",
+          "configuration": []
+        }
+      ],
+      "material_bindings": [
+        {
+          "input_role": "feedstock",
+          "material_id": "DEMO-SS316L-POWDER",
+          "batch_id": "DEMO-316L-B",
+          "quantity": {
+            "value": 500,
+            "unit_uri": "http://qudt.org/vocab/unit/GM",
+            "unit_text": "g"
+          },
+          "binding_status": "illustrative_planned",
+          "properties": []
+        }
+      ],
+      "utility_bindings": [],
+      "data_bindings": [],
+      "parameter_bindings": [],
+      "instruction_executions": [
+        {
+          "execution_id": "DEMO-R3-S1-A",
+          "step_id": "S1",
+          "sequence_id": "S1-A",
+          "action_ids": [
+            "S1-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R3-S2-A",
+          "step_id": "S2",
+          "sequence_id": "S2-A",
+          "action_ids": [
+            "S2-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R3-S2-B",
+          "step_id": "S2",
+          "sequence_id": "S2-B",
+          "action_ids": [
+            "S2-B-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R3-S3-A",
+          "step_id": "S3",
+          "sequence_id": "S3-A",
+          "action_ids": [
+            "S3-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        },
+        {
+          "execution_id": "DEMO-R3-S4-A",
+          "step_id": "S4",
+          "sequence_id": "S4-A",
+          "action_ids": [
+            "S4-A-1"
+          ],
+          "status": "planned",
+          "actual_parameters": [],
+          "evidence_ids": []
+        }
+      ],
+      "execution_readiness": {
+        "status": "blocked",
+        "missing_requirements": [
+          "Physical-unit registration, controller endpoint and driver artifact",
+          "Manufacturer-supported operation definitions and completion/error signals",
+          "Qualified build/toolpath artifact and complete material-specific settings",
+          "Verified feedstock/gas loading, calibration and interlock/resource checks",
+          "Approved recovery/inspection procedure and dimensional tolerances"
+        ]
+      },
+      "expected_specimens": [
+        {
+          "specimen_id": "DEMO-COUPON-003",
+          "output_role": "annular_coupon",
+          "geometry_ref": "sha256:e7f66f7da2f27186623800cc01ddf64c9abd998b2ecf28a6bc20f7138b5ed861#/geometry",
+          "measurements": []
+        }
+      ],
+      "generated_specimens": [],
+      "artifacts": [],
+      "deviations": []
+    }
+  ]
+}

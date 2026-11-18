@@ -1,0 +1,1415 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+  "title": "ICoN-PCL machine, recipe and manufacturing-run token profile",
+  "description": "Three primary tokens: physical-machine UUID, exact-byte recipe SHA-256 and run UUID. Supports several machines per recipe, several sequences per step and repeated runs. This schema does not implement a scheduler or device driver.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "profile": {
+      "const": "iconpcl-machine-recipe-run/v1"
+    },
+    "scope": {
+      "type": "string",
+      "minLength": 1
+    },
+    "machines": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Machine"
+      }
+    },
+    "recipes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/RecipeReference"
+      }
+    },
+    "runs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Run"
+      }
+    }
+  },
+  "required": [
+    "profile",
+    "scope",
+    "machines",
+    "recipes",
+    "runs"
+  ],
+  "$defs": {
+    "Artifact": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "uri": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri-reference"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "uri",
+        "sha256",
+        "media_type"
+      ]
+    },
+    "Quantity": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {
+          "type": "number"
+        },
+        "unit_uri": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "unit_text": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "value",
+        "unit_uri",
+        "unit_text"
+      ]
+    },
+    "Parameter": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parameter_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "value": {
+          "type": [
+            "number",
+            "string",
+            "boolean",
+            "null"
+          ]
+        },
+        "unit_uri": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "unit_text": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "specified",
+            "unresolved"
+          ]
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "parameter_id",
+        "value",
+        "unit_uri",
+        "unit_text",
+        "status",
+        "source_ids"
+      ]
+    },
+    "MachineRole": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "role_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "catalog_equipment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required_capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "role_id",
+        "category_ids",
+        "catalog_equipment_ids",
+        "required_capabilities"
+      ]
+    },
+    "Action": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "action_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "position": {
+          "type": "string",
+          "minLength": 1
+        },
+        "fiber": {
+          "type": "string",
+          "minLength": 1
+        },
+        "direction": {
+          "type": "string",
+          "minLength": 1
+        },
+        "definition_status": {
+          "enum": [
+            "illustrative_unverified",
+            "documented_model_bound"
+          ]
+        },
+        "operation_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "action_id",
+        "position",
+        "fiber",
+        "direction",
+        "definition_status",
+        "operation_reference",
+        "parameters",
+        "source_ids"
+      ]
+    },
+    "InstructionSequence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sequence_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "machine_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "actions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Action"
+          }
+        }
+      },
+      "required": [
+        "sequence_id",
+        "machine_role",
+        "actions"
+      ]
+    },
+    "Step": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "step_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prerequisite_step_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "instruction_sequences": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/InstructionSequence"
+          }
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        }
+      },
+      "required": [
+        "step_id",
+        "label",
+        "prerequisite_step_ids",
+        "instruction_sequences",
+        "parameters"
+      ]
+    },
+    "LatentGeometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "artifact": {
+          "$ref": "#/$defs/Artifact"
+        },
+        "tokenizer_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decoder_checkpoint": {
+          "$ref": "#/$defs/Artifact"
+        },
+        "prefix_length_k": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "latent_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "refinement_count_l": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "dtype": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalization_and_inverse_transform": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mesh_extraction_settings": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reconstruction_validation": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "artifact",
+        "tokenizer_version",
+        "decoder_checkpoint",
+        "prefix_length_k",
+        "latent_width",
+        "refinement_count_l",
+        "dtype",
+        "normalization_and_inverse_transform",
+        "mesh_extraction_settings",
+        "reconstruction_validation"
+      ]
+    },
+    "Geometry": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "design": {
+          "$ref": "#/$defs/Artifact"
+        },
+        "shape": {
+          "type": "string",
+          "minLength": 1
+        },
+        "coordinate_frame": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dimensions": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Quantity"
+          }
+        },
+        "tolerances": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        },
+        "build_orientation": {
+          "type": "string",
+          "minLength": 1
+        },
+        "latent_representation": {
+          "$ref": "#/$defs/LatentGeometry"
+        }
+      },
+      "required": [
+        "design",
+        "shape",
+        "coordinate_frame",
+        "dimensions",
+        "tolerances",
+        "build_orientation"
+      ]
+    },
+    "InputRole": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "role_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "material",
+            "utility",
+            "data"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "role_id",
+        "kind",
+        "required",
+        "description"
+      ]
+    },
+    "OutputSpecification": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "output_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geometry_ref": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "acceptance_criteria": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "output_role",
+        "description",
+        "geometry_ref",
+        "acceptance_criteria"
+      ]
+    },
+    "RecipeManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "profile": {
+          "const": "iconpcl-recipe-manifest/v1"
+        },
+        "recipe_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "revision": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "workflow_kind": {
+          "enum": [
+            "manufacturing_3d",
+            "manufacturing",
+            "computational",
+            "characterization"
+          ]
+        },
+        "scope": {
+          "enum": [
+            "illustrative_draft",
+            "validated_model_bound"
+          ]
+        },
+        "process_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "machine_roles": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/MachineRole"
+          }
+        },
+        "input_roles": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/InputRole"
+          }
+        },
+        "material_requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "geometry": {
+          "$ref": "#/$defs/Geometry"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/Step"
+          }
+        },
+        "preconditions": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "completion_signals": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "expected_outputs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/OutputSpecification"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "profile",
+        "recipe_id",
+        "revision",
+        "label",
+        "workflow_kind",
+        "scope",
+        "process_ids",
+        "machine_roles",
+        "input_roles",
+        "steps",
+        "preconditions",
+        "completion_signals",
+        "expected_outputs",
+        "source_ids"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "workflow_kind": {
+                "const": "manufacturing_3d"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "geometry"
+            ]
+          }
+        }
+      ]
+    },
+    "Controller": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "endpoint": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri"
+        },
+        "protocol": {
+          "type": "string",
+          "minLength": 1
+        },
+        "configuration_artifact": {
+          "$ref": "#/$defs/Artifact"
+        }
+      },
+      "required": [
+        "endpoint",
+        "protocol"
+      ]
+    },
+    "Machine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "machine_token": {
+          "type": "string",
+          "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "catalog_equipment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "registration_status": {
+          "enum": [
+            "illustrative_identity",
+            "registered_physical_unit"
+          ]
+        },
+        "registry_uri": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "controller": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Controller"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "driver": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Artifact"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "interfaces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Artifact"
+          }
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "machine_token",
+        "catalog_equipment_id",
+        "label",
+        "registration_status",
+        "registry_uri",
+        "controller",
+        "driver",
+        "interfaces",
+        "evidence_ids"
+      ]
+    },
+    "RecipeReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "recipe_token": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "manifest_uri": {
+          "type": "string",
+          "minLength": 1,
+          "format": "uri-reference"
+        },
+        "hash_profile": {
+          "const": "sha256-exact-manifest-bytes/v1"
+        }
+      },
+      "required": [
+        "recipe_token",
+        "manifest_uri",
+        "hash_profile"
+      ]
+    },
+    "MachineBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "machine_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "machine_token": {
+          "type": "string",
+          "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "configuration": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        }
+      },
+      "required": [
+        "machine_role",
+        "machine_token",
+        "configuration"
+      ]
+    },
+    "MaterialBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "material_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "batch_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "quantity": {
+          "$ref": "#/$defs/Quantity"
+        },
+        "binding_status": {
+          "enum": [
+            "illustrative_planned",
+            "verified_loaded",
+            "actual_consumed"
+          ]
+        },
+        "properties": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        }
+      },
+      "required": [
+        "input_role",
+        "material_id",
+        "batch_id",
+        "quantity",
+        "binding_status",
+        "properties"
+      ]
+    },
+    "UtilityBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        }
+      },
+      "required": [
+        "input_role",
+        "description",
+        "parameters"
+      ]
+    },
+    "DataBinding": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "input_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact": {
+          "$ref": "#/$defs/Artifact"
+        }
+      },
+      "required": [
+        "input_role",
+        "artifact"
+      ]
+    },
+    "InstructionExecution": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "execution_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "step_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sequence_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "action_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "status": {
+          "enum": [
+            "planned",
+            "running",
+            "completed",
+            "failed",
+            "aborted"
+          ]
+        },
+        "actual_parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ended_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "evidence_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "execution_id",
+        "step_id",
+        "sequence_id",
+        "action_ids",
+        "status",
+        "actual_parameters",
+        "evidence_ids"
+      ]
+    },
+    "Specimen": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "specimen_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_role": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geometry_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "measurements": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        }
+      },
+      "required": [
+        "specimen_id",
+        "output_role",
+        "geometry_ref",
+        "measurements"
+      ]
+    },
+    "Readiness": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "status": {
+          "enum": [
+            "not_assessed",
+            "blocked",
+            "ready"
+          ]
+        },
+        "missing_requirements": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "status",
+        "missing_requirements"
+      ]
+    },
+    "Run": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "run_token": {
+          "type": "string",
+          "pattern": "^urn:uuid:[0-9a-f]{8}-[0-9a-f]{4}-[1-8][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+        },
+        "recipe_token": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "scope": {
+          "enum": [
+            "illustrative_planned",
+            "recorded_execution"
+          ]
+        },
+        "status": {
+          "enum": [
+            "planned",
+            "ready",
+            "running",
+            "completed",
+            "failed",
+            "aborted"
+          ]
+        },
+        "machine_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/MachineBinding"
+          }
+        },
+        "material_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/MaterialBinding"
+          }
+        },
+        "utility_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/UtilityBinding"
+          }
+        },
+        "data_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/DataBinding"
+          }
+        },
+        "parameter_bindings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Parameter"
+          }
+        },
+        "instruction_executions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/InstructionExecution"
+          }
+        },
+        "execution_readiness": {
+          "$ref": "#/$defs/Readiness"
+        },
+        "started_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "ended_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "expected_specimens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Specimen"
+          }
+        },
+        "generated_specimens": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Specimen"
+          }
+        },
+        "artifacts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Artifact"
+          }
+        },
+        "deviations": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "required": [
+        "run_token",
+        "recipe_token",
+        "label",
+        "scope",
+        "status",
+        "machine_bindings",
+        "material_bindings",
+        "utility_bindings",
+        "data_bindings",
+        "parameter_bindings",
+        "instruction_executions",
+        "execution_readiness",
+        "expected_specimens",
+        "generated_specimens",
+        "artifacts",
+        "deviations"
+      ]
+    }
+  },
+  "x-hash-policy": {
+    "id": "sha256-exact-manifest-bytes/v1",
+    "algorithm": "SHA-256",
+    "input": "Exact bytes of the frozen recipe manifest file; do not include the recipe-token wrapper or run records.",
+    "encoding": "Example manifests are UTF-8 JSON, two-space indentation, LF line endings and one final LF. This is an explicit file-byte policy, not a claim of RFC 8785 canonicalization.",
+    "revision_rule": "Any change to manifest bytes or the checksum of a linked instruction/design artifact requires a new recipe token. No self-referential hashing. The same unchanged token is reused by distinct runs."
+  },
+  "x-relations": {
+    "machine_to_recipes": "one-to-many; the reverse can also be many because a workflow may coordinate several machines",
+    "recipe_to_runs": "one-to-many",
+    "run_to_recipe": "exactly one immutable recipe revision in this profile",
+    "catalog_identity": "A catalog equipment_id identifies a make/model record, not a particular physical machine."
+  },
+  "x-namespace-sources": {
+    "SAREF": "https://saref.etsi.org/core/v4.1.1/",
+    "PROV-O": "https://www.w3.org/TR/prov-o/",
+    "P-Plan": "https://www.opmw.org/model/p-plan/",
+    "DCMI": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+    "QUDT": "https://qudt.org/schema/qudt/",
+    "Schema.org": "https://schema.org/",
+    "SPDX": "https://spdx.org/rdf/terms/",
+    "ZipTok3D": "https://doi.org/10.48550/arXiv.2609.01740",
+    "Purdue MMRL": "https://engineering.purdue.edu/MMRL/equipment/renishaw-am400",
+    "ICoN-PCL": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json"
+  },
+  "x-execution-boundary": "Drafts are valid records. Autonomous execution additionally requires resolvable artifacts, verified physical-machine bindings and drivers, model-bound operations, complete unit-aware settings, bound feedstock/utility/data inputs, observable completion/error signals and resource/interlock checks. A token is an identifier or fingerprint, not a credential or self-contained executable.",
+  "x-field-mappings": [
+    {
+      "local_field": "machine_token",
+      "exchange_field": "saref:hasIdentifier",
+      "namespace": "ETSI SAREF",
+      "source_url": "https://saref.etsi.org/core/v4.1.1/hasIdentifier",
+      "duplicated": "No",
+      "scope": "One UUID per physical unit. A make/model catalog ID is a separate reference. Example: 3D recipe and runs tab."
+    },
+    {
+      "local_field": "machine.catalog_equipment_id",
+      "exchange_field": "icon:catalogModel",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "No",
+      "scope": "Reference the existing equipment_id. Do not mint a physical-machine identity for a catalog model."
+    },
+    {
+      "local_field": "machine.registry_uri",
+      "exchange_field": "schema:url",
+      "namespace": "Schema.org",
+      "source_url": "https://schema.org/url",
+      "duplicated": "No",
+      "scope": "Resolvable metadata-record address. UUID itself is neither a network address nor an access credential."
+    },
+    {
+      "local_field": "machine.controller",
+      "exchange_field": "icon:controller",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "No",
+      "scope": "Control endpoint and protocol, separate from the metadata registry address. Resolve credentials separately; never embed them in the public recipe."
+    },
+    {
+      "local_field": "machine.driver",
+      "exchange_field": "icon:deviceDriver; spdx:File",
+      "namespace": "ICoN-PCL / SPDX",
+      "source_url": "https://spdx.org/rdf/terms/",
+      "duplicated": "No",
+      "scope": "Reference the exact controller/adapter artifact, version and checksum. API credentials remain separate."
+    },
+    {
+      "local_field": "machine.interfaces[]",
+      "exchange_field": "dct:conformsTo",
+      "namespace": "DCMI",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+      "duplicated": "Yes",
+      "scope": "Versioned model-bound Position/Fiber/Direction definitions; preserve definition artifacts and checksums."
+    },
+    {
+      "local_field": "recipe_token",
+      "exchange_field": "dct:identifier on prov:Plan",
+      "namespace": "DCMI / PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "No",
+      "scope": "sha256:<64 lowercase hex> identifies one frozen manifest revision. Hash exact file bytes, outside the token wrapper."
+    },
+    {
+      "local_field": "recipe.manifest_uri",
+      "exchange_field": "schema:contentUrl",
+      "namespace": "Schema.org",
+      "source_url": "https://schema.org/contentUrl",
+      "duplicated": "No",
+      "scope": "Content URL on the manifest MediaObject. Plan references that artifact. Resolve and verify before use."
+    },
+    {
+      "local_field": "recipe.revision",
+      "exchange_field": "schema:version",
+      "namespace": "Schema.org",
+      "source_url": "https://schema.org/version",
+      "duplicated": "No",
+      "scope": "Human-readable revision inside the manifest. Any byte or linked-artifact checksum change creates a new recipe token."
+    },
+    {
+      "local_field": "recipe.machine_roles[]",
+      "exchange_field": "icon:machineRole",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Recipe can coordinate several roles. Each run binds every role to a physical machine_token."
+    },
+    {
+      "local_field": "recipe.geometry",
+      "exchange_field": "dct:hasPart",
+      "namespace": "DCMI",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+      "duplicated": "No",
+      "scope": "Required for 3D manufacturing. Reference CAD/mesh/design artifact, checksum, coordinate frame and orientation."
+    },
+    {
+      "local_field": "recipe.geometry.dimensions[]",
+      "exchange_field": "qudt:QuantityValue; qudt:numericValue; qudt:unit",
+      "namespace": "QUDT",
+      "source_url": "https://qudt.org/schema/qudt/",
+      "duplicated": "Yes",
+      "scope": "Physical dimensions and tolerances carry explicit units. Preserve dimensional scale and coordinate transforms."
+    },
+    {
+      "local_field": "recipe.geometry.latent_representation",
+      "exchange_field": "icon:latentGeometry",
+      "namespace": "ICoN-PCL / ZipTok3D",
+      "source_url": "https://doi.org/10.48550/arXiv.2609.01740",
+      "duplicated": "No",
+      "scope": "Optional learned representation: retain vector artifact, decoder checkpoint, K/L, dtype, normalization and reconstruction validation. Does not replace the authoritative design."
+    },
+    {
+      "local_field": "recipe.input_roles[]",
+      "exchange_field": "p-plan:Variable; p-plan:isVariableOfPlan",
+      "namespace": "P-Plan",
+      "source_url": "https://www.opmw.org/model/p-plan/",
+      "duplicated": "Yes",
+      "scope": "Declare material, utility or data roles. Step input references map to p-plan:hasInputVar on the Step."
+    },
+    {
+      "local_field": "recipe.material_requirements[]",
+      "exchange_field": "dct:requires",
+      "namespace": "DCMI",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+      "duplicated": "Yes",
+      "scope": "Optional at recipe level. Bind sufficient feedstock properties, batch and quantity at run launch when omitted here."
+    },
+    {
+      "local_field": "recipe.steps[]",
+      "exchange_field": "p-plan:Step; p-plan:isStepOfPlan",
+      "namespace": "P-Plan",
+      "source_url": "https://www.opmw.org/model/p-plan/",
+      "duplicated": "Yes",
+      "scope": "Each step has a stable local ID and belongs to this recipe revision. The plan is distinct from its executions."
+    },
+    {
+      "local_field": "recipe.steps[].prerequisite_step_ids[]",
+      "exchange_field": "p-plan:isPreceededBy",
+      "namespace": "P-Plan",
+      "source_url": "https://www.opmw.org/model/p-plan/",
+      "duplicated": "Yes",
+      "scope": "Link child step to prerequisite step. Independent branches remain parallel. Preserve official spelling isPreceededBy."
+    },
+    {
+      "local_field": "recipe.steps[].instruction_sequences[]",
+      "exchange_field": "icon:instructionSequence; rdf:List",
+      "namespace": "ICoN-PCL / RDF",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Several ordered sequences can belong to one step or machine role. Local sequence/action IDs are not extra primary token tiers."
+    },
+    {
+      "local_field": "recipe.steps[].instruction_sequences[].actions[]",
+      "exchange_field": "icon:operationBinding; saref:Command",
+      "namespace": "ICoN-PCL / SAREF",
+      "source_url": "https://saref.etsi.org/core/v4.1.1/",
+      "duplicated": "Yes",
+      "scope": "Bind Position -> Fiber -> Direction and typed parameters to an evidenced model-bound command. Illustrative labels are not manufacturer facts."
+    },
+    {
+      "local_field": "recipe.steps[].parameters[]",
+      "exchange_field": "qudt:QuantityValue",
+      "namespace": "QUDT",
+      "source_url": "https://qudt.org/schema/qudt/",
+      "duplicated": "Yes",
+      "scope": "Nominal recipe settings. Record quantity kind/value/unit and source; unresolved settings remain explicitly unresolved."
+    },
+    {
+      "local_field": "recipe.preconditions[]",
+      "exchange_field": "icon:requiredState",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Model-bound entry states, resource constraints and interlocks; controller must observe them before dispatch."
+    },
+    {
+      "local_field": "recipe.completion_signals[]",
+      "exchange_field": "icon:completionSignal",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Observable end/error signals and acceptance conditions, separate from expected material properties."
+    },
+    {
+      "local_field": "recipe.expected_outputs[]",
+      "exchange_field": "p-plan:Variable",
+      "namespace": "P-Plan",
+      "source_url": "https://www.opmw.org/model/p-plan/",
+      "duplicated": "Yes",
+      "scope": "Intended specimens/data with shape and acceptance criteria. Expectations are not measured results."
+    },
+    {
+      "local_field": "run_token",
+      "exchange_field": "dct:identifier",
+      "namespace": "DCMI",
+      "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+      "duplicated": "No",
+      "scope": "One UUID per specific attempt. Same recipe, repeated runs: different UUIDs. Preserve retries as distinct attempts."
+    },
+    {
+      "local_field": "run.recipe_token",
+      "exchange_field": "icon:plannedRecipe; prov:hadPlan",
+      "namespace": "ICoN-PCL / PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "No",
+      "scope": "Foreign-key reference to exact recipe token. For an actual execution, prov:hadPlan belongs on its qualified Association, not directly on an Activity. Planned runs remain planning records."
+    },
+    {
+      "local_field": "run.machine_bindings[]",
+      "exchange_field": "icon:plannedMachineBinding; prov:used",
+      "namespace": "ICoN-PCL / PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "Yes",
+      "scope": "Bind roles to machine UUIDs and configurations. Use prov:used only for observed actual usage, not a planned assignment."
+    },
+    {
+      "local_field": "run.material_bindings[]",
+      "exchange_field": "icon:plannedMaterialBinding; prov:used",
+      "namespace": "ICoN-PCL / PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "Yes",
+      "scope": "Material ID, batch, unit-aware quantity and properties. Distinguish planned, verified loaded and actually consumed amounts."
+    },
+    {
+      "local_field": "run.utility_bindings[]",
+      "exchange_field": "icon:utilityBinding",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Bind required gases, cooling, power or other utilities to their properties and unit-aware settings. Verify live conditions before dispatch."
+    },
+    {
+      "local_field": "run.data_bindings[]",
+      "exchange_field": "dct:references; spdx:checksum",
+      "namespace": "DCMI / SPDX",
+      "source_url": "https://spdx.org/rdf/terms/",
+      "duplicated": "Yes",
+      "scope": "Bind required toolpaths, qualified build programs and other input data by role, artifact URI and checksum."
+    },
+    {
+      "local_field": "run.parameter_bindings[]",
+      "exchange_field": "icon:parameterBinding; qudt:QuantityValue",
+      "namespace": "ICoN-PCL / QUDT",
+      "source_url": "https://qudt.org/schema/qudt/",
+      "duplicated": "Yes",
+      "scope": "Run-specific settings. Preserve intended versus observed settings and the material-specific qualified parameter artifact."
+    },
+    {
+      "local_field": "run.instruction_executions[]",
+      "exchange_field": "p-plan:Activity; p-plan:correspondsToStep",
+      "namespace": "P-Plan",
+      "source_url": "https://www.opmw.org/model/p-plan/",
+      "duplicated": "Yes",
+      "scope": "One record per sequence occurrence, with its own local execution ID. Assert Activity only for actual executions; planned entries are intent records."
+    },
+    {
+      "local_field": "run.status",
+      "exchange_field": "icon:executionStatus",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "No",
+      "scope": "planned / ready / running / completed / failed / aborted. Readiness requires an executable, fully bound plan and runtime verification."
+    },
+    {
+      "local_field": "run.started_at",
+      "exchange_field": "prov:startedAtTime",
+      "namespace": "PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "No",
+      "scope": "Actual timestamp including timezone. Leave absent for an unexecuted planned run."
+    },
+    {
+      "local_field": "run.ended_at",
+      "exchange_field": "prov:endedAtTime",
+      "namespace": "PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "No",
+      "scope": "Actual ending timestamp, including timezone. Do not invent an ending for a planned or running record."
+    },
+    {
+      "local_field": "run.expected_specimens[]",
+      "exchange_field": "icon:expectedSpecimen",
+      "namespace": "ICoN-PCL",
+      "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+      "duplicated": "Yes",
+      "scope": "Planned specimen IDs link to recipe geometry and criteria. They do not assert that material has been manufactured."
+    },
+    {
+      "local_field": "run.generated_specimens[]",
+      "exchange_field": "prov:wasGeneratedBy",
+      "namespace": "PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "Yes",
+      "scope": "Only actual specimens link back to the run Activity. Keep measured geometry/properties and evidence for each specimen."
+    },
+    {
+      "local_field": "run.artifacts[]",
+      "exchange_field": "dct:references; spdx:checksum",
+      "namespace": "DCMI / SPDX",
+      "source_url": "https://spdx.org/rdf/terms/",
+      "duplicated": "Yes",
+      "scope": "Logs, programs, data and results. Each referenced artifact has URI and exact-byte SHA-256. Supporting checksums do not add a fourth primary token tier."
+    },
+    {
+      "local_field": "run.deviations[]",
+      "exchange_field": "dct:description on prov:Entity",
+      "namespace": "DCMI / PROV-O",
+      "source_url": "https://www.w3.org/TR/prov-o/",
+      "duplicated": "Yes",
+      "scope": "Record deviations and evidence separately from the frozen recipe. Changing a record does not change the run UUID."
+    }
+  ],
+  "x-prefixes": {
+    "icon": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#",
+    "saref": "https://saref.etsi.org/core/",
+    "prov": "http://www.w3.org/ns/prov#",
+    "p-plan": "http://purl.org/net/p-plan#",
+    "dct": "http://purl.org/dc/terms/",
+    "qudt": "http://qudt.org/schema/qudt/",
+    "unit": "http://qudt.org/vocab/unit/",
+    "spdx": "http://spdx.org/rdf/terms#",
+    "schema": "https://schema.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  }
+}

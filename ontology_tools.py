@@ -385,7 +385,8 @@ def artifacts(root):
     turtle = '\n'.join(sorted(line for line in graph.serialize(format='nt').splitlines() if line.strip())) + '\n'
     jsonld = json_text(stable_jsonld(json.loads(graph.serialize(format='json-ld'))))
     inputs = sorted(['equipment.csv', 'categories.csv', 'supplemental_categories.csv', 'routes.csv', 'route_steps.csv', 'component_formulations.csv', 'references.csv', 'reference_links.csv', 'product_families.csv', 'model_identity_reviews.csv', 'condition_definitions.json', 'process_conditions.csv', 'process_condition_evidence.csv', 'process_property_anchors.csv', 'process_science_review_2026-10-17.json', 'ontology/shapes.ttl'])
-    inputs += ['metadata-profile.json', 'ontology_term_references.csv']
+    inputs += ['metadata-profile.json', 'ontology_term_references.csv',
+               'ontology/machine-recipe-run.schema.json', 'ontology/machine-recipe-run.ttl']
     hashes = {name: hashlib.sha256((root / 'catalog' / name).read_bytes().replace(b'\r\n', b'\n')).hexdigest() for name in inputs}
     report = {
         'schema': 'icon-ontology-audit/v1', 'review_date': science['checked_date'],
@@ -414,6 +415,8 @@ def artifacts(root):
                'schemas.json': json_text(schemas()), 'normalized-conditions.json': json_text(normalization),
                'shapes.ttl': (root / 'catalog/ontology/shapes.ttl').read_text(encoding='utf-8')}
     outputs['metadata-profile.json'] = (root / 'catalog/metadata-profile.json').read_text(encoding='utf-8')
+    for name in ['machine-recipe-run.schema.json', 'machine-recipe-run.ttl']:
+        outputs[name] = (root / 'catalog/ontology' / name).read_text(encoding='utf-8')
     outputs['ontology-term-references.csv'] = (root / 'catalog/ontology_term_references.csv').read_text(encoding='utf-8')
     return outputs, report
 

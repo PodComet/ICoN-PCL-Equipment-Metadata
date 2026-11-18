@@ -1,0 +1,29 @@
+{
+  "namespace": "Example-local source identifiers; these are not IDs of observed executions or entries asserted to exist in the live evidence registry.",
+  "entries": [
+    {
+      "id": "PURDUE-AM400",
+      "classification": "institution_documented_equipment",
+      "source_url": "https://engineering.purdue.edu/MMRL/equipment/renishaw-am400",
+      "source_locator": "Renishaw AM400; Laser Powder Bed Fusion; machine specifications and unique capabilities",
+      "claim": "Purdue MMRL documents a Renishaw AM400 LPBF system, its 250 x 250 x 300 mm build volume and open parameter controls.",
+      "scope": "Supports model identity, institutional installation and the LPBF workflow context. Does not verify the example physical UUID, control labels, coupon design, batch IDs, operating recipe or any run result."
+    },
+    {
+      "id": "ZIPTOK3D-2026",
+      "classification": "literature_reported",
+      "source_url": "https://doi.org/10.48550/arXiv.2609.01740",
+      "source_locator": "Sections 3 and 4.1; supplementary data-preprocessing and reconstruction settings",
+      "claim": "ZipTok3D represents and reconstructs object geometry using compact learned latent prefixes and a model-dependent iterative decoder.",
+      "scope": "Supports the optional learned geometry representation. Does not define this manufacturing recipe, UUID/run profile, executable toolpath or manufacturing tolerance guarantee."
+    },
+    {
+      "id": "ICONPCL-ILLUSTRATIVE-DESIGN",
+      "classification": "curator_proposal",
+      "source_url": "https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/tree/main/catalog/examples/three-token-3d",
+      "source_locator": "annular-coupon.scad; annular-coupon.recipe.json; one-recipe-three-runs.json",
+      "claim": "An illustrative annular-coupon design and one immutable recipe linked to three planned runs demonstrate the metadata relationships.",
+      "scope": "Project-authored example. UUIDs, batches, amounts, intended specimens and operation labels are illustrative. No manufacturing execution or measured output is asserted."
+    }
+  ]
+}

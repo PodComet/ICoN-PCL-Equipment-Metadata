@@ -5,3 +5,4 @@ rdflib==7.6.0
 pyshacl==0.40.1
 networkx==3.6.1
 scikit-learn==1.8.0
+jsonschema==4.25.1

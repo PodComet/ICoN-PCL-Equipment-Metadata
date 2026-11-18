@@ -28,7 +28,7 @@
   "libraries": {
     "networkx": "3.6.1",
     "pint": "0.25.3",
-    "pydantic": "2.14.1",
+    "pydantic": "2.12.5",
     "pyshacl": "0.40.1",
     "rdflib": "7.6.0",
     "scikit-learn": "1.8.0"

@@ -1,0 +1,264 @@
+{
+  "profile": "iconpcl-recipe-manifest/v1",
+  "recipe_id": "DEMO-LPBF-ANNULAR-COUPON",
+  "revision": "1",
+  "label": "LPBF annular coupon; feedstock bound at run launch",
+  "workflow_kind": "manufacturing_3d",
+  "scope": "illustrative_draft",
+  "process_ids": [
+    "P48"
+  ],
+  "machine_roles": [
+    {
+      "role_id": "lpbf_printer",
+      "category_ids": [
+        "M117"
+      ],
+      "catalog_equipment_ids": [
+        "REQ-EQ-005"
+      ],
+      "required_capabilities": [
+        "Metal laser powder bed fusion",
+        "Import a qualified build program",
+        "Monitor documented build completion and errors"
+      ]
+    }
+  ],
+  "input_roles": [
+    {
+      "role_id": "feedstock",
+      "kind": "material",
+      "required": true,
+      "description": "Powder specification, batch, quantity and the matching qualified parameter file must be supplied at run launch."
+    },
+    {
+      "role_id": "qualified_build_program",
+      "kind": "data",
+      "required": true,
+      "description": "Machine-specific sliced/build instructions and their checksum; the CAD file alone is insufficient."
+    },
+    {
+      "role_id": "inert_atmosphere",
+      "kind": "utility",
+      "required": true,
+      "description": "Verified process gas and model-specific atmosphere/interlock conditions."
+    }
+  ],
+  "material_requirements": [],
+  "geometry": {
+    "design": {
+      "uri": "annular-coupon.scad",
+      "sha256": "9ad360dac3b534558a68ec992b238e3a0bec30716ad10607afe6ca34cd594685",
+      "media_type": "text/plain",
+      "description": "Illustrative OpenSCAD design, millimetres; 128-segment approximation. Preserve analytic dimensions below. Not an executable AM400 build file."
+    },
+    "shape": "hollow cylindrical coupon",
+    "coordinate_frame": "Right-handed Cartesian coordinates; origin at centre of lower annular face; positive Z is build height.",
+    "dimensions": {
+      "outer_diameter": {
+        "value": 12,
+        "unit_uri": "http://qudt.org/vocab/unit/MilliM",
+        "unit_text": "mm"
+      },
+      "inner_diameter": {
+        "value": 8,
+        "unit_uri": "http://qudt.org/vocab/unit/MilliM",
+        "unit_text": "mm"
+      },
+      "height": {
+        "value": 10,
+        "unit_uri": "http://qudt.org/vocab/unit/MilliM",
+        "unit_text": "mm"
+      }
+    },
+    "tolerances": [
+      {
+        "parameter_id": "dimensional_tolerance",
+        "value": null,
+        "unit_uri": null,
+        "unit_text": "mm",
+        "status": "unresolved",
+        "source_ids": []
+      }
+    ],
+    "build_orientation": "Cylinder axis parallel to positive build Z; orientation is an illustrative planning choice."
+  },
+  "steps": [
+    {
+      "step_id": "S1",
+      "label": "Resolve design and qualified build program",
+      "prerequisite_step_ids": [],
+      "instruction_sequences": [
+        {
+          "sequence_id": "S1-A",
+          "machine_role": "lpbf_printer",
+          "actions": [
+            {
+              "action_id": "S1-A-1",
+              "position": "offline",
+              "fiber": "job_preparation",
+              "direction": "verify_design_and_build_file",
+              "definition_status": "illustrative_unverified",
+              "operation_reference": null,
+              "parameters": [],
+              "source_ids": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "step_id": "S2",
+      "label": "Bind feedstock and establish documented machine-ready state",
+      "prerequisite_step_ids": [
+        "S1"
+      ],
+      "instruction_sequences": [
+        {
+          "sequence_id": "S2-A",
+          "machine_role": "lpbf_printer",
+          "actions": [
+            {
+              "action_id": "S2-A-1",
+              "position": "loading",
+              "fiber": "material_handling",
+              "direction": "bind_loaded_feedstock",
+              "definition_status": "illustrative_unverified",
+              "operation_reference": null,
+              "parameters": [],
+              "source_ids": []
+            }
+          ]
+        },
+        {
+          "sequence_id": "S2-B",
+          "machine_role": "lpbf_printer",
+          "actions": [
+            {
+              "action_id": "S2-B-1",
+              "position": "chamber_closed",
+              "fiber": "atmosphere_control",
+              "direction": "verify_required_atmosphere",
+              "definition_status": "illustrative_unverified",
+              "operation_reference": null,
+              "parameters": [],
+              "source_ids": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "step_id": "S3",
+      "label": "Execute the qualified layerwise build",
+      "prerequisite_step_ids": [
+        "S2"
+      ],
+      "instruction_sequences": [
+        {
+          "sequence_id": "S3-A",
+          "machine_role": "lpbf_printer",
+          "actions": [
+            {
+              "action_id": "S3-A-1",
+              "position": "build_ready",
+              "fiber": "build_control",
+              "direction": "start_and_monitor_build",
+              "definition_status": "illustrative_unverified",
+              "operation_reference": null,
+              "parameters": [
+                {
+                  "parameter_id": "laser_power",
+                  "value": null,
+                  "unit_uri": null,
+                  "unit_text": "W",
+                  "status": "unresolved",
+                  "source_ids": []
+                },
+                {
+                  "parameter_id": "layer_thickness",
+                  "value": null,
+                  "unit_uri": null,
+                  "unit_text": "µm",
+                  "status": "unresolved",
+                  "source_ids": []
+                },
+                {
+                  "parameter_id": "exposure_time",
+                  "value": null,
+                  "unit_uri": null,
+                  "unit_text": "µs",
+                  "status": "unresolved",
+                  "source_ids": []
+                },
+                {
+                  "parameter_id": "hatch_spacing",
+                  "value": null,
+                  "unit_uri": null,
+                  "unit_text": "mm",
+                  "status": "unresolved",
+                  "source_ids": []
+                }
+              ],
+              "source_ids": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "step_id": "S4",
+      "label": "Follow qualified recovery and dimensional-inspection procedure",
+      "prerequisite_step_ids": [
+        "S3"
+      ],
+      "instruction_sequences": [
+        {
+          "sequence_id": "S4-A",
+          "machine_role": "lpbf_printer",
+          "actions": [
+            {
+              "action_id": "S4-A-1",
+              "position": "recovery_ready",
+              "fiber": "specimen_recovery",
+              "direction": "recover_and_record_specimen",
+              "definition_status": "illustrative_unverified",
+              "operation_reference": null,
+              "parameters": [],
+              "source_ids": []
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "preconditions": [
+    "Resolve all model-specific drivers and operation definitions.",
+    "Bind verified feedstock, quantity, gas and qualified parameter/build artifacts.",
+    "Pass documented calibration, resource reservation and interlock checks."
+  ],
+  "completion_signals": [
+    "Documented machine build-finished signal and recorded build log.",
+    "Record specimen identity and dimensional inspection against approved tolerances."
+  ],
+  "expected_outputs": [
+    {
+      "output_role": "annular_coupon",
+      "description": "One intended hollow cylindrical specimen; no manufactured result is asserted.",
+      "geometry_ref": "#/geometry",
+      "acceptance_criteria": [
+        "Nominal outer diameter 12 mm, inner diameter 8 mm, height 10 mm.",
+        "Approve dimensional tolerances and inspection method before execution."
+      ]
+    }
+  ],
+  "source_ids": [
+    "PURDUE-AM400",
+    "ZIPTOK3D-2026",
+    "ICONPCL-ILLUSTRATIVE-DESIGN"
+  ]
+}

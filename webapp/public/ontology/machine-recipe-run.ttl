@@ -1,0 +1,38 @@
+@prefix icon: <https://github.com/PodComet/ICoN-PCL-Equipment-Metadata/ontology#> .
+@prefix saref: <https://saref.etsi.org/core/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix p-plan: <http://purl.org/net/p-plan#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+
+icon:MachineRecipeRunProfile a owl:Ontology ;
+    dct:title "ICoN-PCL three-token workflow metadata extension" ;
+    owl:versionInfo "1" ;
+    dct:references <https://saref.etsi.org/core/v4.1.1/>,
+      <https://www.w3.org/TR/prov-o/>, <https://www.opmw.org/model/p-plan/>,
+      <https://spdx.org/rdf/terms/> ;
+    rdfs:comment "Additive metadata vocabulary. No inference here asserts that a planned workflow was executed or that a catalog model is a physical instrument." .
+
+icon:MachineInstance a owl:Class ; rdfs:subClassOf saref:Device, prov:Entity .
+icon:ManufacturingRecipe a owl:Class ; rdfs:subClassOf prov:Plan, p-plan:Plan .
+icon:ManufacturingRun a owl:Class ; rdfs:subClassOf prov:Activity ;
+    rdfs:comment "An actual observed manufacturing execution. A planned run is a separate planning record." .
+icon:PlannedManufacturingRun a owl:Class ; rdfs:subClassOf prov:Entity .
+
+icon:catalogModel a owl:ObjectProperty ; rdfs:comment "Physical machine to its existing make/model catalog record." .
+icon:controller a owl:ObjectProperty ; rdfs:comment "Control endpoint and protocol description; credentials are external." .
+icon:deviceDriver a owl:ObjectProperty ; rdfs:comment "Exact driver/adapter artifact with version and checksum." .
+icon:machineRole a owl:ObjectProperty ; rdfs:comment "Required machine role in a recipe, bound to a physical unit for a run." .
+icon:latentGeometry a owl:ObjectProperty ; rdfs:comment "Optional model-bound learned geometry representation, with decoder and normalization provenance." .
+icon:instructionSequence a owl:ObjectProperty ; rdfs:comment "An ordered instruction list; several lists may belong to one recipe step." .
+icon:operationBinding a owl:ObjectProperty ; rdfs:comment "Position/Fiber/Direction and typed settings bound to a documented command when available." .
+icon:requiredState a owl:ObjectProperty ; rdfs:comment "Structured or referenced precondition/state declaration." .
+icon:completionSignal a owl:ObjectProperty ; rdfs:comment "Observable completion/error signal declaration." .
+icon:plannedRecipe a owl:ObjectProperty ; rdfs:comment "Planned run record to the immutable intended recipe revision." .
+icon:plannedMachineBinding a owl:ObjectProperty ; rdfs:comment "Planned assignment. Does not assert prov:used." .
+icon:plannedMaterialBinding a owl:ObjectProperty ; rdfs:comment "Planned feedstock assignment. Does not assert actual consumption." .
+icon:utilityBinding a owl:ObjectProperty ; rdfs:comment "Required utility assignment and its unit-aware properties." .
+icon:parameterBinding a owl:ObjectProperty ; rdfs:comment "Intended or observed run-specific setting; retain status and units." .
+icon:executionStatus a owl:DatatypeProperty ; rdfs:comment "Lifecycle status recorded by the application; not proof of observed execution." .
+icon:expectedSpecimen a owl:ObjectProperty ; rdfs:comment "Intended specimen record. Actual specimens use prov:wasGeneratedBy after execution." .

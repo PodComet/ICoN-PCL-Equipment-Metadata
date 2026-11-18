@@ -215,5 +215,323 @@
   "skill_source": {
     "repository": "https://github.com/knowledgepixels/nanopub-skill",
     "installed_skill_sha256": "3f97d2b2210b05c846b24e7bfb897c4a3f8501f241c8471af64fd960b846da19"
+  },
+  "workflow_token_extension": {
+    "profile": "iconpcl-machine-recipe-run/v1",
+    "review_date": "2026-11-18",
+    "schema": "ontology/machine-recipe-run.schema.json",
+    "example": "examples/three-token-3d/one-recipe-three-runs.json",
+    "primary_tokens": [
+      "machine_token",
+      "recipe_token",
+      "run_token"
+    ],
+    "field_mappings": [
+      {
+        "local_field": "machine_token",
+        "exchange_field": "saref:hasIdentifier",
+        "namespace": "ETSI SAREF",
+        "source_url": "https://saref.etsi.org/core/v4.1.1/hasIdentifier",
+        "duplicated": "No",
+        "scope": "One UUID per physical unit. A make/model catalog ID is a separate reference. Example: 3D recipe and runs tab."
+      },
+      {
+        "local_field": "machine.catalog_equipment_id",
+        "exchange_field": "icon:catalogModel",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "No",
+        "scope": "Reference the existing equipment_id. Do not mint a physical-machine identity for a catalog model."
+      },
+      {
+        "local_field": "machine.registry_uri",
+        "exchange_field": "schema:url",
+        "namespace": "Schema.org",
+        "source_url": "https://schema.org/url",
+        "duplicated": "No",
+        "scope": "Resolvable metadata-record address. UUID itself is neither a network address nor an access credential."
+      },
+      {
+        "local_field": "machine.controller",
+        "exchange_field": "icon:controller",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "No",
+        "scope": "Control endpoint and protocol, separate from the metadata registry address. Resolve credentials separately; never embed them in the public recipe."
+      },
+      {
+        "local_field": "machine.driver",
+        "exchange_field": "icon:deviceDriver; spdx:File",
+        "namespace": "ICoN-PCL / SPDX",
+        "source_url": "https://spdx.org/rdf/terms/",
+        "duplicated": "No",
+        "scope": "Reference the exact controller/adapter artifact, version and checksum. API credentials remain separate."
+      },
+      {
+        "local_field": "machine.interfaces[]",
+        "exchange_field": "dct:conformsTo",
+        "namespace": "DCMI",
+        "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+        "duplicated": "Yes",
+        "scope": "Versioned model-bound Position/Fiber/Direction definitions; preserve definition artifacts and checksums."
+      },
+      {
+        "local_field": "recipe_token",
+        "exchange_field": "dct:identifier on prov:Plan",
+        "namespace": "DCMI / PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "No",
+        "scope": "sha256:<64 lowercase hex> identifies one frozen manifest revision. Hash exact file bytes, outside the token wrapper."
+      },
+      {
+        "local_field": "recipe.manifest_uri",
+        "exchange_field": "schema:contentUrl",
+        "namespace": "Schema.org",
+        "source_url": "https://schema.org/contentUrl",
+        "duplicated": "No",
+        "scope": "Content URL on the manifest MediaObject. Plan references that artifact. Resolve and verify before use."
+      },
+      {
+        "local_field": "recipe.revision",
+        "exchange_field": "schema:version",
+        "namespace": "Schema.org",
+        "source_url": "https://schema.org/version",
+        "duplicated": "No",
+        "scope": "Human-readable revision inside the manifest. Any byte or linked-artifact checksum change creates a new recipe token."
+      },
+      {
+        "local_field": "recipe.machine_roles[]",
+        "exchange_field": "icon:machineRole",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Recipe can coordinate several roles. Each run binds every role to a physical machine_token."
+      },
+      {
+        "local_field": "recipe.geometry",
+        "exchange_field": "dct:hasPart",
+        "namespace": "DCMI",
+        "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+        "duplicated": "No",
+        "scope": "Required for 3D manufacturing. Reference CAD/mesh/design artifact, checksum, coordinate frame and orientation."
+      },
+      {
+        "local_field": "recipe.geometry.dimensions[]",
+        "exchange_field": "qudt:QuantityValue; qudt:numericValue; qudt:unit",
+        "namespace": "QUDT",
+        "source_url": "https://qudt.org/schema/qudt/",
+        "duplicated": "Yes",
+        "scope": "Physical dimensions and tolerances carry explicit units. Preserve dimensional scale and coordinate transforms."
+      },
+      {
+        "local_field": "recipe.geometry.latent_representation",
+        "exchange_field": "icon:latentGeometry",
+        "namespace": "ICoN-PCL / ZipTok3D",
+        "source_url": "https://doi.org/10.48550/arXiv.2609.01740",
+        "duplicated": "No",
+        "scope": "Optional learned representation: retain vector artifact, decoder checkpoint, K/L, dtype, normalization and reconstruction validation. Does not replace the authoritative design."
+      },
+      {
+        "local_field": "recipe.input_roles[]",
+        "exchange_field": "p-plan:Variable; p-plan:isVariableOfPlan",
+        "namespace": "P-Plan",
+        "source_url": "https://www.opmw.org/model/p-plan/",
+        "duplicated": "Yes",
+        "scope": "Declare material, utility or data roles. Step input references map to p-plan:hasInputVar on the Step."
+      },
+      {
+        "local_field": "recipe.material_requirements[]",
+        "exchange_field": "dct:requires",
+        "namespace": "DCMI",
+        "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+        "duplicated": "Yes",
+        "scope": "Optional at recipe level. Bind sufficient feedstock properties, batch and quantity at run launch when omitted here."
+      },
+      {
+        "local_field": "recipe.steps[]",
+        "exchange_field": "p-plan:Step; p-plan:isStepOfPlan",
+        "namespace": "P-Plan",
+        "source_url": "https://www.opmw.org/model/p-plan/",
+        "duplicated": "Yes",
+        "scope": "Each step has a stable local ID and belongs to this recipe revision. The plan is distinct from its executions."
+      },
+      {
+        "local_field": "recipe.steps[].prerequisite_step_ids[]",
+        "exchange_field": "p-plan:isPreceededBy",
+        "namespace": "P-Plan",
+        "source_url": "https://www.opmw.org/model/p-plan/",
+        "duplicated": "Yes",
+        "scope": "Link child step to prerequisite step. Independent branches remain parallel. Preserve official spelling isPreceededBy."
+      },
+      {
+        "local_field": "recipe.steps[].instruction_sequences[]",
+        "exchange_field": "icon:instructionSequence; rdf:List",
+        "namespace": "ICoN-PCL / RDF",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Several ordered sequences can belong to one step or machine role. Local sequence/action IDs are not extra primary token tiers."
+      },
+      {
+        "local_field": "recipe.steps[].instruction_sequences[].actions[]",
+        "exchange_field": "icon:operationBinding; saref:Command",
+        "namespace": "ICoN-PCL / SAREF",
+        "source_url": "https://saref.etsi.org/core/v4.1.1/",
+        "duplicated": "Yes",
+        "scope": "Bind Position -> Fiber -> Direction and typed parameters to an evidenced model-bound command. Illustrative labels are not manufacturer facts."
+      },
+      {
+        "local_field": "recipe.steps[].parameters[]",
+        "exchange_field": "qudt:QuantityValue",
+        "namespace": "QUDT",
+        "source_url": "https://qudt.org/schema/qudt/",
+        "duplicated": "Yes",
+        "scope": "Nominal recipe settings. Record quantity kind/value/unit and source; unresolved settings remain explicitly unresolved."
+      },
+      {
+        "local_field": "recipe.preconditions[]",
+        "exchange_field": "icon:requiredState",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Model-bound entry states, resource constraints and interlocks; controller must observe them before dispatch."
+      },
+      {
+        "local_field": "recipe.completion_signals[]",
+        "exchange_field": "icon:completionSignal",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Observable end/error signals and acceptance conditions, separate from expected material properties."
+      },
+      {
+        "local_field": "recipe.expected_outputs[]",
+        "exchange_field": "p-plan:Variable",
+        "namespace": "P-Plan",
+        "source_url": "https://www.opmw.org/model/p-plan/",
+        "duplicated": "Yes",
+        "scope": "Intended specimens/data with shape and acceptance criteria. Expectations are not measured results."
+      },
+      {
+        "local_field": "run_token",
+        "exchange_field": "dct:identifier",
+        "namespace": "DCMI",
+        "source_url": "https://www.dublincore.org/specifications/dublin-core/dcmi-terms/",
+        "duplicated": "No",
+        "scope": "One UUID per specific attempt. Same recipe, repeated runs: different UUIDs. Preserve retries as distinct attempts."
+      },
+      {
+        "local_field": "run.recipe_token",
+        "exchange_field": "icon:plannedRecipe; prov:hadPlan",
+        "namespace": "ICoN-PCL / PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "No",
+        "scope": "Foreign-key reference to exact recipe token. For an actual execution, prov:hadPlan belongs on its qualified Association, not directly on an Activity. Planned runs remain planning records."
+      },
+      {
+        "local_field": "run.machine_bindings[]",
+        "exchange_field": "icon:plannedMachineBinding; prov:used",
+        "namespace": "ICoN-PCL / PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "Yes",
+        "scope": "Bind roles to machine UUIDs and configurations. Use prov:used only for observed actual usage, not a planned assignment."
+      },
+      {
+        "local_field": "run.material_bindings[]",
+        "exchange_field": "icon:plannedMaterialBinding; prov:used",
+        "namespace": "ICoN-PCL / PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "Yes",
+        "scope": "Material ID, batch, unit-aware quantity and properties. Distinguish planned, verified loaded and actually consumed amounts."
+      },
+      {
+        "local_field": "run.utility_bindings[]",
+        "exchange_field": "icon:utilityBinding",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Bind required gases, cooling, power or other utilities to their properties and unit-aware settings. Verify live conditions before dispatch."
+      },
+      {
+        "local_field": "run.data_bindings[]",
+        "exchange_field": "dct:references; spdx:checksum",
+        "namespace": "DCMI / SPDX",
+        "source_url": "https://spdx.org/rdf/terms/",
+        "duplicated": "Yes",
+        "scope": "Bind required toolpaths, qualified build programs and other input data by role, artifact URI and checksum."
+      },
+      {
+        "local_field": "run.parameter_bindings[]",
+        "exchange_field": "icon:parameterBinding; qudt:QuantityValue",
+        "namespace": "ICoN-PCL / QUDT",
+        "source_url": "https://qudt.org/schema/qudt/",
+        "duplicated": "Yes",
+        "scope": "Run-specific settings. Preserve intended versus observed settings and the material-specific qualified parameter artifact."
+      },
+      {
+        "local_field": "run.instruction_executions[]",
+        "exchange_field": "p-plan:Activity; p-plan:correspondsToStep",
+        "namespace": "P-Plan",
+        "source_url": "https://www.opmw.org/model/p-plan/",
+        "duplicated": "Yes",
+        "scope": "One record per sequence occurrence, with its own local execution ID. Assert Activity only for actual executions; planned entries are intent records."
+      },
+      {
+        "local_field": "run.status",
+        "exchange_field": "icon:executionStatus",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "No",
+        "scope": "planned / ready / running / completed / failed / aborted. Readiness requires an executable, fully bound plan and runtime verification."
+      },
+      {
+        "local_field": "run.started_at",
+        "exchange_field": "prov:startedAtTime",
+        "namespace": "PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "No",
+        "scope": "Actual timestamp including timezone. Leave absent for an unexecuted planned run."
+      },
+      {
+        "local_field": "run.ended_at",
+        "exchange_field": "prov:endedAtTime",
+        "namespace": "PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "No",
+        "scope": "Actual ending timestamp, including timezone. Do not invent an ending for a planned or running record."
+      },
+      {
+        "local_field": "run.expected_specimens[]",
+        "exchange_field": "icon:expectedSpecimen",
+        "namespace": "ICoN-PCL",
+        "source_url": "https://raw.githubusercontent.com/PodComet/ICoN-PCL-Equipment-Metadata/main/catalog/ontology/machine-recipe-run.schema.json",
+        "duplicated": "Yes",
+        "scope": "Planned specimen IDs link to recipe geometry and criteria. They do not assert that material has been manufactured."
+      },
+      {
+        "local_field": "run.generated_specimens[]",
+        "exchange_field": "prov:wasGeneratedBy",
+        "namespace": "PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "Yes",
+        "scope": "Only actual specimens link back to the run Activity. Keep measured geometry/properties and evidence for each specimen."
+      },
+      {
+        "local_field": "run.artifacts[]",
+        "exchange_field": "dct:references; spdx:checksum",
+        "namespace": "DCMI / SPDX",
+        "source_url": "https://spdx.org/rdf/terms/",
+        "duplicated": "Yes",
+        "scope": "Logs, programs, data and results. Each referenced artifact has URI and exact-byte SHA-256. Supporting checksums do not add a fourth primary token tier."
+      },
+      {
+        "local_field": "run.deviations[]",
+        "exchange_field": "dct:description on prov:Entity",
+        "namespace": "DCMI / PROV-O",
+        "source_url": "https://www.w3.org/TR/prov-o/",
+        "duplicated": "Yes",
+        "scope": "Record deviations and evidence separately from the frozen recipe. Changing a record does not change the run UUID."
+      }
+    ],
+    "scope": "Additive schema and illustrative linked records. Existing catalog records, saved workflows and evidence are not migrated. No autonomous executor is implemented."
   }
 }
