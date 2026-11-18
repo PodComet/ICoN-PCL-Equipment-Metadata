@@ -22,6 +22,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 
 from ontology_models import EquipmentIdentity, Requirements, schemas
+from route_types import route_class
 from ontology_units import check_registry, normalize_condition
 from process_science_tools import dataset
 from reference_classification import derive_classes
@@ -208,8 +209,9 @@ def build_graph(root, science, records, categories, routes, steps, formulations,
         if value is not None and value != '':
             graph.add((subject, VOCAB[predicate], Literal(value)))
 
-    for cls in ['EquipmentModel', 'EquipmentCategory', 'Manufacturer', 'Route', 'MaterialFamily', 'ManufacturingProcess', 'ProcessStep', 'Formulation', 'SourceEvidence', 'OperatingCondition', 'ReportedProperty', 'AcademicReference', 'ArticleClassAssertion', 'ReferenceLink', 'RequirementBranch', 'EquipmentRequirement', 'QuantityKind']:
+    for cls in ['EquipmentModel', 'EquipmentCategory', 'Manufacturer', 'Route', 'MaterialFamily', 'ManufacturingProcess', 'ComputationalWorkflow', 'ProcessStep', 'Formulation', 'SourceEvidence', 'OperatingCondition', 'ReportedProperty', 'AcademicReference', 'ArticleClassAssertion', 'ReferenceLink', 'RequirementBranch', 'EquipmentRequirement', 'QuantityKind']:
         graph.add((VOCAB[cls], RDF.type, OWL.Class))
+    graph.add((VOCAB.ComputationalWorkflow, RDFS.subClassOf, PROV.Plan))
     ontology = URIRef(BASE + 'ontology')
     graph.add((ontology, RDF.type, OWL.Ontology))
     graph.add((ontology, DCTERMS.description, Literal('Public catalog snapshot. Category associations are scoped candidates, not validated exact-model suitability or operating procedures. No private inventory or saved user plans.')))
@@ -230,7 +232,7 @@ def build_graph(root, science, records, categories, routes, steps, formulations,
         field(subject, 'manualMatchStatus', record['manual_match_status'])
     for route in routes:
         subject = entity('route', route['route_id'], 'Route', route['route_name'])
-        graph.add((subject, RDF.type, VOCAB.MaterialFamily if route['route_kind'] == 'material_family' else VOCAB.ManufacturingProcess))
+        graph.add((subject, RDF.type, VOCAB[route_class(route['route_kind'])]))
         field(subject, 'associationBasis', route['association_basis'])
     grouped = defaultdict(list)
     for step in steps:

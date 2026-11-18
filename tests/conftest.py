@@ -7,6 +7,11 @@ def before_metals(name):
     """Reconstruct the public catalog immediately before the MMRL expansion."""
     rows = load_csv(ROOT / "catalog" / f"{name}.csv")
     # Keep these historical snapshot checks at the catalog state they describe.
+    expansion = json.loads((ROOT / "catalog" / "cnc_computational_review_2026-11-17.json").read_text(encoding="utf-8"))
+    if name == "equipment":
+        rows = [r for r in rows if r["equipment_id"] not in expansion["new_equipment_ids"]]
+    if name == "manufacturers":
+        rows = [r for r in rows if r["manufacturer"] not in expansion["new_manufacturers"]]
     scattering = json.loads((ROOT / "catalog" / "light_scattering_review_2026-11-17.json").read_text(encoding="utf-8"))
     if name == "equipment":
         rows = [r for r in rows if r["equipment_id"] not in scattering["new_equipment_ids"]]

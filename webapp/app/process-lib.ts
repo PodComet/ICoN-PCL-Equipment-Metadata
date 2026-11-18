@@ -1,7 +1,7 @@
 import {SEQUENCE_KEY,validateControlSequence} from './control-sequence-lib.ts';
 import {usdPrice} from './currency-lib.ts';
 import {sellerPrice} from './seller-prices.ts';
-import {safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
+import {isProcessRoute,safeUrl, validateManufacturerPrice, type Equipment, type Route} from './catalog-lib.ts';
 import {processDependencyGraph,stepDependencies} from './process-dependencies.ts';
 import {validateMaterialPlan} from './process-materials-lib.ts';
 import {CONDITIONS_KEY,stepConditions,validateConditions} from './process-condition-lib.ts';
@@ -278,7 +278,7 @@ export function validateWorkflow(input:unknown,routes:Route[],records:Equipment[
  const w=structuredClone(input) as unknown as ProcessWorkflow;
  const text=(v:unknown,max:number,label:string,required=false)=>{if(typeof v!=='string'||v.length>max||required&&!v.trim())throw new Error('Invalid '+label+'.');};
  text(w.name,200,'workflow name',true);text(w.notes,12000,'workflow notes');text(w.workflow_id,100,'workflow ID');
- const route=routes.find(r=>r.route_kind==='manufacturing_process'&&r.route_id===w.route_id);if(!route)throw new Error('Select a valid process.');
+ const route=routes.find(r=>isProcessRoute(r)&&r.route_id===w.route_id);if(!route)throw new Error('Select a valid process.');
  if(existing&&(w.workflow_id!==existing.workflow_id||w.route_id!==existing.route_id))throw new Error('A saved workflow keeps its original process and ID. Start a new workflow to change process.');
  w.route_name=route.route_name;jsonObject(w.extensions,'Workflow extensions');
  if(w.extensions.material_plan!==undefined)validateMaterialPlan(w.extensions.material_plan,w.route_id);

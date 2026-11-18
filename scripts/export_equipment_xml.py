@@ -7,6 +7,9 @@ from datetime import date
 import hashlib
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from route_types import route_class
 import re
 from xml.etree import ElementTree as ET
 from xml.sax.saxutils import escape, quoteattr
@@ -143,7 +146,7 @@ def build_xml_graph(root, snapshot_date):
             value(subject, SKOS.notation, identifier)
             value(subject, SKOS.prefLabel, row.get('category_name') or row['route_name'])
             local_type = ICON.EquipmentCategory if kind == 'category' else (
-                ICON.MaterialFamily if row['route_kind'] == 'material_family' else ICON.ManufacturingProcess
+                ICON[route_class(row['route_kind'])]
             )
             value(subject, RDF.type, local_type)
             fields(subject, row, ('association_basis', 'source_page', 'source_sha256'))

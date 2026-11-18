@@ -55,6 +55,21 @@ N1  - Representative source formulation reviewed for P10. Reported amounts remai
 ER  -
 
 TY  - JOUR
+ID  - REF-19E6958D0BEA
+AU  - Yucheng Peng
+AU  - Yousoo Han
+AU  - Douglas J. Gardner
+TI  - Spray-Drying Cellulose Nanofibrils: Effect of Drying Process Parameters on Particle Morphology and Size Distribution
+PY  - 2012
+JO  - Wood and Fiber Science
+VL  - 44
+IS  - 4
+UR  - https://forestbioproducts.umaine.edu/wp-content/uploads/sites/202/2012/08/Gardner-article-WFS1616.pdf
+Y2  - 2026-11-17
+N1  - No DOI verified. Public author PDF uses pp. 1–14, so final publisher pagination is deliberately left null. The study's parameter values are examples, not equipment performance guarantees.
+ER  -
+
+TY  - JOUR
 ID  - REF-18DCA84AA62D
 AU  - Xu, Xuezhu
 AU  - Liu, Fei
@@ -585,6 +600,24 @@ N1  - Cited-primary-study methods reviewed in2020–2021 parent bibliography swe
 ER  -
 
 TY  - JOUR
+ID  - REF-F6BBA696B84C
+AU  - Esparza, Yussef
+AU  - Ngo, Tri-Dung
+AU  - Fraschini, Carole
+AU  - Boluk, Yaman
+TI  - Aggregate Morphology and Aqueous Dispersibility of Spray-Dried Powders of Cellulose Nanocrystals
+PY  - 2019
+JO  - Industrial & Engineering Chemistry Research
+VL  - 58
+IS  - 43
+SP  - 19926–19936
+DO  - 10.1021/acs.iecr.9b03951
+UR  - https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b03951
+Y2  - 2026-11-17
+N1  - Use for the aggregation/redispersion caveat. Use Peng et al. 2012 for accessible exact B-290 methods evidence.
+ER  -
+
+TY  - JOUR
 ID  - REF-1A623A02A7D2
 AU  - Pellegrino, Francesco
 AU  - Isopescu, Raluca
@@ -1003,6 +1036,26 @@ DO  - 10.3390/ma15228091
 UR  - https://doi.org/10.3390/ma15228091
 Y2  - 2026-10-17
 N1  - Cited by REF-ADA3D33C94DA, Reference 14. Methods and publication-specific author affiliations inspected in PMC full text. Findings apply only to the stated source configuration; commercial model equivalence and process eligibility need separate validation.
+ER  -
+
+TY  - JOUR
+ID  - REF-41349F48DFFC
+AU  - Kröger, Marcel
+AU  - Badara, Olamide
+AU  - Pääkkönen, Timo
+AU  - Schlapp-Hackl, Inge
+AU  - Hietala, Sami
+AU  - Kontturi, Eero
+TI  - Efficient Isolation Method for Highly Charged Phosphorylated Cellulose Nanocrystals
+PY  - 2023
+JO  - Biomacromolecules
+VL  - 24
+IS  - 3
+SP  - 1318–1328
+DO  - 10.1021/acs.biomac.2c01363
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC10015457/
+Y2  - 2026-11-17
+N1  - The conditions and measured results belong to this phosphorylated-CNC experiment. Do not present them as universal settings, a recipe for other CNCs, or all-model capabilities.
 ER  -
 
 TY  - JOUR

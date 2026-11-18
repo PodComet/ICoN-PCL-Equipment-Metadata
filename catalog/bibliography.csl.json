@@ -112,6 +112,35 @@
     }
   },
   {
+    "id": "REF-19E6958D0BEA",
+    "type": "article-journal",
+    "title": "Spray-Drying Cellulose Nanofibrils: Effect of Drying Process Parameters on Particle Morphology and Size Distribution",
+    "author": [
+      {
+        "literal": "Yucheng Peng"
+      },
+      {
+        "literal": "Yousoo Han"
+      },
+      {
+        "literal": "Douglas J. Gardner"
+      }
+    ],
+    "container-title": "Wood and Fiber Science",
+    "volume": "44",
+    "issue": "4",
+    "URL": "https://forestbioproducts.umaine.edu/wp-content/uploads/sites/202/2012/08/Gardner-article-WFS1616.pdf",
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          10,
+          15
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-18DCA84AA62D",
     "type": "article-journal",
     "title": "Cellulose Nanocrystals vs. Cellulose Nanofibrils: A Comparative Study on Their Microstructures and Effects as Polymer Reinforcing Agents",
@@ -1346,6 +1375,44 @@
     }
   },
   {
+    "id": "REF-F6BBA696B84C",
+    "type": "article-journal",
+    "title": "Aggregate Morphology and Aqueous Dispersibility of Spray-Dried Powders of Cellulose Nanocrystals",
+    "author": [
+      {
+        "given": "Yussef",
+        "family": "Esparza"
+      },
+      {
+        "given": "Tri-Dung",
+        "family": "Ngo"
+      },
+      {
+        "given": "Carole",
+        "family": "Fraschini"
+      },
+      {
+        "given": "Yaman",
+        "family": "Boluk"
+      }
+    ],
+    "container-title": "Industrial & Engineering Chemistry Research",
+    "volume": "58",
+    "issue": "43",
+    "page": "19926–19936",
+    "DOI": "10.1021/acs.iecr.9b03951",
+    "URL": "https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b03951",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          10,
+          17
+        ]
+      ]
+    }
+  },
+  {
     "id": "REF-1A623A02A7D2",
     "type": "article-journal",
     "title": "Machine learning approach for elucidating and predicting the role of synthesis parameters on the shape and size of TiO2 nanoparticles",
@@ -2384,6 +2451,52 @@
           2022,
           11,
           15
+        ]
+      ]
+    }
+  },
+  {
+    "id": "REF-41349F48DFFC",
+    "type": "article-journal",
+    "title": "Efficient Isolation Method for Highly Charged Phosphorylated Cellulose Nanocrystals",
+    "author": [
+      {
+        "given": "Marcel",
+        "family": "Kröger"
+      },
+      {
+        "given": "Olamide",
+        "family": "Badara"
+      },
+      {
+        "given": "Timo",
+        "family": "Pääkkönen"
+      },
+      {
+        "given": "Inge",
+        "family": "Schlapp-Hackl"
+      },
+      {
+        "given": "Sami",
+        "family": "Hietala"
+      },
+      {
+        "given": "Eero",
+        "family": "Kontturi"
+      }
+    ],
+    "container-title": "Biomacromolecules",
+    "volume": "24",
+    "issue": "3",
+    "page": "1318–1328",
+    "DOI": "10.1021/acs.biomac.2c01363",
+    "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10015457/",
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          2,
+          7
         ]
       ]
     }

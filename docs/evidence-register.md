@@ -2,7 +2,7 @@
 
 Generated from canonical source data by `python scripts/build_app_data.py`. Do not edit this generated file.
 
-1100 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
+1163 source claims. Search by evidence ID, P/M class, reference ID or claim. Saved user sequences are account-private and appear in the app’s Evidence register, with JSON, CSV and Markdown export.
 
 Process-associated M classes are contextual links, not proof of exact-model use. Planned/user-entered sequence IDs do not establish experimental or hardware validation.
 
@@ -1105,6 +1105,578 @@ Labmate lists Hydrothermal Reactor LMHYR-A104 and a model-specific technical cat
 - Source: [Model technical catalogue](https://www.labmate.com/catalog/hydrothermal-reactor/lmhyr-a104) — Exact model catalogue; not an operating manual
 
 **Related records:** `CAT-LABMATE-LMHYR-A104` (equipment), `M05` (equipment_class), `P15` (process), `P31` (process), `P32` (process), `P39` (process)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-58D0F41C834D
+
+Configurable platform. Cpu: AMD Ryzen Threadripper PRO 5000 WX; supported 5995WX: 64 cores, 128 threads, 280 W TDP. Memory: Up to 1 TB ECC DDR4; 8 DIMM slots; manufacturer labels 3200 MHz. Gpu: NVIDIA RTX A6000 48 GB GDDR6 or AMD Radeon Pro W6800 32 GB; chassis claim up to two 300 W professional graphics cards.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies Precision 7865 Tower documentation](https://i.dell.com/sites/csdocuments/Premier_Docs/en/uk/precision_7865_spec_sheet_(6).pdf) — PDF pp. 2–3 and 7, specification and port tables
+- Source: [Dell Technologies Precision 7865 Tower documentation](https://www.dell.com/support/manuals/en-us/precision-7865-workstation/precision_7865_tower_ss/video-port-resolution?guid=guid-8635dad1-801a-4bf4-92ec-138677608ead&lang=en-us) — Video port resolution matrix
+
+**Related records:** `EXT-M150-58D0F41C834D` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-6D42F863A8CA
+
+Configurable platform. Cpu: AMD Ryzen Threadripper PRO 7000/9000 WX; supported 9995WX: 96 cores, 192 threads, 350 W TDP. Memory: Up to 2 TB ECC DDR5; 8 DIMM slots. Gpu: Supported examples: NVIDIA RTX 6000 Ada 48 GB and RTX PRO 6000 Blackwell Max-Q 96 GB. Spec-sheet chassis claim: up to two 300 W cards.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies Precision 7875 Tower documentation](https://www.dell.com/support/manuals/en-gb/precision-t7875-workstation/precision_7875_tower_om/processor?guid=guid-fc16090c-53af-40bd-98c0-91a0c4539e77&lang=en-us&lwp=rt) — Processor, tables 1–2
+- Source: [Dell Technologies Precision 7875 Tower documentation](https://i.dell.com/sites/csdocuments/Merchandizing_Docs/en/precision-7875-spec-sheet.pdf) — PDF pp. 2, 7–8; feature/specification tables
+- Source: [Dell Technologies Precision 7875 Tower documentation](https://www.dell.com/support/manuals/en-uk/precision-t7875-workstation/precision_7875_tower_om/GPUDiscrete?guid=guid-e25ac87f-98c7-4bc9-84b7-13be540fbe86&lang=en-us) — GPU—Discrete, controller/memory table
+- Source: [Dell Technologies Precision 7875 Tower documentation](https://www.dell.com/support/manuals/en-gb/precision-t7875-workstation/precision_7875_tower_om/video-port-resolution?guid=guid-0647e417-689c-4a09-b99a-9237d4c3548a&lang=en-us) — Video port resolution, Blackwell Max-Q row
+
+**Related records:** `EXT-M150-6D42F863A8CA` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-883C6CE56AD0
+
+Configurable platform. Cpu: One Intel Xeon W; supported example w7-2495X: 24 cores / 48 threads. Table also lists w7-2595X: 26 cores / 52 threads. Memory: Up to 512 GB ECC DDR5-4800; 8 DIMM slots. Gpu: Up to two RTX 5000 Ada 32 GB or two RTX A6000 48 GB; also lists two RTX PRO 6000 Blackwell Max-Q 96 GB / 300 W.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkStation P5 documentation](https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_P5/ThinkStation_P5_Spec.pdf) — PSREF September 02 2026; pp. 2–4 Processor, Graphics, Memory, Storage; p. 5 Power; p. 6 Connectivity
+- Source: [Lenovo ThinkStation P5 documentation](https://support.lenovo.com/us/en/manuals/sg10282-user_guide) — Model-specific User Guide title
+
+**Related records:** `EXT-M150-883C6CE56AD0` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-B5663826274C
+
+Configurable platform. Cpu: Intel Xeon W; documented w9-3595X: 60 cores, 120 threads. Memory: Up to 2 TB ECC DDR5-4800; 16 DIMM slots. Gpu: Support document lists up to four NVIDIA RTX 6000 Ada cards, 48 GB each.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [HP Z8 Fury G5 Workstation Desktop PC documentation](https://h20195.www2.hp.com/v2/getpdf.aspx/c08629286.pdf) — Technical specifications: Available Processors
+- Source: [HP Z8 Fury G5 Workstation Desktop PC documentation](https://support.hp.com/us-en/document/ish_7913291-7913335-16) — Memory, Graphics, Storage/drives, Ports/slots/bays, Power
+- Source: [HP Z8 Fury G5 Workstation Desktop PC documentation](https://www.hp.com/us-en/shop/custom/hp-z8-fury-g5-tower-workstation-customizable-intel-xeon-w9-3595x-64gb-ram-512gb-ssd-3F0P6AV_191703?catEntryId=3074457345620775822) — Graphics card choices: NVIDIA RTX 6000 Ada Generation
+- Source: [HP Z8 Fury G5 Workstation Desktop PC documentation](https://kaas.hpcloud.hp.com/pdf-public/pdf_10584042_en-US-1.pdf) — Maintenance and Service Guide title and model
+
+**Related records:** `EXT-M150-B5663826274C` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-BD4692130914
+
+Configurable platform. Cpu: One Intel Xeon W; processor table includes w9-3595X: 60 cores / 120 threads, up to 4.8 GHz. Memory: Up to 1 TB ECC DDR5-4800; 8 DIMM slots. Gpu: Up to three RTX 6000 Ada 48 GB or three RTX PRO 6000 Blackwell Max-Q 96 GB / 300 W; alternatively one 600 W Blackwell.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkStation P7 documentation](https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_P7/ThinkStation_P7_Spec.pdf) — PSREF September 02 2026; pp. 2–4 Processor, Graphics, Memory, Storage; p. 5 Power; pp. 6–7 Connectivity
+- Source: [Lenovo ThinkStation P7 documentation](https://support.lenovo.com/us/en/documentation/thinkstation_p7) — Model-specific User Guide title
+
+**Related records:** `EXT-M150-BD4692130914` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-C24A4E941350
+
+Configurable platform. Cpu: One AMD Ryzen Threadripper PRO 7000/9000 WX; up to 96 cores; 9995WX: 96 cores / 192 threads, 350 W. Memory: Up to 1 TB ECC DDR5; 8 DIMM slots; DDR5-6400 options. Gpu: Up to three RTX 6000 Ada 48 GB or three RTX PRO 6000 Blackwell Max-Q 96 GB / 300 W; alternatively one 600 W Blackwell.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkStation P8 documentation](https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_P8/ThinkStation_P8_Spec.pdf) — PSREF September 15 2026; pp. 2–4 Processor, Graphics, Memory, Storage; p. 5 Power; pp. 6–7 Connectivity
+- Source: [Lenovo ThinkStation P8 documentation](https://support.lenovo.com/au/en/manuals/sg10227-user_guide) — Model-specific User Guide title
+
+**Related records:** `EXT-M150-C24A4E941350` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-CE199F5B5390
+
+Configurable platform. Cpu: Up to two 4th/5th Gen Intel Xeon Scalable; up to 128 cores total. Xeon Platinum 8592+: 64 cores / 128 threads per CPU. Memory: Up to 2 TB ECC DDR5 with dual processors; 16 DIMM slots. Gpu: Up to four RTX 6000 Ada 48 GB or four RTX PRO 6000 Blackwell Max-Q 96 GB / 300 W.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkStation PX documentation](https://psref.lenovo.com/syspool/Sys/PDF/ThinkStation/ThinkStation_PX/ThinkStation_PX_Spec.pdf) — PSREF October 09 2026; pp. 2–5 Processor, Graphics, Memory, Storage, Power; pp. 6–7 Connectivity
+- Source: [Lenovo ThinkStation PX documentation](https://support.lenovo.com/us/en/documentation/sg10420/pcie_card) — Model-specific User Guide title
+
+**Related records:** `EXT-M150-CE199F5B5390` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-D73FB2240F14
+
+Configurable platform. Cpu: Intel Xeon W; documented w7-2595X: 26 cores, 52 threads. Memory: Up to 512 GB ECC DDR5-4800; 8 DIMM slots. Gpu: Support document lists up to two NVIDIA RTX A6000 48 GB graphics cards, subject to required cooling/power.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [HP Z4 G5 Workstation Desktop PC documentation](https://h20195.www2.hp.com/v2/GetPDF.aspx/c08504811.pdf) — Technical specifications: Available Processors, w7-2595X
+- Source: [HP Z4 G5 Workstation Desktop PC documentation](https://support.hp.com/gb-en/document/ish_7759887-7759932-16) — Memory; Graphics; Storage/drives; Networking; Ports/slots/bays; Power. Display adapter types only; exact display-connector count is separately sourced below.
+- Source: [HP Z4 G5 Workstation Desktop PC documentation](https://kaas.hpcloud.hp.com/pdf-public/pdf_7582484_en-US-1.pdf) — Cover; sixth edition October 2025
+- Source: [HP Z4 G5 Workstation Desktop PC documentation](https://www.hp.com/us-en/shop/pdp/hp-z4-g5-workstation-customizable-57k34av-mb?jumpid=ma_nvidia-rtx_product-tile_dtworkstations_23_57k34av-mb_hp-z4-g5-tower-works) — Graphics, NVIDIA RTX 6000 Ada Generation (48 GB, 4 x DisplayPort 1.4) option
+
+**Related records:** `EXT-M150-D73FB2240F14` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-DC1944894D96
+
+Configurable platform. Cpu: AMD Ryzen Threadripper PRO; documented 9995WX: 96 cores, 192 threads, 350 W. Memory: Up to 1 TB ECC DDR5; 8 DIMMs. Current store lists DDR5-6400 and DDR5-5600 configurations. Gpu: Current store lists NVIDIA RTX 6000 Ada 48 GB and RTX PRO 6000 Blackwell Max-Q 96 GB / 300 W options.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [HP Z6 G5 A Workstation Desktop PC documentation](https://www.hp.com/us-en/shop/pdp/hp-z6-g5-a-tower-workstation-customizable-7d8b9av-mb?msockid=14ec959fb75b6b813f048365b6fd6a7c) — Processor; Memory; Internal M.2 storage; Graphics / second / third graphics
+- Source: [HP Z6 G5 A Workstation Desktop PC documentation](https://support.hp.com/us-en/document/ish_9681433-9681532-16) — Networking/communication; front/rear I/O
+- Source: [HP Z6 G5 A Workstation Desktop PC documentation](https://kaas.hpcloud.hp.com/pdf-public/pdf_9444935_en-US-1.pdf) — Chapter 13 Specifications, printed p. 131, power-supply table
+
+**Related records:** `EXT-M150-DC1944894D96` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M150-E6FCE5248F92
+
+Configurable platform. Cpu: Intel Xeon W; supported w9-3595X: 60 cores, 120 threads, 385 W TDP. Memory: Up to 4 TB ECC DDR5; 16 DIMM slots across 8 channels. Gpu: Supported NVIDIA RTX 6000 Ada 48 GB or RTX PRO 6000 Blackwell 96 GB (300 W); chassis claim up to four 300 W cards.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies Precision 7960 Tower documentation](https://www.delltechnologies.com/asset/en-us/products/workstations/technical-support/precision-7960-tower-spec-sheet.pdf) — Intelligent performance; feature tables: Processor, Memory, Ports, Power Supplies
+- Source: [Dell Technologies Precision 7960 Tower documentation](https://www.dell.com/support/manuals/en-us/oth-xlt7960/precision-t7960-setup-and-specifications/video-port-resolution?guid=guid-e69a7191-8067-4115-8265-70b2de26e57c&lang=en-us) — Video port resolution, NVIDIA RTX 6000 Ada row
+
+**Related records:** `EXT-M150-E6FCE5248F92` (equipment), `M150` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-084C02A0C157
+
+Configurable platform. Processors: Two sockets for 5th-generation AMD EPYC 9005; up to 192 cores per processor. Memory: 24 DDR5 ECC RDIMM slots; up to 6 TB; supported configurations up to 6400 MT/s. Gpu: Optional: up to two 450 W double-width or six single-width GPUs. Card model, riser, CPU and thermal validation still govern the ordered configuration. Rack envelope: 2U; 86.8 mm high; 482 mm ear width / 434 mm body; 700.7 mm ear-to-rear-wall and 771.62 mm ear-to-PSU-handle.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/product-details/en-us/product/poweredge-r7725/overview) — Exact model overview: 2U, two EPYC 9005, 192 cores/processor.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.delltechnologies.com/asset/no-no/products/servers/technical-support/poweredge-r7725-spec-sheet.pdf) — Official indexed spec sheet: memory 24 DDR5 / 6 TB / 6400 MT/s and GPU maxima. Direct PDF fetch returned 403; live manual corroborates GPU limits.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r7725/per7725_ism/gpu-specifications?guid=guid-a7e73b35-a29e-419d-a358-2859dd5d376c&lang=en-us) — GPU Specifications, two 450 W double-width or six single-width.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r7725/per7725_ism/chassis-dimensions?guid=guid-33fb4a13-7e8d-4b37-819d-712e2e136511&lang=en-us) — Table 1 plus optional DLC removal/installation headings in manual.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-gf/poweredge-r7725/per7725_ism/psu-specifications?guid=guid-5a182c72-322a-47d7-b507-7701a4592d52&lang=en-us) — PSU specifications; optional 1800 W marked future in document, therefore excluded from assured available options.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r7725/per7725_ism/cooling-fan-specifications?guid=guid-865c6d5d-4e58-4c56-abdc-5758884cb1dc&lang=en-us) — Six fans, Silver/Gold/Platinum options.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-td/poweredge-r7725/per7725_ism/nic-port-specifications?guid=guid-3f4d9917-7b2f-4fb5-949a-a98312d93017&lang=en-us) — NIC table: optional OCP and AIC network configurations.
+- Source: [Dell Technologies PowerEdge R7725 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r7725/per7725_ism/drives?guid=guid-5dd5810c-ccc5-4f2e-82df-c031f16c5e70&lang=en-us) — Drives: mutually alternative backplane maxima.
+
+**Related records:** `EXT-M151-084C02A0C157` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-13D3636F1BF2
+
+Configurable platform. Processors: Up to two 4th-generation Xeon Scalable, up to 56 cores each; or 5th-generation Xeon Scalable, up to 64 cores each. Memory: 32 DDR5 RDIMM slots; maximum 8 TB; up to 5600 MT/s with supported 5th-generation CPU configuration. Gpu: Riser configuration 0/1 RF1A+RF2A supports up to four H100/H100 NVL/A100/A40/A30/A16/L40 or MI210; up to eight A2/L4. Twelve-card maximum is specifically A2 with RF1B+RF2B+R1V+R4T; it is not a twelve-H100 or twelve-L4 claim. Mixed GPU models are prohibited. Rack envelope: 2U; 86.8 mm high, 482 mm ear width / 434 mm chassis width; 875.3 mm ear-to-rear-wall and 910.89 mm ear-to-PSU-handle.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/en-us/shop/ipovw/poweredge-r760xa) — Processor, Memory, Storage, Ports, Slots and Power Supplies sections.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/product-details/en-us/product/poweredge-r760xa/overview) — Exact model overview confirms both CPU generations and core maxima.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/expansion-card-installation-guidelines?guid=guid-ac875fab-425e-40d6-9f84-e1ad4c8784b1&lang=en-us) — Tables 2–4: four double-width, eight A2/L4, twelve A2 with different named risers.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/gpu-kit?guid=guid-8b34fee1-24be-4115-80f7-431b8f32aba7&lang=en-us) — GPU kit requirements; GPUs must be validated and mixed models are not allowed.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/chassis-dimensions?guid=guid-cdc3eb0c-f34b-4a2e-a9d2-ce7774f32465&lang=en-us) — Chassis dimensions table 1.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/cooling-fan-specifications?guid=guid-7c4b72b4-48d4-4a9a-a6e5-8d7878bfb086&lang=en-us) — Air/DLC choices and up to six standard fans.
+- Source: [Dell Technologies PowerEdge R760xa documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760xa/r760xa_ism_pub/psu-specifications?guid=guid-2ebf92fd-db27-464f-b853-d8b7b93e8ec1&lang=en-us) — PSU table includes 2400/2800/3200 W; 2400 W low-line derates to 1400 W.
+
+**Related records:** `EXT-M151-13D3636F1BF2` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-6CD194E13774
+
+Configurable platform. Processors: Dual AMD EPYC 9004/9005; up to 160 cores per CPU, 400 W TDP. EPYC 9005 requires board revision 2.x. Memory: 24 DDR5 ECC RDIMM slots, 1DPC; up to 6 TB at 4800 MT/s (9004) or 6000 MT/s (9005). Gpu: Up to eight double-width, full-length PCIe GPUs; current examples include NVIDIA L40S and AMD Instinct MI210. PCIe 5.0 x16 CPU-to-GPU connections; optional vendor-appropriate GPU bridges. Rack envelope: 4U; 178×437×737 mm H×W×D.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT documentation](https://www.supermicro.com/en/products/system/gpu/4u/as-4125gs-tnrt) — Specifications: exact SKU, CPU/board revision, memory, supported GPU, chassis, cooling/power and default I/O/storage.
+- Source: [Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT documentation](https://www.supermicro.com/en/products/system/datasheet/as-4125gs-tnrt) — Official product datasheet confirms rack envelope and direct-connect eight-GPU design.
+- Source: [Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT documentation](https://www.supermicro.com/manuals/superserver/4U/MNL-2614.pdf) — System Overview, page 7; differentiates TNRT/TNRT1/TNRT2 CPUs, memory and default storage. Common chassis physical bays must not be mistaken for enabled TNRT default drives.
+- Source: [Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT documentation](https://store.supermicro.com/us_en/4u-gpu-superserver-amd-epyc-genoa-as-4125gs-tnrt.html) — Exact AS-4125GS-TNRT eStore, More Information &gt; System Starting Price $20,306.81. Product image gallery is script-driven; no direct exact-model photo URL verified in bounded pass.
+
+**Related records:** `EXT-M151-6CD194E13774` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-7EFA03DAB578
+
+Configurable platform. Processors: Exactly two matching 4th- or 5th-generation Intel Xeon Scalable processors; supported processors span 8–64 cores. Memory: 24 DDR5 RDIMM slots; up to 3 TB (24×128 GB at 4400 MT/s); up to 5600 MT/s at 1DPC on 5th-generation CPUs with lower populated capacity. Gpu: 4DW P54903-B21: two or four identical supported double-width GPUs, e.g. NVIDIA L40S 48 GB; L40S GPU table limits these configurations to 25°C with the stated QSFP28-or-lower/DAC I/O conditions. 8SW P54902-B21: choose eight NVIDIA L4 24 GB per explicit ordering note. GPU models cannot be mixed. Rack envelope: 2U; 87.5×448×816 mm H×W×D. 4DW and 8SW use distinct accelerated front GPU cages.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Hewlett Packard Enterprise ProLiant DL380a Gen11 documentation](https://www.hpe.com/us/en/collaterals/collateral.a50004309enw.html) — Full official QuickSpecs HTML accessed 2026-11-17: Standard Features; Configuration steps 1, 2, 3 and 6; GPU information table (L40S 25°C/I/O restrictions); System Unit dimensions. The generic GPU-table L4 row says 2 or 4, but explicit 8SW ordering note requires 8; verify actual CTO selection.
+- Source: [Hewlett Packard Enterprise ProLiant DL380a Gen11 documentation](https://www.hpe.com/psnow/generateDDS/HPE%20ProLiant%20DL380a%20Gen11%20data%20sheet-PSN1014696168WWEN.pdf?cc=WW&deepLink=&lc=EN&oid=1014696168&prelaunch=false&prelaunchSection=&print=&section=&softroll=0&softrollSection=) — Technical specifications: two CPUs, 8–64 cores, 3 TB/24 DDR5 slots, eight SFF or EDSFF drives.
+- Source: [Hewlett Packard Enterprise ProLiant DL380a Gen11 documentation](https://partsurfer.hpe.com/Search.aspx?SearchText=P54903-B21) — Official product-number lookup confirms exact 4 Double Wide CTO configuration name.
+- Source: [Hewlett Packard Enterprise ProLiant DL380a Gen11 documentation](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00002528en_us&docLocale=en_US&page=GUID-F5CCD32A-99C9-46DB-B503-1B36C9BDEF47.html) — Maintenance and Service Guide, edition 10a, April 2026.
+
+**Related records:** `EXT-M151-7EFA03DAB578` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-8158C27BD94C
+
+Configurable platform. Processors: Two Intel Xeon Platinum 8480C PCIe Gen5 CPUs, 56 cores each; 2.0 GHz base. Memory: 2 TB system memory across 32 DIMMs; 640 GB aggregate GPU memory (8×80 GB). Gpu: Eight NVIDIA H100 Tensor Core GPUs; four NVSwitch devices, 900 GB/s GPU-to-GPU NVLink bandwidth per manufacturer's description. Rack envelope: 8U; maximum 356×482.3×897.1 mm H×W×D, 130.45 kg.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [NVIDIA DGX H100 (640 GB GPU memory) documentation](https://docs.nvidia.com/dgx/dgxh100-user-guide/introduction-to-dgxh100.html) — Hardware Overview table 1 (explicit H100 versus H200 rows), Mechanical table 2, Power table 3, Environmental table and networking sections.
+- Source: [NVIDIA DGX H100 (640 GB GPU memory) documentation](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/nvidia-dgx-h100-datasheet.pdf) — Page 1: eight H100/640 GB, system memory/power/storage; older 2022 network description differs from current guide, so current guide is used for detailed network capabilities.
+- Source: [NVIDIA DGX H100 (640 GB GPU memory) documentation](https://docs.nvidia.com/dgx/dgxh100-user-guide/) — System user guide and installation/NGC container documentation; no materials-science DFT/MD application installation is implied by included DGX software.
+
+**Related records:** `EXT-M151-8158C27BD94C` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-CC6A3ACD264D
+
+Configurable platform. Processors: Up to two 4th-generation Intel Xeon Scalable (up to 56 cores) or 5th-generation Xeon Scalable (up to 64 cores) processors; supported Xeon Max variants are separately listed in the manual. Memory: 32 DDR5 RDIMM slots; maximum 8 TB. Processor generation, DIMM type and population determine speed. Gpu: Optional: platform maximum two double-width or six single-width cards. The installation table specifically supports two NVIDIA H100 or L40S GPUs in an appropriate riser configuration; do not apply that count to every riser. Rack envelope: 2U; 86.8 mm high; 482 mm across front ears / 434 mm chassis width; 700.7 mm ear-to-rear-wall, 736.29 mm ear-to-PSU-handle.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/processor-specifications?guid=guid-58070008-3bee-4486-ac16-48132c47fe77&lang=en-us) — Processor specifications table; CPU generations/core maxima.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/memory-specifications?guid=guid-07725aa8-214e-4d04-959c-401c19f3fe1b&lang=en-us) — Memory specifications tables 1–4; 32 slots and 8 TB.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/expansion-card-installation-guidelines?guid=guid-3de60c95-ca26-4a84-b1cb-122abe99c5b2&lang=en-us) — Expansion card installation tables: H100 and L40S, slots 7 and 2, maximum 2; other risers have lower limits.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/psu-specifications?guid=guid-2903fb7d-7d40-42ec-b044-fa724d2ea2e1&lang=en-us) — PSU specifications table 1; rated capacities are not measured consumption.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/cooling-fan-specifications?guid=guid-2c8f1828-b243-46f9-99de-cb92f7575da4&lang=en-us) — Cooling options and up to six fans.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://www.dell.com/support/manuals/en-us/poweredge-r760/per760_ism_pub/chassis-dimensions?guid=guid-04578793-7445-43f5-acc4-a0b11f85eb5f&lang=en-us) — Chassis dimensions table 1; distinct dimensional reference planes.
+- Source: [Dell Technologies PowerEdge R760 documentation](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r760-spec-sheet.pdf) — Official indexed specification sheet: 2U, optional GPU maxima, storage and PCIe alternatives. Direct fetch returned 404 during audit; use live manual for current limits.
+
+**Related records:** `EXT-M151-CC6A3ACD264D` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-CD5BDDF127D1
+
+Configurable platform. Processors: Up to two AMD EPYC 9004 or 9005 processors, up to 160 cores/CPU and 400 W TDP. Memory: 24 DDR5 slots; maximum 3 TB (24×128 GB); up to 6400 MT/s on supported 9005 configurations. Gpu: 8-DW model supports up to eight matching PCIe L40S 48 GB or L4 24 GB GPUs. H200 NVL and RTX PRO 6000 BSE options require 9005 CPUs and C5WW high-performance fans. Separate SXM5 option holds four GPUs with Neptune liquid-to-air cooling; no CPU-only order capability is asserted. Rack envelope: 3U; manufacturer manual: 131 mm H, 482 mm W including EIA flange, 891.6 mm D.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkSystem SR675 V3 documentation](https://lenovopress.lenovo.com/lp1611-thinksystem-sr675-v3-server) — LP1611 updated October 8, 2026: Standard specifications table 2, GPU table 36 and rules, Power Supplies tables 49–50. Withdrawn options may still appear; L40S/L4 chosen as explicit current examples.
+- Source: [Lenovo ThinkSystem SR675 V3 documentation](https://pubs.lenovo.com/sr675-v3/server_specifications_mechanical) — Mechanical specifications: with-flange dimensions; uses a different width reference than Press chassis-body dimensions.
+- Source: [Lenovo ThinkSystem SR675 V3 documentation](https://pubs.lenovo.com/sr675-v3/) — Introduction identifies machine types and distinguishes SR675i inference configuration.
+
+**Related records:** `EXT-M151-CD5BDDF127D1` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-CF344113AB5A
+
+Configurable platform. Processors: One or two AMD EPYC 9004 or 9005 CPUs, up to 160 cores/CPU and 400 W TDP. Memory: 24 DDR5 slots with two CPUs; maximum 6 TB using 24×256 GB; up to 6400 MT/s under supported CPU/firmware/DIMM conditions. Gpu: Optional: up to three H100/L40S double-width GPUs, seven L4, or eight A2 (card-specific maxima). Matching GPUs required; middle/rear drives excluded. Three ≥300 W GPUs plus ≥320 W CPUs require open-loop water cooling; air cooling requires fewer GPUs or lower-TDP CPUs. Rack envelope: 2U; body 445×87×766 mm W×H×D excluding protrusions.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Lenovo ThinkSystem SR665 V3 documentation](https://lenovopress.lenovo.com/lp1608-thinksystem-sr665-v3-server) — LP1608 updated November 17, 2026: Standard Specifications; GPU adapters tables 84–88 and GPU configuration rules; power table 90.
+- Source: [Lenovo ThinkSystem SR665 V3 documentation](https://pubs.lenovo.com/sr665-v3/server_specifications_technical) — Processor, memory, front storage, network/expansion and cooling specifications; latest Press guide takes precedence where core-count wording conflicts.
+- Source: [Lenovo ThinkSystem SR665 V3 documentation](https://lenovopress.lenovo.com/lp1608-thinksystem-sr665-v3-server#physical-and-electrical-specifications) — Chassis dimensions exclude EIA flanges, bezel and PSU handles; maximum capacity is not installed capacity.
+
+**Related records:** `EXT-M151-CF344113AB5A` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-F6D33C5C5324
+
+Configurable platform. Processors: Up to two AMD EPYC 9004 or 9005 CPUs; up to 160 cores per CPU. Memory: 24 DDR5 RDIMM slots with two CPUs; up to 6 TB; 4800 MT/s with 9004 or up to 6400 MT/s with 9005. Gpu: GPU CTO: up to four double-width or eight single-width GPUs with correct enablement kits. Examples: 4×L40/L40S or 8×L4; current QuickSpecs allows 1–4 H200 NVL, requiring iLO power capping for 3–4, matching GPUs and specified cables/PDB/fans. Rack envelope: 2U rack; GPU CTO depth reference: 841.5 mm from rear of ear to PSU, 798.7 mm to rear I/O; other chassis have different depths.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Hewlett Packard Enterprise ProLiant DL385 Gen11 documentation](https://www.hpe.com/int/en/collaterals/collateral.a50004300enw.html) — Overview, Standard Features (CPU/memory), Configuration Information (P54198-B21), Core Options (GPU rules), Technical Specifications (dimension reference planes). Current October 2026-era content; legacy PDFs have lower H200 counts.
+- Source: [Hewlett Packard Enterprise ProLiant DL385 Gen11 documentation](https://support.hpe.com/hpesc/public/docDisplay?docId=sd00002188en_us&docLocale=en_US) — HPE user guide, edition 13, April 2026; supported configuration and hardware service context.
+
+**Related records:** `EXT-M151-F6D33C5C5324` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M151-FA36A33A8DDD
+
+Configurable platform. Processors: Two 2nd- or 3rd-generation AMD EPYC processors, up to 64 cores each. Memory: 32 DDR4 slots; up to 2 TB RDIMM or 4 TB LRDIMM; up to 3200 MT/s. Gpu: Optional: up to three 300 W double-width or six 75 W single-width accelerators; supported card/riser/thermal configuration required. Rack envelope: 2U; 86.8×434×736.29 mm H×W×D as the spec sheet reports; maximum listed weight 36.3 kg.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Hardware host for separately supplied scientific software. Memory, network, power and GPU options are configuration dependent. No material-property measurement or code compatibility is implied by the hardware specification.
+
+- Source: [Dell Technologies PowerEdge R7525 documentation](https://i.dell.com/sites/csdocuments/Product_Docs/en/poweredge-r7525-spec-sheet.pdf) — Pages 2–3, Features/Technical Specification table: processors, memory, GPU, rack, power, fans, networking, drives, PCIe.
+- Source: [Dell Technologies PowerEdge R7525 documentation](https://dl.dell.com/topicspdf/poweredge-r7525_owners-manual2_en-us.pdf) — Technical Specifications manual; processor and PSU specification sections.
+- Source: [Dell Technologies PowerEdge R7525 documentation](https://www.rcac.purdue.edu/news/5719) — April 27, 2023 Gilbreth expansion announcement; exact R7525 host model and installed RAM/GPU/network claim.
+- Source: [Dell Technologies PowerEdge R7525 documentation](https://www.physics.purdue.edu/Tier2/hardware.php) — Geddes GPU row names PowerEdge R7525 with EPYC 7662, 512 GB RAM, two A100 and 8 TB SSD; corroborating institution-owned public record.
+
+**Related records:** `EXT-M151-FA36A33A8DDD` (equipment), `M151` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-11C2C5D3EFF2
+
+Rated flow 20 L/h; maximum operating pressure 1000 bar; minimum sample 60 mL; feed hopper 0.4 L (manufacturer leaflet).
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [GEA PandaPLUS 1000 documentation](https://www.gea.com/assets/171049/) — Technical Leaflet PandaPLUS, PDF p. 3: Technical specifications; PDF pp. 2 and 4: controls and monitoring. Model/flow also confirmed by current Table-top Homogenizers table.
+
+**Related records:** `EXT-M152-11C2C5D3EFF2` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-1C43B9A238EA
+
+Flow up to 120 mL/min; minimum sample 50 mL; pressure up to 30,000 psi / 2068 bar.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Microfluidics (IDEX MPT) M110P documentation](https://www.microfluidics-mpt.com/microfluidizers/m110p) — Manufacturer product page: main description and Specifications. Scientific exact-model evidence is a separate reference, DOI 10.1021/acs.biomac.2c01363, Experimental Section &gt; Dispersion of Nanocrystals.
+
+**Related records:** `EXT-M152-1C43B9A238EA` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-4DEC4BCAE4F2
+
+3 L/h; minimum sample 10 mL; pressure up to 30,000 psi (manufacturer also states 2,000 bar).
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Avestin EmulsiFlex-C3 documentation](https://avestin.com/products/EmulsiFlex-C3) — Manufacturer model page: Capacity, Pressure, Minimum Sample Volume, Power Requirements, Air Requirements.
+
+**Related records:** `EXT-M152-4DEC4BCAE4F2` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-62ECA0281F62
+
+Listed flow up to 295–450 mL/min; minimum sample 120 mL; batches up to 100 L; pressure up to 30,000 psi / 2068 bar.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Microfluidics (IDEX MPT) M110EH documentation](https://www.microfluidics-mpt.com/microfluidizers/pilot-scale-m-110eh) — Manufacturer product page: main description; Features; Specifications. The page gives a range rather than a single throughput; do not turn it into guaranteed CNC throughput.
+
+**Related records:** `EXT-M152-62ECA0281F62` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-85DDC32A85F5
+
+Minimum sample 14 mL; standard glass feed reservoir 300 mL. Current public product page does not give a flow-rate rating.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Microfluidics (IDEX MPT) LM20 documentation](https://www.microfluidics-mpt.com/microfluidizers/lm20) — Manufacturer product page: Features &gt; Standard Features; Optional Features; Benefits. Numeric flow/pressure figures from third-party copies were deliberately omitted.
+
+**Related records:** `EXT-M152-85DDC32A85F5` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-B9232E9CB8F2
+
+NG-30K table: maximum flow 120 mL/min; minimum sample 5 mL; maximum pressure 30,000 psi; maximum temperature 80 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Genizer NanoGenizer-II NG-30K documentation](https://www.genizer.com/nanogenizer_p0039.html) — Current manufacturer page: Specifications, NG-30K column; Standard Features; Inlet/Outlet. Use current 5 mL/120 mL/min table rather than older brochure's 1 mL/100 mL/min.
+
+**Related records:** `EXT-M152-B9232E9CB8F2` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-C6BB65CF80EA
+
+1–5 L/h depending on pressure and air supply; minimum sample 7 mL; up to 30,000 psi (manufacturer also states 2,000 bar).
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Avestin EmulsiFlex-C5 documentation](https://avestin.com/products/EmulsiFlex-C5) — Manufacturer model page: Capacity, Pressure, Minimum Sample Volume, Power and Air.
+
+**Related records:** `EXT-M152-C6BB65CF80EA` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-CD18644ABF66
+
+Minimum sample 1 mL; standard feed and collector syringes 10 mL; process pressure up to 30,000 psi.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Microfluidics (IDEX MPT) LV1 documentation](https://www.microfluidics-mpt.com/microfluidizers/lv1-low-volume) — Manufacturer product page: introductory description; Features &gt; Standard Features; Benefits.
+
+**Related records:** `EXT-M152-CD18644ABF66` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-DC90123D3666
+
+Product flow 100–600 mL/min; samples from 60 mL to continuous; operating pressure 206–1586 bar / 3,000–23,000 psi.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Microfluidics (IDEX MPT) M110Y documentation](https://www.microfluidics-mpt.com/microfluidizers/m-110y) — Manufacturer product page: Features &gt; Standard Features and Optional Features; Benefits.
+
+**Related records:** `EXT-M152-DC90123D3666` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M152-F02C55821695
+
+Rated flow 9 L/h; maximum operating pressure 2000 bar; minimum sample 30 mL; feed hopper 0.4 L (manufacturer leaflet).
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [GEA PandaPLUS 2000 documentation](https://www.gea.com/assets/171049/) — Technical Leaflet PandaPLUS, PDF p. 3: Technical specifications; PDF pp. 2 and 4: controls and monitoring. Model/flow also confirmed by current Table-top Homogenizers table.
+
+**Related records:** `EXT-M152-F02C55821695` (equipment), `M152` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-090E84DFA776
+
+Water evaporation 1.0 L/h; airflow maximum 35 m³/h; maximum inlet temperature 220 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [BUCHI Mini Spray Dryer B-290 documentation](https://assets.buchi.com/image/upload/v1605800030/pdf/Operation-Manuals/OM_093001_B-290_en.pdf) — Official operation manual, Table 3-6, p. 20. The manual remains manufacturer-hosted; current sale/availability was not established. Exact-model scientific evidence: Peng et al., Experimental &gt; Materials.
+
+**Related records:** `EXT-M153-090E84DFA776` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-1D4CBF49BFBC
+
+Maximum approximate water evaporation 3000 mL/h; sample feed up to 70 mL/min; dry air maximum 1.0 m³/min; inlet 40–300 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Yamato Scientific DL410 documentation](https://www.yamato-usa.com/shop/dl410-yamato-dl410-large-capacity-spray-dryer-80) — Manufacturer product page: DL410 Features and specification table; Spray Dryer Catalog 2026 p. 9 confirms 3000 mL/h and 70 mL/min.
+
+**Related records:** `EXT-M153-1D4CBF49BFBC` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-52256F789534
+
+With GF300 spray-drying attachment: maximum water evaporation 1300 mL/h; liquid feed 0–26 mL/min; drying air 0–0.7 m³/min.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Yamato Scientific GB210A documentation](https://www.yamato-usa.com/shop/gb210a-yamato-gb210a-versatile-mini-spray-dryer-72) — Spray Dryer Catalog 2026 p. 5, GB210A and Mini spray attachment GF300 specifications. GB210 without glassware and GB210B granulator are not counted as spray dryers here.
+
+**Related records:** `EXT-M153-52256F789534` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-7775D34F861F
+
+Water evaporation 1.0 L/h; sample feed 0.1–30.0 mL/min; maximum drying-gas flow 35 m³/h. Standard model inlet maximum 220 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [BUCHI Mini Spray Dryer S-300 documentation](https://www.buchi.com/en/products/instruments/spray-dryer-s300) — Product page: Key facts and Comparison, standard S-300 220°C. Technical data sheet pp. 3–4. Manual link verified as official page download; browser could not parse its large PDF.
+
+**Related records:** `EXT-M153-7775D34F861F` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-8DAF58473593
+
+Current product page: water evaporation 0.5–6 kg/h; nominal main process gas 100 kg/h; typical mean particle size 5–80 µm.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [GEA MOBILE MINOR documentation](https://www.gea.com/en/products/dryers-particle-processing/spray-dryers/pilot-small-scale-spray-dryers/mobile-minor//) — Manufacturer product page: MOBILE MINOR at a glance; Flexible spray drying for R&D; Safe small-scale spray drying. Current 0.5–6 kg/h retained over older brochure's 0.5–8 kg/h.
+
+**Related records:** `EXT-M153-8DAF58473593` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-9030D1F68922
+
+Manufacturer describes samples of a few mL to batches of several L; product-dependent particle range 1–350 µm. No numerical water-evaporation rate verified on the public primary page.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [PROCEPT 4M8-Trix Spray Dryer / Chiller documentation](https://procept.be/equipment/spray-dryer-chiller/) — Manufacturer page: 4M8-Trix design; Features; Modularity. Official page names 4M8-Trix, so unverified designation 4M8-SD is not used.
+
+**Related records:** `EXT-M153-9030D1F68922` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-C3BBEE8831D8
+
+Approximate evaporation 1000–1500 mL/h; air throughput 15–30 m³/h; inlet temperature 50–250 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [LabPlant UK SD-06 documentation](https://www.laboratoryspraydryers.co.uk/spray-dryer-sd06.html) — Manufacturer product page: Controls & Functionality and Specifications; manufacturer SD-06 & SS-07 brochure: Technique and specification table. A/AG are configurations, not additional counted models.
+
+**Related records:** `EXT-M153-C3BBEE8831D8` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-C431D8968521
+
+Evaporation 1500–2000 mL/h; air throughput 15–50 m³/h; inlet temperature 50–250 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [LabPlant UK SS-07 documentation](https://www.laboratoryspraydryers.co.uk/spray-dryer-ss07.html) — Manufacturer product page: Controls & Functionality and Specifications; manufacturer SD-06 & SS-07 brochure: SS-07 specification table and Technique.
+
+**Related records:** `EXT-M153-C431D8968521` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-C4EB3324378F
+
+Maximum water evaporation 1300 mL/h; liquid feed 0–26 mL/min; drying air 0–0.7 m³/min; inlet 40–220 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [Yamato Scientific ADL311SA documentation](https://www.yamato-usa.com/shop/adl311sa-yamato-adl-series-compact-economical-spray-dryer-63) — Manufacturer product page specification table; Spray Dryer Catalog 2026, p. 3. ADL311SA is the USA name; spelling variants ADL311S-A/ADL311S are not extra models in this set.
+
+**Related records:** `EXT-M153-C4EB3324378F` (equipment), `M153` (equipment_class)
+
+
+## CAT-EV-CNCCOMP-EXT-M153-D744BB5ED5C2
+
+Approximate evaporation 1000 mL/h (current page); brochure feed-pump range 0–1500 mL/h; fixed blower 70 m³/h; inlet maximum 200 °C.
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer documentation establishes model capabilities. Exact CNC use was checked only for M110P and B-290; other models are capability-based candidates requiring material/process qualification.
+
+- Source: [LabPlant UK SD-Basic documentation](https://www.laboratoryspraydryers.co.uk/manual-spray-dryer.html) — Current manufacturer product page: Specifications and Control and Functionality; manufacturer brochure p. 2: Technique and SD-BASIC SPECIFICATION. Current page contains conflicting secondary drying-air wording, so only explicitly fixed blower figure is retained.
+
+**Related records:** `EXT-M153-D744BB5ED5C2` (equipment), `M153` (equipment_class)
 
 
 ## CAT-EV-D062FB8D801C810F
@@ -5941,6 +6513,90 @@ Electron-beam accelerating voltage: 10 kV: 10 kV
 
 - PC-P42-AF10B309758872B5: Electron-beam accelerating voltage = 10 kV; operator eq; formulation P42-SOURCE-01; source step 2.
 
+## FLOW-EV-CNCCOMP-P90
+
+Relaxed structures, total energies and electronic-structure data
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated computation plan. Requires licensed or open scientific software, a compatible build and selected pseudopotentials/functionals. Hardware selection does not perform a calculation or validate a predicted property. Numerical tolerances and software versions must be recorded per run.
+
+- Source: [Materials Project calculation details and Quantum ESPRESSO PW documentation](https://docs.materialsproject.org/methodology/materials-methodology/calculation-details) — Calculation Details: input structures, sequential cell/atomic relaxations and calculation settings. PW input reference: CONTROL, SYSTEM, ELECTRONS, IONS and CELL.
+- Source: [Additional workflow documentation](https://www.quantum-espresso.org/Doc/INPUT_PW.html) — Calculation Details: input structures, sequential cell/atomic relaxations and calculation settings. PW input reference: CONTROL, SYSTEM, ELECTRONS, IONS and CELL.
+- Source: [Additional workflow documentation](https://docs.rcac.purdue.edu/userguides/anvil/software/vasp/) — Calculation Details: input structures, sequential cell/atomic relaxations and calculation settings. PW input reference: CONTROL, SYSTEM, ELECTRONS, IONS and CELL.
+
+**Related records:** `P90` (process)
+
+
+## FLOW-EV-CNCCOMP-P91
+
+Trajectories, thermodynamic logs and analyzed transport estimates
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated molecular-dynamics planning workflow. Force-field validity, boundary conditions, ensemble and sampling determine interpretation. Choose and persist an explicit unit style. No trajectory, measured temperature or diffusion coefficient is generated by selecting equipment.
+
+- Source: [LAMMPS running basics, unit styles and diffusion analysis](https://docs.lammps.org/Run_basics.html) — Running basics; units command; Calculate diffusion coefficients.
+- Source: [Additional workflow documentation](https://docs.lammps.org/units.html) — Running basics; units command; Calculate diffusion coefficients.
+- Source: [Additional workflow documentation](https://docs.lammps.org/Howto_diffusion.html) — Running basics; units command; Calculate diffusion coefficients.
+
+**Related records:** `P91` (process)
+
+
+## FLOW-EV-CNCCOMP-P92
+
+Versioned interatomic-potential model, predictions and held-out validation metrics
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Curated model-development plan. A compatible framework, data license, documented train/validation/test split and versioned model definition are required. GPU use depends on the installed stack and chosen workload. Selecting a server or workstation does not train or validate a model.
+
+- Source: [MatGL official repository and training examples](https://github.com/materialsvirtuallab/matgl) — Official README, training examples, dataset/model preparation and ASE interfaces.
+- Source: [Additional workflow documentation](https://github.com/materialsvirtuallab/matgl/tree/main/examples) — Official README, training examples, dataset/model preparation and ASE interfaces.
+
+**Related records:** `P92` (process)
+
+
+## FLOW-EV-CNCCOMP-P93
+
+Aqueous CNC dispersion with coarse aggregates removed
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** The source disperses chemically modified and hydrolyzed CNC feed using M-110P. This plan begins with washed, already chemically isolated CNCs. It does not replace hydrolysis or describe purely mechanical CNF production. Alternative models need sample compatibility, chamber and process qualification.
+
+- Source: [Kröger et al. 2023, phosphorylated CNC isolation](https://pmc.ncbi.nlm.nih.gov/articles/PMC10015457/) — Experimental Section: Washing and Dispersion of Nanocrystals, printed p. 1320.
+
+**Related records:** `P93` (process)
+
+
+## FLOW-EV-CNCCOMP-P94
+
+Dry CNC-containing powder or agglomerates for recovery assessment
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** The methods distinguish CNC from nanofibrillated-cellulose feeds and identify BUCHI B-290. The output is dried CNC-containing particles/agglomerates. Nanoscale individual crystals, unchanged morphology and reversible redispersion are not guaranteed. Alternative dryers require feed, solvent, containment and operating qualification.
+
+- Source: [Peng et al. 2012, spray drying CNC and NFC suspensions](https://forestbioproducts.umaine.edu/wp-content/uploads/sites/202/2012/08/Gardner-article-WFS1616.pdf) — Experimental &gt; Materials and Experimental Design; Table 1, author PDF pp. 2–3. Esparza publisher Abstract for aggregation caveat.
+- Source: [Additional workflow documentation](https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b03951) — Experimental &gt; Materials and Experimental Design; Table 1, author PDF pp. 2–3. Esparza publisher Abstract for aggregation caveat.
+
+**Related records:** `P94` (process)
+
+
+## FLOW-EV-CNCCOMP-P95
+
+Aqueous CNC/aggregate dispersion with documented redispersion assessment
+
+**Classification:** curator_reviewed_catalog · **Checked:** 2026-11-17
+
+**Scope:** Abstract-level evidence for static, stirred and ultrasound-assisted dispersion comparisons and the difficulty of redispersing spray-dried CNC aggregates. The sequence is a curator planning abstraction. No operating dose, sonication energy, surfactant composition or success/yield is inferred.
+
+- Source: [Esparza et al. 2019, aggregate morphology and aqueous dispersibility](https://pubs.acs.org/doi/abs/10.1021/acs.iecr.9b03951) — Publisher Abstract. Exact methods and instrument models were not verified from full text.
+
+**Related records:** `P95` (process)
+
+
 ## IMG-EV-00E5D3EB5B557429
 
 The reviewed listing presents this instrument photograph.
@@ -7655,6 +8311,188 @@ Thermo Fisher Scientific presents an Invitrogen V22889 kit photograph with packa
 - Source: [Vybrant Multicolor Cell-Labeling Kit V22889](https://www.thermofisher.com/order/catalog/product/V22889) — Selected exact V22889 catalog gallery; three-vial kit image visually checked
 
 **Related records:** `did-v22889` (component), `CMP-OFFER-A1D41E6D5819` (component_offer)
+
+
+## IMG-EV-CNCCOMP-EXT-M150-D73FB2240F14
+
+HP Z4 G5 Workstation Desktop PC_Product__Product Only_Center facing
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.hp.com/in-en/products/workstations/product-details/2104320705) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M150-D73FB2240F14` (equipment), `M150` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-7EFA03DAB578
+
+Manufacturer model illustration linked from HPE ProLiant DL380a Gen11 QuickSpecs Overview; exterior illustration, not an installed GPU-population certificate.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.hpe.com/us/en/collaterals/collateral.a50004309enw.html) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-7EFA03DAB578` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-8158C27BD94C
+
+Manufacturer guide illustration of DGX H100/H200 enclosure with bezel; exact exterior is shared by H100/H200, so image does not distinguish GPU population.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://docs.nvidia.com/dgx/dgxh100-user-guide/introduction-to-dgxh100.html) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-8158C27BD94C` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-CC6A3ACD264D
+
+Manufacturer product image linked from exact R760 support page; illustrative platform exterior, not a verified installed GPU configuration.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.dell.com/support/product-details/en-us/product/poweredge-r760/overview) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-CC6A3ACD264D` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-CD5BDDF127D1
+
+Manufacturer photo explicitly captioned ThinkSystem SR675 V3 — 8-DW GPU Model, Figure 1.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://pubs.lenovo.com/sr675-v3/) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-CD5BDDF127D1` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-CF344113AB5A
+
+Exact SR665 V3 manufacturer product photo from Lenovo Docs introduction, Figure 1; configuration is illustrative.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://pubs.lenovo.com/sr665-v3/) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-CF344113AB5A` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M151-F6D33C5C5324
+
+Manufacturer illustration under exact DL385 Gen11 QuickSpecs Overview; not proof of GPU CTO population.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.hpe.com/int/en/collaterals/collateral.a50004300enw.html) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M151-F6D33C5C5324` (equipment), `M151` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M152-1C43B9A238EA
+
+Manufacturer product photograph labeled M110P-Angle.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.microfluidics-mpt.com/microfluidizers/m110p) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M152-1C43B9A238EA` (equipment), `M152` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M152-62ECA0281F62
+
+Manufacturer product photograph labeled M110EH.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.microfluidics-mpt.com/microfluidizers/pilot-scale-m-110eh) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M152-62ECA0281F62` (equipment), `M152` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M152-85DDC32A85F5
+
+Manufacturer product photograph labeled LM20-Front.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.microfluidics-mpt.com/microfluidizers/lm20) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M152-85DDC32A85F5` (equipment), `M152` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M152-CD18644ABF66
+
+Manufacturer product photograph labeled LV1-Angle-1.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.microfluidics-mpt.com/microfluidizers/lv1-low-volume) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M152-CD18644ABF66` (equipment), `M152` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M153-52256F789534
+
+Manufacturer product photograph labeled Yamato GB210A Versatile Mini Spray Dryer.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.yamato-usa.com/shop/gb210a-yamato-gb210a-versatile-mini-spray-dryer-72) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M153-52256F789534` (equipment), `M153` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M153-7775D34F861F
+
+Manufacturer main image, S-300 Basic 220 °C configuration.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://www.buchi.com/en/products/instruments/spray-dryer-s300) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M153-7775D34F861F` (equipment), `M153` (equipment_class)
+
+
+## IMG-EV-CNCCOMP-EXT-M153-9030D1F68922
+
+Manufacturer R&D spray-dryer setup with application PC; modular 4M8-Trix configuration, not a promised supplied configuration.
+
+**Classification:** curator_reviewed_media · **Checked:** 2026-11-17
+
+**Scope:** Manufacturer image. Optional hardware is not certified by an exterior illustration.
+
+- Source: [Manufacturer model illustration](https://procept.be/equipment/spray-dryer-chiller/) — Exact named model or explicitly shared enclosure/product-family image
+
+**Related records:** `EXT-M153-9030D1F68922` (equipment), `M153` (equipment_class)
 
 
 ## IMG-EV-D6243121F2F97D82
@@ -13356,6 +14194,45 @@ US Research Nanomaterials, Inc. publishes USD 168.0 for US Nano US1133M Silicon 
 - Source: [US Research Nanomaterials, Inc. product price](https://www.us-nano.com/inc/sdetail/23095) — Exact previously curated form/size option: 1kg-50nm (add $168). Product SKU and existing grade/form association retained; no substitution.
 
 **Related records:** `PACK-USNANO261018-83E6AF378EA1FA01` (component_offer), `usnano-us1133m-silica50nm` (component)
+
+
+## PRICE-EV-CNCCOMP-EXT-M151-084C02A0C157
+
+Manufacturer advertises a USD 15,009.00 starting configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Dell US configurable R7725 page displayed 'Starting at' on 2026-11-17; not a price for all maximum options, installed GPUs, or scientific software.
+
+- Source: [Official US manufacturer store](https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r7725/pe_r7725_tm_vi_vp_sb) — Published starting/system starting price and named configuration
+
+**Related records:** `EXT-M151-084C02A0C157` (equipment), `M151` (equipment_class)
+
+
+## PRICE-EV-CNCCOMP-EXT-M151-6CD194E13774
+
+Manufacturer advertises a USD 20,306.81 starting configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Official Supermicro US eStore More Information table displayed System Starting Price on 2026-11-17 for exact AS-4125GS-TNRT. This is not a price for eight installed GPUs, maximal memory, scientific software, shipping or taxes; configurable order determines actual total.
+
+- Source: [Official US manufacturer store](https://store.supermicro.com/us_en/4u-gpu-superserver-amd-epyc-genoa-as-4125gs-tnrt.html) — Published starting/system starting price and named configuration
+
+**Related records:** `EXT-M151-6CD194E13774` (equipment), `M151` (equipment_class)
+
+
+## PRICE-EV-CNCCOMP-EXT-M151-CC6A3ACD264D
+
+Manufacturer advertises a USD 14,799.01 starting configuration.
+
+**Classification:** curator_reviewed_price · **Checked:** 2026-11-17
+
+**Scope:** Dell US page displayed 'Starting at' for configurable pe_r760_tm_vi_vp_sb on 2026-11-17. This price is not a quote for the maximum hardware specification or for a scientific-software installation.
+
+- Source: [Official US manufacturer store](https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r760/pe_r760_tm_vi_vp_sb) — Published starting/system starting price and named configuration
+
+**Related records:** `EXT-M151-CC6A3ACD264D` (equipment), `M151` (equipment_class)
 
 
 ## PRICE-EV-D00411D48E1817AC

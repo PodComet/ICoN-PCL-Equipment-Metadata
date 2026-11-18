@@ -9,10 +9,10 @@ from conftest import before_metals
 def test_catalog_integrity_and_relationships():
     summary = inspect_catalog()
     assert summary["core_examples"] == 590
-    assert summary["active_m_categories"] == 147
+    assert summary["active_m_categories"] == 151
     assert summary["source_m_categories"] == 59
-    assert summary["project_m_categories"] == 88
-    assert summary["material_families"] == 18
+    assert summary["project_m_categories"] == 92
+    assert summary["material_families"] == 19
     assert summary["requested_occurrences"] == 44
     assert summary["highlighted_equipment_records"] == 44
 

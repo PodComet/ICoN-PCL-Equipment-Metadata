@@ -35,6 +35,12 @@ export function newStartingMaterial(suggestion:MaterialSuggestion,amount=''):Sta
 export function planFromExample(example:MaterialExample):MaterialPlan{return {schema:'process-materials/v1',route_id:example.route_id,inputs:example.inputs.map(i=>newStartingMaterial(i)),expected_output:example.output_label,example_id:example.example_id};}
 const normalized=(s:string)=>s.normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
 const workflowOutputPrefixes: Record<string,string> = {
+ 'cnc-dispersion':'Aqueous cellulose-nanocrystal dispersion from ',
+ 'cnc-drying':'Dried CNC-containing powder or agglomerates from ',
+ 'cnc-redispersion':'Redispersion and aggregate-assessment record for ',
+ 'computational-dft':'Calculated structure and electronic-property data for ',
+ 'computational-md':'Simulated trajectories and ensemble-property data for ',
+ 'computational-ml':'Trained interatomic potential and validation data for ',
  'metals-build':'Laser-fused part from ',
  'metals-hybrid':'Laser-fused and milled part from ',
  'metals-deposition':'Metal deposit from ',
@@ -80,7 +86,8 @@ export function matchedMaterialExample(plan:MaterialPlan,examples:MaterialExampl
  return example.inputs.map(key).sort().every((k,i)=>k===actual[i])?example:null;
 }
 export function materialOutput(plan:MaterialPlan,profiles:MaterialProfile[],examples:MaterialExample[]){
- if(!plan.inputs.some(m=>m.name.trim()))return {label:'Add starting materials',basis:'unspecified' as const,detail:'Select inputs to identify a material-specific output.',example:null};
+ const computational=!!profiles.find(p=>p.route_id===plan.route_id)?.naming_mode.startsWith('computational-');
+ if(!plan.inputs.some(m=>m.name.trim()))return {label:computational?'Add input data':'Add starting materials',basis:'unspecified' as const,detail:computational?'Select structure files, potential definitions or labeled datasets.':'Select inputs to identify a material-specific output.',example:null};
  const example=matchedMaterialExample(plan,examples);
  if(plan.expected_output.trim())return {label:plan.expected_output.trim(),basis:example?'source_example' as const:'user_target' as const,detail:example?'Reported composition example · process conditions still need review':'User-defined target · composition and yield are not predicted',example};
  const mode=profiles.find(p=>p.route_id===plan.route_id)?.naming_mode||'generic';
@@ -93,7 +100,7 @@ export function materialOutput(plan:MaterialPlan,profiles:MaterialProfile[],exam
  if(workflowPrefix&&(primary.length||substrate)){
   const subject=primary.length?shortened(primary):substrate;
   const label=workflowPrefix+subject+(substrateOutputModes.has(mode)&&primary.length&&substrate?' on '+substrate:'');
-  return {label,basis:'input_based' as const,detail:'Planning target from the selected material and process. Record the actual result after the run.',example:null};
+  return {label,basis:'input_based' as const,detail:mode.startsWith('computational-')?'Expected data from the selected inputs and software workflow. Execute the calculation and validate convergence or held-out error before reporting results.':'Planning target from the selected material and process. Record the actual result after the run.',example:null};
  }
  const forms:Record<string,string>={particles:'Particle product from ',assembled:'Self-assembled product from ',fibers:'Fiber target from ',composite:'Composite target from ',milled:'Milled product from ',thermal:'Thermally processed product from ',growth:'Growth product from ',aerosol:'Aerosol target from ',functionalized:'Surface-modified target from ',exfoliated:'Exfoliated product from ',cycled:'Temperature-cycled '};
  const label=mode==='film'?'Film from '+feed+(substrate?' on '+substrate:''):mode==='deposit'?'Electrodeposit from '+feed+(substrate?' on '+substrate:''):mode==='pattern'?'Patterned '+(primary.length?feed:'material')+(substrate?' on '+substrate:''):mode==='etched'?'Etched '+(substrate||feed):(forms[mode]||'Processed material from ')+feed;

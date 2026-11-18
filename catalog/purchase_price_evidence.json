@@ -30656,6 +30656,126 @@
         "historical_purchase": true,
         "benchmark_eligible": false
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-CNCCOMP-EXT-M151-CC6A3ACD264D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Dell Technologies PowerEdge R760 USD starting price",
+      "claim": "Manufacturer advertises a USD 14,799.01 starting configuration.",
+      "scope": "Dell US page displayed 'Starting at' for configurable pe_r760_tm_vi_vp_sb on 2026-11-17. This price is not a quote for the maximum hardware specification or for a scientific-software installation.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r760/pe_r760_tm_vi_vp_sb",
+          "title": "Official US manufacturer store",
+          "locator": "Published starting/system starting price and named configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-CC6A3ACD264D",
+          "label": "Dell Technologies PowerEdge R760"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-CC6A3ACD264D",
+        "price_value": 14799.01,
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "benchmark_eligible": false,
+        "scope": "Dell US page displayed 'Starting at' for configurable pe_r760_tm_vi_vp_sb on 2026-11-17. This price is not a quote for the maximum hardware specification or for a scientific-software installation."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-CNCCOMP-EXT-M151-084C02A0C157",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Dell Technologies PowerEdge R7725 USD starting price",
+      "claim": "Manufacturer advertises a USD 15,009.00 starting configuration.",
+      "scope": "Dell US configurable R7725 page displayed 'Starting at' on 2026-11-17; not a price for all maximum options, installed GPUs, or scientific software.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.dell.com/en-us/shop/cty/pdp/spd/poweredge-r7725/pe_r7725_tm_vi_vp_sb",
+          "title": "Official US manufacturer store",
+          "locator": "Published starting/system starting price and named configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-084C02A0C157",
+          "label": "Dell Technologies PowerEdge R7725"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-084C02A0C157",
+        "price_value": 15009.0,
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "benchmark_eligible": false,
+        "scope": "Dell US configurable R7725 page displayed 'Starting at' on 2026-11-17; not a price for all maximum options, installed GPUs, or scientific software."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "PRICE-EV-CNCCOMP-EXT-M151-6CD194E13774",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_price",
+      "title": "Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT USD starting price",
+      "claim": "Manufacturer advertises a USD 20,306.81 starting configuration.",
+      "scope": "Official Supermicro US eStore More Information table displayed System Starting Price on 2026-11-17 for exact AS-4125GS-TNRT. This is not a price for eight installed GPUs, maximal memory, scientific software, shipping or taxes; configurable order determines actual total.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://store.supermicro.com/us_en/4u-gpu-superserver-amd-epyc-genoa-as-4125gs-tnrt.html",
+          "title": "Official US manufacturer store",
+          "locator": "Published starting/system starting price and named configuration",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-6CD194E13774",
+          "label": "Super Micro Computer, Inc. A+ Server AS-4125GS-TNRT"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-6CD194E13774",
+        "price_value": 20306.81,
+        "currency": "USD",
+        "price_kind": "starting_price",
+        "benchmark_eligible": false,
+        "scope": "Official Supermicro US eStore More Information table displayed System Starting Price on 2026-11-17 for exact AS-4125GS-TNRT. This is not a price for eight installed GPUs, maximal memory, scientific software, shipping or taxes; configurable order determines actual total."
+      }
     }
   ]
 }

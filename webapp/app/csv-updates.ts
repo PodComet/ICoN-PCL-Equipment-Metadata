@@ -1,5 +1,5 @@
 import {SEQUENCE_FIELD,SEQUENCE_TEMPLATE_LIMIT,validateSequenceTemplate} from './control-sequence-lib.ts';
-import {safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
+import {isProcessRoute,safeUrl,applyManufacturerAudit,MANUFACTURER_PRICE_FIELDS,validateManufacturerPrice,type Equipment} from "./catalog-lib.ts";
 import {resolveCategoryId,canonicalizeEquipment,type CategoryAlias} from './category-policy.ts';
 import {LIFECYCLE_FIELDS} from './model-lifecycle.ts';
 import {independentVariant} from './product-family-policy.ts';
@@ -45,7 +45,7 @@ export function buildPlan(text:string,records:Equipment[],categories:Record<stri
  const categoryMap=new Map(categories.map(c=>[c.category_id,c.category_name]));
  for(const r of records)categoryMap.set(r.category_id,r.category_name);
  const validMaterial=new Set(routes.filter(r=>r.route_kind==='material_family').map(r=>r.route_id));
- const validProcess=new Set(routes.filter(r=>r.route_kind==='manufacturing_process').map(r=>r.route_id));
+ const validProcess=new Set(routes.filter(r=>isProcessRoute(r)).map(r=>r.route_id));
  rows.forEach((values,index)=>{
   const line=index+2;plan.rowCount++;
   try{

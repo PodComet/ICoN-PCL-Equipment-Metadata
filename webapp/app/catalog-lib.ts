@@ -3,6 +3,7 @@ import {sellerPrice} from './seller-prices.ts';
 export type Equipment = Record<string, string> & {equipment_id: string; model_name: string};
 export type CatalogRow = {record: Equipment; revision: number; updated_at?: string};
 export type Route = Record<string, string>;
+export function isProcessRoute(route:Route){return route.route_kind==='manufacturing_process'||route.route_kind==='computational_workflow';}
 export const VERIFIED = "verified_operating_manual";
 export function safeUrl(url: string | undefined) {
   if (!url) return "";

@@ -6,6 +6,7 @@ from datetime import date
 from collections import Counter
 from pathlib import Path
 from urllib.parse import urlparse
+from route_types import PROCESS_KINDS
 
 ROOT = Path(__file__).resolve().parent
 CAPABILITY_SOURCES = {
@@ -140,7 +141,7 @@ def inspect_catalog(root=ROOT):
     route_ids = {r["route_id"] for r in routes}
     profiles = load_csv(folder / 'process_material_profiles.csv')
     examples = load_csv(folder / 'process_material_examples.csv')
-    process_ids = {r['route_id'] for r in routes if r['route_kind'] == 'manufacturing_process'}
+    process_ids = {r['route_id'] for r in routes if r['route_kind'] in PROCESS_KINDS}
     assert len(profiles) == len(process_ids) and {p['route_id'] for p in profiles} == process_ids
     roles = {'feedstock', 'target', 'precursor', 'polymer', 'nanofiller', 'substrate', 'solvent', 'reagent', 'dopant', 'ligand', 'gas', 'sample'}
     for profile in profiles:
@@ -204,7 +205,8 @@ def inspect_catalog(root=ROOT):
         "equipment_records": len(equipment), "requested_occurrences": len(requests),
         "highlighted_equipment_records": sum(r["highlight_requested"] == "true" for r in equipment),
         "source_pdf_model_records": len(source_models), "material_families": sum(r["route_kind"] == "material_family" for r in routes),
-        "additional_process_routes": sum(r["route_kind"] == "manufacturing_process" for r in routes),
+        "additional_process_routes": sum(r["route_kind"] in PROCESS_KINDS for r in routes),
+        "computational_workflows": sum(r["route_kind"] == "computational_workflow" for r in routes),
         "source_routes": 20, "curated_process_capabilities": sum(r["route_kind"] == "manufacturing_process" and not r["source_pdf"] for r in routes),
         "literature_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] not in {"", "Nanomaterial_Manufacturing_Equipment_Sequenced_Manuals.pdf", "Opentrons Thermocycler Python API", *CAPABILITY_SOURCES} for r in routes),
         "institution_capability_process_routes": sum(r["route_kind"] == "manufacturing_process" and r["source_pdf"] in CAPABILITY_SOURCES for r in routes),

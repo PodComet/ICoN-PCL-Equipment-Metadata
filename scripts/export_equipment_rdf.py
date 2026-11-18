@@ -12,6 +12,9 @@ from decimal import Decimal, ROUND_HALF_UP
 import hashlib
 import json
 from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from route_types import route_class
 import re
 import unicodedata
 from urllib.parse import quote, urlsplit
@@ -196,7 +199,7 @@ def build_graph(root=ROOT, snapshot_date='2026-11-04'):
     for identifier, row in sorted(routes.items()):
         subject = entity('route', identifier, ICON.Route, row['route_name'])
         graph.add((subject, RDF.type, SKOS.Concept))
-        graph.add((subject, RDF.type, ICON.MaterialFamily if row['route_kind'] == 'material_family' else ICON.ManufacturingProcess))
+        graph.add((subject, RDF.type, ICON[route_class(row['route_kind'])]))
         text(subject, SKOS.notation, identifier)
         text(subject, ICON.associationBasis, row['association_basis'])
 

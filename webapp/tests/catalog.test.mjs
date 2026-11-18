@@ -9,12 +9,13 @@ const rows=seed.records.map(record=>({record,revision:0}));
 test('Purdue filter includes the project list and documented installations',()=>{
  const audit=JSON.parse(readFileSync(new URL('../../catalog/mmrl_metals_review_2026-11-15.json',import.meta.url),'utf8'));
  const academic=JSON.parse(readFileSync(new URL('../../catalog/academic_workflow_review_2026-11-15.json',import.meta.url),'utf8'));
+ const computing=JSON.parse(readFileSync(new URL('../../catalog/cnc_computational_review_2026-11-17.json',import.meta.url),'utf8'));
  const requested=rows.filter(r=>r.record.purdue_list==='true').map(r=>r.record.equipment_id);
  const installed=audit.records.filter(r=>r.installation_url);
  const result=rows.filter(r=>matches(r,'','','','',false,true));
  assert.equal(requested.length,44);
  assert.equal(installed.filter(r=>!r.existing_record).length,16);
- const documented=[...installed,...academic.records.filter(r=>r.installation_url)];
+ const documented=[...installed,...academic.records.filter(r=>r.installation_url),...computing.purdue_evidence.map(r=>({...r,installation_url:r.source_url}))];
  assert.deepEqual(new Set(result.map(r=>r.record.equipment_id)),new Set([...requested,...documented.map(r=>r.equipment_id)]));
  for(const r of documented)assert.equal(purdueInstallationSource(result.find(row=>row.record.equipment_id===r.equipment_id).record),r.installation_url);
  assert.equal(result.filter(r=>r.record.model_name==='Renishaw AM400').length,1);

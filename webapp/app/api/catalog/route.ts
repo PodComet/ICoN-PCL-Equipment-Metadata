@@ -5,7 +5,7 @@ import literature from "../../data/references.json";
 import inventory from "../../data/purdue-inventory.json";
 import {attachInventory} from "../../inventory-lib";
 import { getCurrentUser } from "../../current-user";
-import { safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equipment } from "../../catalog-lib";
+import {isProcessRoute, safeUrl, MANUFACTURER_PRICE_FIELDS, validateManufacturerPrice, type Equipment } from "../../catalog-lib";
 
 import {audited,loadSharedCatalog,personalRecord} from "../../catalog-store";
 import {isCatalogAdmin} from "../../admin-policy";
@@ -89,7 +89,7 @@ export async function PUT(request: Request) {
     if(!record.manufacturer_price_value)for(const k of MANUFACTURER_PRICE_FIELDS)record[k]='';
     const publishedPriceError=validateManufacturerPrice(record);if(publishedPriceError)return json({error:publishedPriceError},400);
     const validMaterials=new Set(seed.routes.filter(r=>r.route_kind==="material_family").map(r=>r.route_id));
-    const validProcesses=new Set(seed.routes.filter(r=>r.route_kind==="manufacturing_process").map(r=>r.route_id));
+    const validProcesses=new Set(seed.routes.filter(r=>isProcessRoute(r)).map(r=>r.route_id));
     if (record.related_material_ids.split(";").filter(Boolean).some(id=>!validMaterials.has(id)) || record.related_process_ids.split(";").filter(Boolean).some(id=>!validProcesses.has(id))) return json({error:"Select valid material and process IDs."},400);
     if (creating) {
       for(const field of LIFECYCLE_FIELDS)record[field]='';

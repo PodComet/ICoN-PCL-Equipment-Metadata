@@ -43,11 +43,11 @@ def test_chronological_order_and_full_author_exports():
     missing={**refs[0],'reference_id':'UNDATED','publication_year':'','publication_date':''}
     assert sort_references([missing,*refs])[-1]['reference_id']=='UNDATED'
     result=exports(refs);csl=json.loads(result['csl_json'])
-    ghiringhelli=next(r for r in csl if r['DOI']=='10.1038/s41597-023-02501-8')
+    ghiringhelli=next(r for r in csl if r.get('DOI')=='10.1038/s41597-023-02501-8')
     assert len(ghiringhelli['author'])==35
     assert 'Gomes Souza, Jr., Fernando' in result['bibtex']
     assert 'AU  - Gomes Souza, Fernando, Jr.' in result['ris']
-    assert 'TY  - UNPB' in result['ris'] and 'genre' in next(r for r in csl if 'arxiv' in r['DOI'])
+    assert 'TY  - UNPB' in result['ris'] and 'genre' in next(r for r in csl if 'arxiv' in r.get('DOI',''))
     assert len([line for line in result['ris'].splitlines() if line=='ER  -'])==len(refs)
 
 
@@ -106,7 +106,7 @@ def test_export_escapes_tex_and_doi_normalization():
 
 
 def test_affiliations_cover_every_author_entry_without_inventing_an_unstated_institution():
-    data=read_database();new_ids={r['reference_id'] for r in data['references'] if any(topic in r['topics'] for topic in ['source_formulation','citation_sweep_2026_10_17','openbis_architecture_2026_10_17'])}
+    data=read_database();new_ids={r['reference_id'] for r in data['references'] if any(topic in r['topics'] for topic in ['source_formulation','citation_sweep_2026_10_17','openbis_architecture_2026_10_17','cnc_computational_expansion'])}
     historical={k:[r for r in rows if r.get('reference_id') not in new_ids] for k,rows in data.items()};stats=coverage(historical)
     assert coverage(data)['authors_affiliation_pending']==0
     assert stats['author_entries']==405 and stats['authors_with_affiliations']==401

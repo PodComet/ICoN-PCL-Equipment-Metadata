@@ -7,7 +7,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def test_component_dataset_covers_existing_processes_with_scoped_sources():
     data=dataset(ROOT)
-    expected={r['route_id'] for r in read(ROOT,'routes') if r['route_kind']=='manufacturing_process'}
+    expected={r['route_id'] for r in read(ROOT,'routes') if r['route_kind'] in {'manufacturing_process','computational_workflow'}}
     assert {f['route_id'] for f in data['formulations']}==expected
     assert len({f['formulation_id'] for f in data['formulations']})==len(expected)
     assert all(f['source_url'].startswith('https://') and f['batch_basis'] for f in data['formulations'])

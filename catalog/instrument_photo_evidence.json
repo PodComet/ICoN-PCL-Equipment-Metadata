@@ -9388,6 +9388,678 @@
           "visually_reviewed": true
         }
       }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M150-D73FB2240F14",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "HP Z4 G5 Workstation Desktop PC source-linked media",
+      "claim": "HP Z4 G5 Workstation Desktop PC_Product__Product Only_Center facing",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.hp.com/in-en/products/workstations/product-details/2104320705",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M150-D73FB2240F14",
+          "label": "HP Z4 G5 Workstation Desktop PC"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M150",
+          "label": "Scientific and engineering workstations"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M150-D73FB2240F14",
+        "image_url": "https://hp.widen.net/content/nf8ptsyrur/png/nf8ptsyrur.png?w=800&h=600&dpi=72&color=ffffff00",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 800,
+          "height": 600,
+          "sha256": "e253605b60f472bae7a1880aa2ae24b208aa36d5915e94a60ae8190392d49b96"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "HP",
+        "model_name": "Z4 G5 Workstation Desktop PC",
+        "image_scope": "HP Z4 G5 Workstation Desktop PC_Product__Product Only_Center facing"
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-CC6A3ACD264D",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Dell Technologies PowerEdge R760 source-linked media",
+      "claim": "Manufacturer product image linked from exact R760 support page; illustrative platform exterior, not a verified installed GPU configuration.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.dell.com/support/product-details/en-us/product/poweredge-r760/overview",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-CC6A3ACD264D",
+          "label": "Dell Technologies PowerEdge R760"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-CC6A3ACD264D",
+        "image_url": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-enterprise-products/enterprise-systems/poweredge/r760/spi/enterprise-poweredge-server-r760-black-relativesize-500-ng.psd?fmt=jpg&hei=175&wid=500",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 500,
+          "height": 175,
+          "sha256": "5f0288cb177d6527618f650b5963660de07ce1a22790a9e429b1bfa74cc9d8b5"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Dell Technologies",
+        "model_name": "PowerEdge R760",
+        "image_scope": "Manufacturer product image linked from exact R760 support page; illustrative platform exterior, not a verified installed GPU configuration."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-F6D33C5C5324",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Hewlett Packard Enterprise ProLiant DL385 Gen11 source-linked media",
+      "claim": "Manufacturer illustration under exact DL385 Gen11 QuickSpecs Overview; not proof of GPU CTO population.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.hpe.com/int/en/collaterals/collateral.a50004300enw.html",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-F6D33C5C5324",
+          "label": "Hewlett Packard Enterprise ProLiant DL385 Gen11"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-F6D33C5C5324",
+        "image_url": "https://assets.ext.hpe.com/is/image/hpedam/a50004300enw_block1img2?$crimg$=",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 1280,
+          "height": 759,
+          "sha256": "d813a9ae5a3d42f6a3221778ffc83b9a32c1a0d0b25fcb5b504aad3508a0b539"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Hewlett Packard Enterprise",
+        "model_name": "ProLiant DL385 Gen11",
+        "image_scope": "Manufacturer illustration under exact DL385 Gen11 QuickSpecs Overview; not proof of GPU CTO population."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-7EFA03DAB578",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Hewlett Packard Enterprise ProLiant DL380a Gen11 source-linked media",
+      "claim": "Manufacturer model illustration linked from HPE ProLiant DL380a Gen11 QuickSpecs Overview; exterior illustration, not an installed GPU-population certificate.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.hpe.com/us/en/collaterals/collateral.a50004309enw.html",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-7EFA03DAB578",
+          "label": "Hewlett Packard Enterprise ProLiant DL380a Gen11"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-7EFA03DAB578",
+        "image_url": "https://assets.ext.hpe.com/is/image/hpedam/a50004309enw_block1img?$crimg$=",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 882,
+          "height": 613,
+          "sha256": "66fc33892ac1bc87b1f98f3ab071335f1429093aca6ab8c8c2c8ac84fd3fb98f"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Hewlett Packard Enterprise",
+        "model_name": "ProLiant DL380a Gen11",
+        "image_scope": "Manufacturer model illustration linked from HPE ProLiant DL380a Gen11 QuickSpecs Overview; exterior illustration, not an installed GPU-population certificate."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-CF344113AB5A",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Lenovo ThinkSystem SR665 V3 source-linked media",
+      "claim": "Exact SR665 V3 manufacturer product photo from Lenovo Docs introduction, Figure 1; configuration is illustrative.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://pubs.lenovo.com/sr665-v3/",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-CF344113AB5A",
+          "label": "Lenovo ThinkSystem SR665 V3"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-CF344113AB5A",
+        "image_url": "https://pubs.lenovo.com/sr665-v3/sr665_v3_product_photo.jpg",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1500,
+          "height": 372,
+          "sha256": "bf6e4c9bb2afd079ae1ae32a2d2d3186cfb8e8bf90a5d855dd2a34ef00955ebc"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Lenovo",
+        "model_name": "ThinkSystem SR665 V3",
+        "image_scope": "Exact SR665 V3 manufacturer product photo from Lenovo Docs introduction, Figure 1; configuration is illustrative."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-CD5BDDF127D1",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Lenovo ThinkSystem SR675 V3 source-linked media",
+      "claim": "Manufacturer photo explicitly captioned ThinkSystem SR675 V3 — 8-DW GPU Model, Figure 1.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://pubs.lenovo.com/sr675-v3/",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-CD5BDDF127D1",
+          "label": "Lenovo ThinkSystem SR675 V3"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-CD5BDDF127D1",
+        "image_url": "https://pubs.lenovo.com/sr675-v3/sr675_v3_product_photo.jpg",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1500,
+          "height": 548,
+          "sha256": "f0218e8331fb5155909684c33de1e4317a0c375897d9aa88ee40524c76c2e803"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Lenovo",
+        "model_name": "ThinkSystem SR675 V3",
+        "image_scope": "Manufacturer photo explicitly captioned ThinkSystem SR675 V3 — 8-DW GPU Model, Figure 1."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M151-8158C27BD94C",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "NVIDIA DGX H100 (640 GB GPU memory) source-linked media",
+      "claim": "Manufacturer guide illustration of DGX H100/H200 enclosure with bezel; exact exterior is shared by H100/H200, so image does not distinguish GPU population.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://docs.nvidia.com/dgx/dgxh100-user-guide/introduction-to-dgxh100.html",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M151-8158C27BD94C",
+          "label": "NVIDIA DGX H100 (640 GB GPU memory)"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M151",
+          "label": "HPC compute servers and accelerated nodes"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M151-8158C27BD94C",
+        "image_url": "https://docs.nvidia.com/dgx/dgxh100-user-guide/_images/dgx-h100-with-bezel.png",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 2700,
+          "height": 1226,
+          "sha256": "c785ae78a0975dda81c4b5343280525f9f8f2c825256d93378a5e7ddb2b08905"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "NVIDIA",
+        "model_name": "DGX H100 (640 GB GPU memory)",
+        "image_scope": "Manufacturer guide illustration of DGX H100/H200 enclosure with bezel; exact exterior is shared by H100/H200, so image does not distinguish GPU population."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M152-85DDC32A85F5",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Microfluidics (IDEX MPT) LM20 source-linked media",
+      "claim": "Manufacturer product photograph labeled LM20-Front.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.microfluidics-mpt.com/microfluidizers/lm20",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M152-85DDC32A85F5",
+          "label": "Microfluidics (IDEX MPT) LM20"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M152",
+          "label": "High-pressure homogenizers and microfluidizers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M152-85DDC32A85F5",
+        "image_url": "https://www.microfluidics-mpt.com/hs-fs/hubfs/IDEX%20MPT%20Group%20Files/Microfluidics-File-Manager/MF%20-%20Product%20Images/LM20/LM20-Front.webp?height=600&name=LM20-Front.webp&width=600",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 600,
+          "height": 359,
+          "sha256": "fdc41757826fd275495da5cee20f5e60b2eba8b1fb20e3a1b307083073a27b02"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Microfluidics (IDEX MPT)",
+        "model_name": "LM20",
+        "image_scope": "Manufacturer product photograph labeled LM20-Front."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M152-CD18644ABF66",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Microfluidics (IDEX MPT) LV1 source-linked media",
+      "claim": "Manufacturer product photograph labeled LV1-Angle-1.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.microfluidics-mpt.com/microfluidizers/lv1-low-volume",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M152-CD18644ABF66",
+          "label": "Microfluidics (IDEX MPT) LV1"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M152",
+          "label": "High-pressure homogenizers and microfluidizers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M152-CD18644ABF66",
+        "image_url": "https://www.microfluidics-mpt.com/hs-fs/hubfs/IDEX%20MPT%20Group%20Files/Microfluidics-File-Manager/MF%20-%20Product%20Images/LV1/LV1-Angle-1.webp?height=600&name=LV1-Angle-1.webp&width=1000",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 667,
+          "height": 400,
+          "sha256": "305c022513e6fb5241f5ded2d67a182f8ef5040316c1e302f8f01e0e349b8037"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Microfluidics (IDEX MPT)",
+        "model_name": "LV1",
+        "image_scope": "Manufacturer product photograph labeled LV1-Angle-1."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M152-1C43B9A238EA",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Microfluidics (IDEX MPT) M110P source-linked media",
+      "claim": "Manufacturer product photograph labeled M110P-Angle.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.microfluidics-mpt.com/microfluidizers/m110p",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M152-1C43B9A238EA",
+          "label": "Microfluidics (IDEX MPT) M110P"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M152",
+          "label": "High-pressure homogenizers and microfluidizers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M152-1C43B9A238EA",
+        "image_url": "https://www.microfluidics-mpt.com/hs-fs/hubfs/IDEX%20MPT%20Group%20Files/Microfluidics-File-Manager/MF%20-%20Product%20Images/M110P/M110P-Angle%20%281%29.webp?height=480&name=M110P-Angle+%281%29.webp&width=800",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 800,
+          "height": 480,
+          "sha256": "98e28a43135e4589bf0332721f0bbe9c42b6de2ffcc0f76e82059c3d2579c063"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Microfluidics (IDEX MPT)",
+        "model_name": "M110P",
+        "image_scope": "Manufacturer product photograph labeled M110P-Angle."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M152-62ECA0281F62",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Microfluidics (IDEX MPT) M110EH source-linked media",
+      "claim": "Manufacturer product photograph labeled M110EH.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.microfluidics-mpt.com/microfluidizers/pilot-scale-m-110eh",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M152-62ECA0281F62",
+          "label": "Microfluidics (IDEX MPT) M110EH"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M152",
+          "label": "High-pressure homogenizers and microfluidizers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M152-62ECA0281F62",
+        "image_url": "https://www.microfluidics-mpt.com/hs-fs/hubfs/M110EH.webp?height=430&name=M110EH.webp&width=430",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 430,
+          "height": 430,
+          "sha256": "f5cbd0b884bec20b6cc8cb9c1fa971b25858767b619dd6f99a965849071597e9"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Microfluidics (IDEX MPT)",
+        "model_name": "M110EH",
+        "image_scope": "Manufacturer product photograph labeled M110EH."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M153-7775D34F861F",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "BUCHI Mini Spray Dryer S-300 source-linked media",
+      "claim": "Manufacturer main image, S-300 Basic 220 °C configuration.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.buchi.com/en/products/instruments/spray-dryer-s300",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M153-7775D34F861F",
+          "label": "BUCHI Mini Spray Dryer S-300"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M153",
+          "label": "Research and pilot spray dryers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M153-7775D34F861F",
+        "image_url": "https://assets.buchi.com/image/upload/s--Lm7Tvhbj--/q_auto,w_1000,ar_1000:1000,c_pad,f_auto,b_white/l_hv-dev:product-bg,w_1.0,h_1.0,fl_relative,e_multiply/v1656328506/Drying/Spray%20Dryer/Mini%20Spray%20Dryer%20S-300/S-300_Basic_220_C_main.tiff",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "sha256": "96c20ae8dcf7ddb8ec13cb2c19b542653959e227961f96086682fa3a2a062602"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "BUCHI",
+        "model_name": "Mini Spray Dryer S-300",
+        "image_scope": "Manufacturer main image, S-300 Basic 220 °C configuration."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M153-52256F789534",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "Yamato Scientific GB210A source-linked media",
+      "claim": "Manufacturer product photograph labeled Yamato GB210A Versatile Mini Spray Dryer.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://www.yamato-usa.com/shop/gb210a-yamato-gb210a-versatile-mini-spray-dryer-72",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M153-52256F789534",
+          "label": "Yamato Scientific GB210A"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M153",
+          "label": "Research and pilot spray dryers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M153-52256F789534",
+        "image_url": "https://www.yamato-usa.com/web/image/product.product/217/image_1024/%5BGB210A%5D%20Yamato%20GB210A%20Versatile%20Mini%20Spray%20Dryer?unique=fe871bd",
+        "match_scope": "exact_model",
+        "verification": {
+          "status": 200,
+          "content_type": "image/jpeg",
+          "width": 512,
+          "height": 512,
+          "sha256": "53b5dbaf9b6f5145f346301f6d226908da43f5c7f6ee4f2684da2ceef07cddb1"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "Yamato Scientific",
+        "model_name": "GB210A",
+        "image_scope": "Manufacturer product photograph labeled Yamato GB210A Versatile Mini Spray Dryer."
+      }
+    },
+    {
+      "schema": "iconpcl-evidence-record/v1",
+      "evidence_id": "IMG-EV-CNCCOMP-EXT-M153-9030D1F68922",
+      "record_kind": "source_claim",
+      "classification": "curator_reviewed_media",
+      "title": "PROCEPT 4M8-Trix Spray Dryer / Chiller source-linked media",
+      "claim": "Manufacturer R&D spray-dryer setup with application PC; modular 4M8-Trix configuration, not a promised supplied configuration.",
+      "scope": "Manufacturer image. Optional hardware is not certified by an exterior illustration.",
+      "recorded_at": "2026-11-17",
+      "sources": [
+        {
+          "url": "https://procept.be/equipment/spray-dryer-chiller/",
+          "title": "Manufacturer model illustration",
+          "locator": "Exact named model or explicitly shared enclosure/product-family image",
+          "checked_date": "2026-11-17"
+        }
+      ],
+      "related_records": [
+        {
+          "record_type": "equipment",
+          "record_id": "EXT-M153-9030D1F68922",
+          "label": "PROCEPT 4M8-Trix Spray Dryer / Chiller"
+        },
+        {
+          "record_type": "equipment_class",
+          "record_id": "M153",
+          "label": "Research and pilot spray dryers"
+        }
+      ],
+      "source_evidence_ids": [],
+      "supersedes_id": "",
+      "context": {
+        "equipment_id": "EXT-M153-9030D1F68922",
+        "image_url": "https://procept.be/wp-content/uploads/2021/09/procept-rd-spray-dryer-with-application-pc.png",
+        "match_scope": "product_family",
+        "verification": {
+          "status": 200,
+          "content_type": "image/png",
+          "width": 517,
+          "height": 800,
+          "sha256": "7baa790833ab1af6be5e8be7d54dd1947be7b56e9e5a26ec11870ca92cb35f6e"
+        },
+        "visually_reviewed": true,
+        "manufacturer": "PROCEPT",
+        "model_name": "4M8-Trix Spray Dryer / Chiller",
+        "image_scope": "Manufacturer R&D spray-dryer setup with application PC; modular 4M8-Trix configuration, not a promised supplied configuration."
+      }
     }
   ]
 }
