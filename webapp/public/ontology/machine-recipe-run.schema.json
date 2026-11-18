@@ -170,6 +170,20 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "quantity": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "label": {
+          "type": "string"
+        },
+        "placement_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
         }
       },
       "required": [
@@ -223,6 +237,16 @@
             "type": "string",
             "minLength": 1
           }
+        },
+        "operation_definition": {
+          "type": [
+            "object",
+            "null"
+          ],
+          "description": "Frozen model-bound operation definition, when supported by saved source evidence."
+        },
+        "notes": {
+          "type": "string"
         }
       },
       "required": [
@@ -496,7 +520,8 @@
         "scope": {
           "enum": [
             "illustrative_draft",
-            "validated_model_bound"
+            "validated_model_bound",
+            "planning_draft"
           ]
         },
         "process_ids": {
@@ -508,7 +533,6 @@
         },
         "machine_roles": {
           "type": "array",
-          "minItems": 1,
           "items": {
             "$ref": "#/$defs/MachineRole"
           }
@@ -593,6 +617,22 @@
             "required": [
               "geometry"
             ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "scope": {
+                "const": "validated_model_bound"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "machine_roles": {
+                "minItems": 1
+              }
+            }
           }
         }
       ]
@@ -1072,7 +1112,7 @@
     "id": "sha256-exact-manifest-bytes/v1",
     "algorithm": "SHA-256",
     "input": "Exact bytes of the frozen recipe manifest file; do not include the recipe-token wrapper or run records.",
-    "encoding": "Example manifests are UTF-8 JSON, two-space indentation, LF line endings and one final LF. This is an explicit file-byte policy, not a claim of RFC 8785 canonicalization.",
+    "encoding": "Hash the exact frozen UTF-8 manifest file. The synthetic file examples use two-space indentation and a final LF; the live Site uses compact JSON with sorted keys and no trailing LF. Both use the declared exact-byte policy. Always download and hash the original file, without reserializing it. This is not a claim of RFC 8785 canonicalization.",
     "revision_rule": "Any change to manifest bytes or the checksum of a linked instruction/design artifact requires a new recipe token. No self-referential hashing. The same unchanged token is reused by distinct runs."
   },
   "x-relations": {
@@ -1411,5 +1451,20 @@
     "spdx": "http://spdx.org/rdf/terms#",
     "schema": "https://schema.org/",
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  },
+  "x-site-storage-profile": {
+    "machine": "Owner-scoped physical machine registry: machine_token, catalog_equipment_id, label and model snapshot. User registration is not independent asset verification.",
+    "recipe": "Immutable RecipeManifest bytes conform to #/$defs/RecipeManifest; planning_draft permits vacant instrument slots recorded in step parameters.",
+    "run": "Versioned EXPERIMENT research record with properties.ontology_run_tokens (iconpcl-run-links/v1); /api/runs exports iconpcl-experiment-run/v1. This compact Site storage profile is not the full autonomous-execution Run profile above.",
+    "mapping": {
+      "run_token": "Run.run_token",
+      "recipe_token": "Run.recipe_token",
+      "machine_bindings[].machine_role": "Run.machine_bindings[].machine_role",
+      "machine_bindings[].machine_token": "Run.machine_bindings[].machine_token",
+      "material_bindings": "Run.material_bindings: declarations with batch and amount text; unit-aware execution quantities still require qualification",
+      "specimen_bindings[kind=expected]": "Run.expected_specimens",
+      "specimen_bindings[kind=reported]": "User-linked completed sample/material records; not automatically observed generation"
+    },
+    "scope": "Tokens and links support reproducible planning and user-declared run records. Device adapters, verified controllers, interlocks and measured results remain separate integrations."
   }
 }

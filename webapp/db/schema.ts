@@ -57,6 +57,14 @@ export const processWorkflowVersions = sqliteTable('process_workflow_versions', 
  createdAt:text('created_at').notNull(),
 },t=>[primaryKey({columns:[t.workflowId,t.revision]})]);
 
+export const machineUnits=sqliteTable('machine_units',{
+ machineToken:text('machine_token').primaryKey(),ownerId:text('owner_id').notNull(),equipmentId:text('equipment_id').notNull(),
+ registrationKey:text('registration_key').notNull(),payload:text('payload').notNull(),createdAt:text('created_at').notNull(),
+},t=>[index('machine_owner_equipment').on(t.ownerId,t.equipmentId),uniqueIndex('machine_registration_key').on(t.ownerId,t.registrationKey)]);
+export const recipeManifests=sqliteTable('recipe_manifests',{
+ ownerId:text('owner_id').notNull(),recipeToken:text('recipe_token').notNull(),manifestText:text('manifest_text').notNull(),createdAt:text('created_at').notNull(),
+},t=>[primaryKey({columns:[t.ownerId,t.recipeToken]})]);
+
 export const researchRecords=sqliteTable('research_records',{
  recordId:text('record_id').primaryKey(),ownerId:text('owner_id').notNull(),spaceId:text('space_id').notNull(),kind:text('kind').notNull(),containerId:text('container_id').notNull(),code:text('code').notNull(),payload:text('payload').notNull(),revision:integer('revision').notNull(),accessScope:text('access_scope').notNull(),createdAt:text('created_at').notNull(),updatedAt:text('updated_at').notNull(),
 },t=>[index('research_owner').on(t.ownerId),index('research_space').on(t.spaceId),uniqueIndex('research_container_code').on(t.ownerId,t.containerId,t.kind,t.code)]);

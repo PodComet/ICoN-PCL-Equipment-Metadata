@@ -96,3 +96,9 @@ The machine-readable [standards map](../catalog/research_standards.json) lists e
 The public repository includes the app, schema migrations, extractor, tests, documentation and reviewed factual catalog metadata. Research records, source uploads, generated research packages, local databases, credentials and Purdue asset inventory are excluded. Browser research saves persist to the application database; they do not automatically commit payloads to GitHub.
 
 For code/catalog releases, regenerate canonical app data, run Python and app tests, inspect the public inventory placeholder, then commit/push reviewed changes and publish the same app source. Use an institutional repository with suitable rights/access controls to disseminate actual research datasets; do not copy an entire runtime database into GitHub.
+
+## Machine, recipe and run tokens
+
+An EXPERIMENT collection now carries a stable run UUID under `properties.ontology_run_tokens`. It pins one saved workflow revision and its immutable SHA-256 recipe token. Physical-machine role bindings reference the private owner-scoped unit registry. Material bindings retain batch/lot, amount with unit and optional sample/material record revision; specimens have stable local IDs and explicit expected/reported status. See the [Site workflow and storage profile](metadata-standards.md#using-the-tokens-on-the-site).
+
+Creating an experiment from Processes makes a distinct run, while request retries reuse the same idempotency key. Saved run edits create research revisions without changing the run UUID. Recipe changes require a new experiment. Downloaded RO-Crate ZIPs include the original recipe bytes and run-token links. Token bindings alone do not assert observed instrument use, material consumption or manufactured specimens. Device execution and verified measured results remain separate integrations.

@@ -19,7 +19,7 @@ export type ProcessInstrument = {
 export type ProcessSlot = {slot_id:string;label:string;allowed_category_ids:string[];instrument:ProcessInstrument|null;extensions:Parameters};
 export type ProcessStep = {step_id:string;label:string;notes:string;source_step_order:string;source_sequence:string;slots:ProcessSlot[];extensions:Parameters};
 export type ProcessWorkflow = {schema_version:1;workflow_id:string;route_id:string;route_name:string;name:string;notes:string;steps:ProcessStep[];extensions:Parameters};
-export type SavedWorkflow = {workflow:ProcessWorkflow;revision:number;created_at:string;updated_at:string};
+export type SavedWorkflow = {workflow:ProcessWorkflow;revision:number;created_at:string;updated_at:string;recipe_token?:string;recipe_hash_profile?:string;recipe_download_url?:string};
 export const splitIds=(value:string|undefined)=>[...new Set((value||'').split(';').map(s=>s.trim()).filter(Boolean))];
 export const newProcessId=(prefix:string)=>prefix+'-'+crypto.randomUUID();
 export function newSlot(allowed:string[]=[],label='Instrument slot'):ProcessSlot{return {slot_id:newProcessId('SLOT'),label,allowed_category_ids:[...allowed],instrument:null,extensions:{}};}
@@ -175,11 +175,11 @@ export function updateInstrumentAssignment(workflow:ProcessWorkflow,slotId:strin
  const previous=workflow.steps.flatMap(s=>s.slots).find(s=>s.slot_id===slotId)?.instrument;
  if(!previous)throw new Error('Select an occupied instrument slot to edit.');
  if(next.instance_id!==previous.instance_id||next.equipment_id!==previous.equipment_id||unitId(next)!==unitId(previous))throw new Error('Replace the instrument to change its identity.');
- const unit=unitId(previous),quantityChanged=next.quantity!==previous.quantity;
+ const unit=unitId(previous),quantityChanged=next.quantity!==previous.quantity,tokenChanged=next.extensions.machine_token!==previous.extensions.machine_token;
  return {...workflow,steps:workflow.steps.map(step=>({...step,slots:step.slots.map(slot=>{
   if(slot.slot_id===slotId)return {...slot,instrument:next};
   const instrument=slot.instrument;
-  return quantityChanged&&instrument&&unitId(instrument)===unit?{...slot,instrument:{...instrument,quantity:next.quantity}}:slot;
+  if(instrument&&unitId(instrument)===unit&&(quantityChanged||tokenChanged)){const extensions={...instrument.extensions};if(next.extensions.machine_token)extensions.machine_token=next.extensions.machine_token;else delete extensions.machine_token;return {...slot,instrument:{...instrument,quantity:next.quantity,extensions}};}return slot;
  })}))};
 }
 export function reuseInstrument(workflow:ProcessWorkflow,slotId:string,fromSlotId:string):ProcessWorkflow{

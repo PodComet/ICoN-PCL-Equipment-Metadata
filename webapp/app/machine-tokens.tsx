@@ -1,0 +1,29 @@
+'use client';
+import {createContext,useContext,useEffect,useState} from 'react';
+import {Copy,Plus} from 'lucide-react';
+import type {MachineUnit} from './workflow-token-lib';
+import './workflow-tokens.css';
+type Registry={units:MachineUnit[];enabled:boolean;loading:boolean;error:string;register:(equipmentId:string,label:string,key:string)=>Promise<MachineUnit>};
+const Context=createContext<Registry>({units:[],enabled:false,loading:false,error:'',register:async()=>{throw new Error('Sign in to register machines.')}});
+export const useMachineRegistry=()=>useContext(Context);
+export function MachineRegistryProvider({enabled,children}:{enabled:boolean;children:React.ReactNode}){
+ const [units,setUnits]=useState<MachineUnit[]>([]),[loading,setLoading]=useState(false),[error,setError]=useState('');
+ useEffect(()=>{let cancelled=false;if(!enabled){setUnits([]);return;}setLoading(true);fetch('/api/machines').then(async r=>{const b:any=await r.json();if(!r.ok)throw new Error(b.error||'Machine registry unavailable.');if(!cancelled)setUnits(b.machines)}).catch(e=>{if(!cancelled)setError(e.message)}).finally(()=>{if(!cancelled)setLoading(false)});return()=>{cancelled=true}},[enabled]);
+ async function register(equipmentId:string,label:string,key:string){const response=await fetch('/api/machines',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({equipment_id:equipmentId,label,registration_key:key})}),body:any=await response.json();if(!response.ok)throw new Error(body.error||'Registration failed.');const unit=body.machine as MachineUnit;setUnits(old=>old.some(u=>u.machine_token===unit.machine_token)?old:[...old,unit]);setError('');return unit;}
+ return <Context.Provider value={{units,enabled,loading,error,register}}>{children}</Context.Provider>;
+}
+export function TokenValue({label,token,compact=false}:{label:string;token:string;compact?:boolean}){
+ const [copied,setCopied]=useState(false),[error,setError]=useState('');
+ return <div className={'token-value '+(compact?'token-compact':'')}><span>{label}</span><code title={token}>{compact?token.startsWith('sha256:')?token.slice(0,23)+'…':token.slice(0,22)+'…':token}</code><button type="button" aria-label={'Copy '+label} title={'Copy '+label} onClick={e=>{e.stopPropagation();navigator.clipboard.writeText(token).then(()=>{setCopied(true);setTimeout(()=>setCopied(false),1800)}).catch(()=>setError('Select and copy the token text.'))}}><Copy size={14}/>{copied?'Copied':''}</button>{error&&<small role="status">{error}</small>}</div>;
+}
+export function MachineUnitPicker({equipmentId,modelName,value,onChange,readOnly=false}:{equipmentId:string;modelName:string;value:string;onChange:(token:string)=>void;readOnly?:boolean}){
+ const r=useMachineRegistry(),units=r.units.filter(u=>u.catalog_equipment_id===equipmentId);
+ const [registering,setRegistering]=useState(false),[label,setLabel]=useState(''),[requestKey,setRequestKey]=useState(''),[busy,setBusy]=useState(false),[message,setMessage]=useState('');
+ async function create(){setBusy(true);setMessage('');try{const unit=await r.register(equipmentId,label,requestKey);onChange(unit.machine_token);setRegistering(false)}catch(e){setMessage((e as Error).message)}finally{setBusy(false)}}
+ return <div className="machine-unit-picker"><label>Physical machine<select aria-label={'Physical machine for '+modelName} disabled={readOnly||!r.enabled||busy} value={value} onChange={e=>onChange(e.target.value)}><option value="">Model only · no physical unit selected</option>{value&&!units.some(u=>u.machine_token===value)&&<option value={value}>Saved physical unit · {value.slice(-8)}</option>}{units.map(u=><option key={u.machine_token} value={u.machine_token}>{u.label} · {u.machine_token.slice(-8)}</option>)}</select></label>{value&&<TokenValue label="Machine token" token={value}/>} {!readOnly&&r.enabled&&!registering&&<button type="button" className="token-link-button" onClick={()=>{setLabel(modelName+' — unit '+(units.length+1));setRequestKey(crypto.randomUUID());setRegistering(true)}}><Plus size={14}/>Register physical unit</button>}{registering&&<div className="machine-registration"><label>Label for this actual machine<input maxLength={160} value={label} onChange={e=>setLabel(e.target.value)}/></label><p>Register a unit you can identify in your lab. Another unit of the same model receives its own UUID.</p><button type="button" className="secondary-button" disabled={busy||!label.trim()} onClick={create}>{busy?'Registering…':'Register machine'}</button><button type="button" className="token-link-button" disabled={busy} onClick={()=>setRegistering(false)}>Cancel</button></div>}{message&&<p role="status">{message}</p>}{r.error&&<p role="status">{r.error}</p>}</div>;
+}
+export default function MachineTokens({equipmentId,modelName,compact=false}:{equipmentId:string;modelName:string;compact?:boolean}){
+ const r=useMachineRegistry(),units=r.units.filter(u=>u.catalog_equipment_id===equipmentId),[chosen,setChosen]=useState('');
+ if(compact)return <div className="machine-token-card" onClick={e=>e.stopPropagation()}>{units.length?<><TokenValue label="Machine token" token={units[0].machine_token} compact/>{units.length>1&&<small>{units.length} registered physical units · open instrument to choose</small>}</>:<span>Machine token: {r.enabled?'register a physical unit in the instrument card':'sign in to view physical units'}</span>}</div>;
+ return <section className="machine-token-panel"><h4>Physical machines and tokens</h4><p>This directory entry describes a model. Register each actual unit separately; reusing its UUID links the same machine across recipes and runs.</p><MachineUnitPicker equipmentId={equipmentId} modelName={modelName} value={chosen||units[0]?.machine_token||''} onChange={setChosen}/>{units.length>1&&<p>{units.length} physical units registered for this model.</p>}</section>;
+}

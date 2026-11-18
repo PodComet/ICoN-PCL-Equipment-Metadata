@@ -16,10 +16,13 @@ import {workflowReadiness,type JsonValue} from '../../process-lib';
 import {workflowSequenceEvidence} from '../../sequence-evidence-lib';
 import {evidenceStatements} from '../../evidence-store';
 import {loadPositionLibrary} from '../../position-store';
+import {recipeForWorkflow,attachWorkflowRecipe,recipeStatement,machineUnitsFor} from '../../workflow-token-store';
+import {validateGeometry,workflowMachineBindingIssues} from '../../workflow-token-lib';
 
 const json=(body:unknown,status=200)=>Response.json(body,{status,headers:{'Cache-Control':'no-store'}});
 type Stored={workflow_id:string;payload:string;revision:number;created_at:string;updated_at:string};
 const saved=(r:Stored)=>({workflow:JSON.parse(r.payload),revision:r.revision,created_at:r.created_at,updated_at:r.updated_at});
+async function withRecipe(r:Stored,owner:string){const result=saved(r),recipe=await recipeForWorkflow(owner,result.workflow);return {...result,recipe_token:recipe.recipe_token,recipe_hash_profile:recipe.hash_profile,recipe_download_url:'/api/recipes?workflow_id='+encodeURIComponent(r.workflow_id)+'&revision='+r.revision+'&download=1'};}
 export async function GET(request:Request){
  try{
   const user=await getCurrentUser();if(!user)return json({error:'Sign in to load saved workflows.'},401);
@@ -31,12 +34,12 @@ export async function GET(request:Request){
     if(!/^\d+$/.test(revision))return json({error:'Invalid revision.'},400);
     const version=await env.DB!.prepare('SELECT payload,revision,created_at FROM process_workflow_versions WHERE workflow_id=? AND revision=?').bind(id,Number(revision)).first<{payload:string;revision:number;created_at:string}>();
     if(!version)return json({error:'Revision not found.'},404);
-    return json({workflow:JSON.parse(version.payload),revision:version.revision,created_at:row.created_at,updated_at:version.created_at});
+    return json(await withRecipe({...row,payload:version.payload,revision:version.revision,updated_at:version.created_at},user.userId));
    }
    const history=await env.DB!.prepare('SELECT revision,created_at FROM process_workflow_versions WHERE workflow_id=? ORDER BY revision DESC LIMIT 100').bind(id).all();
-   return json({...saved(row),history:history.results});
+   return json({...await withRecipe(row,user.userId),history:history.results});
   }
-  const rows=await env.DB!.prepare('SELECT workflow_id,route_id,name,revision,created_at,updated_at FROM process_workflows WHERE user_id=? ORDER BY updated_at DESC LIMIT 500').bind(user.userId).all();
+  const rows=await env.DB!.prepare("SELECT workflow_id,route_id,name,revision,created_at,updated_at,json_extract(payload,'$.extensions.recipe_token') AS recipe_token FROM process_workflows WHERE user_id=? ORDER BY updated_at DESC LIMIT 500").bind(user.userId).all();
   return json({workflows:rows.results});
  }catch(e){console.error('Workflow read failed',e);return json({error:'Saved workflows could not be loaded. Your current plan is still open.'},500);}
 }
@@ -60,9 +63,10 @@ export async function PUT(request:Request){
   const records=[...byId.values()],existing=previous?normalizeWorkflowClasses(JSON.parse(previous.payload),seed.steps,records,seed.categories):undefined;
   // Derived evidence is server-owned and regenerated from the validated declaration.
   // Removing it first also keeps prior snapshots out of extension complexity limits.
-  if(input.workflow.extensions&&typeof input.workflow.extensions==='object')for(const key of ['output_evidence_snapshot','output_evidence_revision','control_evidence_snapshot'])delete input.workflow.extensions[key];
+  if(input.workflow.extensions&&typeof input.workflow.extensions==='object')for(const key of ['output_evidence_snapshot','output_evidence_revision','control_evidence_snapshot','recipe_token'])delete input.workflow.extensions[key];
   if(Array.isArray(input.workflow.steps))for(const step of input.workflow.steps)if(Array.isArray(step?.slots))for(const slot of step.slots)if(slot?.instrument?.extensions&&typeof slot.instrument.extensions==='object')delete slot.instrument.extensions.saved_control_evidence;
   let workflow:ProcessWorkflow;try{workflow=validateWorkflow(input.workflow,seed.routes,records,existing)}catch(e){return json({error:e instanceof Error?e.message:'Invalid workflow.'},400)}
+  try{validateGeometry(workflow.extensions.recipe_geometry);const issues=workflowMachineBindingIssues(workflow,await machineUnitsFor(user.userId));if(issues.length)throw new Error(issues.join(' '));}catch(e){return json({error:e instanceof Error?e.message:'Invalid machine or 3D recipe binding.'},400)}
   const now=new Date().toISOString(),revision=(previous?.revision||0)+1;
   if(!previous)workflow.workflow_id=newProcessId('PROC-'+workflow.route_id);
   workflow.extensions.output_evidence_revision=revision;
@@ -71,15 +75,15 @@ export async function PUT(request:Request){
   const assessments=expectedProperties(workflow,plan,componentSeed as unknown as ComponentData,science,complete);
   const used=new Set([...assessments.flatMap(p=>p.source_evidence_ids),...outcome.conditions.flatMap(s=>s.conditions.flatMap(c=>science.conditions.filter(t=>t.template_id===c.reference_condition_id).map(t=>t.evidence_id)))]);
   workflow.extensions.output_evidence_snapshot={schema:'process-output-evidence/v1',revision,assessed_at:now,...outcome,property_assessments:assessments,source_evidence:science.evidence.filter(e=>used.has(e.evidence_id))} as unknown as JsonValue;
-  const controls=await workflowSequenceEvidence(workflow,revision,now,(await loadPositionLibrary()).library,existing);workflow=controls.workflow;
+  const controls=await workflowSequenceEvidence(workflow,revision,now,(await loadPositionLibrary()).library,existing);const frozen=await attachWorkflowRecipe(controls.workflow,controls.records);workflow=frozen.workflow;
   const payload=JSON.stringify(workflow),created=previous?.created_at||now;
   const statement=previous?
    env.DB!.prepare('UPDATE process_workflows SET name=?,payload=?,revision=CASE WHEN revision=? THEN revision+1 ELSE NULL END,updated_at=? WHERE workflow_id=? AND user_id=?').bind(workflow.name,payload,input.expected_revision,now,workflow.workflow_id,user.userId):
    env.DB!.prepare('INSERT INTO process_workflows(workflow_id,user_id,route_id,name,payload,revision,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?)').bind(workflow.workflow_id,user.userId,workflow.route_id,workflow.name,payload,revision,created,now);
-  try{await env.DB!.batch([statement,env.DB!.prepare('INSERT INTO process_workflow_versions(workflow_id,revision,payload,created_at) VALUES(?,?,?,?)').bind(workflow.workflow_id,revision,payload,now),...evidenceStatements(controls.records,user.userId)]);}catch(e){
+  try{await env.DB!.batch([statement,env.DB!.prepare('INSERT INTO process_workflow_versions(workflow_id,revision,payload,created_at) VALUES(?,?,?,?)').bind(workflow.workflow_id,revision,payload,now),...evidenceStatements(frozen.records,user.userId),recipeStatement(user.userId,frozen.recipe,now)]);}catch(e){
    if(previous){const latest=await env.DB!.prepare('SELECT revision FROM process_workflows WHERE workflow_id=? AND user_id=?').bind(workflow.workflow_id,user.userId).first<{revision:number}>();if(latest?.revision!==input.expected_revision)return json({error:'Another window saved this workflow first. Your draft remains open; export it before reopening the latest version.'},409);}
    throw e;
   }
-  return json({workflow,revision,created_at:created,updated_at:now});
+  return json({workflow,revision,created_at:created,updated_at:now,recipe_token:frozen.recipe.recipe_token,recipe_hash_profile:frozen.recipe.hash_profile,recipe_download_url:'/api/recipes?workflow_id='+encodeURIComponent(workflow.workflow_id)+'&revision='+revision+'&download=1'});
  }catch(e){console.error('Workflow save failed',e);return json({error:'The workflow could not be saved. Your draft is still open; you can export it.'},500);}
 }
